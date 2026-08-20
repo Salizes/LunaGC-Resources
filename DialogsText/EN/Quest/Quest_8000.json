@@ -1,0 +1,505 @@
+{
+    "quest": {
+        "id": "8000",
+        "title": "Involuntary Sacrifice",
+        "description": "You hear from Ganyu and Lan that the Treasure Hoarders of Mondstadt and Liyue have banded together and plan to get involved in some ruins associated with the Abyss Order. Fearing the chaos that the Treasure Hoarders might cause through their involvement, you take up the commission and investigate...",
+        "rewards": [
+            {
+                "itemId": 102,
+                "count": 650
+            },
+            {
+                "itemId": 202,
+                "count": 31125
+            },
+            {
+                "itemId": 104003,
+                "count": 3
+            },
+            {
+                "itemId": 104013,
+                "count": 6
+            }
+        ],
+        "rewards_formatted": "Adventure EXP x650, Mora x31125, Hero's Wit x3, Mystic Enhancement Ore x6",
+        "chapter": {
+            "icon": "UI_ChapterIcon_Traveler",
+            "id": "1104",
+            "num": "Chapter I: Act IV",
+            "title": "We Will Be Reunited"
+        },
+        "total_dialogue_lines": 78,
+        "total_speaker_counts": {
+            "???": 2,
+            "Abyss Herald": 8,
+            "Ganyu": 10,
+            "Lan": 16,
+            "Observe the \"Grand Thief\"": 1,
+            "Paimon": 27,
+            "Player": 14
+        }
+    },
+    "talks": [
+        {
+            "id": "800001",
+            "objective": "Go near the Adventurers' Guild Bulletin Board",
+            "dialogues": [
+                {
+                    "id": "80000101",
+                    "speaker": "Lan",
+                    "text": "Yes, yes. They have the audacity to go after anything."
+                },
+                {
+                    "id": "80000102",
+                    "speaker": "Lan",
+                    "text": "The Seven, dragons, gods... no ancient artifact that relates can escape their greedy ambitions."
+                },
+                {
+                    "id": "80000103",
+                    "speaker": "Lan",
+                    "text": "Still, this time is different... Who do they think they are, going after the Abyss Order's treasures...?"
+                },
+                {
+                    "id": "80000104",
+                    "speaker": "Lan",
+                    "text": "Oh, Traveler, it's you."
+                },
+                {
+                    "id": "80000105",
+                    "speaker": "Paimon",
+                    "text": "Huh? Ganyu, what are you doing here with Lan? Do you have a commission you need to post?"
+                },
+                {
+                    "id": "80000106",
+                    "speaker": "Ganyu",
+                    "text": "#Hello, {NICKNAME}."
+                },
+                {
+                    "id": "80000107",
+                    "speaker": "Ganyu",
+                    "text": "We were just discussing the Treasure Hoarders."
+                },
+                {
+                    "id": "80000108",
+                    "speaker": "Lan",
+                    "text": "Yes, we were just saying how even the audacious Treasure Hoarders should know better than to mess with the Abyss — it's just too evil."
+                },
+                {
+                    "id": "80000109",
+                    "speaker": "Ganyu",
+                    "text": "But we recently received intel from the Ministry of Civil Affairs that two big-time Treasure Hoarders in Liyue and Mondstadt are planning some big joint operation."
+                },
+                {
+                    "id": "80000110",
+                    "speaker": "Paimon",
+                    "text": "\"Two big-time Treasure Hoarders\"?"
+                },
+                {
+                    "id": "80000111",
+                    "speaker": "Lan",
+                    "text": "Yes, they're known as \"Big Sis of the South\" and \"Raptor of the North.\""
+                },
+                {
+                    "id": "80000112",
+                    "speaker": "Paimon",
+                    "text": "Ahh! Raptor! Paimon remembers he tried to run away from Amber in Mondstadt... But who is \"Big Sis of the South\"?",
+                    "choices": [
+                        {
+                            "id": "80000113",
+                            "text": "Does \"Big Sis\" mean she bosses people around?",
+                            "response": [
+                                {
+                                    "id": "80000116",
+                                    "speaker": "Lan",
+                                    "text": "You are correct. She is the head of the Treasure Hoarders in Liyue. As I understand it, the Treasure Hoarders all call her \"Boss.\""
+                                },
+                                {
+                                    "id": "80000117",
+                                    "speaker": "Lan",
+                                    "text": "Some say that the God of Thieves even bestowed a gift upon her for her exploits, making her \"Big Sis of the Gods.\" ...But that's probably just a wild rumor."
+                                },
+                                {
+                                    "id": "80000118",
+                                    "speaker": "Ganyu",
+                                    "text": "Anyway, the Treasure Hoarders discovered some previously unexplored ruins that the Abyss Order has been secretly guarding in the shadows."
+                                },
+                                {
+                                    "id": "80000119",
+                                    "speaker": "Ganyu",
+                                    "text": "Despite how dangerous that makes it, all the Treasure Hoarders can think about is what kinds of treasure could be inside..."
+                                },
+                                {
+                                    "id": "80000120",
+                                    "speaker": "Ganyu",
+                                    "text": "They have already devised a plan: they will send out a decoy to divert the Abyss Order's forces away from the ruins, then send an expert thief inside to steal the treasure."
+                                },
+                                {
+                                    "id": "80000121",
+                                    "speaker": "Lan",
+                                    "text": "To this end, Big Sis and Raptor have reportedly recruited a certain \"Grand Thief\" from Fontaine..."
+                                },
+                                {
+                                    "id": "80000122",
+                                    "speaker": "Paimon",
+                                    "text": "\"Grand Thief\"? That's quite an impressive-sounding title."
+                                },
+                                {
+                                    "id": "80000123",
+                                    "speaker": "Lan",
+                                    "text": "Indeed. He is an extraordinary individual."
+                                },
+                                {
+                                    "id": "80000124",
+                                    "speaker": "Lan",
+                                    "text": "The Grand Thief is highly respected in the Treasure Hoarders, in the same way that we adventurers look up to great adventurers.",
+                                    "choices": [
+                                        {
+                                            "id": "80000125",
+                                            "text": "Just like the famous adventurer, Alice?",
+                                            "response": [
+                                                {
+                                                    "id": "80000126",
+                                                    "speaker": "Lan",
+                                                    "text": "Ah, so you're familiar with the author of the Teyvat Travel Guide, then? Correct, the Grand Thief is someone as renowned as her."
+                                                },
+                                                {
+                                                    "id": "80000129",
+                                                    "speaker": "Lan",
+                                                    "text": "So, despite being relative big-timers in Liyue and Mondstadt, Big Sis and Raptor had to put in a lot of work to convince a thief of his status to come and personally oversee this operation."
+                                                },
+                                                {
+                                                    "id": "80000130",
+                                                    "speaker": "Ganyu",
+                                                    "text": "With the major changes in Liyue recently, the Ministry of Civil Affairs and the Millelith already have their hands full. They don't have any time to investigate rumors about Treasure Hoarder activity."
+                                                },
+                                                {
+                                                    "id": "80000131",
+                                                    "speaker": "Ganyu",
+                                                    "text": "But anything related to the Abyss makes me feel like there is some unknown danger lurking beneath the surface..."
+                                                },
+                                                {
+                                                    "id": "80000132",
+                                                    "speaker": "Ganyu",
+                                                    "text": "So, I decided to come to the Adventurers' Guild to post a commission.",
+                                                    "choices": [
+                                                        {
+                                                            "id": "80000133",
+                                                            "text": "Well, since I'm here...",
+                                                            "response": [
+                                                                {
+                                                                    "id": "80000135",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "Mm-hmmm! Leave this commission to us!"
+                                                                },
+                                                                {
+                                                                    "id": "80000136",
+                                                                    "speaker": "Ganyu",
+                                                                    "text": "Oh, thank you so much."
+                                                                },
+                                                                {
+                                                                    "id": "80000137",
+                                                                    "speaker": "Lan",
+                                                                    "text": "Good to see this in the hands of a reliable Guild member. Well then, good luck. The Guild will take care of the details of this commission."
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "id": "80000134",
+                                                            "text": "I, too, understand the dangers of the Abyss."
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "80000127",
+                                            "text": "Just like the great adventurer, Stanley?",
+                                            "response": [
+                                                {
+                                                    "id": "80000128",
+                                                    "speaker": "Lan",
+                                                    "text": "Ah, you met the living legend himself while you were in Mondstadt? Correct, the Grand Thief is someone just as renowned as him."
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "80000114",
+                            "text": "Is she the \"Boss\" the Treasure Hoarders refer to?",
+                            "response": [
+                                {
+                                    "id": "80000115",
+                                    "speaker": "Lan",
+                                    "text": "You already know something then. I guess you must have crossed paths with the Treasure Hoarders many times before."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "800002",
+            "objective": "Go to the ruins",
+            "dialogues": [
+                {
+                    "id": "80000201",
+                    "speaker": "Paimon",
+                    "text": "Th—This looks like a person!"
+                },
+                {
+                    "id": "80000202",
+                    "speaker": "Paimon",
+                    "text": "Could it be the Grand Thief?"
+                },
+                {
+                    "id": "80000203",
+                    "speaker": "Paimon",
+                    "text": "Why is he in that position? Is he praying to something?"
+                },
+                {
+                    "id": "80000204",
+                    "speaker": "Paimon",
+                    "text": "!?"
+                },
+                {
+                    "id": "80000205",
+                    "speaker": "Paimon",
+                    "text": "That's...",
+                    "choices": [
+                        {
+                            "id": "80000206",
+                            "text": "A... Statue of The Seven?",
+                            "response": [
+                                {
+                                    "id": "80000208",
+                                    "speaker": "Paimon",
+                                    "text": "Wh—Why is this Statue of The Seven... hanging upside-down...?"
+                                },
+                                {
+                                    "id": "80000209",
+                                    "speaker": "Paimon",
+                                    "text": "And the statue's hands... Paimon remembers they are normally holding an orb, right?"
+                                },
+                                {
+                                    "id": "80000210",
+                                    "speaker": "Paimon",
+                                    "text": "But, this statue is holding... What is that?"
+                                },
+                                {
+                                    "id": "80000211",
+                                    "speaker": "Paimon",
+                                    "text": "Uhh... Paimon has a really bad feeling about this..."
+                                },
+                                {
+                                    "id": "80000212",
+                                    "speaker": "Paimon",
+                                    "text": "And the Grand Thief hasn't moved an inch. D—Do you think he's...?"
+                                },
+                                {
+                                    "id": "80000213",
+                                    "speaker": "Paimon",
+                                    "text": "Um... hello...? Are you okay mister?"
+                                },
+                                {
+                                    "id": "80000214",
+                                    "speaker": "Observe the \"Grand Thief\"",
+                                    "text": "(There's no reaction, nor any sign of breathing.)"
+                                },
+                                {
+                                    "id": "80000215",
+                                    "speaker": "Paimon",
+                                    "text": "...H—He's dead."
+                                },
+                                {
+                                    "id": "80000216",
+                                    "speaker": "Paimon",
+                                    "text": "#Paimon doesn't feel so good, {NICKNAME}.",
+                                    "choices": [
+                                        {
+                                            "id": "80000217",
+                                            "text": "What a terrible place...",
+                                            "response": [
+                                                {
+                                                    "id": "80000219",
+                                                    "speaker": "Paimon",
+                                                    "text": "Let's get out of here, and fast! We should report back to Ganyu and Lan..."
+                                                },
+                                                {
+                                                    "id": "80000220",
+                                                    "speaker": "Paimon",
+                                                    "text": "Aaah! Now what!?"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "80000218",
+                                            "text": "How did he die...?"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "80000207",
+                            "text": "Some strange thing that I've never seen..."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "800003",
+            "objective": "Follow the Treasure Hoarders",
+            "dialogues": [
+                {
+                    "id": "80000301",
+                    "speaker": "Abyss Herald",
+                    "text": "This power... It seems familiar..."
+                },
+                {
+                    "id": "80000302",
+                    "speaker": "Abyss Herald",
+                    "text": "Hmph...!"
+                },
+                {
+                    "id": "80000303",
+                    "speaker": "Abyss Herald",
+                    "text": "I see... So, it's you... you are the one!"
+                },
+                {
+                    "id": "80000304",
+                    "speaker": "Abyss Herald",
+                    "text": "In that case, I shall stay here no longer..."
+                },
+                {
+                    "id": "80000305",
+                    "speaker": "Paimon",
+                    "text": "#Whew... What a tough battle. Are you okay, {NICKNAME}?"
+                },
+                {
+                    "id": "80000306",
+                    "speaker": "Paimon",
+                    "text": "Such a strong enemy. Who knew the Abyss Order had monsters this powerful among them?"
+                },
+                {
+                    "id": "80000307",
+                    "speaker": "Player",
+                    "text": "(It seemed to... know me.)"
+                },
+                {
+                    "id": "80000308",
+                    "speaker": "Paimon",
+                    "text": "Huh? What is it? What are you thinking about?"
+                },
+                {
+                    "id": "80000309",
+                    "speaker": "Player",
+                    "text": "Nothing, let's just get out of here."
+                },
+                {
+                    "id": "80000310",
+                    "speaker": "Paimon",
+                    "text": "Oh, right, yeah... We're near the exit now. Let's get outta this scary place before something even more dangerous shows up!"
+                }
+            ]
+        },
+        {
+            "id": "800004",
+            "objective": "Check out the depths of the ruins",
+            "dialogues": []
+        },
+        {
+            "id": "800005",
+            "objective": "Flee the ruins",
+            "dialogues": []
+        },
+        {
+            "id": "800009",
+            "objective": "Negotiate with the Abyss Herald",
+            "dialogues": [
+                {
+                    "id": "80000401",
+                    "speaker": "???",
+                    "text": "You cannot spy on the secrets of the Abyss."
+                },
+                {
+                    "id": "80000402",
+                    "speaker": "???",
+                    "text": "You have come here, you have seen our secrets. For this, you must pay the price."
+                },
+                {
+                    "id": "80000403",
+                    "speaker": "Abyss Herald",
+                    "text": "As a Herald, I will mete out your punishment."
+                },
+                {
+                    "id": "80000404",
+                    "speaker": "Paimon",
+                    "text": "An Abyss Herald!?",
+                    "choices": [
+                        {
+                            "id": "80000405",
+                            "text": "The one Dain spoke of...",
+                            "response": [
+                                {
+                                    "id": "80000407",
+                                    "speaker": "Abyss Herald",
+                                    "text": "Dain... Dainsleif? Oh, I thought you were just a couple of pests that stumbled in here by mistake... So, you are with Dainsleif, that constant annoyance in our affairs..."
+                                },
+                                {
+                                    "id": "80000408",
+                                    "speaker": "Abyss Herald",
+                                    "text": "Did he send you here to die? His resistance against the Abyss has gone nowhere for a long time. There is nothing you can do to change the tide..."
+                                },
+                                {
+                                    "id": "80000409",
+                                    "speaker": "Abyss Herald",
+                                    "text": "The Abyss... is unstoppable!"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "80000406",
+                            "text": "The monster we were tracking with Dain..."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "800006",
+            "objective": "Defeat the Abyss Herald",
+            "dialogues": []
+        },
+        {
+            "id": "800008",
+            "objective": "Talk to the Abyss Herald",
+            "dialogues": []
+        },
+        {
+            "id": "800007",
+            "objective": "Leave the ruins",
+            "dialogues": []
+        },
+        {
+            "id": "800000",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "80000001",
+                    "speaker": "Paimon",
+                    "text": "What is this power...? Paimon's never seen it before..."
+                },
+                {
+                    "id": "80000002",
+                    "speaker": "Paimon",
+                    "text": "Careful! Please don't get cocky...!"
+                }
+            ]
+        }
+    ]
+}

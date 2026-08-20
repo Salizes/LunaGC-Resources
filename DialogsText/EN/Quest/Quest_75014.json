@@ -1,0 +1,720 @@
+{
+    "quest": {
+        "id": "75014",
+        "title": "Beat the Clock: 24 Hours",
+        "description": "The plot thickens...",
+        "rewards": [
+            {
+                "itemId": 102,
+                "count": 250
+            },
+            {
+                "itemId": 201,
+                "count": 30
+            },
+            {
+                "itemId": 202,
+                "count": 20000
+            },
+            {
+                "itemId": 104003,
+                "count": 2
+            },
+            {
+                "itemId": 104013,
+                "count": 3
+            }
+        ],
+        "rewards_formatted": "Adventure EXP x250, Primogem x30, Mora x20000, Hero's Wit x2, Mystic Enhancement Ore x3",
+        "chapter": {
+            "icon": "UI_ChapterIcon_Natlan",
+            "id": "10214",
+            "num": "",
+            "title": "From One Case to Another"
+        },
+        "total_dialogue_lines": 110,
+        "total_speaker_counts": {
+            "#{REALNAME[ID(2)|SHOWHOST(true)]}": 7,
+            "Black Screen": 3,
+            "Cisik": 5,
+            "Deep Voice": 2,
+            "Gentle Voice": 2,
+            "Lliwa": 4,
+            "Oberon": 2,
+            "Paimon": 22,
+            "Paran": 8,
+            "Player": 25,
+            "Quilla": 10,
+            "Taruka": 13,
+            "Temach": 7
+        }
+    },
+    "talks": [
+        {
+            "id": "7501405",
+            "objective": "Investigate the area near the location Taruka mentioned",
+            "dialogues": []
+        },
+        {
+            "id": "7501404",
+            "objective": "Sit down and rest until 20:00 – 22:00 the next day",
+            "dialogues": []
+        },
+        {
+            "id": "7501415",
+            "objective": "",
+            "dialogues": [
+                {
+                    "id": "750141501",
+                    "speaker": "Taruka",
+                    "text": "Oberon and I'll wait here for you to return with more information. Thanks!"
+                },
+                {
+                    "id": "750141502",
+                    "speaker": "Oberon",
+                    "text": "Crooo..."
+                }
+            ]
+        },
+        {
+            "id": "7501412",
+            "objective": "Go to the camp",
+            "dialogues": [
+                {
+                    "id": "750141201",
+                    "speaker": "Quilla",
+                    "text": "Huh? Are you lost, little one?"
+                },
+                {
+                    "id": "750141202",
+                    "speaker": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+                    "text": "Rawr! Raaaawr!"
+                },
+                {
+                    "id": "750141203",
+                    "speaker": "Quilla",
+                    "text": "How energetic! You look healthy. And there's a special pattern on your horn... Not bad."
+                },
+                {
+                    "id": "750141204",
+                    "speaker": "Quilla",
+                    "text": "Still, why did you all come here together? Did I do a bad job of teaching? That can't be, right?"
+                },
+                {
+                    "id": "750141205",
+                    "speaker": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+                    "text": "Rooh? Rawrrr!"
+                },
+                {
+                    "id": "750141206",
+                    "speaker": "Quilla",
+                    "text": "Huh? What's wrong with it? Did it bring you here?"
+                },
+                {
+                    "id": "750141207",
+                    "speaker": "Player",
+                    "text": "(I can't let her notice me...)",
+                    "choices": [
+                        {
+                            "id": "750141208",
+                            "text": "Hooo... Hoooo...",
+                            "response": [
+                                {
+                                    "id": "750141210",
+                                    "speaker": "Quilla",
+                                    "text": "Why are you making such weird sounds? Are you sick? You seem to be acting strange too. We might need to get you checked out properly."
+                                },
+                                {
+                                    "id": "750141211",
+                                    "speaker": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+                                    "text": "Rawr!"
+                                },
+                                {
+                                    "id": "750141212",
+                                    "speaker": "Quilla",
+                                    "text": "Don't be impatient, little one. It'll be your turn soon."
+                                },
+                                {
+                                    "id": "750141221",
+                                    "speaker": "Quilla",
+                                    "text": "You're up first. Follow me. Do you understand?",
+                                    "choices": [
+                                        {
+                                            "id": "750141213",
+                                            "text": "(Nod.)",
+                                            "response": [
+                                                {
+                                                    "id": "750141214",
+                                                    "speaker": "Quilla",
+                                                    "text": "Where did you learn to do that? Oh my, do you understand what I'm saying?"
+                                                },
+                                                {
+                                                    "id": "750141219",
+                                                    "speaker": "Black Screen",
+                                                    "text": "#Just then, you hear the sound of a ruckus outside...\\n\"Who opened the box... Hey! Let go! Stop fighting over it! Quilla's gonna be mad!\"\\nThere is no time to find out what has happened. You take advantage of the chaos to escape the camp with {REALNAME[ID(2)|SHOWHOST(true)]}..."
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "750141215",
+                                            "text": "(Shake head.)",
+                                            "response": [
+                                                {
+                                                    "id": "750141216",
+                                                    "speaker": "Quilla",
+                                                    "text": "Where did you learn to do that? Oh my, do you understand what I'm saying?"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "750141217",
+                                            "text": "(Follow her.)",
+                                            "response": [
+                                                {
+                                                    "id": "750141218",
+                                                    "speaker": "Quilla",
+                                                    "text": "That's odd — I haven't given you any instructions yet. Do you understand what I'm saying?"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "750141209",
+                            "text": "Rawr!"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "7501406",
+            "objective": "Indwell an Iktomisaurus and infiltrate the inner sections of the camp",
+            "dialogues": []
+        },
+        {
+            "id": "7501408",
+            "objective": "Eavesdrop on the secret meeting without being noticed",
+            "dialogues": [
+                {
+                    "id": "750140801",
+                    "speaker": "Paimon",
+                    "text": "(Hmm... Paimon can't see clearly from here, but they might spot us if we get closer. It's better to listen from where we are for now.)"
+                },
+                {
+                    "id": "750140802",
+                    "speaker": "Gentle Voice",
+                    "text": "We're really happy with the quality of the last batch of goods. We'll be counting on you again this time."
+                },
+                {
+                    "id": "750140803",
+                    "speaker": "Deep Voice",
+                    "text": "Not a problem at all. Just follow the usual protocol?"
+                },
+                {
+                    "id": "750140804",
+                    "speaker": "Gentle Voice",
+                    "text": "Yes. We'll need the goods delivered before the air race. Someone's gonna need it."
+                },
+                {
+                    "id": "750140805",
+                    "speaker": "Deep Voice",
+                    "text": "No problem. They should be just about done talking over there too, so let's wrap up and leave."
+                },
+                {
+                    "id": "750140806",
+                    "speaker": "Paimon",
+                    "text": "(Huh? Are they leaving already? That's not what Paimon imagined... Let's head back ourselves. Don't let them catch you!)"
+                }
+            ]
+        },
+        {
+            "id": "7501411",
+            "objective": "Don the perfect disguise and escape!",
+            "dialogues": []
+        },
+        {
+            "id": "7501409",
+            "objective": "Leave the northern camp",
+            "dialogues": [
+                {
+                    "id": "750141320",
+                    "speaker": "Paimon",
+                    "text": "Paimon was so worried that she broke out in a cold sweat! Good thing she hid, or else that lady would have caught Paimon instead of paying attention to you two Saurians!"
+                },
+                {
+                    "id": "750141321",
+                    "speaker": "Player",
+                    "text": "You escaped without us..."
+                },
+                {
+                    "id": "750141322",
+                    "speaker": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+                    "text": "Wrroo..."
+                },
+                {
+                    "id": "750141323",
+                    "speaker": "Player",
+                    "text": "Any slower, and this would have become an impossible crime..."
+                },
+                {
+                    "id": "750141324",
+                    "speaker": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+                    "text": "Wrroo..."
+                },
+                {
+                    "id": "750141325",
+                    "speaker": "Paimon",
+                    "text": "Sure, no one can accuse the Iktomisaur... Well, you, but don't say scary stuff like that!"
+                },
+                {
+                    "id": "750141326",
+                    "speaker": "Paimon",
+                    "text": "A—Anyway, Paimon was just making adjustments to the plan on the fly! You wouldn't have been able to get away if she hadn't caused a commotion outside."
+                },
+                {
+                    "id": "750141327",
+                    "speaker": "Paimon",
+                    "text": "Sure was lucky that the box was filled with Saurus Crackers. The Iktomisaurs swarmed all over them after the box was knocked over. It was pandemonium!"
+                },
+                {
+                    "id": "750141328",
+                    "speaker": "Paimon",
+                    "text": "But Paimon didn't see Lamizana outside either, or the people who'd taken part in the transaction earlier. Seems like neither one was Lamizana, though. Their voices sounded different."
+                },
+                {
+                    "id": "750141329",
+                    "speaker": "Paimon",
+                    "text": "Hmm... Either way, let's tell Taruka what we saw and heard earlier."
+                }
+            ]
+        },
+        {
+            "id": "7501410",
+            "objective": "Report your findings to Taruka",
+            "dialogues": [
+                {
+                    "id": "750141001",
+                    "speaker": "Taruka",
+                    "text": "#{M#Mr.}{F#Ms.} {NICKNAME}! Thank goodness you're safe. I was so worried."
+                },
+                {
+                    "id": "750141002",
+                    "speaker": "Paimon",
+                    "text": "It sure was thrilling! But, uh... But it's a bit hard to describe, so we'll discuss that later..."
+                },
+                {
+                    "id": "750141003",
+                    "speaker": "Black Screen",
+                    "text": "You tell Taruka what you saw and heard at the camp..."
+                },
+                {
+                    "id": "750141004",
+                    "speaker": "Taruka",
+                    "text": "Really? You saw Ms. Quilla, but not Lamizana..."
+                },
+                {
+                    "id": "750141005",
+                    "speaker": "Paimon",
+                    "text": "Well, they mentioned an air race and a transaction. Paimon doesn't know the details, but it sounds like it's for something that will be used during the race."
+                },
+                {
+                    "id": "750141006",
+                    "speaker": "Taruka",
+                    "text": "Ms. Quilla is a traveling merchant who showed up recently. According to Paran, she deals in a wide variety of goods. Maybe Lamizana purchased something dangerous from her..."
+                },
+                {
+                    "id": "750141007",
+                    "speaker": "Taruka",
+                    "text": "I see. So he wants to carry out his dangerous plan during the air race!",
+                    "choices": [
+                        {
+                            "id": "750141008",
+                            "text": "What kind of dangerous plan?",
+                            "response": [
+                                {
+                                    "id": "750141010",
+                                    "speaker": "Taruka",
+                                    "text": "I don't know... but I'm sure he's plotting something dangerous!"
+                                },
+                                {
+                                    "id": "750141011",
+                                    "speaker": "Paran",
+                                    "text": "#Ah, so this is where you are. Wonderful! You must be {NICKNAME}, right? Lamizana tells me that you've tried out the training course and that you did quite well.",
+                                    "choices": [
+                                        {
+                                            "id": "750141012",
+                                            "text": "It wasn't a big deal.",
+                                            "response": [
+                                                {
+                                                    "id": "750141015",
+                                                    "speaker": "Paran",
+                                                    "text": "Here's the situation. The race is about to begin, but the contestant who was supposed to race against Lliwa has pulled out at the last minute."
+                                                },
+                                                {
+                                                    "id": "750141016",
+                                                    "speaker": "Paran",
+                                                    "text": "And well... You know her, Taruka, she's always been extremely competitive, so she won't be happy with winning a freebie..."
+                                                },
+                                                {
+                                                    "id": "750141017",
+                                                    "speaker": "Taruka",
+                                                    "text": "Then she can pull out too. Which is just as well — I'll go to persuade her to do that right now!"
+                                                },
+                                                {
+                                                    "id": "750141018",
+                                                    "speaker": "Paran",
+                                                    "text": "W—Wait, we can't do that! She also prepared hard for this race, so isn't the best solution to find someone just as good for her to race against..."
+                                                },
+                                                {
+                                                    "id": "750141019",
+                                                    "speaker": "Paimon",
+                                                    "text": "#Is that why you've come to {NICKNAME}?"
+                                                },
+                                                {
+                                                    "id": "750141020",
+                                                    "speaker": "Paran",
+                                                    "text": "Yes. As long as you participate, we'll be sure to compensate you no matter where you end up in the standings...",
+                                                    "choices": [
+                                                        {
+                                                            "id": "750141021",
+                                                            "text": "Okay, now you're really looking down on me.",
+                                                            "response": [
+                                                                {
+                                                                    "id": "750141022",
+                                                                    "speaker": "Paran",
+                                                                    "text": "Huh? Oh, you're right... Well, if you end up in a top spot, we'll give you the reward for your ranking and a bonus to boot."
+                                                                },
+                                                                {
+                                                                    "id": "750141025",
+                                                                    "speaker": "Paran",
+                                                                    "text": "Thanks for agreeing! You'll receive the invitation letter later. I have some other preparations to make, so I probably won't see you until race day."
+                                                                },
+                                                                {
+                                                                    "id": "750141026",
+                                                                    "speaker": "Black Screen",
+                                                                    "text": "Paran leaves, taking Carrewoof with him..."
+                                                                },
+                                                                {
+                                                                    "id": "750141027",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "#{NICKNAME}, you agreed because this would give us the chance to investigate up close, right? If anything happens during the race, the contestants would be the first to know.",
+                                                                    "choices": [
+                                                                        {
+                                                                            "id": "750141028",
+                                                                            "text": "I also have a feeling that things aren't as simple as they seem.",
+                                                                            "response": [
+                                                                                {
+                                                                                    "id": "750141031",
+                                                                                    "speaker": "Paimon",
+                                                                                    "text": "Speaking of which, there was something familiar about Paran's voice. Have we heard it somewhere recently?"
+                                                                                },
+                                                                                {
+                                                                                    "id": "750141032",
+                                                                                    "speaker": "Taruka",
+                                                                                    "text": "He's in charge of all sorts of things here at the flying school. He and Carrewoof are always running around everywhere, so it's actually harder to avoid hearing his voice."
+                                                                                },
+                                                                                {
+                                                                                    "id": "750141033",
+                                                                                    "speaker": "Paimon",
+                                                                                    "text": "That makes sense! Come to think of it, Paimon seems to have read about something like this in a story..."
+                                                                                },
+                                                                                {
+                                                                                    "id": "750141034",
+                                                                                    "speaker": "Paimon",
+                                                                                    "text": "If someone who blends in with the background commits a crime, people usually won't suspect them because they are so used to their presence."
+                                                                                },
+                                                                                {
+                                                                                    "id": "750141035",
+                                                                                    "speaker": "Taruka",
+                                                                                    "text": "Hmm... Best not to say that in front of him, though. His family was exiled because some of his family members did something terrible."
+                                                                                },
+                                                                                {
+                                                                                    "id": "750141036",
+                                                                                    "speaker": "Taruka",
+                                                                                    "text": "Lots of people have been using that as an excuse to make things difficult for him... Maybe that's why he's so strict with himself but so considerate of others."
+                                                                                },
+                                                                                {
+                                                                                    "id": "750141037",
+                                                                                    "speaker": "Taruka",
+                                                                                    "text": "Although he's quite close to Lamizana, I have to admit he's a pretty nice guy.",
+                                                                                    "choices": [
+                                                                                        {
+                                                                                            "id": "750141038",
+                                                                                            "text": "Is Lamizana some kind of pest?",
+                                                                                            "response": [
+                                                                                                {
+                                                                                                    "id": "750141039",
+                                                                                                    "speaker": "Taruka",
+                                                                                                    "text": "Even pests are a hundred times cuter than him."
+                                                                                                },
+                                                                                                {
+                                                                                                    "id": "750141041",
+                                                                                                    "speaker": "Paimon",
+                                                                                                    "text": "Thanks for telling Paimon that! It would be bad if we hurt him, even if it's by accident. Anyway, about the race..."
+                                                                                                },
+                                                                                                {
+                                                                                                    "id": "750141042",
+                                                                                                    "speaker": "Paimon",
+                                                                                                    "text": "#Taruka, you don't have to worry about your sister. {NICKNAME} will look out for her!"
+                                                                                                },
+                                                                                                {
+                                                                                                    "id": "750141043",
+                                                                                                    "speaker": "Taruka",
+                                                                                                    "text": "Hmm... I'll be waiting for you guys near the finish line. Lamizana and I should finish first, so I'll watch him like a hawk!"
+                                                                                                },
+                                                                                                {
+                                                                                                    "id": "750141044",
+                                                                                                    "speaker": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+                                                                                                    "text": "Hrrooo?"
+                                                                                                },
+                                                                                                {
+                                                                                                    "id": "750141045",
+                                                                                                    "speaker": "Paimon",
+                                                                                                    "text": "#This isn't your time to shine, {REALNAME[ID(2)|SHOWHOST(true)]}. Just enjoy the show with Paimon this time, alright?"
+                                                                                                },
+                                                                                                {
+                                                                                                    "id": "750141046",
+                                                                                                    "speaker": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+                                                                                                    "text": "Wrrah..."
+                                                                                                }
+                                                                                            ]
+                                                                                        },
+                                                                                        {
+                                                                                            "id": "750141040",
+                                                                                            "text": "It looks like he's got it rough."
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        {
+                                                                            "id": "750141029",
+                                                                            "text": "No, I just want the participation prize...",
+                                                                            "response": [
+                                                                                {
+                                                                                    "id": "750141030",
+                                                                                    "speaker": "Paimon",
+                                                                                    "text": "C'mon, just play along, even if just to make yourself seem a bit cooler!"
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "id": "750141023",
+                                                            "text": "Woohoo! A guaranteed participation trophy.",
+                                                            "response": [
+                                                                {
+                                                                    "id": "750141024",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "Hey, what happened to your ambition!?"
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "750141013",
+                                            "text": "Really? Looking down on me, is he?",
+                                            "response": [
+                                                {
+                                                    "id": "750141014",
+                                                    "speaker": "Paran",
+                                                    "text": "No, that's not it! Wait, what would Temach say in this situation... I know! The training course must've held you back!"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "750141009",
+                            "text": "What's his motive, though?"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "7501401",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "750140152",
+                    "speaker": "Paimon",
+                    "text": "Hmm... Lamizana should be <color=#00E1FFFF>deeper within</color> if he really is here, right? After all, he's gonna want this discussion hidden from others!"
+                },
+                {
+                    "id": "750140153",
+                    "speaker": "Paimon",
+                    "text": "If only we could <color=#00E1FFFF>sneak in among the Iktomisaurs</color>..."
+                }
+            ]
+        },
+        {
+            "id": "7501416",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "750141601",
+                    "speaker": "Lliwa",
+                    "text": "Ugh, this is trouble...",
+                    "choices": [
+                        {
+                            "id": "750141602",
+                            "text": "What's wrong?",
+                            "response": [
+                                {
+                                    "id": "750141603",
+                                    "speaker": "Lliwa",
+                                    "text": "Well, I have a little brother who's a lot younger than me. Maybe it's because he's in his rebellious years, but he doesn't get along with anyone..."
+                                },
+                                {
+                                    "id": "750141604",
+                                    "speaker": "Lliwa",
+                                    "text": "Bah, I'll only add to your troubles by telling you about this. Things will probably get better when he grows up!"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "750141605",
+                            "text": "Sorry to bother you.",
+                            "response": [
+                                {
+                                    "id": "750141606",
+                                    "speaker": "Lliwa",
+                                    "text": "It's no trouble. See you around."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "7508757",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "750875701",
+                    "speaker": "Temach",
+                    "text": "We still have a few more flying challenges. Details are written on the board. Give 'em a try if you're keen... Of course, there are prizes to be won.",
+                    "choices": [
+                        {
+                            "id": "750875702",
+                            "text": "About the Pakpaka Flying School...",
+                            "response": [
+                                {
+                                    "id": "750875703",
+                                    "speaker": "Temach",
+                                    "text": "Honestly, I have no clue why it's called that. But speaking of Pakpaka... Have you ever heard the story of Kuntur and the evil sorcerer Rumi?"
+                                },
+                                {
+                                    "id": "750875704",
+                                    "speaker": "Temach",
+                                    "text": "The warriors of the tribe were defeated by that wicked mage, and he turned them into Pakpaka... which doesn't sound all that good. Maybe Pakpakas fly very quickly, or something — I don't know."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "750875705",
+                            "text": "About Lamizana...",
+                            "response": [
+                                {
+                                    "id": "750875706",
+                                    "speaker": "Temach",
+                                    "text": "Haha... He's a good fighter, but not necessarily a good teacher. And as an opponent in flying competitions... I guess he's passable?"
+                                },
+                                {
+                                    "id": "750875707",
+                                    "speaker": "Temach",
+                                    "text": "But I mean, why would you come here if you didn't have issues with flying? So, if I were to be too strict... *sigh* Well, it's not like things like this have never happened in the past."
+                                },
+                                {
+                                    "id": "750875708",
+                                    "speaker": "Temach",
+                                    "text": "That's why I focus on encouraging people nowadays. I'm sure that approach will get results just fine too."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "750875709",
+                            "text": "Gotta go.",
+                            "response": [
+                                {
+                                    "id": "750875710",
+                                    "speaker": "Temach",
+                                    "text": "See you. You're welcome back any time."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "7508761",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "750876101",
+                    "speaker": "Cisik",
+                    "text": "Welcome to Pakpaka Flying School!",
+                    "choices": [
+                        {
+                            "id": "750876102",
+                            "text": "What do you do here?",
+                            "response": [
+                                {
+                                    "id": "750876104",
+                                    "speaker": "Cisik",
+                                    "text": "We give all cadets the necessary guidance and help they need. Things have changed a lot, you know. Back in the day, students couldn't expect that kind of tender loving care."
+                                },
+                                {
+                                    "id": "750876105",
+                                    "speaker": "Cisik",
+                                    "text": "But then there was this one time when the coach was a little... strict with their words, and the student in question just happened to have quite a temper... *sigh* Yeah, that's not a fun one to talk about."
+                                },
+                                {
+                                    "id": "750876106",
+                                    "speaker": "Cisik",
+                                    "text": "Anyway, our teaching policy's been shaken up since then. And I mean, nobody slaps a smiling face, and nobody hates compliments, am I right?"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "750876103",
+                            "text": "I'll be off, then.",
+                            "response": [
+                                {
+                                    "id": "750876107",
+                                    "speaker": "Cisik",
+                                    "text": "Here's to a pleasant day!"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "7508764",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "750876401",
+                    "speaker": "Oberon",
+                    "text": "Taruka seems unhappy. What happened...?"
+                }
+            ]
+        }
+    ]
+}

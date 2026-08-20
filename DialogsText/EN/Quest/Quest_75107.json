@@ -1,0 +1,1523 @@
+{
+    "quest": {
+        "id": "75107",
+        "title": "Stones, Coconuts, and Saurian Traffickers",
+        "description": "In a remote location near the Flower-Feather Clan's borders, a traveling merchant and his Saurian companion have encountered a mysterious problem...",
+        "rewards": [
+            {
+                "itemId": 102,
+                "count": 250
+            },
+            {
+                "itemId": 201,
+                "count": 30
+            },
+            {
+                "itemId": 202,
+                "count": 20000
+            },
+            {
+                "itemId": 104003,
+                "count": 2
+            },
+            {
+                "itemId": 104013,
+                "count": 3
+            }
+        ],
+        "rewards_formatted": "Adventure EXP x250, Primogem x30, Mora x20000, Hero's Wit x2, Mystic Enhancement Ore x3",
+        "chapter": {
+            "icon": "UI_ChapterIcon_LittleDrillhead",
+            "id": "10204",
+            "num": "",
+            "title": "In the Footsteps of the Chosen of Dragons"
+        },
+        "total_dialogue_lines": 259,
+        "total_speaker_counts": {
+            "\"King Coconut\"": 16,
+            "#{REALNAME[ID(2)|SHOWHOST(true)]}": 20,
+            "<UNKNOWN>": 1,
+            "???": 10,
+            "Black Screen": 10,
+            "Debilitated Tepetlisaurus": 2,
+            "Paimon": 88,
+            "Player": 41,
+            "Qax": 58,
+            "Qax's Gear": 1,
+            "Sinister Voice From Above": 2,
+            "Sly Voice From Above": 4,
+            "Weakened Qucusaur": 6
+        }
+    },
+    "talks": [
+        {
+            "id": "7510701",
+            "objective": "",
+            "dialogues": [
+                {
+                    "id": "751070101",
+                    "speaker": "???",
+                    "text": "What do we do..."
+                },
+                {
+                    "id": "751070102",
+                    "speaker": "???",
+                    "text": "My friend, please, just say something. Even a growl would be fine — I just need to know what's happened to you."
+                },
+                {
+                    "id": "751070103",
+                    "speaker": "Debilitated Tepetlisaurus",
+                    "text": "...Hrrooh?"
+                },
+                {
+                    "id": "751070104",
+                    "speaker": "???",
+                    "text": "...Nope, don't get you at all."
+                },
+                {
+                    "id": "751070105",
+                    "speaker": "Paimon",
+                    "text": "#Even if it were {REALNAME[ID(2)|SHOWHOST(true)]}, such a simple statement alone wouldn't be enough to get anything across to us right away."
+                },
+                {
+                    "id": "751070106",
+                    "speaker": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+                    "text": "Ehrrr?",
+                    "choices": [
+                        {
+                            "id": "751070107",
+                            "text": "...So uh, what kind of trouble are you in, exactly?",
+                            "response": [
+                                {
+                                    "id": "751070109",
+                                    "speaker": "???",
+                                    "text": "Ah, passing adventurers. We're saved!"
+                                },
+                                {
+                                    "id": "751070110",
+                                    "speaker": "???",
+                                    "text": "Thank you so much, kind souls! Here's the situation in a nutshell..."
+                                },
+                                {
+                                    "id": "751070111",
+                                    "speaker": "Qax",
+                                    "text": "I'm Qax, a traveling merchant. I was out fetching water today when I got separated from my Saurian, King Coconut."
+                                },
+                                {
+                                    "id": "751070112",
+                                    "speaker": "Qax",
+                                    "text": "When I got back, my dear Saurian had been hurt somehow, and had fallen down on the side of the road, unable to walk..."
+                                },
+                                {
+                                    "id": "751070113",
+                                    "speaker": "Qax",
+                                    "text": "I thought maybe he'd set off a hunter's trap, but closer inspection didn't reveal any wounds on his leg or blood spatter on his body... Could it have been blunt trauma?"
+                                },
+                                {
+                                    "id": "751070114",
+                                    "speaker": "\"King Coconut\"",
+                                    "text": "Rroooh! Hroo! Rrooooh!"
+                                },
+                                {
+                                    "id": "751070115",
+                                    "speaker": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+                                    "text": "Rawr!"
+                                },
+                                {
+                                    "id": "751070116",
+                                    "speaker": "Paimon",
+                                    "text": "#Seems like your Saurian buddy's in great pain. Neither {NICKNAME} nor Paimon's a sauro-vet, though...",
+                                    "choices": [
+                                        {
+                                            "id": "751070117",
+                                            "text": "Should I carry King Coconut back?",
+                                            "response": [
+                                                {
+                                                    "id": "751070118",
+                                                    "speaker": "Paimon",
+                                                    "text": "Well, you could certainly do it, given your strength."
+                                                },
+                                                {
+                                                    "id": "751070119",
+                                                    "speaker": "Paimon",
+                                                    "text": "But this place is kinda out of the way. If we carry him for too long and open up some unseen wounds while we're at it, we'd just make things worse..."
+                                                },
+                                                {
+                                                    "id": "751070123",
+                                                    "speaker": "Qax",
+                                                    "text": "Oh, I wouldn't ask you to do that. I know an itinerant sauro-vet from the Flower-Feather Clan who heads out to fixed locations to make medical calls. I'll ask him to come over."
+                                                },
+                                                {
+                                                    "id": "751070124",
+                                                    "speaker": "Qax",
+                                                    "text": "Could you two please help me take care of King Coconut for a while? I'll be back real soon — one night, tops."
+                                                },
+                                                {
+                                                    "id": "751070125",
+                                                    "speaker": "Paimon",
+                                                    "text": "Heh, you're pretty considerate, huh? Alright, guess we can just treat this like a camping trip — we'll have a good rest, and treat your Saurian buddy to some tasty grub while we're at it!"
+                                                },
+                                                {
+                                                    "id": "751070126",
+                                                    "speaker": "Paimon",
+                                                    "text": "#Eating some of {NICKNAME}'s food should take the edge off a bit.",
+                                                    "choices": [
+                                                        {
+                                                            "id": "751070127",
+                                                            "text": "I just so happen to be tired right now, too...",
+                                                            "response": [
+                                                                {
+                                                                    "id": "751070129",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "Hmm, now that we've mentioned camp, we'll need a campsite. King Coconut's injured, so he'll need shelter from the elements. Staying here isn't an option."
+                                                                },
+                                                                {
+                                                                    "id": "751070130",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "We'll have to slowly shift King Coconut over to some flat ground, erect a tent, get a pot set up, and light a fire..."
+                                                                },
+                                                                {
+                                                                    "id": "751070131",
+                                                                    "speaker": "Qax",
+                                                                    "text": "That makes sense. You really are pro adventurers, huh?"
+                                                                },
+                                                                {
+                                                                    "id": "751070132",
+                                                                    "speaker": "Qax",
+                                                                    "text": "I'm good at woodwork, so let's split up and gather the required materials — just some common <color=#00E1FFFF>Flammabomb Wood</color> or <color=#00E1FFFF>Ashen Aratiku Wood</color> plus a little cloth oughta do it!"
+                                                                },
+                                                                {
+                                                                    "id": "751070133",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "#Would you mind keeping King Coconut company in the meantime, {REALNAME[ID(2)|SHOWHOST(true)]}?"
+                                                                },
+                                                                {
+                                                                    "id": "751070134",
+                                                                    "speaker": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+                                                                    "text": "Rawr!"
+                                                                },
+                                                                {
+                                                                    "id": "751070135",
+                                                                    "speaker": "Black Screen",
+                                                                    "text": "You carefully shift King Coconut over to a suitable area and start to build a camp..."
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "id": "751070128",
+                                                            "text": "I just so happen to be starving right now, too..."
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "751070120",
+                                            "text": "Should we track down a sauro-vet to help out?",
+                                            "response": [
+                                                {
+                                                    "id": "751070121",
+                                                    "speaker": "Paimon",
+                                                    "text": "Sure, but we aren't exactly familiar with any vets..."
+                                                },
+                                                {
+                                                    "id": "751070122",
+                                                    "speaker": "Paimon",
+                                                    "text": "If we were to show up in front of a sauro-vet we don't know and ask him to come out to this remote spot, wouldn't we get suspected of being up to no good?"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "751070108",
+                            "text": "Do you need a hand?"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "7510715",
+            "objective": "",
+            "dialogues": [
+                {
+                    "id": "751071501",
+                    "speaker": "Paimon",
+                    "text": "What's up? Any idea what's going on?",
+                    "choices": [
+                        {
+                            "id": "751071502",
+                            "text": "They seem to have been attacked.",
+                            "response": [
+                                {
+                                    "id": "751071504",
+                                    "speaker": "Paimon",
+                                    "text": "Huh? Attacked by bad guys? From the hill over there?"
+                                },
+                                {
+                                    "id": "751071505",
+                                    "speaker": "Paimon",
+                                    "text": "#{NICKNAME}, do you still remember? We've been around here before... We rescued tons of Saurians and other animals from some poachers."
+                                },
+                                {
+                                    "id": "751071506",
+                                    "speaker": "Paimon",
+                                    "text": "Could it be the same people? And they're trying to steal Saurian companions... Are they seriously looking to resell them?"
+                                },
+                                {
+                                    "id": "751071507",
+                                    "speaker": "Paimon",
+                                    "text": "Never mind that... Anyone hiding behind the scenes and harming the Saurian companions of others is pure scum. We can't just let them go!",
+                                    "choices": [
+                                        {
+                                            "id": "751071508",
+                                            "text": "Yup, they're just the worst sort of people.",
+                                            "response": [
+                                                {
+                                                    "id": "751071510",
+                                                    "speaker": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+                                                    "text": "Rawr!"
+                                                },
+                                                {
+                                                    "id": "751071511",
+                                                    "speaker": "Paimon",
+                                                    "text": "Then let's get moving now, and scout the area."
+                                                },
+                                                {
+                                                    "id": "751071512",
+                                                    "speaker": "Paimon",
+                                                    "text": "If they don't have anyone particularly strong with them, we should just take action and round them up — just like how we've rounded up Treasure Hoarders in the past!"
+                                                },
+                                                {
+                                                    "id": "751071513",
+                                                    "speaker": "Paimon",
+                                                    "text": "Not that we'd be scared even if they've got some capable members. We just can't show them our hand when it comes to our counterattack, or they'll escape!"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "751071509",
+                                            "text": "I sure won't be going easy on them."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "751071503",
+                            "text": "The attackers were on the hill over there."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "7510717",
+            "objective": "",
+            "dialogues": [
+                {
+                    "id": "751071701",
+                    "speaker": "Sinister Voice From Above",
+                    "text": "#Gah, what crappy luck! Last time, it was that blonde {M#boy}{F#girl} and the white-haired fairy who cost me a big paycheck, releasing all the animals I had on me like that. And just now, that Qucusaurus escaped yet again..."
+                },
+                {
+                    "id": "751071702",
+                    "speaker": "Sly Voice From Above",
+                    "text": "*sigh* If nothing else, we've got the boss and his enhanced frangible rounds. They're guaranteed to knock even the strongest Tatankasaurus out without leaving a trace!"
+                },
+                {
+                    "id": "751071703",
+                    "speaker": "Sly Voice From Above",
+                    "text": "Once the boss's new rounds are mass-produced, we'll put this one to bed in no time..."
+                },
+                {
+                    "id": "751071704",
+                    "speaker": "Paimon",
+                    "text": "Hear that? It really is those nasty Saurian poachers and animal traffickers from back then. C'mon, let's round 'em all up this time!"
+                },
+                {
+                    "id": "751071705",
+                    "speaker": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+                    "text": "Rawr!"
+                },
+                {
+                    "id": "751071706",
+                    "speaker": "Paimon",
+                    "text": "#Wow {REALNAME[ID(2)|SHOWHOST(true)]}, you sounded a little different just then! Don't worry, we'll get justice for your Blubberbeast friend this time!"
+                },
+                {
+                    "id": "751071707",
+                    "speaker": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+                    "text": "Rrrr..."
+                },
+                {
+                    "id": "751071708",
+                    "speaker": "Paimon",
+                    "text": "#Speaking of that, {REALNAME[ID(2)|SHOWHOST(true)]} — do you think you could sneak up to their camp from below and check out what's going on?"
+                },
+                {
+                    "id": "751071709",
+                    "speaker": "Paimon",
+                    "text": "If you find anything important of theirs in the camp, destroy it — let's create some chaos!"
+                },
+                {
+                    "id": "751071710",
+                    "speaker": "Paimon",
+                    "text": "But if things aren't looking too good, just get out of there and leave things up to us. Always focus on your safety first!"
+                },
+                {
+                    "id": "751071711",
+                    "speaker": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+                    "text": "Hrrmm!"
+                }
+            ]
+        },
+        {
+            "id": "7510703",
+            "objective": "Gather materials to build the camp",
+            "dialogues": [
+                {
+                    "id": "751070301",
+                    "speaker": "Qax's Gear",
+                    "text": "(Rucksacks and boxes packed with various daily necessities. Looks like Qax is running a small business. Place the materials you've gathered here. You can start building a camp in a moment.)",
+                    "choices": [
+                        {
+                            "id": "751070302",
+                            "text": "Place Materials"
+                        },
+                        {
+                            "id": "751070303",
+                            "text": "We still need to gather more materials..."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "7510719",
+            "objective": "Gather materials to build the camp",
+            "dialogues": [
+                {
+                    "id": "751070501",
+                    "speaker": "Paimon",
+                    "text": "Great — now we can put up a huge camp tent!"
+                }
+            ]
+        },
+        {
+            "id": "7510704",
+            "objective": "Talk to Qax",
+            "dialogues": [
+                {
+                    "id": "751070801",
+                    "speaker": "Black Screen",
+                    "text": "Qax returns after a while, carrying a few logs. He pulls out a pot and some fabric from his bag.\\nPaimon has picked up a bunch of branches and is using them to make a fire to cook with..."
+                },
+                {
+                    "id": "751070802",
+                    "speaker": "Black Screen",
+                    "text": "#Qax is very dexterous and, with your help, has soon built a hut. Paimon and {REALNAME[ID(2)|SHOWHOST(true)]} set up a pot, and ignite some kindling..."
+                },
+                {
+                    "id": "751070803",
+                    "speaker": "Qax",
+                    "text": "Alright, that's our camp done and dusted. Thanks for all your hard work!"
+                },
+                {
+                    "id": "751070804",
+                    "speaker": "Qax",
+                    "text": "It's pretty basic, so not the best accommodation. But please make do for now. I'll repay you all later for sure!",
+                    "choices": [
+                        {
+                            "id": "751070805",
+                            "text": "You've also done quite a bit.",
+                            "response": [
+                                {
+                                    "id": "751070807",
+                                    "speaker": "Qax",
+                                    "text": "Then I shan't ramble on. I'll get going and find a vet as soon as possible."
+                                },
+                                {
+                                    "id": "751070808",
+                                    "speaker": "Qax",
+                                    "text": "Both so King Coconut can recover faster, but also so as not to keep you waiting!"
+                                },
+                                {
+                                    "id": "751070809",
+                                    "speaker": "\"King Coconut\"",
+                                    "text": "*whimper*"
+                                },
+                                {
+                                    "id": "751070810",
+                                    "speaker": "Paimon",
+                                    "text": "This traveling merchant's quite the straight shooter, and practical, too... Let's hope he can find a vet soon."
+                                },
+                                {
+                                    "id": "751070811",
+                                    "speaker": "Paimon",
+                                    "text": "Next up, time for us to get camping, cooking, and eating together!"
+                                },
+                                {
+                                    "id": "751070812",
+                                    "speaker": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+                                    "text": "Rawr!"
+                                },
+                                {
+                                    "id": "751070813",
+                                    "speaker": "Black Screen",
+                                    "text": "#You prepare food by the fire with Paimon, and cook up several of your specialty dishes — including a sick meal that's easy on the stomach, made especially for King Coconut.\\nAfterwards, everyone enjoys a casual, filling meal together. Paimon and {REALNAME[ID(2)|SHOWHOST(true)]} feed the debilitated King Coconut."
+                                },
+                                {
+                                    "id": "751070814",
+                                    "speaker": "Black Screen",
+                                    "text": "#After the meal, {REALNAME[ID(2)|SHOWHOST(true)]} patiently stays with King Coconut, helping him relax, and his condition improves. \\nYou chat with Paimon until midnight, and everyone in the camp falls into a peaceful slumber..."
+                                },
+                                {
+                                    "id": "751070815",
+                                    "speaker": "Paimon",
+                                    "text": "Mmm~ Paimon slept so well! Guess it was all that hard work yesterday, huh?"
+                                },
+                                {
+                                    "id": "751070816",
+                                    "speaker": "Paimon",
+                                    "text": "Hmm?"
+                                },
+                                {
+                                    "id": "751070817",
+                                    "speaker": "Paimon",
+                                    "text": "#Uh-oh, {NICKNAME} — King Coconut's turned into a Qucusaurus!",
+                                    "choices": [
+                                        {
+                                            "id": "751070818",
+                                            "text": "You're still dreaming, Paimon.",
+                                            "response": [
+                                                {
+                                                    "id": "751070821",
+                                                    "speaker": "Paimon",
+                                                    "text": "Oh... Gee, that was freaky. For a moment there, Paimon thought that the food we made had some weird ability to change Saurians or something..."
+                                                },
+                                                {
+                                                    "id": "751070822",
+                                                    "speaker": "Weakened Qucusaur",
+                                                    "text": "Arowr... *cough*... Aoowrr..."
+                                                },
+                                                {
+                                                    "id": "751070823",
+                                                    "speaker": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+                                                    "text": "Errh?"
+                                                },
+                                                {
+                                                    "id": "751070824",
+                                                    "speaker": "Paimon",
+                                                    "text": "It seems like this Qucusaurus is also in a lot of pain. Perhaps it's also been involved in an accident?",
+                                                    "choices": [
+                                                        {
+                                                            "id": "751070825",
+                                                            "text": "It has no obvious wounds.",
+                                                            "response": [
+                                                                {
+                                                                    "id": "751070827",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "That's two Saurians collapsing near this place two days in a row now... Something's fishy about this for sure!"
+                                                                },
+                                                                {
+                                                                    "id": "751070828",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "#{NICKNAME}, why don't you think up a way to communicate with them and ask what happened?"
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "id": "751070826",
+                                                            "text": "Perhaps it's taken some blunt trauma, just like King Coconut?"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "751070819",
+                                            "text": "King Coconut is inside the tent."
+                                        },
+                                        {
+                                            "id": "751070820",
+                                            "text": "This is clearly a different Saurian."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "751070806",
+                            "text": "You don't have to be so polite."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "7510711",
+            "objective": "Find a way to communicate with King Coconut and the other Saurian",
+            "dialogues": [
+                {
+                    "id": "751071101",
+                    "speaker": "Paimon",
+                    "text": "What's up? Any idea what's going on?",
+                    "choices": [
+                        {
+                            "id": "751071102",
+                            "text": "They seem to have been attacked.",
+                            "response": [
+                                {
+                                    "id": "751071104",
+                                    "speaker": "Paimon",
+                                    "text": "Huh? Attacked by bad guys? From the hill over there?"
+                                },
+                                {
+                                    "id": "751071105",
+                                    "speaker": "Paimon",
+                                    "text": "Were those bad guys just trying to hunt wild Saurians? But if it was an accident, we didn't see 'em apologizing to Qax or King Coconut..."
+                                },
+                                {
+                                    "id": "751071106",
+                                    "speaker": "Paimon",
+                                    "text": "Or... are they poachers, waiting to steal other people's Saurian buddies instead?"
+                                },
+                                {
+                                    "id": "751071107",
+                                    "speaker": "Paimon",
+                                    "text": "Never mind that... Anyone hiding behind the scenes and harming the Saurian companions of others is pure scum. We can't just let them go!",
+                                    "choices": [
+                                        {
+                                            "id": "751071108",
+                                            "text": "Yup, they're just the worst sort of people.",
+                                            "response": [
+                                                {
+                                                    "id": "751071110",
+                                                    "speaker": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+                                                    "text": "Rawr!"
+                                                },
+                                                {
+                                                    "id": "751071111",
+                                                    "speaker": "Paimon",
+                                                    "text": "Then let's get moving now, and scout the area."
+                                                },
+                                                {
+                                                    "id": "751071112",
+                                                    "speaker": "Paimon",
+                                                    "text": "If they don't have anyone particularly strong with them, we should just take action and round them up — just like how we've rounded up Treasure Hoarders in the past!"
+                                                },
+                                                {
+                                                    "id": "751071113",
+                                                    "speaker": "Paimon",
+                                                    "text": "Not that we'd be scared even if they've got some capable members. We just can't show them our hand when it comes to our counterattack, or they'll escape!"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "751071109",
+                                            "text": "I sure won't be going easy on them."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "751071103",
+                            "text": "The attackers were on the hill over there."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "7510706",
+            "objective": "Scout the area where the Saurian traffickers operate",
+            "dialogues": []
+        },
+        {
+            "id": "7510707",
+            "objective": "Scout the area where the Saurian traffickers operate",
+            "dialogues": [
+                {
+                    "id": "751070701",
+                    "speaker": "Sinister Voice From Above",
+                    "text": "It's a real shame that Qucusaurus got away. That quality would fetch top Mora, no doubt about it..."
+                },
+                {
+                    "id": "751070702",
+                    "speaker": "Sly Voice From Above",
+                    "text": "It's cool. The boss enhanced the frangible rounds. The new models could knock a Tatankasaurus out cold without even leaving a trace!"
+                },
+                {
+                    "id": "751070703",
+                    "speaker": "Sly Voice From Above",
+                    "text": "Once those new rounds have been distributed amongst us, we'll be able to capture whichever Saurians we like. We'll strike it rich sooner or later!"
+                },
+                {
+                    "id": "751070704",
+                    "speaker": "Paimon",
+                    "text": "Hear that? Those guys seem to wanna resell Saurian companions... Those low-down, no-good poachers!"
+                },
+                {
+                    "id": "751070705",
+                    "speaker": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+                    "text": "Rawr!"
+                },
+                {
+                    "id": "751070706",
+                    "speaker": "Paimon",
+                    "text": "#Wow, {REALNAME[ID(2)|SHOWHOST(true)]}, you sounded a little different just then! Looks like those guys have really riled you up, huh?"
+                },
+                {
+                    "id": "751070707",
+                    "speaker": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+                    "text": "Rrrr..."
+                },
+                {
+                    "id": "751070708",
+                    "speaker": "Paimon",
+                    "text": "#Speaking of that, {REALNAME[ID(2)|SHOWHOST(true)]} — do you think you could sneak up to their camp from below and check out what's going on?"
+                },
+                {
+                    "id": "751070709",
+                    "speaker": "Paimon",
+                    "text": "If you find anything important of theirs in the camp, destroy it — let's create some chaos!"
+                },
+                {
+                    "id": "751070710",
+                    "speaker": "Paimon",
+                    "text": "But if things aren't looking too good, just get out of there and leave things up to us. Always focus on your safety first!"
+                },
+                {
+                    "id": "751070711",
+                    "speaker": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+                    "text": "Hrrmm!"
+                }
+            ]
+        },
+        {
+            "id": "7510712",
+            "objective": "Wait for your Saurian companion to act",
+            "dialogues": [
+                {
+                    "id": "751071201",
+                    "speaker": "Paimon",
+                    "text": "Phew! Not only did we destroy their base... We also figured out what's going on! Let's get back to King Coconut first."
+                },
+                {
+                    "id": "751071202",
+                    "speaker": "Paimon",
+                    "text": "And then we can explain everything that happened to Qax."
+                }
+            ]
+        },
+        {
+            "id": "7510708",
+            "objective": "Defeat the opposing leader",
+            "dialogues": []
+        },
+        {
+            "id": "7510718",
+            "objective": "Talk to Paimon",
+            "dialogues": []
+        },
+        {
+            "id": "7510709",
+            "objective": "Return to the camp where King Coconut is",
+            "dialogues": [
+                {
+                    "id": "751070901",
+                    "speaker": "???",
+                    "text": "What do we do..."
+                },
+                {
+                    "id": "751070902",
+                    "speaker": "???",
+                    "text": "My friend, please, just say something. Even the slightest peep would be fine — I just need to know what's happened to you."
+                },
+                {
+                    "id": "751070903",
+                    "speaker": "Debilitated Tepetlisaurus",
+                    "text": "...Grr?"
+                },
+                {
+                    "id": "751070904",
+                    "speaker": "???",
+                    "text": "...Nope, don't get you at all."
+                },
+                {
+                    "id": "751070905",
+                    "speaker": "Paimon",
+                    "text": "#Even if it were {REALNAME[ID(2)|SHOWHOST(true)]}, such a simple noise wouldn't be enough to get anything across to us right away."
+                },
+                {
+                    "id": "751070906",
+                    "speaker": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+                    "text": "Errh?",
+                    "choices": [
+                        {
+                            "id": "751070907",
+                            "text": "...So uh, what kind of trouble are you in, exactly?",
+                            "response": [
+                                {
+                                    "id": "751070909",
+                                    "speaker": "???",
+                                    "text": "#Ah, it's master {NICKNAME} and master Paimon. Saved at last!"
+                                },
+                                {
+                                    "id": "751070910",
+                                    "speaker": "???",
+                                    "text": "It's a pleasure to meet the pair of you! Here's the situation, in a nutshell..."
+                                },
+                                {
+                                    "id": "751070911",
+                                    "speaker": "Qax",
+                                    "text": "I'm Qax, a traveling merchant. I was out fetching water today when I got separated from my Saurian companion, King Coconut."
+                                },
+                                {
+                                    "id": "751070912",
+                                    "speaker": "Qax",
+                                    "text": "When I got back, my dear Saurian had been hurt somehow, and had fallen down on the side of the road, unable to walk..."
+                                },
+                                {
+                                    "id": "751070913",
+                                    "speaker": "Qax",
+                                    "text": "I thought maybe he'd set off a hunter's trap, but closer inspection didn't reveal any wounds on his leg or blood spatter on his body... Could he have sprained his ankle or something?"
+                                },
+                                {
+                                    "id": "751070914",
+                                    "speaker": "\"King Coconut\"",
+                                    "text": "Rroooh! Hroo! Rrooooh!"
+                                },
+                                {
+                                    "id": "751070915",
+                                    "speaker": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+                                    "text": "Rawr!"
+                                },
+                                {
+                                    "id": "751070916",
+                                    "speaker": "Paimon",
+                                    "text": "#Seems like your Saurian buddy's in great pain. Neither {NICKNAME} nor Paimon's a sauro-vet, though...",
+                                    "choices": [
+                                        {
+                                            "id": "751070917",
+                                            "text": "Should I carry King Coconut back?",
+                                            "response": [
+                                                {
+                                                    "id": "751070918",
+                                                    "speaker": "Paimon",
+                                                    "text": "Well, you could certainly do it, given your strength."
+                                                },
+                                                {
+                                                    "id": "751070919",
+                                                    "speaker": "Paimon",
+                                                    "text": "But this place is kinda out of the way. If we carry him for too long and open up some unseen wounds while we're at it, we'd just make things worse..."
+                                                },
+                                                {
+                                                    "id": "751070923",
+                                                    "speaker": "Qax",
+                                                    "text": "Oh, I wouldn't ask you to do that. I know an itinerant sauro-vet from the Flower-Feather Clan who travels about often. I'll ask him to come over."
+                                                },
+                                                {
+                                                    "id": "751070924",
+                                                    "speaker": "Qax",
+                                                    "text": "Could you two please help me take care of King Coconut for a while? I'll be back real soon — in one night, tops."
+                                                },
+                                                {
+                                                    "id": "751070925",
+                                                    "speaker": "Paimon",
+                                                    "text": "Heh, you're pretty considerate, huh? Alright, guess we can just treat this like a camping trip — we'll have a good rest, and treat your Saurian buddy to some tasty grub while we're at it!"
+                                                },
+                                                {
+                                                    "id": "751070926",
+                                                    "speaker": "Paimon",
+                                                    "text": "#Eating some of {NICKNAME}'s food should take the edge off a bit.",
+                                                    "choices": [
+                                                        {
+                                                            "id": "751070927",
+                                                            "text": "I just so happen to be tired right now, too...",
+                                                            "response": [
+                                                                {
+                                                                    "id": "751070929",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "Hmm, now that we've mentioned camp, we'll need a campsite. King Coconut's injured, so he'll need shelter from the elements. Staying here isn't an option."
+                                                                },
+                                                                {
+                                                                    "id": "751070930",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "We'll have to slowly shift King Coconut over to some flat ground, erect a tent, get a pot set up, and light a fire..."
+                                                                },
+                                                                {
+                                                                    "id": "751070931",
+                                                                    "speaker": "Qax",
+                                                                    "text": "That makes sense. You really are pro adventurers, huh?"
+                                                                },
+                                                                {
+                                                                    "id": "751070932",
+                                                                    "speaker": "Qax",
+                                                                    "text": "I'm good at woodwork, so let's split up and gather the required materials — just some common <color=#00E1FFFF>Flammabomb Wood</color> or <color=#00E1FFFF>Ashen Aratiku Wood</color> plus a little cloth oughta do it!"
+                                                                },
+                                                                {
+                                                                    "id": "751070933",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "#Would you mind keeping King Coconut company in the meantime, {REALNAME[ID(2)|SHOWHOST(true)]}?"
+                                                                },
+                                                                {
+                                                                    "id": "751070934",
+                                                                    "speaker": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+                                                                    "text": "Rawr!"
+                                                                },
+                                                                {
+                                                                    "id": "751070935",
+                                                                    "speaker": "Black Screen",
+                                                                    "text": "You carefully shift King Coconut over to a suitable area and start to build a camp..."
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "id": "751070928",
+                                                            "text": "I just so happen to be starving right now, too..."
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "751070920",
+                                            "text": "Should we track down a sauro-vet to help out?",
+                                            "response": [
+                                                {
+                                                    "id": "751070921",
+                                                    "speaker": "Paimon",
+                                                    "text": "Sure, but we aren't exactly familiar with any vets..."
+                                                },
+                                                {
+                                                    "id": "751070922",
+                                                    "speaker": "Paimon",
+                                                    "text": "If we were to show up in front of a sauro-vet we don't know and ask him to come out to this remote spot, wouldn't he think he might be in for some kind of crazy challenge?"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "751070908",
+                            "text": "Do you need a hand?"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "7510710",
+            "objective": "Return to the camp where King Coconut is",
+            "dialogues": [
+                {
+                    "id": "751071001",
+                    "speaker": "Qax",
+                    "text": "Welcome back!"
+                },
+                {
+                    "id": "751071002",
+                    "speaker": "Qax",
+                    "text": "I guess you're going to collect some cooking ingredients and get breakfast ready.",
+                    "choices": [
+                        {
+                            "id": "751071003",
+                            "text": "I picked up a few random fish... Do they count?",
+                            "response": [
+                                {
+                                    "id": "751071005",
+                                    "speaker": "Paimon",
+                                    "text": "Did you bring the vet by already? That was super quick!"
+                                },
+                                {
+                                    "id": "751071006",
+                                    "speaker": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+                                    "text": "Ehrrr?"
+                                },
+                                {
+                                    "id": "751071007",
+                                    "speaker": "\"King Coconut\"",
+                                    "text": "Hrroo, mrroo!"
+                                },
+                                {
+                                    "id": "751071008",
+                                    "speaker": "Paimon",
+                                    "text": "Looks as though King Coconut's made good progress — he's even able to stand up already. Nice!"
+                                },
+                                {
+                                    "id": "751071009",
+                                    "speaker": "Paimon",
+                                    "text": "Still, where's that vet?"
+                                },
+                                {
+                                    "id": "751071010",
+                                    "speaker": "Qax",
+                                    "text": "I didn't see any of you when I brought him here, so I took him to treat King Coconut first."
+                                },
+                                {
+                                    "id": "751071011",
+                                    "speaker": "Qax",
+                                    "text": "He assessed that King Coconut was hit by a rock flying at high speed and suffered internal bruising... I can't put two and two together, though. There weren't any loose rocks around the spot where King Coconut collapsed."
+                                },
+                                {
+                                    "id": "751071012",
+                                    "speaker": "Qax",
+                                    "text": "Luckily, the vet is experienced in dealing with this kind of injury, so he had a special medicine ready to treat King Coconut's internal bruising and greatly relieve the pain..."
+                                },
+                                {
+                                    "id": "751071013",
+                                    "speaker": "Qax",
+                                    "text": "Now that King Coconut can walk slowly, we can take him to the vet for more comprehensive treatment."
+                                },
+                                {
+                                    "id": "751071014",
+                                    "speaker": "Qax",
+                                    "text": "We found another Qucusaurus near the camp bearing similar injuries — a lost Saurian companion from the Flower-Feather Clan, apparently."
+                                },
+                                {
+                                    "id": "751071015",
+                                    "speaker": "Qax",
+                                    "text": "After treating it, the vet took it back to the tribe."
+                                },
+                                {
+                                    "id": "751071016",
+                                    "speaker": "Paimon",
+                                    "text": "A \"rock flying at high speed\"... Would that be those frangible rounds that the Saurian poachers were talking about?"
+                                },
+                                {
+                                    "id": "751071017",
+                                    "speaker": "Paimon",
+                                    "text": "Ugh, Paimon's getting peeved now..."
+                                },
+                                {
+                                    "id": "751071018",
+                                    "speaker": "Black Screen",
+                                    "text": "You and Paimon tell Qax the whole story...\\n"
+                                },
+                                {
+                                    "id": "751071019",
+                                    "speaker": "Qax",
+                                    "text": "So, King Coconut was ambushed by those criminals, leading to those internal injuries... Good thing I came back early, or the consequences would've been too dreadful to contemplate!"
+                                },
+                                {
+                                    "id": "751071020",
+                                    "speaker": "Qax",
+                                    "text": "Those scum! I've a mind to give them a punch or two..."
+                                },
+                                {
+                                    "id": "751071021",
+                                    "speaker": "Qax",
+                                    "text": "No, that's too few. Let them pay it off in installments: Two thousand punches for every victim who had their Saurian companion kidnapped!"
+                                },
+                                {
+                                    "id": "751071022",
+                                    "speaker": "\"King Coconut\"",
+                                    "text": "Awrrrh!"
+                                },
+                                {
+                                    "id": "751071023",
+                                    "speaker": "Paimon",
+                                    "text": "Hmm, that's true! Had we known, we would've tied a few of them up and brought them over to you and King Coconut. Might do you some good to give them a thorough drubbing and let off a little steam."
+                                },
+                                {
+                                    "id": "751071024",
+                                    "speaker": "Qax",
+                                    "text": "Anyway, let's put venting to one side for now..."
+                                },
+                                {
+                                    "id": "751071025",
+                                    "speaker": "Qax",
+                                    "text": "So the two of you wiped out this criminal syndicate in the time it takes to make breakfast? That's beyond incredible!",
+                                    "choices": [
+                                        {
+                                            "id": "751071026",
+                                            "text": "They haven't been wiped out completely just yet.",
+                                            "response": [
+                                                {
+                                                    "id": "751071028",
+                                                    "speaker": "Paimon",
+                                                    "text": "That's right. Their boss took off super quick and has probably made it to another of their bases..."
+                                                },
+                                                {
+                                                    "id": "751071029",
+                                                    "speaker": "Paimon",
+                                                    "text": "We won't show her a lick of mercy next time!"
+                                                },
+                                                {
+                                                    "id": "751071030",
+                                                    "speaker": "Qax",
+                                                    "text": "If that's the case, King Coconut and I will warn the Flower-Feather Clan patrol crews to keep vigilant and watch out for this criminal syndicate once we get back there."
+                                                },
+                                                {
+                                                    "id": "751071031",
+                                                    "speaker": "Qax",
+                                                    "text": "The campsite we built can be kept to serve as a rest area for their patrols, and we can use a bulletin board to warn passersby and help them avoid further ambushes."
+                                                },
+                                                {
+                                                    "id": "751071032",
+                                                    "speaker": "Paimon",
+                                                    "text": "Yeah, having the patrols spend more time in this area would help deter any bad guys. That's a real sensible suggestion, Qax!"
+                                                },
+                                                {
+                                                    "id": "751071033",
+                                                    "speaker": "Qax",
+                                                    "text": "Please hold on a second while I get this bulletin board set up..."
+                                                },
+                                                {
+                                                    "id": "751071034",
+                                                    "speaker": "Black Screen",
+                                                    "text": "Qax takes the remaining wood and effortlessly makes a standard bulletin board, using a spray paint can to create a rather conspicuous image..."
+                                                },
+                                                {
+                                                    "id": "751071035",
+                                                    "speaker": "Qax",
+                                                    "text": "Voila! All done!"
+                                                },
+                                                {
+                                                    "id": "751071036",
+                                                    "speaker": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+                                                    "text": "Rawr!"
+                                                },
+                                                {
+                                                    "id": "751071037",
+                                                    "speaker": "\"King Coconut\"",
+                                                    "text": "Hrrrh~"
+                                                },
+                                                {
+                                                    "id": "751071038",
+                                                    "speaker": "Paimon",
+                                                    "text": "#This bulletin board... Huh, is that us and {REALNAME[ID(2)|SHOWHOST(true)]}?",
+                                                    "choices": [
+                                                        {
+                                                            "id": "751071039",
+                                                            "text": "Excellent likenesses.",
+                                                            "response": [
+                                                                {
+                                                                    "id": "751071040",
+                                                                    "speaker": "Qax",
+                                                                    "text": "Thanks for the compliment. Time is of the essence, so I didn't get too hung up on the details..."
+                                                                },
+                                                                {
+                                                                    "id": "751071041",
+                                                                    "speaker": "Qax",
+                                                                    "text": "I'll try to draw a more formal poster for you two later, both in commemoration of your efforts in fighting the syndicate, but also to remind all of us what you look like."
+                                                                },
+                                                                {
+                                                                    "id": "751071045",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "In any case, this will be... The first base for the campaign against this syndicate of Saurian traffickers. We can come over and check things out if we find the time."
+                                                                },
+                                                                {
+                                                                    "id": "751071046",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "Hopefully, this place — no, all of Natlan — will be free of these gangs trafficking stolen Saurians and other animals!"
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "id": "751071042",
+                                                            "text": "Could you make us look cooler?",
+                                                            "response": [
+                                                                {
+                                                                    "id": "751071043",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "C'mon, don't be so demanding. Paimon thinks this style's real heart-warming!"
+                                                                },
+                                                                {
+                                                                    "id": "751071044",
+                                                                    "speaker": "Qax",
+                                                                    "text": "I'll try to draw a more formal poster for you two later, both in commemoration of your efforts in fighting the syndicate, but also to remind all of us what you look like."
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "751071027",
+                                            "text": "There are still vestiges of that gang remaining."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "751071004",
+                            "text": "Actually, we were going to do a little pre-breakfast workout."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "7510702",
+            "objective": "",
+            "dialogues": [
+                {
+                    "id": "751070201",
+                    "speaker": "Weakened Qucusaur",
+                    "text": "Bad guys... In the hills... Threw stones... It hurt..."
+                },
+                {
+                    "id": "751070202",
+                    "speaker": "Weakened Qucusaur",
+                    "text": "I... ran..."
+                },
+                {
+                    "id": "751070203",
+                    "speaker": "\"King Coconut\"",
+                    "text": "Many... Bad guys... Beat me... Secretly..."
+                },
+                {
+                    "id": "751070204",
+                    "speaker": "\"King Coconut\"",
+                    "text": "Qax came back... And they left..."
+                }
+            ]
+        },
+        {
+            "id": "7510704",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "751070401",
+                    "speaker": "\"King Coconut\"",
+                    "text": "Wrooo..."
+                },
+                {
+                    "id": "751070402",
+                    "speaker": "Weakened Qucusaur",
+                    "text": "Awrowr... *cough*!"
+                }
+            ]
+        },
+        {
+            "id": "7510719",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "751071901",
+                    "speaker": "Qax",
+                    "text": "Welcome back!"
+                },
+                {
+                    "id": "751071902",
+                    "speaker": "Qax",
+                    "text": "I guess you're going to collect some cooking ingredients and get breakfast ready.",
+                    "choices": [
+                        {
+                            "id": "751071903",
+                            "text": "I picked up a few random fish... Do they count?",
+                            "response": [
+                                {
+                                    "id": "751071905",
+                                    "speaker": "Paimon",
+                                    "text": "Did you bring the vet by already? That was super quick!"
+                                },
+                                {
+                                    "id": "751071906",
+                                    "speaker": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+                                    "text": "Ehrrr?"
+                                },
+                                {
+                                    "id": "751071907",
+                                    "speaker": "\"King Coconut\"",
+                                    "text": "Hrroo, mrroo!"
+                                },
+                                {
+                                    "id": "751071908",
+                                    "speaker": "Paimon",
+                                    "text": "Looks as though King Coconut's made good progress — he's even able to stand up already. Nice!"
+                                },
+                                {
+                                    "id": "751071909",
+                                    "speaker": "Paimon",
+                                    "text": "Still, where's that vet?"
+                                },
+                                {
+                                    "id": "751071910",
+                                    "speaker": "Qax",
+                                    "text": "I didn't see any of you when I brought him here, so I took him to treat King Coconut first."
+                                },
+                                {
+                                    "id": "751071911",
+                                    "speaker": "Qax",
+                                    "text": "He assessed that King Coconut was hit by a rock flying at high speed and suffered internal injuries... I can't put two and two together, though. There weren't any loose rocks around the spot where King Coconut collapsed."
+                                },
+                                {
+                                    "id": "751071912",
+                                    "speaker": "Qax",
+                                    "text": "Luckily, the vet is experienced in dealing with this kind of injury, so he had a special medicine ready to treat King Coconut's internal bruising and greatly relieve the pain..."
+                                },
+                                {
+                                    "id": "751071913",
+                                    "speaker": "Qax",
+                                    "text": "Now that King Coconut can walk slowly, we can take him to the vet for more comprehensive treatment."
+                                },
+                                {
+                                    "id": "751071914",
+                                    "speaker": "Qax",
+                                    "text": "We found another Qucusaurus near the camp bearing similar injuries — a lost Saurian companion from the Flower-Feather Clan, apparently."
+                                },
+                                {
+                                    "id": "751071915",
+                                    "speaker": "Qax",
+                                    "text": "After treating it, the vet took it back to the tribe."
+                                },
+                                {
+                                    "id": "751071916",
+                                    "speaker": "Paimon",
+                                    "text": "A \"rock flying at high speed\"... Would that be those frangible rounds that the Saurian poachers were talking about?"
+                                },
+                                {
+                                    "id": "751071917",
+                                    "speaker": "Paimon",
+                                    "text": "Ugh, Paimon's getting peeved now..."
+                                },
+                                {
+                                    "id": "751071918",
+                                    "speaker": "Black Screen",
+                                    "text": "You and Paimon tell Qax the whole story, plus its connections to your previous animal rescue..."
+                                },
+                                {
+                                    "id": "751071919",
+                                    "speaker": "Qax",
+                                    "text": "So, King Coconut was ambushed by those criminals, leading to those internal injuries... Good thing I came back early, or the consequences would've been too dreadful to contemplate!"
+                                },
+                                {
+                                    "id": "751071920",
+                                    "speaker": "Qax",
+                                    "text": "Those scum! I've a mind to give them a punch or two..."
+                                },
+                                {
+                                    "id": "751071921",
+                                    "speaker": "Qax",
+                                    "text": "No, that's too few. Let them pay it off in installments: Two thousand punches for every victim who had their Saurian companion kidnapped!"
+                                },
+                                {
+                                    "id": "751071922",
+                                    "speaker": "\"King Coconut\"",
+                                    "text": "Awrrrh!"
+                                },
+                                {
+                                    "id": "751071923",
+                                    "speaker": "Paimon",
+                                    "text": "Hmm, that's true! Had we known, we would've tied a few of them up and brought them over to you and King Coconut. Might do you some good to give them a thorough drubbing and let off a little steam."
+                                },
+                                {
+                                    "id": "751071924",
+                                    "speaker": "Qax",
+                                    "text": "Anyway, let's put venting to one side for now..."
+                                },
+                                {
+                                    "id": "751071925",
+                                    "speaker": "Qax",
+                                    "text": "So the two of you wiped out this criminal syndicate in the time it takes to make breakfast? That's beyond incredible!",
+                                    "choices": [
+                                        {
+                                            "id": "751071926",
+                                            "text": "We should've rooted them all out this time.",
+                                            "response": [
+                                                {
+                                                    "id": "751071928",
+                                                    "speaker": "Paimon",
+                                                    "text": "That's right. We might have taken their boss out this time, but there might still be more bad guys waiting to claim the top spot and rebuild in secret..."
+                                                },
+                                                {
+                                                    "id": "751071929",
+                                                    "speaker": "Paimon",
+                                                    "text": "So we can't let our guard down!"
+                                                },
+                                                {
+                                                    "id": "751071930",
+                                                    "speaker": "Qax",
+                                                    "text": "If that's the case, King Coconut and I will warn the Flower-Feather Clan patrol crews to keep vigilant and watch out for this criminal syndicate once we get back there."
+                                                },
+                                                {
+                                                    "id": "751071931",
+                                                    "speaker": "Qax",
+                                                    "text": "The campsite we built can be kept to serve as a rest area for their patrols, and we can use a bulletin board to warn passersby and help them avoid further ambushes."
+                                                },
+                                                {
+                                                    "id": "751071932",
+                                                    "speaker": "Paimon",
+                                                    "text": "Yeah, having the patrols spend more time in this area would help deter any bad guys. That's a real sensible suggestion, Qax!"
+                                                },
+                                                {
+                                                    "id": "751071933",
+                                                    "speaker": "Qax",
+                                                    "text": "Please hold on a second while I get this bulletin board set up..."
+                                                },
+                                                {
+                                                    "id": "751071934",
+                                                    "speaker": "Black Screen",
+                                                    "text": "Qax takes the remaining wood and effortlessly makes a standard bulletin board, using a spray paint can to create a rather conspicuous image..."
+                                                },
+                                                {
+                                                    "id": "751071935",
+                                                    "speaker": "Qax",
+                                                    "text": "Voila! All done!"
+                                                },
+                                                {
+                                                    "id": "751071936",
+                                                    "speaker": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+                                                    "text": "Rawr!"
+                                                },
+                                                {
+                                                    "id": "751071937",
+                                                    "speaker": "\"King Coconut\"",
+                                                    "text": "Hrrrh~"
+                                                },
+                                                {
+                                                    "id": "751071938",
+                                                    "speaker": "Paimon",
+                                                    "text": "#This bulletin board... Huh, is that us and {REALNAME[ID(2)|SHOWHOST(true)]}?",
+                                                    "choices": [
+                                                        {
+                                                            "id": "751071939",
+                                                            "text": "Excellent likenesses.",
+                                                            "response": [
+                                                                {
+                                                                    "id": "751071940",
+                                                                    "speaker": "Qax",
+                                                                    "text": "Thanks for the compliment. Time is of the essence, so I didn't get too hung up on the details..."
+                                                                },
+                                                                {
+                                                                    "id": "751071941",
+                                                                    "speaker": "Qax",
+                                                                    "text": "I'll try to draw a more formal poster for you two later, both in commemoration of your efforts in fighting the syndicate, but also to remind all of us what you look like."
+                                                                },
+                                                                {
+                                                                    "id": "751071945",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "In any case, this will be... The first base for the campaign against this syndicate of Saurian traffickers. We can come over and check things out if we find the time."
+                                                                },
+                                                                {
+                                                                    "id": "751071946",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "Hopefully, this place — no, all of Natlan — will be free of these gangs trafficking stolen Saurians and other animals!"
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "id": "751071942",
+                                                            "text": "Could you make us look cooler?",
+                                                            "response": [
+                                                                {
+                                                                    "id": "751071943",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "C'mon, don't be so demanding. Paimon thinks this style's real heart-warming!"
+                                                                },
+                                                                {
+                                                                    "id": "751071944",
+                                                                    "speaker": "Qax",
+                                                                    "text": "I'll try to draw a more formal poster for you two later, both in commemoration of your efforts in fighting the syndicate, but also to remind all of us what you look like."
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "751071927",
+                                            "text": "But still, we should be wary of any who might remain."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "751071904",
+                            "text": "Actually, we ended up taking care of some old foes."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "7510720",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "751072001",
+                    "speaker": "\"King Coconut\"",
+                    "text": "Hrooo... Aoowrrr!"
+                },
+                {
+                    "id": "751072002",
+                    "speaker": "Weakened Qucusaur",
+                    "text": "*cough* *hack*!"
+                }
+            ]
+        },
+        {
+            "id": "7510721",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "751072101",
+                    "speaker": "\"King Coconut\"",
+                    "text": "Must be careful... Must be careful!"
+                },
+                {
+                    "id": "751072102",
+                    "speaker": "Weakened Qucusaur",
+                    "text": "Don't get hit, or it's gonna hurt!"
+                }
+            ]
+        },
+        {
+            "id": "7510728",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "751072801",
+                    "speaker": "\"King Coconut\"",
+                    "text": "Wrooo..."
+                }
+            ]
+        },
+        {
+            "id": "7510729",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "751072901",
+                    "speaker": "\"King Coconut\"",
+                    "text": "It hurts... It hurts..."
+                }
+            ]
+        },
+        {
+            "id": "7510799",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "751079902",
+                    "speaker": "Paimon",
+                    "text": "#Whoa... That was scary. Great job, {REALNAME[ID(2)|SHOWHOST(true)]}!"
+                },
+                {
+                    "id": "751079903",
+                    "speaker": "Paimon",
+                    "text": "Looks like the camp is a real mess! Let's hit 'em now, and take them all out in one go!"
+                },
+                {
+                    "id": "751079904",
+                    "speaker": "<UNKNOWN>",
+                    "text": "The cunning Saurian traffickers were on high alert. As soon as they saw someone attacking, they took to their hot air balloon and fled..."
+                }
+            ]
+        }
+    ]
+}

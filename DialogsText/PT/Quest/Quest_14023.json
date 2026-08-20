@@ -1,0 +1,1634 @@
+{
+    "quest": {
+        "id": "14023",
+        "title": "A Criança Que Não Existe",
+        "description": "É um belo dia. Sim, um belo dia para um passeio por Poisson!",
+        "rewards": [
+            {
+                "itemId": 102,
+                "count": 550
+            },
+            {
+                "itemId": 202,
+                "count": 38100
+            },
+            {
+                "itemId": 104003,
+                "count": 4
+            },
+            {
+                "itemId": 104013,
+                "count": 8
+            }
+        ],
+        "rewards_formatted": "EXP de Aventura x550, Mora x38100, EXP do Herói x4, Minério de Refinamento Místico x8",
+        "chapter": {
+            "icon": "UI_ChapterIcon_Arlecchino",
+            "id": "2047",
+            "num": "Capítulo de Ignis Purgatorius: Ato I",
+            "title": "Quando a Chama do Lar se Apaga"
+        },
+        "total_dialogue_lines": 299,
+        "total_speaker_counts": {
+            "???": 2,
+            "Black Screen": 2,
+            "Chapleau": 7,
+            "Clervie": 20,
+            "Filliol": 8,
+            "Foltz": 9,
+            "Freminet": 37,
+            "Heloir": 6,
+            "Lynette": 10,
+            "Lyney": 104,
+            "Lyney & Freminet & Lynette": 1,
+            "Multidão": 1,
+            "Nanteuil": 8,
+            "Paimon": 49,
+            "Player": 24,
+            "Serva": 11
+        }
+    },
+    "talks": [
+        {
+            "id": "1402301",
+            "objective": "Vá a Poisson",
+            "dialogues": [
+                {
+                    "id": "140230101",
+                    "speaker": "Lyney",
+                    "text": "#Ei, {NICKNAME}! Paimon!"
+                },
+                {
+                    "id": "140230102",
+                    "speaker": "Paimon",
+                    "text": "Hã, Paimon conhece essa voz..."
+                },
+                {
+                    "id": "140230103",
+                    "speaker": "Lyney",
+                    "text": "Por aqui!",
+                    "choices": [
+                        {
+                            "id": "140230104",
+                            "text": "Lyney!",
+                            "response": [
+                                {
+                                    "id": "140230106",
+                                    "speaker": "Lyney",
+                                    "text": "Para dizer de forma mais popular, isso parece ter sido um \"encontro predestinado\". Me deparar com vocês assim do nada realmente fez o meu dia. Eu certamente não estava esperando."
+                                },
+                                {
+                                    "id": "140230107",
+                                    "speaker": "Paimon",
+                                    "text": "Nem fale! O que te traz a Poisson?"
+                                },
+                                {
+                                    "id": "140230108",
+                                    "speaker": "Paimon",
+                                    "text": "Espera! Paimon entendeu! Você deve estar aqui para os seus shows de mágica, não é?"
+                                },
+                                {
+                                    "id": "140230109",
+                                    "speaker": "Lyney",
+                                    "text": "Uh... Na verdade, nos deparamos com um pouco de problemas em casa, então \"Pai\" arranjou para ficarmos em Poisson por enquanto."
+                                },
+                                {
+                                    "id": "140230110",
+                                    "speaker": "Paimon",
+                                    "text": "Oh, Lynette e Freminet estão aqui também?"
+                                },
+                                {
+                                    "id": "140230111",
+                                    "speaker": "Lyney",
+                                    "text": "Sim, junto com muitos dos outros membros da Casa da Lareira. Você deve ter percebido que Poisson parece um pouco mais... cheia do que de costume."
+                                },
+                                {
+                                    "id": "140230112",
+                                    "speaker": "Paimon",
+                                    "text": "Então você está dizendo que cerca de metade da organização se moveu para Poisson? Parece que você se deparou com um pouco mais do que apenas \"um probleminha\". O que realmente está acontecendo?"
+                                },
+                                {
+                                    "id": "140230113",
+                                    "speaker": "Lyney",
+                                    "text": "Uh... Bem..."
+                                },
+                                {
+                                    "id": "140230114",
+                                    "speaker": "Serva",
+                                    "text": "#Já que vocês {M#dois}{F#duas} estão curios{M#o}{F#a}s, posso dizer algumas coisinhas."
+                                },
+                                {
+                                    "id": "140230115",
+                                    "speaker": "Paimon",
+                                    "text": "Ahh! Você quase mata Paimon de susto!"
+                                },
+                                {
+                                    "id": "140230116",
+                                    "speaker": "Lyney",
+                                    "text": "\"Pai\", você está aqui."
+                                },
+                                {
+                                    "id": "140230117",
+                                    "speaker": "Paimon",
+                                    "text": "Hmm... Sabe? Pensando bem, talvez não precisamos saber. Provavelmente é tudo coisa super confidencial da Casa da Lareira, não é? Totalmente não estávamos tentando bisbilhotar nem nada..."
+                                },
+                                {
+                                    "id": "140230118",
+                                    "speaker": "Serva",
+                                    "text": "Não precisa ficar tão nervosa. Eu pude sentir sua preocupação genuína pela sua conversa agora há pouco."
+                                },
+                                {
+                                    "id": "140230119",
+                                    "speaker": "Serva",
+                                    "text": "É claro, eu também consigo entender sua confusão. Enviar tantos Fatui aqui para Poisson, é natural que alguns possam suspeitar de algum \"motivo por trás\".",
+                                    "choices": [
+                                        {
+                                            "id": "140230120",
+                                            "text": "#Bem, estamos um pouco curios{M#o}{F#a}s...",
+                                            "response": [
+                                                {
+                                                    "id": "140230122",
+                                                    "speaker": "Serva",
+                                                    "text": "Eu entendo. Estou ciente de que você teve sua cota de confrontos com os Fatui no passado. E eu não posso garantir exatamente que continuaremos em bons termos no futuro."
+                                                },
+                                                {
+                                                    "id": "140230123",
+                                                    "speaker": "Serva",
+                                                    "text": "Porém, quanto a agora, eu diria que não há razão para estarmos em conflito, não concorda? A Casa da Lareira pode ser mais aberta com aqueles que trabalharam tão perto conosco no passado."
+                                                },
+                                                {
+                                                    "id": "140230124",
+                                                    "speaker": "Serva",
+                                                    "text": "Quanto ao problema em questão... Bem, dificilmente tem um motivo por detrás. Para ser sincera, tudo vem de um rumor que anda circulando pela Casa da Lareira. É um assunto interno."
+                                                },
+                                                {
+                                                    "id": "140230125",
+                                                    "speaker": "Paimon",
+                                                    "text": "Que tipo de rumor?"
+                                                },
+                                                {
+                                                    "id": "140230126",
+                                                    "speaker": "Serva",
+                                                    "text": "Um rumor de que uma certa \"criança fantasma\" está se escondendo na Casa da Lareira.",
+                                                    "choices": [
+                                                        {
+                                                            "id": "140230127",
+                                                            "text": "Algum tipo de história de fantasmas?",
+                                                            "response": [
+                                                                {
+                                                                    "id": "140230129",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "Uma criança fantasma? Só ouvir o nome deixa Paimon toda arrepiada..."
+                                                                },
+                                                                {
+                                                                    "id": "140230130",
+                                                                    "speaker": "Serva",
+                                                                    "text": "Um espírito que já devia ter deixado de existir está se esgueirando pelas sombras da Casa da Lareira."
+                                                                },
+                                                                {
+                                                                    "id": "140230131",
+                                                                    "speaker": "Serva",
+                                                                    "text": "Então, eu decidi trazer as crianças para Poisson antes de continuar a investigar a situação. Espero ser capaz de investigar o espírito rapidamente. Depois disso, é só questão de \"resolver\" a situação, por assim dizer. Não deve ser problema nenhum."
+                                                                },
+                                                                {
+                                                                    "id": "140230132",
+                                                                    "speaker": "Serva",
+                                                                    "text": "#Se você estiver curios{M#o}{F#a}, ou ainda tiver alguma preocupação, talvez seja recomendável ficar por aqui por alguns dias. Tenho certeza que as crianças ficariam muito felizes de receber visitantes."
+                                                                },
+                                                                {
+                                                                    "id": "140230133",
+                                                                    "speaker": "Serva",
+                                                                    "text": "#Lyney, te deixarei entretendo noss{M#o}{F#a}s convidad{M#o}{F#a}s. Tenho alguns assuntos para resolver."
+                                                                },
+                                                                {
+                                                                    "id": "140230134",
+                                                                    "speaker": "Lyney",
+                                                                    "text": "Claro, \"Pai\"."
+                                                                },
+                                                                {
+                                                                    "id": "140230135",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "Ufa..."
+                                                                },
+                                                                {
+                                                                    "id": "140230136",
+                                                                    "speaker": "Player",
+                                                                    "text": "#(Não consigo evitar de me sentir intimidad{M#o}{F#a} durante a nossa conversa com a Serva. Agora que ela se foi, parece que consigo respirar novamente...)"
+                                                                },
+                                                                {
+                                                                    "id": "140230137",
+                                                                    "speaker": "Player",
+                                                                    "text": "(Ela também sugeriu que ficássemos por alguns dias... Mas por quê?)"
+                                                                },
+                                                                {
+                                                                    "id": "140230138",
+                                                                    "speaker": "Lyney",
+                                                                    "text": "Hmm, já faz um bom tempo que sonho em te convidar para a nossa casa e te apresentar para meus outros irmãos."
+                                                                },
+                                                                {
+                                                                    "id": "140230139",
+                                                                    "speaker": "Lyney",
+                                                                    "text": "#Você já é bem conhecid{M#o}{F#a} na organização. Muitas pessoas andam falando de você, especialmente depois de tudo com a profecia."
+                                                                },
+                                                                {
+                                                                    "id": "140230140",
+                                                                    "speaker": "Lyney",
+                                                                    "text": "#Se você estiver dispost{M#o}{F#a}, por que não fica um pouco e conversa conosco?"
+                                                                },
+                                                                {
+                                                                    "id": "140230141",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "#Hmm, tudo bem! Não temos mais nada para fazer no momento de qualquer forma. Mas seremos clar{M#o}{F#a}s, só vamos ficar lá como convidad{M#o}{F#a}s, tá bom? Não tenha nenhuma... espera um segundinho aí! Se somos {M#seus \"convidados\"}{F#suas \"convidadas\"}, isso provavelmente significa que vamos ser servid{M#o}{F#a}s um monte de comidinha gostosa, não é?"
+                                                                },
+                                                                {
+                                                                    "id": "140230142",
+                                                                    "speaker": "Lyney",
+                                                                    "text": "É claro! Durante nossa estadia em Poisson, estamos ajudando os habitantes locais a pescar. Trazemos bastante todos os dias. Na verdade, hoje é a oportunidade perfeita para mostrar o que consigo fazer na cozinha."
+                                                                },
+                                                                {
+                                                                    "id": "140230143",
+                                                                    "speaker": "Lyney",
+                                                                    "text": "Vamos. Te levarei para onde estamos ficando."
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "id": "140230128",
+                                                            "text": "Sinto que já estou ficando toda arrepiada."
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "140230121",
+                                            "text": "Ainda temos algumas desconfianças sobre sua organização."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "140230105",
+                            "text": "Já faz muito tempo."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "1402308",
+            "objective": "Visite a \"Casa\"",
+            "dialogues": [
+                {
+                    "id": "140230801",
+                    "speaker": "Lyney",
+                    "text": "Nós alugamos esta casa de um dos moradores locais para usá-la como base temporária. Voltarei mais tarde para arrumar um pouco. Depois disso, ela estará pronta para você ficar esta noite."
+                },
+                {
+                    "id": "140230802",
+                    "speaker": "Paimon",
+                    "text": "Ótimo, obrigada! Então para onde vamos agora?"
+                },
+                {
+                    "id": "140230803",
+                    "speaker": "Lyney",
+                    "text": "Bem, quando eu acabei encontrando vocês mais cedo, na verdade, eu estava distribuindo alguns suprimentos."
+                },
+                {
+                    "id": "140230804",
+                    "speaker": "Lyney",
+                    "text": "Com tantas pessoas ficando em Poisson, precisamos trazer suprimentos de fora ocasionalmente. Eu provavelmente deveria garantir que o restante desses mantimentos seja entregue, caso contrário, as pessoas podem começar a ficar inquietas."
+                },
+                {
+                    "id": "140230805",
+                    "speaker": "Paimon",
+                    "text": "Certo! Então vamos com você!"
+                },
+                {
+                    "id": "140230806",
+                    "speaker": "Paimon",
+                    "text": "Há todo tipo de rumores sobre sua organização circulando por aí. Paimon não tem certeza se poderia sequer fazer um palpite sobre o que é verdade e o que não é."
+                },
+                {
+                    "id": "140230807",
+                    "speaker": "Paimon",
+                    "text": "Agora que finalmente temos a chance de ver um dia na vida da Casa, podemos observar de perto como vocês operam."
+                },
+                {
+                    "id": "140230808",
+                    "speaker": "Lyney",
+                    "text": "#Bem, vocês são mais que bem-vind{M#o}{F#a}s para vir. Apenas me sigam."
+                }
+            ]
+        },
+        {
+            "id": "1402302",
+            "objective": "Ajude Lyney a distribuir suprimentos",
+            "dialogues": [
+                {
+                    "id": "140230201",
+                    "speaker": "Chapleau",
+                    "text": "Lyney! Você finalmente chegou! Os suprimentos... Imagino que você trou—"
+                },
+                {
+                    "id": "140230202",
+                    "speaker": "Lyney",
+                    "text": "Trouxe eles comigo? Sim, aqui estão."
+                },
+                {
+                    "id": "140230203",
+                    "speaker": "Lyney",
+                    "text": "Uh... olá? Algo te chamou a atenção?"
+                },
+                {
+                    "id": "140230204",
+                    "speaker": "Chapleau",
+                    "text": "#{NICKNAME}! Paimon!"
+                },
+                {
+                    "id": "140230205",
+                    "speaker": "Foltz",
+                    "text": "Sem chance!"
+                },
+                {
+                    "id": "140230206",
+                    "speaker": "Heloir",
+                    "text": "#Venha pessoal! Rápido! {NICKNAME} e Paimon estão aqui!"
+                },
+                {
+                    "id": "140230207",
+                    "speaker": "Lyney",
+                    "text": "#Um por vez, por favor. Não fique todo mundo em cima {M#dele}{F#dela}s assim. Não queremos assustar {M#nossos convidados}{F#nossas convidadas}, não é?"
+                },
+                {
+                    "id": "140230208",
+                    "speaker": "Paimon",
+                    "text": "Está tudo bem. Tenho que dizer, Paimon não tinha percebido que eramos TÃO famosas assim...."
+                },
+                {
+                    "id": "140230209",
+                    "speaker": "Foltz",
+                    "text": "É claro! \"Pai\" e Lyney nos contaram muito sobre vocês!"
+                },
+                {
+                    "id": "140230210",
+                    "speaker": "Chapleau",
+                    "text": "#\"Pai\" nos contou como você ajudou Lyney. Segundo ela, você é {M#um amigo}{F#uma amiga} confiável, e até onde sabemos, esse é o maior elogio que já ouvimos ela dar. Como você deve imaginar, todos andam bem curiosos sobre você."
+                },
+                {
+                    "id": "140230211",
+                    "speaker": "Foltz",
+                    "text": "#Ouvi que {NICKNAME} é tão forte que consegue mover uma montanha com as próprias mãos!"
+                },
+                {
+                    "id": "140230212",
+                    "speaker": "Heloir",
+                    "text": "Ouvi que Paimon come tanto, que ela consegue limpar todo o depósito do Hotel Debord em apenas três dias!"
+                },
+                {
+                    "id": "140230213",
+                    "speaker": "Paimon",
+                    "text": "Espera um segundinho, esse é o rumor que você ouviu sobre a Paimon!? Nada legal!"
+                },
+                {
+                    "id": "140230214",
+                    "speaker": "Player",
+                    "text": "O meu também é bem exagerado..."
+                },
+                {
+                    "id": "140230215",
+                    "speaker": "Foltz",
+                    "text": "Oh, espera! Quando convidados visitam, você deveria dar presentes e coisas do gênero para eles, não é?"
+                },
+                {
+                    "id": "140230216",
+                    "speaker": "Paimon",
+                    "text": "Ah, não precisamos de nada assim. Além disso, não temos nada para dar a você..."
+                },
+                {
+                    "id": "140230217",
+                    "speaker": "Heloir",
+                    "text": "Qual é, a gente insiste! Posso te dar um pouco das minhas poções novas? Só escolher o seu veneno — e com isso eu quero dizer remédio ou veneno mesmo. Tenho dos dois."
+                },
+                {
+                    "id": "140230218",
+                    "speaker": "Paimon",
+                    "text": "...Hã?"
+                },
+                {
+                    "id": "140230219",
+                    "speaker": "Foltz",
+                    "text": "Ooou, talvez Chapleau pode ensinar a vocês sobre assassinato às escondidas! Ele é super bom nisso! Nunca erra o seu alvo!"
+                },
+                {
+                    "id": "140230220",
+                    "speaker": "Chapleau",
+                    "text": "#Ah, isso não é má ideia! Sei que você normalmente prefere lutar de frente, mas não custa expandir os seus talentos, não é? Quando se trata de eliminar seus inimigos, ficar quietinh{M#o}{F#a} pode ser muito útil. Confie em mim — sei muito bem."
+                },
+                {
+                    "id": "140230221",
+                    "speaker": "Chapleau",
+                    "text": "Fui envenenado não faz muito tempo e ainda estou lidando com os efeitos adversos, então não sou tão bom quanto eu era... mas ainda posso te dar algumas dicas."
+                },
+                {
+                    "id": "140230222",
+                    "speaker": "Paimon",
+                    "text": "Calma, calma, calma. Quando você disse presentes, Paimon não imaginava que seria veneno e táticas de assassinato!"
+                },
+                {
+                    "id": "140230223",
+                    "speaker": "Foltz",
+                    "text": "Mas essas são as melhores coisas que podemos te dar! Você não gostou?"
+                },
+                {
+                    "id": "140230224",
+                    "speaker": "Foltz",
+                    "text": "Ooh! Que tal assim? Me diga o nome de alguém que te irrita, e daremos uma lição nele para você!"
+                },
+                {
+                    "id": "140230225",
+                    "speaker": "Black Screen",
+                    "text": "#As sugestões perigosas não param de vir uma atrás da outra. Você começa a se sentir um pouco sobrecarregad{M#o}{F#a}..."
+                },
+                {
+                    "id": "140230226",
+                    "speaker": "Lyney",
+                    "text": "Muito bem, Foltz, Heloir — acho que já deu de sugestões por ora. Quando se trata de ser um bom anfitrião, é a intenção que conta."
+                },
+                {
+                    "id": "140230227",
+                    "speaker": "Lyney",
+                    "text": "Vocês não precisam de um presente físico para deixar os convidados felizes. Na verdade, incomodar eles com sugestões atrás de sugestões pode deixar eles mais incomodados do que qualquer coisa. Devo dizer que seu entusiasmo certamente já foi demonstrado."
+                },
+                {
+                    "id": "140230228",
+                    "speaker": "Heloir",
+                    "text": "Sério?",
+                    "choices": [
+                        {
+                            "id": "140230229",
+                            "text": "Totalmente.",
+                            "response": [
+                                {
+                                    "id": "140230231",
+                                    "speaker": "Foltz",
+                                    "text": "#Legal! Já faz tanto tempo desde que tivemos convidad{M#os}{F#as} para brincar! Se houver algo que vocês precisam, só avisar!"
+                                },
+                                {
+                                    "id": "140230232",
+                                    "speaker": "Heloir",
+                                    "text": "É! Especialmente se for veneno ou coisa do tipo. Tenho todo tipo de poções para isso."
+                                },
+                                {
+                                    "id": "140230233",
+                                    "speaker": "Lyney",
+                                    "text": "*Ahem* Bem, falaremos com vocês mais tarde. Ainda temos suprimentos para distribuir."
+                                },
+                                {
+                                    "id": "140230234",
+                                    "speaker": "Chapleau",
+                                    "text": "Muito bem. Te vemos mais tarde."
+                                },
+                                {
+                                    "id": "140230235",
+                                    "speaker": "Multidão",
+                                    "text": "Tchau!"
+                                },
+                                {
+                                    "id": "140230236",
+                                    "speaker": "Paimon",
+                                    "text": "Uh... Lyney, sobre todo esse papo de veneno e assassinato agora há pouco..."
+                                },
+                                {
+                                    "id": "140230237",
+                                    "speaker": "Lyney",
+                                    "text": "Te assustou? Esse tipo de conversa faz parte de ser da Casa da Lareira."
+                                },
+                                {
+                                    "id": "140230238",
+                                    "speaker": "Lyney",
+                                    "text": "Quando Foltz era bem jovem, ele estrangulou todos os animais de estimação da família — só por curiosidade. Ele foi chamado de \"criança problemática\" e foi abandonado por sua família."
+                                },
+                                {
+                                    "id": "140230239",
+                                    "speaker": "Lyney",
+                                    "text": "Heloir tem uma obsessão fora do normal com poções. \"Pai\" proibiu ela de testar todas as diferentes poções que ela inventa, mas mesmo assim ela ainda tenta testá-las em segredo. Você realmente precisa ficar de olho nela."
+                                },
+                                {
+                                    "id": "140230240",
+                                    "speaker": "Lyney",
+                                    "text": "Chapleau tem a mesma idade que eu. Enquanto eu sou primariamente responsável por coletar informações, ele cuida da vigilância. Ele é bem apaixonado quanto ao seu trabalho e não se importa de pegar algumas missões bem difíceis."
+                                },
+                                {
+                                    "id": "140230241",
+                                    "speaker": "Lyney",
+                                    "text": "#Sei que vocês não estão acostumad{M#o}{F#a}s com esse tipo de papo, mas posso prometer que eles têm apenas as melhores das intenções. Coisas como táticas de assassinato e desenvolver diferentes venenos... isso realmente significa muito para eles. Eles só estavam tentando compartilhar o melhor do que poderiam oferecer — só isso."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "140230230",
+                            "text": "Definitivamente sentimos o amor."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "1402303",
+            "objective": "Continue distribuindo suprimentos",
+            "dialogues": [
+                {
+                    "id": "140230301",
+                    "speaker": "Lyney",
+                    "text": "Filliol, os suprimentos estão aqui."
+                },
+                {
+                    "id": "140230302",
+                    "speaker": "Filliol",
+                    "text": "#Obrigada. E quem são ess{M#e}{F#a}s? Forasteir{M#o}{F#a}s?"
+                },
+                {
+                    "id": "140230303",
+                    "speaker": "Lyney",
+                    "text": "#Ah, permita-me apresentar. Ess{M#e}{F#a}s são {NICKNAME} e Paimon."
+                },
+                {
+                    "id": "140230304",
+                    "speaker": "Nanteuil",
+                    "text": "Oh, vocês são a dupla famosa que ouvi tanto falar."
+                },
+                {
+                    "id": "140230305",
+                    "speaker": "Nanteuil",
+                    "text": "É um prazer conhecer vocês. Ouvi dizer que viajaram pra todo tipo de lugar. É verdade?"
+                },
+                {
+                    "id": "140230306",
+                    "speaker": "Paimon",
+                    "text": "É claro! Estamos viajando por todo Teyvat!"
+                },
+                {
+                    "id": "140230307",
+                    "speaker": "Filliol",
+                    "text": "Oh, que bom."
+                },
+                {
+                    "id": "140230308",
+                    "speaker": "Nanteuil",
+                    "text": "#Você já deve estar bem familiarizad{M#o}{F#a} com Fontaine a essa altura. Você viu a nova ópera que entrou em cartaz recentemente? Acho que é chamada... \"Os Quatro Mil Ladrões\"?"
+                },
+                {
+                    "id": "140230309",
+                    "speaker": "Paimon",
+                    "text": "É a primeira vez que ouvimos falar!"
+                },
+                {
+                    "id": "140230310",
+                    "speaker": "Nanteuil",
+                    "text": "Parece que vai ser fantástico — pelo que pude perceber dos pôsteres, pelo menos. Vocês definitivamente deveriam dar uma olhada se tiverem um tempinho."
+                },
+                {
+                    "id": "140230311",
+                    "speaker": "Filliol",
+                    "text": "Oh, e tem também \"A Donzela Cega\". Essa supostamente tem interação com a plateia. Parece bem interessante."
+                },
+                {
+                    "id": "140230312",
+                    "speaker": "Black Screen",
+                    "text": "Conforme você passa um tempo conversando sobre cultura popular, a atmosfera fica cada vez mais relaxada..."
+                },
+                {
+                    "id": "140230313",
+                    "speaker": "Filliol",
+                    "text": "Depois que essa missão terminar, acho que irei para uma manicure."
+                },
+                {
+                    "id": "140230314",
+                    "speaker": "Nanteuil",
+                    "text": "Talvez eu deveria pintar o cabelo. Hmm, me pergunto quanto deve custar..."
+                },
+                {
+                    "id": "140230315",
+                    "speaker": "Paimon",
+                    "text": "É só Paimon, ou esses dois parecem ser mais fáceis de se dar bem do que os outros... Parece que a Casa da Lareira também tem alguns membros \"normais\", afinal de contas."
+                },
+                {
+                    "id": "140230316",
+                    "speaker": "Filliol",
+                    "text": "Eu ouvi isso."
+                },
+                {
+                    "id": "140230317",
+                    "speaker": "Paimon",
+                    "text": "Oh! Uh... Ops, hehe..."
+                },
+                {
+                    "id": "140230318",
+                    "speaker": "Nanteuil",
+                    "text": "Acho que você está se referindo a Foltz e os outros? É, definitivamente não somos todos como eles."
+                },
+                {
+                    "id": "140230319",
+                    "speaker": "Filliol",
+                    "text": "Aposto que esses malucos estão praticamente espumando no momento. Heh, tenho certeza que eles não podem esperar para voltar para Snezhnaya para executar o plano..."
+                },
+                {
+                    "id": "140230320",
+                    "speaker": "Lyney",
+                    "text": "Chega, Filliol."
+                },
+                {
+                    "id": "140230321",
+                    "speaker": "Filliol",
+                    "text": "Ah \"não fale da família pelas costas dela\", não é? Heh, tanto faz. Vamos."
+                },
+                {
+                    "id": "140230322",
+                    "speaker": "Nanteuil",
+                    "text": "Uh, acho que isso é um adeus, então! Se vocês tiverem um tempo, deveríamos ir ver a ópera juntos!"
+                },
+                {
+                    "id": "140230323",
+                    "speaker": "Lyney",
+                    "text": "*Suspira*..."
+                },
+                {
+                    "id": "140230324",
+                    "speaker": "Lyney",
+                    "text": "Bem, isso são todos os suprimentos. Provavelmente deveríamos voltar também."
+                },
+                {
+                    "id": "140230325",
+                    "speaker": "Paimon",
+                    "text": "Bem, eles não pareciam tão felizes uns com os outros. Parece que pode ter mais algo acontecendo por aqui...",
+                    "choices": [
+                        {
+                            "id": "140230326",
+                            "text": "Deveríamos observar por enquanto.",
+                            "response": [
+                                {
+                                    "id": "140230328",
+                                    "speaker": "Paimon",
+                                    "text": "#Você tem razão. Só estamos aqui como \"convidad{M#o}{F#a}s\", afinal de contas."
+                                },
+                                {
+                                    "id": "140230329",
+                                    "speaker": "Paimon",
+                                    "text": "Ah, Lyney está ficando super na frente! Vamos, vamos alcançar ele!"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "140230327",
+                            "text": "É melhor não nos metermos."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "1402304",
+            "objective": "Vá para as acomodações temporárias",
+            "dialogues": [
+                {
+                    "id": "140230401",
+                    "speaker": "Lyney",
+                    "text": "Então... o que achou dos membros que você conheceu até agora?"
+                },
+                {
+                    "id": "140230402",
+                    "speaker": "Player",
+                    "text": "Eles certamente têm bastante personalidade."
+                },
+                {
+                    "id": "140230403",
+                    "speaker": "Lyney",
+                    "text": "Haha, bem, \"Pai\" sempre está nos encorajando a sermos obstinados e independentes. Então, se tem algo que temos, são pessoas que não têm medo de falar o que pensam."
+                },
+                {
+                    "id": "140230404",
+                    "speaker": "Lyney",
+                    "text": "Bem, eu provavelmente deveria começar a cozinhar. Querem se juntar?"
+                },
+                {
+                    "id": "140230405",
+                    "speaker": "Paimon",
+                    "text": "É claro!"
+                },
+                {
+                    "id": "140230406",
+                    "speaker": "Lyney",
+                    "text": "Então vamos sair... Hã? Freminet? O que você está fazendo aqui?"
+                },
+                {
+                    "id": "140230407",
+                    "speaker": "Freminet",
+                    "text": "Ah, bem, uh..."
+                },
+                {
+                    "id": "140230408",
+                    "speaker": "Paimon",
+                    "text": "Freminet! Que bom te ver de novo!"
+                },
+                {
+                    "id": "140230409",
+                    "speaker": "Freminet",
+                    "text": "#Digo o mesmo. Ouvi dizer que vocês estão aqui como convidad{M#o}{F#a}s da Casa da Lareira. Bem-vind{M#o}{F#a}s."
+                },
+                {
+                    "id": "140230410",
+                    "speaker": "Lyney",
+                    "text": "#Estávamos indo fazer comida. Por que não se junta? Eu adoraria uma ajuda na cozinha, e eu acho que me lembro de você comentar que queria fazer Sopa de Frutos do Mar para {NICKNAME} e Paimon."
+                },
+                {
+                    "id": "140230411",
+                    "speaker": "Paimon",
+                    "text": "Sopa de Frutos do Mar! Paimon já está babando!"
+                },
+                {
+                    "id": "140230412",
+                    "speaker": "Lyney",
+                    "text": "Você estava procurando alguma coisa, Freminet? Talvez eu possa ajudar."
+                },
+                {
+                    "id": "140230413",
+                    "speaker": "Freminet",
+                    "text": "Ah, não é nada. Só quis ver se tínhamos alguns suprimentos extras."
+                },
+                {
+                    "id": "140230414",
+                    "speaker": "Lyney",
+                    "text": "É, temos algumas sobras. Do que você precisa?"
+                },
+                {
+                    "id": "140230415",
+                    "speaker": "Freminet",
+                    "text": "Comida e água. E tecido limpo, se possível."
+                },
+                {
+                    "id": "140230416",
+                    "speaker": "Lyney",
+                    "text": "Sem problemas. Me dê um segundinho. Comida, água..."
+                },
+                {
+                    "id": "140230417",
+                    "speaker": "Lyney",
+                    "text": "Espera aí... Pra que você precisa de tudo isso? Você não está em nenhuma missão até onde eu saiba, e você ia vir comer com a gente... então, o que está acontecendo?"
+                },
+                {
+                    "id": "140230418",
+                    "speaker": "Freminet",
+                    "text": "E-Eu pensei em pegar uma porção extra, pois eu fico com fome durante a noite. Pode ser porque estou crescendo, sabe, e..."
+                },
+                {
+                    "id": "140230419",
+                    "speaker": "Lyney",
+                    "text": "Freminet."
+                },
+                {
+                    "id": "140230420",
+                    "speaker": "Lyney",
+                    "text": "Você se lembra do que eu te disse? Você não é como eu — suas habilidades em mentir ainda precisam melhorar muito."
+                },
+                {
+                    "id": "140230421",
+                    "speaker": "Lyney",
+                    "text": "Me diga o que está acontecendo. É realmente tão ruim que você precisa esconder do seu próprio irmão?"
+                },
+                {
+                    "id": "140230422",
+                    "speaker": "Paimon",
+                    "text": "Uh... Talvez seja melhor a gente dar espaço para vocês..."
+                },
+                {
+                    "id": "140230423",
+                    "speaker": "Freminet",
+                    "text": "..."
+                },
+                {
+                    "id": "140230424",
+                    "speaker": "Lyney",
+                    "text": "Hm, essa é a primeira vez que vejo esse tipo de olhar no seu rosto. Seja o que aconteceu... isso tem algo a ver com \"Pai\"?"
+                },
+                {
+                    "id": "140230425",
+                    "speaker": "Freminet",
+                    "text": "Sim."
+                },
+                {
+                    "id": "140230426",
+                    "speaker": "Freminet",
+                    "text": "Apenas... me siga."
+                }
+            ]
+        },
+        {
+            "id": "1402309",
+            "objective": "Descubra o que Freminet está escondendo",
+            "dialogues": [
+                {
+                    "id": "140230901",
+                    "speaker": "???",
+                    "text": "Você voltou! Ah, e você trouxe alguns amigos desta vez!"
+                },
+                {
+                    "id": "140230902",
+                    "speaker": "Lyney",
+                    "text": "Olá, meu nome é Lyney. Cresci na Casa da Lareira. E você é..."
+                },
+                {
+                    "id": "140230903",
+                    "speaker": "???",
+                    "text": "Oi, Lyney. Eu também sou uma criança da Casa da Lareira, assim como você!"
+                },
+                {
+                    "id": "140230904",
+                    "speaker": "Clervie",
+                    "text": "Você pode me chamar de Clervie."
+                },
+                {
+                    "id": "140230905",
+                    "speaker": "Lyney",
+                    "text": "Clervie?"
+                },
+                {
+                    "id": "140230906",
+                    "speaker": "Clervie",
+                    "text": "É um prazer conhecê-lo."
+                },
+                {
+                    "id": "140230907",
+                    "speaker": "Paimon",
+                    "text": "Esse nome te lembra de alguma coisa, Lyney?"
+                },
+                {
+                    "id": "140230908",
+                    "speaker": "Lyney",
+                    "text": "Não. Esse não é um nome que temos em nossa lista, tenho certeza disso. Porém, o que eu não tenho certeza... é como ela conseguiu entrar sorrateiramente."
+                },
+                {
+                    "id": "140230909",
+                    "speaker": "Lyney",
+                    "text": "Ela deve ser a \"criança fantasma\" que \"Pai\" está procurando. Pelo que parece, eu imagino que você foi quem a encontrou, Freminet? Você... não contou para \"Pai\", certo?"
+                },
+                {
+                    "id": "140230910",
+                    "speaker": "Freminet",
+                    "text": "Não, não contei para ninguém. Eu só tenho... mantido ela escondida."
+                },
+                {
+                    "id": "140230911",
+                    "speaker": "Lyney",
+                    "text": "Por quanto tempo?"
+                },
+                {
+                    "id": "140230912",
+                    "speaker": "Freminet",
+                    "text": "Por cerca de quinze dias."
+                },
+                {
+                    "id": "140230913",
+                    "speaker": "Lyney",
+                    "text": "Então, desde que chegamos a Poisson, certo? Você tem alguma ideia do que está fazendo!?"
+                },
+                {
+                    "id": "140230914",
+                    "speaker": "Freminet",
+                    "text": "Eu sei o que estou fazendo."
+                },
+                {
+                    "id": "140230915",
+                    "speaker": "Lyney",
+                    "text": "Sério? Porque do meu ponto de vista, parece que você está escondendo justamente a pessoa que \"Pai\" tem tentado encontrar! Se \"Pai\" descobrir sobre isso, todos os envolvidos serão punidos."
+                },
+                {
+                    "id": "140230916",
+                    "speaker": "Lyney",
+                    "text": "Você sabe as regras da Casa, Freminet. \"Pai\" não tolera traição. Por que você está fazendo isso?"
+                },
+                {
+                    "id": "140230917",
+                    "speaker": "Freminet",
+                    "text": "Eu pensei nisso... e não consigo entregar ela assim."
+                },
+                {
+                    "id": "140230918",
+                    "speaker": "Freminet",
+                    "text": "Lyney, você não se lembra do ano passado? Chapleau quase morreu depois de se envenenar naquela missão. Não conseguiu voltar antes do veneno não fazer efeito, e ninguém estava lá para ajudar ele."
+                },
+                {
+                    "id": "140230919",
+                    "speaker": "Freminet",
+                    "text": "Naquela noite, enquanto eu estava dormindo, ouvi uma voz dizendo para eu ir salvá-la. Abri meus olhos, mas não consegui encontrar a origem dela. Pensei que estava ouvindo coisas, mas fui procurar por ela de todo jeito. Por sorte, cheguei a tempo de salvar sua vida."
+                },
+                {
+                    "id": "140230920",
+                    "speaker": "Freminet",
+                    "text": "A sensação de ser \"assombrado\", de ouvir vozes... Isso aconteceu muitas vezes na Casa da Lareira. Tenho certeza de que você notou."
+                },
+                {
+                    "id": "140230921",
+                    "speaker": "Lyney",
+                    "text": "Então o que você está dizendo é... Foi ela? Ela foi quem falou com você naquela noite?"
+                },
+                {
+                    "id": "140230922",
+                    "speaker": "Freminet",
+                    "text": "A menos que haja outros espíritos rondando pela Casa da Lareira, não acho que haja qualquer outra possibilidade."
+                },
+                {
+                    "id": "140230923",
+                    "speaker": "Freminet",
+                    "text": "Se Clervie fosse nossa inimiga, não importaria se ela fosse um espírito ou uma criança real, eu teria agido sem hesitar, porque é isso que \"Pai\" nos ordenou fazer."
+                },
+                {
+                    "id": "140230924",
+                    "speaker": "Freminet",
+                    "text": "Mas, ela tem vivido conosco, nos ajudando das sombras todo esse tempo. Acho que isso a torna parte da família."
+                },
+                {
+                    "id": "140230925",
+                    "speaker": "Freminet",
+                    "text": "Eu não poderia simplesmente entregá-la, não quando há tanto que ainda não sabemos."
+                },
+                {
+                    "id": "140230926",
+                    "speaker": "Lyney",
+                    "text": "Qual é o seu plano, então? Você não pode mantê-la aqui para sempre. Alguém vai descobrir eventualmente."
+                },
+                {
+                    "id": "140230927",
+                    "speaker": "Freminet",
+                    "text": "Eu ainda não pensei tão longe. Não quero desobedecer uma ordem de \"Pai\", mas também não quero colocar Clervie em perigo."
+                },
+                {
+                    "id": "140230928",
+                    "speaker": "Lyney",
+                    "text": "Venha comigo. Há algumas coisas que gostaria de dizer para você em particular."
+                },
+                {
+                    "id": "140230929",
+                    "speaker": "Clervie",
+                    "text": "Esses dois realmente se importam muito um com o outro."
+                },
+                {
+                    "id": "140230930",
+                    "speaker": "Paimon",
+                    "text": "Você acha mesmo? De onde Paimon estava, parecia que eles estavam prestes a começar uma discussão..."
+                },
+                {
+                    "id": "140230931",
+                    "speaker": "Clervie",
+                    "text": "De jeito nenhum! Eles têm um laço muito forte. Eu pude perceber imediatamente, porque também tenho uma amiga assim."
+                },
+                {
+                    "id": "140230932",
+                    "speaker": "Clervie",
+                    "text": "Eu só... Não sei quanto tempo esse tipo de laço pode durar."
+                },
+                {
+                    "id": "140230933",
+                    "speaker": "Player",
+                    "text": "Como assim?"
+                },
+                {
+                    "id": "140230934",
+                    "speaker": "Clervie",
+                    "text": "A escuridão nessa Casa é mais profunda do que você consegue imaginar. Ninguém consegue sair vivo."
+                },
+                {
+                    "id": "140230935",
+                    "speaker": "Freminet",
+                    "text": "Sinto muito, Lyney. Eu realmente não queria arrastar mais ninguém a isso..."
+                },
+                {
+                    "id": "140230936",
+                    "speaker": "Lyney",
+                    "text": "Oh, sério? Você não queria? Porque eu mesmo queria."
+                },
+                {
+                    "id": "140230937",
+                    "speaker": "Freminet",
+                    "text": "Como assim?"
+                },
+                {
+                    "id": "140230938",
+                    "speaker": "Lyney",
+                    "text": "Sabe, quando a gente era mais jovem, você não me chamava de \"Lyney\". Você me chamava de \"Irmão\", igual a Lynette."
+                },
+                {
+                    "id": "140230939",
+                    "speaker": "Lyney",
+                    "text": "Crescemos juntos, nós três. Éramos todos órfãos, todos resgatados por \"Pai\". De todos os irmãos na Casa da Lareira, acho que nosso laço é o mais próximo."
+                },
+                {
+                    "id": "140230940",
+                    "speaker": "Lyney",
+                    "text": "Mais tarde, quando você começou a me chamar de \"Lyney\", eu não fiquei surpreso de verdade. Afinal, Lynette e eu somos parentes consanguíneos. Tivemos que depender um do outro para sobreviver muito antes de fazer parte da Casa."
+                },
+                {
+                    "id": "140230941",
+                    "speaker": "Freminet",
+                    "text": "Lyney, eu..."
+                },
+                {
+                    "id": "140230942",
+                    "speaker": "Lyney",
+                    "text": "Os momentos mais sombrios e difíceis da minha vida aconteceram antes de nos conhecermos — tenho certeza que isso também é verdade para você. Mesmo assim, Freminet, ficamos um do lado do outro por todos esses anos e, para mim, isso significa mais do que sangue."
+                },
+                {
+                    "id": "140230943",
+                    "speaker": "Lyney",
+                    "text": "Você e Lynette são as pessoas mais importantes em minha vida. Ninguém pode substituir você. Então, não vou deixar você enfrentar nada sozinho — não se eu puder fazer alguma coisa."
+                },
+                {
+                    "id": "140230944",
+                    "speaker": "Paimon",
+                    "text": "Eita, parece que as coisas estão ficando meio esquentadas entre Lyney e Freminet... Talvez a gente deva dar uma conferida neles."
+                }
+            ]
+        },
+        {
+            "id": "1402305",
+            "objective": "Fale com Lyney e Freminet",
+            "dialogues": [
+                {
+                    "id": "140230501",
+                    "speaker": "Paimon",
+                    "text": "Ei, vocês... espero que a gente não esteja interrompendo nada, tipo uma briga ou..."
+                },
+                {
+                    "id": "140230502",
+                    "speaker": "Paimon",
+                    "text": "Espera aí! Freminet! V-Você está... chorando? Está tudo bem?"
+                },
+                {
+                    "id": "140230503",
+                    "speaker": "Freminet",
+                    "text": "Está tudo bem... obrigado por perguntar."
+                },
+                {
+                    "id": "140230504",
+                    "speaker": "Paimon",
+                    "text": "Bem, somos todos amigos aqui, não somos? Passamos por tanta coisa juntos, então, se houver algo que possamos ajudar, só dizer!"
+                },
+                {
+                    "id": "140230505",
+                    "speaker": "Lyney",
+                    "text": "#É só uma pequena discussão familiar. Não é nada que {M#nossos convidados}{F#nossas convidadas} devam se incomodar. Na verdade, seria melhor se sua estadia terminasse aqui."
+                },
+                {
+                    "id": "140230506",
+                    "speaker": "Player",
+                    "text": "Mas às vezes, ter convidados por perto pode ser útil."
+                },
+                {
+                    "id": "140230507",
+                    "speaker": "Paimon",
+                    "text": "#Hã? O que você está querendo dizer, {NICKNAME}?"
+                },
+                {
+                    "id": "140230508",
+                    "speaker": "Lyney",
+                    "text": "Quando convidados estão por perto, a família costuma se comportar muito melhor... e quaisquer disputas são menos prováveis de acontecer... é isso que você está tentando dizer, não é?",
+                    "choices": [
+                        {
+                            "id": "140230509",
+                            "text": "Exatamente.",
+                            "response": [
+                                {
+                                    "id": "140230511",
+                                    "speaker": "Lyney",
+                                    "text": "Eu... só... obrigado. Eu realmente esperava te deixar fora disso, mas mesmo se eu pudesse pensar em alguma outra forma de te afastar, não tenho certeza se conseguiria te convencer. Sei que as coisas podem ficar perigosas, então eu te prometo isso — de agora em diante, eu te protegerei como se minha vida dependesse disso."
+                                },
+                                {
+                                    "id": "140230512",
+                                    "speaker": "Freminet",
+                                    "text": "Eu também."
+                                },
+                                {
+                                    "id": "140230513",
+                                    "speaker": "Lyney",
+                                    "text": "Bem, de volta ao assunto em questão. Se não planejamos entregar Clervie para \"Pai\", então nossa única opção é resolver o mistério da identidade dela antes que \"Pai\" consiga encontrá-la."
+                                },
+                                {
+                                    "id": "140230514",
+                                    "speaker": "Lyney",
+                                    "text": "Isso significa descobrir de onde ela veio e o que ela está fazendo aqui. Então, podemos mandar ela embora e fingir que nada disso nunca aconteceu."
+                                },
+                                {
+                                    "id": "140230515",
+                                    "speaker": "Freminet",
+                                    "text": "Eu já tentei."
+                                },
+                                {
+                                    "id": "140230516",
+                                    "speaker": "Lyney",
+                                    "text": "E?"
+                                },
+                                {
+                                    "id": "140230517",
+                                    "speaker": "Freminet",
+                                    "text": "E... nada. Eu tentei levar ela para algum lugar bem longe, mas... depois de um tempo, ela apenas simplesmente apareceu."
+                                },
+                                {
+                                    "id": "140230518",
+                                    "speaker": "Freminet",
+                                    "text": "Ela até veio esse caminho todo com a gente a Poisson. Parece que seja onde a Casa está, ela segue."
+                                },
+                                {
+                                    "id": "140230519",
+                                    "speaker": "Lyney",
+                                    "text": "Hmm, eu não sei muito sobre espíritos... vocês têm alguma ideia?"
+                                },
+                                {
+                                    "id": "140230520",
+                                    "speaker": "Paimon",
+                                    "text": "Deixa eu ver... Ooh! Paimon se lembra de ouvir algo tipo... Se você realizar o último desejo de um espírito antes dele ter morrido, eles vão largar seja lá o que está mantendo eles aqui e voltar para as Linhas Ley."
+                                },
+                                {
+                                    "id": "140230521",
+                                    "speaker": "Paimon",
+                                    "text": "É só que... Paimon não tem certeza de onde ela ouviu isso... então não tem garantia de que realmente vai funcionar nem nada."
+                                },
+                                {
+                                    "id": "140230522",
+                                    "speaker": "Lyney",
+                                    "text": "Bem, parece que vale a pena tentar. Acho que isso significa que deveríamos ir perguntar a ela sobre seu desejo. Mas primeiro... Freminet, preciso que você me prometa uma coisa."
+                                },
+                                {
+                                    "id": "140230523",
+                                    "speaker": "Freminet",
+                                    "text": "O quê?"
+                                },
+                                {
+                                    "id": "140230524",
+                                    "speaker": "Lyney",
+                                    "text": "Preciso que você me prometa que isso vai ficar entre a gente. Somos os planejadores por trás de tudo isso — ninguém mais se envolve. Você consegue fazer isso por mim?"
+                                },
+                                {
+                                    "id": "140230525",
+                                    "speaker": "Freminet",
+                                    "text": "É claro. Eu prometo."
+                                },
+                                {
+                                    "id": "140230526",
+                                    "speaker": "Lyney",
+                                    "text": "Muito bem, então vamos selar essa promessa assim como quando éramos crianças... Soquinho no três. Pronto? Um, dois, três..."
+                                },
+                                {
+                                    "id": "140230527",
+                                    "speaker": "Lyney & Freminet & Lynette",
+                                    "text": "Prometo."
+                                },
+                                {
+                                    "id": "140230528",
+                                    "speaker": "Freminet",
+                                    "text": "Ahh!!!"
+                                },
+                                {
+                                    "id": "140230529",
+                                    "speaker": "Lyney",
+                                    "text": "Eita!!!"
+                                },
+                                {
+                                    "id": "140230530",
+                                    "speaker": "Paimon",
+                                    "text": "L-Lynette!"
+                                },
+                                {
+                                    "id": "140230531",
+                                    "speaker": "Player",
+                                    "text": "Você me assustou!"
+                                },
+                                {
+                                    "id": "140230532",
+                                    "speaker": "Lyney",
+                                    "text": "Q-Que surpresa! *Ahem* O que te traz aqui, querida irmãzinha?"
+                                },
+                                {
+                                    "id": "140230533",
+                                    "speaker": "Lyney",
+                                    "text": "E, uh... quando exatamente você chegou aqui?"
+                                },
+                                {
+                                    "id": "140230534",
+                                    "speaker": "Lynette",
+                                    "text": "Você é um idiota, irmão."
+                                },
+                                {
+                                    "id": "140230535",
+                                    "speaker": "Lyney",
+                                    "text": "Uh..."
+                                },
+                                {
+                                    "id": "140230536",
+                                    "speaker": "Lynette",
+                                    "text": "E você também, Freminet."
+                                },
+                                {
+                                    "id": "140230537",
+                                    "speaker": "Freminet",
+                                    "text": "Erm..."
+                                },
+                                {
+                                    "id": "140230538",
+                                    "speaker": "Lynette",
+                                    "text": "#E você também, {NICKNAME} e Paimon."
+                                },
+                                {
+                                    "id": "140230539",
+                                    "speaker": "Paimon",
+                                    "text": "Hã, o que a gente fez?"
+                                },
+                                {
+                                    "id": "140230540",
+                                    "speaker": "Lynette",
+                                    "text": "Já vi Clervie pela Casa da Lareira antes. Não tinha visto ela em Poisson, então eu achei que ela não tinha vindo conosco... mas, pelo visto você só estava escondendo ela."
+                                },
+                                {
+                                    "id": "140230541",
+                                    "speaker": "Lynette",
+                                    "text": "Ouvi você falando sobre seu plano. Ao invés de ficar longe da situação, eu prefiro me envolver completamente."
+                                },
+                                {
+                                    "id": "140230542",
+                                    "speaker": "Lynette",
+                                    "text": "E se você não concordar, não terei escolha a não ser contar tudo para \"Pai\". Simples assim."
+                                },
+                                {
+                                    "id": "140230543",
+                                    "speaker": "Lyney",
+                                    "text": "*Suspiro* Você não está nos dando muita escolha, Lynette."
+                                },
+                                {
+                                    "id": "140230544",
+                                    "speaker": "Lyney",
+                                    "text": "Bem, acho que estamos todos nessa juntos. Depois que falarmos com Clervie, pensaremos no nosso próximo passo."
+                                },
+                                {
+                                    "id": "140230545",
+                                    "speaker": "Lyney",
+                                    "text": "Não há tempo a perder. Vamos lá."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "140230510",
+                            "text": "Acho que é melhor se a gente ficar por perto."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "1402306",
+            "objective": "Pergunte sobre as origens de Clervie",
+            "dialogues": [
+                {
+                    "id": "140230601",
+                    "speaker": "Clervie",
+                    "text": "Ah, estou cheia! Obrigada por me trazer essa comida, pessoal."
+                },
+                {
+                    "id": "140230602",
+                    "speaker": "Paimon",
+                    "text": "Ela disse que está \"cheia\", mas a comida nem parece que foi tocada...",
+                    "choices": [
+                        {
+                            "id": "140230603",
+                            "text": "Bem, ela é um espírito...",
+                            "response": [
+                                {
+                                    "id": "140230605",
+                                    "speaker": "Freminet",
+                                    "text": "Isso mesmo. Baseado no que pude observar, não parece que Clervie consegue interagir com o mundo físico."
+                                },
+                                {
+                                    "id": "140230606",
+                                    "speaker": "Freminet",
+                                    "text": "Mesmo assim, quando ela se depara com comida, ela sempre fica por perto por um bom tempo. Talvez, na cabeça dela, ela realmente está comendo essas coisas."
+                                },
+                                {
+                                    "id": "140230607",
+                                    "speaker": "Lynette",
+                                    "text": "Ela sabe que já faleceu?"
+                                },
+                                {
+                                    "id": "140230608",
+                                    "speaker": "Freminet",
+                                    "text": "Eu tentei perguntar a ela, mas ela não respondeu. Acho que ela está tão confusa quanto a gente, ou... talvez ela simplesmente não conseguiu entender a pergunta."
+                                },
+                                {
+                                    "id": "140230609",
+                                    "speaker": "Lyney",
+                                    "text": "Clervie, se você tiver um tempo, gostaria de te fazer algumas perguntas."
+                                },
+                                {
+                                    "id": "140230610",
+                                    "speaker": "Clervie",
+                                    "text": "Claro."
+                                },
+                                {
+                                    "id": "140230611",
+                                    "speaker": "Clervie",
+                                    "text": "Oh! Outra nova amiga! Olá, sou Clervie."
+                                },
+                                {
+                                    "id": "140230612",
+                                    "speaker": "Lynette",
+                                    "text": "Olá."
+                                },
+                                {
+                                    "id": "140230613",
+                                    "speaker": "Lyney",
+                                    "text": "Clervie, como você se juntou à Casa da Lareira?"
+                                },
+                                {
+                                    "id": "140230614",
+                                    "speaker": "Clervie",
+                                    "text": "Hã? Não é o mesmo para todo mundo?"
+                                },
+                                {
+                                    "id": "140230615",
+                                    "speaker": "Clervie",
+                                    "text": "A Serva te traz aqui, e então você não pode ir embora."
+                                },
+                                {
+                                    "id": "140230616",
+                                    "speaker": "Lyney",
+                                    "text": "É só que... seu nome, não está na lista. E eu nunca te vi antes."
+                                },
+                                {
+                                    "id": "140230617",
+                                    "speaker": "Clervie",
+                                    "text": "Na lista? Ah, já entendi. Acho que deve ter algumas coisas que você não sabe sobre esse lugar."
+                                },
+                                {
+                                    "id": "140230618",
+                                    "speaker": "Clervie",
+                                    "text": "As pessoas no comando... elas não são tão legais quanto parecem. Eles dizem que tem uma lista... mas não está completa. Existem muitas pessoas que não estão nela... e nunca estarão."
+                                },
+                                {
+                                    "id": "140230619",
+                                    "speaker": "Clervie",
+                                    "text": "Nessa Casa, algumas pessoas são \"família\" e outras... são apenas \"cobaias\". Essas pessoas nunca vão ter um lugar na lista... a menos que seja na lista de pessoas que foram executadas."
+                                },
+                                {
+                                    "id": "140230620",
+                                    "speaker": "Paimon",
+                                    "text": "Espera, isso significa que a Serva, ela..."
+                                },
+                                {
+                                    "id": "140230621",
+                                    "speaker": "Lyney",
+                                    "text": "Existe alguém que pode atestar o que você disse?"
+                                },
+                                {
+                                    "id": "140230622",
+                                    "speaker": "Clervie",
+                                    "text": "..."
+                                },
+                                {
+                                    "id": "140230623",
+                                    "speaker": "Clervie",
+                                    "text": "Perrie. Ela é minha melhor amiga. Ela é a única que confio nesse lugar."
+                                },
+                                {
+                                    "id": "140230624",
+                                    "speaker": "Lyney",
+                                    "text": "Algum de vocês já ouviu esse nome antes?"
+                                },
+                                {
+                                    "id": "140230625",
+                                    "speaker": "Lynette",
+                                    "text": "Não."
+                                },
+                                {
+                                    "id": "140230626",
+                                    "speaker": "Freminet",
+                                    "text": "Eu também não..."
+                                },
+                                {
+                                    "id": "140230627",
+                                    "speaker": "Lyney",
+                                    "text": "Clervie... Perrie... Nenhum desses nomes está na lista."
+                                },
+                                {
+                                    "id": "140230628",
+                                    "speaker": "Lyney",
+                                    "text": "Mas... parece que ela está falando a verdade. Isso ou, essa criança tem mais truques na manga do que eu."
+                                },
+                                {
+                                    "id": "140230629",
+                                    "speaker": "Lyney",
+                                    "text": "Hmm, talvez deveríamos tentar uma outra tática. Clervie, você tem algum desejo?"
+                                },
+                                {
+                                    "id": "140230630",
+                                    "speaker": "Clervie",
+                                    "text": "Um desejo?"
+                                },
+                                {
+                                    "id": "140230631",
+                                    "speaker": "Lyney",
+                                    "text": "Pode ser o que você quiser. Apenas imagine — é o seu aniversário, você está soprando as velinhas, e o seu desejo é..."
+                                },
+                                {
+                                    "id": "140230632",
+                                    "speaker": "Clervie",
+                                    "text": "Poder sair."
+                                },
+                                {
+                                    "id": "140230633",
+                                    "speaker": "Clervie",
+                                    "text": "Onde o sol possa me encontrar."
+                                },
+                                {
+                                    "id": "140230634",
+                                    "speaker": "Paimon",
+                                    "text": "Só isso? Bem, isso parece bem simples."
+                                },
+                                {
+                                    "id": "140230635",
+                                    "speaker": "Clervie",
+                                    "text": "A escuridão nessa Casa é mais profunda do que você consegue imaginar. Ninguém consegue sair vivo."
+                                },
+                                {
+                                    "id": "140230636",
+                                    "speaker": "Player",
+                                    "text": "(O que ela quis dizer com isso...? As coisas não podem ser assim tão simples.)"
+                                },
+                                {
+                                    "id": "140230637",
+                                    "speaker": "Lyney",
+                                    "text": "Certo, hora de dividir e conquistar. Escutem. Tenho um plano."
+                                },
+                                {
+                                    "id": "140230638",
+                                    "speaker": "Lyney",
+                                    "text": "Vou tentar encontrar uma maneira de usar magia ilusória básica para levar Clervie para fora e levá-la a algum lugar com luz do sol."
+                                },
+                                {
+                                    "id": "140230639",
+                                    "speaker": "Lyney",
+                                    "text": "Lynette, tente encontrar a lista de execuções sobre a qual Clervie estava falando e veja se o nome dela está lá."
+                                },
+                                {
+                                    "id": "140230640",
+                                    "speaker": "Lyney",
+                                    "text": "Freminet, você fica em Poisson. Não podemos ser os únicos que tiveram encontros com Clervie. Preciso que você colete informações sobre tudo o que ela disse e fez."
+                                },
+                                {
+                                    "id": "140230641",
+                                    "speaker": "Lynette",
+                                    "text": "Entendido."
+                                },
+                                {
+                                    "id": "140230642",
+                                    "speaker": "Freminet",
+                                    "text": "Farei o meu melhor"
+                                },
+                                {
+                                    "id": "140230643",
+                                    "speaker": "Paimon",
+                                    "text": "E quanto a nós? O que devemos fazer?"
+                                },
+                                {
+                                    "id": "140230644",
+                                    "speaker": "Lyney",
+                                    "text": "Eu realmente aprecio sua disposição para ajudar, mas isso é uma questão familiar. Não quero envolver vocês demais. É muito arriscado."
+                                },
+                                {
+                                    "id": "140230645",
+                                    "speaker": "Lyney",
+                                    "text": "#Deixe-me pensar... Já que \"Pai\" considera vocês como convidad{M#o}{F#a}s, talvez vocês possam ficar ao lado dela por um tempo? Vocês não precisam fazer nada além de manter uma conversa agradável e casual."
+                                },
+                                {
+                                    "id": "140230646",
+                                    "speaker": "Paimon",
+                                    "text": "Ah, Paimon entendeu! Você quer que nós a distraiamos!"
+                                },
+                                {
+                                    "id": "140230647",
+                                    "speaker": "Player",
+                                    "text": "Como deveríamos entrar em contato com você?"
+                                },
+                                {
+                                    "id": "140230648",
+                                    "speaker": "Lyney",
+                                    "text": "Eu lhes darei um pássaro mágico. Se \"Pai\" suspeitar de algo, tudo que vocês precisam fazer é soltá-lo quando ela não estiver olhando, e ele me alertará que algo está errado."
+                                },
+                                {
+                                    "id": "140230649",
+                                    "speaker": "Lyney",
+                                    "text": "Claro, isso é apenas como último recurso. Se \"Pai\" não parecer notar nossa presença, não há necessidade de fazer contato. Nós nos encontraremos aqui novamente esta noite depois que tudo estiver resolvido."
+                                },
+                                {
+                                    "id": "140230650",
+                                    "speaker": "Lyney",
+                                    "text": "#Se o pior cenário acontecer e formos descobertos, apenas conte tudo para \"Pai\". Não vamos deixar que noss{M#o}{F#a}s convidad{M#o}{F#a}s sejam punid{M#o}{F#a}s por nossas próprias ações, esse é o nosso limite."
+                                },
+                                {
+                                    "id": "140230651",
+                                    "speaker": "Player",
+                                    "text": "Tenha cuidado."
+                                },
+                                {
+                                    "id": "140230652",
+                                    "speaker": "Lyney",
+                                    "text": "Vocês também... Certo, é aqui que nos separamos. \"Pai\" deve estar na praia próxima."
+                                },
+                                {
+                                    "id": "140230653",
+                                    "speaker": "Lyney",
+                                    "text": "Eu realmente espero que isso dê certo. Não... Isso tem que dar certo. Essa é a única maneira de resolvermos isso."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "140230604",
+                            "text": "Ela não consegue comer de verdade."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "1402307",
+            "objective": "",
+            "dialogues": [
+                {
+                    "id": "140230701",
+                    "speaker": "Lyney",
+                    "text": ""
+                },
+                {
+                    "id": "140230702",
+                    "speaker": "Lyney",
+                    "text": ""
+                },
+                {
+                    "id": "140230703",
+                    "speaker": "Lyney",
+                    "text": ""
+                },
+                {
+                    "id": "140230704",
+                    "speaker": "Lyney",
+                    "text": ""
+                }
+            ]
+        },
+        {
+            "id": "1402313",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "140231301",
+                    "speaker": "Chapleau",
+                    "text": "#Uau, {NICKNAME} e Paimon... Finalmente pude conhecer {M#eles}{F#elas} pessoalmente!"
+                },
+                {
+                    "id": "140231302",
+                    "speaker": "Heloir",
+                    "text": "#Hmm, {M#eles}{F#elas} não parecem tão intimidador{M#es}{F#as} quanto se ouve nas histórias."
+                },
+                {
+                    "id": "140231303",
+                    "speaker": "Foltz",
+                    "text": "#{M#Eles}{F#Elas} provavelmente se dariam bem com Filliol... Se pelo menos tivessem chegado aqui mais cedo."
+                }
+            ]
+        },
+        {
+            "id": "1402315",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "140231501",
+                    "speaker": "Filliol",
+                    "text": "Parece que tem mais problemas aguardando no mês que vem também... *Suspiro* Quando vai acabar..."
+                },
+                {
+                    "id": "140231502",
+                    "speaker": "Nanteuil",
+                    "text": "Ei, só foque nas partes positivas. Pelo menos nosso tempo em Poisson tem sido bem relaxante. Não acha?"
+                }
+            ]
+        },
+        {
+            "id": "1402399",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "140239901",
+                    "speaker": "Paimon",
+                    "text": "Já faz um tempo desde que visitamos Poisson. Talvez a gente devesse dar uma olhada por aí?"
+                }
+            ]
+        }
+    ]
+}

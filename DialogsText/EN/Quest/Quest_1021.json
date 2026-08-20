@@ -1,0 +1,935 @@
+{
+    "quest": {
+        "id": "1021",
+        "title": "Equilibrium",
+        "description": "After arriving at the Guizhong Ballista on Mt. Tianheng, you are surprised to meet another member of the Qixing there. Her name is Keqing, and she gives you detailed instructions on how to ascend to the Jade Chamber. Paimon, however, is preoccupied with another detail that Keqing mentioned: the custom of bringing a greeting gift.",
+        "rewards": [
+            {
+                "itemId": 102,
+                "count": 725
+            },
+            {
+                "itemId": 201,
+                "count": 30
+            },
+            {
+                "itemId": 202,
+                "count": 29400
+            },
+            {
+                "itemId": 104003,
+                "count": 3
+            },
+            {
+                "itemId": 104013,
+                "count": 5
+            }
+        ],
+        "rewards_formatted": "Adventure EXP x725, Primogem x30, Mora x29400, Hero's Wit x3, Mystic Enhancement Ore x5",
+        "chapter": {
+            "icon": "UI_ChapterIcon_Liyue",
+            "id": "1103",
+            "num": "Chapter I: Act III",
+            "title": "A New Star Approaches"
+        },
+        "total_dialogue_lines": 157,
+        "total_speaker_counts": {
+            "Bu'yun": 3,
+            "Meng Dan": 9,
+            "Ningguang": 55,
+            "Paimon": 57,
+            "Player": 26,
+            "Xingxi": 7
+        }
+    },
+    "talks": [
+        {
+            "id": "102109",
+            "objective": "Look for the ingredients Paimon needs",
+            "dialogues": []
+        },
+        {
+            "id": "102110",
+            "objective": "Look for the ingredients Paimon needs",
+            "dialogues": []
+        },
+        {
+            "id": "102101",
+            "objective": "Look for the ingredients Paimon needs",
+            "dialogues": [
+                {
+                    "id": "10210201",
+                    "speaker": "Paimon",
+                    "text": "Huh? Is it just Paimon, or is there a sweet fragrance in the air...?"
+                },
+                {
+                    "id": "10210202",
+                    "speaker": "Paimon",
+                    "text": "Huh... Did you hear that?",
+                    "choices": [
+                        {
+                            "id": "10210203",
+                            "text": "It sounded like someone calling for help.",
+                            "response": [
+                                {
+                                    "id": "10210204",
+                                    "speaker": "Paimon",
+                                    "text": "It seemed like it came from those ruins over there..."
+                                },
+                                {
+                                    "id": "10210207",
+                                    "speaker": "Paimon",
+                                    "text": "Uh oh, it looks like the Treasure Hoarders have locked someone inside."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "10210205",
+                            "text": "It sounded like someone was singing.",
+                            "response": [
+                                {
+                                    "id": "10210206",
+                                    "speaker": "Paimon",
+                                    "text": "Uh, no! That was definitely someone in trouble! It came from those ruins over there..."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "102102",
+            "objective": "Rescue the person in the cage",
+            "dialogues": []
+        },
+        {
+            "id": "102107",
+            "objective": "Open the cage",
+            "dialogues": []
+        },
+        {
+            "id": "102108",
+            "objective": "Talk to the person in the cage",
+            "dialogues": [
+                {
+                    "id": "10210801",
+                    "speaker": "Meng Dan",
+                    "text": "Phew... Thank you for your help, kind travelers. If you hadn't come to my aid, I surely would have rotted in this cell! Those Treasure Hoarders... when their mood was good, they'd rearrange those pots of Sweet Flowers. But when they were in a bad mood, they'd rearrange my face..."
+                },
+                {
+                    "id": "10210802",
+                    "speaker": "Paimon",
+                    "text": "Aw, it was nothing. No need to thank us all at once or anything!"
+                },
+                {
+                    "id": "10210803",
+                    "speaker": "Meng Dan",
+                    "text": "Haha, I understand. Don't worry, I will compensate you both."
+                },
+                {
+                    "id": "10210804",
+                    "speaker": "Player",
+                    "text": "There's really no need."
+                },
+                {
+                    "id": "10210805",
+                    "speaker": "Meng Dan",
+                    "text": "Don't say that! I only escaped this predicament because of you."
+                },
+                {
+                    "id": "10210806",
+                    "speaker": "Meng Dan",
+                    "text": "I'm Meng Dan, a supplier for Mingxing Jewelry in Liyue Harbor. I often walk around these mountains in search of antiques."
+                },
+                {
+                    "id": "10210807",
+                    "speaker": "Meng Dan",
+                    "text": "I never expected that those Treasure Hoarders would have their eyes on the same ruins that I had. Before I knew it, they'd caught and imprisoned me."
+                },
+                {
+                    "id": "10210808",
+                    "speaker": "Meng Dan",
+                    "text": "Is there anything that you lack? Antiques, treasure, various knick-knacks, you name it! Well, as long as you want what I have to offer, of course."
+                },
+                {
+                    "id": "10210809",
+                    "speaker": "Player",
+                    "text": "Your goodwill is good enough for me."
+                },
+                {
+                    "id": "10210810",
+                    "speaker": "Paimon",
+                    "text": "Wait a moment! Actually, we are looking for something!"
+                },
+                {
+                    "id": "10210811",
+                    "speaker": "Meng Dan",
+                    "text": "Oh? And what might that be?"
+                },
+                {
+                    "id": "10210812",
+                    "speaker": "Paimon",
+                    "text": "Do you have a box that can store presents? We'd like a pretty one... the kind that you can use to store snacks."
+                },
+                {
+                    "id": "10210813",
+                    "speaker": "Meng Dan",
+                    "text": "Of course we do — how can one sell antiques without gift boxes? At <color=#00E1FFFF>Mingxing Jewelry</color>, we have the best gift-wrapping service in the seven nations."
+                },
+                {
+                    "id": "10210814",
+                    "speaker": "Meng Dan",
+                    "text": "Now, just give me a moment, and I'll let the boss know. You can go see her whenever you require that box."
+                },
+                {
+                    "id": "10210815",
+                    "speaker": "Paimon",
+                    "text": "Great! Paimon's Sugar-Frosted Slime now comes in a beautiful package!"
+                }
+            ]
+        },
+        {
+            "id": "102111",
+            "objective": "Go to Mingxing Jewelry",
+            "dialogues": [
+                {
+                    "id": "10211101",
+                    "speaker": "Paimon",
+                    "text": "Hey there! A guy called Meng Dan told us that we could get a nice and shiny box from your store..."
+                },
+                {
+                    "id": "10211102",
+                    "speaker": "Xingxi",
+                    "text": "Uncle Meng already told me about it. Thank you both for saving him."
+                },
+                {
+                    "id": "10211103",
+                    "speaker": "Xingxi",
+                    "text": "Many of the best goods in our store were found by Uncle Meng. If anything were to happen to him, it would be impossible for us to continue doing business."
+                },
+                {
+                    "id": "10211104",
+                    "speaker": "Xingxi",
+                    "text": "Here, this container is itself an antique, with at least 140 years of history. It's already been cleaned... Will it do?"
+                },
+                {
+                    "id": "10211105",
+                    "speaker": "Paimon",
+                    "text": "Yup-yup-yup! It's great!"
+                },
+                {
+                    "id": "10211106",
+                    "speaker": "Paimon",
+                    "text": "Hang on a moment. Could we borrow one other thing?"
+                },
+                {
+                    "id": "10211107",
+                    "speaker": "Xingxi",
+                    "text": "Sure, please help yourselves — as long as it's on our shelves."
+                },
+                {
+                    "id": "10211108",
+                    "speaker": "Paimon",
+                    "text": "#{NICKNAME}, this clay pot looks really awesome!"
+                },
+                {
+                    "id": "10211109",
+                    "speaker": "Paimon",
+                    "text": "If we use an antique as our mixing bowl, we should be able to make a great snack!"
+                },
+                {
+                    "id": "10211110",
+                    "speaker": "Paimon",
+                    "text": "It's done! The one and only Sugar-Frosted Slime! Carefully now. Into the box it goes, and dust it over with a bit more powdered sugar..."
+                },
+                {
+                    "id": "10211111",
+                    "speaker": "Xingxi",
+                    "text": "Oh yes. You might want to use these two freshly-picked flowers as decorations too."
+                },
+                {
+                    "id": "10211112",
+                    "speaker": "Paimon",
+                    "text": "Woohoo! It looks beautiful!"
+                },
+                {
+                    "id": "10211113",
+                    "speaker": "Player",
+                    "text": "(I'm still not sold on this gift idea...)"
+                },
+                {
+                    "id": "10211114",
+                    "speaker": "Paimon",
+                    "text": "Great! Now that we've put all that we've got into this box, let's go to the Jade Chamber to see Ningguang!"
+                }
+            ]
+        },
+        {
+            "id": "102103",
+            "objective": "Look for the guide to the Jade Chamber",
+            "dialogues": [
+                {
+                    "id": "10210301",
+                    "speaker": "Paimon",
+                    "text": "(According to Keqing, this is what we should say...)"
+                },
+                {
+                    "id": "10210302",
+                    "speaker": "Paimon",
+                    "text": "Excuse me, do you sell the moon here?"
+                },
+                {
+                    "id": "10210303",
+                    "speaker": "Bu'yun",
+                    "text": "Yes. How many would you like?"
+                },
+                {
+                    "id": "10210304",
+                    "speaker": "Paimon",
+                    "text": "It is not convenient to speak of numbers here."
+                },
+                {
+                    "id": "10210305",
+                    "speaker": "Bu'yun",
+                    "text": "Ah, well said. Please, use this to ascend to the Chamber... Ah, yes. Speaking of which — are you two the guests that Lady Ningguang has arranged to meet with today?"
+                },
+                {
+                    "id": "10210306",
+                    "speaker": "Paimon",
+                    "text": "Yup!"
+                },
+                {
+                    "id": "10210307",
+                    "speaker": "Bu'yun",
+                    "text": "(And yet the code they used was not the one for guests, but for the Yuheng. What's going on here...)"
+                }
+            ]
+        },
+        {
+            "id": "102104",
+            "objective": "Ascend to the Jade Chamber",
+            "dialogues": [
+                {
+                    "id": "10210401",
+                    "speaker": "Ningguang",
+                    "text": "I've been waiting for you, returnee from Jueyun Karst."
+                },
+                {
+                    "id": "10210402",
+                    "speaker": "Paimon",
+                    "text": "Ah, it's Ningguang!"
+                },
+                {
+                    "id": "10210403",
+                    "speaker": "Paimon",
+                    "text": "Since this is our first meeting, um, we've prepared a gift! Hope you like it?"
+                },
+                {
+                    "id": "10210404",
+                    "speaker": "Ningguang",
+                    "text": "Oh, for me? You have my thanks. It seems that I have made things difficult for you, considering that you were supposed to be my guests."
+                },
+                {
+                    "id": "10210405",
+                    "speaker": "Paimon",
+                    "text": "Hehe... Oh no, it's nothing.",
+                    "choices": [
+                        {
+                            "id": "10210406",
+                            "text": "Nice place, this Jade Chamber.",
+                            "response": [
+                                {
+                                    "id": "10210407",
+                                    "speaker": "Ningguang",
+                                    "text": "Haha. I'm glad you like it too."
+                                },
+                                {
+                                    "id": "10210409",
+                                    "speaker": "Ningguang",
+                                    "text": "This palace floats in the skies, higher than the peak of any mountain. From this vantage point, one may survey all of Liyue."
+                                },
+                                {
+                                    "id": "10210410",
+                                    "speaker": "Ningguang",
+                                    "text": "I have been gathering the funds necessary to build it from the time I began learning the merchant's craft. And since becoming the Tianquan, I have spared no effort in hiring the best craftsmen to constantly extend it..."
+                                },
+                                {
+                                    "id": "10210411",
+                                    "speaker": "Ningguang",
+                                    "text": "At first, it was but the size of one room. Now, it is large enough to blot out the moon in the skies above Liyue."
+                                },
+                                {
+                                    "id": "10210412",
+                                    "speaker": "Ningguang",
+                                    "text": "One day, I believe it will overshadow all seven nations."
+                                },
+                                {
+                                    "id": "10210413",
+                                    "speaker": "Player",
+                                    "text": "(This Tianquan does not lack for ambition...)"
+                                },
+                                {
+                                    "id": "10210414",
+                                    "speaker": "Ningguang",
+                                    "text": "Not many from outside Liyue earn the right to ascend to the Jade Chamber. But I have been in correspondence with the Acting Grand Master of the Knights of Favonius, who spoke highly of you."
+                                },
+                                {
+                                    "id": "10210415",
+                                    "speaker": "Ningguang",
+                                    "text": "As such, I have been putting eyes and ears out ever since you reached Liyue..."
+                                },
+                                {
+                                    "id": "10210416",
+                                    "speaker": "Paimon",
+                                    "text": "What!?"
+                                },
+                                {
+                                    "id": "10210417",
+                                    "speaker": "Ningguang",
+                                    "text": "And I finally got wind of your movements when you were on the way to Wangshu Inn."
+                                },
+                                {
+                                    "id": "10210418",
+                                    "speaker": "Paimon",
+                                    "text": "...Wait. Was Verr Goldet one of your people!?"
+                                },
+                                {
+                                    "id": "10210419",
+                                    "speaker": "Ningguang",
+                                    "text": "Just Verr Goldet? ...No."
+                                },
+                                {
+                                    "id": "10210420",
+                                    "speaker": "Ningguang",
+                                    "text": "Everyone at Wangshu Inn is one of ours."
+                                },
+                                {
+                                    "id": "10210421",
+                                    "speaker": "Paimon",
+                                    "text": "##@&%*!"
+                                },
+                                {
+                                    "id": "10210422",
+                                    "speaker": "Player",
+                                    "text": "We also ran into the Yuheng not long ago..."
+                                },
+                                {
+                                    "id": "10210423",
+                                    "speaker": "Ningguang",
+                                    "text": "At the Guizhong Ballista, yes?"
+                                },
+                                {
+                                    "id": "10210424",
+                                    "speaker": "Paimon",
+                                    "text": "Uh... you weren't peeking on us from the skies the whole time... were you!?"
+                                },
+                                {
+                                    "id": "10210425",
+                                    "speaker": "Ningguang",
+                                    "text": "Haha... I fear that peeking would have been a little difficult from this altitude."
+                                },
+                                {
+                                    "id": "10210426",
+                                    "speaker": "Ningguang",
+                                    "text": "Our eyes and ears are more than sufficient. You two are very interesting people, after all. It would be natural to take an interest."
+                                },
+                                {
+                                    "id": "10210427",
+                                    "speaker": "Player",
+                                    "text": "Keqing said that the Qixing would not wish ill on Rex Lapis."
+                                },
+                                {
+                                    "id": "10210428",
+                                    "speaker": "Ningguang",
+                                    "text": "Well, I wouldn't expect you to trust us, considering that you have had far more interactions with the adepti. The reason I invited you here was to clear up some misunderstandings."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "10210408",
+                            "text": "It's my first time coming to a place this high up..."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "102113",
+            "objective": "Speak to Ningguang",
+            "dialogues": [
+                {
+                    "id": "10211301",
+                    "speaker": "Ningguang",
+                    "text": "I believe that you've heard of the Archon War?",
+                    "choices": [
+                        {
+                            "id": "10211302",
+                            "text": "Umm... Rings a bell.",
+                            "response": [
+                                {
+                                    "id": "10211304",
+                                    "speaker": "Ningguang",
+                                    "text": "Many gods used to walk this earth, and many long wars were fought between them that did not abate until 2,000 years ago. Much blood was shed, and many lives were lost."
+                                },
+                                {
+                                    "id": "10211305",
+                                    "speaker": "Ningguang",
+                                    "text": "In the end, only seven victors remained standing in Teyvat. They built cities and nations on the corpses of the vanquished, and thus began the era of The Seven."
+                                },
+                                {
+                                    "id": "10211306",
+                                    "speaker": "Ningguang",
+                                    "text": "You can see Guyun Stone Forest from here, I trust? It is no natural rock formation — those are giant spears of rock, hurled by Rex Lapis during the war."
+                                },
+                                {
+                                    "id": "10211307",
+                                    "speaker": "Ningguang",
+                                    "text": "Beneath the spears lie those cast down by Rex Lapis in those days: gods that failed to seize the title of Archon."
+                                },
+                                {
+                                    "id": "10211308",
+                                    "speaker": "Ningguang",
+                                    "text": "Not only is it true that gods may die, but so too has the membership of the Seven changed over the last two millennia. Rex Lapis' passing is an unimaginable disaster for Liyue, but the order of The Seven will not collapse simply because of that."
+                                },
+                                {
+                                    "id": "10211309",
+                                    "speaker": "Ningguang",
+                                    "text": "Another Lord of Geo will arise sooner or later, yet how are we to forget Rex Lapis? When that time comes, the relationship between the people of Liyue and the gods and adepti will surely be different from before."
+                                },
+                                {
+                                    "id": "10211310",
+                                    "speaker": "Ningguang",
+                                    "text": "Even in a new era, the Liyue Qixing remain Rex Lapis' former subjects... Do you really think us capable of having played a part in his demise? Of lacking the foresight to see the certain repercussions?"
+                                },
+                                {
+                                    "id": "10211311",
+                                    "speaker": "Player",
+                                    "text": "Why hide the Exuvia, then?"
+                                },
+                                {
+                                    "id": "10211312",
+                                    "speaker": "Ningguang",
+                                    "text": "Heh..."
+                                },
+                                {
+                                    "id": "10211313",
+                                    "speaker": "Ningguang",
+                                    "text": "That day at Yujing Terrace — it was all so very sudden. Even I was caught completely off guard. You were there, you no doubt saw."
+                                },
+                                {
+                                    "id": "10211314",
+                                    "speaker": "Ningguang",
+                                    "text": "But our enemy has long lain hidden within the harbor. If we do not act against them now, they will surely gain the upper hand."
+                                },
+                                {
+                                    "id": "10211315",
+                                    "speaker": "Ningguang",
+                                    "text": "Hiding the Exuvia was a necessary maneuver to take the initiative back, to play the spider while our foes scurry about."
+                                },
+                                {
+                                    "id": "10211316",
+                                    "speaker": "Paimon",
+                                    "text": "Who's this \"enemy\" you're talking about?"
+                                },
+                                {
+                                    "id": "10211317",
+                                    "speaker": "Ningguang",
+                                    "text": "What do you think, Traveler?",
+                                    "choices": [
+                                        {
+                                            "id": "10211318",
+                                            "text": "Is it \"him\"?",
+                                            "response": [
+                                                {
+                                                    "id": "10211320",
+                                                    "speaker": "Paimon",
+                                                    "text": "Eh? What are you two talking about?"
+                                                },
+                                                {
+                                                    "id": "10211321",
+                                                    "speaker": "Ningguang",
+                                                    "text": "Well answered."
+                                                },
+                                                {
+                                                    "id": "10211322",
+                                                    "speaker": "Paimon",
+                                                    "text": "...Huh!?"
+                                                },
+                                                {
+                                                    "id": "10211323",
+                                                    "speaker": "Ningguang",
+                                                    "text": "Hah... The scenery out here is fine indeed, but the wind is a little strong. Our preparations to receive guests within are complete — so please, this way."
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "10211319",
+                                            "text": "It's \"him,\" isn't it?"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "10211303",
+                            "text": "Only in the broadest of strokes."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "102105",
+            "objective": "Enter the Jade Chamber's premises",
+            "dialogues": []
+        },
+        {
+            "id": "102106",
+            "objective": "Speak to Ningguang",
+            "dialogues": [
+                {
+                    "id": "10210601",
+                    "speaker": "Paimon",
+                    "text": "Wowee! What a huge hall! Paimon's never seen such a fancy place before..."
+                },
+                {
+                    "id": "10210602",
+                    "speaker": "Ningguang",
+                    "text": "Be at ease, you two. Make yourselves at home if you wish."
+                },
+                {
+                    "id": "10210603",
+                    "speaker": "Paimon",
+                    "text": "Can we really!?"
+                },
+                {
+                    "id": "10210604",
+                    "speaker": "Ningguang",
+                    "text": "I have invited you two here as friends. And when friends come over to play, our enjoyment comes first, naturally."
+                },
+                {
+                    "id": "10210605",
+                    "speaker": "Player",
+                    "text": "Is that what I think it is...?"
+                },
+                {
+                    "id": "10210606",
+                    "speaker": "Paimon",
+                    "text": "Ooh! Isn't this that legendary wall?"
+                },
+                {
+                    "id": "10210607",
+                    "speaker": "Ningguang",
+                    "text": "Why, you've kept your ear to the ground, I see."
+                },
+                {
+                    "id": "10210608",
+                    "speaker": "Paimon",
+                    "text": "That's because even the storytellers are talking about it... Everyone's after a piece of paper from that wall. It's super famous!"
+                },
+                {
+                    "id": "10210609",
+                    "speaker": "Ningguang",
+                    "text": "That's because that wall records Liyue's secrets. Merchants have always been attracted to secrets."
+                },
+                {
+                    "id": "10210610",
+                    "speaker": "Ningguang",
+                    "text": "But the secrets of the mercantile world are of no interest to you, are they, Traveler? You're rather special, really — and I think you're quite aware of that."
+                },
+                {
+                    "id": "10210611",
+                    "speaker": "Ningguang",
+                    "text": "If possible, I'd like to have your trust."
+                },
+                {
+                    "id": "10210612",
+                    "speaker": "Ningguang",
+                    "text": "But if you were to choose the more trustworthy person between myself and Keqing...",
+                    "choices": [
+                        {
+                            "id": "10210613",
+                            "text": "Well, between your orthodoxy and her heterodoxy...",
+                            "response": [
+                                {
+                                    "id": "10210615",
+                                    "speaker": "Ningguang",
+                                    "text": "Haha... You'd pick Keqing? I had a feeling."
+                                },
+                                {
+                                    "id": "10210616",
+                                    "speaker": "Ningguang",
+                                    "text": "I originally thought her a bit too... hard-headed. With someone of her character on the Qixing, I've had some extra messes to clean up behind the scenes."
+                                },
+                                {
+                                    "id": "10210617",
+                                    "speaker": "Ningguang",
+                                    "text": "But after she said those words: \"The time of the adepti has long passed. If even the Liyue Qixing don't want to face that truth, then what future is there for Liyue...\""
+                                },
+                                {
+                                    "id": "10210618",
+                                    "speaker": "Ningguang",
+                                    "text": "Well, I must say that quite a few of my doubts have been dispelled."
+                                },
+                                {
+                                    "id": "10210619",
+                                    "speaker": "Ningguang",
+                                    "text": "I won't deny that Rex Lapis' passing seems advantageous to us. But for Liyue's sake, we cannot allow ourselves to be shackled by rumors of our usurpation of power."
+                                },
+                                {
+                                    "id": "10210620",
+                                    "speaker": "Player",
+                                    "text": "I surmise that the Fatui has a hand in these rumors?"
+                                },
+                                {
+                                    "id": "10210621",
+                                    "speaker": "Ningguang",
+                                    "text": "Indeed... It seems that you understood what I meant to say from the very beginning."
+                                },
+                                {
+                                    "id": "10210622",
+                                    "speaker": "Ningguang",
+                                    "text": "I called for the gag order and for the Exuvia to be hidden to temporarily stabilize the situation, and also to prevent something similar to the incident in Mondstadt."
+                                },
+                                {
+                                    "id": "10210623",
+                                    "speaker": "Ningguang",
+                                    "text": "With Rex Lapis' death, the Fatui have busied themselves with many clandestine actions beyond their diplomatic remit. As the Tianquan, one responsible for Liyue, I cannot be too concerned with appearances when opposing them."
+                                },
+                                {
+                                    "id": "10210624",
+                                    "speaker": "Ningguang",
+                                    "text": "Allowing the Rite of Parting to take place was also meant to buy some time for us to take control of Liyue's administration..."
+                                },
+                                {
+                                    "id": "10210625",
+                                    "speaker": "Paimon",
+                                    "text": "Ugh... It's exactly as Zhongli said. The Qixing only provided the venue for the rite so they could use us for their own ends."
+                                },
+                                {
+                                    "id": "10210626",
+                                    "speaker": "Paimon",
+                                    "text": "Wait, that's right! Speaking of ends... Could Paimon say one other thing?"
+                                },
+                                {
+                                    "id": "10210627",
+                                    "speaker": "Ningguang",
+                                    "text": "Of course."
+                                },
+                                {
+                                    "id": "10210628",
+                                    "speaker": "Paimon",
+                                    "text": "Paimon's heard that anyone who sends a greeting gift gets a little something in return... So, does that include us?"
+                                },
+                                {
+                                    "id": "10210629",
+                                    "speaker": "Player",
+                                    "text": "Seriously, Paimon? Seriously?"
+                                },
+                                {
+                                    "id": "10210630",
+                                    "speaker": "Ningguang",
+                                    "text": "Hmm-hmm, It's alright. I like direct people."
+                                },
+                                {
+                                    "id": "10210631",
+                                    "speaker": "Ningguang",
+                                    "text": "Well, we have made quite a bit of trouble for you recently. How about this? You can pick any one object here as you please, and you may take it with you."
+                                },
+                                {
+                                    "id": "10210632",
+                                    "speaker": "Paimon",
+                                    "text": "Yay! Paimon was just waiting for you to say that! Let's see, what should we get..."
+                                },
+                                {
+                                    "id": "10210633",
+                                    "speaker": "Paimon",
+                                    "text": "One of the <color=#00E1FFFF>sheets</color> on that wall!"
+                                },
+                                {
+                                    "id": "10210634",
+                                    "speaker": "Player",
+                                    "text": "???"
+                                },
+                                {
+                                    "id": "10210635",
+                                    "speaker": "Paimon",
+                                    "text": "Don't look at Paimon like that! One of these sheets of paper will sell for crazy prices, even if it's only as large as Paimon's fingernail!"
+                                },
+                                {
+                                    "id": "10210636",
+                                    "speaker": "Paimon",
+                                    "text": "Just imagine... how much Mora a whole, untorn sheet would sell for!"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "10210614",
+                            "text": "I'd go with Keqing and her skepticism of the divine."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "102112",
+            "objective": "Pick a piece of \"paper snow\"",
+            "dialogues": [
+                {
+                    "id": "10211201",
+                    "speaker": "Paimon",
+                    "text": "Huh? Well that was an easy search. The biggest sheet is right up there in the most obvious spot. Let's go with that one!"
+                },
+                {
+                    "id": "10211202",
+                    "speaker": "Paimon",
+                    "text": "La la-la la-la... Let's see what's written on it."
+                },
+                {
+                    "id": "10211203",
+                    "speaker": "Paimon",
+                    "text": "Huh? There's a place marked with a circle on here. Ooh, could it be treasure!? Whatever it is, it better make us filthy rich! Let's see what's written over here..."
+                },
+                {
+                    "id": "10211204",
+                    "speaker": "Paimon",
+                    "text": "\"Sigil...\" \"of Permission...\" Something, something... \"Fatui...\" \"research...\" \"copy...\" Huh?"
+                },
+                {
+                    "id": "10211205",
+                    "speaker": "Paimon",
+                    "text": "Aw, that doesn't sound like treasure at all."
+                },
+                {
+                    "id": "10211206",
+                    "speaker": "Paimon",
+                    "text": "This piece of paper shows that a Qixing spy discovered traces of classified Fatui research on the <color=#00E1FFFF>Sigil of Permission</color>."
+                },
+                {
+                    "id": "10211207",
+                    "speaker": "Paimon",
+                    "text": "Oh, Ningguang did say that the Fatui have been up to all kinds of mischief in the shadows of Liyue... Spreading rumors, wanting to get their hands on the archon's body, and what not."
+                },
+                {
+                    "id": "10211208",
+                    "speaker": "Paimon",
+                    "text": "But research on the Sigil of Permission? Paimon wonders what they're up to."
+                },
+                {
+                    "id": "10211209",
+                    "speaker": "Paimon",
+                    "text": "#Speaking of which, there's also some connection between you and the Sigil of Permission, {NICKNAME}. Seems there's still more for us to find out.",
+                    "choices": [
+                        {
+                            "id": "10211210",
+                            "text": "It's all unfolding a little too perfectly.",
+                            "response": [
+                                {
+                                    "id": "10211212",
+                                    "speaker": "Paimon",
+                                    "text": "Oh? You really think so?"
+                                },
+                                {
+                                    "id": "10211213",
+                                    "speaker": "Paimon",
+                                    "text": "Well... should we not go, then?"
+                                },
+                                {
+                                    "id": "10211214",
+                                    "speaker": "Player",
+                                    "text": "No, what I mean is..."
+                                },
+                                {
+                                    "id": "10211215",
+                                    "speaker": "Paimon",
+                                    "text": "Oh, so you're saying that it's precisely because we can't completely trust Ningguang that we should confirm the truth of what she says for ourselves."
+                                },
+                                {
+                                    "id": "10211216",
+                                    "speaker": "Paimon",
+                                    "text": "Hmm... That's way out of Paimon's league, Paimon thinks she's been nothing but good to us!"
+                                },
+                                {
+                                    "id": "10211217",
+                                    "speaker": "Paimon",
+                                    "text": "Anyway, we'll see if you're on to something."
+                                },
+                                {
+                                    "id": "10211218",
+                                    "speaker": "Paimon",
+                                    "text": "Um, before we look for Zhongli at Dihua Marsh, let's go to the place marked out on these papers and see if the Fatui really are up to no good there."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "10211211",
+                            "text": "Ningguang is clearly trying to steer us there."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "102130",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "10213001",
+                    "speaker": "Xingxi",
+                    "text": "Thanks for saving Uncle Meng. Please take care."
+                },
+                {
+                    "id": "10213002",
+                    "speaker": "Xingxi",
+                    "text": "Well, now... time to clean that pot..."
+                }
+            ]
+        },
+        {
+            "id": "102131",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "10213101",
+                    "speaker": "Ningguang",
+                    "text": "So, have you made your choice?"
+                },
+                {
+                    "id": "10213102",
+                    "speaker": "Ningguang",
+                    "text": "You don't have to confirm it with me. Just choose one and take it."
+                },
+                {
+                    "id": "10213103",
+                    "speaker": "Ningguang",
+                    "text": "Afterwards, why not sit down for a while in the Jade Chamber, or have a short stroll? Rest is also an integral part of any journey.",
+                    "choices": [
+                        {
+                            "id": "10213104",
+                            "text": "Thank you for your hospitality.",
+                            "response": [
+                                {
+                                    "id": "10213105",
+                                    "speaker": "Ningguang",
+                                    "text": "Come now, there's no need to stand on ceremony. Loosen up a little."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "10213106",
+                            "text": "It's time we made a move. See you...",
+                            "response": [
+                                {
+                                    "id": "10213107",
+                                    "speaker": "Ningguang",
+                                    "text": "Alright then. I hope the next time we meet, you will either have already done the right thing... or, will be about to make the right call."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,416 @@
+{
+    "quest": {
+        "id": "10201",
+        "title": "O Mistério do Tesouro da Garota de Vermelho",
+        "description": "Vocês recolheram todas as informações sobre lutadores mais fortes de Mondstadt, contudo, não tiveram a certeza absoluta. No Quartel-General dos Cavaleiros, foi por acaso que vocês encontram a \"lutadora mais forte\", Klee, todavia, ela está em uma crise de perder os tesouros, e precisa urgentemente a ajuda.",
+        "rewards": [
+            {
+                "itemId": 102,
+                "count": 675
+            },
+            {
+                "itemId": 202,
+                "count": 31175
+            },
+            {
+                "itemId": 104003,
+                "count": 4
+            },
+            {
+                "itemId": 104013,
+                "count": 6
+            }
+        ],
+        "rewards_formatted": "EXP de Aventura x675, Mora x31175, EXP do Herói x4, Minério de Refinamento Místico x6",
+        "chapter": {
+            "icon": "UI_ChapterIcon_Klee",
+            "id": "2009",
+            "num": "Capítulo de Trifolium: Ato I",
+            "title": "Tesouro Verdadeiro"
+        },
+        "total_dialogue_lines": 57,
+        "total_speaker_counts": {
+            "???": 1,
+            "Feiticeiro do Abismo": 15,
+            "Klee": 13,
+            "Paimon": 18,
+            "Player": 10
+        }
+    },
+    "talks": [
+        {
+            "id": "1020101",
+            "objective": "Encontre o esconderijo do tesouro no Bosque Sussurrante.",
+            "dialogues": [
+                {
+                    "id": "102010101",
+                    "speaker": "Klee",
+                    "text": "Estamos aqui! Este é o local!"
+                },
+                {
+                    "id": "102010102",
+                    "speaker": "Klee",
+                    "text": "Veja, é aqui onde o meu graaande tesouro estava enterrado..."
+                },
+                {
+                    "id": "102010103",
+                    "speaker": "Paimon",
+                    "text": "E onde agora existe apenas um enooorme buraco vazio no chão..."
+                },
+                {
+                    "id": "102010104",
+                    "speaker": "Player",
+                    "text": "Espera - Quem é aquela pessoa ali?"
+                },
+                {
+                    "id": "102010105",
+                    "speaker": "Paimon",
+                    "text": "É um... Feiticeiro do Abismo? Ei, talvez ele seja aquele que a Jean estava nos alertando!"
+                },
+                {
+                    "id": "102010106",
+                    "speaker": "Paimon",
+                    "text": "O que é isso nas suas mãos?"
+                },
+                {
+                    "id": "102010107",
+                    "speaker": "Klee",
+                    "text": "Meu tesouro!"
+                },
+                {
+                    "id": "102010108",
+                    "speaker": "Paimon",
+                    "text": "Ei?!"
+                },
+                {
+                    "id": "102010109",
+                    "speaker": "Feiticeiro do Abismo",
+                    "text": "Hunf! Estou vendo que a garotinha trouxe seus amigos consigo! É hora de mudar de planos..."
+                },
+                {
+                    "id": "102010110",
+                    "speaker": "Paimon",
+                    "text": "Ei, você! Se você acha que você é tão durão, volte aqui e lute!"
+                },
+                {
+                    "id": "102010111",
+                    "speaker": "Player",
+                    "text": "Atrás dele!"
+                }
+            ]
+        },
+        {
+            "id": "1020112",
+            "objective": "Fale com o Klee",
+            "dialogues": []
+        },
+        {
+            "id": "1020102",
+            "objective": "Persiga o Feiticeiro do Abismo com Klee (Se o Feiticeiro do Abismo escapar a mais de 50m, a missão irá falhar)",
+            "dialogues": [
+                {
+                    "id": "102010201",
+                    "speaker": "Klee",
+                    "text": "O que é um Feiticeiro do Abismo? Eu sempre brinco pela floresta, mas nunca vi um antes."
+                }
+            ]
+        },
+        {
+            "id": "1020103",
+            "objective": "Perseguição I",
+            "dialogues": [
+                {
+                    "id": "102010301",
+                    "speaker": "Paimon",
+                    "text": "Uma entrada para um domínio! O Feiticeiro do Abismo deve ter entrado por ali.",
+                    "choices": [
+                        {
+                            "id": "102010302",
+                            "text": "Então ele não tem saída.",
+                            "response": [
+                                {
+                                    "id": "102010304",
+                                    "speaker": "Klee",
+                                    "text": "*Puff*..."
+                                },
+                                {
+                                    "id": "102010305",
+                                    "speaker": "Paimon",
+                                    "text": "Klee, você precisa de um descanso?"
+                                },
+                                {
+                                    "id": "102010306",
+                                    "speaker": "Paimon",
+                                    "text": "Por que você não espera aqui enquanto nós pegamos o seu tesouro de volta?"
+                                },
+                                {
+                                    "id": "102010307",
+                                    "speaker": "Klee",
+                                    "text": "... Não, eu vou com você!"
+                                },
+                                {
+                                    "id": "102010308",
+                                    "speaker": "Klee",
+                                    "text": "É o meu tesouro que o Bola de Pelos roubou, e cabe a mim recuperá-lo!",
+                                    "choices": [
+                                        {
+                                            "id": "102010309",
+                                            "text": "Admiro a sua coragem.",
+                                            "response": [
+                                                {
+                                                    "id": "102010311",
+                                                    "speaker": "Klee",
+                                                    "text": "Hee-hee, não se preocupe. Klee já é uma garota grande!"
+                                                },
+                                                {
+                                                    "id": "102010312",
+                                                    "speaker": "Klee",
+                                                    "text": "#Vamos, Cavaleir{F#a}{M#o} Honorável! Vamooooos!"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "102010310",
+                                            "text": "Mas estes domínios podem ser perigosos."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "102010303",
+                            "text": "Vamos continuar a perseguição."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "1020114",
+            "objective": "Conversação de Combate I",
+            "dialogues": [
+                {
+                    "id": "102010601",
+                    "speaker": "Paimon",
+                    "text": "Rápido! Dê-nos o tesouro!"
+                },
+                {
+                    "id": "102010602",
+                    "speaker": "Feiticeiro do Abismo",
+                    "text": "Grrr... Que chatice..."
+                },
+                {
+                    "id": "102010603",
+                    "speaker": "Feiticeiro do Abismo",
+                    "text": "Vocês, idiotas, acham que eu desistiria disto tão facilmente depois do que passei para consegui-lo?"
+                },
+                {
+                    "id": "102010604",
+                    "speaker": "Feiticeiro do Abismo",
+                    "text": "Hehe..."
+                }
+            ]
+        },
+        {
+            "id": "1020104",
+            "objective": "Combate I",
+            "dialogues": [
+                {
+                    "id": "102010401",
+                    "speaker": "Feiticeiro do Abismo",
+                    "text": "Hmph. Você me seguiu. Devo dizer que estou impressionado."
+                },
+                {
+                    "id": "102010402",
+                    "speaker": "Feiticeiro do Abismo",
+                    "text": "Mas aqui é o mais longe que você chegará."
+                },
+                {
+                    "id": "102010403",
+                    "speaker": "Paimon",
+                    "text": "Ah é? E o que você vai fazer?"
+                },
+                {
+                    "id": "102010404",
+                    "speaker": "Feiticeiro do Abismo",
+                    "text": "Mwuhahaha! Ahahahaha!"
+                },
+                {
+                    "id": "102010405",
+                    "speaker": "Feiticeiro do Abismo",
+                    "text": "Oh, a propensão humana de fofocar nos proporcionou tudo o que precisamos..."
+                },
+                {
+                    "id": "102010406",
+                    "speaker": "Feiticeiro do Abismo",
+                    "text": "Soubemos que sua amiguinha vermelha possuía o tesouro mais poderoso de toda cidade de Mondstadt."
+                },
+                {
+                    "id": "102010407",
+                    "speaker": "Feiticeiro do Abismo",
+                    "text": "Esse tesouro está agora nas minhas mãos. Não há nada que você possa fazer!"
+                },
+                {
+                    "id": "102010408",
+                    "speaker": "Feiticeiro do Abismo",
+                    "text": "Agora seu precioso tesouro será sua ruína!"
+                },
+                {
+                    "id": "102010409",
+                    "speaker": "Klee",
+                    "text": "Não, não, espere! N-Não toque nisso!"
+                },
+                {
+                    "id": "102010410",
+                    "speaker": "Feiticeiro do Abismo",
+                    "text": "Hah! Oh, como você se preocupa agora que sua situação está finalmente clara para você!"
+                },
+                {
+                    "id": "102010411",
+                    "speaker": "Feiticeiro do Abismo",
+                    "text": "Agora, o que temos aqui - um símbolo de fogo? Mwuhahaha..."
+                },
+                {
+                    "id": "102010412",
+                    "speaker": "???",
+                    "text": "Bumm!"
+                },
+                {
+                    "id": "102010501",
+                    "speaker": "Klee",
+                    "text": "Ah!"
+                },
+                {
+                    "id": "102010502",
+                    "speaker": "Klee",
+                    "text": "Quebrei as regras de sobrevivência... \"Explosões podem machucar pessoas... Jean pode ser horrível...\""
+                },
+                {
+                    "id": "102010503",
+                    "speaker": "Klee",
+                    "text": "É isso aí... Desta vez estou acabada... *Chora*"
+                },
+                {
+                    "id": "102010504",
+                    "speaker": "Paimon",
+                    "text": "..."
+                },
+                {
+                    "id": "102010505",
+                    "speaker": "Paimon",
+                    "text": "Espera, então o Tesouro de Klee era uma bomba!?",
+                    "choices": [
+                        {
+                            "id": "102010506",
+                            "text": "Isso foi épico...",
+                            "response": [
+                                {
+                                    "id": "102010508",
+                                    "speaker": "Paimon",
+                                    "text": "Não é de se admirar que a Klee tenha sido considerada a lutadora mais forte de Mondstadt."
+                                },
+                                {
+                                    "id": "102010509",
+                                    "speaker": "Paimon",
+                                    "text": "Paimon mesmo, jamais vai arrumar uma briga com ela. Nunca."
+                                },
+                                {
+                                    "id": "102010510",
+                                    "speaker": "Paimon",
+                                    "text": "Espera um pouco... Por que ela correu e fugiu?",
+                                    "choices": [
+                                        {
+                                            "id": "102010511",
+                                            "text": "Algo a ver com as regras de sobrevivência...",
+                                            "response": [
+                                                {
+                                                    "id": "102010513",
+                                                    "speaker": "Paimon",
+                                                    "text": "Parece que sim!"
+                                                },
+                                                {
+                                                    "id": "102010514",
+                                                    "speaker": "Paimon",
+                                                    "text": "Bem, então vamos voltar aos <color=#00E1FFFF>Cavaleiros de Favonius</color> e falar com a Jean."
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "102010512",
+                                            "text": "Algo a ver com a Jean..."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "102010507",
+                            "text": "Lidou bem rápido com o Feiticeiro do Abismo!"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "1020105",
+            "objective": "Perseguição II",
+            "dialogues": []
+        },
+        {
+            "id": "1020115",
+            "objective": "Combate II",
+            "dialogues": [
+                {
+                    "id": "102010701",
+                    "speaker": "Paimon",
+                    "text": "Parado ai!"
+                },
+                {
+                    "id": "102010702",
+                    "speaker": "Feiticeiro do Abismo",
+                    "text": "*Puf puf* Aquela garota tem sorte de não ter vindo sozinha, senão eu..."
+                },
+                {
+                    "id": "102010703",
+                    "speaker": "Feiticeiro do Abismo",
+                    "text": "Hehe..."
+                }
+            ]
+        },
+        {
+            "id": "1020106",
+            "objective": "Combate II",
+            "dialogues": []
+        },
+        {
+            "id": "1020107",
+            "objective": "Perseguição III",
+            "dialogues": []
+        },
+        {
+            "id": "1020108",
+            "objective": "Siga os rastros do Feiticeiro do Abismo",
+            "dialogues": []
+        },
+        {
+            "id": "1020113",
+            "objective": "Siga os rastros do Feiticeiro do Abismo",
+            "dialogues": []
+        },
+        {
+            "id": "1020109",
+            "objective": "Entre no Reino Obscuro",
+            "dialogues": []
+        },
+        {
+            "id": "1020110",
+            "objective": "Explore o Domínio em busca do Feiticeiro do Abismo",
+            "dialogues": []
+        },
+        {
+            "id": "1020111",
+            "objective": "Negocie com o Feiticeiro do Abismo",
+            "dialogues": []
+        }
+    ]
+}

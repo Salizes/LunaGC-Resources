@@ -1,0 +1,1414 @@
+{
+    "quest": {
+        "id": "10013",
+        "title": "Determinação do Cavaleiro",
+        "description": "Diante de um destino irreversível, para onde a determinação final de Lohen o levará...",
+        "rewards": [
+            {
+                "itemId": 102,
+                "count": 650
+            },
+            {
+                "itemId": 201,
+                "count": 60
+            },
+            {
+                "itemId": 202,
+                "count": 49200
+            },
+            {
+                "itemId": 104305,
+                "count": 5
+            },
+            {
+                "itemId": 109652,
+                "count": 1
+            },
+            {
+                "itemId": 104003,
+                "count": 6
+            },
+            {
+                "itemId": 104013,
+                "count": 11
+            }
+        ],
+        "rewards_formatted": "EXP de Aventura x650, Gema Essencial x60, Mora x49200, Guia de Resistência x5, Receita: Chiclete de Menta x1, EXP do Herói x6, Minério de Refinamento Místico x11",
+        "chapter": {
+            "icon": "UI_ChapterIcon_Lohen",
+            "id": "2088",
+            "num": "Capítulo de Lepus Miles: Ato I",
+            "title": "O Legado de Um Cavaleiro"
+        },
+        "total_dialogue_lines": 250,
+        "total_speaker_counts": {
+            "???": 4,
+            "Adorno": 12,
+            "Diluc": 12,
+            "Eroch": 1,
+            "Lohen": 91,
+            "Lohen?": 9,
+            "Monstros Agitados": 3,
+            "Paimon": 14,
+            "Player": 23,
+            "Rosnado Vindo das Profundezas": 2,
+            "Rugido dos Tempos Antigos": 1,
+            "Theodore": 36,
+            "Varka": 31,
+            "Varka e Lohen": 1,
+            "Vingador da Lua": 1,
+            "Voz Cautelosa": 1,
+            "Voz Fria": 2,
+            "Voz Perversa": 4,
+            "Voz Reclamona": 1,
+            "Voz Respeitosa": 1
+        }
+    },
+    "talks": [
+        {
+            "id": "1001301",
+            "objective": "Vá para o local de avistamento",
+            "dialogues": [
+                {
+                    "id": "100130101",
+                    "speaker": "Varka",
+                    "text": "Hmm... Foi até aqui que conseguimos seguir o rastro dele?"
+                },
+                {
+                    "id": "100130102",
+                    "speaker": "Varka",
+                    "text": "Como esperado da \"Flecha Mais Afiada\" da 5ª Companhia, desapareceu num piscar de olhos."
+                },
+                {
+                    "id": "100130103",
+                    "speaker": "Paimon",
+                    "text": "Se quiser elogiá-lo, deixe isso para depois! Não temos mais nenhuma pista?"
+                },
+                {
+                    "id": "100130104",
+                    "speaker": "Diluc",
+                    "text": "O orvalho desta grama está gelado. Provavelmente é efeito de Energia Elemental.",
+                    "choices": [
+                        {
+                            "id": "100130105",
+                            "text": "Rastros de Energia Elemental...",
+                            "response": [
+                                {
+                                    "id": "100130107",
+                                    "speaker": "Varka",
+                                    "text": "#Opa! Você realmente é incrível, hein, Cavaleir{F#a}{M#o} Honorável?"
+                                },
+                                {
+                                    "id": "100130108",
+                                    "speaker": "Varka",
+                                    "text": "Ainda assim, ser visto por testemunhas e deixar rastros... Esse não é o Lohen que eu conheço."
+                                },
+                                {
+                                    "id": "100130109",
+                                    "speaker": "Diluc",
+                                    "text": "Você acha que ele quer ser seguido?"
+                                },
+                                {
+                                    "id": "100130110",
+                                    "speaker": "Varka",
+                                    "text": "Se ele está com pressa para concluir alguma coisa... ou impedir que algo aconteça, nossa tarefa continua a mesma."
+                                },
+                                {
+                                    "id": "100130111",
+                                    "speaker": "Paimon",
+                                    "text": "Isso! Vamos logo, temos que ir até o fundo disso!"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "100130106",
+                            "text": "Acho que consigo segui-los."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "1001302",
+            "objective": "Persiga Lohen",
+            "dialogues": [
+                {
+                    "id": "100130201",
+                    "speaker": "Voz Cautelosa",
+                    "text": "Os resultados do experimento foram confirmados. A dosagem do soro ainda precisa de ajustes..."
+                }
+            ]
+        },
+        {
+            "id": "1001303",
+            "objective": "Entre no Campo de Experimento",
+            "dialogues": []
+        },
+        {
+            "id": "1001304",
+            "objective": "Fale com todos",
+            "dialogues": [
+                {
+                    "id": "100130401",
+                    "speaker": "Varka",
+                    "text": "Esses restos e recipientes de metal... É como liderar a expedição por Snezhnaya de novo.",
+                    "choices": [
+                        {
+                            "id": "100130402",
+                            "text": "A vegetação aqui também está um pouco estranha...",
+                            "response": [
+                                {
+                                    "id": "100130404",
+                                    "speaker": "Diluc",
+                                    "text": "Sua conjectura anterior parece correta. Este lugar realmente parece ser um local de experimentos deixado para trás por um dos Segmentos de Dottore."
+                                },
+                                {
+                                    "id": "100130405",
+                                    "speaker": "Diluc",
+                                    "text": "Não é de se admirar que os Cavaleiros de Favonius não tenham conseguido descobrir a entrada por tantos anos. Muito provavelmente, isso foi obra dele."
+                                },
+                                {
+                                    "id": "100130406",
+                                    "speaker": "Varka",
+                                    "text": "E assim que a ocultação se dissipou, alguém descobriu este lugar antes de nós e reiniciou os experimentos com a carne e o sangue de Ursa."
+                                },
+                                {
+                                    "id": "100130407",
+                                    "speaker": "Paimon",
+                                    "text": "Você não acha que foi..."
+                                },
+                                {
+                                    "id": "100130408",
+                                    "speaker": "Voz Perversa",
+                                    "text": "Que saco... Quantas cobaias ainda vamos ter que capturar...?"
+                                },
+                                {
+                                    "id": "100130409",
+                                    "speaker": "Voz Perversa",
+                                    "text": "Está olhando o quê!?"
+                                },
+                                {
+                                    "id": "100130410",
+                                    "speaker": "Voz Perversa",
+                                    "text": "Fique parado e não cause problemas."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "100130403",
+                            "text": "Será que isso tem a ver com o poder de Ursa?"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "1001305",
+            "objective": "Observe o que está havendo no lado de fora",
+            "dialogues": [
+                {
+                    "id": "100130501",
+                    "speaker": "Voz Respeitosa",
+                    "text": "Senhor, os novos espécimes chegaram."
+                },
+                {
+                    "id": "100130502",
+                    "speaker": "Voz Reclamona",
+                    "text": "Esse pirralho é bem feroz. Deu um trabalhão para acalmá-lo."
+                },
+                {
+                    "id": "100130503",
+                    "speaker": "Voz Fria",
+                    "text": "Hmm? Interessante... Vou dar uma olhada eu mesmo."
+                },
+                {
+                    "id": "100130504",
+                    "speaker": "Voz Fria",
+                    "text": "Alegre-se. Em breve, você superará a carne comum deste mundo. Você cruzará para o reino do extraordinário..."
+                }
+            ]
+        },
+        {
+            "id": "1001306",
+            "objective": "Tente empurrar a porta para sair",
+            "dialogues": [
+                {
+                    "id": "100130601",
+                    "speaker": "Voz Perversa",
+                    "text": "Eu avisei. Não. Cause. Problemas."
+                },
+                {
+                    "id": "100130602",
+                    "speaker": "Varka",
+                    "text": "Aquilo era... uma projeção formada a partir de memórias?"
+                },
+                {
+                    "id": "100130603",
+                    "speaker": "Diluc",
+                    "text": "Parece uma armadilha deixada para retardar nosso avanço."
+                },
+                {
+                    "id": "100130604",
+                    "speaker": "Paimon",
+                    "text": "Uma armadilha? Será que foi o Lohen de novo..."
+                },
+                {
+                    "id": "100130605",
+                    "speaker": "Varka",
+                    "text": "Nah. Aquele garoto teria bolado algo bem mais... letal."
+                },
+                {
+                    "id": "100130606",
+                    "speaker": "Varka",
+                    "text": "De todo modo, Lohen não é o único..."
+                },
+                {
+                    "id": "100130607",
+                    "speaker": "Varka",
+                    "text": "...Que foi capturado por Eroch e conhece esse tipo de magia."
+                },
+                {
+                    "id": "100130608",
+                    "speaker": "Theodore",
+                    "text": "...Não parece que você veio para ajudar."
+                },
+                {
+                    "id": "100130609",
+                    "speaker": "Lohen",
+                    "text": "Pelo contrário, acredito que acabar com isso o quanto antes é a melhor forma de ajudar você."
+                },
+                {
+                    "id": "100130610",
+                    "speaker": "Theodore",
+                    "text": "Pfft... Heh, heh! Acabar com isso? É isso que você está dizendo agora?"
+                },
+                {
+                    "id": "100130611",
+                    "speaker": "Theodore",
+                    "text": "Lá atrás, quando os cobaias estavam escapando para todo lado... Quando eu já estava pronto para desistir... Quem foi que disse que eu devia continuar?"
+                },
+                {
+                    "id": "100130612",
+                    "speaker": "Theodore",
+                    "text": "Ugh... todos os espécimes... escaparam?"
+                },
+                {
+                    "id": "100130613",
+                    "speaker": "Lohen",
+                    "text": "...Você não deveria fazer experimentos em si mesmo tão cedo, Theodore."
+                },
+                {
+                    "id": "100130614",
+                    "speaker": "Lohen",
+                    "text": "Você achou que descobrir o laboratório de Eroch e tomar controle do aparato de Dottore seria o bastante para reiniciar os experimentos dele?"
+                },
+                {
+                    "id": "100130615",
+                    "speaker": "Lohen",
+                    "text": "Olhe para você, mal consegue levantar um dedo, impotente, sem conseguir fazer nada além de ver seus espécimes fugirem."
+                },
+                {
+                    "id": "100130616",
+                    "speaker": "Theodore",
+                    "text": "Lohen... você... veio me impedir?"
+                },
+                {
+                    "id": "100130617",
+                    "speaker": "Lohen",
+                    "text": "Heh, muito pelo contrário. Quem você acha que impediu aqueles monstros de te devorarem?"
+                },
+                {
+                    "id": "100130618",
+                    "speaker": "Theodore",
+                    "text": "Você... cuidou deles?"
+                },
+                {
+                    "id": "100130619",
+                    "speaker": "Lohen",
+                    "text": "Também pretendo lidar com os que fugiram para a natureza. Se você ignorá-los, os Cavaleiros de Favonius vão seguir o rastro deles até a sua porta."
+                },
+                {
+                    "id": "100130620",
+                    "speaker": "Theodore",
+                    "text": "Você... Por que está me ajudando?"
+                },
+                {
+                    "id": "100130621",
+                    "speaker": "Lohen",
+                    "text": "Eu sei o que você pretende fazer com a carne e o sangue de Ursa, o Dragão. Eu li o relatório de exame que você escreveu para Adorno."
+                },
+                {
+                    "id": "100130622",
+                    "speaker": "Lohen",
+                    "text": "Velho e frágil, um amontoado de ferimentos antigos... Um dia, ele não vai acordar, e ninguém vai se surpreender. A menos que haja uma intervenção \"extraordinária\"."
+                },
+                {
+                    "id": "100130623",
+                    "speaker": "Theodore",
+                    "text": "Eu... Eu escondi! Nem o próprio Adorno percebeu!"
+                },
+                {
+                    "id": "100130624",
+                    "speaker": "Lohen",
+                    "text": "Não fique tão chocado."
+                },
+                {
+                    "id": "100130625",
+                    "speaker": "Lohen",
+                    "text": "Somos \"companheiros\", ambos resgatados pelo Cavaleiro Benevolente. Você realmente achou que eu não notaria suas mudanças?"
+                },
+                {
+                    "id": "100130626",
+                    "speaker": "Theodore",
+                    "text": "...É por isso que você está disposto a guardar meu segredo?"
+                },
+                {
+                    "id": "100130627",
+                    "speaker": "Lohen",
+                    "text": "Ah, não me entenda mal. Espero sinceramente que Adorno viva por mais um bom tempo, isso me pouparia de herdar responsabilidades desnecessárias."
+                },
+                {
+                    "id": "100130628",
+                    "speaker": "Lohen",
+                    "text": "Mas o que mais me interessa é \"poder\"."
+                },
+                {
+                    "id": "100130629",
+                    "speaker": "Lohen",
+                    "text": "Você não está preocupado com o fato de seus experimentos com monstros terem chegado a um impasse, e de que seu próprio corpo não consegue suportar o poder de Ursa?"
+                },
+                {
+                    "id": "100130630",
+                    "speaker": "Lohen",
+                    "text": "Nesse caso, use-me como sua cobaia."
+                },
+                {
+                    "id": "100130631",
+                    "speaker": "Lohen",
+                    "text": "..."
+                },
+                {
+                    "id": "100130632",
+                    "speaker": "Theodore",
+                    "text": "Sem você, nunca teríamos chegado tão longe!"
+                },
+                {
+                    "id": "100130633",
+                    "speaker": "Theodore",
+                    "text": "Refinar o soro, continuar os experimentos, trazer Adorno para cá... Essas ideias não foram todas suas, Lohen?"
+                },
+                {
+                    "id": "100130634",
+                    "speaker": "Lohen",
+                    "text": "Isso mesmo. E é por isso que também estou preparado para falhar."
+                },
+                {
+                    "id": "100130635",
+                    "speaker": "Theodore",
+                    "text": "Falhar? Estamos tão... tão perto. Contanto que você não estrague nosso disfarce, ainda temos uma chance!"
+                },
+                {
+                    "id": "100130636",
+                    "speaker": "Theodore",
+                    "text": "Lohen, escute! O soro de Ursa funciona!"
+                },
+                {
+                    "id": "100130637",
+                    "speaker": "Theodore",
+                    "text": "Adorno está melhorando. Ele já consegue sair da cama sozinho! ...Se não fosse por você, acho que ele não teria aguentado até o fim da semana..."
+                },
+                {
+                    "id": "100130638",
+                    "speaker": "Theodore",
+                    "text": "Mas... por enquanto, eu só consigo adicionar soro de baixa concentração às refeições e aos remédios de Adorno. Isso não vai curar a causa raiz..."
+                },
+                {
+                    "id": "100130639",
+                    "speaker": "Lohen",
+                    "text": "É mesmo? Que bom saber..."
+                },
+                {
+                    "id": "100130640",
+                    "speaker": "Lohen",
+                    "text": "Quanto mais tranquilamente seus experimentos avançarem, maiores serão minhas esperanças de dominar esse poder."
+                },
+                {
+                    "id": "100130641",
+                    "speaker": "Theodore",
+                    "text": "Ahn... Você acha que poderia arranjar um tempo para vê-lo? Ele fala de você com frequência..."
+                },
+                {
+                    "id": "100130642",
+                    "speaker": "Lohen",
+                    "text": "...Vou passar. Eu realmente prefiro não ter que ouvir as broncas dele."
+                },
+                {
+                    "id": "100130643",
+                    "speaker": "Lohen",
+                    "text": "Além disso, qualquer contato desnecessário só aumenta o risco de exposição... Estamos ficando sem tempo."
+                },
+                {
+                    "id": "100130644",
+                    "speaker": "Lohen",
+                    "text": "Mais cedo ou mais tarde, os Cavaleiros de Favonius vão perceber que há algo errado. Não importa quantos truques usemos, eles só vão funcionar por um tempo. Quanto falta para você ter controle total?"
+                },
+                {
+                    "id": "100130645",
+                    "speaker": "Theodore",
+                    "text": "Em breve! Muito em breve! Graças à sua ajuda, o poder do soro se estabilizou bastante, embora eu não o chamaria de uma substância suave..."
+                },
+                {
+                    "id": "100130646",
+                    "speaker": "Lohen",
+                    "text": "...Nem pense em usá-lo no velho para poupar tempo."
+                },
+                {
+                    "id": "100130647",
+                    "speaker": "Theodore",
+                    "text": "Claro que não! Você está pensando demais. Eu sei o que estou fazendo."
+                },
+                {
+                    "id": "100130648",
+                    "speaker": "Lohen",
+                    "text": "É o que você diz. Todo mundo acha que sabe o que está fazendo, até que o problema bate à sua porta."
+                },
+                {
+                    "id": "100130649",
+                    "speaker": "Theodore",
+                    "text": "Haha! Se esse dia chegar, fique à vontade para me dar um tapa para eu cair na real!"
+                },
+                {
+                    "id": "100130650",
+                    "speaker": "Lohen",
+                    "text": "Estragar nosso disfarce? Você acha que os Cavaleiros nunca suspeitaram? Quem você acha que estava atrasando a investigação?"
+                },
+                {
+                    "id": "100130651",
+                    "speaker": "Lohen",
+                    "text": "Quantas vezes eu vou ter que repetir isso? Desde o começo, estávamos apostando, com o nosso tempo, o tempo dos Cavaleiros e o tempo que resta ao Adorno..."
+                },
+                {
+                    "id": "100130652",
+                    "speaker": "Lohen",
+                    "text": "Se você perde uma luta, recua. Se perde uma aposta, aceita... Se continuar no campo de batalha ou na mesa de jogo, é certo que vamos perder ainda mais."
+                },
+                {
+                    "id": "100130653",
+                    "speaker": "Theodore",
+                    "text": "O que você quer fazer então!? Ficar parado vendo ele morrer!?"
+                },
+                {
+                    "id": "100130654",
+                    "speaker": "Lohen",
+                    "text": "Hunf... Acorde logo. No estado em que ele está, o soro o mataria. É isso que você prefere?"
+                },
+                {
+                    "id": "100130655",
+                    "speaker": "Theodore",
+                    "text": "Eu ainda não desisti! Eu... concluí os refinamentos finais antes de você chegar."
+                },
+                {
+                    "id": "100130656",
+                    "speaker": "Theodore",
+                    "text": "Este é o soro refinado, de alta concentração... Contanto que eu use isto, nem você vai conseguir me impedir!"
+                },
+                {
+                    "id": "100130657",
+                    "speaker": "Theodore",
+                    "text": "Você pode se recusar a cooperar. Tudo bem. Isso só me traz de volta ao ponto de partida. Eu mesmo vou acabar com isso!"
+                },
+                {
+                    "id": "100130658",
+                    "speaker": "Varka",
+                    "text": "...Confiando em lembranças vagas da infância, Theodore foi o primeiro a encontrar este lugar, reiniciando os experimentos de Eroch para prolongar a vida de Adorno."
+                },
+                {
+                    "id": "100130659",
+                    "speaker": "Varka",
+                    "text": "Mas em algum momento, o experimento falhou, e os monstros escaparam... Lohen então o encontrou e ofereceu ajuda, permitindo que ele continuasse extraindo soro de Ursa, o Dragão..."
+                },
+                {
+                    "id": "100130660",
+                    "speaker": "Varka",
+                    "text": "Parece que esse é o quadro completo."
+                },
+                {
+                    "id": "100130661",
+                    "speaker": "Diluc",
+                    "text": "O que você pretende fazer com eles?"
+                },
+                {
+                    "id": "100130662",
+                    "speaker": "Varka",
+                    "text": "*Suspiro*... Vou deixar essa dor de cabeça para Jean e os outros resolverem depois. Que eles decidam qual é a medida apropriada a tomar."
+                },
+                {
+                    "id": "100130663",
+                    "speaker": "Varka",
+                    "text": "Por ora, o que mais me preocupa são os restos mortais da Carne de Ursa, enterrados aqui sob a terra..."
+                }
+            ]
+        },
+        {
+            "id": "1001307",
+            "objective": "Siga até as profundezas",
+            "dialogues": [
+                {
+                    "id": "100130701",
+                    "speaker": "Theodore",
+                    "text": "*Cof Cof*"
+                },
+                {
+                    "id": "100130702",
+                    "speaker": "Theodore",
+                    "text": "Por quê...? Eu usei... a concentração... mais alta possível!"
+                },
+                {
+                    "id": "100130703",
+                    "speaker": "Lohen",
+                    "text": "Você é fraco... e nem tem consciência disso."
+                },
+                {
+                    "id": "100130704",
+                    "speaker": "Theodore",
+                    "text": "...Consciência? Com que direito você fala comigo sobre consciência...? Você também perdeu o controle uma vez!"
+                },
+                {
+                    "id": "100130705",
+                    "speaker": "Lohen",
+                    "text": "E é exatamente por isso que eu sei que não podemos continuar!"
+                },
+                {
+                    "id": "100130706",
+                    "speaker": "Lohen",
+                    "text": "Se o preço para salvar a vida de Adorno for a própria vida dele, então não estaremos o salvando, mas sim o monstro que ele vai se tornar!"
+                },
+                {
+                    "id": "100130707",
+                    "speaker": "Lohen",
+                    "text": "Olhe bem para si mesmo. Você é mesmo a pessoa que ele escolheu para herdar o nome \"Benevolente\"?"
+                },
+                {
+                    "id": "100130708",
+                    "speaker": "Theodore",
+                    "text": "Eu... Eu..."
+                },
+                {
+                    "id": "100130709",
+                    "speaker": "Theodore",
+                    "text": "... Eu não aceito... Eu não aceito!"
+                },
+                {
+                    "id": "100130710",
+                    "speaker": "Lohen",
+                    "text": "..."
+                },
+                {
+                    "id": "100130711",
+                    "speaker": "Adorno",
+                    "text": "...Quando foi a última vez que abracei vocês assim?"
+                },
+                {
+                    "id": "100130712",
+                    "speaker": "Adorno",
+                    "text": "Num piscar de olhos... vocês cresceram tanto que nem consigo mais abraçar assim."
+                },
+                {
+                    "id": "100130713",
+                    "speaker": "Theodore",
+                    "text": "A... Adorno...?"
+                },
+                {
+                    "id": "100130714",
+                    "speaker": "Lohen",
+                    "text": "Velho..."
+                },
+                {
+                    "id": "100130715",
+                    "speaker": "Adorno",
+                    "text": "Eu ouvi tudo... foram vocês que me mantiveram firme até agora, não foram?"
+                },
+                {
+                    "id": "100130716",
+                    "speaker": "Adorno",
+                    "text": "Vocês me deram essa chance... de abraçá-los como antigamente..."
+                },
+                {
+                    "id": "100130717",
+                    "speaker": "Adorno",
+                    "text": "Por isso..."
+                },
+                {
+                    "id": "100130718",
+                    "speaker": "Adorno",
+                    "text": "...Está tudo bem, já passou."
+                },
+                {
+                    "id": "100130719",
+                    "speaker": "Theodore",
+                    "text": "*Soluço... Soluço*..."
+                },
+                {
+                    "id": "100130720",
+                    "speaker": "Lohen",
+                    "text": "..."
+                },
+                {
+                    "id": "100130721",
+                    "speaker": "Adorno",
+                    "text": "Por que está chorando? Não faz sentido que o \"Cavaleiro Benevolente\" faça uma criança chorar no final, faz?"
+                },
+                {
+                    "id": "100130722",
+                    "speaker": "Adorno",
+                    "text": "Me prometa que vai me deixar partir com um sorriso."
+                },
+                {
+                    "id": "100130723",
+                    "speaker": "Theodore",
+                    "text": "Eu..."
+                },
+                {
+                    "id": "100130724",
+                    "speaker": "Theodore",
+                    "text": "Eu só não queria... ver você..."
+                },
+                {
+                    "id": "100130725",
+                    "speaker": "Adorno",
+                    "text": "Vocês estarem ao meu lado já não é o suficiente?"
+                },
+                {
+                    "id": "100130726",
+                    "speaker": "Varka",
+                    "text": "—Adorno! Theodore!"
+                },
+                {
+                    "id": "100130727",
+                    "speaker": "Player",
+                    "text": "—Lohen!"
+                },
+                {
+                    "id": "100130728",
+                    "speaker": "Diluc",
+                    "text": "...Esse problema foi resolvido, imagino?"
+                },
+                {
+                    "id": "100130729",
+                    "speaker": "Lohen",
+                    "text": "...Não completamente."
+                },
+                {
+                    "id": "100130730",
+                    "speaker": "Rosnado Vindo das Profundezas",
+                    "text": "Raaargh!"
+                },
+                {
+                    "id": "100130731",
+                    "speaker": "Paimon",
+                    "text": "Que... Que som foi esse!?"
+                },
+                {
+                    "id": "100130732",
+                    "speaker": "Lohen",
+                    "text": "Eu sabia... Você teve que estimular a Carne de Ursa além do limite de alto risco para extrair o soro necessário!"
+                },
+                {
+                    "id": "100130733",
+                    "speaker": "Lohen",
+                    "text": "Se deixarmos que seu poder continue se espalhando, todas as formas de vida nas proximidades serão afetadas... assim como as plantas aqui e aqueles monstros que vimos mais cedo."
+                },
+                {
+                    "id": "100130734",
+                    "speaker": "Theodore",
+                    "text": "Eu...!"
+                },
+                {
+                    "id": "100130735",
+                    "speaker": "Lohen",
+                    "text": "Por que ainda tenta bancar o forte? Você mal consegue mexer um dedo agora, não é? Eu sei como é essa sensação."
+                },
+                {
+                    "id": "100130736",
+                    "speaker": "Lohen",
+                    "text": "Entregue isso e então... saia do caminho e observe."
+                },
+                {
+                    "id": "100130737",
+                    "speaker": "Theodore",
+                    "text": "...A chave para o Subterrâneo está no forro do meu casaco."
+                },
+                {
+                    "id": "100130738",
+                    "speaker": "Theodore",
+                    "text": "Por favor... destrua completamente a Carne de Ursa, o Dragão... e seu poder."
+                },
+                {
+                    "id": "100130739",
+                    "speaker": "Lohen",
+                    "text": "Adeus... Adorno."
+                },
+                {
+                    "id": "100130740",
+                    "speaker": "Adorno",
+                    "text": "Vá. Esse tipo de poder nunca deveria ter ficado neste mundo."
+                },
+                {
+                    "id": "100130741",
+                    "speaker": "Rosnado Vindo das Profundezas",
+                    "text": "Raargh!"
+                },
+                {
+                    "id": "100130742",
+                    "speaker": "Paimon",
+                    "text": "Passando daqui... é onde o Dottore e o Eroch costumavam fazer experimentos com Ursa, certo?"
+                },
+                {
+                    "id": "100130743",
+                    "speaker": "Varka",
+                    "text": "É mesmo. Um lunático em busca de poder e um anjo que escolheu isso... Que farsa."
+                },
+                {
+                    "id": "100130744",
+                    "speaker": "Diluc",
+                    "text": "...Uma que estamos prestes a encerrar."
+                },
+                {
+                    "id": "100130745",
+                    "speaker": "Varka",
+                    "text": "Não se deve subestimar o poder residual de Ursa, o Dragão. Fiquem atentos, pessoal. Essa vai ser uma batalha difícil!"
+                },
+                {
+                    "id": "100130746",
+                    "speaker": "Monstros Agitados",
+                    "text": "Raargh!"
+                },
+                {
+                    "id": "100130747",
+                    "speaker": "Paimon",
+                    "text": "Uau — o que foi esse barulho lá?!"
+                },
+                {
+                    "id": "100130748",
+                    "speaker": "Lohen",
+                    "text": "...São monstros, capturados para experimentos há muito tempo. Eles sobreviveram até hoje graças aos aparelhos do Dottore e ao poder de Ursa."
+                },
+                {
+                    "id": "100130749",
+                    "speaker": "Lohen",
+                    "text": "Eu mesmo adicionei vários ao números deles... Parecem que eles estão ficando agitados."
+                },
+                {
+                    "id": "100130750",
+                    "speaker": "Player",
+                    "text": "Você realmente precisava de tantos?"
+                },
+                {
+                    "id": "100130751",
+                    "speaker": "Paimon",
+                    "text": "Você tem certeza que suas gaiolas são resistentes? Não precisamos que eles compliquem nossa luta contra Ursa..."
+                },
+                {
+                    "id": "100130752",
+                    "speaker": "Lohen",
+                    "text": "Se fossem resistentes, eu não teria me esforçado tanto para lidar com os que fugiram antes..."
+                },
+                {
+                    "id": "100130753",
+                    "speaker": "Lohen",
+                    "text": "Mas não se preocupem, eles não vão incomodar vocês... Eu garanto."
+                },
+                {
+                    "id": "100130754",
+                    "speaker": "Player",
+                    "text": "Você pretende..."
+                },
+                {
+                    "id": "100130755",
+                    "speaker": "Lohen",
+                    "text": "A ambição dos antigos subordinados, a vingança pela família amada... Essas são as questões que vocês devem resolver, não são?"
+                },
+                {
+                    "id": "100130756",
+                    "speaker": "Lohen",
+                    "text": "Então, da mesma forma, apenas deixem os monstros que capturei por minha conta."
+                },
+                {
+                    "id": "100130757",
+                    "speaker": "Lohen",
+                    "text": "Oh, mais uma coisa..."
+                },
+                {
+                    "id": "100130758",
+                    "speaker": "Lohen",
+                    "text": "Vice-capitão da 5ª Companhia dos Cavaleiros de Favonius — solicitando permissão para atacar."
+                },
+                {
+                    "id": "100130759",
+                    "speaker": "Varka",
+                    "text": "Hah! Finalmente relatando antes da ação, hein?"
+                },
+                {
+                    "id": "100130760",
+                    "speaker": "Varka",
+                    "text": "—Manda ver, Lohen."
+                },
+                {
+                    "id": "100130761",
+                    "speaker": "Varka",
+                    "text": "E não morra — isso é uma ordem."
+                },
+                {
+                    "id": "100130762",
+                    "speaker": "Lohen",
+                    "text": "Nesse caso, por favor, lidem com Ursa assim que possível."
+                },
+                {
+                    "id": "100130763",
+                    "speaker": "Paimon",
+                    "text": "#{NICKNAME}... a gente não deveria ajudá-lo?",
+                    "choices": [
+                        {
+                            "id": "100130764",
+                            "text": "Não... Deixe ele resolver isso sozinho.",
+                            "response": [
+                                {
+                                    "id": "100130766",
+                                    "speaker": "Varka",
+                                    "text": "Oho? Parece que a \"taxa de amizade\" daquele garoto não foi totalmente desperdiçada, afinal, hein?"
+                                },
+                                {
+                                    "id": "100130767",
+                                    "speaker": "Diluc",
+                                    "text": "...Ele consegue lidar com todos eles?"
+                                },
+                                {
+                                    "id": "100130768",
+                                    "speaker": "Varka",
+                                    "text": "Confie nele, assim como ele confia em nós. Afinal, ele será o Capitão mais jovem depois de você."
+                                },
+                                {
+                                    "id": "100130769",
+                                    "speaker": "Lohen",
+                                    "text": "Eroch, Rerir, Dottore... Hah, e agora Ursa? Parece que não estou destinado a desafiá-los."
+                                },
+                                {
+                                    "id": "100130770",
+                                    "speaker": "Lohen",
+                                    "text": "Mas as pessoas normais... Nós também temos nossas próprias batalhas."
+                                },
+                                {
+                                    "id": "100130771",
+                                    "speaker": "Varka",
+                                    "text": "Então, vão. Acertem as contas com suas \"obsessões\"..."
+                                },
+                                {
+                                    "id": "100130772",
+                                    "speaker": "Varka e Lohen",
+                                    "text": "...De uma vez por todas!"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "100130765",
+                            "text": "Ele tem questões que precisa resolver sozinho."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "1001308",
+            "objective": "Bloqueie os Monstros",
+            "dialogues": []
+        },
+        {
+            "id": "1001309",
+            "objective": "Bloqueie os Monstros",
+            "dialogues": [
+                {
+                    "id": "100130901",
+                    "speaker": "Varka",
+                    "text": "Me sigam! Avançaaar!"
+                },
+                {
+                    "id": "100130902",
+                    "speaker": "Diluc",
+                    "text": "Seu veredito é...!"
+                },
+                {
+                    "id": "100130903",
+                    "speaker": "Player",
+                    "text": "Desapareça!"
+                },
+                {
+                    "id": "100130904",
+                    "speaker": "Rugido dos Tempos Antigos",
+                    "text": "Raargh!"
+                },
+                {
+                    "id": "100130905",
+                    "speaker": "Monstros Agitados",
+                    "text": "Raargh!"
+                },
+                {
+                    "id": "100130906",
+                    "speaker": "Lohen",
+                    "text": "Querem ir embora, não é? Conseguem ouvir o chamado de Ursa? Ou é o cheiro do soro que estão sentindo?"
+                },
+                {
+                    "id": "100130907",
+                    "speaker": "Lohen",
+                    "text": "Bem, receio que isso não seja bom o suficiente. Atrás de mim estão não apenas heróis que lutam contra dragões perversos, mas também mortais lentos e fracos."
+                },
+                {
+                    "id": "100130908",
+                    "speaker": "Lohen",
+                    "text": "Por isso..."
+                },
+                {
+                    "id": "100130909",
+                    "speaker": "Lohen",
+                    "text": "Venham todos, cada um de vocês!"
+                },
+                {
+                    "id": "100130910",
+                    "speaker": "Monstros Agitados",
+                    "text": "Raargh!"
+                }
+            ]
+        },
+        {
+            "id": "1001310",
+            "objective": "Bloqueie os Monstros",
+            "dialogues": []
+        },
+        {
+            "id": "1001311",
+            "objective": "Bloqueie os Monstros",
+            "dialogues": [
+                {
+                    "id": "100131101",
+                    "speaker": "Eroch",
+                    "text": "\"Regozijem-se. Em breve vocês irão superar a mediocridade deste mundo. Vocês entrarão no reino do extraordinário—\""
+                },
+                {
+                    "id": "100131102",
+                    "speaker": "???",
+                    "text": "Uma vez você acreditou que poderia controlar seu destino conquistando poder."
+                },
+                {
+                    "id": "100131103",
+                    "speaker": "Vingador da Lua",
+                    "text": "\"Lento, fraco, incapaz... mortal.\""
+                },
+                {
+                    "id": "100131104",
+                    "speaker": "???",
+                    "text": "Então, a sua arrogância insignificante foi destruída por um poder que ultrapassava o razoável."
+                },
+                {
+                    "id": "100131105",
+                    "speaker": "Lohen",
+                    "text": "..."
+                },
+                {
+                    "id": "100131106",
+                    "speaker": "Lohen",
+                    "text": "\"... Aceito que devemos enviar nosso guerreiro mais forte para lutar as batalhas de Nod-Krai.\""
+                },
+                {
+                    "id": "100131107",
+                    "speaker": "???",
+                    "text": "Você não é especial. Essa é a verdade, uma que você uma vez acreditou ter aceitado."
+                },
+                {
+                    "id": "100131108",
+                    "speaker": "Theodore",
+                    "text": "\"O que você quer fazer, então!? Ficar parado vendo ele morrer!?\""
+                },
+                {
+                    "id": "100131109",
+                    "speaker": "???",
+                    "text": "Mas mesmo assim, você não vai sofrer uma morte comum."
+                },
+                {
+                    "id": "100131110",
+                    "speaker": "Lohen",
+                    "text": "..."
+                },
+                {
+                    "id": "100131111",
+                    "speaker": "Lohen?",
+                    "text": "Você não está errado. Você nunca esteve! O poder é a única solução para todas as coisas. É assim que agarramos o destino pela garganta. é assim que resistimos até mesmo a morte!"
+                },
+                {
+                    "id": "100131112",
+                    "speaker": "Lohen?",
+                    "text": "Você simplesmente não tem o suficiente. Não está nem um pouco perto... a menos que... você aceite esse presente."
+                },
+                {
+                    "id": "100131113",
+                    "speaker": "Lohen",
+                    "text": "..."
+                },
+                {
+                    "id": "100131114",
+                    "speaker": "Lohen?",
+                    "text": "Poder e métodos não são nem bons nem maus. Você não sempre acreditou nisso?"
+                },
+                {
+                    "id": "100131115",
+                    "speaker": "Lohen?",
+                    "text": "Dividir o poder do Abismo, buscar ajuda no concílio das Bruxas, confiar na graça divina..."
+                },
+                {
+                    "id": "100131116",
+                    "speaker": "Lohen?",
+                    "text": "Há alguma diferença? Os mortais não merecem poder?"
+                },
+                {
+                    "id": "100131117",
+                    "speaker": "Lohen?",
+                    "text": "Então, aceite este poder, aceite... a orientação do <color=#f665ff>\"anjo\"</color>."
+                },
+                {
+                    "id": "100131118",
+                    "speaker": "Lohen",
+                    "text": "Você está certo. Poder é só poder."
+                },
+                {
+                    "id": "100131119",
+                    "speaker": "Lohen",
+                    "text": "... É a arrogância e a estupidez da humanidade que convidam a destruição."
+                },
+                {
+                    "id": "100131120",
+                    "speaker": "Lohen?",
+                    "text": "O quê...!?"
+                },
+                {
+                    "id": "100131121",
+                    "speaker": "Lohen",
+                    "text": "He... He... Não está tão falante agora, hmm?"
+                },
+                {
+                    "id": "100131122",
+                    "speaker": "Lohen?",
+                    "text": "Você... vai se conformar com a mediocridade?! Vai simplesmente desistir da minha orientação?!"
+                },
+                {
+                    "id": "100131123",
+                    "speaker": "Lohen",
+                    "text": "O que eu quero, eu mesmo tomo. Mesmo que eu aceite sua orientação, quem dominaria esse poder não seria \"eu\", certo? Então..."
+                },
+                {
+                    "id": "100131124",
+                    "speaker": "Lohen",
+                    "text": "Desapareça! Não preciso de um poder que não posso controlar."
+                },
+                {
+                    "id": "100131125",
+                    "speaker": "Lohen?",
+                    "text": "Não...!"
+                }
+            ]
+        },
+        {
+            "id": "1001312",
+            "objective": "Veja a situação de Lohen",
+            "dialogues": [
+                {
+                    "id": "100131201",
+                    "speaker": "Paimon",
+                    "text": "Lohen! Acorda! Lohen!"
+                },
+                {
+                    "id": "100131202",
+                    "speaker": "Player",
+                    "text": "...Lohen!"
+                },
+                {
+                    "id": "100131203",
+                    "speaker": "Lohen",
+                    "text": "...Pfft. Você está tentando estourar meus tímpanos? Eu só estava descansando um pouco. Aquela batalha me deixou exausto, sabe?"
+                },
+                {
+                    "id": "100131204",
+                    "speaker": "Varka",
+                    "text": "Heh. Nunca pensei que iria ouvir você falar algo assim.",
+                    "choices": [
+                        {
+                            "id": "100131205",
+                            "text": "Na sua mão...",
+                            "response": [
+                                {
+                                    "id": "100131207",
+                                    "speaker": "Lohen",
+                                    "text": "Eu não me injetei com isso. Só usei ele para atrair os monstros. Não dá para lidar com monstros fora de controle quando eu mesmo estou perdendo o controle, não é mesmo?"
+                                },
+                                {
+                                    "id": "100131208",
+                                    "speaker": "Lohen",
+                                    "text": "Além disso, eu não gostaria que vocês acabassem com Ursa só para depois terem que lidar comigo."
+                                },
+                                {
+                                    "id": "100131209",
+                                    "speaker": "Lohen",
+                                    "text": "Mas ainda tenho um pouco disso no meu organismo dos experimentos anteriores... Aquilo dá uma dor de cabeça e tanto."
+                                },
+                                {
+                                    "id": "100131210",
+                                    "speaker": "Diluc",
+                                    "text": "A Carne de Ursa foi destruída. Não deve haver mais risco de ativação."
+                                },
+                                {
+                                    "id": "100131211",
+                                    "speaker": "Lohen",
+                                    "text": "...Entendi. Totalmente destruída, hein?"
+                                },
+                                {
+                                    "id": "100131212",
+                                    "speaker": "Lohen",
+                                    "text": "E quanto a Adorno e Theodore?"
+                                },
+                                {
+                                    "id": "100131213",
+                                    "speaker": "Varka",
+                                    "text": "Os nossos reforços chegaram — pedi aos cavaleiros que os acompanhassem de volta."
+                                },
+                                {
+                                    "id": "100131214",
+                                    "speaker": "Varka",
+                                    "text": "Quanto à punição de Theodore... e à sua, vou dar uma olhada nisso depois."
+                                },
+                                {
+                                    "id": "100131215",
+                                    "speaker": "Varka",
+                                    "text": "...fique ao lado dele até o fim, está me ouvindo?"
+                                },
+                                {
+                                    "id": "100131216",
+                                    "speaker": "Lohen",
+                                    "text": "...Muito obrigado, Grande Mestre."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "100131206",
+                            "text": "Isso é o soro de Ursa?"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "1001313",
+            "objective": "Fale com Lohen",
+            "dialogues": [
+                {
+                    "id": "100131301",
+                    "speaker": "Adorno",
+                    "text": "\"Não fique junto ao meu túmulo chorando. Eu dediquei minha vida a enxugar lágrimas.\""
+                },
+                {
+                    "id": "100131302",
+                    "speaker": "Adorno",
+                    "text": "\"...Aqui descansa o Cavaleiro Benevolente...\""
+                },
+                {
+                    "id": "100131304",
+                    "speaker": "Lohen",
+                    "text": "Heh. Esse epitáfio combina com você, velhote..."
+                },
+                {
+                    "id": "100131305",
+                    "speaker": "Paimon",
+                    "text": "Quem é que masca chiclete quando vai visitar um túmulo...?"
+                },
+                {
+                    "id": "100131306",
+                    "speaker": "Lohen",
+                    "text": "Hmm? Vocês também vieram visitar o Adorno? Querem chiclete?"
+                },
+                {
+                    "id": "100131307",
+                    "speaker": "Player",
+                    "text": "Não... n—não obrigada..."
+                },
+                {
+                    "id": "100131308",
+                    "speaker": "Lohen",
+                    "text": "Ele sempre gostou de se divertir com essas coisas. Dizia que deixava as crianças felizes."
+                },
+                {
+                    "id": "100131309",
+                    "speaker": "Lohen",
+                    "text": "Tenho certeza que ele ficaria contente em receber doces do outro lado.",
+                    "choices": [
+                        {
+                            "id": "100131310",
+                            "text": "Então esses...",
+                            "response": [
+                                {
+                                    "id": "100131312",
+                                    "speaker": "Lohen",
+                                    "text": "Como eu não tinha mais nada para fazer durante o confinamento, resolvi fazer alguns doces para espantar o tédio."
+                                },
+                                {
+                                    "id": "100131313",
+                                    "speaker": "Paimon",
+                                    "text": "Não é de se admirar que não tenhamos te visto na cerimônia de premiação... Você estava no confinamento o tempo todo, hein?"
+                                },
+                                {
+                                    "id": "100131314",
+                                    "speaker": "Lohen",
+                                    "text": "Hah... Não foi só isso. Nossa querida e \"sensata\" Grande Mestre Intendente Jean também me deu mais duas punições."
+                                },
+                                {
+                                    "id": "100131315",
+                                    "speaker": "Player",
+                                    "text": "E qual foram elas?"
+                                },
+                                {
+                                    "id": "100131316",
+                                    "speaker": "Lohen",
+                                    "text": "Os Cavaleiros decidiram revogar a minha condecoração e não me promover a Capitão."
+                                },
+                                {
+                                    "id": "100131317",
+                                    "speaker": "Lohen",
+                                    "text": "O titulo de Cavaleiro Benevolente será enterrado junto com Adorno. O cargo de capitão da 5ª Companhia também vai permanecer vago — por enquanto."
+                                },
+                                {
+                                    "id": "100131318",
+                                    "speaker": "Paimon",
+                                    "text": "Isso... está mesmo tudo bem!?"
+                                },
+                                {
+                                    "id": "100131319",
+                                    "speaker": "Lohen",
+                                    "text": "Nas palavras de Varka... \"Veja bem, Mondstadt se saiu muito bem por um tempo só com uma Grande Mestre Intendente, certo?\""
+                                },
+                                {
+                                    "id": "100131320",
+                                    "speaker": "Player",
+                                    "text": "Ele sabe ser bem convincente quando ele quer..."
+                                },
+                                {
+                                    "id": "100131321",
+                                    "speaker": "Lohen",
+                                    "text": "E isso vale mais ainda para o título de Cavaleiro Benevolente."
+                                },
+                                {
+                                    "id": "100131322",
+                                    "speaker": "Lohen",
+                                    "text": "Não permitirei que ninguém indigno desse título o herde... mesmo que o sucessor indigno seja eu mesmo."
+                                },
+                                {
+                                    "id": "100131323",
+                                    "speaker": "Paimon",
+                                    "text": "Paimon, por um momento, achou que esse título combinava com você... Deve ter sido a imaginação dela, não é?"
+                                },
+                                {
+                                    "id": "100131324",
+                                    "speaker": "Lohen",
+                                    "text": "Você acha isso? Na verdade, eu prefiro um título diferente. O \"Cavaleiro dos Fins que Justificam os Meios\"? O \"Cavaleiro de uma Vitória é uma Vitória\"? O \"Cavaleiro Saco de Pancadas\" também parece bom."
+                                },
+                                {
+                                    "id": "100131325",
+                                    "speaker": "Lohen",
+                                    "text": "Dito isso, parece que este pecador terá que vencer mais algumas batalhas antes de receber seu próximo reconhecimento.",
+                                    "choices": [
+                                        {
+                                            "id": "100131326",
+                                            "text": "Você ainda busca a vitória?",
+                                            "response": [
+                                                {
+                                                    "id": "100131328",
+                                                    "speaker": "Lohen",
+                                                    "text": "Claro. Alguém me disse uma vez... que reconhecer meus limites é o primeiro passo para transcender o mundano."
+                                                },
+                                                {
+                                                    "id": "100131329",
+                                                    "speaker": "Lohen",
+                                                    "text": "Vou continuar vencendo, não importa que meios eu tenha que usar."
+                                                },
+                                                {
+                                                    "id": "100131330",
+                                                    "speaker": "Player",
+                                                    "text": "..."
+                                                },
+                                                {
+                                                    "id": "100131331",
+                                                    "speaker": "Lohen",
+                                                    "text": "Relaxe. Aprender com os nossos erros também faz parte do processo de nos tornarmos mais fortes, não é mesmo? Além disso, eu sei por que busco o poder."
+                                                },
+                                                {
+                                                    "id": "100131332",
+                                                    "speaker": "Lohen",
+                                                    "text": "Esquecer o que você queria desde o início... Isso seria perder de verdade. Tenho cara de ser esse tipo de idiota pra você?",
+                                                    "choices": [
+                                                        {
+                                                            "id": "100131333",
+                                                            "text": "Acho que não...",
+                                                            "response": [
+                                                                {
+                                                                    "id": "100131335",
+                                                                    "speaker": "Lohen",
+                                                                    "text": "Hum... É algo para se pensar. É melhor ter alguém por perto para ajudar caso alguma coisa dê errado."
+                                                                },
+                                                                {
+                                                                    "id": "100131336",
+                                                                    "speaker": "Lohen",
+                                                                    "text": "Então, até que eu seja forte o bastante para aguentar tudo sozinho..."
+                                                                },
+                                                                {
+                                                                    "id": "100131337",
+                                                                    "speaker": "Lohen",
+                                                                    "text": "Não envelheçam sem mim, certo?"
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "id": "100131334",
+                                                            "text": "Mas quantas pessoas se lembram no final?"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "100131327",
+                                            "text": "Você ainda busca poder?"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "100131311",
+                            "text": "Você fez tudo isso?"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "1001399",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "100139901",
+                    "speaker": "Diluc",
+                    "text": "De acordo com os registros experimentais, a extração de soro de alta concentração requer a estimulação repetida da Carne de Ursa para aumentar a sua atividade..."
+                },
+                {
+                    "id": "100139902",
+                    "speaker": "Varka",
+                    "text": "Tem uma sensação sinistra que está se intensificando a cada segundo. Se prepare para a batalha."
+                }
+            ]
+        }
+    ]
+}

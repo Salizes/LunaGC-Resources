@@ -1,0 +1,405 @@
+{
+    "quest": {
+        "id": "2011",
+        "title": "Setting Sail",
+        "description": "It has been a while since you struck an agreement with Beidou to go to Inazuma together. You decide to check on how things are progressing...",
+        "rewards": [
+            {
+                "itemId": 102,
+                "count": 650
+            },
+            {
+                "itemId": 202,
+                "count": 31125
+            },
+            {
+                "itemId": 104003,
+                "count": 3
+            },
+            {
+                "itemId": 104013,
+                "count": 6
+            }
+        ],
+        "rewards_formatted": "Adventure EXP x650, Mora x31125, Hero's Wit x3, Mystic Enhancement Ore x6",
+        "chapter": {
+            "icon": "UI_ChapterIcon_Inazuma",
+            "id": "1202",
+            "num": "Chapter II: Act I",
+            "title": "The Immovable God and the Eternal Euthymia"
+        },
+        "total_dialogue_lines": 62,
+        "total_speaker_counts": {
+            "Beidou": 14,
+            "Katheryne": 7,
+            "Paimon": 10,
+            "Player": 16,
+            "Sea Drake": 7,
+            "Thoma": 8
+        }
+    },
+    "talks": [
+        {
+            "id": "201101",
+            "objective": "Ask Katheryne for information on going to Inazuma",
+            "dialogues": [
+                {
+                    "id": "20110101",
+                    "speaker": "Katheryne",
+                    "text": "Ad astra abyssosque! What can I do for you, Traveler?",
+                    "choices": [
+                        {
+                            "id": "20110102",
+                            "text": "About traveling to Inazuma...",
+                            "response": [
+                                {
+                                    "id": "20110104",
+                                    "speaker": "Katheryne",
+                                    "text": "Ah yes, I've heard that you've already made arrangements with the captain of the Crux Fleet regarding your passage to Inazuma. Is that correct?"
+                                },
+                                {
+                                    "id": "20110105",
+                                    "speaker": "Katheryne",
+                                    "text": "Now that I think about it, it's been quite some time since I last visited those lands. Unfortunately, I don't have any current intel that would be worth sharing with you."
+                                },
+                                {
+                                    "id": "20110106",
+                                    "speaker": "Sea Drake",
+                                    "text": "There you are! You're the Traveler that Beidou will be taking to Inazuma, right?",
+                                    "choices": [
+                                        {
+                                            "id": "20110107",
+                                            "text": "I've been waiting all day for you!",
+                                            "response": [
+                                                {
+                                                    "id": "20110108",
+                                                    "speaker": "Sea Drake",
+                                                    "text": "Oh, is that right? Hehe... Well, it's an honor to meet you."
+                                                },
+                                                {
+                                                    "id": "20110110",
+                                                    "speaker": "Sea Drake",
+                                                    "text": "The fleet has nearly completed reprovisioning. Once the crews have taken a headcount, we can get underway."
+                                                },
+                                                {
+                                                    "id": "20110111",
+                                                    "speaker": "Sea Drake",
+                                                    "text": "Captain Beidou sent me to come get you. We'll weigh anchor as soon as you're aboard."
+                                                },
+                                                {
+                                                    "id": "20110112",
+                                                    "speaker": "Paimon",
+                                                    "text": "Seems Beidou is a captain of her word."
+                                                },
+                                                {
+                                                    "id": "20110113",
+                                                    "speaker": "Sea Drake",
+                                                    "text": "Of course! There are many things that the Captain insists upon. I'm sure you'll see for yourself once you're on board."
+                                                },
+                                                {
+                                                    "id": "20110114",
+                                                    "speaker": "Katheryne",
+                                                    "text": "So you'll be heading off then? I suppose congratulations are in order."
+                                                },
+                                                {
+                                                    "id": "20110115",
+                                                    "speaker": "Katheryne",
+                                                    "text": "Whether the journey before you leads to the heights of the heavens or the depths of the abyss, each step you take is another achievement."
+                                                },
+                                                {
+                                                    "id": "20110116",
+                                                    "speaker": "Katheryne",
+                                                    "text": "Until we meet again, ad astra abyssosque!",
+                                                    "choices": [
+                                                        {
+                                                            "id": "20110117",
+                                                            "text": "Ad astra abyssosque, Katheryne...",
+                                                            "response": [
+                                                                {
+                                                                    "id": "20110119",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "Oh... It's kinda hard to say goodbye now... we practically see each other every day."
+                                                                },
+                                                                {
+                                                                    "id": "20110120",
+                                                                    "speaker": "Katheryne",
+                                                                    "text": "Hehe, well if that's how you feel, why not come and find me when you arrive? I'll be awaiting you on Narukami Island.",
+                                                                    "choices": [
+                                                                        {
+                                                                            "id": "20110121",
+                                                                            "text": "...",
+                                                                            "response": [
+                                                                                {
+                                                                                    "id": "20110123",
+                                                                                    "speaker": "Paimon",
+                                                                                    "text": "So there's another Katheryne in Inazuma!? See, there's no need to get all sappy now..."
+                                                                                },
+                                                                                {
+                                                                                    "id": "20110124",
+                                                                                    "speaker": "Sea Drake",
+                                                                                    "text": "Haha, well I guess it's time for you to bid farewell to Liyue Harbor. Now that I've delivered my message, I'll be heading back. The ship is currently anchored off of Guyun Stone Forest."
+                                                                                },
+                                                                                {
+                                                                                    "id": "20110125",
+                                                                                    "speaker": "Paimon",
+                                                                                    "text": "Okay, thanks for coming all this way to let us know!"
+                                                                                },
+                                                                                {
+                                                                                    "id": "20110126",
+                                                                                    "speaker": "Sea Drake",
+                                                                                    "text": "Just following orders. I'll see you two aboard the Alcor."
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        {
+                                                                            "id": "20110122",
+                                                                            "text": "...I knew it!"
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "id": "20110118",
+                                                            "text": "We'll miss you..."
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "20110109",
+                                            "text": "It seems our intel has arrived."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "20110103",
+                            "text": "About the Crux Fleet..."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "201102",
+            "objective": "Board the Alcor and find Beidou",
+            "dialogues": []
+        },
+        {
+            "id": "201103",
+            "objective": "Talk to Beidou",
+            "dialogues": [
+                {
+                    "id": "20110301",
+                    "speaker": "Beidou",
+                    "text": "Ah, you finally made it!"
+                },
+                {
+                    "id": "20110302",
+                    "speaker": "Beidou",
+                    "text": "All these years, come rain or storm, the Crux Fleet has never suffered a delay. If it were anyone else, I might've set sail already.",
+                    "choices": [
+                        {
+                            "id": "20110303",
+                            "text": "Apologies, Captain!",
+                            "response": [
+                                {
+                                    "id": "20110305",
+                                    "speaker": "Beidou",
+                                    "text": "Hahaha, don't look too serious, I'm only joking. You're just on time, the crew have just finished making final preparations."
+                                },
+                                {
+                                    "id": "20110306",
+                                    "speaker": "Beidou",
+                                    "text": "*sigh* Well, now that everyone's here..."
+                                },
+                                {
+                                    "id": "20110307",
+                                    "speaker": "Beidou",
+                                    "text": "We set sail for the land engulfed by storm and tempest... The nation of \"eternity\"!"
+                                },
+                                {
+                                    "id": "20110308",
+                                    "speaker": "Paimon",
+                                    "text": "Anchors aweigh!"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "20110304",
+                            "text": "It's an honor to be aboard!"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "201104",
+            "objective": "Go to Inazuma",
+            "dialogues": []
+        },
+        {
+            "id": "201105",
+            "objective": "Go to Inazuma",
+            "dialogues": []
+        },
+        {
+            "id": "201106",
+            "objective": "Go to Inazuma",
+            "dialogues": []
+        },
+        {
+            "id": "201107",
+            "objective": "Talk to your contact, Thoma",
+            "dialogues": [
+                {
+                    "id": "20110701",
+                    "speaker": "Thoma",
+                    "text": "So, you finally made it. You sure kept me waiting, Captain."
+                },
+                {
+                    "id": "20110702",
+                    "speaker": "Thoma",
+                    "text": "And it appears we have a couple of stowaways... or perhaps I should say — honored guests."
+                },
+                {
+                    "id": "20110703",
+                    "speaker": "Paimon",
+                    "text": "Hey! Shush!"
+                },
+                {
+                    "id": "20110704",
+                    "speaker": "Beidou",
+                    "text": "You can blame your Almighty Shogun. The tempests around Inazuma have been growing all the more fierce lately."
+                },
+                {
+                    "id": "20110705",
+                    "speaker": "Beidou",
+                    "text": "Though the fleet was fully up to the challenge, the inclement weather still caused some delay."
+                },
+                {
+                    "id": "20110706",
+                    "speaker": "Beidou",
+                    "text": "Now then, let me introduce everyone. This is Thoma, a trade partner that I've gotten to know recently."
+                },
+                {
+                    "id": "20110707",
+                    "speaker": "Thoma",
+                    "text": "Heh, you don't know how long I've been waiting to see you."
+                },
+                {
+                    "id": "20110708",
+                    "speaker": "Beidou",
+                    "text": "Thoma, these two are—"
+                },
+                {
+                    "id": "20110709",
+                    "speaker": "Thoma",
+                    "text": "No need for introductions, their reputation precedes them. Seems even the stormy seas can't keep rumors of these outlanders' sterling deeds at bay.",
+                    "choices": [
+                        {
+                            "id": "20110710",
+                            "text": "Nice to meet you, Thoma.",
+                            "response": [
+                                {
+                                    "id": "20110712",
+                                    "speaker": "Paimon",
+                                    "text": "Hehe, it's sure nice to hear you say that~"
+                                },
+                                {
+                                    "id": "20110713",
+                                    "speaker": "Beidou",
+                                    "text": "Ha, with any luck, it'll give you a head start here."
+                                },
+                                {
+                                    "id": "20110714",
+                                    "speaker": "Beidou",
+                                    "text": "#{NICKNAME}, Thoma's resided on Ritou for quite some time now. It wouldn't be going too far to say he's the fixer around these parts."
+                                },
+                                {
+                                    "id": "20110715",
+                                    "speaker": "Beidou",
+                                    "text": "If you run into any problems here, just talk to Thoma. But if he tries to pull any moves on you, I'll be sure to deal with him personally the next time I'm around."
+                                },
+                                {
+                                    "id": "20110716",
+                                    "speaker": "Thoma",
+                                    "text": "Hehehe, no need to worry. I'm sure we'll get along just fine."
+                                },
+                                {
+                                    "id": "20110717",
+                                    "speaker": "Beidou",
+                                    "text": "Good. Then if it's all settled, I'll be going. I wouldn't want to be caught with my sails down here, I do have a wanted fugitive on board, after all."
+                                },
+                                {
+                                    "id": "20110718",
+                                    "speaker": "Paimon",
+                                    "text": "Oh, right. Kazuha..."
+                                },
+                                {
+                                    "id": "20110719",
+                                    "speaker": "Beidou",
+                                    "text": "Until next time, Traveler. Remember to give it your all, no matter what perilous \"storms\" you may encounter.",
+                                    "choices": [
+                                        {
+                                            "id": "20110720",
+                                            "text": "We got this.",
+                                            "response": [
+                                                {
+                                                    "id": "20110722",
+                                                    "speaker": "Paimon",
+                                                    "text": "Fair seas, Captain Beidou! Bye-bye!"
+                                                },
+                                                {
+                                                    "id": "20110723",
+                                                    "speaker": "Thoma",
+                                                    "text": "Now then, first things first, we need to go get you registered at the border checkpoint."
+                                                },
+                                                {
+                                                    "id": "20110724",
+                                                    "speaker": "Paimon",
+                                                    "text": "Um, Paimon thought we were supposed to be keeping things on the down low... Are we just gonna walk into the government's hands?"
+                                                },
+                                                {
+                                                    "id": "20110725",
+                                                    "speaker": "Thoma",
+                                                    "text": "Haha, don't underestimate the reaches of the Sakoku Decree. You wouldn't be able to avoid inspection even if you tried."
+                                                },
+                                                {
+                                                    "id": "20110726",
+                                                    "speaker": "Thoma",
+                                                    "text": "So we have to play by the rules... even if we're kind of bending them.",
+                                                    "choices": [
+                                                        {
+                                                            "id": "20110727",
+                                                            "text": "Oh... Okay then..."
+                                                        },
+                                                        {
+                                                            "id": "20110728",
+                                                            "text": "Now I'm feeling a bit nervous."
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "20110721",
+                                            "text": "Look forward to seeing you again!"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "20110711",
+                            "text": "Surely the rumors exaggerate."
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

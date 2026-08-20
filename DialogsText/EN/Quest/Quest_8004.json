@@ -1,0 +1,670 @@
+{
+    "quest": {
+        "id": "8004",
+        "title": "In the Depths, an Unexpected Reunion",
+        "description": "Katheryne seems to have a new commission for you. Go check it out.",
+        "rewards": [
+            {
+                "itemId": 102,
+                "count": 300
+            },
+            {
+                "itemId": 202,
+                "count": 10850
+            },
+            {
+                "itemId": 104002,
+                "count": 4
+            },
+            {
+                "itemId": 104013,
+                "count": 2
+            }
+        ],
+        "rewards_formatted": "Adventure EXP x300, Mora x10850, Adventurer's Experience x4, Mystic Enhancement Ore x2",
+        "chapter": {
+            "icon": "UI_ChapterIcon_Traveler",
+            "id": "1206",
+            "num": "Chapter II: Act IV",
+            "title": "Requiem of the Echoing Depths"
+        },
+        "total_dialogue_lines": 112,
+        "total_speaker_counts": {
+            "Dainsleif": 23,
+            "Katheryne": 8,
+            "Paimon": 36,
+            "Player": 26,
+            "Yuehui": 19
+        }
+    },
+    "talks": [
+        {
+            "id": "800401",
+            "objective": "Talk to Katheryne",
+            "dialogues": [
+                {
+                    "id": "80040101",
+                    "speaker": "Katheryne",
+                    "text": "Ah, Traveler. Right on cue, hehe."
+                },
+                {
+                    "id": "80040102",
+                    "speaker": "Paimon",
+                    "text": "Hey Katheryne! Got any new commissions for us today? Also... how come you look so happy to see us? What have you done!?"
+                },
+                {
+                    "id": "80040103",
+                    "speaker": "Katheryne",
+                    "text": "I went to the shrine to draw a fortune slip earlier. The shrine maiden told me that \"it is the season for an unexpected reunion.\""
+                },
+                {
+                    "id": "80040104",
+                    "speaker": "Paimon",
+                    "text": "Katheryne? Drawing fortune slips at the shrine? ...Is it just Paimon, or is that the most unusual thing ever!?"
+                },
+                {
+                    "id": "80040105",
+                    "speaker": "Paimon",
+                    "text": "Wait, no, that's not the unusual part — we're in Liyue! You went to Inazuma and back in a single day!?"
+                },
+                {
+                    "id": "80040106",
+                    "speaker": "Katheryne",
+                    "text": "Hehe, even I have a private life, you know."
+                },
+                {
+                    "id": "80040107",
+                    "speaker": "Paimon",
+                    "text": "Okay, so when you say \"unexpected reunion,\" you mean running into us, right?"
+                },
+                {
+                    "id": "80040108",
+                    "speaker": "Katheryne",
+                    "text": "Who can say? But the anticipation of knowing that an unexpected reunion is due is making me happy to see everyone I cross paths with today."
+                },
+                {
+                    "id": "80040109",
+                    "speaker": "Paimon",
+                    "text": "Fair enough, even though we see each other pretty much every day... Whatever makes you happy.",
+                    "choices": [
+                        {
+                            "id": "80040110",
+                            "text": "An unexpected reunion...",
+                            "response": [
+                                {
+                                    "id": "80040112",
+                                    "speaker": "Paimon",
+                                    "text": "#Wait, are you saying... Ohh, Paimon gets it, {NICKNAME}. Well, let's just hope the shrine maiden was right..."
+                                },
+                                {
+                                    "id": "80040113",
+                                    "speaker": "Paimon",
+                                    "text": "#Fingers crossed we find {F#him}{M#her}."
+                                },
+                                {
+                                    "id": "80040114",
+                                    "speaker": "Katheryne",
+                                    "text": "I'm sorry... Did I say something I shouldn't have? You both seem a little down."
+                                },
+                                {
+                                    "id": "80040115",
+                                    "speaker": "Paimon",
+                                    "text": "Oh, it's nothing. Anyway, back to business. Do you have a new commission you want to give to us?"
+                                },
+                                {
+                                    "id": "80040116",
+                                    "speaker": "Katheryne",
+                                    "text": "Yes, as a matter of fact, I do. This one is from a miner. It seems to be related to investigating The Chasm."
+                                },
+                                {
+                                    "id": "80040117",
+                                    "speaker": "Paimon",
+                                    "text": "Really? Does this mean The Chasm's not sealed off anymore?"
+                                },
+                                {
+                                    "id": "80040118",
+                                    "speaker": "Katheryne",
+                                    "text": "I will leave the requester to fill you in on all the relevant details. His name is Yuehui, and he should be at The Chasm right now."
+                                },
+                                {
+                                    "id": "80040119",
+                                    "speaker": "Paimon",
+                                    "text": "Alright then, thanks Katheryne! We'll head there right away."
+                                },
+                                {
+                                    "id": "80040120",
+                                    "speaker": "Katheryne",
+                                    "text": "Very well. Ad astra... abyssosque. Hmm, this time you are truly bound for the abyss. Good luck to you both."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "80040111",
+                            "text": "Perhaps..."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "800402",
+            "objective": "Look for the miner who posted the commission at The Chasm",
+            "dialogues": [
+                {
+                    "id": "80040201",
+                    "speaker": "Paimon",
+                    "text": "Hi there! You must be \"Yuehui,\" right? We've been sent by the Adventurers' Guild."
+                },
+                {
+                    "id": "80040202",
+                    "speaker": "Yuehui",
+                    "text": "Ah, great, good to meet you. Yes, I was the one who posted that commission."
+                },
+                {
+                    "id": "80040203",
+                    "speaker": "Yuehui",
+                    "text": "Wait a second... You look kind of familiar. Are you a famous adventurer, or something?",
+                    "choices": [
+                        {
+                            "id": "80040204",
+                            "text": "It's complicated.",
+                            "response": [
+                                {
+                                    "id": "80040206",
+                                    "speaker": "Yuehui",
+                                    "text": "Oh, uh, alright then. I'll start by introducing myself. I'm Yuehui, a miner, and I received a Mining Permit for The Chasm just recently. I have a handful of other guys in my crew."
+                                },
+                                {
+                                    "id": "80040207",
+                                    "speaker": "Paimon",
+                                    "text": "Seriously? They actually give permits out for The Chasm?"
+                                },
+                                {
+                                    "id": "80040208",
+                                    "speaker": "Yuehui",
+                                    "text": "Yes, the folks over at Yujing Terrace finally came to their senses and are now allowing a limited amount of ore mining near the surface. We were among the first to gain approval."
+                                },
+                                {
+                                    "id": "80040209",
+                                    "speaker": "Yuehui",
+                                    "text": "But some things have happened recently that put all the miners on edge."
+                                },
+                                {
+                                    "id": "80040210",
+                                    "speaker": "Paimon",
+                                    "text": "Really? What happened? We haven't heard anything."
+                                },
+                                {
+                                    "id": "80040211",
+                                    "speaker": "Yuehui",
+                                    "text": "So... it's hard to say exactly how big of an issue it is. Could be something, could be nothing. The main thing is that it's just very... strange."
+                                },
+                                {
+                                    "id": "80040212",
+                                    "speaker": "Yuehui",
+                                    "text": "While one of the miners was on a break, he suddenly noticed a few hilichurls walking his way. They seemed like they were in a daze or something."
+                                },
+                                {
+                                    "id": "80040213",
+                                    "speaker": "Yuehui",
+                                    "text": "They walked right by him without giving him a single glance. They just made a beeline for the depths of The Chasm."
+                                },
+                                {
+                                    "id": "80040214",
+                                    "speaker": "Yuehui",
+                                    "text": "After that, the miner started observing his surroundings more closely, and noticed the same thing happening time and time again."
+                                },
+                                {
+                                    "id": "80040215",
+                                    "speaker": "Paimon",
+                                    "text": "Hmm... are the hilichurls just curious? Maybe they just wanna take a peek inside..."
+                                },
+                                {
+                                    "id": "80040216",
+                                    "speaker": "Yuehui",
+                                    "text": "Not likely. The strange part is that in all the time this miner has been watching the hilichurls..."
+                                },
+                                {
+                                    "id": "80040217",
+                                    "speaker": "Yuehui",
+                                    "text": "...he's never seen any of them come back out."
+                                },
+                                {
+                                    "id": "80040218",
+                                    "speaker": "Yuehui",
+                                    "text": "It seems to be a one-way trip. Once the hilichurls go in, they never emerge again."
+                                },
+                                {
+                                    "id": "80040219",
+                                    "speaker": "Yuehui",
+                                    "text": "And it seems to be happening more and more frequently as of late."
+                                },
+                                {
+                                    "id": "80040220",
+                                    "speaker": "Yuehui",
+                                    "text": "\"What are these hilichurls up to?\" \"What happens to them after they go inside?\" \"Is there a disaster brewing?\""
+                                },
+                                {
+                                    "id": "80040221",
+                                    "speaker": "Yuehui",
+                                    "text": "These are the kinds of thoughts going through the guys' heads now. Everyone's driving themselves crazy worrying about it."
+                                },
+                                {
+                                    "id": "80040222",
+                                    "speaker": "Paimon",
+                                    "text": "Uhhh! Paimon's not surprised... Paimon feels spooked just hearing about it.",
+                                    "choices": [
+                                        {
+                                            "id": "80040223",
+                                            "text": "I don't dare imagine what's going on inside The Chasm...",
+                                            "response": [
+                                                {
+                                                    "id": "80040225",
+                                                    "speaker": "Yuehui",
+                                                    "text": "Exactly. The deepest fear is the fear of the unknown, you know? So we have to get to the bottom of it before everyone can put their minds at rest."
+                                                },
+                                                {
+                                                    "id": "80040226",
+                                                    "speaker": "Paimon",
+                                                    "text": "Do we... do we really wanna take this commission? Um, thanks Mr. Miner, Sir, we need to consider it first—"
+                                                },
+                                                {
+                                                    "id": "80040227",
+                                                    "speaker": "Player",
+                                                    "text": "We'll take it."
+                                                },
+                                                {
+                                                    "id": "80040228",
+                                                    "speaker": "Paimon",
+                                                    "text": "Hey! You could at least pretend to consider Paimon's opinion first!",
+                                                    "choices": [
+                                                        {
+                                                            "id": "80040229",
+                                                            "text": "When strange things like this happen...",
+                                                            "response": [
+                                                                {
+                                                                    "id": "80040231",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "Oh, so that's where you're coming from. Hmm, well okay then, maybe we will find some clues about your twin."
+                                                                },
+                                                                {
+                                                                    "id": "80040232",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "You'll really regret it if you don't go, huh?"
+                                                                },
+                                                                {
+                                                                    "id": "80040233",
+                                                                    "speaker": "Yuehui",
+                                                                    "text": "So, what's your verdict? Will you take the commission? No pressure, but I gotta say... I'm not loving the prospect of my Mining Permit going to waste."
+                                                                },
+                                                                {
+                                                                    "id": "80040234",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "Yup, we'll take it. We're kinda curious ourselves now, too."
+                                                                },
+                                                                {
+                                                                    "id": "80040235",
+                                                                    "speaker": "Yuehui",
+                                                                    "text": "Great. You're doing me an enormous service here. Now, let me give you the rough location that the hilichurls keep heading to..."
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "id": "80040230",
+                                                            "text": "I'm inclined to think the Abyss Order is involved."
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "80040224",
+                                            "text": "\"Strange\" is definitely the right word..."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "80040205",
+                            "text": "Never mind that. Let's focus on the task at hand."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "800407",
+            "objective": "Enter The Chasm: Underground Mines",
+            "dialogues": []
+        },
+        {
+            "id": "800403",
+            "objective": "Go to the designated location to investigate",
+            "dialogues": [
+                {
+                    "id": "80040301",
+                    "speaker": "Paimon",
+                    "text": "What the... It's a city?"
+                },
+                {
+                    "id": "80040302",
+                    "speaker": "Paimon",
+                    "text": "A whole city that's... floating in the air... upside down!?",
+                    "choices": [
+                        {
+                            "id": "80040303",
+                            "text": "I'm at a loss for words.",
+                            "response": [
+                                {
+                                    "id": "80040402",
+                                    "speaker": "Paimon",
+                                    "text": "#Just look at this place, {NICKNAME}... Doesn't it remind you of something?"
+                                },
+                                {
+                                    "id": "80040403",
+                                    "speaker": "Paimon",
+                                    "text": "Wait, what was it again..."
+                                },
+                                {
+                                    "id": "80040404",
+                                    "speaker": "Player",
+                                    "text": "\"The Defiled Statue.\""
+                                },
+                                {
+                                    "id": "80040405",
+                                    "speaker": "Paimon",
+                                    "text": "Yes, that's it! It's just like that. Just as strange, just as upside-down, and just as spooky."
+                                },
+                                {
+                                    "id": "80040406",
+                                    "speaker": "Paimon",
+                                    "text": "In which case... Maybe whatever's going on in The Chasm really is connected to the Abyss Order."
+                                },
+                                {
+                                    "id": "80040407",
+                                    "speaker": "Paimon",
+                                    "text": "Oh, we gotta get to the bottom of this..."
+                                },
+                                {
+                                    "id": "80040408",
+                                    "speaker": "Paimon",
+                                    "text": "...Oh..."
+                                },
+                                {
+                                    "id": "80040409",
+                                    "speaker": "Dainsleif",
+                                    "text": "...",
+                                    "choices": [
+                                        {
+                                            "id": "80040410",
+                                            "text": "Dainsleif!?",
+                                            "response": [
+                                                {
+                                                    "id": "80040412",
+                                                    "speaker": "Dainsleif",
+                                                    "text": "The feeling is mutual. I certainly hadn't expected to meet you here, either."
+                                                },
+                                                {
+                                                    "id": "80040413",
+                                                    "speaker": "Paimon",
+                                                    "text": "Long time no see, Dain... Wait, but how did you suddenly end up here in The Chasm?"
+                                                },
+                                                {
+                                                    "id": "80040414",
+                                                    "speaker": "Dainsleif",
+                                                    "text": "The Chasm? So, we're in the depths of The Chasm, are we. Interesting... This is one place where I have never set foot before."
+                                                },
+                                                {
+                                                    "id": "80040415",
+                                                    "speaker": "Player",
+                                                    "text": "I have a lot of questions for you."
+                                                },
+                                                {
+                                                    "id": "80040416",
+                                                    "speaker": "Dainsleif",
+                                                    "text": "I understand how you must feel. Last time, we met suddenly and parted hastily."
+                                                },
+                                                {
+                                                    "id": "80040417",
+                                                    "speaker": "Dainsleif",
+                                                    "text": "Now our paths cross again... Fate, it seems, owes you an explanation.",
+                                                    "choices": [
+                                                        {
+                                                            "id": "80040418",
+                                                            "text": "First, tell me what you're doing here.",
+                                                            "response": [
+                                                                {
+                                                                    "id": "80040420",
+                                                                    "speaker": "Dainsleif",
+                                                                    "text": "That much should be self-explanatory. I came upon the trail of another Abyss Herald recently, and began pursuing it."
+                                                                },
+                                                                {
+                                                                    "id": "80040421",
+                                                                    "speaker": "Dainsleif",
+                                                                    "text": "Unfortunately, I got as far as cornering him before he resorted to the same trick that they all do..."
+                                                                },
+                                                                {
+                                                                    "id": "80040422",
+                                                                    "speaker": "Dainsleif",
+                                                                    "text": "I was hot on his heels when I followed him through the portal, but as usual, it was to no avail. It took me to the wrong place.",
+                                                                    "choices": [
+                                                                        {
+                                                                            "id": "80040423",
+                                                                            "text": "So you had the same issue with the portal last time?",
+                                                                            "response": [
+                                                                                {
+                                                                                    "id": "80040425",
+                                                                                    "speaker": "Dainsleif",
+                                                                                    "text": "Correct. Based on my recent experiences, I can only conclude that the Abyss's portals are not simply pathways from point A to point B, but gateways to an entire network."
+                                                                                },
+                                                                                {
+                                                                                    "id": "80040426",
+                                                                                    "speaker": "Dainsleif",
+                                                                                    "text": "Where they emerge on the other side is their choice. It can be anywhere within the network."
+                                                                                },
+                                                                                {
+                                                                                    "id": "80040427",
+                                                                                    "speaker": "Paimon",
+                                                                                    "text": "Sounds kinda similar to how Teleport Waypoints work..."
+                                                                                },
+                                                                                {
+                                                                                    "id": "80040428",
+                                                                                    "speaker": "Dainsleif",
+                                                                                    "text": "In short, though I was right behind your twin last time when I entered that portal, the next moment that I realized where I was..."
+                                                                                },
+                                                                                {
+                                                                                    "id": "80040429",
+                                                                                    "speaker": "Dainsleif",
+                                                                                    "text": "...I was all alone, back in the ruins known as Stormterror's Lair."
+                                                                                },
+                                                                                {
+                                                                                    "id": "80040430",
+                                                                                    "speaker": "Paimon",
+                                                                                    "text": "Oh yeah, about that — whatever happened to the eye of the first Field Tiller?"
+                                                                                },
+                                                                                {
+                                                                                    "id": "80040431",
+                                                                                    "speaker": "Dainsleif",
+                                                                                    "text": "It's in a safe place. You can be sure that I will learn the truth of the \"Loom of Fate\" operation sooner than it could ever fall into the Abyss Order's hands.",
+                                                                                    "choices": [
+                                                                                        {
+                                                                                            "id": "80040432",
+                                                                                            "text": "Why don't you tell me who you really are?",
+                                                                                            "response": [
+                                                                                                {
+                                                                                                    "id": "80040434",
+                                                                                                    "speaker": "Dainsleif",
+                                                                                                    "text": "Hah. So that title stuck in your memory."
+                                                                                                },
+                                                                                                {
+                                                                                                    "id": "80040435",
+                                                                                                    "speaker": "Dainsleif",
+                                                                                                    "text": "I by no means went out of my way to conceal it from you. It once stood for the glory of Khaenri'ah, but now..."
+                                                                                                },
+                                                                                                {
+                                                                                                    "id": "80040436",
+                                                                                                    "speaker": "Dainsleif",
+                                                                                                    "text": "...It is but a cruel joke. My curse to bear."
+                                                                                                },
+                                                                                                {
+                                                                                                    "id": "80040437",
+                                                                                                    "speaker": "Dainsleif",
+                                                                                                    "text": "Twilight Sword was my title as captain of the Royal Guards when I witnessed the destruction of my entire homeland firsthand. I believe my reluctance to raise it in conversation is quite justified."
+                                                                                                },
+                                                                                                {
+                                                                                                    "id": "80040438",
+                                                                                                    "speaker": "Paimon",
+                                                                                                    "text": "#Sounds like your {F#brother}{M#sister} was right...",
+                                                                                                    "choices": [
+                                                                                                        {
+                                                                                                            "id": "80040439",
+                                                                                                            "text": "#What is the history between you and my {F#brother}{M#sister}?",
+                                                                                                            "response": [
+                                                                                                                {
+                                                                                                                    "id": "80040441",
+                                                                                                                    "speaker": "Dainsleif",
+                                                                                                                    "text": "We were travel partners."
+                                                                                                                },
+                                                                                                                {
+                                                                                                                    "id": "80040442",
+                                                                                                                    "speaker": "Dainsleif",
+                                                                                                                    "text": "We both partook in a painful journey of searching for our fate, but regrettably... we did not make it to the journey's end together."
+                                                                                                                },
+                                                                                                                {
+                                                                                                                    "id": "80040443",
+                                                                                                                    "speaker": "Player",
+                                                                                                                    "text": "The journey's end..."
+                                                                                                                },
+                                                                                                                {
+                                                                                                                    "id": "80040444",
+                                                                                                                    "speaker": "Dainsleif",
+                                                                                                                    "text": "Before you continue questioning me, I ought to warn you..."
+                                                                                                                },
+                                                                                                                {
+                                                                                                                    "id": "80040445",
+                                                                                                                    "speaker": "Dainsleif",
+                                                                                                                    "text": "If my suspicions regarding the portal network are correct, then the fact that there is a portal leading here tells us that the Abyss Order has their eyes on this location."
+                                                                                                                },
+                                                                                                                {
+                                                                                                                    "id": "80040446",
+                                                                                                                    "speaker": "Paimon",
+                                                                                                                    "text": "You mean the Abyss Order is plotting something here? Actually, Paimon and the Traveler suspected that, too."
+                                                                                                                },
+                                                                                                                {
+                                                                                                                    "id": "80040447",
+                                                                                                                    "speaker": "Dainsleif",
+                                                                                                                    "text": "I mean that it's highly likely that even as we speak, the Abyss Order is watching our every move."
+                                                                                                                },
+                                                                                                                {
+                                                                                                                    "id": "80040448",
+                                                                                                                    "speaker": "Paimon",
+                                                                                                                    "text": "Uhh, don't say that! You're giving Paimon goosebumps!",
+                                                                                                                    "choices": [
+                                                                                                                        {
+                                                                                                                            "id": "80040449",
+                                                                                                                            "text": "Let's go and investigate.",
+                                                                                                                            "response": [
+                                                                                                                                {
+                                                                                                                                    "id": "80040451",
+                                                                                                                                    "speaker": "Dainsleif",
+                                                                                                                                    "text": "Huh, a wise choice. There appears to be light from a fire coming from near that rocky wall. Let's take a look."
+                                                                                                                                }
+                                                                                                                            ]
+                                                                                                                        },
+                                                                                                                        {
+                                                                                                                            "id": "80040450",
+                                                                                                                            "text": "I'll trust you. For now."
+                                                                                                                        }
+                                                                                                                    ]
+                                                                                                                }
+                                                                                                            ]
+                                                                                                        },
+                                                                                                        {
+                                                                                                            "id": "80040440",
+                                                                                                            "text": "What happened between you?"
+                                                                                                        }
+                                                                                                    ]
+                                                                                                }
+                                                                                            ]
+                                                                                        },
+                                                                                        {
+                                                                                            "id": "80040433",
+                                                                                            "text": "Who is the \"Twilight Sword\"?"
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        {
+                                                                            "id": "80040424",
+                                                                            "text": "#So you didn't actually catch up with my {F#brother}{M#sister} last time?"
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "id": "80040419",
+                                                            "text": "What was going on with that portal just now?"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "80040411",
+                                            "text": "I was not expecting that."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "80040304",
+                            "text": "This is not what I was expecting..."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "800405",
+            "objective": "Go to the designated location to investigate",
+            "dialogues": [
+                {
+                    "id": "80040501",
+                    "speaker": "Yuehui",
+                    "text": "It took a huge amount of work to get this Mining Permit... I hope it was worth it. The rest is up to you."
+                }
+            ]
+        },
+        {
+            "id": "800404",
+            "objective": "Go to the designated location to investigate",
+            "dialogues": []
+        },
+        {
+            "id": "800404",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "80040401",
+                    "speaker": "Paimon",
+                    "text": "Is this where that miner guy wanted us to investigate?"
+                }
+            ]
+        },
+        {
+            "id": "800499",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "80049901",
+                    "speaker": "Paimon",
+                    "text": "Looks like we can't explore any further... Hmm, is there any way to open up this tunnel?"
+                }
+            ]
+        }
+    ]
+}

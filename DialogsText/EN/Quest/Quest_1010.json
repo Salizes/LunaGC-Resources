@@ -1,0 +1,507 @@
+{
+    "quest": {
+        "id": "1010",
+        "title": "An Organization Known as Wangsheng",
+        "description": "Upon your return from visiting the Adepti, you discover that the Qixing have hidden the Geo Archon's vessel away. Childe promised he'd find someone to break the stalemate, so you pay another visit to Northland Bank.",
+        "rewards": [
+            {
+                "itemId": 102,
+                "count": 500
+            },
+            {
+                "itemId": 202,
+                "count": 18075
+            },
+            {
+                "itemId": 104002,
+                "count": 7
+            },
+            {
+                "itemId": 104013,
+                "count": 4
+            }
+        ],
+        "rewards_formatted": "Adventure EXP x500, Mora x18075, Adventurer's Experience x7, Mystic Enhancement Ore x4",
+        "chapter": {
+            "icon": "UI_ChapterIcon_Liyue",
+            "id": "1102",
+            "num": "Chapter I: Act II",
+            "title": "Farewell, Archaic Lord"
+        },
+        "total_dialogue_lines": 82,
+        "total_speaker_counts": {
+            "Childe": 18,
+            "Ekaterina": 5,
+            "Hongru": 1,
+            "Paimon": 16,
+            "Player": 17,
+            "Zhongli": 25
+        }
+    },
+    "talks": [
+        {
+            "id": "101001",
+            "objective": "Wait until the following day",
+            "dialogues": []
+        },
+        {
+            "id": "101002",
+            "objective": "Talk to the bank staff",
+            "dialogues": [
+                {
+                    "id": "10100201",
+                    "speaker": "Ekaterina",
+                    "text": "#Welcome, {NICKNAME}, friend of Childe. And congratulations on the first day of your illustrious career with the Fatui.",
+                    "choices": [
+                        {
+                            "id": "10100202",
+                            "text": "I don't consider Childe a friend.",
+                            "response": [
+                                {
+                                    "id": "10100204",
+                                    "speaker": "Ekaterina",
+                                    "text": "You sound remarkably sure of yourself... Remember, we are mere mortals — our ideas are fluid like water. Only the Tsaritsa truly has a will as solid as the permafrost."
+                                },
+                                {
+                                    "id": "10100205",
+                                    "speaker": "Ekaterina",
+                                    "text": "But back to the matter at hand. Childe tells me that he has upheld his end of your agreement."
+                                },
+                                {
+                                    "id": "10100206",
+                                    "speaker": "Paimon",
+                                    "text": "What agreement? Oh, the thing about him helping us find a guy?"
+                                },
+                                {
+                                    "id": "10100207",
+                                    "speaker": "Ekaterina",
+                                    "text": "Correct. Childe promised he would find someone to break the stalemate. And the Harbingers do not break their promises lightly."
+                                },
+                                {
+                                    "id": "10100208",
+                                    "speaker": "Paimon",
+                                    "text": "Ah. Where is that guy, anyway?"
+                                },
+                                {
+                                    "id": "10100209",
+                                    "speaker": "Ekaterina",
+                                    "text": "Childe is currently at <color=#00E1FFFF>Liuli Pavilion</color>."
+                                },
+                                {
+                                    "id": "10100210",
+                                    "speaker": "Player",
+                                    "text": "Liuli Pavilion?"
+                                },
+                                {
+                                    "id": "10100211",
+                                    "speaker": "Paimon",
+                                    "text": "Ooh, ooh Paimon knows this one!"
+                                },
+                                {
+                                    "id": "10100212",
+                                    "speaker": "Paimon",
+                                    "text": "*clears throat* There are two styles of cooking in Liyue, known as Li style and Yue style. They have been competing for centuries, but neither has emerged as the clear winner."
+                                },
+                                {
+                                    "id": "10100213",
+                                    "speaker": "Paimon",
+                                    "text": "The flagship restaurant of the Li style is the Liuli Pavilion. The owner especially chose to open the restaurant at Feiyun Slope, so they could compete face-to-face with the Xinyue Kiosk, which is the flagship restaurant of the Yue style.",
+                                    "choices": [
+                                        {
+                                            "id": "10100214",
+                                            "text": "Trust you to only know these sorts of things...",
+                                            "response": [
+                                                {
+                                                    "id": "10100216",
+                                                    "speaker": "Paimon",
+                                                    "text": "Don't talk to Paimon like that! Anyway, Paimon's hungry. Let's get moving."
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "10100215",
+                                            "text": "You're like this every time we talk about food..."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "10100203",
+                            "text": "I have no intention of joining the Fatui."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "101003",
+            "objective": "Find Childe",
+            "dialogues": [
+                {
+                    "id": "10100301",
+                    "speaker": "Childe",
+                    "text": "Aha, you made it."
+                },
+                {
+                    "id": "10100302",
+                    "speaker": "Childe",
+                    "text": "As promised, I have found someone who can help you. Someone who can solve the mystery of why the Liyue Qixing would hide the Geo Archon's vessel."
+                },
+                {
+                    "id": "10100303",
+                    "speaker": "Paimon",
+                    "text": "So where is he? In <color=#00E1FFFF>Liuli Pavilion</color>?"
+                },
+                {
+                    "id": "10100304",
+                    "speaker": "Childe",
+                    "text": "He certainly is. Come, I'll introduce you."
+                },
+                {
+                    "id": "10100305",
+                    "speaker": "Childe",
+                    "text": "I took the liberty of setting up a business dinner, as per the Liyue custom."
+                }
+            ]
+        },
+        {
+            "id": "101004",
+            "objective": "",
+            "dialogues": [
+                {
+                    "id": "10100401",
+                    "speaker": "Hongru",
+                    "text": "Welcome back, sir. You honor us with your patronage."
+                }
+            ]
+        },
+        {
+            "id": "101005",
+            "objective": "Enter Liuli Pavilion",
+            "dialogues": [
+                {
+                    "id": "10100501",
+                    "speaker": "Childe",
+                    "text": "Allow me to introduce Mr. Zhongli, consultant to an organization known as Wangsheng... and a trusted associate of the Fatui.",
+                    "choices": [
+                        {
+                            "id": "10100502",
+                            "text": "Associate of the Fatui?",
+                            "response": [
+                                {
+                                    "id": "10100504",
+                                    "speaker": "Childe",
+                                    "text": "Indeed. Wangsheng's line of work can be... sensitive at times. Let's just say they understand when discretion is needed."
+                                },
+                                {
+                                    "id": "10100505",
+                                    "speaker": "Childe",
+                                    "text": "And we, the Fatui, have always been glad to do business with friends who walk in the shadows."
+                                },
+                                {
+                                    "id": "10100506",
+                                    "speaker": "Paimon",
+                                    "text": "W—Walk in the shadows?"
+                                },
+                                {
+                                    "id": "10100507",
+                                    "speaker": "Zhongli",
+                                    "text": "It is an honor to meet you. I have heard tell of you from Mondstadt."
+                                },
+                                {
+                                    "id": "10100508",
+                                    "speaker": "Paimon",
+                                    "text": "Discretion... shadows... Ah! Is Wangsheng some kind of business involving... \"dealing\" with people?"
+                                },
+                                {
+                                    "id": "10100509",
+                                    "speaker": "Zhongli",
+                                    "text": "Indeed, it is as you have guessed."
+                                },
+                                {
+                                    "id": "10100510",
+                                    "speaker": "Paimon",
+                                    "text": "Ahh—!"
+                                },
+                                {
+                                    "id": "10100511",
+                                    "speaker": "Zhongli",
+                                    "text": "The Wangsheng Funeral Parlor organizes burials. We ensure that those who pass on do so in peace."
+                                },
+                                {
+                                    "id": "10100512",
+                                    "speaker": "Paimon",
+                                    "text": "Eh?"
+                                },
+                                {
+                                    "id": "10100513",
+                                    "speaker": "Childe",
+                                    "text": "Haha, did you think he was some sort of hired killer?"
+                                },
+                                {
+                                    "id": "10100514",
+                                    "speaker": "Childe",
+                                    "text": "The Fatui calls many such people friends, but the Wangsheng Funeral Parlor does not dabble in such business... well, ostensibly."
+                                },
+                                {
+                                    "id": "10100515",
+                                    "speaker": "Player",
+                                    "text": "Ostensibly..."
+                                },
+                                {
+                                    "id": "10100516",
+                                    "speaker": "Childe",
+                                    "text": "Well, they are still— Ah, I shouldn't say too much. In any case, I brought you to meet Mr. Zhongli because..."
+                                },
+                                {
+                                    "id": "10100517",
+                                    "speaker": "Zhongli",
+                                    "text": "Because I can bring you to see Rex Lapis' vessel."
+                                },
+                                {
+                                    "id": "10100518",
+                                    "speaker": "Paimon",
+                                    "text": "What!?"
+                                },
+                                {
+                                    "id": "10100519",
+                                    "speaker": "Childe",
+                                    "text": "Ha, don't be so surprised. Sure, the Geo Archon's body has been squirreled away by order of the Tianquan Ningguang... but first, let's hear what Mr. Zhongli has to say, shall we?"
+                                },
+                                {
+                                    "id": "10100520",
+                                    "speaker": "Zhongli",
+                                    "text": "Rex Lapis may be the Prime of Adepti, but he is ultimately an adeptus. Many adepti have left us over the millennia — this is the inexorable trend."
+                                },
+                                {
+                                    "id": "10100521",
+                                    "speaker": "Zhongli",
+                                    "text": "The times have changed — you must have felt it too when you were at Jueyun Karst.",
+                                    "choices": [
+                                        {
+                                            "id": "10100522",
+                                            "text": "That's true. The adepti are staying away from Liyue.",
+                                            "response": [
+                                                {
+                                                    "id": "10100525",
+                                                    "speaker": "Zhongli",
+                                                    "text": "As you have seen, the time of the adepti is ending, and the time of mankind is slowly dawning."
+                                                },
+                                                {
+                                                    "id": "10100526",
+                                                    "speaker": "Zhongli",
+                                                    "text": "In years past, Liyue's tradition was that a huge memorial service be held to mark the passing of every adeptus. But this time, the Qixing have made no attempt whatsoever to respect this tradition. It is sacrilege."
+                                                },
+                                                {
+                                                    "id": "10100527",
+                                                    "speaker": "Player",
+                                                    "text": "Well, they do have a deicide to deal with..."
+                                                },
+                                                {
+                                                    "id": "10100528",
+                                                    "speaker": "Paimon",
+                                                    "text": "Yeah, the killer hasn't even been caught yet."
+                                                },
+                                                {
+                                                    "id": "10100529",
+                                                    "speaker": "Zhongli",
+                                                    "text": "Deicide or not, the concern of the Wangsheng Funeral Parlor is this: When the ritual to receive this god is so kingly, it is all the more egregious for his final send-off to go unattended to."
+                                                },
+                                                {
+                                                    "id": "10100530",
+                                                    "speaker": "Zhongli",
+                                                    "text": "Traveler, Childe has told me a lot about you. Since you have had dealings with the Anemo Archon, could I ask you to help me prepare the Geo Archon's last rites?",
+                                                    "choices": [
+                                                        {
+                                                            "id": "10100531",
+                                                            "text": "I'm going to have to think about it...",
+                                                            "response": [
+                                                                {
+                                                                    "id": "10100532",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "#Well... if you really think about it, {NICKNAME}, we don't have any other choice..."
+                                                                },
+                                                                {
+                                                                    "id": "10100533",
+                                                                    "speaker": "Childe",
+                                                                    "text": "Indeed, no amount of consideration can change this outcome."
+                                                                },
+                                                                {
+                                                                    "id": "10100539",
+                                                                    "speaker": "Childe",
+                                                                    "text": "The Tianquan, Ningguang, has forbidden anyone from accessing Rex Lapis' vessel... Which of course you would need to access if you are to achieve your goal of meeting all of The Seven."
+                                                                },
+                                                                {
+                                                                    "id": "10100540",
+                                                                    "speaker": "Zhongli",
+                                                                    "text": "Precisely. Only by participating in the Rite of Parting will you be able to see the form of Rex Lapis again."
+                                                                },
+                                                                {
+                                                                    "id": "10100541",
+                                                                    "speaker": "Player",
+                                                                    "text": "Looks like there's no other choice."
+                                                                },
+                                                                {
+                                                                    "id": "10100542",
+                                                                    "speaker": "Zhongli",
+                                                                    "text": "If we are agreed, come with me. We will speak of the details as we walk."
+                                                                },
+                                                                {
+                                                                    "id": "10100543",
+                                                                    "speaker": "Zhongli",
+                                                                    "text": "(Fade to black. Exit Zhongli.)"
+                                                                },
+                                                                {
+                                                                    "id": "10100544",
+                                                                    "speaker": "Childe",
+                                                                    "text": "Alright, my bridge-building work here is done. Turned out well, didn't it?"
+                                                                },
+                                                                {
+                                                                    "id": "10100545",
+                                                                    "speaker": "Childe",
+                                                                    "text": "You can go if you want to, don't worry about me. I might just have a few more drinks... and get acquainted with these things they call \"chopsticks\" in the meantime."
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "id": "10100534",
+                                                            "text": "I accept your invitation...",
+                                                            "response": [
+                                                                {
+                                                                    "id": "10100535",
+                                                                    "speaker": "Childe",
+                                                                    "text": "A wise decision."
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "id": "10100536",
+                                                            "text": "Childe says too much.",
+                                                            "response": [
+                                                                {
+                                                                    "id": "10100537",
+                                                                    "speaker": "Childe",
+                                                                    "text": "Oh? In our line of work, this means that you want to silence me... How interesting. Draw your sword. We shall—"
+                                                                },
+                                                                {
+                                                                    "id": "10100538",
+                                                                    "speaker": "Childe",
+                                                                    "text": "Just kidding. Let's continue, shall we?"
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "10100523",
+                                            "text": "The Geo Archon is also an adeptus?",
+                                            "response": [
+                                                {
+                                                    "id": "10100524",
+                                                    "speaker": "Zhongli",
+                                                    "text": "Archons go by many names. The God of Contracts, the God of Commerce, the Warrior God, Morax, Rex Lapis... is the idea that he also has the title of Adeptus so strange?"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "10100503",
+                            "text": "Wangsheng?"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "101006",
+            "objective": "Talk to Zhongli outside",
+            "dialogues": [
+                {
+                    "id": "10100601",
+                    "speaker": "Zhongli",
+                    "text": "After having experienced the land of the absentee archon, Traveler, how does it feel to know that our archon and adepti are here all around you in Liyue?",
+                    "choices": [
+                        {
+                            "id": "10100602",
+                            "text": "I prefer the atmosphere in Mondstadt.",
+                            "response": [
+                                {
+                                    "id": "10100603",
+                                    "speaker": "Zhongli",
+                                    "text": "I see, so you're that sort of person. It's not a bad thing."
+                                },
+                                {
+                                    "id": "10100604",
+                                    "speaker": "Zhongli",
+                                    "text": "But I suppose you have yet to experience the substance of Liyue's three thousand and seven hundred years of divinity."
+                                },
+                                {
+                                    "id": "10100607",
+                                    "speaker": "Zhongli",
+                                    "text": "Organizing the Rite of Parting should prove to be an enlightening part of your travels."
+                                },
+                                {
+                                    "id": "10100608",
+                                    "speaker": "Zhongli",
+                                    "text": "Liyue is the most prosperous of the seven nations, defended by deities and ruled by the Qixing. As such, the diplomatic maneuverings of the Fatui have gained no purchase here."
+                                },
+                                {
+                                    "id": "10100609",
+                                    "speaker": "Zhongli",
+                                    "text": "Ningguang of the Qixing has always been on her guard against the Fatui. That is in all likelihood why Childe wants to make use of the Wangsheng Funeral Parlor's connections."
+                                },
+                                {
+                                    "id": "10100610",
+                                    "speaker": "Paimon",
+                                    "text": "Huh... what would Childe get out of us doing the Rite of Parting anyway?"
+                                },
+                                {
+                                    "id": "10100611",
+                                    "speaker": "Zhongli",
+                                    "text": "I neither know nor do I wish to know. As far as I am concerned, the Fatui are merely financial sponsors. I only wish for Liyue's traditions to endure."
+                                },
+                                {
+                                    "id": "10100612",
+                                    "speaker": "Zhongli",
+                                    "text": "(Zhongli hands the player a bag of money)"
+                                },
+                                {
+                                    "id": "10100613",
+                                    "speaker": "Zhongli",
+                                    "text": "These are the advance funds that Childe has provided. If you use them up, you can go to him to apply for any subsequent funding."
+                                },
+                                {
+                                    "id": "10100614",
+                                    "speaker": "Paimon",
+                                    "text": "Wow..."
+                                },
+                                {
+                                    "id": "10100615",
+                                    "speaker": "Zhongli",
+                                    "text": "Well then, let us be off. The first step in our preparations shall be to obtain some prize <color=#00E1FFFF>Noctilucous Jade</color> worthy of a deity."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "10100605",
+                            "text": "Liyue is the better place.",
+                            "response": [
+                                {
+                                    "id": "10100606",
+                                    "speaker": "Zhongli",
+                                    "text": "Indeed. The weight of three thousand and seven hundred years' worth of history runs deepest in the true divinity of Liyue."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,465 @@
+{
+    "quest": {
+        "id": "3010",
+        "title": "O Samsara do Festival Sabzeruz",
+        "description": "Está muito claro, este já não é o primeiro Festival Sabzeruz. Para ajudar Dunyarzad, precisamos pensar em uma solução.",
+        "rewards": [
+            {
+                "itemId": 102,
+                "count": 450
+            },
+            {
+                "itemId": 202,
+                "count": 18000
+            },
+            {
+                "itemId": 104002,
+                "count": 7
+            },
+            {
+                "itemId": 104013,
+                "count": 3
+            }
+        ],
+        "rewards_formatted": "EXP de Aventura x450, Mora x18000, EXP do Aventureiro x7, Minério de Refinamento Místico x3",
+        "chapter": {
+            "icon": "UI_ChapterIcon_Sumeru",
+            "id": "1302",
+            "num": "Capítulo III - Ato II",
+            "title": "O Alvorecer das Rosas"
+        },
+        "total_dialogue_lines": 69,
+        "total_speaker_counts": {
+            "???": 2,
+            "Amal": 1,
+            "Comerciante": 1,
+            "Dehya": 9,
+            "Guarda": 2,
+            "Kimiya": 1,
+            "Nahida": 12,
+            "Paimon": 26,
+            "Player": 14,
+            "Vihar": 1
+        }
+    },
+    "talks": [
+        {
+            "id": "301005",
+            "objective": "Fale com Nahida",
+            "dialogues": []
+        },
+        {
+            "id": "301001",
+            "objective": "Fale com Nahida",
+            "dialogues": [
+                {
+                    "id": "30100101",
+                    "speaker": "Paimon",
+                    "text": "Paimon se lembra de tudo!"
+                },
+                {
+                    "id": "30100102",
+                    "speaker": "Nahida",
+                    "text": "...Ótimo, você se adaptou rápido dessa vez."
+                },
+                {
+                    "id": "30100103",
+                    "speaker": "Player",
+                    "text": "Ontem, no fim do dia..."
+                },
+                {
+                    "id": "30100104",
+                    "speaker": "Paimon",
+                    "text": "Definitivamente tiramos nossos Terminais Akasha ontem à noite, mas ainda assim ouvimos aquele bip. Por que será?",
+                    "choices": [
+                        {
+                            "id": "30100105",
+                            "text": "Será que fomos implantados com alguma outra forma de terminal?",
+                            "response": [
+                                {
+                                    "id": "30100107",
+                                    "speaker": "Paimon",
+                                    "text": "Mas agora, podemos pelo menos confirmar uma coisa: o Akasha definitivamente tem algo a ver com seja o que for que está nos prendendo nesse ciclo!"
+                                },
+                                {
+                                    "id": "30100108",
+                                    "speaker": "Paimon",
+                                    "text": "Paimon não entende... Por que o Akasha iria tão longe assim, se tudo que ele quer é a sabedoria de alguém?"
+                                },
+                                {
+                                    "id": "30100109",
+                                    "speaker": "Nahida",
+                                    "text": "Bem, é extremamente difícil para cobaias de um experimento entenderem por qual motivo estão sendo tratadas dessa maneira."
+                                },
+                                {
+                                    "id": "30100110",
+                                    "speaker": "Paimon",
+                                    "text": "Se somos cobaias, o que é você? Nahida, você nunca nos disse nada sobre você..."
+                                },
+                                {
+                                    "id": "30100111",
+                                    "speaker": "Nahida",
+                                    "text": "Hmm... Acho que sou a Lua."
+                                },
+                                {
+                                    "id": "30100112",
+                                    "speaker": "Paimon",
+                                    "text": "A lua? Esse não foi o resultado da nossa adivinhação?"
+                                },
+                                {
+                                    "id": "30100113",
+                                    "speaker": "Player",
+                                    "text": "..."
+                                },
+                                {
+                                    "id": "30100114",
+                                    "speaker": "Nahida",
+                                    "text": "Enfim, saber quem eu sou não irá nos ajudar a chegar mais perto da verdade, então você deveria focar em outras coisas. Não se distraia e perca pistas~"
+                                },
+                                {
+                                    "id": "30100115",
+                                    "speaker": "Paimon",
+                                    "text": "Tudo bem... Dehya nos ajudou bastante ontem, então vamos encontrá-la. Se Paimon não estiver enganada, aqueles sequestradores devem aparecer logo."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "30100106",
+                            "text": "Falhamos ao tentar cortar nossas conexões com eles?"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "301002",
+            "objective": "Fale com Dehya",
+            "dialogues": [
+                {
+                    "id": "30100201",
+                    "speaker": "Dehya",
+                    "text": "Ah, aí está você. Já lidei com aqueles sequestradores. Minha senhorita, você se machucou?"
+                },
+                {
+                    "id": "30100202",
+                    "speaker": "Player",
+                    "text": "Espera aí, algo não está certo..."
+                },
+                {
+                    "id": "30100203",
+                    "speaker": "Paimon",
+                    "text": "Hã? Dehya!?"
+                },
+                {
+                    "id": "30100204",
+                    "speaker": "Dehya",
+                    "text": "O que houve? Por que vocês estão olhando para mim assim?"
+                },
+                {
+                    "id": "30100205",
+                    "speaker": "Paimon",
+                    "text": "V-você não se machucou dessa vez!?"
+                },
+                {
+                    "id": "30100206",
+                    "speaker": "Dehya",
+                    "text": "Hã? O que você quer dizer com, \"dessa vez\"? Sem falar que, por que você está tão surpresa que eu saí ilesa? Aqueles sujeitos são amadores.",
+                    "choices": [
+                        {
+                            "id": "30100207",
+                            "text": "Você ainda não está se acostumando com seu novo espadão?",
+                            "response": [
+                                {
+                                    "id": "30100209",
+                                    "speaker": "Dehya",
+                                    "text": "Shhh... Como você sabia sobre meu espadão? Eu não contei a ninguém sobre isso. Por favor, não conte a senhorita Dunyarzad!"
+                                },
+                                {
+                                    "id": "30100210",
+                                    "speaker": "Paimon",
+                                    "text": "Então a Dehya realmente perdeu as memórias...",
+                                    "choices": [
+                                        {
+                                            "id": "30100211",
+                                            "text": "Durante nossa batalha...",
+                                            "response": [
+                                                {
+                                                    "id": "30100213",
+                                                    "speaker": "Dehya",
+                                                    "text": "Algo estranho... Você já sabe que eu estou com um espadão novo. Se eu tivesse que dizer algo, é que é estranho como um espadão novo pode ser tão familiar."
+                                                },
+                                                {
+                                                    "id": "30100214",
+                                                    "speaker": "Dehya",
+                                                    "text": "É como se... Eu já tivesse usado para lutar infinitas batalhas."
+                                                },
+                                                {
+                                                    "id": "30100215",
+                                                    "speaker": "Paimon",
+                                                    "text": "Você está dizendo que, embora você não se lembre de usá-lo para lutar, seu corpo... sente como se tivesse?"
+                                                },
+                                                {
+                                                    "id": "30100216",
+                                                    "speaker": "Dehya",
+                                                    "text": "Isso mesmo. Tanto os mercenários quanto os guerreiros dependem da memória muscular. Apenas saber a teoria da batalha não irá te levar muito longe."
+                                                },
+                                                {
+                                                    "id": "30100217",
+                                                    "speaker": "Paimon",
+                                                    "text": "Viajante, o que você acha?",
+                                                    "choices": [
+                                                        {
+                                                            "id": "30100218",
+                                                            "text": "Será que é por que removemos nossos Terminais Akasha?",
+                                                            "response": [
+                                                                {
+                                                                    "id": "30100220",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "Sim, Paimon está cheia de esperanças!"
+                                                                },
+                                                                {
+                                                                    "id": "30100221",
+                                                                    "speaker": "Player",
+                                                                    "text": "Será que... já conseguimos nos libertar?"
+                                                                },
+                                                                {
+                                                                    "id": "30100222",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "Ooh, você tem razão! Mais cedo no samsara, algo assim nunca teria acontecido."
+                                                                },
+                                                                {
+                                                                    "id": "30100223",
+                                                                    "speaker": "Player",
+                                                                    "text": "Saberemos com certeza no final do dia."
+                                                                },
+                                                                {
+                                                                    "id": "30100224",
+                                                                    "speaker": "Dehya",
+                                                                    "text": "Não faço ideia do que vocês estão falando, mas ainda é perigoso por aqui, então—"
+                                                                },
+                                                                {
+                                                                    "id": "30100225",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "Ainda é perigoso, então você quer que a gente leve Dunyarzad para algum lugar para descansar enquanto você checa se ainda existem outros sequestradores por perto. Certo?"
+                                                                },
+                                                                {
+                                                                    "id": "30100226",
+                                                                    "speaker": "Dehya",
+                                                                    "text": "Como você sabia o que eu ia dizer...? Você consegue ler mentes?"
+                                                                },
+                                                                {
+                                                                    "id": "30100227",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "Esqueça, vá fazer o que precisa ser feito."
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "id": "30100219",
+                                                            "text": "Isso nunca aconteceu antes..."
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "30100212",
+                                            "text": "Algo pareceu estranho?"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "30100208",
+                            "text": "Sua falta de costume normalmente te causa alguns arranhões."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "301003",
+            "objective": "Fale com Nahida",
+            "dialogues": [
+                {
+                    "id": "30100301",
+                    "speaker": "Paimon",
+                    "text": "...Ufa, finalmente é noite. Além da Dehya não ter se machucado, tudo parece ter continuado o mesmo."
+                },
+                {
+                    "id": "30100302",
+                    "speaker": "Paimon",
+                    "text": "Escute, Nahida! Descobrimos que Dehya ficou sã e salva hoje, ainda que todas as outras vezes ela tenha se machucado todas às vezes que lutou contra os sequestradores."
+                },
+                {
+                    "id": "30100303",
+                    "speaker": "Paimon",
+                    "text": "Você acha que o Samsara foi quebrado? Salvamos Dunyarzad?"
+                },
+                {
+                    "id": "30100304",
+                    "speaker": "Nahida",
+                    "text": "Sério? Bom trabalho em ter conseguido progredir. Tire uma boa noite de sono hoje."
+                },
+                {
+                    "id": "30100305",
+                    "speaker": "Paimon",
+                    "text": "Ei, que tipo de resposta é essa?"
+                },
+                {
+                    "id": "30100306",
+                    "speaker": "Nahida",
+                    "text": "\"Amanhã será outro dia\". Todos assumem esse conhecimento comum, mas a única forma de sabermos com certeza, é se você viver o amanhã."
+                },
+                {
+                    "id": "30100307",
+                    "speaker": "Nahida",
+                    "text": "Quantos \"hoje\" se passaram? É possível que \"hoje\" seja seguido por \"ontem\"? O \"amanhã\" realmente existe além de um conceito pré-concebido?"
+                },
+                {
+                    "id": "30100308",
+                    "speaker": "Nahida",
+                    "text": "É possível que até esse mundo inteiro seja uma mentira, e a história do mundo inteiro é apenas um Festival Sabzeruz infinito."
+                },
+                {
+                    "id": "30100309",
+                    "speaker": "Paimon",
+                    "text": "Certo, certo, chega! O cérebro da Paimon não consegue mais aguentar!"
+                },
+                {
+                    "id": "30100310",
+                    "speaker": "Nahida",
+                    "text": "Hehe... É por isso que não faz sentido gastar energia pensando sobre coisas que você aprenderá amanhã."
+                },
+                {
+                    "id": "30100311",
+                    "speaker": "Nahida",
+                    "text": "Descanse um pouco! Sabe... vá no banheiro, dê uma descarga nessa sua ansiedade!"
+                },
+                {
+                    "id": "30100312",
+                    "speaker": "Paimon",
+                    "text": "Hã? Espera aí, o que você disse? Paimon te ouviu bem?"
+                },
+                {
+                    "id": "30100313",
+                    "speaker": "Nahida",
+                    "text": "Ué? As pessoas vivem dizendo que se sentem mais relaxadas depois que fazem suas necessidades no banheiro. É por isso que sugeri você tentar fazer isso. Nada demais."
+                },
+                {
+                    "id": "30100314",
+                    "speaker": "Paimon",
+                    "text": "Urg, isso é tão estranho e fora do comum que Paimon está sem palavras... Agora há pouco você estava falando de coisas místicas!"
+                },
+                {
+                    "id": "30100315",
+                    "speaker": "Player",
+                    "text": "...Vamos descansar um pouco."
+                },
+                {
+                    "id": "30100316",
+                    "speaker": "Paimon",
+                    "text": "É... mesmo que esteja feliz e animado todos os dias no Festival Sabzeruz, parece como se já tivesse passado um bom tempo desde que pudemos relaxar. Vamos voltar para nosso quarto."
+                },
+                {
+                    "id": "30100317",
+                    "speaker": "???",
+                    "text": "*Bip*"
+                },
+                {
+                    "id": "30100318",
+                    "speaker": "???",
+                    "text": "Continue com a colheita. Comparado com o que temos a ganhar, esses sacrifícios são triviais."
+                }
+            ]
+        },
+        {
+            "id": "300720",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "30072001",
+                    "speaker": "Guarda",
+                    "text": "Ei! Alto! Ninguém pode entrar ou sair da Cidade de Sumeru agora. Retirem-se imediatamente!"
+                },
+                {
+                    "id": "30072002",
+                    "speaker": "Paimon",
+                    "text": "Urgh... Está bem."
+                }
+            ]
+        },
+        {
+            "id": "300723",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "30072301",
+                    "speaker": "Comerciante",
+                    "text": "*Suspiro* Como eu vou fazer negócios se sequer posso sair da cidade?"
+                }
+            ]
+        },
+        {
+            "id": "300726",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "30072601",
+                    "speaker": "Guarda",
+                    "text": "Ei! Alto! Ninguém pode entrar ou sair da Cidade de Sumeru agora. Retirem-se imediatamente!"
+                },
+                {
+                    "id": "30072602",
+                    "speaker": "Paimon",
+                    "text": "Urgh... Está bem."
+                }
+            ]
+        },
+        {
+            "id": "300803",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "30080301",
+                    "speaker": "Amal",
+                    "text": "Eu peguei ontem na floresta, tudo está fresquinho! Posso garantir!"
+                }
+            ]
+        },
+        {
+            "id": "300810",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "30081001",
+                    "speaker": "Kimiya",
+                    "text": "Isso é a sabedoria divina..."
+                }
+            ]
+        },
+        {
+            "id": "300811",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "30081101",
+                    "speaker": "Vihar",
+                    "text": "A-ten-ção! Mais pedidos, jovem soldado?"
+                }
+            ]
+        },
+        {
+            "id": "300923",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "30092301",
+                    "speaker": "Nahida",
+                    "text": "Não temos mais festivais a perder. Vá rápido e descubra a verdade."
+                }
+            ]
+        }
+    ]
+}

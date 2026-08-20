@@ -1,0 +1,235 @@
+{
+    "quest": {
+        "id": "11003",
+        "title": "Lucky Find",
+        "description": "Xiangling believes that Lotus Heads and Jueyun Chilis alone will not let her prevail in the cook-off, and sets off to find more ingredients.",
+        "rewards": [
+            {
+                "itemId": 102,
+                "count": 125
+            },
+            {
+                "itemId": 202,
+                "count": 4650
+            },
+            {
+                "itemId": 104002,
+                "count": 2
+            },
+            {
+                "itemId": 104012,
+                "count": 5
+            }
+        ],
+        "rewards_formatted": "Adventure EXP x125, Mora x4650, Adventurer's Experience x2, Fine Enhancement Ore x5",
+        "chapter": {
+            "icon": "UI_ChapterIcon_Xiangling",
+            "id": "2007",
+            "num": "Trulla Chapter: Act I",
+            "title": "Mondstadt Gastronomy Trip"
+        },
+        "total_dialogue_lines": 31,
+        "total_speaker_counts": {
+            "Olaf": 9,
+            "Paimon": 4,
+            "Player": 6,
+            "Xiangling": 12
+        }
+    },
+    "talks": [
+        {
+            "id": "1100301",
+            "objective": "Go to the place Xiangling mentioned",
+            "dialogues": [
+                {
+                    "id": "110030101",
+                    "speaker": "Xiangling",
+                    "text": "Wh—What's that!?"
+                }
+            ]
+        },
+        {
+            "id": "1100302",
+            "objective": "Talk to Xiangling and the shivering man",
+            "dialogues": [
+                {
+                    "id": "110030201",
+                    "speaker": "Olaf",
+                    "text": "Brr... So, so c—cold..."
+                },
+                {
+                    "id": "110030202",
+                    "speaker": "Xiangling",
+                    "text": "He's shivering! We need to warm him up, quick!"
+                },
+                {
+                    "id": "110030203",
+                    "speaker": "Paimon",
+                    "text": "Make a fire!"
+                },
+                {
+                    "id": "110030204",
+                    "speaker": "Xiangling",
+                    "text": "Hot soup would be even better."
+                },
+                {
+                    "id": "110030205",
+                    "speaker": "Xiangling",
+                    "text": "#{NICKNAME}, how about I look after him while you make him a <color=#00E1FFFF>nice warm bowl of soup</color>?"
+                },
+                {
+                    "id": "110030206",
+                    "speaker": "Xiangling",
+                    "text": "We passed a hilichurl camp on the way here. There'll almost certainly be a campfire there to cook on."
+                },
+                {
+                    "id": "110030207",
+                    "speaker": "Player",
+                    "text": "Sure."
+                },
+                {
+                    "id": "110030208",
+                    "speaker": "Xiangling",
+                    "text": "Great. Be as quick as you can!"
+                }
+            ]
+        },
+        {
+            "id": "1100303",
+            "objective": "Make a Delicious Radish Veggie Soup",
+            "dialogues": []
+        },
+        {
+            "id": "1100304",
+            "objective": "Give the hunter the soup you prepared",
+            "dialogues": [
+                {
+                    "id": "110030401",
+                    "speaker": "Olaf",
+                    "text": "Mmm... That is better... That is better..."
+                },
+                {
+                    "id": "110030402",
+                    "speaker": "Olaf",
+                    "text": "Thank you. That soup really did the trick."
+                },
+                {
+                    "id": "110030403",
+                    "speaker": "Player",
+                    "text": "What happened, did you get frozen?"
+                },
+                {
+                    "id": "110030404",
+                    "speaker": "Olaf",
+                    "text": "Yes. I was chasing a boar, and after chasing him all this way he slipped into those underground ruins over there."
+                },
+                {
+                    "id": "110030405",
+                    "speaker": "Olaf",
+                    "text": "I followed him inside, but ran into a Cryo Regisvine."
+                },
+                {
+                    "id": "110030406",
+                    "speaker": "Olaf",
+                    "text": "It froze me instantly. When I woke up I ran straight outside, but... I only made it this far before my strength failed me."
+                },
+                {
+                    "id": "110030407",
+                    "speaker": "Xiangling",
+                    "text": "Cryo Regisvine? Vines... attack people?"
+                },
+                {
+                    "id": "110030408",
+                    "speaker": "Olaf",
+                    "text": "They do now! I'd heard of them before from others, but this was the first time seeing one with my own eyes."
+                },
+                {
+                    "id": "110030409",
+                    "speaker": "Paimon",
+                    "text": "Yikes, we should definitely keep our distance from the ruins... It sounds dangerous."
+                },
+                {
+                    "id": "110030410",
+                    "speaker": "Xiangling",
+                    "text": "It sounds delicious!",
+                    "choices": [
+                        {
+                            "id": "110030411",
+                            "text": "...Seriously?",
+                            "response": [
+                                {
+                                    "id": "110030413",
+                                    "speaker": "Xiangling",
+                                    "text": "That's it! The missing ingredient! The icing on the cake!"
+                                },
+                                {
+                                    "id": "110030414",
+                                    "speaker": "Paimon",
+                                    "text": "Calm down. Can we really eat a tree that's that aggressive?"
+                                },
+                                {
+                                    "id": "110030415",
+                                    "speaker": "Xiangling",
+                                    "text": "Only one way to find out — let's go!"
+                                },
+                                {
+                                    "id": "110030416",
+                                    "speaker": "Paimon",
+                                    "text": "*sigh* Off she goes again...",
+                                    "choices": [
+                                        {
+                                            "id": "110030417",
+                                            "text": "We need to go.",
+                                            "response": [
+                                                {
+                                                    "id": "110030419",
+                                                    "speaker": "Olaf",
+                                                    "text": "Do not worry about me, I'll be fine. But you must stop her, she is putting herself in grave danger."
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "110030418",
+                                            "text": "You should get back to Springvale."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "110030412",
+                            "text": "Does anything NOT make you think about food?"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "1100398",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "110039801",
+                    "speaker": "Xiangling",
+                    "text": "We passed a hilichurl camp on the way here. There'll almost certainly be a campfire there to cook on."
+                },
+                {
+                    "id": "110039802",
+                    "speaker": "Xiangling",
+                    "text": "I'll stay here and look after him while you go and make him a nice warm bowl of soup."
+                }
+            ]
+        },
+        {
+            "id": "1100399",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "110039901",
+                    "speaker": "Olaf",
+                    "text": "So cold... S—so c—cold in there..."
+                }
+            ]
+        }
+    ]
+}

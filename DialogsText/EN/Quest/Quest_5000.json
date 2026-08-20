@@ -1,0 +1,3221 @@
+{
+    "quest": {
+        "id": "5000",
+        "title": "Natlan! A New Adventure",
+        "description": "You've made many unforgettable memories in Fontaine. Now, a new journey lies before you — first, time to say goodbye to your fine Fontainian friends.",
+        "rewards": [
+            {
+                "itemId": 102,
+                "count": 1000
+            },
+            {
+                "itemId": 202,
+                "count": 44000
+            },
+            {
+                "itemId": 104003,
+                "count": 4
+            },
+            {
+                "itemId": 104013,
+                "count": 8
+            }
+        ],
+        "rewards_formatted": "Adventure EXP x1000, Mora x44000, Hero's Wit x4, Mystic Enhancement Ore x8",
+        "chapter": {
+            "icon": "UI_ChapterIcon_Natlan",
+            "id": "1500",
+            "num": "Chapter V: Act I",
+            "title": "Flowers Resplendent on the Sun-Scorched Sojourn"
+        },
+        "total_dialogue_lines": 585,
+        "total_speaker_counts": {
+            "#{REALNAME[ID(2)|SHOWHOST(true)]}": 1,
+            "<UNKNOWN>": 1,
+            "Ajaw": 5,
+            "Ayo": 3,
+            "Cempoa": 4,
+            "Charlotte": 8,
+            "Cival": 11,
+            "Clorinde": 4,
+            "Crowd": 1,
+            "Furina": 11,
+            "Kachina": 200,
+            "Kinich": 42,
+            "Mualani": 59,
+            "Navia": 4,
+            "Pacal": 30,
+            "Paimon": 126,
+            "Player": 66,
+            "Tlaco": 4,
+            "Toto": 5
+        }
+    },
+    "talks": [
+        {
+            "id": "500001",
+            "objective": "Go to Romaritime Harbor",
+            "dialogues": [
+                {
+                    "id": "50000101",
+                    "speaker": "Paimon",
+                    "text": "Wow, time flies! Just like that, it's time for us to embark on the next phase of our journey!"
+                },
+                {
+                    "id": "50000102",
+                    "speaker": "Paimon",
+                    "text": "We need to head to Natlan next."
+                },
+                {
+                    "id": "50000103",
+                    "speaker": "Paimon",
+                    "text": "Neuvillette called it \"a nation of dragons,\" but that description doesn't give us much to go off of..."
+                },
+                {
+                    "id": "50000104",
+                    "speaker": "Player",
+                    "text": "We haven't met anyone from Natlan either."
+                },
+                {
+                    "id": "50000105",
+                    "speaker": "Paimon",
+                    "text": "Exactly! Even when Inazuma was completely closed-off, we still managed to run into people from there in other nations..."
+                },
+                {
+                    "id": "50000106",
+                    "speaker": "Paimon",
+                    "text": "Huh, could it be... that there are no humans in Natlan?"
+                },
+                {
+                    "id": "50000107",
+                    "speaker": "Charlotte",
+                    "text": "Yes, yes! That look of surprise and excitement is perfect! Hold it right there... Now, look at the Kamera, and big smiles on three, ready?"
+                },
+                {
+                    "id": "50000108",
+                    "speaker": "Paimon",
+                    "text": "Okay! Just make sure to get Paimon's good side!"
+                },
+                {
+                    "id": "50000109",
+                    "speaker": "Paimon",
+                    "text": "Wait, hang on a minute... What's with the photo shoot, Charlotte?"
+                },
+                {
+                    "id": "50000110",
+                    "speaker": "Charlotte",
+                    "text": "Well, I heard you two were about to leave for the next part of your journey. After everything you did for Fontaine, The Steambird simply had to follow up on a scoop like that."
+                },
+                {
+                    "id": "50000111",
+                    "speaker": "Charlotte",
+                    "text": "*sigh* I have a feeling we're going to be short on material once you're gone."
+                },
+                {
+                    "id": "50000112",
+                    "speaker": "Paimon",
+                    "text": "Oh, so you knew we were leaving... We don't need a big send-off. That's not really our thing."
+                },
+                {
+                    "id": "50000113",
+                    "speaker": "Charlotte",
+                    "text": "Hehe, yeah, that's definitely not your style, but we got to thinking... and, well, a little change never hurt anyone, right?"
+                },
+                {
+                    "id": "50000114",
+                    "speaker": "Paimon",
+                    "text": "\"We\"?"
+                },
+                {
+                    "id": "50000115",
+                    "speaker": "Navia",
+                    "text": "All those obstacles we overcame side by side... Feels like it was just yesterday! Don't be a stranger, now, partner!"
+                },
+                {
+                    "id": "50000116",
+                    "speaker": "Clorinde",
+                    "text": "If you encounter any troubles along your journey, you need only let us know, no matter the distance between us."
+                },
+                {
+                    "id": "50000117",
+                    "speaker": "Furina",
+                    "text": "Partings are inevitable, of course, but distance makes the heart grow fonder, right?"
+                },
+                {
+                    "id": "50000118",
+                    "speaker": "Furina",
+                    "text": "One thing will never change, though. We'll always have the memories we made together during this time."
+                },
+                {
+                    "id": "50000119",
+                    "speaker": "Paimon",
+                    "text": "Whoa, you're all here!",
+                    "choices": [
+                        {
+                            "id": "50000120",
+                            "text": "I'm sure we'll meet again.",
+                            "response": [
+                                {
+                                    "id": "50000121",
+                                    "speaker": "Navia",
+                                    "text": "That we will! I'm looking forward to hearing about your future adventures, so make sure to stop by and tell us about them sometime!"
+                                },
+                                {
+                                    "id": "50000125",
+                                    "speaker": "Clorinde",
+                                    "text": "Well, in light of your impending departure, shall we take a photo together?"
+                                },
+                                {
+                                    "id": "50000126",
+                                    "speaker": "Furina",
+                                    "text": "Ooh, great idea! We even have a professional photographer with us. Charlotte, would you do us the honor?"
+                                },
+                                {
+                                    "id": "50000127",
+                                    "speaker": "Charlotte",
+                                    "text": "Leave it to me. Just give me a moment to set the Kamera up."
+                                },
+                                {
+                                    "id": "50000128",
+                                    "speaker": "Furina",
+                                    "text": "Oh, by the way, you're overthinking the whole Natlan issue, Paimon. Natlan has human inhabitants and its own unique culture, just like Fontaine."
+                                },
+                                {
+                                    "id": "50000129",
+                                    "speaker": "Furina",
+                                    "text": "It's just that, because of their local customs, the native people choose not to leave."
+                                },
+                                {
+                                    "id": "50000130",
+                                    "speaker": "Furina",
+                                    "text": "They're not unwelcoming to outsiders, though. People travel there for business and leisure alike, and usually return with nothing but good things to say."
+                                },
+                                {
+                                    "id": "50000131",
+                                    "speaker": "Navia",
+                                    "text": "Many members of the Spina have visited in the past, too."
+                                },
+                                {
+                                    "id": "50000132",
+                                    "speaker": "Paimon",
+                                    "text": "Well, that's a relief! Hopefully, we don't get swept up in any major drama this time!",
+                                    "choices": [
+                                        {
+                                            "id": "50000133",
+                                            "text": "Don't speak too soon.",
+                                            "response": [
+                                                {
+                                                    "id": "50000135",
+                                                    "speaker": "Clorinde",
+                                                    "text": "Well, given your experience and skill in that regard, I have no doubt you'll be able to overcome anything that comes your way."
+                                                },
+                                                {
+                                                    "id": "50000136",
+                                                    "speaker": "Furina",
+                                                    "text": "Still, I hope you can avoid danger this time around. An uneventful trip might be a nice change of pace."
+                                                },
+                                                {
+                                                    "id": "50000137",
+                                                    "speaker": "Charlotte",
+                                                    "text": "Alright, I'm ready! Shall we?"
+                                                },
+                                                {
+                                                    "id": "50000138",
+                                                    "speaker": "Charlotte",
+                                                    "text": "#Well then, {NICKNAME}..."
+                                                },
+                                                {
+                                                    "id": "50000139",
+                                                    "speaker": "Crowd",
+                                                    "text": "Bon voyage!"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "50000134",
+                                            "text": "Hope you didn't just jinx us."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "50000122",
+                            "text": "Let me know the next time a festival rolls around!",
+                            "response": [
+                                {
+                                    "id": "50000123",
+                                    "speaker": "Furina",
+                                    "text": "Already thinking about taking time off? Any excuse for a party, huh..."
+                                },
+                                {
+                                    "id": "50000124",
+                                    "speaker": "Furina",
+                                    "text": "But yes, you can count on us! We wouldn't let you miss out on all the fun."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "500002",
+            "objective": "Go to Natlan",
+            "dialogues": [
+                {
+                    "id": "50000201",
+                    "speaker": "Paimon",
+                    "text": "Wow! So, this is Natlan!"
+                },
+                {
+                    "id": "50000202",
+                    "speaker": "Paimon",
+                    "text": "So many strange mountains! And so many animals Paimon has never seen before!"
+                },
+                {
+                    "id": "50000203",
+                    "speaker": "Paimon",
+                    "text": "Uh... Huh, doesn't look like there are any cities around here, though. Where should we start?",
+                    "choices": [
+                        {
+                            "id": "50000204",
+                            "text": "Let's try heading this way.",
+                            "response": [
+                                {
+                                    "id": "50000206",
+                                    "speaker": "Paimon",
+                                    "text": "Good idea. Finding people means we can learn information about the local Archon!"
+                                },
+                                {
+                                    "id": "50000207",
+                                    "speaker": "Paimon",
+                                    "text": "And once we've met the Archon, we should have a better idea of what to expect during our journey.",
+                                    "choices": [
+                                        {
+                                            "id": "50000208",
+                                            "text": "If experience is anything to go by, that should be the case.",
+                                            "response": [
+                                                {
+                                                    "id": "50000210",
+                                                    "speaker": "Paimon",
+                                                    "text": "Well, Paimon hopes this one is easy to get along with. As long as we don't get on their bad side, we should be fine!"
+                                                },
+                                                {
+                                                    "id": "50000211",
+                                                    "speaker": "Paimon",
+                                                    "text": "Come on, let's keep following the road."
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "50000209",
+                                            "text": "Archons have the deepest connection to their respective nations."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "50000205",
+                            "text": "I see signs of human habitation."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "500017",
+            "objective": "Go deeper into Natlan",
+            "dialogues": [
+                {
+                    "id": "50001701",
+                    "speaker": "<UNKNOWN>",
+                    "text": ""
+                }
+            ]
+        },
+        {
+            "id": "500003",
+            "objective": "Go deeper into Natlan",
+            "dialogues": [
+                {
+                    "id": "50000301",
+                    "speaker": "Tlaco",
+                    "text": "I'm sorry, Kachina. I know it's not right for us to go back on our word like this, but Cempoa and I have to do well during this Pilgrimage."
+                },
+                {
+                    "id": "50000302",
+                    "speaker": "Cempoa",
+                    "text": "You can't seem to find other people to join our team, and we don't have time to sit around and wait."
+                },
+                {
+                    "id": "50000303",
+                    "speaker": "Kachina",
+                    "text": "B—But if you two leave, I'll be the only one left..."
+                },
+                {
+                    "id": "50000304",
+                    "speaker": "Cempoa",
+                    "text": "We really are sorry, but you still have plenty of chances... You're young, and you bear an Ancient{RUBY#[D]tocaitl} Name on top of that."
+                },
+                {
+                    "id": "50000305",
+                    "speaker": "Cempoa",
+                    "text": "We're just ordinary tribal warriors with years of battle under our belt, and no glory to show for it. Not to mention the physical toll of all that fighting... We're no longer in our prime."
+                },
+                {
+                    "id": "50000306",
+                    "speaker": "Tlaco",
+                    "text": "We barely had a chance last time, remember? We can't expect a better result with even fewer people."
+                },
+                {
+                    "id": "50000307",
+                    "speaker": "Tlaco",
+                    "text": "Pilgrimage registration closes tonight. This is our last chance to switch teams."
+                },
+                {
+                    "id": "50000308",
+                    "speaker": "Kachina",
+                    "text": "Well, alright. I guess it is what it is..."
+                },
+                {
+                    "id": "50000309",
+                    "speaker": "Kachina",
+                    "text": "I just wish I was stronger. I'm nothing compared to the other Ancient Name bearers..."
+                },
+                {
+                    "id": "50000310",
+                    "speaker": "Kachina",
+                    "text": "But never mind — guess this is par for the course as Utha{RUBY#[D]Resilience}biti, huh? I'm sure I'll figure something out."
+                },
+                {
+                    "id": "50000311",
+                    "speaker": "Tlaco",
+                    "text": "Well, if we do well this time, there's still a spot for you at the Victory Feast."
+                },
+                {
+                    "id": "50000312",
+                    "speaker": "Cempoa",
+                    "text": "Yeah! Even though we're not participating in the competition together, we're still friends, aren't we?"
+                },
+                {
+                    "id": "50000313",
+                    "speaker": "Kachina",
+                    "text": "Of course... Anyway, you guys should get going before it's too late. Go form a really strong team, okay?"
+                },
+                {
+                    "id": "50000314",
+                    "speaker": "Kachina",
+                    "text": "*sigh*..."
+                },
+                {
+                    "id": "50000315",
+                    "speaker": "Kachina",
+                    "text": "Guess I'll have to wait until the next Pilgrimage..."
+                },
+                {
+                    "id": "50000316",
+                    "speaker": "Paimon",
+                    "text": "Looks like that girl over there was just abandoned... Wonder what happened. Aw, she looks so sad, too."
+                },
+                {
+                    "id": "50000317",
+                    "speaker": "Player",
+                    "text": "Let's go check on her."
+                },
+                {
+                    "id": "50000318",
+                    "speaker": "Kachina",
+                    "text": "Huh?"
+                },
+                {
+                    "id": "50000319",
+                    "speaker": "Kachina",
+                    "text": "Oh gosh, um... I'm fine! Don't worry about me... Wait, I haven't seen you around the tribe before. Are you travelers?"
+                },
+                {
+                    "id": "50000320",
+                    "speaker": "Paimon",
+                    "text": "Yup! We just got to Natlan."
+                },
+                {
+                    "id": "50000321",
+                    "speaker": "Kachina",
+                    "text": "Oh! Welcome, welcome! I'm Kachina. \"Utha{RUBY#[D]Resilience}biti\" Kachina."
+                },
+                {
+                    "id": "50000322",
+                    "speaker": "Player",
+                    "text": "\"Uthabiti\"...?"
+                },
+                {
+                    "id": "50000323",
+                    "speaker": "Kachina",
+                    "text": "Oh, that's something we call an Ancient Name. It's a tradition we have here in Natlan, although it's kind of complicated to explain. You can think of it like a \"title\" for now."
+                },
+                {
+                    "id": "50000324",
+                    "speaker": "Kachina",
+                    "text": "If you're here for the Pilgrimage of the Return of the Sacred Flame, you'll find out what they mean soon enough!"
+                },
+                {
+                    "id": "50000325",
+                    "speaker": "Paimon",
+                    "text": "So, this Pilgrimage... Is that what you were discussing earlier?"
+                },
+                {
+                    "id": "50000326",
+                    "speaker": "Kachina",
+                    "text": "Oh, yeah! It's a competition we hold every so often, where everyone competes to try and get the highest ranking."
+                },
+                {
+                    "id": "50000327",
+                    "speaker": "Kachina",
+                    "text": "The competition receives tons of attention, so if you place highly, you're guaranteed instant acclaim, and you earn the right to take part in the \"Night Warden Wars.\""
+                },
+                {
+                    "id": "50000328",
+                    "speaker": "Kachina",
+                    "text": "Basically, the winners become heroes! And that's pretty much everyone's goal around here!"
+                },
+                {
+                    "id": "50000329",
+                    "speaker": "Paimon",
+                    "text": "Sounds like a massive fighting tournament or something... Do you have to be in a team to participate?"
+                },
+                {
+                    "id": "50000330",
+                    "speaker": "Kachina",
+                    "text": "Well, due to the sheer number of participants, the Pilgrimage is actually divided into two phases."
+                },
+                {
+                    "id": "50000331",
+                    "speaker": "Kachina",
+                    "text": "Phase one is a team competition. Usually, an Ancient Name bearer serves as the team captain and leads their team in various battles around Natlan, with the goal of capturing Sacred Flame."
+                },
+                {
+                    "id": "50000332",
+                    "speaker": "Kachina",
+                    "text": "Oh, and an Ancient Name bearer is just someone with one of those \"titles\" I mentioned earlier... someone like me!"
+                },
+                {
+                    "id": "50000333",
+                    "speaker": "Kachina",
+                    "text": "Once the team competition is over, the participants from the winning teams qualify to take part in individual, one-on-one matches."
+                },
+                {
+                    "id": "50000334",
+                    "speaker": "Player",
+                    "text": "Sounds like some kind of Natlan National Games."
+                },
+                {
+                    "id": "50000335",
+                    "speaker": "Paimon",
+                    "text": "Yeah, the scale seems pretty huge!"
+                },
+                {
+                    "id": "50000336",
+                    "speaker": "Paimon",
+                    "text": "Wait a minute... If Ancient Name bearers lead the teams... That means you must be a team captain!"
+                },
+                {
+                    "id": "50000337",
+                    "speaker": "Kachina",
+                    "text": "Sure am! Although... I don't exactly have any team members anymore, haha..."
+                },
+                {
+                    "id": "50000338",
+                    "speaker": "Kachina",
+                    "text": "\"The key to winning is in the strength of the team captain,\" that's what everyone says. But, uh... the difference in strength between bearers can practically be night and day."
+                },
+                {
+                    "id": "50000339",
+                    "speaker": "Kachina",
+                    "text": "...So, their decision does make sense. I'd feel the same way if I were in their shoes."
+                },
+                {
+                    "id": "50000340",
+                    "speaker": "Player",
+                    "text": "What's your plan now?"
+                },
+                {
+                    "id": "50000341",
+                    "speaker": "Kachina",
+                    "text": "All Ancient Name bearers have to take part — it's our duty. So, if no one wants to be on my team, then I'll just go it alone."
+                },
+                {
+                    "id": "50000342",
+                    "speaker": "Kachina",
+                    "text": "At worst, I'm looking at a few extra scrapes and scratches. I'm not great at fighting, but I always manage to get back on my feet in no time!"
+                },
+                {
+                    "id": "50000343",
+                    "speaker": "Paimon",
+                    "text": "#Psst, {NICKNAME}! Based on the direction of this conversation, Paimon thinks it might be time for us to do our thing...",
+                    "choices": [
+                        {
+                            "id": "50000344",
+                            "text": "Right there with you, Paimon.",
+                            "response": [
+                                {
+                                    "id": "50000346",
+                                    "speaker": "Paimon",
+                                    "text": "Yup yup! Time for the next phase of our journey to start for real!"
+                                },
+                                {
+                                    "id": "50000347",
+                                    "speaker": "Kachina",
+                                    "text": "Um, what are you guys talking about?"
+                                },
+                                {
+                                    "id": "50000348",
+                                    "speaker": "Player",
+                                    "text": "Can we join your team?"
+                                },
+                                {
+                                    "id": "50000349",
+                                    "speaker": "Kachina",
+                                    "text": "H—Huhhhh!?"
+                                },
+                                {
+                                    "id": "50000350",
+                                    "speaker": "Kachina",
+                                    "text": "Ah, sorry. Didn't mean to freak out on you, I just, uh... How should I put this..."
+                                },
+                                {
+                                    "id": "50000351",
+                                    "speaker": "Kachina",
+                                    "text": "I really appreciate the offer! That's so, unbelievably generous of you! But, only people from Natlan are allowed to take part in the Pilgrimage."
+                                },
+                                {
+                                    "id": "50000352",
+                                    "speaker": "Paimon",
+                                    "text": "Ohhh! Paimon thought we could just join your team, fight our way to the top, and then become heroes..."
+                                },
+                                {
+                                    "id": "50000353",
+                                    "speaker": "Kachina",
+                                    "text": "It's alright! Really! I—I mean... No one's ever offered to join my team before..."
+                                },
+                                {
+                                    "id": "50000354",
+                                    "speaker": "Paimon",
+                                    "text": "Really?"
+                                },
+                                {
+                                    "id": "50000355",
+                                    "speaker": "Kachina",
+                                    "text": "We're all usually on good terms, but whenever Pilgrimage registration rolls around, it feels like everyone starts avoiding me."
+                                },
+                                {
+                                    "id": "50000356",
+                                    "speaker": "Kachina",
+                                    "text": "They don't make eye contact or bring up the Pilgrimage... It's like they're afraid I'll ask them to join my team."
+                                },
+                                {
+                                    "id": "50000357",
+                                    "speaker": "Kachina",
+                                    "text": "I probably don't even need to explain the reason... I'm too weak."
+                                },
+                                {
+                                    "id": "50000358",
+                                    "speaker": "Kachina",
+                                    "text": "It's pretty obvious there's nothing to gain from being on my team. That really doesn't matter to you?"
+                                },
+                                {
+                                    "id": "50000359",
+                                    "speaker": "Paimon",
+                                    "text": "#Oh, don't you worry! {NICKNAME}'s strong enough for the three of us. Gods, dragons, giant narwhals... {M#He}{F#She} can give 'em all a run for their Mora!"
+                                },
+                                {
+                                    "id": "50000360",
+                                    "speaker": "Kachina",
+                                    "text": "Oh, I get it! You were able to overlook my lack of strength because you're confident in your own skills!",
+                                    "choices": [
+                                        {
+                                            "id": "50000361",
+                                            "text": "I wasn't thinking about any of that, actually.",
+                                            "response": [
+                                                {
+                                                    "id": "50000363",
+                                                    "speaker": "Paimon",
+                                                    "text": "That's right. We always try to help people out during our travels! That's what makes a true adventurer!"
+                                                },
+                                                {
+                                                    "id": "50000364",
+                                                    "speaker": "Kachina",
+                                                    "text": "A true adventurer..."
+                                                },
+                                                {
+                                                    "id": "50000365",
+                                                    "speaker": "Kachina",
+                                                    "text": "You guys are really special! You know you're strong, but you don't take yourselves too seriously. That's exactly the kind of person I want to become!"
+                                                },
+                                                {
+                                                    "id": "50000366",
+                                                    "speaker": "Kachina",
+                                                    "text": "You're planning on staying in Natlan for a little while, right? Mind if I try to learn from you while you're here?"
+                                                },
+                                                {
+                                                    "id": "50000367",
+                                                    "speaker": "Paimon",
+                                                    "text": "Learn from us?"
+                                                },
+                                                {
+                                                    "id": "50000368",
+                                                    "speaker": "Kachina",
+                                                    "text": "Yeah! You know, like a disciple or a sidekick. You don't even have to teach me anything! I'll just observe!"
+                                                },
+                                                {
+                                                    "id": "50000369",
+                                                    "speaker": "Kachina",
+                                                    "text": "I promise I won't be in the way! Besides, I can take you to see the sights, and introduce you to Natlan in the meantime!"
+                                                },
+                                                {
+                                                    "id": "50000370",
+                                                    "speaker": "Paimon",
+                                                    "text": "#What do you think, {NICKNAME}? Seems like she really looks up to you...",
+                                                    "choices": [
+                                                        {
+                                                            "id": "50000371",
+                                                            "text": "That's fine with us...",
+                                                            "response": [
+                                                                {
+                                                                    "id": "50000373",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "Oh, right! Didn't those people from earlier say the registration period was about to end? You don't need to focus on finding new teammates?"
+                                                                },
+                                                                {
+                                                                    "id": "50000374",
+                                                                    "speaker": "Kachina",
+                                                                    "text": "Don't worry about it. I wouldn't be able to manage it this close to the deadline, anyway."
+                                                                },
+                                                                {
+                                                                    "id": "50000375",
+                                                                    "speaker": "Kachina",
+                                                                    "text": "I lose all the time. I'm used to it, everyone around me is used to it... So, it's fine! No one expects anything out of me."
+                                                                },
+                                                                {
+                                                                    "id": "50000376",
+                                                                    "speaker": "Kachina",
+                                                                    "text": "But, if I manage to learn a thing or two from you, I might just pull off a win next time!",
+                                                                    "choices": [
+                                                                        {
+                                                                            "id": "50000377",
+                                                                            "text": "Well, alright...",
+                                                                            "response": [
+                                                                                {
+                                                                                    "id": "50000378",
+                                                                                    "speaker": "Kachina",
+                                                                                    "text": "Ah, thank you! Who would've thought I'd get the chance to meet such impressive adventurers! Hehe, today must be my lucky day!"
+                                                                                },
+                                                                                {
+                                                                                    "id": "50000381",
+                                                                                    "speaker": "Kachina",
+                                                                                    "text": "Well, come with me, you two. I'll show you where I grew up, and introduce you to our tribe, the Children of Echoes."
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        {
+                                                                            "id": "50000379",
+                                                                            "text": "Don't set your expectations too high. We're just ordinary people.",
+                                                                            "response": [
+                                                                                {
+                                                                                    "id": "50000380",
+                                                                                    "speaker": "Kachina",
+                                                                                    "text": "Oh, of course! Of course! I'm just glad you agreed!"
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "id": "50000372",
+                                                            "text": "But, what about your competition?"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "50000362",
+                                            "text": "You were in a tough spot, and I wanted to help."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "50000345",
+                            "text": "Looks like it's that time already."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "500004",
+            "objective": "Follow Kachina to the Children of Echoes",
+            "dialogues": [
+                {
+                    "id": "50000401",
+                    "speaker": "Kachina",
+                    "text": "I got so carried away just now, I didn't consider what would happen if our destinations were different..."
+                },
+                {
+                    "id": "50000402",
+                    "speaker": "Kachina",
+                    "text": "Luckily, that's not the case, or... Well, I guess we'd just have to meet up after the tournament."
+                },
+                {
+                    "id": "50000403",
+                    "speaker": "Paimon",
+                    "text": "You sure it's okay you didn't tell the chief about your team?"
+                },
+                {
+                    "id": "50000404",
+                    "speaker": "Kachina",
+                    "text": "*sigh* Chief Pacal's a really nice guy. If he knew the truth, he might even ask to join me."
+                },
+                {
+                    "id": "50000405",
+                    "speaker": "Kachina",
+                    "text": "But, he's not as young as he used to be, and he's got some old injuries that still bother him. He's not cut out for any more attempts."
+                },
+                {
+                    "id": "50000406",
+                    "speaker": "Kachina",
+                    "text": "He'll find out what really happened when he sees me compete. I'm sure I'll get an earful for lying... But this is for the best."
+                },
+                {
+                    "id": "50000407",
+                    "speaker": "Player",
+                    "text": "You're a very considerate person."
+                },
+                {
+                    "id": "50000408",
+                    "speaker": "Paimon",
+                    "text": "Yeah! Your teammates left you high and dry, and you made sure they didn't feel guilty about it!"
+                },
+                {
+                    "id": "50000409",
+                    "speaker": "Kachina",
+                    "text": "It's not their fault! Really! The Pilgrimage is extremely important to the people of Natlan."
+                },
+                {
+                    "id": "50000410",
+                    "speaker": "Kachina",
+                    "text": "We all grow up listening to stories about the heroes of the past, and dream of becoming warriors with the strength to defend our nation."
+                },
+                {
+                    "id": "50000411",
+                    "speaker": "Kachina",
+                    "text": "Not out of a selfish desire for glory, but to lend our strength to a greater cause."
+                },
+                {
+                    "id": "50000412",
+                    "speaker": "Kachina",
+                    "text": "Anyway, don't worry about it for now. Once you witness the spectacle for yourself, maybe it'll all start to make more sense!"
+                },
+                {
+                    "id": "50000413",
+                    "speaker": "Kachina",
+                    "text": "It'll also be a great opportunity to experience our culture and history!"
+                },
+                {
+                    "id": "50000414",
+                    "speaker": "Kachina",
+                    "text": "Alright, time to leave our settlement. Let's head that way. Our last stop — the Statue of The Seven — is also in that direction. Let's go!"
+                }
+            ]
+        },
+        {
+            "id": "500005",
+            "objective": "Continue exploring the Children of Echoes' territory",
+            "dialogues": [
+                {
+                    "id": "50000501",
+                    "speaker": "Kachina",
+                    "text": "This is the most cherished and most sacred item in our tribe. It symbolizes the Wayob that protects us and grants us blessings."
+                },
+                {
+                    "id": "50000502",
+                    "speaker": "Paimon",
+                    "text": "\"Wayob\"? Is that a god of some sort?"
+                },
+                {
+                    "id": "50000503",
+                    "speaker": "Kachina",
+                    "text": "Sort of... We believe the Wayob dwell beneath the earth, while the Pyro Archon hails from above."
+                },
+                {
+                    "id": "50000504",
+                    "speaker": "Kachina",
+                    "text": "We hold regular gatherings here, actually. Our chief recounts and interprets dreams relating to our Wayob to decipher its will."
+                },
+                {
+                    "id": "50000505",
+                    "speaker": "Kachina",
+                    "text": "The Wayob know the past and can foresee the future. Isn't that extraordinary?"
+                },
+                {
+                    "id": "50000506",
+                    "speaker": "Pacal",
+                    "text": "Huh? Kachina? What are you doing here?"
+                },
+                {
+                    "id": "50000507",
+                    "speaker": "Kachina",
+                    "text": "Chief! Oh, let me introduce you. This is Pacal, the chief of our tribe."
+                },
+                {
+                    "id": "50000508",
+                    "speaker": "Kachina",
+                    "text": "Chief, these two just arrived in Natlan. They're super accomplished adventurers, and they're letting me stick by them so I can learn a thing or two!"
+                },
+                {
+                    "id": "50000509",
+                    "speaker": "Pacal",
+                    "text": "..."
+                },
+                {
+                    "id": "50000510",
+                    "speaker": "Paimon",
+                    "text": "Uh, h—hello..."
+                },
+                {
+                    "id": "50000511",
+                    "speaker": "Pacal",
+                    "text": "Kachina is a child of our tribe. Her safety is my responsibility. So, I'll just come out and say it..."
+                },
+                {
+                    "id": "50000512",
+                    "speaker": "Pacal",
+                    "text": "I don't know how you met her, but I'm going to need you to prove your identity."
+                },
+                {
+                    "id": "50000513",
+                    "speaker": "Kachina",
+                    "text": "Whoa whoa whoa whoa! There's no need for that, Chief! They're good people! I can feel it!"
+                },
+                {
+                    "id": "50000514",
+                    "speaker": "Pacal",
+                    "text": "A \"feeling\" isn't going to satisfy your parents, Kachina."
+                },
+                {
+                    "id": "50000515",
+                    "speaker": "Player",
+                    "text": "It's a valid concern. I get it."
+                },
+                {
+                    "id": "50000516",
+                    "speaker": "Paimon",
+                    "text": "How about... we show you our Adventurer Handbook? It's where all our previous travels are recorded."
+                },
+                {
+                    "id": "50000517",
+                    "speaker": "Pacal",
+                    "text": "Hmm... The people who belong to the Adventurers' Guild are kind of a mixed bag. I'd prefer something more reliable..."
+                },
+                {
+                    "id": "50000518",
+                    "speaker": "Pacal",
+                    "text": "Mm-hmm... Huh!?"
+                },
+                {
+                    "id": "50000519",
+                    "speaker": "Pacal",
+                    "text": "#You're {NICKNAME}! And you're Paimon, {M#his}{F#her} familiar!"
+                },
+                {
+                    "id": "50000520",
+                    "speaker": "Paimon",
+                    "text": "#Paimon is a guide! Geez, these rumors are getting out of control... Well, okay, maybe this one's not that bad. It does make you seem super powerful and mysterious, {NICKNAME}."
+                },
+                {
+                    "id": "50000521",
+                    "speaker": "Kachina",
+                    "text": "Wait, is there something special about those names?"
+                },
+                {
+                    "id": "50000522",
+                    "speaker": "Pacal",
+                    "text": "You haven't heard?"
+                },
+                {
+                    "id": "50000523",
+                    "speaker": "Kachina",
+                    "text": "Nope."
+                },
+                {
+                    "id": "50000524",
+                    "speaker": "Pacal",
+                    "text": "Hmm..."
+                },
+                {
+                    "id": "50000525",
+                    "speaker": "Pacal",
+                    "text": "#Learn well from {M#him}{F#her}, Kachina. It's unlikely you've ever had a teacher of greater merit."
+                },
+                {
+                    "id": "50000526",
+                    "speaker": "Kachina",
+                    "text": "Really? To earn that kind of praise from the chief... You guys must be even stronger than I thought!"
+                },
+                {
+                    "id": "50000527",
+                    "speaker": "Pacal",
+                    "text": "Apologies for not trusting your word."
+                },
+                {
+                    "id": "50000528",
+                    "speaker": "Paimon",
+                    "text": "Oh, don't worry about it. You were just doing your duty!"
+                },
+                {
+                    "id": "50000529",
+                    "speaker": "Pacal",
+                    "text": "Well, Kachina's still young, so you can never be too careful."
+                },
+                {
+                    "id": "50000530",
+                    "speaker": "Pacal",
+                    "text": "As for you, Kachina... Isn't registration about to close? Why haven't you headed out yet?"
+                },
+                {
+                    "id": "50000531",
+                    "speaker": "Kachina",
+                    "text": "Don't worry, Chief. I told my teammates to go ahead. I'll catch up with them in a bit!"
+                },
+                {
+                    "id": "50000532",
+                    "speaker": "Kachina",
+                    "text": "I may not be much of a fighter, but I am quick on my feet, hehe."
+                },
+                {
+                    "id": "50000533",
+                    "speaker": "Paimon",
+                    "text": "Kachina's trying not to worry him, huh..."
+                },
+                {
+                    "id": "50000534",
+                    "speaker": "Pacal",
+                    "text": "I see... Well, I hope I wasn't interrupting anything just now. If I did, just tell me where you left off, and I might be able to help with the explanations."
+                },
+                {
+                    "id": "50000535",
+                    "speaker": "Kachina",
+                    "text": "Lemme think... I told them about the Wayob, so now's the perfect time to dive into Ancient Names! Good thing you're here, Chief. I don't think I could explain it very well."
+                },
+                {
+                    "id": "50000536",
+                    "speaker": "Paimon",
+                    "text": "Oh, right! That word kept popping up in our conversation earlier. So, what does it mean, exactly?"
+                },
+                {
+                    "id": "50000537",
+                    "speaker": "Pacal",
+                    "text": "Well, Natlan is a nation of heroes, whose valiant deeds are preserved and passed down over time in the form of stories."
+                },
+                {
+                    "id": "50000538",
+                    "speaker": "Pacal",
+                    "text": "You can think of an Ancient Name almost like a label for these stories. By mentioning an Ancient Name, we remind ourselves of the epic sagas of heroes past."
+                },
+                {
+                    "id": "50000539",
+                    "speaker": "Kachina",
+                    "text": "For example, the most famous bearer of my Ancient Name fought in twenty-seven Night Warden Wars."
+                },
+                {
+                    "id": "50000540",
+                    "speaker": "Kachina",
+                    "text": "By the time he fought in his last one, he was already over sixty years old."
+                },
+                {
+                    "id": "50000541",
+                    "speaker": "Kachina",
+                    "text": "Even though he wasn't quite where he used to be, physically speaking, he still managed to achieve top rankings during the Pilgrimage! Impressive, right?"
+                },
+                {
+                    "id": "50000542",
+                    "speaker": "Player",
+                    "text": "So, why do people inherit Ancient Names?"
+                },
+                {
+                    "id": "50000543",
+                    "speaker": "Pacal",
+                    "text": "Ancient Names allow us to preserve the stories of the past. But, they're also much more than that. Think of an Ancient Name almost like an heirloom passed down from generation to generation."
+                },
+                {
+                    "id": "50000544",
+                    "speaker": "Pacal",
+                    "text": "Do you have your stone on you, Kachina?"
+                },
+                {
+                    "id": "50000545",
+                    "speaker": "Kachina",
+                    "text": "Of course! Here, take a look."
+                },
+                {
+                    "id": "50000546",
+                    "speaker": "Paimon",
+                    "text": "Whoa, that black stone looks so mysterious! It's like there's something shiny inside it..."
+                },
+                {
+                    "id": "50000547",
+                    "speaker": "Player",
+                    "text": "It looks like a feather..."
+                },
+                {
+                    "id": "50000548",
+                    "speaker": "Pacal",
+                    "text": "The Wayob decide who is deserving of inheriting an Ancient Name. Once a successor is selected, the Name becomes theirs to bear, and their deeds are then preserved within it."
+                },
+                {
+                    "id": "50000549",
+                    "speaker": "Pacal",
+                    "text": "As time passes, Ancient Names come to represent the heroic deeds of more and more bearers, and their value becomes even more profound."
+                },
+                {
+                    "id": "50000550",
+                    "speaker": "Pacal",
+                    "text": "In turn, the accomplishments preserved within it serve as an inspiration for the next generation of successors."
+                },
+                {
+                    "id": "50000551",
+                    "speaker": "Kachina",
+                    "text": "Just like me, hehe! I'm still not sure why our Wayob chose me, of all people..."
+                },
+                {
+                    "id": "50000552",
+                    "speaker": "Kachina",
+                    "text": "But, if I didn't know the stories of all the past heroes — how they never stopped fighting — I probably would've given up a long time ago."
+                },
+                {
+                    "id": "50000553",
+                    "speaker": "Player",
+                    "text": "So it's like a form of mental fortitude?"
+                },
+                {
+                    "id": "50000554",
+                    "speaker": "Paimon",
+                    "text": "...Then, you're saying this stone doesn't have any actual power? Like, it's not gonna make Paimon super strong or smart?"
+                },
+                {
+                    "id": "50000555",
+                    "speaker": "Pacal",
+                    "text": "None at all, and that is precisely how it exercises its unique value."
+                },
+                {
+                    "id": "50000556",
+                    "speaker": "Kachina",
+                    "text": "Think of it this way... If you become a hero because the heavens granted you strength, are your triumphs earned or given?"
+                },
+                {
+                    "id": "50000557",
+                    "speaker": "Paimon",
+                    "text": "Oh, Paimon gets it. If people start to ask those kinds of questions, the stories suddenly become a lot less inspirational."
+                },
+                {
+                    "id": "50000558",
+                    "speaker": "Pacal",
+                    "text": "Someone had this to say about Ancient Names:"
+                },
+                {
+                    "id": "50000559",
+                    "speaker": "Pacal",
+                    "text": "\"Our forebearers carved 'miracles' into obsidian rock, yet future bearers looked upon them and saw 'strength.'\""
+                },
+                {
+                    "id": "50000560",
+                    "speaker": "Pacal",
+                    "text": "The miracles of the past become the motivations of the present. The limitations of the past become the breakthroughs of today... That's more or less the gist of it."
+                },
+                {
+                    "id": "50000561",
+                    "speaker": "Pacal",
+                    "text": "So, there's no rush, Kachina. Many people struggle to understand the Wayob's judgment after receiving an Ancient Name."
+                },
+                {
+                    "id": "50000562",
+                    "speaker": "Pacal",
+                    "text": "As long as you never stop trying to improve your abilities and surpass yourself, your time will come."
+                },
+                {
+                    "id": "50000563",
+                    "speaker": "Kachina",
+                    "text": "Thank you, Chief! I'll get it together, just you watch!"
+                },
+                {
+                    "id": "50000564",
+                    "speaker": "Kachina",
+                    "text": "Well, it's getting late. I've gotta get to the Stadium of the Sacred Flame."
+                },
+                {
+                    "id": "50000565",
+                    "speaker": "Kachina",
+                    "text": "Ah, right! I'm not sure where you're headed, but... Mind taking a detour with me?"
+                },
+                {
+                    "id": "50000566",
+                    "speaker": "Paimon",
+                    "text": "Is that where the Pilgrimage is taking place?"
+                },
+                {
+                    "id": "50000567",
+                    "speaker": "Kachina",
+                    "text": "Yup! And outside of competition season, it's the place where our inter-tribal gatherings are held."
+                },
+                {
+                    "id": "50000568",
+                    "speaker": "Player",
+                    "text": "Will the Pyro Archon be there?"
+                },
+                {
+                    "id": "50000569",
+                    "speaker": "Kachina",
+                    "text": "Of course. She's the most important figure in the entire event!"
+                },
+                {
+                    "id": "50000570",
+                    "speaker": "Paimon",
+                    "text": "Sounds like a plan, then. Let's go!"
+                },
+                {
+                    "id": "50000571",
+                    "speaker": "Pacal",
+                    "text": "#Well, if {NICKNAME} and Paimon are with you, then I don't need to worry about your safety... Be on your way, now."
+                },
+                {
+                    "id": "50000572",
+                    "speaker": "Kachina",
+                    "text": "Alright, we're off! See you later, Chief!"
+                }
+            ]
+        },
+        {
+            "id": "500018",
+            "objective": "Continue exploring the Children of Echoes' territory",
+            "dialogues": [
+                {
+                    "id": "50002001",
+                    "speaker": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+                    "text": "Wrooh!"
+                },
+                {
+                    "id": "50002002",
+                    "speaker": "Paimon",
+                    "text": "#Oh, hehe! You're here too, {REALNAME[ID(2)|HOSTONLY(true)]}!"
+                },
+                {
+                    "id": "50002003",
+                    "speaker": "Kachina",
+                    "text": "No way! You have a Saurian companion too! Aww, what a sweet little thing! I think your friend here will get along with Ayo just fine!"
+                },
+                {
+                    "id": "50002004",
+                    "speaker": "Kachina",
+                    "text": "Alright, you two go have fun. I've got some important business to handle, and then I'll be right back."
+                },
+                {
+                    "id": "50002005",
+                    "speaker": "Kachina",
+                    "text": "No mischief, okay? And you'd better not go leading your new friend astray, or I'm telling your parents."
+                }
+            ]
+        },
+        {
+            "id": "500020",
+            "objective": "Continue exploring the Children of Echoes' territory",
+            "dialogues": []
+        },
+        {
+            "id": "500014",
+            "objective": "Talk to Kachina",
+            "dialogues": []
+        },
+        {
+            "id": "500015",
+            "objective": "Talk to Kachina",
+            "dialogues": []
+        },
+        {
+            "id": "500016",
+            "objective": "Go to the Statue of The Seven",
+            "dialogues": [
+                {
+                    "id": "50000701",
+                    "speaker": "Paimon",
+                    "text": "#Oh, since we're here, you might as well go get your shiny new elemental powers, {NICKNAME}!"
+                },
+                {
+                    "id": "50000702",
+                    "speaker": "Player",
+                    "text": "That's true."
+                },
+                {
+                    "id": "50000703",
+                    "speaker": "Kachina",
+                    "text": "Huh? You can get elemental power from the Statue of The Seven?"
+                },
+                {
+                    "id": "50000704",
+                    "speaker": "Paimon",
+                    "text": "Just you watch, Kachina!"
+                }
+            ]
+        },
+        {
+            "id": "500006",
+            "objective": "Light the Statue of The Seven",
+            "dialogues": [
+                {
+                    "id": "50000601",
+                    "speaker": "Kachina",
+                    "text": "We've come a long way. How does a break sound?"
+                },
+                {
+                    "id": "50000602",
+                    "speaker": "Paimon",
+                    "text": "Great idea! All this sightseeing is making Paimon hungry!"
+                },
+                {
+                    "id": "50000603",
+                    "speaker": "Player",
+                    "text": "You say that as if you use your stomach to see..."
+                },
+                {
+                    "id": "50000604",
+                    "speaker": "Kachina",
+                    "text": "Oh, are you all out of candy? I've got some more, if you want. I've also got bread, drinks, fried rice, roasted apples..."
+                },
+                {
+                    "id": "50000605",
+                    "speaker": "Paimon",
+                    "text": "Whoa! You're practically a walking cafeteria!"
+                },
+                {
+                    "id": "50000606",
+                    "speaker": "Kachina",
+                    "text": "I just like bringing a lot of stuff with me. As my mom always says, \"it pays to be prepared.\""
+                },
+                {
+                    "id": "50000607",
+                    "speaker": "Kachina",
+                    "text": "They only come in handy every so often, hehe... But, hey! Better late than never, right?"
+                },
+                {
+                    "id": "50000608",
+                    "speaker": "Kachina",
+                    "text": "Huh? Is everything okay, Traveler? Seems like you've got something on your mind."
+                },
+                {
+                    "id": "50000609",
+                    "speaker": "Player",
+                    "text": "Just thinking about what happened with the Statue of The Seven."
+                },
+                {
+                    "id": "50000610",
+                    "speaker": "Paimon",
+                    "text": "Yeah, that was so weird. It has to mean something, don't you think?"
+                },
+                {
+                    "id": "50000611",
+                    "speaker": "Kachina",
+                    "text": "Actually, you know what? It could be because our Archon is different from the rest."
+                },
+                {
+                    "id": "50000612",
+                    "speaker": "Paimon",
+                    "text": "Different how?"
+                },
+                {
+                    "id": "50000613",
+                    "speaker": "Kachina",
+                    "text": "Well, I heard that other nations' Archons live a long time and belong to a class of extremely powerful beings known as \"gods.\""
+                },
+                {
+                    "id": "50000614",
+                    "speaker": "Paimon",
+                    "text": "And that's not the case in Natlan?"
+                },
+                {
+                    "id": "50000615",
+                    "speaker": "Kachina",
+                    "text": "Not at all! Every Pyro Archon in Natlan was an ordinary person before taking on the role."
+                },
+                {
+                    "id": "50000616",
+                    "speaker": "Paimon",
+                    "text": "Huh!? A human becoming an Archon? Is that even possible?",
+                    "choices": [
+                        {
+                            "id": "50000617",
+                            "text": "A human ascending to the divine throne...",
+                            "response": [
+                                {
+                                    "id": "50000619",
+                                    "speaker": "Paimon",
+                                    "text": "You find it hard to believe too, huh?"
+                                },
+                                {
+                                    "id": "50000620",
+                                    "speaker": "Kachina",
+                                    "text": "So that's not normal, then? I guess I've just gotten used to how things are here in Natlan."
+                                },
+                                {
+                                    "id": "50000621",
+                                    "speaker": "Paimon",
+                                    "text": "Well, based on what we've seen, that's not usually how it works. It can't be that easy for a human to become an Archon, right...?"
+                                },
+                                {
+                                    "id": "50000622",
+                                    "speaker": "Kachina",
+                                    "text": "Pretty sure the Pyro Archon's the only one who can answer that."
+                                },
+                                {
+                                    "id": "50000623",
+                                    "speaker": "Kachina",
+                                    "text": "I do know this, though — even after becoming the Pyro Archon, the person in the position still grows old and requires rest."
+                                },
+                                {
+                                    "id": "50000624",
+                                    "speaker": "Kachina",
+                                    "text": "The Statue of The Seven may look a lot like our current Archon, but that has to be a coincidence... Countless people have held that title over the years."
+                                },
+                                {
+                                    "id": "50000625",
+                                    "speaker": "Kachina",
+                                    "text": "Oh, I should also mention... The Pilgrimage is actually how we select the Pyro Archon. Anyone can claim the title. You just have to prove your strength!"
+                                },
+                                {
+                                    "id": "50000626",
+                                    "speaker": "Paimon",
+                                    "text": "So, the contest is all about how strong you are?"
+                                },
+                                {
+                                    "id": "50000627",
+                                    "speaker": "Kachina",
+                                    "text": "That's right. We believe performance in battle is the most comprehensive test for a future Archon. Plus, when someone emerges victorious, it's hard to argue with the results."
+                                },
+                                {
+                                    "id": "50000628",
+                                    "speaker": "Kachina",
+                                    "text": "Our current Archon achieved an overwhelming victory. The result was obvious from the beginning."
+                                },
+                                {
+                                    "id": "50000629",
+                                    "speaker": "Kachina",
+                                    "text": "Don't just take my word for it, though. Even the tribe elders said they'd never seen an Archon with such strength before."
+                                },
+                                {
+                                    "id": "50000630",
+                                    "speaker": "Kachina",
+                                    "text": "But it's just as Chief Pacal said: Today's limits are tomorrow's breakthroughs! Our future Archons will go from strength to strength."
+                                },
+                                {
+                                    "id": "50000631",
+                                    "speaker": "Paimon",
+                                    "text": "Okay, Paimon's gonna ignore the whole \"human becoming an Archon\" thing for now. It's just... If she's really that strong, do you think that's a good thing or a bad thing for us?"
+                                },
+                                {
+                                    "id": "50000632",
+                                    "speaker": "Paimon",
+                                    "text": "If we think back to what happened in Inazuma..."
+                                },
+                                {
+                                    "id": "50000633",
+                                    "speaker": "Player",
+                                    "text": "I'd say it depends on how she feels about us."
+                                },
+                                {
+                                    "id": "50000634",
+                                    "speaker": "Kachina",
+                                    "text": "I wouldn't worry about it, hehe. Our Archon's a wonderful person, and very welcoming to guests. I think you'll get along great!"
+                                },
+                                {
+                                    "id": "50000635",
+                                    "speaker": "Paimon",
+                                    "text": "Yeah, you're right! It's not like we're planning on causing trouble either..."
+                                },
+                                {
+                                    "id": "50000636",
+                                    "speaker": "Kachina",
+                                    "text": "It'll all work out! You'll meet her soon enough."
+                                },
+                                {
+                                    "id": "50000637",
+                                    "speaker": "Paimon",
+                                    "text": "Alright, Paimon's just about ready to... Huh? What's that?"
+                                },
+                                {
+                                    "id": "50000638",
+                                    "speaker": "Kachina",
+                                    "text": "Oh, we call this a Phlogiston Chiselith. Good things happen if you infuse it with phlogiston."
+                                },
+                                {
+                                    "id": "50000639",
+                                    "speaker": "Player",
+                                    "text": "Lemme give it a try."
+                                },
+                                {
+                                    "id": "50000640",
+                                    "speaker": "Kachina",
+                                    "text": "Uh, sorry to disappoint, but only people from Natlan can use that power—"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "50000618",
+                            "text": "(That's kind of like what Furina did, but...)"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "500019",
+            "objective": "Talk to Kachina",
+            "dialogues": [
+                {
+                    "id": "50002901",
+                    "speaker": "Paimon",
+                    "text": "Sorry, Kachina. We got your hopes up for nothing."
+                },
+                {
+                    "id": "50002902",
+                    "speaker": "Kachina",
+                    "text": "No, no, it's alright. If anything, I'm even more curious now! Were you really able to gain elemental powers just by touching the Statue of The Seven?"
+                },
+                {
+                    "id": "50002903",
+                    "speaker": "Kachina",
+                    "text": "That's something only Vision bearers can use!",
+                    "choices": [
+                        {
+                            "id": "50002904",
+                            "text": "Yup. It's always been that way.",
+                            "response": [
+                                {
+                                    "id": "50002906",
+                                    "speaker": "Kachina",
+                                    "text": "C—Could you show me? Only if you want to, I mean... No pressure!"
+                                },
+                                {
+                                    "id": "50002907",
+                                    "speaker": "Player",
+                                    "text": "Sure."
+                                },
+                                {
+                                    "id": "50002908",
+                                    "speaker": "Paimon",
+                                    "text": "#Take it away, {NICKNAME}!"
+                                },
+                                {
+                                    "id": "50002909",
+                                    "speaker": "Kachina",
+                                    "text": "Wow, different elemental powers... wielded by a single person! I've never even heard of something like that!"
+                                },
+                                {
+                                    "id": "50002910",
+                                    "speaker": "Kachina",
+                                    "text": "Let me give it a try!"
+                                },
+                                {
+                                    "id": "50002911",
+                                    "speaker": "Kachina",
+                                    "text": "...Nope. Still just Geo."
+                                },
+                                {
+                                    "id": "50002912",
+                                    "speaker": "Kachina",
+                                    "text": "Anyway, I was right! You really are something special!"
+                                },
+                                {
+                                    "id": "50002913",
+                                    "speaker": "Paimon",
+                                    "text": "Just wait until you hear about our previous adventures!"
+                                },
+                                {
+                                    "id": "50002914",
+                                    "speaker": "Paimon",
+                                    "text": "Whoa! What's that?"
+                                },
+                                {
+                                    "id": "50002915",
+                                    "speaker": "Kachina",
+                                    "text": "Oh, that's a Qucusaur! They fly high and fast, and they're always full of energy.",
+                                    "choices": [
+                                        {
+                                            "id": "50002916",
+                                            "text": "Reminds me of our time in Mondstadt.",
+                                            "response": [
+                                                {
+                                                    "id": "50002917",
+                                                    "speaker": "Paimon",
+                                                    "text": "Right? It's been ages since that day we first saw Dvalin. We've come so far!"
+                                                },
+                                                {
+                                                    "id": "50002920",
+                                                    "speaker": "Kachina",
+                                                    "text": "Oh, before I forget... We've got a pretty long trek ahead of us, so, here, take this."
+                                                },
+                                                {
+                                                    "id": "50002921",
+                                                    "speaker": "Kachina",
+                                                    "text": "They look like shiny little gems, don't they? Don't be fooled, though, hehe... It's actually candy! My mom made them."
+                                                },
+                                                {
+                                                    "id": "50002922",
+                                                    "speaker": "Kachina",
+                                                    "text": "I always bring a few when I know I'm gonna be out and about for a while. A little boost of sugar can really come in handy in a pinch!"
+                                                },
+                                                {
+                                                    "id": "50002923",
+                                                    "speaker": "Paimon",
+                                                    "text": "Ooh, Paimon loves candy. Thanks!"
+                                                },
+                                                {
+                                                    "id": "50002924",
+                                                    "speaker": "Player",
+                                                    "text": "That's very generous of you!"
+                                                },
+                                                {
+                                                    "id": "50002925",
+                                                    "speaker": "Kachina",
+                                                    "text": "My pleasure! My pleasure! I've got all sorts of bits and bobs on me. I'm sure they'll come in handy at some point!"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "50002918",
+                                            "text": "\"There's something huge, in the sky!\"",
+                                            "response": [
+                                                {
+                                                    "id": "50002919",
+                                                    "speaker": "Paimon",
+                                                    "text": "#Paimon already made the connection, {NICKNAME}. You don't have to imitate her!"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "50002905",
+                            "text": "Still not too clear on the how or the why, though."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "500007",
+            "objective": "Go to the Statue of The Seven",
+            "dialogues": []
+        },
+        {
+            "id": "500008",
+            "objective": "Go to the Stadium of the Sacred Flame",
+            "dialogues": []
+        },
+        {
+            "id": "500013",
+            "objective": "Ignite the Phlogiston Chiselith",
+            "dialogues": [
+                {
+                    "id": "50001301",
+                    "speaker": "Paimon",
+                    "text": "The statue is so pretty! Is that what the Pyro Archon is like?"
+                },
+                {
+                    "id": "50001302",
+                    "speaker": "Kachina",
+                    "text": "You betcha! Beautiful, effortlessly confident, and absolutely awesome!"
+                }
+            ]
+        },
+        {
+            "id": "500009",
+            "objective": "Talk to Kachina",
+            "dialogues": [
+                {
+                    "id": "50000923",
+                    "speaker": "Kachina",
+                    "text": "The higher the vantage point, the better the view!"
+                },
+                {
+                    "id": "50000924",
+                    "speaker": "Paimon",
+                    "text": "Are you and Toto close, Kachina?"
+                },
+                {
+                    "id": "50000925",
+                    "speaker": "Kachina",
+                    "text": "Yup! When I was little, my parents and I went to the Stadium of the Sacred Flame to buy a bunch of different fruits, but the cart we were using to transport them flipped over on our way back."
+                },
+                {
+                    "id": "50000926",
+                    "speaker": "Kachina",
+                    "text": "Toto wasn't even half his current size back then, but I still burst into tears when I saw him approach. I was afraid he was going to eat all the Berries and Sunsettias, and leave none left for me."
+                },
+                {
+                    "id": "50000927",
+                    "speaker": "Kachina",
+                    "text": "In the end, though, he didn't eat a single one, and even chased off a few other Saurians looking to snatch a few for themselves."
+                },
+                {
+                    "id": "50000928",
+                    "speaker": "Kachina",
+                    "text": "After that, he used his big head to help get our cart right side up again."
+                },
+                {
+                    "id": "50000929",
+                    "speaker": "Kachina",
+                    "text": "I've been bringing him fruit ever since. Oh, and, I was the one that named him \"Toto,\" actually."
+                },
+                {
+                    "id": "50000930",
+                    "speaker": "Kachina",
+                    "text": "With the sheer amount of food he can eat, he pretty much grew like a weed! Before I knew it, he was already this big!"
+                },
+                {
+                    "id": "50000931",
+                    "speaker": "Toto",
+                    "text": "Roar~ ♪"
+                },
+                {
+                    "id": "50000932",
+                    "speaker": "Kachina",
+                    "text": "Oh, look over there! That's our destination — the Stadium of the Sacred Flame!"
+                },
+                {
+                    "id": "50000933",
+                    "speaker": "Kachina",
+                    "text": "You can let us off here, Toto. Thanks for the lift!"
+                },
+                {
+                    "id": "50000934",
+                    "speaker": "Toto",
+                    "text": "Roar..."
+                },
+                {
+                    "id": "50000935",
+                    "speaker": "Kachina",
+                    "text": "It's an easy walk from here, so I say we head the rest of the way on foot. It'd be quite the trek for Toto, otherwise."
+                },
+                {
+                    "id": "50000936",
+                    "speaker": "Paimon",
+                    "text": "That's true, especially considering his size. Well, seeya later, Toto!"
+                }
+            ]
+        },
+        {
+            "id": "500021",
+            "objective": "",
+            "dialogues": [
+                {
+                    "id": "50002101",
+                    "speaker": "Kachina",
+                    "text": "Alright, why don't you go for a stroll while I handle some important business? Don't worry, I'll keep you company once I'm back!"
+                },
+                {
+                    "id": "50002102",
+                    "speaker": "Kachina",
+                    "text": "No mischief, okay? Or I'm telling your parents."
+                }
+            ]
+        },
+        {
+            "id": "500010",
+            "objective": "Continue heading toward the Stadium of the Sacred Flame",
+            "dialogues": [
+                {
+                    "id": "50001001",
+                    "speaker": "Kachina",
+                    "text": "Phew! We made it!"
+                },
+                {
+                    "id": "50001002",
+                    "speaker": "Kachina",
+                    "text": "I'm supposed to meet some friends here, but... Hmm, I don't see them anywhere. Maybe they're not here yet..."
+                },
+                {
+                    "id": "50001003",
+                    "speaker": "Ajaw",
+                    "text": "Open your eyes, slowpoke! We've been here this entire time! I've already lost track of how long you've kept us waiting!"
+                },
+                {
+                    "id": "50001004",
+                    "speaker": "Ajaw",
+                    "text": "Listen here, you. It's not just Kinich and Mualani's time you're wasting, but mine too! MINE!"
+                },
+                {
+                    "id": "50001005",
+                    "speaker": "Paimon",
+                    "text": "What the heck? That's a strange-looking Saurian... Or wait, is it even a Saurian?"
+                },
+                {
+                    "id": "50001006",
+                    "speaker": "Kinich",
+                    "text": "Take it down a notch, alright? You don't even know some of these people."
+                },
+                {
+                    "id": "50001007",
+                    "speaker": "Kinich",
+                    "text": "Just because Kachina's too nice to get mad at you doesn't give you an excuse to be rude to her."
+                },
+                {
+                    "id": "50001008",
+                    "speaker": "Ajaw",
+                    "text": "And what are you gonna do about it? You think you're the boss of— Hey! What do you think you're doing!?"
+                },
+                {
+                    "id": "50001009",
+                    "speaker": "Kinich",
+                    "text": "Alright, I've put him in a timeout for now. Sorry about that."
+                },
+                {
+                    "id": "50001010",
+                    "speaker": "Kachina",
+                    "text": "Aw, you didn't have to do that! Ajaw just doesn't have much of a filter, that's all. I don't mind!"
+                },
+                {
+                    "id": "50001011",
+                    "speaker": "Mualani",
+                    "text": "Eh, he got what he deserved. Let's just hope the lesson sticks this time!"
+                },
+                {
+                    "id": "50001012",
+                    "speaker": "Kachina",
+                    "text": "Hehe, Mualani! There you are!"
+                },
+                {
+                    "id": "50001013",
+                    "speaker": "Mualani",
+                    "text": "Looks like you made some new friends! And here I was worried you ran into trouble on your way here."
+                },
+                {
+                    "id": "50001014",
+                    "speaker": "Paimon",
+                    "text": "Hello! Paimon's Paimon!",
+                    "choices": [
+                        {
+                            "id": "50001015",
+                            "text": "#I'm {NICKNAME}, a traveler.",
+                            "response": [
+                                {
+                                    "id": "50001016",
+                                    "speaker": "Mualani",
+                                    "text": "A traveler, you say? You came at the perfect time! The Pilgrimage is a sight to behold this time of year."
+                                },
+                                {
+                                    "id": "50001021",
+                                    "speaker": "Kinich",
+                                    "text": "I don't see your teammates with you, Kachina. Where are they?"
+                                },
+                                {
+                                    "id": "50001022",
+                                    "speaker": "Kachina",
+                                    "text": "Oh, uh, they... went to join teams with a better chance at winning."
+                                },
+                                {
+                                    "id": "50001023",
+                                    "speaker": "Kinich",
+                                    "text": "Huh. So, you're saying you've been ditched. Again."
+                                },
+                                {
+                                    "id": "50001024",
+                                    "speaker": "Kinich",
+                                    "text": "*sigh* That might give them an advantage during the team stage, but it all comes down to individual strength sooner or later."
+                                },
+                                {
+                                    "id": "50001025",
+                                    "speaker": "Kachina",
+                                    "text": "Yeah, well, I couldn't even promise them we would make it through the team stage."
+                                },
+                                {
+                                    "id": "50001026",
+                                    "speaker": "Kachina",
+                                    "text": "The outcome of the team stage usually depends on the Ancient Name bearer, after all."
+                                },
+                                {
+                                    "id": "50001027",
+                                    "speaker": "Mualani",
+                                    "text": "Hey, now. There's not a single person here that can promise their team victory. You're putting too much pressure on yourself."
+                                },
+                                {
+                                    "id": "50001028",
+                                    "speaker": "Mualani",
+                                    "text": "Besides, you're not lacking in strength at all. You just need a bit more confidence."
+                                },
+                                {
+                                    "id": "50001029",
+                                    "speaker": "Mualani",
+                                    "text": "You were only three victories short of reaching the Night Warden Wars last time."
+                                },
+                                {
+                                    "id": "50001030",
+                                    "speaker": "Paimon",
+                                    "text": "Wait, so... If the \"Pilgrimage\" is like a national sporting competition, then what are the \"Night Warden Wars\"?"
+                                },
+                                {
+                                    "id": "50001031",
+                                    "speaker": "Kinich",
+                                    "text": "The former is a battle of skill. The latter is a real \"war.\""
+                                },
+                                {
+                                    "id": "50001032",
+                                    "speaker": "Kinich",
+                                    "text": "A war against our eternal enemy, the Abyss."
+                                },
+                                {
+                                    "id": "50001033",
+                                    "speaker": "Player",
+                                    "text": "The Abyss..."
+                                },
+                                {
+                                    "id": "50001034",
+                                    "speaker": "Paimon",
+                                    "text": "So, they're here, too..."
+                                },
+                                {
+                                    "id": "50001035",
+                                    "speaker": "Paimon",
+                                    "text": "Whoa, wait a second... You're saying the prize for winning the Pilgrimage is the chance to go to war!?"
+                                },
+                                {
+                                    "id": "50001036",
+                                    "speaker": "Mualani",
+                                    "text": "That's not too far off. That's why it's called the \"Night Warden Wars.\""
+                                },
+                                {
+                                    "id": "50001037",
+                                    "speaker": "Mualani",
+                                    "text": "The Pilgrimage chooses the strongest warriors among the tribes, and those warriors fight to repel the Abyss in defense of our homeland."
+                                },
+                                {
+                                    "id": "50001038",
+                                    "speaker": "Mualani",
+                                    "text": "Their names and deeds are then recorded in epic tales passed down over time. That is the highest honor you can achieve in Natlan."
+                                },
+                                {
+                                    "id": "50001039",
+                                    "speaker": "Player",
+                                    "text": "Isn't it dangerous, though?"
+                                },
+                                {
+                                    "id": "50001040",
+                                    "speaker": "Mualani",
+                                    "text": "Yes, but that's the nature of war. Danger comes with the territory."
+                                },
+                                {
+                                    "id": "50001041",
+                                    "speaker": "Mualani",
+                                    "text": "Resisting the Abyss is our duty, but we're not alone in this fight. We also have the blessing of our Archon, which allows for our safe return."
+                                },
+                                {
+                                    "id": "50001042",
+                                    "speaker": "Kachina",
+                                    "text": "It's something we call the Ode of Resurrection — which does exactly what it sounds like, basically!"
+                                },
+                                {
+                                    "id": "50001043",
+                                    "speaker": "Paimon",
+                                    "text": "Resurrect people, you mean?"
+                                },
+                                {
+                                    "id": "50001044",
+                                    "speaker": "Kachina",
+                                    "text": "Yup! So, it's not so scary, really. Our Archon's blessing gives us the courage to keep moving forward!"
+                                },
+                                {
+                                    "id": "50001045",
+                                    "speaker": "Kinich",
+                                    "text": "Let's go register. We don't have much time."
+                                },
+                                {
+                                    "id": "50001046",
+                                    "speaker": "Mualani",
+                                    "text": "Wait, what about you, Kachina? You're not really planning on competing solo, are you?"
+                                },
+                                {
+                                    "id": "50001047",
+                                    "speaker": "Paimon",
+                                    "text": "We really wish we could help, but we're not from here, so it doesn't seem like we can take part..."
+                                },
+                                {
+                                    "id": "50001048",
+                                    "speaker": "Kinich",
+                                    "text": "There's no threshold to the number of participants. With the sheer number of teams, it's practically guaranteed chaos."
+                                },
+                                {
+                                    "id": "50001049",
+                                    "speaker": "Kinich",
+                                    "text": "No matter how strong or experienced the warrior, victory is never assured."
+                                },
+                                {
+                                    "id": "50001050",
+                                    "speaker": "Kinich",
+                                    "text": "In a situation like that, it's always better to have someone to watch your back."
+                                },
+                                {
+                                    "id": "50001051",
+                                    "speaker": "Mualani",
+                                    "text": "Ooh, how about this! When we register, why don't we ask if these two can have special permission to participate?"
+                                },
+                                {
+                                    "id": "50001052",
+                                    "speaker": "Mualani",
+                                    "text": "Odds are, the answer will be no. So, if that doesn't work, well... I only have a few teammates this time. If someone else could take them, then..."
+                                },
+                                {
+                                    "id": "50001053",
+                                    "speaker": "Kinich",
+                                    "text": "You're not asking me to lead your team, are you?"
+                                },
+                                {
+                                    "id": "50001054",
+                                    "speaker": "Mualani",
+                                    "text": "Look at you, mind reader! So, what do you say? With how strong you are, it would practically be an upgrade for my teammates."
+                                },
+                                {
+                                    "id": "50001055",
+                                    "speaker": "Kinich",
+                                    "text": "Fine by me, but doesn't that leave you and Kachina as a team of two?"
+                                },
+                                {
+                                    "id": "50001056",
+                                    "speaker": "Mualani",
+                                    "text": "Hehe, there's a world of difference between that and flying solo. Besides, we're a formidable duo!"
+                                },
+                                {
+                                    "id": "50001057",
+                                    "speaker": "Mualani",
+                                    "text": "I bet our new friends here will agree that two's always better than one. Right?"
+                                },
+                                {
+                                    "id": "50001058",
+                                    "speaker": "Paimon",
+                                    "text": "Oh, you mean us?",
+                                    "choices": [
+                                        {
+                                            "id": "50001059",
+                                            "text": "Things are definitely less lonely with Paimon around.",
+                                            "response": [
+                                                {
+                                                    "id": "50001061",
+                                                    "speaker": "Paimon",
+                                                    "text": "Hehe, you're right! Two is definitely better than one!"
+                                                },
+                                                {
+                                                    "id": "50001062",
+                                                    "speaker": "Mualani",
+                                                    "text": "It's just like the old saying we have here in Natlan — \"No one fights alone.\""
+                                                },
+                                                {
+                                                    "id": "50001063",
+                                                    "speaker": "Kachina",
+                                                    "text": "But... what if I drag you down?"
+                                                },
+                                                {
+                                                    "id": "50001064",
+                                                    "speaker": "Mualani",
+                                                    "text": "Listen to yourself! You'd be hard pressed to find someone in Natlan who can beat us when we're together!"
+                                                },
+                                                {
+                                                    "id": "50001065",
+                                                    "speaker": "Kachina",
+                                                    "text": "Heh, hearing you say that does make me feel a little more confident..."
+                                                },
+                                                {
+                                                    "id": "50001066",
+                                                    "speaker": "Kachina",
+                                                    "text": "*sigh* Still, teams rarely contain more than one Ancient Name bearer. People are definitely gonna think of us as cowards."
+                                                },
+                                                {
+                                                    "id": "50001067",
+                                                    "speaker": "Mualani",
+                                                    "text": "The rules don't forbid it, so who cares what they think!"
+                                                },
+                                                {
+                                                    "id": "50001068",
+                                                    "speaker": "Mualani",
+                                                    "text": "It's not like they left us any other option."
+                                                },
+                                                {
+                                                    "id": "50001069",
+                                                    "speaker": "Kinich",
+                                                    "text": "Well, I'll leave you to break the news to your soon-to-be former teammates. I'm not good at stuff like that."
+                                                },
+                                                {
+                                                    "id": "50001070",
+                                                    "speaker": "Mualani",
+                                                    "text": "Oh, I know.... They deserve to hear it from me, anyway."
+                                                },
+                                                {
+                                                    "id": "50001071",
+                                                    "speaker": "Mualani",
+                                                    "text": "Just give me a second, you guys. We can go sign up together once I'm done."
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "50001060",
+                                            "text": "It's nice having Paimon by my side."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "50001017",
+                            "text": "I'm here to win it.",
+                            "response": [
+                                {
+                                    "id": "50001018",
+                                    "speaker": "Mualani",
+                                    "text": "Oho, a bold statement... I like it, hahaha. The rule against outsider participation is long overdue for a change anyway."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "50001019",
+                            "text": "This is Paimon. Nice to meet you all.",
+                            "response": [
+                                {
+                                    "id": "50001020",
+                                    "speaker": "Paimon",
+                                    "text": "#Oh, and this is {NICKNAME}... Honestly, you could at least introduce yourself a little, you know!"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "500011",
+            "objective": "Register for the Pilgrimage of the Return of the Sacred Flame",
+            "dialogues": [
+                {
+                    "id": "50001101",
+                    "speaker": "Kinich",
+                    "text": "This is the place. Let's wait for Mualani here."
+                },
+                {
+                    "id": "50001102",
+                    "speaker": "Kachina",
+                    "text": "Did you see the flags at the front gate when we entered?"
+                },
+                {
+                    "id": "50001103",
+                    "speaker": "Paimon",
+                    "text": "Oh, yeah... There were flags, weren't there..."
+                },
+                {
+                    "id": "50001104",
+                    "speaker": "Player",
+                    "text": "There were all sorts of symbols on them."
+                },
+                {
+                    "id": "50001105",
+                    "speaker": "Kachina",
+                    "text": "Those are our tribal flags — one for each of the six tribes that make up Natlan, including the Children of Echoes."
+                },
+                {
+                    "id": "50001106",
+                    "speaker": "Kinich",
+                    "text": "Why the sudden tour guide routine?"
+                },
+                {
+                    "id": "50001107",
+                    "speaker": "Kachina",
+                    "text": "Hehe, I said I'd introduce them to Natlan, and we've got nothing better to do, so I might as well deliver on the promise!"
+                },
+                {
+                    "id": "50001108",
+                    "speaker": "Kinich",
+                    "text": "Fair enough. Well, I'm from the Scions of the Canopy. We live high in the mountains and have the closest ties to the Yumkasaurs."
+                },
+                {
+                    "id": "50001109",
+                    "speaker": "Kachina",
+                    "text": "My friend Mualani belongs to the People of the Springs, a seaside tribe. The scenery over there is beautiful, and you can find some really tasty fish."
+                },
+                {
+                    "id": "50001110",
+                    "speaker": "Kachina",
+                    "text": "That just leaves the Flower-Feather Clan, the Masters of the Night-Wind, and the Collective of Plenty."
+                },
+                {
+                    "id": "50001111",
+                    "speaker": "Kachina",
+                    "text": "If we get a chance after the Pilgrimage, I'll be sure to show you around."
+                },
+                {
+                    "id": "50001112",
+                    "speaker": "Mualani",
+                    "text": "Well, if we're talking tribes, allow me to stand in for our chief and welcome you on behalf of the People of the Springs."
+                },
+                {
+                    "id": "50001113",
+                    "speaker": "Kachina",
+                    "text": "Mualani, you're back! We were just talking about you!"
+                },
+                {
+                    "id": "50001114",
+                    "speaker": "Mualani",
+                    "text": "Everything's settled on my end. My teammates took it unbelievably well, actually. Your reputation is really somethin' else, Kinich."
+                },
+                {
+                    "id": "50001115",
+                    "speaker": "Kinich",
+                    "text": "They probably just didn't see any drawbacks to your proposition."
+                },
+                {
+                    "id": "50001116",
+                    "speaker": "Mualani",
+                    "text": "We're saying the same thing here. You, my friend, are a formidable competitor, and they recognize that! Anyway, thanks for waiting, you guys. Let's go register."
+                },
+                {
+                    "id": "50001117",
+                    "speaker": "Cival",
+                    "text": "Hello there. Here to register for the Pilgrimage?"
+                },
+                {
+                    "id": "50001118",
+                    "speaker": "Mualani",
+                    "text": "That's right. I wanted to ask, though... These two travelers are very interested in the competition. Any chance they could take part?"
+                },
+                {
+                    "id": "50001119",
+                    "speaker": "Cival",
+                    "text": "I'm sorry, but only people from Natlan are eligible to participate."
+                },
+                {
+                    "id": "50001120",
+                    "speaker": "Mualani",
+                    "text": "#You couldn't make an exception just this once? This traveler is a renowned Adventurer! {M#He}{F#She}'s more than skilled enough to participate, and I'm sure the audience would be interested in seeing what {M#he}{F#she} can do."
+                },
+                {
+                    "id": "50001121",
+                    "speaker": "Cival",
+                    "text": "It's not that simple, Miss Mualani. Even a single exception sets a dangerous precedent for countless interested parties in the future."
+                },
+                {
+                    "id": "50001122",
+                    "speaker": "Cival",
+                    "text": "The purpose of the Pilgrimage is not only to select strong warriors, but also to collect Contending Fire from the battles."
+                },
+                {
+                    "id": "50001123",
+                    "speaker": "Cival",
+                    "text": "That is the fire that fuels the Sacred Flame. Natlan is only safe from the invasion of the Abyss while the Sacred Flame burns eternal."
+                },
+                {
+                    "id": "50001124",
+                    "speaker": "Paimon",
+                    "text": "Oh, so there's another purpose for the tournament."
+                },
+                {
+                    "id": "50001125",
+                    "speaker": "Kinich",
+                    "text": "That was the initial purpose, actually."
+                },
+                {
+                    "id": "50001126",
+                    "speaker": "Kinich",
+                    "text": "Every participant, whether they win or lose, contributes to the defense of our nation. That's what makes it such an honor to take part."
+                },
+                {
+                    "id": "50001127",
+                    "speaker": "Cival",
+                    "text": "Exactly right, Mr. Kinich. Contending Fire can only be produced in battles between people of Natlan."
+                },
+                {
+                    "id": "50001128",
+                    "speaker": "Cival",
+                    "text": "Outlander participation would inhibit the production of this Fire, which could, in turn, jeopardize the Sacred Flame."
+                },
+                {
+                    "id": "50001129",
+                    "speaker": "Mualani",
+                    "text": "Ah, so it all comes down to the Contending Fire.",
+                    "choices": [
+                        {
+                            "id": "50001130",
+                            "text": "It's fine.",
+                            "response": [
+                                {
+                                    "id": "50001132",
+                                    "speaker": "Mualani",
+                                    "text": "Well, you can still enjoy the event from the stands! I'll try to get you some good seats!"
+                                },
+                                {
+                                    "id": "50001133",
+                                    "speaker": "Paimon",
+                                    "text": "That would be great! Tourists like us are better suited to being spectators, anyway."
+                                },
+                                {
+                                    "id": "50001134",
+                                    "speaker": "Paimon",
+                                    "text": "Still, there's something Paimon was wondering, actually...",
+                                    "choices": [
+                                        {
+                                            "id": "50001135",
+                                            "text": "If the Ode of Resurrection exists...",
+                                            "response": [
+                                                {
+                                                    "id": "50001137",
+                                                    "speaker": "Paimon",
+                                                    "text": "#You read Paimon's mind, {NICKNAME}! Why doesn't everyone just fight together? Y'know, since you can bring them back to life..."
+                                                },
+                                                {
+                                                    "id": "50001138",
+                                                    "speaker": "Kinich",
+                                                    "text": "The power of resurrection has its limits. For starters, the Ode only works on those who bear an Ancient Name."
+                                                },
+                                                {
+                                                    "id": "50001139",
+                                                    "speaker": "Kachina",
+                                                    "text": "That's also why ordinary people who emerge victorious in the Pilgrimage aren't sent to fight the Abyss."
+                                                },
+                                                {
+                                                    "id": "50001140",
+                                                    "speaker": "Kachina",
+                                                    "text": "It's for their own protection. Although, they're still afforded the same honor as those who triumph over the Abyss in battle."
+                                                },
+                                                {
+                                                    "id": "50001141",
+                                                    "speaker": "Mualani",
+                                                    "text": "That brings us to the other condition for resurrection. Not much to this one, actually, hahaha. Just one word — \"victory\"!"
+                                                },
+                                                {
+                                                    "id": "50001142",
+                                                    "speaker": "Paimon",
+                                                    "text": "\"Victory\"?"
+                                                },
+                                                {
+                                                    "id": "50001143",
+                                                    "speaker": "Kinich",
+                                                    "text": "\"The victors shall burn bright, while the losers must turn to ash.\""
+                                                },
+                                                {
+                                                    "id": "50001144",
+                                                    "speaker": "Kinich",
+                                                    "text": "Only those who triumph over the Abyss earn the right to be revived. Defeat in battle not only means death, but also the destruction of your Ancient Name, preventing it from ever being inherited again."
+                                                },
+                                                {
+                                                    "id": "50001145",
+                                                    "speaker": "Kinich",
+                                                    "text": "The tales of the vanquished are eventually forgotten, and an Ancient Name cannot survive when the stories of its bearers are lost to time."
+                                                },
+                                                {
+                                                    "id": "50001146",
+                                                    "speaker": "Player",
+                                                    "text": "But, why would the victors need to be revived?"
+                                                },
+                                                {
+                                                    "id": "50001147",
+                                                    "speaker": "Paimon",
+                                                    "text": "Yeah, they won, right? Isn't it the defeated ones who need reviving?"
+                                                },
+                                                {
+                                                    "id": "50001148",
+                                                    "speaker": "Mualani",
+                                                    "text": "You have to think about it at the team level. For example, five representatives will be sent to repel the Abyss this time."
+                                                },
+                                                {
+                                                    "id": "50001149",
+                                                    "speaker": "Mualani",
+                                                    "text": "Even if four of them were to perish, the Ode of Resurrection would still take effect. All you need is for one person to return victorious."
+                                                },
+                                                {
+                                                    "id": "50001150",
+                                                    "speaker": "Kachina",
+                                                    "text": "Because every victory is a building block of our legacy!"
+                                                },
+                                                {
+                                                    "id": "50001151",
+                                                    "speaker": "Kinich",
+                                                    "text": "Of course, the team needs to be strong enough for that to be the case. Otherwise, the price of failure is still very high."
+                                                },
+                                                {
+                                                    "id": "50001152",
+                                                    "speaker": "Kinich",
+                                                    "text": "That's why the first stage of the Pilgrimage is divided into teams — to instill in us the importance of working together."
+                                                },
+                                                {
+                                                    "id": "50001153",
+                                                    "speaker": "Kinich",
+                                                    "text": "\"No one fights alone\" — that is what we believe. A lone warrior is one whose defeat is final."
+                                                },
+                                                {
+                                                    "id": "50001154",
+                                                    "speaker": "Paimon",
+                                                    "text": "This all sounds pretty dangerous."
+                                                },
+                                                {
+                                                    "id": "50001155",
+                                                    "speaker": "Mualani",
+                                                    "text": "Well, that axiom is meant to be a warning as much as a source of inspiration."
+                                                },
+                                                {
+                                                    "id": "50001156",
+                                                    "speaker": "Mualani",
+                                                    "text": "Danger is always present, but, together, we can move forward — united in the knowledge that, behind every hero charging into battle, lies the support of all of Natlan as well as our Archon."
+                                                },
+                                                {
+                                                    "id": "50001157",
+                                                    "speaker": "Mualani",
+                                                    "text": "Not to mention, the Abyss isn't an enemy with a concrete form. We're often just dealing with the fallout of its scheming."
+                                                },
+                                                {
+                                                    "id": "50001158",
+                                                    "speaker": "Kinich",
+                                                    "text": "I've actually fallen in battle myself. I spent some time wandering the realm of the Wayob. It was unlike anything I'd ever experienced before."
+                                                },
+                                                {
+                                                    "id": "50001159",
+                                                    "speaker": "Paimon",
+                                                    "text": "The realm of the Wayob? Does that mean the Wayob exist somewhere in Natlan?"
+                                                },
+                                                {
+                                                    "id": "50001160",
+                                                    "speaker": "Kinich",
+                                                    "text": "Hard to say. The realm's not somewhere you can access by ordinary means, and very few people are capable of establishing a mental connection with the Wayob."
+                                                },
+                                                {
+                                                    "id": "50001161",
+                                                    "speaker": "Kinich",
+                                                    "text": "We call this realm the \"Night Kingdom,\" a mysterious, liminal space between the body and mind, life and death."
+                                                },
+                                                {
+                                                    "id": "50001162",
+                                                    "speaker": "Ajaw",
+                                                    "text": "The fact that you were resurrected at all is the worst thing in the world."
+                                                },
+                                                {
+                                                    "id": "50001163",
+                                                    "speaker": "Kinich",
+                                                    "text": "Then, releasing you from your timeout has gotta come in at a close second."
+                                                },
+                                                {
+                                                    "id": "50001164",
+                                                    "speaker": "Ajaw",
+                                                    "text": "Hmph, you would do well to speak with reverence of the Almighty Dragonlord, K'uhul Ajaw... Lest you live to regret it!"
+                                                },
+                                                {
+                                                    "id": "50001165",
+                                                    "speaker": "Cival",
+                                                    "text": "If you're done arguing... Your registration is now complete."
+                                                },
+                                                {
+                                                    "id": "50001166",
+                                                    "speaker": "Cival",
+                                                    "text": "It all went fairly quickly, considering we all know each other. Now, I just need to register your team members according to their name cards, and you'll be all set."
+                                                },
+                                                {
+                                                    "id": "50001167",
+                                                    "speaker": "Cival",
+                                                    "text": "In the meantime, you all can go rest at the hotel. As usual, dinner and lodging for tonight are free."
+                                                },
+                                                {
+                                                    "id": "50001168",
+                                                    "speaker": "Mualani",
+                                                    "text": "Nice! Oh yeah, I forgot to mention... All food and entertainment before tomorrow's matches are on the house, courtesy of our Archon!"
+                                                },
+                                                {
+                                                    "id": "50001169",
+                                                    "speaker": "Mualani",
+                                                    "text": "Family and friends included! Which means, you both get in on it! Come on, let's go have some fun!"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "50001136",
+                                            "text": "Why do you have to go through the process of selecting warriors?"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "50001131",
+                            "text": "I understand the importance of this event."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "500012",
+            "objective": "Go to the Weary Inn for a meal",
+            "dialogues": [
+                {
+                    "id": "50001201",
+                    "speaker": "Mualani",
+                    "text": "Dig in, you guys! Eat as much as you want. These dishes are all local specialties."
+                },
+                {
+                    "id": "50001202",
+                    "speaker": "Mualani",
+                    "text": "There's more where this came from, too, so don't be shy! Let's feast until the bill gives the Archon a heart attack!"
+                },
+                {
+                    "id": "50001203",
+                    "speaker": "Kachina",
+                    "text": "Don't be dramatic..."
+                },
+                {
+                    "id": "50001204",
+                    "speaker": "Kinich",
+                    "text": "The Pyro Archon is very generous. Even if it does cause some trouble for all the hotel workers and volunteers..."
+                },
+                {
+                    "id": "50001205",
+                    "speaker": "Kinich",
+                    "text": "Speaking of trouble, I've locked Ajaw away for now, so you don't have to worry about him being a nuisance."
+                },
+                {
+                    "id": "50001206",
+                    "speaker": "Paimon",
+                    "text": "Wait, isn't that a little harsh?"
+                },
+                {
+                    "id": "50001207",
+                    "speaker": "Mualani",
+                    "text": "Eh, Kinich and Ajaw are always like that. Everyone has their own unique way of getting along with their Saurian companion."
+                },
+                {
+                    "id": "50001208",
+                    "speaker": "Kachina",
+                    "text": "Hmm..."
+                },
+                {
+                    "id": "50001209",
+                    "speaker": "Mualani",
+                    "text": "What's got you all down in the dumps, Kachina? You don't have to worry about tomorrow. I'll be with you every step of the way."
+                },
+                {
+                    "id": "50001210",
+                    "speaker": "Kachina",
+                    "text": "I know, I know. Everything's fine, really. I'm just... I'm just nervous."
+                },
+                {
+                    "id": "50001211",
+                    "speaker": "Kachina",
+                    "text": "I can't keep using my age as an excuse. I have to get stronger..."
+                },
+                {
+                    "id": "50001212",
+                    "speaker": "Kachina",
+                    "text": "I have to prove to people that I'm not trying to avoid the Night Warden Wars."
+                },
+                {
+                    "id": "50001213",
+                    "speaker": "Mualani",
+                    "text": "You don't have to prove anything to anyone. You know your own heart, so stop beating yourself up over other people's opinions."
+                },
+                {
+                    "id": "50001214",
+                    "speaker": "Mualani",
+                    "text": "If they don't think you deserve to bear your Ancient Name, they can take it up with the Wayob!"
+                },
+                {
+                    "id": "50001215",
+                    "speaker": "Mualani",
+                    "text": "Trust me, Kachina! The Wayob see something special in you!"
+                },
+                {
+                    "id": "50001216",
+                    "speaker": "Kachina",
+                    "text": "I just hope it's not the fact that I can take a few punches..."
+                },
+                {
+                    "id": "50001217",
+                    "speaker": "Player",
+                    "text": "I'm guessing the Pilgrimage hasn't gone too well in the past?"
+                },
+                {
+                    "id": "50001218",
+                    "speaker": "Kachina",
+                    "text": "Yeah, I'm on a seven... or eight-Pilgrimage losing streak. My ranking has been improving little by little, but still, no wins."
+                },
+                {
+                    "id": "50001219",
+                    "speaker": "Kinich",
+                    "text": "To be honest, losing seven or eight times isn't even a lot. Maybe other people can't see your improvement, but your performance still isn't something to scoff at."
+                },
+                {
+                    "id": "50001220",
+                    "speaker": "Paimon",
+                    "text": "Yeah, didn't you say you got really close before?"
+                },
+                {
+                    "id": "50001221",
+                    "speaker": "Kachina",
+                    "text": "It's just... what if I don't even make it through the team stage this time..."
+                },
+                {
+                    "id": "50001222",
+                    "speaker": "Mualani",
+                    "text": "Hey, have a little faith, will you? You've got me on your team!"
+                },
+                {
+                    "id": "50001223",
+                    "speaker": "Mualani",
+                    "text": "Stumble, and I'll be there to get you back on your feet. Run into someone you can't beat, and we'll face them together!"
+                },
+                {
+                    "id": "50001224",
+                    "speaker": "Mualani",
+                    "text": "I know you've never tasted victory, but you trust me, don't you?"
+                },
+                {
+                    "id": "50001225",
+                    "speaker": "Kachina",
+                    "text": "Mualani... *sniff* You're... You're the best!"
+                },
+                {
+                    "id": "50001226",
+                    "speaker": "Kachina",
+                    "text": "I trust you, I definitely do! And you're right. I've gotta pull myself together!"
+                },
+                {
+                    "id": "50001227",
+                    "speaker": "Kachina",
+                    "text": "I still don't know why the Wayob chose me to inherit an Ancient Name..."
+                },
+                {
+                    "id": "50001228",
+                    "speaker": "Kachina",
+                    "text": "But, I can't be the only bearer who's ever felt this way. If they can keep at it, so can I!"
+                },
+                {
+                    "id": "50001229",
+                    "speaker": "Kinich",
+                    "text": "Not to mention... the fact that your Ancient Name has survived until now means all your forebears managed to honor its meaning."
+                },
+                {
+                    "id": "50001230",
+                    "speaker": "Kinich",
+                    "text": "Otherwise, it would be lost to us by now, shattered by defeat in battle."
+                },
+                {
+                    "id": "50001231",
+                    "speaker": "Paimon",
+                    "text": "That's right! And you'll have us rooting for you, too!"
+                },
+                {
+                    "id": "50001232",
+                    "speaker": "Player",
+                    "text": "Just call us cheerleaders one and two."
+                },
+                {
+                    "id": "50001233",
+                    "speaker": "Kachina",
+                    "text": "No, no, no! It should be the other way around. I was clearly the one who asked to learn from you..."
+                },
+                {
+                    "id": "50001234",
+                    "speaker": "Kachina",
+                    "text": "But, still... Thanks, you guys. *sniff* Geez, now I'm crying again... Everyone has been so nice to me today..."
+                },
+                {
+                    "id": "50001235",
+                    "speaker": "Kachina",
+                    "text": "I'll win this time, for sure! I won't let your support go to waste!"
+                },
+                {
+                    "id": "50001236",
+                    "speaker": "Kachina",
+                    "text": "Oh, right! I should eat something. My mom said I need to keep up my strength for tomorrow."
+                },
+                {
+                    "id": "50001237",
+                    "speaker": "Paimon",
+                    "text": "Nice to see your game face back, Kachina!"
+                },
+                {
+                    "id": "50001238",
+                    "speaker": "Mualani",
+                    "text": "Thanks for encouraging her, you two. It's easy for people to only see how she still has a lot to learn, so it isn't often that she meets people willing to treat her with patience."
+                },
+                {
+                    "id": "50001239",
+                    "speaker": "Paimon",
+                    "text": "Don't you worry! We've seen how kind and hard-working she is. We can already tell she's a wonderful person!"
+                },
+                {
+                    "id": "50001240",
+                    "speaker": "Kachina",
+                    "text": "*sniffle*"
+                },
+                {
+                    "id": "50001241",
+                    "speaker": "Kinich",
+                    "text": "Take it easy. You're getting tears in your food."
+                },
+                {
+                    "id": "50001242",
+                    "speaker": "Kachina",
+                    "text": "I—I'll pour you all some drinks. I brought some homemade fruit juice! Lemme just go grab some cups!"
+                },
+                {
+                    "id": "50001243",
+                    "speaker": "Paimon",
+                    "text": "She even travels with homemade juice!?"
+                },
+                {
+                    "id": "50001244",
+                    "speaker": "Mualani",
+                    "text": "Hahaha, Kachina's backpack is practically a bottomless pit. It's got everything."
+                },
+                {
+                    "id": "50001245",
+                    "speaker": "Kinich",
+                    "text": "*sigh* That's true, but she definitely only offered us some so she could go find somewhere to cry for a little while."
+                },
+                {
+                    "id": "50001246",
+                    "speaker": "Paimon",
+                    "text": "Seems like you two really look out for her."
+                },
+                {
+                    "id": "50001247",
+                    "speaker": "Mualani",
+                    "text": "She's like a little sister to me, you know? She's already so talented, she just needs that one, decisive win to convince her of it."
+                },
+                {
+                    "id": "50001248",
+                    "speaker": "Mualani",
+                    "text": "And I have a feeling this is the one. This could be the win that finally gives her that confidence!"
+                },
+                {
+                    "id": "50001249",
+                    "speaker": "Paimon",
+                    "text": "Why are you so sure? Is that what happened to you?"
+                },
+                {
+                    "id": "50001250",
+                    "speaker": "Mualani",
+                    "text": "Oh, no, no. I was just born confident."
+                },
+                {
+                    "id": "50001251",
+                    "speaker": "Kinich",
+                    "text": "Mualani's being modest. She's already a three-time veteran of the Night Warden Wars. Came out on top each time — and she's never had to be resurrected."
+                },
+                {
+                    "id": "50001252",
+                    "speaker": "Paimon",
+                    "text": "Wow, that's amazing!"
+                },
+                {
+                    "id": "50001253",
+                    "speaker": "Mualani",
+                    "text": "Eh, it's no big deal. The opponents I had to face were pretty tame, that's all... No, wait, that makes it sound too unimpressive..."
+                },
+                {
+                    "id": "50001254",
+                    "speaker": "Mualani",
+                    "text": "Either way, the challenges haven't been that difficult so far. But, I'd love to fight alongside Kachina and experience the glory of victory together — the flowers, the applause..."
+                },
+                {
+                    "id": "50001255",
+                    "speaker": "Paimon",
+                    "text": "#Paimon gets it! That's how Paimon and {NICKNAME} are too!",
+                    "choices": [
+                        {
+                            "id": "50001256",
+                            "text": "Fighting side by side? Yeah, I guess...",
+                            "response": [
+                                {
+                                    "id": "50001257",
+                                    "speaker": "Paimon",
+                                    "text": "Hey! A little more confidence, please! Paimon's always there to cheer you on!"
+                                },
+                                {
+                                    "id": "50001260",
+                                    "speaker": "Kachina",
+                                    "text": "Drinks are here! Better try them while they're still fresh!"
+                                },
+                                {
+                                    "id": "50001261",
+                                    "speaker": "Paimon",
+                                    "text": "Feeling better now, Kachina?"
+                                },
+                                {
+                                    "id": "50001262",
+                                    "speaker": "Kachina",
+                                    "text": "Me? Hehe, I'm totally fine! Really, I promise. That was just nerves, earlier."
+                                },
+                                {
+                                    "id": "50001263",
+                                    "speaker": "Kachina",
+                                    "text": "I'm gonna get some meat in my system, then head out to get some exercise. Wanna be nice and loose for the tournament tomorrow."
+                                },
+                                {
+                                    "id": "50001264",
+                                    "speaker": "Mualani",
+                                    "text": "I'll come with you!"
+                                },
+                                {
+                                    "id": "50001265",
+                                    "speaker": "Kinich",
+                                    "text": "Just don't go overboard, okay? The last thing we need is for someone to oversleep. We've got an early day tomorrow."
+                                },
+                                {
+                                    "id": "50001266",
+                                    "speaker": "Mualani",
+                                    "text": "Hehe, if only we had a friend who never oversleeps..."
+                                },
+                                {
+                                    "id": "50001267",
+                                    "speaker": "Kinich",
+                                    "text": "...Alright, fine. I'll make sure you guys are up on time."
+                                },
+                                {
+                                    "id": "50001268",
+                                    "speaker": "Mualani",
+                                    "text": "Attaboy! I knew you'd catch on!"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "50001258",
+                            "text": "Fighting side by side? Are we, really?",
+                            "response": [
+                                {
+                                    "id": "50001259",
+                                    "speaker": "Paimon",
+                                    "text": "#Of course! Just think about it, {NICKNAME}. Where would you be without your guide?"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "500008",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "50000801",
+                    "speaker": "Paimon",
+                    "text": "The statue is so pretty! Is that what the Pyro Archon is like?"
+                },
+                {
+                    "id": "50000802",
+                    "speaker": "Kachina",
+                    "text": "You betcha! Beautiful, effortlessly confident, and absolutely awesome!"
+                }
+            ]
+        },
+        {
+            "id": "500009",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "50000901",
+                    "speaker": "Kachina",
+                    "text": "E—Eh!? Wait, wait, wait... You can use it too? How?",
+                    "choices": [
+                        {
+                            "id": "50000902",
+                            "text": "It just came naturally.",
+                            "response": [
+                                {
+                                    "id": "50000904",
+                                    "speaker": "Kachina",
+                                    "text": "That... was... AMAZING! I don't even know what to say!"
+                                },
+                                {
+                                    "id": "50000905",
+                                    "speaker": "Paimon",
+                                    "text": "Wait, look behind you! Something's coming!"
+                                },
+                                {
+                                    "id": "50000906",
+                                    "speaker": "Paimon",
+                                    "text": "What do we do? Is something after us? Should we get ready to fight!?"
+                                },
+                                {
+                                    "id": "50000907",
+                                    "speaker": "Kachina",
+                                    "text": "We're fine, we're fine! This, here, is Toto!"
+                                },
+                                {
+                                    "id": "50000908",
+                                    "speaker": "Kachina",
+                                    "text": "Hiya, Toto! Hehe, it's me, Kachina!"
+                                },
+                                {
+                                    "id": "50000909",
+                                    "speaker": "Toto",
+                                    "text": "Roar..."
+                                },
+                                {
+                                    "id": "50000910",
+                                    "speaker": "Kachina",
+                                    "text": "Well, aren't we looking lively today? Did the Chiselith lure you over here? Warm, isn't it?"
+                                },
+                                {
+                                    "id": "50000911",
+                                    "speaker": "Toto",
+                                    "text": "Roar..."
+                                },
+                                {
+                                    "id": "50000912",
+                                    "speaker": "Paimon",
+                                    "text": "Oh, so it was just a friendly Saurian... Wait, is that a Saurian?"
+                                },
+                                {
+                                    "id": "50000913",
+                                    "speaker": "Kachina",
+                                    "text": "Nope, that's a Long-Necked Rhino. There's quite a few of them around here, and Toto's the friendliest and gentlest of the bunch."
+                                },
+                                {
+                                    "id": "50000914",
+                                    "speaker": "Kachina",
+                                    "text": "He's always hanging around these parts. I swear he does it just to show off to any outlanders that might come this way. Don't let his size fool you, though. He's just a big softie!"
+                                },
+                                {
+                                    "id": "50000915",
+                                    "speaker": "Toto",
+                                    "text": "Roar—"
+                                },
+                                {
+                                    "id": "50000916",
+                                    "speaker": "Paimon",
+                                    "text": "Uh, what does the crouching mean?"
+                                },
+                                {
+                                    "id": "50000917",
+                                    "speaker": "Kachina",
+                                    "text": "That's an invitation. He's offering us a ride!"
+                                },
+                                {
+                                    "id": "50000918",
+                                    "speaker": "Player",
+                                    "text": "Don't mind if we do!"
+                                },
+                                {
+                                    "id": "50000919",
+                                    "speaker": "Paimon",
+                                    "text": "Um, Paimon's not so sure about this. It's kinda scary, don't you think? He's huge!"
+                                },
+                                {
+                                    "id": "50000920",
+                                    "speaker": "Player",
+                                    "text": "What are you scared of? You can fly."
+                                },
+                                {
+                                    "id": "50000921",
+                                    "speaker": "Paimon",
+                                    "text": "Oh, good point! You guys have fun with that, then. Paimon will just float alongside!"
+                                },
+                                {
+                                    "id": "50000922",
+                                    "speaker": "Paimon",
+                                    "text": "Wow! The sightseeing is even better from up here!"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "50000903",
+                            "text": "All in a day's work."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "500014",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "50001401",
+                    "speaker": "Charlotte",
+                    "text": "One picture to publish, and one to keep for myself. Perfect!"
+                }
+            ]
+        },
+        {
+            "id": "500015",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "50001501",
+                    "speaker": "Navia",
+                    "text": "I heard there's a place in Natlan that produces precious stones. Next time there's a lull in my work, I gotta go pay it a visit."
+                }
+            ]
+        },
+        {
+            "id": "500016",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "50001601",
+                    "speaker": "Furina",
+                    "text": "#Safe travels, {NICKNAME}. You're welcome back anytime. If you let us know in advance, we could arrange even more people to greet you when you return."
+                },
+                {
+                    "id": "50001602",
+                    "speaker": "Clorinde",
+                    "text": "That would be quite the lively affair."
+                }
+            ]
+        },
+        {
+            "id": "500019",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "50001901",
+                    "speaker": "Kachina",
+                    "text": "Hey, it's Ayo! Come on, over here!"
+                },
+                {
+                    "id": "50001902",
+                    "speaker": "Ayo",
+                    "text": "Roar..."
+                },
+                {
+                    "id": "50001903",
+                    "speaker": "Kachina",
+                    "text": "Allow me to introduce you! This is Ayo, my Saurian companion, and also an important member of my family."
+                },
+                {
+                    "id": "50001904",
+                    "speaker": "Ayo",
+                    "text": "Roar~ ♪"
+                },
+                {
+                    "id": "50001905",
+                    "speaker": "Kachina",
+                    "text": "Hehe, he's saying hello! I think he likes you!"
+                },
+                {
+                    "id": "50001906",
+                    "speaker": "Paimon",
+                    "text": "\"Saurian\"... So, in Natlan, you consider Saurians to be part of your family?"
+                },
+                {
+                    "id": "50001907",
+                    "speaker": "Kachina",
+                    "text": "Of course! Natlan is not only a nation of heroes, but also a nation of Saurians. They occupy an important place in every tribe."
+                },
+                {
+                    "id": "50001908",
+                    "speaker": "Kachina",
+                    "text": "Outlanders always seem to think of Ayo as my pet, but that's not the case at all."
+                },
+                {
+                    "id": "50001909",
+                    "speaker": "Kachina",
+                    "text": "Ayo and I go on adventures together, but he also has a Saurian family and a place to stay of his own. Sometimes, he even brings his entire family over to eat at our house."
+                },
+                {
+                    "id": "50001910",
+                    "speaker": "Kachina",
+                    "text": "The Children of Echoes have the closest ties to the Tepetlisaurs, which are naturally very friendly to humans. That's how our relationship became what it is today."
+                },
+                {
+                    "id": "50001911",
+                    "speaker": "Kachina",
+                    "text": "All Saurians have their own personalities, but... I think calling them our \"companions\" pretty much sums it up!"
+                },
+                {
+                    "id": "50001912",
+                    "speaker": "Ayo",
+                    "text": "Roar..."
+                },
+                {
+                    "id": "50001913",
+                    "speaker": "Kachina",
+                    "text": "See? Ayo agrees with me!"
+                }
+            ]
+        },
+        {
+            "id": "500022",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "50002201",
+                    "speaker": "Furina",
+                    "text": "#Safe travels, {NICKNAME}. You're welcome back anytime. If you let us know in advance, we could arrange even more people to greet you when you return."
+                }
+            ]
+        },
+        {
+            "id": "500024",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "50002401",
+                    "speaker": "Pacal",
+                    "text": "Oh, you're back! Did you forget something?"
+                }
+            ]
+        },
+        {
+            "id": "500027",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "50002701",
+                    "speaker": "Paimon",
+                    "text": "H—Huh...? That's not right. Is the Statue asleep, or something?"
+                },
+                {
+                    "id": "50002702",
+                    "speaker": "Player",
+                    "text": "...I don't sense anything."
+                },
+                {
+                    "id": "50002703",
+                    "speaker": "Paimon",
+                    "text": "Huh, shouldn't you be able to shoot fireballs or summon flame pillars by now?",
+                    "choices": [
+                        {
+                            "id": "50002704",
+                            "text": "Nothing happened...",
+                            "response": [
+                                {
+                                    "id": "50002706",
+                                    "speaker": "Paimon",
+                                    "text": "Strange... Must be something unique to Natlan."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "50002705",
+                            "text": "I don't sense any elemental energy either."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "500028",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "50002801",
+                    "speaker": "Paimon",
+                    "text": "It didn't work when you tried earlier, either. Now we know that wasn't a fluke... What's going on here?"
+                },
+                {
+                    "id": "50002802",
+                    "speaker": "Kachina",
+                    "text": "Huh? You can get elemental power from the Statue of The Seven?"
+                },
+                {
+                    "id": "50002803",
+                    "speaker": "Player",
+                    "text": "It's always worked before."
+                },
+                {
+                    "id": "50002804",
+                    "speaker": "Paimon",
+                    "text": "This would've been such a good opportunity to show Kachina how impressive you are..."
+                },
+                {
+                    "id": "50002805",
+                    "speaker": "Paimon",
+                    "text": "It's so weird that it's not working... There must be something about Natlan..."
+                },
+                {
+                    "id": "50002806",
+                    "speaker": "Kachina",
+                    "text": "Aw, I would've liked to see that..."
+                }
+            ]
+        },
+        {
+            "id": "500035",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "50003501",
+                    "speaker": "Cival",
+                    "text": "Get a good rest, everyone. I wish you all the best in tomorrow's competition."
+                }
+            ]
+        },
+        {
+            "id": "500099",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "50009901",
+                    "speaker": "Paimon",
+                    "text": "Whoa, check out those colorful pictures on the walls!"
+                },
+                {
+                    "id": "50009902",
+                    "speaker": "Paimon",
+                    "text": "We've gotta be on the right track!"
+                },
+                {
+                    "id": "50009903",
+                    "speaker": "Paimon",
+                    "text": "Whoa, that thing over there looks super intimidating. You sure it's not gonna fall off?"
+                },
+                {
+                    "id": "50009904",
+                    "speaker": "Kachina",
+                    "text": "Hahaha, don't worry! Our tribe works closely with stone. That's one of our symbols, actually."
+                },
+                {
+                    "id": "50009905",
+                    "speaker": "Kachina",
+                    "text": "It's not going anywhere, I promise you!"
+                },
+                {
+                    "id": "50009906",
+                    "speaker": "Kachina",
+                    "text": "Many of our tribespeople love music and dance, and have an amazing sense of rhythm."
+                },
+                {
+                    "id": "50009907",
+                    "speaker": "Kachina",
+                    "text": "In the past, outlanders have come here just to study our culture and exchange views."
+                },
+                {
+                    "id": "50009908",
+                    "speaker": "Kachina",
+                    "text": "My parents wanted me to learn dance, but I wanted to become a warrior instead!"
+                },
+                {
+                    "id": "50009909",
+                    "speaker": "Paimon",
+                    "text": "So full... *yawn* and so sleepy... We should get a good night's sleep before the competition tomorrow!"
+                },
+                {
+                    "id": "50009910",
+                    "speaker": "Paimon",
+                    "text": "Paimon's still a little worried about Kachina, though. Maybe we can help her out with her training?"
+                },
+                {
+                    "id": "50009911",
+                    "speaker": "Paimon",
+                    "text": "She did say she wanted to learn from us... Not that Paimon's gonna be doing much of the teaching..."
+                }
+            ]
+        }
+    ]
+}

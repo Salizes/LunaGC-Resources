@@ -1,0 +1,324 @@
+{
+    "quest": {
+        "id": "75028",
+        "title": "Asas Pesadas",
+        "description": "Você encontra um Sauriano ferido na natureza...",
+        "rewards": [
+            {
+                "itemId": 102,
+                "count": 200
+            },
+            {
+                "itemId": 201,
+                "count": 30
+            },
+            {
+                "itemId": 202,
+                "count": 35000
+            }
+        ],
+        "rewards_formatted": "EXP de Aventura x200, Gema Essencial x30, Mora x35000",
+        "chapter": {
+            "icon": "UI_ChapterIcon_LittleDrillhead",
+            "id": "10204",
+            "num": "",
+            "title": "Nos Passos do Escolhido dos Dragões"
+        },
+        "total_dialogue_lines": 46,
+        "total_speaker_counts": {
+            "#{REALNAME[ID(2)|SHOWHOST(true)]}": 11,
+            "Black Screen": 1,
+            "Coruja Noturna": 5,
+            "Paimon": 16,
+            "Player": 8,
+            "Qucussauro": 3,
+            "Rato": 2
+        }
+    },
+    "talks": [
+        {
+            "id": "7502801",
+            "objective": "",
+            "dialogues": [
+                {
+                    "id": "750280101",
+                    "speaker": "Rato",
+                    "text": "Ugh, você é... mais durão do que parece..."
+                },
+                {
+                    "id": "750280102",
+                    "speaker": "Coruja Noturna",
+                    "text": "Argh. Quem a gente ofendeu, quem enviaria alguém neste dia de todos os dias para nos dar uma surra..."
+                },
+                {
+                    "id": "750280103",
+                    "speaker": "Coruja Noturna",
+                    "text": "#Por favor, {M#maninho}{F#maninha}. Como a gente te ofendeu? Só... diga pra gente. Não vamos fazer de novo."
+                },
+                {
+                    "id": "750280104",
+                    "speaker": "Rato",
+                    "text": "Ei, seu pestinha! Você vai mesmo se rastejar assim?"
+                },
+                {
+                    "id": "750280105",
+                    "speaker": "Coruja Noturna",
+                    "text": "O quê, fingir ser durão vai botar comida na nossa mesa? Ah, não comece, já entendi. Só estamos vivendo como ladrões e bandidos. Não tem nada especial em traficar Saurianos, tem?"
+                },
+                {
+                    "id": "750280106",
+                    "speaker": "Coruja Noturna",
+                    "text": "É melhor do que ser roubado por um bandido mais forte, por que eu não deveria ir com eles, ao invés disso?"
+                },
+                {
+                    "id": "750280107",
+                    "speaker": "Coruja Noturna",
+                    "text": "#Agora, sem querer me gabar, {M#maninho}{F#maninha}, mas tenho certeza que tem um jeito de eu ser mais útil do que esses dois aí. Vou resolver, bem direitinho."
+                },
+                {
+                    "id": "750280108",
+                    "speaker": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+                    "text": "Hã?",
+                    "choices": [
+                        {
+                            "id": "750280109",
+                            "text": "Bem, por acaso estou procurando um ajudante.",
+                            "response": [
+                                {
+                                    "id": "750280110",
+                                    "speaker": "Paimon",
+                                    "text": "Tá falando sério?! Sem chance! Paimon veta isso aí!"
+                                },
+                                {
+                                    "id": "750280112",
+                                    "speaker": "Paimon",
+                                    "text": "Além disso, somos gente do bem. Sem chance da gente se unir a traficantes de Sauriano!",
+                                    "choices": [
+                                        {
+                                            "id": "750280113",
+                                            "text": "É, não tem gente mais do bem do que eu.",
+                                            "response": [
+                                                {
+                                                    "id": "750280117",
+                                                    "speaker": "Paimon",
+                                                    "text": "#Ahem! Enfim, independentemente do plano que vocês têm para os Saurianos, melhor parar agora, ou vamos... Bem, {NICKNAME} vai acabar com a raça de vocês."
+                                                },
+                                                {
+                                                    "id": "750280118",
+                                                    "speaker": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+                                                    "text": "Rawr!"
+                                                },
+                                                {
+                                                    "id": "750280119",
+                                                    "speaker": "Black Screen",
+                                                    "text": "Os dois traficantes saem com uma nuvem de ressentimento pairando sobre as próprias cabeças..."
+                                                },
+                                                {
+                                                    "id": "750280120",
+                                                    "speaker": "Paimon",
+                                                    "text": "Paimon queria saber como aquele Qucussauro tá. Vamos ver ele?"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "750280114",
+                                            "text": "Bem, sempre tem espaço para mais um.",
+                                            "response": [
+                                                {
+                                                    "id": "750280115",
+                                                    "speaker": "Paimon",
+                                                    "text": "#Ei, você vai ser uma influência ruim para {REALNAME[ID(2)|SHOWHOST(true)]}! Não se preocupe, carinha, não tem como a gente se unir com uma cambada dessa!"
+                                                },
+                                                {
+                                                    "id": "750280116",
+                                                    "speaker": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+                                                    "text": "Rawr... Rawrr!"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "750280111",
+                            "text": "Agradeço a consideração, mas não precisa."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "7502807",
+            "objective": "Fale com o guerreiro suspeito",
+            "dialogues": []
+        },
+        {
+            "id": "7502802",
+            "objective": "Confira o Sauriano ferido",
+            "dialogues": [
+                {
+                    "id": "750280201",
+                    "speaker": "Qucussauro",
+                    "text": "Rawr..."
+                },
+                {
+                    "id": "750280202",
+                    "speaker": "Paimon",
+                    "text": "Ah, não, parece tão fraquinho... Deve ter sofrido tanto..."
+                },
+                {
+                    "id": "750280203",
+                    "speaker": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+                    "text": "Rawr... Rawrr...",
+                    "choices": [
+                        {
+                            "id": "750280204",
+                            "text": "Se tivesse alguma coisa que a gente pudesse fazer para ajudar...",
+                            "response": [
+                                {
+                                    "id": "750280207",
+                                    "speaker": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+                                    "text": "Rawr... Rawr! Rwarrr!"
+                                },
+                                {
+                                    "id": "750280208",
+                                    "speaker": "Paimon",
+                                    "text": "#O que foi? Tem alguma ideia, {REALNAME[ID(2)|SHOWHOST(true)]}?"
+                                },
+                                {
+                                    "id": "750280209",
+                                    "speaker": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+                                    "text": "Rawr!"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "750280205",
+                            "text": "Não podemos cuidar dele para sempre, né...",
+                            "response": [
+                                {
+                                    "id": "750280206",
+                                    "speaker": "Paimon",
+                                    "text": "Mas tem que ter alguma coisa que a gente possa fazer para ele se sentir melhor, mesmo que seja por pouco tempo..."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "7502803",
+            "objective": "Siga seu amigo Sauriano",
+            "dialogues": [
+                {
+                    "id": "750280301",
+                    "speaker": "Qucussauro",
+                    "text": "(Parece muito fraco. Se pelo menos tivesse uma maneira de fazê-lo se recuperar...)"
+                }
+            ]
+        },
+        {
+            "id": "7502804",
+            "objective": "Veja o que seu amigo Sauriano encontrou",
+            "dialogues": [
+                {
+                    "id": "750280401",
+                    "speaker": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+                    "text": "Raawr! Rawr!"
+                },
+                {
+                    "id": "750280402",
+                    "speaker": "Paimon",
+                    "text": "Você acha que Flores Núcleo de Brasas vão ajudar?"
+                },
+                {
+                    "id": "750280403",
+                    "speaker": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+                    "text": "Rawr!"
+                },
+                {
+                    "id": "750280404",
+                    "speaker": "Paimon",
+                    "text": "Claro, a gente pode tentar!"
+                }
+            ]
+        },
+        {
+            "id": "7502805",
+            "objective": "Tente curar o Qucussauro",
+            "dialogues": []
+        },
+        {
+            "id": "7502806",
+            "objective": "Confira a situação do Qucussauro",
+            "dialogues": [
+                {
+                    "id": "750280601",
+                    "speaker": "Qucussauro",
+                    "text": "..."
+                },
+                {
+                    "id": "750280602",
+                    "speaker": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+                    "text": "Rawr... Rawr!"
+                },
+                {
+                    "id": "750280603",
+                    "speaker": "Paimon",
+                    "text": "Parece meio revigorado?"
+                },
+                {
+                    "id": "750280605",
+                    "speaker": "Paimon",
+                    "text": "Heh. Voou rapidinho... Paimon acha que ainda não confia na gente, né?",
+                    "choices": [
+                        {
+                            "id": "750280606",
+                            "text": "Coisas como confiança não se constroem do dia para a noite.",
+                            "response": [
+                                {
+                                    "id": "750280607",
+                                    "speaker": "Paimon",
+                                    "text": "#Verdade. A gente teve que dar duro para chegar onde estamos com {REALNAME[ID(2)|SHOWHOST(true)]} também!"
+                                },
+                                {
+                                    "id": "750280610",
+                                    "speaker": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+                                    "text": "Rawr! Rawr rawr!"
+                                },
+                                {
+                                    "id": "750280611",
+                                    "speaker": "Paimon",
+                                    "text": "#E não é como se a gente tivesse feito isso pela gratidão dele ou nada, não acha, {REALNAME[ID(2)|SHOWHOST(true)]}?"
+                                },
+                                {
+                                    "id": "750280612",
+                                    "speaker": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+                                    "text": "Rawr!"
+                                },
+                                {
+                                    "id": "750280613",
+                                    "speaker": "Paimon",
+                                    "text": "#Hehe, você é um Saurianinho generoso, não é? Exatamente como {NICKNAME}!"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "750280608",
+                            "text": "Parece que vai voar com as próprias energias de boa.",
+                            "response": [
+                                {
+                                    "id": "750280609",
+                                    "speaker": "Paimon",
+                                    "text": "#Vai mesmo. Ótima ideia, {REALNAME[ID(2)|SHOWHOST(true)]}!"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

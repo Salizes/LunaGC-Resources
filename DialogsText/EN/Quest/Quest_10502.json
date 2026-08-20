@@ -1,0 +1,858 @@
+{
+    "quest": {
+        "id": "10502",
+        "title": "A Bewildering Fate",
+        "description": "On your journey, you witness Mona's strength as an astrologist, as well as her constraints. At last, you arrive at your destination — Mondstadt.",
+        "rewards": [
+            {
+                "itemId": 102,
+                "count": 525
+            },
+            {
+                "itemId": 201,
+                "count": 60
+            },
+            {
+                "itemId": 202,
+                "count": 31125
+            },
+            {
+                "itemId": 104304,
+                "count": 5
+            },
+            {
+                "itemId": 104003,
+                "count": 4
+            },
+            {
+                "itemId": 104013,
+                "count": 7
+            }
+        ],
+        "rewards_formatted": "Adventure EXP x525, Primogem x60, Mora x31125, Teachings of Resistance x5, Hero's Wit x4, Mystic Enhancement Ore x7",
+        "chapter": {
+            "icon": "UI_ChapterIcon_Mona",
+            "id": "2010",
+            "num": "Astrolabos Chapter: Act I",
+            "title": "Beyond This World's Stars"
+        },
+        "total_dialogue_lines": 143,
+        "total_speaker_counts": {
+            "Goth": 7,
+            "Katheryne": 6,
+            "Klee": 26,
+            "Mona": 61,
+            "Paimon": 16,
+            "Player": 27
+        }
+    },
+    "talks": [
+        {
+            "id": "1050201",
+            "objective": "Reach Mondstadt",
+            "dialogues": [
+                {
+                    "id": "105020101",
+                    "speaker": "Mona",
+                    "text": "Are you ready? Don't shame your master now — we're about to meet that successor.",
+                    "choices": [
+                        {
+                            "id": "105020102",
+                            "text": "I can't tell fortunes...",
+                            "response": [
+                                {
+                                    "id": "105020104",
+                                    "speaker": "Mona",
+                                    "text": "I guess... Wait, no! It won't do if you have no idea at all, even if you are a fake disciple."
+                                },
+                                {
+                                    "id": "105020105",
+                                    "speaker": "Mona",
+                                    "text": "We have a rule that forbids us from teaching outsiders, but I suppose... I suppose I could teach you."
+                                },
+                                {
+                                    "id": "105020106",
+                                    "speaker": "Mona",
+                                    "text": "My astrology is based on hydromancy, and as the name suggests, I use the reflections in water bodies to observe the true starry sky."
+                                },
+                                {
+                                    "id": "105020107",
+                                    "speaker": "Mona",
+                                    "text": "Allow me to demonstrate. Watch closely now."
+                                },
+                                {
+                                    "id": "105020108",
+                                    "speaker": "Mona",
+                                    "text": "From the present station and movement of the stars... I see, so that successor is a young... female... Knight of Favonius."
+                                },
+                                {
+                                    "id": "105020109",
+                                    "speaker": "Paimon",
+                                    "text": "Doesn't that sound like... Lisa?"
+                                },
+                                {
+                                    "id": "105020110",
+                                    "speaker": "Mona",
+                                    "text": "We will meet her here presently."
+                                },
+                                {
+                                    "id": "105020111",
+                                    "speaker": "Mona",
+                                    "text": "Well, that's all the information we need.",
+                                    "choices": [
+                                        {
+                                            "id": "105020112",
+                                            "text": "Th—That's all?",
+                                            "response": [
+                                                {
+                                                    "id": "105020114",
+                                                    "speaker": "Mona",
+                                                    "text": "*sigh* It seems that even basic astrology can't be grasped in one go."
+                                                },
+                                                {
+                                                    "id": "105020115",
+                                                    "speaker": "Mona",
+                                                    "text": "Never mind. I'll explain in detail later — she's here."
+                                                },
+                                                {
+                                                    "id": "105020116",
+                                                    "speaker": "Klee",
+                                                    "text": "#Wow, it's you, {F#Miss}{M#Mr.} Honorary Knight! And Paimon too! You're back!"
+                                                },
+                                                {
+                                                    "id": "105020117",
+                                                    "speaker": "Mona",
+                                                    "text": "That's her! The successor to great knowledge!",
+                                                    "choices": [
+                                                        {
+                                                            "id": "105020118",
+                                                            "text": "...You mean Klee!?",
+                                                            "response": [
+                                                                {
+                                                                    "id": "105020120",
+                                                                    "speaker": "Klee",
+                                                                    "text": "Successor...?"
+                                                                },
+                                                                {
+                                                                    "id": "105020121",
+                                                                    "speaker": "Mona",
+                                                                    "text": "That's right. I am the astrologist who has plumbed the depths of the ocean of stars. Surely, you have long calculated my arrival as well."
+                                                                },
+                                                                {
+                                                                    "id": "105020122",
+                                                                    "speaker": "Klee",
+                                                                    "text": "An ocean of stars? What's that? Does it have fish in it?"
+                                                                },
+                                                                {
+                                                                    "id": "105020123",
+                                                                    "speaker": "Mona",
+                                                                    "text": "Fish...? No, don't play dumb. Is this some kind of game?"
+                                                                },
+                                                                {
+                                                                    "id": "105020124",
+                                                                    "speaker": "Klee",
+                                                                    "text": "I should be the one saying that! I didn't get what you said at all!",
+                                                                    "choices": [
+                                                                        {
+                                                                            "id": "105020125",
+                                                                            "text": "We're getting nowhere fast.",
+                                                                            "response": [
+                                                                                {
+                                                                                    "id": "105020127",
+                                                                                    "speaker": "Mona",
+                                                                                    "text": "But my predictions can't be mistaken... Well, let's make sure. Your mother's name is Alice, isn't it?"
+                                                                                },
+                                                                                {
+                                                                                    "id": "105020128",
+                                                                                    "speaker": "Klee",
+                                                                                    "text": "That's right! Oh, so you're Mommy's friend! But she's gone very far away..."
+                                                                                },
+                                                                                {
+                                                                                    "id": "105020129",
+                                                                                    "speaker": "Mona",
+                                                                                    "text": "My readings told me as much. But before she left, she must have imparted her mystical arts to you, surely?"
+                                                                                },
+                                                                                {
+                                                                                    "id": "105020130",
+                                                                                    "speaker": "Klee",
+                                                                                    "text": "Mystical... arts? I... don't get it. Mommy only taught me to make Jumpy Dumpties."
+                                                                                },
+                                                                                {
+                                                                                    "id": "105020131",
+                                                                                    "speaker": "Paimon",
+                                                                                    "text": "So Klee's mother is the friend and rival of Mona's teacher?"
+                                                                                },
+                                                                                {
+                                                                                    "id": "105020132",
+                                                                                    "speaker": "Mona",
+                                                                                    "text": "Yes. As well-versed in astrology as she was, my master knew only astrology. Alice, on the other hand, was skilled in a great many other mystical fields."
+                                                                                },
+                                                                                {
+                                                                                    "id": "105020133",
+                                                                                    "speaker": "Paimon",
+                                                                                    "text": "Well... Klee's so young, so even if she'd heard this deep knowledge, she might not have understood."
+                                                                                },
+                                                                                {
+                                                                                    "id": "105020134",
+                                                                                    "speaker": "Mona",
+                                                                                    "text": "Yes. It seems she has inherited the blood, but not the knowledge... what a miscalculation. There can be no contest like this."
+                                                                                },
+                                                                                {
+                                                                                    "id": "105020135",
+                                                                                    "speaker": "Mona",
+                                                                                    "text": "Ah, yes. So, before Alice left, did she tell you about a fifty-year agreement, and about a certain box?"
+                                                                                },
+                                                                                {
+                                                                                    "id": "105020136",
+                                                                                    "speaker": "Klee",
+                                                                                    "text": "Ooh, I know this one! So you're here for that box. I'll look. Wait here!"
+                                                                                },
+                                                                                {
+                                                                                    "id": "105020137",
+                                                                                    "speaker": "Klee",
+                                                                                    "text": "Hmm... Not this one..."
+                                                                                },
+                                                                                {
+                                                                                    "id": "105020138",
+                                                                                    "speaker": "Klee",
+                                                                                    "text": "Hmm... Hm... Or this one..."
+                                                                                },
+                                                                                {
+                                                                                    "id": "105020139",
+                                                                                    "speaker": "Klee",
+                                                                                    "text": "No, no, it's not this one either..."
+                                                                                },
+                                                                                {
+                                                                                    "id": "105020140",
+                                                                                    "speaker": "Klee",
+                                                                                    "text": "Ah! I remember now. I buried it together with my new treasure, at <color=#00E1FFFF>Windrise</color>!",
+                                                                                    "choices": [
+                                                                                        {
+                                                                                            "id": "105020141",
+                                                                                            "text": "It's a bomb again, isn't it?",
+                                                                                            "response": [
+                                                                                                {
+                                                                                                    "id": "105020143",
+                                                                                                    "speaker": "Klee",
+                                                                                                    "text": "Wait for me. I'll be right back!"
+                                                                                                },
+                                                                                                {
+                                                                                                    "id": "105020144",
+                                                                                                    "speaker": "Paimon",
+                                                                                                    "text": "Klee, don't just run off! Don't you need the things in your pack?"
+                                                                                                },
+                                                                                                {
+                                                                                                    "id": "105020145",
+                                                                                                    "speaker": "Mona",
+                                                                                                    "text": "I'll help her pack these things back in. You go after her."
+                                                                                                },
+                                                                                                {
+                                                                                                    "id": "105020146",
+                                                                                                    "speaker": "Mona",
+                                                                                                    "text": "*sigh* Looking at how rash she is, I worry for the box..."
+                                                                                                }
+                                                                                            ]
+                                                                                        },
+                                                                                        {
+                                                                                            "id": "105020142",
+                                                                                            "text": "Why do you always bury important things outdoors?"
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        {
+                                                                            "id": "105020126",
+                                                                            "text": "See, I said this was a mistake."
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "id": "105020119",
+                                                            "text": "There must be some mistake!"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "105020113",
+                                            "text": "I haven't had a chance to look yet."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "105020103",
+                            "text": "I can't read the stars..."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "1050202",
+            "objective": "Talk to Mona, prepare to meet the successor",
+            "dialogues": []
+        },
+        {
+            "id": "1050203",
+            "objective": "Catch up with Klee and retrieve the box",
+            "dialogues": [
+                {
+                    "id": "105020301",
+                    "speaker": "Klee",
+                    "text": "Found it! It's this box."
+                },
+                {
+                    "id": "105020302",
+                    "speaker": "Paimon",
+                    "text": "Glad it wasn't damaged in the explosions."
+                },
+                {
+                    "id": "105020303",
+                    "speaker": "Klee",
+                    "text": "Retrieval complete! Let's bring it back!"
+                }
+            ]
+        },
+        {
+            "id": "1050204",
+            "objective": "Talk to Klee and retrieve the box",
+            "dialogues": [
+                {
+                    "id": "105020201",
+                    "speaker": "Klee",
+                    "text": "We're heeere! This is it. Let's dig it up!",
+                    "choices": [
+                        {
+                            "id": "105020202",
+                            "text": "This has to be the work of Dendro Slimes.",
+                            "response": [
+                                {
+                                    "id": "105020204",
+                                    "speaker": "Klee",
+                                    "text": "It can't be. I put up a sign here. There's no mistake—"
+                                },
+                                {
+                                    "id": "105020205",
+                                    "speaker": "Klee",
+                                    "text": "Argh! Dendro Slimes!"
+                                },
+                                {
+                                    "id": "105020206",
+                                    "speaker": "Player",
+                                    "text": "Yup. Dendro Slimes."
+                                },
+                                {
+                                    "id": "105020207",
+                                    "speaker": "Paimon",
+                                    "text": "*sigh* We can talk later, let's take them out first!"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "105020203",
+                            "text": "Dendro Slimes must have done this."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "1050205",
+            "objective": "Defeat the attacking Dendro Slimes",
+            "dialogues": [
+                {
+                    "id": "105020501",
+                    "speaker": "Katheryne",
+                    "text": "About Mona's background and her quandary..."
+                },
+                {
+                    "id": "105020502",
+                    "speaker": "Katheryne",
+                    "text": "I see. I understand the situation."
+                },
+                {
+                    "id": "105020503",
+                    "speaker": "Katheryne",
+                    "text": "There is a <color=#00E1FFFF>magic laboratory</color> in Mondstadt that has been sealed by some unknown person."
+                },
+                {
+                    "id": "105020504",
+                    "speaker": "Katheryne",
+                    "text": "Although we have a few specialists who could break the seal, they all have their own labs, and aren't that interested in the matter."
+                },
+                {
+                    "id": "105020505",
+                    "speaker": "Katheryne",
+                    "text": "I believe that if the astrologist you mentioned can break the seal, the owner of that house wouldn't mind if she stayed there.",
+                    "choices": [
+                        {
+                            "id": "105020506",
+                            "text": "I think she can do it.",
+                            "response": [
+                                {
+                                    "id": "105020508",
+                                    "speaker": "Katheryne",
+                                    "text": "Alright. Then, allow me to tell you where the house is."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "105020507",
+                            "text": "I'll take her to go have a look."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "1050206",
+            "objective": "Talk to Klee and retrieve the box",
+            "dialogues": []
+        },
+        {
+            "id": "1050207",
+            "objective": "Accompany Klee to return the box to Mona",
+            "dialogues": [
+                {
+                    "id": "105020401",
+                    "speaker": "Mona",
+                    "text": "You're back at last. The wait was exceedingly dull."
+                },
+                {
+                    "id": "105020402",
+                    "speaker": "Mona",
+                    "text": "I had intended to read a book to pass the time, but this one was just some ridiculous diary. Nothing of note in it at all."
+                },
+                {
+                    "id": "105020403",
+                    "speaker": "Mona",
+                    "text": "It dropped from Klee's backpack, so I thought it might contain some ancient knowledge, but..."
+                },
+                {
+                    "id": "105020404",
+                    "speaker": "Mona",
+                    "text": "Never mind that. So, did you find the box?"
+                },
+                {
+                    "id": "105020405",
+                    "speaker": "Klee",
+                    "text": "We did. It's in perfect shape!"
+                },
+                {
+                    "id": "105020406",
+                    "speaker": "Mona",
+                    "text": "That's wonderful— Wait a moment... Wh—Why isn't it locked!? And... why is it empty!?"
+                },
+                {
+                    "id": "105020407",
+                    "speaker": "Paimon",
+                    "text": "Ehhh!?"
+                },
+                {
+                    "id": "105020408",
+                    "speaker": "Klee",
+                    "text": "Well... it's because I borrowed this box to store my treasures."
+                },
+                {
+                    "id": "105020409",
+                    "speaker": "Mona",
+                    "text": "Borrowed!?"
+                },
+                {
+                    "id": "105020410",
+                    "speaker": "Klee",
+                    "text": "But since you're here for the box, I took all my treasures out. That's why it's empty."
+                },
+                {
+                    "id": "105020411",
+                    "speaker": "Mona",
+                    "text": "You used it to store your things!? Th—Then where are the original contents of the box? That's what I want."
+                },
+                {
+                    "id": "105020412",
+                    "speaker": "Klee",
+                    "text": "Oh. You want the thing that used to be in the box? ...You should've said so."
+                },
+                {
+                    "id": "105020413",
+                    "speaker": "Mona",
+                    "text": "You haven't... broken it, have you?"
+                },
+                {
+                    "id": "105020414",
+                    "speaker": "Klee",
+                    "text": "No! It's not broken at all!"
+                },
+                {
+                    "id": "105020415",
+                    "speaker": "Mona",
+                    "text": "Phew..."
+                },
+                {
+                    "id": "105020416",
+                    "speaker": "Klee",
+                    "text": "It's the book in your hand."
+                },
+                {
+                    "id": "105020417",
+                    "speaker": "Mona",
+                    "text": "Whaaaaaaat—!?"
+                },
+                {
+                    "id": "105020418",
+                    "speaker": "Mona",
+                    "text": "Th—This... So this book, this diary... is that hag's... It's her diary from 50 years ago!?"
+                },
+                {
+                    "id": "105020419",
+                    "speaker": "Mona",
+                    "text": "The thing she wanted back after 50 years was the dark history of her youth?"
+                },
+                {
+                    "id": "105020420",
+                    "speaker": "Mona",
+                    "text": "Ah, I'm finished! No wonder... No wonder that old woman said that I should not look at it no matter what, or she'd rip me to shreds..."
+                },
+                {
+                    "id": "105020421",
+                    "speaker": "Klee",
+                    "text": "Am... Am I in trouble?"
+                },
+                {
+                    "id": "105020422",
+                    "speaker": "Klee",
+                    "text": "Ah! It was you who said you wanted the box. You didn't say anything about the thing inside!"
+                },
+                {
+                    "id": "105020423",
+                    "speaker": "Klee",
+                    "text": "I don't know anything. I'm leaving! Bye!",
+                    "choices": [
+                        {
+                            "id": "105020424",
+                            "text": "What a touching conclusion...",
+                            "response": [
+                                {
+                                    "id": "105020426",
+                                    "speaker": "Paimon",
+                                    "text": "Umm... Well, if you don't say anything, your master won't find out, will she?"
+                                },
+                                {
+                                    "id": "105020427",
+                                    "speaker": "Mona",
+                                    "text": "Impossible. Astrology can see through all lies — you've seen it yourself."
+                                },
+                                {
+                                    "id": "105020428",
+                                    "speaker": "Mona",
+                                    "text": "*sigh* After having spent all my Mora to come to Mondstadt, not only have I gained no knowledge, but now I can't return... How did it come to this..."
+                                },
+                                {
+                                    "id": "105020429",
+                                    "speaker": "Paimon",
+                                    "text": "That's so sad... Maybe you could forget everything in that book, and then go back?"
+                                },
+                                {
+                                    "id": "105020430",
+                                    "speaker": "Mona",
+                                    "text": "That's... too difficult. And even if I wanted to stay in Mondstadt, it would be...",
+                                    "choices": [
+                                        {
+                                            "id": "105020431",
+                                            "text": "Too embarrassing?",
+                                            "response": [
+                                                {
+                                                    "id": "105020432",
+                                                    "speaker": "Mona",
+                                                    "text": "Yes. How can I maintain a proper astrologist's mentality if I stay with all these philistines?"
+                                                },
+                                                {
+                                                    "id": "105020435",
+                                                    "speaker": "Paimon",
+                                                    "text": "Well, then you'll just have to go back and face your master."
+                                                },
+                                                {
+                                                    "id": "105020436",
+                                                    "speaker": "Mona",
+                                                    "text": "S—Stop talking about it! I... I guess I'll have to..."
+                                                },
+                                                {
+                                                    "id": "105020437",
+                                                    "speaker": "Mona",
+                                                    "text": "I'll just have to stay in Mondstadt temporarily. Once that old crone's reached the end of her days, I'll be free.",
+                                                    "choices": [
+                                                        {
+                                                            "id": "105020438",
+                                                            "text": "An intimidating resolution.",
+                                                            "response": [
+                                                                {
+                                                                    "id": "105020440",
+                                                                    "speaker": "Mona",
+                                                                    "text": "But what will I do about my astrology research? ...No, wait, I don't even have a place to stay."
+                                                                },
+                                                                {
+                                                                    "id": "105020441",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "About that, we can go ask <color=#00E1FFFF>Katheryne at the Adventurers' Guild</color>. Let's see if she can help."
+                                                                },
+                                                                {
+                                                                    "id": "105020442",
+                                                                    "speaker": "Mona",
+                                                                    "text": "The Adventurers' Guild? Ah, right, you can do commissions for them in exchange for... you know what I mean, don't you?",
+                                                                    "choices": [
+                                                                        {
+                                                                            "id": "105020443",
+                                                                            "text": "Of course.",
+                                                                            "response": [
+                                                                                {
+                                                                                    "id": "105020445",
+                                                                                    "speaker": "Mona",
+                                                                                    "text": "Oh. Um, thanks. I... Never mind, it's nothing."
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        {
+                                                                            "id": "105020444",
+                                                                            "text": "That was always the plan."
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "id": "105020439",
+                                                            "text": "Does that really count as \"temporary\"?"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "105020433",
+                                            "text": "Too expensive?",
+                                            "response": [
+                                                {
+                                                    "id": "105020434",
+                                                    "speaker": "Mona",
+                                                    "text": "Yes— I mean, no! You really have no way with words."
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "105020425",
+                            "text": "There's no point getting mad at Klee."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "1050208",
+            "objective": "Speak to Katheryne and help Mona find a place to stay",
+            "dialogues": []
+        },
+        {
+            "id": "1050209",
+            "objective": "Head to the magical laboratory and check the seal",
+            "dialogues": []
+        },
+        {
+            "id": "1050211",
+            "objective": "Talk to Mona",
+            "dialogues": [
+                {
+                    "id": "105020601",
+                    "speaker": "Mona",
+                    "text": "The person who placed this seal... is by no means simple. Breaking this seal by force is nigh on impossible."
+                },
+                {
+                    "id": "105020602",
+                    "speaker": "Mona",
+                    "text": "Interesting. I suppose it's worth using my astrology on."
+                },
+                {
+                    "id": "105020603",
+                    "speaker": "Mona",
+                    "text": "Let me see... Hmm, I see, so if you first... ...and then you..."
+                },
+                {
+                    "id": "105020604",
+                    "speaker": "Mona",
+                    "text": "Alright, it's open."
+                },
+                {
+                    "id": "105020605",
+                    "speaker": "Paimon",
+                    "text": "Holy moly, that's amazing!"
+                },
+                {
+                    "id": "105020606",
+                    "speaker": "Paimon",
+                    "text": "Now we just need to go back to Katheryne, and you'll be able to stay here!"
+                },
+                {
+                    "id": "105020607",
+                    "speaker": "Goth",
+                    "text": "No need, no need, you have my utmost thanks."
+                },
+                {
+                    "id": "105020608",
+                    "speaker": "Mona",
+                    "text": "You are...?"
+                },
+                {
+                    "id": "105020609",
+                    "speaker": "Goth",
+                    "text": "Oh, I'm Goth, the owner of this house. I passed by the Adventurers' Guild a while back, and Katheryne told me about the matter."
+                },
+                {
+                    "id": "105020610",
+                    "speaker": "Goth",
+                    "text": "I never thought this troublesome seal would be dispelled so quickly!"
+                },
+                {
+                    "id": "105020611",
+                    "speaker": "Mona",
+                    "text": "Does that mean I can stay here?"
+                },
+                {
+                    "id": "105020612",
+                    "speaker": "Goth",
+                    "text": "Of course, of course. The facilities inside were just being left there, anyway. I would be glad to have someone make use of them."
+                },
+                {
+                    "id": "105020613",
+                    "speaker": "Goth",
+                    "text": "To express my thanks, I shall rent this building to you at the lowest possible price!"
+                },
+                {
+                    "id": "105020614",
+                    "speaker": "Mona",
+                    "text": "R—Rent?"
+                },
+                {
+                    "id": "105020615",
+                    "speaker": "Mona",
+                    "text": "I didn't hear anything about rent, and I helped out, too..."
+                },
+                {
+                    "id": "105020616",
+                    "speaker": "Goth",
+                    "text": "Yes, of course, I understand. I am most thankful to you for that, so rest assured that I will give you the best rates!"
+                },
+                {
+                    "id": "105020617",
+                    "speaker": "Mona",
+                    "text": "I... I mean..."
+                },
+                {
+                    "id": "105020618",
+                    "speaker": "Paimon",
+                    "text": "Paimon thinks Mona's misunderstood something, but...",
+                    "choices": [
+                        {
+                            "id": "105020619",
+                            "text": "This might be her best option.",
+                            "response": [
+                                {
+                                    "id": "105020621",
+                                    "speaker": "Mona",
+                                    "text": "*sigh* I guess I don't have any other choice. I'll rent this place."
+                                },
+                                {
+                                    "id": "105020622",
+                                    "speaker": "Goth",
+                                    "text": "Great! Then we are agreed. I will go prepare the documentation, please wait here."
+                                },
+                                {
+                                    "id": "105020623",
+                                    "speaker": "Mona",
+                                    "text": "Thanks for your help. Also, well, I'm very sorry, but I won't be able to do what I agreed to help you with just yet."
+                                },
+                                {
+                                    "id": "105020624",
+                                    "speaker": "Mona",
+                                    "text": "Without the necessary tools, and without new knowledge, it will take me some time to see your destiny clearly."
+                                },
+                                {
+                                    "id": "105020625",
+                                    "speaker": "Mona",
+                                    "text": "But I promise that I'll do a reading for you first thing once I'm ready!",
+                                    "choices": [
+                                        {
+                                            "id": "105020626",
+                                            "text": "As you said, this journey was all gain and no loss.",
+                                            "response": [
+                                                {
+                                                    "id": "105020627",
+                                                    "speaker": "Mona",
+                                                    "text": "Thank you. Our traveling together was fate — and of the good kind, I'd say."
+                                                },
+                                                {
+                                                    "id": "105020630",
+                                                    "speaker": "Mona",
+                                                    "text": "I wish you both safe travels! As for me... I need to think of the future as well."
+                                                },
+                                                {
+                                                    "id": "105020631",
+                                                    "speaker": "Paimon",
+                                                    "text": "How is she going to make a living if she doesn't use astrology to make money?"
+                                                },
+                                                {
+                                                    "id": "105020632",
+                                                    "speaker": "Paimon",
+                                                    "text": "Maybe we should come back to check on her once in a while. It would really be bad if she fainted from hunger in there..."
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "105020628",
+                                            "text": "Guess you've got to keep working at it, then.",
+                                            "response": [
+                                                {
+                                                    "id": "105020629",
+                                                    "speaker": "Mona",
+                                                    "text": "Yes... I don't really know what to do, but... I'll do my best."
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "105020620",
+                            "text": "Save a little here, scrimp a little there, and you'll be fine."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "1050207",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "105020701",
+                    "speaker": "Mona",
+                    "text": "That box is really important to me..."
+                },
+                {
+                    "id": "105020702",
+                    "speaker": "Mona",
+                    "text": "If anything were to happen to it, I wouldn't be able to report back to that old crone..."
+                }
+            ]
+        }
+    ]
+}

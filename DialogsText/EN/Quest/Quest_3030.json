@@ -1,0 +1,860 @@
+{
+    "quest": {
+        "id": "3030",
+        "title": "A Dance of Destruction",
+        "description": "The Balladeer has caused a series of unexpected consequences within Irminsul, and you're the only one aware of that. In order to ascertain the situation, you head off to Inazuma...",
+        "rewards": [
+            {
+                "itemId": 102,
+                "count": 500
+            },
+            {
+                "itemId": 202,
+                "count": 22000
+            },
+            {
+                "itemId": 104003,
+                "count": 2
+            },
+            {
+                "itemId": 104013,
+                "count": 4
+            }
+        ],
+        "rewards_formatted": "Adventure EXP x500, Mora x22000, Hero's Wit x2, Mystic Enhancement Ore x4",
+        "chapter": {
+            "icon": "UI_ChapterIcon_Sumeru",
+            "id": "1307",
+            "num": "Interlude Chapter: Act III",
+            "title": "Inversion of Genesis"
+        },
+        "total_dialogue_lines": 150,
+        "total_speaker_counts": {
+            "Amenoma Tougo": 27,
+            "Furuta": 22,
+            "Hirotatsu": 7,
+            "Paimon": 34,
+            "Player": 36,
+            "Xavier": 24
+        }
+    },
+    "talks": [
+        {
+            "id": "303002",
+            "objective": "Talk to Amenoma Tougo",
+            "dialogues": [
+                {
+                    "id": "30300201",
+                    "speaker": "Paimon",
+                    "text": "We've made it to Amenoma Smithy!"
+                },
+                {
+                    "id": "30300202",
+                    "speaker": "Amenoma Tougo",
+                    "text": "Ah, it's been a while."
+                },
+                {
+                    "id": "30300203",
+                    "speaker": "Player",
+                    "text": "Pardon me. I'd like to ask a question, if I may."
+                },
+                {
+                    "id": "30300204",
+                    "speaker": "Amenoma Tougo",
+                    "text": "Of course, go ahead.",
+                    "choices": [
+                        {
+                            "id": "30300205",
+                            "text": "About the \"Raiden Gokaden\"...",
+                            "response": [
+                                {
+                                    "id": "30300207",
+                                    "speaker": "Amenoma Tougo",
+                                    "text": "Oh, now there's a question I wasn't expecting... Very well, I'll tell you what I know once more."
+                                },
+                                {
+                                    "id": "30300208",
+                                    "speaker": "Amenoma Tougo",
+                                    "text": "The once-renowned \"Raiden Gokaden\" comprised of five branches: Amenoma, Futsu, Isshin, Hyakume, and Senju."
+                                },
+                                {
+                                    "id": "30300209",
+                                    "speaker": "Amenoma Tougo",
+                                    "text": "The art of forging practiced by these five clans was first taught to them personally by the Almighty Shogun. Over time, the five branches diverged from one another as generations of bladesmiths honed and perfected their craft, until they became five distinct traditions."
+                                },
+                                {
+                                    "id": "30300210",
+                                    "speaker": "Amenoma Tougo",
+                                    "text": "Most of the great swordsmith clans of old have since fallen into decline, and for a long time, only the Amenoma branch kept its art alive."
+                                },
+                                {
+                                    "id": "30300211",
+                                    "speaker": "Amenoma Tougo",
+                                    "text": "But fortunately, Kaedehara Kazuha recently returned to Inazuma and took up the mantle of the Isshin Art. Now, two clans remain of the original Gokaden five."
+                                },
+                                {
+                                    "id": "30300212",
+                                    "speaker": "Amenoma Tougo",
+                                    "text": "...If my memory serves me right, you yourself were present when he forged the Isshin blade."
+                                },
+                                {
+                                    "id": "30300213",
+                                    "speaker": "Paimon",
+                                    "text": "Oh yeah, we were! Paimon remembers that now."
+                                },
+                                {
+                                    "id": "30300214",
+                                    "speaker": "Paimon",
+                                    "text": "We learned a bit about the decline of the Raiden Gokaden then, too. It seems like such a shame..."
+                                },
+                                {
+                                    "id": "30300215",
+                                    "speaker": "Player",
+                                    "text": "What was the reason behind their decline...?"
+                                },
+                                {
+                                    "id": "30300216",
+                                    "speaker": "Amenoma Tougo",
+                                    "text": "...*sigh* That, my friends, is a tragic tale indeed."
+                                },
+                                {
+                                    "id": "30300217",
+                                    "speaker": "Amenoma Tougo",
+                                    "text": "In fact, this was not made known to me for most of my life. All these years, I knew of those great clans' demise, but never the cause... Only recently, when the question was on my mind, did I ask Kaedehara Kazuha about this."
+                                },
+                                {
+                                    "id": "30300218",
+                                    "speaker": "Amenoma Tougo",
+                                    "text": "He told me that, as we are both heirs to a branch of the Raiden Gokaden, it was right that I should know the truth."
+                                },
+                                {
+                                    "id": "30300219",
+                                    "speaker": "Amenoma Tougo",
+                                    "text": "...There is no harm in telling you, but I must warn you... it is a dark and sorrowful tale."
+                                },
+                                {
+                                    "id": "30300220",
+                                    "speaker": "Amenoma Tougo",
+                                    "text": "The Raiden Gokaden were the targets of a murderous rampage by a vengeful bladesmith."
+                                },
+                                {
+                                    "id": "30300221",
+                                    "speaker": "Paimon",
+                                    "text": "Vengeful? Why?"
+                                },
+                                {
+                                    "id": "30300222",
+                                    "speaker": "Amenoma Tougo",
+                                    "text": "Four hundred years ago, so I'm told, there was a catastrophic malfunction in Tatarasuna's furnace. One brave swordsmith heard the commotion and chose not to flee but he rushed to the scene, hoping to prevent a disaster..."
+                                },
+                                {
+                                    "id": "30300223",
+                                    "speaker": "Amenoma Tougo",
+                                    "text": "Tatarasuna was home to a state-of-the-art forging and smelting operation in that day, and overseeing it was the Armory Officer. His surname was Niwa, though he had family ties to the Kaedehara Clan."
+                                },
+                                {
+                                    "id": "30300224",
+                                    "speaker": "Amenoma Tougo",
+                                    "text": "Knowing that they had just one chance to save countless lives, Mr. Niwa and the swordsmith leaped together into the furnace. The furnace quickly stabilized, but... neither of them made it out."
+                                },
+                                {
+                                    "id": "30300225",
+                                    "speaker": "Amenoma Tougo",
+                                    "text": "The smith's death, though heroic, dealt a devastating blow to his family's fortunes. His orphaned son was left to fend for himself, and grew up deeply resentful at the world."
+                                },
+                                {
+                                    "id": "30300226",
+                                    "speaker": "Amenoma Tougo",
+                                    "text": "In his heart, the whole of Inazuma was culpable in his tragedy. He hated the Almighty Shogun for her apparent indifference toward his father's death, and he hated everyone who had done nothing to try and save him..."
+                                },
+                                {
+                                    "id": "30300227",
+                                    "speaker": "Amenoma Tougo",
+                                    "text": "Powerless and destitute, the only legacy he had to pass on to his children was his hatred. Generation after generation bore this grudge, living in utter misery."
+                                },
+                                {
+                                    "id": "30300228",
+                                    "speaker": "Amenoma Tougo",
+                                    "text": "Alas, if only the story could have ended there... But one hundred years ago, the then-head of this family reached the end of his wits... He could bear their fate no longer, and yet he could do nothing to change it."
+                                },
+                                {
+                                    "id": "30300229",
+                                    "speaker": "Amenoma Tougo",
+                                    "text": "Finally... he made a drastic decision: to take revenge on the Raiden Gokaden. In doing so, he sought to vent his pent-up anger and shake the very foundations of Inazuma's forging industry."
+                                },
+                                {
+                                    "id": "30300230",
+                                    "speaker": "Amenoma Tougo",
+                                    "text": "In his fury, he murdered indiscriminately, killing even bladesmiths from the Hyakume Clan which he belonged to. His goal was absolute: the devastation of all the Raiden Gokaden."
+                                },
+                                {
+                                    "id": "30300231",
+                                    "speaker": "Amenoma Tougo",
+                                    "text": "But when he came to the Kaedehara and Kamisato Clans, his killing spree came to an abrupt end. He failed to catch them unawares — they fought back fiercely, and they did not spare his life."
+                                },
+                                {
+                                    "id": "30300232",
+                                    "speaker": "Amenoma Tougo",
+                                    "text": "That is why the Kaedehara clan and their Isshin Art survived that day. *sigh* I suppose they were the lucky ones, under the dire circumstances."
+                                },
+                                {
+                                    "id": "30300233",
+                                    "speaker": "Player",
+                                    "text": "(The legend of the Raiden Gokaden has changed. Someone else attacked the swordsmiths...)"
+                                },
+                                {
+                                    "id": "30300234",
+                                    "speaker": "Player",
+                                    "text": "(It looks like The Balladeer did something in Irminsul, but... it seems Niwa still died.)"
+                                },
+                                {
+                                    "id": "30300235",
+                                    "speaker": "Paimon",
+                                    "text": "#{NICKNAME}, was there anything else you wanted to ask?"
+                                },
+                                {
+                                    "id": "30300236",
+                                    "speaker": "Player",
+                                    "text": "Have you seen Kazuha recently?"
+                                },
+                                {
+                                    "id": "30300237",
+                                    "speaker": "Amenoma Tougo",
+                                    "text": "Kazuha? Why yes, just yesterday, in fact. We spoke for a while over some tea. He seemed well."
+                                },
+                                {
+                                    "id": "30300238",
+                                    "speaker": "Player",
+                                    "text": "(Phew, so he still exists... and he's the same Kazuha I know. Things don't seem as bad as I feared last night.)"
+                                },
+                                {
+                                    "id": "30300239",
+                                    "speaker": "Player",
+                                    "text": "That's all. Thank you very much."
+                                },
+                                {
+                                    "id": "30300240",
+                                    "speaker": "Amenoma Tougo",
+                                    "text": "My pleasure."
+                                },
+                                {
+                                    "id": "30300241",
+                                    "speaker": "Paimon",
+                                    "text": "Don't tell Paimon — there are other places you wanna visit too, right? Hehehe, your expression says it all. You can't hide anything from Paimon!"
+                                },
+                                {
+                                    "id": "30300242",
+                                    "speaker": "Paimon",
+                                    "text": "On to the next stop! Lead the way, Traveler. Paimon will be right behind you."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "30300206",
+                            "text": "Could you tell me that story one more time?"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "303010",
+            "objective": "Go to the Yashiro Commission",
+            "dialogues": [
+                {
+                    "id": "30301201",
+                    "speaker": "Furuta",
+                    "text": "I mean it."
+                },
+                {
+                    "id": "30301202",
+                    "speaker": "Furuta",
+                    "text": "Whenever the Commissioner dines at home, Thoma always joins him. I always find myself at my most relaxed when I'm serving the two of them and listening to them chat away."
+                },
+                {
+                    "id": "30301203",
+                    "speaker": "Furuta",
+                    "text": "The Commissioner has such a busy schedule that he doesn't always have the chance to take his meals at home. But, given the opportunity, he always prefers to dine here."
+                },
+                {
+                    "id": "30301204",
+                    "speaker": "Furuta",
+                    "text": "They say it's because Thoma's a much better chef than most... Hehe, the Commissioner is so fond of home comforts."
+                },
+                {
+                    "id": "30301205",
+                    "speaker": "Furuta",
+                    "text": "They get to talking about you sometimes too, you know. Always with a very fond tone... the way one would talk about dear old friends around whom one can truly be themselves."
+                },
+                {
+                    "id": "30301206",
+                    "speaker": "Furuta",
+                    "text": "Miss Kamisato occasionally joins them as well. Whenever the whole family gets together, and they start talking about people they've met and experiences they've had, you always get a mention."
+                },
+                {
+                    "id": "30301207",
+                    "speaker": "Furuta",
+                    "text": "...It's been many years now since the late Mr. and Mrs. Kamisato passed away. Much has happened in the Kamisato Clan in that time."
+                },
+                {
+                    "id": "30301208",
+                    "speaker": "Furuta",
+                    "text": "As someone who is old and gray enough to have watched their son and daughter grow up, it makes me so happy to see them meet a dependable friend whose company they enjoy so much."
+                },
+                {
+                    "id": "30301209",
+                    "speaker": "Furuta",
+                    "text": "So in the future, if you ever do have the time, please know you are always very welcome at the Yashiro Commission headquarters. There will always be at least one old lady who would be delighted to have the pleasure of your company.",
+                    "choices": [
+                        {
+                            "id": "30301210",
+                            "text": "Thank you very much. I will visit again.",
+                            "response": [
+                                {
+                                    "id": "30301212",
+                                    "speaker": "Furuta",
+                                    "text": "Wonderful. Hehe, thank you."
+                                },
+                                {
+                                    "id": "30301213",
+                                    "speaker": "Paimon",
+                                    "text": "Paimon likes it here, too! Also... you were saying something about the food here being really great."
+                                },
+                                {
+                                    "id": "30301214",
+                                    "speaker": "Paimon",
+                                    "text": "Paimon's itching to try it. We may just have to invite ourselves around for dinner sometime! ...Uh, Paimon meant we should come pay a visit again real soon! Ideally around dinnertime!"
+                                },
+                                {
+                                    "id": "30301215",
+                                    "speaker": "Furuta",
+                                    "text": "Of course. You're always welcome."
+                                },
+                                {
+                                    "id": "30301401",
+                                    "speaker": "Paimon",
+                                    "text": "Alright, goodbye for now! We're, uhh... Where are we going next?"
+                                },
+                                {
+                                    "id": "30301402",
+                                    "speaker": "Player",
+                                    "text": "Tatarasuna."
+                                },
+                                {
+                                    "id": "30301403",
+                                    "speaker": "Paimon",
+                                    "text": "Great. Goodbye, Ma'am! Don't worry, we'll see ourselves out!"
+                                },
+                                {
+                                    "id": "30301404",
+                                    "speaker": "Furuta",
+                                    "text": "Alright then, take care now. Hope to see you soon!"
+                                },
+                                {
+                                    "id": "30301405",
+                                    "speaker": "Hirotatsu",
+                                    "text": "Oh, are you two leaving already?"
+                                },
+                                {
+                                    "id": "30301406",
+                                    "speaker": "Paimon",
+                                    "text": "Yup, everything's taken care of now. Don't worry!"
+                                },
+                                {
+                                    "id": "30301407",
+                                    "speaker": "Hirotatsu",
+                                    "text": "Very well, safe travels. Goodbye."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "30301211",
+                            "text": "Thank you. The people of the Kamisato Clan are very dear friends to me."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "303004",
+            "objective": "Go to Tatarasuna to look for clues",
+            "dialogues": []
+        },
+        {
+            "id": "303006",
+            "objective": "Talk to Xavier",
+            "dialogues": [
+                {
+                    "id": "30300602",
+                    "speaker": "Xavier",
+                    "text": "Certainly do. I've researched the furnace here in some depth."
+                },
+                {
+                    "id": "30300603",
+                    "speaker": "Xavier",
+                    "text": "If there's anything you want to know, just ask away!"
+                },
+                {
+                    "id": "30300604",
+                    "speaker": "Player",
+                    "text": "How well do you understand the history of this area?"
+                },
+                {
+                    "id": "30300605",
+                    "speaker": "Xavier",
+                    "text": "Like the back of my hand, haha! Make no mistake, I have been here a good many times before."
+                },
+                {
+                    "id": "30300606",
+                    "speaker": "Xavier",
+                    "text": "Not only that, but I've met people in Inazuma whose families used to live in Tatarasuna years ago. They said it's all true, the history here."
+                },
+                {
+                    "id": "30300607",
+                    "speaker": "Player",
+                    "text": "Go on, I'm listening."
+                },
+                {
+                    "id": "30300608",
+                    "speaker": "Xavier",
+                    "text": "Hmm? Oh, well, uh... It's a long story, don't you know? The tale of Tatarasuna starts a long time ago."
+                },
+                {
+                    "id": "30300609",
+                    "speaker": "Xavier",
+                    "text": "I'm told that its history as one of the foremost forging and smelting operations in the nation goes back around a thousand years. Still, the furnace has had a couple of serious maintenance issues along the way..."
+                },
+                {
+                    "id": "30300610",
+                    "speaker": "Paimon",
+                    "text": "A couple? When, exactly?"
+                },
+                {
+                    "id": "30300611",
+                    "speaker": "Xavier",
+                    "text": "One was just in the last few years, the other was several hundred years ago. Fun fact — I'm not the first Fontaine tech guy to come and work on it, either. There was a guy back then, too."
+                },
+                {
+                    "id": "30300612",
+                    "speaker": "Xavier",
+                    "text": "They say he was a mechanic who consulted on a technology upgrade. Seems like the technological collaboration between our two nations goes back a long way, how about that!"
+                },
+                {
+                    "id": "30300613",
+                    "speaker": "Player",
+                    "text": "(\"Mechanic,\" huh? Looks like The Doctor still sabotaged the furnace, leading to all the ensuing chaos...)"
+                },
+                {
+                    "id": "30300614",
+                    "speaker": "Paimon",
+                    "text": "Hey, weren't you gonna ask Xavier something about Tatarasuna? C'mon, ask already."
+                },
+                {
+                    "id": "30300615",
+                    "speaker": "Player",
+                    "text": "I am."
+                },
+                {
+                    "id": "30300616",
+                    "speaker": "Xavier",
+                    "text": "Oh... I didn't realize you two were here for a history lesson."
+                },
+                {
+                    "id": "30300617",
+                    "speaker": "Paimon",
+                    "text": "Me neither... Paimon doesn't know what's gotten into this one today. Feels like we've been preparing for a history exam or something..."
+                },
+                {
+                    "id": "30300618",
+                    "speaker": "Xavier",
+                    "text": "Hmm? What brought this on? Did you just wake up today with a sudden burning desire for historical knowledge?"
+                },
+                {
+                    "id": "30300619",
+                    "speaker": "Player",
+                    "text": "Pretty much. So can I ask one more question?"
+                },
+                {
+                    "id": "30300620",
+                    "speaker": "Xavier",
+                    "text": "Sure, go ahead."
+                },
+                {
+                    "id": "30300621",
+                    "speaker": "Player",
+                    "text": "Have you ever heard of a \"kabukimono\" connected to Tatarasuna?"
+                },
+                {
+                    "id": "30300622",
+                    "speaker": "Xavier",
+                    "text": "A kabukimono? Hmm... No, I can't say that I have."
+                },
+                {
+                    "id": "30300623",
+                    "speaker": "Xavier",
+                    "text": "I do know the word — Inazuman for those eccentric types, who always go around dressed to the nines. Just the sort of person that I'd like to meet, actually."
+                },
+                {
+                    "id": "30300624",
+                    "speaker": "Xavier",
+                    "text": "But sadly, I've never had the pleasure, nor have I come across anything to do with a kabukimono where Tatarasuna is concerned."
+                },
+                {
+                    "id": "30300625",
+                    "speaker": "Player",
+                    "text": "(So there's no more kabukimono... Did The Balladeer really manage to erase himself from history completely?)"
+                },
+                {
+                    "id": "30300626",
+                    "speaker": "Player",
+                    "text": "(If so, he must have wanted to change the world and revert everything back to the way it was. But so far, it looks like the majority of changes have only affected himself.)"
+                },
+                {
+                    "id": "30300627",
+                    "speaker": "Player",
+                    "text": "Thank you, Xavier."
+                },
+                {
+                    "id": "30300628",
+                    "speaker": "Xavier",
+                    "text": "Of course. Don't mention it."
+                },
+                {
+                    "id": "30300629",
+                    "speaker": "Paimon",
+                    "text": "Oh, we're leaving? Okay, bye, Xavier!"
+                },
+                {
+                    "id": "30300630",
+                    "speaker": "Xavier",
+                    "text": "Oh! You're most welcome. More than happy to help."
+                },
+                {
+                    "id": "30300631",
+                    "speaker": "Xavier",
+                    "text": "Farewell."
+                },
+                {
+                    "id": "30300632",
+                    "speaker": "Paimon",
+                    "text": "Looks like you got all the information you're looking for."
+                },
+                {
+                    "id": "30300633",
+                    "speaker": "Player",
+                    "text": "Time to go back and see Lesser Lord Kusanali."
+                },
+                {
+                    "id": "30300634",
+                    "speaker": "Paimon",
+                    "text": "Sure. But what's up with you today...? Whatever it is, it seems like it's really troubling you."
+                },
+                {
+                    "id": "30300635",
+                    "speaker": "Paimon",
+                    "text": "Keep your smile, Spinocrocodile! No matter what happens, Paimon will always be there for you.",
+                    "choices": [
+                        {
+                            "id": "30300636",
+                            "text": "...Alright.",
+                            "response": [
+                                {
+                                    "id": "30300637",
+                                    "speaker": "Paimon",
+                                    "text": "Come on, you gotta keep it together! Why don't you grab something to eat? You can't go facing life's challenges on an empty stomach!"
+                                },
+                                {
+                                    "id": "30300640",
+                                    "speaker": "Paimon",
+                                    "text": "Alright, let's head off and go meet Nahida!"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "30300638",
+                            "text": "Thank you, Paimon.",
+                            "response": [
+                                {
+                                    "id": "30300639",
+                                    "speaker": "Paimon",
+                                    "text": "Hey, don't mention it! Heehee."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "303008",
+            "objective": "",
+            "dialogues": [
+                {
+                    "id": "30300801",
+                    "speaker": "Xavier",
+                    "text": "Hm? Do I have company?"
+                },
+                {
+                    "id": "30300802",
+                    "speaker": "Paimon",
+                    "text": "What kind of person comes to a place like this and just spaces out...? Let's find out — c'mon, let's ask this guy!"
+                },
+                {
+                    "id": "30300803",
+                    "speaker": "Xavier",
+                    "text": "Hey! I wasn't spacing out! I was pondering some problems."
+                },
+                {
+                    "id": "30300804",
+                    "speaker": "Paimon",
+                    "text": "Sure you were... Your eyes were glazed over, dude. You were a million miles away!"
+                },
+                {
+                    "id": "30300805",
+                    "speaker": "Xavier",
+                    "text": "Huh? Why are you making fun of me? I told you, I wasn't spacing out. I was ruminating on some problems — technological, environmental, and so forth. This is Tatarasuna, after all."
+                },
+                {
+                    "id": "30300806",
+                    "speaker": "Paimon",
+                    "text": "Oh, he said Tatarasuna. Looks like we came to the right person."
+                },
+                {
+                    "id": "30300807",
+                    "speaker": "Xavier",
+                    "text": "Oh? Is there something you want to know about Tatarasuna?"
+                },
+                {
+                    "id": "30300808",
+                    "speaker": "Player",
+                    "text": "How should I address you?"
+                },
+                {
+                    "id": "30300809",
+                    "speaker": "Xavier",
+                    "text": "My name's Xavier."
+                },
+                {
+                    "id": "30300601",
+                    "speaker": "Player",
+                    "text": "Do you know much about Tatarasuna?"
+                }
+            ]
+        },
+        {
+            "id": "303007",
+            "objective": "",
+            "dialogues": [
+                {
+                    "id": "30300701",
+                    "speaker": "Paimon",
+                    "text": "Well, here we are, but what are we looking for? Something? Or someone?"
+                },
+                {
+                    "id": "30300702",
+                    "speaker": "Xavier",
+                    "text": "#Do my eyes deceive me? Or is that {NICKNAME} and Paimon?"
+                },
+                {
+                    "id": "30300703",
+                    "speaker": "Paimon",
+                    "text": "Xavier? What are you doing here?"
+                },
+                {
+                    "id": "30300704",
+                    "speaker": "Xavier",
+                    "text": "I was in the general area, and... now I'm in this specific area. There, that's me — so what about you two?"
+                },
+                {
+                    "id": "30300705",
+                    "speaker": "Paimon",
+                    "text": "We have some questions, and thought you might be able to help."
+                }
+            ]
+        },
+        {
+            "id": "303010",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "30301001",
+                    "speaker": "Paimon",
+                    "text": "We're here! Um... This is the Yashiro Commission's headquarters, so..."
+                },
+                {
+                    "id": "30301002",
+                    "speaker": "Hirotatsu",
+                    "text": "#{NICKNAME}, it's been a while."
+                },
+                {
+                    "id": "30301003",
+                    "speaker": "Player",
+                    "text": "Hello."
+                },
+                {
+                    "id": "30301004",
+                    "speaker": "Hirotatsu",
+                    "text": "If you're looking for the Commissioner and Miss Kamisato, I'm afraid your timing is unfortunate. They're not here right now..."
+                },
+                {
+                    "id": "30301005",
+                    "speaker": "Paimon",
+                    "text": "Are they out on business?"
+                },
+                {
+                    "id": "30301006",
+                    "speaker": "Hirotatsu",
+                    "text": "The Commissioner is out on business, and Miss Kamisato is standing in for some meetings in the Commissioner's place. If it's urgent, you're welcome to wait inside until they get back."
+                },
+                {
+                    "id": "30301007",
+                    "speaker": "Paimon",
+                    "text": "Whaddya think? Shall we go in?"
+                },
+                {
+                    "id": "30301008",
+                    "speaker": "Player",
+                    "text": "Thank you. We'll take you up on that offer."
+                },
+                {
+                    "id": "30301009",
+                    "speaker": "Player",
+                    "text": "Can we take a walk in the courtyard?"
+                },
+                {
+                    "id": "30301010",
+                    "speaker": "Hirotatsu",
+                    "text": "If it were anyone else, I couldn't allow it. But seeing as you're so close with the Commissioner and Miss Kamisato, I think it should be okay."
+                },
+                {
+                    "id": "30301011",
+                    "speaker": "Paimon",
+                    "text": "We'll be heading in then. Thanks!"
+                },
+                {
+                    "id": "30301012",
+                    "speaker": "Furuta",
+                    "text": "Hmm? Hello, dears... Is there something you want to say?"
+                },
+                {
+                    "id": "30301013",
+                    "speaker": "Player",
+                    "text": "Ma'am, can I ask you a couple of questions?"
+                },
+                {
+                    "id": "30301014",
+                    "speaker": "Furuta",
+                    "text": "#Hehe, of course, {NICKNAME}. Yes, I know who you are... Miss Kamisato has told me about you."
+                },
+                {
+                    "id": "30301015",
+                    "speaker": "Furuta",
+                    "text": "What would you like to know?"
+                },
+                {
+                    "id": "30301016",
+                    "speaker": "Player",
+                    "text": "How are the Commissioner and Miss Kamisato these days?"
+                },
+                {
+                    "id": "30301017",
+                    "speaker": "Furuta",
+                    "text": "Oh, they're both very well indeed. Lately, Miss Kamisato has been rather busy attending all kinds of meetings, and occasionally paying visits to some local organizations on the Commissioner's behalf..."
+                },
+                {
+                    "id": "30301018",
+                    "speaker": "Furuta",
+                    "text": "As for the Commissioner himself... Well, you know. Busy as ever, that much hasn't changed. Although, he does seem to be in a rather good mood these days."
+                },
+                {
+                    "id": "30301019",
+                    "speaker": "Paimon",
+                    "text": "So pretty much business as usual in the Yashiro Commission, huh?"
+                },
+                {
+                    "id": "30301020",
+                    "speaker": "Furuta",
+                    "text": "Very much so."
+                },
+                {
+                    "id": "30301021",
+                    "speaker": "Player",
+                    "text": "(Ayato is still the Yashiro Commissioner, Ayaka is still the lady of the house... No changes there.)"
+                },
+                {
+                    "id": "30301022",
+                    "speaker": "Player",
+                    "text": "(As far as I can see, nothing's changed in the Yashiro Commission, either...)"
+                },
+                {
+                    "id": "30301023",
+                    "speaker": "Player",
+                    "text": "(I was expecting as much, but it's still a big relief to know that the Kamisato siblings are both safe and well.)"
+                },
+                {
+                    "id": "30301024",
+                    "speaker": "Paimon",
+                    "text": "Well? Got any more questions?"
+                },
+                {
+                    "id": "30301025",
+                    "speaker": "Player",
+                    "text": "That's all for now. Many thanks."
+                },
+                {
+                    "id": "30301026",
+                    "speaker": "Furuta",
+                    "text": "You're very welcome. In fact, I would love nothing more than for you to come and visit more often, but I'm sure you must be far too busy to have time for that."
+                },
+                {
+                    "id": "30301027",
+                    "speaker": "Furuta",
+                    "text": "Miss Kamisato talks about you all the time. She seems so thrilled to have you as a friend, and she's always saying how talented you are, and how much she admires you."
+                },
+                {
+                    "id": "30301028",
+                    "speaker": "Furuta",
+                    "text": "I must say, many things in Inazuma seem to have taken a turn for the better since you arrived here. So you're not just Miss Kamisato's knight in shining armor, you know... you're a hero to us all."
+                },
+                {
+                    "id": "30301029",
+                    "speaker": "Player",
+                    "text": "I'm flattered."
+                }
+            ]
+        },
+        {
+            "id": "303015",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "30301501",
+                    "speaker": "Amenoma Tougo",
+                    "text": "*sigh* Whenever I'm reminded of what happened back then, it always weighs on my heart..."
+                }
+            ]
+        },
+        {
+            "id": "303016",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "30301601",
+                    "speaker": "Furuta",
+                    "text": "Look after yourselves, won't you? Take care, now."
+                }
+            ]
+        },
+        {
+            "id": "303017",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "30301701",
+                    "speaker": "Hirotatsu",
+                    "text": "Safe travels. Goodbye."
+                }
+            ]
+        }
+    ]
+}

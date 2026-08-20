@@ -1,0 +1,1838 @@
+{
+    "quest": {
+        "id": "13011",
+        "title": "All Returns to Silence",
+        "description": "It seems that even a matra is involved in the Canned Knowledge smuggling. Cyno decided to let you take the secret letter back to the Akademiya and enter the Restricted Repository to procure information.",
+        "rewards": [
+            {
+                "itemId": 102,
+                "count": 625
+            },
+            {
+                "itemId": 201,
+                "count": 60
+            },
+            {
+                "itemId": 202,
+                "count": 38100
+            },
+            {
+                "itemId": 104330,
+                "count": 5
+            },
+            {
+                "itemId": 363329,
+                "count": 1
+            },
+            {
+                "itemId": 104003,
+                "count": 4
+            },
+            {
+                "itemId": 104013,
+                "count": 8
+            }
+        ],
+        "rewards_formatted": "Adventure EXP x625, Primogem x60, Mora x38100, Guide to Admonition x5, Unknown Item #363329 x1, Hero's Wit x4, Mystic Enhancement Ore x8",
+        "chapter": {
+            "icon": "UI_ChapterIcon_Cyno",
+            "id": "2032",
+            "num": "Lupus Aureus Chapter: Act I",
+            "title": "Sands of Solitude"
+        },
+        "total_dialogue_lines": 311,
+        "total_speaker_counts": {
+            "Badr": 4,
+            "Bahari": 3,
+            "Black Screen": 5,
+            "Cyno": 62,
+            "Jehnam": 2,
+            "Mechanical Life Forms Research Data": 1,
+            "Nabil": 67,
+            "Paimon": 41,
+            "Payam": 9,
+            "Player": 28,
+            "Secret Text Interpretation Manual": 1,
+            "Simin": 1,
+            "Taj Radkani": 43,
+            "Tighnari": 13,
+            "Usem": 5,
+            "Utayba": 26
+        }
+    },
+    "talks": [
+        {
+            "id": "1301101",
+            "objective": "Bring Cyno's introduction letter to Nabil",
+            "dialogues": [
+                {
+                    "id": "130110101",
+                    "speaker": "Nabil",
+                    "text": "Hello, we meet again."
+                },
+                {
+                    "id": "130110102",
+                    "speaker": "Nabil",
+                    "text": "How's the investigation going?"
+                },
+                {
+                    "id": "130110103",
+                    "speaker": "Black Screen",
+                    "text": "You give Nabil the letter from Cyno."
+                },
+                {
+                    "id": "130110104",
+                    "speaker": "Nabil",
+                    "text": "Oh, so you were able to find Cyno, after all! I hope he's doing alright.",
+                    "choices": [
+                        {
+                            "id": "130110115",
+                            "text": "He seemed pretty okay.",
+                            "response": [
+                                {
+                                    "id": "130110105",
+                                    "speaker": "Nabil",
+                                    "text": "I read the letter, and must admit that I hadn't expected things to be so serious... Sorry, had I known it would be so dangerous, I never would have gotten you two involved."
+                                },
+                                {
+                                    "id": "130110106",
+                                    "speaker": "Paimon",
+                                    "text": "It's alright, we wanted to help Cyno, too."
+                                },
+                                {
+                                    "id": "130110107",
+                                    "speaker": "Nabil",
+                                    "text": "Haha, I can tell that he really trusts you. The research files stored away in the Restricted Repository are far from ordinary. Everything there is essentially about dangerous research that's forbidden by the Akademiya."
+                                },
+                                {
+                                    "id": "130110108",
+                                    "speaker": "Nabil",
+                                    "text": "Even I don't usually have authorization to enter, but with this letter from Cyno, it shouldn't be a problem."
+                                },
+                                {
+                                    "id": "130110109",
+                                    "speaker": "Player",
+                                    "text": "Forbidden research..."
+                                },
+                                {
+                                    "id": "130110110",
+                                    "speaker": "Nabil",
+                                    "text": "That's right. Granted, the Akademiya is very supportive when it comes to research. They encourage scholars to conduct all kinds of studies."
+                                },
+                                {
+                                    "id": "130110111",
+                                    "speaker": "Nabil",
+                                    "text": "However, some forms of research have proven to be so dangerous that the matra have to step in and put a stop to them. Normally, after some particular research becomes prohibited, the majority of the related files will be destroyed."
+                                },
+                                {
+                                    "id": "130110112",
+                                    "speaker": "Nabil",
+                                    "text": "But some information may be retained as a record to warn later researchers. Such information is kept in the Restricted Repository, which is heavily guarded."
+                                },
+                                {
+                                    "id": "130110113",
+                                    "speaker": "Nabil",
+                                    "text": "Follow me, I'll show you. Hopefully, we'll find the answers that Cyno's looking for."
+                                },
+                                {
+                                    "id": "130110114",
+                                    "speaker": "Paimon",
+                                    "text": "The Restricted Repository... Uh, sounds kinda dangerous. We'd better keep an eye out."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "130110116",
+                            "text": "He's the same as always."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "1301123",
+            "objective": "",
+            "dialogues": [
+                {
+                    "id": "130112301",
+                    "speaker": "Jehnam",
+                    "text": "Didn't I tell you already? I haven't seen anything."
+                }
+            ]
+        },
+        {
+            "id": "1301102",
+            "objective": "Go to the repository to gather information",
+            "dialogues": [
+                {
+                    "id": "130110201",
+                    "speaker": "Black Screen",
+                    "text": "Nabil explains the situation to the repository's manager..."
+                },
+                {
+                    "id": "130110202",
+                    "speaker": "Utayba",
+                    "text": "Okay, I understand."
+                },
+                {
+                    "id": "130110203",
+                    "speaker": "Utayba",
+                    "text": "Since Cyno is vouching for you, I suppose we can trust you. You may browse the information regarding the Court of Desolation. Ask me if you have any questions."
+                },
+                {
+                    "id": "130110204",
+                    "speaker": "Utayba",
+                    "text": "But I'd suggest avoiding any other research files. Sometimes the less you know, the better."
+                }
+            ]
+        },
+        {
+            "id": "1301126",
+            "objective": "",
+            "dialogues": [
+                {
+                    "id": "130112601",
+                    "speaker": "Simin",
+                    "text": "I just want to get better... I don't want to be stuck at home by myself anymore."
+                }
+            ]
+        },
+        {
+            "id": "1301103",
+            "objective": "Go to the repository to gather information",
+            "dialogues": [
+                {
+                    "id": "130113001",
+                    "speaker": "Nabil",
+                    "text": "Huh, so this is the Restricted Repository... I never thought I'd see the inside of it. This is a first for both you and me.",
+                    "choices": [
+                        {
+                            "id": "130113002",
+                            "text": "All thanks to Cyno.",
+                            "response": [
+                                {
+                                    "id": "130113004",
+                                    "speaker": "Utayba",
+                                    "text": "There are many who do not openly converse with others within the Akademiya, but even so, there are very few who I feel could be trusted with a real secret. Cyno happens to be one of them."
+                                },
+                                {
+                                    "id": "130113005",
+                                    "speaker": "Utayba",
+                                    "text": "Even though he's no longer in the Akademiya, I still trust him, and that goes for anyone he trusts as well."
+                                },
+                                {
+                                    "id": "130113006",
+                                    "speaker": "Utayba",
+                                    "text": "The files are over there. Just make it quick."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "130113003",
+                            "text": "Do you also know Cyno, Utayba?"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "1301121",
+            "objective": "Search for clues in the repository",
+            "dialogues": [
+                {
+                    "id": "130110301",
+                    "speaker": "Paimon",
+                    "text": "#Whoa, there's a lot to read here... {NICKNAME}, have you found anything yet?",
+                    "choices": [
+                        {
+                            "id": "130110302",
+                            "text": "Murtada Radkani...",
+                            "response": [
+                                {
+                                    "id": "130110304",
+                                    "speaker": "Paimon",
+                                    "text": "Huh, it reminds Paimon of Cyno's former partner!"
+                                },
+                                {
+                                    "id": "130110305",
+                                    "speaker": "Utayba",
+                                    "text": "His former partner? That would be Taj Radkani. But you're not far off — Murtada Radkani was Taj's only son."
+                                },
+                                {
+                                    "id": "130110306",
+                                    "speaker": "Nabil",
+                                    "text": "What? Taj's son went to prison for researching the Court of Desolation!?"
+                                },
+                                {
+                                    "id": "130110307",
+                                    "speaker": "Paimon",
+                                    "text": "Why do you sound so surprised? You're a matra, aren't you?"
+                                },
+                                {
+                                    "id": "130110308",
+                                    "speaker": "Nabil",
+                                    "text": "It's just that... they arrested him in secret, so it was never publicly known. All I knew was that Taj's son was taken to prison. It's not just me, I bet even Cyno didn't know about it."
+                                },
+                                {
+                                    "id": "130110309",
+                                    "speaker": "Player",
+                                    "text": "Is there any way we could meet Murtada?"
+                                },
+                                {
+                                    "id": "130110310",
+                                    "speaker": "Utayba",
+                                    "text": "No, unfortunately, there isn't... He took his own life not long after he went to prison."
+                                },
+                                {
+                                    "id": "130110311",
+                                    "speaker": "Utayba",
+                                    "text": "You've heard about Taj right? I know Nabil has — every matra knows him."
+                                },
+                                {
+                                    "id": "130110312",
+                                    "speaker": "Utayba",
+                                    "text": "I would say he's probably pushing 50 this year, which makes him one of the most experienced matra. He is a man of integrity and honesty, and has made countless achievements. His reputation goes back a long way now."
+                                },
+                                {
+                                    "id": "130110313",
+                                    "speaker": "Utayba",
+                                    "text": "He used to be Cyno's only partner. Taj is also skilled with a polearm, so the two of them used to practice together when they weren't out on a mission."
+                                },
+                                {
+                                    "id": "130110314",
+                                    "speaker": "Nabil",
+                                    "text": "Ah, right, I heard Cyno mention that before. But one day, Taj suddenly decided to retire from active duty and transferred to an administrative position."
+                                },
+                                {
+                                    "id": "130110315",
+                                    "speaker": "Nabil",
+                                    "text": "I wonder if it had anything to do with the Murtada incident?"
+                                },
+                                {
+                                    "id": "130110316",
+                                    "speaker": "Utayba",
+                                    "text": "Taj was already very well-known by the time Murtada was born."
+                                },
+                                {
+                                    "id": "130110317",
+                                    "speaker": "Utayba",
+                                    "text": "So when Murtada came to study at the Akademiya, everyone had high expectations of him. He had to face a lot of pressure."
+                                },
+                                {
+                                    "id": "130110318",
+                                    "speaker": "Utayba",
+                                    "text": "Then he had an unpleasant dispute with his father, but they were eventually able to work things out. Not long after they had reconciled, Murtada was caught studying the Court of Desolation, which is in violation of Akademiya rules."
+                                },
+                                {
+                                    "id": "130110319",
+                                    "speaker": "Utayba",
+                                    "text": "Taj arrested his son and put him behind bars. He begged for leniency, but Taj wouldn't agree."
+                                },
+                                {
+                                    "id": "130110320",
+                                    "speaker": "Utayba",
+                                    "text": "Shortly after, Murtada slit his own throat with the pieces of a broken bowl... By the time Taj arrived at the scene, it was already too late. He never had a last chance to see his son."
+                                },
+                                {
+                                    "id": "130110321",
+                                    "speaker": "Utayba",
+                                    "text": "Since then, Taj has been periodically coming to the repository. He'll hold the files from his son's research with a remorseful look on his face. I guess that's why he chose to move to administrative work."
+                                },
+                                {
+                                    "id": "130110322",
+                                    "speaker": "Nabil",
+                                    "text": "I had no idea that happened. That must be really hard for Taj. I've never heard him mention that to anyone..."
+                                },
+                                {
+                                    "id": "130110323",
+                                    "speaker": "Paimon",
+                                    "text": "#Aww, that's awful, Paimon feels terrible now... Are you okay, {NICKNAME}?",
+                                    "choices": [
+                                        {
+                                            "id": "130110324",
+                                            "text": "You said Taj comes to the repository?",
+                                            "response": [
+                                                {
+                                                    "id": "130110326",
+                                                    "speaker": "Nabil",
+                                                    "text": "Wait, don't tell me you're starting to suspect Taj now!"
+                                                },
+                                                {
+                                                    "id": "130110327",
+                                                    "speaker": "Nabil",
+                                                    "text": "Impossible. Taj would never do that. I mean, yes, he does have a big reputation and has access to such research..."
+                                                },
+                                                {
+                                                    "id": "130110328",
+                                                    "speaker": "Nabil",
+                                                    "text": "But this is Taj we're talking about. He would never do anything against regulations. Never!"
+                                                },
+                                                {
+                                                    "id": "130110329",
+                                                    "speaker": "Utayba",
+                                                    "text": "But if you claim that the Canned Knowledge was originating from the Akademiya, then Taj is indeed a suspect."
+                                                },
+                                                {
+                                                    "id": "130110330",
+                                                    "speaker": "Utayba",
+                                                    "text": "Because he was the only one who could have recently gone through research files about the Court of Desolation."
+                                                },
+                                                {
+                                                    "id": "130110331",
+                                                    "speaker": "Utayba",
+                                                    "text": "There are so many files about those ruins that it would be difficult to restart any research, since the seven original researchers were put behind bars. It's hard enough just trying to make sense of these files."
+                                                },
+                                                {
+                                                    "id": "130110332",
+                                                    "speaker": "Utayba",
+                                                    "text": "However, if the files were made into Canned Knowledge, they could be understood immediately. By doing so, one could restart the research outside the Akademiya without anyone ever noticing."
+                                                },
+                                                {
+                                                    "id": "130110333",
+                                                    "speaker": "Nabil",
+                                                    "text": "But even so..."
+                                                },
+                                                {
+                                                    "id": "130110334",
+                                                    "speaker": "Utayba",
+                                                    "text": "According to the legends, the treasures inside the Court of Desolation could allow someone see beyond life and death, or even bring the dead back to life, right? So maybe Taj is trying to bring Murtada back."
+                                                },
+                                                {
+                                                    "id": "130110335",
+                                                    "speaker": "Utayba",
+                                                    "text": "Though, I don't really believe Taj would ever try to do something like that. I'm just telling you what I know. It's the job of the matra to find the truth and track down criminals."
+                                                },
+                                                {
+                                                    "id": "130110336",
+                                                    "speaker": "Utayba",
+                                                    "text": "Do you have any questions? If not, it'd be best if you would leave now."
+                                                },
+                                                {
+                                                    "id": "130110337",
+                                                    "speaker": "Paimon",
+                                                    "text": "#Uh, Paimon's kinda confused... {NICKNAME}, what should we do from here?"
+                                                },
+                                                {
+                                                    "id": "130110338",
+                                                    "speaker": "Player",
+                                                    "text": "Let's go ask around somewhere else."
+                                                },
+                                                {
+                                                    "id": "130110339",
+                                                    "speaker": "Nabil",
+                                                    "text": "Oh! Now that I think about it, Cyno suspected that the Canned Knowledge was coming from within the Akademiya, right?"
+                                                },
+                                                {
+                                                    "id": "130110340",
+                                                    "speaker": "Nabil",
+                                                    "text": "There's no way so many boxes could ever get through without drawing any attention. Maybe we could try asking people around the gate of the Akademiya and see what we can find."
+                                                },
+                                                {
+                                                    "id": "130110341",
+                                                    "speaker": "Nabil",
+                                                    "text": "Don't worry, Taj. I won't let your reputation be tarnished!"
+                                                },
+                                                {
+                                                    "id": "130110342",
+                                                    "speaker": "Paimon",
+                                                    "text": "Alrighty then, let's go ask around!"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "130110325",
+                                            "text": "Taj has gone through Murtada's research files?"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "130110303",
+                            "text": "This researcher's name sounds familiar..."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "1301122",
+            "objective": "Leave Repository",
+            "dialogues": [
+                {
+                    "id": "130112201",
+                    "speaker": "Utayba",
+                    "text": "We have an alarm set behind the bookshelf for security purposes. Be careful not to bump it when you're taking out the files."
+                }
+            ]
+        },
+        {
+            "id": "1301104",
+            "objective": "Inquire about recent shipments",
+            "dialogues": [
+                {
+                    "id": "130110401",
+                    "speaker": "Nabil",
+                    "text": "Excuse me, have you seen any large shipments of goods leaving the Akademiya recently?"
+                },
+                {
+                    "id": "130110402",
+                    "speaker": "Jehnam",
+                    "text": "No, not that I'm aware of. Perhaps you could ask someone else?"
+                }
+            ]
+        },
+        {
+            "id": "1301105",
+            "objective": "Inquire about recent shipments",
+            "dialogues": [
+                {
+                    "id": "130110501",
+                    "speaker": "Nabil",
+                    "text": "Excuse me, have you seen any large shipments of goods leaving the Akademiya recently?"
+                },
+                {
+                    "id": "130110502",
+                    "speaker": "Badr",
+                    "text": "Huh? Well, yes, but isn't that pretty normal?"
+                },
+                {
+                    "id": "130110503",
+                    "speaker": "Badr",
+                    "text": "The Akademiya consumes so many resources each day, everything from cooking ingredients, raw materials, even equipment for experiments... It's normal for goods to be coming in and out."
+                },
+                {
+                    "id": "130110504",
+                    "speaker": "Paimon",
+                    "text": "Right, but we're looking for shipments with a matra seal. Have you seen any like that?"
+                },
+                {
+                    "id": "130110505",
+                    "speaker": "Badr",
+                    "text": "That I'm not too sure of... I normally wouldn't notice whether the goods have any seals or not. Maybe you should ask someone else."
+                }
+            ]
+        },
+        {
+            "id": "1301106",
+            "objective": "",
+            "dialogues": [
+                {
+                    "id": "130110601",
+                    "speaker": "Nabil",
+                    "text": "Excuse me, have you seen any large shipments of goods leaving the Akademiya recently?"
+                },
+                {
+                    "id": "130110602",
+                    "speaker": "Payam",
+                    "text": "Huh? Why do you ask?"
+                },
+                {
+                    "id": "130110603",
+                    "speaker": "Nabil",
+                    "text": "I'm just checking to ensure nothing unusual has happened."
+                },
+                {
+                    "id": "130110604",
+                    "speaker": "Payam",
+                    "text": "Well, I can't say it's unusual, but I did notice something."
+                },
+                {
+                    "id": "130110605",
+                    "speaker": "Payam",
+                    "text": "There's a Kshahrewar researcher who has been making frequent shipments recently. Dozens of large boxes each time, if not more."
+                },
+                {
+                    "id": "130110606",
+                    "speaker": "Payam",
+                    "text": "When I asked him about it, he said they just contained a bunch of old, worn-out machines. The Kshahrewar used to often sell scrap machines to traveling merchants, so I didn't really think anything of it."
+                },
+                {
+                    "id": "130110607",
+                    "speaker": "Payam",
+                    "text": "But he's been making a lot of shipments lately... There weren't ever so many outdated machines before."
+                },
+                {
+                    "id": "130110608",
+                    "speaker": "Nabil",
+                    "text": "And you didn't find that suspicious? Why didn't you report it for inspection?"
+                },
+                {
+                    "id": "130110609",
+                    "speaker": "Payam",
+                    "text": "Well, the boxes were stamped with a matra seal. Why should I bother?"
+                },
+                {
+                    "id": "130110610",
+                    "speaker": "Payam",
+                    "text": "Of course, I did start to wonder about the seal once, thinking that maybe they forged it or something, but you know what happened?"
+                },
+                {
+                    "id": "130110611",
+                    "speaker": "Payam",
+                    "text": "A man named Taj came here and told me that he had already inspected the goods personally, and ordered me to leave the researcher alone. I couldn't question his word, could I?"
+                },
+                {
+                    "id": "130110612",
+                    "speaker": "Nabil",
+                    "text": "Impossible. There must be some sort of mistake. There's no way Taj would ever..."
+                },
+                {
+                    "id": "130110613",
+                    "speaker": "Player",
+                    "text": "Just calm down, everyone."
+                },
+                {
+                    "id": "130110614",
+                    "speaker": "Nabil",
+                    "text": "No, I won't believe it! Taj is an honorable man. Someone must be trying to frame him!"
+                },
+                {
+                    "id": "130110615",
+                    "speaker": "Nabil",
+                    "text": "Wait, I know another matra who works with Taj. I can ask him to let us speak with Taj!"
+                },
+                {
+                    "id": "130110616",
+                    "speaker": "Black Screen",
+                    "text": "Nabil runs off and returns with someone shortly later."
+                },
+                {
+                    "id": "130110617",
+                    "speaker": "Usem",
+                    "text": "*sigh* As I've already told you, I don't have any way to contact Taj."
+                },
+                {
+                    "id": "130110618",
+                    "speaker": "Usem",
+                    "text": "A few Eremites showed up looking for Taj yesterday, and he met with them in his office. I was standing outside of the door, and I vaguely heard them say, \"found it.\""
+                },
+                {
+                    "id": "130110619",
+                    "speaker": "Usem",
+                    "text": "Before I realized it, the door opened and Taj left with the group of them. I noticed that he had also changed into Eremite attire."
+                },
+                {
+                    "id": "130110620",
+                    "speaker": "Usem",
+                    "text": "But Taj didn't come to work today, so I've also started to feel a little concerned about the whole thing. If you'd like to speak with him, maybe you can try visiting his home. He lives just on the outskirts of Sumeru City."
+                },
+                {
+                    "id": "130110621",
+                    "speaker": "Paimon",
+                    "text": "A group of Eremites... Could Taj really be the one making all the Canned Knowledge?"
+                },
+                {
+                    "id": "130110622",
+                    "speaker": "Nabil",
+                    "text": "N—No way... Taj is just like Cyno — they are considered heroes among the matra! There is no way that he would..."
+                },
+                {
+                    "id": "130110623",
+                    "speaker": "Player",
+                    "text": "Let's go to his home and have a look."
+                },
+                {
+                    "id": "130110624",
+                    "speaker": "Nabil",
+                    "text": "Fine. Looks like there's no other choice..."
+                },
+                {
+                    "id": "130110625",
+                    "speaker": "Paimon",
+                    "text": "Hey, don't let it get to ya just yet! We'll get to the bottom of this, once and for all!"
+                }
+            ]
+        },
+        {
+            "id": "1301107",
+            "objective": "Ask the guard for information",
+            "dialogues": []
+        },
+        {
+            "id": "1301108",
+            "objective": "Go to Taj's house and look for clues",
+            "dialogues": [
+                {
+                    "id": "130110701",
+                    "speaker": "Nabil",
+                    "text": "So this is Taj's place... Hmm, there doesn't seem to be anyone here."
+                },
+                {
+                    "id": "130110702",
+                    "speaker": "Paimon",
+                    "text": "Well, what should we do then? Do we break in?"
+                },
+                {
+                    "id": "130110703",
+                    "speaker": "Nabil",
+                    "text": "No, no... Wait, the door is unlocked! Did Taj leave in a hurry?"
+                },
+                {
+                    "id": "130110704",
+                    "speaker": "Nabil",
+                    "text": "Well anyway, we're still not sure if he's the real culprit. Probably not a good idea to go in without permission...",
+                    "choices": [
+                        {
+                            "id": "130110705",
+                            "text": "There's no other option, though.",
+                            "response": [
+                                {
+                                    "id": "130110707",
+                                    "speaker": "Nabil",
+                                    "text": "*sigh* You're right. Even if we apply for a warrant now, we won't be able to do anything until tomorrow at the earliest. This is an emergency. I just hope Taj doesn't mind."
+                                },
+                                {
+                                    "id": "130110708",
+                                    "speaker": "Black Screen",
+                                    "text": "You enter Taj's home and search around..."
+                                },
+                                {
+                                    "id": "130110709",
+                                    "speaker": "Nabil",
+                                    "text": "What's this...?"
+                                },
+                                {
+                                    "id": "130110710",
+                                    "speaker": "Paimon",
+                                    "text": "It's a paper full of names written on it. Oh, and a map... Nabil, can you make any sense of this?"
+                                },
+                                {
+                                    "id": "130110711",
+                                    "speaker": "Nabil",
+                                    "text": "Hmm, yes, this is definitely Taj's handwriting. These papers look like records..."
+                                },
+                                {
+                                    "id": "130110712",
+                                    "speaker": "Nabil",
+                                    "text": "These are transactions between Taj and some other people. From the look of the numbers, the scale of this smuggling case is absolutely massive."
+                                },
+                                {
+                                    "id": "130110713",
+                                    "speaker": "Nabil",
+                                    "text": "The whole operation involves more than 300 people, including dozens of celebrities! These are famous scholars, merchants, mercenaries..."
+                                },
+                                {
+                                    "id": "130110714",
+                                    "speaker": "Nabil",
+                                    "text": "I have a feeling that Cyno might be unaware of what he's up against. There's no way anyone could face such a large organization on their own!",
+                                    "choices": [
+                                        {
+                                            "id": "130110715",
+                                            "text": "Maybe he is aware of that.",
+                                            "response": [
+                                                {
+                                                    "id": "130110717",
+                                                    "speaker": "Nabil",
+                                                    "text": "You're right, that's just who he is."
+                                                },
+                                                {
+                                                    "id": "130110718",
+                                                    "speaker": "Nabil",
+                                                    "text": "As for the map, it appears to indicate the location of the Court of Desolation. Let's take it to Cyno and let him decide how to proceed."
+                                                },
+                                                {
+                                                    "id": "130110719",
+                                                    "speaker": "Nabil",
+                                                    "text": "If Taj really has turned on his honor and committed these terrible acts... then I suspect that he might already be at the Court of Desolation as we speak."
+                                                },
+                                                {
+                                                    "id": "130110720",
+                                                    "speaker": "Nabil",
+                                                    "text": "I don't wanna suspect him, but I also don't know him very well. Maybe Cyno will know what to do."
+                                                },
+                                                {
+                                                    "id": "130110721",
+                                                    "speaker": "Paimon",
+                                                    "text": "Alright, we'll give these to Cyno and see! Let's go!"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "130110716",
+                                            "text": "Even so, he won't back down."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "130110706",
+                            "text": "We have to do this in order to clear his name."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "1301110",
+            "objective": "Meet up with Cyno",
+            "dialogues": [
+                {
+                    "id": "130110801",
+                    "speaker": "Black Screen",
+                    "text": "You tell Cyno everything that's happened."
+                },
+                {
+                    "id": "130110802",
+                    "speaker": "Paimon",
+                    "text": "Well, Cyno, what do you make of it?"
+                },
+                {
+                    "id": "130110803",
+                    "speaker": "Cyno",
+                    "text": "Hmm, Taj... It's been a while since I last saw him."
+                },
+                {
+                    "id": "130110804",
+                    "speaker": "Cyno",
+                    "text": "From what I remember, he is a straitlaced man. Although he would resort to extreme measures from time to time, he would never do anything against his beliefs."
+                },
+                {
+                    "id": "130110805",
+                    "speaker": "Paimon",
+                    "text": "So do you think he's the one behind all this?"
+                },
+                {
+                    "id": "130110806",
+                    "speaker": "Cyno",
+                    "text": "I'm still not sure."
+                },
+                {
+                    "id": "130110807",
+                    "speaker": "Cyno",
+                    "text": "I cannot imagine how devastating the incident with Murtada was for him, nor can I deny the possibility that people can change."
+                },
+                {
+                    "id": "130110808",
+                    "speaker": "Cyno",
+                    "text": "Whether it's out of love for his son or for other reasons, we have to see for ourselves to judge him, or rather, the person he's become."
+                },
+                {
+                    "id": "130110809",
+                    "speaker": "Player",
+                    "text": "The evidence is stacked against him now."
+                },
+                {
+                    "id": "130110810",
+                    "speaker": "Cyno",
+                    "text": "That's right. It's clear that he had a hand in this case, yet he made no report of it. There's no doubting that."
+                },
+                {
+                    "id": "130110811",
+                    "speaker": "Cyno",
+                    "text": "That's also why I need to see him. I must ask his reasoning and judge him myself."
+                },
+                {
+                    "id": "130110812",
+                    "speaker": "Cyno",
+                    "text": "Time is ticking. Let's go."
+                }
+            ]
+        },
+        {
+            "id": "1301111",
+            "objective": "Find the Court of Desolation according to the instructions on the map",
+            "dialogues": [
+                {
+                    "id": "130111101",
+                    "speaker": "Cyno",
+                    "text": "Taj..."
+                },
+                {
+                    "id": "130111102",
+                    "speaker": "Taj Radkani",
+                    "text": "Ah, Cyno, it's been some time since I've seen you last. I trust you are doing well?"
+                },
+                {
+                    "id": "130111103",
+                    "speaker": "Taj Radkani",
+                    "text": "Seeing that you've made it all the way here, you must be on the cusp of wrapping up your investigation, I presume? Hmm, even faster than I expected. Is it because you have some new partners now?"
+                },
+                {
+                    "id": "130111104",
+                    "speaker": "Cyno",
+                    "text": "That's right, this case is nearly closed, but the most important answer still eludes me."
+                },
+                {
+                    "id": "130111105",
+                    "speaker": "Cyno",
+                    "text": "Was it all your doing? Smuggling the Canned Knowledge, the research of the Court of Desolation..."
+                },
+                {
+                    "id": "130111106",
+                    "speaker": "Taj Radkani",
+                    "text": "Yes, it was me."
+                },
+                {
+                    "id": "130111107",
+                    "speaker": "Cyno",
+                    "text": "Then explain why."
+                },
+                {
+                    "id": "130111108",
+                    "speaker": "Taj Radkani",
+                    "text": "That's the difficult part. Let's just say I've changed... I've become a selfish coward who only wants to pursue his own interests."
+                },
+                {
+                    "id": "130111109",
+                    "speaker": "Cyno",
+                    "text": "I find that hard to believe."
+                },
+                {
+                    "id": "130111110",
+                    "speaker": "Taj Radkani",
+                    "text": "Oh, really? The way I see it, every person will end up like me sooner or later."
+                },
+                {
+                    "id": "130111111",
+                    "speaker": "Taj Radkani",
+                    "text": "When you're young, you press forward, unattached, living solely for the justice in your heart. But as you begin to age, you start to become more cautious. You know many things are wrong, but still turn a blind eye to them."
+                },
+                {
+                    "id": "130111112",
+                    "speaker": "Taj Radkani",
+                    "text": "I was the same. I never questioned my actions until Murtada died. I could feel the justice that I once strived to uphold slowly crumbling in my heart."
+                },
+                {
+                    "id": "130111113",
+                    "speaker": "Taj Radkani",
+                    "text": "I was completely dedicated to all that I did, but as I grew older, I found myself feeling alone... miserable. Can you imagine what it feels like to not have the will to live, but not be able to die?"
+                },
+                {
+                    "id": "130111114",
+                    "speaker": "Cyno",
+                    "text": "..."
+                },
+                {
+                    "id": "130111115",
+                    "speaker": "Taj Radkani",
+                    "text": "Murtada was sent to prison by my own hands, I set myself on this painful path. My son hated me till the day he died, and now I must live with that pain and regret."
+                },
+                {
+                    "id": "130111116",
+                    "speaker": "Taj Radkani",
+                    "text": "I failed him as a father, but now... Now, I have a chance to make it right, a chance to reunite with him..."
+                },
+                {
+                    "id": "130111117",
+                    "speaker": "Taj Radkani",
+                    "text": "The Court of Desolation! Here lies the key to overcoming life and death — the power to even bring the dead back to life!"
+                },
+                {
+                    "id": "130111118",
+                    "speaker": "Cyno",
+                    "text": "So, did you already find what you needed here?"
+                },
+                {
+                    "id": "130111119",
+                    "speaker": "Taj Radkani",
+                    "text": "Hehe... See this door behind me? Behind it lie the treasures that I seek."
+                },
+                {
+                    "id": "130111120",
+                    "speaker": "Taj Radkani",
+                    "text": "I'm so close, Cyno. If only you hadn't arrived now, I could already have..."
+                },
+                {
+                    "id": "130111121",
+                    "speaker": "Cyno",
+                    "text": "Enough conjecture. What has happened is already part of the past. You cannot bring the dead back to life."
+                },
+                {
+                    "id": "130111122",
+                    "speaker": "Cyno",
+                    "text": "In the end, the treasures you seek are nothing but myths and legend."
+                },
+                {
+                    "id": "130111123",
+                    "speaker": "Taj Radkani",
+                    "text": "Since you're so sure, why don't you just let me open the door and see then?"
+                },
+                {
+                    "id": "130111124",
+                    "speaker": "Cyno",
+                    "text": "No. I sense danger behind that door. There will be dire consequences the moment you open it."
+                },
+                {
+                    "id": "130111125",
+                    "speaker": "Taj Radkani",
+                    "text": "I beg you: As an old partner, can you let me fulfill my last wish? Just this once?"
+                },
+                {
+                    "id": "130111126",
+                    "speaker": "Taj Radkani",
+                    "text": "Surely you get it by now. Doing your job without mercy will only drive people away from you. I'm the prime example."
+                },
+                {
+                    "id": "130111127",
+                    "speaker": "Cyno",
+                    "text": "I don't overthink things. If there is only one way for me to defend my principles, then that is the path I will take."
+                },
+                {
+                    "id": "130111128",
+                    "speaker": "Taj Radkani",
+                    "text": "Seems there's no convincing you... Alright then, let's see if your polearm skills have improved at all."
+                }
+            ]
+        },
+        {
+            "id": "1301124",
+            "objective": "Enter the Court of Desolation",
+            "dialogues": [
+                {
+                    "id": "130112401",
+                    "speaker": "Badr",
+                    "text": "The Akademiya has goods coming in and out every day. It's like looking for a needle in a haystack."
+                }
+            ]
+        },
+        {
+            "id": "1301125",
+            "objective": "Reach the depths of the Court of Desolation",
+            "dialogues": [
+                {
+                    "id": "130112501",
+                    "speaker": "Payam",
+                    "text": "Huh, was my intuition right? Was there really something wrong with those goods?"
+                }
+            ]
+        },
+        {
+            "id": "1301120",
+            "objective": "Reach the depths of the Court of Desolation",
+            "dialogues": []
+        },
+        {
+            "id": "1301112",
+            "objective": "",
+            "dialogues": [
+                {
+                    "id": "130111201",
+                    "speaker": "Cyno",
+                    "text": "Your strength..."
+                },
+                {
+                    "id": "130111202",
+                    "speaker": "Taj Radkani",
+                    "text": "You feel it, don't you? I'm stronger than you remember. I gained new power when I entered the Court of Desolation."
+                },
+                {
+                    "id": "130111203",
+                    "speaker": "Taj Radkani",
+                    "text": "This is only a taste of it. Once I open the door behind me, this power will be complete. Even life and death will have no grip on me!"
+                },
+                {
+                    "id": "130111204",
+                    "speaker": "Paimon",
+                    "text": "Uh oh, we have to stop this guy!"
+                },
+                {
+                    "id": "130111205",
+                    "speaker": "Cyno",
+                    "text": "I won't let you open that door."
+                },
+                {
+                    "id": "130111206",
+                    "speaker": "Taj Radkani",
+                    "text": "I wouldn't be so sure. I'm afraid it won't be too easy to stop me now that you're injured. Or are you ready to sacrifice your life for this?"
+                },
+                {
+                    "id": "130111207",
+                    "speaker": "Cyno",
+                    "text": "I'll do what I have to."
+                },
+                {
+                    "id": "130111208",
+                    "speaker": "Taj Radkani",
+                    "text": "..."
+                },
+                {
+                    "id": "130111209",
+                    "speaker": "Taj Radkani",
+                    "text": "I still remember when we first became partners. You were always charging forward and putting your life on the line, just like now."
+                },
+                {
+                    "id": "130111210",
+                    "speaker": "Taj Radkani",
+                    "text": "Even after all this time, you still haven't changed."
+                },
+                {
+                    "id": "130111211",
+                    "speaker": "Cyno",
+                    "text": "You haven't changed either. You left that list of names and map in your house on purpose, didn't you? You wanted me to be able to find you here."
+                },
+                {
+                    "id": "130111212",
+                    "speaker": "Cyno",
+                    "text": "All of this was just part of the act you were putting on. What happened just now was also part of your plan... You might have fooled those on the list, but you will not fool me."
+                },
+                {
+                    "id": "130111213",
+                    "speaker": "Cyno",
+                    "text": "I had my suspicions from the beginning, but I couldn't be sure until we fought. If you really had changed, your fighting style wouldn't be as it was before."
+                },
+                {
+                    "id": "130111214",
+                    "speaker": "Paimon",
+                    "text": "Huh? What do you mean, Cyno?"
+                },
+                {
+                    "id": "130111215",
+                    "speaker": "Cyno",
+                    "text": "He never planned on opening the door. His true intention was..."
+                },
+                {
+                    "id": "130111216",
+                    "speaker": "Paimon",
+                    "text": "Ahh! What's happening?"
+                },
+                {
+                    "id": "130111217",
+                    "speaker": "Taj Radkani",
+                    "text": "Seems our time is running short. Let me make this quick then."
+                },
+                {
+                    "id": "130111218",
+                    "speaker": "Taj Radkani",
+                    "text": "After Murtada died, my spirit was crushed. For a long time, I was hoping this reality was just some terrible nightmare. I hoped that I would just wake up and be able to see his smiling face again."
+                },
+                {
+                    "id": "130111219",
+                    "speaker": "Taj Radkani",
+                    "text": "That is when I was approached by someone who wished to collaborate and find the Court of Desolation together. I did some investigation of my own and discovered that they were part of a massive organization."
+                },
+                {
+                    "id": "130111220",
+                    "speaker": "Taj Radkani",
+                    "text": "People from every walk of life are involved. They are relentless in their search, pouring countless Mora into secret research, even sacrificing lives in hopes that the Court of Desolation would appear."
+                },
+                {
+                    "id": "130111221",
+                    "speaker": "Cyno",
+                    "text": "No wonder banning the research wasn't enough. A full-scale operation was already in motion."
+                },
+                {
+                    "id": "130111222",
+                    "speaker": "Taj Radkani",
+                    "text": "I'm a flesh-and-blood human like anyone else, so I obviously hesitated and considered it... The thought of bringing my son back tugged at my heart. But in the end, I came to my senses. I knew that I could not let myself go down that path."
+                },
+                {
+                    "id": "130111223",
+                    "speaker": "Taj Radkani",
+                    "text": "I suddenly came to a realization amidst my suffering... The Court of Desolation, a place that once drove people to tragedy, was still doing so even centuries later."
+                },
+                {
+                    "id": "130111224",
+                    "speaker": "Taj Radkani",
+                    "text": "As long as this place exists, people will recklessly seek it out just as Murtada did, generation after generation, regardless of the cost..."
+                },
+                {
+                    "id": "130111225",
+                    "speaker": "Taj Radkani",
+                    "text": "Let it be buried beneath the sand forever. Once the Court of Desolation is gone, there will no longer be anyone obsessed with seeking it out.",
+                    "choices": [
+                        {
+                            "id": "130111226",
+                            "text": "The damage on the walls we saw on our way here...",
+                            "response": [
+                                {
+                                    "id": "130111228",
+                                    "speaker": "Taj Radkani",
+                                    "text": "That's right. I acted as if I had abandoned my convictions just so that they would cooperate without raising any suspicion. This was the only way I could find and destroy this place."
+                                },
+                                {
+                                    "id": "130111229",
+                                    "speaker": "Taj Radkani",
+                                    "text": "But that wasn't enough. I needed someone I could trust to bring the organization to justice. The Akademiya forbids the researches of the Court of Desolation, so they would never approve of my plan in the first place."
+                                },
+                                {
+                                    "id": "130111230",
+                                    "speaker": "Taj Radkani",
+                                    "text": "To add to the problem, the organization is so powerful that they even have members working within the Akademiya. If I wished to destroy the organization, I couldn't just count on the Akademiya alone."
+                                },
+                                {
+                                    "id": "130111231",
+                                    "speaker": "Cyno",
+                                    "text": "So you pretended to be the one behind all this as a test for me?"
+                                },
+                                {
+                                    "id": "130111232",
+                                    "speaker": "Taj Radkani",
+                                    "text": "Yes, I'm sorry, but now I am assured. You haven't changed at all. You are still as you always were, fearless and making no compromise."
+                                },
+                                {
+                                    "id": "130111233",
+                                    "speaker": "Taj Radkani",
+                                    "text": "Anyway, this place is collapsing. You must leave now."
+                                },
+                                {
+                                    "id": "130111234",
+                                    "speaker": "Paimon",
+                                    "text": "Wait, aren't you leaving, too? There are still loads of bad guys to catch outside!"
+                                },
+                                {
+                                    "id": "130111235",
+                                    "speaker": "Cyno",
+                                    "text": "His fate is already sealed. There is no life left inside him. He is like a candle with no more wick to burn.",
+                                    "choices": [
+                                        {
+                                            "id": "130111236",
+                                            "text": "He means...",
+                                            "response": [
+                                                {
+                                                    "id": "130111238",
+                                                    "speaker": "Cyno",
+                                                    "text": "You planned it all from the very beginning, didn't you?"
+                                                },
+                                                {
+                                                    "id": "130111239",
+                                                    "speaker": "Cyno",
+                                                    "text": "Risking being treated as a traitor to collaborate with them, sacrificing your own life to open and destroy the Court of Desolation..."
+                                                },
+                                                {
+                                                    "id": "130111240",
+                                                    "speaker": "Taj Radkani",
+                                                    "text": "Regardless, I made a grave mistake by allowing the smuggling and the research of this place. Let this be the final judgment on myself."
+                                                },
+                                                {
+                                                    "id": "130111241",
+                                                    "speaker": "Taj Radkani",
+                                                    "text": "I was always so busy with work that I never made time to fulfill Murtada's wishes."
+                                                },
+                                                {
+                                                    "id": "130111242",
+                                                    "speaker": "Taj Radkani",
+                                                    "text": "Finding this place was his biggest wish. Since I'll be reuniting with him here... I can only hope he won't have anything more to hold against me."
+                                                },
+                                                {
+                                                    "id": "130111243",
+                                                    "speaker": "Taj Radkani",
+                                                    "text": "I'll leave all those people on the list to you. Sorry for all the trouble I've caused."
+                                                },
+                                                {
+                                                    "id": "130111244",
+                                                    "speaker": "Cyno",
+                                                    "text": "There's nothing to be sorry for. We are partners."
+                                                },
+                                                {
+                                                    "id": "130111245",
+                                                    "speaker": "Cyno",
+                                                    "text": "If you see Murtada... send him my greetings. Goodbye, old friend."
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "130111237",
+                                            "text": "\"To open the Court of Desolation, one must sacrifice their life\"..."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "130111227",
+                            "text": "You're going to destroy the Court of Desolation."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "1301113",
+            "objective": "Reach the depths of the Court of Desolation",
+            "dialogues": []
+        },
+        {
+            "id": "1301119",
+            "objective": "Defeat Taj",
+            "dialogues": []
+        },
+        {
+            "id": "1301114",
+            "objective": "Talk to Cyno",
+            "dialogues": []
+        },
+        {
+            "id": "1301115",
+            "objective": "Talk to Cyno",
+            "dialogues": [
+                {
+                    "id": "130111301",
+                    "speaker": "Paimon",
+                    "text": "Huh? The Court of Desolation has..."
+                },
+                {
+                    "id": "130111302",
+                    "speaker": "Player",
+                    "text": "Disappeared."
+                },
+                {
+                    "id": "130111303",
+                    "speaker": "Cyno",
+                    "text": "Just as Taj said, that place had caused too many disasters and tragedies."
+                },
+                {
+                    "id": "130111304",
+                    "speaker": "Cyno",
+                    "text": "Being buried in quicksand is its rightful end."
+                },
+                {
+                    "id": "130111305",
+                    "speaker": "Player",
+                    "text": "What about the organization...?"
+                },
+                {
+                    "id": "130111306",
+                    "speaker": "Cyno",
+                    "text": "To them, as long as there's Mora to be made, they will disregard the Akademiya's rules, whether it's the Court of Desolation or anything else."
+                },
+                {
+                    "id": "130111307",
+                    "speaker": "Cyno",
+                    "text": "Their only goal is to make massive profits off of dangerous research. Taj may have set them back with the Court of Desolation, but it won't be long before they continue searching for another target."
+                },
+                {
+                    "id": "130111308",
+                    "speaker": "Cyno",
+                    "text": "That's an opportunity that I will not let them have."
+                },
+                {
+                    "id": "130111309",
+                    "speaker": "Paimon",
+                    "text": "We'll help, too!"
+                },
+                {
+                    "id": "130111310",
+                    "speaker": "Cyno",
+                    "text": "Thank you, but you've already done enough."
+                },
+                {
+                    "id": "130111311",
+                    "speaker": "Cyno",
+                    "text": "Just leave the rest to me. I will bring them to justice myself. Besides, I promised you that I would sweep away any potential danger."
+                },
+                {
+                    "id": "130111312",
+                    "speaker": "Cyno",
+                    "text": "So that's what I'm going to do. Wait for me at Caravan Ribat four days from now."
+                }
+            ]
+        },
+        {
+            "id": "1301116",
+            "objective": "Wait until four days later",
+            "dialogues": []
+        },
+        {
+            "id": "1301117",
+            "objective": "Go to Caravan Ribat",
+            "dialogues": [
+                {
+                    "id": "130111401",
+                    "speaker": "Nabil",
+                    "text": "We meet again! Thank you so much for all your help!"
+                },
+                {
+                    "id": "130111402",
+                    "speaker": "Paimon",
+                    "text": "Nabil, what are you doing here?"
+                },
+                {
+                    "id": "130111403",
+                    "speaker": "Nabil",
+                    "text": "Convicts from the desert are being escorted through Caravan Ribat, so I'm here to keep an eye on things. This should be the last group of them, so I'll be heading back to the Akademiya once they're cleared.",
+                    "choices": [
+                        {
+                            "id": "130111404",
+                            "text": "What's the situation?",
+                            "response": [
+                                {
+                                    "id": "130111406",
+                                    "speaker": "Nabil",
+                                    "text": "The last few days have been quite the ride, but fortunately, I can say with confidence that this case is finally coming to an end."
+                                },
+                                {
+                                    "id": "130111407",
+                                    "speaker": "Nabil",
+                                    "text": "At first, the mercenary groups on the list were putting up quite a fight. They made several desperate attempts to cover up the truth. However, word is that someone crossed the desert and took out their main camp overnight."
+                                },
+                                {
+                                    "id": "130111408",
+                                    "speaker": "Nabil",
+                                    "text": "After that, people on the list started to put pressure on the higher ups within the Akademiya. Everyone was on edge and the case came to a standstill."
+                                },
+                                {
+                                    "id": "130111409",
+                                    "speaker": "Paimon",
+                                    "text": "And? Then what happened?"
+                                },
+                                {
+                                    "id": "130111410",
+                                    "speaker": "Nabil",
+                                    "text": "Well, then we received word that Taj Radkani had sacrificed himself on the case. The news really stirred up the members of our ranks."
+                                },
+                                {
+                                    "id": "130111411",
+                                    "speaker": "Nabil",
+                                    "text": "The matra then moved together against the enemy. We cleared out the traitors from within the Akademiya and arrested all the researchers on the list."
+                                },
+                                {
+                                    "id": "130111412",
+                                    "speaker": "Nabil",
+                                    "text": "Some of them managed to get out of the Akademiya, but still failed to escape. The scattered criminals were captured all across Sumeru by the mysterious person who had defeated the mercenary groups."
+                                },
+                                {
+                                    "id": "130111413",
+                                    "speaker": "Nabil",
+                                    "text": "I even heard that someone was about to escape to Fontaine but was still apprehended just at the border. Having more than 300 prisoners apprehended for interrogation has definitely shaken things up recently."
+                                },
+                                {
+                                    "id": "130111414",
+                                    "speaker": "Paimon",
+                                    "text": "So that's the end of it! Catching everyone on the list means no more smuggling Canned Knowledge and no more victims!"
+                                },
+                                {
+                                    "id": "130111415",
+                                    "speaker": "Paimon",
+                                    "text": "It was a lot of work, but Paimon thinks we accomplished something big!"
+                                },
+                                {
+                                    "id": "130111416",
+                                    "speaker": "Nabil",
+                                    "text": "That's right. Thanks again for your assistance."
+                                },
+                                {
+                                    "id": "130111417",
+                                    "speaker": "Nabil",
+                                    "text": "As for the mysterious person who hit the mercenary camp... that must be Cyno, right? He's the only one I can think of who could accomplish such a feat."
+                                },
+                                {
+                                    "id": "130111418",
+                                    "speaker": "Nabil",
+                                    "text": "Speaking of which, have you been in touch with Cyno these days? I think I just saw him when I was on watch nearby."
+                                },
+                                {
+                                    "id": "130111419",
+                                    "speaker": "Nabil",
+                                    "text": "He was walking with someone I didn't recognize, and then before I knew it, they were nowhere to be seen. If you happen to see him, please send my regards."
+                                },
+                                {
+                                    "id": "130111420",
+                                    "speaker": "Paimon",
+                                    "text": "Sure thing, Nabil! You be careful too. Don't let any of those bad guys escape!"
+                                },
+                                {
+                                    "id": "130111421",
+                                    "speaker": "Nabil",
+                                    "text": "Don't worry about me. If anything happens, you can find me at the Akademiya anytime! Farewell then."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "130111405",
+                            "text": "What's happened these last few days?"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "1301118",
+            "objective": "Find Cyno in Caravan Ribat",
+            "dialogues": [
+                {
+                    "id": "130111501",
+                    "speaker": "Tighnari",
+                    "text": "Trying to single-handedly bring 300 people to justice must feel pretty exhilarating. But I can assure you this is certainly not the best solution."
+                },
+                {
+                    "id": "130111502",
+                    "speaker": "Cyno",
+                    "text": "I'm aware."
+                },
+                {
+                    "id": "130111503",
+                    "speaker": "Cyno",
+                    "text": "However, I learned something unexpected during interrogation... Apparently, someone had enticed Murtada Radkani into becoming interested in researching the Court of Desolation."
+                },
+                {
+                    "id": "130111504",
+                    "speaker": "Cyno",
+                    "text": "Murtada had lived in his father's shadow all his life. Naturally, he wanted to conduct research that would seem ground-breaking and significant."
+                },
+                {
+                    "id": "130111505",
+                    "speaker": "Cyno",
+                    "text": "After Murtada died, the organization tried to use Taj's shame regarding his son to add him to their ranks."
+                },
+                {
+                    "id": "130111506",
+                    "speaker": "Cyno",
+                    "text": "Toying with others' minds, treating lives like dirt, and doing anything for their own interests... This makes me angry."
+                },
+                {
+                    "id": "130111507",
+                    "speaker": "Tighnari",
+                    "text": "Fine, I understand. This is a type of trap I've been working on which uses plants. Here, take some just in case you need them next time."
+                },
+                {
+                    "id": "130111508",
+                    "speaker": "Tighnari",
+                    "text": "If thrown into the mud, the trap will grow rapidly and disperse a pollen that has a paralyzing effect. I don't have much use for the traps these days, but maybe you will, and can help me collect more testing data."
+                },
+                {
+                    "id": "130111509",
+                    "speaker": "Paimon",
+                    "text": "Cyno, Tighnari!"
+                },
+                {
+                    "id": "130111510",
+                    "speaker": "Paimon",
+                    "text": "Oh, so Tighnari must be who Nabil saw earlier! Are you also here to see Cyno?"
+                },
+                {
+                    "id": "130111511",
+                    "speaker": "Tighnari",
+                    "text": "That's right. Cyno asked me to collect some medicinal herbs to treat a girl named Simin."
+                },
+                {
+                    "id": "130111512",
+                    "speaker": "Tighnari",
+                    "text": "I also dropped by just to check for any injuries. He seems to be fine physically, but he looks a little more lonely than I remember."
+                },
+                {
+                    "id": "130111513",
+                    "speaker": "Tighnari",
+                    "text": "And Cyno, relax! You don't always have to look so serious, you know. Why don't you play more Genius Invokation TCG, huh? Collei has always been a little wary of you, and your stern expression certainly isn't helping."
+                },
+                {
+                    "id": "130111514",
+                    "speaker": "Cyno",
+                    "text": "How is Collei these days?"
+                },
+                {
+                    "id": "130111515",
+                    "speaker": "Tighnari",
+                    "text": "She has grown a bit taller, but her grades could use some improvement. She still made many mistakes on her last test, even after I had marked all the important content in the book for her."
+                },
+                {
+                    "id": "130111516",
+                    "speaker": "Tighnari",
+                    "text": "Her condition seems to be improving lately, so I plan on having her go outside more. It just so happens that I have something she can help me with..."
+                },
+                {
+                    "id": "130111518",
+                    "speaker": "Paimon",
+                    "text": "Huh? You mean Collei is leaving Avidya Forest? What happened?"
+                },
+                {
+                    "id": "130111519",
+                    "speaker": "Tighnari",
+                    "text": "I've asked her to host some ad hoc lectures to teach the dangers of Canned Knowledge, as well as how to use it safely."
+                },
+                {
+                    "id": "130111520",
+                    "speaker": "Tighnari",
+                    "text": "Although we've apprehended all the criminals behind the recent smuggling case, there are many people who are still curious and seek Canned Knowledge."
+                },
+                {
+                    "id": "130111521",
+                    "speaker": "Tighnari",
+                    "text": "So I decided to ask her to work on increasing knowledge and awareness on the topic. Please be sure to keep an eye on her."
+                },
+                {
+                    "id": "130111522",
+                    "speaker": "Cyno",
+                    "text": "I will."
+                },
+                {
+                    "id": "130111523",
+                    "speaker": "Tighnari",
+                    "text": "If anything else happens, the three of you can find me in the Avidya Forest. Take care."
+                },
+                {
+                    "id": "130111524",
+                    "speaker": "Cyno",
+                    "text": "I've already caught those who were preparing to attack you in secret."
+                },
+                {
+                    "id": "130111525",
+                    "speaker": "Cyno",
+                    "text": "Even if some criminals did slip through our fingers, they wouldn't know that you were involved in the case, so you can relax."
+                },
+                {
+                    "id": "130111526",
+                    "speaker": "Paimon",
+                    "text": "But what about you, Cyno?"
+                },
+                {
+                    "id": "130111527",
+                    "speaker": "Cyno",
+                    "text": "It's still not time for me to rest yet. Those who died have fulfilled their wishes, but those who are alive must continue pressing forward."
+                },
+                {
+                    "id": "130111528",
+                    "speaker": "Cyno",
+                    "text": "I've been thinking about what Taj said in the Court of Desolation these last few days. His words were not empty... People do change, and no belief can completely resist the erosion of time."
+                },
+                {
+                    "id": "130111529",
+                    "speaker": "Cyno",
+                    "text": "I just hope my own change will come slowly, so that I can press on a little further..."
+                },
+                {
+                    "id": "130111530",
+                    "speaker": "Cyno",
+                    "text": "That way, those who see me as their superior and those who are following in my footsteps will learn courage from my example."
+                },
+                {
+                    "id": "130111531",
+                    "speaker": "Cyno",
+                    "text": "Just as I gained courage from my own superiors and my partner.",
+                    "choices": [
+                        {
+                            "id": "130111532",
+                            "text": "Sounds like a lot of work.",
+                            "response": [
+                                {
+                                    "id": "130111534",
+                                    "speaker": "Cyno",
+                                    "text": "I'll be fine. I'm also enjoying my chat with you right now, you know."
+                                },
+                                {
+                                    "id": "130111535",
+                                    "speaker": "Cyno",
+                                    "text": "There are many things I feel better about once I start to talk about them."
+                                },
+                                {
+                                    "id": "130111536",
+                                    "speaker": "Cyno",
+                                    "text": "Many people want to go to the desert to offer condolences for Taj, but I didn't share details with anyone... I'd prefer to avoid revealing the location of the Court of Desolation."
+                                },
+                                {
+                                    "id": "130111537",
+                                    "speaker": "Cyno",
+                                    "text": "One day, I'll gather some flowers that grow in arid desert conditions, and then I was hoping you'd join me in planting them on the remains of the Court of Desolation."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "130111533",
+                            "text": "I hope it will make you happy, Cyno."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "1301127",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "130112701",
+                    "speaker": "Bahari",
+                    "text": "If you start sniffing around the Akademiya, it won't be long before people catch on to you."
+                },
+                {
+                    "id": "130112702",
+                    "speaker": "Bahari",
+                    "text": "And once word gets out, they'll soon be after my daughter and I."
+                },
+                {
+                    "id": "130112703",
+                    "speaker": "Cyno",
+                    "text": "Don't worry. I'll find them before things escalate that far."
+                },
+                {
+                    "id": "130112704",
+                    "speaker": "Cyno",
+                    "text": "But if you still feel uneasy, then why don't you tell me about anyone else you know who was involved. The more information I have, the safer you will be."
+                },
+                {
+                    "id": "130112705",
+                    "speaker": "Bahari",
+                    "text": "*sigh* Alright..."
+                }
+            ]
+        },
+        {
+            "id": "1301128",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "130112801",
+                    "speaker": "Utayba",
+                    "text": "Hmm? Do you have any other questions?"
+                }
+            ]
+        },
+        {
+            "id": "1301129",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "130112901",
+                    "speaker": "Usem",
+                    "text": "Taj lives on the outskirts of Sumeru City. You can try looking for him there."
+                }
+            ]
+        },
+        {
+            "id": "1301133",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "130113301",
+                    "speaker": "Mechanical Life Forms Research Data",
+                    "text": "(Records an account of a Spantamad researcher who was expelled from the Akademiya for studying mechanical life forms.)"
+                }
+            ]
+        },
+        {
+            "id": "1301134",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "130113401",
+                    "speaker": "Secret Text Interpretation Manual",
+                    "text": "(Records an account of a Haravatat Researcher being sentenced to prison for deciphering forbidden documents.)"
+                }
+            ]
+        },
+        {
+            "id": "1301141",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "130114101",
+                    "speaker": "Nabil",
+                    "text": "Have you managed to find Cyno? If so, how's he doing?"
+                }
+            ]
+        },
+        {
+            "id": "1301142",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "130114201",
+                    "speaker": "Nabil",
+                    "text": "Some of them managed to get out of the Akademiya, but still failed to escape. The scattered criminals were captured by Cyno all across Sumeru."
+                },
+                {
+                    "id": "130114202",
+                    "speaker": "Paimon",
+                    "text": "Is Cyno alright? He didn't get injured, did he?"
+                },
+                {
+                    "id": "130114203",
+                    "speaker": "Nabil",
+                    "text": "He seems fine, but nobody knows the real situation."
+                },
+                {
+                    "id": "130114204",
+                    "speaker": "Nabil",
+                    "text": "He brought over 300 suspects to judgment all on his own. Among them were even some of our former colleagues... Not just the criminals are afraid of him — even we start feeling a little nervous when he's around now."
+                },
+                {
+                    "id": "130114205",
+                    "speaker": "Nabil",
+                    "text": "But even if we start feeling all self-conscious thinking if we've done anything wrong... We're still always honored to have Cyno around."
+                },
+                {
+                    "id": "130114206",
+                    "speaker": "Nabil",
+                    "text": "By the way, are you guys here to see Cyno? I think I just saw him walking in that direction when I was on watch nearby."
+                },
+                {
+                    "id": "130114207",
+                    "speaker": "Nabil",
+                    "text": "At first, the mercenary groups on the list were putting up quite a fight. They made several desperate attempts to cover up the truth. However, Cyno crossed the desert and took out their main camp overnight."
+                }
+            ]
+        },
+        {
+            "id": "1301143",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "130114301",
+                    "speaker": "Tighnari",
+                    "text": "After some time, I plan on having her go outside more. It just so happens that I have something she can help me with..."
+                }
+            ]
+        },
+        {
+            "id": "1301199",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "130119901",
+                    "speaker": "Paimon",
+                    "text": "So this is the Court of Desolation. Are there really any treasures buried here?"
+                },
+                {
+                    "id": "130119902",
+                    "speaker": "Paimon",
+                    "text": "Ooh, Paimon's kinda nervous... Could it be dangerous?"
+                },
+                {
+                    "id": "130119903",
+                    "speaker": "Cyno",
+                    "text": "Don't worry, you'll be safe with me."
+                },
+                {
+                    "id": "130119904",
+                    "speaker": "Paimon",
+                    "text": "Look, these walls have definitely seen better days... Was there some sort of battle here?"
+                },
+                {
+                    "id": "130119905",
+                    "speaker": "Paimon",
+                    "text": "Let's keep going and see what we can find."
+                },
+                {
+                    "id": "130119906",
+                    "speaker": "Paimon",
+                    "text": "Whoa... Is it just Paimon, or did that passageway just rotate?"
+                },
+                {
+                    "id": "130119907",
+                    "speaker": "Paimon",
+                    "text": "It's not gonna start moving again, is it? Uh, either way, we should be careful!"
+                },
+                {
+                    "id": "130119908",
+                    "speaker": "Paimon",
+                    "text": "A passage! Hopefully that's our way in!"
+                },
+                {
+                    "id": "130119909",
+                    "speaker": "Paimon",
+                    "text": "Uh, that eye seems to be staring right at us!"
+                },
+                {
+                    "id": "130119910",
+                    "speaker": "Paimon",
+                    "text": "Waah, this place gives Paimon the creeps. You go first..."
+                },
+                {
+                    "id": "130119911",
+                    "speaker": "Taj Radkani",
+                    "text": "This power is mine!"
+                },
+                {
+                    "id": "130119912",
+                    "speaker": "Taj Radkani",
+                    "text": "I will set things right, no matter what the cost!"
+                },
+                {
+                    "id": "130119913",
+                    "speaker": "Taj Radkani",
+                    "text": "Hmph, as I thought..."
+                }
+            ]
+        }
+    ]
+}

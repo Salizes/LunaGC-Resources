@@ -1,0 +1,1470 @@
+{
+    "quest": {
+        "id": "41112",
+        "title": "The Crisis Deepens",
+        "description": "As your investigation proceeds, you gradually realize that there is some mysterious power hidden within these meteorites. In order to help the victims regain consciousness, you and your comrades begin to dispose of meteorites throughout the land...",
+        "rewards": [
+            {
+                "itemId": 107009,
+                "count": 1
+            },
+            {
+                "itemId": 201,
+                "count": 60
+            },
+            {
+                "itemId": 202,
+                "count": 30000
+            }
+        ],
+        "rewards_formatted": "Fragile Resin x1, Primogem x60, Mora x30000",
+        "chapter": {
+            "icon": "UI_ChapterIcon_Aster",
+            "id": "10007",
+            "num": "Unreconciled Stars - II",
+            "title": "The Crisis Deepens"
+        },
+        "total_dialogue_lines": 249,
+        "total_speaker_counts": {
+            "???": 12,
+            "Adelinde": 11,
+            "Ben": 7,
+            "Draff": 3,
+            "Fatui Skirmisher": 1,
+            "Fischl": 32,
+            "Huachu": 1,
+            "Huai'an": 10,
+            "Jianqiu": 2,
+            "Katheryne": 6,
+            "Mona": 36,
+            "Niu Zhi": 3,
+            "Oz": 22,
+            "Paimon": 64,
+            "Player": 34,
+            "Pops Zhou": 1,
+            "Tiancheng": 2,
+            "Unconscious Victim": 1,
+            "Winery Worker": 1
+        }
+    },
+    "talks": [
+        {
+            "id": "4111200",
+            "objective": "Find Draff and discuss the situation in Springvale",
+            "dialogues": [
+                {
+                    "id": "411120001",
+                    "speaker": "Paimon",
+                    "text": "Draff! How are things in the village now?"
+                },
+                {
+                    "id": "411120002",
+                    "speaker": "Draff",
+                    "text": "Ah, it's you again! A little better, thanks — and we owe it all to you."
+                },
+                {
+                    "id": "411120003",
+                    "speaker": "Paimon",
+                    "text": "That's great! Seems like getting rid of the meteorites is doing the trick!"
+                },
+                {
+                    "id": "411120004",
+                    "speaker": "Fischl",
+                    "text": "Traveler, your arrival is most fortuitous. Clearly, my noble ambition to protect the souls of this wretched world compelled you to seek me once more. Now, prepare to depart, for we are soon to meet with an envoy of mine further afield."
+                },
+                {
+                    "id": "411120005",
+                    "speaker": "Paimon",
+                    "text": "Envoy? You mean... a diplomat, or something?"
+                },
+                {
+                    "id": "411120006",
+                    "speaker": "Draff",
+                    "text": "Ah, yes... let me fill you in here. Someone brought a message from the <color=#00E1FFFF>Dawn Winery</color>, saying that a lady there by the name of <color=#00E1FFFF>Adelinde</color> invites you to meet with her as honored guests of the Winery."
+                },
+                {
+                    "id": "411120007",
+                    "speaker": "Paimon",
+                    "text": "Oh, we know Adelinde! She's the head housemaid there, right?"
+                },
+                {
+                    "id": "411120008",
+                    "speaker": "Draff",
+                    "text": "Ah. It seems that you and Adelinde are already acquainted, then."
+                },
+                {
+                    "id": "411120009",
+                    "speaker": "Oz",
+                    "text": "Then it is my great honor to join you."
+                },
+                {
+                    "id": "411120010",
+                    "speaker": "Paimon",
+                    "text": "#Hey, so... {NICKNAME}, can you really understand that princess when she's talking? Because Paimon can't seem to understand a single word...",
+                    "choices": [
+                        {
+                            "id": "411120011",
+                            "text": "I think I understand what she means, but...",
+                            "response": [
+                                {
+                                    "id": "411120013",
+                                    "speaker": "Paimon",
+                                    "text": "Alright, alright..."
+                                },
+                                {
+                                    "id": "411120014",
+                                    "speaker": "Oz",
+                                    "text": "My dear friends, it is time to move out."
+                                },
+                                {
+                                    "id": "411120015",
+                                    "speaker": "Paimon",
+                                    "text": "Paimon hopes Adelinde has made some tasty snacks to welcome her honored guests with!"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "411120012",
+                            "text": "It's kind of hard to explain..."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "4111201",
+            "objective": "Go to Dawn Winery and look for Adelinde",
+            "dialogues": [
+                {
+                    "id": "411120101",
+                    "speaker": "Adelinde",
+                    "text": "Welcome to the Dawn Winery, dear adventurers. I am Adelinde, the head housemaid, and it is I who invited you all here."
+                },
+                {
+                    "id": "411120102",
+                    "speaker": "Paimon",
+                    "text": "Thanks for the invite!"
+                },
+                {
+                    "id": "411120103",
+                    "speaker": "Fischl",
+                    "text": "You are Adelinde? Splendid! I am delighted to grant you the honor of joining me for afternoon tea."
+                },
+                {
+                    "id": "411120104",
+                    "speaker": "Oz",
+                    "text": "Dearest Adelinde, on behalf of Her Majesty, Ms. Fischl, the Prinzessin der Verurteilung, and I, mein Fräulein's humble servant, thank you for inviting us—"
+                },
+                {
+                    "id": "411120105",
+                    "speaker": "Paimon",
+                    "text": "Ugh, would you cut to the chase already!? Your titles are so wordy, it takes way too long to introduce yourselves!"
+                },
+                {
+                    "id": "411120106",
+                    "speaker": "Adelinde",
+                    "text": "My goodness... an adventurer of such distinguished status..."
+                },
+                {
+                    "id": "411120107",
+                    "speaker": "Fischl",
+                    "text": "My pale-faced proselyte, how dare you interrupt a diplomat of the royal court in the middle of his speech!",
+                    "choices": [
+                        {
+                            "id": "411120108",
+                            "text": "Thanks for inviting us over for tea.",
+                            "response": [
+                                {
+                                    "id": "411120110",
+                                    "speaker": "Adelinde",
+                                    "text": "In fact, one of our employees here at the Dawn Winery, Mr. Hartman, fell victim to the meteorite incident in Springvale."
+                                },
+                                {
+                                    "id": "411120111",
+                                    "speaker": "Adelinde",
+                                    "text": "I hear that you were the ones who disposed of the meteorites. Thanks to you, Mr. Hartman is now awake."
+                                },
+                                {
+                                    "id": "411120112",
+                                    "speaker": "Adelinde",
+                                    "text": "We are in your debt. It is merely common courtesy that I should invite you over for tea. This aside... There is a separate matter which I should like to enlist your help with."
+                                },
+                                {
+                                    "id": "411120113",
+                                    "speaker": "Paimon",
+                                    "text": "Aw, you're too kind, Adelinde! We were really just doing what any other adventurers would have done."
+                                },
+                                {
+                                    "id": "411120114",
+                                    "speaker": "Fischl",
+                                    "text": "You may now kneel before your Prinzessin and make effusive display of your thanks for the favor that I have generously shown to thee and thy Winery kin. Take heart, my dear servants, for the glory of my majesty will flash eternal in the Vale of Springdom!"
+                                },
+                                {
+                                    "id": "411120115",
+                                    "speaker": "Player",
+                                    "text": "\"Flash eternal\"? Isn't that a bit of an oxymoron?"
+                                },
+                                {
+                                    "id": "411120116",
+                                    "speaker": "Paimon",
+                                    "text": "Oz, hold off on the translation! Paimon wants to have a try this time! Umm... So what she's trying to say is... \"You're welcome\"?"
+                                },
+                                {
+                                    "id": "411120117",
+                                    "speaker": "Oz",
+                                    "text": "I applaud your powers of comprehension, my dear Paimon. You decipher mein Fräulein's royal utterances with remarkable ease."
+                                },
+                                {
+                                    "id": "411120118",
+                                    "speaker": "Player",
+                                    "text": "What is it that you need our help with?"
+                                },
+                                {
+                                    "id": "411120119",
+                                    "speaker": "Adelinde",
+                                    "text": "The business of the Winery reaches not only to all of Mondstadt, but to all the corners of Liyue, too. Some of our workers do regular deliveries back and forth between the two regions, a single round trip taking several days in total."
+                                },
+                                {
+                                    "id": "411120120",
+                                    "speaker": "Adelinde",
+                                    "text": "Two of our delivery staff were due back yesterday, but as of this moment, I still have no contact from them at all. I worry that they became trapped somewhere when the meteorites struck..."
+                                },
+                                {
+                                    "id": "411120121",
+                                    "speaker": "Adelinde",
+                                    "text": "The Winery is short-staffed at present, and I cannot afford to look for them myself. As audacious as it may be... all I can do is ask you for assistance."
+                                },
+                                {
+                                    "id": "411120122",
+                                    "speaker": "Paimon",
+                                    "text": "Okie-dokie, don't you worry, Adelinde! We're expert people-finders."
+                                },
+                                {
+                                    "id": "411120123",
+                                    "speaker": "Adelinde",
+                                    "text": "Wonderful. I suggest you begin by asking around at <color=#00E1FFFF>Stone Gate</color> — all delivery staff pass through there on their return from <color=#00E1FFFF>Liyue</color>."
+                                },
+                                {
+                                    "id": "411120124",
+                                    "speaker": "Adelinde",
+                                    "text": "There were two carts in total, and the workers' names are <color=#00E1FFFF>Fritz</color> and <color=#00E1FFFF>Ben</color>.",
+                                    "choices": [
+                                        {
+                                            "id": "411120125",
+                                            "text": "We will do everything in our power to find them."
+                                        },
+                                        {
+                                            "id": "411120126",
+                                            "text": "Don't you worry, we will find them."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "411120109",
+                            "text": "Why did you call for us? Has something bad happened?"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "4111214",
+            "objective": "Head for the Stone Gate",
+            "dialogues": []
+        },
+        {
+            "id": "4111215",
+            "objective": "Ask people nearby for information (0/3)",
+            "dialogues": [
+                {
+                    "id": "411121501",
+                    "speaker": "Paimon",
+                    "text": "Hello, um, we're looking for two Mondstadt carts, both loaded up with wine. Have you seen them?"
+                },
+                {
+                    "id": "411121502",
+                    "speaker": "Huachu",
+                    "text": "Hmm... Sorry, I don't think so."
+                },
+                {
+                    "id": "411121503",
+                    "speaker": "Paimon",
+                    "text": "Okay then. We'll keep asking around."
+                }
+            ]
+        },
+        {
+            "id": "4111216",
+            "objective": "Ask people nearby for information (1/3)",
+            "dialogues": [
+                {
+                    "id": "411121601",
+                    "speaker": "Paimon",
+                    "text": "Hello! Have you seen any Mondstadt merchants traveling through here? You know, the ones with all the wine?"
+                },
+                {
+                    "id": "411121602",
+                    "speaker": "Pops Zhou",
+                    "text": "Ah... I'm afraid I have very poor eyesight! I'm not the right person to ask..."
+                },
+                {
+                    "id": "411121603",
+                    "speaker": "Paimon",
+                    "text": "Oh... Okay then..."
+                }
+            ]
+        },
+        {
+            "id": "4111217",
+            "objective": "Ask people nearby for information (2/3)",
+            "dialogues": [
+                {
+                    "id": "411121701",
+                    "speaker": "Paimon",
+                    "text": "Hello! We're looking for a couple o' carts, originally from Mondstadt. Have you seen them?"
+                },
+                {
+                    "id": "411121702",
+                    "speaker": "Jianqiu",
+                    "text": "From Mondstadt, you say? You know, I think I did see one pass through here."
+                },
+                {
+                    "id": "411121703",
+                    "speaker": "Paimon",
+                    "text": "Really? Which way did it go?"
+                },
+                {
+                    "id": "411121704",
+                    "speaker": "Jianqiu",
+                    "text": "Let me think... Ah, if I'm not mistaken, it was going towards <color=#00E1FFFF>Mondstadt</color>."
+                },
+                {
+                    "id": "411121705",
+                    "speaker": "Paimon",
+                    "text": "Thanks, mister! Now to chase down that cart!"
+                }
+            ]
+        },
+        {
+            "id": "4111220",
+            "objective": "Look for the Dawn Winery's delivery staff",
+            "dialogues": [
+                {
+                    "id": "411122001",
+                    "speaker": "Ben",
+                    "text": "Help me! Somebody, please!"
+                }
+            ]
+        },
+        {
+            "id": "4111218",
+            "objective": "Rescue the worker surrounded by monsters",
+            "dialogues": [
+                {
+                    "id": "411121801",
+                    "speaker": "Winery Worker",
+                    "text": "Phew, scared me half to death... Thanks so much! If you hadn't happened to be passing through this way, I would've been a goner for sure."
+                },
+                {
+                    "id": "411121802",
+                    "speaker": "Paimon",
+                    "text": "So which one are you, Ben or Fritz?"
+                },
+                {
+                    "id": "411121803",
+                    "speaker": "Ben",
+                    "text": "...Hmm? I—I'm <color=#00E1FFFF>Ben</color>! ...H—How did you know my name?",
+                    "choices": [
+                        {
+                            "id": "411121804",
+                            "text": "We're not just passing through.",
+                            "response": [
+                                {
+                                    "id": "411121805",
+                                    "speaker": "Paimon",
+                                    "text": "Yeah, we're your official search party!"
+                                },
+                                {
+                                    "id": "411121807",
+                                    "speaker": "Oz",
+                                    "text": "Per Adelinde's wishes, we came here specifically to find you and ensure your well-being."
+                                },
+                                {
+                                    "id": "411121808",
+                                    "speaker": "Ben",
+                                    "text": "Ah, I suppose she must've started worrying 'cause of the long delay..."
+                                },
+                                {
+                                    "id": "411121809",
+                                    "speaker": "Ben",
+                                    "text": "I'm afraid that Fritz' cart is stranded out on the main road between <color=#00E1FFFF>Dihua Marsh</color> and <color=#00E1FFFF>Stone Gate</color>. It got hit by a meteorite, so..."
+                                },
+                                {
+                                    "id": "411121810",
+                                    "speaker": "Ben",
+                                    "text": "Anyway, we agreed that I'd finish the delivery and then bring someone back to fetch him. I just hadn't factored in the part about getting ambushed by monsters along the way..."
+                                },
+                                {
+                                    "id": "411121811",
+                                    "speaker": "Ben",
+                                    "text": "I really hope Fritz is okay. With me getting delayed here, the poor guy's been out there a long time. Now... I keep worrying that the same thing will've happened to him! Can you guys go bring him to safety?"
+                                },
+                                {
+                                    "id": "411121812",
+                                    "speaker": "Paimon",
+                                    "text": "Between <color=#00E1FFFF>Stone Gate</color> and <color=#00E1FFFF>Dihua Marsh</color>, right? Leave it to us!"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "411121806",
+                            "text": "We're your official search party!"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "4111224",
+            "objective": "Talk to the delivery staff",
+            "dialogues": []
+        },
+        {
+            "id": "4111202",
+            "objective": "Search for the winery employee, Fritz",
+            "dialogues": [
+                {
+                    "id": "411120201",
+                    "speaker": "Adelinde",
+                    "text": "I hope everyone will be safe..."
+                }
+            ]
+        },
+        {
+            "id": "4111203",
+            "objective": "Get close and ascertain the situation",
+            "dialogues": [
+                {
+                    "id": "411120301",
+                    "speaker": "Paimon",
+                    "text": "Is the guy on the floor sleeping?"
+                },
+                {
+                    "id": "411120302",
+                    "speaker": "???",
+                    "text": "I believe so. I've tried everything, but he won't wake up."
+                },
+                {
+                    "id": "411120303",
+                    "speaker": "Paimon",
+                    "text": "Looks like he touched the meteorite, just like the others..."
+                },
+                {
+                    "id": "411120304",
+                    "speaker": "???",
+                    "text": "If by \"meteorite\" you mean the rock that struck the cart — worry not, I have dealt with that already using my magic."
+                },
+                {
+                    "id": "411120305",
+                    "speaker": "???",
+                    "text": "But by \"others,\" do you mean to say, there are others who have fallen into a similar slumber?"
+                },
+                {
+                    "id": "411120306",
+                    "speaker": "Fischl",
+                    "text": "One has witnessed with one's own Auge der Verurteilung the nightmarish slumber that proceeds forth from the Valley of Demonbone... It has caused great suffering for the humble peasants in the Vale of Springdom, many of whom still battle this wretched affliction even as we speak."
+                },
+                {
+                    "id": "411120307",
+                    "speaker": "Oz",
+                    "text": "As mein Fräulein most eloquently describes, we have just come from Mondstadt, where many people have also fallen into an unwaking sleep. Their symptoms are identical to those of this poor gentleman here."
+                },
+                {
+                    "id": "411120308",
+                    "speaker": "???",
+                    "text": "Is that so... It appears these meteorites really made quite an impact."
+                },
+                {
+                    "id": "411120309",
+                    "speaker": "Paimon",
+                    "text": "Seems this guy is dressed like a Winery worker... And we've already met Ben — so this one must be Fritz!"
+                },
+                {
+                    "id": "411120310",
+                    "speaker": "Oz",
+                    "text": "Given that workers' attire has precious few distinguishing features, I must conclude that Paimon is blessed with exceptionally acute eyesight."
+                },
+                {
+                    "id": "411120311",
+                    "speaker": "Paimon",
+                    "text": "Actually, Paimon's eyesight is normal, Paimon just has a really great memory! You're right, though, his clothes don't really stand out that much... Especially not compared to this guy over here."
+                },
+                {
+                    "id": "411120312",
+                    "speaker": "???",
+                    "text": "Haha, and by \"this guy over here,\" you mean me?"
+                },
+                {
+                    "id": "411120313",
+                    "speaker": "Paimon",
+                    "text": "Yep! Paimon's never seen anyone dressed quite like you before.",
+                    "choices": [
+                        {
+                            "id": "411120314",
+                            "text": "That huge hat is quite unique.",
+                            "response": [
+                                {
+                                    "id": "411120316",
+                                    "speaker": "???",
+                                    "text": "I am a vagrant from Inazuma. I had just stopped to assist this poor gentleman when you turned up."
+                                },
+                                {
+                                    "id": "411120317",
+                                    "speaker": "???",
+                                    "text": "Are you investigating the aftermath of the meteorite strike?"
+                                },
+                                {
+                                    "id": "411120318",
+                                    "speaker": "Paimon",
+                                    "text": "Yeah, we were sent to help out."
+                                },
+                                {
+                                    "id": "411120319",
+                                    "speaker": "Fischl",
+                                    "text": "I am Fischl, Prinzessin der Verurteilung, responding to the cry of my people in their hour of need!"
+                                },
+                                {
+                                    "id": "411120320",
+                                    "speaker": "Oz",
+                                    "text": "I am mein Fräulein's humble familiar, Oz the Raven."
+                                },
+                                {
+                                    "id": "411120321",
+                                    "speaker": "Paimon",
+                                    "text": "And Paimon is an Honorary Knight of the Knights of Favonius's best friend!"
+                                },
+                                {
+                                    "id": "411120322",
+                                    "speaker": "???",
+                                    "text": "Oh? Then you must be said Honorary Knight of said Knights of Favonius.",
+                                    "choices": [
+                                        {
+                                            "id": "411120323",
+                                            "text": "I am an adventurer of the Guild.",
+                                            "response": [
+                                                {
+                                                    "id": "411120325",
+                                                    "speaker": "Fischl",
+                                                    "text": "Behold, my people, your beloved sovereign in the flesh! Do not despair, for judgment by Thundering Retribution is nigh, and it shall surely purge the seeds of nefarious nightmares that now sow chaos across the land!"
+                                                },
+                                                {
+                                                    "id": "411120326",
+                                                    "speaker": "???",
+                                                    "text": "Um... Excuse me?"
+                                                },
+                                                {
+                                                    "id": "411120327",
+                                                    "speaker": "Paimon",
+                                                    "text": "Don't mind her, just... y'know, let her do her thing."
+                                                },
+                                                {
+                                                    "id": "411120328",
+                                                    "speaker": "Player",
+                                                    "text": "She's a good egg, really."
+                                                },
+                                                {
+                                                    "id": "411120329",
+                                                    "speaker": "Niu Zhi",
+                                                    "text": "Excuse me! What's going on here?"
+                                                },
+                                                {
+                                                    "id": "411120330",
+                                                    "speaker": "Paimon",
+                                                    "text": "Oh, great — good thing you're here, Mr. Millelith. This guy's fast asleep, and he won't wake up!"
+                                                },
+                                                {
+                                                    "id": "411120331",
+                                                    "speaker": "???",
+                                                    "text": "Ah, it appears this is now in the hands of the Millelith — in which case, I am no longer needed."
+                                                },
+                                                {
+                                                    "id": "411120332",
+                                                    "speaker": "???",
+                                                    "text": "It was truly a pleasure to meet you all. I have other matters to attend to now, so I shall take my leave."
+                                                },
+                                                {
+                                                    "id": "411120333",
+                                                    "speaker": "???",
+                                                    "text": "Adventurers... I wish you every success in your endeavors."
+                                                },
+                                                {
+                                                    "id": "411120334",
+                                                    "speaker": "Paimon",
+                                                    "text": "Bye-bye~!"
+                                                },
+                                                {
+                                                    "id": "411120335",
+                                                    "speaker": "Paimon",
+                                                    "text": "So, what happened was, we came here looking for someone, and found them..."
+                                                },
+                                                {
+                                                    "id": "411120336",
+                                                    "speaker": "Niu Zhi",
+                                                    "text": "Thank you all for your cooperation. This victim is now in the care of the Millelith, and we will escort him safely to the <color=#00E1FFFF>disaster relief station</color>."
+                                                },
+                                                {
+                                                    "id": "411120337",
+                                                    "speaker": "Paimon",
+                                                    "text": "Disaster relief station? You mean like a big tent with guards outside?"
+                                                },
+                                                {
+                                                    "id": "411120338",
+                                                    "speaker": "Niu Zhi",
+                                                    "text": "Correct. We have established a <color=#00E1FFFF>disaster relief station</color> at <color=#00E1FFFF>Wangshu Inn</color>, where the unconscious victims of the meteorite strike can receive due medical attention."
+                                                },
+                                                {
+                                                    "id": "411120339",
+                                                    "speaker": "Oz",
+                                                    "text": "A wise decision by the Millelith."
+                                                },
+                                                {
+                                                    "id": "411120340",
+                                                    "speaker": "Paimon",
+                                                    "text": "Paimon can't stop worrying about poor <color=#00E1FFFF>Fritz</color>... We should really go check up on him."
+                                                },
+                                                {
+                                                    "id": "411120341",
+                                                    "speaker": "Fischl",
+                                                    "text": "Hmph... I suppose I shall deign to join you for one further excursion."
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "411120324",
+                                            "text": "Yes, I'm the Honorary Knight."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "411120315",
+                            "text": "Those unique clothes are quite beautiful."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "4111204",
+            "objective": "Go to Wangshu Inn and check on Fritz",
+            "dialogues": []
+        },
+        {
+            "id": "4111205",
+            "objective": "",
+            "dialogues": [
+                {
+                    "id": "411120501",
+                    "speaker": "Paimon",
+                    "text": "Hmm... Yep, same situation as in Springvale."
+                },
+                {
+                    "id": "411120502",
+                    "speaker": "Fischl",
+                    "text": "This cruel curse of cold spreads without mercy... O Heaven on high, tell us how we have angered you so!"
+                },
+                {
+                    "id": "411120503",
+                    "speaker": "Paimon",
+                    "text": "Hey, keep your voice down! There are a lot of people here!"
+                },
+                {
+                    "id": "411120504",
+                    "speaker": "Oz",
+                    "text": "Might I suggest we <color=#00E1FFFF>make some inquiries</color> and see where it takes us?"
+                }
+            ]
+        },
+        {
+            "id": "4111208",
+            "objective": "Look for Fritz among the patients at Wangshu Inn",
+            "dialogues": [
+                {
+                    "id": "411120801",
+                    "speaker": "Tiancheng",
+                    "text": "Halt! Who are you?"
+                },
+                {
+                    "id": "411120802",
+                    "speaker": "Paimon",
+                    "text": "We've been commissioned by the Adventurers' Guild to investigate the meteorite strike. Do you mind if we take a quick look at this victim?"
+                },
+                {
+                    "id": "411120803",
+                    "speaker": "Tiancheng",
+                    "text": "I see. Very well, Adventurers! You may take a look."
+                },
+                {
+                    "id": "411120804",
+                    "speaker": "Unconscious Victim",
+                    "text": "*mumbling in sleep*"
+                },
+                {
+                    "id": "411120805",
+                    "speaker": "Player",
+                    "text": "He shows no signs of waking."
+                },
+                {
+                    "id": "411120806",
+                    "speaker": "Paimon",
+                    "text": "Paimon wonders what he's dreaming about? Hmm... Probably that one about the mountain in the ice and snow."
+                },
+                {
+                    "id": "411120807",
+                    "speaker": "Oz",
+                    "text": "Fritz does not appear to be here. Let us keep looking."
+                }
+            ]
+        },
+        {
+            "id": "4111209",
+            "objective": "Continue asking after Fritz's whereabouts",
+            "dialogues": [
+                {
+                    "id": "411120901",
+                    "speaker": "Paimon",
+                    "text": "It's another sleeping victim!"
+                },
+                {
+                    "id": "411120902",
+                    "speaker": "Fischl",
+                    "text": "His soul is in anguish, ensnared by a thousand thorns... His suffering is pitiable. May he soon know peace at last..."
+                },
+                {
+                    "id": "411120903",
+                    "speaker": "Paimon",
+                    "text": "Peace at last? Um, surely you don't mean..."
+                },
+                {
+                    "id": "411120904",
+                    "speaker": "Oz",
+                    "text": "Mein Fräulein simply wishes him a speedy recovery, beyond this, there is no hidden meaning to her words."
+                },
+                {
+                    "id": "411120905",
+                    "speaker": "Paimon",
+                    "text": "Come on Fritz, where are you?"
+                }
+            ]
+        },
+        {
+            "id": "4111210",
+            "objective": "Look for Fritz among the remaining patients",
+            "dialogues": [
+                {
+                    "id": "411121001",
+                    "speaker": "Oz",
+                    "text": "Another sleeper."
+                },
+                {
+                    "id": "411121002",
+                    "speaker": "Fischl",
+                    "text": "Most unfortunate... Crucified to a cruel cross of calamity by barbaric blades born of some baleful blasphemy..."
+                },
+                {
+                    "id": "411121003",
+                    "speaker": "Player",
+                    "text": "We have got to find a way to wake everybody up."
+                },
+                {
+                    "id": "411121004",
+                    "speaker": "Fischl",
+                    "text": "There is but one means of awakening those who slumber, and that is to rain down Thundering Retribution."
+                },
+                {
+                    "id": "411121005",
+                    "speaker": "Oz",
+                    "text": "Precisely, mein Fräulein! If we dispose of the meteorites, the sleepers will be sure to wake."
+                },
+                {
+                    "id": "411121006",
+                    "speaker": "Paimon",
+                    "text": "This is so weird, that Millelith guy promised he was gonna bring Fritz here, didn't he? So why can't we find him anywhere?"
+                },
+                {
+                    "id": "411121007",
+                    "speaker": "Paimon",
+                    "text": "Hmm... Let's go see what the <color=#00E1FFFF>innkeeper</color> has to say."
+                }
+            ]
+        },
+        {
+            "id": "4111219",
+            "objective": "Ask Huai'an about Fritz",
+            "dialogues": [
+                {
+                    "id": "411121901",
+                    "speaker": "Paimon",
+                    "text": "Excuse us, have you seen anyone come in that looks like an ordinary worker from Mondstadt?"
+                },
+                {
+                    "id": "411121902",
+                    "speaker": "Huai'an",
+                    "text": "The Millelith arrived with several new victims not long ago. Due to the limited capacity in the tent, I had them place the new arrivals in the upstairs guest rooms."
+                },
+                {
+                    "id": "411121903",
+                    "speaker": "Paimon",
+                    "text": "Okay, well could you give him a message when he wakes up? Tell him he needs to get back to the Dawn Winery as soon as possible, and let Adelinde know that he's safe and sound."
+                },
+                {
+                    "id": "411121904",
+                    "speaker": "Huai'an",
+                    "text": "I will be more than happy to."
+                },
+                {
+                    "id": "411121905",
+                    "speaker": "Huai'an",
+                    "text": "And if I may be so bold, adventurers, I too have a request for you."
+                },
+                {
+                    "id": "411121906",
+                    "speaker": "Oz",
+                    "text": "Please tell us, what is troubling you?"
+                },
+                {
+                    "id": "411121907",
+                    "speaker": "Fischl",
+                    "text": "Pray tell of thy troubles, that one might better understand them."
+                },
+                {
+                    "id": "411121908",
+                    "speaker": "Huai'an",
+                    "text": "I understand from the Millelith soldiers that you are investigating the meteorite strike."
+                },
+                {
+                    "id": "411121909",
+                    "speaker": "Huai'an",
+                    "text": "This made me wonder, perhaps my friends from Mondstadt have already found a means of curing the victims?"
+                },
+                {
+                    "id": "411121910",
+                    "speaker": "Paimon",
+                    "text": "From what we've seen so far, all you need to do is get rid of the meteorites and the sleepers wake back up again."
+                },
+                {
+                    "id": "411121911",
+                    "speaker": "Huai'an",
+                    "text": "Is that so... Then, if I understand you correctly, the meteorites are the cause of the victims' unconsciousness?"
+                },
+                {
+                    "id": "411121912",
+                    "speaker": "Paimon",
+                    "text": "Yep!"
+                },
+                {
+                    "id": "411121913",
+                    "speaker": "Huai'an",
+                    "text": "In that case, I would like to enlist your services in that regard. Do you think you can dispose of the <color=#00E1FFFF>meteorites</color> in the <color=#00E1FFFF>vicinity of the inn</color>?",
+                    "choices": [
+                        {
+                            "id": "411121914",
+                            "text": "If we can find them, we can get rid of them.",
+                            "response": [
+                                {
+                                    "id": "411121916",
+                                    "speaker": "Huai'an",
+                                    "text": "Wonderful! You have my gratitude."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "411121915",
+                            "text": "As long as you can tell us the locations of the meteorites."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "4111221",
+            "objective": "Search for meteorites near Wangshu Inn",
+            "dialogues": [
+                {
+                    "id": "411122101",
+                    "speaker": "Huai'an",
+                    "text": "I will reserve a room for you, in case you, too, fall victim to the slumber..."
+                },
+                {
+                    "id": "411122102",
+                    "speaker": "Huai'an",
+                    "text": "Hmm, saying that will probably bring you bad luck... Let me rephrase it. Good luck out there."
+                }
+            ]
+        },
+        {
+            "id": "4111206",
+            "objective": "Dispose of the meteorite",
+            "dialogues": []
+        },
+        {
+            "id": "4111222",
+            "objective": "Ascertain if there are any leftover meteorites nearby",
+            "dialogues": []
+        },
+        {
+            "id": "4111207",
+            "objective": "Dispose of the remaining meteorites",
+            "dialogues": []
+        },
+        {
+            "id": "4111211",
+            "objective": "",
+            "dialogues": [
+                {
+                    "id": "411121101",
+                    "speaker": "Fatui Skirmisher",
+                    "text": "Grr... This doesn't end here! A Harbinger is nearby, you'll get what's coming to you soon enough!"
+                },
+                {
+                    "id": "411121102",
+                    "speaker": "Paimon",
+                    "text": "So the Fatui are investigating the meteorites as well? Even the Harbingers?"
+                },
+                {
+                    "id": "411121103",
+                    "speaker": "Paimon",
+                    "text": "This is too strange... We need to be extra cautious."
+                },
+                {
+                    "id": "411121104",
+                    "speaker": "Fischl",
+                    "text": "The seeds of nefarious nightmares appear to have taken firm root... Though my magic arrow of midnight purges them in an instant, they return with a vengeance... Hmph, it would make a mockery of the majesty of the Prinzessin der Verurteilung!"
+                },
+                {
+                    "id": "411121105",
+                    "speaker": "Oz",
+                    "text": "Indeed, mein Fräulein. Despite our best efforts to dispose of the meteorites, they continue to fall relentlessly in each corner of your vast domain, in which case, I fear..."
+                },
+                {
+                    "id": "411121106",
+                    "speaker": "Paimon",
+                    "text": "The strikes are happening faster than we can get rid of them."
+                },
+                {
+                    "id": "411121107",
+                    "speaker": "Player",
+                    "text": "We need to find another solution."
+                },
+                {
+                    "id": "411121108",
+                    "speaker": "Fischl",
+                    "text": "I, Fischl von Luftschloss Narfidort, have traversed a thousand worlds — and yet, never before have I faced such a formidable foe."
+                },
+                {
+                    "id": "411121109",
+                    "speaker": "Fischl",
+                    "text": "This menace is neither monster nor magic... It is a curse, I say, a curse has been placed upon the mortal realm."
+                },
+                {
+                    "id": "411121110",
+                    "speaker": "Paimon",
+                    "text": "A curse!?"
+                },
+                {
+                    "id": "411121111",
+                    "speaker": "Fischl",
+                    "text": "Such a foul curse could only arise as a consequence of the continuous cries of unanswered longing, lost amidst the unpredictability and impermanence of fate..."
+                },
+                {
+                    "id": "411121112",
+                    "speaker": "Oz",
+                    "text": "How very tragic. Is this the inevitable fate of mankind? It grieves me greatly, no matter how many times I hear of it."
+                },
+                {
+                    "id": "411121113",
+                    "speaker": "Paimon",
+                    "text": "Paimon didn't quite get the part about the thing being lost inside the other thing, but basically... These meteorites are a curse?"
+                },
+                {
+                    "id": "411121114",
+                    "speaker": "Fischl",
+                    "text": "Were they not a curse upon humanity, why then should they send humans into slumber? To be lost twixt life and death in an unending dream... 'tis the most dreadful fate imaginable for any living being.",
+                    "choices": [
+                        {
+                            "id": "411121115",
+                            "text": "(Could what Fischl says really be true?)",
+                            "response": [
+                                {
+                                    "id": "411121117",
+                                    "speaker": "Fischl",
+                                    "text": "We must underestimate the magnitude of this matter no more! I fear this sinister force can withstand even the sum of all of our powers combined."
+                                },
+                                {
+                                    "id": "411121118",
+                                    "speaker": "Fischl",
+                                    "text": "Traveler, fetch me <color=#00E1FFFF>the one</color> fated to face this fearsome foe!"
+                                },
+                                {
+                                    "id": "411121119",
+                                    "speaker": "Paimon",
+                                    "text": "And who might that be?"
+                                },
+                                {
+                                    "id": "411121120",
+                                    "speaker": "Oz",
+                                    "text": "Mein Fräulein is of the opinion that one with the requisite expertise should be summoned to deal with this matter. She wonders if you know of any persons skilled in the undoing of curses?"
+                                },
+                                {
+                                    "id": "411121121",
+                                    "speaker": "Player",
+                                    "text": "I'm not sure."
+                                },
+                                {
+                                    "id": "411121122",
+                                    "speaker": "Paimon",
+                                    "text": "Um... Umm..."
+                                },
+                                {
+                                    "id": "411121123",
+                                    "speaker": "Paimon",
+                                    "text": "Ugh! Paimon can't think of anybody either! Maybe we should just go ask <color=#00E1FFFF>Katheryne</color>?"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "411121116",
+                            "text": "(The nightmares affecting the sleepers... is it really a curse?)"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "4111212",
+            "objective": "Talk to Katheryne in Mondstadt",
+            "dialogues": [
+                {
+                    "id": "411121216",
+                    "speaker": "Mona",
+                    "text": "Astrology is an ancient and mysterious art. If your problem is a banal one, you can count me out, as I have better things to do."
+                },
+                {
+                    "id": "411121217",
+                    "speaker": "Paimon",
+                    "text": "So here's what's happened..."
+                },
+                {
+                    "id": "411121218",
+                    "speaker": "Mona",
+                    "text": "And all of this was caused by the meteor shower... This I was not expecting."
+                },
+                {
+                    "id": "411121219",
+                    "speaker": "Fischl",
+                    "text": "The darkness consumes every corner of the land... And in the fading twilight, only the prinzessin and her retinue still stand..."
+                },
+                {
+                    "id": "411121220",
+                    "speaker": "Oz",
+                    "text": "Ms. Mona, your means are most crucial to our ends."
+                },
+                {
+                    "id": "411121221",
+                    "speaker": "Mona",
+                    "text": "Huh? Are you all together, then?"
+                },
+                {
+                    "id": "411121222",
+                    "speaker": "Fischl",
+                    "text": "I am Fischl von Luftschloss Narfidort, Prinzessin der Verurteilung, and I hereby extend to you the great honor of joining my retinue."
+                },
+                {
+                    "id": "411121223",
+                    "speaker": "Mona",
+                    "text": "\"Prinzessin der Verurteilung\"? I'm sorry, which nation are you a princess of?"
+                },
+                {
+                    "id": "411121224",
+                    "speaker": "Fischl",
+                    "text": "I hail from a distant and long-lost land known as the Immernachtreich..."
+                },
+                {
+                    "id": "411121225",
+                    "speaker": "Mona",
+                    "text": "...The in-my-what reich!?"
+                },
+                {
+                    "id": "411121226",
+                    "speaker": "Fischl",
+                    "text": "Alas, precious few mere mortals know of the Immernachtreich."
+                },
+                {
+                    "id": "411121227",
+                    "speaker": "Mona",
+                    "text": "Mere mortal!? Do you have any idea who you're talking to? I am a highly accomplished astrologist, thank you very much!"
+                },
+                {
+                    "id": "411121228",
+                    "speaker": "Mona",
+                    "text": "Just give me one second with my scryglass, then we'll see where exactly this homeland of yours features in your personal history!"
+                },
+                {
+                    "id": "411121229",
+                    "speaker": "Oz",
+                    "text": "Ms. Mona! I humbly beseech you to refrain from probing the question of mein Fräulein's homeland... revisiting the tragic tale of that world's demise always causes her much anguish..."
+                },
+                {
+                    "id": "411121230",
+                    "speaker": "Oz",
+                    "text": "Surely a wise mage such as yourself can sympathize with a princess' grief for her lost kingdom?"
+                },
+                {
+                    "id": "411121231",
+                    "speaker": "Mona",
+                    "text": "No, but— ahh..."
+                },
+                {
+                    "id": "411121232",
+                    "speaker": "Player",
+                    "text": "Sorry to interrupt, but work is our priority right now."
+                },
+                {
+                    "id": "411121233",
+                    "speaker": "Mona",
+                    "text": "Ahem! ...Yes, you're quite right."
+                },
+                {
+                    "id": "411121234",
+                    "speaker": "Mona",
+                    "text": "So. The goal here is to get all the sleepers to wake up. Am I right?",
+                    "choices": [
+                        {
+                            "id": "411121235",
+                            "text": "Yes, they need help.",
+                            "response": [
+                                {
+                                    "id": "411121237",
+                                    "speaker": "Mona",
+                                    "text": "Understood. Alright then, don't you worry! I will lend you a hand."
+                                },
+                                {
+                                    "id": "411121238",
+                                    "speaker": "Mona",
+                                    "text": "First things first, though, we need to get out of the city. There's too much magical disturbance here... Let's head somewhere where the <color=#00E1FFFF>ley line flow is a little smoother</color>."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "411121236",
+                            "text": "Yes, we can't just leave them like this."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "4111226",
+            "objective": "Go to Mona's designated scrying location",
+            "dialogues": []
+        },
+        {
+            "id": "4111213",
+            "objective": "",
+            "dialogues": [
+                {
+                    "id": "411121301",
+                    "speaker": "Mona",
+                    "text": "Wide open space... clear sky..."
+                },
+                {
+                    "id": "411121302",
+                    "speaker": "Mona",
+                    "text": "This will do nicely."
+                },
+                {
+                    "id": "411121303",
+                    "speaker": "Mona",
+                    "text": "I will now begin the process of hydromancy. Stay back, and do not impede my vision."
+                },
+                {
+                    "id": "411121305",
+                    "speaker": "Paimon",
+                    "text": "...Whatever it was you just did, it looked awesome!"
+                },
+                {
+                    "id": "411121306",
+                    "speaker": "Fischl",
+                    "text": "O, astral emissary, have thine eyes now discerned the secrets of the stars?"
+                },
+                {
+                    "id": "411121307",
+                    "speaker": "Paimon",
+                    "text": "Yeah, what did you find out?"
+                },
+                {
+                    "id": "411121308",
+                    "speaker": "Mona",
+                    "text": "How strange... I've never seen this before."
+                },
+                {
+                    "id": "411121309",
+                    "speaker": "Mona",
+                    "text": "The divination shows that these <color=#00E1FFFF>meteorites</color> came from someone's <color=#00E1FFFF>constellation</color>."
+                },
+                {
+                    "id": "411121310",
+                    "speaker": "Paimon",
+                    "text": "Constellation? But they don't have anything to do with real astrology... Do they?"
+                },
+                {
+                    "id": "411121311",
+                    "speaker": "Mona",
+                    "text": "That's what most people tend to think. But I've studied astrology for a very long time, and I know a few things about them that you might not."
+                },
+                {
+                    "id": "411121312",
+                    "speaker": "Mona",
+                    "text": "The stars that make up a constellation — the Stella Fortuna — are genuine celestial bodies in the depths of space. They are not simply notional."
+                },
+                {
+                    "id": "411121313",
+                    "speaker": "Mona",
+                    "text": "The strange thing is that they turned to meteors all of a sudden, and fell from the sky... Why this happened I am not yet sure. I need some time."
+                },
+                {
+                    "id": "411121314",
+                    "speaker": "Fischl",
+                    "text": "A curse! A wretched curse, I say!"
+                },
+                {
+                    "id": "411121315",
+                    "speaker": "Mona",
+                    "text": "A curse!?"
+                },
+                {
+                    "id": "411121316",
+                    "speaker": "Fischl",
+                    "text": "I, too, have journeyed to the stars, gazed beyond the veil of darkness, and glimpsed a shred of the truth... There, I saw a world cursed by human malice..."
+                },
+                {
+                    "id": "411121317",
+                    "speaker": "Fischl",
+                    "text": "Only one who died the most agonizing of deaths could leave behind such a vengeful spirit..."
+                },
+                {
+                    "id": "411121318",
+                    "speaker": "Fischl",
+                    "text": "We must interrogate the population! Find the doer of this diabolical deed! The one who created this sinister specter is the true killer!"
+                },
+                {
+                    "id": "411121319",
+                    "speaker": "Mona",
+                    "text": "Sorry, I'm not quite following you... What curse? And what killer?"
+                },
+                {
+                    "id": "411121320",
+                    "speaker": "Paimon",
+                    "text": "Ah... don't take every word she says too literally..."
+                },
+                {
+                    "id": "411121321",
+                    "speaker": "Mona",
+                    "text": "(What's going on here? Why are the Traveler and Paimon frantically winking at me?)",
+                    "choices": [
+                        {
+                            "id": "411121322",
+                            "text": "Fischl is full of, uh... enthusiasm.",
+                            "response": [
+                                {
+                                    "id": "411121324",
+                                    "speaker": "Mona",
+                                    "text": "Oh... Oh, I understand!"
+                                },
+                                {
+                                    "id": "411121325",
+                                    "speaker": "Fischl",
+                                    "text": "Thou dost? Marvelous! The astral emissary understands at last!"
+                                },
+                                {
+                                    "id": "411121326",
+                                    "speaker": "Oz",
+                                    "text": "Mutual understanding is the crucial first step towards effective teamwork. Welcome to the team, Mona."
+                                },
+                                {
+                                    "id": "411121327",
+                                    "speaker": "Fischl",
+                                    "text": "You are hereby appointed as an honored servant of the Prinzessin. Unleash thy power, in service of our solemn duty to dispel this darkness once and for all!"
+                                },
+                                {
+                                    "id": "411121328",
+                                    "speaker": "Mona",
+                                    "text": "Honored? Heh... You should feel honored to have found me! Without me, you'd be doing ten times the work for half the results."
+                                },
+                                {
+                                    "id": "411121329",
+                                    "speaker": "Paimon",
+                                    "text": "Paimon likes you, Mona, you seem like the real deal!"
+                                },
+                                {
+                                    "id": "411121330",
+                                    "speaker": "Mona",
+                                    "text": "Hahaha, well, I'm glad you agree! Feel free to keep the compliments coming."
+                                },
+                                {
+                                    "id": "411121331",
+                                    "speaker": "Mona",
+                                    "text": "With my astrolabe, I have ascertained the trajectory of fate. Next, I'll calculate the <color=#00E1FFFF>locations of the fallen meteorites</color> for you."
+                                },
+                                {
+                                    "id": "411121332",
+                                    "speaker": "Mona",
+                                    "text": "I need to look into the constellation issue in more detail. In the meantime, let me know ASAP if you find anything else out."
+                                },
+                                {
+                                    "id": "411121333",
+                                    "speaker": "Player",
+                                    "text": "You're a star, Mona! Thanks so much!"
+                                },
+                                {
+                                    "id": "411121334",
+                                    "speaker": "Mona",
+                                    "text": "Don't worry about it. As far as the astrological aspect goes, this will be a piece of cake."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "411121323",
+                            "text": "Fischl is full of, uh... mysteries."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "4111212",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "411121201",
+                    "speaker": "Fischl",
+                    "text": "Katheryne, the hour of destiny is upon you! I have invoked the sacred covenant between us, and now you must respond to the call."
+                },
+                {
+                    "id": "411121202",
+                    "speaker": "Katheryne",
+                    "text": "Let me see... Are you saying you require an assistant?"
+                },
+                {
+                    "id": "411121203",
+                    "speaker": "Paimon",
+                    "text": "Whoa, she got it in one! Katheryne must be super smart."
+                },
+                {
+                    "id": "411121204",
+                    "speaker": "Player",
+                    "text": "Know anyone with expertise in curses or dark magic?"
+                },
+                {
+                    "id": "411121205",
+                    "speaker": "Katheryne",
+                    "text": "Unfortunately not. Though I do know of an astrologist."
+                },
+                {
+                    "id": "411121206",
+                    "speaker": "Katheryne",
+                    "text": "As it happens, the traveling astrologist <color=#00E1FFFF>Mona</color> is currently in Mondstadt. Do you know her?"
+                },
+                {
+                    "id": "411121207",
+                    "speaker": "Player",
+                    "text": "Don't think so."
+                },
+                {
+                    "id": "411121208",
+                    "speaker": "Katheryne",
+                    "text": "Never mind. Please wait here a moment, I will see if she is available."
+                },
+                {
+                    "id": "411121209",
+                    "speaker": "Paimon",
+                    "text": "We get to meet a real life astrologist! Paimon's so excited!"
+                },
+                {
+                    "id": "411121210",
+                    "speaker": "Mona",
+                    "text": "Katheryne, you seem frantic. What's the matter?"
+                },
+                {
+                    "id": "411121211",
+                    "speaker": "Katheryne",
+                    "text": "Mona, I'd like to introduce you to some adventurers from the Guild. They've run into some problems and were hoping that you, with your astrological abilities, may be able to resolve them."
+                },
+                {
+                    "id": "411121212",
+                    "speaker": "Mona",
+                    "text": "Were they now? Good call. I'm pleasantly surprised that they've heard of the astrologist of the century!"
+                },
+                {
+                    "id": "411121213",
+                    "speaker": "Mona",
+                    "text": "So, you must be the one who needed my help?"
+                },
+                {
+                    "id": "411121214",
+                    "speaker": "Player",
+                    "text": "Hello."
+                },
+                {
+                    "id": "411121215",
+                    "speaker": "Mona",
+                    "text": "Come on then, give me the lowdown. I may be willing to offer my skills — it all depends on the situation."
+                },
+                {
+                    "id": "411121243",
+                    "speaker": "Player",
+                    "text": "Yes, we are acquainted."
+                },
+                {
+                    "id": "411121239",
+                    "speaker": "Katheryne",
+                    "text": "Well that simplifies things. Please wait, I will fetch her right away."
+                },
+                {
+                    "id": "411121240",
+                    "speaker": "Mona",
+                    "text": "Someone looking for me? Who is it?"
+                },
+                {
+                    "id": "411121244",
+                    "speaker": "Player",
+                    "text": "You're Mona!"
+                },
+                {
+                    "id": "411121241",
+                    "speaker": "Mona",
+                    "text": "Oh, it's you!"
+                },
+                {
+                    "id": "411121242",
+                    "speaker": "Mona",
+                    "text": "So. What did you want?"
+                }
+            ]
+        },
+        {
+            "id": "4111220",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "411122000",
+                    "speaker": "Ben",
+                    "text": "It's like the end of the world, or something..."
+                }
+            ]
+        }
+    ]
+}

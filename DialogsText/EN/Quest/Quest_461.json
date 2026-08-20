@@ -1,0 +1,774 @@
+{
+    "quest": {
+        "id": "461",
+        "title": "Kaeya's Troubles",
+        "description": "You bump into Kaeya, whom you first met during Stormterror's attack, at the Knights of Favonius Headquarters.",
+        "rewards": [
+            {
+                "itemId": 102,
+                "count": 250
+            },
+            {
+                "itemId": 202,
+                "count": 3225
+            },
+            {
+                "itemId": 104001,
+                "count": 8
+            },
+            {
+                "itemId": 104012,
+                "count": 3
+            }
+        ],
+        "rewards_formatted": "Adventure EXP x250, Mora x3225, Wanderer's Advice x8, Fine Enhancement Ore x3",
+        "chapter": {
+            "icon": "UI_ChapterIcon_Kaeya",
+            "id": "2001",
+            "num": "Pavo Ocellus Chapter: Act I",
+            "title": "Secret Pirate Treasure"
+        },
+        "total_dialogue_lines": 123,
+        "total_speaker_counts": {
+            "Cyrus": 5,
+            "Jack": 6,
+            "Kaeya": 44,
+            "Paimon": 41,
+            "Player": 21,
+            "Stanley": 6
+        }
+    },
+    "talks": [
+        {
+            "id": "46101",
+            "objective": "Talk to Kaeya",
+            "dialogues": [
+                {
+                    "id": "4610101",
+                    "speaker": "Kaeya",
+                    "text": "This is bad... Such a hassle... What am I going to do...",
+                    "choices": [
+                        {
+                            "id": "4610102",
+                            "text": "What's wrong, Kaeya?",
+                            "response": [
+                                {
+                                    "id": "4610104",
+                                    "speaker": "Kaeya",
+                                    "text": "#Oh, thank the Thousand Winds! {NICKNAME}, your arrival must be the grace of the gods!"
+                                },
+                                {
+                                    "id": "4610105",
+                                    "speaker": "Kaeya",
+                                    "text": "If I may ask — envoy sent by the Anemo God to save this mere mortal — could you spare a moment?"
+                                },
+                                {
+                                    "id": "4610106",
+                                    "speaker": "Paimon",
+                                    "text": "Ewwww, cut it out!",
+                                    "choices": [
+                                        {
+                                            "id": "4610107",
+                                            "text": "Can't say I don't have time...",
+                                            "response": [
+                                                {
+                                                    "id": "4610108",
+                                                    "speaker": "Kaeya",
+                                                    "text": "Marvelous!"
+                                                },
+                                                {
+                                                    "id": "4610110",
+                                                    "speaker": "Kaeya",
+                                                    "text": "I cannot let my peers hear about this! I cannot seek help from anyone else but you."
+                                                },
+                                                {
+                                                    "id": "4610111",
+                                                    "speaker": "Kaeya",
+                                                    "text": "Please, let us move to somewhere more fit for such conversations..."
+                                                },
+                                                {
+                                                    "id": "4610112",
+                                                    "speaker": "Kaeya",
+                                                    "text": "Let's talk in the courtyard just outside headquarters. Come with me."
+                                                },
+                                                {
+                                                    "id": "4610113",
+                                                    "speaker": "Paimon",
+                                                    "text": "What's with the sneakiness..."
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "4610109",
+                                            "text": "Tell me what happened."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "4610103",
+                            "text": "You don't usually lose your chill."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "46110",
+            "objective": "",
+            "dialogues": [
+                {
+                    "id": "4611001",
+                    "speaker": "Paimon",
+                    "text": "Help... Help!"
+                }
+            ]
+        },
+        {
+            "id": "46102",
+            "objective": "Talk to Kaeya at the meeting spot",
+            "dialogues": [
+                {
+                    "id": "4610201",
+                    "speaker": "Kaeya",
+                    "text": "This place will do."
+                },
+                {
+                    "id": "4610202",
+                    "speaker": "Paimon",
+                    "text": "Tell us what it's about already!"
+                },
+                {
+                    "id": "4610203",
+                    "speaker": "Kaeya",
+                    "text": "How should I begin... Oh, right, let me tell you a secret first."
+                },
+                {
+                    "id": "4610204",
+                    "speaker": "Kaeya",
+                    "text": "It's a secret of my past, and I confide in you to keep it."
+                },
+                {
+                    "id": "4610205",
+                    "speaker": "Paimon",
+                    "text": "Don't worry, Paimon's lips are sealed."
+                },
+                {
+                    "id": "4610206",
+                    "speaker": "Kaeya",
+                    "text": "As a matter of fact, my grandfather was a pirate!"
+                },
+                {
+                    "id": "4610207",
+                    "speaker": "Paimon",
+                    "text": "Oh."
+                },
+                {
+                    "id": "4610208",
+                    "speaker": "Kaeya",
+                    "text": "...Wait, why do you sound so blithe? Do you think I'm making it up?"
+                },
+                {
+                    "id": "4610209",
+                    "speaker": "Kaeya",
+                    "text": "Look at my eye patch! I inherited it from my grandfather and this is solid proof that we are related by blood!",
+                    "choices": [
+                        {
+                            "id": "4610210",
+                            "text": "I never knew you could inherit eye patches.",
+                            "response": [
+                                {
+                                    "id": "4610211",
+                                    "speaker": "Kaeya",
+                                    "text": "#My! {NICKNAME}, how could you not know such common knowledge!"
+                                },
+                                {
+                                    "id": "4610212",
+                                    "speaker": "Kaeya",
+                                    "text": "This is no different from children inheriting their hairstyles from their parents!"
+                                },
+                                {
+                                    "id": "4610214",
+                                    "speaker": "Kaeya",
+                                    "text": "Yesterday I was glancing through the notes my grandfather left and stumbled upon records that spoke of a <color=#00E1FFFF>treasure</color>..."
+                                },
+                                {
+                                    "id": "4610215",
+                                    "speaker": "Paimon",
+                                    "text": "...Treasure!?"
+                                },
+                                {
+                                    "id": "4610216",
+                                    "speaker": "Kaeya",
+                                    "text": "According to his notes, the treasure is buried in the \"Lost Arcadian Ruins.\""
+                                },
+                                {
+                                    "id": "4610217",
+                                    "speaker": "Paimon",
+                                    "text": "Treasure..."
+                                },
+                                {
+                                    "id": "4610218",
+                                    "speaker": "Kaeya",
+                                    "text": "But the location of the ruins is currently unknown. I've tried searching for clues..."
+                                },
+                                {
+                                    "id": "4610219",
+                                    "speaker": "Paimon",
+                                    "text": "Treasure!"
+                                },
+                                {
+                                    "id": "4610220",
+                                    "speaker": "Paimon",
+                                    "text": "Kaeya! What kind of treasure is it? Gold? Or better yet, gems!?"
+                                },
+                                {
+                                    "id": "4610221",
+                                    "speaker": "Kaeya",
+                                    "text": "Hmph! Treasures that consist of nothing but gold and gems are third-rate treasures..."
+                                },
+                                {
+                                    "id": "4610222",
+                                    "speaker": "Kaeya",
+                                    "text": "My grandfather's treasure is a sword!"
+                                },
+                                {
+                                    "id": "4610223",
+                                    "speaker": "Kaeya",
+                                    "text": "A magic sword that grants the wielder unrivaled power!"
+                                },
+                                {
+                                    "id": "4610224",
+                                    "speaker": "Paimon",
+                                    "text": "Oh wowwwww!"
+                                },
+                                {
+                                    "id": "4610225",
+                                    "speaker": "Kaeya",
+                                    "text": "The sword was dropped from Celestia into the sea by a god. It was later salvaged by my grandfather's crew by pure coincidence."
+                                },
+                                {
+                                    "id": "4610226",
+                                    "speaker": "Kaeya",
+                                    "text": "The moment he gripped the sword, thunder roared, billows howled, and the clear skies were suddenly swallowed by raging winds..."
+                                },
+                                {
+                                    "id": "4610227",
+                                    "speaker": "Kaeya",
+                                    "text": "With the might of the magic sword, my grandfather went on to defeat a hydra, a silver-haired banshee, a wicked abyss dragon..."
+                                },
+                                {
+                                    "id": "4610228",
+                                    "speaker": "Kaeya",
+                                    "text": "But the immense power of the sword enticed many more greedy pirates."
+                                },
+                                {
+                                    "id": "4610229",
+                                    "speaker": "Kaeya",
+                                    "text": "To avoid meaningless conflicts, my grandfather hid the magic sword.",
+                                    "choices": [
+                                        {
+                                            "id": "4610230",
+                                            "text": "Eight-headed hydras, silver-haired banshees... Do they really exist?",
+                                            "response": [
+                                                {
+                                                    "id": "4610231",
+                                                    "speaker": "Kaeya",
+                                                    "text": "The world we live in is fascinating, full of unknown and inexplicable wonders."
+                                                },
+                                                {
+                                                    "id": "4610233",
+                                                    "speaker": "Kaeya",
+                                                    "text": "These incredibly thrilling adventures are romances that could only be told by pirates."
+                                                },
+                                                {
+                                                    "id": "4610234",
+                                                    "speaker": "Paimon",
+                                                    "text": "Holy moley! That's just insane!"
+                                                },
+                                                {
+                                                    "id": "4610235",
+                                                    "speaker": "Kaeya",
+                                                    "text": "A gang of <color=#00E1FFFF>Treasure Hoarders</color> has been very active lately and many ruins have had their relics stolen by them."
+                                                },
+                                                {
+                                                    "id": "4610236",
+                                                    "speaker": "Kaeya",
+                                                    "text": "I'm afraid that they will soon discover the Arcadian Ruins and the magic sword will be lost..."
+                                                },
+                                                {
+                                                    "id": "4610237",
+                                                    "speaker": "Paimon",
+                                                    "text": "We won't let it fall into the wrong hands! We must get the sword before them."
+                                                },
+                                                {
+                                                    "id": "4610238",
+                                                    "speaker": "Paimon",
+                                                    "text": "#You just rest assured that Paimon and {NICKNAME} are here to help!"
+                                                },
+                                                {
+                                                    "id": "4610239",
+                                                    "speaker": "Kaeya",
+                                                    "text": "Wow~"
+                                                },
+                                                {
+                                                    "id": "4610240",
+                                                    "speaker": "Kaeya",
+                                                    "text": "Great! Please keep it a secret. I'll wait for your good news!"
+                                                },
+                                                {
+                                                    "id": "4610241",
+                                                    "speaker": "Paimon",
+                                                    "text": "#Hey! So whatcha think, {NICKNAME}? Isn't it exciting? We're talking about a super-duper powerful sword!",
+                                                    "choices": [
+                                                        {
+                                                            "id": "4610242",
+                                                            "text": "Is it true?",
+                                                            "response": [
+                                                                {
+                                                                    "id": "4610244",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "Well... let's go to the <color=#00E1FFFF>Adventurers' Guild</color> and see if we can find out more."
+                                                                },
+                                                                {
+                                                                    "id": "4610245",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "The adventurers should know more about the ruins, right?"
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "id": "4610243",
+                                                            "text": "Is it really, really true?"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "4610232",
+                                            "text": "..."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "4610213",
+                            "text": "How surprising."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "46109",
+            "objective": "Get to the destination",
+            "dialogues": []
+        },
+        {
+            "id": "46103",
+            "objective": "Go to the Adventurers' Guild and listen to their report",
+            "dialogues": [
+                {
+                    "id": "4610404",
+                    "speaker": "Paimon",
+                    "text": "Hmph! We're not here for something that boring!"
+                },
+                {
+                    "id": "4610405",
+                    "speaker": "Paimon",
+                    "text": "We're looking for a sword that fell from Celestia... One that can kill eight-headed banshees and silver-haired hydras."
+                },
+                {
+                    "id": "4610406",
+                    "speaker": "Paimon",
+                    "text": "It's super, mega, uber powerful!",
+                    "choices": [
+                        {
+                            "id": "4610407",
+                            "text": "It's eight-headed hydras and silver-haired banshees...",
+                            "response": [
+                                {
+                                    "id": "4610408",
+                                    "speaker": "Paimon",
+                                    "text": "That's what Paimon said! It's a super epic sword!"
+                                },
+                                {
+                                    "id": "4610409",
+                                    "speaker": "Paimon",
+                                    "text": "Anyway, it's fine as long as Paimon doesn't tell them the treasure's location!"
+                                },
+                                {
+                                    "id": "4610413",
+                                    "speaker": "Player",
+                                    "text": "(Now she's done it...)"
+                                },
+                                {
+                                    "id": "4610414",
+                                    "speaker": "Cyrus",
+                                    "text": "Arcadian Ruins... Never heard of them."
+                                },
+                                {
+                                    "id": "4610415",
+                                    "speaker": "Cyrus",
+                                    "text": "Thanks for your intel anyway. If you do find these ruins, I'd love to see them."
+                                },
+                                {
+                                    "id": "4610416",
+                                    "speaker": "Paimon",
+                                    "text": "Uh... my... intel...?"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "4610410",
+                            "text": "You've said too much.",
+                            "response": [
+                                {
+                                    "id": "4610411",
+                                    "speaker": "Paimon",
+                                    "text": "It's fine! As long as Paimon doesn't tell them the treasure's location!"
+                                },
+                                {
+                                    "id": "4610412",
+                                    "speaker": "Paimon",
+                                    "text": "So, Cyrus, do you know where the Lost Arcadian Ruins are supposed to be?"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "46104",
+            "objective": "Talk",
+            "dialogues": []
+        },
+        {
+            "id": "46105",
+            "objective": "Talk",
+            "dialogues": [
+                {
+                    "id": "4610513",
+                    "speaker": "Player",
+                    "text": "No. We're here for..."
+                },
+                {
+                    "id": "4610502",
+                    "speaker": "Paimon",
+                    "text": "Nope. We just want to know if you've been to the Arcadian Ruins?"
+                },
+                {
+                    "id": "4610503",
+                    "speaker": "Stanley",
+                    "text": "Arcadian Ruins? Imagine that... So there are places that I haven't been to..."
+                },
+                {
+                    "id": "4610504",
+                    "speaker": "Paimon",
+                    "text": "Oh? Even the great Stanley doesn't know?"
+                },
+                {
+                    "id": "4610505",
+                    "speaker": "Stanley",
+                    "text": "Never mind this Arcadia... You need to know what happened to me on the Mare Jivari and in the Geyser Realm..."
+                },
+                {
+                    "id": "4610506",
+                    "speaker": "Paimon",
+                    "text": "We don't have time for your stories. Think hard, please. We need clues."
+                },
+                {
+                    "id": "4610507",
+                    "speaker": "Stanley",
+                    "text": "The Mare Jivari... It was a place of death..."
+                },
+                {
+                    "id": "4610508",
+                    "speaker": "Paimon",
+                    "text": "Gosh..."
+                },
+                {
+                    "id": "4610509",
+                    "speaker": "Paimon",
+                    "text": "When we find the Arcadian<color=#00E1FFFF>treasure</color>, our story will definitely be better than your stupid stories!"
+                },
+                {
+                    "id": "4610510",
+                    "speaker": "Player",
+                    "text": "(Now she's done it...)"
+                },
+                {
+                    "id": "4610511",
+                    "speaker": "Stanley",
+                    "text": "Treasure...? Even Tales too?"
+                },
+                {
+                    "id": "4610512",
+                    "speaker": "Paimon",
+                    "text": "Hmph! It's a waste of time talking to him. Let's go already."
+                }
+            ]
+        },
+        {
+            "id": "46106",
+            "objective": "Talk",
+            "dialogues": [
+                {
+                    "id": "4610612",
+                    "speaker": "Player",
+                    "text": "I'd like to ask..."
+                },
+                {
+                    "id": "4610602",
+                    "speaker": "Paimon",
+                    "text": "Hey! Do you have any intel on the Arcadian Ruins?"
+                },
+                {
+                    "id": "4610603",
+                    "speaker": "Jack",
+                    "text": "Arcadian... Can't say I've heard of it. Sorry, I'm still new here, so..."
+                },
+                {
+                    "id": "4610604",
+                    "speaker": "Paimon",
+                    "text": "Really..."
+                },
+                {
+                    "id": "4610605",
+                    "speaker": "Jack",
+                    "text": "But you can try posting a commission and see if there are any adventurers who know about it."
+                },
+                {
+                    "id": "4610606",
+                    "speaker": "Paimon",
+                    "text": "That's a no-no! No way."
+                },
+                {
+                    "id": "4610607",
+                    "speaker": "Paimon",
+                    "text": "We can't afford them beating us to the treasure!"
+                },
+                {
+                    "id": "4610608",
+                    "speaker": "Player",
+                    "text": "(Now she's done it...)"
+                },
+                {
+                    "id": "4610609",
+                    "speaker": "Jack",
+                    "text": "Really!?"
+                },
+                {
+                    "id": "4610610",
+                    "speaker": "Jack",
+                    "text": "Well then, I'll keep a lookout for your treasure — I mean, your Arcadian Ruins."
+                },
+                {
+                    "id": "4610611",
+                    "speaker": "Paimon",
+                    "text": "Great! Thanks!"
+                }
+            ]
+        },
+        {
+            "id": "46107",
+            "objective": "Report to Kaeya",
+            "dialogues": [
+                {
+                    "id": "4610801",
+                    "speaker": "Kaeya",
+                    "text": "Oh, you're back. Do you have news for me?"
+                },
+                {
+                    "id": "4610802",
+                    "speaker": "Paimon",
+                    "text": "Listen, we asked around the Adventurers' Guild and found... Well, nothing."
+                },
+                {
+                    "id": "4610803",
+                    "speaker": "Kaeya",
+                    "text": "Haha... That much is expected."
+                },
+                {
+                    "id": "4610804",
+                    "speaker": "Paimon",
+                    "text": "Why is that?"
+                },
+                {
+                    "id": "4610805",
+                    "speaker": "Kaeya",
+                    "text": "Oh, I only mean that, what's the fun in finding it without the hard work?"
+                },
+                {
+                    "id": "4610806",
+                    "speaker": "Kaeya",
+                    "text": "However, I do have some clues."
+                },
+                {
+                    "id": "4610807",
+                    "speaker": "Kaeya",
+                    "text": "I sent someone to collate black market intel. It seems that someone does know about the Arcadian Ruins."
+                },
+                {
+                    "id": "4610808",
+                    "speaker": "Paimon",
+                    "text": "Really? Where's the guy?"
+                },
+                {
+                    "id": "4610809",
+                    "speaker": "Kaeya",
+                    "text": "Now, now, as per the black market's rules, they will send someone to meet us to prevent leaks."
+                },
+                {
+                    "id": "4610810",
+                    "speaker": "Kaeya",
+                    "text": "We will be meeting the informant at the Whispering Woods."
+                },
+                {
+                    "id": "4610811",
+                    "speaker": "Paimon",
+                    "text": "Then, what are we waiting here for?",
+                    "choices": [
+                        {
+                            "id": "4610812",
+                            "text": "It's not ideal for Kaeya to show his face.",
+                            "response": [
+                                {
+                                    "id": "4610813",
+                                    "speaker": "Kaeya",
+                                    "text": "That's right. You read my mind."
+                                },
+                                {
+                                    "id": "4610814",
+                                    "speaker": "Kaeya",
+                                    "text": "I am a knight... so I shouldn't have any dealings with the black market."
+                                },
+                                {
+                                    "id": "4610816",
+                                    "speaker": "Kaeya",
+                                    "text": "You have my thanks."
+                                },
+                                {
+                                    "id": "4610817",
+                                    "speaker": "Kaeya",
+                                    "text": "Of course, you'll be compensated for your troubles... by the Knights."
+                                },
+                                {
+                                    "id": "4610818",
+                                    "speaker": "Paimon",
+                                    "text": "Ooh, no problemo!"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "4610815",
+                            "text": "We'll get the intel back to you."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "46109",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "4610901",
+                    "speaker": "Kaeya",
+                    "text": "I'm a bit busy right now. Do try to find more... clues... You know what I mean."
+                }
+            ]
+        },
+        {
+            "id": "46111",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "4611101",
+                    "speaker": "Cyrus",
+                    "text": "Tell me about the Arcadian Ruins"
+                }
+            ]
+        },
+        {
+            "id": "46112",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "4611201",
+                    "speaker": "Cyrus",
+                    "text": "I am interested in your search, but I just don't have any intel for you."
+                }
+            ]
+        },
+        {
+            "id": "46113",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "4611301",
+                    "speaker": "Player",
+                    "text": "Tell me about the Arcadian Ruins"
+                },
+                {
+                    "id": "4611302",
+                    "speaker": "Stanley",
+                    "text": "If you are not here for my stories, we have nothing to talk about."
+                }
+            ]
+        },
+        {
+            "id": "46114",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "4611401",
+                    "speaker": "Player",
+                    "text": "Tell me about the Arcadian Ruins"
+                },
+                {
+                    "id": "4611402",
+                    "speaker": "Jack",
+                    "text": "Should I go look for it as well...? Oh, haha! I'm just joking. I hope you guys find it!"
+                }
+            ]
+        },
+        {
+            "id": "46115",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "4611501",
+                    "speaker": "Cyrus",
+                    "text": "Hey, kiddo! Welcome to the Adventurers' Guild!"
+                }
+            ]
+        },
+        {
+            "id": "46116",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "4611601",
+                    "speaker": "Stanley",
+                    "text": "I'm Stanley. Remember my name. You're also here for my stories, aren't you?"
+                }
+            ]
+        },
+        {
+            "id": "46117",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "4611701",
+                    "speaker": "Jack",
+                    "text": "Hey! Are you a new adventurer? Wanna join my adventure team?"
+                }
+            ]
+        }
+    ]
+}

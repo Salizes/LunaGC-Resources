@@ -1,0 +1,593 @@
+{
+    "quest": {
+        "id": "75134",
+        "title": "Palácio da Serpente Visão",
+        "description": "Seguindo as orientações de Cocouik, você chega às ruínas do palácio nos níveis superiores de Ochkanatlan. Parece ter algo escondido sob essas ruínas...",
+        "rewards": [
+            {
+                "itemId": 102,
+                "count": 400
+            },
+            {
+                "itemId": 201,
+                "count": 50
+            },
+            {
+                "itemId": 202,
+                "count": 30000
+            },
+            {
+                "itemId": 104003,
+                "count": 5
+            },
+            {
+                "itemId": 104013,
+                "count": 4
+            }
+        ],
+        "rewards_formatted": "EXP de Aventura x400, Gema Essencial x50, Mora x30000, EXP do Herói x5, Minério de Refinamento Místico x4",
+        "chapter": {
+            "icon": "UI_ChapterIcon_Natlan",
+            "id": "10215",
+            "num": "Viajante Perdido no Reino das Cinzas - Ato II",
+            "title": "O Sonho de Contemplar o Céu Distante"
+        },
+        "total_dialogue_lines": 98,
+        "total_speaker_counts": {
+            "#{REALNAME[ID(2)|SHOWHOST(true)]}": 8,
+            "Black Screen": 1,
+            "Bona": 24,
+            "Cocouik": 5,
+            "Paimon": 41,
+            "Player": 19
+        }
+    },
+    "talks": [
+        {
+            "id": "7513401",
+            "objective": "Entre nas ruínas",
+            "dialogues": [
+                {
+                    "id": "751340101",
+                    "speaker": "Bona",
+                    "text": "Deixaremos a área debaixo para vocês. Mais uma vez, obrigada por fazerem isso."
+                },
+                {
+                    "id": "751340102",
+                    "speaker": "Bona",
+                    "text": "Seja o que você encontrar lá embaixo, você tem que voltar e me encontrar, entendeu!?"
+                }
+            ]
+        },
+        {
+            "id": "7513402",
+            "objective": "Explore as ruínas",
+            "dialogues": [
+                {
+                    "id": "751340201",
+                    "speaker": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+                    "text": "Rrooh..."
+                },
+                {
+                    "id": "751340202",
+                    "speaker": "Paimon",
+                    "text": "Urg, o exterior foi corroído pelo Abismo. Parece que vai cair a qualquer momento. Era isso que Coco estava apontando?"
+                },
+                {
+                    "id": "751340203",
+                    "speaker": "Paimon",
+                    "text": "E nós não sabemos o que está lá dentro, embora Paimon tem quase certeza que não é o Altar..."
+                },
+                {
+                    "id": "751340204",
+                    "speaker": "Player",
+                    "text": "\"Lógica rígida não vai nos levar a lugar nenhum...\""
+                },
+                {
+                    "id": "751340205",
+                    "speaker": "Paimon",
+                    "text": "Agora Paimon entendeu. Coco não quis entrar por causa do Abismo."
+                },
+                {
+                    "id": "751340206",
+                    "speaker": "Player",
+                    "text": "Precisamos fazer algo sobre o Abismo."
+                },
+                {
+                    "id": "751340207",
+                    "speaker": "Paimon",
+                    "text": "É, e deve ser por isso que Coco não quis entrar. Temos que nos livrar dele!"
+                },
+                {
+                    "id": "751340208",
+                    "speaker": "Player",
+                    "text": "#Vamos lá, {REALNAME[ID(2)|SHOWHOST(true)]}!"
+                },
+                {
+                    "id": "751340209",
+                    "speaker": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+                    "text": "Rawr!"
+                },
+                {
+                    "id": "751340210",
+                    "speaker": "Paimon",
+                    "text": "Espera, e quanto a Paimon? Grosseria!"
+                },
+                {
+                    "id": "751340211",
+                    "speaker": "Paimon",
+                    "text": "Vamos nos livrar de toda essa sujeira!"
+                }
+            ]
+        },
+        {
+            "id": "7513403",
+            "objective": "Se aproxime do núcleo suspeito",
+            "dialogues": [
+                {
+                    "id": "751340301",
+                    "speaker": "Paimon",
+                    "text": "Ufa... Finalmente acabou."
+                },
+                {
+                    "id": "751340302",
+                    "speaker": "Paimon",
+                    "text": "O Autômato da Fonte Secreta que estava protegendo ele também se acalmou."
+                },
+                {
+                    "id": "751340303",
+                    "speaker": "Paimon",
+                    "text": "Agora vamos ver o que está lá dentro!"
+                },
+                {
+                    "id": "751340304",
+                    "speaker": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+                    "text": "Rawr!"
+                },
+                {
+                    "id": "751340305",
+                    "speaker": "Paimon",
+                    "text": "Paimon espera que não vai desapontar ela... Hã, outra Pyrofosforita? Tem mais de uma?"
+                },
+                {
+                    "id": "751340306",
+                    "speaker": "Paimon",
+                    "text": "Espera, os pergaminhos tecidos ao redor dele parecem familiares. Eles são bem parecidos com as notas que encontramos dentro da torre do lado de fora das ruínas..."
+                },
+                {
+                    "id": "751340307",
+                    "speaker": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+                    "text": "Rawr... Rawr!"
+                },
+                {
+                    "id": "751340308",
+                    "speaker": "Paimon",
+                    "text": "#Isso é bem estranho. Você não acha, {REALNAME[ID(2)|SHOWHOST(true)]}? {NICKNAME}, o que está escrito neles?"
+                },
+                {
+                    "id": "751340309",
+                    "speaker": "Paimon",
+                    "text": "Uau, essas notas realmente foram deixadas para trás pelo mesma aventureira. Então, esse deve ser o Núcleo de Chu'ulel, né?",
+                    "choices": [
+                        {
+                            "id": "751340310",
+                            "text": "Existem outras possibilidades.",
+                            "response": [
+                                {
+                                    "id": "751340311",
+                                    "speaker": "Paimon",
+                                    "text": "Verdade, e realmente encontramos outra Pyrofosforita aqui. Talvez tem mais para serem encontradas em outro lugar."
+                                },
+                                {
+                                    "id": "751340312",
+                                    "speaker": "Player",
+                                    "text": "Existem muitas coisas aqui que não fazem muito sentido."
+                                },
+                                {
+                                    "id": "751340313",
+                                    "speaker": "Paimon",
+                                    "text": "Verdade, e Coco nos apontou para cá. Será que sabia que tinha uma Pyrofosforita aqui e queria que a gente ficasse com ela? Paimon não entende."
+                                },
+                                {
+                                    "id": "751340314",
+                                    "speaker": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+                                    "text": "Rrooh..."
+                                },
+                                {
+                                    "id": "751340315",
+                                    "speaker": "Player",
+                                    "text": "Deveríamos voltar primeiro."
+                                },
+                                {
+                                    "id": "751340316",
+                                    "speaker": "Paimon",
+                                    "text": "Você tem razão, Coco provavelmente sabe o que está acontecendo, e nós prometemos a Bona que voltaríamos independentemente do que encontrássemos."
+                                },
+                                {
+                                    "id": "751340317",
+                                    "speaker": "Player",
+                                    "text": "Vamos levar isso de volta para Bona."
+                                },
+                                {
+                                    "id": "751340318",
+                                    "speaker": "Paimon",
+                                    "text": "Você tem razão, talvez Bona saiba o que está acontecendo, e prometemos realmente a ela que voltaríamos independentemente do que encontrássemos."
+                                },
+                                {
+                                    "id": "751340319",
+                                    "speaker": "Paimon",
+                                    "text": "Vamos sair daqui, e rápido."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "751340312",
+                            "text": "Existem muitas coisas aqui que não fazem muito sentido."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "7513404",
+            "objective": "Tente eliminar a corrupção do Abismo",
+            "dialogues": [
+                {
+                    "id": "751340401",
+                    "speaker": "Bona",
+                    "text": "Ei! Você finalmente voltou!"
+                },
+                {
+                    "id": "751340402",
+                    "speaker": "Bona",
+                    "text": "O que você encontrou lá embaixo? Conte-me tudo!"
+                },
+                {
+                    "id": "751340403",
+                    "speaker": "Paimon",
+                    "text": "Na verdade..."
+                },
+                {
+                    "id": "751340404",
+                    "speaker": "Black Screen",
+                    "text": "Você conta a Bona sobre tudo que aconteceu lá embaixo."
+                },
+                {
+                    "id": "751340405",
+                    "speaker": "Bona",
+                    "text": "Hã!? Você encontrou outro pedaço de Pyrofosforita? Uau, e cá estava eu achando que aquela que eu tenho era a única do mundo."
+                },
+                {
+                    "id": "751340406",
+                    "speaker": "Bona",
+                    "text": "Espera, será que a minha é falsificada? ...Hmm, talvez esse seja o motivo que eu não percebi nada especial sobre ela todos esses anos."
+                },
+                {
+                    "id": "751340407",
+                    "speaker": "Player",
+                    "text": "Não pode ser..."
+                },
+                {
+                    "id": "751340408",
+                    "speaker": "Paimon",
+                    "text": "A que encontramos lá embaixo parece bem ordinária também, tirando os padrões nela."
+                },
+                {
+                    "id": "751340409",
+                    "speaker": "Player",
+                    "text": "Também descobrimos que..."
+                },
+                {
+                    "id": "751340410",
+                    "speaker": "Paimon",
+                    "text": "Ah, certo, descobrimos algumas notas estranhas deixadas por uma aventureira. Você quer ver?"
+                },
+                {
+                    "id": "751340411",
+                    "speaker": "Bona",
+                    "text": "Notas de uma aventureira? Aqueles que vieram para essa cidade amaldiçoada provavelmente vieram por conta do Jade do Retorno mesmo, então... Não preciso olhar as notas."
+                },
+                {
+                    "id": "751340412",
+                    "speaker": "Paimon",
+                    "text": "Mas havia menções sobre a Pyrofosforita e o Altar. Talvez..."
+                },
+                {
+                    "id": "751340413",
+                    "speaker": "Bona",
+                    "text": "Eu sei. É exatamente por isso que eu não preciso olhar as notas antes de encontrar o Jade do Retorno."
+                },
+                {
+                    "id": "751340414",
+                    "speaker": "Paimon",
+                    "text": "Hã? Por quê?"
+                },
+                {
+                    "id": "751340415",
+                    "speaker": "Bona",
+                    "text": "Ao longo dos anos, muitos aventureiros saíram para encontrar o Tonatiuh e o Jade do Retorno..."
+                },
+                {
+                    "id": "751340416",
+                    "speaker": "Bona",
+                    "text": "Mas todos fracassaram e ninguém conseguiu provar a existência do navio nos céus."
+                },
+                {
+                    "id": "751340417",
+                    "speaker": "Bona",
+                    "text": "A maioria acha que é só um sonho, uma ilusão. Uma fantasia que as pessoas que estão sofrendo por causa do Abismo usam para se confortar."
+                },
+                {
+                    "id": "751340418",
+                    "speaker": "Bona",
+                    "text": "Então suas aventuras nunca foram registradas pelos griôs, e seus feitos nunca foram cantados."
+                },
+                {
+                    "id": "751340419",
+                    "speaker": "Bona",
+                    "text": "Se não pudermos encontrar o Tonatiuh e recuperar o Jade do Retorno, tudo terá sido em vão."
+                },
+                {
+                    "id": "751340420",
+                    "speaker": "Player",
+                    "text": "O que importa é a jornada."
+                },
+                {
+                    "id": "751340421",
+                    "speaker": "Bona",
+                    "text": "Você realmente acha? É difícil encontrar aventureiros que enfatizam a jornada em Natlan."
+                },
+                {
+                    "id": "751340422",
+                    "speaker": "Bona",
+                    "text": "Aventureiros sem conquistas existem, mas aventureiros precisam de algo para se provarem, não é?"
+                },
+                {
+                    "id": "751340423",
+                    "speaker": "Player",
+                    "text": "A experiência é importante."
+                },
+                {
+                    "id": "751340424",
+                    "speaker": "Bona",
+                    "text": "Seu ponto assume que o navio existe. E se for só uma história?"
+                },
+                {
+                    "id": "751340425",
+                    "speaker": "Bona",
+                    "text": "É por isso que devemos encontrá-lo. Pelo meu velho, e pelos aventureiros que perderam suas vidas tentando."
+                },
+                {
+                    "id": "751340426",
+                    "speaker": "Bona",
+                    "text": "E quanto às anotações que vocês encontraram... não importa a origem, elas não têm significado algum até chegarmos no Tonatiuh."
+                },
+                {
+                    "id": "751340427",
+                    "speaker": "Bona",
+                    "text": "Então, se encontrarmos o navio e retornarmos em segurança, contem para todos na Guilda de Aventureiros o que fizemos, certo?"
+                },
+                {
+                    "id": "751340428",
+                    "speaker": "Player",
+                    "text": "Não se preocupe, Paimon é fofoqueira."
+                },
+                {
+                    "id": "751340429",
+                    "speaker": "Paimon",
+                    "text": "O quê?! Você tá dizendo que Paimon é boa em exagerar?! Enfim, se encontrarmos o navio lendário, contar pra Katheryne é o mesmo que contar pra todo o Teyvat!"
+                },
+                {
+                    "id": "751340430",
+                    "speaker": "Player",
+                    "text": "Deixe comigo."
+                },
+                {
+                    "id": "751340431",
+                    "speaker": "Paimon",
+                    "text": "#Hehe, nós somos aventureir{F#as}{M#os} lendári{F#as}{M#os}. Conte nossa história pra qualquer jornalista que a gente vai ser capa e manchete!"
+                },
+                {
+                    "id": "751340432",
+                    "speaker": "Player",
+                    "text": "#{REALNAME[ID(2)|SHOWHOST(true)]} vai cuidar disso."
+                },
+                {
+                    "id": "751340433",
+                    "speaker": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+                    "text": "Rawr!"
+                },
+                {
+                    "id": "751340434",
+                    "speaker": "Paimon",
+                    "text": "Estou feliz que ele concordou, mas eu me lembro que ele só pode falar com outros aventureiros Saurianos, não é? Espere, sequer existem Saurianos assim?"
+                },
+                {
+                    "id": "751340435",
+                    "speaker": "Bona",
+                    "text": "Enfim... Você ainda não me mostrou a Pyrofosforita que você encontrou!"
+                },
+                {
+                    "id": "751340436",
+                    "speaker": "Paimon",
+                    "text": "#Ah, é! {NICKNAME}, mostra para ele a Pyrofosforita! Talvez Coco se lembrará de algo quando vir a pedra."
+                },
+                {
+                    "id": "751340437",
+                    "speaker": "Cocouik",
+                    "text": "Kulu..."
+                },
+                {
+                    "id": "751340438",
+                    "speaker": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+                    "text": "Rooo... Rawr..."
+                },
+                {
+                    "id": "751340439",
+                    "speaker": "Paimon",
+                    "text": "O-O que está acontecendo? A luz! Ela queima!"
+                },
+                {
+                    "id": "751340440",
+                    "speaker": "Cocouik",
+                    "text": "Cheep! Cheep!"
+                },
+                {
+                    "id": "751340441",
+                    "speaker": "Paimon",
+                    "text": "Hã!? Do nada, Coco parece... animado!"
+                },
+                {
+                    "id": "751340442",
+                    "speaker": "Player",
+                    "text": "Parece que disparar o \"Raio Superpoderoso Maravilhoso\" não deve ser um problema."
+                },
+                {
+                    "id": "751340443",
+                    "speaker": "Paimon",
+                    "text": "Uh... Como você se lembrou de um nome tão estrambólico?"
+                },
+                {
+                    "id": "751340444",
+                    "speaker": "Paimon",
+                    "text": "Mesmo assim, poderia esse ser o mesmo fenômeno dos fragmentos de energia que encontramos antes? No caso, aquela energia que pode ser guardada na Pyrofosforita?"
+                },
+                {
+                    "id": "751340445",
+                    "speaker": "Player",
+                    "text": "Parece que as Pyrofosforitas também contém a energia."
+                },
+                {
+                    "id": "751340446",
+                    "speaker": "Paimon",
+                    "text": "É, é o mesmo que aconteceu com aqueles fragmentos de energia de antes..."
+                },
+                {
+                    "id": "751340447",
+                    "speaker": "Paimon",
+                    "text": "E Coco, por sua vez, usa a energia guardada dentro para lutar contra o Abismo."
+                },
+                {
+                    "id": "751340448",
+                    "speaker": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+                    "text": "Rawr, rawr!"
+                },
+                {
+                    "id": "751340449",
+                    "speaker": "Bona",
+                    "text": "#{NICKNAME}, olha!"
+                },
+                {
+                    "id": "751340450",
+                    "speaker": "Paimon",
+                    "text": "Eita, o que está acontecendo!? O mural parece diferente agora!"
+                },
+                {
+                    "id": "751340451",
+                    "speaker": "Bona",
+                    "text": "Então isso estava escondido pelo mural que vimos antes..."
+                },
+                {
+                    "id": "751340452",
+                    "speaker": "Player",
+                    "text": "Nós vimos isso em outro mural anterior..."
+                },
+                {
+                    "id": "751340453",
+                    "speaker": "Paimon",
+                    "text": "Não é aquele grande dragão negro no mural das ruínas onde pegamos o primeiro Prato Dourado do Ultimato?"
+                },
+                {
+                    "id": "751340454",
+                    "speaker": "Paimon",
+                    "text": "Mas, nesta pintura, parece que o dragão negro é o senhor deste lugar."
+                },
+                {
+                    "id": "751340455",
+                    "speaker": "Player",
+                    "text": "O dragão se entrincheira acima da cidade..."
+                },
+                {
+                    "id": "751340456",
+                    "speaker": "Paimon",
+                    "text": "Essa pintura realmente faz parecer que o dragão maligno é o senhor deste lugar."
+                },
+                {
+                    "id": "751340457",
+                    "speaker": "Cocouik",
+                    "text": "Cheep... Ku!"
+                },
+                {
+                    "id": "751340458",
+                    "speaker": "Paimon",
+                    "text": "Coco? O que foi? Você sabe algo sobre este mural?"
+                },
+                {
+                    "id": "751340459",
+                    "speaker": "Cocouik",
+                    "text": "Yee!"
+                },
+                {
+                    "id": "751340460",
+                    "speaker": "Paimon",
+                    "text": "Hmmm. Desta vez, a luz está apontando para o céu..."
+                },
+                {
+                    "id": "751340461",
+                    "speaker": "Cocouik",
+                    "text": "Ku-ku!"
+                },
+                {
+                    "id": "751340462",
+                    "speaker": "Bona",
+                    "text": "Certo, é isso. O Altar do Fogo Original deve estar naquela direção, no ponto mais alto da cidade antiga!"
+                },
+                {
+                    "id": "751340463",
+                    "speaker": "Paimon",
+                    "text": "Você tem certeza? A Paimon fica preocupada sempre que você soa tão confiante sobre alguma coisa..."
+                },
+                {
+                    "id": "751340464",
+                    "speaker": "Bona",
+                    "text": "Só confia em mim mais uma vez, vai? Estou com um bom pressentimento sobre isso!"
+                },
+                {
+                    "id": "751340465",
+                    "speaker": "Paimon",
+                    "text": "É nisso que estamos confiando hoje em dia? Bem, já que não temos mais nada em que confiar... vamos subir lá."
+                }
+            ]
+        },
+        {
+            "id": "7513405",
+            "objective": "Tente eliminar a corrupção do Abismo",
+            "dialogues": []
+        },
+        {
+            "id": "7513406",
+            "objective": "Investigue o núcleo caído suspeito",
+            "dialogues": []
+        },
+        {
+            "id": "7513407",
+            "objective": "Proteja o núcleo caído e expulse os monstros",
+            "dialogues": []
+        },
+        {
+            "id": "7513408",
+            "objective": "Investigue o núcleo caído suspeito",
+            "dialogues": []
+        },
+        {
+            "id": "7513409",
+            "objective": "Encontre-se com Bona",
+            "dialogues": []
+        },
+        {
+            "id": "7513410",
+            "objective": "Fale com Bona",
+            "dialogues": []
+        }
+    ]
+}

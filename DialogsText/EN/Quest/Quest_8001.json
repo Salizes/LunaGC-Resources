@@ -1,0 +1,998 @@
+{
+    "quest": {
+        "id": "8001",
+        "title": "A Herald Without Adherents",
+        "description": "After fleeing from those creepy ruins, you meet Dainsleif by chance. You follow him and begin your pursuit of the Abyss Herald through those ruins once more...",
+        "rewards": [
+            {
+                "itemId": 102,
+                "count": 650
+            },
+            {
+                "itemId": 202,
+                "count": 31125
+            },
+            {
+                "itemId": 104003,
+                "count": 3
+            },
+            {
+                "itemId": 104013,
+                "count": 6
+            }
+        ],
+        "rewards_formatted": "Adventure EXP x650, Mora x31125, Hero's Wit x3, Mystic Enhancement Ore x6",
+        "chapter": {
+            "icon": "UI_ChapterIcon_Traveler",
+            "id": "1104",
+            "num": "Chapter I: Act IV",
+            "title": "We Will Be Reunited"
+        },
+        "total_dialogue_lines": 174,
+        "total_speaker_counts": {
+            "Dainsleif": 74,
+            "Paimon": 57,
+            "Player": 43
+        }
+    },
+    "talks": [
+        {
+            "id": "800101",
+            "objective": "Talk to Dainsleif",
+            "dialogues": [
+                {
+                    "id": "80010101",
+                    "speaker": "Dainsleif",
+                    "text": "So we meet again... a little sooner than I had expected."
+                },
+                {
+                    "id": "80010102",
+                    "speaker": "Paimon",
+                    "text": "Hey, it's Dain!"
+                },
+                {
+                    "id": "80010103",
+                    "speaker": "Dainsleif",
+                    "text": "Judging by your expression, it seems you just experienced something quite strange."
+                },
+                {
+                    "id": "80010104",
+                    "speaker": "Dainsleif",
+                    "text": "Could it be that you encountered an Abyss Herald in those ruins?"
+                },
+                {
+                    "id": "80010105",
+                    "speaker": "Paimon",
+                    "text": "Huh!? How did you know that?"
+                },
+                {
+                    "id": "80010106",
+                    "speaker": "Dainsleif",
+                    "text": "I've been on the Abyss Herald's trail. I didn't expect to find you here as well.",
+                    "choices": [
+                        {
+                            "id": "80010107",
+                            "text": "Actually, the Abyss Herald wasn't all we encountered...",
+                            "response": [
+                                {
+                                    "id": "80010109",
+                                    "speaker": "Dainsleif",
+                                    "text": "An inverted Statue of The Seven... holding Abyssal power in its hands? No, I have never seen such a thing during my time fighting the Abyss... though I have had my suspicions."
+                                },
+                                {
+                                    "id": "80010110",
+                                    "speaker": "Dainsleif",
+                                    "text": "Tell me the rest of what happened in there. So you escaped the ruin depths filled with Abyssal power, and then?"
+                                },
+                                {
+                                    "id": "80010111",
+                                    "speaker": "Paimon",
+                                    "text": "And then, as we got close to the exit, an Abyss Herald suddenly appeared and blocked our way."
+                                },
+                                {
+                                    "id": "80010112",
+                                    "speaker": "Paimon",
+                                    "text": "We fought a big battle with that thing. Maybe it hasn't gotten too far yet..."
+                                },
+                                {
+                                    "id": "80010113",
+                                    "speaker": "Dainsleif",
+                                    "text": "Yes, this is a rare opportunity indeed. Come, let's catch up to it.",
+                                    "choices": [
+                                        {
+                                            "id": "80010114",
+                                            "text": "Yes, sir!",
+                                            "response": [
+                                                {
+                                                    "id": "80010116",
+                                                    "speaker": "Paimon",
+                                                    "text": "Let's go! A rare opportunity! With Dain helping out, maybe we'll be able to solve more mysteries about the Abyss!"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "80010115",
+                                            "text": "Wait, I thought I was the one who commissioned you..."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "80010108",
+                            "text": "There was something even stranger than the Abyss Herald in the ruins."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "800102",
+            "objective": "Look for traces of the Abyss Order",
+            "dialogues": [
+                {
+                    "id": "80010201",
+                    "speaker": "Paimon",
+                    "text": "Those Abyss Mages just now... were they trying to ambush us?"
+                },
+                {
+                    "id": "80010202",
+                    "speaker": "Dainsleif",
+                    "text": "No, they were just digging through these abandoned Ruin Guards looking for something of value."
+                },
+                {
+                    "id": "80010203",
+                    "speaker": "Paimon",
+                    "text": "Oh, is that so... The Traveler here seems to like doing that a lot, too..."
+                },
+                {
+                    "id": "80010204",
+                    "speaker": "Paimon",
+                    "text": "Looking for Chaos Devices, Chaos Circuits... You know, that kinda stuff.",
+                    "choices": [
+                        {
+                            "id": "80010205",
+                            "text": "Yep, those are important materials!",
+                            "response": [
+                                {
+                                    "id": "80010207",
+                                    "speaker": "Dainsleif",
+                                    "text": "They wouldn't be searching for such ordinary objects."
+                                },
+                                {
+                                    "id": "80010208",
+                                    "speaker": "Dainsleif",
+                                    "text": "In fact, I was nearby investigating precisely because Abyss Mages often come out from that ruin to explore."
+                                },
+                                {
+                                    "id": "80010209",
+                                    "speaker": "Dainsleif",
+                                    "text": "They seem to be searching the remains of Ruin Guards for a certain valuable object to take back to the ruins."
+                                },
+                                {
+                                    "id": "80010210",
+                                    "speaker": "Dainsleif",
+                                    "text": "However, they look disappointed, so it would seem they haven't found it yet..."
+                                },
+                                {
+                                    "id": "80010211",
+                                    "speaker": "Paimon",
+                                    "text": "Well then, why didn't you grab one of them just now and ask what they were up to?",
+                                    "choices": [
+                                        {
+                                            "id": "80010212",
+                                            "text": "Yeah, Master Diluc's done that before...",
+                                            "response": [
+                                                {
+                                                    "id": "80010214",
+                                                    "speaker": "Dainsleif",
+                                                    "text": "I certainly don't mean to be merciful towards these monsters of the Abyss..."
+                                                },
+                                                {
+                                                    "id": "80010215",
+                                                    "speaker": "Dainsleif",
+                                                    "text": "But I have a feeling that their plan with this object is of major importance to the entire Abyss Order."
+                                                },
+                                                {
+                                                    "id": "80010216",
+                                                    "speaker": "Dainsleif",
+                                                    "text": "One cannot discover the truth behind it through interrogation."
+                                                },
+                                                {
+                                                    "id": "80010217",
+                                                    "speaker": "Dainsleif",
+                                                    "text": "Or rather, these Abyss Mages likely fear something else much more than they do a painful interrogation...",
+                                                    "choices": [
+                                                        {
+                                                            "id": "80010218",
+                                                            "text": "Fear...",
+                                                            "response": [
+                                                                {
+                                                                    "id": "80010220",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "Uhh... Paimon is getting goosebumps thinking about all this!"
+                                                                },
+                                                                {
+                                                                    "id": "80010221",
+                                                                    "speaker": "Dainsleif",
+                                                                    "text": "Alright, we shouldn't waste too much time here. Let's continue our search."
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "id": "80010219",
+                                                            "text": "Something related to what we saw in the ruins?"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "80010213",
+                                            "text": "You should be rougher with them."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "80010206",
+                            "text": "Abyss Mages probably weren't looking for stuff like that..."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "800103",
+            "objective": "Talk to Dainsleif",
+            "dialogues": []
+        },
+        {
+            "id": "800104",
+            "objective": "Look for traces of the Abyss Order",
+            "dialogues": [
+                {
+                    "id": "80010401",
+                    "speaker": "Paimon",
+                    "text": "Huh? This Abyss Mage dropped a talisman... Could it be a communication of some kind?"
+                },
+                {
+                    "id": "80010402",
+                    "speaker": "Dainsleif",
+                    "text": "Hmm, this talisman seems connected to the Abyss Herald. But why would an Abyss Mage be carrying it...?"
+                },
+                {
+                    "id": "80010403",
+                    "speaker": "Dainsleif",
+                    "text": "Perhaps it really does contain information about their operation."
+                },
+                {
+                    "id": "80010404",
+                    "speaker": "Paimon",
+                    "text": "But, Paimon can't read the writing on it... *gasp* Is that the script of Khaenri'ah?"
+                },
+                {
+                    "id": "80010405",
+                    "speaker": "Dainsleif",
+                    "text": "#\"...Engulf the faith of the enemy in flame, and bring glory to {F#His Highness, the Prince}{M#Her Highness, the Princess}...\""
+                },
+                {
+                    "id": "80010406",
+                    "speaker": "Paimon",
+                    "text": "Wha—!? Is that what it says?"
+                },
+                {
+                    "id": "80010407",
+                    "speaker": "Dainsleif",
+                    "text": "\"...'Loom of Fate,' initial operation.\""
+                },
+                {
+                    "id": "80010408",
+                    "speaker": "Dainsleif",
+                    "text": "They... the Abyss, seem to be carrying out a large operation. The keyword here is \"Loom of Fate.\""
+                },
+                {
+                    "id": "80010409",
+                    "speaker": "Dainsleif",
+                    "text": "It seems like they are still launching the operation, or rather, are still conducting preliminary tests..."
+                },
+                {
+                    "id": "80010410",
+                    "speaker": "Paimon",
+                    "text": "\"Loom of Fate\"? What's that? Is it literally a... fate-weaving machine?",
+                    "choices": [
+                        {
+                            "id": "80010411",
+                            "text": "The Abyss Mage came from those ruins...",
+                            "response": [
+                                {
+                                    "id": "80010413",
+                                    "speaker": "Paimon",
+                                    "text": "From the horrible feeling Paimon's been getting, those eerie ruins are super likely to be related to this fate-weaving operation."
+                                },
+                                {
+                                    "id": "80010414",
+                                    "speaker": "Paimon",
+                                    "text": "So Dain, what message does this talisman contain?"
+                                },
+                                {
+                                    "id": "80010415",
+                                    "speaker": "Dainsleif",
+                                    "text": "I'm reading it now..."
+                                },
+                                {
+                                    "id": "80010416",
+                                    "speaker": "Dainsleif",
+                                    "text": "Hmm... An ambitious operation, but some parts are difficult to understand."
+                                },
+                                {
+                                    "id": "80010417",
+                                    "speaker": "Paimon",
+                                    "text": "How so?"
+                                },
+                                {
+                                    "id": "80010418",
+                                    "speaker": "Dainsleif",
+                                    "text": "In short, the first phase of the plan is related to Osial, Overlord of the Vortex."
+                                },
+                                {
+                                    "id": "80010419",
+                                    "speaker": "Paimon",
+                                    "text": "The Overlord of the Vortex!? You mean that god in the ocean?",
+                                    "choices": [
+                                        {
+                                            "id": "80010420",
+                                            "text": "We weren't able to destroy it last time...",
+                                            "response": [
+                                                {
+                                                    "id": "80010422",
+                                                    "speaker": "Paimon",
+                                                    "text": "What do they want with Osial? Ohh..."
+                                                },
+                                                {
+                                                    "id": "80010423",
+                                                    "speaker": "Player",
+                                                    "text": "Could it be the same as with Dvalin?"
+                                                },
+                                                {
+                                                    "id": "80010424",
+                                                    "speaker": "Dainsleif",
+                                                    "text": "I know of your past heroics regarding Dvalin, and I also know of the Abyss Order's role in the Stormterror incident."
+                                                },
+                                                {
+                                                    "id": "80010425",
+                                                    "speaker": "Dainsleif",
+                                                    "text": "Though you may not have been aware of it at the time, you were thwarting an Abyss Order operation similar to this one."
+                                                },
+                                                {
+                                                    "id": "80010426",
+                                                    "speaker": "Paimon",
+                                                    "text": "Last time it was Venti's old friend, this time it's a huge ancient god... The Abyss Order keeps setting their sights higher and higher."
+                                                },
+                                                {
+                                                    "id": "80010427",
+                                                    "speaker": "Paimon",
+                                                    "text": "Will the Abyss Order use their lies and dark magic to corrupt Osial, just as they did Dvalin?"
+                                                },
+                                                {
+                                                    "id": "80010428",
+                                                    "speaker": "Dainsleif",
+                                                    "text": "No... From the contents of the talisman, this operation goes one step further."
+                                                },
+                                                {
+                                                    "id": "80010429",
+                                                    "speaker": "Dainsleif",
+                                                    "text": "They won't just corrupt Osial's mind. They also plan to use the ancient technology behind the \"Field Tillers\" to completely transform Osial's body."
+                                                },
+                                                {
+                                                    "id": "80010430",
+                                                    "speaker": "Paimon",
+                                                    "text": "Is... that even possible?"
+                                                },
+                                                {
+                                                    "id": "80010431",
+                                                    "speaker": "Paimon",
+                                                    "text": "So wait, the Abyss Order wants to make some sort of... Cybernetic Squid-God of Mass Destruction!?",
+                                                    "choices": [
+                                                        {
+                                                            "id": "80010432",
+                                                            "text": "Sounds about right.",
+                                                            "response": [
+                                                                {
+                                                                    "id": "80010434",
+                                                                    "speaker": "Dainsleif",
+                                                                    "text": "Very few people today truly understand the civilization of Khaenri'ah, though of course, the accuracy of that understanding itself is difficult to judge."
+                                                                },
+                                                                {
+                                                                    "id": "80010435",
+                                                                    "speaker": "Dainsleif",
+                                                                    "text": "Only the Abyss Order has consistently sought out the remnants of Khaenri'ah. Despite being far from human, they seek out this lost human civilization quite persistently."
+                                                                },
+                                                                {
+                                                                    "id": "80010436",
+                                                                    "speaker": "Dainsleif",
+                                                                    "text": "The talisman's message states that they will use \"the Defiled Statue\" as a base, attaching Osial's limbs to construct a mechanized god."
+                                                                },
+                                                                {
+                                                                    "id": "80010437",
+                                                                    "speaker": "Dainsleif",
+                                                                    "text": "And the new core that shall replace the orb usually held by the Statue of The Seven... is the eye of the very first Field Tiller."
+                                                                },
+                                                                {
+                                                                    "id": "80010438",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "\"The eye of the very first Field Tiller\"? ...Ohh, Paimon gets it! All those Abyss Mages are looking for this special eye, right?"
+                                                                },
+                                                                {
+                                                                    "id": "80010439",
+                                                                    "speaker": "Dainsleif",
+                                                                    "text": "It would seem so.",
+                                                                    "choices": [
+                                                                        {
+                                                                            "id": "80010440",
+                                                                            "text": "They haven't found it yet. We still have time.",
+                                                                            "response": [
+                                                                                {
+                                                                                    "id": "80010442",
+                                                                                    "speaker": "Paimon",
+                                                                                    "text": "This whole thing keeps getting more complicated. But basically, it all has to do with that eerie Statue of The Seven we saw, right?"
+                                                                                },
+                                                                                {
+                                                                                    "id": "80010443",
+                                                                                    "speaker": "Dainsleif",
+                                                                                    "text": "Yes. According to the talisman, the eye should be placed in the hands of the Defiled Statue..."
+                                                                                },
+                                                                                {
+                                                                                    "id": "80010444",
+                                                                                    "speaker": "Dainsleif",
+                                                                                    "text": "Thereby imbuing the newly born god with the power to \"topple the divine thrones of Celestia.\"",
+                                                                                    "choices": [
+                                                                                        {
+                                                                                            "id": "80010445",
+                                                                                            "text": "(Celestia...)",
+                                                                                            "response": [
+                                                                                                {
+                                                                                                    "id": "80010447",
+                                                                                                    "speaker": "Paimon",
+                                                                                                    "text": "Oh boy... The Abyss Order sure isn't holding back with this plan."
+                                                                                                },
+                                                                                                {
+                                                                                                    "id": "80010448",
+                                                                                                    "speaker": "Paimon",
+                                                                                                    "text": "Hmm. Since no one knows where the first Field Tiller is, how about we take the information about the statue as the starting point for our investigation?",
+                                                                                                    "choices": [
+                                                                                                        {
+                                                                                                            "id": "80010449",
+                                                                                                            "text": "That statue... It looked like the Anemo Archon...",
+                                                                                                            "response": [
+                                                                                                                {
+                                                                                                                    "id": "80010451",
+                                                                                                                    "speaker": "Paimon",
+                                                                                                                    "text": "Yeah, that Tone-Deaf Bard is too difficult to track down anyway. Let's go to the <color=#00E1FFFF>Cathedral</color> first and ask around, maybe we'll learn something."
+                                                                                                                },
+                                                                                                                {
+                                                                                                                    "id": "80010452",
+                                                                                                                    "speaker": "Dainsleif",
+                                                                                                                    "text": "The Cathedral... Hmph."
+                                                                                                                },
+                                                                                                                {
+                                                                                                                    "id": "80010453",
+                                                                                                                    "speaker": "Paimon",
+                                                                                                                    "text": "Huh? What's the matter, Dain?"
+                                                                                                                },
+                                                                                                                {
+                                                                                                                    "id": "80010454",
+                                                                                                                    "speaker": "Dainsleif",
+                                                                                                                    "text": "Nothing. Let's get moving."
+                                                                                                                }
+                                                                                                            ]
+                                                                                                        },
+                                                                                                        {
+                                                                                                            "id": "80010450",
+                                                                                                            "text": "Should we ask the Church of Favonius about it?"
+                                                                                                        }
+                                                                                                    ]
+                                                                                                }
+                                                                                            ]
+                                                                                        },
+                                                                                        {
+                                                                                            "id": "80010446",
+                                                                                            "text": "(Topple the divine thrones...)"
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        {
+                                                                            "id": "80010441",
+                                                                            "text": "Let's find the eye before they do."
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "id": "80010433",
+                                                            "text": "These nicknames keep getting longer!"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "80010421",
+                                            "text": "It was just crushed by the Jade Chamber..."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "80010412",
+                            "text": "Is it related to the inverted statue?"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "800105",
+            "objective": "Talk to Dainsleif",
+            "dialogues": [
+                {
+                    "id": "80010301",
+                    "speaker": "Paimon",
+                    "text": "Wow... Besides the Abyss Order, Ruin Guards sure are active around here..."
+                },
+                {
+                    "id": "80010302",
+                    "speaker": "Paimon",
+                    "text": "Seems wherever we find an Abyss Mage hideout, there's often a bunch of Ruin Guards roaming around too. Is that just a coincidence, or...?"
+                },
+                {
+                    "id": "80010303",
+                    "speaker": "Dainsleif",
+                    "text": "There are no coincidences in the world. Everything is the fruit of seeds planted long ago."
+                },
+                {
+                    "id": "80010304",
+                    "speaker": "Dainsleif",
+                    "text": "Just like your appearance in that tavern... Time is just waiting for those seeds to sprout.",
+                    "choices": [
+                        {
+                            "id": "80010305",
+                            "text": "But I only heard about you by chance...",
+                            "response": [
+                                {
+                                    "id": "80010307",
+                                    "speaker": "Dainsleif",
+                                    "text": "Forget it. Just some needless musings."
+                                },
+                                {
+                                    "id": "80010308",
+                                    "speaker": "Dainsleif",
+                                    "text": "The connection between the Abyss Order and the Ruin Guards is by no means incidental."
+                                },
+                                {
+                                    "id": "80010309",
+                                    "speaker": "Dainsleif",
+                                    "text": "Rather, they are both branches that have grown out and up from the same roots below."
+                                },
+                                {
+                                    "id": "80010310",
+                                    "speaker": "Paimon",
+                                    "text": "\"Branches\"? \"Roots\"? What do you mean exactly?"
+                                },
+                                {
+                                    "id": "80010311",
+                                    "speaker": "Dainsleif",
+                                    "text": "Both originate from an ancient nation that was destroyed 500 years ago — Khaenri'ah."
+                                },
+                                {
+                                    "id": "80010312",
+                                    "speaker": "Paimon",
+                                    "text": "Huh? Khaenri'ah!?"
+                                },
+                                {
+                                    "id": "80010313",
+                                    "speaker": "Paimon",
+                                    "text": "Really!? The Abyss Order and Ruin Guards are left over from after the destruction of that nation!?"
+                                },
+                                {
+                                    "id": "80010314",
+                                    "speaker": "Paimon",
+                                    "text": "Oh... Speaking of Khaenri'ah, that's really a super ancient name..."
+                                },
+                                {
+                                    "id": "80010315",
+                                    "speaker": "Paimon",
+                                    "text": "Oh, right. As your guide, Paimon should explain a bit here. A long time ago, the nation of Khaenri'ah was..."
+                                },
+                                {
+                                    "id": "80010316",
+                                    "speaker": "Player",
+                                    "text": "I know about Khaenri'ah..."
+                                },
+                                {
+                                    "id": "80010317",
+                                    "speaker": "Paimon",
+                                    "text": "...Huh?"
+                                },
+                                {
+                                    "id": "80010318",
+                                    "speaker": "Player",
+                                    "text": "Because I have memories of Khaenri'ah."
+                                },
+                                {
+                                    "id": "80010319",
+                                    "speaker": "Paimon",
+                                    "text": "You have memories of being there? But that nation was destroyed 500 years ago..."
+                                },
+                                {
+                                    "id": "80010320",
+                                    "speaker": "Dainsleif",
+                                    "text": "..."
+                                },
+                                {
+                                    "id": "80010321",
+                                    "speaker": "Dainsleif",
+                                    "text": "Is that so? Well, everyone has their secrets. You did not pry into mine, so I shall not pry into yours..."
+                                },
+                                {
+                                    "id": "80010322",
+                                    "speaker": "Dainsleif",
+                                    "text": "But if you would like to tell me, I will listen... So, the Khaenri'ah you saw, what was it like?",
+                                    "choices": [
+                                        {
+                                            "id": "80010323",
+                                            "text": "(Well, I can't hide it from him any longer...)",
+                                            "response": [
+                                                {
+                                                    "id": "80010326",
+                                                    "speaker": "Paimon",
+                                                    "text": "So that's the complete story, huh... Paimon thought that you ran into that unknown god first..."
+                                                },
+                                                {
+                                                    "id": "80010327",
+                                                    "speaker": "Dainsleif",
+                                                    "text": "#I see... So your first memory after coming to this world was being awoken by your {F#brother}{M#sister} from within that meteorite..."
+                                                },
+                                                {
+                                                    "id": "80010328",
+                                                    "speaker": "Paimon",
+                                                    "text": "#It seems your {F#brother}{M#sister} woke up first, but the question is, how long before you..."
+                                                },
+                                                {
+                                                    "id": "80010329",
+                                                    "speaker": "Dainsleif",
+                                                    "text": "#And then, your {F#brother}{M#sister} told you that the destruction of Khaenri'ah plunged the whole world into chaos and that you two should leave this world called Teyvat?"
+                                                },
+                                                {
+                                                    "id": "80010330",
+                                                    "speaker": "Paimon",
+                                                    "text": "#\"The destruction of Khaenri'ah\"? {F#He}{M#She} said that?",
+                                                    "choices": [
+                                                        {
+                                                            "id": "80010331",
+                                                            "text": "Correct.",
+                                                            "response": [
+                                                                {
+                                                                    "id": "80010333",
+                                                                    "speaker": "Dainsleif",
+                                                                    "text": "That destruction you witnessed, that's... history from 500 years ago."
+                                                                },
+                                                                {
+                                                                    "id": "80010334",
+                                                                    "speaker": "Dainsleif",
+                                                                    "text": "It seems the first time you awoke in this world was indeed during that period."
+                                                                },
+                                                                {
+                                                                    "id": "80010335",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "#Huh... So your {F#brother}{M#sister} must have understood this world better than you did because {F#he}{M#she} woke up first."
+                                                                },
+                                                                {
+                                                                    "id": "80010336",
+                                                                    "speaker": "Dainsleif",
+                                                                    "text": "And it was shortly after that that you encountered an unknown god who blocked your path, so you couldn't escape..."
+                                                                },
+                                                                {
+                                                                    "id": "80010337",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "Oh, Paimon knows this part really well."
+                                                                },
+                                                                {
+                                                                    "id": "80010338",
+                                                                    "speaker": "Dainsleif",
+                                                                    "text": "...I understand."
+                                                                },
+                                                                {
+                                                                    "id": "80010339",
+                                                                    "speaker": "Dainsleif",
+                                                                    "text": "When you awoke at that time and hurriedly tried to leave for another world, you didn't know anything about Khaenri'ah."
+                                                                },
+                                                                {
+                                                                    "id": "80010340",
+                                                                    "speaker": "Dainsleif",
+                                                                    "text": "But now, since you have come to gain some understanding of Teyvat, you are able to guess that the war you witnessed all those years ago must be the war that ended Khaenri'ah... Am I right?"
+                                                                },
+                                                                {
+                                                                    "id": "80010341",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "Ah! If that's the case, you must've been flipping through all sorts of books during our adventure these past few months."
+                                                                },
+                                                                {
+                                                                    "id": "80010342",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "Before going to Mondstadt, you had just looked at some vague materials. Later, we managed to gather a whole bunch of old books from all around Mondstadt and Liyue, but you told Paimon they were useless..."
+                                                                },
+                                                                {
+                                                                    "id": "80010343",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "#So the whole time you were just trying to learn more about Khaenri'ah so you could find your {F#brother}{M#sister}?",
+                                                                    "choices": [
+                                                                        {
+                                                                            "id": "80010344",
+                                                                            "text": "It's the second most promising lead after looking for The Seven.",
+                                                                            "response": [
+                                                                                {
+                                                                                    "id": "80010346",
+                                                                                    "speaker": "Paimon",
+                                                                                    "text": "Oh yeah... You can travel around the seven nations to find The Seven, but where can you go to find a nation that was destroyed 500 years ago...?"
+                                                                                },
+                                                                                {
+                                                                                    "id": "80010347",
+                                                                                    "speaker": "Dainsleif",
+                                                                                    "text": "I probably know more about Khaenri'ah than both of you."
+                                                                                },
+                                                                                {
+                                                                                    "id": "80010348",
+                                                                                    "speaker": "Dainsleif",
+                                                                                    "text": "Khaenri'ah was a nation without a god — not because it had a god that died or abandoned them, but because it never had a god to begin with."
+                                                                                },
+                                                                                {
+                                                                                    "id": "80010349",
+                                                                                    "speaker": "Dainsleif",
+                                                                                    "text": "It was a powerful nation built purely by humans, an unprecedented flourishing and glorious civilization — it was the pride of humankind."
+                                                                                },
+                                                                                {
+                                                                                    "id": "80010350",
+                                                                                    "speaker": "Paimon",
+                                                                                    "text": "A nation... without a god...?"
+                                                                                },
+                                                                                {
+                                                                                    "id": "80010351",
+                                                                                    "speaker": "Dainsleif",
+                                                                                    "text": "Later events unfolded just as you remember — it was all destroyed... by gods."
+                                                                                },
+                                                                                {
+                                                                                    "id": "80010352",
+                                                                                    "speaker": "Paimon",
+                                                                                    "text": "You mean that..."
+                                                                                },
+                                                                                {
+                                                                                    "id": "80010353",
+                                                                                    "speaker": "Dainsleif",
+                                                                                    "text": "500 years ago, the gods descended upon the world and brought desolation to Khaenri'ah."
+                                                                                },
+                                                                                {
+                                                                                    "id": "80010354",
+                                                                                    "speaker": "Dainsleif",
+                                                                                    "text": "The \"pride of humankind\" was uprooted and crushed, like a weed removed from the garden of the gods..."
+                                                                                },
+                                                                                {
+                                                                                    "id": "80010355",
+                                                                                    "speaker": "Paimon",
+                                                                                    "text": "How could that be...? The history books don't say anything about that...",
+                                                                                    "choices": [
+                                                                                        {
+                                                                                            "id": "80010356",
+                                                                                            "text": "That's horrible...",
+                                                                                            "response": [
+                                                                                                {
+                                                                                                    "id": "80010358",
+                                                                                                    "speaker": "Dainsleif",
+                                                                                                    "text": "Yes. Well, continuing to discuss the past now will only dampen our spirits.",
+                                                                                                    "choices": [
+                                                                                                        {
+                                                                                                            "id": "80010359",
+                                                                                                            "text": "(But, the next time I see Venti or Zhongli...)",
+                                                                                                            "response": [
+                                                                                                                {
+                                                                                                                    "id": "80010361",
+                                                                                                                    "speaker": "Dainsleif",
+                                                                                                                    "text": "Let's keep moving. I will tell you more of what you want to know as we continue our search."
+                                                                                                                }
+                                                                                                            ]
+                                                                                                        },
+                                                                                                        {
+                                                                                                            "id": "80010360",
+                                                                                                            "text": "(I need to hear what explanation the gods have for their actions.)"
+                                                                                                        }
+                                                                                                    ]
+                                                                                                }
+                                                                                            ]
+                                                                                        },
+                                                                                        {
+                                                                                            "id": "80010357",
+                                                                                            "text": "#What a dangerous world... I need to hurry up and find my {F#brother}{M#sister}."
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        {
+                                                                            "id": "80010345",
+                                                                            "text": "Despite only having a place name to go on."
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "id": "80010332",
+                                                            "text": "That's what I heard at the time."
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "80010324",
+                                            "text": "(Dain and Khaenri'ah... It's worth a shot.)"
+                                        },
+                                        {
+                                            "id": "80010325",
+                                            "text": "(The person who woke me up...)"
+                                        },
+                                        {
+                                            "id": "80010362",
+                                            "text": "(And that sea of flames...)"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "80010306",
+                            "text": "I don't really understand..."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "800109",
+            "objective": "Look for traces of the Abyss Order",
+            "dialogues": []
+        },
+        {
+            "id": "800108",
+            "objective": "Talk to Dainsleif",
+            "dialogues": [
+                {
+                    "id": "80010501",
+                    "speaker": "Paimon",
+                    "text": "Over there! It's more Ruin Guards and Abyss Mages."
+                },
+                {
+                    "id": "80010502",
+                    "speaker": "Paimon",
+                    "text": "Dain was just saying how these ancient machines are from Khaenri'ah..."
+                },
+                {
+                    "id": "80010503",
+                    "speaker": "Paimon",
+                    "text": "So... did Khaenri'ah have a lot of ruins that needed to be guarded?"
+                },
+                {
+                    "id": "80010504",
+                    "speaker": "Dainsleif",
+                    "text": "No. \"Ruin Guard\" is the name modern people have given these machines. No one called them that 500 years ago."
+                },
+                {
+                    "id": "80010505",
+                    "speaker": "Dainsleif",
+                    "text": "These \"Ruin Guards\" were known as \"Field Tillers\" by the people of Khaenri'ah."
+                },
+                {
+                    "id": "80010506",
+                    "speaker": "Paimon",
+                    "text": "\"Field Tillers\"? What a strange name.",
+                    "choices": [
+                        {
+                            "id": "80010507",
+                            "text": "They were farming equipment!?",
+                            "response": [
+                                {
+                                    "id": "80010509",
+                                    "speaker": "Dainsleif",
+                                    "text": "It's not like you think. \"Field Tiller\" was just a code name. The people of Khaenri'ah liked to give code names to their weapons."
+                                },
+                                {
+                                    "id": "80010510",
+                                    "speaker": "Dainsleif",
+                                    "text": "\"The land is not to be tilled with farming tools, but rather is to be fought for with steel and blood.\" —This is how the \"Field Tiller\" came about."
+                                },
+                                {
+                                    "id": "80010511",
+                                    "speaker": "Paimon",
+                                    "text": "\"Fought for with steel and blood\"? Well that's an interesting way of understanding \"tilling\"... Paimon doesn't think it's a very positive interpretation."
+                                },
+                                {
+                                    "id": "80010512",
+                                    "speaker": "Dainsleif",
+                                    "text": "..."
+                                },
+                                {
+                                    "id": "80010513",
+                                    "speaker": "Dainsleif",
+                                    "text": "After the destruction of Khaenri'ah, these masterless \"Field Tillers\" went completely out of control."
+                                },
+                                {
+                                    "id": "80010514",
+                                    "speaker": "Dainsleif",
+                                    "text": "They wandered aimlessly over the centuries, gradually spreading to every corner of Teyvat."
+                                },
+                                {
+                                    "id": "80010515",
+                                    "speaker": "Dainsleif",
+                                    "text": "Perhaps resonating with the sorrow of other civilizations lost to time, they found their way to various ruins across the land, where they lie dormant."
+                                },
+                                {
+                                    "id": "80010516",
+                                    "speaker": "Paimon",
+                                    "text": "That sounds... so sad...",
+                                    "choices": [
+                                        {
+                                            "id": "80010517",
+                                            "text": "Wandering aimlessly for 500 years...",
+                                            "response": [
+                                                {
+                                                    "id": "80010520",
+                                                    "speaker": "Dainsleif",
+                                                    "text": "Once you understand more, those details won't mean much to you."
+                                                },
+                                                {
+                                                    "id": "80010521",
+                                                    "speaker": "Dainsleif",
+                                                    "text": "But no matter their past, all that remains of them now is the danger they pose... so destroy them all."
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "80010518",
+                                            "text": "It seems... we should put an end to their suffering.",
+                                            "response": [
+                                                {
+                                                    "id": "80010519",
+                                                    "speaker": "Paimon",
+                                                    "text": "Yeah... Paimon thinks you've been doing a real good job of that."
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "80010508",
+                            "text": "So what's with the lethal weapons...?"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "800106",
+            "objective": "Defeat all opponents",
+            "dialogues": []
+        },
+        {
+            "id": "800107",
+            "objective": "Talk to Dainsleif",
+            "dialogues": []
+        }
+    ]
+}

@@ -1,0 +1,996 @@
+{
+    "quest": {
+        "id": "8005",
+        "title": "The Grave of the Guarded",
+        "description": "You have an unexpected reunion with Dainsleif within The Chasm. After getting wind of the situation, you believe that this place must be intimately linked to the Abyss Order, and thus begin investigating...",
+        "rewards": [
+            {
+                "itemId": 102,
+                "count": 725
+            },
+            {
+                "itemId": 202,
+                "count": 25825
+            },
+            {
+                "itemId": 104003,
+                "count": 2
+            },
+            {
+                "itemId": 104013,
+                "count": 5
+            }
+        ],
+        "rewards_formatted": "Adventure EXP x725, Mora x25825, Hero's Wit x2, Mystic Enhancement Ore x5",
+        "chapter": {
+            "icon": "UI_ChapterIcon_Traveler",
+            "id": "1206",
+            "num": "Chapter II: Act IV",
+            "title": "Requiem of the Echoing Depths"
+        },
+        "total_dialogue_lines": 164,
+        "total_speaker_counts": {
+            "???": 5,
+            "Black Serpent Knight of Old": 5,
+            "Dainsleif": 69,
+            "Halfdan": 2,
+            "Paimon": 60,
+            "Player": 23
+        }
+    },
+    "talks": [
+        {
+            "id": "800501",
+            "objective": "Investigate the ruins ahead and find a path",
+            "dialogues": [
+                {
+                    "id": "80050101",
+                    "speaker": "Paimon",
+                    "text": "There are signs of hilichurl activity here. Could these be the hilichurls the requester was talking about?"
+                },
+                {
+                    "id": "80050102",
+                    "speaker": "Dainsleif",
+                    "text": "Requester? ...In fact, hold on. You still haven't told me what you're doing here. I doubt that most travelers would have any reason to venture down this way."
+                },
+                {
+                    "id": "80050103",
+                    "speaker": "Paimon",
+                    "text": "We took a commission from the Adventurers' Guild to investigate The Chasm. Apparently, a whole load of hilichurls have been gathering here, and the requester wants to know why."
+                },
+                {
+                    "id": "80050104",
+                    "speaker": "Paimon",
+                    "text": "And now, it looks like we've finally found our first clue..."
+                },
+                {
+                    "id": "80050105",
+                    "speaker": "Dainsleif",
+                    "text": "Do you want the answer?"
+                },
+                {
+                    "id": "80050106",
+                    "speaker": "Paimon",
+                    "text": "Huh? You mean, you know something about this?"
+                },
+                {
+                    "id": "80050107",
+                    "speaker": "Dainsleif",
+                    "text": "As it happens, I do.",
+                    "choices": [
+                        {
+                            "id": "80050108",
+                            "text": "Huh? Did I miss something?",
+                            "response": [
+                                {
+                                    "id": "80050110",
+                                    "speaker": "Dainsleif",
+                                    "text": "It's understandable that you did not perceive anything unusual. What makes this place so strange is that..."
+                                },
+                                {
+                                    "id": "80050111",
+                                    "speaker": "Dainsleif",
+                                    "text": "...the environment here weakens the effect of the curse."
+                                },
+                                {
+                                    "id": "80050112",
+                                    "speaker": "Paimon",
+                                    "text": "The curse? Oh! Paimon remembers, last time you guys were saying that Khaenri'ah's people were cursed to immortality or something..."
+                                },
+                                {
+                                    "id": "80050113",
+                                    "speaker": "Dainsleif",
+                                    "text": "For centuries, I have suffered daily from the curse that was laid upon me. But here... I suddenly feel a small amount of relief from this suffering."
+                                },
+                                {
+                                    "id": "80050114",
+                                    "speaker": "Dainsleif",
+                                    "text": "And right here, right now, I can feel my body sending a strong message to me... It is telling me, \"stay.\""
+                                },
+                                {
+                                    "id": "80050115",
+                                    "speaker": "Paimon",
+                                    "text": "So this place weakens the curse? That's pretty incredible, but how?"
+                                },
+                                {
+                                    "id": "80050116",
+                                    "speaker": "Dainsleif",
+                                    "text": "That I shall need to investigate. But to the best of my knowledge, the Abyss Order does not have the technology to achieve this.",
+                                    "choices": [
+                                        {
+                                            "id": "80050117",
+                                            "text": "So you're saying...",
+                                            "response": [
+                                                {
+                                                    "id": "80050119",
+                                                    "speaker": "Dainsleif",
+                                                    "text": "Indeed. Do you know why hilichurls wear masks?",
+                                                    "choices": [
+                                                        {
+                                                            "id": "80050120",
+                                                            "text": "I think so?",
+                                                            "response": [
+                                                                {
+                                                                    "id": "80050122",
+                                                                    "speaker": "Dainsleif",
+                                                                    "text": "It's to hide their appearance, lest they catch sight of their reflection in a body of water..."
+                                                                },
+                                                                {
+                                                                    "id": "80050123",
+                                                                    "speaker": "Dainsleif",
+                                                                    "text": "Compared to how they remember themselves, it is a terrible sight to behold, one that causes them great despair."
+                                                                },
+                                                                {
+                                                                    "id": "80050124",
+                                                                    "speaker": "Player",
+                                                                    "text": "So these hilichurls really are from..."
+                                                                },
+                                                                {
+                                                                    "id": "80050125",
+                                                                    "speaker": "Dainsleif",
+                                                                    "text": "The curse of \"immortality\" denies death to those afflicted with it... and yet, it does not truly mean that they will never die."
+                                                                },
+                                                                {
+                                                                    "id": "80050126",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "So you mean, there's a way to undo it?"
+                                                                },
+                                                                {
+                                                                    "id": "80050127",
+                                                                    "speaker": "Dainsleif",
+                                                                    "text": "No. I mean that the body and soul will continue to be eroded until they are virtually nonexistent, even if \"death\" is not the form that this erosion takes."
+                                                                },
+                                                                {
+                                                                    "id": "80050128",
+                                                                    "speaker": "Dainsleif",
+                                                                    "text": "When the hilichurls realize that the end is nigh for them, it seems their instinct is to seek out a calm and dark corner of the world in which to finally say goodbye to the centuries of suffering they have endured."
+                                                                },
+                                                                {
+                                                                    "id": "80050129",
+                                                                    "speaker": "Dainsleif",
+                                                                    "text": "And of all the places they could lay down to rest, one that can ease the effects of their curse would surely be their first choice."
+                                                                },
+                                                                {
+                                                                    "id": "80050130",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "Wow... That's so..."
+                                                                },
+                                                                {
+                                                                    "id": "80050131",
+                                                                    "speaker": "Dainsleif",
+                                                                    "text": "Conversation's over, brace yourselves!"
+                                                                },
+                                                                {
+                                                                    "id": "80050132",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "Wh—What is it!?"
+                                                                },
+                                                                {
+                                                                    "id": "80050133",
+                                                                    "speaker": "Dainsleif",
+                                                                    "text": "We're under attack."
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "id": "80050121",
+                                                            "text": "I'm not sure..."
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "80050118",
+                                            "text": "The hilichurls that come here are also from..."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "80050109",
+                            "text": "Does this have anything to do with the upside-down city?"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "800502",
+            "objective": "Defeat the Black Serpent Knights",
+            "dialogues": []
+        },
+        {
+            "id": "800503",
+            "objective": "Talk to Dainsleif",
+            "dialogues": [
+                {
+                    "id": "80050301",
+                    "speaker": "Paimon",
+                    "text": "What were those? And why did they attack us all of a sudden?"
+                },
+                {
+                    "id": "80050302",
+                    "speaker": "Dainsleif",
+                    "text": "Black Serpent Knights. They once belonged to the Royal Guard of Khaenri'ah."
+                },
+                {
+                    "id": "80050303",
+                    "speaker": "Paimon",
+                    "text": "Wait a second! Royal Guard? So... they used to be your troops!?"
+                },
+                {
+                    "id": "80050304",
+                    "speaker": "Dainsleif",
+                    "text": "Yes, they were. But now, the curse engulfs them, and they fight with none of the honor they once had..."
+                },
+                {
+                    "id": "80050305",
+                    "speaker": "Paimon",
+                    "text": "Because they've become pawns of the Abyss now?"
+                },
+                {
+                    "id": "80050306",
+                    "speaker": "Dainsleif",
+                    "text": "...Let's continue on."
+                },
+                {
+                    "id": "80050307",
+                    "speaker": "Paimon",
+                    "text": "Wait, Dain..."
+                },
+                {
+                    "id": "80050308",
+                    "speaker": "Dainsleif",
+                    "text": "Hmm?"
+                },
+                {
+                    "id": "80050309",
+                    "speaker": "???",
+                    "text": "..."
+                },
+                {
+                    "id": "80050310",
+                    "speaker": "Dainsleif",
+                    "text": "Seems we missed one..."
+                },
+                {
+                    "id": "80050311",
+                    "speaker": "???",
+                    "text": "..."
+                },
+                {
+                    "id": "80050312",
+                    "speaker": "Dainsleif",
+                    "text": "Wait, stand down. There's something different about this one..."
+                },
+                {
+                    "id": "80050313",
+                    "speaker": "Dainsleif",
+                    "text": "...It's disappeared."
+                },
+                {
+                    "id": "80050314",
+                    "speaker": "Paimon",
+                    "text": "What the heck? What was going on with that one? Was it trying to say something?"
+                },
+                {
+                    "id": "80050315",
+                    "speaker": "Dainsleif",
+                    "text": "(How is this possible... How could he have retained self-awareness for 500 years without... it?)"
+                },
+                {
+                    "id": "80050316",
+                    "speaker": "Dainsleif",
+                    "text": "(But more importantly, why did he seem so familiar...)"
+                },
+                {
+                    "id": "80050317",
+                    "speaker": "Player",
+                    "text": "Maybe he recognized you."
+                },
+                {
+                    "id": "80050318",
+                    "speaker": "Dainsleif",
+                    "text": "That would be a miraculous outcome indeed for a cataclysm that brought total doom and destruction... Or perhaps it was just a coincidence."
+                },
+                {
+                    "id": "80050319",
+                    "speaker": "Dainsleif",
+                    "text": "We should press onward, to the city."
+                }
+            ]
+        },
+        {
+            "id": "800504",
+            "objective": "Go to the entrance to the ruins",
+            "dialogues": [
+                {
+                    "id": "80050401",
+                    "speaker": "Paimon",
+                    "text": "Looks like there's a strange energy surrounding the city. We can't go any further."
+                },
+                {
+                    "id": "80050402",
+                    "speaker": "Paimon",
+                    "text": "Guess there should be a mechanism or something around here, right? Traveler, looks like it's time to get into ruin-exploring mode!",
+                    "choices": [
+                        {
+                            "id": "80050403",
+                            "text": "Puzzle time, huh.",
+                            "response": [
+                                {
+                                    "id": "80050405",
+                                    "speaker": "Dainsleif",
+                                    "text": "Don't waste your time."
+                                },
+                                {
+                                    "id": "80050406",
+                                    "speaker": "Paimon",
+                                    "text": "Huh...!?"
+                                },
+                                {
+                                    "id": "80050407",
+                                    "speaker": "Dainsleif",
+                                    "text": "Khaenri'ah's technology, Abyssal power... Two things I couldn't be more familiar with. They're just cheap tricks to me."
+                                },
+                                {
+                                    "id": "80050408",
+                                    "speaker": "Paimon",
+                                    "text": "Okay! So the Abyss Order really is trying to hide something here, right?"
+                                },
+                                {
+                                    "id": "80050409",
+                                    "speaker": "Paimon",
+                                    "text": "Hmm... Dain seems like he really understands what's going on here. No wonder the Abyss Order doesn't want him around.",
+                                    "choices": [
+                                        {
+                                            "id": "80050410",
+                                            "text": "Was this upside-down city built by Khaenri'ah?",
+                                            "response": [
+                                                {
+                                                    "id": "80050412",
+                                                    "speaker": "Dainsleif",
+                                                    "text": "Not necessarily. The closer we draw, the more I am inclined to conclude that these ruins belong to a more ancient civilization still."
+                                                },
+                                                {
+                                                    "id": "80050413",
+                                                    "speaker": "Dainsleif",
+                                                    "text": "The Abyss Order simply got to them before anyone else."
+                                                },
+                                                {
+                                                    "id": "80050414",
+                                                    "speaker": "Paimon",
+                                                    "text": "Even older than Khaenri'ah? Whoa, Paimon can't even imagine back that far..."
+                                                },
+                                                {
+                                                    "id": "80050415",
+                                                    "speaker": "Dainsleif",
+                                                    "text": "That said, the architecture here does somewhat resemble that of Khaenri'ah... At least, it would if it were the other way up."
+                                                },
+                                                {
+                                                    "id": "80050416",
+                                                    "speaker": "Dainsleif",
+                                                    "text": "Let's head toward the light over there. Mind your footing on the way ahead. It's a long way down."
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "80050411",
+                                            "text": "Was this upside-down city built by the Abyss Order?"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "80050404",
+                            "text": "I'll take a look around and see what I can find."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "800520",
+            "objective": "",
+            "dialogues": [
+                {
+                    "id": "80052001",
+                    "speaker": "Paimon",
+                    "text": "So there's no Abyss Order secrets to be found here... Just a bunch of hilichurls nearing the end of their existence."
+                },
+                {
+                    "id": "80052002",
+                    "speaker": "Paimon",
+                    "text": "We probably shouldn't disturb them."
+                }
+            ]
+        },
+        {
+            "id": "800505",
+            "objective": "Go to the lit room in the ruins",
+            "dialogues": [
+                {
+                    "id": "80050501",
+                    "speaker": "Paimon",
+                    "text": "Aah, Black Serpent Knights!"
+                },
+                {
+                    "id": "80050502",
+                    "speaker": "Paimon",
+                    "text": "Is this where they're based? Or wait, are they guarding something here?"
+                },
+                {
+                    "id": "80050503",
+                    "speaker": "Dainsleif",
+                    "text": "We are likely drawing near to whatever the Abyss Order is trying to hide. Let's take them out first."
+                }
+            ]
+        },
+        {
+            "id": "800506",
+            "objective": "Defeat the Black Serpent Knights",
+            "dialogues": []
+        },
+        {
+            "id": "800508",
+            "objective": "Continue investigating the ruins",
+            "dialogues": [
+                {
+                    "id": "80050801",
+                    "speaker": "Paimon",
+                    "text": "Oh no, more Black Serpent Knights!"
+                },
+                {
+                    "id": "80050802",
+                    "speaker": "Black Serpent Knight of Old",
+                    "text": "!!!"
+                },
+                {
+                    "id": "80050803",
+                    "speaker": "Paimon",
+                    "text": "Huh, they're not coming after us. Are they just trying to scare us off?"
+                },
+                {
+                    "id": "80050804",
+                    "speaker": "Paimon",
+                    "text": "These knights seem like they're hiding something behind them..."
+                },
+                {
+                    "id": "80050805",
+                    "speaker": "Black Serpent Knight of Old",
+                    "text": "!!!"
+                },
+                {
+                    "id": "80050806",
+                    "speaker": "Dainsleif",
+                    "text": "Hold on, I think they..."
+                },
+                {
+                    "id": "80050807",
+                    "speaker": "Black Serpent Knight of Old",
+                    "text": "!!!"
+                },
+                {
+                    "id": "80050808",
+                    "speaker": "Paimon",
+                    "text": "Aah, they're coming! Quick, get them!"
+                }
+            ]
+        },
+        {
+            "id": "800509",
+            "objective": "Defeat the Black Serpent Knights",
+            "dialogues": []
+        },
+        {
+            "id": "800510",
+            "objective": "Examine what the Black Serpent Knights were protecting",
+            "dialogues": [
+                {
+                    "id": "80051001",
+                    "speaker": "Paimon",
+                    "text": "Huh!? What's this?"
+                },
+                {
+                    "id": "80051002",
+                    "speaker": "Dainsleif",
+                    "text": "...So the Black Serpent Knights have nothing to do with the Abyss Order's secret. Huh, I should have guessed."
+                },
+                {
+                    "id": "80051003",
+                    "speaker": "Paimon",
+                    "text": "So what exactly is going on with these hilichurls?"
+                },
+                {
+                    "id": "80051004",
+                    "speaker": "Dainsleif",
+                    "text": "As I said, for these hilichurls, the end is nigh.",
+                    "choices": [
+                        {
+                            "id": "80051005",
+                            "text": "The hilichurls are preparing to meet their end...",
+                            "response": [
+                                {
+                                    "id": "80051007",
+                                    "speaker": "Dainsleif",
+                                    "text": "They have grown old and fearful of the light, even become one with the darkness. And yet the curse continues to corrode them."
+                                },
+                                {
+                                    "id": "80051008",
+                                    "speaker": "Paimon",
+                                    "text": "But why would the Black Serpent Knights wanna stay here and guard them?"
+                                },
+                                {
+                                    "id": "80051009",
+                                    "speaker": "Black Serpent Knight of Old",
+                                    "text": "!!!"
+                                },
+                                {
+                                    "id": "80051010",
+                                    "speaker": "Paimon",
+                                    "text": "Aah! More of them are closing in!"
+                                },
+                                {
+                                    "id": "80051011",
+                                    "speaker": "Black Serpent Knight of Old",
+                                    "text": "!!!",
+                                    "choices": [
+                                        {
+                                            "id": "80051012",
+                                            "text": "Let's try to avoid fighting them.",
+                                            "response": [
+                                                {
+                                                    "id": "80051014",
+                                                    "speaker": "???",
+                                                    "text": "!"
+                                                },
+                                                {
+                                                    "id": "80051015",
+                                                    "speaker": "Paimon",
+                                                    "text": "...It's him! The guy that came out of nowhere and disappeared again!"
+                                                },
+                                                {
+                                                    "id": "80051016",
+                                                    "speaker": "Paimon",
+                                                    "text": "And now they're retreating... Did he just order them to do that?"
+                                                },
+                                                {
+                                                    "id": "80051017",
+                                                    "speaker": "Dainsleif",
+                                                    "text": "...Halfdan?"
+                                                },
+                                                {
+                                                    "id": "80051018",
+                                                    "speaker": "???",
+                                                    "text": "..."
+                                                },
+                                                {
+                                                    "id": "80051019",
+                                                    "speaker": "Paimon",
+                                                    "text": "Whoa, whoa, what? You recognize him?"
+                                                },
+                                                {
+                                                    "id": "80051020",
+                                                    "speaker": "Dainsleif",
+                                                    "text": "...Could it be... If it's as I suspect, then this is a truly tragic state of affairs."
+                                                },
+                                                {
+                                                    "id": "80051021",
+                                                    "speaker": "Paimon",
+                                                    "text": "Dain?"
+                                                },
+                                                {
+                                                    "id": "80051022",
+                                                    "speaker": "Dainsleif",
+                                                    "text": "You want to know why they were gathered here guarding the hilichurls, don't you?"
+                                                },
+                                                {
+                                                    "id": "80051023",
+                                                    "speaker": "Dainsleif",
+                                                    "text": "It's because as far as the Black Serpent Knights are concerned, they are simply doing their duty."
+                                                },
+                                                {
+                                                    "id": "80051024",
+                                                    "speaker": "Dainsleif",
+                                                    "text": "The one who ordered them to retreat just now... I suddenly recognized him. I knew him as a young man, an elite in the Royal Guard of old... His name is \"Halfdan.\""
+                                                },
+                                                {
+                                                    "id": "80051025",
+                                                    "speaker": "Paimon",
+                                                    "text": "So he's from 500 years ago, too..."
+                                                },
+                                                {
+                                                    "id": "80051026",
+                                                    "speaker": "Dainsleif",
+                                                    "text": "To this day, I still remember the final orders I, the Twilight Sword, gave to Halfdan on the day of disaster in Khaenri'ah, before I made haste back to the palace..."
+                                                },
+                                                {
+                                                    "id": "80051027",
+                                                    "speaker": "Dainsleif",
+                                                    "text": "\"Inform all Black Serpent Knights to protect the people of Khaenri'ah at all costs.\""
+                                                },
+                                                {
+                                                    "id": "80051028",
+                                                    "speaker": "Dainsleif",
+                                                    "text": "Because we, of course, were royal guards. But this would mean nothing in the events that followed... Royals, gentry, common folk, these identities made no difference."
+                                                },
+                                                {
+                                                    "id": "80051029",
+                                                    "speaker": "Dainsleif",
+                                                    "text": "Against the might of the gods, the only identity that mattered was being from Khaenri'ah."
+                                                },
+                                                {
+                                                    "id": "80051030",
+                                                    "speaker": "Player",
+                                                    "text": "..."
+                                                },
+                                                {
+                                                    "id": "80051031",
+                                                    "speaker": "Dainsleif",
+                                                    "text": "These Black Serpent Knights have lost their intellect. But perhaps, in whatever remains of their minds, they are still protecting the people of Khaenri'ah."
+                                                },
+                                                {
+                                                    "id": "80051032",
+                                                    "speaker": "Dainsleif",
+                                                    "text": "If you see these ruins as Khaenri'ah in the throes of disaster, and these hilichurls as the people crying for help..."
+                                                },
+                                                {
+                                                    "id": "80051033",
+                                                    "speaker": "Dainsleif",
+                                                    "text": "...then suddenly, I can make sense of what I'm hearing. Their growls are less of a threat and more of a warning."
+                                                },
+                                                {
+                                                    "id": "80051034",
+                                                    "speaker": "Paimon",
+                                                    "text": "Then... what are they saying?"
+                                                },
+                                                {
+                                                    "id": "80051035",
+                                                    "speaker": "Dainsleif",
+                                                    "text": "Though it is barely discernible, I can just about make it out. They keep repeating a word from the old language of Khaenri'ah... \"Run.\"",
+                                                    "choices": [
+                                                        {
+                                                            "id": "80051036",
+                                                            "text": "So they're not talking to us...",
+                                                            "response": [
+                                                                {
+                                                                    "id": "80051038",
+                                                                    "speaker": "Dainsleif",
+                                                                    "text": "Even I have to admit, the fact their will is strong enough to survive 500 years of erosion... It is nothing short of a miracle born from hopelessness."
+                                                                },
+                                                                {
+                                                                    "id": "80051039",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "Oh... So Paimon had them all wrong..."
+                                                                },
+                                                                {
+                                                                    "id": "80051040",
+                                                                    "speaker": "Dainsleif",
+                                                                    "text": "It doesn't matter. Even I took them for enemies for a moment."
+                                                                },
+                                                                {
+                                                                    "id": "80051041",
+                                                                    "speaker": "Dainsleif",
+                                                                    "text": "Let's keep heading toward the light at the top. I believe the Black Serpent Knights will no longer try to stop us."
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "id": "80051037",
+                                                            "text": "So they're telling the hilichurls behind them to escape..."
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "80051013",
+                                            "text": "Fighting them is meaningless."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "80051006",
+                            "text": "\"End\"..."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "800511",
+            "objective": "Go to the chamber at the center of the ruins' summit",
+            "dialogues": []
+        },
+        {
+            "id": "800512",
+            "objective": "Go to the chamber at the center of the ruins' summit",
+            "dialogues": []
+        },
+        {
+            "id": "800513",
+            "objective": "Go to the chamber at the center of the ruins' summit",
+            "dialogues": []
+        },
+        {
+            "id": "800514",
+            "objective": "Go to the chamber at the center of the ruins' summit",
+            "dialogues": [
+                {
+                    "id": "80051401",
+                    "speaker": "Paimon",
+                    "text": "Hey look, there's no door sealing this room off. Looks like we can finally head to the room in the center."
+                },
+                {
+                    "id": "80051402",
+                    "speaker": "Paimon",
+                    "text": "C'mon, let's go!"
+                }
+            ]
+        },
+        {
+            "id": "800516",
+            "objective": "",
+            "dialogues": [
+                {
+                    "id": "80051501",
+                    "speaker": "Paimon",
+                    "text": "Look, up there! A water pool!"
+                },
+                {
+                    "id": "80051502",
+                    "speaker": "Paimon",
+                    "text": "Even the water pool is upside-down. Wow! This is a pretty amazing place."
+                },
+                {
+                    "id": "80051503",
+                    "speaker": "Paimon",
+                    "text": "Dain, do you have any idea at all how it works?"
+                },
+                {
+                    "id": "80051504",
+                    "speaker": "Dainsleif",
+                    "text": "The pool must be part of the entire city structure, a relic of this ancient civilization."
+                },
+                {
+                    "id": "80051505",
+                    "speaker": "Dainsleif",
+                    "text": "And more importantly... it is the very thing that is weakening the curse."
+                },
+                {
+                    "id": "80051506",
+                    "speaker": "Dainsleif",
+                    "text": "Here, my whole body feels more at peace than it has in a long time. The effect is stronger here than it was before, and I think it's because that water pool has something akin to a cleansing effect."
+                },
+                {
+                    "id": "80051507",
+                    "speaker": "Paimon",
+                    "text": "Cleansing? So that means... the water in that pool can wash away the curse for good?"
+                },
+                {
+                    "id": "80051508",
+                    "speaker": "Dainsleif",
+                    "text": "No. That would be impossible."
+                },
+                {
+                    "id": "80051509",
+                    "speaker": "Paimon",
+                    "text": "How are you so sure?"
+                },
+                {
+                    "id": "80051510",
+                    "speaker": "Dainsleif",
+                    "text": "I have lived with this curse for 500 years, and I have been fully conscious the entire time... Suffice to say, no one understands the curse like I do."
+                },
+                {
+                    "id": "80051511",
+                    "speaker": "Dainsleif",
+                    "text": "It is a way of branding us at the level of the fate of the world itself. When a god applies a curse, it takes effect at a higher level of reality than the person themselves."
+                },
+                {
+                    "id": "80051512",
+                    "speaker": "Dainsleif",
+                    "text": "Even now, I can feel the curse slowly permeating my entire being, becoming part of me, slowly but surely replacing me."
+                },
+                {
+                    "id": "80051513",
+                    "speaker": "Dainsleif",
+                    "text": "Perhaps it may be possible to suppress the corrosive effect of the curse for a time, but cleansing it entirely..."
+                },
+                {
+                    "id": "80051514",
+                    "speaker": "Dainsleif",
+                    "text": "Consider it tantamount to burning away an integral part of your body. It is not a process that one could ever hope to survive."
+                },
+                {
+                    "id": "80051515",
+                    "speaker": "Paimon",
+                    "text": "Huh!? Cleansing the curse costs you your life? Whoa... An irreversible curse, Paimon can't even imagine..."
+                },
+                {
+                    "id": "80051516",
+                    "speaker": "Dainsleif",
+                    "text": "In any case, I can feel that the water's cleansing effect is not nearly potent enough. At most, it might suppress the curse but a little."
+                },
+                {
+                    "id": "80051517",
+                    "speaker": "Paimon",
+                    "text": "Hmm? So what's that contraption there? It looks kinda out of place...",
+                    "choices": [
+                        {
+                            "id": "80051518",
+                            "text": "An Abyss Order device?",
+                            "response": [
+                                {
+                                    "id": "80051520",
+                                    "speaker": "Dainsleif",
+                                    "text": "Frankly, I have never seen a device of this design before either. It is not unreasonable to suspect that it could belong to the Abyss Order. But what could they be planning to do here..."
+                                },
+                                {
+                                    "id": "80051521",
+                                    "speaker": "???",
+                                    "text": "(*clunk* *clunk*...)"
+                                },
+                                {
+                                    "id": "80051522",
+                                    "speaker": "Paimon",
+                                    "text": "Yikes! That gave Paimon a fright... So all the doors are open now?"
+                                },
+                                {
+                                    "id": "80051523",
+                                    "speaker": "Halfdan",
+                                    "text": "..."
+                                },
+                                {
+                                    "id": "80051524",
+                                    "speaker": "Paimon",
+                                    "text": "Wah, Halfdan's back again..."
+                                },
+                                {
+                                    "id": "80051525",
+                                    "speaker": "Dainsleif",
+                                    "text": "Halfdan. Do you have something to say to me?"
+                                },
+                                {
+                                    "id": "80051526",
+                                    "speaker": "Halfdan",
+                                    "text": "..."
+                                },
+                                {
+                                    "id": "80051527",
+                                    "speaker": "Paimon",
+                                    "text": "He ran off... but he didn't disappear like last time!"
+                                },
+                                {
+                                    "id": "80051528",
+                                    "speaker": "Dainsleif",
+                                    "text": "He's indicating that we should follow him. Are you coming?",
+                                    "choices": [
+                                        {
+                                            "id": "80051529",
+                                            "text": "This could be a useful lead.",
+                                            "response": [
+                                                {
+                                                    "id": "80051531",
+                                                    "speaker": "Paimon",
+                                                    "text": "True... So, uh... We going, then?"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "80051530",
+                                            "text": "He doesn't seem to hold any malice toward us."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "80051519",
+                            "text": "Perhaps it's the Abyss Order's secret."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "800515",
+            "objective": "Go to the chamber at the center of the ruins' summit",
+            "dialogues": []
+        },
+        {
+            "id": "800521",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "80052101",
+                    "speaker": "Paimon",
+                    "text": "More hilichurls. And they look really well-protected."
+                }
+            ]
+        },
+        {
+            "id": "800522",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "80052201",
+                    "speaker": "Paimon",
+                    "text": "All these hilichurls want is to quietly fade away in peace... Paimon hopes they can get their final wish."
+                }
+            ]
+        },
+        {
+            "id": "800523",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "80052301",
+                    "speaker": "Paimon",
+                    "text": "Paimon's never seen such well-behaved hilichurls before. Paimon wonders if it has anything to do with being an old soul."
+                }
+            ]
+        },
+        {
+            "id": "800599",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "80059901",
+                    "speaker": "Paimon",
+                    "text": "Whew, that was the last of them! Now, let's see what it was they were trying to hide."
+                },
+                {
+                    "id": "80059903",
+                    "speaker": "Paimon",
+                    "text": "Dain... Why so quiet?"
+                },
+                {
+                    "id": "80059904",
+                    "speaker": "Dainsleif",
+                    "text": "I'm just thinking, nothing more. If you're trying to console me, I can assure you there is no need."
+                },
+                {
+                    "id": "80059905",
+                    "speaker": "Paimon",
+                    "text": "Hmph! Fine..."
+                },
+                {
+                    "id": "80059906",
+                    "speaker": "Paimon",
+                    "text": "Hey look, vines. You should be able to climb up, right?"
+                },
+                {
+                    "id": "80059907",
+                    "speaker": "Paimon",
+                    "text": "Halfdan jumped down over there. Let's follow him."
+                }
+            ]
+        }
+    ]
+}

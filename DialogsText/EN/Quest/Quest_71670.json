@@ -1,0 +1,506 @@
+{
+    "quest": {
+        "id": "71670",
+        "title": "Tumult Subduer",
+        "description": "The Adventurers' Guild has reported strange activity in Liyue's Sal Terrae, and the Millelith have sealed the area off. Sensing danger, you and Paimon decide to head over to investigate...",
+        "rewards": [
+            {
+                "itemId": 202,
+                "count": 20000
+            },
+            {
+                "itemId": 104003,
+                "count": 3
+            }
+        ],
+        "rewards_formatted": "Mora x20000, Hero's Wit x3",
+        "chapter": {
+            "icon": "",
+            "id": "",
+            "num": "",
+            "title": ""
+        },
+        "total_dialogue_lines": 89,
+        "total_speaker_counts": {
+            "Fangjin": 4,
+            "Keqing": 29,
+            "Millelith Warrior": 2,
+            "Paimon": 18,
+            "Player": 15,
+            "Yelan": 21
+        }
+    },
+    "talks": [
+        {
+            "id": "7167002",
+            "objective": "Go to the area around Sal Terrae",
+            "dialogues": [
+                {
+                    "id": "716700201",
+                    "speaker": "Paimon",
+                    "text": "Uhhh... Yeah, something's definitely off here. Look at all that spooky smoke around the Ley Line deposit over there... Could that be where the monsters are coming from?"
+                },
+                {
+                    "id": "716700202",
+                    "speaker": "Paimon",
+                    "text": "Looks like the Millelith have set up camp to deal with this. There are soldiers and fortifications everywhere!",
+                    "choices": [
+                        {
+                            "id": "716700203",
+                            "text": "That deposit looks familiar...",
+                            "response": [
+                                {
+                                    "id": "716700205",
+                                    "speaker": "Paimon",
+                                    "text": "Yeah! Let's fight side by side with the Millelith and send those monsters packing — just like old times! Then we can focus on what to do about that weird deposit."
+                                },
+                                {
+                                    "id": "716700206",
+                                    "speaker": "Millelith Warrior",
+                                    "text": "Halt, you two! There's danger up ahead. I'll have to ask you to turn back."
+                                },
+                                {
+                                    "id": "716700207",
+                                    "speaker": "Millelith Warrior",
+                                    "text": "#No, wait... I think I recognize you. Are you Sergeant {NICKNAME}?"
+                                },
+                                {
+                                    "id": "716700208",
+                                    "speaker": "Paimon",
+                                    "text": "Sergeant? What the heck? Have you been doing night shifts in the Millelith while Paimon's asleep?",
+                                    "choices": [
+                                        {
+                                            "id": "716700209",
+                                            "text": "Me? Absolutely not...",
+                                            "response": [
+                                                {
+                                                    "id": "716700211",
+                                                    "speaker": "Fangjin",
+                                                    "text": "I am Fangjin, leader of this Millelith platoon. Staff Officer Su Ding has mentioned you before, and had nothing but praise for your extraordinary talents."
+                                                },
+                                                {
+                                                    "id": "716700212",
+                                                    "speaker": "Fangjin",
+                                                    "text": "Our reports also list you as an Honorary Knight in the Knights of Favonius, granted captain-level authority in times of crisis. Therefore, it seems only appropriate to address you as Sergeant."
+                                                },
+                                                {
+                                                    "id": "716700213",
+                                                    "speaker": "Fangjin",
+                                                    "text": "But now that introductions are out of the way, let's get back to business. Please, come with me — we should meet with Lady Yuheng."
+                                                },
+                                                {
+                                                    "id": "716700214",
+                                                    "speaker": "Paimon",
+                                                    "text": "Wait, Keqing's here too?"
+                                                },
+                                                {
+                                                    "id": "716700215",
+                                                    "speaker": "Paimon",
+                                                    "text": "Huh, this situation must be more complicated than we thought. So much for solving this one with a quick fight..."
+                                                },
+                                                {
+                                                    "id": "716700216",
+                                                    "speaker": "Fangjin",
+                                                    "text": "#Lady Yuheng. As you predicted, {NICKNAME} and {M#his}{F#her} second-in-command are here to see you."
+                                                },
+                                                {
+                                                    "id": "716700217",
+                                                    "speaker": "Keqing",
+                                                    "text": "Good work, Fangjin."
+                                                },
+                                                {
+                                                    "id": "716700218",
+                                                    "speaker": "Keqing",
+                                                    "text": "It's been a while, you two. I see you're still chasing danger. The news has barely gone out and here you are, first at the front line as ever.",
+                                                    "choices": [
+                                                        {
+                                                            "id": "716700219",
+                                                            "text": "#Sergeant {NICKNAME}, reporting for duty!",
+                                                            "response": [
+                                                                {
+                                                                    "id": "716700221",
+                                                                    "speaker": "Keqing",
+                                                                    "text": "Let me start by giving you a brief background of the situation."
+                                                                },
+                                                                {
+                                                                    "id": "716700222",
+                                                                    "speaker": "Keqing",
+                                                                    "text": "For many years, this Ley Line deposit has been very stable. However, for reasons we have not yet determined, it recently became unusually active, which has led to an alarming surge in monster attacks."
+                                                                },
+                                                                {
+                                                                    "id": "716700223",
+                                                                    "speaker": "Keqing",
+                                                                    "text": "Worse still, eliminating the monsters seems to have no effect. The Ley Line disturbance remains and anyone who comes into contact with it is transported to a strange domain. This is the first time we've seen this sort of anomaly."
+                                                                },
+                                                                {
+                                                                    "id": "716700224",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "Yikes, that's really weird... So somehow, this Ley Line deposit has turned into a sort of... teleport waypoint?"
+                                                                },
+                                                                {
+                                                                    "id": "716700225",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "And shouldn't you guys be calling for more backup? There's no way a camp this size can withstand an otherworldly invasion!"
+                                                                },
+                                                                {
+                                                                    "id": "716700226",
+                                                                    "speaker": "Keqing",
+                                                                    "text": "Please don't worry, Paimon. Our defenses are as stable as can be, and all units are elite officers who have served in the Guili Plains. With their experience, each one of them is easily worth a hundred troops."
+                                                                },
+                                                                {
+                                                                    "id": "716700227",
+                                                                    "speaker": "Keqing",
+                                                                    "text": "Still, the longer this garrison stays up, the more costly it will be. If we don't find the source of the Ley Line disturbance soon, we run the risk of depleted resources and troop fatigue."
+                                                                },
+                                                                {
+                                                                    "id": "716700228",
+                                                                    "speaker": "Keqing",
+                                                                    "text": "Military action should be taken with precision and prudence — every attack has to count. A passive defense is always a losing strategy."
+                                                                },
+                                                                {
+                                                                    "id": "716700229",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "That makes a lotta sense... Sitting around and waiting for the enemy to attack sounds like it would really suck!"
+                                                                },
+                                                                {
+                                                                    "id": "716700230",
+                                                                    "speaker": "Keqing",
+                                                                    "text": "Yes, which is why Yelan has taken a team to infiltrate and investigate the domain. They should be back in a few hours with the intel we need."
+                                                                },
+                                                                {
+                                                                    "id": "716700231",
+                                                                    "speaker": "Yelan",
+                                                                    "text": "#A few hours? I'm sorry, I would've taken my time if I'd known the Lady Yuheng wanted to catch up with {NICKNAME} in private..."
+                                                                },
+                                                                {
+                                                                    "id": "716700232",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "Waaah! Why'd you have to sneak up on us like that, Yelan!?"
+                                                                },
+                                                                {
+                                                                    "id": "716700233",
+                                                                    "speaker": "Keqing",
+                                                                    "text": "You're back early. I'm guessing things didn't go according to plan?"
+                                                                },
+                                                                {
+                                                                    "id": "716700234",
+                                                                    "speaker": "Yelan",
+                                                                    "text": "Well... There's good news and bad news."
+                                                                },
+                                                                {
+                                                                    "id": "716700235",
+                                                                    "speaker": "Yelan",
+                                                                    "text": "The good news is that we now have a rough idea of what's going on. In short, this anomaly is a vestige of a past Ley Line disturbance."
+                                                                },
+                                                                {
+                                                                    "id": "716700236",
+                                                                    "speaker": "Yelan",
+                                                                    "text": "By examining on-site samples and cross-checking them against our war records, I was able to confirm that the Ley Lines are currently re-enacting major historical battles inside the domain. This likely explains the monsters that managed to slip out, too."
+                                                                },
+                                                                {
+                                                                    "id": "716700237",
+                                                                    "speaker": "Player",
+                                                                    "text": "Another Ley Line disturbance, huh..."
+                                                                },
+                                                                {
+                                                                    "id": "716700238",
+                                                                    "speaker": "Yelan",
+                                                                    "text": "Sounds familiar? Thought it might."
+                                                                },
+                                                                {
+                                                                    "id": "716700239",
+                                                                    "speaker": "Yelan",
+                                                                    "text": "My sources tell me that Mondstadt has experienced a similar phenomenon in the recent past."
+                                                                },
+                                                                {
+                                                                    "id": "716700240",
+                                                                    "speaker": "Yelan",
+                                                                    "text": "Fortunately, the situation never spiraled out of control, thanks to a relentless effort by a certain Honorary Knight and Darknight Hero to keep the monsters at bay."
+                                                                },
+                                                                {
+                                                                    "id": "716700241",
+                                                                    "speaker": "Yelan",
+                                                                    "text": "This eventually depleted all the information stored in the Ley Line, after which it returned to normal. Basically, they waged a war of attrition, and won."
+                                                                },
+                                                                {
+                                                                    "id": "716700242",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "Well, that explains why the Ley Line deposit is bright red. There was one just like it back then too... Big and red and plump, like a juicy apple ripe for the picking!",
+                                                                    "choices": [
+                                                                        {
+                                                                            "id": "716700243",
+                                                                            "text": "Tell me more about this \"Honorary Knight.\" Sounds like a cool person!",
+                                                                            "response": [
+                                                                                {
+                                                                                    "id": "716700245",
+                                                                                    "speaker": "Yelan",
+                                                                                    "text": "#Heh, I see what you're doing, {NICKNAME}. Making light of the situation signals to the person trying to hire you that if they want you to take things seriously, they need to make you a serious offer... But don't worry, we won't disappoint you on that front."
+                                                                                },
+                                                                                {
+                                                                                    "id": "716700246",
+                                                                                    "speaker": "Paimon",
+                                                                                    "text": "Umm, you're starting to lose Paimon a little!"
+                                                                                },
+                                                                                {
+                                                                                    "id": "716700247",
+                                                                                    "speaker": "Keqing",
+                                                                                    "text": "...And the bad news, Yelan? Give it to us straight."
+                                                                                },
+                                                                                {
+                                                                                    "id": "716700248",
+                                                                                    "speaker": "Yelan",
+                                                                                    "text": "Sure. As you've already noticed, this Ley Line disturbance differs from previous cases in that defeating the monsters here in the outside world will not suffice."
+                                                                                },
+                                                                                {
+                                                                                    "id": "716700249",
+                                                                                    "speaker": "Yelan",
+                                                                                    "text": "So, unless we target the deepest recesses of this domain and defeat all the monsters lurking within, this battle could drag on forever."
+                                                                                },
+                                                                                {
+                                                                                    "id": "716700250",
+                                                                                    "speaker": "Yelan",
+                                                                                    "text": "To complicate things further, there seems to be a strange set of rules at play in the domain. While we were inside, my team and I started to notice that something was working against us, forbidding us from reaching the core."
+                                                                                },
+                                                                                {
+                                                                                    "id": "716700251",
+                                                                                    "speaker": "Yelan",
+                                                                                    "text": "Things went smoothly at first. We were collecting and analyzing items without too much trouble. But once we pushed deeper, the team was overcome with a sudden sense of weakness. They could no longer fight at full strength."
+                                                                                },
+                                                                                {
+                                                                                    "id": "716700252",
+                                                                                    "speaker": "Yelan",
+                                                                                    "text": "Meanwhile, the monsters only got stronger. Some of them even showed traits we've never observed before. It got pretty dicey at points."
+                                                                                },
+                                                                                {
+                                                                                    "id": "716700253",
+                                                                                    "speaker": "Yelan",
+                                                                                    "text": "My verdict is, we need to find someone highly resistant to Ley Line interference who can look into the domain's rules undisturbed."
+                                                                                },
+                                                                                {
+                                                                                    "id": "716700254",
+                                                                                    "speaker": "Yelan",
+                                                                                    "text": "If they led a squad inside, they could figure out how to navigate the environment, then strike at the heart of the domain and quell this Ley Line disturbance once and for all.",
+                                                                                    "choices": [
+                                                                                        {
+                                                                                            "id": "716700255",
+                                                                                            "text": "Heh, I see what you're doing...",
+                                                                                            "response": [
+                                                                                                {
+                                                                                                    "id": "716700257",
+                                                                                                    "speaker": "Keqing",
+                                                                                                    "text": "So to summarize, we have two options. The first is to strengthen our defenses, keep fending off the monster attacks, and hope the disturbance dies down in due course."
+                                                                                                },
+                                                                                                {
+                                                                                                    "id": "716700258",
+                                                                                                    "speaker": "Keqing",
+                                                                                                    "text": "#Option two is to send {NICKNAME} inside the domain with a team of troops to eliminate the disturbance at the source..."
+                                                                                                },
+                                                                                                {
+                                                                                                    "id": "716700259",
+                                                                                                    "speaker": "Keqing",
+                                                                                                    "text": "Understood. I'll prepare for both courses of action."
+                                                                                                },
+                                                                                                {
+                                                                                                    "id": "716700260",
+                                                                                                    "speaker": "Keqing",
+                                                                                                    "text": "I'll need to contact Ningguang and request additional funding for our defenses. At the same time, I'll reach out to the Kaiyang to discuss manpower. We need to get our troops on rotation as soon as possible."
+                                                                                                },
+                                                                                                {
+                                                                                                    "id": "716700261",
+                                                                                                    "speaker": "Paimon",
+                                                                                                    "text": "Hey, isn't this the part where you're supposed to tell us to \"get out there and give 'em what for\"?"
+                                                                                                },
+                                                                                                {
+                                                                                                    "id": "716700262",
+                                                                                                    "speaker": "Keqing",
+                                                                                                    "text": "Sorry, but peacekeeping in Liyue is a duty that belongs to the Millelith and the Qixing. It's my role as commander to keep my officers from taking on unnecessary risks."
+                                                                                                },
+                                                                                                {
+                                                                                                    "id": "716700263",
+                                                                                                    "speaker": "Keqing",
+                                                                                                    "text": "Plus, I don't want you taking this on all by yourself... for reasons both professional and personal."
+                                                                                                },
+                                                                                                {
+                                                                                                    "id": "716700264",
+                                                                                                    "speaker": "Keqing",
+                                                                                                    "text": "So if you don't want to get involved, I won't force you. I'll simply treat this like a long-term training exercise for the Millelith, with several platoons working in rotation to eliminate each wave of monsters."
+                                                                                                },
+                                                                                                {
+                                                                                                    "id": "716700265",
+                                                                                                    "speaker": "Keqing",
+                                                                                                    "text": "Meanwhile, I'll have scouts keep up the intelligence-gathering work inside the domain. Once we understand it sufficiently well, we can put a strike team together to head in and neutralize the threat."
+                                                                                                },
+                                                                                                {
+                                                                                                    "id": "716700266",
+                                                                                                    "speaker": "Keqing",
+                                                                                                    "text": "Of course, if you do wish to participate, you'll have my full support, and the entire garrison at your disposal."
+                                                                                                },
+                                                                                                {
+                                                                                                    "id": "716700267",
+                                                                                                    "speaker": "Keqing",
+                                                                                                    "text": "And once the Ley Line disturbance has been brought under control, I will review your record and compensate you accordingly.",
+                                                                                                    "choices": [
+                                                                                                        {
+                                                                                                            "id": "716700268",
+                                                                                                            "text": "I'll help, for reasons both professional and personal.",
+                                                                                                            "response": [
+                                                                                                                {
+                                                                                                                    "id": "716700270",
+                                                                                                                    "speaker": "Paimon",
+                                                                                                                    "text": "Paimon too. Whichever way you cut it, we can't sit this one out: We're allies of Liyue, we're the best adventurer duo around, and we're friends of Keqing and Yelan."
+                                                                                                                },
+                                                                                                                {
+                                                                                                                    "id": "716700271",
+                                                                                                                    "speaker": "Paimon",
+                                                                                                                    "text": "...Plus, we don't need to worry about being shortchanged! Keqing and Yelan will definitely make it worth our time!"
+                                                                                                                },
+                                                                                                                {
+                                                                                                                    "id": "716700272",
+                                                                                                                    "speaker": "Keqing",
+                                                                                                                    "text": "That looks like determination to me..."
+                                                                                                                },
+                                                                                                                {
+                                                                                                                    "id": "716700273",
+                                                                                                                    "speaker": "Keqing",
+                                                                                                                    "text": "I like what I see! Alright, here's how we're going to do this:"
+                                                                                                                },
+                                                                                                                {
+                                                                                                                    "id": "716700274",
+                                                                                                                    "speaker": "Keqing",
+                                                                                                                    "text": "#Yelan, tell your team to prepare for another trip into the domain, this time with {NICKNAME} joining them."
+                                                                                                                },
+                                                                                                                {
+                                                                                                                    "id": "716700275",
+                                                                                                                    "speaker": "Yelan",
+                                                                                                                    "text": "Not so fast, I need some time to think this through. The situation at the site is in constant fluctuation, so we can't just go rushing in. We have to time it just right."
+                                                                                                                },
+                                                                                                                {
+                                                                                                                    "id": "716700276",
+                                                                                                                    "speaker": "Yelan",
+                                                                                                                    "text": "#{NICKNAME}, take this time to rest up and assemble your A-Team. Be ready for anything — this will be a fiercer battle than most."
+                                                                                                                },
+                                                                                                                {
+                                                                                                                    "id": "716701201",
+                                                                                                                    "speaker": "Yelan",
+                                                                                                                    "text": "Now's the perfect time. If we seize this chance, we should be able to go deeper into the domain's core..."
+                                                                                                                },
+                                                                                                                {
+                                                                                                                    "id": "716701202",
+                                                                                                                    "speaker": "Yelan",
+                                                                                                                    "text": "Of course, that's assuming we can figure out the \"rules\" along the way, as well as how to deal with our foes."
+                                                                                                                },
+                                                                                                                {
+                                                                                                                    "id": "716701203",
+                                                                                                                    "speaker": "Keqing",
+                                                                                                                    "text": "Keep your eyes peeled and your blades ready. Be aware of your surroundings at all times, and look out for one another."
+                                                                                                                },
+                                                                                                                {
+                                                                                                                    "id": "716701204",
+                                                                                                                    "speaker": "Keqing",
+                                                                                                                    "text": "Remember, whenever the situation takes a turn for the worse, it never hurts to retreat and regroup. Don't go pushing yourselves too hard, alright?"
+                                                                                                                },
+                                                                                                                {
+                                                                                                                    "id": "716701205",
+                                                                                                                    "speaker": "Keqing",
+                                                                                                                    "text": "With that said, I await your triumphant return.",
+                                                                                                                    "choices": [
+                                                                                                                        {
+                                                                                                                            "id": "716701206",
+                                                                                                                            "text": "And a triumphant return you shall have!",
+                                                                                                                            "response": [
+                                                                                                                                {
+                                                                                                                                    "id": "716701208",
+                                                                                                                                    "speaker": "Paimon",
+                                                                                                                                    "text": "Yeah! We'll be back with good news for the both of you!"
+                                                                                                                                }
+                                                                                                                            ]
+                                                                                                                        },
+                                                                                                                        {
+                                                                                                                            "id": "716701207",
+                                                                                                                            "text": "I'm ready for whatever this domain throws at me!"
+                                                                                                                        }
+                                                                                                                    ]
+                                                                                                                }
+                                                                                                            ]
+                                                                                                        },
+                                                                                                        {
+                                                                                                            "id": "716700269",
+                                                                                                            "text": "As a friend I must stay and fight!"
+                                                                                                        }
+                                                                                                    ]
+                                                                                                }
+                                                                                            ]
+                                                                                        },
+                                                                                        {
+                                                                                            "id": "716700256",
+                                                                                            "text": "I'm the only viable candidate!"
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        {
+                                                                            "id": "716700244",
+                                                                            "text": "I don't remember that... Maybe I really do work when Paimon's asleep!"
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "id": "716700220",
+                                                            "text": "Well, second this time, but we'll do our best to help!"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "716700210",
+                                            "text": "\"Sergeant,\" huh? I could get used to that!"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "716700204",
+                            "text": "We'd best stay on our guard and prepare for a fight."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "7167003",
+            "objective": "Enter the Domain through the disturbance point",
+            "dialogues": [
+                {
+                    "id": "716701101",
+                    "speaker": "Yelan",
+                    "text": "It looks like this wave is finally over. Things have finally settled down."
+                },
+                {
+                    "id": "716701102",
+                    "speaker": "Keqing",
+                    "text": "For now, at least. We haven't eliminated the root cause. It's only a matter of time before the next surge of activity."
+                },
+                {
+                    "id": "716701103",
+                    "speaker": "Keqing",
+                    "text": "Still... we've won ourselves some valuable down time. Let's take this time to get some proper rest, and then prepare for the next battle."
+                },
+                {
+                    "id": "716701104",
+                    "speaker": "Paimon",
+                    "text": "Yes, M'am! You don't have to tell us twice!"
+                },
+                {
+                    "id": "716701105",
+                    "speaker": "Paimon",
+                    "text": "The best order is a rest order! We're gonna eat good, sleep good, and get our strength back! ...Uh, and then do some strategic thinking... stuff!"
+                }
+            ]
+        }
+    ]
+}

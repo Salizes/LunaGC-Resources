@@ -1,0 +1,1293 @@
+{
+    "quest": {
+        "id": "13009",
+        "title": "Suspicious Smuggling Case",
+        "description": "You decide to take a look around the Akademiya...",
+        "rewards": [
+            {
+                "itemId": 102,
+                "count": 525
+            },
+            {
+                "itemId": 202,
+                "count": 31125
+            },
+            {
+                "itemId": 104003,
+                "count": 4
+            },
+            {
+                "itemId": 104013,
+                "count": 7
+            }
+        ],
+        "rewards_formatted": "Adventure EXP x525, Mora x31125, Hero's Wit x4, Mystic Enhancement Ore x7",
+        "chapter": {
+            "icon": "UI_ChapterIcon_Cyno",
+            "id": "2032",
+            "num": "Lupus Aureus Chapter: Act I",
+            "title": "Sands of Solitude"
+        },
+        "total_dialogue_lines": 229,
+        "total_speaker_counts": {
+            "???": 6,
+            "Amainu": 10,
+            "Amenzu": 5,
+            "Black Screen": 2,
+            "Cyno": 57,
+            "Dori": 40,
+            "Jhuba": 11,
+            "Mutair": 7,
+            "Nabil": 17,
+            "Paimon": 44,
+            "Player": 30
+        }
+    },
+    "talks": [
+        {
+            "id": "1300901",
+            "objective": "Take a look around the Akademiya",
+            "dialogues": [
+                {
+                    "id": "130090101",
+                    "speaker": "???",
+                    "text": "What should I do now? *sigh* If only Cyno was still around..."
+                },
+                {
+                    "id": "130090102",
+                    "speaker": "Paimon",
+                    "text": "Uh, excuse us, has something happened?"
+                },
+                {
+                    "id": "130090103",
+                    "speaker": "???",
+                    "text": "Oh, I appreciate the concern, but who are you?"
+                },
+                {
+                    "id": "130090104",
+                    "speaker": "Player",
+                    "text": "We also happen to know Cyno."
+                },
+                {
+                    "id": "130090105",
+                    "speaker": "???",
+                    "text": "Ah, friends of Cyno! Well, I suppose it's not a secret or anything... Since you two are interested, I'll just lay it out for ya."
+                },
+                {
+                    "id": "130090106",
+                    "speaker": "Nabil",
+                    "text": "My name is Nabil, I'm a matra in the Akademiya. A case involving the smuggling of Canned Knowledge has come to our attention recently, but unfortunately, we don't have the people to handle it at the moment."
+                },
+                {
+                    "id": "130090107",
+                    "speaker": "Paimon",
+                    "text": "Huh? You mean the Akademiya is short on matra right now?"
+                },
+                {
+                    "id": "130090108",
+                    "speaker": "Nabil",
+                    "text": "Well, not exactly, I suppose the main problem is that the case suddenly came up after General Mahamatra Cyno left to go somewhere. It would be a real headache for us to tackle the case ourselves."
+                },
+                {
+                    "id": "130090109",
+                    "speaker": "Nabil",
+                    "text": "Given the large scope of the issue, we talked things over internally and decided that we should find further assistance from outside the matra."
+                },
+                {
+                    "id": "130090110",
+                    "speaker": "Nabil",
+                    "text": "If you two have some time, would you lend us your strength?"
+                },
+                {
+                    "id": "130090111",
+                    "speaker": "Paimon",
+                    "text": "Hmm, alright. Since you asked so nicely, we'll help!"
+                },
+                {
+                    "id": "130090112",
+                    "speaker": "Player",
+                    "text": "Do you have any further intel regarding this case?"
+                },
+                {
+                    "id": "130090113",
+                    "speaker": "Nabil",
+                    "text": "Yes, large amounts of Canned Knowledge from unknown origins have been appearing on the market recently. We suspect there's a secret route being used to move the capsules."
+                },
+                {
+                    "id": "130090114",
+                    "speaker": "Nabil",
+                    "text": "According to some research, using large amounts of Canned Knowledge could lead to some serious consequences, and unfortunately, most people have yet to realize that."
+                },
+                {
+                    "id": "130090115",
+                    "speaker": "Nabil",
+                    "text": "Rumors also have it that some particularly dangerous Canned Knowledge has made its way into the market. Regardless of whether the rumors are true or not, this case calls for urgent action."
+                },
+                {
+                    "id": "130090116",
+                    "speaker": "Nabil",
+                    "text": "According to our current leads, it's highly likely that there are dealers selling Canned Knowledge outside the city even as we speak. If you two could, please help us investigate the area."
+                },
+                {
+                    "id": "130090117",
+                    "speaker": "Paimon",
+                    "text": "You can count on us, let's go!"
+                }
+            ]
+        },
+        {
+            "id": "1300902",
+            "objective": "",
+            "dialogues": [
+                {
+                    "id": "130090201",
+                    "speaker": "Black Screen",
+                    "text": "After searching outside the city for some time, you see a familiar figure..."
+                },
+                {
+                    "id": "130090202",
+                    "speaker": "Paimon",
+                    "text": "Huh? It's Cyno! Uh, what are you doing here?"
+                },
+                {
+                    "id": "130090203",
+                    "speaker": "Cyno",
+                    "text": "Ah, it's you two. I knew I sensed a familiar presence."
+                },
+                {
+                    "id": "130090204",
+                    "speaker": "Cyno",
+                    "text": "I'm currently in the middle of an investigation here. We'll have to chat some other time.",
+                    "choices": [
+                        {
+                            "id": "130090205",
+                            "text": "So you're investigating something here, too?",
+                            "response": [
+                                {
+                                    "id": "130090207",
+                                    "speaker": "Cyno",
+                                    "text": "There's been a recent case of Canned Knowledge smuggling. It seems that the smugglers are following an elaborate and dangerous scheme. I just happened to acquire some intel which led me here."
+                                },
+                                {
+                                    "id": "130090208",
+                                    "speaker": "Paimon",
+                                    "text": "Hey, whaddya know! We're also here to investigate that!"
+                                },
+                                {
+                                    "id": "130090209",
+                                    "speaker": "Cyno",
+                                    "text": "I see, well the situation might be more problematic than you anticipated. I've already questioned several people, but gained very little information."
+                                },
+                                {
+                                    "id": "130090210",
+                                    "speaker": "Cyno",
+                                    "text": "Long story short, I was able to learn of the secret location where the Canned Knowledge is being sold. You're welcome to accompany me if you're interested."
+                                },
+                                {
+                                    "id": "130090211",
+                                    "speaker": "Paimon",
+                                    "text": "Whoa, sounds pretty complicated... but having Cyno around will definitely make things easier."
+                                },
+                                {
+                                    "id": "130090212",
+                                    "speaker": "Paimon",
+                                    "text": "Alright, let's go round up those bad guys!"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "130090206",
+                            "text": "Does that mean..."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "1300903",
+            "objective": "Look for clues outside the city",
+            "dialogues": []
+        },
+        {
+            "id": "1300910",
+            "objective": "Work with Cyno to arrest the suspects",
+            "dialogues": [
+                {
+                    "id": "130090301",
+                    "speaker": "Mutair",
+                    "text": "Is this all you got? Hmm, seems even less than last time."
+                },
+                {
+                    "id": "130090302",
+                    "speaker": "Amainu",
+                    "text": "What difference does it make? If you see somethin' you like, buy it. If not, then keep walkin'."
+                },
+                {
+                    "id": "130090303",
+                    "speaker": "Amenzu",
+                    "text": "They've been cracking down on us lately, so we don't have much on hand. If you see something that catches your eye, then now's your chance. There's no telling when we'll have more."
+                },
+                {
+                    "id": "130090304",
+                    "speaker": "Mutair",
+                    "text": "*sigh* What does the Akademiya think they're doing... Alright, I'll take these here. Lemme see what else you have..."
+                },
+                {
+                    "id": "130090305",
+                    "speaker": "Mutair",
+                    "text": "I don't see any real gems in this batch. It's all pretty ordinary stuff. Whatever, how much do I owe you?"
+                },
+                {
+                    "id": "130090306",
+                    "speaker": "Amainu",
+                    "text": "150k. Show us the Mora, and you'll get the goods."
+                },
+                {
+                    "id": "130090307",
+                    "speaker": "Cyno",
+                    "text": "Put the Mora down and your hands up."
+                },
+                {
+                    "id": "130090308",
+                    "speaker": "Amainu",
+                    "text": "Ah! It—It's Cyno! Ugh, when's he ever gonna let up!?"
+                },
+                {
+                    "id": "130090309",
+                    "speaker": "Amenzu",
+                    "text": "Hey! Forget the goods, let's split!"
+                },
+                {
+                    "id": "130090310",
+                    "speaker": "Amainu",
+                    "text": "But don't forget the Mora!"
+                },
+                {
+                    "id": "130090311",
+                    "speaker": "Paimon",
+                    "text": "Duh-dun! Not so fast! You can't escape with Paimon on the case!"
+                },
+                {
+                    "id": "130090312",
+                    "speaker": "Amainu",
+                    "text": "What is this? He's got backup now? Doesn't everyone say Cyno works alone?"
+                },
+                {
+                    "id": "130090313",
+                    "speaker": "Amainu",
+                    "text": "Uh, I don't like the looks of this... Either way's gonna be a tough fight. Any ideas?"
+                },
+                {
+                    "id": "130090314",
+                    "speaker": "Amenzu",
+                    "text": "It's over. It's not like we're making a big cut anyway, I'm not losing my life here."
+                },
+                {
+                    "id": "130090315",
+                    "speaker": "Paimon",
+                    "text": "Huh!? Did they really just give up like that?"
+                },
+                {
+                    "id": "130090316",
+                    "speaker": "Cyno",
+                    "text": "Just like the others I've caught. They're not deep in the circle, just dealers at the bottom of the chain."
+                },
+                {
+                    "id": "130090317",
+                    "speaker": "Cyno",
+                    "text": "Alright, I have one question, and one question only: Where did you get this Canned Knowledge?"
+                },
+                {
+                    "id": "130090318",
+                    "speaker": "Amenzu",
+                    "text": "Well, uh, the pickup location is different every time... The boss tells us where it's gonna be and that's it. We don't get a say in it. He sends someone every five days to bring us the goods."
+                },
+                {
+                    "id": "130090319",
+                    "speaker": "Cyno",
+                    "text": "And when is the next batch coming?"
+                },
+                {
+                    "id": "130090320",
+                    "speaker": "Amenzu",
+                    "text": "I—I don't know."
+                },
+                {
+                    "id": "130090321",
+                    "speaker": "Amainu",
+                    "text": "He's telling the truth, honest! Normally, we should have received a shipment three days ago, but we didn't get anything."
+                },
+                {
+                    "id": "130090322",
+                    "speaker": "Amainu",
+                    "text": "The stock we have right now is from eight days ago, which is why there isn't much left.",
+                    "choices": [
+                        {
+                            "id": "130090323",
+                            "text": "Seems this isn't getting us anywhere.",
+                            "response": [
+                                {
+                                    "id": "130090325",
+                                    "speaker": "Cyno",
+                                    "text": "I know exactly why they didn't receive their last batch. Three days ago is exactly when I started my investigation."
+                                },
+                                {
+                                    "id": "130090326",
+                                    "speaker": "Cyno",
+                                    "text": "I suspect whoever's running this whole thing knew that I was coming, so they cut all contact with these dealers."
+                                },
+                                {
+                                    "id": "130090327",
+                                    "speaker": "Cyno",
+                                    "text": "When you were trying to escape, you said something about me working alone. Where did you hear that from?"
+                                },
+                                {
+                                    "id": "130090328",
+                                    "speaker": "Amainu",
+                                    "text": "Are you kiddin'? We've known your name since day one in this business. The boss warned us to watch out and even gave us info about you."
+                                },
+                                {
+                                    "id": "130090329",
+                                    "speaker": "Amainu",
+                                    "text": "But here we are... *sigh* I guess we never stood a chance."
+                                },
+                                {
+                                    "id": "130090330",
+                                    "speaker": "Cyno",
+                                    "text": "Hmph, they already knew all about me and were trying to avoid being detected from the very beginning."
+                                },
+                                {
+                                    "id": "130090331",
+                                    "speaker": "Cyno",
+                                    "text": "These small fries are the only ones they leave out in the open, and no matter how many we catch, it won't further our investigation."
+                                },
+                                {
+                                    "id": "130090332",
+                                    "speaker": "Cyno",
+                                    "text": "If only we had another lead... like a merchant who sells large amounts of Canned Knowledge."
+                                },
+                                {
+                                    "id": "130090333",
+                                    "speaker": "Paimon",
+                                    "text": "Huh? Oh, you mean someone like Dor... uh, nothing..."
+                                },
+                                {
+                                    "id": "130090334",
+                                    "speaker": "Cyno",
+                                    "text": "Hmm? Do you have a potential suspect? You'd better bring them to me for judgment!"
+                                },
+                                {
+                                    "id": "130090335",
+                                    "speaker": "Paimon",
+                                    "text": "Wh—Whoa, judgment!?"
+                                },
+                                {
+                                    "id": "130090336",
+                                    "speaker": "Cyno",
+                                    "text": "That's right. I won't turn a blind eye on any dangerous suspect."
+                                },
+                                {
+                                    "id": "130090337",
+                                    "speaker": "Paimon",
+                                    "text": "Oh, uh, sounds like we shouldn't ever let Cyno meet Dori...",
+                                    "choices": [
+                                        {
+                                            "id": "130090338",
+                                            "text": "Actually, we were mistaken.",
+                                            "response": [
+                                                {
+                                                    "id": "130090340",
+                                                    "speaker": "Cyno",
+                                                    "text": "I see. Anyway, I'll think of a way to deal with these two and then continue gathering information."
+                                                },
+                                                {
+                                                    "id": "130090341",
+                                                    "speaker": "Cyno",
+                                                    "text": "If you manage to learn anything, you can find me at Caravan Ribat."
+                                                },
+                                                {
+                                                    "id": "130090342",
+                                                    "speaker": "Cyno",
+                                                    "text": "And as for you, I don't ever want to catch you buying Canned Knowledge again. If you possess any unused Knowledge Capsules, then you should submit them to the authorities immediately."
+                                                },
+                                                {
+                                                    "id": "130090343",
+                                                    "speaker": "Mutair",
+                                                    "text": "Okay, okay, I got it... Just keep your nose out of my business."
+                                                },
+                                                {
+                                                    "id": "130090344",
+                                                    "speaker": "Paimon",
+                                                    "text": "Hey, what's with the attitude, mister!"
+                                                },
+                                                {
+                                                    "id": "130090345",
+                                                    "speaker": "Mutair",
+                                                    "text": "What, you got a problem with that, too? Listen, buying Canned Knowledge is a deal between two people: the buyer and the seller. We don't need people like you butting in on our business here."
+                                                },
+                                                {
+                                                    "id": "130090346",
+                                                    "speaker": "Mutair",
+                                                    "text": "Think about it. If the Akademiya is hoarding something as convenient and useful like Canned Knowledge, then they must've been planning only to use it for themselves! Am I right?",
+                                                    "choices": [
+                                                        {
+                                                            "id": "130090347",
+                                                            "text": "They must have their own reasons.",
+                                                            "response": [
+                                                                {
+                                                                    "id": "130090349",
+                                                                    "speaker": "Cyno",
+                                                                    "text": "The Akademiya has clearly published the potential dangers of Canned Knowledge. I don't like having to repeat things, and besides, I'm sure you wouldn't listen anyway."
+                                                                },
+                                                                {
+                                                                    "id": "130090350",
+                                                                    "speaker": "Cyno",
+                                                                    "text": "I just hope you understand that your actions are what fuels the smuggling of Canned Knowledge."
+                                                                },
+                                                                {
+                                                                    "id": "130090351",
+                                                                    "speaker": "Cyno",
+                                                                    "text": "If I ever catch you again, I will personally see to it that you are punished."
+                                                                },
+                                                                {
+                                                                    "id": "130090352",
+                                                                    "speaker": "Cyno",
+                                                                    "text": "#Alright, {NICKNAME}, I need to go now."
+                                                                },
+                                                                {
+                                                                    "id": "130090353",
+                                                                    "speaker": "Mutair",
+                                                                    "text": "Hah! Y—You think you can scare me?"
+                                                                },
+                                                                {
+                                                                    "id": "130090354",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "#Phew... {NICKNAME}, why don't we go talk to Dori? She's got loads of connections and might be able to tell us something about all this."
+                                                                },
+                                                                {
+                                                                    "id": "130090355",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "If Paimon remembers correctly, she's usually at the Palace of Alcazarzaray. Let's go!"
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "id": "130090348",
+                                                            "text": "You may have a point..."
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "130090339",
+                                            "text": "We don't know any merchants."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "130090324",
+                            "text": "Cyno wasn't kidding when he said intel was hard to come by."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "1300904",
+            "objective": "Ask Dori for information",
+            "dialogues": [
+                {
+                    "id": "130090401",
+                    "speaker": "Black Screen",
+                    "text": "You tell Dori about what happened with Cyno."
+                },
+                {
+                    "id": "130090402",
+                    "speaker": "Dori",
+                    "text": "I see, I see... So that's the latest scoop! Heh, good thing you didn't rat me out. Otherwise, who knows where I'd have to be hiding to avoid attention."
+                },
+                {
+                    "id": "130090403",
+                    "speaker": "Player",
+                    "text": "Do you know who is smuggling the Canned Knowledge?"
+                },
+                {
+                    "id": "130090404",
+                    "speaker": "Dori",
+                    "text": "No idea, sorry. I've already cashed out of the Canned Knowledge business."
+                },
+                {
+                    "id": "130090405",
+                    "speaker": "Paimon",
+                    "text": "Huh!? You mean you stopped selling it?"
+                },
+                {
+                    "id": "130090406",
+                    "speaker": "Dori",
+                    "text": "That's right. With so much Canned Knowledge flooding the market, it was becoming impossible to fetch decent prices anymore."
+                },
+                {
+                    "id": "130090407",
+                    "speaker": "Dori",
+                    "text": "Besides, it seems that group of smugglers has practically taken over the market. It's a little rule of mine to never fight for a share of someone else's market. If I'm gonna make Mora, it's gonna be the lion's share."
+                },
+                {
+                    "id": "130090408",
+                    "speaker": "Dori",
+                    "text": "Plus, with regulations getting as tight as they are now, I figured I might as well just hang it up."
+                },
+                {
+                    "id": "130090409",
+                    "speaker": "Paimon",
+                    "text": "Aw, sounds like we came all this way for nothing..."
+                },
+                {
+                    "id": "130090410",
+                    "speaker": "Dori",
+                    "text": "Well, not completely."
+                },
+                {
+                    "id": "130090411",
+                    "speaker": "Dori",
+                    "text": "Granted, I don't know who's behind all the smuggling activity, but since you didn't sell me out, I'll let you in on what I do know."
+                },
+                {
+                    "id": "130090412",
+                    "speaker": "Dori",
+                    "text": "After all, those smugglers have really crossed the line, butting their way into the market like that. I hope their luck runs out soon so that I can take over... Ahem, I mean, so that the industry can become more fairly regulated."
+                },
+                {
+                    "id": "130090413",
+                    "speaker": "Paimon",
+                    "text": "Hey, you just want to make more business for yourself!"
+                },
+                {
+                    "id": "130090414",
+                    "speaker": "Player",
+                    "text": "Is selling Canned Knowledge really that lucrative?"
+                },
+                {
+                    "id": "130090415",
+                    "speaker": "Dori",
+                    "text": "Hehe, don't underestimate its value. Think about it — you can gain all sorts of knowledge while bypassing the troublesome process of studying. Naturally, that makes it a product worth a high price."
+                },
+                {
+                    "id": "130090416",
+                    "speaker": "Dori",
+                    "text": "Of course, not everyone needs that kind of knowledge, but in a market as big as Sumeru, there is plenty of demand. Plus, the cost of production is relatively low, so even if dealers have to cover transportation costs, there is still an enormous profit to be made."
+                },
+                {
+                    "id": "130090417",
+                    "speaker": "Paimon",
+                    "text": "Then why does the Akademiya prohibit selling Canned Knowledge?"
+                },
+                {
+                    "id": "130090418",
+                    "speaker": "Dori",
+                    "text": "Hehe... Being able to gain complex knowledge and become a scholar with the snap of your fingers does sound like a dream, doesn't it?"
+                },
+                {
+                    "id": "130090419",
+                    "speaker": "Dori",
+                    "text": "But everything in this world comes at a price, right?"
+                },
+                {
+                    "id": "130090420",
+                    "speaker": "Dori",
+                    "text": "Gaining knowledge is a complicated process — it requires learning, thinking, and practice. Even when it comes to my own business, I have to go through a lot of preparation before I put anything out for sale."
+                },
+                {
+                    "id": "130090421",
+                    "speaker": "Dori",
+                    "text": "But with Canned Knowledge, one may simply skip all the hassle and get whatever they need to know immediately. That inherently leads to at least two potential problems..."
+                },
+                {
+                    "id": "130090422",
+                    "speaker": "Dori",
+                    "text": "First, you'll accept the knowledge as factual without a second thought, and you will find it very hard to forget. This means that if the knowledge is flawed, then it'll be very difficult to correct."
+                },
+                {
+                    "id": "130090423",
+                    "speaker": "Dori",
+                    "text": "And second, excess use of Knowledge Capsules over an extended time diminishes your ability to think. You'll end up becoming like a library that can only store knowledge."
+                },
+                {
+                    "id": "130090424",
+                    "speaker": "Paimon",
+                    "text": "#Whoa, that does sound pretty dangerous! {NICKNAME}, you used Canned Knowledge before. Did you feel any negative effects?"
+                },
+                {
+                    "id": "130090425",
+                    "speaker": "Player",
+                    "text": "Not in particular..."
+                },
+                {
+                    "id": "130090426",
+                    "speaker": "Dori",
+                    "text": "Of course, using it sparingly is not an issue, which is exactly why I used to sell it."
+                },
+                {
+                    "id": "130090427",
+                    "speaker": "Dori",
+                    "text": "It's just like how medicine can be used to cure diseases, but can also do harm when overused. It all comes down to balancing the right amount."
+                },
+                {
+                    "id": "130090428",
+                    "speaker": "Dori",
+                    "text": "Ahem, anyway back to the point, there'll be consequences if the sale of Canned Knowledge by those smugglers is left unchecked."
+                },
+                {
+                    "id": "130090429",
+                    "speaker": "Dori",
+                    "text": "And what's worse, you're playing right into their hands by focusing only on the Canned Knowledge that's made its way into the market."
+                },
+                {
+                    "id": "130090430",
+                    "speaker": "Dori",
+                    "text": "As far as I know, their real purpose is to distribute information about the Court of Desolation. That's where the real business opportunity is."
+                },
+                {
+                    "id": "130090431",
+                    "speaker": "Paimon",
+                    "text": "The Court of Desolation? What's that?"
+                },
+                {
+                    "id": "130090432",
+                    "speaker": "Dori",
+                    "text": "Rumor has it that it's a site of ruins from the age of King Deshret. It's said that with the treasures inside, one can see beyond life and death, but any research of the ruins is strictly banned by the Akademiya."
+                },
+                {
+                    "id": "130090433",
+                    "speaker": "Dori",
+                    "text": "Word on the street is that there'll be an auction taking place in the desert. They're auctioning rare Canned Knowledge, some of which is related to the Court of Desolation."
+                },
+                {
+                    "id": "130090434",
+                    "speaker": "Dori",
+                    "text": "Once I heard about the auction, I began to suspect that all the Canned Knowledge popping up on the market is just a diversion. I'd wager that their real target is the Court of Desolation.",
+                    "choices": [
+                        {
+                            "id": "130090435",
+                            "text": "Why use Canned Knowledge to distribute information?",
+                            "response": [
+                                {
+                                    "id": "130090437",
+                                    "speaker": "Dori",
+                                    "text": "Because studying those ruins is not just a simple matter — it requires knowledge spanning several fields. So if they're aiming to quickly assemble a research team, Canned Knowledge would be the best solution."
+                                },
+                                {
+                                    "id": "130090438",
+                                    "speaker": "Dori",
+                                    "text": "As for the auction, chances are they're trying to attract and scout out anyone with interest or expertise on the subject."
+                                },
+                                {
+                                    "id": "130090439",
+                                    "speaker": "Dori",
+                                    "text": "On the other hand, no one can say for sure that they will ever succeed in finding the Court of Desolation. So they might as well just make a fortune while they're at it by hyping up the related Canned Knowledge at the auction."
+                                },
+                                {
+                                    "id": "130090440",
+                                    "speaker": "Paimon",
+                                    "text": "Hmmm... sounds to Paimon like we better head to the desert and see the auction. Who knows, we might find some leads there."
+                                },
+                                {
+                                    "id": "130090441",
+                                    "speaker": "Dori",
+                                    "text": "That's right! And now that I've shared all that valuable info with you, it's time to introduce our Limited Edition Desert Travel Kit! It comes complete with a map straight to the auction location."
+                                },
+                                {
+                                    "id": "130090442",
+                                    "speaker": "Player",
+                                    "text": "Saw this coming..."
+                                },
+                                {
+                                    "id": "130090443",
+                                    "speaker": "Dori",
+                                    "text": "As I said, I also have to make preparations before I sell things, right? Now let me consider how much I should sell this for..."
+                                },
+                                {
+                                    "id": "130090444",
+                                    "speaker": "Dori",
+                                    "text": "I've got it! 500,000 Mora per kit! It's quite the bargain. We'll even offer a 50% discount for little Paimon's travel kit. Only 250,000 Mora!"
+                                },
+                                {
+                                    "id": "130090445",
+                                    "speaker": "Paimon",
+                                    "text": "What! That's super expensive!"
+                                },
+                                {
+                                    "id": "130090446",
+                                    "speaker": "Dori",
+                                    "text": "No need to worry, little one. Cyno's the one heading this investigation, isn't he? I'll be sure to bill all the expenses to him."
+                                },
+                                {
+                                    "id": "130090447",
+                                    "speaker": "Dori",
+                                    "text": "All you'll need to do is tell him to go the merchant's guild and pay the bill once the mission is completed. Just, uh... be sure to not send him directly here though, okay? That would leave me completely in the open."
+                                },
+                                {
+                                    "id": "130090448",
+                                    "speaker": "Dori",
+                                    "text": "I'm sure the former General Mahamatra of the Akademiya would never leave any debt unpaid. Oh, the Mora... I can see it already, loads of shiny Mora coming Dori's way!"
+                                },
+                                {
+                                    "id": "130090450",
+                                    "speaker": "Paimon",
+                                    "text": "#{NICKNAME}, we'd better get going. If Dori keeps at it, we'll be out of Mora!"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "130090436",
+                            "text": "What's the purpose of hosting an auction?"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "1300905",
+            "objective": "Inform Cyno of the intel",
+            "dialogues": [
+                {
+                    "id": "130090501",
+                    "speaker": "Paimon",
+                    "text": "Cyno! We've got news for you! What the smugglers are really after is a chance to research the Court of Desolation!"
+                },
+                {
+                    "id": "130090502",
+                    "speaker": "Paimon",
+                    "text": "They are hosting an auction in the desert to sell Canned Knowledge about those ruins!"
+                },
+                {
+                    "id": "130090503",
+                    "speaker": "Cyno",
+                    "text": "The Court of Desolation..."
+                },
+                {
+                    "id": "130090504",
+                    "speaker": "Cyno",
+                    "text": "I won't ask how you came by this intel, but is it reliable?",
+                    "choices": [
+                        {
+                            "id": "130090505",
+                            "text": "Yes, it should be.",
+                            "response": [
+                                {
+                                    "id": "130090507",
+                                    "speaker": "Paimon",
+                                    "text": "We also heard that the Court of Desolation contains treasures from the time of King Deshret. Is that true?"
+                                },
+                                {
+                                    "id": "130090508",
+                                    "speaker": "Cyno",
+                                    "text": "Partially. It was a secret place built by a dark sect from the age of King Deshret. The ruins do contain treasures, but the place is also rife with unknown dangers."
+                                },
+                                {
+                                    "id": "130090509",
+                                    "speaker": "Cyno",
+                                    "text": "According to past research, one must forfeit their life as the price of entering. They are not some ordinary ruins, so the Akademiya has strictly prohibited any related research."
+                                },
+                                {
+                                    "id": "130090510",
+                                    "speaker": "Cyno",
+                                    "text": "However, if they are using the Canned Knowledge as a way to move information and recruit researchers, then I suppose your conclusion does hold some validity. Regardless, we need to go into the desert."
+                                },
+                                {
+                                    "id": "130090511",
+                                    "speaker": "Player",
+                                    "text": "Are there many people trying to study the Court of Desolation?"
+                                },
+                                {
+                                    "id": "130090512",
+                                    "speaker": "Cyno",
+                                    "text": "Less in recent years, but there are always those who attempt to do so, both inside and outside the Akademiya."
+                                },
+                                {
+                                    "id": "130090513",
+                                    "speaker": "Cyno",
+                                    "text": "After all, legends claim that whoever obtains the treasures inside can see beyond life and death, or even resurrect the dead."
+                                },
+                                {
+                                    "id": "130090514",
+                                    "speaker": "Cyno",
+                                    "text": "Death is often the greatest grievance for many people. Though they're fully aware that the chances of these rumors being true are slim, they hold tight to such fantasies and pursue them regardless..."
+                                },
+                                {
+                                    "id": "130090515",
+                                    "speaker": "Cyno",
+                                    "text": "That's why some continue to research it, regardless of it being a restricted subject. On top of that, it's hard to track the source of information contained in Canned Knowledge."
+                                },
+                                {
+                                    "id": "130090516",
+                                    "speaker": "Cyno",
+                                    "text": "Do you know where the auction is taking place?"
+                                },
+                                {
+                                    "id": "130090517",
+                                    "speaker": "Player",
+                                    "text": "Yes, we do."
+                                },
+                                {
+                                    "id": "130090518",
+                                    "speaker": "Cyno",
+                                    "text": "Good. We'll go investigate. But before that, we'll have to get rid of these people tailing us."
+                                },
+                                {
+                                    "id": "130090519",
+                                    "speaker": "Paimon",
+                                    "text": "Huh? People tailing us?"
+                                },
+                                {
+                                    "id": "130090520",
+                                    "speaker": "Cyno",
+                                    "text": "That's right. Let's begin to leave town and see what happens. I'm sure they'll reveal themselves as soon as we make a move."
+                                },
+                                {
+                                    "id": "130090521",
+                                    "speaker": "Cyno",
+                                    "text": "Don't worry. I'll make short work of them."
+                                },
+                                {
+                                    "id": "130090522",
+                                    "speaker": "Paimon",
+                                    "text": "That's Cyno for ya... but we can lend a hand too, you know!"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "130090506",
+                            "text": "It's all we have to go on for the moment."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "1300906",
+            "objective": "Leave Caravan Ribat",
+            "dialogues": [
+                {
+                    "id": "130090601",
+                    "speaker": "Dori",
+                    "text": "By the way, it would be quite a tricky task to get all the Canned Knowledge off the market, don't you think? You'd probably be making some enemies along the way, too."
+                },
+                {
+                    "id": "130090602",
+                    "speaker": "Paimon",
+                    "text": "Huh? What makes you say that?"
+                },
+                {
+                    "id": "130090603",
+                    "speaker": "Dori",
+                    "text": "Because in the short run, the circulation of Canned Knowledge benefits everyone."
+                },
+                {
+                    "id": "130090604",
+                    "speaker": "Dori",
+                    "text": "Whoever is behind the smuggling gets a chance to study the Court of Desolation, while knowledge dealers stand to make big profits. Even the buyers get a rare chance to easily access knowledge that is hard to come by."
+                },
+                {
+                    "id": "130090605",
+                    "speaker": "Dori",
+                    "text": "So you see, it's a win for everyone. Who would want anyone stepping in and ruining the deal, hmm?"
+                },
+                {
+                    "id": "130090606",
+                    "speaker": "Dori",
+                    "text": "As for the long-term consequences that lie ahead... Most people can't see them, nor would they even believe them. So if you think about it, you're setting yourself up to be targeted by everyone."
+                },
+                {
+                    "id": "130090607",
+                    "speaker": "Dori",
+                    "text": "You've got quite the challenge ahead of you. I can only imagine how stressed you'll feel... How about I recommend a book for you? It's called One Hundred Ways to De-Stress and Live Your Best! I'll offer you a 30% discount right now!"
+                },
+                {
+                    "id": "130090608",
+                    "speaker": "Paimon",
+                    "text": "Ah! Again!? No way we're falling for that!"
+                }
+            ]
+        },
+        {
+            "id": "1300907",
+            "objective": "Leave Caravan Ribat",
+            "dialogues": [
+                {
+                    "id": "130090701",
+                    "speaker": "Jhuba",
+                    "text": "Hold it right there. Heading to the desert, are we? I would think twice if I were you."
+                },
+                {
+                    "id": "130090702",
+                    "speaker": "Paimon",
+                    "text": "Huh? Who are you?"
+                },
+                {
+                    "id": "130090703",
+                    "speaker": "Jhuba",
+                    "text": "That doesn't matter. All you need to know is that someone wishes to inform you that it's not too late to turn back."
+                },
+                {
+                    "id": "130090704",
+                    "speaker": "Jhuba",
+                    "text": "Ah, you must be Cyno. I've heard a lot about you — you've got quite a reputation. But this time, you're in over your head. Unless you turn around right now, I'm afraid that even you won't return unscathed."
+                },
+                {
+                    "id": "130090705",
+                    "speaker": "Jhuba",
+                    "text": "And as for you two... why bother sticking your noses in trouble that doesn't even concern you, hmm?",
+                    "choices": [
+                        {
+                            "id": "130090706",
+                            "text": "Canned Knowledge is becoming a problem here.",
+                            "response": [
+                                {
+                                    "id": "130090708",
+                                    "speaker": "Paimon",
+                                    "text": "That's right. We won't just sit back and do nothing!"
+                                },
+                                {
+                                    "id": "130090709",
+                                    "speaker": "Jhuba",
+                                    "text": "Heh, have you really thought it through? You're not just doing this for recognition, are you, Cyno?"
+                                },
+                                {
+                                    "id": "130090710",
+                                    "speaker": "Jhuba",
+                                    "text": "My employer said that he's willing to compromise, as long as you just walk away. He could, for example, reduce the amount of Canned Knowledge on the market. I'm sure that would help your investigation appear to be successful enough."
+                                },
+                                {
+                                    "id": "130090711",
+                                    "speaker": "Jhuba",
+                                    "text": "On top of that, he's willing to give you a cut of the profit. So you see, you get both Mora and a boost to your reputation. I can't think of a reason why you would pass that up."
+                                },
+                                {
+                                    "id": "130090712",
+                                    "speaker": "Cyno",
+                                    "text": "Is that so? Well, I can't think of a reason why I'd accept. I've heard enough, get out of my way."
+                                },
+                                {
+                                    "id": "130090713",
+                                    "speaker": "Jhuba",
+                                    "text": "Sorry, no can do. We're getting paid to ensure you disappear. Since you won't turn back willingly, then we're gonna have to make you go back."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "130090707",
+                            "text": "We're here to help Cyno."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "1300908",
+            "objective": "Defeat the mercenaries that followed you",
+            "dialogues": []
+        },
+        {
+            "id": "1300909",
+            "objective": "Talk to Cyno",
+            "dialogues": [
+                {
+                    "id": "130090901",
+                    "speaker": "Jhuba",
+                    "text": "Ugh... this doesn't change anything."
+                },
+                {
+                    "id": "130090902",
+                    "speaker": "Jhuba",
+                    "text": "You're in over your head, Cyno. There will be others coming for you. You'll regret it!"
+                },
+                {
+                    "id": "130090903",
+                    "speaker": "Jhuba",
+                    "text": "Let's get outta here!"
+                },
+                {
+                    "id": "130090904",
+                    "speaker": "Cyno",
+                    "text": "..."
+                },
+                {
+                    "id": "130090905",
+                    "speaker": "Player",
+                    "text": "Shouldn't we follow them?"
+                },
+                {
+                    "id": "130090906",
+                    "speaker": "Cyno",
+                    "text": "No need. Even if we apprehend them, there'll be little information to gain. Besides, it might also be a trap."
+                },
+                {
+                    "id": "130090907",
+                    "speaker": "Cyno",
+                    "text": "I apologize for bringing you into this dangerous mess. Just being associated with me will inevitably cause you to become targets as well."
+                },
+                {
+                    "id": "130090908",
+                    "speaker": "Cyno",
+                    "text": "You should be careful from now on. Sleep with one eye open."
+                },
+                {
+                    "id": "130090909",
+                    "speaker": "Paimon",
+                    "text": "Wait, hold on! There's no way anyone could sleep without closing their eyes... Uh, right?"
+                },
+                {
+                    "id": "130090910",
+                    "speaker": "Cyno",
+                    "text": "You'd be surprised. Anyway, just be careful. Mercenaries are never quick to forget. In their line of work, even a single failure is bad for reputation."
+                },
+                {
+                    "id": "130090911",
+                    "speaker": "Cyno",
+                    "text": "They may even stay hidden in some dark corner for a very long time, waiting for the right moment to ambush you. They'll do anything to keep their prestige intact."
+                },
+                {
+                    "id": "130090912",
+                    "speaker": "Player",
+                    "text": "Have you encountered that kind of situation before, Cyno?"
+                },
+                {
+                    "id": "130090913",
+                    "speaker": "Cyno",
+                    "text": "Yes. I remember it like it was yesterday."
+                },
+                {
+                    "id": "130090914",
+                    "speaker": "Cyno",
+                    "text": "I was carrying out a mission with one of my superiors. I didn't have much experience at the time, and I let my guard down after we had closed the case. We ended up being attacked by the remainder of the mercenaries."
+                },
+                {
+                    "id": "130090915",
+                    "speaker": "Cyno",
+                    "text": "My superior was injured while protecting me, and we struggled to gain control of the situation. I've become more vigilant ever since, staying alert even while I sleep."
+                },
+                {
+                    "id": "130090916",
+                    "speaker": "Paimon",
+                    "text": "Whoa, who could have seen that coming! Was he okay?"
+                },
+                {
+                    "id": "130090917",
+                    "speaker": "Cyno",
+                    "text": "He survived with a fractured wrist. It took two months for him to recover, but luckily, there weren't any further complications. Last year, he transferred to an administrative role for personal reasons, and no longer participates in live missions."
+                },
+                {
+                    "id": "130090918",
+                    "speaker": "Cyno",
+                    "text": "His name is Taj Radkani, a very well-respected matra. You will have the chance to meet him someday."
+                },
+                {
+                    "id": "130090919",
+                    "speaker": "Cyno",
+                    "text": "Anyway, our mission will be dangerous. I'm already used to such grueling conditions, but I don't want to see you two get hurt."
+                },
+                {
+                    "id": "130090920",
+                    "speaker": "Paimon",
+                    "text": "Don't worry, Paimon will stay alert! We'll see danger coming a mile away!",
+                    "choices": [
+                        {
+                            "id": "130090921",
+                            "text": "We've also experienced a lot of sticky situations.",
+                            "response": [
+                                {
+                                    "id": "130090923",
+                                    "speaker": "Cyno",
+                                    "text": "Good. Don't worry, it won't be long till we're at the bottom of this."
+                                },
+                                {
+                                    "id": "130090924",
+                                    "speaker": "Cyno",
+                                    "text": "And once this is all over, I'll sweep away any other hidden dangers."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "130090922",
+                            "text": "Let's all do our best."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "1300912",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "130091201",
+                    "speaker": "Nabil",
+                    "text": "How's the case coming? Any progress?"
+                }
+            ]
+        },
+        {
+            "id": "1300921",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "130092101",
+                    "speaker": "???",
+                    "text": "Wait, you two! Just a moment, please!"
+                },
+                {
+                    "id": "130092102",
+                    "speaker": "???",
+                    "text": "#You're {NICKNAME} and Paimon, right? I thought you two looked familiar. People have been talking all about you."
+                },
+                {
+                    "id": "130092103",
+                    "speaker": "???",
+                    "text": "It's a pleasure to meet you. Do you have a moment? There's something I'd like to discuss with you.",
+                    "choices": [
+                        {
+                            "id": "130092104",
+                            "text": "Umm, who are you?",
+                            "response": [
+                                {
+                                    "id": "130092106",
+                                    "speaker": "Nabil",
+                                    "text": "My name is Nabil. I'm a matra in the Akademiya. You're friends with Cyno, right? I've heard him mention you before."
+                                },
+                                {
+                                    "id": "130092107",
+                                    "speaker": "Nabil",
+                                    "text": "Currently, Cyno is out investigating a case involving smuggled Canned Knowledge. It's been days since we've last heard from him."
+                                },
+                                {
+                                    "id": "130092108",
+                                    "speaker": "Paimon",
+                                    "text": "Oh no, do you think he's in trouble?"
+                                },
+                                {
+                                    "id": "130092109",
+                                    "speaker": "Nabil",
+                                    "text": "Uh, well... To be completely honest, it's pretty hard to imagine anything that could pose a threat to Cyno. But since we haven't heard from him, we're starting to suspect that the case might be more complicated than we had originally thought."
+                                },
+                                {
+                                    "id": "130092110",
+                                    "speaker": "Nabil",
+                                    "text": "Word has it that you two are brave, smart, and extremely capable adventurers. Do you think you could lend us a hand and help investigate the smuggling?"
+                                },
+                                {
+                                    "id": "130092111",
+                                    "speaker": "Paimon",
+                                    "text": "Alright, since you put it that way, we'll help!"
+                                },
+                                {
+                                    "id": "130092112",
+                                    "speaker": "Player",
+                                    "text": "Do you have any further intel regarding this case?"
+                                },
+                                {
+                                    "id": "130092113",
+                                    "speaker": "Nabil",
+                                    "text": "Large amounts of Canned Knowledge from unknown origins have been appearing on the market recently. Cyno suspected that there's a secret route being used to move the capsules."
+                                },
+                                {
+                                    "id": "130092114",
+                                    "speaker": "Nabil",
+                                    "text": "According to some research, using large amounts of Canned Knowledge could lead to some serious consequences, and unfortunately, most people have yet to realize that."
+                                },
+                                {
+                                    "id": "130092115",
+                                    "speaker": "Nabil",
+                                    "text": "Rumors also have it that some particularly dangerous Canned Knowledge has made its way into the market. Regardless of whether the rumors are true or not, this case calls for urgent action."
+                                },
+                                {
+                                    "id": "130092116",
+                                    "speaker": "Nabil",
+                                    "text": "Last we heard from Cyno, he was investigating somewhere outside Sumeru City. It seems that he had found some leads at the time, but we haven't heard from him since."
+                                },
+                                {
+                                    "id": "130092117",
+                                    "speaker": "Paimon",
+                                    "text": "Sounds like we'd better go look for him. C'mon!"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "130092105",
+                            "text": "Have we met before?"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "1300922",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "130092201",
+                    "speaker": "Paimon",
+                    "text": "Cyno, there you are! We finally found you!"
+                },
+                {
+                    "id": "130092202",
+                    "speaker": "Cyno",
+                    "text": "Ah, it's you two. I knew I sensed a familiar presence."
+                },
+                {
+                    "id": "130092203",
+                    "speaker": "Cyno",
+                    "text": "But I'm very busy at the moment. We'll have to chat some other time."
+                },
+                {
+                    "id": "130092204",
+                    "speaker": "Player",
+                    "text": "We heard about the case of smuggled Canned Knowledge."
+                },
+                {
+                    "id": "130092205",
+                    "speaker": "Paimon",
+                    "text": "That's right! Nabil asked us to come check on the situation."
+                },
+                {
+                    "id": "130092206",
+                    "speaker": "Cyno",
+                    "text": "So Nabil told you about this? Hmm, divulging my location without authorization... I'll let it slide for now — this isn't the time for that."
+                },
+                {
+                    "id": "130092207",
+                    "speaker": "Cyno",
+                    "text": "The situation might be more problematic than you anticipated. I've already questioned several people, but gained very little information."
+                },
+                {
+                    "id": "130092208",
+                    "speaker": "Cyno",
+                    "text": "Long story short, I was able to learn of the secret location where the Canned Knowledge is being sold. You're welcome to accompany me if you're interested."
+                },
+                {
+                    "id": "130092209",
+                    "speaker": "Paimon",
+                    "text": "Whoa, sounds pretty complicated. But having a chance to catch bad guys with Cyno, it's like we're a part of the matra!"
+                },
+                {
+                    "id": "130092210",
+                    "speaker": "Paimon",
+                    "text": "Alright, sign us up!"
+                }
+            ]
+        },
+        {
+            "id": "1300923",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "130092301",
+                    "speaker": "Dori",
+                    "text": "I'm sure the General Mahamatra of the Akademiya would never leave any debt unpaid, and I can only imagine the funds he's allocated for investigations... Oh, maybe I should charge him more!"
+                }
+            ]
+        }
+    ]
+}

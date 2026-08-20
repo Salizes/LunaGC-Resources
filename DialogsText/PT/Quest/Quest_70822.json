@@ -1,0 +1,911 @@
+{
+    "quest": {
+        "id": "70822",
+        "title": "Um Dia Tranquilo no Porto de Liyue",
+        "description": "O An Nervoso, ocupado no porto, está procurando alguém para ajudar a aliviar os nervos dos hóspedes de outras nações...",
+        "rewards": [
+            {
+                "itemId": 102,
+                "count": 100
+            },
+            {
+                "itemId": 202,
+                "count": 50000
+            },
+            {
+                "itemId": 104003,
+                "count": 5
+            }
+        ],
+        "rewards_formatted": "EXP de Aventura x100, Mora x50000, EXP do Herói x5",
+        "chapter": {
+            "icon": "",
+            "id": "",
+            "num": "",
+            "title": ""
+        },
+        "total_dialogue_lines": 140,
+        "total_speaker_counts": {
+            "An Nervoso": 12,
+            "Atsuko": 35,
+            "Bolai": 6,
+            "Escriturária Zhao": 13,
+            "Freki": 22,
+            "Gerente Kuan": 5,
+            "Geri": 9,
+            "Ivanovich": 14,
+            "Player": 24
+        }
+    },
+    "talks": [
+        {
+            "id": "7082202",
+            "objective": "Acalme Freki e seu irmão",
+            "dialogues": [
+                {
+                    "id": "708220201",
+                    "speaker": "Geri",
+                    "text": "Irmã, deveríamos apenas voltar para Mondstadt."
+                },
+                {
+                    "id": "708220202",
+                    "speaker": "Freki",
+                    "text": "Ah, vamos lá, apenas não coma Chop Suey de Zhongyuan na próxima vez."
+                },
+                {
+                    "id": "708220203",
+                    "speaker": "Geri",
+                    "text": "Não, eu não estava falando sobre isso... Digo, talvez eu estivesse, um pouco..."
+                },
+                {
+                    "id": "708220204",
+                    "speaker": "Geri",
+                    "text": "Mas o motivo principal é o que aconteceu no Ritual de Descensão. Basta pensar nisso, mana, aquilo foi como uma daquelas grandes cerimônias que a igreja realiza em honra do Senhor Barbatos."
+                },
+                {
+                    "id": "708220205",
+                    "speaker": "Geri",
+                    "text": "Mas se algo assim pode acontecer durante tal cerimônia, em nenhum lugar de Liyue é seguro! Deveríamos voltar para Mondstadt imediatamente!",
+                    "choices": [
+                        {
+                            "id": "708220206",
+                            "text": "Liyue é bem seguro.",
+                            "response": [
+                                {
+                                    "id": "708220207",
+                                    "speaker": "Freki",
+                                    "text": "#Viu só, Geri? Eu não sou a única dizendo isso. El{M#e}{F#a} também acha que-"
+                                },
+                                {
+                                    "id": "708220208",
+                                    "speaker": "Freki",
+                                    "text": "#Que? Você é... {M#O}{F#A} Cavaleir{M#o}{F#a} Honorável! Eu ouvi falar sobre você, você derrotou o Stormterror!"
+                                },
+                                {
+                                    "id": "708220209",
+                                    "speaker": "Freki",
+                                    "text": "#Viu Geri? Escute {M#O}{F#A} Cavaleir{M#o}{F#a} Honorável. Liyue é um lugar seguro, então vamos continuar nossa procura por comida gourmet em paz!"
+                                },
+                                {
+                                    "id": "708220215",
+                                    "speaker": "Geri",
+                                    "text": "Ainda assim, e se Liyue estiver cheio destes... Assustadores pratos, como Chop Suey de Zhongyuan?"
+                                },
+                                {
+                                    "id": "708220216",
+                                    "speaker": "Freki",
+                                    "text": "Vamos lá, Liyue está cheio de cozinhas diversificadas. Você apenas não achou uma que agrade seu paladar ainda."
+                                },
+                                {
+                                    "id": "708220217",
+                                    "speaker": "Freki",
+                                    "text": "Eu tenho certeza de que aquilo que chamam de Porção de Jade vai ser mais sua cara. Vamos experimentar essa depois."
+                                },
+                                {
+                                    "id": "708220218",
+                                    "speaker": "Geri",
+                                    "text": "Mas com Liyue em tal estado, onde acharemos alguém que faça este prato para nós?",
+                                    "choices": [
+                                        {
+                                            "id": "708220219",
+                                            "text": "Deixe comigo.",
+                                            "response": [
+                                                {
+                                                    "id": "708220220",
+                                                    "speaker": "Freki",
+                                                    "text": "#Sério? Uau, nunca imaginei que {M#o}{F#a} Cavaleir{M#o}{F#a} Honorável era uma pessoa de tantos talentos. Estaremos contando com você, então!"
+                                                },
+                                                {
+                                                    "id": "708220221",
+                                                    "speaker": "Freki",
+                                                    "text": "Vamos lá, Geri, anime-se. Nossa jornada gourmet não acaba aqui."
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "708220222",
+                                            "text": "Eu posso ajudar a procurar alguém...",
+                                            "response": [
+                                                {
+                                                    "id": "708220223",
+                                                    "speaker": "Freki",
+                                                    "text": "Você vai? Isso é ótimo! Quero dizer, você conseguiu resolver um ataque de dragão. Acho que um simples prato não te trará nenhum problema."
+                                                },
+                                                {
+                                                    "id": "708220224",
+                                                    "speaker": "Freki",
+                                                    "text": "#Se controle, Geri. Até mesmo {M#o}{F#a} Cavaleir{M#o}{F#a} Honorável veio para nos ajudar. Não há como nossa jornada gourmet acabar aqui!"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "708220210",
+                            "text": "Não é como se Mondstadt fosse tão seguro, também...",
+                            "response": [
+                                {
+                                    "id": "708220211",
+                                    "speaker": "Freki",
+                                    "text": "Exatamente, Geri! Mondstadt foi atacado por um dragão, também. E ainda assim, ele não foi lidado pelos Cavaleiros de Favonius no fim das contas?"
+                                },
+                                {
+                                    "id": "708220212",
+                                    "speaker": "Freki",
+                                    "text": "#Então vamos... Espera aí. Você não é aquel{M#e}{F#a} Cavaleir{M#o}{F#a} Honorável, é? Aquel{M#e}{F#a} que se juntou com os Cavaleiros para derrotar o Stormterror?"
+                                },
+                                {
+                                    "id": "708220213",
+                                    "speaker": "Freki",
+                                    "text": "#Você vê, Geri, até mesmo {M#o}{F#a} Cavaleir{M#o}{F#a} Honorável está indo para Liyue. Nós estamos bem, não tem nada para se preocupar."
+                                },
+                                {
+                                    "id": "708220214",
+                                    "speaker": "Freki",
+                                    "text": "Além disso, nossa jornada gourmet acabou de começar. Não podemos simplesmente parar aqui."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "7082203",
+            "objective": "Cozinhe uma Deliciosa Porção de Jade",
+            "dialogues": [
+                {
+                    "id": "708220301",
+                    "speaker": "Freki",
+                    "text": "Então, você conseguiu achar as Porções de Jade?"
+                },
+                {
+                    "id": "708220302",
+                    "speaker": "Player",
+                    "text": "Aqui está."
+                },
+                {
+                    "id": "708220303",
+                    "speaker": "Freki",
+                    "text": "Uau, isso... Veja só, Geri. Este definitivamente é para nosso gosto."
+                },
+                {
+                    "id": "708220304",
+                    "speaker": "Geri",
+                    "text": "Sério? Bem, eu posso tentar... Ooh. Esse aroma, é realmente bom..."
+                },
+                {
+                    "id": "708220305",
+                    "speaker": "Freki",
+                    "text": "Hahaha, parece que o Geri entrou totalmente em transe pelo prato."
+                },
+                {
+                    "id": "708220306",
+                    "speaker": "Freki",
+                    "text": "#Bem, acho que este é o fim dele querer voltar para Mondstadt. Obrigada, Cavaleir{M#o}{F#a} Honorável. Parece que nossa viagem vai continuar, no fim das contas."
+                }
+            ]
+        },
+        {
+            "id": "7082204",
+            "objective": "Informe à Freki e seu irmão",
+            "dialogues": []
+        },
+        {
+            "id": "7082205",
+            "objective": "Acalme Ivanovich",
+            "dialogues": [
+                {
+                    "id": "708220401",
+                    "speaker": "Ivanovich",
+                    "text": "Hmm, talvez eu devesse pensar em alguma outra forma..."
+                },
+                {
+                    "id": "708220402",
+                    "speaker": "Player",
+                    "text": "Está tudo bem?"
+                },
+                {
+                    "id": "708220403",
+                    "speaker": "Ivanovich",
+                    "text": "Eu? Hmm... Você deve estar falando sobre os recentes eventos aqui no Porto de Liyue. Bem, eu não tenho uma opinião sobre o assunto, na verdade."
+                },
+                {
+                    "id": "708220404",
+                    "speaker": "Ivanovich",
+                    "text": "Dito isto, as pessoas que têm me fornecido produtos dos habitantes de Snezhnaya e que ocasionalmente compram Cor Lapis de mim, estão muito inquietas."
+                },
+                {
+                    "id": "708220405",
+                    "speaker": "Ivanovich",
+                    "text": "Eu lhes disse que não deveria haver problemas aqui em Liyue, mas eles disseram que só voltariam em alguns meses e que esperariam para ver como as coisas andam por enquanto."
+                },
+                {
+                    "id": "708220406",
+                    "speaker": "Ivanovich",
+                    "text": "Felizmente, eu já havia comprado vários lotes novos de mercadorias, portanto, posso durar bastante tempo. Também estou aproveitando a oportunidade para estocar alguns Cor Lapis."
+                },
+                {
+                    "id": "708220407",
+                    "speaker": "Ivanovich",
+                    "text": "Eu ainda preciso ficar na loja aqui, então você poderia me ajudar a perguntar ao Sr. Bolai se ele tem algum Cor Lapis que eu possa tirar das mãos dele?",
+                    "choices": [
+                        {
+                            "id": "708220408",
+                            "text": "Entendi.",
+                            "response": [
+                                {
+                                    "id": "708220409",
+                                    "speaker": "Ivanovich",
+                                    "text": "Muito obrigado."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "708220410",
+                            "text": "Você está bem calmo, não está?",
+                            "response": [
+                                {
+                                    "id": "708220411",
+                                    "speaker": "Ivanovich",
+                                    "text": "Da forma que vejo, não é nada tão sério. A rotina de Liyue nem sequer mudou, então não vejo motivo para pânico."
+                                },
+                                {
+                                    "id": "708220412",
+                                    "speaker": "Ivanovich",
+                                    "text": "Se você quiser pensar de outra forma, se eu ficar calmo enquanto todos entram em pânico, não acha que estou em vantagem?"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "7082206",
+            "objective": "Fale com Bolai",
+            "dialogues": [
+                {
+                    "id": "708220501",
+                    "speaker": "Bolai",
+                    "text": "Você... Você tem certeza de que este é realmente o momento de falar sobre negócios comigo?"
+                },
+                {
+                    "id": "708220502",
+                    "speaker": "Player",
+                    "text": "É sobre Ivanovich..."
+                },
+                {
+                    "id": "708220503",
+                    "speaker": "Bolai",
+                    "text": "Oh, você quer dizer aquele forasteiro que faz negócios perto da boca do porto. Ele ainda quer meu Cor Lapis?"
+                },
+                {
+                    "id": "708220504",
+                    "speaker": "Bolai",
+                    "text": "Certo. Afinal, cavalo dado não se olha os dentes."
+                },
+                {
+                    "id": "708220505",
+                    "speaker": "Bolai",
+                    "text": "Acontece também que eu tenho um lote de Cor Lapis comigo. Eu tinha originalmente preparado para outro cliente, mas eles o recusaram por enquanto, dizendo que Liyue não tem estado seguro ultimamente."
+                },
+                {
+                    "id": "708220506",
+                    "speaker": "Bolai",
+                    "text": "Se aquele sujeito quiser comprar, então eu ficarei feliz em vender. Vá dizer a ele que eu vou ficar aqui e preparar a mercadoria primeiro."
+                }
+            ]
+        },
+        {
+            "id": "7082207",
+            "objective": "Informe a Ivanovich",
+            "dialogues": [
+                {
+                    "id": "708220601",
+                    "speaker": "Ivanovich",
+                    "text": "Então, qual foi a resposta do Sr. Bolai?"
+                },
+                {
+                    "id": "708220602",
+                    "speaker": "Player",
+                    "text": "Ele disse que irá deixar as mercadorias preparadas."
+                },
+                {
+                    "id": "708220603",
+                    "speaker": "Ivanovich",
+                    "text": "Ah, isso é ótimo, então. Ele é um homem de negócios em que posso confiar."
+                },
+                {
+                    "id": "708220604",
+                    "speaker": "Ivanovich",
+                    "text": "Quando meus camaradas comerciantes covardes voltarem ao Porto de Liyue, será hora de fazer muito dinheiro."
+                }
+            ]
+        },
+        {
+            "id": "7082208",
+            "objective": "Acalme Atsuko",
+            "dialogues": [
+                {
+                    "id": "708220701",
+                    "speaker": "Atsuko",
+                    "text": "Ah, o que vou fazer..."
+                },
+                {
+                    "id": "708220702",
+                    "speaker": "Atsuko",
+                    "text": "Prazer em conhecê-lo! Ah, digo, olá... Certo?"
+                },
+                {
+                    "id": "708220703",
+                    "speaker": "Atsuko",
+                    "text": "Eu ainda não estou muito familiarizada com as saudações locais. Liyue é realmente completamente diferente de Inazuma.",
+                    "choices": [
+                        {
+                            "id": "708220704",
+                            "text": "Você é de Inazuma?",
+                            "response": [
+                                {
+                                    "id": "708220705",
+                                    "speaker": "Atsuko",
+                                    "text": "Sim. Eu experienciei um grande número de desafios no processo de vir até aqui."
+                                },
+                                {
+                                    "id": "708220707",
+                                    "speaker": "Atsuko",
+                                    "text": "Bem, eu sempre quis ver o mundo, mas a atmosfera da minha cidade natal é bem... Como posso dizer? Tensa? Perigosa?"
+                                },
+                                {
+                                    "id": "708220708",
+                                    "speaker": "Atsuko",
+                                    "text": "Até mesmo tentar sair das fronteiras de Inazuma foi muito difícil, imagine tentar viajar pelo mundo. Uma pessoa normal nunca conseguiria sequer passar das muitas avaliações que o Kanjobugyo faz."
+                                },
+                                {
+                                    "id": "708220709",
+                                    "speaker": "Atsuko",
+                                    "text": "Então eu fiz minha própria jangada, e me esgueirei até Liyue."
+                                },
+                                {
+                                    "id": "708220710",
+                                    "speaker": "Atsuko",
+                                    "text": "Originalmente pretendia encontrar trabalho aqui no cais como marinheira, mas... Não tenho ideia de por onde começar a procurar esse trabalho."
+                                },
+                                {
+                                    "id": "708220711",
+                                    "speaker": "Atsuko",
+                                    "text": "Além disso, algo deve ter acontecido em Liyue, porque tudo ficou muito tenso de repente."
+                                },
+                                {
+                                    "id": "708220712",
+                                    "speaker": "Atsuko",
+                                    "text": "Eu não imagino que tenha qualquer lugar que esteja disposto a dar um trabalho para uma forasteira como eu, será...?",
+                                    "choices": [
+                                        {
+                                            "id": "708220713",
+                                            "text": "O que você é boa em fazer?",
+                                            "response": [
+                                                {
+                                                    "id": "708220714",
+                                                    "speaker": "Atsuko",
+                                                    "text": "Em minha cidade natal, eu sempre ajudei na loja da minha família."
+                                                },
+                                                {
+                                                    "id": "708220715",
+                                                    "speaker": "Atsuko",
+                                                    "text": "Eu definitivamente diria que sou boa na entrega de mercadorias. Mas o que eu sempre quis ser é uma marinheira..."
+                                                },
+                                                {
+                                                    "id": "708220720",
+                                                    "speaker": "Atsuko",
+                                                    "text": "Que? Você quer me ajudar a encontrar trabalho? Obrigada, isso seria muito gentil! Ah, existem algumas pessoas tão gentis em Liyue..."
+                                                },
+                                                {
+                                                    "id": "708220721",
+                                                    "speaker": "Atsuko",
+                                                    "text": "Ah sim. Fiz algumas preparações para procurar trabalho mais cedo, perguntando por aí."
+                                                },
+                                                {
+                                                    "id": "708220722",
+                                                    "speaker": "Atsuko",
+                                                    "text": "Essas pessoas disseram que se eu quisesse achar um trabalho confiável, eu poderia apenas ir e encontrar... Espera aí, tenho certeza de que escrevi aqui..."
+                                                },
+                                                {
+                                                    "id": "708220723",
+                                                    "speaker": "Atsuko",
+                                                    "text": "Ah, aqui está. Err... Eu posso ir procurar pelo Gerente Kuan, a Escriturária Zhao e o An Nervoso"
+                                                },
+                                                {
+                                                    "id": "708220724",
+                                                    "speaker": "Atsuko",
+                                                    "text": "Mas apesar de ter escrito, eu não faço ideia da forma de como os habitantes interagem, então eu não me atrevi a perguntar-lhes."
+                                                },
+                                                {
+                                                    "id": "708220725",
+                                                    "speaker": "Atsuko",
+                                                    "text": "#Se você estiver dispost{M#o}{F#a}, por favor, me ajude a perguntar a eles. Espero que um deles esteja disposto a me contratar.",
+                                                    "choices": [
+                                                        {
+                                                            "id": "708220726",
+                                                            "text": "Deixe comigo.",
+                                                            "response": [
+                                                                {
+                                                                    "id": "708220727",
+                                                                    "speaker": "Atsuko",
+                                                                    "text": "Obrigada."
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "id": "708220728",
+                                                            "text": "Talvez não tenha uma vaga para marinheiras...",
+                                                            "response": [
+                                                                {
+                                                                    "id": "708220729",
+                                                                    "speaker": "Atsuko",
+                                                                    "text": "Está tudo bem. Eu não estava esperando virar uma marinheira logo ao chegar em Liyue, de qualquer forma, vamos devagar."
+                                                                },
+                                                                {
+                                                                    "id": "708220730",
+                                                                    "speaker": "Atsuko",
+                                                                    "text": "Eu sei que posso contar com você!"
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "708220716",
+                                            "text": "O que você gostaria de fazer?",
+                                            "response": [
+                                                {
+                                                    "id": "708220717",
+                                                    "speaker": "Atsuko",
+                                                    "text": "Bem, eu gostaria de ser uma marinheira, é obvio! Mas eu não imagino que poderia começar como um..."
+                                                },
+                                                {
+                                                    "id": "708220718",
+                                                    "speaker": "Atsuko",
+                                                    "text": "Eu estarei satisfeita só em conseguir um trabalho."
+                                                },
+                                                {
+                                                    "id": "708220719",
+                                                    "speaker": "Atsuko",
+                                                    "text": "Mas não me subestime, entendeu? Em minha cidade natal, eu sempre ajudei na loja da minha família. Eu sou muito boa em entregar mercadoria."
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "708220706",
+                            "text": "Então, por que você veio para Liyue?"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "7082212",
+            "objective": "Fale com o Gerente Kuan, a Escriturária Zhao e o An Nervoso",
+            "dialogues": [
+                {
+                    "id": "708221401",
+                    "speaker": "Gerente Kuan",
+                    "text": "*Suspiro* Por que eu não recebi nenhuma notícia ainda...?"
+                },
+                {
+                    "id": "708221402",
+                    "speaker": "Player",
+                    "text": "Me conte sobre o seu trabalho..."
+                },
+                {
+                    "id": "708221403",
+                    "speaker": "Gerente Kuan",
+                    "text": "Encontrar trabalho? Você está latindo na árvore errada. O Ministério dos Assuntos Civis selou o Despenhadeiro. O trabalho na Forja do Penhasco Obscuro também foi interrompido."
+                },
+                {
+                    "id": "708221404",
+                    "speaker": "Gerente Kuan",
+                    "text": "Já temos muitas pessoas sentadas em suas mãos na forja, que só podem fazer alguns bicos aqui e ali para pagar as contas. Receio que não estamos contratando neste momento."
+                },
+                {
+                    "id": "708221405",
+                    "speaker": "Gerente Kuan",
+                    "text": "Hunf. O que o Ministério fará, se centenas de pessoas como eu for as ruas procurando emprego..."
+                }
+            ]
+        },
+        {
+            "id": "7082213",
+            "objective": "Fale com o Gerente Kuan, a Escriturária Zhao e o An Nervoso",
+            "dialogues": [
+                {
+                    "id": "708221501",
+                    "speaker": "An Nervoso",
+                    "text": "Você voltou. Como foram as coisas?"
+                },
+                {
+                    "id": "708221502",
+                    "speaker": "Player",
+                    "text": "Você conhece Atsuko?"
+                },
+                {
+                    "id": "708221503",
+                    "speaker": "An Nervoso",
+                    "text": "Ah, acredito que você está se referindo àquela moça de Inazuma que tem procurado emprego. Eu lembro dela."
+                },
+                {
+                    "id": "708221504",
+                    "speaker": "An Nervoso",
+                    "text": "Infelizmente, eu não acho que tenho nenhum trabalho adequado para ela. Como você já viu, meus dados e formulários requerem mãos mais experientes."
+                },
+                {
+                    "id": "708221505",
+                    "speaker": "An Nervoso",
+                    "text": "Mesmo que o Ministério dos Assuntos Civis transferisse alguns funcionários para nós, eles ainda precisariam de algum treinamento para poder fazer bem o trabalho. Eles simplesmente nos atrapalhariam, caso contrário."
+                },
+                {
+                    "id": "708221506",
+                    "speaker": "An Nervoso",
+                    "text": "É especialmente difícil de encontrar novas contratações em um momento como este, por isso peço desculpas, mas não tenho trabalho para aquela jovem no momento."
+                }
+            ]
+        },
+        {
+            "id": "7082209",
+            "objective": "Fale com o Gerente Kuan, a Escriturária Zhao e o An Nervoso",
+            "dialogues": [
+                {
+                    "id": "708220801",
+                    "speaker": "Escriturária Zhao",
+                    "text": "Este aqui não conta... Nem este aqui... E este aqui pediu um adiamento..."
+                },
+                {
+                    "id": "708220802",
+                    "speaker": "Escriturária Zhao",
+                    "text": "Será que eu mesma tenho que ir atrás deles antes que estes formulários sejam preenchidos!?"
+                },
+                {
+                    "id": "708220803",
+                    "speaker": "Player",
+                    "text": "Algo errado?"
+                },
+                {
+                    "id": "708220804",
+                    "speaker": "Escriturária Zhao",
+                    "text": "Não muita coisa. É apenas uma pilha gigantesca de formulários que ninguém se encarrega deles no momento. Se eu mesma não os colocar em algumas mesas, todos só pedem por adiamentos."
+                },
+                {
+                    "id": "708220805",
+                    "speaker": "Escriturária Zhao",
+                    "text": "Há tantas outras coisas que preciso fazer agora mesmo, com a situação em Liyue e tudo mais. Como devo tirar o tempo necessário para apressar essas pessoas?"
+                },
+                {
+                    "id": "708220806",
+                    "speaker": "Escriturária Zhao",
+                    "text": "O Ministério dos Assuntos Civis também não pode disponibilizar nenhuma pessoa, então estes formulários estão apenas se empilhando e se transformando em uma dor de cabeça."
+                },
+                {
+                    "id": "708220807",
+                    "speaker": "Player",
+                    "text": "Para fazer estes formulários precisa de alguma habilidade em especial?"
+                },
+                {
+                    "id": "708220808",
+                    "speaker": "Escriturária Zhao",
+                    "text": "Habilidades especiais? Não, na verdade, não. Eu já escrevi os detalhes do pedido e seus prazos. Eu só preciso de alguém para entregar estes formulários para as pessoas correspondentes."
+                },
+                {
+                    "id": "708220809",
+                    "speaker": "Escriturária Zhao",
+                    "text": "Se os formulários chegam e essas pessoas ainda não querem resolvê-los ou pedirem um adiamento, isso faz com que nosso trabalho não seja concluído a tempo..."
+                },
+                {
+                    "id": "708220810",
+                    "speaker": "Escriturária Zhao",
+                    "text": "Hunf. Eles podem se explicar ao Ministério dos Assuntos Civis depois."
+                },
+                {
+                    "id": "708220811",
+                    "speaker": "Escriturária Zhao",
+                    "text": "Então, você quer ajudar? Ou você conhece alguém que possa? Estou aceitando qualquer um deles.",
+                    "choices": [
+                        {
+                            "id": "708220812",
+                            "text": "Eu conheço uma amiga que pode ajudar.",
+                            "response": [
+                                {
+                                    "id": "708220813",
+                                    "speaker": "Escriturária Zhao",
+                                    "text": "Isso é ótimo! Peça a ela para vir aqui e falar comigo. O quanto antes isso for resolvido, melhor."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "708220814",
+                            "text": "Alguém de Inazuma serviria?",
+                            "response": [
+                                {
+                                    "id": "708220815",
+                                    "speaker": "Escriturária Zhao",
+                                    "text": "Rapidez e responsabilidade. Isso é tudo que peço."
+                                },
+                                {
+                                    "id": "708220816",
+                                    "speaker": "Escriturária Zhao",
+                                    "text": "A seu amiga está disposta a ajudar? Ótimo. Peça a ela para vir aqui imediatamente. O quanto antes estes formulários forem resolvidos, melhor."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "7082210",
+            "objective": "Informe à Atsuko",
+            "dialogues": [
+                {
+                    "id": "708220901",
+                    "speaker": "Atsuko",
+                    "text": "Então, o que eles responderam?"
+                },
+                {
+                    "id": "708220902",
+                    "speaker": "Player",
+                    "text": "A Escriturária Zhao tem trabalho para você..."
+                },
+                {
+                    "id": "708220903",
+                    "speaker": "Atsuko",
+                    "text": "Isso é ótimo! O que é que eu tenho que fazer exatamente? ... Pressionar pessoas por formulários... Eu nunca ouvi falar de um trabalho assim."
+                },
+                {
+                    "id": "708220904",
+                    "speaker": "Atsuko",
+                    "text": "Liyue realmente é um lugar totalmente diferente de Inazuma."
+                },
+                {
+                    "id": "708220905",
+                    "speaker": "Atsuko",
+                    "text": "Mas darei o meu melhor, independentemente de qual trabalho seja!"
+                },
+                {
+                    "id": "708220906",
+                    "speaker": "Atsuko",
+                    "text": "Muito obrigada. Farei algumas preparações primeiro, então irei diretamente ao trabalho."
+                },
+                {
+                    "id": "708220907",
+                    "speaker": "Atsuko",
+                    "text": "Com isso, poderei finalmente dar um passo à frente em escrever uma nova vida para mim mesmo."
+                }
+            ]
+        },
+        {
+            "id": "7082211",
+            "objective": "Informe ao An Nervoso",
+            "dialogues": [
+                {
+                    "id": "708221001",
+                    "speaker": "An Nervoso",
+                    "text": "Como estão as coisas? Você terminou de resolver seus assuntos?"
+                },
+                {
+                    "id": "708221002",
+                    "speaker": "Player",
+                    "text": "Tudo feito."
+                },
+                {
+                    "id": "708221003",
+                    "speaker": "An Nervoso",
+                    "text": "Obrigado. Agora, deixe o resto comigo. Além do nosso trabalho com forasteiros, o Ministério dos Assuntos Civis também está acalmando a população local exatamente agora enquanto conversamos."
+                },
+                {
+                    "id": "708221004",
+                    "speaker": "An Nervoso",
+                    "text": "Não sei o quão bem estamos fazendo, mas acredito que em momentos como estes, devemos dar tudo de nós."
+                },
+                {
+                    "id": "708221005",
+                    "speaker": "An Nervoso",
+                    "text": "Aceite isto como agradecimento pelo seu trabalho. Você também é um convidado distante, mas você apareceu em um momento realmente infeliz..."
+                },
+                {
+                    "id": "708221006",
+                    "speaker": "An Nervoso",
+                    "text": "Eu só espero que isso tudo acabe logo..."
+                }
+            ]
+        },
+        {
+            "id": "7082213",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "708221301",
+                    "speaker": "Freki",
+                    "text": "Parece que Chop Suey de Zhongyuan não é muito a cara do Geri."
+                },
+                {
+                    "id": "708221302",
+                    "speaker": "Freki",
+                    "text": "Quero dizer, ele acha ainda mais aterrorizante que o acidente ocorrido durante o Ritual de Descensão. *Risadinha*"
+                },
+                {
+                    "id": "708221303",
+                    "speaker": "Freki",
+                    "text": "Esperemos que essas Porções de Jade possam restaurar sua fé na cozinha gourmet de Liyue."
+                }
+            ]
+        },
+        {
+            "id": "7082216",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "708221601",
+                    "speaker": "Geri",
+                    "text": "Ainda acho que deveríamos voltar para Mondstadt. *Suspiro* Eu até estaria feliz com uma Salada Saudável agora mesmo."
+                }
+            ]
+        },
+        {
+            "id": "7082217",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "708221701",
+                    "speaker": "Bolai",
+                    "text": "Hunf. Nos negócios, quem ousa, vence!"
+                }
+            ]
+        },
+        {
+            "id": "7082218",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "708221801",
+                    "speaker": "Ivanovich",
+                    "text": "Aquele que recua tão facilmente do risco, não pode fazer negócios."
+                }
+            ]
+        },
+        {
+            "id": "7082219",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "708221901",
+                    "speaker": "Atsuko",
+                    "text": "Realmente, Liyue é uma cidade muito movimentada. Quero dizer, Inazuma também..."
+                },
+                {
+                    "id": "708221902",
+                    "speaker": "Atsuko",
+                    "text": "Mas a sensação que as duas cidades dão em sua \"agitação\" diária é completamente diferente."
+                },
+                {
+                    "id": "708221903",
+                    "speaker": "Atsuko",
+                    "text": "Eu não conseguiria dizer de uma forma que você entenderia, mas você verá o que quero dizer, caso tenha a oportunidade de ir a Inazuma."
+                },
+                {
+                    "id": "708221904",
+                    "speaker": "Atsuko",
+                    "text": "Dito isto... Eu diria que é melhor que você não vá a Inazuma. Não quero falar mal de minha cidade natal, mas Inazuma não é um lugar muito adequado para se viajar no momento."
+                }
+            ]
+        },
+        {
+            "id": "7082220",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "708222001",
+                    "speaker": "Geri",
+                    "text": "... Este prato é realmente ótimo. Liyue é tão estranho - por um lado, você tem pratos assustadores como aquele Chop Suey de Zhongyuan, e por outro, há sabores maravilhosos como este..."
+                },
+                {
+                    "id": "708222002",
+                    "speaker": "Freki",
+                    "text": "Como que isso é estranho? Eu não disse que Liyue tem muitos pratos famosos? Ainda não chegamos nem perto de degustar todos eles!"
+                }
+            ]
+        },
+        {
+            "id": "7082223",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "708222301",
+                    "speaker": "Ivanovich",
+                    "text": "Quem sabe quanto tempo estas mercadorias durarão. Ora, esses covardes. Como eles poderiam ter deixado escapar tal oportunidade de negócio por entre nossos dedos..."
+                }
+            ]
+        },
+        {
+            "id": "7082224",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "708222401",
+                    "speaker": "An Nervoso",
+                    "text": "Tudo está acontecendo de uma vez. Que bagunça..."
+                }
+            ]
+        },
+        {
+            "id": "7082225",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "708222501",
+                    "speaker": "An Nervoso",
+                    "text": "*Suspiro* Quando que as coisas vão voltar ao normal...?"
+                }
+            ]
+        },
+        {
+            "id": "7082226",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "708222601",
+                    "speaker": "Escriturária Zhao",
+                    "text": "Precisamos resolver todos esses problemas o mais rápido possível..."
+                }
+            ]
+        },
+        {
+            "id": "7082227",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "708222701",
+                    "speaker": "Gerente Kuan",
+                    "text": "*Suspiro* Quando que poderemos voltar completamente ao nosso trabalho...?"
+                }
+            ]
+        },
+        {
+            "id": "7082228",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "708222801",
+                    "speaker": "Atsuko",
+                    "text": "Eu espero que alguém esteja disposto a me dar um trabalho..."
+                }
+            ]
+        }
+    ]
+}

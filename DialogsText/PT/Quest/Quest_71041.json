@@ -1,0 +1,418 @@
+{
+    "quest": {
+        "id": "71041",
+        "title": "Conhecendo Novas Pessoas... E Enganando Alguns Bandidos",
+        "description": "À medida que você explora os níveis inferiores do Despenhadeiro, você encontra os Ladrões de Tesouro. Se eles acham que você os deixará fazer o que quiserem aqui embaixo, eles estão muito enganados!",
+        "rewards": [
+            {
+                "itemId": 102,
+                "count": 200
+            },
+            {
+                "itemId": 201,
+                "count": 30
+            },
+            {
+                "itemId": 202,
+                "count": 20000
+            },
+            {
+                "itemId": 104003,
+                "count": 2
+            }
+        ],
+        "rewards_formatted": "EXP de Aventura x200, Gema Essencial x30, Mora x20000, EXP do Herói x2",
+        "chapter": {
+            "icon": "UI_ChapterIcon_Common",
+            "id": "10051",
+            "num": "",
+            "title": "Viagem ao Centro do Despenhadeiro"
+        },
+        "total_dialogue_lines": 65,
+        "total_speaker_counts": {
+            "Clitopho": 23,
+            "Paimon": 9,
+            "Player": 10,
+            "Zhiqiong": 23
+        }
+    },
+    "talks": [
+        {
+            "id": "7104103",
+            "objective": "Vá para o acampamento ocupado pelos Ladrões de Tesouro",
+            "dialogues": [
+                {
+                    "id": "710410301",
+                    "speaker": "Clitopho",
+                    "text": "O mecanismo de travamento ainda não enferrujou. Na verdade, parece que foi lubrificado. Parece que alguém fez a manutenção mesmo depois que a mina foi selada."
+                },
+                {
+                    "id": "710410302",
+                    "speaker": "Clitopho",
+                    "text": "A culatra também parece inteira... É só que o mecanismo de proteção está travado no momento."
+                },
+                {
+                    "id": "710410303",
+                    "speaker": "Paimon",
+                    "text": "Do que ele está falando?"
+                },
+                {
+                    "id": "710410304",
+                    "speaker": "Zhiqiong",
+                    "text": "Os túneis à frente foram selados com pedras grandes quando os mineradores foram evacuados... Parece que é aí que vamos precisar usar esse canhão novamente."
+                },
+                {
+                    "id": "710410305",
+                    "speaker": "Clitopho",
+                    "text": "Mas sem nenhuma bala, os canhões, por maiores que sejam, são inúteis. Precisamos encontrar munições primeiro."
+                },
+                {
+                    "id": "710410306",
+                    "speaker": "Zhiqiong",
+                    "text": "Hunf, não fale como se eu não soubesse disso, senhor sabe-tudo."
+                },
+                {
+                    "id": "710410307",
+                    "speaker": "Zhiqiong",
+                    "text": "Há um armazém nas proximidades que deve ter algumas bolas de canhão. Espero que os mineradores não tenham levado as bolas na retirada."
+                },
+                {
+                    "id": "710410308",
+                    "speaker": "Player",
+                    "text": "Então vamos agora!"
+                },
+                {
+                    "id": "710410309",
+                    "speaker": "Clitopho",
+                    "text": "Sim, vamos!"
+                }
+            ]
+        },
+        {
+            "id": "7104104",
+            "objective": "Elimine os Ladrões de Tesouro do acampamento de mineradores",
+            "dialogues": [
+                {
+                    "id": "710410401",
+                    "speaker": "Zhiqiong",
+                    "text": "Este deve ser o local *Cof*... Argh, o portão está trancado."
+                },
+                {
+                    "id": "710410402",
+                    "speaker": "Clitopho",
+                    "text": "Parece que vamos precisar usar duas chaves ao mesmo tempo para abrir o portão... Ah, vamos lá, por que vocês de Liyue são tão sérios com as coisas mais bobas?"
+                },
+                {
+                    "id": "710410403",
+                    "speaker": "Zhiqiong",
+                    "text": "Oh, chega de conversa fiada... Está vendo aquele aviso colado perto do portão? Isso significa que pelo menos encontraremos bolas de canhão lá dentro."
+                },
+                {
+                    "id": "710410404",
+                    "speaker": "Clitopho",
+                    "text": "Bem, isso é uma coisa, mas ainda não sabemos se os detonadores foram bem preservados ou não. Ainda não é hora de ficarmos aliviados."
+                },
+                {
+                    "id": "710410405",
+                    "speaker": "Zhiqiong",
+                    "text": "Oh, ótimo, esse cara daqui é um otimista. Já que você não faz nada, pelo menos feche o bico!"
+                },
+                {
+                    "id": "710410406",
+                    "speaker": "Zhiqiong",
+                    "text": "... Sério, o que estou fazendo, ouvindo um Ladrão de Tesouros duvidar de nós a torto e a direito?",
+                    "choices": [
+                        {
+                            "id": "710410407",
+                            "text": "Clitopho tem razão, na verdade.",
+                            "response": [
+                                {
+                                    "id": "710410409",
+                                    "speaker": "Paimon",
+                                    "text": "Pois é! Parem de brigar, vocês dois..."
+                                },
+                                {
+                                    "id": "710410410",
+                                    "speaker": "Zhiqiong",
+                                    "text": "Hunf, está bem. Vamos continuar, talvez Jinwu saiba como abrir esse portão."
+                                },
+                                {
+                                    "id": "710410411",
+                                    "speaker": "Zhiqiong",
+                                    "text": "Estaremos bem ocupados depois de abri-lo. Teremos que ativar um dispositivo de sinalização para abrir a culatra."
+                                },
+                                {
+                                    "id": "710410412",
+                                    "speaker": "Zhiqiong",
+                                    "text": "Jinwu disse que deve haver um ponto de observação para a equipe de demolição com vista para o canhão e que poderíamos ajustar o sinal de lá, nos permitindo desbloquear o canhão a uma distância segura."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "710410408",
+                            "text": "Enfim, precisamos arranjar uma maneira para abrir o portão primeiro."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "7104108",
+            "objective": "Salve a pessoa enjaulada pelos Ladrões de Tesouro",
+            "dialogues": []
+        },
+        {
+            "id": "7104107",
+            "objective": "Fale com Clitopho",
+            "dialogues": [
+                {
+                    "id": "710410101",
+                    "speaker": "Clitopho",
+                    "text": "Ufa! Obrigado por salvarem minha vida..."
+                },
+                {
+                    "id": "710410102",
+                    "speaker": "Zhiqiong",
+                    "text": "Espere um pouco... Eu me lembro de você! Você é Toclipho, aquele cara da mina!"
+                },
+                {
+                    "id": "710410103",
+                    "speaker": "Clitopho",
+                    "text": "Hã? O quê? Não! Não sou eu! Eu não vendo remédios falsos! Eu sou Clitopho sim, mas não o que se envolve na venda de farmacêuticos, senhorita!"
+                },
+                {
+                    "id": "710410104",
+                    "speaker": "Player",
+                    "text": "Hmm, então os remédios que você vende são falsos?!"
+                },
+                {
+                    "id": "710410105",
+                    "speaker": "Clitopho",
+                    "text": "Não, nem pensar! Os remédios que eu vendo são 100% verdadeiros! Você viu os mineradores, eles tomaram o remédio e se sentiram ótimos!"
+                },
+                {
+                    "id": "710410106",
+                    "speaker": "Zhiqiong",
+                    "text": "Mas você não disse que era o Clitopho que não vendia remédios?"
+                },
+                {
+                    "id": "710410107",
+                    "speaker": "Clitopho",
+                    "text": "Ah, sim... Isso foi após minha vida como comerciante de medicamentos acabar. E tudo acabou quando... Quando aquele Toclipho vendeu remédios sob uma identidade falsa!"
+                },
+                {
+                    "id": "710410108",
+                    "speaker": "Clitopho",
+                    "text": "Ele usou um nome falso para comercializar os remédios e arruinar minha reputação! É por isso que desisti de vender remédios!"
+                },
+                {
+                    "id": "710410109",
+                    "speaker": "Clitopho",
+                    "text": "Fui capturado por um bando de Ladrões de Tesouro, pouco tempo depois de ter trocado de carreira..."
+                },
+                {
+                    "id": "710410110",
+                    "speaker": "Zhiqiong",
+                    "text": "Mas sim, aquele charlatão é desprezível..."
+                },
+                {
+                    "id": "710410111",
+                    "speaker": "Paimon",
+                    "text": "Sim, ele é péssimo! Ele só queria enganar os que estavam no mesmo negócio que ele!"
+                },
+                {
+                    "id": "710410112",
+                    "speaker": "Player",
+                    "text": "Qual era o nome falso de \"Toclipho\" mesmo?"
+                },
+                {
+                    "id": "710410113",
+                    "speaker": "Clitopho",
+                    "text": "Clitopho!"
+                },
+                {
+                    "id": "710410114",
+                    "speaker": "Clitopho",
+                    "text": "Hã, não. Clitopho não é um nome falso, é um de verdade..."
+                },
+                {
+                    "id": "710410115",
+                    "speaker": "Paimon",
+                    "text": "Isso não quer dizer que o nome de \"Toclipho\" é falso?"
+                },
+                {
+                    "id": "710410116",
+                    "speaker": "Clitopho",
+                    "text": "Não... Espere, sim. Sim, ele usou meu nome indevidamente, por isso \"Clitopho\" também é um nome falso agora. Entenderam?"
+                },
+                {
+                    "id": "710410117",
+                    "speaker": "Paimon",
+                    "text": "Oh... Então foi assim que \"Toclipho\" se tornou um nome verdadeiro."
+                },
+                {
+                    "id": "710410118",
+                    "speaker": "Player",
+                    "text": "Que vergonha..."
+                },
+                {
+                    "id": "710410119",
+                    "speaker": "Clitopho",
+                    "text": "Por quê?"
+                },
+                {
+                    "id": "710410120",
+                    "speaker": "Zhiqiong",
+                    "text": "Você confessou sem sequer termos que nos esforçar."
+                },
+                {
+                    "id": "710410121",
+                    "speaker": "Zhiqiong",
+                    "text": "Vamos levá-lo de volta. Os Millelith provavelmente têm muitas perguntas para ele."
+                },
+                {
+                    "id": "710410122",
+                    "speaker": "Player",
+                    "text": "Ou podemos cuidar dele aqui mesmo."
+                },
+                {
+                    "id": "710410123",
+                    "speaker": "Zhiqiong",
+                    "text": "O quê?"
+                },
+                {
+                    "id": "710410124",
+                    "speaker": "Clitopho",
+                    "text": "Ei! Não é hora de fazer piadas."
+                },
+                {
+                    "id": "710410125",
+                    "speaker": "Paimon",
+                    "text": "Hehehehe, Paimon achou engraçado."
+                },
+                {
+                    "id": "710410126",
+                    "speaker": "Clitopho",
+                    "text": "M-Mas você nem sequer riu! E não, não é engraçado!",
+                    "choices": [
+                        {
+                            "id": "710410127",
+                            "text": "Na verdade não é engraçado, porque o assunto está prestes a ficar sério.",
+                            "response": [
+                                {
+                                    "id": "710410128",
+                                    "speaker": "Zhiqiong",
+                                    "text": "E-Espere! Não é hora de fazer interrogatórios!"
+                                },
+                                {
+                                    "id": "710410129",
+                                    "speaker": "Zhiqiong",
+                                    "text": "Não sei quanto a você, mas não quero sair por aí levando um Ladrão de Tesouro apavorado de medo... Mas, não importa, vamos levá-lo de volta ao acampamento primeiro."
+                                },
+                                {
+                                    "id": "710410131",
+                                    "speaker": "Clitopho",
+                                    "text": "Ei, ei, ei! Me leve junto! Serei muito útil para vocês! Digo, como podem ver... fui expulso dos Ladrões de Tesouro."
+                                },
+                                {
+                                    "id": "710410132",
+                                    "speaker": "Clitopho",
+                                    "text": "Agora sou um cidadão respeitável novamente."
+                                },
+                                {
+                                    "id": "710410133",
+                                    "speaker": "Paimon",
+                                    "text": "Oh, então isso é ser um \"cidadão respeitável\" para você?"
+                                },
+                                {
+                                    "id": "710410134",
+                                    "speaker": "Zhiqiong",
+                                    "text": "E quais são suas habilidades mesmo?"
+                                },
+                                {
+                                    "id": "710410135",
+                                    "speaker": "Clitopho",
+                                    "text": "Consigo... fazer... explosivos?"
+                                },
+                                {
+                                    "id": "710410136",
+                                    "speaker": "Paimon",
+                                    "text": "Não eram remédios falsos?"
+                                },
+                                {
+                                    "id": "710410137",
+                                    "speaker": "Player",
+                                    "text": "Não, não, ele disse que sabe fazer explosivos."
+                                },
+                                {
+                                    "id": "710410138",
+                                    "speaker": "Zhiqiong",
+                                    "text": "E os seus explosivos não são falsos?"
+                                },
+                                {
+                                    "id": "710410139",
+                                    "speaker": "Clitopho",
+                                    "text": "Não, eles são de verdade!"
+                                },
+                                {
+                                    "id": "710410140",
+                                    "speaker": "Zhiqiong",
+                                    "text": "..."
+                                },
+                                {
+                                    "id": "710410141",
+                                    "speaker": "Zhiqiong",
+                                    "text": "...Não tenho a liberdade de te incluir na equipe. Quanto a forma que lidaremos com você, Jinwu deve ser a melhor para julgar isso. Mas imagino que ela te entregará aos Millelith."
+                                },
+                                {
+                                    "id": "710410142",
+                                    "speaker": "Zhiqiong",
+                                    "text": "Porém, ficaremos de olho em você. Todos os Ladrões de Tesouro não são confiáveis, muito menos aqueles que vendem remédios falsos..."
+                                },
+                                {
+                                    "id": "710410143",
+                                    "speaker": "Clitopho",
+                                    "text": "Qual é! Eu não faço mais isso!"
+                                },
+                                {
+                                    "id": "710410144",
+                                    "speaker": "Paimon",
+                                    "text": "Tá, tá, tá, já sabemos! Vamos andando!"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "710410130",
+                            "text": "Faz sentido."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "7104101",
+            "objective": "Vá até o segundo acampamento ocupado",
+            "dialogues": []
+        },
+        {
+            "id": "7104102",
+            "objective": "Elimine os Ladrões de Tesouro do acampamento de mineradores",
+            "dialogues": []
+        },
+        {
+            "id": "7104109",
+            "objective": "Investigue o canhão nas profundezas das minas",
+            "dialogues": []
+        },
+        {
+            "id": "7104110",
+            "objective": "Vá para o depósito de munições do canhão",
+            "dialogues": []
+        },
+        {
+            "id": "7104111",
+            "objective": "Fale com Zhiqiong.",
+            "dialogues": []
+        }
+    ]
+}

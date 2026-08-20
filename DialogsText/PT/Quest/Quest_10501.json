@@ -1,0 +1,845 @@
+{
+    "quest": {
+        "id": "10501",
+        "title": "Para Mondstadt",
+        "description": "#A astróloga Mona, que você encontrou por acaso fora do Porto de Liyue, prometeu que se você for com ela para Mondstadt para cumprir seu compromisso, ela te ajudará a ler a verdade por trás dos deuses e {M#da sua irmã}{F#do seu irmão}. Saindo do Porto de Liyue, você vai em direção a Mondstadt.",
+        "rewards": [
+            {
+                "itemId": 102,
+                "count": 625
+            },
+            {
+                "itemId": 202,
+                "count": 38100
+            },
+            {
+                "itemId": 104003,
+                "count": 4
+            },
+            {
+                "itemId": 104013,
+                "count": 8
+            }
+        ],
+        "rewards_formatted": "EXP de Aventura x625, Mora x38100, EXP do Herói x4, Minério de Refinamento Místico x8",
+        "chapter": {
+            "icon": "UI_ChapterIcon_Mona",
+            "id": "2010",
+            "num": "Capítulo Astrolabos: Ato I",
+            "title": "Além das Estrelas"
+        },
+        "total_dialogue_lines": 133,
+        "total_speaker_counts": {
+            "???": 1,
+            "Huai'an": 8,
+            "Mona": 55,
+            "Paimon": 18,
+            "Player": 29,
+            "Sr. Zhu": 2,
+            "Tyler": 11,
+            "Yuhua": 9
+        }
+    },
+    "talks": [
+        {
+            "id": "1050101",
+            "objective": "Parta para Mondstadt, vá até o Albergue Wangshu",
+            "dialogues": [
+                {
+                    "id": "105010101",
+                    "speaker": "Paimon",
+                    "text": "Se é a Mona vai pagar o jantar, podemos pedir o que quisermos, certo?"
+                },
+                {
+                    "id": "105010102",
+                    "speaker": "Mona",
+                    "text": "É claro. Afinal de contas, sou uma mestra muito generosa. Mas somente se você puder terminar tudo. Desperdiçar comida simplesmente não servirá."
+                }
+            ]
+        },
+        {
+            "id": "1050113",
+            "objective": "Sente-se próximo a mesa e aceite o convite de Mona",
+            "dialogues": []
+        },
+        {
+            "id": "1050102",
+            "objective": "Fale com a Mona e tenha uma boa refeição",
+            "dialogues": [
+                {
+                    "id": "105011201",
+                    "speaker": "Player",
+                    "text": "Então vamos pedir isso tudo."
+                },
+                {
+                    "id": "105011202",
+                    "speaker": "Mona",
+                    "text": "T-Todos? Mas só temos três... Não, duas pessoas e meia. É muita comida."
+                },
+                {
+                    "id": "105011203",
+                    "speaker": "Paimon",
+                    "text": "Não é assim que se conta! Além disso, Paimon ainda nem pediu!"
+                },
+                {
+                    "id": "105011204",
+                    "speaker": "Paimon",
+                    "text": "Peixe Esquilo, Frango de Pimenta de Jueyun e Ensopado de Gemas, por favor!"
+                },
+                {
+                    "id": "105011205",
+                    "speaker": "Yuhua",
+                    "text": "Claro. Mais alguma coisa que você gostaria de pedir, senhora?"
+                },
+                {
+                    "id": "105011206",
+                    "speaker": "Mona",
+                    "text": "E-Eu gostaria apenas de perguntar, quanto custam os pratos que já pedimos no total?"
+                },
+                {
+                    "id": "105011207",
+                    "speaker": "Yuhua",
+                    "text": "Mais ou menos vinte mil Mora."
+                },
+                {
+                    "id": "105011208",
+                    "speaker": "Mona",
+                    "text": "Então... Uh, e-eu quero apenas um macarrão vegetariano, por favor."
+                },
+                {
+                    "id": "105011209",
+                    "speaker": "Yuhua",
+                    "text": "Muito bem. Uma tigela de macarrão vegetariano, não é mesmo? Por favor, espere um momento, nós o serviremos em breve."
+                },
+                {
+                    "id": "105011210",
+                    "speaker": "Paimon",
+                    "text": "Paimon tem pensado em uma coisa desde que começamos a comer..."
+                },
+                {
+                    "id": "105011211",
+                    "speaker": "Player",
+                    "text": "Por que ela só pediu um macarrão vegetariano?"
+                },
+                {
+                    "id": "105011212",
+                    "speaker": "Paimon",
+                    "text": "Será que é... Porque ela na verdade não tem dinheiro?"
+                },
+                {
+                    "id": "105011213",
+                    "speaker": "Mona",
+                    "text": "Eu ouvi isso! Eu disse que era por minha conta. Como eu poderia ser abalada por algo tão mundano como Mora!?"
+                },
+                {
+                    "id": "105011214",
+                    "speaker": "Mona",
+                    "text": "A mente de um astrólogo está voltada para o estudo das estrelas. Ser tão facilmente perturbado por tais questões banais dificultaria meu julgamento."
+                },
+                {
+                    "id": "105011215",
+                    "speaker": "Mona",
+                    "text": "Especialmente o ato de se gratificar demais usando Mora. É muito vulgar..."
+                },
+                {
+                    "id": "105011216",
+                    "speaker": "???",
+                    "text": "*Estômago roncando*"
+                },
+                {
+                    "id": "105011217",
+                    "speaker": "Mona",
+                    "text": "...E perigoso."
+                },
+                {
+                    "id": "105011218",
+                    "speaker": "Paimon",
+                    "text": "Então não comer os pratos que pedimos também faz parte do orgulho de um astrólogo? Paimon não entende."
+                },
+                {
+                    "id": "105011219",
+                    "speaker": "Paimon",
+                    "text": "Mas é um pouco ruim que só nós tenhamos nos alimentado..."
+                },
+                {
+                    "id": "105011220",
+                    "speaker": "Player",
+                    "text": "Deixe-me preparar algo para você."
+                },
+                {
+                    "id": "105011221",
+                    "speaker": "Paimon",
+                    "text": "Oh, sim! Podemos fazer isso! Apenas nos dê um minuto!"
+                }
+            ]
+        },
+        {
+            "id": "1050114",
+            "objective": "",
+            "dialogues": [
+                {
+                    "id": "105011401",
+                    "speaker": "Mona",
+                    "text": "Não tem necessidade de investir todo esse esforço em mim, não estou com muita fome..."
+                },
+                {
+                    "id": "105011402",
+                    "speaker": "Mona",
+                    "text": "Estou com um pouco de fome... Mas não é nada de mais."
+                }
+            ]
+        },
+        {
+            "id": "1050103",
+            "objective": "Procure o estalajadeiro e peça emprestado a cozinha para fazer um prato para Mona",
+            "dialogues": [
+                {
+                    "id": "105010201",
+                    "speaker": "Huai'an",
+                    "text": "Olá, em que posso ajudar?"
+                },
+                {
+                    "id": "105010202",
+                    "speaker": "Paimon",
+                    "text": "Gostaríamos de pedir a cozinha emprestada.",
+                    "choices": [
+                        {
+                            "id": "105010203",
+                            "text": "A minha amiga gostaria de comer uma comida especial.",
+                            "response": [
+                                {
+                                    "id": "105010205",
+                                    "speaker": "Huai'an",
+                                    "text": "Ah, entendo. Nesse caso, com certeza. Desde que você tenha preparado seus próprios ingredientes, sinta-se à vontade para usar a cozinha."
+                                },
+                                {
+                                    "id": "105010206",
+                                    "speaker": "Huai'an",
+                                    "text": "#Se me permitem acrescentar mais uma coisa... Você deve ser bastante versad{M#o}{F#a} na arte de cozinhar, sim?",
+                                    "choices": [
+                                        {
+                                            "id": "105010207",
+                                            "text": "Claro. Se for feito por mim, tudo é delicioso.",
+                                            "response": [
+                                                {
+                                                    "id": "105010208",
+                                                    "speaker": "Huai'an",
+                                                    "text": "Haha. É uma resposta inesperada. Por acaso, eu tenho uma sugestão..."
+                                                },
+                                                {
+                                                    "id": "105010211",
+                                                    "speaker": "Huai'an",
+                                                    "text": "Pelas suas roupas, o mais provável é que você não seja destas partes. Mas já que você chegou a Liyue, gostaria de tentar fazer uma cozinha a estilo Liyue?"
+                                                },
+                                                {
+                                                    "id": "105010212",
+                                                    "speaker": "Huai'an",
+                                                    "text": "Eu tenho uma receita de Caranguejo Dourado, é um clássico do estilo Yue."
+                                                },
+                                                {
+                                                    "id": "105010213",
+                                                    "speaker": "Huai'an",
+                                                    "text": "Carne de caranguejo que foi enrolada em farinha, frita e depois frita com gengibre e alho. Quando finalmente revestido, o caranguejo parece estar deitado em ouro."
+                                                },
+                                                {
+                                                    "id": "105010214",
+                                                    "speaker": "Paimon",
+                                                    "text": "Ca... Caranguejo Dourado!",
+                                                    "choices": [
+                                                        {
+                                                            "id": "105010215",
+                                                            "text": "Parece ser um pouco complicado.",
+                                                            "response": [
+                                                                {
+                                                                    "id": "105010217",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "#Caranguejo Dourado! {NICKNAME}, Caranguejo Dourado!",
+                                                                    "choices": [
+                                                                        {
+                                                                            "id": "105010218",
+                                                                            "text": "Ok! Ok! Caranguejo Dourado!",
+                                                                            "response": [
+                                                                                {
+                                                                                    "id": "105010220",
+                                                                                    "speaker": "Paimon",
+                                                                                    "text": "Hehe. Então, vamos começar agora!"
+                                                                                },
+                                                                                {
+                                                                                    "id": "105010221",
+                                                                                    "speaker": "Paimon",
+                                                                                    "text": "Com suas habilidades na cozinha, isto será fácil!"
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        {
+                                                                            "id": "105010219",
+                                                                            "text": "...Acho que também estou aprendendo para o seu bem."
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "id": "105010216",
+                                                            "text": "Aprender um prato totalmente novo para o bem de Mona é um pouco..."
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "105010209",
+                                            "text": "Não exatamente...",
+                                            "response": [
+                                                {
+                                                    "id": "105010210",
+                                                    "speaker": "Huai'an",
+                                                    "text": "#Haha, você é muito modest{M#o}{F#a}. Por acaso, eu tenho uma sugestão..."
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "105010204",
+                            "text": "A minha amiga quer comer um prato feito por mim."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "1050104",
+            "objective": "Cozinhe um Caranguejo Dourado",
+            "dialogues": [
+                {
+                    "id": "105010401",
+                    "speaker": "Mona",
+                    "text": "Ufa. Isso foi cansativo, mas finalmente estamos em Mondstadt."
+                },
+                {
+                    "id": "105010402",
+                    "speaker": "Mona",
+                    "text": "A busca de sondar as maravilhosas profundezas do conhecimento é realmente árdua..."
+                },
+                {
+                    "id": "105010403",
+                    "speaker": "Paimon",
+                    "text": "Na verdade, Paimon não está cansada."
+                },
+                {
+                    "id": "105010404",
+                    "speaker": "Mona",
+                    "text": "É porque você pode flutuar!"
+                },
+                {
+                    "id": "105010405",
+                    "speaker": "Paimon",
+                    "text": "Bom. Não parece que uma astróloga é assim tão incrível."
+                },
+                {
+                    "id": "105010406",
+                    "speaker": "Mona",
+                    "text": "É porque você tinha muitas fantasias irrealistas sobre a astrologia."
+                },
+                {
+                    "id": "105010407",
+                    "speaker": "Tyler",
+                    "text": "Você também está descansando seus pés aqui?"
+                },
+                {
+                    "id": "105010408",
+                    "speaker": "Paimon",
+                    "text": "Desculpe, mas quem é você?"
+                },
+                {
+                    "id": "105010409",
+                    "speaker": "Tyler",
+                    "text": "Oh, meus irmãos e eu somos todos comerciantes. Acabamos de fazer negócios em Liyue e estamos nos preparando para voltar para Mondstadt."
+                },
+                {
+                    "id": "105010410",
+                    "speaker": "Tyler",
+                    "text": "#Você parece muito {M#cansado}{F#cansada}. O carrinho que reservamos deve chegar em breve. Você quer se juntar a nós?",
+                    "choices": [
+                        {
+                            "id": "105010411",
+                            "text": "#Bem, eu estou um pouco cansad{M#o}{F#a}...",
+                            "response": [
+                                {
+                                    "id": "105010412",
+                                    "speaker": "Tyler",
+                                    "text": "Haha, vamos lá, então. Podemos conversar ao longo do caminho, quanto mais melhor."
+                                },
+                                {
+                                    "id": "105010415",
+                                    "speaker": "Mona",
+                                    "text": "Não há necessidade. Agora, xispa. Saia do nosso caminho."
+                                },
+                                {
+                                    "id": "105010416",
+                                    "speaker": "Tyler",
+                                    "text": "Eh? Senhora... Algo errado?"
+                                },
+                                {
+                                    "id": "105010417",
+                                    "speaker": "Mona",
+                                    "text": "Não finja mais, bandido."
+                                },
+                                {
+                                    "id": "105010418",
+                                    "speaker": "Mona",
+                                    "text": "Pegar as pessoas na estrada que parecem vulneráveis, roubá-las uma vez que tenham entrado na carroça, e depois levá-las para algum lugar abandonado pelos arcontes - é esse o seu plano?"
+                                },
+                                {
+                                    "id": "105010419",
+                                    "speaker": "Tyler",
+                                    "text": "O qu-O que você está dizendo? Viemos até aqui para conversar, e é assim que somos tratados? Com insultos?"
+                                },
+                                {
+                                    "id": "105010420",
+                                    "speaker": "Tyler",
+                                    "text": "Se não quiser, deixa para lá, maluca."
+                                },
+                                {
+                                    "id": "105010421",
+                                    "speaker": "Mona",
+                                    "text": "Então, devo lhe dizer quais são os objetos que você tem consigo que são roubados?"
+                                },
+                                {
+                                    "id": "105010422",
+                                    "speaker": "Mona",
+                                    "text": "Se você não estiver convencido, podemos trazer pessoas para corroborar o que eu disse, e tudo virá à tona."
+                                },
+                                {
+                                    "id": "105010423",
+                                    "speaker": "Mona",
+                                    "text": "Se eu perder, eu te pagarei vinte mil Moras. Mas se eu ganhar, você comerá a comida da prisão de Liyue hoje à noite."
+                                },
+                                {
+                                    "id": "105010424",
+                                    "speaker": "Mona",
+                                    "text": "Que tal? Se vocês são realmente comerciantes legítimos, não há nada a temer, não é mesmo?"
+                                },
+                                {
+                                    "id": "105010425",
+                                    "speaker": "Tyler",
+                                    "text": "Você... Você!"
+                                },
+                                {
+                                    "id": "105010426",
+                                    "speaker": "Tyler",
+                                    "text": "Você foi longe demais, pirralha!"
+                                },
+                                {
+                                    "id": "105010427",
+                                    "speaker": "Tyler",
+                                    "text": "Não sei como você descobriu, mas desde que nos livremos de você, ninguém terá como saber!"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "105010413",
+                            "text": "Temos que pagar alguma coisa?",
+                            "response": [
+                                {
+                                    "id": "105010414",
+                                    "speaker": "Tyler",
+                                    "text": "Não há necessidade, de qualquer forma já estamos indo nessa direção."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "1050110",
+            "objective": "",
+            "dialogues": [
+                {
+                    "id": "105011001",
+                    "speaker": "Player",
+                    "text": "Este Tofu com Ovas de Caranguejo..."
+                },
+                {
+                    "id": "105011002",
+                    "speaker": "Yuhua",
+                    "text": "Tofu pode ser um ingrediente super comum, mas combina muito bem com ovas de caranguejo. Tofu com Ovas de Caranguejo é a nossa especialidade."
+                }
+            ]
+        },
+        {
+            "id": "1050111",
+            "objective": "",
+            "dialogues": [
+                {
+                    "id": "105011501",
+                    "speaker": "Mona",
+                    "text": "E-Este aroma...",
+                    "choices": [
+                        {
+                            "id": "105011502",
+                            "text": "Algo para acompanhar seu macarrão.",
+                            "response": [
+                                {
+                                    "id": "105011503",
+                                    "speaker": "Mona",
+                                    "text": "Nunca pensei que fosse ser tão luxuoso..."
+                                },
+                                {
+                                    "id": "105011506",
+                                    "speaker": "Mona",
+                                    "text": "#Muito bem. Como {M#meu}{F#minha} discípul{M#o}{F#a} investiu tanto tempo e esforço nisso, eu devo - com grande dificuldade - aceitar."
+                                },
+                                {
+                                    "id": "105011507",
+                                    "speaker": "Mona",
+                                    "text": "... Ooh! é delicioso! É a coisa mais deliciosa que eu comi recentemente!"
+                                },
+                                {
+                                    "id": "105011508",
+                                    "speaker": "Mona",
+                                    "text": "#Ah, uh... Digo... Não sabia que {M#o meu}{F#a minha} discípul{M#o}{F#a} era tão talentos{M#o}{F#a}. Como sua mestra, sinto-me muito confortada.",
+                                    "choices": [
+                                        {
+                                            "id": "105011509",
+                                            "text": "Desde que você esteja comendo uma refeição completa.",
+                                            "response": [
+                                                {
+                                                    "id": "105011511",
+                                                    "speaker": "Mona",
+                                                    "text": "Vejo que não é nenhuma vanglória chamá-los de iguarias de Liyue."
+                                                },
+                                                {
+                                                    "id": "105011512",
+                                                    "speaker": "Mona",
+                                                    "text": "Suponho que não foi demais gastar toda esta Mora neles..."
+                                                },
+                                                {
+                                                    "id": "105011513",
+                                                    "speaker": "Mona",
+                                                    "text": "Ah, não é nada. Nada mesmo. Agora que já comemos e bebemos nossa parte, deveríamos ir embora."
+                                                },
+                                                {
+                                                    "id": "105011514",
+                                                    "speaker": "Mona",
+                                                    "text": "Se continuarmos ao norte daqui, devemos chegar no <color=#00E1FFFF>Portal de Pedra</color>, e de lá, estaremos dentro dos perímetros de Mondstadt."
+                                                },
+                                                {
+                                                    "id": "105011515",
+                                                    "speaker": "Mona",
+                                                    "text": "Quais são os mistérios profundos dos quais iremos adquirir conhecimento? Estou ansiosa por isso."
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "105011510",
+                                            "text": "Você diz isso, mas está claramente apreciando a refeição."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "105011504",
+                            "text": "Seu pedido especial, madame.",
+                            "response": [
+                                {
+                                    "id": "105011505",
+                                    "speaker": "Mona",
+                                    "text": "U... Uau! É incrível...!"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "1050112",
+            "objective": "",
+            "dialogues": [
+                {
+                    "id": "105011601",
+                    "speaker": "Mona",
+                    "text": "E-Este aroma...",
+                    "choices": [
+                        {
+                            "id": "105011602",
+                            "text": "Algo para acompanhar seu macarrão.",
+                            "response": [
+                                {
+                                    "id": "105011603",
+                                    "speaker": "Mona",
+                                    "text": "Nunca pensei que fosse ser tão luxuoso..."
+                                },
+                                {
+                                    "id": "105011606",
+                                    "speaker": "Mona",
+                                    "text": "#Muito bem. Como {M#meu}{F#minha} discípul{M#o}{F#a} investiu tanto tempo e esforço nisso, eu devo - com grande dificuldade - aceitar."
+                                },
+                                {
+                                    "id": "105011607",
+                                    "speaker": "Mona",
+                                    "text": "Uau! O Caranguejo Dourado é muito gostoso. Nunca comi uma comida como esta."
+                                },
+                                {
+                                    "id": "105011608",
+                                    "speaker": "Mona",
+                                    "text": "#Ah, uh... Digo... Não sabia que {M#o meu}{F#a minha} discípul{M#o}{F#a} era tão talentos{M#o}{F#a}. Como sua mestra, sinto-me muito confortada.",
+                                    "choices": [
+                                        {
+                                            "id": "105011609",
+                                            "text": "Desde que você esteja comendo uma refeição completa.",
+                                            "response": [
+                                                {
+                                                    "id": "105011611",
+                                                    "speaker": "Mona",
+                                                    "text": "Vejo que não é nenhuma vanglória chamá-los de iguarias de Liyue."
+                                                },
+                                                {
+                                                    "id": "105011612",
+                                                    "speaker": "Mona",
+                                                    "text": "Suponho que não foi demais gastar toda esta Mora neles..."
+                                                },
+                                                {
+                                                    "id": "105011613",
+                                                    "speaker": "Mona",
+                                                    "text": "Ah, não é nada. Nada mesmo. Agora que já comemos e bebemos nossa parte, deveríamos ir embora."
+                                                },
+                                                {
+                                                    "id": "105011614",
+                                                    "speaker": "Mona",
+                                                    "text": "Se continuarmos ao norte daqui, devemos chegar no <color=#00E1FFFF>Portal de Pedra</color>, e de lá, estaremos dentro dos perímetros de Mondstadt."
+                                                },
+                                                {
+                                                    "id": "105011615",
+                                                    "speaker": "Mona",
+                                                    "text": "Quais são os mistérios profundos dos quais iremos adquirir conhecimento? Estou ansiosa por isso."
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "105011610",
+                                            "text": "Você diz isso, mas está claramente apreciando a refeição."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "105011604",
+                            "text": "Seu pedido especial, madame.",
+                            "response": [
+                                {
+                                    "id": "105011605",
+                                    "speaker": "Mona",
+                                    "text": "U... Uau! É incrível...!"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "1050105",
+            "objective": "Entregue o Caranguejo Dourado (Normal ou Delicioso) para mona",
+            "dialogues": []
+        },
+        {
+            "id": "1050106",
+            "objective": "Continue sua jornada, siga para o Portal de Pedra",
+            "dialogues": [
+                {
+                    "id": "105010601",
+                    "speaker": "Sr. Zhu",
+                    "text": "Muito obrigado a todos vocês. Vocês são bem-vindos para aparecerem novamente."
+                },
+                {
+                    "id": "105010602",
+                    "speaker": "Sr. Zhu",
+                    "text": "Bem, se o meu albergue ainda não tiver fechado suas portas, haha..."
+                }
+            ]
+        },
+        {
+            "id": "1050107",
+            "objective": "Fale com a Mona enquanto ela descansa",
+            "dialogues": []
+        },
+        {
+            "id": "1050108",
+            "objective": "Afaste os bandidos",
+            "dialogues": [
+                {
+                    "id": "105010801",
+                    "speaker": "Player",
+                    "text": "Almôndegas Douradas de Camarão..."
+                },
+                {
+                    "id": "105010802",
+                    "speaker": "Yuhua",
+                    "text": "Estes são feitos com camarões grandes e suculentos envoltos em batatas fritas crocantes. Eles têm uma textura surpreendente."
+                }
+            ]
+        },
+        {
+            "id": "1050109",
+            "objective": "Fale com a Mona",
+            "dialogues": [
+                {
+                    "id": "105010501",
+                    "speaker": "Mona",
+                    "text": "Hunf, o que vocês acharam? Isso satisfez suas expectativas?",
+                    "choices": [
+                        {
+                            "id": "105010502",
+                            "text": "As suas habilidades de combate foram incríveis.",
+                            "response": [
+                                {
+                                    "id": "105010504",
+                                    "speaker": "Mona",
+                                    "text": "Tais coisas são elementares para um astrólogo."
+                                },
+                                {
+                                    "id": "105010505",
+                                    "speaker": "Mona",
+                                    "text": "Mentiras não fazem sentido diante da astrologia. O Destino e a Verdade estão escritos nas estrelas."
+                                },
+                                {
+                                    "id": "105010506",
+                                    "speaker": "Mona",
+                                    "text": "Embora possa levar mais tempo para obter os detalhes específicos, posso ler a essência de uma situação em uma só olhada."
+                                },
+                                {
+                                    "id": "105010507",
+                                    "speaker": "Paimon",
+                                    "text": "Mas você encontrou algumas dificuldades ao longo do caminho..."
+                                },
+                                {
+                                    "id": "105010508",
+                                    "speaker": "Mona",
+                                    "text": "É porque as estrelas de Teyvat apenas exibem os destinos e as verdades \"deste mundo\"."
+                                },
+                                {
+                                    "id": "105010509",
+                                    "speaker": "Mona",
+                                    "text": "Qualquer coisa relacionada a vocês é como uma névoa que nem eu consigo penetrar."
+                                },
+                                {
+                                    "id": "105010510",
+                                    "speaker": "Mona",
+                                    "text": "Esta é a razão pela qual tenho que me encontrar com a sucessora. Com nossos conhecimentos combinados, talvez serei capaz de entender melhor o seu destino.",
+                                    "choices": [
+                                        {
+                                            "id": "105010511",
+                                            "text": "#Estou um pouco ansios{M#o}{F#a}.",
+                                            "response": [
+                                                {
+                                                    "id": "105010513",
+                                                    "speaker": "Mona",
+                                                    "text": "Ha. Seja qual for o caso, você tem tudo a ganhar com esta viagem."
+                                                },
+                                                {
+                                                    "id": "105010514",
+                                                    "speaker": "Mona",
+                                                    "text": "Muito bem, estou descansada. Vamos fazer esta viagem para <color=#00E1FFFF>Mondstadt</color>!"
+                                                },
+                                                {
+                                                    "id": "105010515",
+                                                    "speaker": "Paimon",
+                                                    "text": "Ugh... Se pelo menos tivéssemos uma carroça..."
+                                                },
+                                                {
+                                                    "id": "105010516",
+                                                    "speaker": "Mona",
+                                                    "text": "Achei que você não estava cansada!"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "105010512",
+                                            "text": "Não tenho tantas esperanças..."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "105010503",
+                            "text": "É impressionante que você tenha visto através desses bandidos."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "1050103",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "105010301",
+                    "speaker": "Mona",
+                    "text": "Não tem necessidade de investir todo esse esforço em mim, não estou com muita fome..."
+                },
+                {
+                    "id": "105010302",
+                    "speaker": "Mona",
+                    "text": "Estou com um pouco de fome... Mas não é nada de mais."
+                }
+            ]
+        },
+        {
+            "id": "1050107",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "105010701",
+                    "speaker": "Yuhua",
+                    "text": "Com licença, o que você gostaria de pedir?"
+                }
+            ]
+        },
+        {
+            "id": "1050109",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "105010901",
+                    "speaker": "Player",
+                    "text": "Quanto ao Abalone Vegetariano..."
+                },
+                {
+                    "id": "105010902",
+                    "speaker": "Yuhua",
+                    "text": "É exatamente o que diz no menu - abalone feito de ingredientes vegetarianos. É tão bom quanto o verdadeiro!"
+                }
+            ]
+        },
+        {
+            "id": "1050111",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "105011101",
+                    "speaker": "Player",
+                    "text": "Esta a Sopa de Bambu..."
+                },
+                {
+                    "id": "105011102",
+                    "speaker": "Yuhua",
+                    "text": "Este é um dos favoritos de nossos clientes habituais. Brotos de bambu, carne e presunto são cozidos juntos, criando uma sopa com um sabor rico."
+                },
+                {
+                    "id": "105011103",
+                    "speaker": "Yuhua",
+                    "text": "Despeje algumas colheres em cada uma das tigelas de arroz que você comer - você nunca vai se cansar!"
+                }
+            ]
+        }
+    ]
+}

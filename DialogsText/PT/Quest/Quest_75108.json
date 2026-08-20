@@ -1,0 +1,789 @@
+{
+    "quest": {
+        "id": "75108",
+        "title": "Amigos do Fogo e Água",
+        "description": "Você e Paimon descobrem um Acampamento suspeito em algum lugar no território do Clã das Plumas de Flores. Ali, você inesperadamente resgata uma Foquinha Rotunda. Parece ser uma boa amiga para seu companheiro Sauriano...",
+        "rewards": [
+            {
+                "itemId": 102,
+                "count": 200
+            },
+            {
+                "itemId": 201,
+                "count": 30
+            },
+            {
+                "itemId": 202,
+                "count": 35000
+            }
+        ],
+        "rewards_formatted": "EXP de Aventura x200, Gema Essencial x30, Mora x35000",
+        "chapter": {
+            "icon": "UI_ChapterIcon_LittleDrillhead",
+            "id": "10204",
+            "num": "",
+            "title": "Nos Passos do Escolhido dos Dragões"
+        },
+        "total_dialogue_lines": 127,
+        "total_speaker_counts": {
+            "#{REALNAME[ID(2)|SHOWHOST(true)]}": 11,
+            "Black Screen": 4,
+            "Foquinha Rotunda Enfraquecida": 5,
+            "Foquinha Rotunda Recuperada": 1,
+            "Foquinha Rotunda Vítima": 1,
+            "Paimon": 54,
+            "Player": 51
+        }
+    },
+    "talks": [
+        {
+            "id": "7510801",
+            "objective": "",
+            "dialogues": [
+                {
+                    "id": "751080101",
+                    "speaker": "Paimon",
+                    "text": "Dissemos que íamos cozinhar, mas o que a gente deveria fazer?"
+                },
+                {
+                    "id": "751080102",
+                    "speaker": "Paimon",
+                    "text": "Hmm... A gente dava peixe para Baguinha, a Foquinha Rotunda, né? Nesse caso, um prato de peixe deve servir!"
+                },
+                {
+                    "id": "751080103",
+                    "speaker": "Paimon",
+                    "text": "#Se quisermos que a Foquinha Rotunda e {REALNAME[ID(2)|SHOWHOST(true)]} comam bem... A especialidade de Natlan Peixe Grelhado em Molho de Menta deve ser uma boa escolha.",
+                    "choices": [
+                        {
+                            "id": "751080104",
+                            "text": "Ah, esse aí eu faço com um braço amarrado nas coisas.",
+                            "response": [
+                                {
+                                    "id": "751080106",
+                                    "speaker": "Paimon",
+                                    "text": "Tudo bem, vamos começar então. Paimon vai te dar umas dicas durante!",
+                                    "choices": [
+                                        {
+                                            "id": "751080107",
+                                            "text": "Fazer cortes mais fundos.",
+                                            "response": [
+                                                {
+                                                    "id": "751080108",
+                                                    "speaker": "Paimon",
+                                                    "text": "Isso mesmo! Quanto mais profundo o corte, mais fundo o sabor entra!",
+                                                    "choices": [
+                                                        {
+                                                            "id": "751080111",
+                                                            "text": "Um pouco mais de sal, um pouco mais de felicidade!",
+                                                            "response": [
+                                                                {
+                                                                    "id": "751080112",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "#Hmm, o sabor é bem complexo. {REALNAME[ID(2)|SHOWHOST(true)]} e a Foquinha Rotunda vão adorar!",
+                                                                    "choices": [
+                                                                        {
+                                                                            "id": "751080115",
+                                                                            "text": "Molho de menta. Quanto mais, melhor.",
+                                                                            "response": [
+                                                                                {
+                                                                                    "id": "751080116",
+                                                                                    "speaker": "Paimon",
+                                                                                    "text": "Hehe, esse sabor refrescante vai ser sensacional!",
+                                                                                    "choices": [
+                                                                                        {
+                                                                                            "id": "751080119",
+                                                                                            "text": "Pimenta é indispensável.",
+                                                                                            "response": [
+                                                                                                {
+                                                                                                    "id": "751080120",
+                                                                                                    "speaker": "Paimon",
+                                                                                                    "text": "A quantidade exata de picância — suficiente para despertar o apetite!",
+                                                                                                    "choices": [
+                                                                                                        {
+                                                                                                            "id": "751080123",
+                                                                                                            "text": "Grelhado em fogo alto: crocante por fora, macio por dentro!",
+                                                                                                            "response": [
+                                                                                                                {
+                                                                                                                    "id": "751080124",
+                                                                                                                    "speaker": "Paimon",
+                                                                                                                    "text": "Hehehe, parece tão delicioso, Paimon já tá salivando."
+                                                                                                                },
+                                                                                                                {
+                                                                                                                    "id": "751080127",
+                                                                                                                    "speaker": "Black Screen",
+                                                                                                                    "text": "#Após um esplêndido processo culinário, o peixe especial que você grelhou para {REALNAME[ID(2)|SHOWHOST(true)]} e a Foquinha Rotunda está pronto..."
+                                                                                                                }
+                                                                                                            ]
+                                                                                                        },
+                                                                                                        {
+                                                                                                            "id": "751080125",
+                                                                                                            "text": "Assado lentamente — macio e suculento!",
+                                                                                                            "response": [
+                                                                                                                {
+                                                                                                                    "id": "751080126",
+                                                                                                                    "speaker": "Paimon",
+                                                                                                                    "text": "#Uau, incrível! O peixe grelhado secreto de {NICKNAME}... Talvez algum dia a gente prepare uma das suas especialidades para nossos outros amigos!"
+                                                                                                                }
+                                                                                                            ]
+                                                                                                        }
+                                                                                                    ]
+                                                                                                }
+                                                                                            ]
+                                                                                        },
+                                                                                        {
+                                                                                            "id": "751080121",
+                                                                                            "text": "Animais de Fontaine podem ser alérgicos a comida picante...",
+                                                                                            "response": [
+                                                                                                {
+                                                                                                    "id": "751080122",
+                                                                                                    "speaker": "Paimon",
+                                                                                                    "text": "Mas iria parecer que tem algo faltando se não tivesse nenhuma pimenta, então por que não adicionar só um pouco?",
+                                                                                                    "choices": [
+                                                                                                        {
+                                                                                                            "id": "751080123",
+                                                                                                            "text": "Grelhado em fogo alto: crocante por fora, macio por dentro!"
+                                                                                                        },
+                                                                                                        {
+                                                                                                            "id": "751080125",
+                                                                                                            "text": "Assado lentamente — macio e suculento!"
+                                                                                                        }
+                                                                                                    ]
+                                                                                                }
+                                                                                            ]
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        {
+                                                                            "id": "751080117",
+                                                                            "text": "Será que um animal aquático como a Foquinha Rotunda tem medo de menta?",
+                                                                            "response": [
+                                                                                {
+                                                                                    "id": "751080118",
+                                                                                    "speaker": "Paimon",
+                                                                                    "text": "Não é assim que isso funciona. Uma Foquinha Rotunda vai achar a superfície seca e quente, então adicionar um pouco de molho de menta deve ajudar a equilibrar, né?",
+                                                                                    "choices": [
+                                                                                        {
+                                                                                            "id": "751080119",
+                                                                                            "text": "Pimenta é indispensável."
+                                                                                        },
+                                                                                        {
+                                                                                            "id": "751080121",
+                                                                                            "text": "Animais de Fontaine podem ser alérgicos a comida picante..."
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "id": "751080113",
+                                                            "text": "O sabor tá ótimo como está. Não precisa de mais sal.",
+                                                            "response": [
+                                                                {
+                                                                    "id": "751080114",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "Sim. Ainda temos outros temperos, então não precisamos pesar a mão no sal.",
+                                                                    "choices": [
+                                                                        {
+                                                                            "id": "751080115",
+                                                                            "text": "Molho de menta. Quanto mais, melhor."
+                                                                        },
+                                                                        {
+                                                                            "id": "751080117",
+                                                                            "text": "Será que um animal aquático como a Foquinha Rotunda tem medo de menta?"
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "751080109",
+                                            "text": "Fazer cortes mais rasos.",
+                                            "response": [
+                                                {
+                                                    "id": "751080110",
+                                                    "speaker": "Paimon",
+                                                    "text": "Nada mau. Deve manter o sabor leve enquanto mantém a característica original do peixe — que a Foquinha Rotunda com certeza vai amar.",
+                                                    "choices": [
+                                                        {
+                                                            "id": "751080111",
+                                                            "text": "Um pouco mais de sal, um pouco mais de felicidade!"
+                                                        },
+                                                        {
+                                                            "id": "751080113",
+                                                            "text": "O sabor tá ótimo como está. Não precisa de mais sal."
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "751080105",
+                            "text": "Não é o meu forte, mas de boa."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "7510803",
+            "objective": "",
+            "dialogues": [
+                {
+                    "id": "751080301",
+                    "speaker": "Paimon",
+                    "text": "Como esperado, ainda há alguns Saurianos presos aqui..."
+                },
+                {
+                    "id": "751080302",
+                    "speaker": "Paimon",
+                    "text": "Paimon não achou que eles iriam persistir com seus costumes perversos e continuariam machucando Saurianos, mesmo após destruirmos sua base."
+                },
+                {
+                    "id": "751080303",
+                    "speaker": "Paimon",
+                    "text": "Se soubéssemos disso, poderíamos tê-los perseguido e ter acabado com todos eles.",
+                    "choices": [
+                        {
+                            "id": "751080304",
+                            "text": "Bem, eles estão acabados por enquanto.",
+                            "response": [
+                                {
+                                    "id": "751080305",
+                                    "speaker": "Paimon",
+                                    "text": "Verdade. Agora vamos salvá-los, rápido!"
+                                },
+                                {
+                                    "id": "751080308",
+                                    "speaker": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+                                    "text": "Rawr!"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "751080306",
+                            "text": "Sim, eu devia ter sido cruel e frio naquela época!",
+                            "response": [
+                                {
+                                    "id": "751080307",
+                                    "speaker": "Paimon",
+                                    "text": "#Paimon mal consegue imaginar você sendo assim, {NICKNAME}... Enfim, vamos ajudar eles primeiro!"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "7510804",
+            "objective": "",
+            "dialogues": [
+                {
+                    "id": "751080401",
+                    "speaker": "Paimon",
+                    "text": "Hã? Por que tem Saurianos nas jaulas aqui?"
+                },
+                {
+                    "id": "751080402",
+                    "speaker": "Paimon",
+                    "text": "Algo não está certo aqui... Espera. Poderiam eles terem sido capturados por aquelas pessoas?"
+                },
+                {
+                    "id": "751080403",
+                    "speaker": "Paimon",
+                    "text": "Será que a gente se deparou com algum tipo de rede de tráfico de Saurianos sem perceber?",
+                    "choices": [
+                        {
+                            "id": "751080404",
+                            "text": "Maravilhoso! Vilões derrotados, por sinal!",
+                            "response": [
+                                {
+                                    "id": "751080405",
+                                    "speaker": "Paimon",
+                                    "text": "Isso mesmo! Agora vamos tirar todos esses Saurianos daqui!"
+                                },
+                                {
+                                    "id": "751080408",
+                                    "speaker": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+                                    "text": "Rawr!"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "751080406",
+                            "text": "Não importa. Derrotamos esses vilões de qualquer forma.",
+                            "response": [
+                                {
+                                    "id": "751080407",
+                                    "speaker": "Paimon",
+                                    "text": "Vamos lá, importa sim — os Saurianos sequestrados agora conseguem recuperar sua liberdade. Vamos ajudá-los, imediatamente!"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "7510805",
+            "objective": "Resgate os animais",
+            "dialogues": [
+                {
+                    "id": "751080501",
+                    "speaker": "Paimon",
+                    "text": "Espera, tem uma... Foquinha Rotunda aqui? Mas o que—? Acho que pessoas malvadas realmente vão vender qualquer coisa..."
+                },
+                {
+                    "id": "751080502",
+                    "speaker": "Foquinha Rotunda Vítima",
+                    "text": "Rawoo... Rawoo!"
+                },
+                {
+                    "id": "751080503",
+                    "speaker": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+                    "text": "Rroo... Mrrooh!"
+                },
+                {
+                    "id": "751080504",
+                    "speaker": "Paimon",
+                    "text": "#Hã? Você está meio interessado em Foquinhas Rotundas, não está, {REALNAME[ID(2)|SHOWHOST(true)]}?"
+                },
+                {
+                    "id": "751080505",
+                    "speaker": "Black Screen",
+                    "text": "#{REALNAME[ID(2)|SHOWHOST(true)]} ouve intensamente os gritos da Foquinha Rotunda e, aparentemente entendendo algo, levanta a Foquinha Rotunda pela cauda para levá-la para o raso, onde brincam juntos."
+                },
+                {
+                    "id": "751080512",
+                    "speaker": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+                    "text": "Rawr!",
+                    "choices": [
+                        {
+                            "id": "751080506",
+                            "text": "A Foquinha Rotunda parece contente.",
+                            "response": [
+                                {
+                                    "id": "751080508",
+                                    "speaker": "Paimon",
+                                    "text": "Sim! Talvez eles consigam virar amigos!"
+                                },
+                                {
+                                    "id": "751080509",
+                                    "speaker": "Paimon",
+                                    "text": "Mas aquela Foquinha Rotunda não parece ter o mínimo de força, e as suas duas... Err, patinhas...? De qualquer forma, elas não parecem ser capazes de se movimentar muito."
+                                },
+                                {
+                                    "id": "751080510",
+                                    "speaker": "Paimon",
+                                    "text": "Não tinha nem um prato de comida por perto... Talvez eles tenham ficados trancados por tanto tempo que eles estão com muita fome."
+                                },
+                                {
+                                    "id": "751080511",
+                                    "speaker": "Paimon",
+                                    "text": "#Se esse for o caso, então vamos fazer algo para a Foquinha Rotunda e {REALNAME[ID(2)|SHOWHOST(true)]} comerem!"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "751080507",
+                            "text": "#{REALNAME[ID(2)|SHOWHOST(true)]} parece bem feliz também."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "7510802",
+            "objective": "Prepare comida para seus amigos animais",
+            "dialogues": []
+        },
+        {
+            "id": "7510806",
+            "objective": "Entregue comida para seus amigos animais",
+            "dialogues": []
+        },
+        {
+            "id": "7510807",
+            "objective": "Entregue comida para seus amigos animais",
+            "dialogues": [
+                {
+                    "id": "751080701",
+                    "speaker": "Paimon",
+                    "text": "Lá vem algo delicioso! Não fiquem por aí só brincando — vocês têm que recuperar sua energia também."
+                },
+                {
+                    "id": "751080702",
+                    "speaker": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+                    "text": "Rawr!"
+                },
+                {
+                    "id": "751080703",
+                    "speaker": "Foquinha Rotunda Enfraquecida",
+                    "text": "A... Aooouhh!"
+                },
+                {
+                    "id": "751080704",
+                    "speaker": "Paimon",
+                    "text": "Hehe, parece que eles estão se divertindo. Apesar de que, você não engasgaria se comesse de cabeça para baixo assim...?"
+                },
+                {
+                    "id": "751080705",
+                    "speaker": "Player",
+                    "text": "Tenha cuidado. Não seja que nem aquela Foquinha Rotunda."
+                },
+                {
+                    "id": "751080706",
+                    "speaker": "Paimon",
+                    "text": "Ei, o que é esse tom condescendente? Paimon não é uma Foquinha Rotunda. Ela não vai ser tão boba ao ponto de comer assim."
+                },
+                {
+                    "id": "751080707",
+                    "speaker": "Player",
+                    "text": "Experimente e você saberá."
+                },
+                {
+                    "id": "751080708",
+                    "speaker": "Paimon",
+                    "text": "Ei! Paimon não vai comer assim — ela não é uma Foquinha Rotunda de qualquer forma!"
+                },
+                {
+                    "id": "751080709",
+                    "speaker": "Black Screen",
+                    "text": "A Foquinha Rotunda parece ter recuperado força suficiente para se virar e entrar no mar..."
+                },
+                {
+                    "id": "751080719",
+                    "speaker": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+                    "text": "Mmm... Rawrr!"
+                },
+                {
+                    "id": "751080710",
+                    "speaker": "Foquinha Rotunda Recuperada",
+                    "text": "Roahh! Rawr... Arr!"
+                },
+                {
+                    "id": "751080712",
+                    "speaker": "Paimon",
+                    "text": "Ah, foi embora..."
+                },
+                {
+                    "id": "751080713",
+                    "speaker": "Player",
+                    "text": "É assim que as coisas são. Quero dizer, não é como se ela fosse de Natlan."
+                },
+                {
+                    "id": "751080715",
+                    "speaker": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+                    "text": "Rooahh..."
+                },
+                {
+                    "id": "751080716",
+                    "speaker": "Paimon",
+                    "text": "#Não fique triste, {REALNAME[ID(2)|SHOWHOST(true)]}. Você se divertiu tanto agora há pouco, e vocês já são amigos!"
+                },
+                {
+                    "id": "751080717",
+                    "speaker": "Paimon",
+                    "text": "Enfim, Paimon sente que essa não vai ser a última vez que vamos ver essa Foquinha Rotunda!"
+                },
+                {
+                    "id": "751080718",
+                    "speaker": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+                    "text": "Rawr!"
+                }
+            ]
+        },
+        {
+            "id": "7510802",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "751080201",
+                    "speaker": "Paimon",
+                    "text": "Dissemos que íamos cozinhar, mas o que a gente deveria fazer?"
+                },
+                {
+                    "id": "751080202",
+                    "speaker": "Paimon",
+                    "text": "Uma Foquinha Rotunda viva na água, então deve comer peixe, certo? Vamos fazer um prato de peixe, então."
+                },
+                {
+                    "id": "751080203",
+                    "speaker": "Paimon",
+                    "text": "#Se quisermos que a Foquinha Rotunda e {REALNAME[ID(2)|SHOWHOST(true)]} comam bem... A especialidade de Natlan Peixe Grelhado em Molho de Menta deve ser uma boa escolha.",
+                    "choices": [
+                        {
+                            "id": "751080204",
+                            "text": "Ah, esse aí eu faço com um braço amarrado nas coisas.",
+                            "response": [
+                                {
+                                    "id": "751080206",
+                                    "speaker": "Paimon",
+                                    "text": "Tudo bem, vamos começar então. Paimon vai te dar umas dicas durante!",
+                                    "choices": [
+                                        {
+                                            "id": "751080207",
+                                            "text": "Fazer cortes mais fundos.",
+                                            "response": [
+                                                {
+                                                    "id": "751080208",
+                                                    "speaker": "Paimon",
+                                                    "text": "Isso mesmo! Quanto mais profundo o corte, mais fundo o sabor entra!",
+                                                    "choices": [
+                                                        {
+                                                            "id": "751080211",
+                                                            "text": "Um pouco mais de sal, um pouco mais de felicidade!",
+                                                            "response": [
+                                                                {
+                                                                    "id": "751080212",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "#Hmm, o sabor é bem complexo. {REALNAME[ID(2)|SHOWHOST(true)]} e a Foquinha Rotunda vão adorar!",
+                                                                    "choices": [
+                                                                        {
+                                                                            "id": "751080215",
+                                                                            "text": "Molho de menta. Quanto mais, melhor.",
+                                                                            "response": [
+                                                                                {
+                                                                                    "id": "751080216",
+                                                                                    "speaker": "Paimon",
+                                                                                    "text": "Hehe, esse sabor refrescante vai ser sensacional!",
+                                                                                    "choices": [
+                                                                                        {
+                                                                                            "id": "751080219",
+                                                                                            "text": "Pimenta é indispensável.",
+                                                                                            "response": [
+                                                                                                {
+                                                                                                    "id": "751080220",
+                                                                                                    "speaker": "Paimon",
+                                                                                                    "text": "A quantidade exata de picância — suficiente para despertar o apetite!",
+                                                                                                    "choices": [
+                                                                                                        {
+                                                                                                            "id": "751080223",
+                                                                                                            "text": "Grelhado em fogo alto: crocante por fora, macio por dentro!",
+                                                                                                            "response": [
+                                                                                                                {
+                                                                                                                    "id": "751080224",
+                                                                                                                    "speaker": "Paimon",
+                                                                                                                    "text": "Hehehe, parece tão delicioso, Paimon já tá salivando."
+                                                                                                                },
+                                                                                                                {
+                                                                                                                    "id": "751080227",
+                                                                                                                    "speaker": "Black Screen",
+                                                                                                                    "text": "#Após um esplêndido processo culinário, o peixe especial que você grelhou para {REALNAME[ID(2)|SHOWHOST(true)]} e a Foquinha Rotunda está pronto..."
+                                                                                                                }
+                                                                                                            ]
+                                                                                                        },
+                                                                                                        {
+                                                                                                            "id": "751080225",
+                                                                                                            "text": "Assado lentamente — macio e suculento!",
+                                                                                                            "response": [
+                                                                                                                {
+                                                                                                                    "id": "751080226",
+                                                                                                                    "speaker": "Paimon",
+                                                                                                                    "text": "Hehe, legal, é seu peixe grelhado especial. Talvez a gente consiga vender nas ruas no futuro!"
+                                                                                                                }
+                                                                                                            ]
+                                                                                                        }
+                                                                                                    ]
+                                                                                                }
+                                                                                            ]
+                                                                                        },
+                                                                                        {
+                                                                                            "id": "751080221",
+                                                                                            "text": "Animais de Fontaine podem ser alérgicos a comida picante...",
+                                                                                            "response": [
+                                                                                                {
+                                                                                                    "id": "751080222",
+                                                                                                    "speaker": "Paimon",
+                                                                                                    "text": "Mas iria parecer que tem algo faltando se não tivesse nenhuma pimenta, então por que não adicionar só um pouco?",
+                                                                                                    "choices": [
+                                                                                                        {
+                                                                                                            "id": "751080223",
+                                                                                                            "text": "Grelhado em fogo alto: crocante por fora, macio por dentro!"
+                                                                                                        },
+                                                                                                        {
+                                                                                                            "id": "751080225",
+                                                                                                            "text": "Assado lentamente — macio e suculento!"
+                                                                                                        }
+                                                                                                    ]
+                                                                                                }
+                                                                                            ]
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        {
+                                                                            "id": "751080217",
+                                                                            "text": "Será que um animal aquático como a Foquinha Rotunda tem medo de menta?",
+                                                                            "response": [
+                                                                                {
+                                                                                    "id": "751080218",
+                                                                                    "speaker": "Paimon",
+                                                                                    "text": "Não é assim que isso funciona. Uma Foquinha Rotunda vai achar a superfície seca e quente, então adicionar um pouco de molho de menta deve ajudar a equilibrar, né?",
+                                                                                    "choices": [
+                                                                                        {
+                                                                                            "id": "751080219",
+                                                                                            "text": "Pimenta é indispensável."
+                                                                                        },
+                                                                                        {
+                                                                                            "id": "751080221",
+                                                                                            "text": "Animais de Fontaine podem ser alérgicos a comida picante..."
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "id": "751080213",
+                                                            "text": "O sabor tá ótimo como está. Não precisa de mais sal.",
+                                                            "response": [
+                                                                {
+                                                                    "id": "751080214",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "Sim. Ainda temos outros temperos, então não precisamos pesar a mão no sal.",
+                                                                    "choices": [
+                                                                        {
+                                                                            "id": "751080215",
+                                                                            "text": "Molho de menta. Quanto mais, melhor."
+                                                                        },
+                                                                        {
+                                                                            "id": "751080217",
+                                                                            "text": "Será que um animal aquático como a Foquinha Rotunda tem medo de menta?"
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "751080209",
+                                            "text": "Fazer cortes mais rasos.",
+                                            "response": [
+                                                {
+                                                    "id": "751080210",
+                                                    "speaker": "Paimon",
+                                                    "text": "Nada mau. Deve manter o sabor leve enquanto mantém a característica original do peixe — que a Foquinha Rotunda com certeza vai amar.",
+                                                    "choices": [
+                                                        {
+                                                            "id": "751080211",
+                                                            "text": "Um pouco mais de sal, um pouco mais de felicidade!"
+                                                        },
+                                                        {
+                                                            "id": "751080213",
+                                                            "text": "O sabor tá ótimo como está. Não precisa de mais sal."
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "751080205",
+                            "text": "Não é o meu forte, mas de boa."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "7510813",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "751081301",
+                    "speaker": "Foquinha Rotunda Enfraquecida",
+                    "text": "Aouhhh..."
+                },
+                {
+                    "id": "751081302",
+                    "speaker": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+                    "text": "Rawr?"
+                },
+                {
+                    "id": "751081303",
+                    "speaker": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+                    "text": "Awwr..."
+                },
+                {
+                    "id": "751081304",
+                    "speaker": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+                    "text": "Rawr!"
+                },
+                {
+                    "id": "751081305",
+                    "speaker": "Foquinha Rotunda Enfraquecida",
+                    "text": "Rawr?"
+                },
+                {
+                    "id": "751081306",
+                    "speaker": "Foquinha Rotunda Enfraquecida",
+                    "text": "Rawr..."
+                },
+                {
+                    "id": "751081307",
+                    "speaker": "Foquinha Rotunda Enfraquecida",
+                    "text": "Rawr!"
+                },
+                {
+                    "id": "751081308",
+                    "speaker": "Paimon",
+                    "text": "Paimon não consegue entender a conversa deles de jeito nenhum, mas parece que eles chegaram a um consenso...?",
+                    "choices": [
+                        {
+                            "id": "751081309",
+                            "text": "Está tudo bem se você não entendeu.",
+                            "response": [
+                                {
+                                    "id": "751081311",
+                                    "speaker": "Paimon",
+                                    "text": "Faz sentido. Mesmo que a Foquinha Rotunda não tivesse muita força, parecia que eles estavam muito felizes — e Paimon se sentiu feliz por eles também!"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "751081310",
+                            "text": "Apenas transmitir emoções já é o suficiente."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "7510899",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "751089901",
+                    "speaker": "Paimon",
+                    "text": ""
+                }
+            ]
+        }
+    ]
+}

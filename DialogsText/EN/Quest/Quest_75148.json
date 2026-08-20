@@ -1,0 +1,421 @@
+{
+    "quest": {
+        "id": "75148",
+        "title": "Nahuatzin's Leap",
+        "description": "Find a way to enter the volcano...",
+        "rewards": [
+            {
+                "itemId": 102,
+                "count": 300
+            },
+            {
+                "itemId": 201,
+                "count": 40
+            },
+            {
+                "itemId": 202,
+                "count": 30000
+            },
+            {
+                "itemId": 104003,
+                "count": 2
+            },
+            {
+                "itemId": 104013,
+                "count": 3
+            }
+        ],
+        "rewards_formatted": "Adventure EXP x300, Primogem x40, Mora x30000, Hero's Wit x2, Mystic Enhancement Ore x3",
+        "chapter": {
+            "icon": "UI_ChapterIcon_Natlan",
+            "id": "10240",
+            "num": "",
+            "title": "Path to the Flaming Peaks"
+        },
+        "total_dialogue_lines": 63,
+        "total_speaker_counts": {
+            "#{REALNAME[ID(2)|SHOWHOST(true)]}": 11,
+            "Paimon": 46,
+            "Player": 6
+        }
+    },
+    "talks": [
+        {
+            "id": "7514801",
+            "objective": "Go to the Skyfire Circlet",
+            "dialogues": [
+                {
+                    "id": "751480101",
+                    "speaker": "Paimon",
+                    "text": "Chosen of Dragons, O Chosen of Dragons..."
+                },
+                {
+                    "id": "751480102",
+                    "speaker": "Paimon",
+                    "text": "Ascend to the circlet's highest pinnacle — then hurl yourself into the Sacred Mountain's fire!"
+                },
+                {
+                    "id": "751480103",
+                    "speaker": "Paimon",
+                    "text": "Go forth and reveal it — break the golden seal, unveil the radiance of remnant flames unnumbered!"
+                },
+                {
+                    "id": "751480104",
+                    "speaker": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+                    "text": "Rrroar..."
+                },
+                {
+                    "id": "751480105",
+                    "speaker": "Paimon",
+                    "text": "What's wrong? Did you see a bunch of strange words again?",
+                    "choices": [
+                        {
+                            "id": "751480106",
+                            "text": "The words feel... clearer now...",
+                            "response": [
+                                {
+                                    "id": "751480108",
+                                    "speaker": "Paimon",
+                                    "text": "Oh, you mean it's because we're getting closer to the volcano?"
+                                },
+                                {
+                                    "id": "751480109",
+                                    "speaker": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+                                    "text": "Rawr!"
+                                },
+                                {
+                                    "id": "751480110",
+                                    "speaker": "Paimon",
+                                    "text": "...It's almost as if the person who's been talking to you all this time is in that mountain."
+                                },
+                                {
+                                    "id": "751480111",
+                                    "speaker": "Paimon",
+                                    "text": "Anyway, since those things are showing up as we're getting closer to the volcano, that's gotta mean we're on the right track."
+                                },
+                                {
+                                    "id": "751480112",
+                                    "speaker": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+                                    "text": "Rawr!"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "751480107",
+                            "text": "It feels like... we're getting closer..."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "7514805",
+            "objective": "",
+            "dialogues": [
+                {
+                    "id": "751480501",
+                    "speaker": "Paimon",
+                    "text": "Huh? Was that a Q—Qucusaur?"
+                },
+                {
+                    "id": "751480502",
+                    "speaker": "Paimon",
+                    "text": "Did it just grab that statue and jump... straight into the crater!?"
+                },
+                {
+                    "id": "751480503",
+                    "speaker": "Paimon",
+                    "text": "That's gotta be the volcano's mouth, right? What a view..."
+                },
+                {
+                    "id": "751480504",
+                    "speaker": "Paimon",
+                    "text": "Hmm... When we asked for directions earlier, weren't we told that there's a ton of gaseous phlogiston in the volcano's mouth?"
+                },
+                {
+                    "id": "751480505",
+                    "speaker": "Paimon",
+                    "text": "Oh wait, that's right! We can <color=#00E1FFFF>find a way to pass through gaseous phlogiston</color>, just like the Qucusaurus from back there!"
+                },
+                {
+                    "id": "751480506",
+                    "speaker": "Paimon",
+                    "text": "But, uh... *gulp* Kinda high up, aren't we?",
+                    "choices": [
+                        {
+                            "id": "751480507",
+                            "text": "Don't you worry, Paimon, I'll carry you.",
+                            "response": [
+                                {
+                                    "id": "751480508",
+                                    "speaker": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+                                    "text": "Rawr!"
+                                },
+                                {
+                                    "id": "751480509",
+                                    "speaker": "Paimon",
+                                    "text": "Err, you wanna go in too? Well... Ugh, alright. I—If that's the case, Paimon's not that scared anymore."
+                                },
+                                {
+                                    "id": "751480514",
+                                    "speaker": "Paimon",
+                                    "text": "And it's not just that we're high up — don't forget about the gaseous phlogiston!"
+                                },
+                                {
+                                    "id": "751480515",
+                                    "speaker": "Paimon",
+                                    "text": "A—Anyway, let's make sure we're all set before we go!"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "751480510",
+                            "text": "As long as you grab me just as we land...",
+                            "response": [
+                                {
+                                    "id": "751480511",
+                                    "speaker": "Paimon",
+                                    "text": "Ugh, Paimon couldn't do that! Never mind the strength problem — think about the timing!"
+                                },
+                                {
+                                    "id": "751480512",
+                                    "speaker": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+                                    "text": "Rawr!"
+                                },
+                                {
+                                    "id": "751480513",
+                                    "speaker": "Paimon",
+                                    "text": "And you too! Stop \"rawring\" along with this craziness! *sigh* ...Y'know what, now you two've gone and killed all the tension!"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "7514802",
+            "objective": "Go to the top of the Skyfire Circlet",
+            "dialogues": [
+                {
+                    "id": "751480201",
+                    "speaker": "Paimon",
+                    "text": "Huh? Was that... a Qucusaur? So, Qucusaurs really do bring the stolen statues here..."
+                },
+                {
+                    "id": "751480202",
+                    "speaker": "Paimon",
+                    "text": "Wait. Did it just grab that statue and jump... straight into the crater!?"
+                },
+                {
+                    "id": "751480203",
+                    "speaker": "Paimon",
+                    "text": "That's gotta be the volcano's mouth, right? What a view..."
+                },
+                {
+                    "id": "751480204",
+                    "speaker": "Paimon",
+                    "text": "Hmm... When we asked for directions earlier, weren't we told that there's a ton of gaseous phlogiston in the volcano's mouth?"
+                },
+                {
+                    "id": "751480205",
+                    "speaker": "Paimon",
+                    "text": "Oh wait, that's right! We can <color=#00E1FFFF>find a way to pass through gaseous phlogiston</color>, just like that Qucusaur did!"
+                },
+                {
+                    "id": "751480206",
+                    "speaker": "Paimon",
+                    "text": "But, uh... *gulp* Kinda high up, aren't we?",
+                    "choices": [
+                        {
+                            "id": "751480207",
+                            "text": "Don't worry, Paimon, I'll carry you.",
+                            "response": [
+                                {
+                                    "id": "751480208",
+                                    "speaker": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+                                    "text": "Rawr!"
+                                },
+                                {
+                                    "id": "751480209",
+                                    "speaker": "Paimon",
+                                    "text": "Err, you're all set to take the plunge too? Well... Um, alright. I—If that's the case, Paimon's not that scared anymore either."
+                                },
+                                {
+                                    "id": "751480214",
+                                    "speaker": "Paimon",
+                                    "text": "And it's not just that we're high up — don't forget about the gaseous phlogiston!"
+                                },
+                                {
+                                    "id": "751480215",
+                                    "speaker": "Paimon",
+                                    "text": "A—Anyway, let's make sure we're all set before we go!"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "751480210",
+                            "text": "As long as you grab me just as we land...",
+                            "response": [
+                                {
+                                    "id": "751480211",
+                                    "speaker": "Paimon",
+                                    "text": "Not gonna happen! Never mind the strength problem — think about how hard the timing would be!"
+                                },
+                                {
+                                    "id": "751480212",
+                                    "speaker": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+                                    "text": "Rawr!"
+                                },
+                                {
+                                    "id": "751480213",
+                                    "speaker": "Paimon",
+                                    "text": "And you too! Stop \"rawring\" along with this craziness! *sigh* ...Y'know what, now you two've gone and killed all the tension!"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "7514808",
+            "objective": "Talk to Paimon",
+            "dialogues": [
+                {
+                    "id": "751480601",
+                    "speaker": "Paimon",
+                    "text": "Phew. We finally made it. Paimon didn't think it'd be so high up... but at least it's not as cold as Paimon thought it would be."
+                },
+                {
+                    "id": "751480602",
+                    "speaker": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+                    "text": "Grroah, rrohh, rowrr!"
+                },
+                {
+                    "id": "751480603",
+                    "speaker": "Paimon",
+                    "text": "Uh-huh, says the meaty guy with the thick skin!"
+                },
+                {
+                    "id": "751480604",
+                    "speaker": "Paimon",
+                    "text": "That's gotta be the volcano's mouth, right? What a view..."
+                },
+                {
+                    "id": "751480605",
+                    "speaker": "Paimon",
+                    "text": "Hmm... When we asked for directions earlier, weren't we told that there's a ton of gaseous phlogiston in the volcano's mouth?"
+                },
+                {
+                    "id": "751480606",
+                    "speaker": "Paimon",
+                    "text": "Looks like we need to find a way down."
+                },
+                {
+                    "id": "751480607",
+                    "speaker": "Paimon",
+                    "text": "Hmm, speaking of which, what's that? It looks like... some kinda strange statue."
+                },
+                {
+                    "id": "751480608",
+                    "speaker": "Paimon",
+                    "text": "Oh! Could this statue be the one that Kimosi said a Qucusaurus stole?"
+                },
+                {
+                    "id": "751480609",
+                    "speaker": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+                    "text": "Rawr!"
+                }
+            ]
+        },
+        {
+            "id": "7514807",
+            "objective": "Talk to Paimon",
+            "dialogues": []
+        },
+        {
+            "id": "7514803",
+            "objective": "Leap into the crater",
+            "dialogues": []
+        },
+        {
+            "id": "7514807",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "751480701",
+                    "speaker": "Paimon",
+                    "text": "Phew. We're finally up here. Paimon didn't think it'd be so high up... but at the same time, it's not as cold as Paimon thought."
+                },
+                {
+                    "id": "751480702",
+                    "speaker": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+                    "text": "Grroah, rrohh, rowrr!"
+                },
+                {
+                    "id": "751480703",
+                    "speaker": "Paimon",
+                    "text": "Uh-huh, says the meaty guy with the thick skin!"
+                },
+                {
+                    "id": "751480704",
+                    "speaker": "Paimon",
+                    "text": "That's gotta be the volcano's mouth, right? What a view..."
+                },
+                {
+                    "id": "751480705",
+                    "speaker": "Paimon",
+                    "text": "Hmm... When we asked for directions earlier, weren't we told that there's a ton of gaseous phlogiston in the volcano's mouth?"
+                },
+                {
+                    "id": "751480706",
+                    "speaker": "Paimon",
+                    "text": "Looks like we need to find a way down."
+                },
+                {
+                    "id": "751480707",
+                    "speaker": "Paimon",
+                    "text": "Hmm, speaking of which, what's that? It looks like... some strange statue."
+                },
+                {
+                    "id": "751480708",
+                    "speaker": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+                    "text": "Rawr!"
+                }
+            ]
+        },
+        {
+            "id": "7514898",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "751489801",
+                    "speaker": "Paimon",
+                    "text": "Hey! That Qucusaurus... looks like it flew off holding something strange. Was that a statue?"
+                },
+                {
+                    "id": "751489802",
+                    "speaker": "Paimon",
+                    "text": "Whoa... Did it just... Did it jump into the crater?"
+                }
+            ]
+        },
+        {
+            "id": "7514899",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "751489901",
+                    "speaker": "Paimon",
+                    "text": "Huh, that Qucusaurus... Paimon didn't believe it when those tribespeople said Qucusaurs were stealing statues from the ruins, but it looks like it's true..."
+                },
+                {
+                    "id": "751489902",
+                    "speaker": "Paimon",
+                    "text": "Whoa... Did it just... Did it jump into the crater?"
+                }
+            ]
+        }
+    ]
+}

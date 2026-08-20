@@ -1,0 +1,772 @@
+{
+    "quest": {
+        "id": "12000",
+        "title": "Justice, for Books' Sake",
+        "description": "Paimon wants to know whether the Wanwen Bookhouse has the Liyue volume of the Teyvat Travel Guide in stock.",
+        "rewards": [
+            {
+                "itemId": 102,
+                "count": 350
+            },
+            {
+                "itemId": 202,
+                "count": 19800
+            },
+            {
+                "itemId": 104003,
+                "count": 2
+            },
+            {
+                "itemId": 104013,
+                "count": 4
+            }
+        ],
+        "rewards_formatted": "Adventure EXP x350, Mora x19800, Hero's Wit x2, Mystic Enhancement Ore x4",
+        "chapter": {
+            "icon": "UI_ChapterIcon_Xingqiu",
+            "id": "2008",
+            "num": "Fabulae Textile Chapter: Act I",
+            "title": "Bookworm Swordsman"
+        },
+        "total_dialogue_lines": 128,
+        "total_speaker_counts": {
+            "???": 2,
+            "Chang the Ninth": 20,
+            "Changhu": 19,
+            "Jifang": 8,
+            "Paimon": 21,
+            "Player": 21,
+            "Xingqiu": 37
+        }
+    },
+    "talks": [
+        {
+            "id": "1200001",
+            "objective": "Go to the Wanwen Bookhouse in Liyue Harbor",
+            "dialogues": []
+        },
+        {
+            "id": "1200003",
+            "objective": "Ask Jifang about the travel guide",
+            "dialogues": [
+                {
+                    "id": "120000301",
+                    "speaker": "Jifang",
+                    "text": "Feel free to take a look around, there's no obligation to buy."
+                },
+                {
+                    "id": "120000302",
+                    "speaker": "Paimon",
+                    "text": "We're looking for the Liyue volume of the Teyvat Travel Guide. Do you have it in stock?"
+                },
+                {
+                    "id": "120000303",
+                    "speaker": "Jifang",
+                    "text": "Sorry dear, we stopped stocking that a very long time ago. It just wasn't selling."
+                },
+                {
+                    "id": "120000304",
+                    "speaker": "Paimon",
+                    "text": "Huh!? But the Mondstadt volume was so interesting! Bummer..."
+                },
+                {
+                    "id": "120000305",
+                    "speaker": "Jifang",
+                    "text": "The thing is, the author made it too personal, and the result wasn't really much of a guide."
+                },
+                {
+                    "id": "120000306",
+                    "speaker": "Jifang",
+                    "text": "It barely sold any copies, and the few travelers that did buy it made complaints afterward.",
+                    "choices": [
+                        {
+                            "id": "120000307",
+                            "text": "Too much passion, not enough clarity?",
+                            "response": [
+                                {
+                                    "id": "120000309",
+                                    "speaker": "Paimon",
+                                    "text": "Well, that's a shame. The Mondstadt volume was a good read, even just as an adventurer's diary."
+                                },
+                                {
+                                    "id": "120000310",
+                                    "speaker": "Jifang",
+                                    "text": "The fact remains that I don't have it in stock. If you must read it, try your luck at Chang the Ninth's place."
+                                },
+                                {
+                                    "id": "120000311",
+                                    "speaker": "Paimon",
+                                    "text": "Who's Chang the Ninth?"
+                                },
+                                {
+                                    "id": "120000312",
+                                    "speaker": "Jifang",
+                                    "text": "A book collector who lives in Qingce Village. He's a complete grouch — but he will behave himself if the conversation is about books."
+                                },
+                                {
+                                    "id": "120000313",
+                                    "speaker": "Jifang",
+                                    "text": "He was a regular customer here back when he lived in Liyue Harbor, and I still send him the odd out-of-print book or two every now and then."
+                                },
+                                {
+                                    "id": "120000324",
+                                    "speaker": "Jifang",
+                                    "text": "The place where he lives is difficult to get to. You need to head to the mountain just behind Qingce Village, then follow the wooden walkway all the way up..."
+                                },
+                                {
+                                    "id": "120000314",
+                                    "speaker": "???",
+                                    "text": "Did somebody say \"out-of-print books\"?"
+                                },
+                                {
+                                    "id": "120000315",
+                                    "speaker": "???",
+                                    "text": "Is there a chance that volume six of \"Legend of the Shattered Halberd\" is also in his collection?",
+                                    "choices": [
+                                        {
+                                            "id": "120000316",
+                                            "text": "Who are you?",
+                                            "response": [
+                                                {
+                                                    "id": "120000318",
+                                                    "speaker": "Xingqiu",
+                                                    "text": "Apologies my liege, where are my manners? My name is Xingqiu, a humble literature enthusiast who happened to be passing by."
+                                                },
+                                                {
+                                                    "id": "120000319",
+                                                    "speaker": "Xingqiu",
+                                                    "text": "Since you and I are both in search of lost books, what say we travel together to Mt. Qingce and pay a visit to Chang the Ninth?",
+                                                    "choices": [
+                                                        {
+                                                            "id": "120000320",
+                                                            "text": "Makes sense. Please lead the way.",
+                                                            "response": [
+                                                                {
+                                                                    "id": "120000321",
+                                                                    "speaker": "Xingqiu",
+                                                                    "text": "My pleasure, fellow book lover!"
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "id": "120000322",
+                                                            "text": "I don't know, it sounds like quite a trek...",
+                                                            "response": [
+                                                                {
+                                                                    "id": "120000323",
+                                                                    "speaker": "Xingqiu",
+                                                                    "text": "Just take it as a chance to get some respite from the hustle and bustle of Liyue Harbor. We all need that once in a while."
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "120000317",
+                                            "text": "You shouldn't sneak up on people like that!"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "120000308",
+                            "text": "Content was a little too wild, huh?"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "1200004",
+            "objective": "Go to Qingce Village and visit Chang the Ninth",
+            "dialogues": []
+        },
+        {
+            "id": "1200005",
+            "objective": "Talk to Chang the Ninth",
+            "dialogues": [
+                {
+                    "id": "120000501",
+                    "speaker": "Chang the Ninth",
+                    "text": "*sigh* The heavens are smiting me... Smiting me to smithereens..."
+                },
+                {
+                    "id": "120000502",
+                    "speaker": "Player",
+                    "text": "Excuse me, are you Chang the Ninth?"
+                },
+                {
+                    "id": "120000503",
+                    "speaker": "Chang the Ninth",
+                    "text": "Uh-huh. And what do you want? Come on, spit it out!"
+                },
+                {
+                    "id": "120000504",
+                    "speaker": "Paimon",
+                    "text": "We've heard you've got tons of old books lying around, and we wanna borrow the Liyue volume of the Teyvat Travel Guide."
+                },
+                {
+                    "id": "120000505",
+                    "speaker": "Chang the Ninth",
+                    "text": "Hmph. Don't get me started on the topic of my books..."
+                },
+                {
+                    "id": "120000506",
+                    "speaker": "Chang the Ninth",
+                    "text": "After the Chasm was sealed off, the family mining business started going south. Then, the Fatui started working to sabotage me..."
+                },
+                {
+                    "id": "120000507",
+                    "speaker": "Chang the Ninth",
+                    "text": "To pay off my debts, I had no choice but to pawn off my beloved book collection. Every last book! Do you have any idea what that means!?",
+                    "choices": [
+                        {
+                            "id": "120000508",
+                            "text": "You're sad you've got nothing to read now?",
+                            "response": [
+                                {
+                                    "id": "120000510",
+                                    "speaker": "Chang the Ninth",
+                                    "text": "Wrong! That was my life's work! I devoted my entire life to curating, collecting, caring for them... And now they're gone! Gone, I tell you!"
+                                },
+                                {
+                                    "id": "120000511",
+                                    "speaker": "Chang the Ninth",
+                                    "text": "*sigh* It's useless ranting and raving at you like this. All I can do is try to save enough Mora to buy them back."
+                                },
+                                {
+                                    "id": "120000512",
+                                    "speaker": "Chang the Ninth",
+                                    "text": "Unless you have other business here, I'm done talking to you. Goodbye! Off you go! Go on, go!"
+                                },
+                                {
+                                    "id": "120000513",
+                                    "speaker": "Xingqiu",
+                                    "text": "Please tell me that you didn't pawn volume six of Legend of the Shattered Halberd?"
+                                },
+                                {
+                                    "id": "120000514",
+                                    "speaker": "Chang the Ninth",
+                                    "text": "Legend of the Shattered Halberd... There's a title I haven't heard in a long time. You have good taste, my boy!"
+                                },
+                                {
+                                    "id": "120000515",
+                                    "speaker": "Paimon",
+                                    "text": "What, but we don't?"
+                                },
+                                {
+                                    "id": "120000516",
+                                    "speaker": "Chang the Ninth",
+                                    "text": "That work was an epoch-defining masterpiece. Granted, it was almost unknown at the time it was published..."
+                                },
+                                {
+                                    "id": "120000517",
+                                    "speaker": "Chang the Ninth",
+                                    "text": "But over time it was the work that came to define the genre of martial arts novels — and sparked a plethora of imitation works."
+                                },
+                                {
+                                    "id": "120000518",
+                                    "speaker": "Chang the Ninth",
+                                    "text": "Barely any copies of the first edition were ever printed."
+                                },
+                                {
+                                    "id": "120000519",
+                                    "speaker": "Xingqiu",
+                                    "text": "The later edition inexplicably went out of print almost as soon as it was released — a shame given what it allegedly added to the original story."
+                                },
+                                {
+                                    "id": "120000520",
+                                    "speaker": "Chang the Ninth",
+                                    "text": "Yes! That's right, how did I forget? The original-edition sixth volume of that work is so rare, I could never bring myself to pawn it no matter how much I needed the money."
+                                },
+                                {
+                                    "id": "120000521",
+                                    "speaker": "Xingqiu",
+                                    "text": "You mean— You mean you still have it!?"
+                                },
+                                {
+                                    "id": "120000522",
+                                    "speaker": "Chang the Ninth",
+                                    "text": "Yes. It is my one and only remaining treasure—"
+                                },
+                                {
+                                    "id": "120000523",
+                                    "speaker": "Changhu",
+                                    "text": "Ay! Chang!"
+                                },
+                                {
+                                    "id": "120000524",
+                                    "speaker": "Changhu",
+                                    "text": "You've got some nerve keeping me and my boss waiting like this. I need an answer! Will you sell the Cor Lapis or not?"
+                                },
+                                {
+                                    "id": "120000525",
+                                    "speaker": "Changhu",
+                                    "text": "I'm sure you don't need me to remind you that if you mess with Gentry Maocai, you're messing with the Fatui!"
+                                },
+                                {
+                                    "id": "120000526",
+                                    "speaker": "Chang the Ninth",
+                                    "text": "*sigh* You again..."
+                                },
+                                {
+                                    "id": "120000527",
+                                    "speaker": "Chang the Ninth",
+                                    "text": "But you know I can't afford to give a seventy percent discount on the price... I'd never be able to buy my collection back—"
+                                },
+                                {
+                                    "id": "120000528",
+                                    "speaker": "Changhu",
+                                    "text": "That's your business. The question is, do you want your books or do you want food on your plate? Perhaps you'd like to take your books with you to an early grave?"
+                                },
+                                {
+                                    "id": "120000529",
+                                    "speaker": "Chang the Ninth",
+                                    "text": "*Grr* You...*sigh*"
+                                },
+                                {
+                                    "id": "120000530",
+                                    "speaker": "Xingqiu",
+                                    "text": "Whoa there, friend. Come on. This gentleman is either willing to make a deal or he's not. You can't force him to sell against his will."
+                                },
+                                {
+                                    "id": "120000531",
+                                    "speaker": "Changhu",
+                                    "text": "Just who do you think you are? Keep your nose out of other people's business!"
+                                },
+                                {
+                                    "id": "120000532",
+                                    "speaker": "Xingqiu",
+                                    "text": "My liege, I am but one who comes to the aid of this gentleman in his moment of need. I am Xingqiu, disciple of the Guhua Clan."
+                                },
+                                {
+                                    "id": "120000533",
+                                    "speaker": "Changhu",
+                                    "text": "A-hahahahahahaha..."
+                                },
+                                {
+                                    "id": "120000534",
+                                    "speaker": "Changhu",
+                                    "text": "\"Guhua Clan\"! Did you hear this clown? He thinks he's a Guhua master! In this day and age! Hahahahaha..."
+                                },
+                                {
+                                    "id": "120000535",
+                                    "speaker": "Changhu",
+                                    "text": "There was me thinking that the last granddads of Guhua had keeled over and died by now. Who are you supposed to be then, some sort of Guhua messiah!?"
+                                },
+                                {
+                                    "id": "120000536",
+                                    "speaker": "Xingqiu",
+                                    "text": "Justice is blind to our backgrounds, my friend. That just makes me someone trying to do the right thing. But you? The weasel who does the tiger's bidding may be less powerful than his master, but he is no less guilty."
+                                },
+                                {
+                                    "id": "120000537",
+                                    "speaker": "Changhu",
+                                    "text": "Get a load of this guy! Just you wait, you'll be sorry you crossed me!"
+                                },
+                                {
+                                    "id": "120000538",
+                                    "speaker": "Changhu",
+                                    "text": "And you, Chang... you're selling that Cor Lapis whether you like it or not!"
+                                },
+                                {
+                                    "id": "120000539",
+                                    "speaker": "Chang the Ninth",
+                                    "text": "*sigh* Oh, how the wolves prey upon the fallen tiger! My days are numbered."
+                                },
+                                {
+                                    "id": "120000540",
+                                    "speaker": "Xingqiu",
+                                    "text": "...So just to come back to what we were talking about earlier, could I get a yea or nay about borrowing that book...?",
+                                    "choices": [
+                                        {
+                                            "id": "120000541",
+                                            "text": "Geez Louise, give the man a minute!",
+                                            "response": [
+                                                {
+                                                    "id": "120000543",
+                                                    "speaker": "Chang the Ninth",
+                                                    "text": "Oh, what does it matter now? I can't expect anybody to care about me anymore. But since you did stick up for me, please just take this book and leave me in peace."
+                                                },
+                                                {
+                                                    "id": "120000544",
+                                                    "speaker": "Xingqiu",
+                                                    "text": "Three long years I have waited for this day! Words cannot express my gratitude... I, Xingqiu, vow to repay this great act of generosity!"
+                                                },
+                                                {
+                                                    "id": "120000545",
+                                                    "speaker": "Chang the Ninth",
+                                                    "text": "Alright, give it a rest! Just bring it back when you're finished. Sorry, but I'm not about to put my hopes in some self-professed Guhua disciple."
+                                                },
+                                                {
+                                                    "id": "120000546",
+                                                    "speaker": "Paimon",
+                                                    "text": "Hey! Where are you going!? We've still got a job to do over here!"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "120000542",
+                                            "text": "Two words: situational awareness..."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "120000509",
+                            "text": "You're bored now that you've got nothing to read?"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "1200006",
+            "objective": "Look for Xingqiu after he left with the book",
+            "dialogues": [
+                {
+                    "id": "120000601",
+                    "speaker": "Paimon",
+                    "text": "So you like reading, huh? Mr. Five-Second Hero?"
+                },
+                {
+                    "id": "120000602",
+                    "speaker": "Xingqiu",
+                    "text": "Ho-ho, amazing... I NEVER saw that coming..."
+                },
+                {
+                    "id": "120000603",
+                    "speaker": "Paimon",
+                    "text": "Hello! Xingqiu! Anybody in there?"
+                },
+                {
+                    "id": "120000604",
+                    "speaker": "Xingqiu",
+                    "text": "No wonder this book is so highly sought after..."
+                },
+                {
+                    "id": "120000608",
+                    "speaker": "Paimon",
+                    "text": "UGH!",
+                    "choices": [
+                        {
+                            "id": "120000605",
+                            "text": "That guy back at Chang the Ninth's was pretty bossy...",
+                            "response": [
+                                {
+                                    "id": "120000607",
+                                    "speaker": "Paimon",
+                                    "text": "How can they bully poor old Chang the Ninth like this, forcing him to sell his ore for dirt cheap? It's daylight robbery, pure and simple!",
+                                    "choices": [
+                                        {
+                                            "id": "120000609",
+                                            "text": "You and I have got to find a way to help Chang the Ninth!",
+                                            "response": [
+                                                {
+                                                    "id": "120000610",
+                                                    "speaker": "Xingqiu",
+                                                    "text": "Don't forget me. I'm in, too."
+                                                },
+                                                {
+                                                    "id": "120000613",
+                                                    "speaker": "Paimon",
+                                                    "text": "Oh, so NOW you can hear what we're saying!"
+                                                },
+                                                {
+                                                    "id": "120000614",
+                                                    "speaker": "Xingqiu",
+                                                    "text": "The reason I borrowed this book is that it would be a real pity if Chang the Ninth ended up having to pawn it."
+                                                },
+                                                {
+                                                    "id": "120000615",
+                                                    "speaker": "Xingqiu",
+                                                    "text": "And I meant every word I said to Chang the Ninth. I will return his act of kindness. It is the just thing to do."
+                                                },
+                                                {
+                                                    "id": "120000616",
+                                                    "speaker": "Xingqiu",
+                                                    "text": "I will be custodian of this book, and I will also help find a way to buy back the rest of his collection.",
+                                                    "choices": [
+                                                        {
+                                                            "id": "120000617",
+                                                            "text": "You already have a plan, don't you?",
+                                                            "response": [
+                                                                {
+                                                                    "id": "120000619",
+                                                                    "speaker": "Xingqiu",
+                                                                    "text": "Of course I do. An initial plan, anyway. I still need to work out the details."
+                                                                },
+                                                                {
+                                                                    "id": "120000620",
+                                                                    "speaker": "Xingqiu",
+                                                                    "text": "Give me a second to reflect. It shan't take but a moment..."
+                                                                },
+                                                                {
+                                                                    "id": "120000621",
+                                                                    "speaker": "Changhu",
+                                                                    "text": "You're still here!? What is this, a game to you? You think no one's really gonna get hurt?"
+                                                                },
+                                                                {
+                                                                    "id": "120000622",
+                                                                    "speaker": "Changhu",
+                                                                    "text": "Huh. I gotta hand it to the Goofball Clan... What you lack in numbers and talent, you make up for in guts!"
+                                                                },
+                                                                {
+                                                                    "id": "120000623",
+                                                                    "speaker": "Changhu",
+                                                                    "text": "Oh, I'm sorry — did I say Goofball Clan? I meant Guhua Clan... That's what you goofballs call it, right? Hahahahaha..."
+                                                                },
+                                                                {
+                                                                    "id": "120000624",
+                                                                    "speaker": "Xingqiu",
+                                                                    "text": "There's a saying that goes: \"The insect that shakes the oak tree ludicrously overestimates its ability.\""
+                                                                },
+                                                                {
+                                                                    "id": "120000625",
+                                                                    "speaker": "Changhu",
+                                                                    "text": "Quit quoting proverbs at me, you buffoon!"
+                                                                },
+                                                                {
+                                                                    "id": "120000626",
+                                                                    "speaker": "Xingqiu",
+                                                                    "text": "Please leave this place. I will not tolerate an attempt to coerce an honest trader — especially when the one you seek to threaten is one to whom I owe a debt of gratitude."
+                                                                },
+                                                                {
+                                                                    "id": "120000627",
+                                                                    "speaker": "Changhu",
+                                                                    "text": "It's cute that you wanna stick your neck out for Chang, and all..."
+                                                                },
+                                                                {
+                                                                    "id": "120000628",
+                                                                    "speaker": "Changhu",
+                                                                    "text": "But you picked the wrong time, you little punk! I brought the Fatui to back me up. A whole army of your little Guhua buddies wouldn't be able to help you now!"
+                                                                },
+                                                                {
+                                                                    "id": "120000629",
+                                                                    "speaker": "Xingqiu",
+                                                                    "text": "I may be young, my liege, but the path I have chosen makes me no stranger to conflict. Why should I cower in the face of evil?"
+                                                                },
+                                                                {
+                                                                    "id": "120000630",
+                                                                    "speaker": "Changhu",
+                                                                    "text": "Great speech. But now it's time for you to learn your lesson!"
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "id": "120000618",
+                                                            "text": "You don't have a plan at all, do you?"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "120000611",
+                                            "text": "So I guess we're scrapping Operation: Liyue Travel Guide?",
+                                            "response": [
+                                                {
+                                                    "id": "120000612",
+                                                    "speaker": "Xingqiu",
+                                                    "text": "Why do you give up on your book search so lightly?"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "120000606",
+                            "text": "That bossy guy back at Chang's — sounds like he's working for a \"Gentry Maocai.\""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "1200009",
+            "objective": "Defeat the attacking Fatui",
+            "dialogues": []
+        },
+        {
+            "id": "1200011",
+            "objective": "Defeat the attacking Fatui",
+            "dialogues": []
+        },
+        {
+            "id": "1200010",
+            "objective": "Defeat the attacking Fatui",
+            "dialogues": [
+                {
+                    "id": "120001001",
+                    "speaker": "Changhu",
+                    "text": "I thought that was just a regular pendant you were wearing, not a Vision!"
+                },
+                {
+                    "id": "120001002",
+                    "speaker": "Changhu",
+                    "text": "You won this round, but you'd better watch your back! This isn't over!"
+                },
+                {
+                    "id": "120001022",
+                    "speaker": "Xingqiu",
+                    "text": "Would it be too much to hope they've learned their lesson?",
+                    "choices": [
+                        {
+                            "id": "120001003",
+                            "text": "So, you're a Vision bearer!",
+                            "response": [
+                                {
+                                    "id": "120001004",
+                                    "speaker": "Xingqiu",
+                                    "text": "Yes, though I try to avoid using it. I dislike the unfair advantage it gives me against my opponents."
+                                },
+                                {
+                                    "id": "120001008",
+                                    "speaker": "Paimon",
+                                    "text": "They've gone for now, but they'll be back looking to cause more trouble before long."
+                                },
+                                {
+                                    "id": "120001009",
+                                    "speaker": "Xingqiu",
+                                    "text": "I'll see to it that no harm comes to those who show me kindness. There is a just and an unjust way to do business, and I will ensure the matter is resolved satisfactorily."
+                                },
+                                {
+                                    "id": "120001010",
+                                    "speaker": "Xingqiu",
+                                    "text": "It's not like the Fatui to pick sides in a business dispute. But the confident demeanor of their errand boy suggests there is substance to his words..."
+                                },
+                                {
+                                    "id": "120001011",
+                                    "speaker": "Xingqiu",
+                                    "text": "There must be a deeper level of collusion at work here."
+                                },
+                                {
+                                    "id": "120001012",
+                                    "speaker": "Xingqiu",
+                                    "text": "He mentioned Gentry Maocai. I know this name... he has a stately residence in Liyue Harbor. Maybe the two of you could go and investigate."
+                                },
+                                {
+                                    "id": "120001013",
+                                    "speaker": "Paimon",
+                                    "text": "That idea works... But what are you gonna do?"
+                                },
+                                {
+                                    "id": "120001014",
+                                    "speaker": "Xingqiu",
+                                    "text": "Me? I have other things to look into. Let me see... Let us meet at Yujing Terrace in Liyue Harbor in a bit."
+                                },
+                                {
+                                    "id": "120001015",
+                                    "speaker": "Paimon",
+                                    "text": "You really have stuff to do? Are you sure you're not just using us as your errand runners?"
+                                },
+                                {
+                                    "id": "120001016",
+                                    "speaker": "Xingqiu",
+                                    "text": "Wow... So that's how that turned out! This whole passage is just... extraordinary!"
+                                },
+                                {
+                                    "id": "120001017",
+                                    "speaker": "Paimon",
+                                    "text": "ARGH! This guy is SO ANNOYING! Paimon just wants to slap him right in his stupid face!",
+                                    "choices": [
+                                        {
+                                            "id": "120001018",
+                                            "text": "First let's help Chang the Ninth.",
+                                            "response": [
+                                                {
+                                                    "id": "120001020",
+                                                    "speaker": "Paimon",
+                                                    "text": "Hmph. FINE! But as per tradition, Paimon gets to pick an ugly nickname for him!"
+                                                },
+                                                {
+                                                    "id": "120001021",
+                                                    "speaker": "Paimon",
+                                                    "text": "From now on he shall be known as... Guhua Geek!"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "120001019",
+                                            "text": "Xingqiu's vengeance may not be swift, but it will surely come."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "120001005",
+                            "text": "More to Guhua than meets the eye, huh!",
+                            "response": [
+                                {
+                                    "id": "120001006",
+                                    "speaker": "Xingqiu",
+                                    "text": "N—No, no you misunderstand. That fellow has a foul mouth to be sure, but his assessment of the state of the Guhua Clan is, well... not exactly incorrect, I suppose. *sigh*"
+                                },
+                                {
+                                    "id": "120001007",
+                                    "speaker": "Xingqiu",
+                                    "text": "Though I long to restore Guhua to its former glory, it is no easy task."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "1200002",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "120000201",
+                    "speaker": "Paimon",
+                    "text": "Wanwen Bookhouse... Guess this is where we go to buy books in Liyue."
+                },
+                {
+                    "id": "120000202",
+                    "speaker": "Paimon",
+                    "text": "Should we ask here if they have a copy of the Liyue volume of the Teyvat Travel Guide? It's super-duper interesting!"
+                }
+            ]
+        },
+        {
+            "id": "1200042",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "120004201",
+                    "speaker": "Xingqiu",
+                    "text": "I've had my heart set on getting hold of a copy of Legend of the Shattered Halberd volume six for the longest time now."
+                },
+                {
+                    "id": "120004202",
+                    "speaker": "Xingqiu",
+                    "text": "Frankly, I'd be willing to do whatever it takes to get my hands on that book."
+                }
+            ]
+        },
+        {
+            "id": "6100451",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "610045101",
+                    "speaker": "Xingqiu",
+                    "text": "Hahaha, genius; pure genius! Perhaps a slightly unconventional take on chivalry, though..."
+                },
+                {
+                    "id": "610045102",
+                    "speaker": "Paimon",
+                    "text": "He can't hear a single word we're saying..."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,873 @@
+{
+    "quest": {
+        "id": "12020",
+        "title": "Turismo em Watatsumi",
+        "description": "A guerra acabou, e você recebeu uma carta de Kokomi dizendo que a Ilha Watatsumi terá um banquete da vitória, e gostaria que você participasse. Entretanto, quando você chega na Ilha Watatsumi, você descobre que algo está de errado no local...",
+        "rewards": [
+            {
+                "itemId": 102,
+                "count": 400
+            },
+            {
+                "itemId": 202,
+                "count": 27825
+            },
+            {
+                "itemId": 104003,
+                "count": 3
+            },
+            {
+                "itemId": 104013,
+                "count": 6
+            }
+        ],
+        "rewards_formatted": "EXP de Aventura x400, Mora x27825, EXP do Herói x3, Minério de Refinamento Místico x6",
+        "chapter": {
+            "icon": "UI_ChapterIcon_Kokomi",
+            "id": "2024",
+            "num": "Capítulo de Dracaena Somnolenta: Ato I",
+            "title": "Sonhos do Guerreiro como o Rejuvenescer da Grama da Primavera"
+        },
+        "total_dialogue_lines": 147,
+        "total_speaker_counts": {
+            "Arisawa": 8,
+            "Denjirou": 11,
+            "Gorou": 22,
+            "Koutoku": 6,
+            "Matsuda": 5,
+            "Naruse": 9,
+            "Paimon": 28,
+            "Player": 14,
+            "Sangonomiya Kokomi": 20,
+            "Soldado Fatui": 3,
+            "Toshihiko": 2,
+            "Tsuneo": 6,
+            "Uchimura": 5,
+            "Yoshihisa": 8
+        }
+    },
+    "talks": [
+        {
+            "id": "1202001",
+            "objective": "Vá até o local acordado na Ilha Watatsumi",
+            "dialogues": [
+                {
+                    "id": "120200101",
+                    "speaker": "Gorou",
+                    "text": "Tivemos muita sorte que você estava aqui. Não teríamos como impedir a fuga deles sem você."
+                },
+                {
+                    "id": "120200102",
+                    "speaker": "Paimon",
+                    "text": "O que é isso que você está segurando? São as diretivas da Kokomi?"
+                },
+                {
+                    "id": "120200103",
+                    "speaker": "Paimon",
+                    "text": "Deixe Paimon ver... Uau, isso é um livro inteiro! São TODAS as diretivas da Kokomi?"
+                },
+                {
+                    "id": "120200104",
+                    "speaker": "Gorou",
+                    "text": "Ok. Sim. Bem, não, nem todas elas - tenho mais cinco volumes comigo."
+                },
+                {
+                    "id": "120200105",
+                    "speaker": "Paimon",
+                    "text": "Você está falando sério!?"
+                },
+                {
+                    "id": "120200106",
+                    "speaker": "Gorou",
+                    "text": "Vossa Excelência sempre planeja para cada cenário. Além disso, estas são suas Diretivas Operacionais Gerais, que são mais abrangentes do que a maioria."
+                },
+                {
+                    "id": "120200107",
+                    "speaker": "Gorou",
+                    "text": "Ainda assim, somos afortunados de tê-las. Elas garantem que estejamos preparados para cada eventualidade, por mais complexa que seja."
+                },
+                {
+                    "id": "120200108",
+                    "speaker": "Paimon",
+                    "text": "Ufa, compreender cada eventualidade parece cansativo o suficiente, quanto mais escrever todas elas. Deve ter levado Kokomi muito tempo..."
+                },
+                {
+                    "id": "120200109",
+                    "speaker": "Koutoku",
+                    "text": "#Capit{M#ão}{F#ã}! Você está de volta à Ilha Watatsumi para liderar novamente o Peixe-Espada II? Todos nós temos sentido sua ausência.",
+                    "choices": [
+                        {
+                            "id": "120200110",
+                            "text": "O Peixe-Espada II ainda está firme e forte?",
+                            "response": [
+                                {
+                                    "id": "120200112",
+                                    "speaker": "Koutoku",
+                                    "text": "Vossa Excelência diz que agora é um tempo de paz e que devemos reduzir o tamanho dos militares e nos concentrar em ajudar a população civil a voltar à vida normal."
+                                },
+                                {
+                                    "id": "120200113",
+                                    "speaker": "Koutoku",
+                                    "text": "Cerca de metade de nós ainda está organizada em forças-tarefa, apoiando os pelotões. A outra metade recebeu várias outras funções, como patrulha, construção e agricultura."
+                                },
+                                {
+                                    "id": "120200114",
+                                    "speaker": "Koutoku",
+                                    "text": "Claro, nem todo mundo está feliz com isso. Outro dia, um velho amigo meu estava reclamando sobre ser forçado a construir casas. Disseram que tiveram que arrastá-lo para longe da linha de frente a gritos e esperneadas hahaha."
+                                },
+                                {
+                                    "id": "120200115",
+                                    "speaker": "Paimon",
+                                    "text": "O espírito da resistência está vivo então..."
+                                },
+                                {
+                                    "id": "120200116",
+                                    "speaker": "Paimon",
+                                    "text": "De qualquer forma, estamos aqui porque Kokomi nos convidou para o Banquete da Vitória. Você sabe onde podemos encontrá-la, Gorou?"
+                                },
+                                {
+                                    "id": "120200117",
+                                    "speaker": "Gorou",
+                                    "text": "Acredito que Vossa Excelência esteja atualmente na Vila Bourou."
+                                },
+                                {
+                                    "id": "120200118",
+                                    "speaker": "Gorou",
+                                    "text": "Houve relatos de um possível distúrbio ali. Se não me engano, Vossa Excelência tratou disso pessoalmente."
+                                },
+                                {
+                                    "id": "120200119",
+                                    "speaker": "Gorou",
+                                    "text": "#Provavelmente deveríamos ir nós mesmos. Ahem... {NICKNAME}, tome cuidado com os soldados no caminho."
+                                },
+                                {
+                                    "id": "120200120",
+                                    "speaker": "Gorou",
+                                    "text": "Estou sentindo uma crescente inquietação entre eles, mas não sei o que está causando isso... Eles não vão dizer."
+                                },
+                                {
+                                    "id": "120200121",
+                                    "speaker": "Gorou",
+                                    "text": "Eles costumavam me contar todas as suas preocupações, mas seja o que for, eles estão mantendo escondidos... Eu não gosto nem um pouco — suspeito que haja problemas.",
+                                    "choices": [
+                                        {
+                                            "id": "120200122",
+                                            "text": "Claro, verei o que posso fazer.",
+                                            "response": [
+                                                {
+                                                    "id": "120200124",
+                                                    "speaker": "Paimon",
+                                                    "text": "Parece bom! Paimon estava pensando que seria bom ver todos novamente."
+                                                },
+                                                {
+                                                    "id": "120200125",
+                                                    "speaker": "Paimon",
+                                                    "text": "#Quando você estiver pront{M#o}{F#a}, {NICKNAME}!"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "120200123",
+                                            "text": "Será bom me atualizar com eles."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "120200111",
+                            "text": "Como estão todos?"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "1202009",
+            "objective": "Fale com Gorou",
+            "dialogues": [
+                {
+                    "id": "120200601",
+                    "speaker": "Paimon",
+                    "text": "Este deve ser o lugar onde Kokomi disse para encontrá-la."
+                },
+                {
+                    "id": "120200602",
+                    "speaker": "Paimon",
+                    "text": "Você ainda se lembra deste lugar?"
+                },
+                {
+                    "id": "120200603",
+                    "speaker": "Paimon",
+                    "text": "Paimon lembra que passamos por aqui da última vez que visitamos a Ilha Watatsumi."
+                },
+                {
+                    "id": "120200604",
+                    "speaker": "Paimon",
+                    "text": "#Isso foi quando você foi {M#Capitão}{F#Capitã} do Peixe-Espada II. Paimon está curiosa para saber se as tropas de resistência ainda se lembram de você..."
+                },
+                {
+                    "id": "120200605",
+                    "speaker": "Paimon",
+                    "text": "As coisas na ilha devem ter mudado muito desde então! Vamos dar uma olhada?"
+                },
+                {
+                    "id": "120200627",
+                    "speaker": "Paimon",
+                    "text": "Ei, não é o Gorou? Vamos ver o que ele está fazendo!"
+                },
+                {
+                    "id": "120200606",
+                    "speaker": "Gorou",
+                    "text": "Se o inimigo for mais numeroso do que você, procure sua fraqueza e explore-a. Se você ultrapassar o número do inimigo, busque uma vitória inequívoca e acabe com ele..."
+                },
+                {
+                    "id": "120200607",
+                    "speaker": "Gorou",
+                    "text": "Os saqueadores da frente marítima são abastecidos pelo mar. Queimar seus navios é o caminho para o sucesso..."
+                },
+                {
+                    "id": "120200608",
+                    "speaker": "Toshihiko",
+                    "text": "General Gorou, Senhor. Tem um veredicto?"
+                },
+                {
+                    "id": "120200609",
+                    "speaker": "Gorou",
+                    "text": "Mais ou menos. Pelas diretrizes deixadas por Vossa Excelência, podemos supor que um navio Fatui está atracado nas proximidades. Isso explica sua postura agressiva."
+                },
+                {
+                    "id": "120200610",
+                    "speaker": "Gorou",
+                    "text": "Poderíamos nos dividir em duas equipes — uma para chamar a atenção, a outra para circular por trás das linhas inimigas e atear fogo ao navio. Eles não teriam para onde correr!"
+                },
+                {
+                    "id": "120200611",
+                    "speaker": "Gorou",
+                    "text": "Então, novamente, Vossa Excelência deixou claro que não devemos nos separar sem forças suficientes. Corríamos o risco de sermos apanhados um por um até que toda a nossa linha de defesa se desintegrasse..."
+                },
+                {
+                    "id": "120200612",
+                    "speaker": "Koutoku",
+                    "text": "Senhor, devo mandar buscar reforços?"
+                },
+                {
+                    "id": "120200613",
+                    "speaker": "Gorou",
+                    "text": "Duvido que haja tempo. Com base em seus movimentos, eles provavelmente teriam partido antes que nossas tropas chegassem."
+                },
+                {
+                    "id": "120200614",
+                    "speaker": "Gorou",
+                    "text": "As diretrizes de Vossa Excelência também estipulam que devemos \"esperar na emboscada e evitar dar o primeiro passo\". Como não temos tropas suficientes, acho que não podemos nos dar ao luxo de enfrentar o inimigo neste momento."
+                },
+                {
+                    "id": "120200615",
+                    "speaker": "Toshihiko",
+                    "text": "Senhor... Vamos apenas ficar parados e vê-los partir? Certamente deve haver outra maneira!"
+                },
+                {
+                    "id": "120200616",
+                    "speaker": "Gorou",
+                    "text": "...As diretivas de Vossa Excelência também afirmam que \"A ajuda pode chegar quando tudo parecer perdido\". Quanto à origem dessa ajuda, eu..."
+                },
+                {
+                    "id": "120200617",
+                    "speaker": "Paimon",
+                    "text": "Ei, Gorou! O que vocês estão fazendo?"
+                },
+                {
+                    "id": "120200618",
+                    "speaker": "Koutoku",
+                    "text": "#{M#Capitão}{F#Capitã}! Você voltou para a Ilha Watatsumi!"
+                },
+                {
+                    "id": "120200619",
+                    "speaker": "Player",
+                    "text": "Estou aqui para dar uma mãozinha."
+                },
+                {
+                    "id": "120200620",
+                    "speaker": "Gorou",
+                    "text": "#Isso é ótimo! As diretivas de Vossa Excelência são tão confiáveis como sempre... {NICKNAME}, você chegou bem a tempo."
+                },
+                {
+                    "id": "120200621",
+                    "speaker": "Gorou",
+                    "text": "Recentemente, os remanescentes das forças Fatui estiveram excepcionalmente ativos. Temos monitorado seus movimentos esperando em emboscada aqui."
+                },
+                {
+                    "id": "120200622",
+                    "speaker": "Gorou",
+                    "text": "Infelizmente, não temos mão de obra para nos dividir em duas equipes. Podemos pedir que você os mantenham ocupados?"
+                },
+                {
+                    "id": "120200623",
+                    "speaker": "Paimon",
+                    "text": "Difícil dizer não quando se trata dos Fatui. O que quer que estejam planejando, não vamos deixá-los escapar impunes."
+                },
+                {
+                    "id": "120200624",
+                    "speaker": "Gorou",
+                    "text": "Ótimo! Não temos tempo a perder. Iremos atrás das linhas inimigas e sabotaremos seu navio. Vamos nos encontrar aqui depois."
+                },
+                {
+                    "id": "120200625",
+                    "speaker": "Gorou",
+                    "text": "Tomem cuidado. Voltaremos em breve."
+                },
+                {
+                    "id": "120200626",
+                    "speaker": "Paimon",
+                    "text": "Parece que a resistência ainda se lembra de nós! Vamos ajudá-los a controlar a situação!"
+                }
+            ]
+        },
+        {
+            "id": "1202002",
+            "objective": "Derrote os Fatui que estão rondando",
+            "dialogues": [
+                {
+                    "id": "120200201",
+                    "speaker": "Denjirou",
+                    "text": "#Espere, você não é... {M#O Capitão}{F#A Capitã} do Peixe-Espada II?"
+                },
+                {
+                    "id": "120200202",
+                    "speaker": "Denjirou",
+                    "text": "É você! Você tem nossa gratidão, a Ilha Watatsumi não teria chegado à paz sem seus esforços."
+                },
+                {
+                    "id": "120200203",
+                    "speaker": "Denjirou",
+                    "text": "Eu não estava com o Peixe-Espada II, mas vi você em Tatarasuna."
+                },
+                {
+                    "id": "120200204",
+                    "speaker": "Denjirou",
+                    "text": "Você realmente deu uma lição nos Samurais do Shogunato em sua luta pela honra! Foi um show e tanto!"
+                },
+                {
+                    "id": "120200205",
+                    "speaker": "Denjirou",
+                    "text": "Existe alguma coisa que você precisa de mim? Estou ao seu serviço!"
+                },
+                {
+                    "id": "120200206",
+                    "speaker": "Player",
+                    "text": "Ouvi dizer que as pessoas estão um pouco nervosas atualmente..."
+                },
+                {
+                    "id": "120200207",
+                    "speaker": "Denjirou",
+                    "text": "Nervosas? Sim, também percebi."
+                },
+                {
+                    "id": "120200208",
+                    "speaker": "Denjirou",
+                    "text": "Para ser sincero, a batalha não acabou e, bem, talvez não esteja totalmente acabada para eles, entende o que quero dizer? Cada pessoa viu a morte naquele dia. Essa não é uma experiência que você esquece rapidamente."
+                },
+                {
+                    "id": "120200209",
+                    "speaker": "Denjirou",
+                    "text": "A vitória é declarada e, de repente, a luta termina — mas as pessoas não podem simplesmente voltar à vida normal. Acho que as coisas vão melhorar, mas vai demorar um pouco."
+                },
+                {
+                    "id": "120200210",
+                    "speaker": "Denjirou",
+                    "text": "Não sei o que mais poderia ser. Mas o que sei é que, enquanto Vossa Excelência estiver conosco, a Ilha Watatsumi está segura."
+                },
+                {
+                    "id": "120200211",
+                    "speaker": "Denjirou",
+                    "text": "E ainda mais agora que você está de volta! Sério, se precisar de alguma coisa, é só dizer."
+                },
+                {
+                    "id": "120200212",
+                    "speaker": "Paimon",
+                    "text": "Que cara legal... Vamos perguntar a outras pessoas."
+                }
+            ]
+        },
+        {
+            "id": "1202003",
+            "objective": "Retorne para Gorou",
+            "dialogues": []
+        },
+        {
+            "id": "1202004",
+            "objective": "Peça informações aos soldados",
+            "dialogues": []
+        },
+        {
+            "id": "1202005",
+            "objective": "Peça informações aos soldados",
+            "dialogues": [
+                {
+                    "id": "120200301",
+                    "speaker": "Arisawa",
+                    "text": "*Bocejo* Enfim paz... Vivendo o sonho..."
+                },
+                {
+                    "id": "120200302",
+                    "speaker": "Arisawa",
+                    "text": "Hum? Eu não conheço você...?"
+                },
+                {
+                    "id": "120200303",
+                    "speaker": "Arisawa",
+                    "text": "Definitivamente já vi você em algum lugar antes... Não consigo te identificar, mas acho que você não está com o Exército da Shogun. Então, você precisa de algo?"
+                },
+                {
+                    "id": "120200304",
+                    "speaker": "Player",
+                    "text": "Ouvi dizer que as pessoas estão um pouco nervosas atualmente..."
+                },
+                {
+                    "id": "120200305",
+                    "speaker": "Arisawa",
+                    "text": "Nervosas? ...Nervosas como? Eu não notei nada."
+                },
+                {
+                    "id": "120200306",
+                    "speaker": "Arisawa",
+                    "text": "Não que eu não tenha visto, necessariamente. Sou muito reservado. Eles são muito barulhentos para mim."
+                },
+                {
+                    "id": "120200307",
+                    "speaker": "Arisawa",
+                    "text": "Estamos em paz agora, finalmente. Pretendo aproveitar ao máximo. Minha vida agora gira em torno de duas coisas, e apenas duas coisas: o sol e a brisa do mar."
+                },
+                {
+                    "id": "120200308",
+                    "speaker": "Arisawa",
+                    "text": "*bocejo* Lamento não poder ajudar mais. Vou dizer a quem você pode perguntar — Sangonomiya. Ela sabe tudo."
+                },
+                {
+                    "id": "120200309",
+                    "speaker": "Paimon",
+                    "text": "Hã... Parece que ele está prestes a adormecer. Vamos deixá-lo descansar e procurar alguém para perguntar."
+                }
+            ]
+        },
+        {
+            "id": "1202006",
+            "objective": "Peça informações aos soldados",
+            "dialogues": [
+                {
+                    "id": "120200401",
+                    "speaker": "Yoshihisa",
+                    "text": "Ugh, não entendo o que Vossa Excelência está pensando. Quer dizer, conversas de paz? Até parece. Por que ela concordaria com isso?"
+                },
+                {
+                    "id": "120200402",
+                    "speaker": "Tsuneo",
+                    "text": "Exatamente... todo mundo sabe que não se pode confiar na Comissão Tenryou. Ouvi dizer que eles estão se coordenando secretamente com os Fatui e planejam continuar seus ataques."
+                },
+                {
+                    "id": "120200403",
+                    "speaker": "Yoshihisa",
+                    "text": "Espere, é sério? Você tem certeza disso?"
+                },
+                {
+                    "id": "120200404",
+                    "speaker": "Tsuneo",
+                    "text": "Positivo. Alguns de nossos rapazes tiveram um desentendimento com alguns Fatui. Eles os pegaram conspirando juntos, em primeira mão."
+                },
+                {
+                    "id": "120200405",
+                    "speaker": "Yoshihisa",
+                    "text": "Eu sabia! A Comissão Tenryou é um bando de trapaceiros — eles nunca vão mudar. Sinceramente... é um pouco ingênuo da parte da Vossa Excelência acreditar na palavra deles, não é?"
+                },
+                {
+                    "id": "120200406",
+                    "speaker": "Tsuneo",
+                    "text": "Sshhh! Fale mais baixo, tem alguém vindo."
+                },
+                {
+                    "id": "120200407",
+                    "speaker": "Paimon",
+                    "text": "Sobre o que vocês estão conversando?"
+                },
+                {
+                    "id": "120200408",
+                    "speaker": "Yoshihisa",
+                    "text": "#{F#Capitã}{M#Capitão} de Equipe {NICKNAME}? Você voltou!",
+                    "choices": [
+                        {
+                            "id": "120200409",
+                            "text": "Vim celebrar com vocês.",
+                            "response": [
+                                {
+                                    "id": "120200411",
+                                    "speaker": "Yoshihisa",
+                                    "text": "#Você acha que devemos contar {M#ao capitão}{F#à capitã} o que estávamos discutindo agora?"
+                                },
+                                {
+                                    "id": "120200412",
+                                    "speaker": "Tsuneo",
+                                    "text": "#Não, não vamos falar disso. El{F#a}{M#e} é um de seus conselheiros mais próximos. Pelo que sabemos, as negociações de paz poderiam ter sido ideia del{F#a}{M#e}..."
+                                },
+                                {
+                                    "id": "120200413",
+                                    "speaker": "Yoshihisa",
+                                    "text": "#{F#Uma Capitã}{M#Um Capitão} de Equipe deve nos entender, não é? Mas também deveríamos ter um pouco de cuidado..."
+                                },
+                                {
+                                    "id": "120200414",
+                                    "speaker": "Yoshihisa",
+                                    "text": "#Bem, seja bem-vind{F#a}{M#o} de volta, {F#Capitã}{M#Capitão} de Equipe! Não temos nada a reportar sobre aqui, tudo está ótimo!"
+                                },
+                                {
+                                    "id": "120200415",
+                                    "speaker": "Tsuneo",
+                                    "text": "A Mestre de Sangonomiya deve estar na vila, você pode ir para lá diretamente!"
+                                },
+                                {
+                                    "id": "120200416",
+                                    "speaker": "Paimon",
+                                    "text": "Uh, Paimon sempre pensou que eles pareciam estar conversando alguma coisa secreta. Mas já que eles não querem falar, vamos para vila dar uma olhada."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "120200410",
+                            "text": "Aconteceu alguma coisa recentemente?"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "1202007",
+            "objective": "Vá até a Vila Bourou",
+            "dialogues": []
+        },
+        {
+            "id": "1202008",
+            "objective": "Investigue a disputa entre os soldados e comerciantes",
+            "dialogues": [
+                {
+                    "id": "120200501",
+                    "speaker": "Matsuda",
+                    "text": "Admita! Sabemos que você tem fornecido secretamente à Comissão Tenryou mercadorias compradas na Ilha Watatsumi!"
+                },
+                {
+                    "id": "120200502",
+                    "speaker": "Matsuda",
+                    "text": "Eu sabia que algo estava errado com um comerciante da Comissão Tenryou fazendo negócios aqui. Então, o que você tem a dizer em sua defesa?"
+                },
+                {
+                    "id": "120200503",
+                    "speaker": "Naruse",
+                    "text": "Sou inocente..."
+                },
+                {
+                    "id": "120200504",
+                    "speaker": "Uchimura",
+                    "text": "Ha! Você é mais culpado do que nunca. Você jamais deveria ter sido autorizado a pôr os pés nesta ilha, muito menos a fazer negócios aqui."
+                },
+                {
+                    "id": "120200505",
+                    "speaker": "Uchimura",
+                    "text": "Leve ele mesmo assim!"
+                },
+                {
+                    "id": "120200506",
+                    "speaker": "Player",
+                    "text": "Um momento..."
+                },
+                {
+                    "id": "120200507",
+                    "speaker": "Sangonomiya Kokomi",
+                    "text": "Por favor, espere!"
+                },
+                {
+                    "id": "120200508",
+                    "speaker": "Paimon",
+                    "text": "Kokomi! Aí está você!"
+                },
+                {
+                    "id": "120200509",
+                    "speaker": "Paimon",
+                    "text": "Algo está acontecendo aqui, você deve dar uma olhada, imediatamente!"
+                },
+                {
+                    "id": "120200510",
+                    "speaker": "Matsuda",
+                    "text": "Vossa Excelência! Este comerciante é suspeito de atividade criminosa, por isso o apreendemos para interrogatório."
+                },
+                {
+                    "id": "120200511",
+                    "speaker": "Matsuda",
+                    "text": "Nossas observações mostram que em todo o seu tempo aqui, ele fez numerosas compras, mas nenhuma venda. E, no entanto, ele não tem nenhum estoque em sua posse. Acreditamos que é altamente provável que ele tenha fornecido a Comissão Tenryou às escondidas!"
+                },
+                {
+                    "id": "120200512",
+                    "speaker": "Naruse",
+                    "text": "E-Eu não... Não fiz..."
+                },
+                {
+                    "id": "120200513",
+                    "speaker": "Sangonomiya Kokomi",
+                    "text": "Isso basta. Não vamos nos deixar abalar muito, certo? Todos respirem fundo comigo, pra dentro e pra fora... Melhor?"
+                },
+                {
+                    "id": "120200514",
+                    "speaker": "Sangonomiya Kokomi",
+                    "text": "Matsuda, Uchimura - Entendo que vocês estão preocupados com a segurança da Ilha Watatsumi."
+                },
+                {
+                    "id": "120200515",
+                    "speaker": "Sangonomiya Kokomi",
+                    "text": "Mas antes de tomarmos qualquer decisão sobre se este comerciante é ou não culpado, devemos dar a ele a chance de se explicar."
+                },
+                {
+                    "id": "120200516",
+                    "speaker": "Sangonomiya Kokomi",
+                    "text": "Se ele for culpado, é claro que haverá consequências. Mas se ele for inocente, não merece ser falsamente acusado. Esta é a Ilha Watatsumi. Nós lidamos com fatos, não com opiniões."
+                },
+                {
+                    "id": "120200517",
+                    "speaker": "Sangonomiya Kokomi",
+                    "text": "Desculpe-me, senhor. Como você sabe, meus subordinados têm algumas preocupações em torno de sua atividade comercial aqui. Talvez você pudesse explicar seu lado da história, para me ajudar a chegar a um veredicto?"
+                },
+                {
+                    "id": "120200518",
+                    "speaker": "Naruse",
+                    "text": "Mas é claro, posso explicar tudo!"
+                },
+                {
+                    "id": "120200519",
+                    "speaker": "Naruse",
+                    "text": "Sou um comerciante na ilha, por isso, naturalmente, construí algum estoque. Estava planejando adiar a venda até que os preços subissem, mas então... Uh, cof..."
+                },
+                {
+                    "id": "120200520",
+                    "speaker": "Naruse",
+                    "text": "O-Onde estava eu... Oh! Mas então, eu fui roubado pelos Fatui. Eles levaram tudo! Imagine isso! Primeiro perco todo meu estoque, depois sou tratado como um criminoso..."
+                },
+                {
+                    "id": "120200521",
+                    "speaker": "Uchimura",
+                    "text": "Hnf. E por que deveríamos acreditar em você?",
+                    "choices": [
+                        {
+                            "id": "120200522",
+                            "text": "No caminho até aqui...",
+                            "response": [
+                                {
+                                    "id": "120200524",
+                                    "speaker": "Uchimura",
+                                    "text": "E daí? Isso não prova que eles roubaram sua mercadoria!"
+                                },
+                                {
+                                    "id": "120200525",
+                                    "speaker": "Uchimura",
+                                    "text": "E mesmo que tivessem, ainda assim acabará nas mãos da Comissão Tenryou. Eles estão nisto juntos!"
+                                },
+                                {
+                                    "id": "120200526",
+                                    "speaker": "Naruse",
+                                    "text": "O quê? A Comissão Tenryou está em conluio com os Fatui? ...É a primeira vez que ouço falar disso!"
+                                },
+                                {
+                                    "id": "120200527",
+                                    "speaker": "Naruse",
+                                    "text": "Imaginemos que seja verdade - o que isso tem a ver comigo...?"
+                                },
+                                {
+                                    "id": "120200528",
+                                    "speaker": "Paimon",
+                                    "text": "A Comissão Tenryou começaria a conspirar com os Fatui depois que a luta já tivesse terminado? Hmm, parece improvável para Paimon."
+                                },
+                                {
+                                    "id": "120200529",
+                                    "speaker": "Paimon",
+                                    "text": "Recentemente, conhecemos um representante do Clã Kujou. Não parece que ele tenha tempo para conspirar no momento."
+                                },
+                                {
+                                    "id": "120200530",
+                                    "speaker": "Paimon",
+                                    "text": "Mas no caminho para cá, acidentalmente, de propósito, ouvimos alguns soldados mencionarem exatamente a mesma coisa. Kokomi, você sabe alguma coisa sobre isso?"
+                                },
+                                {
+                                    "id": "120200531",
+                                    "speaker": "Sangonomiya Kokomi",
+                                    "text": "Me foi informado, sim."
+                                },
+                                {
+                                    "id": "120200532",
+                                    "speaker": "Sangonomiya Kokomi",
+                                    "text": "Estamos programados para iniciar em breve conversações de paz com a Comissão Tenryou. O Clã Kamisato providenciou para que elas se realizem em um local neutro."
+                                },
+                                {
+                                    "id": "120200533",
+                                    "speaker": "Sangonomiya Kokomi",
+                                    "text": "Kujou Sara e eu estaremos acompanhadas por nossos guardas. Usaremos as conversações para discutir os planos futuros em detalhes."
+                                },
+                                {
+                                    "id": "120200534",
+                                    "speaker": "Sangonomiya Kokomi",
+                                    "text": "Mas assim que os preparativos para as conversações de paz começaram a se encaixar, comecei a ouvir rumores de conluio entre o Clã Kujou e os Fatui. Alegadamente, seu objetivo é a destruição completa da Ilha Watatsumi."
+                                },
+                                {
+                                    "id": "120200535",
+                                    "speaker": "Sangonomiya Kokomi",
+                                    "text": "Se for esse o caso, então as conversações de paz são provavelmente uma armadilha. Até mesmo o Clã Kamisato poderia estar envolvido..."
+                                },
+                                {
+                                    "id": "120200536",
+                                    "speaker": "Sangonomiya Kokomi",
+                                    "text": "Senhor, você tem certeza de que seus produtos foram roubados pelos Fatui?"
+                                },
+                                {
+                                    "id": "120200537",
+                                    "speaker": "Naruse",
+                                    "text": "Sim, é a verdade, eu juro! Eles roubaram minhas mercadorias e depois fugiram naquela direção. Aposto que é lá que está o esconderijo deles!"
+                                },
+                                {
+                                    "id": "120200538",
+                                    "speaker": "Sangonomiya Kokomi",
+                                    "text": "Muito bem. Hmm... As possíveis ramificações deste incidente são graves. Recuperaremos seus bens e, se tudo estiver em ordem, isso provará sua inocência."
+                                },
+                                {
+                                    "id": "120200539",
+                                    "speaker": "Sangonomiya Kokomi",
+                                    "text": "Entretanto, se encontrarmos provas que corroborem as alegações de conluio entre os Fatui e a Comissão Tenryou, espero que você consinta plenamente à nossa investigação. Temos um acordo?"
+                                },
+                                {
+                                    "id": "120200540",
+                                    "speaker": "Naruse",
+                                    "text": "Sim, é claro! Obrigado, Vossa Excelência."
+                                },
+                                {
+                                    "id": "120200541",
+                                    "speaker": "Sangonomiya Kokomi",
+                                    "text": "Matsuda, Uchimura?"
+                                },
+                                {
+                                    "id": "120200542",
+                                    "speaker": "Matsuda",
+                                    "text": "Entendido, Vossa Excelência."
+                                },
+                                {
+                                    "id": "120200543",
+                                    "speaker": "Sangonomiya Kokomi",
+                                    "text": "#Bom. Agora, Viajante - Quero dizer, {M#Capitão}{F#Capitã} do Pelotão de Peixes-Espada, Seção II, você se juntaria a mim nessa investigação?",
+                                    "choices": [
+                                        {
+                                            "id": "120200544",
+                                            "text": "Claro que sim.",
+                                            "response": [
+                                                {
+                                                    "id": "120200545",
+                                                    "speaker": "Sangonomiya Kokomi",
+                                                    "text": "Hehe, bom... Estou ansiosa para ver como você progrediu recentemente."
+                                                },
+                                                {
+                                                    "id": "120200546",
+                                                    "speaker": "Sangonomiya Kokomi",
+                                                    "text": "Eu também tenho algumas coisas novas para ensinar a você... Certo, me siga."
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "120200547",
+                                            "text": "Senhora, sim, senhora!",
+                                            "response": [
+                                                {
+                                                    "id": "120200548",
+                                                    "speaker": "Sangonomiya Kokomi",
+                                                    "text": "Hehe, à vontade, soldado! Por enquanto, pelo menos, estamos em tempo de paz."
+                                                },
+                                                {
+                                                    "id": "120200549",
+                                                    "speaker": "Sangonomiya Kokomi",
+                                                    "text": "#Além disso, tenho certeza de que você não ficará na Ilha Watatsumi para sempre. Quaisquer que sejam nossos cargos, somos amig{M#os}{F#as} em primeiro lugar."
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "120200523",
+                            "text": "Nos deparamos com alguns Fatui..."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "1202010",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "120201001",
+                    "speaker": "Denjirou",
+                    "text": "Estou bem aqui se precisar de ajuda."
+                }
+            ]
+        },
+        {
+            "id": "1202012",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "120201201",
+                    "speaker": "Arisawa",
+                    "text": "*Bocejo... Ainda tem mais alguma coisa? Deixe-me descansar..."
+                }
+            ]
+        },
+        {
+            "id": "1202014",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "120201401",
+                    "speaker": "Yoshihisa",
+                    "text": "#Reportando para {F#a}{M#o} {F#capitã}{M#capitão}! Tudo está seguro!"
+                },
+                {
+                    "id": "120201402",
+                    "speaker": "Tsuneo",
+                    "text": "Se você está procurando pela mestra Sangonomiya, ela deve estar na vila."
+                }
+            ]
+        },
+        {
+            "id": "1202099",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "120209901",
+                    "speaker": "Soldado Fatui",
+                    "text": "Irmãos, isso é terrível! Nosso barco foi incendiado!"
+                },
+                {
+                    "id": "120209902",
+                    "speaker": "Soldado Fatui",
+                    "text": "Ainda temos mais problemas? Que desprezível!"
+                },
+                {
+                    "id": "120209903",
+                    "speaker": "Soldado Fatui",
+                    "text": "Homens! Não recuem! Vamos mostrar a eles do que somos capazes!"
+                },
+                {
+                    "id": "120209904",
+                    "speaker": "Paimon",
+                    "text": "Se formos capazes de encontrar as mercadorias que estão com os Fatui, poderemos provar a inocência daquele comerciante."
+                },
+                {
+                    "id": "120209905",
+                    "speaker": "Paimon",
+                    "text": "E ainda tem aquele boato de que os Fatui estão em conluio com a Comissão Tenryou... Nós devemos fazer uma investigação sobre isso!"
+                }
+            ]
+        }
+    ]
+}

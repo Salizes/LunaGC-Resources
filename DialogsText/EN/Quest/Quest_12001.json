@@ -1,0 +1,519 @@
+{
+    "quest": {
+        "id": "12001",
+        "title": "Know Thyself, Know Thy Enemy",
+        "description": "Your book search sent you to Qingce Village to look for Chang the Ninth. But you arrived to find thugs are trying to force Chang into a bad business deal. Xingqiu won't stand for this, and wants to find out more about the business magnate behind it — Gentry Maocai.",
+        "rewards": [
+            {
+                "itemId": 102,
+                "count": 350
+            },
+            {
+                "itemId": 202,
+                "count": 19800
+            },
+            {
+                "itemId": 104003,
+                "count": 2
+            },
+            {
+                "itemId": 104013,
+                "count": 4
+            }
+        ],
+        "rewards_formatted": "Adventure EXP x350, Mora x19800, Hero's Wit x2, Mystic Enhancement Ore x4",
+        "chapter": {
+            "icon": "UI_ChapterIcon_Xingqiu",
+            "id": "2008",
+            "num": "Fabulae Textile Chapter: Act I",
+            "title": "Bookworm Swordsman"
+        },
+        "total_dialogue_lines": 81,
+        "total_speaker_counts": {
+            "Agent": 5,
+            "Gentry Maocai": 5,
+            "Paimon": 26,
+            "Player": 18,
+            "Sturdy Wu": 11,
+            "Xingqiu": 16
+        }
+    },
+    "talks": [
+        {
+            "id": "1200101",
+            "objective": "Go to Gentry Maocai's residence and make inquiries",
+            "dialogues": [
+                {
+                    "id": "120010101",
+                    "speaker": "Paimon",
+                    "text": "This must be Gentry Maocai's house. He must be loaded, this place is swanky!"
+                },
+                {
+                    "id": "120010102",
+                    "speaker": "Paimon",
+                    "text": "How're we gonna find out if Gentry Maocai is in cahoots with the Fatui? Hmm, maybe start by talking to the guards."
+                }
+            ]
+        },
+        {
+            "id": "1200103",
+            "objective": "Talk to the guards and make inquiries",
+            "dialogues": [
+                {
+                    "id": "120010301",
+                    "speaker": "Sturdy Wu",
+                    "text": "Who goes there?",
+                    "choices": [
+                        {
+                            "id": "120010302",
+                            "text": "A Mondstadt merchant here for a meeting with Gentry Maocai.",
+                            "response": [
+                                {
+                                    "id": "120010303",
+                                    "speaker": "Sturdy Wu",
+                                    "text": "Really? He didn't mention anything about a meeting..."
+                                },
+                                {
+                                    "id": "120010306",
+                                    "speaker": "Sturdy Wu",
+                                    "text": "The Master is dealing with some urgent business today. All prior appointments have been canceled."
+                                },
+                                {
+                                    "id": "120010307",
+                                    "speaker": "Paimon",
+                                    "text": "Urgent business? ...What is it?"
+                                },
+                                {
+                                    "id": "120010308",
+                                    "speaker": "Sturdy Wu",
+                                    "text": "The Master has been working on a major business deal recently. He left early this morning to meet with a VIP client."
+                                },
+                                {
+                                    "id": "120010309",
+                                    "speaker": "Paimon",
+                                    "text": "So where is he now?"
+                                },
+                                {
+                                    "id": "120010310",
+                                    "speaker": "Sturdy Wu",
+                                    "text": "I'm sorry, the Master has stressed that we must not disclose that information to just anyone..."
+                                },
+                                {
+                                    "id": "120010311",
+                                    "speaker": "Player",
+                                    "text": "\"Just anyone\"? Are you saying we are not his VIP clients?"
+                                },
+                                {
+                                    "id": "120010312",
+                                    "speaker": "Sturdy Wu",
+                                    "text": "N—No! I mean yes, yes you are! Ah... I—I meant no offense, please believe me...",
+                                    "choices": [
+                                        {
+                                            "id": "120010313",
+                                            "text": "Take me to Gentry Maocai or suffer the consequences!",
+                                            "response": [
+                                                {
+                                                    "id": "120010315",
+                                                    "speaker": "Sturdy Wu",
+                                                    "text": "I'm sorry, I'm sorry! Master is currently in business negotiations at Xinyue Kiosk!"
+                                                },
+                                                {
+                                                    "id": "120010316",
+                                                    "speaker": "Sturdy Wu",
+                                                    "text": "I beg for your mercy! Please, my master will show me no leniency if he finds out..."
+                                                },
+                                                {
+                                                    "id": "120010317",
+                                                    "speaker": "Paimon",
+                                                    "text": "Well, MY master has much more important things to do than talking to rude guards like you."
+                                                },
+                                                {
+                                                    "id": "120010318",
+                                                    "speaker": "Paimon",
+                                                    "text": "Luckily for you, your bad attitude will be the last thing on our minds when my master's busy negotiating a big business deal with your boss!"
+                                                },
+                                                {
+                                                    "id": "120010319",
+                                                    "speaker": "Sturdy Wu",
+                                                    "text": "Th—Thank you, thank you! May your business forever be blessed by the Lord of Geo!"
+                                                },
+                                                {
+                                                    "id": "120010320",
+                                                    "speaker": "Paimon",
+                                                    "text": "#Nice work, {NICKNAME}! Paimon never knew you were such a tough negotiator.",
+                                                    "choices": [
+                                                        {
+                                                            "id": "120010321",
+                                                            "text": "I was just bluffing.",
+                                                            "response": [
+                                                                {
+                                                                    "id": "120010322",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "Is that so? Now Paimon knows not to let your wily ways get the better of her in future!"
+                                                                },
+                                                                {
+                                                                    "id": "120010325",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "Anyway, seems like the VIP client in question must be one of the Fatui.",
+                                                                    "choices": [
+                                                                        {
+                                                                            "id": "120010326",
+                                                                            "text": "I think you're right.",
+                                                                            "response": [
+                                                                                {
+                                                                                    "id": "120010328",
+                                                                                    "speaker": "Paimon",
+                                                                                    "text": "In that case, let's get ourselves over to the Xinyue Kiosk!"
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        {
+                                                                            "id": "120010327",
+                                                                            "text": "This could work in our favor."
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "id": "120010323",
+                                                            "text": "You did great too.",
+                                                            "response": [
+                                                                {
+                                                                    "id": "120010324",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "Tee-hee! Paimon loves compliments and all... but treating Paimon to some tasty snacks would show that you really mean it!"
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "120010314",
+                                            "text": "Would you like to explain these extra fees you are incurring to your boss, or shall I?"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "120010304",
+                            "text": "#I'm {NICKNAME}, a VIP client of your boss'!",
+                            "response": [
+                                {
+                                    "id": "120010305",
+                                    "speaker": "Sturdy Wu",
+                                    "text": "How strange, you're not on the guestlist..."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "1200106",
+            "objective": "Go to Xinyue Kiosk and eavesdrop on Gentry Maocai",
+            "dialogues": []
+        },
+        {
+            "id": "1200107",
+            "objective": "Eavesdrop on Gentry Maocai's conversation with the Fatui",
+            "dialogues": [
+                {
+                    "id": "120010701",
+                    "speaker": "Gentry Maocai",
+                    "text": "I understand. I do. Please do not worry, you have my word that the order will be completed as promised."
+                },
+                {
+                    "id": "120010702",
+                    "speaker": "Agent",
+                    "text": "Hmm... The subordinate I sent was not quite so optimistic in his appraisal. Is somebody being uncooperative?"
+                },
+                {
+                    "id": "120010703",
+                    "speaker": "Gentry Maocai",
+                    "text": "Ah... We just ran into a minor procurement problem is all. We haven't managed to purchase the Cor Lapis yet."
+                },
+                {
+                    "id": "120010704",
+                    "speaker": "Gentry Maocai",
+                    "text": "But it's nothing for you to worry about. If Chang the Ninth won't sell, I can buy from someone else."
+                },
+                {
+                    "id": "120010705",
+                    "speaker": "Agent",
+                    "text": "That would be most ideal. I remind you again that the Fatui care only about the result."
+                },
+                {
+                    "id": "120010706",
+                    "speaker": "Agent",
+                    "text": "We are willing to lend a certain degree of support to this transaction. But if it is not completed in time..."
+                },
+                {
+                    "id": "120010707",
+                    "speaker": "Agent",
+                    "text": "You may suddenly find our good will comes at a price you cannot afford."
+                },
+                {
+                    "id": "120010708",
+                    "speaker": "Gentry Maocai",
+                    "text": "I understand... I am indebted to you for your protection. You know I would not dream of disappointing you, don't you?"
+                },
+                {
+                    "id": "120010709",
+                    "speaker": "Agent",
+                    "text": "We shall see when the time comes."
+                },
+                {
+                    "id": "120010710",
+                    "speaker": "Gentry Maocai",
+                    "text": "*sigh* Darn that old man Chang!"
+                }
+            ]
+        },
+        {
+            "id": "1200108",
+            "objective": "Inform Xingqiu of Gentry Maocai's plan",
+            "dialogues": [
+                {
+                    "id": "120010801",
+                    "speaker": "Paimon",
+                    "text": "Hmph! You said you had other things to look into, as if you're some sort of man of mystery..."
+                },
+                {
+                    "id": "120010802",
+                    "speaker": "Paimon",
+                    "text": "When actually all you meant was you wanted somewhere new to park your backside while you read your book!"
+                },
+                {
+                    "id": "120010803",
+                    "speaker": "Player",
+                    "text": "We know what Gentry Maocai's up to now."
+                },
+                {
+                    "id": "120010804",
+                    "speaker": "Xingqiu",
+                    "text": "I see. I guessed as much."
+                },
+                {
+                    "id": "120010805",
+                    "speaker": "Paimon",
+                    "text": "Did you really guess, or are you just saying that to sound clever?"
+                },
+                {
+                    "id": "120010806",
+                    "speaker": "Xingqiu",
+                    "text": "The course of action we must take is now clear. To start with, please deliver this letter to the Feiyun Commerce Guild. They will know what to do."
+                },
+                {
+                    "id": "120010807",
+                    "speaker": "Xingqiu",
+                    "text": "My liege, for reasons that I cannot explain, I will be unable to join you."
+                },
+                {
+                    "id": "120010808",
+                    "speaker": "Xingqiu",
+                    "text": "There is no need for you to read the contents of the letter, when the time comes—"
+                },
+                {
+                    "id": "120010809",
+                    "speaker": "Paimon",
+                    "text": "Whew, this writing is super hard to read! Paimon can't make heads or tails of it...",
+                    "choices": [
+                        {
+                            "id": "120010810",
+                            "text": "It's in an ancient script, perhaps?",
+                            "response": [
+                                {
+                                    "id": "120010812",
+                                    "speaker": "Xingqiu",
+                                    "text": "Huh..."
+                                },
+                                {
+                                    "id": "120010813",
+                                    "speaker": "Xingqiu",
+                                    "text": "Hence why I said there's no need for you to read it..."
+                                },
+                                {
+                                    "id": "120010814",
+                                    "speaker": "Xingqiu",
+                                    "text": "The Feiyun Commerce Guild will have someone who can understand it."
+                                },
+                                {
+                                    "id": "120010815",
+                                    "speaker": "Paimon",
+                                    "text": "But why do you wanna get them involved? They're one of the bigwig commerce guilds in Liyue — why would they wanna help us?"
+                                },
+                                {
+                                    "id": "120010816",
+                                    "speaker": "Player",
+                                    "text": "What is the Feiyun Commerce Guild?"
+                                },
+                                {
+                                    "id": "120010817",
+                                    "speaker": "Paimon",
+                                    "text": "Since we got to Liyue, Paimon keeps hearing people mention it. Seems they oversee a lot of business that goes on around here."
+                                },
+                                {
+                                    "id": "120010818",
+                                    "speaker": "Paimon",
+                                    "text": "Having such big backing would be great and all... But are you sure they'd wanna help?"
+                                },
+                                {
+                                    "id": "120010819",
+                                    "speaker": "Xingqiu",
+                                    "text": "No need to worry about that. From what I know, they share my sense of chivalry."
+                                },
+                                {
+                                    "id": "120010820",
+                                    "speaker": "Xingqiu",
+                                    "text": "Once they have read the carefully reasoned and passionately argued case I put forth in this letter, they will certainly be moved to action.",
+                                    "choices": [
+                                        {
+                                            "id": "120010821",
+                                            "text": "How can you be sure?",
+                                            "response": [
+                                                {
+                                                    "id": "120010823",
+                                                    "speaker": "Xingqiu",
+                                                    "text": "Gentry Maocai must be taught a lesson he will never forget. This is something we cannot do on our own."
+                                                },
+                                                {
+                                                    "id": "120010824",
+                                                    "speaker": "Xingqiu",
+                                                    "text": "Also, I do not wish for anyone else to know of my involvement in this."
+                                                },
+                                                {
+                                                    "id": "120010825",
+                                                    "speaker": "Paimon",
+                                                    "text": "Why not? You're only doing this to try and help Chang the Ninth, right?"
+                                                },
+                                                {
+                                                    "id": "120010826",
+                                                    "speaker": "Xingqiu",
+                                                    "text": "\"To silently disappear at the matter's conclusion, concealing one's name and contribution,\" this is the chivalrous thing to do. To savor the memory is ample reward."
+                                                },
+                                                {
+                                                    "id": "120010827",
+                                                    "speaker": "Xingqiu",
+                                                    "text": "Each droplet of kindness I receive I am duty-bound to repay with a welling spring of gratitude. I seek neither praise nor reward."
+                                                },
+                                                {
+                                                    "id": "120010828",
+                                                    "speaker": "Paimon",
+                                                    "text": "That sounds very lovely. But be honest — you just want them to do it so you can carry on reading your book, don't you?"
+                                                },
+                                                {
+                                                    "id": "120010829",
+                                                    "speaker": "Xingqiu",
+                                                    "text": "Thank you in advance for delivering this letter to the Feiyun Commerce Guild. Someone from the guild should be able to receive you near Liuli Pavilion."
+                                                },
+                                                {
+                                                    "id": "120010830",
+                                                    "speaker": "Paimon",
+                                                    "text": "Hey! Stop ignoring Paimon!"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "120010822",
+                                            "text": "Why get them involved anyway?"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "120010811",
+                            "text": "A secret text that needs a cipher perhaps?"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "1200043",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "120004301",
+                    "speaker": "Sturdy Wu",
+                    "text": "I'm sorry if my mistake earlier caused any offense..."
+                }
+            ]
+        },
+        {
+            "id": "1200102",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "120010201",
+                    "speaker": "Paimon",
+                    "text": "So how do we find out whether Gentry Maocai really is colluding with the Fatui or not?",
+                    "choices": [
+                        {
+                            "id": "120010202",
+                            "text": "We need to find a smoking gun.",
+                            "response": [
+                                {
+                                    "id": "120010204",
+                                    "speaker": "Paimon",
+                                    "text": "So... shall we just go look for him? Best-case scenario, we'll catch him red-handed; if not, we can try threatening him and see if he squeals."
+                                },
+                                {
+                                    "id": "120010205",
+                                    "speaker": "Player",
+                                    "text": "Let's speak to the guards first."
+                                },
+                                {
+                                    "id": "120010206",
+                                    "speaker": "Paimon",
+                                    "text": "Okay, boss! Whatever you say, boss!"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "120010203",
+                            "text": "We need to catch him red-handed."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "6100452",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "610045201",
+                    "speaker": "Xingqiu",
+                    "text": "You go first. No need to wait for me."
+                },
+                {
+                    "id": "610045202",
+                    "speaker": "Xingqiu",
+                    "text": "One more page and I'll go and stretch my legs. Just one last page."
+                }
+            ]
+        },
+        {
+            "id": "6100457",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "610045701",
+                    "speaker": "Paimon",
+                    "text": "So, Mr. Gentry Maocai is colluding with the Fatui!"
+                },
+                {
+                    "id": "610045702",
+                    "speaker": "Paimon",
+                    "text": "Who knows if Guhua Geek has made any progress. Should we go tell him?"
+                }
+            ]
+        }
+    ]
+}

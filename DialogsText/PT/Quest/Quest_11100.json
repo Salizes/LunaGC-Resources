@@ -1,0 +1,561 @@
+{
+    "quest": {
+        "id": "11100",
+        "title": "Desilusão do Ladrão de Estrelas",
+        "description": "Você descobre alguns Hilichurls perto do Albergue Wangshu que estão emitindo energia escura e um Adeptus autodenominado Ladrão de Estrelas que está usando seus talentos de exorcismo nas proximidades...",
+        "rewards": [
+            {
+                "itemId": 102,
+                "count": 450
+            },
+            {
+                "itemId": 202,
+                "count": 31125
+            },
+            {
+                "itemId": 104003,
+                "count": 4
+            },
+            {
+                "itemId": 104013,
+                "count": 7
+            }
+        ],
+        "rewards_formatted": "EXP de Aventura x450, Mora x31125, EXP do Herói x4, Minério de Refinamento Místico x7",
+        "chapter": {
+            "icon": "UI_ChapterIcon_Xiao",
+            "id": "2011",
+            "num": "Capítulos de Alatus: Ato I",
+            "title": "Sonho de uma Borboleta"
+        },
+        "total_dialogue_lines": 87,
+        "total_speaker_counts": {
+            "???": 5,
+            "Comerciante Crente": 4,
+            "Homem Crente": 7,
+            "Ladrão de Estrelas, Senhor Celestial": 18,
+            "Mulher Crente": 6,
+            "Paimon": 27,
+            "Player": 20
+        }
+    },
+    "talks": [
+        {
+            "id": "1110009",
+            "objective": "Investigue os arredores do Albergue Wangshu",
+            "dialogues": []
+        },
+        {
+            "id": "1110001",
+            "objective": "",
+            "dialogues": [
+                {
+                    "id": "111000101",
+                    "speaker": "Paimon",
+                    "text": "#Ei, {NICKNAME}... É apenas Paimon, ou há algo de estranho naqueles Hilichurls ali?",
+                    "choices": [
+                        {
+                            "id": "111000102",
+                            "text": "Seu corpo está emitindo... Uma energia maléfica?",
+                            "response": [
+                                {
+                                    "id": "111000103",
+                                    "speaker": "Paimon",
+                                    "text": "Sim, apesar de serem monstros, os Hilichurls que encontramos antes nunca estiveram assim..."
+                                },
+                                {
+                                    "id": "111000106",
+                                    "speaker": "Paimon",
+                                    "text": "Ah! O Albergue Wangshu é ali perto, será que podem ir ameaçar os hóspedes?"
+                                },
+                                {
+                                    "id": "111000107",
+                                    "speaker": "Paimon",
+                                    "text": "#Agora que vimos isso, se não fizermos nada, a Paimon se sentirá muito culpada... Vamos lidar com eles, {NICKNAME}!"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "111000104",
+                            "text": "Um tanto agitados.",
+                            "response": [
+                                {
+                                    "id": "111000105",
+                                    "speaker": "Paimon",
+                                    "text": "Certo! Talvez tenha algo a ver com aquela... energia escura que estão emitindo?"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "1110002",
+            "objective": "Derrote os Hilichurls infectados pelo mal",
+            "dialogues": []
+        },
+        {
+            "id": "1110003",
+            "objective": "",
+            "dialogues": [
+                {
+                    "id": "111000301",
+                    "speaker": "Paimon",
+                    "text": "Eles estão infectados pelo mal, na verdade, são um pouco mais difíceis de lidar do que um Hilichurl normal."
+                },
+                {
+                    "id": "111000302",
+                    "speaker": "Paimon",
+                    "text": "Olhe ali, tem algumas pessoas juntas..."
+                },
+                {
+                    "id": "111000303",
+                    "speaker": "Paimon",
+                    "text": "Uau... Você viu aquela pessoa que usava uma máscara? Os Hilichurls correram com medo dela...",
+                    "choices": [
+                        {
+                            "id": "111000304",
+                            "text": "Será que ele é um Adeptus?",
+                            "response": [
+                                {
+                                    "id": "111000306",
+                                    "speaker": "Paimon",
+                                    "text": "Você está dizendo que ele é um Adeptus, como Xiao? Bem... Xiao também usa uma máscara parecida."
+                                },
+                                {
+                                    "id": "111000307",
+                                    "speaker": "Paimon",
+                                    "text": "Olhe para as técnicas deles, parecem a de um Adeptus como as de Xiao. Por que não vamos ali conversar com ele?"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "111000305",
+                            "text": "Parece que era uma magia dos Adepti..."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "1110010",
+            "objective": "Fale com o homem vestindo uma máscara",
+            "dialogues": [
+                {
+                    "id": "111001001",
+                    "speaker": "Paimon",
+                    "text": "Olá! Nós somos..."
+                },
+                {
+                    "id": "111001002",
+                    "speaker": "???",
+                    "text": "Não precisa agradecer. Livrar esse mundo do mal é uma tarefa de um Adeptus."
+                },
+                {
+                    "id": "111001003",
+                    "speaker": "???",
+                    "text": "#Oh? Assumi que vocês eram {F#minhas seguidoras}{M#meus seguidores}, mas agora creio que ainda não nos conhecemos.",
+                    "choices": [
+                        {
+                            "id": "111001004",
+                            "text": "Nós somos Viajantes.",
+                            "response": [
+                                {
+                                    "id": "111001005",
+                                    "speaker": "Paimon",
+                                    "text": "#Eu sou Paimon! Ess{F#a}{M#e} é {F#a minha}{M#o meu} companheir{F#a}{M#o} de viagem, {NICKNAME}."
+                                },
+                                {
+                                    "id": "111001006",
+                                    "speaker": "???",
+                                    "text": "Entendo... Então permitam me apresentar, é uma questão de educação."
+                                },
+                                {
+                                    "id": "111001010",
+                                    "speaker": "???",
+                                    "text": "*Cof, cof*... Eu sou o Adeptus conhecido pelos meus seguidores como Ladrão de Estrelas."
+                                },
+                                {
+                                    "id": "111001011",
+                                    "speaker": "Ladrão de Estrelas, Senhor Celestial",
+                                    "text": "#Desci para ajudar os meus seguidores e encontrei vocês {F#duas}{M#dois}, era o nosso destino. Se vocês tiverem desejos, podem me contar."
+                                },
+                                {
+                                    "id": "111001012",
+                                    "speaker": "Paimon",
+                                    "text": "Desejos? Você, também pode realizar os nossos desejos? Sério? Eu achava que os Adepti só eram bons em lutas."
+                                },
+                                {
+                                    "id": "111001013",
+                                    "speaker": "Ladrão de Estrelas, Senhor Celestial",
+                                    "text": "Haha, claro que sim, afinal, o Ladrão de Estrelas está acima dos outros Adepti."
+                                },
+                                {
+                                    "id": "111001014",
+                                    "speaker": "Ladrão de Estrelas, Senhor Celestial",
+                                    "text": "#Não é o meu estilo de gabar das minhas habilidades divinas. É melhor vocês {F#duas}{M#dois} discutirem com os discípulos e fazerem os seus julgamentos!"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "111001007",
+                            "text": "Nós também estamos procurando por pistas dos Adepti.",
+                            "response": [
+                                {
+                                    "id": "111001008",
+                                    "speaker": "Paimon",
+                                    "text": "#Eu sou Paimon! Ess{F#a}{M#e} é {F#a minha}{M#o meu} companheir{F#a}{M#o} de viagem, {NICKNAME}."
+                                },
+                                {
+                                    "id": "111001009",
+                                    "speaker": "???",
+                                    "text": "Ah, então somos companheiros de mesmo rumo. Então por cortesia, devo me apresentar."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "1110004",
+            "objective": "Fale com os fiéis para saber mais sobre o Ladrão de Estrelas",
+            "dialogues": [
+                {
+                    "id": "111000401",
+                    "speaker": "Homem Crente",
+                    "text": "Você viu a magia do Ladrão de Estrelas? Ele realmente é muito poderoso!"
+                },
+                {
+                    "id": "111000402",
+                    "speaker": "Homem Crente",
+                    "text": "Certamente há esperança para a doença de meu pai..."
+                },
+                {
+                    "id": "111000403",
+                    "speaker": "Player",
+                    "text": "Sobre o Ladrão de Estrelas..."
+                },
+                {
+                    "id": "111000404",
+                    "speaker": "Homem Crente",
+                    "text": "Sem dúvida ele é um Adeptus de verdade, visto que ele domina essas magias dos Adepti."
+                },
+                {
+                    "id": "111000405",
+                    "speaker": "Homem Crente",
+                    "text": "Antes eu pedi uma receita de medicina para o meu pai doente, que é totalmente diferente que a receita passada pelo Chalé de Bubu."
+                },
+                {
+                    "id": "111000406",
+                    "speaker": "Homem Crente",
+                    "text": "Depois de fervido, soltou uma névoa, parecia algo bem Adeptus para mim! Mas também pode ter sido causado porque tinha Flor da Neblina dentro..."
+                },
+                {
+                    "id": "111000407",
+                    "speaker": "Homem Crente",
+                    "text": "O remédio do Adeptus é ótimo, meu pai está melhorando..."
+                },
+                {
+                    "id": "111000408",
+                    "speaker": "Homem Crente",
+                    "text": "Você tem que fazer alguns sacrifícios se quiser obter a ajuda de um Adeptus como o Ladrão de Estrelas. Dei-lhe algumas antiguidades como oferendas, mas a vida de pai é muito mais valiosa do que isso, não é?"
+                }
+            ]
+        },
+        {
+            "id": "1110005",
+            "objective": "Fale com os fiéis para saber mais sobre o Ladrão de Estrelas",
+            "dialogues": [
+                {
+                    "id": "111000501",
+                    "speaker": "Mulher Crente",
+                    "text": "Agora eu sempre sinto que todo dia está cheio de esperança..."
+                },
+                {
+                    "id": "111000502",
+                    "speaker": "Player",
+                    "text": "Sobre o Ladrão de Estrelas..."
+                },
+                {
+                    "id": "111000503",
+                    "speaker": "Mulher Crente",
+                    "text": "#Vocês também são discípul{F#a}{M#o}s do Ladrão de Estrelas?"
+                },
+                {
+                    "id": "111000504",
+                    "speaker": "Mulher Crente",
+                    "text": "Eu choro todos os dias desde que meu noivo partiu sem dar adeus..."
+                },
+                {
+                    "id": "111000505",
+                    "speaker": "Mulher Crente",
+                    "text": "Depois eu tentei usar a Arte de Adeptus: queimar o seu retrato, e soprar a cinza para o mar ao nascer do sol."
+                },
+                {
+                    "id": "111000506",
+                    "speaker": "Mulher Crente",
+                    "text": "Eu tenho um pressentimento de que ele vai voltar em breve... É verdade..."
+                },
+                {
+                    "id": "111000507",
+                    "speaker": "Mulher Crente",
+                    "text": "Por isso, eu ofereci todos os meus dotes ao Ladrão de Estrelas. Sem a sua ajuda para encontrar o meu noivo, nunca teria chance de usá-los..."
+                }
+            ]
+        },
+        {
+            "id": "1110006",
+            "objective": "Fale com os fiéis para saber mais sobre o Ladrão de Estrelas",
+            "dialogues": [
+                {
+                    "id": "111000601",
+                    "speaker": "Comerciante Crente",
+                    "text": "Já que o Ladrão de Estrelas está aqui, será que todos os Millelith podem ser dispensados?"
+                },
+                {
+                    "id": "111000602",
+                    "speaker": "Player",
+                    "text": "Sobre o Ladrão de Estrelas..."
+                },
+                {
+                    "id": "111000603",
+                    "speaker": "Comerciante Crente",
+                    "text": "Eu sou um comerciante, minhas novas mercadorias são muito valiosas, pedi a ajuda do Ladrão de Estrelas para me acompanhar."
+                },
+                {
+                    "id": "111000604",
+                    "speaker": "Comerciante Crente",
+                    "text": "Eu vi que o Ladrão de Estrelas lançou um feitiço, e os monstros todos correram, não sobrou uma sombra na estrada."
+                },
+                {
+                    "id": "111000605",
+                    "speaker": "Comerciante Crente",
+                    "text": "Não foi barato, é claro... Mas solicitar os serviços de um deus é algo monumental - basta olhar para o Ritual de Descensão! Posso aceitar, mas duvido que a maioria das pessoas fora de Liyue esteja disposta a fazer isso..."
+                }
+            ]
+        },
+        {
+            "id": "1110008",
+            "objective": "Fale com o Ladrão de Estrelas",
+            "dialogues": [
+                {
+                    "id": "111000801",
+                    "speaker": "Ladrão de Estrelas, Senhor Celestial",
+                    "text": "Então? Os discípulos podem ser um pouco exagerados, mas são sinceros."
+                },
+                {
+                    "id": "111000802",
+                    "speaker": "Player",
+                    "text": "Eu diria que é tudo fruto da imaginação..."
+                },
+                {
+                    "id": "111000803",
+                    "speaker": "Ladrão de Estrelas, Senhor Celestial",
+                    "text": "Hahaha... Você me faz rir. Havia um Adeptus, Xue Wuliang, os humanos o chamavam de Liangzi, ele disse uma vez——"
+                },
+                {
+                    "id": "111000804",
+                    "speaker": "Ladrão de Estrelas, Senhor Celestial",
+                    "text": "\"Tudo está conectado, a mente, a alma e o corpo possuem uma relação de causalidade...\""
+                },
+                {
+                    "id": "111000805",
+                    "speaker": "Ladrão de Estrelas, Senhor Celestial",
+                    "text": "Quer dizer, todos os desejos estão a caminho de ser realizados! Entendido?"
+                },
+                {
+                    "id": "111000806",
+                    "speaker": "Paimon",
+                    "text": "Não estou entendendo nada... De qualquer forma, os seus desejos irão ser todos realizados, né?"
+                },
+                {
+                    "id": "111000807",
+                    "speaker": "Ladrão de Estrelas, Senhor Celestial",
+                    "text": "Certo. Sua percepção é muito boa."
+                },
+                {
+                    "id": "111000808",
+                    "speaker": "Paimon",
+                    "text": "Ainda tenho uma pergunta..."
+                },
+                {
+                    "id": "111000809",
+                    "speaker": "Ladrão de Estrelas, Senhor Celestial",
+                    "text": "Uh? Pode perguntar.",
+                    "choices": [
+                        {
+                            "id": "111000810",
+                            "text": "Por que você usa uma máscara?",
+                            "response": [
+                                {
+                                    "id": "111000814",
+                                    "speaker": "Ladrão de Estrelas, Senhor Celestial",
+                                    "text": "Eu... Viajo pelo mundo inteiro, ajudo os vulneráveis sem mostrar a minha identidade, tudo isto é para evitar problemas."
+                                },
+                                {
+                                    "id": "111000815",
+                                    "speaker": "Paimon",
+                                    "text": "Ooh, Paimon entende agora!"
+                                },
+                                {
+                                    "id": "111000816",
+                                    "speaker": "Ladrão de Estrelas, Senhor Celestial",
+                                    "text": "#Agora, quais são os desejos de vocês {F#duas}{M#dois}?",
+                                    "choices": [
+                                        {
+                                            "id": "111000817",
+                                            "text": "#Quero saber o que aconteceu com {F#meu irmão}{M#minha irmã}.",
+                                            "response": [
+                                                {
+                                                    "id": "111000818",
+                                                    "speaker": "Ladrão de Estrelas, Senhor Celestial",
+                                                    "text": "Hmmm... Eu sinto uma dor terrível em seu passado."
+                                                },
+                                                {
+                                                    "id": "111000824",
+                                                    "speaker": "Ladrão de Estrelas, Senhor Celestial",
+                                                    "text": "Está bem, eu gostaria que você pudesse realizar esses desejos, mas como isso não é possível..."
+                                                },
+                                                {
+                                                    "id": "111000825",
+                                                    "speaker": "Ladrão de Estrelas, Senhor Celestial",
+                                                    "text": "Bem, falta alguma coisa..."
+                                                },
+                                                {
+                                                    "id": "111000826",
+                                                    "speaker": "Paimon",
+                                                    "text": "Falta alguma coisa?"
+                                                },
+                                                {
+                                                    "id": "111000827",
+                                                    "speaker": "Ladrão de Estrelas, Senhor Celestial",
+                                                    "text": "Os Adepti dependem da percepção, mas parece que vocês não estão entendendo o que quero dizer, desta forma, não posso ajudá-los."
+                                                },
+                                                {
+                                                    "id": "111000828",
+                                                    "speaker": "Paimon",
+                                                    "text": "Eu ainda não estou entendendo o que ele quer dizer.",
+                                                    "choices": [
+                                                        {
+                                                            "id": "111000829",
+                                                            "text": "Parece que precisamos dar algo para ele...",
+                                                            "response": [
+                                                                {
+                                                                    "id": "111000831",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "Oh! Os discípulos também mencionaram, vocês têm que pagar um preço se quiserem pedir favor aos Adepti..."
+                                                                },
+                                                                {
+                                                                    "id": "111000832",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "Mas nós não temos nenhum dinheiro."
+                                                                },
+                                                                {
+                                                                    "id": "111000833",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "Além disso, você nem tem a Visão...",
+                                                                    "choices": [
+                                                                        {
+                                                                            "id": "111000834",
+                                                                            "text": "A Visão não é uma coisa que as pessoas possam vender.",
+                                                                            "response": [
+                                                                                {
+                                                                                    "id": "111000836",
+                                                                                    "speaker": "Paimon",
+                                                                                    "text": "*Suspiro* Que tal fazermos comidas deliciosas para ele? Ninguém consegue resistir ao sabor perfeito.",
+                                                                                    "choices": [
+                                                                                        {
+                                                                                            "id": "111000837",
+                                                                                            "text": "Bem, para Paimon é assim...",
+                                                                                            "response": [
+                                                                                                {
+                                                                                                    "id": "111000839",
+                                                                                                    "speaker": "Paimon",
+                                                                                                    "text": "Hum! Comida deliciosa! Vamos conseguir! Hehe"
+                                                                                                },
+                                                                                                {
+                                                                                                    "id": "111000840",
+                                                                                                    "speaker": "Paimon",
+                                                                                                    "text": "Que tal irmos agora à Biblioteca Wanwen para buscar umas receitas populares?"
+                                                                                                }
+                                                                                            ]
+                                                                                        },
+                                                                                        {
+                                                                                            "id": "111000838",
+                                                                                            "text": "Delicioso!"
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        {
+                                                                            "id": "111000835",
+                                                                            "text": "Sim, é uma pena..."
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "id": "111000830",
+                                                            "text": "Ele quer Mora."
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "111000821",
+                                            "text": "#Então quero ficar ric{F#a}{M#o} do dia para a noite!",
+                                            "response": [
+                                                {
+                                                    "id": "111000822",
+                                                    "speaker": "Paimon",
+                                                    "text": "#Espere... Você vai deixar {NICKNAME} sozinh{M#o}{F#a}?"
+                                                },
+                                                {
+                                                    "id": "111000823",
+                                                    "speaker": "Ladrão de Estrelas, Senhor Celestial",
+                                                    "text": "Ah, como são as pessoas. Olhe para o povo de Liyue, todos parecem contaminados pelo cheiro do cobre."
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "111000811",
+                            "text": "Você pode tirá-la para vermos seu rosto?",
+                            "response": [
+                                {
+                                    "id": "111000812",
+                                    "speaker": "Paimon",
+                                    "text": "Ei! Isso é falta de educação!"
+                                },
+                                {
+                                    "id": "111000813",
+                                    "speaker": "Ladrão de Estrelas, Senhor Celestial",
+                                    "text": "Haha, sim, não é apropriado."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "1110023",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "111002301",
+                    "speaker": "Ladrão de Estrelas, Senhor Celestial",
+                    "text": "Fique à vontade e fale com eles. Eu não quero me elogiar, deve ser outros que me julgam."
+                }
+            ]
+        }
+    ]
+}

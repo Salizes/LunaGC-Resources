@@ -1,0 +1,945 @@
+{
+    "quest": {
+        "id": "73003",
+        "title": "Criança desaparecida",
+        "description": "As zonas afetadas pelo Definhamento marcadas por Rana foram removidas. O problema do Crocodilo Espinhoso também foi resolvido. As crianças na Vila Vimara devem estar seguras agora. Volte com Rana.",
+        "rewards": [
+            {
+                "itemId": 102,
+                "count": 400
+            },
+            {
+                "itemId": 201,
+                "count": 50
+            },
+            {
+                "itemId": 202,
+                "count": 40000
+            },
+            {
+                "itemId": 104003,
+                "count": 4
+            },
+            {
+                "itemId": 104013,
+                "count": 4
+            }
+        ],
+        "rewards_formatted": "EXP de Aventura x400, Gema Essencial x50, Mora x40000, EXP do Herói x4, Minério de Refinamento Místico x4",
+        "chapter": {
+            "icon": "UI_ChapterIcon_Sumeru",
+            "id": "10073",
+            "num": "Aranyaka: Capítulo I",
+            "title": "Encontro na Floresta"
+        },
+        "total_dialogue_lines": 156,
+        "total_speaker_counts": {
+            "???": 3,
+            "Alphonso": 4,
+            "Arana": 17,
+            "Black Screen": 1,
+            "Iotham": 18,
+            "Paimon": 31,
+            "Player": 39,
+            "Rana": 41,
+            "Sargento Fatui": 2
+        }
+    },
+    "talks": [
+        {
+            "id": "7300301",
+            "objective": "Siga pelo caminho e volte para Vila Vimara",
+            "dialogues": [
+                {
+                    "id": "730030101",
+                    "speaker": "Rana",
+                    "text": "Estou muito feliz que vocês puderam vir comigo. Ainda assim, preciso relatar a expansão do Definhamento das proximidades ao Tighnari."
+                },
+                {
+                    "id": "730030102",
+                    "speaker": "Paimon",
+                    "text": "Hã? Aquela... é uma criança da Vila Vimara?"
+                },
+                {
+                    "id": "730030103",
+                    "speaker": "Rana",
+                    "text": "Hã? Iotham! Espere!"
+                }
+            ]
+        },
+        {
+            "id": "7300303",
+            "objective": "Encontre Iotham",
+            "dialogues": [
+                {
+                    "id": "730030301",
+                    "speaker": "Rana",
+                    "text": "Ah... Ah.. Finalmente..."
+                },
+                {
+                    "id": "730030302",
+                    "speaker": "Iotham",
+                    "text": "Rana... *Choro*..."
+                },
+                {
+                    "id": "730030303",
+                    "speaker": "Rana",
+                    "text": "Iotham... Está tudo bem, rapazinho, não há motivo para chorar. Olha... Se eu puder contar a eles sobre o que senti no Definhamento... para aqueles pesquisadores da Academia... eles poderão cuidar do Definhamento de uma vez por todas..."
+                },
+                {
+                    "id": "730030304",
+                    "speaker": "Rana",
+                    "text": "#E... Você viu? Viu como eu luto? Não, viu como {NICKNAME} luta? Você deveria agradecê-l{F#a}{M#o}..."
+                },
+                {
+                    "id": "730030305",
+                    "speaker": "Paimon",
+                    "text": "Rana...",
+                    "choices": [
+                        {
+                            "id": "730030306",
+                            "text": "Não precisa falar mais.",
+                            "response": [
+                                {
+                                    "id": "730030307",
+                                    "speaker": "Paimon",
+                                    "text": "Rana, descanse um pouco..."
+                                },
+                                {
+                                    "id": "730030309",
+                                    "speaker": "Rana",
+                                    "text": "Hahaha, tudo bem... Eu só estou me sentindo um pouco tonta e cansada..."
+                                },
+                                {
+                                    "id": "730030310",
+                                    "speaker": "Iotham",
+                                    "text": "Rana, desculpe..."
+                                },
+                                {
+                                    "id": "730030311",
+                                    "speaker": "Rana",
+                                    "text": "Do que você está falando? Você é meu pequeno tigre, não chore! Você está bem, não está? Você está sentindo dor, Iotham? Se sentindo tonto, ou fraco?"
+                                },
+                                {
+                                    "id": "730030312",
+                                    "speaker": "Iotham",
+                                    "text": "Eu estou bem, mas Rana, você..."
+                                },
+                                {
+                                    "id": "730030313",
+                                    "speaker": "Rana",
+                                    "text": "Não se preocupe, eu estou bem. Afinal, eu sou uma Patrulheira Florestal guerreira! Vamos!"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "730030308",
+                            "text": "Vou procurar ajuda."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "7300304",
+            "objective": "Entre na caverna, procure por Iotham",
+            "dialogues": [
+                {
+                    "id": "730030401",
+                    "speaker": "Rana",
+                    "text": "Não se preocupem, vão logo."
+                }
+            ]
+        },
+        {
+            "id": "7300310",
+            "objective": "",
+            "dialogues": [
+                {
+                    "id": "730031001",
+                    "speaker": "Sargento Fatui",
+                    "text": "... Quem são vocês? Não fiquem em nosso caminho."
+                },
+                {
+                    "id": "730031002",
+                    "speaker": "Rana",
+                    "text": "Hunf, eu que deveria lhe perguntar isso! Eu sou a Patrulheira Florestal, e estou procurando por uma criança desaparecida. Identifiquem-se!",
+                    "choices": [
+                        {
+                            "id": "730031003",
+                            "text": "Oh não, os Fatui! De onde eles saíram?",
+                            "response": [
+                                {
+                                    "id": "730031005",
+                                    "speaker": "Rana",
+                                    "text": "Hã? Será que esses são os Fatui que Alphonso mencionou? Identifiquem-se."
+                                },
+                                {
+                                    "id": "730031006",
+                                    "speaker": "Sargento Fatui",
+                                    "text": "Alphonso...? Não importa. Não pensem que vocês vão sair daqui sem uma luta!"
+                                },
+                                {
+                                    "id": "730031007",
+                                    "speaker": "Rana",
+                                    "text": "Bem, parece que não temos como resolver isso com um diálogo!"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "730031004",
+                            "text": "São os Fatui. Tenha cuidado."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "7300311",
+            "objective": "Derrote os Fatui e seus cúmplices",
+            "dialogues": [
+                {
+                    "id": "730031101",
+                    "speaker": "Rana",
+                    "text": "#{NICKNAME}, ainda bem que você estava aqui...",
+                    "choices": [
+                        {
+                            "id": "730031102",
+                            "text": "Não se preocupe.",
+                            "response": [
+                                {
+                                    "id": "730031105",
+                                    "speaker": "Rana",
+                                    "text": "Parece que Alphonso não estava brincando, esses Fatui são muito perigosos..."
+                                },
+                                {
+                                    "id": "730031106",
+                                    "speaker": "Rana",
+                                    "text": "De qualquer forma, podemos discutir mais sobre isso depois. Iotham deve estar no fundo daquela caverna, devemos continuar."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "730031103",
+                            "text": "Você luta bem.",
+                            "response": [
+                                {
+                                    "id": "730031104",
+                                    "speaker": "Rana",
+                                    "text": "Sério? Hehe, provavelmente é porque você e Paimon estavam ao meu lado."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "7300316",
+            "objective": "Continue adentrando a caverna em busca de Iotham",
+            "dialogues": []
+        },
+        {
+            "id": "7300312",
+            "objective": "",
+            "dialogues": [
+                {
+                    "id": "730030201",
+                    "speaker": "Rana",
+                    "text": "Iotham, o que aconteceu?"
+                },
+                {
+                    "id": "730030202",
+                    "speaker": "Iotham",
+                    "text": "#*Choro* Rana... {NICKNAME}..."
+                },
+                {
+                    "id": "730030203",
+                    "speaker": "Paimon",
+                    "text": "Hã? Iotham, o que você está fazendo em uma área afetada pelo Definhamento? Tem muitos monstros aqui..."
+                },
+                {
+                    "id": "730030204",
+                    "speaker": "Rana",
+                    "text": "...",
+                    "choices": [
+                        {
+                            "id": "730030205",
+                            "text": "Pode deixar isso aqui comigo.",
+                            "response": [
+                                {
+                                    "id": "730030207",
+                                    "speaker": "Rana",
+                                    "text": "Não, não há tempo..."
+                                },
+                                {
+                                    "id": "730030208",
+                                    "speaker": "Rana",
+                                    "text": "#Droga! {NICKNAME}, vamos fazer isso junt{F#as}{M#os}!"
+                                },
+                                {
+                                    "id": "730030209",
+                                    "speaker": "Rana",
+                                    "text": "Iotham, espere aqui e não se mova! Estamos indo lhe salvar!"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "730030206",
+                            "text": "O que é aquilo verde....?"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "7300305",
+            "objective": "Tente eliminar o Definhamento.",
+            "dialogues": [
+                {
+                    "id": "730030501",
+                    "speaker": "Alphonso",
+                    "text": "#Iotham? Porque é que você... e {NICKNAME}..."
+                },
+                {
+                    "id": "730030502",
+                    "speaker": "Paimon",
+                    "text": "É urgente, vamos resumir..."
+                },
+                {
+                    "id": "730030503",
+                    "speaker": "Black Screen",
+                    "text": "Você explica brevemente o que aconteceu."
+                },
+                {
+                    "id": "730030504",
+                    "speaker": "Alphonso",
+                    "text": "... Entendo. Iotham, descanse."
+                },
+                {
+                    "id": "730030505",
+                    "speaker": "Iotham",
+                    "text": "Desculpe, Alphonso..."
+                },
+                {
+                    "id": "730030506",
+                    "speaker": "Alphonso",
+                    "text": "#Não tem problema, o que importa é que você está bem... {NICKNAME}, espere um pouco. Vou preparar alguns remédios e então seguirei com você."
+                },
+                {
+                    "id": "730030507",
+                    "speaker": "Player",
+                    "text": "Não há tempo. Esse é o local, vá para lá logo."
+                },
+                {
+                    "id": "730030508",
+                    "speaker": "Paimon",
+                    "text": "Sim, voltaremos em breve para ver como Rana está..."
+                },
+                {
+                    "id": "730030509",
+                    "speaker": "Alphonso",
+                    "text": "Hã? Esperem..."
+                }
+            ]
+        },
+        {
+            "id": "7300313",
+            "objective": "Siga pelo caminho e volte para Vila Vimara",
+            "dialogues": []
+        },
+        {
+            "id": "7300314",
+            "objective": "",
+            "dialogues": [
+                {
+                    "id": "730030801",
+                    "speaker": "Rana",
+                    "text": "#Me desculpem... {NICKNAME}, Paimon, eu preciso descansar... Iotham, espere por mim."
+                },
+                {
+                    "id": "730030802",
+                    "speaker": "Paimon",
+                    "text": "Rana, você realmente está bem?"
+                },
+                {
+                    "id": "730030803",
+                    "speaker": "Player",
+                    "text": "Nós vamos procurar ajuda..."
+                },
+                {
+                    "id": "730030804",
+                    "speaker": "Rana",
+                    "text": "Está tudo bem, eu só preciso... Descansar um pouco..."
+                },
+                {
+                    "id": "730030805",
+                    "speaker": "Iotham",
+                    "text": "Desculpe, Rana, desculpe..."
+                },
+                {
+                    "id": "730030806",
+                    "speaker": "Rana",
+                    "text": "É sério... Eu já disse que estou bem! Só estou irritada..."
+                },
+                {
+                    "id": "730030807",
+                    "speaker": "Rana",
+                    "text": "Você prometeu... Que não ia para floresta. Espere eu descansar que vou lhe dar uma lição... Sobre quebrar promessas..."
+                },
+                {
+                    "id": "730030808",
+                    "speaker": "Iotham",
+                    "text": "*Choro*... Eu ouvi Alphonso dizer que os cogumelos aqui são gigantes! Eu só queria trazer alguns cogumelos frescos para você comer... Para você ter mais força..."
+                },
+                {
+                    "id": "730030809",
+                    "speaker": "Rana",
+                    "text": "Oh, seu tonto... Você não precisava fazer isso. Só de pensar em vocês eu já fico com forças..."
+                },
+                {
+                    "id": "730030810",
+                    "speaker": "Rana",
+                    "text": "Ainda assim, hahaha... Os cogumelos daqui são enormes... Eles combinariam muito bem com curry..."
+                },
+                {
+                    "id": "730030811",
+                    "speaker": "Player",
+                    "text": "Foi Alphonso que mandou você vir?"
+                },
+                {
+                    "id": "730030812",
+                    "speaker": "Iotham",
+                    "text": "Não... Alphonso me disse que não devíamos sair correndo por aí. Mas eu queria dar a Rana algo gostoso para comer... Por isso..."
+                },
+                {
+                    "id": "730030813",
+                    "speaker": "Rana",
+                    "text": "Alphonso não faria algo assim, ele é o irmão de Iotham..."
+                },
+                {
+                    "id": "730030814",
+                    "speaker": "Paimon",
+                    "text": "Paimon entende... Mas, Iotham, como você ficou preso no Definhamento?"
+                },
+                {
+                    "id": "730030815",
+                    "speaker": "Iotham",
+                    "text": "Quando eu estava na floresta, senti que alguém estava me seguindo... Fiquei com muito medo, pensei que era a Personificação de Marana... Por isso eu corri... *Choro*..."
+                },
+                {
+                    "id": "730030816",
+                    "speaker": "Iotham",
+                    "text": "Eu acabei correndo para dentro da Marana..."
+                },
+                {
+                    "id": "730030817",
+                    "speaker": "Paimon",
+                    "text": "?",
+                    "choices": [
+                        {
+                            "id": "730030818",
+                            "text": "Marana?",
+                            "response": [
+                                {
+                                    "id": "730030819",
+                                    "speaker": "Rana",
+                                    "text": "É o Definhamento..."
+                                },
+                                {
+                                    "id": "730030820",
+                                    "speaker": "Iotham",
+                                    "text": "Sim, é o Definhamento..."
+                                },
+                                {
+                                    "id": "730030821",
+                                    "speaker": "Player",
+                                    "text": "Personificação de Marana?"
+                                },
+                                {
+                                    "id": "730030822",
+                                    "speaker": "Iotham",
+                                    "text": "Sim. Ela faz coisas por Marana na terra... É uma coisa alta e escura..."
+                                },
+                                {
+                                    "id": "730030828",
+                                    "speaker": "Paimon",
+                                    "text": "Marana... Que nome estranho."
+                                },
+                                {
+                                    "id": "730030829",
+                                    "speaker": "Rana",
+                                    "text": "Uhum... Como eu saberia que Marana era o Definhamento? Que droga... Tudo está girando..."
+                                },
+                                {
+                                    "id": "730030830",
+                                    "speaker": "Rana",
+                                    "text": "Iotham, o que era aquela coisa verde?"
+                                },
+                                {
+                                    "id": "730030831",
+                                    "speaker": "Iotham",
+                                    "text": "..."
+                                },
+                                {
+                                    "id": "730030832",
+                                    "speaker": "Iotham",
+                                    "text": "Era Ararakalari... Pode proteger as pessoas da corrosão de Marana."
+                                },
+                                {
+                                    "id": "730030833",
+                                    "speaker": "Player",
+                                    "text": "Estou entendendo cada vez menos..."
+                                },
+                                {
+                                    "id": "730030834",
+                                    "speaker": "Rana",
+                                    "text": "É... É um tipo de magia da floresta... É também é um tipo de música... É um Ara...",
+                                    "choices": [
+                                        {
+                                            "id": "730030835",
+                                            "text": "O que foi?",
+                                            "response": [
+                                                {
+                                                    "id": "730030836",
+                                                    "speaker": "Paimon",
+                                                    "text": "Não se preocupe com isso, Rana, você precisa descansar!"
+                                                },
+                                                {
+                                                    "id": "730030838",
+                                                    "speaker": "Rana",
+                                                    "text": "Está na ponta da minha língua, mas..."
+                                                },
+                                                {
+                                                    "id": "730030839",
+                                                    "speaker": "Iotham",
+                                                    "text": "Me desculpa Rana, me desculpa... Eu não vou mais sair por aí correndo, vou me comportar e ficar em casa..."
+                                                },
+                                                {
+                                                    "id": "730030840",
+                                                    "speaker": "Rana",
+                                                    "text": "Eu sei. Você se tornará inteligente, saudável, e saberá o que é certo e errado... Assim como quais cogumelos pode comer ou não..."
+                                                },
+                                                {
+                                                    "id": "730030841",
+                                                    "speaker": "Iotham",
+                                                    "text": "Eu sei, eu sei, me desculpe..."
+                                                },
+                                                {
+                                                    "id": "730030842",
+                                                    "speaker": "Rana",
+                                                    "text": "#Sabendo que \"Marana\" é ruim e que a floresta é boa... tornando pessoas fortes, decentes e ajudando os necessitados... como {NICKNAME} e Paimon..."
+                                                },
+                                                {
+                                                    "id": "730030843",
+                                                    "speaker": "Rana",
+                                                    "text": "Não se esqueça... A floresta se lembra de tudo..."
+                                                },
+                                                {
+                                                    "id": "730030844",
+                                                    "speaker": "Paimon",
+                                                    "text": "Oh não, parece que Rana está piorando!",
+                                                    "choices": [
+                                                        {
+                                                            "id": "730030845",
+                                                            "text": "Vamos procurar ajuda!",
+                                                            "response": [
+                                                                {
+                                                                    "id": "730030847",
+                                                                    "speaker": "Rana",
+                                                                    "text": "Hã? Oh, eu estou bem... É sério, só preciso descansar um pouco..."
+                                                                },
+                                                                {
+                                                                    "id": "730030848",
+                                                                    "speaker": "Rana",
+                                                                    "text": "#{NICKNAME}, por favor... Leve Iotham de volta por mim..."
+                                                                },
+                                                                {
+                                                                    "id": "730030849",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "Sim, vamos Iotham. Rana, não saia correndo por aí! Nós retornaremos!"
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "id": "730030846",
+                                                            "text": "Rana, espere por nós."
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "730030837",
+                                            "text": "Não pense nisso, descanse."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "730030823",
+                            "text": "Personificação de Marana?",
+                            "response": [
+                                {
+                                    "id": "730030824",
+                                    "speaker": "Iotham",
+                                    "text": "Sim. Ela faz coisas por Marana na terra... É uma coisa alta e escura..."
+                                },
+                                {
+                                    "id": "730030825",
+                                    "speaker": "Player",
+                                    "text": "Marana?"
+                                },
+                                {
+                                    "id": "730030826",
+                                    "speaker": "Rana",
+                                    "text": "É o Definhamento..."
+                                },
+                                {
+                                    "id": "730030827",
+                                    "speaker": "Iotham",
+                                    "text": "Sim, é o Definhamento..."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "7300307",
+            "objective": "Leve Iotham de volta para a Vila Vimara.",
+            "dialogues": []
+        },
+        {
+            "id": "7300308",
+            "objective": "Vá para onde Rana está",
+            "dialogues": [
+                {
+                    "id": "730030601",
+                    "speaker": "Paimon",
+                    "text": "... Hã? Paimon se lembra que esse era o local..."
+                },
+                {
+                    "id": "730030602",
+                    "speaker": "Paimon",
+                    "text": "Rana! Você consegue escutar Paimon?",
+                    "choices": [
+                        {
+                            "id": "730030603",
+                            "text": "Rana!",
+                            "response": [
+                                {
+                                    "id": "730030604",
+                                    "speaker": "Paimon",
+                                    "text": "Ela não responde... Droga! O que está acontecendo?!"
+                                },
+                                {
+                                    "id": "730030605",
+                                    "speaker": "Paimon",
+                                    "text": "Hã? Essas marcas são..."
+                                },
+                                {
+                                    "id": "730030607",
+                                    "speaker": "Paimon",
+                                    "text": "Vamos segui-las... Talvez sejam pistas que Rana deixou para nós!"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "730030606",
+                            "text": "Que marcas são essas...?"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "7300309",
+            "objective": "Siga os rastros estranhos",
+            "dialogues": [
+                {
+                    "id": "730030701",
+                    "speaker": "Rana",
+                    "text": "..."
+                },
+                {
+                    "id": "730030702",
+                    "speaker": "Paimon",
+                    "text": "Ei! Rana! Você está ouvindo Paimon?"
+                },
+                {
+                    "id": "730030703",
+                    "speaker": "Rana",
+                    "text": "..."
+                },
+                {
+                    "id": "730030704",
+                    "speaker": "Paimon",
+                    "text": "O que está acontecendo aqui? Seriam aqueles Ara-alguma-coisa que Iotham e Rana falaram antes?",
+                    "choices": [
+                        {
+                            "id": "730030705",
+                            "text": "\"Ararakalari\"?",
+                            "response": [
+                                {
+                                    "id": "730030706",
+                                    "speaker": "Paimon",
+                                    "text": "Sim, isso mesmo! Paimon acha que eles disseram que podia resistir a corrosão Marana, ou algo do tipo..."
+                                },
+                                {
+                                    "id": "730030707",
+                                    "speaker": "???",
+                                    "text": "Sim. Nara inteligente. Ararakalari pode resistir Marana."
+                                },
+                                {
+                                    "id": "730030711",
+                                    "speaker": "Paimon",
+                                    "text": "Aaaah!"
+                                },
+                                {
+                                    "id": "730030712",
+                                    "speaker": "???",
+                                    "text": "Aaaah!",
+                                    "choices": [
+                                        {
+                                            "id": "730030713",
+                                            "text": "Não é o que vimos antes?",
+                                            "response": [
+                                                {
+                                                    "id": "730030714",
+                                                    "speaker": "Paimon",
+                                                    "text": "Você quer matar Paimon de susto?! Paimon pensou que você era um legume falante!"
+                                                },
+                                                {
+                                                    "id": "730030716",
+                                                    "speaker": "Arana",
+                                                    "text": "Não é legume, é Arana. Arana é amiga, é Aranara.",
+                                                    "choices": [
+                                                        {
+                                                            "id": "730030717",
+                                                            "text": "Aranara...",
+                                                            "response": [
+                                                                {
+                                                                    "id": "730030718",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "Hã? Você disse Aranara? Pensando bem, agora que Paimon está olhando para você, Paimon acha que já lhe vimos antes..."
+                                                                },
+                                                                {
+                                                                    "id": "730030719",
+                                                                    "speaker": "Player",
+                                                                    "text": "Arana..."
+                                                                },
+                                                                {
+                                                                    "id": "730030720",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "Oh, Paimon ouviu esse nome quando Iotham contou a história..."
+                                                                },
+                                                                {
+                                                                    "id": "730030721",
+                                                                    "speaker": "Arana",
+                                                                    "text": "Sim. Nara Iotham é amigo de Arana."
+                                                                },
+                                                                {
+                                                                    "id": "730030727",
+                                                                    "speaker": "Arana",
+                                                                    "text": "#Aranaras são crianças da floresta. Vivem nas árvores. Não é como você, Nara e {NICKNAME}. Vocês são crianças de Dandelion, sempre viajando."
+                                                                },
+                                                                {
+                                                                    "id": "730030728",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "#Como você sabe o nome de {NICKNAME}?"
+                                                                },
+                                                                {
+                                                                    "id": "730030729",
+                                                                    "speaker": "Arana",
+                                                                    "text": "Como Arana sabe não é importante. Mas, Arana quer ajudar Nara Rana, é importante.",
+                                                                    "choices": [
+                                                                        {
+                                                                            "id": "730030730",
+                                                                            "text": "Nara Rana... Parece um trava-língua...",
+                                                                            "response": [
+                                                                                {
+                                                                                    "id": "730030731",
+                                                                                    "speaker": "Paimon",
+                                                                                    "text": "Você quer ajudar Rana? O que você precisa fazer?"
+                                                                                },
+                                                                                {
+                                                                                    "id": "730030733",
+                                                                                    "speaker": "Arana",
+                                                                                    "text": "#Obrigado, {F#boas}{M#bons} Nara. Ela é amiga importante de Arana. Por isso, Arana vai protegê-la."
+                                                                                },
+                                                                                {
+                                                                                    "id": "730030734",
+                                                                                    "speaker": "Arana",
+                                                                                    "text": "#Mas isso não é suficiente. Para curar Nara Rana, precisamos de Bija. Nara {NICKNAME}, precisamos ir até Vanarana e perguntar a todos sobre Bija.",
+                                                                                    "choices": [
+                                                                                        {
+                                                                                            "id": "730030735",
+                                                                                            "text": "Bija...",
+                                                                                            "response": [
+                                                                                                {
+                                                                                                    "id": "730030737",
+                                                                                                    "speaker": "Arana",
+                                                                                                    "text": "Nara Rana foi corroída por Marana, muito grave. Insetos ruins mordem raízes das árvores, árvores morrem, frutos apodrecem."
+                                                                                                },
+                                                                                                {
+                                                                                                    "id": "730030738",
+                                                                                                    "speaker": "Arana",
+                                                                                                    "text": "Vida de Nara é como árvore, insetos ruins, como Marana. Só Bija pode curar Nara Rana."
+                                                                                                },
+                                                                                                {
+                                                                                                    "id": "730030739",
+                                                                                                    "speaker": "Paimon",
+                                                                                                    "text": "Hã... Então nós precisamos ir para um lugar chamada \"Vanarana\" e pensar numa maneira de conseguir essa Bija? Então com ela poderemos curar Rana?"
+                                                                                                },
+                                                                                                {
+                                                                                                    "id": "730030740",
+                                                                                                    "speaker": "Arana",
+                                                                                                    "text": "Certo.",
+                                                                                                    "choices": [
+                                                                                                        {
+                                                                                                            "id": "730030741",
+                                                                                                            "text": "Então a condição atual da Rana...",
+                                                                                                            "response": [
+                                                                                                                {
+                                                                                                                    "id": "730030742",
+                                                                                                                    "speaker": "Arana",
+                                                                                                                    "text": "Não se preocupem. Arana ficará aqui resistindo a corrosão de Marana. Rana não piorará."
+                                                                                                                },
+                                                                                                                {
+                                                                                                                    "id": "730030743",
+                                                                                                                    "speaker": "Arana",
+                                                                                                                    "text": "Mas sem Bija, Rana não melhorará."
+                                                                                                                },
+                                                                                                                {
+                                                                                                                    "id": "730030745",
+                                                                                                                    "speaker": "Arana",
+                                                                                                                    "text": "Sigam o caminho da floresta até o local de onde a água nasce. Então terão chegado em Vanarana."
+                                                                                                                },
+                                                                                                                {
+                                                                                                                    "id": "730030746",
+                                                                                                                    "speaker": "Arana",
+                                                                                                                    "text": "E então, cante.",
+                                                                                                                    "choices": [
+                                                                                                                        {
+                                                                                                                            "id": "730030747",
+                                                                                                                            "text": "Cantar?",
+                                                                                                                            "response": [
+                                                                                                                                {
+                                                                                                                                    "id": "730030750",
+                                                                                                                                    "speaker": "Player",
+                                                                                                                                    "text": "(Uma melodia vem à mente...)"
+                                                                                                                                },
+                                                                                                                                {
+                                                                                                                                    "id": "730030751",
+                                                                                                                                    "speaker": "Arana",
+                                                                                                                                    "text": "É a \"Melodia do Sonho\". Cante para entrar em Vanarana."
+                                                                                                                                },
+                                                                                                                                {
+                                                                                                                                    "id": "730030752",
+                                                                                                                                    "speaker": "Arana",
+                                                                                                                                    "text": "Entre em nossos sonhos, em nosso mundo."
+                                                                                                                                }
+                                                                                                                            ]
+                                                                                                                        },
+                                                                                                                        {
+                                                                                                                            "id": "730030748",
+                                                                                                                            "text": "Isso atrairá Flores Gigantes...",
+                                                                                                                            "response": [
+                                                                                                                                {
+                                                                                                                                    "id": "730030749",
+                                                                                                                                    "speaker": "Arana",
+                                                                                                                                    "text": "#Nara {NICKNAME}, você é engraçad{F#a}{M#o}."
+                                                                                                                                }
+                                                                                                                            ]
+                                                                                                                        }
+                                                                                                                    ]
+                                                                                                                }
+                                                                                                            ]
+                                                                                                        },
+                                                                                                        {
+                                                                                                            "id": "730030744",
+                                                                                                            "text": "Entendido. Como chegamos lá então?"
+                                                                                                        }
+                                                                                                    ]
+                                                                                                }
+                                                                                            ]
+                                                                                        },
+                                                                                        {
+                                                                                            "id": "730030736",
+                                                                                            "text": "O que é isso?"
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        {
+                                                                            "id": "730030732",
+                                                                            "text": "O que você precisa que eu faça?"
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "id": "730030722",
+                                                            "text": "Arana...",
+                                                            "response": [
+                                                                {
+                                                                    "id": "730030723",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "Oh, Paimon ouviu esse nome quando Iotham contou a história..."
+                                                                },
+                                                                {
+                                                                    "id": "730030724",
+                                                                    "speaker": "Arana",
+                                                                    "text": "Sim. Nara Iotham é amigo de Arana."
+                                                                },
+                                                                {
+                                                                    "id": "730030725",
+                                                                    "speaker": "Player",
+                                                                    "text": "Aranara..."
+                                                                },
+                                                                {
+                                                                    "id": "730030726",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "Hã? Você disse Aranara? Pensando bem, agora que Paimon está olhando para você, Paimon acha que já lhe vimos antes..."
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "730030715",
+                                            "text": "Legume..."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "730030708",
+                            "text": "O que foi isso?",
+                            "response": [
+                                {
+                                    "id": "730030709",
+                                    "speaker": "Paimon",
+                                    "text": "Paimon ouviu eles dizerem que podia resistir a corrosão Marana ou algo assim... Tinha um nome estranho."
+                                },
+                                {
+                                    "id": "730030710",
+                                    "speaker": "???",
+                                    "text": "É Ararakalari. Pode lutar contra Marana. Não é um nome estranho."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

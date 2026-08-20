@@ -1,0 +1,2164 @@
+{
+    "quest": {
+        "id": "8017",
+        "title": "\"Savior\"",
+        "description": "Facing the Abyss Order's assault on Natlan, you decide to return to the cave where the key was lost, seeking a chance to end the conflict...",
+        "rewards": [
+            {
+                "itemId": 102,
+                "count": 1125
+            },
+            {
+                "itemId": 202,
+                "count": 49200
+            },
+            {
+                "itemId": 104003,
+                "count": 5
+            },
+            {
+                "itemId": 104013,
+                "count": 9
+            }
+        ],
+        "rewards_formatted": "Adventure EXP x1125, Mora x49200, Hero's Wit x5, Mystic Enhancement Ore x9",
+        "chapter": {
+            "icon": "UI_ChapterIcon_Traveler",
+            "id": "1506",
+            "num": "Chapter V: Act VI",
+            "title": "A Space and Time for You"
+        },
+        "total_dialogue_lines": 390,
+        "total_speaker_counts": {
+            "<UNKNOWN>": 2,
+            "???": 20,
+            "Black Screen": 3,
+            "Citlali": 17,
+            "Direidyth": 87,
+            "Iansan": 21,
+            "Kantalo": 14,
+            "Paimon": 116,
+            "Player": 99,
+            "Sibling": 1,
+            "Sutura": 10
+        }
+    },
+    "talks": [
+        {
+            "id": "801701",
+            "objective": "Return to the area near the cave to investigate",
+            "dialogues": [
+                {
+                    "id": "80170101",
+                    "speaker": "Paimon",
+                    "text": "And we're back where we started. That hilichurl probably found the key nearby, right?"
+                },
+                {
+                    "id": "80170102",
+                    "speaker": "Paimon",
+                    "text": "Let's look around for clues. There's no time to waste — Iansan and Citlali are waiting for us!"
+                },
+                {
+                    "id": "80170103",
+                    "speaker": "Paimon",
+                    "text": "Ugh... We've scoured the entire area, but still nothing. How the heck did the key end up in that hilichurl's hands?"
+                },
+                {
+                    "id": "80170104",
+                    "speaker": "Paimon",
+                    "text": "#Are we supposed to believe that it just fell out of your {M#sister}{F#brother}'s pocket as {M#she}{F#he} passed by?"
+                },
+                {
+                    "id": "80170105",
+                    "speaker": "Paimon",
+                    "text": "Hah. Seems kinda ludicrous to lose something so important in such a dumb way... But then again, who knows? Sometimes in life, things just go missing and that's that."
+                },
+                {
+                    "id": "80170106",
+                    "speaker": "???",
+                    "text": "Ah! Thank goodness, someone's here... Please, help me!"
+                },
+                {
+                    "id": "80170107",
+                    "speaker": "Paimon",
+                    "text": "Whoa! Who are you? What happened?"
+                },
+                {
+                    "id": "80170108",
+                    "speaker": "???",
+                    "text": "Uh..."
+                },
+                {
+                    "id": "80170109",
+                    "speaker": "???",
+                    "text": "Ah, ugh, no, now isn't the time..."
+                },
+                {
+                    "id": "80170110",
+                    "speaker": "???",
+                    "text": "Please, you gotta help me... I'm being chased by monsters, and I can't keep running. Can you do something?",
+                    "choices": [
+                        {
+                            "id": "80170111",
+                            "text": "You've come to the right person.",
+                            "response": [
+                                {
+                                    "id": "80170113",
+                                    "speaker": "Paimon",
+                                    "text": "Yeah, where are they? Paimon doesn't see any monsters behind you..."
+                                },
+                                {
+                                    "id": "80170114",
+                                    "speaker": "???",
+                                    "text": "Huh...? I'm sorry, I don't quite understand..."
+                                },
+                                {
+                                    "id": "80170115",
+                                    "speaker": "???",
+                                    "text": "They're almost here... This really isn't the time to be joking around..."
+                                },
+                                {
+                                    "id": "80170116",
+                                    "speaker": "Paimon",
+                                    "text": "Uhh... We're not... We're completely serious. We don't see any monsters."
+                                },
+                                {
+                                    "id": "80170117",
+                                    "speaker": "???",
+                                    "text": "But how... Ugh, there's no time! They're coming. We gotta run!",
+                                    "choices": [
+                                        {
+                                            "id": "80170118",
+                                            "text": "But I really don't see anything...",
+                                            "response": [
+                                                {
+                                                    "id": "80170120",
+                                                    "speaker": "Paimon",
+                                                    "text": "What's wrong with that girl? She must be seeing things..."
+                                                },
+                                                {
+                                                    "id": "80170121",
+                                                    "speaker": "???",
+                                                    "text": "ARGH!",
+                                                    "choices": [
+                                                        {
+                                                            "id": "80170122",
+                                                            "text": "!!!",
+                                                            "response": [
+                                                                {
+                                                                    "id": "80170124",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "Oh no! It looks like something really hit her... maybe she was right!"
+                                                                },
+                                                                {
+                                                                    "id": "80170125",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "Quick, let's see if she's okay!"
+                                                                },
+                                                                {
+                                                                    "id": "80170126",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "What's wrong? Are you hurt? What was that?"
+                                                                },
+                                                                {
+                                                                    "id": "80170127",
+                                                                    "speaker": "???",
+                                                                    "text": "The monsters... They're right there. You need to get out of here, it's too dangerous!"
+                                                                },
+                                                                {
+                                                                    "id": "80170128",
+                                                                    "speaker": "Player",
+                                                                    "text": "Let me help you up first..."
+                                                                },
+                                                                {
+                                                                    "id": "80170129",
+                                                                    "speaker": "Player",
+                                                                    "text": "(Huh!?)"
+                                                                },
+                                                                {
+                                                                    "id": "80170130",
+                                                                    "speaker": "Player",
+                                                                    "text": "(Suddenly... I can see them...)"
+                                                                },
+                                                                {
+                                                                    "id": "80170131",
+                                                                    "speaker": "???",
+                                                                    "text": "Huh? Oh, now you finally see them? Well, it's about time... I nearly kicked the bucket just now...",
+                                                                    "choices": [
+                                                                        {
+                                                                            "id": "80170132",
+                                                                            "text": "I'm sorry...",
+                                                                            "response": [
+                                                                                {
+                                                                                    "id": "80170134",
+                                                                                    "speaker": "???",
+                                                                                    "text": "Great! Thank you, Savior!"
+                                                                                },
+                                                                                {
+                                                                                    "id": "80170135",
+                                                                                    "speaker": "Paimon",
+                                                                                    "text": "...\"Savior\"?"
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        {
+                                                                            "id": "80170133",
+                                                                            "text": "I'll take care of them now."
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "id": "80170123",
+                                                            "text": "???"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "80170119",
+                                            "text": "Where do you intend to run to?"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "80170112",
+                            "text": "But... where are these monsters you speak of?"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "801702",
+            "objective": "Defeat the monsters that appeared",
+            "dialogues": [
+                {
+                    "id": "80170201",
+                    "speaker": "Sutura",
+                    "text": "Wow! \"Tuma{RUBY#[S]Hope}ini,\" our hero! We've actually fought together before. You probably don't remember it though, hahaha...",
+                    "choices": [
+                        {
+                            "id": "80170202",
+                            "text": "Of course I do.",
+                            "response": [
+                                {
+                                    "id": "80170203",
+                                    "speaker": "Sutura",
+                                    "text": "You do? Then it's truly an honor to serve alongside you once more."
+                                },
+                                {
+                                    "id": "80170206",
+                                    "speaker": "Paimon",
+                                    "text": "Thank you for standing guard this whole time."
+                                },
+                                {
+                                    "id": "80170207",
+                                    "speaker": "Sutura",
+                                    "text": "It's all good! Honestly, it's not been that much work. Haven't heard a peep from the enemy."
+                                },
+                                {
+                                    "id": "80170208",
+                                    "speaker": "Player",
+                                    "text": "Have you seen anything out of the ordinary?"
+                                },
+                                {
+                                    "id": "80170209",
+                                    "speaker": "Sutura",
+                                    "text": "Nothing that would indicate an impending attack. I've spotted a bunch of Abyss Order operatives, but they weren't acting hostile, just hanging around."
+                                },
+                                {
+                                    "id": "80170210",
+                                    "speaker": "Sutura",
+                                    "text": "There were even moments when they seemed to be meditating. At least, that's what it looked like to me. Maybe it's part of their religion, or something."
+                                },
+                                {
+                                    "id": "80170211",
+                                    "speaker": "Sutura",
+                                    "text": "Out of an abundance of caution, I asked some shamans from the tribe to take a look, and see if there was anything nefarious at work..."
+                                },
+                                {
+                                    "id": "80170212",
+                                    "speaker": "Sutura",
+                                    "text": "But, they didn't sense anything untoward. So we just put it down to religious ceremony and left them to it."
+                                },
+                                {
+                                    "id": "80170213",
+                                    "speaker": "Paimon",
+                                    "text": "Interesting... Well, the more time they spend meditating, the less time they spend trying to beat us to a pulp.",
+                                    "choices": [
+                                        {
+                                            "id": "80170214",
+                                            "text": "It seems suspicious, though...",
+                                            "response": [
+                                                {
+                                                    "id": "80170216",
+                                                    "speaker": "Sutura",
+                                                    "text": "Heh, well, the shamans didn't raise any concerns, so how bad could it be? Far as I'm concerned, so long as they don't pose an active threat, they can do all the cult-worship activities they want."
+                                                },
+                                                {
+                                                    "id": "80170217",
+                                                    "speaker": "Sutura",
+                                                    "text": "Besides, as soon as everything's in place and we're ready for an all-out offensive, they'll be no match for us."
+                                                },
+                                                {
+                                                    "id": "80170218",
+                                                    "speaker": "Paimon",
+                                                    "text": "#Sounds like morale is pretty high. Guess there's strength and confidence in numbers. Let's keep going, {NICKNAME}."
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "80170215",
+                                            "text": "Could this be related to their true objective?"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "80170204",
+                            "text": "Yeah, sorry. I don't recall.",
+                            "response": [
+                                {
+                                    "id": "80170205",
+                                    "speaker": "Sutura",
+                                    "text": "Haha, that's to be expected! You took point, and I was much further back in the ranks. I saw you, though... You were a great inspiration to us all."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "801703",
+            "objective": "Talk to the girl attacked by the monster",
+            "dialogues": [
+                {
+                    "id": "80170301",
+                    "speaker": "Paimon",
+                    "text": "Umm? You done? Paimon still can't see anything, so she can't tell."
+                },
+                {
+                    "id": "80170302",
+                    "speaker": "Paimon",
+                    "text": "It just looked like you were slicing at thin air. Kinda funny, actually...",
+                    "choices": [
+                        {
+                            "id": "80170303",
+                            "text": "I don't know what's going on, either...",
+                            "response": [
+                                {
+                                    "id": "80170305",
+                                    "speaker": "Paimon",
+                                    "text": "Oh, really?",
+                                    "choices": [
+                                        {
+                                            "id": "80170306",
+                                            "text": "Let's try it one more time.",
+                                            "response": [
+                                                {
+                                                    "id": "80170308",
+                                                    "speaker": "???",
+                                                    "text": "Sure."
+                                                },
+                                                {
+                                                    "id": "80170309",
+                                                    "speaker": "???",
+                                                    "text": "Ah..."
+                                                },
+                                                {
+                                                    "id": "80170310",
+                                                    "speaker": "Player",
+                                                    "text": "What's wrong?"
+                                                },
+                                                {
+                                                    "id": "80170311",
+                                                    "speaker": "???",
+                                                    "text": "I—It's nothing! It's okay, I can see they're all gone now. No need for you to check."
+                                                },
+                                                {
+                                                    "id": "80170312",
+                                                    "speaker": "???",
+                                                    "text": "I didn't think much of it when the monsters were breathing down our necks, but now that I've calmed down... holding hands with you like this... I'm just a little shy, that's all.",
+                                                    "choices": [
+                                                        {
+                                                            "id": "80170313",
+                                                            "text": "Oh...",
+                                                            "response": [
+                                                                {
+                                                                    "id": "80170315",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "Huh? Have you never shaken hands with someone before? You sure get flustered easily..."
+                                                                },
+                                                                {
+                                                                    "id": "80170316",
+                                                                    "speaker": "Direidyth",
+                                                                    "text": "Well, I... Anyway. I haven't had the chance to introduce myself yet. I'm Direidyth. Thanks for saving me just now. I'm really grateful for your help."
+                                                                },
+                                                                {
+                                                                    "id": "80170317",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "#No worries! Paimon's Paimon, and this is {NICKNAME}. With {M#him}{F#her} around, you'll be safe from any monsters — as long as they're visible!"
+                                                                },
+                                                                {
+                                                                    "id": "80170318",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "So... What was the deal with those monsters just now, anyway?"
+                                                                },
+                                                                {
+                                                                    "id": "80170319",
+                                                                    "speaker": "Direidyth",
+                                                                    "text": "Your guess is as good as mine... I could see them the whole time, so when you said you couldn't, I thought you were making fun of me..."
+                                                                },
+                                                                {
+                                                                    "id": "80170320",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "Whoa, that must have been scary... The idea that we'd stand by and laugh while some poor girl was being hunted down by monsters...",
+                                                                    "choices": [
+                                                                        {
+                                                                            "id": "80170321",
+                                                                            "text": "That would've made us more monstrous than the monsters.",
+                                                                            "response": [
+                                                                                {
+                                                                                    "id": "80170323",
+                                                                                    "speaker": "Paimon",
+                                                                                    "text": "Mm-hmm!"
+                                                                                },
+                                                                                {
+                                                                                    "id": "80170324",
+                                                                                    "speaker": "Paimon",
+                                                                                    "text": "Don't worry, we aren't like that. When we say we can't see something, it's because we really can't see it."
+                                                                                },
+                                                                                {
+                                                                                    "id": "80170325",
+                                                                                    "speaker": "Paimon",
+                                                                                    "text": "But more importantly, did the monsters hurt you? How bad is it?"
+                                                                                },
+                                                                                {
+                                                                                    "id": "80170326",
+                                                                                    "speaker": "Direidyth",
+                                                                                    "text": "It's nothing serious, hehe... but I did sprain my ankle back there. I won't be doing any more running for a while...",
+                                                                                    "choices": [
+                                                                                        {
+                                                                                            "id": "80170327",
+                                                                                            "text": "There's a cave nearby.",
+                                                                                            "response": [
+                                                                                                {
+                                                                                                    "id": "80170329",
+                                                                                                    "speaker": "Paimon",
+                                                                                                    "text": "Good idea! We'll take you."
+                                                                                                },
+                                                                                                {
+                                                                                                    "id": "80170330",
+                                                                                                    "speaker": "Direidyth",
+                                                                                                    "text": "Phew... Thank you so much. Despite getting injured, I still feel much safer with you around."
+                                                                                                },
+                                                                                                {
+                                                                                                    "id": "80170331",
+                                                                                                    "speaker": "Direidyth",
+                                                                                                    "text": "I'm gonna stay here until I heal up. Don't wanna risk running into any more monsters..."
+                                                                                                },
+                                                                                                {
+                                                                                                    "id": "80170332",
+                                                                                                    "speaker": "Paimon",
+                                                                                                    "text": "Yeah, you already took a big enough risk coming out here all on your own! Where are you from, Direidyth?"
+                                                                                                },
+                                                                                                {
+                                                                                                    "id": "80170333",
+                                                                                                    "speaker": "Direidyth",
+                                                                                                    "text": "A small village... far away from here. I walked for what seemed like forever, and lost my way, so... yeah, I have no idea where I am anymore."
+                                                                                                },
+                                                                                                {
+                                                                                                    "id": "80170334",
+                                                                                                    "speaker": "Direidyth",
+                                                                                                    "text": "Maybe all these trials and tribulations are part of the journey... no one said finding the Savior is gonna be easy."
+                                                                                                },
+                                                                                                {
+                                                                                                    "id": "80170335",
+                                                                                                    "speaker": "Paimon",
+                                                                                                    "text": "#...That's the second time you've called {NICKNAME} a \"Savior.\" What's all that about?"
+                                                                                                },
+                                                                                                {
+                                                                                                    "id": "80170336",
+                                                                                                    "speaker": "Direidyth",
+                                                                                                    "text": "Oh, sorry, it just slipped out — I was caught off guard. The resemblance is so uncanny..."
+                                                                                                },
+                                                                                                {
+                                                                                                    "id": "80170337",
+                                                                                                    "speaker": "Direidyth",
+                                                                                                    "text": "Um, anyway... Let me start from the beginning."
+                                                                                                },
+                                                                                                {
+                                                                                                    "id": "80170338",
+                                                                                                    "speaker": "Direidyth",
+                                                                                                    "text": "There was once a sage who passed through my village. People got the sense that she was truly omniscient."
+                                                                                                },
+                                                                                                {
+                                                                                                    "id": "80170339",
+                                                                                                    "speaker": "Direidyth",
+                                                                                                    "text": "The sage said that... doomsday was coming, but as that day approached, a Savior would reveal themselves to us."
+                                                                                                },
+                                                                                                {
+                                                                                                    "id": "80170340",
+                                                                                                    "speaker": "Direidyth",
+                                                                                                    "text": "The day of disaster is almost upon us. So my grandmother begged me to leave the village and find the Savior before it's too late."
+                                                                                                },
+                                                                                                {
+                                                                                                    "id": "80170341",
+                                                                                                    "speaker": "Paimon",
+                                                                                                    "text": "Doomsday...?"
+                                                                                                },
+                                                                                                {
+                                                                                                    "id": "80170342",
+                                                                                                    "speaker": "Direidyth",
+                                                                                                    "text": "I've heard people talk about the Savior since I was a kid. Growing up, it really made an impression on me. The description is practically etched into my mind..."
+                                                                                                },
+                                                                                                {
+                                                                                                    "id": "80170343",
+                                                                                                    "speaker": "Direidyth",
+                                                                                                    "text": "So, when I saw your golden hair for the first time... It was like this image that's existed in my mind's eye all these years suddenly came to life. Everything matched..."
+                                                                                                },
+                                                                                                {
+                                                                                                    "id": "80170344",
+                                                                                                    "speaker": "Paimon",
+                                                                                                    "text": "#Ohh... So that's why you were lost for words when you first saw {M#him}{F#her}."
+                                                                                                },
+                                                                                                {
+                                                                                                    "id": "80170345",
+                                                                                                    "speaker": "Paimon",
+                                                                                                    "text": "#Well, {NICKNAME}'s definitely got what it takes to be a \"Savior.\" And {M#he}{F#she}'s already got a ton of titles, so {M#he}{F#she} won't mind one extra."
+                                                                                                },
+                                                                                                {
+                                                                                                    "id": "80170346",
+                                                                                                    "speaker": "Direidyth",
+                                                                                                    "text": "#Um, actually I don't think it's {M#him}{F#her}."
+                                                                                                },
+                                                                                                {
+                                                                                                    "id": "80170347",
+                                                                                                    "speaker": "Paimon",
+                                                                                                    "text": "What? But didn't you say that everything matched?"
+                                                                                                },
+                                                                                                {
+                                                                                                    "id": "80170348",
+                                                                                                    "speaker": "Direidyth",
+                                                                                                    "text": "#Everything, except the gender. The Savior was described as a {M#young woman}{F#young man}."
+                                                                                                },
+                                                                                                {
+                                                                                                    "id": "80170349",
+                                                                                                    "speaker": "Paimon",
+                                                                                                    "text": "Oh, for goodness' sake... There are gender requirements to be a Savior? Really?",
+                                                                                                    "choices": [
+                                                                                                        {
+                                                                                                            "id": "80170350",
+                                                                                                            "text": "I think I know who it is.",
+                                                                                                            "response": [
+                                                                                                                {
+                                                                                                                    "id": "80170352",
+                                                                                                                    "speaker": "Paimon",
+                                                                                                                    "text": "#Oh, of course! If it's not you, then it's gotta be {M#her}{F#him}!"
+                                                                                                                },
+                                                                                                                {
+                                                                                                                    "id": "80170353",
+                                                                                                                    "speaker": "Direidyth",
+                                                                                                                    "text": "Who? Who is it?"
+                                                                                                                },
+                                                                                                                {
+                                                                                                                    "id": "80170354",
+                                                                                                                    "speaker": "Player",
+                                                                                                                    "text": "#My {M#sister}{F#brother}."
+                                                                                                                },
+                                                                                                                {
+                                                                                                                    "id": "80170355",
+                                                                                                                    "speaker": "Direidyth",
+                                                                                                                    "text": "#You have a {M#sister}{F#brother}!? Well then, that's it! It's {M#her}{F#him}, it has to be! Oh, thank goodness!"
+                                                                                                                },
+                                                                                                                {
+                                                                                                                    "id": "80170356",
+                                                                                                                    "speaker": "Direidyth",
+                                                                                                                    "text": "#Please, can you take me to see {M#her}{F#him}?"
+                                                                                                                },
+                                                                                                                {
+                                                                                                                    "id": "80170357",
+                                                                                                                    "speaker": "Paimon",
+                                                                                                                    "text": "#Heh... Maybe, if you're lucky. It just depends if we can find {M#her}{F#him}."
+                                                                                                                },
+                                                                                                                {
+                                                                                                                    "id": "80170358",
+                                                                                                                    "speaker": "Direidyth",
+                                                                                                                    "text": "#Huh? But isn't {M#she}{F#he} your {M#sister}{F#brother}?"
+                                                                                                                },
+                                                                                                                {
+                                                                                                                    "id": "80170359",
+                                                                                                                    "speaker": "Paimon",
+                                                                                                                    "text": "*sigh* Sorry, looks like Paimon's steered this conversation back to the fallout between you two... It wasn't on purpose, but that's the reality... so it's hard to avoid..."
+                                                                                                                },
+                                                                                                                {
+                                                                                                                    "id": "80170360",
+                                                                                                                    "speaker": "Direidyth",
+                                                                                                                    "text": "#Okay, fair enough... But since you're looking for {M#her}{F#him} anyway, why don't we team up? We might stand a better chance if we work together.",
+                                                                                                                    "choices": [
+                                                                                                                        {
+                                                                                                                            "id": "80170361",
+                                                                                                                            "text": "Have you always believed that doomsday will come?",
+                                                                                                                            "response": [
+                                                                                                                                {
+                                                                                                                                    "id": "80170363",
+                                                                                                                                    "speaker": "Direidyth",
+                                                                                                                                    "text": "Yes. Everyone says that the disaster is inevitable."
+                                                                                                                                },
+                                                                                                                                {
+                                                                                                                                    "id": "80170364",
+                                                                                                                                    "speaker": "Direidyth",
+                                                                                                                                    "text": "But the Savior will rescue us all from our pain and suffering... I've always dreamed of meeting the Savior."
+                                                                                                                                },
+                                                                                                                                {
+                                                                                                                                    "id": "80170365",
+                                                                                                                                    "speaker": "Paimon",
+                                                                                                                                    "text": "Do you really buy this whole doomsday thing? Seems kinda far-fetched..."
+                                                                                                                                },
+                                                                                                                                {
+                                                                                                                                    "id": "80170366",
+                                                                                                                                    "speaker": "Player",
+                                                                                                                                    "text": "(She spoke with conviction... I don't think she's lying.)"
+                                                                                                                                },
+                                                                                                                                {
+                                                                                                                                    "id": "80170367",
+                                                                                                                                    "speaker": "Player",
+                                                                                                                                    "text": "(Maybe it's another lie spread by the Abyss Order?)"
+                                                                                                                                },
+                                                                                                                                {
+                                                                                                                                    "id": "80170368",
+                                                                                                                                    "speaker": "Direidyth",
+                                                                                                                                    "text": "..."
+                                                                                                                                },
+                                                                                                                                {
+                                                                                                                                    "id": "80170369",
+                                                                                                                                    "speaker": "Paimon",
+                                                                                                                                    "text": "(See? She broke eye contact. Sure sign of a guilty conscience! Time to press her for answers.)"
+                                                                                                                                },
+                                                                                                                                {
+                                                                                                                                    "id": "80170370",
+                                                                                                                                    "speaker": "Paimon",
+                                                                                                                                    "text": "What's wrong, Direidyth? Something's clearly bothering you. You wanna tell us what's going through your mind?"
+                                                                                                                                },
+                                                                                                                                {
+                                                                                                                                    "id": "80170371",
+                                                                                                                                    "speaker": "Direidyth",
+                                                                                                                                    "text": "Oh... I just..."
+                                                                                                                                },
+                                                                                                                                {
+                                                                                                                                    "id": "80170372",
+                                                                                                                                    "speaker": "Direidyth",
+                                                                                                                                    "text": "How should I put it...?"
+                                                                                                                                },
+                                                                                                                                {
+                                                                                                                                    "id": "80170373",
+                                                                                                                                    "speaker": "Direidyth",
+                                                                                                                                    "text": "Hmm..."
+                                                                                                                                },
+                                                                                                                                {
+                                                                                                                                    "id": "80170374",
+                                                                                                                                    "speaker": "Direidyth",
+                                                                                                                                    "text": "#{NICKNAME} looks just like the Savior of my dreams..."
+                                                                                                                                },
+                                                                                                                                {
+                                                                                                                                    "id": "80170375",
+                                                                                                                                    "speaker": "Direidyth",
+                                                                                                                                    "text": "And it's not every day that the Savior of your dreams swoops in and saves the day in your moment of crisis."
+                                                                                                                                },
+                                                                                                                                {
+                                                                                                                                    "id": "80170376",
+                                                                                                                                    "speaker": "Direidyth",
+                                                                                                                                    "text": "So, I... I'm just a little overwhelmed, that's all. Three seconds of unbroken eye contact is the limit. I don't think my mind and body can handle any more than that."
+                                                                                                                                },
+                                                                                                                                {
+                                                                                                                                    "id": "80170377",
+                                                                                                                                    "speaker": "Paimon",
+                                                                                                                                    "text": "What do you mean, \"limit\"? What happens after three seconds?"
+                                                                                                                                },
+                                                                                                                                {
+                                                                                                                                    "id": "80170378",
+                                                                                                                                    "speaker": "Player",
+                                                                                                                                    "text": "(How am I supposed to respond to that...)"
+                                                                                                                                },
+                                                                                                                                {
+                                                                                                                                    "id": "80170379",
+                                                                                                                                    "speaker": "Direidyth",
+                                                                                                                                    "text": "...I'm sorry, please forget that I said anything. Let's just... leave it there for now."
+                                                                                                                                },
+                                                                                                                                {
+                                                                                                                                    "id": "80170380",
+                                                                                                                                    "speaker": "Direidyth",
+                                                                                                                                    "text": "Like I said, I'm going to hide here until I feel well enough to move again."
+                                                                                                                                },
+                                                                                                                                {
+                                                                                                                                    "id": "80170381",
+                                                                                                                                    "speaker": "Direidyth",
+                                                                                                                                    "text": "If you manage to find the Savior in the meantime, please, PLEASE come and let me know! Thank you!"
+                                                                                                                                },
+                                                                                                                                {
+                                                                                                                                    "id": "80170382",
+                                                                                                                                    "speaker": "Paimon",
+                                                                                                                                    "text": "Are you sure you'll be okay here on your own? Do you have enough to eat?"
+                                                                                                                                },
+                                                                                                                                {
+                                                                                                                                    "id": "80170383",
+                                                                                                                                    "speaker": "Direidyth",
+                                                                                                                                    "text": "I... I'll be fine! I might not be much of a fighter, but I know how to stay hidden. And if I get hungry... I'm sure I'll find something around here, don't worry about that."
+                                                                                                                                },
+                                                                                                                                {
+                                                                                                                                    "id": "80170384",
+                                                                                                                                    "speaker": "Paimon",
+                                                                                                                                    "text": "Alright then... Well, take care. Being on your own isn't easy."
+                                                                                                                                },
+                                                                                                                                {
+                                                                                                                                    "id": "80170385",
+                                                                                                                                    "speaker": "Paimon",
+                                                                                                                                    "text": "What a mysterious girl... We should definitely keep an eye on her."
+                                                                                                                                },
+                                                                                                                                {
+                                                                                                                                    "id": "80170386",
+                                                                                                                                    "speaker": "Paimon",
+                                                                                                                                    "text": "#But hey, at least she seems to like you. And it sounds like she's gonna help look for your {M#sister}{F#brother} once she's healed."
+                                                                                                                                },
+                                                                                                                                {
+                                                                                                                                    "id": "80170387",
+                                                                                                                                    "speaker": "Paimon",
+                                                                                                                                    "text": "Anyway, this is probably all the progress we're gonna make for now. Let's head back to the Masters of the Night-Wind and see if they need our help."
+                                                                                                                                }
+                                                                                                                            ]
+                                                                                                                        },
+                                                                                                                        {
+                                                                                                                            "id": "80170362",
+                                                                                                                            "text": "Have you always believed that the Savior will come?"
+                                                                                                                        }
+                                                                                                                    ]
+                                                                                                                }
+                                                                                                            ]
+                                                                                                        },
+                                                                                                        {
+                                                                                                            "id": "80170351",
+                                                                                                            "text": "There's someone out there who matches all the requirements."
+                                                                                                        }
+                                                                                                    ]
+                                                                                                }
+                                                                                            ]
+                                                                                        },
+                                                                                        {
+                                                                                            "id": "80170328",
+                                                                                            "text": "Why don't we rest there for now?"
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        {
+                                                                            "id": "80170322",
+                                                                            "text": "I'd never do something so horrendous."
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "id": "80170314",
+                                                            "text": "Didn't mean to make you uncomfortable."
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "80170307",
+                                            "text": "I want to check that I got all the monsters."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "80170304",
+                            "text": "But I could see them once I held her hand."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "801704",
+            "objective": "Go to the Masters of the Night-Wind",
+            "dialogues": [
+                {
+                    "id": "80170401",
+                    "speaker": "Iansan",
+                    "text": "Oh, you're back! How did it go? Find anything?"
+                },
+                {
+                    "id": "80170402",
+                    "speaker": "Paimon",
+                    "text": "Nothing substantial, unfortunately. But we had the weirdest experience..."
+                },
+                {
+                    "id": "80170403",
+                    "speaker": "Iansan",
+                    "text": "So, I take it that the war's still on?",
+                    "choices": [
+                        {
+                            "id": "80170404",
+                            "text": "No progress yet, I'm afraid.",
+                            "response": [
+                                {
+                                    "id": "80170406",
+                                    "speaker": "Iansan",
+                                    "text": "That's okay — I just wasn't sure, because things seemed to be at a standstill while you were gone."
+                                },
+                                {
+                                    "id": "80170407",
+                                    "speaker": "Iansan",
+                                    "text": "The Abyss Order hasn't attacked us, and since we don't know what they're planning, we haven't made a move either."
+                                },
+                                {
+                                    "id": "80170408",
+                                    "speaker": "Iansan",
+                                    "text": "In a word, it's a stalemate. The guards have been keeping watch around the clock, but for everyone else, you wouldn't even know we're at war."
+                                },
+                                {
+                                    "id": "80170409",
+                                    "speaker": "Paimon",
+                                    "text": "Huh... Really makes you wonder what the Abyss Order's thinking."
+                                },
+                                {
+                                    "id": "80170410",
+                                    "speaker": "Iansan",
+                                    "text": "#I was wondering, {NICKNAME}... If you have the time, could you go and pay a visit to the guards?"
+                                },
+                                {
+                                    "id": "80170411",
+                                    "speaker": "Iansan",
+                                    "text": "They've been working a pretty demanding schedule. I was gonna go see them myself, but I'm sure they'd appreciate a visit from the greatest hero of our time."
+                                },
+                                {
+                                    "id": "80170412",
+                                    "speaker": "Paimon",
+                                    "text": "Aw, but you're a great hero too, Iansan!",
+                                    "choices": [
+                                        {
+                                            "id": "80170413",
+                                            "text": "Well, since you asked...",
+                                            "response": [
+                                                {
+                                                    "id": "80170415",
+                                                    "speaker": "Iansan",
+                                                    "text": "Great. Thanks, you two."
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "80170414",
+                                            "text": "This is technically my sibling's fault, so..."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "80170405",
+                            "text": "Yes, unfortunately."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "801709",
+            "objective": "Talk to the forward sentries",
+            "dialogues": []
+        },
+        {
+            "id": "801710",
+            "objective": "Talk to the forward sentries",
+            "dialogues": [
+                {
+                    "id": "80170701",
+                    "speaker": "Kantalo",
+                    "text": "Huh? ...Is... Is that \"Tum{RUBY#[S]Hope}aini\"? What brings you here? Is this, like, uh... a meet-and-greet?"
+                },
+                {
+                    "id": "80170702",
+                    "speaker": "Kantalo",
+                    "text": "Um... Hahaha... I, uh... I wasn't... Ahh, I'm so nervous..."
+                },
+                {
+                    "id": "80170703",
+                    "speaker": "Paimon",
+                    "text": "#Hey, come on. You'd march to war without so much as blinking. What's so scary about a chat with {NICKNAME}, hmm?"
+                },
+                {
+                    "id": "80170704",
+                    "speaker": "Kantalo",
+                    "text": "It's not the same thing at all! There are plenty of chances to go to war... but a one-on-one chat with our great hero? That could be a once-in-a-lifetime opportunity!"
+                },
+                {
+                    "id": "80170705",
+                    "speaker": "Kantalo",
+                    "text": "How can I not be nervous? What if I say something wrong? Or... Or if my posture's bad, or if I accidentally make a weird expression with my face? One bad impression can stick for life!"
+                },
+                {
+                    "id": "80170706",
+                    "speaker": "Paimon",
+                    "text": "No one's here to judge you on your posture or your facial expressions! Relax!"
+                },
+                {
+                    "id": "80170707",
+                    "speaker": "Kantalo",
+                    "text": "*sigh* Alright, then..."
+                },
+                {
+                    "id": "80170708",
+                    "speaker": "Kantalo",
+                    "text": "Um... I'm sorry, great hero, but I have a small favor to ask..."
+                },
+                {
+                    "id": "80170709",
+                    "speaker": "Paimon",
+                    "text": "Let Paimon guess, an autograph, right? That's easy..."
+                },
+                {
+                    "id": "80170710",
+                    "speaker": "Kantalo",
+                    "text": "...May I challenge you to a fight?"
+                },
+                {
+                    "id": "80170711",
+                    "speaker": "Paimon",
+                    "text": "What!? How can you be so... audacious and so sheepish at the same time? Hmm, Paimon's starting to think your nervousness is all just an act!"
+                },
+                {
+                    "id": "80170712",
+                    "speaker": "Kantalo",
+                    "text": "No no no, of course not... I just figured that if I don't ask now, I'll regret it for the rest of my life..."
+                },
+                {
+                    "id": "80170713",
+                    "speaker": "Kantalo",
+                    "text": "But I am still on patrol, so please, Great Paimon, if you wouldn't mind taking over for me for just a few minutes..."
+                },
+                {
+                    "id": "80170714",
+                    "speaker": "Paimon",
+                    "text": "Again with the sheepish audacity! Just pick one or the other, will you!",
+                    "choices": [
+                        {
+                            "id": "80170715",
+                            "text": "I think it's a fair request.",
+                            "response": [
+                                {
+                                    "id": "80170717",
+                                    "speaker": "Kantalo",
+                                    "text": "Woohoooooo! Haha!"
+                                },
+                                {
+                                    "id": "80170718",
+                                    "speaker": "Kantalo",
+                                    "text": "Obviously, I never expected to win, but until now, I didn't appreciate just how great the gulf was between us..."
+                                },
+                                {
+                                    "id": "80170719",
+                                    "speaker": "Kantalo",
+                                    "text": "Hahaha, I'll be bragging about the day I got to spar with \"Tum{RUBY#[S]Hope}aini\" for the rest of my life. Today's really my lucky day!"
+                                },
+                                {
+                                    "id": "80170720",
+                                    "speaker": "Paimon",
+                                    "text": "#Paimon can't keep up with you. Your tone has changed all over again now you've had a spar with {NICKNAME}... What gives?"
+                                },
+                                {
+                                    "id": "80170721",
+                                    "speaker": "Kantalo",
+                                    "text": "Mm, well, some people connect through conversation, but we warriors bond by sparring. And now that I've had a bout with the hero, we're no longer strangers. Nothing to be nervous about anymore!"
+                                },
+                                {
+                                    "id": "80170722",
+                                    "speaker": "Paimon",
+                                    "text": "Okay... Well, each to their own, but Paimon's still gonna stick to conversation."
+                                },
+                                {
+                                    "id": "80170723",
+                                    "speaker": "Player",
+                                    "text": "Have you noticed anything out of the ordinary?"
+                                },
+                                {
+                                    "id": "80170724",
+                                    "speaker": "Kantalo",
+                                    "text": "Not at all. We haven't spotted any new enemy movements."
+                                },
+                                {
+                                    "id": "80170725",
+                                    "speaker": "Paimon",
+                                    "text": "As Paimon expected... Nothing here, either. Let's do another lap and get back to Iansan."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "80170716",
+                            "text": "What are you waiting for? Bring it on."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "801705",
+            "objective": "Talk to Iansan",
+            "dialogues": [
+                {
+                    "id": "80170501",
+                    "speaker": "Iansan",
+                    "text": "You're back. So, did the guards find anything?"
+                },
+                {
+                    "id": "80170502",
+                    "speaker": "Paimon",
+                    "text": "Nothing much, no. Someone mentioned that the Abyss Order has been doing some kind of meditation or prayer, but apparently it seemed harmless."
+                },
+                {
+                    "id": "80170503",
+                    "speaker": "Paimon",
+                    "text": "Paimon wants to lodge a complaint about one of the guards, though. His name's Kantalo..."
+                },
+                {
+                    "id": "80170504",
+                    "speaker": "Iansan",
+                    "text": "Hmm?",
+                    "choices": [
+                        {
+                            "id": "80170505",
+                            "text": "Ignore Paimon.",
+                            "response": [
+                                {
+                                    "id": "80170507",
+                                    "speaker": "Citlali",
+                                    "text": "#{NICKNAME}, you're back already? Ah, and no one thought to wake me up, huh!?"
+                                },
+                                {
+                                    "id": "80170508",
+                                    "speaker": "Paimon",
+                                    "text": "In fairness, you look pretty hungover. Can't imagine anyone wanting to wake you up in that state..."
+                                },
+                                {
+                                    "id": "80170509",
+                                    "speaker": "Citlali",
+                                    "text": "I'll have you know I'm perfectly sober when I'm hungover! Uh... Okay, I'll admit that sounds strange at face value, but regardless..."
+                                },
+                                {
+                                    "id": "80170510",
+                                    "speaker": "Citlali",
+                                    "text": "What I meant to say is — I heard something about the Abyss Order engaging in meditation?"
+                                },
+                                {
+                                    "id": "80170511",
+                                    "speaker": "Paimon",
+                                    "text": "Yeah, that's right! Does that mean anything to you, Citlali?"
+                                },
+                                {
+                                    "id": "80170512",
+                                    "speaker": "Citlali",
+                                    "text": "I sensed something strange in my dream. It was vague, but... It seemed as if some \"noise\" had found its way into Natlan's Ley Lines..."
+                                },
+                                {
+                                    "id": "80170513",
+                                    "speaker": "Paimon",
+                                    "text": "What does that mean?"
+                                },
+                                {
+                                    "id": "80170514",
+                                    "speaker": "Citlali",
+                                    "text": "Hard to say... I don't think it had any tangible effect on the Night Kingdom or on our Ley Lines, but still..."
+                                },
+                                {
+                                    "id": "80170515",
+                                    "speaker": "Citlali",
+                                    "text": "It's like... a signal that exists on a different dimension of reality. It might not interfere with ours, or pose any detectable risk, but I just get the sense that something strange is going on."
+                                },
+                                {
+                                    "id": "80170516",
+                                    "speaker": "Paimon",
+                                    "text": "So even someone as familiar with the Ley Lines as you can't tell what's going on..."
+                                },
+                                {
+                                    "id": "80170517",
+                                    "speaker": "Paimon",
+                                    "text": "No wonder the shamans that Sutura called to the front lines couldn't sense anything."
+                                },
+                                {
+                                    "id": "80170518",
+                                    "speaker": "Citlali",
+                                    "text": "Iansan, I think we should go talk to the Chiefs. There's no point dragging this out. We need to take the initiative and drive the Abyss Order out of Natlan for good."
+                                },
+                                {
+                                    "id": "80170519",
+                                    "speaker": "Iansan",
+                                    "text": "If that's the counsel of Granny Itztli, I'm sure the Chiefs will agree. But it will still take us some time to gather the required force."
+                                },
+                                {
+                                    "id": "80170520",
+                                    "speaker": "Iansan",
+                                    "text": "In war, adequate planning and preparation is the key to victory."
+                                },
+                                {
+                                    "id": "80170521",
+                                    "speaker": "Citlali",
+                                    "text": "Sure, but the finer details aren't my concern. Anyway, I'll leave you to it. Just remember to come find me when you're ready to talk to the Chiefs.",
+                                    "choices": [
+                                        {
+                                            "id": "80170522",
+                                            "text": "Actually, since you're here, Citlali...",
+                                            "response": [
+                                                {
+                                                    "id": "80170524",
+                                                    "speaker": "Citlali",
+                                                    "text": "Oh? Sure, what is it?",
+                                                    "choices": [
+                                                        {
+                                                            "id": "80170525",
+                                                            "text": "Have you ever heard of monsters...",
+                                                            "response": [
+                                                                {
+                                                                    "id": "80170527",
+                                                                    "speaker": "Citlali",
+                                                                    "text": "Huh... You mean, only select individuals can see them? Hmm, now that's a strange one. I guess they could be... manifestations of a disturbed psyche? Or... extreme negativity, embodied in physical form?"
+                                                                },
+                                                                {
+                                                                    "id": "80170528",
+                                                                    "speaker": "Citlali",
+                                                                    "text": "It could also be a simple case of dead monsters whose souls got stuck here somehow. Well, I say simple — things quickly get confusing when you start looking into monster souls. For starters, trying to figure out which classification system to use is a real pain in the—"
+                                                                },
+                                                                {
+                                                                    "id": "80170529",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "Alright, we get it... Granny Itztli's learning and wisdom knows no bounds. But could we just get the short answer?"
+                                                                },
+                                                                {
+                                                                    "id": "80170530",
+                                                                    "speaker": "Citlali",
+                                                                    "text": "Hey, I was just thinking out loud! You really think I was just trying to flaunt my knowledge?"
+                                                                },
+                                                                {
+                                                                    "id": "80170531",
+                                                                    "speaker": "Citlali",
+                                                                    "text": "...Anyway, the short answer is... There are many potential explanations for the kind of phenomenon you describe. That said, it's not something I've ever encountered in all my years."
+                                                                },
+                                                                {
+                                                                    "id": "80170532",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "Wow, okay. Well, if Granny Itztli's never seen it, it might as well not exist, right?"
+                                                                },
+                                                                {
+                                                                    "id": "80170533",
+                                                                    "speaker": "Citlali",
+                                                                    "text": "Hey, I'm not THAT old!"
+                                                                },
+                                                                {
+                                                                    "id": "80170534",
+                                                                    "speaker": "Player",
+                                                                    "text": "I agree, it's hard to say what it was for sure."
+                                                                },
+                                                                {
+                                                                    "id": "80170535",
+                                                                    "speaker": "Iansan",
+                                                                    "text": "Care to elaborate on what happened? This all sounds rather mysterious..."
+                                                                },
+                                                                {
+                                                                    "id": "80170536",
+                                                                    "speaker": "Black Screen",
+                                                                    "text": "You tell the two about what happened..."
+                                                                },
+                                                                {
+                                                                    "id": "80170537",
+                                                                    "speaker": "Citlali",
+                                                                    "text": "Really? You had to hold her hand to see the monsters? Sounds a little contrived..."
+                                                                },
+                                                                {
+                                                                    "id": "80170538",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "Huh? That's the part that bothers you?"
+                                                                },
+                                                                {
+                                                                    "id": "80170539",
+                                                                    "speaker": "Iansan",
+                                                                    "text": "Maybe the point is more that it requires direct physical contact, whether that be hand-holding or otherwise."
+                                                                },
+                                                                {
+                                                                    "id": "80170540",
+                                                                    "speaker": "Iansan",
+                                                                    "text": "But that's neither here nor there... What bothers me is, it sounds like she's convinced that your sibling, the leader of the Abyss Order... is a \"Savior.\""
+                                                                },
+                                                                {
+                                                                    "id": "80170541",
+                                                                    "speaker": "Iansan",
+                                                                    "text": "That really makes me question whose side this girl is on... and whether what she told you about her background is actually the truth."
+                                                                },
+                                                                {
+                                                                    "id": "80170542",
+                                                                    "speaker": "Iansan",
+                                                                    "text": "Sorry if that comes across as paranoid. It's just hard not to be suspicious of everything when we're in the middle of a war..."
+                                                                },
+                                                                {
+                                                                    "id": "80170543",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "Actually, Paimon feels like you make a fair point..."
+                                                                },
+                                                                {
+                                                                    "id": "80170544",
+                                                                    "speaker": "Citlali",
+                                                                    "text": "Whoever this girl is, she sounds like bad news."
+                                                                },
+                                                                {
+                                                                    "id": "80170545",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "Okay, well you're clearly just jumping to conclusions!",
+                                                                    "choices": [
+                                                                        {
+                                                                            "id": "80170546",
+                                                                            "text": "Do you think she's a spy?",
+                                                                            "response": [
+                                                                                {
+                                                                                    "id": "80170548",
+                                                                                    "speaker": "Iansan",
+                                                                                    "text": "It's hard to know what to make of it. A young lady all by herself, lost in the middle of nowhere... sees monsters that no one else can, calls the leader of the Abyss Order her Savior..."
+                                                                                },
+                                                                                {
+                                                                                    "id": "80170549",
+                                                                                    "speaker": "Iansan",
+                                                                                    "text": "At the very least, we should remain vigilant. Keep a close watch on her."
+                                                                                },
+                                                                                {
+                                                                                    "id": "80170550",
+                                                                                    "speaker": "Paimon",
+                                                                                    "text": "Sounds sensible. On that note, we probably shouldn't have left her by herself in that cave..."
+                                                                                },
+                                                                                {
+                                                                                    "id": "80170551",
+                                                                                    "speaker": "Iansan",
+                                                                                    "text": "#{NICKNAME}, we still need some time to muster our forces — maybe you could check on her if you're not busy. Just be careful.",
+                                                                                    "choices": [
+                                                                                        {
+                                                                                            "id": "80170552",
+                                                                                            "text": "Might as well. She seems to trust me, after all.",
+                                                                                            "response": [
+                                                                                                {
+                                                                                                    "id": "80170554",
+                                                                                                    "speaker": "Paimon",
+                                                                                                    "text": "It's settled, then! Let's go check on her."
+                                                                                                }
+                                                                                            ]
+                                                                                        },
+                                                                                        {
+                                                                                            "id": "80170553",
+                                                                                            "text": "Happy to. Although, I doubt she means us any harm."
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        {
+                                                                            "id": "80170547",
+                                                                            "text": "Do you think she's some kind of weapon?"
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "id": "80170526",
+                                                            "text": "That are only visible to certain people?"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "80170523",
+                                            "text": "I might as well ask one more question."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "80170506",
+                            "text": "He wasn't a problem."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "801706",
+            "objective": "Return to the cave to investigate",
+            "dialogues": [
+                {
+                    "id": "80170601",
+                    "speaker": "Paimon",
+                    "text": "Here we are. Direidyth will still be here, right?"
+                },
+                {
+                    "id": "80170602",
+                    "speaker": "Paimon",
+                    "text": "It's so quiet, though... Uh-oh, what if Iansan was right? Maybe she never intended to stay here at all...",
+                    "choices": [
+                        {
+                            "id": "80170603",
+                            "text": "Let's stay quiet...",
+                            "response": [
+                                {
+                                    "id": "80170605",
+                                    "speaker": "Paimon",
+                                    "text": "#{NICKNAME}! Watch out!"
+                                },
+                                {
+                                    "id": "80170606",
+                                    "speaker": "Player",
+                                    "text": "...!!!"
+                                },
+                                {
+                                    "id": "80170607",
+                                    "speaker": "Player",
+                                    "text": "(Shoot, maybe Direidyth really is a—)"
+                                },
+                                {
+                                    "id": "80170608",
+                                    "speaker": "Direidyth",
+                                    "text": "Hey-yah!"
+                                },
+                                {
+                                    "id": "80170609",
+                                    "speaker": "Direidyth",
+                                    "text": "Ah... sorry, sorry! I didn't know it was you! I heard a noise, and I thought it was the monsters coming to get me..."
+                                },
+                                {
+                                    "id": "80170610",
+                                    "speaker": "Direidyth",
+                                    "text": "Did I hurt you? I'm so sorry, I... I wasn't thinking straight...",
+                                    "choices": [
+                                        {
+                                            "id": "80170611",
+                                            "text": "If I'd thought it would hurt, I would have tried to dodge...",
+                                            "response": [
+                                                {
+                                                    "id": "80170613",
+                                                    "speaker": "Paimon",
+                                                    "text": "Whew... That was scary. Paimon thought we'd walked into a trap..."
+                                                },
+                                                {
+                                                    "id": "80170614",
+                                                    "speaker": "Paimon",
+                                                    "text": "Maybe we shouldn't have sneaked in without announcing it. Then you would've known we weren't monsters."
+                                                },
+                                                {
+                                                    "id": "80170615",
+                                                    "speaker": "Direidyth",
+                                                    "text": "To be honest, I've been really on edge since you left. I just have this constant feeling that any second, the monsters are gonna come back and get me..."
+                                                },
+                                                {
+                                                    "id": "80170616",
+                                                    "speaker": "Direidyth",
+                                                    "text": "And it's not like I can run from them..."
+                                                },
+                                                {
+                                                    "id": "80170617",
+                                                    "speaker": "Direidyth",
+                                                    "text": "There's also no way to cook here. It's good you got back when you did. Another... hour and a half, and you probably would've found me starved to death."
+                                                },
+                                                {
+                                                    "id": "80170618",
+                                                    "speaker": "Paimon",
+                                                    "text": "#That's weirdly precise... Though, it does explain why your attack on {NICKNAME} was so weak."
+                                                },
+                                                {
+                                                    "id": "80170619",
+                                                    "speaker": "Paimon",
+                                                    "text": "Wait, but if you really thought you were gonna starve or get killed by monsters, why'd you promise that you'd be okay here on your own?"
+                                                },
+                                                {
+                                                    "id": "80170620",
+                                                    "speaker": "Direidyth",
+                                                    "text": "I... Uhh... I just didn't want to lose face in front of my hero..."
+                                                },
+                                                {
+                                                    "id": "80170621",
+                                                    "speaker": "Direidyth",
+                                                    "text": "You already saved my life once. That's more than enough. I just... don't wanna come across as a constant burden."
+                                                },
+                                                {
+                                                    "id": "80170622",
+                                                    "speaker": "Paimon",
+                                                    "text": "*sigh*... For someone on the brink of starvation, you're pretty preoccupied with your image. What's the real reason?"
+                                                },
+                                                {
+                                                    "id": "80170623",
+                                                    "speaker": "Direidyth",
+                                                    "text": "What...? Th—That is the real reason... I'm kinda baring my soul here, y'know..."
+                                                },
+                                                {
+                                                    "id": "80170624",
+                                                    "speaker": "Player",
+                                                    "text": "(Could she really just be an injured civilian?)"
+                                                },
+                                                {
+                                                    "id": "80170625",
+                                                    "speaker": "Direidyth",
+                                                    "text": "Anyway... So, um... Could you make me some food now...?",
+                                                    "choices": [
+                                                        {
+                                                            "id": "80170626",
+                                                            "text": "You are unbelievable...",
+                                                            "response": [
+                                                                {
+                                                                    "id": "80170628",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "Paimon's getting hungry now too... Go on then, you can join us for dinner."
+                                                                },
+                                                                {
+                                                                    "id": "80170629",
+                                                                    "speaker": "Direidyth",
+                                                                    "text": "Whew... I am so full. Thanks for saving me, again... Starvation feels like a distant memory now.",
+                                                                    "choices": [
+                                                                        {
+                                                                            "id": "80170630",
+                                                                            "text": "No trouble at all...",
+                                                                            "response": [
+                                                                                {
+                                                                                    "id": "80170632",
+                                                                                    "speaker": "Paimon",
+                                                                                    "text": "Heh, you can really pack it away, Direidyth! Guess that explains how you had the energy to make it this far."
+                                                                                },
+                                                                                {
+                                                                                    "id": "80170633",
+                                                                                    "speaker": "Direidyth",
+                                                                                    "text": "Oh..."
+                                                                                },
+                                                                                {
+                                                                                    "id": "80170634",
+                                                                                    "speaker": "Direidyth",
+                                                                                    "text": "(I tried so hard to hold back, but it looks like I still came across like a total glutton...)"
+                                                                                },
+                                                                                {
+                                                                                    "id": "80170635",
+                                                                                    "speaker": "Paimon",
+                                                                                    "text": "Paimon didn't even realize how late it is! Hey, the night sky here is really pretty."
+                                                                                },
+                                                                                {
+                                                                                    "id": "80170636",
+                                                                                    "speaker": "Direidyth",
+                                                                                    "text": "Yeah... And it's all thanks to you both that I'm able to relax and enjoy it."
+                                                                                },
+                                                                                {
+                                                                                    "id": "80170637",
+                                                                                    "speaker": "Direidyth",
+                                                                                    "text": "I was cooped up in that cave the whole time you were gone. Now I'm finally out, the air seems fresher, and the stars more beautiful than ever before."
+                                                                                },
+                                                                                {
+                                                                                    "id": "80170638",
+                                                                                    "speaker": "Paimon",
+                                                                                    "text": "Uh... You weren't in there THAT long...",
+                                                                                    "choices": [
+                                                                                        {
+                                                                                            "id": "80170639",
+                                                                                            "text": "But she thought she was gonna starve to death...",
+                                                                                            "response": [
+                                                                                                {
+                                                                                                    "id": "80170641",
+                                                                                                    "speaker": "Direidyth",
+                                                                                                    "text": "When I was young, I used to lie on the roof of my house, gazing up at the stars..."
+                                                                                                },
+                                                                                                {
+                                                                                                    "id": "80170642",
+                                                                                                    "speaker": "Direidyth",
+                                                                                                    "text": "And often, my mind would drift to this question... \"Is this starry sky actually real?\""
+                                                                                                },
+                                                                                                {
+                                                                                                    "id": "80170643",
+                                                                                                    "speaker": "Player",
+                                                                                                    "text": "(Wait... Why would she think that? Does she know about the false sky?)"
+                                                                                                },
+                                                                                                {
+                                                                                                    "id": "80170644",
+                                                                                                    "speaker": "Direidyth",
+                                                                                                    "text": "But my grandma would tell me, the answer to that question doesn't really matter."
+                                                                                                },
+                                                                                                {
+                                                                                                    "id": "80170645",
+                                                                                                    "speaker": "Direidyth",
+                                                                                                    "text": "\"Think of all the people in our village who spend their entire lives here,\" she'd say. To them, that little village is their whole world."
+                                                                                                },
+                                                                                                {
+                                                                                                    "id": "80170646",
+                                                                                                    "speaker": "Direidyth",
+                                                                                                    "text": "And so, if it's our destiny to live beneath this sky all our lives, then whatever may or may not lie beyond — this is our world, and that sky is real to us."
+                                                                                                },
+                                                                                                {
+                                                                                                    "id": "80170647",
+                                                                                                    "speaker": "Paimon",
+                                                                                                    "text": "Uh... Paimon kinda gets you... but also not really..."
+                                                                                                },
+                                                                                                {
+                                                                                                    "id": "80170648",
+                                                                                                    "speaker": "Paimon",
+                                                                                                    "text": "#Is it kind of like... how journeying with {NICKNAME} is everything to Paimon right now?",
+                                                                                                    "choices": [
+                                                                                                        {
+                                                                                                            "id": "80170649",
+                                                                                                            "text": "That seems kind of right...",
+                                                                                                            "response": [
+                                                                                                                {
+                                                                                                                    "id": "80170651",
+                                                                                                                    "speaker": "Direidyth",
+                                                                                                                    "text": "I really treasured my \"world.\" For a really long time..."
+                                                                                                                },
+                                                                                                                {
+                                                                                                                    "id": "80170652",
+                                                                                                                    "speaker": "Direidyth",
+                                                                                                                    "text": "The village was my everything — the houses, the scenery, stories I always loved to hear about the Savior."
+                                                                                                                },
+                                                                                                                {
+                                                                                                                    "id": "80170653",
+                                                                                                                    "speaker": "Direidyth",
+                                                                                                                    "text": "But I could never bring myself to agree with grandma. Even if the village was my entire world, I still had to know what lay outside its borders!"
+                                                                                                                },
+                                                                                                                {
+                                                                                                                    "id": "80170654",
+                                                                                                                    "speaker": "Paimon",
+                                                                                                                    "text": "Yeah! Go you!"
+                                                                                                                },
+                                                                                                                {
+                                                                                                                    "id": "80170655",
+                                                                                                                    "speaker": "Direidyth",
+                                                                                                                    "text": "Hehe, so I finally ventured out, and set off on my journey to find the Savior."
+                                                                                                                },
+                                                                                                                {
+                                                                                                                    "id": "80170656",
+                                                                                                                    "speaker": "Direidyth",
+                                                                                                                    "text": "I'm going to make my world bigger, one step at a time... And I'm not gonna stop until I've seen what's beyond the stars!"
+                                                                                                                },
+                                                                                                                {
+                                                                                                                    "id": "80170657",
+                                                                                                                    "speaker": "Direidyth",
+                                                                                                                    "text": "Maybe then, I'll finally get an answer to the question I had as a child."
+                                                                                                                },
+                                                                                                                {
+                                                                                                                    "id": "80170658",
+                                                                                                                    "speaker": "Player",
+                                                                                                                    "text": "Beyond the stars..."
+                                                                                                                },
+                                                                                                                {
+                                                                                                                    "id": "80170659",
+                                                                                                                    "speaker": "Direidyth",
+                                                                                                                    "text": "Who knows... maybe one day, I'll be sitting and chatting just like we are now, but with someone from another world."
+                                                                                                                },
+                                                                                                                {
+                                                                                                                    "id": "80170660",
+                                                                                                                    "speaker": "Paimon",
+                                                                                                                    "text": "Yeah, \"one day\"... Ah, if only we could tell her. But it's probably best not to open that can of worms right now."
+                                                                                                                },
+                                                                                                                {
+                                                                                                                    "id": "80170661",
+                                                                                                                    "speaker": "Direidyth",
+                                                                                                                    "text": "I need to find the Savior and protect my world. Then, I can make sure it continues to grow."
+                                                                                                                },
+                                                                                                                {
+                                                                                                                    "id": "80170662",
+                                                                                                                    "speaker": "Direidyth",
+                                                                                                                    "text": "That's the most worthwhile thing I can think of doing, so I've been giving it everything I've got!"
+                                                                                                                },
+                                                                                                                {
+                                                                                                                    "id": "80170663",
+                                                                                                                    "speaker": "Paimon",
+                                                                                                                    "text": "Y'know what? That's pretty cool. Paimon kinda wants to root for you now."
+                                                                                                                },
+                                                                                                                {
+                                                                                                                    "id": "80170664",
+                                                                                                                    "speaker": "Direidyth",
+                                                                                                                    "text": "Ah, sorry, I got a little carried away... I always get chatty after a hearty meal. Just like my grandma, hehe..."
+                                                                                                                },
+                                                                                                                {
+                                                                                                                    "id": "80170665",
+                                                                                                                    "speaker": "Player",
+                                                                                                                    "text": "(The more we chat, the more convinced I am that she's not a bad person...)"
+                                                                                                                },
+                                                                                                                {
+                                                                                                                    "id": "80170666",
+                                                                                                                    "speaker": "Player",
+                                                                                                                    "text": "(And it doesn't sound like she's been brainwashed by the Abyss Order. Maybe we can afford to trust her?)"
+                                                                                                                },
+                                                                                                                {
+                                                                                                                    "id": "80170667",
+                                                                                                                    "speaker": "Direidyth",
+                                                                                                                    "text": "Hold on... Shh! It's them! The monsters are back!"
+                                                                                                                },
+                                                                                                                {
+                                                                                                                    "id": "80170668",
+                                                                                                                    "speaker": "Paimon",
+                                                                                                                    "text": "Where? Oh, still invisible, huh?",
+                                                                                                                    "choices": [
+                                                                                                                        {
+                                                                                                                            "id": "80170669",
+                                                                                                                            "text": "In that case...",
+                                                                                                                            "response": [
+                                                                                                                                {
+                                                                                                                                    "id": "80170671",
+                                                                                                                                    "speaker": "Direidyth",
+                                                                                                                                    "text": "...Can you see them now?"
+                                                                                                                                },
+                                                                                                                                {
+                                                                                                                                    "id": "80170672",
+                                                                                                                                    "speaker": "Player",
+                                                                                                                                    "text": "Yeah. Stay back — I'll handle them."
+                                                                                                                                },
+                                                                                                                                {
+                                                                                                                                    "id": "80170673",
+                                                                                                                                    "speaker": "Paimon",
+                                                                                                                                    "text": "Paimon still can't see anything, but please, be careful!"
+                                                                                                                                }
+                                                                                                                            ]
+                                                                                                                        },
+                                                                                                                        {
+                                                                                                                            "id": "80170670",
+                                                                                                                            "text": "Guess we gotta try that trick again."
+                                                                                                                        }
+                                                                                                                    ]
+                                                                                                                }
+                                                                                                            ]
+                                                                                                        },
+                                                                                                        {
+                                                                                                            "id": "80170650",
+                                                                                                            "text": "But also not really."
+                                                                                                        }
+                                                                                                    ]
+                                                                                                }
+                                                                                            ]
+                                                                                        },
+                                                                                        {
+                                                                                            "id": "80170640",
+                                                                                            "text": "The time probably passed unbearably slowly."
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        {
+                                                                            "id": "80170631",
+                                                                            "text": "That's two favors you owe me now. Hope you're keeping count."
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "id": "80170627",
+                                                            "text": "Sure. I know just the recipe. Only takes an hour and a half."
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "80170612",
+                                            "text": "...And somehow, it still hurt less than I expected."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "80170604",
+                            "text": "And move in carefully."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "801707",
+            "objective": "Protect Direidyth",
+            "dialogues": []
+        },
+        {
+            "id": "801708",
+            "objective": "Talk to Direidyth",
+            "dialogues": [
+                {
+                    "id": "80170801",
+                    "speaker": "Paimon",
+                    "text": "Huh? Wow, that was fast... Did you get all of them?"
+                },
+                {
+                    "id": "80170802",
+                    "speaker": "Paimon",
+                    "text": "Paimon's slowly but surely getting used to the sight of you fighting thin air..."
+                },
+                {
+                    "id": "80170803",
+                    "speaker": "Paimon",
+                    "text": "You doing alright, Direidyth?"
+                },
+                {
+                    "id": "80170804",
+                    "speaker": "Direidyth",
+                    "text": "..."
+                },
+                {
+                    "id": "80170805",
+                    "speaker": "Paimon",
+                    "text": "Direidyth? Hey, it's okay, there's nothing to be scared of anymore..."
+                },
+                {
+                    "id": "80170806",
+                    "speaker": "Direidyth",
+                    "text": "...Oh... I—I'm fine... I just spaced out there for a moment."
+                },
+                {
+                    "id": "80170807",
+                    "speaker": "Paimon",
+                    "text": "You... spaced out? That's a pretty bold move under the circumstances..."
+                },
+                {
+                    "id": "80170808",
+                    "speaker": "Direidyth",
+                    "text": "#I was just, uh... The image of {NICKNAME} fighting to protect me — I was trying to commit it to memory. Seems like the least I can do."
+                },
+                {
+                    "id": "80170809",
+                    "speaker": "Paimon",
+                    "text": "Alright... Whatever floats your boat."
+                },
+                {
+                    "id": "80170810",
+                    "speaker": "Direidyth",
+                    "text": "Anyway, there are no more monsters in the area, and it's getting late. Why don't you stay here tonight?"
+                },
+                {
+                    "id": "80170811",
+                    "speaker": "Paimon",
+                    "text": "#Sounds reasonable to Paimon! What do you think, {NICKNAME}?"
+                },
+                {
+                    "id": "80170812",
+                    "speaker": "Player",
+                    "text": "(I'm personally satisfied that Direidyth isn't a threat, but... it can't hurt to monitor her for another night.)"
+                },
+                {
+                    "id": "80170813",
+                    "speaker": "Paimon",
+                    "text": "Alright! Direidyth, we'll be... Huh? Direidyth? Why are you going in alone?"
+                },
+                {
+                    "id": "80170814",
+                    "speaker": "Black Screen",
+                    "text": "As you stare at the Hibernation Chamber key in your hands, you start to relax and drift into a deep sleep..."
+                },
+                {
+                    "id": "80170815",
+                    "speaker": "Black Screen",
+                    "text": "Soon, a vivid dream fills your mind..."
+                }
+            ]
+        },
+        {
+            "id": "801713",
+            "objective": "Sleep and enter the dream...",
+            "dialogues": [
+                {
+                    "id": "80171001",
+                    "speaker": "Player",
+                    "text": "(This is... the Night Kingdom?)"
+                },
+                {
+                    "id": "80171002",
+                    "speaker": "Player",
+                    "text": "#({M#Lumine}{F#Aether}! And... the Lord of the Night?)"
+                },
+                {
+                    "id": "80171003",
+                    "speaker": "Sibling",
+                    "text": "..."
+                },
+                {
+                    "id": "80171004",
+                    "speaker": "Player",
+                    "text": "(!!!)"
+                },
+                {
+                    "id": "80171005",
+                    "speaker": "Player",
+                    "text": "(My head... It hurts!)"
+                },
+                {
+                    "id": "80171006",
+                    "speaker": "Player",
+                    "text": "(...)"
+                },
+                {
+                    "id": "80171007",
+                    "speaker": "Player",
+                    "text": "(My headache... it's gone...)"
+                },
+                {
+                    "id": "80171008",
+                    "speaker": "Player",
+                    "text": "(I think... I hear a voice in the darkness.)"
+                },
+                {
+                    "id": "80171009",
+                    "speaker": "???",
+                    "text": "...Doomsday... a fitting name indeed."
+                },
+                {
+                    "id": "80171010",
+                    "speaker": "???",
+                    "text": "A blood-red sky..."
+                },
+                {
+                    "id": "80171011",
+                    "speaker": "???",
+                    "text": "Wild beasts that slaughter all in sight..."
+                },
+                {
+                    "id": "80171012",
+                    "speaker": "???",
+                    "text": "Endless pain, a terrible curse that cannot be reversed..."
+                },
+                {
+                    "id": "80171013",
+                    "speaker": "???",
+                    "text": "And... the birth of a Savior."
+                }
+            ]
+        },
+        {
+            "id": "801711",
+            "objective": "",
+            "dialogues": [
+                {
+                    "id": "80171101",
+                    "speaker": "<UNKNOWN>",
+                    "text": ""
+                }
+            ]
+        },
+        {
+            "id": "801712",
+            "objective": "Talk to Direidyth",
+            "dialogues": [
+                {
+                    "id": "80170901",
+                    "speaker": "Player",
+                    "text": "(!!!)"
+                },
+                {
+                    "id": "80170902",
+                    "speaker": "Player",
+                    "text": "(That dream I just had...)"
+                },
+                {
+                    "id": "80170903",
+                    "speaker": "Direidyth",
+                    "text": "Ah, you're awake... I—I'm sorry, I didn't mean to, uh..."
+                },
+                {
+                    "id": "80170904",
+                    "speaker": "Player",
+                    "text": "(Was she holding my hand?)"
+                },
+                {
+                    "id": "80170905",
+                    "speaker": "Direidyth",
+                    "text": "You just... looked quite distressed, like you were having a nightmare..."
+                },
+                {
+                    "id": "80170906",
+                    "speaker": "Direidyth",
+                    "text": "I thought if I took your hand into mine, you might find it soothing... At least, that's what my family always did when I had nightmares."
+                },
+                {
+                    "id": "80170907",
+                    "speaker": "Direidyth",
+                    "text": "But it didn't seem to work on you... In fact, I think I made it even worse... I'm so sorry..."
+                },
+                {
+                    "id": "80170908",
+                    "speaker": "Paimon",
+                    "text": "Oh? Is that right..."
+                },
+                {
+                    "id": "80170909",
+                    "speaker": "Paimon",
+                    "text": "#Hmm... You'd better not be trying to pull a fast one on the {NICKNAME}..."
+                },
+                {
+                    "id": "80170910",
+                    "speaker": "Direidyth",
+                    "text": "What!? Don't be so... I have more self-control than that!"
+                },
+                {
+                    "id": "80170911",
+                    "speaker": "Paimon",
+                    "text": "...Self-control? What does that have to do with it...?"
+                },
+                {
+                    "id": "80170912",
+                    "speaker": "Player",
+                    "text": "(Ugh, I still can't remember anything... What did I see in my dream just now?)"
+                },
+                {
+                    "id": "80170913",
+                    "speaker": "Player",
+                    "text": "#(I think I saw {M#Lumine}{F#Aether} in the Night Kingdom at the very start of the dream... But I can't remember what happened next...)"
+                },
+                {
+                    "id": "80170914",
+                    "speaker": "Player",
+                    "text": "(Never mind. If the memory is gone, I can't force myself to remember it...)",
+                    "choices": [
+                        {
+                            "id": "80170915",
+                            "text": "I'm gonna go back to sleep.",
+                            "response": [
+                                {
+                                    "id": "80170917",
+                                    "speaker": "Paimon",
+                                    "text": "Uhh... No way is Paimon getting back to sleep after this!"
+                                },
+                                {
+                                    "id": "80170918",
+                                    "speaker": "Paimon",
+                                    "text": "You go ahead, but for the rest of the night, Paimon is staying up to keep an eye on this young lady!"
+                                },
+                                {
+                                    "id": "80170919",
+                                    "speaker": "Direidyth",
+                                    "text": "Aww... Do I really seem that shady to you...?"
+                                },
+                                {
+                                    "id": "80170920",
+                                    "speaker": "Paimon",
+                                    "text": "Well, Direidyth, this should be enough food for three days. Make sure you eat the perishable stuff first, so nothing goes to waste. ...You can tell which stuff is perishable, right?"
+                                },
+                                {
+                                    "id": "80170921",
+                                    "speaker": "Direidyth",
+                                    "text": "Yeah, I can tell from the ingredients. Thank you so much for making all this for me."
+                                },
+                                {
+                                    "id": "80170922",
+                                    "speaker": "Direidyth",
+                                    "text": "Three days will definitely be enough time for my ankle to heal. Then, I'll continue on my journey to find the Savior."
+                                },
+                                {
+                                    "id": "80170923",
+                                    "speaker": "Paimon",
+                                    "text": "Alright, then we'll be off. Bye for now, Direidyth!"
+                                },
+                                {
+                                    "id": "80170924",
+                                    "speaker": "Direidyth",
+                                    "text": "See ya... Wait, but if this is goodbye... How am I supposed to find you again?"
+                                },
+                                {
+                                    "id": "80170925",
+                                    "speaker": "Direidyth",
+                                    "text": "Oh... I mean, what if I find your sibling? How am I supposed to let you know?"
+                                },
+                                {
+                                    "id": "80170926",
+                                    "speaker": "Paimon",
+                                    "text": "Ah, that's a good point... We share the same goal, but we're constantly on the road, so we've got no fixed address..."
+                                },
+                                {
+                                    "id": "80170927",
+                                    "speaker": "Paimon",
+                                    "text": "How about this? When the time comes, you can just write a letter to Mavuika. She'll be able to find us for sure!"
+                                },
+                                {
+                                    "id": "80170928",
+                                    "speaker": "Direidyth",
+                                    "text": "Mavuika? Who's Mavuika?",
+                                    "choices": [
+                                        {
+                                            "id": "80170929",
+                                            "text": "Hold on...",
+                                            "response": [
+                                                {
+                                                    "id": "80170931",
+                                                    "speaker": "Paimon",
+                                                    "text": "It's the Abyss Order! They're here!"
+                                                },
+                                                {
+                                                    "id": "80170932",
+                                                    "speaker": "Paimon",
+                                                    "text": "But... It doesn't look like they're marching to war. More like they're... running away?"
+                                                },
+                                                {
+                                                    "id": "80170933",
+                                                    "speaker": "Direidyth",
+                                                    "text": "Where? What are you talking about?"
+                                                },
+                                                {
+                                                    "id": "80170934",
+                                                    "speaker": "Paimon",
+                                                    "text": "A bunch of Abyss Order thugs... You don't see them? They're heading right this way...",
+                                                    "choices": [
+                                                        {
+                                                            "id": "80170935",
+                                                            "text": "Hmm?",
+                                                            "response": [
+                                                                {
+                                                                    "id": "80170937",
+                                                                    "speaker": "Direidyth",
+                                                                    "text": "That's strange... I guess it's my turn to not be able to see the monsters.",
+                                                                    "choices": [
+                                                                        {
+                                                                            "id": "80170938",
+                                                                            "text": "Hmm... I bet...",
+                                                                            "response": [
+                                                                                {
+                                                                                    "id": "80170940",
+                                                                                    "speaker": "Direidyth",
+                                                                                    "text": "Ahh, you're right! I see them now... You weren't joking after all. So this is what it's like..."
+                                                                                },
+                                                                                {
+                                                                                    "id": "80170941",
+                                                                                    "speaker": "Paimon",
+                                                                                    "text": "What a weird situation. What is making these monsters invisible? Is it Direidyth, or the monsters themselves? Or is it us?"
+                                                                                },
+                                                                                {
+                                                                                    "id": "80170942",
+                                                                                    "speaker": "Paimon",
+                                                                                    "text": "Well, might as well mow these ones down. Just so they can't pose a threat to the tribes."
+                                                                                },
+                                                                                {
+                                                                                    "id": "80170943",
+                                                                                    "speaker": "Paimon",
+                                                                                    "text": "Woohoo, all done! Their morale seemed super low... Guess they really were on the run, huh?"
+                                                                                },
+                                                                                {
+                                                                                    "id": "80170944",
+                                                                                    "speaker": "Direidyth",
+                                                                                    "text": "So, there's no more of them, right? I still can't wrap my mind around this... Why couldn't I see them until you took my hand?"
+                                                                                },
+                                                                                {
+                                                                                    "id": "80170945",
+                                                                                    "speaker": "Player",
+                                                                                    "text": "Believe me, I'm as baffled as you are..."
+                                                                                },
+                                                                                {
+                                                                                    "id": "80170946",
+                                                                                    "speaker": "Player",
+                                                                                    "text": "(The plot thickens. Turns out there are also monsters which I can see, but Direidyth can't...)"
+                                                                                },
+                                                                                {
+                                                                                    "id": "80170947",
+                                                                                    "speaker": "Paimon",
+                                                                                    "text": "So, any ideas on why those monsters might have been running away? Maybe something went down on the front line?"
+                                                                                },
+                                                                                {
+                                                                                    "id": "80170948",
+                                                                                    "speaker": "Paimon",
+                                                                                    "text": "Paimon's getting a little worried about Iansan and the others... Let's head back to the Masters of the Night-Wind right away!"
+                                                                                },
+                                                                                {
+                                                                                    "id": "80170949",
+                                                                                    "speaker": "Paimon",
+                                                                                    "text": "We gotta go! Bye for now, Direidyth!"
+                                                                                },
+                                                                                {
+                                                                                    "id": "80170950",
+                                                                                    "speaker": "Direidyth",
+                                                                                    "text": "See ya — and please, take care!"
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        {
+                                                                            "id": "80170939",
+                                                                            "text": "The tried-and-tested method will allow you to see them."
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "id": "80170936",
+                                                            "text": "Wait a second..."
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "80170930",
+                                            "text": "I think I see something over there."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "80170916",
+                            "text": "We can catch up tomorrow morning."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "801712",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "80171201",
+                    "speaker": "Direidyth",
+                    "text": "Aah! ...Don't worry, I—I'm fine. I just need some time to myself..."
+                }
+            ]
+        },
+        {
+            "id": "801713",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "80171301",
+                    "speaker": "<UNKNOWN>",
+                    "text": ""
+                }
+            ]
+        },
+        {
+            "id": "801717",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "80171701",
+                    "speaker": "Citlali",
+                    "text": "Why holding hands? Why that, specifically? Why not... literally anything else?"
+                }
+            ]
+        },
+        {
+            "id": "801718",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "80171801",
+                    "speaker": "Iansan",
+                    "text": "I'm not normally so suspicious of strangers, but at times like this, the safety of the tribes has to come first."
+                }
+            ]
+        }
+    ]
+}

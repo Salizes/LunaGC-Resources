@@ -1,0 +1,324 @@
+{
+    "quest": {
+        "id": "75028",
+        "title": "沉重的翅膀",
+        "description": "在野外发现了受伤的龙…",
+        "rewards": [
+            {
+                "itemId": 102,
+                "count": 200
+            },
+            {
+                "itemId": 201,
+                "count": 30
+            },
+            {
+                "itemId": 202,
+                "count": 35000
+            }
+        ],
+        "rewards_formatted": "冒险阅历 x200, 原石 x30, 摩拉 x35000",
+        "chapter": {
+            "icon": "UI_ChapterIcon_LittleDrillhead",
+            "id": "10204",
+            "num": "",
+            "title": "龙选者的旅迹"
+        },
+        "total_dialogue_lines": 46,
+        "total_speaker_counts": {
+            "#{REALNAME[ID(2)|SHOWHOST(true)]}": 11,
+            "Black Screen": 1,
+            "Player": 8,
+            "夜猫子": 5,
+            "派蒙": 16,
+            "绒翼龙": 3,
+            "老鼠": 2
+        }
+    },
+    "talks": [
+        {
+            "id": "7502801",
+            "objective": "(test)击退埋伏的头套人$HIDDEN",
+            "dialogues": [
+                {
+                    "id": "750280101",
+                    "speaker": "老鼠",
+                    "text": "啧，敢情遇上硬茬子了。"
+                },
+                {
+                    "id": "750280102",
+                    "speaker": "夜猫子",
+                    "text": "哎哟，今儿个这是什么日子，我又招谁惹谁了，给我一顿好打…"
+                },
+                {
+                    "id": "750280103",
+                    "speaker": "夜猫子",
+                    "text": "#{M#大兄弟}{F#好姐姐}，您可得给我点拨一下，我这又是做了什么拂了您的心意，叫我知道知道，好今后不要再犯。"
+                },
+                {
+                    "id": "750280104",
+                    "speaker": "老鼠",
+                    "text": "喂！你小子，对这凶神恶煞的魔头低声下气的，有没有点出息？"
+                },
+                {
+                    "id": "750280105",
+                    "speaker": "夜猫子",
+                    "text": "出息？出息能当饭吃？我算是看清了，跟你混无非就是做些鸡鸣狗盗的营生，贩龙又有什么了不起的？"
+                },
+                {
+                    "id": "750280106",
+                    "speaker": "夜猫子",
+                    "text": "#横竖都要被更强的煞星打劫，那我为什么不跟这边的{M#大兄弟}{F#好姐姐}混？"
+                },
+                {
+                    "id": "750280107",
+                    "speaker": "夜猫子",
+                    "text": "#{M#大兄弟}{F#好姐姐}，不是我自夸，但我肯定比你带的这两个拖油瓶伶俐多了，有什么事您招呼我，保准给您安排得服服帖帖的。"
+                },
+                {
+                    "id": "750280108",
+                    "speaker": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+                    "text": "嗯？",
+                    "choices": [
+                        {
+                            "id": "750280109",
+                            "text": "我正好缺个小弟。",
+                            "response": [
+                                {
+                                    "id": "750280110",
+                                    "speaker": "派蒙",
+                                    "text": "你不会真想带着他吧？不行不行！我不同意！"
+                                },
+                                {
+                                    "id": "750280112",
+                                    "speaker": "派蒙",
+                                    "text": "#而且你们根本就是坏蛋吧！我们可是正派人士，才不会跟龙贩子为伍，对吧，{NICKNAME}？",
+                                    "choices": [
+                                        {
+                                            "id": "750280113",
+                                            "text": "不会有比我更正派的人了。",
+                                            "response": [
+                                                {
+                                                    "id": "750280117",
+                                                    "speaker": "派蒙",
+                                                    "text": "#咳，总之你们也别打龙的歪主意了，不然我们…{NICKNAME}肯定让你们知道厉害。"
+                                                },
+                                                {
+                                                    "id": "750280118",
+                                                    "speaker": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+                                                    "text": "呀！"
+                                                },
+                                                {
+                                                    "id": "750280119",
+                                                    "speaker": "Black Screen",
+                                                    "text": "两个龙贩子悻悻地离开了…"
+                                                },
+                                                {
+                                                    "id": "750280120",
+                                                    "speaker": "派蒙",
+                                                    "text": "不知道那只绒翼龙状况怎么样了，去看看它吧？"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "750280114",
+                                            "text": "也不一定，有通融的余地。",
+                                            "response": [
+                                                {
+                                                    "id": "750280115",
+                                                    "speaker": "派蒙",
+                                                    "text": "#你这么说会带坏{REALNAME[ID(2)|SHOWHOST(true)]}的啦！小家伙，放心好了，我们不会跟龙贩子一伙的。"
+                                                },
+                                                {
+                                                    "id": "750280116",
+                                                    "speaker": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+                                                    "text": "唔…呀！"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "750280111",
+                            "text": "谢谢你的好意，不过不用了。"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "7502807",
+            "objective": "与可疑的部族战士对话",
+            "dialogues": []
+        },
+        {
+            "id": "7502802",
+            "objective": "查看受伤的龙",
+            "dialogues": [
+                {
+                    "id": "750280201",
+                    "speaker": "绒翼龙",
+                    "text": "呜…"
+                },
+                {
+                    "id": "750280202",
+                    "speaker": "派蒙",
+                    "text": "很虚弱的样子，好可怜…肯定是之前吃了不少苦…"
+                },
+                {
+                    "id": "750280203",
+                    "speaker": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+                    "text": "呜…呜呜…",
+                    "choices": [
+                        {
+                            "id": "750280204",
+                            "text": "要是有什么我们能帮它的…",
+                            "response": [
+                                {
+                                    "id": "750280207",
+                                    "speaker": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+                                    "text": "唔…呀！呀呀！"
+                                },
+                                {
+                                    "id": "750280208",
+                                    "speaker": "派蒙",
+                                    "text": "#怎么了？{REALNAME[ID(2)|SHOWHOST(true)]}，你有什么好点子吗？"
+                                },
+                                {
+                                    "id": "750280209",
+                                    "speaker": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+                                    "text": "呀！"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "750280205",
+                            "text": "我们也不可能一直照顾它…",
+                            "response": [
+                                {
+                                    "id": "750280206",
+                                    "speaker": "派蒙",
+                                    "text": "但哪怕只是现在一小会儿也好，如果有什么办法能让它好过一点…"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "7502803",
+            "objective": "跟随龙伙伴",
+            "dialogues": [
+                {
+                    "id": "750280301",
+                    "speaker": "绒翼龙",
+                    "text": "（看起来很虚弱的样子，要是有什么办法让它恢复就好了…）"
+                }
+            ]
+        },
+        {
+            "id": "7502804",
+            "objective": "看看龙伙伴的发现",
+            "dialogues": [
+                {
+                    "id": "750280401",
+                    "speaker": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+                    "text": "呀呀！呀！"
+                },
+                {
+                    "id": "750280402",
+                    "speaker": "派蒙",
+                    "text": "你觉得烬芯花会对它有帮助吗？"
+                },
+                {
+                    "id": "750280403",
+                    "speaker": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+                    "text": "呀！"
+                },
+                {
+                    "id": "750280404",
+                    "speaker": "派蒙",
+                    "text": "嗯，那我们就试试看吧！"
+                }
+            ]
+        },
+        {
+            "id": "7502805",
+            "objective": "尝试治疗绒翼龙",
+            "dialogues": []
+        },
+        {
+            "id": "7502806",
+            "objective": "查看绒翼龙的情况",
+            "dialogues": [
+                {
+                    "id": "750280601",
+                    "speaker": "绒翼龙",
+                    "text": "……"
+                },
+                {
+                    "id": "750280602",
+                    "speaker": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+                    "text": "呀…呀！"
+                },
+                {
+                    "id": "750280603",
+                    "speaker": "派蒙",
+                    "text": "感觉好像恢复了一点精神？"
+                },
+                {
+                    "id": "750280605",
+                    "speaker": "派蒙",
+                    "text": "哎呀，居然就这样飞走了，果然还是不信任我们吗…",
+                    "choices": [
+                        {
+                            "id": "750280606",
+                            "text": "信任也不是一朝一夕就能建立的。",
+                            "response": [
+                                {
+                                    "id": "750280607",
+                                    "speaker": "派蒙",
+                                    "text": "#说得也是，我们也是和{REALNAME[ID(2)|SHOWHOST(true)]}朝夕相处才会有这样的默契呢。"
+                                },
+                                {
+                                    "id": "750280610",
+                                    "speaker": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+                                    "text": "呀！呀呀！"
+                                },
+                                {
+                                    "id": "750280611",
+                                    "speaker": "派蒙",
+                                    "text": "#嗯，我们也不是为了让对方感恩才选择帮助它的，{REALNAME[ID(2)|SHOWHOST(true)]}也是这样想的吧？"
+                                },
+                                {
+                                    "id": "750280612",
+                                    "speaker": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+                                    "text": "呀！"
+                                },
+                                {
+                                    "id": "750280613",
+                                    "speaker": "派蒙",
+                                    "text": "#嘿嘿，看来{REALNAME[ID(2)|SHOWHOST(true)]}是只心胸宽广的小龙呢，就像我和{NICKNAME}一样！"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "750280608",
+                            "text": "看来它可以靠自己的力量飞起来了。",
+                            "response": [
+                                {
+                                    "id": "750280609",
+                                    "speaker": "派蒙",
+                                    "text": "#哦！确实，{REALNAME[ID(2)|SHOWHOST(true)]}的点子很奏效呢。"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

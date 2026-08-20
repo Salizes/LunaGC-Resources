@@ -1,0 +1,1523 @@
+{
+    "quest": {
+        "id": "75107",
+        "title": "Pedras, Cocos e Traficantes de Saurianos",
+        "description": "Em um local remoto perto das fronteiras do Clã das Plumas de Flores, um comerciante viajante e seu companheiro encontraram um problema misterioso...",
+        "rewards": [
+            {
+                "itemId": 102,
+                "count": 250
+            },
+            {
+                "itemId": 201,
+                "count": 30
+            },
+            {
+                "itemId": 202,
+                "count": 20000
+            },
+            {
+                "itemId": 104003,
+                "count": 2
+            },
+            {
+                "itemId": 104013,
+                "count": 3
+            }
+        ],
+        "rewards_formatted": "EXP de Aventura x250, Gema Essencial x30, Mora x20000, EXP do Herói x2, Minério de Refinamento Místico x3",
+        "chapter": {
+            "icon": "UI_ChapterIcon_LittleDrillhead",
+            "id": "10204",
+            "num": "",
+            "title": "Nos Passos do Escolhido dos Dragões"
+        },
+        "total_dialogue_lines": 259,
+        "total_speaker_counts": {
+            "\"Rei Coco\"": 16,
+            "#{REALNAME[ID(2)|SHOWHOST(true)]}": 20,
+            "<UNKNOWN>": 1,
+            "???": 10,
+            "Black Screen": 10,
+            "Equipamento de Qax": 1,
+            "Paimon": 88,
+            "Player": 41,
+            "Qax": 58,
+            "Qucussauro Fraco": 6,
+            "Tepetlissauro Debilitado": 2,
+            "Voz Sinistra Vinda de Cima": 2,
+            "Voz Traiçoeira Vinda de Cima": 4
+        }
+    },
+    "talks": [
+        {
+            "id": "7510701",
+            "objective": "",
+            "dialogues": [
+                {
+                    "id": "751070101",
+                    "speaker": "???",
+                    "text": "Aaaah! O que vamos fazer?"
+                },
+                {
+                    "id": "751070102",
+                    "speaker": "???",
+                    "text": "Meu camarada, poderia me dizer um pouco mais sobre o que está acontecendo? Qualquer rosnado serve."
+                },
+                {
+                    "id": "751070103",
+                    "speaker": "Tepetlissauro Debilitado",
+                    "text": "...Oooh?"
+                },
+                {
+                    "id": "751070104",
+                    "speaker": "???",
+                    "text": "Hmm... Não entendo..."
+                },
+                {
+                    "id": "751070105",
+                    "speaker": "Paimon",
+                    "text": "#Mesmo que fosse {REALNAME[ID(2)|SHOWHOST(true)]}, uma declaração simples dessa seria não é suficiente para entender o significado, né?"
+                },
+                {
+                    "id": "751070106",
+                    "speaker": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+                    "text": "Hã?",
+                    "choices": [
+                        {
+                            "id": "751070107",
+                            "text": "...Então, hmm, que tipo de problema vocês estão tendo, exatamente?",
+                            "response": [
+                                {
+                                    "id": "751070109",
+                                    "speaker": "???",
+                                    "text": "#Ah, é um{F#a} aventureir{M#o}{F#a} de passagem. Estamos salvos!"
+                                },
+                                {
+                                    "id": "751070110",
+                                    "speaker": "???",
+                                    "text": "#Gratidão, gentil aventureir{M#o}{F#a}! A situação é a seguinte..."
+                                },
+                                {
+                                    "id": "751070111",
+                                    "speaker": "Qax",
+                                    "text": "Meu nome é Qax e sou um comerciante itinerante. Eu estava pegando água hoje quando fui separado do meu dragão, Rei Coco."
+                                },
+                                {
+                                    "id": "751070112",
+                                    "speaker": "Qax",
+                                    "text": "Quando voltei, meu querido Sauriano estava machucado e havia caído na beira da estrada, incapaz de andar..."
+                                },
+                                {
+                                    "id": "751070113",
+                                    "speaker": "Qax",
+                                    "text": "Eu pensei que talvez tivesse sido pego por uma armadilha de caçador, mas inspecionando mais de perto, não havia nenhuma ferida na perna ou marca de sangue no corpo... Será que foi contusão?"
+                                },
+                                {
+                                    "id": "751070114",
+                                    "speaker": "\"Rei Coco\"",
+                                    "text": "Rroooh! Hroo! Rrooooh!"
+                                },
+                                {
+                                    "id": "751070115",
+                                    "speaker": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+                                    "text": "Rawr!"
+                                },
+                                {
+                                    "id": "751070116",
+                                    "speaker": "Paimon",
+                                    "text": "#Parece que seu amigo Sauriano tá sentindo muita dor. Mas nem {NICKNAME}, nem Paimon é vet-sauro...",
+                                    "choices": [
+                                        {
+                                            "id": "751070117",
+                                            "text": "Será que eu deveria carregar o Rei Coco de volta?",
+                                            "response": [
+                                                {
+                                                    "id": "751070118",
+                                                    "speaker": "Paimon",
+                                                    "text": "Você tem a força para isso, pode apostar."
+                                                },
+                                                {
+                                                    "id": "751070119",
+                                                    "speaker": "Paimon",
+                                                    "text": "Mas estamos meio longe aqui. Se a gente tiver que carregar ele por um tempo e acabarmos abrindo alguma ferida invisível, isso só ia piorar as coisas..."
+                                                },
+                                                {
+                                                    "id": "751070123",
+                                                    "speaker": "Qax",
+                                                    "text": "Você não vai precisar viajar tanto. Eu conheço um vet-sauro do Clã das Plumas de Flores que atende em uma clínica. Vou pedir para ele vir."
+                                                },
+                                                {
+                                                    "id": "751070124",
+                                                    "speaker": "Qax",
+                                                    "text": "Será que vocês poderiam me ajudar a cuidar de Rei Coco por um tempo? Volto em breve, e tenho certeza que só preciso de uma noite."
+                                                },
+                                                {
+                                                    "id": "751070125",
+                                                    "speaker": "Paimon",
+                                                    "text": "Hehe, você é bem atencioso, né? Tudo bem, Paimon acha que a gente pode tratar isso como uma viagem para acampar — vamos dar uma boa descansada e dar um comida sensacional para o seu companheiro Sauriano enquanto isso!"
+                                                },
+                                                {
+                                                    "id": "751070126",
+                                                    "speaker": "Paimon",
+                                                    "text": "#Quando começar a comer um pouco da comida de {NICKNAME}, Rei Coco não vai sentir muita dor.",
+                                                    "choices": [
+                                                        {
+                                                            "id": "751070127",
+                                                            "text": "#Eu também tô cansad{M#ão}{F#ona}...",
+                                                            "response": [
+                                                                {
+                                                                    "id": "751070129",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "Mas agora que penso nisso, acampar vai precisar de acampamento. Rei Coco está ferido e vai precisar de abrigo. Ficar aqui para sempre não é uma opção."
+                                                                },
+                                                                {
+                                                                    "id": "751070130",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "Temos que colocar lentamente Rei Coco em algum lugar reto, armar uma tenda, preparar uma panela e acender uma fogueira..."
+                                                                },
+                                                                {
+                                                                    "id": "751070131",
+                                                                    "speaker": "Qax",
+                                                                    "text": "Faz total sentido. Ainda bem que vocês são profissionais!"
+                                                                },
+                                                                {
+                                                                    "id": "751070132",
+                                                                    "speaker": "Qax",
+                                                                    "text": "Sou bom com carpintaria. Vamos nos dividir e coletar materiais — qualquer <color=#00E1FFFF>Madeira de Árvore Combustiva</color> ou <color=#00E1FFFF>Madeira de Aratiku das Cinzas</color> com um pouco de tecido deve servir!"
+                                                                },
+                                                                {
+                                                                    "id": "751070133",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "#Então, {REALNAME[ID(2)|SHOWHOST(true)]}, valeu pela ajuda com Rei Coco!"
+                                                                },
+                                                                {
+                                                                    "id": "751070134",
+                                                                    "speaker": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+                                                                    "text": "Rawr!"
+                                                                },
+                                                                {
+                                                                    "id": "751070135",
+                                                                    "speaker": "Black Screen",
+                                                                    "text": "Você leva cuidadosamente Rei Coco para uma área adequada para levantar acampamento..."
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "id": "751070128",
+                                                            "text": "E eu tô com uma fome daquelas agora..."
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "751070120",
+                                            "text": "Será que vamos atrás de um veterinário para ajudar?",
+                                            "response": [
+                                                {
+                                                    "id": "751070121",
+                                                    "speaker": "Paimon",
+                                                    "text": "Dito isso, não tem nenhum veterinário de Sauriano que a gente conheça..."
+                                                },
+                                                {
+                                                    "id": "751070122",
+                                                    "speaker": "Paimon",
+                                                    "text": "Se Paimon aparecesse na frente de um por veterinário que Paimon não conhece e convidasse ele pra esse lugar longe e esquisito, não acha que ele ia pensar que a gente ia fazer uma coisa ruim?"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "751070108",
+                            "text": "Precisam de ajuda?"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "7510715",
+            "objective": "",
+            "dialogues": [
+                {
+                    "id": "751071501",
+                    "speaker": "Paimon",
+                    "text": "O que houve? Alguma ideia do que tá acontecendo?",
+                    "choices": [
+                        {
+                            "id": "751071502",
+                            "text": "Eles parecem ter sido atacados.",
+                            "response": [
+                                {
+                                    "id": "751071504",
+                                    "speaker": "Paimon",
+                                    "text": "Hã? Atacados por vilões? Daquele morro ali?"
+                                },
+                                {
+                                    "id": "751071505",
+                                    "speaker": "Paimon",
+                                    "text": "#{NICKNAME}, você ainda lembra? Já passamos por aqui antes... Resgatamos um monte de Saurianos e outros animais de uns caçadores clandestinos."
+                                },
+                                {
+                                    "id": "751071506",
+                                    "speaker": "Paimon",
+                                    "text": "Será que são as mesmas pessoas? E eles estão tentando roubar companheiros Saurianos... Eles estão mesmo querendo revendê-los?"
+                                },
+                                {
+                                    "id": "751071507",
+                                    "speaker": "Paimon",
+                                    "text": "Esqueça isso... Qualquer um se escondendo e causando mal aos companheiros Saurianos de outros é a mais pura escória. Não podemos deixá-los impunes!",
+                                    "choices": [
+                                        {
+                                            "id": "751071508",
+                                            "text": "É, eles são o pior tipo de gente.",
+                                            "response": [
+                                                {
+                                                    "id": "751071510",
+                                                    "speaker": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+                                                    "text": "Rawr!"
+                                                },
+                                                {
+                                                    "id": "751071511",
+                                                    "speaker": "Paimon",
+                                                    "text": "Então vamos nessa fazer o reconhecimento da área."
+                                                },
+                                                {
+                                                    "id": "751071512",
+                                                    "speaker": "Paimon",
+                                                    "text": "Se eles não têm ninguém particularmente forte com eles, só devíamos agir e reunir todos — igual a como a gente já fez com os Ladrões de Tesouro no passado!"
+                                                },
+                                                {
+                                                    "id": "751071513",
+                                                    "speaker": "Paimon",
+                                                    "text": "Não que a gente fosse ficar com medo se tivesse umas pessoas fortes. Só não podemos revelar nosso esquema para contra-ataque, senão eles vão escapar!"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "751071509",
+                                            "text": "Eu é que não vou pegar leve com eles."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "751071503",
+                            "text": "O outro grupo tá naquele morro ali."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "7510717",
+            "objective": "",
+            "dialogues": [
+                {
+                    "id": "751071701",
+                    "speaker": "Voz Sinistra Vinda de Cima",
+                    "text": "#Argh, que azar! Da última vez, {M#aquele cara loiro}{F#aquela garota loira} e a fadinha de cabelo branco me custaram uma fortuna liberando todos os animais daquele jeito. E ainda agora, aquele Qucussauro escapou de novo..."
+                },
+                {
+                    "id": "751071702",
+                    "speaker": "Voz Traiçoeira Vinda de Cima",
+                    "text": "*Suspiro* Pelo menos conseguimos pegar o chefe e as munições frágeis melhoradas. É garantido derrubar os Tantakassauros mais poderosos sem deixar um rastro para trás!"
+                },
+                {
+                    "id": "751071703",
+                    "speaker": "Voz Traiçoeira Vinda de Cima",
+                    "text": "Quando as novas munições do chefe começarem a ser produzidas em massa, tudo vai melhorar..."
+                },
+                {
+                    "id": "751071704",
+                    "speaker": "Paimon",
+                    "text": "Ouviu isso? São mesmo aqueles malditos caçadores clandestinos de Saurianos e animais. Vem, vamos capturar todos dessa vez!"
+                },
+                {
+                    "id": "751071705",
+                    "speaker": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+                    "text": "Rawr!"
+                },
+                {
+                    "id": "751071706",
+                    "speaker": "Paimon",
+                    "text": "#Uau, {REALNAME[ID(2)|SHOWHOST(true)]}, você parecia um pouco diferente ainda agora! Não se preocupe, vamos fazer justiça pela sua amiga Foquinha Rotunda dessa vez!"
+                },
+                {
+                    "id": "751071707",
+                    "speaker": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+                    "text": "Ah..."
+                },
+                {
+                    "id": "751071708",
+                    "speaker": "Paimon",
+                    "text": "#Então, {REALNAME[ID(2)|SHOWHOST(true)]} — acha que consegue se infiltrar no acampamento debaixo e conferir o que tá acontecendo?"
+                },
+                {
+                    "id": "751071709",
+                    "speaker": "Paimon",
+                    "text": "Se você encontrar alguma coisa importante deles no acampamento, destrua e crie um pouco de caos para aqueles bandidos!"
+                },
+                {
+                    "id": "751071710",
+                    "speaker": "Paimon",
+                    "text": "Mas se as coisas não estiverem parecendo tão bem, só fique de boa e deixe tudo com a gente. Sempre foque na sua segurança primeiro!"
+                },
+                {
+                    "id": "751071711",
+                    "speaker": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+                    "text": "Hrrrmm!"
+                }
+            ]
+        },
+        {
+            "id": "7510703",
+            "objective": "Reúna os materiais para construir acampamento",
+            "dialogues": [
+                {
+                    "id": "751070301",
+                    "speaker": "Equipamento de Qax",
+                    "text": "(Mochilas e caixas cheias de vários artigos diários. Parece que Qax está administrando um pequeno negócio. Coloque os materiais que reuniu aqui. Você pode começar a construir o acampamento num momento.)",
+                    "choices": [
+                        {
+                            "id": "751070302",
+                            "text": "Colocar Materiais"
+                        },
+                        {
+                            "id": "751070303",
+                            "text": "Ainda há mais para pegar..."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "7510719",
+            "objective": "Reúna os materiais para construir acampamento",
+            "dialogues": [
+                {
+                    "id": "751070501",
+                    "speaker": "Paimon",
+                    "text": "Ótimo — agora podemos armar uma tenda de acampamento gigante!"
+                }
+            ]
+        },
+        {
+            "id": "7510704",
+            "objective": "Fale com Qax",
+            "dialogues": [
+                {
+                    "id": "751070801",
+                    "speaker": "Black Screen",
+                    "text": "Qax retorna após um tempo, carregando alguns troncos. Ele pega uma panela e um pouco de tecido em sua bolsa.\\nPaimon coletou vários galhos e está usando-os para fazer o fogo para cozinhar..."
+                },
+                {
+                    "id": "751070802",
+                    "speaker": "Black Screen",
+                    "text": "#Qax é muito ágil e, com sua ajuda, logo constrói uma cabana. Paimon e {REALNAME[ID(2)|SHOWHOST(true)]} preparam uma panela e acendem uns gravetos..."
+                },
+                {
+                    "id": "751070803",
+                    "speaker": "Qax",
+                    "text": "Tudo bem, nosso acampamento tá feito. Obrigado por todo o esforço!"
+                },
+                {
+                    "id": "751070804",
+                    "speaker": "Qax",
+                    "text": "É meio rudimentar, então não é a melhor acomodação. Mas, por favor, façam o melhor com o que temos agora. Retribuirei a vocês depois, com certeza!",
+                    "choices": [
+                        {
+                            "id": "751070805",
+                            "text": "Você também fez bastante.",
+                            "response": [
+                                {
+                                    "id": "751070807",
+                                    "speaker": "Qax",
+                                    "text": "Então não me prolongarei. Vou indo encontrar um veterinário assim que possível."
+                                },
+                                {
+                                    "id": "751070808",
+                                    "speaker": "Qax",
+                                    "text": "Para Rei Coco se recuperar mais rapidamente, assim como para fazer vocês esperarem menos!"
+                                },
+                                {
+                                    "id": "751070809",
+                                    "speaker": "\"Rei Coco\"",
+                                    "text": "*Choro*"
+                                },
+                                {
+                                    "id": "751070810",
+                                    "speaker": "Paimon",
+                                    "text": "Esse comerciante itinerante é bem direto e prático também... Tomara que ele encontre um veterinário logo."
+                                },
+                                {
+                                    "id": "751070811",
+                                    "speaker": "Paimon",
+                                    "text": "Agora é hora de acampar, cozinhar e comer juntos!"
+                                },
+                                {
+                                    "id": "751070812",
+                                    "speaker": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+                                    "text": "Rawr!"
+                                },
+                                {
+                                    "id": "751070813",
+                                    "speaker": "Black Screen",
+                                    "text": "#Você prepara a comida na fogueira com Paimon e cozinha várias das suas especialidades — incluindo uma comida saudável que pega leve no estômago, feita especialmente para Rei Coco.\\nEm seguida, todos aproveitam uma refeição casual e satisfatória juntos. Paimon e {REALNAME[ID(2)|SHOWHOST(true)]} alimentam o debilitado Rei Coco."
+                                },
+                                {
+                                    "id": "751070814",
+                                    "speaker": "Black Screen",
+                                    "text": "#Após a refeição, {REALNAME[ID(2)|SHOWHOST(true)]} fica pacientemente com Rei Coco, ajudando-o a relaxar e melhorar sua condição.\\nVocê conversa com Paimon até a meia-noite e todos no acampamento caem num sono tranquilo..."
+                                },
+                                {
+                                    "id": "751070815",
+                                    "speaker": "Paimon",
+                                    "text": "Hmm~ Paimon dormiu tão bem! Paimon acha que foi de toda aquela trabalheira ontem, né?"
+                                },
+                                {
+                                    "id": "751070816",
+                                    "speaker": "Paimon",
+                                    "text": "Hã?"
+                                },
+                                {
+                                    "id": "751070817",
+                                    "speaker": "Paimon",
+                                    "text": "#Eita, {NICKNAME} — Rei Coco se transformou num Qucussauro!",
+                                    "choices": [
+                                        {
+                                            "id": "751070818",
+                                            "text": "Você ainda tá sonhando, Paimon.",
+                                            "response": [
+                                                {
+                                                    "id": "751070821",
+                                                    "speaker": "Paimon",
+                                                    "text": "Ah... Cara, que susto. Por um momento, Paimon achou que a comida que a gente fez para ele tinha uma habilidade esquisita de transformar Saurianos ou algo assim..."
+                                                },
+                                                {
+                                                    "id": "751070822",
+                                                    "speaker": "Qucussauro Fraco",
+                                                    "text": "Rawrr... *Cof*... Arawrr..."
+                                                },
+                                                {
+                                                    "id": "751070823",
+                                                    "speaker": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+                                                    "text": "Eerh?"
+                                                },
+                                                {
+                                                    "id": "751070824",
+                                                    "speaker": "Paimon",
+                                                    "text": "Parece que esse Qucussauro também tá sentindo muita dor. Talvez ele também estivesse envolvido num acidente?",
+                                                    "choices": [
+                                                        {
+                                                            "id": "751070825",
+                                                            "text": "Não há feridas óbvias.",
+                                                            "response": [
+                                                                {
+                                                                    "id": "751070827",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "São dois Saurianos desmaiando perto desse lugar dois dias seguidos agora... Tem algo esquisito nisso, com certeza!"
+                                                                },
+                                                                {
+                                                                    "id": "751070828",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "#{NICKNAME}, por que não pensamos numa maneira da gente se comunicar com eles e perguntar o que houve?"
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "id": "751070826",
+                                                            "text": "Talvez sofreu alguma contusão, como Rei Coco?"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "751070819",
+                                            "text": "Rei Coco está na tenda."
+                                        },
+                                        {
+                                            "id": "751070820",
+                                            "text": "Esse é claramente um Sauriano diferente."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "751070806",
+                            "text": "Não precisa ser tão educado."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "7510711",
+            "objective": "Encontre uma maneira de falar com Rei Coco e os outros Saurianos",
+            "dialogues": [
+                {
+                    "id": "751071101",
+                    "speaker": "Paimon",
+                    "text": "O que houve? Alguma ideia do que tá acontecendo?",
+                    "choices": [
+                        {
+                            "id": "751071102",
+                            "text": "Eles parecem ter sido atacados.",
+                            "response": [
+                                {
+                                    "id": "751071104",
+                                    "speaker": "Paimon",
+                                    "text": "Hã? Atacados por vilões? Daquele morro ali?"
+                                },
+                                {
+                                    "id": "751071105",
+                                    "speaker": "Paimon",
+                                    "text": "Aqueles malvados estavam tentando caçar Saurianos selvagens? Mas se foi um acidente, a gente não os viu pedindo desculpas a Qax ou Rei Coco..."
+                                },
+                                {
+                                    "id": "751071106",
+                                    "speaker": "Paimon",
+                                    "text": "Ou... eles são bandidos esperando para roubar os Saurimigos de outras pessoas?"
+                                },
+                                {
+                                    "id": "751071107",
+                                    "speaker": "Paimon",
+                                    "text": "Esqueça isso... Qualquer um se escondendo e causando mal aos companheiros Saurianos de outros é a mais pura escória. Não podemos deixá-los impunes!",
+                                    "choices": [
+                                        {
+                                            "id": "751071108",
+                                            "text": "É, eles são o pior tipo de gente.",
+                                            "response": [
+                                                {
+                                                    "id": "751071110",
+                                                    "speaker": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+                                                    "text": "Rawr!"
+                                                },
+                                                {
+                                                    "id": "751071111",
+                                                    "speaker": "Paimon",
+                                                    "text": "Então vamos nessa fazer o reconhecimento da área."
+                                                },
+                                                {
+                                                    "id": "751071112",
+                                                    "speaker": "Paimon",
+                                                    "text": "Se eles não têm ninguém particularmente forte com eles, só devíamos agir e reunir todos — igual a como a gente já fez com os Ladrões de Tesouro no passado!"
+                                                },
+                                                {
+                                                    "id": "751071113",
+                                                    "speaker": "Paimon",
+                                                    "text": "Não que a gente fosse ficar com medo se tivesse umas pessoas fortes. Só não podemos revelar nosso esquema para contra-ataque, senão eles vão escapar!"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "751071109",
+                                            "text": "Eu é que não vou pegar leve com eles."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "751071103",
+                            "text": "O outro grupo tá naquele morro ali."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "7510706",
+            "objective": "Faça reconhecimento da área onde os traficantes de Sauriano operam",
+            "dialogues": []
+        },
+        {
+            "id": "7510707",
+            "objective": "Faça reconhecimento da área onde os traficantes de Sauriano operam",
+            "dialogues": [
+                {
+                    "id": "751070701",
+                    "speaker": "Voz Sinistra Vinda de Cima",
+                    "text": "É uma pena de verdade que aquele Qucussauro escapou. Aquele tipo de qualidade definitivamente valeria uma fortuna..."
+                },
+                {
+                    "id": "751070702",
+                    "speaker": "Voz Traiçoeira Vinda de Cima",
+                    "text": "Tá tudo bem. O chefe melhorou as ogivas frágeis. A nova linha é garantida de derrubar os Tantakassauros sem deixar um rastro para trás!"
+                },
+                {
+                    "id": "751070703",
+                    "speaker": "Voz Traiçoeira Vinda de Cima",
+                    "text": "Quando esses novos modelos de ogivas forem distribuídos entre os irmãos, podemos capturar quaisquer dragões que quisermos e ficar ricos!"
+                },
+                {
+                    "id": "751070704",
+                    "speaker": "Paimon",
+                    "text": "Ouviu isso? Aqueles caras parecem querer mesmo vender os nossos companheiros Saurianos... Traficantes de animais corruptos e malditos!"
+                },
+                {
+                    "id": "751070705",
+                    "speaker": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+                    "text": "Rawr!"
+                },
+                {
+                    "id": "751070706",
+                    "speaker": "Paimon",
+                    "text": "#Uau, {REALNAME[ID(2)|SHOWHOST(true)]}, você pareceu um pouco diferente agora! Parece que aqueles caras mexeram mesmo com você, né?"
+                },
+                {
+                    "id": "751070707",
+                    "speaker": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+                    "text": "Ah..."
+                },
+                {
+                    "id": "751070708",
+                    "speaker": "Paimon",
+                    "text": "#Então, {REALNAME[ID(2)|SHOWHOST(true)]} — acha que consegue se infiltrar no acampamento debaixo e conferir o que tá acontecendo?"
+                },
+                {
+                    "id": "751070709",
+                    "speaker": "Paimon",
+                    "text": "Se você encontrar alguma coisa importante deles no acampamento, destrua e crie um pouco de caos para aqueles bandidos!"
+                },
+                {
+                    "id": "751070710",
+                    "speaker": "Paimon",
+                    "text": "Mas se as coisas não estiverem parecendo tão bem, só fique de boa e deixe tudo com a gente. Sempre foque na sua segurança primeiro!"
+                },
+                {
+                    "id": "751070711",
+                    "speaker": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+                    "text": "Hrrm!"
+                }
+            ]
+        },
+        {
+            "id": "7510712",
+            "objective": "Espere o seu companheiro Sauriano agir",
+            "dialogues": [
+                {
+                    "id": "751071201",
+                    "speaker": "Paimon",
+                    "text": "Ufa! A gente não só destruiu a base dele... Nós também entendemos o que aconteceu! Vamos voltar para Rei Coco primeiro."
+                },
+                {
+                    "id": "751071202",
+                    "speaker": "Paimon",
+                    "text": "Então podemos explicar tudo que aconteceu para Qax."
+                }
+            ]
+        },
+        {
+            "id": "7510708",
+            "objective": "Derrote o líder inimigo",
+            "dialogues": []
+        },
+        {
+            "id": "7510718",
+            "objective": "Fale com Paimon",
+            "dialogues": []
+        },
+        {
+            "id": "7510709",
+            "objective": "Retorne ao acampamento onde Rei Coco está",
+            "dialogues": [
+                {
+                    "id": "751070901",
+                    "speaker": "???",
+                    "text": "O que vamos fazer..."
+                },
+                {
+                    "id": "751070902",
+                    "speaker": "???",
+                    "text": "Amigo, por favor, só diga algo. Até um piadinho serve — eu só preciso saber o que houve com você."
+                },
+                {
+                    "id": "751070903",
+                    "speaker": "Tepetlissauro Debilitado",
+                    "text": "...Grr?"
+                },
+                {
+                    "id": "751070904",
+                    "speaker": "???",
+                    "text": "Hmm... Não entendo..."
+                },
+                {
+                    "id": "751070905",
+                    "speaker": "Paimon",
+                    "text": "#Mesmo que fosse {REALNAME[ID(2)|SHOWHOST(true)]}, um barulho tão simples não ia transmitir nada imediatamente."
+                },
+                {
+                    "id": "751070906",
+                    "speaker": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+                    "text": "Eerh?",
+                    "choices": [
+                        {
+                            "id": "751070907",
+                            "text": "...Então, hmm, que tipo de problema vocês estão tendo, exatamente?",
+                            "response": [
+                                {
+                                    "id": "751070909",
+                                    "speaker": "???",
+                                    "text": "#Ah, é mestre {NICKNAME} e mestre Paimon. Finalmente salvos!"
+                                },
+                                {
+                                    "id": "751070910",
+                                    "speaker": "???",
+                                    "text": "É um prazer encontrar vocês! A situação é a seguinte..."
+                                },
+                                {
+                                    "id": "751070911",
+                                    "speaker": "Qax",
+                                    "text": "Meu nome é Qax e sou um comerciante itinerante. Eu estava pegando água hoje quando fui separado do meu companheiro Sauriano, Rei Coco."
+                                },
+                                {
+                                    "id": "751070912",
+                                    "speaker": "Qax",
+                                    "text": "Quando voltei, meu querido Sauriano estava machucado e havia caído na beira da estrada, incapaz de andar..."
+                                },
+                                {
+                                    "id": "751070913",
+                                    "speaker": "Qax",
+                                    "text": "Eu pensei que talvez tivesse sido pego por uma armadilha de caçador, mas inspecionando mais de perto, não havia nenhuma ferida na perna ou marca de sangue no corpo... Será que ele torceu o tornozelo ou algo assim?"
+                                },
+                                {
+                                    "id": "751070914",
+                                    "speaker": "\"Rei Coco\"",
+                                    "text": "Rroooh! Hroo! Rrooooh!"
+                                },
+                                {
+                                    "id": "751070915",
+                                    "speaker": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+                                    "text": "Rawr!"
+                                },
+                                {
+                                    "id": "751070916",
+                                    "speaker": "Paimon",
+                                    "text": "#Parece que seu amigo Sauriano tá sentindo muita dor. Mas nem {NICKNAME}, nem Paimon é vet-sauro...",
+                                    "choices": [
+                                        {
+                                            "id": "751070917",
+                                            "text": "Será que eu deveria carregar o Rei Coco de volta?",
+                                            "response": [
+                                                {
+                                                    "id": "751070918",
+                                                    "speaker": "Paimon",
+                                                    "text": "Você tem a força para isso, pode apostar."
+                                                },
+                                                {
+                                                    "id": "751070919",
+                                                    "speaker": "Paimon",
+                                                    "text": "Mas estamos meio longe aqui. Se a gente tiver que carregar ele por um tempo e acabarmos abrindo alguma ferida invisível, isso só ia piorar as coisas..."
+                                                },
+                                                {
+                                                    "id": "751070923",
+                                                    "speaker": "Qax",
+                                                    "text": "Ah, eu não pediria tanto. Eu conheço um vet-sauro viajante do Clã das Plumas de Flores que viaja por aí frequentemente. Vou pedir para ele vir."
+                                                },
+                                                {
+                                                    "id": "751070924",
+                                                    "speaker": "Qax",
+                                                    "text": "Será que vocês poderiam me ajudar a cuidar de Rei Coco por um tempo? Volto em breve, e tenho certeza que só preciso de uma noite."
+                                                },
+                                                {
+                                                    "id": "751070925",
+                                                    "speaker": "Paimon",
+                                                    "text": "Hehe, você é bem atencioso, né? Tudo bem, Paimon acha que a gente pode tratar isso como uma viagem para acampar — vamos dar uma boa descansada e dar um comida sensacional para o seu companheiro Sauriano enquanto isso!"
+                                                },
+                                                {
+                                                    "id": "751070926",
+                                                    "speaker": "Paimon",
+                                                    "text": "#Quando começar a comer um pouco da comida de {NICKNAME}, Rei Coco não vai sentir muita dor.",
+                                                    "choices": [
+                                                        {
+                                                            "id": "751070927",
+                                                            "text": "#Eu também tô cansad{M#ão}{F#ona}...",
+                                                            "response": [
+                                                                {
+                                                                    "id": "751070929",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "Mas agora que penso nisso, acampar vai precisar de acampamento. Rei Coco está ferido e vai precisar de abrigo. Ficar aqui para sempre não é uma opção."
+                                                                },
+                                                                {
+                                                                    "id": "751070930",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "Temos que colocar lentamente Rei Coco em algum lugar reto, armar uma tenda, preparar uma panela e acender uma fogueira..."
+                                                                },
+                                                                {
+                                                                    "id": "751070931",
+                                                                    "speaker": "Qax",
+                                                                    "text": "Faz total sentido. Ainda bem que vocês são profissionais!"
+                                                                },
+                                                                {
+                                                                    "id": "751070932",
+                                                                    "speaker": "Qax",
+                                                                    "text": "Sou bom com carpintaria. Vamos nos dividir e coletar materiais — qualquer <color=#00E1FFFF>Madeira de Árvore Combustiva</color> ou <color=#00E1FFFF>Madeira de Aratiku das Cinzas</color> com um pouco de tecido deve servir!"
+                                                                },
+                                                                {
+                                                                    "id": "751070933",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "#Então, {REALNAME[ID(2)|SHOWHOST(true)]}, valeu pela ajuda com Rei Coco!"
+                                                                },
+                                                                {
+                                                                    "id": "751070934",
+                                                                    "speaker": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+                                                                    "text": "Rawr!"
+                                                                },
+                                                                {
+                                                                    "id": "751070935",
+                                                                    "speaker": "Black Screen",
+                                                                    "text": "Você leva cuidadosamente Rei Coco para uma área adequada para levantar acampamento..."
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "id": "751070928",
+                                                            "text": "E eu tô com uma fome daquelas agora..."
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "751070920",
+                                            "text": "Será que vamos atrás de um veterinário para ajudar?",
+                                            "response": [
+                                                {
+                                                    "id": "751070921",
+                                                    "speaker": "Paimon",
+                                                    "text": "Dito isso, não tem nenhum veterinário de Sauriano que a gente conheça..."
+                                                },
+                                                {
+                                                    "id": "751070922",
+                                                    "speaker": "Paimon",
+                                                    "text": "Se a gente aparecesse na frente de um veterinário de Saurianos que a gente não conhecesse e pedisse para ele vir até esse lugar remoto, ele não ia achar que ia entrar numa roubada?"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "751070908",
+                            "text": "Precisam de ajuda?"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "7510710",
+            "objective": "Retorne ao acampamento onde Rei Coco está",
+            "dialogues": [
+                {
+                    "id": "751071001",
+                    "speaker": "Qax",
+                    "text": "#Bem-vind{M#os}{F#as} de volta!"
+                },
+                {
+                    "id": "751071002",
+                    "speaker": "Qax",
+                    "text": "Acho que vocês estão indo pegar alguns ingredientes para preparar o café da manhã.",
+                    "choices": [
+                        {
+                            "id": "751071003",
+                            "text": "Peguei alguns peixes aleatórios... Eles contam?",
+                            "response": [
+                                {
+                                    "id": "751071005",
+                                    "speaker": "Paimon",
+                                    "text": "Você já trouxe o veterinário? Que rápido!"
+                                },
+                                {
+                                    "id": "751071006",
+                                    "speaker": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+                                    "text": "Ehrrr?"
+                                },
+                                {
+                                    "id": "751071007",
+                                    "speaker": "\"Rei Coco\"",
+                                    "text": "Hrroo, mrroo!"
+                                },
+                                {
+                                    "id": "751071008",
+                                    "speaker": "Paimon",
+                                    "text": "Parece que Rei Coco fez um bom progresso — ele já até consegue ficar de pé. Maravilha!"
+                                },
+                                {
+                                    "id": "751071009",
+                                    "speaker": "Paimon",
+                                    "text": "Mesmo assim, cadê aquele veterinário?"
+                                },
+                                {
+                                    "id": "751071010",
+                                    "speaker": "Qax",
+                                    "text": "Eu não vi vocês quando eu trouxe ele aqui, então levei ele para tratar Rei Coco primeiro."
+                                },
+                                {
+                                    "id": "751071011",
+                                    "speaker": "Qax",
+                                    "text": "Ele avaliou que Rei Coco foi atingido por uma pedra voando a alta-velocidade e sofreu ferimentos internos... Mas eu não entendo. Não havia nenhuma pedra solta perto do lugar onde Rei Coco caiu."
+                                },
+                                {
+                                    "id": "751071012",
+                                    "speaker": "Qax",
+                                    "text": "Ainda bem que o veterinário é experiente em lidar com esse tipo de ferida, então ele tinha um remédio especial pronto para tratar o ferimento interno de Rei Coco e aliviar muito a dor..."
+                                },
+                                {
+                                    "id": "751071013",
+                                    "speaker": "Qax",
+                                    "text": "Agora que Rei Coco consegue andar lentamente, podemos levá-lo ao veterinário para um tratamento mais completo."
+                                },
+                                {
+                                    "id": "751071014",
+                                    "speaker": "Qax",
+                                    "text": "Encontramos outro Qucussauro perto do acampamento com ferimentos similares — um companheiro Sauriano perdido do Clã das Plumas de Flores, aparentemente."
+                                },
+                                {
+                                    "id": "751071015",
+                                    "speaker": "Qax",
+                                    "text": "Após tratá-lo, o veterinário o levou de volta à tribo."
+                                },
+                                {
+                                    "id": "751071016",
+                                    "speaker": "Paimon",
+                                    "text": "Uma \"rocha voando em alta-velocidade\"... Será que seriam aquelas munições frágeis que os traficantes de Saurianos estavam falando?"
+                                },
+                                {
+                                    "id": "751071017",
+                                    "speaker": "Paimon",
+                                    "text": "Ugh, Paimon tá ficando com raiva agora..."
+                                },
+                                {
+                                    "id": "751071018",
+                                    "speaker": "Black Screen",
+                                    "text": "Você e Paimon contam a Qax a história inteira...\\n"
+                                },
+                                {
+                                    "id": "751071019",
+                                    "speaker": "Qax",
+                                    "text": "Então, Rei Coco foi emboscado por aqueles criminosos, levando àqueles ferimentos internos... Que bom que voltei cedo, ou as consequências teriam sido terríveis!"
+                                },
+                                {
+                                    "id": "751071020",
+                                    "speaker": "Qax",
+                                    "text": "Aquela escória! Eu queria dar uma surra neles..."
+                                },
+                                {
+                                    "id": "751071021",
+                                    "speaker": "Qax",
+                                    "text": "Não, só uma é pouco. A gente paga a eles parcelado: Dois mil socos para cada vítima que teve seu companheiro Sauriano sequestrado!"
+                                },
+                                {
+                                    "id": "751071022",
+                                    "speaker": "\"Rei Coco\"",
+                                    "text": "Rawr!"
+                                },
+                                {
+                                    "id": "751071023",
+                                    "speaker": "Paimon",
+                                    "text": "Hmm, isso é verdade! Se a gente soubesse, a gente tinha amarrado alguns deles e trazido para você e Rei Coco. Pode fazer bem a vocês dar uma sacudida neles para relaxar."
+                                },
+                                {
+                                    "id": "751071024",
+                                    "speaker": "Qax",
+                                    "text": "Mas vamos deixar isso de lado um pouco..."
+                                },
+                                {
+                                    "id": "751071025",
+                                    "speaker": "Qax",
+                                    "text": "Então vocês acabaram com essa gangue durante o preparo de um simples café da manhã? Isso é impressionante!",
+                                    "choices": [
+                                        {
+                                            "id": "751071026",
+                                            "text": "Eles ainda não foram completamente eliminados.",
+                                            "response": [
+                                                {
+                                                    "id": "751071028",
+                                                    "speaker": "Paimon",
+                                                    "text": "Isso mesmo. O chefe deles fugiu bem rápido e provavelmente já chegou em outra base deles..."
+                                                },
+                                                {
+                                                    "id": "751071029",
+                                                    "speaker": "Paimon",
+                                                    "text": "Da próxima vez não vai ter nenhum pingo de misericórdia!"
+                                                },
+                                                {
+                                                    "id": "751071030",
+                                                    "speaker": "Qax",
+                                                    "text": "Se esse é o caso, Rei Coco e eu avisaremos às patrulhas do Clã das Plumas de Flores para ficarem de vigia e prestarem atenção nessa gangue criminosa quando voltarmos."
+                                                },
+                                                {
+                                                    "id": "751071031",
+                                                    "speaker": "Qax",
+                                                    "text": "O acampamento que construímos pode ser mantido como área de descanso para as patrulhas e podemos usar uma placa para avisar pessoas passando por perto para ajudar a evitar que caiam em emboscadas."
+                                                },
+                                                {
+                                                    "id": "751071032",
+                                                    "speaker": "Paimon",
+                                                    "text": "É, fazer as patrulhas passarem mais tempo nessa área ajudaria a impedir qualquer bandido. Essa é uma sugestão muito boa, Qax!"
+                                                },
+                                                {
+                                                    "id": "751071033",
+                                                    "speaker": "Qax",
+                                                    "text": "Por favor, espere um segundo enquanto organizo essa placa..."
+                                                },
+                                                {
+                                                    "id": "751071034",
+                                                    "speaker": "Black Screen",
+                                                    "text": "Qax pega a madeira restante e faz uma placa facilmente usando uma lata de tinta spray para criar uma placa bem visível..."
+                                                },
+                                                {
+                                                    "id": "751071035",
+                                                    "speaker": "Qax",
+                                                    "text": "É isso, prontinho."
+                                                },
+                                                {
+                                                    "id": "751071036",
+                                                    "speaker": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+                                                    "text": "Rawr!"
+                                                },
+                                                {
+                                                    "id": "751071037",
+                                                    "speaker": "\"Rei Coco\"",
+                                                    "text": "Hrrrh~"
+                                                },
+                                                {
+                                                    "id": "751071038",
+                                                    "speaker": "Paimon",
+                                                    "text": "#Essa placa... Hmm. Isso é a gente e {REALNAME[ID(2)|SHOWHOST(true)]}?",
+                                                    "choices": [
+                                                        {
+                                                            "id": "751071039",
+                                                            "text": "Igualzinho.",
+                                                            "response": [
+                                                                {
+                                                                    "id": "751071040",
+                                                                    "speaker": "Qax",
+                                                                    "text": "Agradeço o elogio. O tempo não para e não temos como refinar os detalhes..."
+                                                                },
+                                                                {
+                                                                    "id": "751071041",
+                                                                    "speaker": "Qax",
+                                                                    "text": "Vou tentar desenhar um cartaz mais formal para vocês depois, tanto em comemoração aos seus esforços na luta contra a gangue, como também para lembrar a todos nós de vocês."
+                                                                },
+                                                                {
+                                                                    "id": "751071045",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "Em todo caso, isso será... a primeira base para a campanha contra essa gangue de tráfico de Saurianos. Podemos vir conferir as coisas quando tivermos tempo."
+                                                                },
+                                                                {
+                                                                    "id": "751071046",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "Com sorte, esse lugar — não, toda Natlan — ficará livre dessas gangues que traficam Saurianos roubados e outros animais!"
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "id": "751071042",
+                                                            "text": "#Dá para fazer a gente ser mais descolad{M#o}{F#a}?",
+                                                            "response": [
+                                                                {
+                                                                    "id": "751071043",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "Não exagere. Paimon acha que esse estilo é bem atraente!"
+                                                                },
+                                                                {
+                                                                    "id": "751071044",
+                                                                    "speaker": "Qax",
+                                                                    "text": "Vou tentar desenhar um cartaz mais formal para vocês depois, tanto em comemoração aos seus esforços na luta contra a gangue, como também para lembrar a todos nós de vocês."
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "751071027",
+                                            "text": "Ainda há vestígios de pessoas sobrando na gangue."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "751071004",
+                            "text": "Na verdade, a gente ia fazer um aquecimento antes do café da manhã."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "7510702",
+            "objective": "",
+            "dialogues": [
+                {
+                    "id": "751070201",
+                    "speaker": "Qucussauro Fraco",
+                    "text": "Malvados... Nos morros... Jogaram pedra... Doeu..."
+                },
+                {
+                    "id": "751070202",
+                    "speaker": "Qucussauro Fraco",
+                    "text": "Eu fugi..."
+                },
+                {
+                    "id": "751070203",
+                    "speaker": "\"Rei Coco\"",
+                    "text": "Tantos... Vilões... Me atacaram... De surpresa..."
+                },
+                {
+                    "id": "751070204",
+                    "speaker": "\"Rei Coco\"",
+                    "text": "Qax voltou... e eles se foram..."
+                }
+            ]
+        },
+        {
+            "id": "7510704",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "751070401",
+                    "speaker": "\"Rei Coco\"",
+                    "text": "Wroo..."
+                },
+                {
+                    "id": "751070402",
+                    "speaker": "Qucussauro Fraco",
+                    "text": "Rawr... *cof cof*!"
+                }
+            ]
+        },
+        {
+            "id": "7510719",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "751071901",
+                    "speaker": "Qax",
+                    "text": "#Bem-vind{M#os}{F#as} de volta!"
+                },
+                {
+                    "id": "751071902",
+                    "speaker": "Qax",
+                    "text": "Acho que vocês estão indo pegar alguns ingredientes para preparar o café da manhã.",
+                    "choices": [
+                        {
+                            "id": "751071903",
+                            "text": "Peguei alguns peixes aleatórios... Eles contam?",
+                            "response": [
+                                {
+                                    "id": "751071905",
+                                    "speaker": "Paimon",
+                                    "text": "Você já trouxe o veterinário? Que rápido!"
+                                },
+                                {
+                                    "id": "751071906",
+                                    "speaker": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+                                    "text": "Hã?"
+                                },
+                                {
+                                    "id": "751071907",
+                                    "speaker": "\"Rei Coco\"",
+                                    "text": "Hrroo, mrroo!"
+                                },
+                                {
+                                    "id": "751071908",
+                                    "speaker": "Paimon",
+                                    "text": "Parece que Rei Coco fez um bom progresso — ele já até consegue ficar de pé. Maravilha!"
+                                },
+                                {
+                                    "id": "751071909",
+                                    "speaker": "Paimon",
+                                    "text": "Mesmo assim, cadê aquele veterinário?"
+                                },
+                                {
+                                    "id": "751071910",
+                                    "speaker": "Qax",
+                                    "text": "Eu não vi vocês quando eu trouxe ele aqui, então levei ele para tratar Rei Coco primeiro."
+                                },
+                                {
+                                    "id": "751071911",
+                                    "speaker": "Qax",
+                                    "text": "Ele avaliou que Rei Coco foi atingido por uma pedra voando a alta-velocidade e sofreu ferimentos internos... Mas eu não entendo. Não havia nenhuma pedra solta perto do lugar onde Rei Coco caiu."
+                                },
+                                {
+                                    "id": "751071912",
+                                    "speaker": "Qax",
+                                    "text": "Ainda bem que o veterinário é experiente em lidar com esse tipo de ferida, então ele tinha um remédio especial pronto para tratar o ferimento interno de Rei Coco e aliviar muito a dor..."
+                                },
+                                {
+                                    "id": "751071913",
+                                    "speaker": "Qax",
+                                    "text": "Agora que Rei Coco consegue andar lentamente, podemos levá-lo ao veterinário para um tratamento mais completo."
+                                },
+                                {
+                                    "id": "751071914",
+                                    "speaker": "Qax",
+                                    "text": "Encontramos outro Qucussauro perto do acampamento com ferimentos similares — um companheiro Sauriano perdido do Clã das Plumas de Flores, aparentemente."
+                                },
+                                {
+                                    "id": "751071915",
+                                    "speaker": "Qax",
+                                    "text": "Após tratá-lo, o veterinário o levou de volta à tribo."
+                                },
+                                {
+                                    "id": "751071916",
+                                    "speaker": "Paimon",
+                                    "text": "Uma \"rocha voando em alta-velocidade\"... Será que seriam aquelas munições frágeis que os traficantes de Saurianos estavam falando?"
+                                },
+                                {
+                                    "id": "751071917",
+                                    "speaker": "Paimon",
+                                    "text": "Ugh, Paimon tá ficando com raiva agora..."
+                                },
+                                {
+                                    "id": "751071918",
+                                    "speaker": "Black Screen",
+                                    "text": "Você e Paimon contam a Qax a história toda, com a conexão ao seu resgate de animais anterior..."
+                                },
+                                {
+                                    "id": "751071919",
+                                    "speaker": "Qax",
+                                    "text": "Então, Rei Coco foi emboscado por aqueles criminosos, levando àqueles ferimentos internos... Que bom que voltei cedo, ou as consequências teriam sido terríveis!"
+                                },
+                                {
+                                    "id": "751071920",
+                                    "speaker": "Qax",
+                                    "text": "Aquela escória! Eu queria dar uma surra neles..."
+                                },
+                                {
+                                    "id": "751071921",
+                                    "speaker": "Qax",
+                                    "text": "Não, só uma é pouco. A gente paga a eles parcelado: Dois mil socos para cada vítima que teve seu companheiro Sauriano sequestrado!"
+                                },
+                                {
+                                    "id": "751071922",
+                                    "speaker": "\"Rei Coco\"",
+                                    "text": "Rawr!"
+                                },
+                                {
+                                    "id": "751071923",
+                                    "speaker": "Paimon",
+                                    "text": "Hmm, isso é verdade! Se a gente soubesse, a gente tinha amarrado alguns deles e trazido para você e Rei Coco. Pode fazer bem a vocês dar uma sacudida neles para relaxar."
+                                },
+                                {
+                                    "id": "751071924",
+                                    "speaker": "Qax",
+                                    "text": "Mas vamos deixar isso de lado um pouco..."
+                                },
+                                {
+                                    "id": "751071925",
+                                    "speaker": "Qax",
+                                    "text": "Então vocês acabaram com essa gangue durante o preparo de um simples café da manhã? Isso é impressionante!",
+                                    "choices": [
+                                        {
+                                            "id": "751071926",
+                                            "text": "A gente deve ter destruído eles completamente dessa vez.",
+                                            "response": [
+                                                {
+                                                    "id": "751071928",
+                                                    "speaker": "Paimon",
+                                                    "text": "Isso mesmo. Podemos ter eliminado o chefe deles dessa vez, mas ainda pode haver bandidos esperando para usurpar o trono e reconstruir a organização em segredo..."
+                                                },
+                                                {
+                                                    "id": "751071929",
+                                                    "speaker": "Paimon",
+                                                    "text": "Então não podemos baixar a guarda!"
+                                                },
+                                                {
+                                                    "id": "751071930",
+                                                    "speaker": "Qax",
+                                                    "text": "Se esse é o caso, Rei Coco e eu avisaremos às patrulhas do Clã das Plumas de Flores para ficarem de vigia e prestarem atenção nessa gangue criminosa quando voltarmos."
+                                                },
+                                                {
+                                                    "id": "751071931",
+                                                    "speaker": "Qax",
+                                                    "text": "O acampamento que construímos pode ser mantido como área de descanso para as patrulhas e podemos usar uma placa para avisar pessoas passando por perto para ajudar a evitar que caiam em emboscadas."
+                                                },
+                                                {
+                                                    "id": "751071932",
+                                                    "speaker": "Paimon",
+                                                    "text": "É, fazer as patrulhas passarem mais tempo nessa área ajudaria a impedir qualquer bandido. Essa é uma sugestão muito boa, Qax!"
+                                                },
+                                                {
+                                                    "id": "751071933",
+                                                    "speaker": "Qax",
+                                                    "text": "Por favor, espere um segundo enquanto organizo essa placa..."
+                                                },
+                                                {
+                                                    "id": "751071934",
+                                                    "speaker": "Black Screen",
+                                                    "text": "Qax pega a madeira restante e faz uma placa facilmente usando uma lata de tinta spray para criar uma placa bem visível..."
+                                                },
+                                                {
+                                                    "id": "751071935",
+                                                    "speaker": "Qax",
+                                                    "text": "É isso, prontinho."
+                                                },
+                                                {
+                                                    "id": "751071936",
+                                                    "speaker": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+                                                    "text": "Rawr!"
+                                                },
+                                                {
+                                                    "id": "751071937",
+                                                    "speaker": "\"Rei Coco\"",
+                                                    "text": "Hrrrh~"
+                                                },
+                                                {
+                                                    "id": "751071938",
+                                                    "speaker": "Paimon",
+                                                    "text": "#Essa placa... Hmm. Isso é a gente e {REALNAME[ID(2)|SHOWHOST(true)]}?",
+                                                    "choices": [
+                                                        {
+                                                            "id": "751071939",
+                                                            "text": "Igualzinho.",
+                                                            "response": [
+                                                                {
+                                                                    "id": "751071940",
+                                                                    "speaker": "Qax",
+                                                                    "text": "Agradeço o elogio. O tempo não para e não temos como refinar os detalhes..."
+                                                                },
+                                                                {
+                                                                    "id": "751071941",
+                                                                    "speaker": "Qax",
+                                                                    "text": "Vou tentar desenhar um cartaz mais formal para vocês depois, tanto em comemoração aos seus esforços na luta contra a gangue, como também para lembrar a todos nós de vocês."
+                                                                },
+                                                                {
+                                                                    "id": "751071945",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "Em todo caso, isso será... a primeira base para a campanha contra essa gangue de tráfico de Saurianos. Podemos vir conferir as coisas quando tivermos tempo."
+                                                                },
+                                                                {
+                                                                    "id": "751071946",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "Com sorte, esse lugar — não, toda Natlan — ficará livre dessas gangues que traficam Saurianos roubados e outros animais!"
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "id": "751071942",
+                                                            "text": "#Dá para fazer a gente ser mais descolad{M#o}{F#a}?",
+                                                            "response": [
+                                                                {
+                                                                    "id": "751071943",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "Não exagere. Paimon acha que esse estilo é bem atraente!"
+                                                                },
+                                                                {
+                                                                    "id": "751071944",
+                                                                    "speaker": "Qax",
+                                                                    "text": "Vou tentar desenhar um cartaz mais formal para vocês depois, tanto em comemoração aos seus esforços na luta contra a gangue, como também para lembrar a todos nós de vocês."
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "751071927",
+                                            "text": "Mesmo assim, devemos ter cuidado com qualquer um que tenha sobrado."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "751071904",
+                            "text": "Na verdade, acabamos cuidando de alguns inimigos antigos."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "7510720",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "751072001",
+                    "speaker": "\"Rei Coco\"",
+                    "text": "Hrooo... Aooowrrr!"
+                },
+                {
+                    "id": "751072002",
+                    "speaker": "Qucussauro Fraco",
+                    "text": "*Cof cof*"
+                }
+            ]
+        },
+        {
+            "id": "7510721",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "751072101",
+                    "speaker": "\"Rei Coco\"",
+                    "text": "Cuidado... cuidado!"
+                },
+                {
+                    "id": "751072102",
+                    "speaker": "Qucussauro Fraco",
+                    "text": "Não seja atingido, senão vai doer!"
+                }
+            ]
+        },
+        {
+            "id": "7510728",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "751072801",
+                    "speaker": "\"Rei Coco\"",
+                    "text": "Wroo..."
+                }
+            ]
+        },
+        {
+            "id": "7510729",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "751072901",
+                    "speaker": "\"Rei Coco\"",
+                    "text": "Dói... dói..."
+                }
+            ]
+        },
+        {
+            "id": "7510799",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "751079902",
+                    "speaker": "Paimon",
+                    "text": "#Uau... isso foi assustador. Bom trabalho {REALNAME[ID(2)|SHOWHOST(true)]}!"
+                },
+                {
+                    "id": "751079903",
+                    "speaker": "Paimon",
+                    "text": "Parece que o acampamento está uma verdadeira bagunça! Vamos atacar agora e derrotar todos de uma vez!"
+                },
+                {
+                    "id": "751079904",
+                    "speaker": "<UNKNOWN>",
+                    "text": "Os astutos traficantes de Saurianos estavam em alerta máximo. Assim que viram alguém atacando, subiram em seu balão de ar quente e fugiram..."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,977 @@
+{
+    "quest": {
+        "id": "15026",
+        "title": "A Commission Catches You in Natlan",
+        "description": "You and Paimon bump into a squad of Fatui at the Masters of the Night-Wind, and you meet their employer. Thus does a commission from Fontaine find its way to you...",
+        "rewards": [
+            {
+                "itemId": 102,
+                "count": 350
+            },
+            {
+                "itemId": 202,
+                "count": 31125
+            },
+            {
+                "itemId": 104003,
+                "count": 4
+            },
+            {
+                "itemId": 104013,
+                "count": 7
+            }
+        ],
+        "rewards_formatted": "Adventure EXP x350, Mora x31125, Hero's Wit x4, Mystic Enhancement Ore x7",
+        "chapter": {
+            "icon": "UI_ChapterIcon_Natlan_Shamansaurus",
+            "id": "2066",
+            "num": "Memories Flowing With Color: Act III",
+            "title": "The Truth of the Battle of Seven Colors"
+        },
+        "total_dialogue_lines": 174,
+        "total_speaker_counts": {
+            "???": 4,
+            "Allier": 15,
+            "Black Screen": 3,
+            "Citlali": 33,
+            "Grudoc": 2,
+            "Montluson": 46,
+            "Paimon": 51,
+            "Player": 20
+        }
+    },
+    "talks": [
+        {
+            "id": "1502607",
+            "objective": "Go to the Masters of the Night-Wind",
+            "dialogues": [
+                {
+                    "id": "150260701",
+                    "speaker": "Paimon",
+                    "text": "Huh? What are the Fatui doing here?"
+                },
+                {
+                    "id": "150260702",
+                    "speaker": "Paimon",
+                    "text": "That's a little concerning... Let's go over there and see what they're up to."
+                },
+                {
+                    "id": "150260703",
+                    "speaker": "Paimon",
+                    "text": "Also, how did they get this close to a tribal settlement?",
+                    "choices": [
+                        {
+                            "id": "150260704",
+                            "text": "Well, considering what The Captain did for Natlan...",
+                            "response": [
+                                {
+                                    "id": "150260706",
+                                    "speaker": "Paimon",
+                                    "text": "Huh... All the Fatui left in Natlan are probably The Captain's subordinates. That basically makes them followers of one of Natlan's heroes."
+                                },
+                                {
+                                    "id": "150260707",
+                                    "speaker": "Paimon",
+                                    "text": "Still, once a Fatuus always a Fatuus. Something seems off, seeing them here... Let's go check it out!"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "150260705",
+                            "text": "Maybe they've been given a bit more leeway."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "1502601",
+            "objective": "Question the suspicious Fatui",
+            "dialogues": [
+                {
+                    "id": "150260101",
+                    "speaker": "Paimon",
+                    "text": "Ahem! What are you guys doing here?"
+                },
+                {
+                    "id": "150260102",
+                    "speaker": "???",
+                    "text": "Heh, following orders. If you have a problem, take it up with our employer."
+                },
+                {
+                    "id": "150260103",
+                    "speaker": "Paimon",
+                    "text": "Hey, what's with the attitude? Can the Fatui even work for a private employer?"
+                },
+                {
+                    "id": "150260104",
+                    "speaker": "???",
+                    "text": "Ahem! This is Grudoc — I hired him to be my bodyguard in Natlan. As you can see, he's not the sociable type. I'm sorry for any offense."
+                },
+                {
+                    "id": "150260105",
+                    "speaker": "???",
+                    "text": "My original plan was to hire someone from the local tribes, but a priest recommended Grudoc and his squad."
+                },
+                {
+                    "id": "150260106",
+                    "speaker": "???",
+                    "text": "I was told they were capable fighters and had the time to spare, so they fit the bill... It seems like the Fatui's reputation in Natlan is quite positive."
+                },
+                {
+                    "id": "150260107",
+                    "speaker": "Paimon",
+                    "text": "So, that's what happened... Then, you must be from Fontaine?"
+                },
+                {
+                    "id": "150260108",
+                    "speaker": "Montluson",
+                    "text": "#Precisely! Montluson, at your service. I work in the publication business. And you two... Wait, you must be {NICKNAME} and {M#his}{F#her} fairy companion!"
+                },
+                {
+                    "id": "150260109",
+                    "speaker": "Paimon",
+                    "text": "Oh, you know us?"
+                },
+                {
+                    "id": "150260110",
+                    "speaker": "Montluson",
+                    "text": "A golden-haired Traveler with a floating companion... There's no mistake!"
+                },
+                {
+                    "id": "150260111",
+                    "speaker": "Montluson",
+                    "text": "Your exploits in Fontaine have all the makings of a best-selling series! I'd be a failure of a book merchant if I couldn't recognize you."
+                },
+                {
+                    "id": "150260112",
+                    "speaker": "Paimon",
+                    "text": "#Wow, we're really famous at this point, {NICKNAME}!"
+                },
+                {
+                    "id": "150260113",
+                    "speaker": "Montluson",
+                    "text": "It's truly my lucky day! I know this is sudden, but I was actually looking for you two... You see, I have a favor to ask."
+                },
+                {
+                    "id": "150260114",
+                    "speaker": "Paimon",
+                    "text": "So, you... chased us all the way to Natlan? That's a little creepy..."
+                },
+                {
+                    "id": "150260115",
+                    "speaker": "Montluson",
+                    "text": "You'll be generously rewarded, I promise you!"
+                },
+                {
+                    "id": "150260116",
+                    "speaker": "Paimon",
+                    "text": "...Well, at least he got straight to the point. Should we hear what he has to say?",
+                    "choices": [
+                        {
+                            "id": "150260117",
+                            "text": "Something tells me we can't escape this one.",
+                            "response": [
+                                {
+                                    "id": "150260119",
+                                    "speaker": "Paimon",
+                                    "text": "*ahem*... Alright, we'll hear your request."
+                                },
+                                {
+                                    "id": "150260120",
+                                    "speaker": "Montluson",
+                                    "text": "You know the great shaman, Citlali, right? I need her help with something!"
+                                },
+                                {
+                                    "id": "150260121",
+                                    "speaker": "Paimon",
+                                    "text": "Uh... Yeah, but the chances of her helping a random stranger just because we asked..."
+                                },
+                                {
+                                    "id": "150260122",
+                                    "speaker": "Player",
+                                    "text": "With her personality? Pretty slim..."
+                                },
+                                {
+                                    "id": "150260123",
+                                    "speaker": "Paimon",
+                                    "text": "Yeah, Citlali really doesn't like dealing with strangers..."
+                                },
+                                {
+                                    "id": "150260124",
+                                    "speaker": "Montluson",
+                                    "text": "I heard about that from other members of her tribe. But, they told me if one person could convince her, it would be the golden-haired Traveler."
+                                },
+                                {
+                                    "id": "150260125",
+                                    "speaker": "Montluson",
+                                    "text": "If you manage it, I'll even double your pay!"
+                                },
+                                {
+                                    "id": "150260126",
+                                    "speaker": "Paimon",
+                                    "text": "..."
+                                },
+                                {
+                                    "id": "150260127",
+                                    "speaker": "Player",
+                                    "text": "Why do you need her help?"
+                                },
+                                {
+                                    "id": "150260128",
+                                    "speaker": "Paimon",
+                                    "text": "Oh, yeah... We should definitely get to the bottom of that first."
+                                },
+                                {
+                                    "id": "150260129",
+                                    "speaker": "Montluson",
+                                    "text": "It's kind of a long story, and there's tribal history involved, so you should hear it from an expert. Allier, if you could..."
+                                },
+                                {
+                                    "id": "150260130",
+                                    "speaker": "Allier",
+                                    "text": "Of course! I don't often have an eager audience for this kind of thing... Nice to meet you. The name's Allier — I'm a Researcher from the Fontaine Research Institute."
+                                },
+                                {
+                                    "id": "150260131",
+                                    "speaker": "Allier",
+                                    "text": "Unlike most researchers, I have a keen interest in ancient ruins. That's why I was invited to join Monsieur Montluson's team."
+                                },
+                                {
+                                    "id": "150260132",
+                                    "speaker": "Allier",
+                                    "text": "Have you heard the legend of the great shaman, Huitzilin?",
+                                    "choices": [
+                                        {
+                                            "id": "150260133",
+                                            "text": "It sounds familiar...",
+                                            "response": [
+                                                {
+                                                    "id": "150260135",
+                                                    "speaker": "Allier",
+                                                    "text": "Yes. According to local records, she was a color mystic who lived over two hundred years ago, the most adept in her tribe at using that particular technique."
+                                                },
+                                                {
+                                                    "id": "150260136",
+                                                    "speaker": "Allier",
+                                                    "text": "Out of all her exploits, her most celebrated is \"the Battle of Seven Colors.\""
+                                                },
+                                                {
+                                                    "id": "150260137",
+                                                    "speaker": "Allier",
+                                                    "text": "According to legend, the battle was triggered by an Abyss invasion, one of the most brutal in Natlan's history, even from a greater historical perspective."
+                                                },
+                                                {
+                                                    "id": "150260138",
+                                                    "speaker": "Allier",
+                                                    "text": "Amazingly, Natlan was able to turn the tide despite being at an extreme disadvantage. The key to victory was none other than a \"color\" Huitzilin created on the battlefield."
+                                                },
+                                                {
+                                                    "id": "150260139",
+                                                    "speaker": "Allier",
+                                                    "text": "The \"color\" was extraordinary — illusory in appearance while also seeming to possess physical form. Legend has it that Huitzilin used the \"color\" to construct a magnificent maze on the battlefield..."
+                                                },
+                                                {
+                                                    "id": "150260140",
+                                                    "speaker": "Allier",
+                                                    "text": "...And trap all the enemies inside. This allowed her allies to launch a counterattack and, ultimately, secure victory."
+                                                },
+                                                {
+                                                    "id": "150260141",
+                                                    "speaker": "Montluson",
+                                                    "text": "*ahem*... Anyway, that's the gist of it. We don't want to take up too much of your time."
+                                                },
+                                                {
+                                                    "id": "150260142",
+                                                    "speaker": "Montluson",
+                                                    "text": "That story is the reason I came to Natlan. I often publish books about the history of other nations. They always end up faring well on the market."
+                                                },
+                                                {
+                                                    "id": "150260143",
+                                                    "speaker": "Montluson",
+                                                    "text": "When I heard this story for the first time, I wanted to include it in my next collection, but..."
+                                                },
+                                                {
+                                                    "id": "150260144",
+                                                    "speaker": "Montluson",
+                                                    "text": "Historical records about Natlan aren't very detailed. We haven't been able to determine where the battle took place, or find any definitive evidence that it occurred at all."
+                                                },
+                                                {
+                                                    "id": "150260145",
+                                                    "speaker": "Montluson",
+                                                    "text": "Even within the Masters of the Night-Wind, people dispute the legitimacy of the story. Some believe it to be a myth."
+                                                },
+                                                {
+                                                    "id": "150260146",
+                                                    "speaker": "Montluson",
+                                                    "text": "If that were the case, the story would not be fit for publication..."
+                                                },
+                                                {
+                                                    "id": "150260147",
+                                                    "speaker": "Paimon",
+                                                    "text": "Uh, but, if you're just including it in a story collection, why does it matter if it never happened?"
+                                                },
+                                                {
+                                                    "id": "150260148",
+                                                    "speaker": "Montluson",
+                                                    "text": "Well, you see, the slogan for the collection is \"restoring the truth of history.\" Naturally, I need it to be factual."
+                                                },
+                                                {
+                                                    "id": "150260149",
+                                                    "speaker": "Montluson",
+                                                    "text": "That's why I'm here. The Masters of the Night-Wind are said to have a tradition of recording past events, so I wanted to consult their records."
+                                                },
+                                                {
+                                                    "id": "150260150",
+                                                    "speaker": "Montluson",
+                                                    "text": "But, I was refused access to the Obsidian Altar. Application after application, and all I received were a few ordinary woven scrolls with nothing to offer. Honestly, I'm just trying to promote their history, and they make such a fuss..."
+                                                },
+                                                {
+                                                    "id": "150260151",
+                                                    "speaker": "Allier",
+                                                    "text": "According to my research, their scrolls are considered sacred relics in addition to historical records. Naturally, outsiders are rarely granted access."
+                                                },
+                                                {
+                                                    "id": "150260152",
+                                                    "speaker": "Allier",
+                                                    "text": "Not to mention, the scrolls we did get to review actually contain a huge amount of information. I just need more time, and I could—"
+                                                },
+                                                {
+                                                    "id": "150260153",
+                                                    "speaker": "Montluson",
+                                                    "text": "We've been over this, Allier. There's no need to waste time on those scrolls when we have a better way."
+                                                },
+                                                {
+                                                    "id": "150260154",
+                                                    "speaker": "Paimon",
+                                                    "text": "Citlali, you mean?"
+                                                },
+                                                {
+                                                    "id": "150260155",
+                                                    "speaker": "Montluson",
+                                                    "text": "Exactly. You're well aware, I'm sure, that Citlali has been alive for more than two hundred years. That means she lived during the era of the Battle of Seven Colors!"
+                                                },
+                                                {
+                                                    "id": "150260156",
+                                                    "speaker": "Montluson",
+                                                    "text": "If she agrees to be my consultant, then no other historical records are necessary."
+                                                },
+                                                {
+                                                    "id": "150260157",
+                                                    "speaker": "Paimon",
+                                                    "text": "Oh, that's what you want..."
+                                                },
+                                                {
+                                                    "id": "150260158",
+                                                    "speaker": "Montluson",
+                                                    "text": "So, what do you say? I'll quadruple the pay if it helps sweeten the deal!"
+                                                },
+                                                {
+                                                    "id": "150260159",
+                                                    "speaker": "Paimon",
+                                                    "text": "Well, it's not that we don't want to help you...",
+                                                    "choices": [
+                                                        {
+                                                            "id": "150260160",
+                                                            "text": "We actually should go ask her, Paimon.",
+                                                            "response": [
+                                                                {
+                                                                    "id": "150260162",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "Oh, right! The duty the chief gave us has a lot to do with Huitzilin..."
+                                                                },
+                                                                {
+                                                                    "id": "150260163",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "Who knows? The \"Battle of Seven Colors\" might lead us in the right direction!"
+                                                                },
+                                                                {
+                                                                    "id": "150260164",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "Alright, we'll help you convince Citlali. Just let us do the talking, okay?"
+                                                                },
+                                                                {
+                                                                    "id": "150260165",
+                                                                    "speaker": "Montluson",
+                                                                    "text": "Of course!"
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "id": "150260161",
+                                                            "text": "We still have a duty to fulfill, after all."
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "150260134",
+                                            "text": "She's the one that worked with colors, right?"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "150260118",
+                            "text": "And if the pay is good..."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "1502602",
+            "objective": "Go to Citlali's home",
+            "dialogues": [
+                {
+                    "id": "150260201",
+                    "speaker": "Montluson",
+                    "text": "So, this is where the great shaman lives? A bit... far from civilization, isn't it? I hope the person who pointed us in this direction wasn't mistaken..."
+                },
+                {
+                    "id": "150260202",
+                    "speaker": "Paimon",
+                    "text": "For someone like Citlali, it actually makes a lot of sense."
+                },
+                {
+                    "id": "150260203",
+                    "speaker": "Allier",
+                    "text": "Is this graffiti her work, too? I wonder if it's a cultural practice... If I could just copy it down—"
+                },
+                {
+                    "id": "150260204",
+                    "speaker": "Montluson",
+                    "text": "We're here for a reason, Allier. As agreed, you two can do the talking, and we'll wait for you here."
+                },
+                {
+                    "id": "150260205",
+                    "speaker": "Paimon",
+                    "text": "Okay, we'll go knock on the door! Hopefully she's not hungover..."
+                },
+                {
+                    "id": "150260206",
+                    "speaker": "Paimon",
+                    "text": "Citlali? Are you there? We need your help with something!"
+                },
+                {
+                    "id": "150260207",
+                    "speaker": "Paimon",
+                    "text": "...No response. Maybe she's not home?"
+                },
+                {
+                    "id": "150260208",
+                    "speaker": "Player",
+                    "text": "Let's try her other name."
+                },
+                {
+                    "id": "150260209",
+                    "speaker": "Paimon",
+                    "text": "Oh, uh... Granny Itztli? Are you home?"
+                },
+                {
+                    "id": "150260210",
+                    "speaker": "Black Screen",
+                    "text": "The door is thrown open, and you're met with the pungent smell of alcohol."
+                },
+                {
+                    "id": "150260211",
+                    "speaker": "Citlali",
+                    "text": "Hey, kid! If you're here to challenge me, book an appointment first!"
+                },
+                {
+                    "id": "150260212",
+                    "speaker": "Player",
+                    "text": "(So, Citlali's a real hermit, huh...)"
+                },
+                {
+                    "id": "150260213",
+                    "speaker": "Citlali",
+                    "text": "#...{NICKNAME}!"
+                },
+                {
+                    "id": "150260214",
+                    "speaker": "Black Screen",
+                    "text": "The door closes abruptly."
+                },
+                {
+                    "id": "150260215",
+                    "speaker": "Paimon",
+                    "text": "...Looks like we came at a bad time."
+                },
+                {
+                    "id": "150260216",
+                    "speaker": "Citlali",
+                    "text": "*ahem*! Are you still there? Just come in, we can talk inside."
+                },
+                {
+                    "id": "150260217",
+                    "speaker": "Paimon",
+                    "text": "Well, at least we didn't get turned away..."
+                }
+            ]
+        },
+        {
+            "id": "1502603",
+            "objective": "Enter Citlali's home",
+            "dialogues": []
+        },
+        {
+            "id": "1502604",
+            "objective": "Talk to Citlali",
+            "dialogues": [
+                {
+                    "id": "150260401",
+                    "speaker": "Paimon",
+                    "text": "Huh, so this is where Citlali lives..."
+                },
+                {
+                    "id": "150260402",
+                    "speaker": "Citlali",
+                    "text": "I, uh, didn't have time to fully clean up the place... Complain if you want. Menial housework means nothing to a great shaman like myself."
+                },
+                {
+                    "id": "150260403",
+                    "speaker": "Citlali",
+                    "text": "Besides, in light novels, people who keep everything neat and tidy are always too boring to be the protagonists."
+                },
+                {
+                    "id": "150260404",
+                    "speaker": "Citlali",
+                    "text": "Also, I'm not a hermit. I'm just above superficial rules of societal etiquette."
+                },
+                {
+                    "id": "150260405",
+                    "speaker": "Paimon",
+                    "text": "She sure does care a lot about what we think of her..."
+                },
+                {
+                    "id": "150260406",
+                    "speaker": "Citlali",
+                    "text": "Oh, and that spell I used to transfer my senses to you... You're not still, uh, experiencing the side-effects, are you?"
+                },
+                {
+                    "id": "150260407",
+                    "speaker": "Citlali",
+                    "text": "It's my duty as a great shaman to check that kind of thing."
+                },
+                {
+                    "id": "150260408",
+                    "speaker": "Paimon",
+                    "text": "Oh, you mean when we could hear your thoughts? Nope! It's been so long. We don't have to worry about that anymore, right?"
+                },
+                {
+                    "id": "150260409",
+                    "speaker": "Citlali",
+                    "text": "#Then, why do I hear {NICKNAME}'s thoughts in my head?"
+                },
+                {
+                    "id": "150260410",
+                    "speaker": "Paimon",
+                    "text": "What?"
+                },
+                {
+                    "id": "150260411",
+                    "speaker": "Player",
+                    "text": "(Oh, she heard me call her a hermit... That bothers her? I thought she was \"above superficial rules of societal etiquette\"...)"
+                },
+                {
+                    "id": "150260412",
+                    "speaker": "Citlali",
+                    "text": "I can still hear you, y'know!"
+                },
+                {
+                    "id": "150260413",
+                    "speaker": "Player",
+                    "text": "I apologize for offending you..."
+                },
+                {
+                    "id": "150260414",
+                    "speaker": "Citlali",
+                    "text": "Don't bother, I'll find a way to fix it. First you hear my thoughts, now I'm hearing your thoughts..."
+                },
+                {
+                    "id": "150260415",
+                    "speaker": "Citlali",
+                    "text": "It was just a simple spell. I use it on you, and now it's on the fritz..."
+                },
+                {
+                    "id": "150260416",
+                    "speaker": "Citlali",
+                    "text": "Forget it. Just tell me why you're here."
+                },
+                {
+                    "id": "150260417",
+                    "speaker": "Paimon",
+                    "text": "Well, someone asked us... to ask you... to be their consultant. They have questions about the history of Natlan."
+                },
+                {
+                    "id": "150260418",
+                    "speaker": "Citlali",
+                    "text": "So, they asked the hero of Natlan to put in a good word? Sounds like they know I don't usually trouble myself with other people's problems."
+                },
+                {
+                    "id": "150260419",
+                    "speaker": "Paimon",
+                    "text": "The pay is really good!"
+                },
+                {
+                    "id": "150260420",
+                    "speaker": "Citlali",
+                    "text": "Doesn't matter. I'm busy."
+                },
+                {
+                    "id": "150260421",
+                    "speaker": "Paimon",
+                    "text": "She sure doesn't look busy... Paimon knew this wouldn't get us anywhere..."
+                },
+                {
+                    "id": "150260422",
+                    "speaker": "Player",
+                    "text": "What if the request comes from me?"
+                },
+                {
+                    "id": "150260423",
+                    "speaker": "Citlali",
+                    "text": "From you..."
+                },
+                {
+                    "id": "150260424",
+                    "speaker": "Paimon",
+                    "text": "Yeah, we were given a sacred duty to help your tribe weave a special scroll!"
+                },
+                {
+                    "id": "150260425",
+                    "speaker": "Citlali",
+                    "text": "Huh? So, you're the appointed ones this time?"
+                },
+                {
+                    "id": "150260426",
+                    "speaker": "Paimon",
+                    "text": "We were surprised, too! After all, we have no idea how to weave a scroll like that."
+                },
+                {
+                    "id": "150260427",
+                    "speaker": "Paimon",
+                    "text": "But, with Chief Biram's help, we were able to make some progress!"
+                },
+                {
+                    "id": "150260428",
+                    "speaker": "Paimon",
+                    "text": "We still haven't succeeded, but we learned that the key to weaving the scroll is a special kind of color."
+                },
+                {
+                    "id": "150260429",
+                    "speaker": "Paimon",
+                    "text": "The historical event those men want to ask about also involves color. If you help them, you might end up helping us, too!"
+                },
+                {
+                    "id": "150260430",
+                    "speaker": "Citlali",
+                    "text": "..."
+                },
+                {
+                    "id": "150260431",
+                    "speaker": "Paimon",
+                    "text": "She's giving us that face again... Did Paimon not explain things clearly?"
+                },
+                {
+                    "id": "150260432",
+                    "speaker": "Citlali",
+                    "text": "I can't decide whether this twist is completely out of the blue, or if it was foreshadowed all along..."
+                },
+                {
+                    "id": "150260433",
+                    "speaker": "Paimon",
+                    "text": "Um... Does that mean you won't help us?"
+                },
+                {
+                    "id": "150260434",
+                    "speaker": "Citlali",
+                    "text": "I... I need to think about it."
+                },
+                {
+                    "id": "150260435",
+                    "speaker": "Paimon",
+                    "text": "Then, there's still hope!"
+                },
+                {
+                    "id": "150260436",
+                    "speaker": "Grudoc",
+                    "text": "Hey! What's the hold-up? Just give us an answer already!"
+                },
+                {
+                    "id": "150260437",
+                    "speaker": "Paimon",
+                    "text": "Y—You agreed to let us do the talking!"
+                },
+                {
+                    "id": "150260438",
+                    "speaker": "Citlali",
+                    "text": "Ugh..."
+                },
+                {
+                    "id": "150260439",
+                    "speaker": "Paimon",
+                    "text": "Citlali..."
+                }
+            ]
+        },
+        {
+            "id": "1502605",
+            "objective": "Leave Citlali's home",
+            "dialogues": []
+        },
+        {
+            "id": "1502606",
+            "objective": "Catch up to Citlali",
+            "dialogues": [
+                {
+                    "id": "150260601",
+                    "speaker": "Montluson",
+                    "text": "Stand down, Grudoc! As your employer, if I tell you to wait, then you wait."
+                },
+                {
+                    "id": "150260602",
+                    "speaker": "Grudoc",
+                    "text": "Understood."
+                },
+                {
+                    "id": "150260603",
+                    "speaker": "Montluson",
+                    "text": "You're the great shaman who's been alive for centuries? But you're so... Ahem, apologies for the disturbance. Grudoc is a recent hire — so difficult to restrain sometimes."
+                },
+                {
+                    "id": "150260604",
+                    "speaker": "Paimon",
+                    "text": "Phew... You're lucky you didn't force Citlali's hand."
+                },
+                {
+                    "id": "150260605",
+                    "speaker": "Montluson",
+                    "text": "Well, since you're here, how about a discussion...?"
+                },
+                {
+                    "id": "150260606",
+                    "speaker": "Citlali",
+                    "text": "Do you have any idea who I am? Did you think Granny Itztli would be fooled by your little performance?"
+                },
+                {
+                    "id": "150260607",
+                    "speaker": "Montluson",
+                    "text": "Um..."
+                },
+                {
+                    "id": "150260608",
+                    "speaker": "Citlali",
+                    "text": "I have no intention of speaking to you. Your \"recent hire\" interrupted me right as I was about to make an important decision."
+                },
+                {
+                    "id": "150260609",
+                    "speaker": "Citlali",
+                    "text": "Pull a trick like that again, and I'll make your lives a living horror novel, except ten times worse. That's all I came out here to say."
+                },
+                {
+                    "id": "150260610",
+                    "speaker": "Paimon",
+                    "text": "Whoa..."
+                },
+                {
+                    "id": "150260611",
+                    "speaker": "Citlali",
+                    "text": "#{NICKNAME}, we have a discussion to finish."
+                },
+                {
+                    "id": "150260612",
+                    "speaker": "Montluson",
+                    "text": "You live up to your name, Granny Itztli. I apologize for the offence. I'm just surprised the Battle of Seven Colors didn't pique your interest..."
+                },
+                {
+                    "id": "150260613",
+                    "speaker": "Citlali",
+                    "text": "You're investigating the Battle of Seven Colors?"
+                },
+                {
+                    "id": "150260614",
+                    "speaker": "Montluson",
+                    "text": "#Ah, {NICKNAME} didn't get to that part?"
+                },
+                {
+                    "id": "150260615",
+                    "speaker": "Montluson",
+                    "text": "#Yes, I thought {NICKNAME} could help me convince you. But, if I'm not mistaken, you have a personal interest in this matter, don't you?"
+                },
+                {
+                    "id": "150260616",
+                    "speaker": "Montluson",
+                    "text": "I heard that the great shaman, Huitzilin, was a friend of yours. You two must have been close..."
+                },
+                {
+                    "id": "150260617",
+                    "speaker": "Montluson",
+                    "text": "If I can resolve the controversy and prove the Battle took place, I'll include it in my next collection. Then, all of Teyvat will learn the truth."
+                },
+                {
+                    "id": "150260618",
+                    "speaker": "Montluson",
+                    "text": "With your support, your friend's heroic deeds will once again be known throughout the land... Inspiring, don't you think?",
+                    "choices": [
+                        {
+                            "id": "150260619",
+                            "text": "You'll be helping me fulfill my duty.",
+                            "response": [
+                                {
+                                    "id": "150260621",
+                                    "speaker": "Citlali",
+                                    "text": "If this is really about that duty, then... Fine, I'll help you."
+                                },
+                                {
+                                    "id": "150260622",
+                                    "speaker": "Montluson",
+                                    "text": "I'm honored—"
+                                },
+                                {
+                                    "id": "150260623",
+                                    "speaker": "Citlali",
+                                    "text": "#Save it — I agreed to help {NICKNAME}, not you. You'll just have to leech what you can."
+                                },
+                                {
+                                    "id": "150260624",
+                                    "speaker": "Paimon",
+                                    "text": "Well, at least she agreed to help..."
+                                },
+                                {
+                                    "id": "150260625",
+                                    "speaker": "Player",
+                                    "text": "(Looks like my friendship with Citlali came in handy after all. I never took her to be the heartless type, anyway.)"
+                                },
+                                {
+                                    "id": "150260626",
+                                    "speaker": "Citlali",
+                                    "text": "Who are you calling heartless?"
+                                },
+                                {
+                                    "id": "150260627",
+                                    "speaker": "Montluson",
+                                    "text": "#Not a problem! I always planned to work with {NICKNAME}."
+                                },
+                                {
+                                    "id": "150260628",
+                                    "speaker": "Montluson",
+                                    "text": "So, did you directly experience any events of the Battle? Do you have any idea where it took place? Can you think of any relics we could use to prove it?"
+                                },
+                                {
+                                    "id": "150260629",
+                                    "speaker": "Citlali",
+                                    "text": "Talk at me why don't you..."
+                                },
+                                {
+                                    "id": "150260630",
+                                    "speaker": "Montluson",
+                                    "text": "Um..."
+                                },
+                                {
+                                    "id": "150260631",
+                                    "speaker": "Player",
+                                    "text": "I'd like to know, too."
+                                },
+                                {
+                                    "id": "150260632",
+                                    "speaker": "Citlali",
+                                    "text": "Fine — no, no, and no."
+                                },
+                                {
+                                    "id": "150260633",
+                                    "speaker": "Montluson",
+                                    "text": "Uh..."
+                                },
+                                {
+                                    "id": "150260634",
+                                    "speaker": "Citlali",
+                                    "text": "I did live during the same era as her, but that doesn't mean we experienced the same events. I've lived a long time, but I'm not a walking encyclopedia."
+                                },
+                                {
+                                    "id": "150260635",
+                                    "speaker": "Citlali",
+                                    "text": "You decide the angle of your investigation, and I'll provide answers if I'm familiar with the subject."
+                                },
+                                {
+                                    "id": "150260636",
+                                    "speaker": "Montluson",
+                                    "text": "...Alright. Even if you didn't witness the battle yourself, you still lived through that era. Your insights are very valuable!"
+                                },
+                                {
+                                    "id": "150260637",
+                                    "speaker": "Montluson",
+                                    "text": "Allier, you had an idea about where to start, yes?"
+                                },
+                                {
+                                    "id": "150260638",
+                                    "speaker": "Allier",
+                                    "text": "Oh, well, my plan was to consult the members of the tribe in charge of recording history."
+                                },
+                                {
+                                    "id": "150260639",
+                                    "speaker": "Montluson",
+                                    "text": "Then, let's start there."
+                                },
+                                {
+                                    "id": "150260640",
+                                    "speaker": "Montluson",
+                                    "text": "#{NICKNAME}, what do you say to officially working together? After all, it appears I can only get Miss Citlali's help through you."
+                                },
+                                {
+                                    "id": "150260641",
+                                    "speaker": "Player",
+                                    "text": "Sounds good."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "150260620",
+                            "text": "And it would mean a lot to your tribe."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "1502650",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "150265001",
+                    "speaker": "Allier",
+                    "text": "A great shaman who has lived for hundreds of years... If she agrees to help us, there are so many things we could research!"
+                },
+                {
+                    "id": "150265002",
+                    "speaker": "Montluson",
+                    "text": "Allier, as the provider of your research funding, I suggest you focus on our current mission. It's very important to me."
+                },
+                {
+                    "id": "150265003",
+                    "speaker": "Allier",
+                    "text": "Sorry. Maybe, if we get a chance in the future, then..."
+                },
+                {
+                    "id": "150265004",
+                    "speaker": "Montluson",
+                    "text": "We'll cross that bridge when we come to it."
+                }
+            ]
+        },
+        {
+            "id": "1502699",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "150269999",
+                    "speaker": "Black Screen",
+                    "text": "Citlali suddenly walks out, and you rush after her."
+                }
+            ]
+        }
+    ]
+}

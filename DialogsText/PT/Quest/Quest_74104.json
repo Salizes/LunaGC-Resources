@@ -1,0 +1,921 @@
+{
+    "quest": {
+        "id": "74104",
+        "title": "Caminho para a Singularidade",
+        "description": "Você descobre construções pela natureza que parecem ter um propósito desconhecido...",
+        "rewards": [
+            {
+                "itemId": 102,
+                "count": 400
+            },
+            {
+                "itemId": 201,
+                "count": 50
+            },
+            {
+                "itemId": 202,
+                "count": 30000
+            },
+            {
+                "itemId": 104003,
+                "count": 5
+            },
+            {
+                "itemId": 104013,
+                "count": 3
+            }
+        ],
+        "rewards_formatted": "EXP de Aventura x400, Gema Essencial x50, Mora x30000, EXP do Herói x5, Minério de Refinamento Místico x3",
+        "chapter": {
+            "icon": "",
+            "id": "",
+            "num": "",
+            "title": ""
+        },
+        "total_dialogue_lines": 128,
+        "total_speaker_counts": {
+            "???": 5,
+            "Black Screen": 8,
+            "Bricole": 11,
+            "Coutrot": 21,
+            "Kuisel": 5,
+            "Lembrete": 3,
+            "Paimon": 49,
+            "Player": 23,
+            "Razor": 3
+        }
+    },
+    "talks": [
+        {
+            "id": "7410403",
+            "objective": "Explore a construção misteriosa",
+            "dialogues": []
+        },
+        {
+            "id": "7410404",
+            "objective": "Fale com a pessoa presa",
+            "dialogues": [
+                {
+                    "id": "741040401",
+                    "speaker": "???",
+                    "text": "V-Vocês estão aqui pela posição de assistente de pesquisa? D-Desculpe, mas estou um pouco ocupado no momento...",
+                    "choices": [
+                        {
+                            "id": "741040402",
+                            "text": "Posso ver.",
+                            "response": [
+                                {
+                                    "id": "741040405",
+                                    "speaker": "Paimon",
+                                    "text": "Esqueça isso agora. Por que você tá em uma jaula?"
+                                },
+                                {
+                                    "id": "741040406",
+                                    "speaker": "Kuisel",
+                                    "text": "Eu tive uns desacordos com um parceiro de pesquisa... Coutrot... Ele me deixou aqui para me acalmar um pouco. I-Isso mesmo... Eu ainda não me apresentei. Pode me chamar de Kuisel."
+                                },
+                                {
+                                    "id": "741040407",
+                                    "speaker": "Kuisel",
+                                    "text": "Ugh, sabe... Oficina Mecânica de Kuisel — aquele Kuisel."
+                                },
+                                {
+                                    "id": "741040408",
+                                    "speaker": "Paimon",
+                                    "text": "#Paimon é Paimon e {M#ele}{F#ela} é {NICKNAME}... Paimon ouviu mesmo o som de discussão ainda agora. Então aquele cara que parecia bem indignado é seu parceiro de pesquisa, né?",
+                                    "choices": [
+                                        {
+                                            "id": "741040409",
+                                            "text": "Talvez seja hora de mudar de parceiro.",
+                                            "response": [
+                                                {
+                                                    "id": "741040410",
+                                                    "speaker": "Paimon",
+                                                    "text": "#É! Um bom parceiro deveria ser como Paimon... {NICKNAME} tem muita sorte de ter uma parceira como Paimon!"
+                                                },
+                                                {
+                                                    "id": "741040413",
+                                                    "speaker": "Kuisel",
+                                                    "text": "P-Poderia, por favor, me ajudar a sair daqui? Se puder achar um jeito de ativar o dispositivo de armazenamento de energia ao meu lado, a porta d-deve abrir."
+                                                },
+                                                {
+                                                    "id": "741040414",
+                                                    "speaker": "Kuisel",
+                                                    "text": "P-Por favor! Aqueles que vieram aqui antes pela posição de assistente de pesquisa também não conseguiam tolerar o temperamento violento dele, então saíram assim que puderam. Somos os únicos sobrando aqui..."
+                                                },
+                                                {
+                                                    "id": "741040415",
+                                                    "speaker": "Paimon",
+                                                    "text": "#Bem, considerando que esse é o caso, vamos dar uma mão a ele, {NICKNAME}!"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "741040411",
+                                            "text": "Enfim, vamos deixar você se acalmar sozinho.",
+                                            "response": [
+                                                {
+                                                    "id": "741040412",
+                                                    "speaker": "Paimon",
+                                                    "text": "Ei!"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "741040403",
+                            "text": "Só estamos aqui dando uma olhada.",
+                            "response": [
+                                {
+                                    "id": "741040404",
+                                    "speaker": "???",
+                                    "text": "#A-Aqui para uma visita? C-Claro, sejam bem-vind{M#os}{F#as}."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "7410405",
+            "objective": "Opere o Terminal de Transferência de Energia para abrir a cela",
+            "dialogues": [
+                {
+                    "id": "741040501",
+                    "speaker": "Paimon",
+                    "text": "A porta já tá aberta. Não vai sair?"
+                },
+                {
+                    "id": "741040502",
+                    "speaker": "Coutrot",
+                    "text": "N-Na verdade, tem mais uma coisa que fiquei com medo demais para mencionar... Se eu deixasse essa jaula hoje, r-receio que esse lugar poderia explodir."
+                },
+                {
+                    "id": "741040503",
+                    "speaker": "Paimon",
+                    "text": "Explodir?"
+                },
+                {
+                    "id": "741040504",
+                    "speaker": "Coutrot",
+                    "text": "I-Isso mesmo... Como eu disse antes, meu parceiro tem... um temperamento violento, por isso ele instalou um mecanismo gatilho sob a jaula."
+                },
+                {
+                    "id": "741040505",
+                    "speaker": "Paimon",
+                    "text": "Hã?! E o que a gente faz agora?",
+                    "choices": [
+                        {
+                            "id": "741040506",
+                            "text": "Talvez a gente consiga colocar um objeto pesado no lugar?",
+                            "response": [
+                                {
+                                    "id": "741040507",
+                                    "speaker": "Coutrot",
+                                    "text": "O-Objetos pesados comuns não vão servir, eu temo... O jeito que funciona é bastante complicado. Ugh..."
+                                },
+                                {
+                                    "id": "741040510",
+                                    "speaker": "Coutrot",
+                                    "text": "#Se você puder pegar meu lugar temporariamente, gentil Sr{F#ta}. {NICKNAME}... e esperar na jaula um pouco. Então eu... posso desmontar o mecanismo gatilho especial."
+                                },
+                                {
+                                    "id": "741040511",
+                                    "speaker": "Coutrot",
+                                    "text": "A-Afinal, trabalhei com ele por anos e sei exatamente o que ele estava pensando quando fez isso.",
+                                    "choices": [
+                                        {
+                                            "id": "741040512",
+                                            "text": "#Eu não acho que sou pesad{M#o}{F#a} suficiente. Talvez Paimon também devesse...",
+                                            "response": [
+                                                {
+                                                    "id": "741040513",
+                                                    "speaker": "Paimon",
+                                                    "text": "M-Mas olha, Paimon está flutuando, então Paimon definitivamente não tem peso! É, sem peso!"
+                                                },
+                                                {
+                                                    "id": "741040514",
+                                                    "speaker": "Coutrot",
+                                                    "text": "Hmm... esse mecanismo é extremamente específico e não funciona simplesmente baseado em peso."
+                                                },
+                                                {
+                                                    "id": "741040516",
+                                                    "speaker": "Coutrot",
+                                                    "text": "Por favor, acredite em mim. Tudo que precisa fazer é ficar um momento em meu lugar e vou desmontar o dispositivo antes que note."
+                                                },
+                                                {
+                                                    "id": "741040517",
+                                                    "speaker": "Coutrot",
+                                                    "text": "...Talvez você tenha ouvido sobre o Instituto de Pesquisas de Fontaine ou o Sr. Raimondo e o Sr. Bossuet? Eu... Eu já fui orientando deles."
+                                                },
+                                                {
+                                                    "id": "741040518",
+                                                    "speaker": "Coutrot",
+                                                    "text": "E-Esses tipos de questões técnicas não são difíceis e não demoram para resolver. Tudo que preciso é de um momento rápido..."
+                                                },
+                                                {
+                                                    "id": "741040519",
+                                                    "speaker": "Paimon",
+                                                    "text": "Tudo bem então... Mas seja rápido!"
+                                                },
+                                                {
+                                                    "id": "741040520",
+                                                    "speaker": "Black Screen",
+                                                    "text": "Com muito cuidado, você troca de lugar com Kuisel..."
+                                                },
+                                                {
+                                                    "id": "741040521",
+                                                    "speaker": "Paimon",
+                                                    "text": "Hã? Por que a porta está fechada de novo?"
+                                                },
+                                                {
+                                                    "id": "741040522",
+                                                    "speaker": "Coutrot",
+                                                    "text": "Uh... Talvez algo deu errado em algum lugar. Eu... vou conferir..."
+                                                },
+                                                {
+                                                    "id": "741040523",
+                                                    "speaker": "Player",
+                                                    "text": "Isso não parece certo."
+                                                },
+                                                {
+                                                    "id": "741040524",
+                                                    "speaker": "Coutrot",
+                                                    "text": "N-Não se preocupe, vou consertar rapidinho. O terminal para desabilitar o mecanismo gatilho não está aqui, tenho que sair por um tempo. Esperem."
+                                                },
+                                                {
+                                                    "id": "741040525",
+                                                    "speaker": "Paimon",
+                                                    "text": "Acho que não temos escolha a não ser esperar pacientemente."
+                                                },
+                                                {
+                                                    "id": "741040526",
+                                                    "speaker": "Black Screen",
+                                                    "text": "Você espera por um tempo..."
+                                                },
+                                                {
+                                                    "id": "741040527",
+                                                    "speaker": "Paimon",
+                                                    "text": "O que pode tá levando tanto tempo... Alguma coisa aconteceu com ele, né? Mas ele disse que só tinha ele e o parceiro dele aqui...",
+                                                    "choices": [
+                                                        {
+                                                            "id": "741040528",
+                                                            "text": "Talvez ele tenha sido preso de novo pelo parceiro...",
+                                                            "response": [
+                                                                {
+                                                                    "id": "741040529",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "Hã?"
+                                                                },
+                                                                {
+                                                                    "id": "741040532",
+                                                                    "speaker": "???",
+                                                                    "text": "Eu costumava me perguntar, gentileza pode mesmo ser considerada uma boa qualidade? Aqueles cheios apenas de gentileza... O que traz de bom a eles?"
+                                                                },
+                                                                {
+                                                                    "id": "741040533",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "...Hã? Quem tá falando?"
+                                                                },
+                                                                {
+                                                                    "id": "741040534",
+                                                                    "speaker": "???",
+                                                                    "text": "Nunca teve um mecanismo gatilho que podia disparar uma explosão. Mas a porta da jaula está mesmo trancada agora. Bem, o que vocês vão fazer? Ficar esperando aqui ou agir..."
+                                                                },
+                                                                {
+                                                                    "id": "741040535",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "Do que esse cara tá falando?! E também, a voz dele parece... como a de Kuisel, mas também como a que estava discutindo com ele antes. O que tá acontecendo?"
+                                                                },
+                                                                {
+                                                                    "id": "741040536",
+                                                                    "speaker": "Player",
+                                                                    "text": "Vamos achar um jeito de sair daqui primeiro..."
+                                                                },
+                                                                {
+                                                                    "id": "741040537",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "#Ah, certo! Mas... mas você tá pres{M#o}{F#a} nessa jaula agora. Como a gente vai abrir a porta..."
+                                                                },
+                                                                {
+                                                                    "id": "741040538",
+                                                                    "speaker": "Player",
+                                                                    "text": "Conto com você, Paimon. Me salve!"
+                                                                },
+                                                                {
+                                                                    "id": "741040539",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "Eita! Que drama!"
+                                                                },
+                                                                {
+                                                                    "id": "741040540",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "Mas ainda bem que Paimon não ficou presa na jaula também... Hmm... Paimon deve conseguir abrir a porta do jeito que a gente fez antes, né? Vamos tentar!"
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "id": "741040530",
+                                                            "text": "#Acho que fomos enganad{M#os}{F#as}.",
+                                                            "response": [
+                                                                {
+                                                                    "id": "741040531",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "Tá dizendo que ele mentiu pra gente?"
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "741040515",
+                                            "text": "Parece meio suspeito..."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "741040508",
+                            "text": "Não tem outro jeito. Vamos procurar ajuda na Corte de Fontaine.",
+                            "response": [
+                                {
+                                    "id": "741040509",
+                                    "speaker": "Coutrot",
+                                    "text": "N-Não precisa passar por tudo isso..."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "7410406",
+            "objective": "Fale com Kuisel",
+            "dialogues": []
+        },
+        {
+            "id": "7410407",
+            "objective": "",
+            "dialogues": [
+                {
+                    "id": "741040701",
+                    "speaker": "Black Screen",
+                    "text": ""
+                },
+                {
+                    "id": "741040702",
+                    "speaker": "Paimon",
+                    "text": ""
+                },
+                {
+                    "id": "741040703",
+                    "speaker": "???",
+                    "text": ""
+                }
+            ]
+        },
+        {
+            "id": "7410408",
+            "objective": "Tente abrir a cela junto com Paimon",
+            "dialogues": [
+                {
+                    "id": "741040801",
+                    "speaker": "Paimon",
+                    "text": "Vejamos... Tem dois terminais e dois dispositivos de armazenamento de energia aqui. Se Paimon puder ativar o dispositivo de armazenamento de energia ao lado da porta, então a jaula de abrir!"
+                },
+                {
+                    "id": "741040802",
+                    "speaker": "Paimon",
+                    "text": "Aonde Paimon deve ir? Para o terminal perto da porta ou o perto da jaula?",
+                    "choices": [
+                        {
+                            "id": "741040803",
+                            "text": "Veja o terminal perto da porta.",
+                            "response": [
+                                {
+                                    "id": "741040804",
+                                    "speaker": "Paimon",
+                                    "text": "Hmm, não parece certo..."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "741040805",
+                            "text": "Tente o terminal perto da jaula.",
+                            "response": [
+                                {
+                                    "id": "741040806",
+                                    "speaker": "Paimon",
+                                    "text": "Deixa Paimon ver..."
+                                },
+                                {
+                                    "id": "741040807",
+                                    "speaker": "Paimon",
+                                    "text": "Paimon consegue ver a porta que Kuisel saiu daqui. O que Paimon devia fazer agora?",
+                                    "choices": [
+                                        {
+                                            "id": "741040808",
+                                            "text": "Ative o dispositivo de armazenamento de energia perto da jaula.",
+                                            "response": [
+                                                {
+                                                    "id": "741040809",
+                                                    "speaker": "Paimon",
+                                                    "text": "Hmm, Paimon não consegue ver desse ângulo..."
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "741040810",
+                                            "text": "Ative o dispositivo de armazenamento de energia perto da porta.",
+                                            "response": [
+                                                {
+                                                    "id": "741040811",
+                                                    "speaker": "Paimon",
+                                                    "text": "Tudo bem."
+                                                },
+                                                {
+                                                    "id": "741040812",
+                                                    "speaker": "Paimon",
+                                                    "text": "O terminal na porta acendeu! Paimon deve conseguir ver mais de lá, né?"
+                                                },
+                                                {
+                                                    "id": "741040813",
+                                                    "speaker": "Paimon",
+                                                    "text": "Paimon consegue ver uma porta maior daqui! O que Paimon faz agora?",
+                                                    "choices": [
+                                                        {
+                                                            "id": "741040814",
+                                                            "text": "Volte para o ângulo do terminal no lado oposto.",
+                                                            "response": [
+                                                                {
+                                                                    "id": "741040815",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "Hmm? Certo então..."
+                                                                },
+                                                                {
+                                                                    "id": "741040818",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "Paimon consegue ver a porta que Kuisel saiu daqui. O que Paimon devia fazer agora?",
+                                                                    "choices": [
+                                                                        {
+                                                                            "id": "741040819",
+                                                                            "text": "Ative o dispositivo de armazenamento de energia perto da jaula.",
+                                                                            "response": [
+                                                                                {
+                                                                                    "id": "741040820",
+                                                                                    "speaker": "Paimon",
+                                                                                    "text": "Hmm, Paimon não consegue ver desse ângulo..."
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        {
+                                                                            "id": "741040821",
+                                                                            "text": "Volte para o ângulo do terminal no lado oposto.",
+                                                                            "response": [
+                                                                                {
+                                                                                    "id": "741040822",
+                                                                                    "speaker": "Paimon",
+                                                                                    "text": "Hmm? Certo então..."
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "id": "741040816",
+                                                            "text": "Ative o dispositivo de armazenamento de energia perto da jaula.",
+                                                            "response": [
+                                                                {
+                                                                    "id": "741040817",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "Deixe com Paimon!"
+                                                                },
+                                                                {
+                                                                    "id": "741040823",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "Tadá! Como Paimon se saiu? Paimon não é tão inútil assim, né?"
+                                                                },
+                                                                {
+                                                                    "id": "741040824",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "Enfim, qual é a daquele cara Kuisel? Paimon não entende mesmo... Vamos procurar por onde ele saiu. Talvez tenha alguma coisa pra gente encontrar."
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "7410409",
+            "objective": "Abra a porta que Kuisel usou para sair",
+            "dialogues": []
+        },
+        {
+            "id": "7410410",
+            "objective": "Continue explorando",
+            "dialogues": []
+        },
+        {
+            "id": "7410411",
+            "objective": "",
+            "dialogues": [
+                {
+                    "id": "741041101",
+                    "speaker": "Razor",
+                    "text": ""
+                }
+            ]
+        },
+        {
+            "id": "7410412",
+            "objective": "Encontre uma forma de abrir a porta selada",
+            "dialogues": [
+                {
+                    "id": "741043501",
+                    "speaker": "Lembrete",
+                    "text": "Fechar todas as válvulas irá ativar o terminal e abrir o caminho."
+                }
+            ]
+        },
+        {
+            "id": "7410435",
+            "objective": "Desligue todas as válvulas",
+            "dialogues": []
+        },
+        {
+            "id": "7410413",
+            "objective": "Abra a passagem",
+            "dialogues": []
+        },
+        {
+            "id": "7410414",
+            "objective": "Derrote os Mecautômatos",
+            "dialogues": []
+        },
+        {
+            "id": "7410415",
+            "objective": "Pegue o elevador continue indo mais fundo",
+            "dialogues": []
+        },
+        {
+            "id": "7410416",
+            "objective": "Continue explorando",
+            "dialogues": []
+        },
+        {
+            "id": "7410417",
+            "objective": "",
+            "dialogues": [
+                {
+                    "id": "741041701",
+                    "speaker": "Razor",
+                    "text": ""
+                }
+            ]
+        },
+        {
+            "id": "7410418",
+            "objective": "Encontre uma forma de abrir a porta selada",
+            "dialogues": []
+        },
+        {
+            "id": "7410419",
+            "objective": "Continue explorando",
+            "dialogues": []
+        },
+        {
+            "id": "7410420",
+            "objective": "",
+            "dialogues": [
+                {
+                    "id": "741042001",
+                    "speaker": "Razor",
+                    "text": ""
+                }
+            ]
+        },
+        {
+            "id": "7410421",
+            "objective": "Derrote os Mecautômatos",
+            "dialogues": []
+        },
+        {
+            "id": "7410422",
+            "objective": "Encontre uma forma de abrir a porta selada",
+            "dialogues": []
+        },
+        {
+            "id": "7410446",
+            "objective": "Continue explorando",
+            "dialogues": []
+        },
+        {
+            "id": "7410439",
+            "objective": "",
+            "dialogues": [
+                {
+                    "id": "741043901",
+                    "speaker": "Paimon",
+                    "text": "Falando nisso, está realmente tudo bem da gente ficar mexendo nas coisas como os terminais por aqui?"
+                },
+                {
+                    "id": "741043902",
+                    "speaker": "Kuisel",
+                    "text": "E-Está tudo bem. Tudo aqui é... bem feito."
+                }
+            ]
+        },
+        {
+            "id": "7410432",
+            "objective": "",
+            "dialogues": [
+                {
+                    "id": "741043601",
+                    "speaker": "Paimon",
+                    "text": "Isso parece com algum tipo de relatório experimental..."
+                }
+            ]
+        },
+        {
+            "id": "7410433",
+            "objective": "Abra a passagem",
+            "dialogues": []
+        },
+        {
+            "id": "7410423",
+            "objective": "Derrote os Mecautômatos",
+            "dialogues": []
+        },
+        {
+            "id": "7410437",
+            "objective": "Pegue o elevador continue indo mais fundo",
+            "dialogues": []
+        },
+        {
+            "id": "7410424",
+            "objective": "Continue explorando",
+            "dialogues": []
+        },
+        {
+            "id": "7410425",
+            "objective": "Fale com Kuisel",
+            "dialogues": [
+                {
+                    "id": "741042501",
+                    "speaker": "Paimon",
+                    "text": "Kuisel! Aí tá você!"
+                },
+                {
+                    "id": "741042502",
+                    "speaker": "Paimon",
+                    "text": "E o ao lado dele... deve ser o parceiro de pesquisa vilão Coutrot que Kuisel tava falando!"
+                },
+                {
+                    "id": "741042503",
+                    "speaker": "Bricole",
+                    "text": "...? Ele é Coutrot, não eu. Eu sou Bricole."
+                },
+                {
+                    "id": "741042504",
+                    "speaker": "Paimon",
+                    "text": "Hã? Ele não é Kuisel?"
+                },
+                {
+                    "id": "741042505",
+                    "speaker": "Coutrot",
+                    "text": "Kuisel... é só um personagem conveniente. Vocês já passaram por muitas provas, não tem mais motivo para esconder nada de vocês. Meu nome é Coutrot e sou o dono de verdade desta oficina."
+                },
+                {
+                    "id": "741042506",
+                    "speaker": "Coutrot",
+                    "text": "#Haha, vocês são mesmo... grande material de pesquisa. Se estiverem dispost{M#os}{F#as} a me ajudar com minha pesquisa..."
+                },
+                {
+                    "id": "741042507",
+                    "speaker": "Player",
+                    "text": "Que pesquisa? Fale um pouco mais."
+                },
+                {
+                    "id": "741042508",
+                    "speaker": "Paimon",
+                    "text": "Ei, qual é! Você vai mesmo ajudar alguém suspeito assim?"
+                },
+                {
+                    "id": "741042510",
+                    "speaker": "Paimon",
+                    "text": "Nada sobre esse lugar parece uma oficina de verdade! Você também mentiu para nós e fez os Mecautômatos nos atacarem... Paimon não tem motivo para acreditar que você é gente boa!"
+                },
+                {
+                    "id": "741042511",
+                    "speaker": "Bricole",
+                    "text": "Você tem toda razão! Não caia na armadilha dele! Ele... Ele é um sacana extremamente cruel!"
+                },
+                {
+                    "id": "741042512",
+                    "speaker": "Bricole",
+                    "text": "Eu segui as pistas até aqui enquanto investigava. Não esperava que você continuasse sua pesquisa perigosa mesmo depois de ter sido expulso, e você até roubou ativos do Instituto de Pesquisas para isso..."
+                },
+                {
+                    "id": "741042513",
+                    "speaker": "Bricole",
+                    "text": "Você cometeu um crime!"
+                },
+                {
+                    "id": "741042514",
+                    "speaker": "Coutrot",
+                    "text": "#Você não consegue ficar de boca fechada, hein, Bricole... Você é só um palerma inútil. Eu vou cuidar de você quando avaliar adequadamente noss{M#os}{F#as} convidad{M#os}{F#as} de honra aqui."
+                },
+                {
+                    "id": "741042515",
+                    "speaker": "Paimon",
+                    "text": "#{M#Seus convidados}{F#Suas convidadas} de honra... você não tá falando da gente, né?"
+                },
+                {
+                    "id": "741042516",
+                    "speaker": "Coutrot",
+                    "text": "Claro, vocês só precisam passar por uma última prova para provar seu real valor..."
+                },
+                {
+                    "id": "741042517",
+                    "speaker": "Coutrot",
+                    "text": "Hora de me mostrar o que sabem fazer!"
+                }
+            ]
+        },
+        {
+            "id": "7410426",
+            "objective": "Derrote Coutrot",
+            "dialogues": []
+        },
+        {
+            "id": "7410430",
+            "objective": "",
+            "dialogues": [
+                {
+                    "id": "741043201",
+                    "speaker": "Black Screen",
+                    "text": ""
+                }
+            ]
+        },
+        {
+            "id": "7410428",
+            "objective": "Fale com Bricole",
+            "dialogues": [
+                {
+                    "id": "741042802",
+                    "speaker": "Coutrot",
+                    "text": "#Vocês de novo... São mais habilidos{M#os}{F#as} do que pensei. Vocês são mesmo o melhor material de pesquisa que vi até agora! Mas muito além do que posso controlar... admito que perdi."
+                },
+                {
+                    "id": "741042803",
+                    "speaker": "Paimon",
+                    "text": "O que é que tá pegando com esse cara?!"
+                },
+                {
+                    "id": "741042804",
+                    "speaker": "Bricole",
+                    "text": "Sim, essa é uma reação bem comum a ele. Sabe, a... pesquisa mais peculiar dele foi exatamente o que fez ele ser expulso do Instituto de Pesquisas de Fontaine em primeiro lugar."
+                },
+                {
+                    "id": "741042805",
+                    "speaker": "Coutrot",
+                    "text": "Minha pesquisa não era peculiar..."
+                },
+                {
+                    "id": "741042806",
+                    "speaker": "Bricole",
+                    "text": "É, é, e foi isso que você disse ao Comitê de Ética na época também. Não acho que uma única pessoa acreditou no que você disse."
+                },
+                {
+                    "id": "741042807",
+                    "speaker": "Player",
+                    "text": "Então... qual era a pesquisa dele?"
+                },
+                {
+                    "id": "741042808",
+                    "speaker": "Bricole",
+                    "text": "Ahem... Se desejar saber mais sobre a pesquisa dele, você pode ir ao novo Instituto de Pesquisas de Fontaine para solicitar acesso."
+                },
+                {
+                    "id": "741042809",
+                    "speaker": "Paimon",
+                    "text": "Só de pensar nisso, Paimon já fica com dor de cabeça..."
+                },
+                {
+                    "id": "741042810",
+                    "speaker": "Bricole",
+                    "text": "Também está me dando dor de cabeça. Mesmo que ele tenha sido demitido, o caso de roubo de ativos que estive investigando ainda tem a ver com ele..."
+                },
+                {
+                    "id": "741042811",
+                    "speaker": "Coutrot",
+                    "text": "Haha, você quer me mandar para a Fortaleza Meropide?"
+                },
+                {
+                    "id": "741042812",
+                    "speaker": "Bricole",
+                    "text": "Bem, não cabe a mim decidir. A lei entregará sua sentença. É uma pena que, diferente da última vez, não podemos resolver as coisas simplesmente te chutando para fora."
+                },
+                {
+                    "id": "741042813",
+                    "speaker": "Bricole",
+                    "text": "De toda forma, agradeço muito a ajuda de vocês. Eu provavelmente não teria conseguido pegar ele sozinho... Podem deixar o resto comigo. Prometo que dessa vez, ele vai receber punição adequada."
+                },
+                {
+                    "id": "741042814",
+                    "speaker": "Bricole",
+                    "text": "*Suspiro* Receio que ainda tenho que retornar a esse lugar para continuar meu trabalho... Quantos relatórios vou ter que compilar..."
+                }
+            ]
+        },
+        {
+            "id": "7410440",
+            "objective": "",
+            "dialogues": [
+                {
+                    "id": "741044001",
+                    "speaker": "Coutrot",
+                    "text": "Por favor, acredite em mim. Tudo que precisa fazer é ficar um momento em meu lugar e vou desmontar o dispositivo antes que note."
+                },
+                {
+                    "id": "741044002",
+                    "speaker": "Paimon",
+                    "text": "Tudo bem então... Mas seja rápido!"
+                },
+                {
+                    "id": "741044003",
+                    "speaker": "Black Screen",
+                    "text": "Com muito cuidado, você troca de lugar com Kuisel..."
+                },
+                {
+                    "id": "741044004",
+                    "speaker": "Black Screen",
+                    "text": "Você espera por um tempo, mas ele não volta como prometeu. Você também escuta algumas vozes estranhas..."
+                },
+                {
+                    "id": "741044005",
+                    "speaker": "Black Screen",
+                    "text": "Você decide tentar encontrar uma forma de sair da jaula..."
+                },
+                {
+                    "id": "741044006",
+                    "speaker": "Paimon",
+                    "text": "Mas ainda bem que Paimon não ficou presa na jaula também... Hmm... Paimon deve conseguir abrir a porta do jeito que a gente fez antes, né? Vamos tentar!"
+                }
+            ]
+        },
+        {
+            "id": "7410441",
+            "objective": "",
+            "dialogues": [
+                {
+                    "id": "741044101",
+                    "speaker": "Lembrete",
+                    "text": "Fechar todas as válvulas irá ativar o terminal e abrir o caminho."
+                }
+            ]
+        },
+        {
+            "id": "7410442",
+            "objective": "",
+            "dialogues": [
+                {
+                    "id": "741044201",
+                    "speaker": "Lembrete",
+                    "text": "Fechar todas as válvulas irá ativar o terminal e abrir o caminho."
+                }
+            ]
+        },
+        {
+            "id": "7410406",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "741040601",
+                    "speaker": "Black Screen",
+                    "text": ""
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,2757 @@
+{
+    "quest": {
+        "id": "5016",
+        "title": "To Whence the Smoke Drifts",
+        "description": "Citlali comes as promised, but she also makes a request: she wants you to help her find her missing grandson, Ororon. You take this commission and set out alongside her.",
+        "rewards": [
+            {
+                "itemId": 102,
+                "count": 1000
+            },
+            {
+                "itemId": 202,
+                "count": 44000
+            },
+            {
+                "itemId": 104003,
+                "count": 4
+            },
+            {
+                "itemId": 104013,
+                "count": 8
+            }
+        ],
+        "rewards_formatted": "Adventure EXP x1000, Mora x44000, Hero's Wit x4, Mystic Enhancement Ore x8",
+        "chapter": {
+            "icon": "UI_ChapterIcon_Natlan",
+            "id": "1502",
+            "num": "Chapter V: Act III",
+            "title": "Beyond the Smoke and Mirrors"
+        },
+        "total_dialogue_lines": 512,
+        "total_speaker_counts": {
+            "\"The Captain\"": 21,
+            "???": 11,
+            "Black Screen": 10,
+            "Chanca": 8,
+            "Citlali": 186,
+            "Coyopa": 4,
+            "Kosterlitzky": 3,
+            "Ororon": 56,
+            "Paimon": 122,
+            "Player": 91
+        }
+    },
+    "talks": [
+        {
+            "id": "501601",
+            "objective": "Investigate clues",
+            "dialogues": [
+                {
+                    "id": "50160101",
+                    "speaker": "Citlali",
+                    "text": "This is the spot."
+                },
+                {
+                    "id": "50160102",
+                    "speaker": "Citlali",
+                    "text": "An eyewitness claimed to have seen Ororon speaking to some Fatui soldiers here."
+                },
+                {
+                    "id": "50160103",
+                    "speaker": "Citlali",
+                    "text": "I don't know how much you're willing to believe me... but Ororon really is a good kid. I see no reason why he'd suddenly get involved with the Fatui."
+                },
+                {
+                    "id": "50160104",
+                    "speaker": "Citlali",
+                    "text": "I'm convinced that what the witnesses saw was actually the Fatui coercing him, or perhaps trying to extract information."
+                },
+                {
+                    "id": "50160105",
+                    "speaker": "Citlali",
+                    "text": "...However, I doubt anyone would believe me, given there are no signs of a fight."
+                },
+                {
+                    "id": "50160106",
+                    "speaker": "Paimon",
+                    "text": "(Didn't Kinich say that she's a big name in Natlan? Feels kinda weird to see her so frustrated and helpless like this...)"
+                },
+                {
+                    "id": "50160107",
+                    "speaker": "Player",
+                    "text": "Could you tell us a little more about him?"
+                },
+                {
+                    "id": "50160108",
+                    "speaker": "Citlali",
+                    "text": "Ororon? Well... He was left at the side of the road as an infant and the people of the tribe took him in. You could say that everyone had a hand in raising him."
+                },
+                {
+                    "id": "50160109",
+                    "speaker": "Citlali",
+                    "text": "He learned a lot from us, and once he reached adulthood, he built himself a house out in the countryside. He spends most of his days growing vegetables and raising Aphids, living off of what he harvests from the garden."
+                },
+                {
+                    "id": "50160110",
+                    "speaker": "Citlali",
+                    "text": "*sigh* He's always been such a good kid. He would even get his friend to deliver whole bags of fresh produce to my place."
+                },
+                {
+                    "id": "50160111",
+                    "speaker": "Player",
+                    "text": "(If that's all there is to him, then he really doesn't sound like a bad person.)"
+                },
+                {
+                    "id": "50160112",
+                    "speaker": "Citlali",
+                    "text": "Ah well, let's keep looking. He can answer all of our questions once we find him."
+                },
+                {
+                    "id": "50160113",
+                    "speaker": "Citlali",
+                    "text": "He's been raising Phlogiston Aphids for a long time, and since they were disturbed, they secreted a special type of phlogiston. We can use that substance to track his movements."
+                },
+                {
+                    "id": "50160114",
+                    "speaker": "Citlali",
+                    "text": "Let's follow the phlogiston trail."
+                },
+                {
+                    "id": "50160115",
+                    "speaker": "Paimon",
+                    "text": "Huh? What trail? Paimon doesn't see anything..."
+                },
+                {
+                    "id": "50160116",
+                    "speaker": "Citlali",
+                    "text": "Ah, right, I forgot your eyes don't naturally perceive such things."
+                },
+                {
+                    "id": "50160117",
+                    "speaker": "Citlali",
+                    "text": "Here, give me your hand."
+                },
+                {
+                    "id": "50160118",
+                    "speaker": "Citlali",
+                    "text": "..."
+                },
+                {
+                    "id": "50160119",
+                    "speaker": "Citlali",
+                    "text": "How about now?"
+                },
+                {
+                    "id": "50160120",
+                    "speaker": "Paimon",
+                    "text": "What do you see?"
+                },
+                {
+                    "id": "50160121",
+                    "speaker": "Player",
+                    "text": "I can see the trail now."
+                },
+                {
+                    "id": "50160122",
+                    "speaker": "Paimon",
+                    "text": "Whoa! Paimon can see it now, too!"
+                },
+                {
+                    "id": "50160123",
+                    "speaker": "Citlali",
+                    "text": "That's right, I used a spell to temporarily transfer a portion of my senses to you. For a short while, you'll be able to see the phlogiston, too."
+                },
+                {
+                    "id": "50160124",
+                    "speaker": "Paimon",
+                    "text": "Wow, you can even share your senses with us? First time Paimon's heard anything like that."
+                },
+                {
+                    "id": "50160125",
+                    "speaker": "Citlali",
+                    "text": "#It requires a very rare spell that most people aren't adept at, but don't worry, it's a cinch for me. Between the two of you, it seems that {NICKNAME}'s senses are a bit stronger than Paimon's."
+                },
+                {
+                    "id": "50160126",
+                    "speaker": "Citlali",
+                    "text": "When I held your hand just now, I could sense that you've got a great affinity for phlogiston. You're extraordinarily gifted."
+                },
+                {
+                    "id": "50160127",
+                    "speaker": "Citlali",
+                    "text": "Anyway, we'll need to use our vision now to track down Ororon. Good luck, you two."
+                }
+            ]
+        },
+        {
+            "id": "501602",
+            "objective": "Follow Citlali",
+            "dialogues": [
+                {
+                    "id": "50160201",
+                    "speaker": "???",
+                    "text": "(What does she mean by \"deep and confusing\"? As far as elderly shamans go, I'd say that I'm already pretty easy to talk to... Is there any other old hag who's as fluent in the language of the youth as me?)"
+                },
+                {
+                    "id": "50160202",
+                    "speaker": "???",
+                    "text": "(Hmm, but is my way of speaking still not trendy enough? I've already tried my best to match their speech patterns. But, given the looks on their faces just now...)"
+                },
+                {
+                    "id": "50160203",
+                    "speaker": "???",
+                    "text": "(Or perhaps I'm still not fashionable enough? But that can't be, right? Ugh, don't tell me they're still getting the impression that I'm super old-fashioned...)"
+                },
+                {
+                    "id": "50160204",
+                    "speaker": "Paimon",
+                    "text": "(Huh?)"
+                },
+                {
+                    "id": "50160205",
+                    "speaker": "Player",
+                    "text": "(I think I just heard a voice... Wait, but it wasn't with my ears... was it all in my mind?)"
+                },
+                {
+                    "id": "50160206",
+                    "speaker": "Paimon",
+                    "text": "(Was that... Citlali's voice?)"
+                },
+                {
+                    "id": "50160207",
+                    "speaker": "Player",
+                    "text": "(...)"
+                },
+                {
+                    "id": "50160208",
+                    "speaker": "Player",
+                    "text": "(Seems Paimon heard the same voice, but she also looks like she understood what's going on... Let me think... Ah! It must be a side effect of the spell she cast.)"
+                },
+                {
+                    "id": "50160209",
+                    "speaker": "???",
+                    "text": "(Now that I think about it, it's a good thing I found some helpers this time. Some things are best done with the help of friends.)"
+                },
+                {
+                    "id": "50160210",
+                    "speaker": "Player",
+                    "text": "(So we can now hear her thoughts through telepathy? Wow, this is amazing! Something like this could only happen with Citlali!)"
+                },
+                {
+                    "id": "50160211",
+                    "speaker": "???",
+                    "text": "(Oh? They appear to be feeling quite confident. Looks like our work will go smoothly.)"
+                },
+                {
+                    "id": "50160212",
+                    "speaker": "Player",
+                    "text": "(You bet! Just leave it to us.)"
+                }
+            ]
+        },
+        {
+            "id": "501603",
+            "objective": "Investigate the campsite up ahead",
+            "dialogues": [
+                {
+                    "id": "50160301",
+                    "speaker": "Paimon",
+                    "text": "Hmm... Yep, judging from Paimon's experience as a guide, it definitely looks like people set up camp here."
+                },
+                {
+                    "id": "50160302",
+                    "speaker": "Citlali",
+                    "text": "Wait... The phlogiston here is a bit odd."
+                },
+                {
+                    "id": "50160303",
+                    "speaker": "Citlali",
+                    "text": "Let me see..."
+                },
+                {
+                    "id": "50160304",
+                    "speaker": "Citlali",
+                    "text": "...!"
+                },
+                {
+                    "id": "50160305",
+                    "speaker": "Paimon",
+                    "text": "Paimon sees a small shape here. Could it be... some sort of symbol?"
+                },
+                {
+                    "id": "50160306",
+                    "speaker": "Citlali",
+                    "text": "This is a distress signal for the Masters of the Night-Wind... Only someone from our tribe would recognize it. So, Ororon was indeed being threatened."
+                },
+                {
+                    "id": "50160307",
+                    "speaker": "Citlali",
+                    "text": "We've got to find him, fast."
+                },
+                {
+                    "id": "50160308",
+                    "speaker": "Citlali",
+                    "text": "(Leaving such a subtle mark implies that he was trying to be discreet. In other words... he was probably under the Fatui's watch.)"
+                },
+                {
+                    "id": "50160309",
+                    "speaker": "Citlali",
+                    "text": "(If they notice us, we can just charge in and fight them to the death. But... But what if my darling grandson is also there? I can't have him caught in the crossfire...)"
+                },
+                {
+                    "id": "50160310",
+                    "speaker": "Citlali",
+                    "text": "(Ugh, no, I've got to be careful, otherwise he'd get hit as well... Ahh, how annoying! No, no, I've got to stay calm, and keep my composure...)"
+                }
+            ]
+        },
+        {
+            "id": "501604",
+            "objective": "Continue forward and investigate",
+            "dialogues": [
+                {
+                    "id": "50160401",
+                    "speaker": "Paimon",
+                    "text": "There are traces of people staying here, too!"
+                },
+                {
+                    "id": "50160402",
+                    "speaker": "Citlali",
+                    "text": "Wait a second, the phlogiston around here is jumbled up..."
+                },
+                {
+                    "id": "50160403",
+                    "speaker": "Citlali",
+                    "text": "I can also smell a mix of elements in the air. Pyro, Electro... and some other elements as well."
+                },
+                {
+                    "id": "50160404",
+                    "speaker": "Paimon",
+                    "text": "Kinich told us that you were super amazing! No wonder you can sense so many more things than us!"
+                },
+                {
+                    "id": "50160405",
+                    "speaker": "Citlali",
+                    "text": "..."
+                },
+                {
+                    "id": "50160406",
+                    "speaker": "Citlali",
+                    "text": "(Hmph, it's about time that little brat said something nice about me.)"
+                },
+                {
+                    "id": "50160407",
+                    "speaker": "Citlali",
+                    "text": "There are signs of a struggle here."
+                },
+                {
+                    "id": "50160408",
+                    "speaker": "Citlali",
+                    "text": "Judging from what's left on the scene, there must have been a fight. But after that, the factions seem to have gone their separate ways. Both the phlogiston and the elemental traces in the air support that."
+                },
+                {
+                    "id": "50160409",
+                    "speaker": "Player",
+                    "text": "Seems like Ororon found a chance to fight back."
+                },
+                {
+                    "id": "50160410",
+                    "speaker": "Paimon",
+                    "text": "Do you still remember the little mark we found before? Paimon's thinking, what if Ororon wanted to leave another distress signal, but was caught by the Fatui?"
+                },
+                {
+                    "id": "50160411",
+                    "speaker": "Player",
+                    "text": "(Citlali looks pretty worried...)"
+                },
+                {
+                    "id": "50160412",
+                    "speaker": "Player",
+                    "text": "(Indeed, judging by the distress signal from before, Ororon was being held by the Fatui. So... given the difference in numbers, he probably wouldn't have been able to overpower them.)"
+                },
+                {
+                    "id": "50160413",
+                    "speaker": "Citlali",
+                    "text": "Given there are two signals leading from here, we should split up as well."
+                },
+                {
+                    "id": "50160414",
+                    "speaker": "Citlali",
+                    "text": "I'll take this direction, and leave the other one to you. Let's meet up again later."
+                },
+                {
+                    "id": "50160415",
+                    "speaker": "Citlali",
+                    "text": "(Ororon, what the heck were you doing!? It's one thing to trouble me, but now I had to bring other people into this as well! You little brat!)"
+                },
+                {
+                    "id": "50160416",
+                    "speaker": "Paimon",
+                    "text": "And off she goes..."
+                },
+                {
+                    "id": "50160417",
+                    "speaker": "Paimon",
+                    "text": "#{NICKNAME}, did you hear all of that as well?"
+                },
+                {
+                    "id": "50160418",
+                    "speaker": "Player",
+                    "text": "Yep."
+                },
+                {
+                    "id": "50160419",
+                    "speaker": "Paimon",
+                    "text": "Once Citlali left, that voice went away as well... Paimon even tried calling her name inside Paimon's head, but there was no response."
+                },
+                {
+                    "id": "50160420",
+                    "speaker": "Player",
+                    "text": "So the telepathy doesn't go both ways?"
+                },
+                {
+                    "id": "50160421",
+                    "speaker": "Paimon",
+                    "text": "So you were thinking the same thing! Paimon also thought that if we could hear what she was thinking, then she could probably also hear what we were thinking in our heads."
+                },
+                {
+                    "id": "50160422",
+                    "speaker": "Player",
+                    "text": "I don't think Citlali noticed anything..."
+                },
+                {
+                    "id": "50160423",
+                    "speaker": "Paimon",
+                    "text": "She did say that she was quite adept at this spell, and it doesn't sound like she's had any trouble with it in the past... Maybe we're a special case and can hear her thoughts as a side effect?"
+                },
+                {
+                    "id": "50160424",
+                    "speaker": "Paimon",
+                    "text": "Ahaha, if you think about it, she's really got a lively inner world... It paints quite a different picture from Paimon's first impression of her!"
+                }
+            ]
+        },
+        {
+            "id": "501605",
+            "objective": "Split up and investigate",
+            "dialogues": []
+        },
+        {
+            "id": "501620",
+            "objective": "Continue investigating the clues in the area",
+            "dialogues": []
+        },
+        {
+            "id": "501606",
+            "objective": "Check the remaining traces at the scene",
+            "dialogues": [
+                {
+                    "id": "50160601",
+                    "speaker": "Player",
+                    "text": "(There are traces of phlogiston here, but...)"
+                },
+                {
+                    "id": "50160602",
+                    "speaker": "Paimon",
+                    "text": "Did you find something?",
+                    "choices": [
+                        {
+                            "id": "50160603",
+                            "text": "I found some traces of phlogiston.",
+                            "response": [
+                                {
+                                    "id": "50160605",
+                                    "speaker": "Paimon",
+                                    "text": "Huh. So we can't tell where Ororon might have gone from here."
+                                },
+                                {
+                                    "id": "50160606",
+                                    "speaker": "Paimon",
+                                    "text": "That's weird! The phlogiston trail suddenly stops. We can't make anything of these footprints, either..."
+                                },
+                                {
+                                    "id": "50160607",
+                                    "speaker": "Paimon",
+                                    "text": "But he can't have just evaporated into thin air, right? We know he wasn't alone. He had all those Fatui with him..."
+                                },
+                                {
+                                    "id": "50160608",
+                                    "speaker": "Player",
+                                    "text": "(Paimon's right. This is all extremely strange. Also...)"
+                                },
+                                {
+                                    "id": "50160609",
+                                    "speaker": "???",
+                                    "text": "(...So, you can hear the sounds of the wind from beneath the earth.)"
+                                },
+                                {
+                                    "id": "50160610",
+                                    "speaker": "Player",
+                                    "text": "(Huh!? Whose voice was that just now...?)"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "50160604",
+                            "text": "But the trail completely ends here."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "501607",
+            "objective": "Check the remaining traces at the scene",
+            "dialogues": [
+                {
+                    "id": "50160701",
+                    "speaker": "Player",
+                    "text": "(The Night Kingdom!? How did I get here?)"
+                },
+                {
+                    "id": "50160702",
+                    "speaker": "???",
+                    "text": "I'm very sorry, but please do not move. I have no desire to hurt you."
+                },
+                {
+                    "id": "50160703",
+                    "speaker": "Player",
+                    "text": "(...!)"
+                },
+                {
+                    "id": "50160704",
+                    "speaker": "???",
+                    "text": "I apologize that our first meeting has to take place like this... It's just that, you're much like one of those animals with ears that perk up as soon as it senses danger in their environment."
+                },
+                {
+                    "id": "50160705",
+                    "speaker": "???",
+                    "text": "And given your combat proficiency, I would not have been able to gain an advantage over you if we were anywhere else in the world. However, you're now in the Night Kingdom, a familiar domain to the Masters of the Night-Wind."
+                },
+                {
+                    "id": "50160706",
+                    "speaker": "???",
+                    "text": "Hello, Traveler. I am Ororon, the one you've been searching for."
+                },
+                {
+                    "id": "50160707",
+                    "speaker": "Player",
+                    "text": "...But what does this mean? Have you escaped the Fatui's custody?"
+                },
+                {
+                    "id": "50160708",
+                    "speaker": "Ororon",
+                    "text": "Ah... The Fatui's custody. I see, so even Granny has told you that I was coerced by the Fatui. I'm afraid you've been brought here by a lie, like a false omen in the lingering smoke."
+                },
+                {
+                    "id": "50160709",
+                    "speaker": "Ororon",
+                    "text": "My friend and I only left those traces to lure you here. Deceiving you was never our true intent, however. It was simply... the fastest and most feasible way for us to set up a meeting."
+                },
+                {
+                    "id": "50160710",
+                    "speaker": "Player",
+                    "text": "It's... The Captain!?"
+                },
+                {
+                    "id": "50160711",
+                    "speaker": "\"The Captain\"",
+                    "text": "Greetings, Traveler from afar."
+                },
+                {
+                    "id": "50160712",
+                    "speaker": "Ororon",
+                    "text": "#{M#Be careful with this Traveler. His soul is temporarily restrained by us and appears to have become more fragile in the process. It's taking all my concentration to hold onto him.}{F#Be careful with this Traveler. Her soul is temporarily restrained by us and appears to have become more fragile in the process. It's taking all my concentration to hold onto her.}"
+                },
+                {
+                    "id": "50160713",
+                    "speaker": "\"The Captain\"",
+                    "text": "It was I who tasked Ororon with leaving the traces to lead you here, and I who used the Masters' ritual to bring your soul to the Night Kingdom.",
+                    "choices": [
+                        {
+                            "id": "50160714",
+                            "text": "So, you are working together.",
+                            "response": [
+                                {
+                                    "id": "50160716",
+                                    "speaker": "\"The Captain\"",
+                                    "text": "I've heard much about you from the past encounters you've had with my colleagues. Given the present situation in Natlan, I would like to sincerely request a formal meeting with you... in person."
+                                },
+                                {
+                                    "id": "50160717",
+                                    "speaker": "\"The Captain\"",
+                                    "text": "I will use the opportunity to explain my goals and motivations to you, as well as why I mistrust Mavuika, the Pyro Archon. I believe there is little reason for you to blindly follow her plan."
+                                },
+                                {
+                                    "id": "50160718",
+                                    "speaker": "\"The Captain\"",
+                                    "text": "If you would like to hear our intel, then find us to the east of the Stadium. But remember, not a word of this to anyone. I would like to avoid any further conflict."
+                                },
+                                {
+                                    "id": "50160719",
+                                    "speaker": "Ororon",
+                                    "text": "You will see me again once you return to reality. No matter what I say, please help me keep this a secret. This is all to avoid dragging Granny into this conflict."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "50160715",
+                            "text": "What do you want?"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "501608",
+            "objective": "Check the remaining traces at the scene",
+            "dialogues": [
+                {
+                    "id": "50160801",
+                    "speaker": "Player",
+                    "text": "...!"
+                },
+                {
+                    "id": "50160802",
+                    "speaker": "Paimon",
+                    "text": "Hey, what happened just now!? You suddenly collapsed and stopped responding!"
+                },
+                {
+                    "id": "50160803",
+                    "speaker": "Player",
+                    "text": "Ah... I'm fine."
+                },
+                {
+                    "id": "50160804",
+                    "speaker": "Player",
+                    "text": "(Was my soul forcibly removed from my body just now? That would explain why I couldn't hear Paimon at all.)"
+                },
+                {
+                    "id": "50160805",
+                    "speaker": "Citlali",
+                    "text": "Hey, why are you sitting on the ground? Are you okay?"
+                },
+                {
+                    "id": "50160806",
+                    "speaker": "Paimon",
+                    "text": "#Citlali! {M#He}{F#She} froze for a moment and then just collapsed to the ground..."
+                },
+                {
+                    "id": "50160807",
+                    "speaker": "Citlali",
+                    "text": "Could it have been those leftover remnants from the Night Kingdom? Do you have any itches or pain anywhere?"
+                },
+                {
+                    "id": "50160808",
+                    "speaker": "Player",
+                    "text": "I'm fine, just a little lightheaded."
+                },
+                {
+                    "id": "50160809",
+                    "speaker": "Citlali",
+                    "text": "Don't worry, we can take a short break. Sorry, I know I asked for your help... but had I known you were feeling unwell, I wouldn't have taken you on this trip with me."
+                },
+                {
+                    "id": "50160810",
+                    "speaker": "Player",
+                    "text": "(If they were being truthful, then they must have reasonable motivations for what they did. But should I trust them?)"
+                },
+                {
+                    "id": "50160811",
+                    "speaker": "Player",
+                    "text": "(I could just share everything with Paimon and Citlali right now, but that'd mean giving up on the lead. I still haven't had much dealings with either the Fatui or the Masters of Night-Wind... I suppose I'll stay quiet for now, and see if I can find out anything else.)"
+                },
+                {
+                    "id": "50160812",
+                    "speaker": "Paimon",
+                    "text": "If you're feeling sick, you should just say so! Citlali should be able to, uh, exorcise any ghosts or weird stuff that you picked up in the Night Kingdom!"
+                },
+                {
+                    "id": "50160813",
+                    "speaker": "Citlali",
+                    "text": "A seasoned traveler must know the importance of not pushing yourself beyond your limit. If you need anything from me, just say the word."
+                },
+                {
+                    "id": "50160814",
+                    "speaker": "Player",
+                    "text": "Thanks, everyone. I'm feeling fine now."
+                },
+                {
+                    "id": "50160815",
+                    "speaker": "Citlali",
+                    "text": "In any case, let's take a bit more time to rest now."
+                },
+                {
+                    "id": "50160816",
+                    "speaker": "Black Screen",
+                    "text": "Even though the situation remains quite urgent, you take a longer break with Paimon and Citlali."
+                },
+                {
+                    "id": "50160817",
+                    "speaker": "Black Screen",
+                    "text": "Ororon's words still echo in your mind. Meanwhile, Citlali continues to keep her eyes on you and even performs another checkup."
+                },
+                {
+                    "id": "50160818",
+                    "speaker": "Citlali",
+                    "text": "Tsk, need to be more careful next time..."
+                },
+                {
+                    "id": "50160819",
+                    "speaker": "Paimon",
+                    "text": "#Feeling better yet, {NICKNAME}?"
+                },
+                {
+                    "id": "50160820",
+                    "speaker": "Citlali",
+                    "text": "Alright, let's get ready."
+                },
+                {
+                    "id": "50160821",
+                    "speaker": "Citlali",
+                    "text": "I followed my phlogiston trail earlier to a stronghold guarded by soldiers. I have a feeling that Ororon is probably being held inside."
+                },
+                {
+                    "id": "50160822",
+                    "speaker": "Paimon",
+                    "text": "Oh, so it's close by? Then let's head over right away!"
+                },
+                {
+                    "id": "50160823",
+                    "speaker": "Player",
+                    "text": "I'm so sorry... I didn't realize I was holding you up..."
+                },
+                {
+                    "id": "50160824",
+                    "speaker": "Citlali",
+                    "text": "Well, I recruited you to be my helper, which means we're in this together. Like the wind and the clouds, we either move as one or not at all."
+                },
+                {
+                    "id": "50160825",
+                    "speaker": "Citlali",
+                    "text": "...But if you want to make it up to me, then just be sure to fight extra hard when the time comes."
+                }
+            ]
+        },
+        {
+            "id": "501609",
+            "objective": "Go to the campsite that Citlali found",
+            "dialogues": [
+                {
+                    "id": "50160901",
+                    "speaker": "Citlali",
+                    "text": "Look over there."
+                },
+                {
+                    "id": "50160902",
+                    "speaker": "Paimon",
+                    "text": "Huh, Paimon thinks she sees someone in the middle of the camp!"
+                },
+                {
+                    "id": "50160903",
+                    "speaker": "Citlali",
+                    "text": "That's Ororon. So he really was taken by the Fatui."
+                },
+                {
+                    "id": "50160904",
+                    "speaker": "Player",
+                    "text": "(So, that's Ororon... He does look the same as when I spoke to him in the Night Kingdom earlier.)"
+                },
+                {
+                    "id": "50160905",
+                    "speaker": "Paimon",
+                    "text": "Alright! We'll take the lead!"
+                },
+                {
+                    "id": "50160906",
+                    "speaker": "Ororon",
+                    "text": "..."
+                },
+                {
+                    "id": "50160907",
+                    "speaker": "Kosterlitzky",
+                    "text": "Hey! Quit daydreaming! Don't you have work to do?"
+                },
+                {
+                    "id": "50160908",
+                    "speaker": "Ororon",
+                    "text": "...I cannot see the sun."
+                },
+                {
+                    "id": "50160909",
+                    "speaker": "Kosterlitzky",
+                    "text": "What?"
+                },
+                {
+                    "id": "50160910",
+                    "speaker": "Ororon",
+                    "text": "Without the sun, I cannot see the truth. You are currently blocking the light, so I must beseech you to move aside."
+                },
+                {
+                    "id": "50160911",
+                    "speaker": "Kosterlitzky",
+                    "text": "Huh? Okay, Mr. Philosopher, that's enough mumbo-jumbo!"
+                },
+                {
+                    "id": "50160912",
+                    "speaker": "Citlali",
+                    "text": "Wow... I'm going to rip that guy's head right off!"
+                },
+                {
+                    "id": "50160913",
+                    "speaker": "Paimon",
+                    "text": "(Citlali's struggling to control her temper now...)"
+                },
+                {
+                    "id": "50160914",
+                    "speaker": "Citlali",
+                    "text": "Hmph... Are you ready? Let's go kick their butts!"
+                },
+                {
+                    "id": "50160915",
+                    "speaker": "Citlali",
+                    "text": "On my count... Three, two, one!"
+                }
+            ]
+        },
+        {
+            "id": "501610",
+            "objective": "Defeat the opponents",
+            "dialogues": []
+        },
+        {
+            "id": "501611",
+            "objective": "Confirm Ororon's situation",
+            "dialogues": [
+                {
+                    "id": "50161101",
+                    "speaker": "Citlali",
+                    "text": "Ororon!"
+                },
+                {
+                    "id": "50161102",
+                    "speaker": "Ororon",
+                    "text": "Granny!"
+                },
+                {
+                    "id": "50161103",
+                    "speaker": "Paimon",
+                    "text": "Um... Paimon knows she's called Granny Itztli, but it's still kinda weird hearing someone actually call her \"Granny\"..."
+                },
+                {
+                    "id": "50161104",
+                    "speaker": "Ororon",
+                    "text": "#And greetings to you... {M#Gramps.}{F#other Granny.}"
+                },
+                {
+                    "id": "50161105",
+                    "speaker": "Player",
+                    "text": "#{M#Gramps}{F#Granny}!?"
+                },
+                {
+                    "id": "50161106",
+                    "speaker": "Paimon",
+                    "text": "#What did you just call {M#him}{F#her}!?"
+                },
+                {
+                    "id": "50161107",
+                    "speaker": "Ororon",
+                    "text": "#{M#Gramps. Is that not right? You're Granny's friend, are you not? You seem to be approximately the same age as her, so I figured you've got to be \"Gramps.\"}{F#Granny. Is that not right? You are Granny's friend, are you not? You seem to be approximately the same age as her, so I figured you're also a \"Granny.\"}"
+                },
+                {
+                    "id": "50161108",
+                    "speaker": "Citlali",
+                    "text": "How many times have I told you? It doesn't work like that. There are a lot of people who look about the same age as me! You can't go around calling everyone \"gramps\" or \"granny\"!"
+                },
+                {
+                    "id": "50161109",
+                    "speaker": "Paimon",
+                    "text": "Wait wait wait, he's not a child, is he? Don't tell Paimon he's one of those people who look like an adult but are actually only eight or nine years old!"
+                },
+                {
+                    "id": "50161110",
+                    "speaker": "Ororon",
+                    "text": "Your words have pierced my heart like a thorned vine. Given how hard those thorns are to remove, I may just need to find a pair of tweezers..."
+                },
+                {
+                    "id": "50161111",
+                    "speaker": "Paimon",
+                    "text": "Why are you so upset? You can just say yes or no!"
+                },
+                {
+                    "id": "50161112",
+                    "speaker": "Ororon",
+                    "text": "Of course I'm not a child. It's just, Granny always taught me to show gratitude where it's due. And since the Masters of the Night-Wind raised me collectively, I basically see everyone above a certain age as an elder I should look up to."
+                },
+                {
+                    "id": "50161113",
+                    "speaker": "Player",
+                    "text": "(The way he talks has definitely changed, but it doesn't feel like he's putting on an act. He asked me to do whatever I could to help keep things a secret, and even said it'd be for Citlali's sake...)",
+                    "choices": [
+                        {
+                            "id": "50161114",
+                            "text": "So you treat everyone like they're your Uncles and Aunties?",
+                            "response": [
+                                {
+                                    "id": "50161116",
+                                    "speaker": "Ororon",
+                                    "text": "Exactly."
+                                },
+                                {
+                                    "id": "50161117",
+                                    "speaker": "Paimon",
+                                    "text": "Uh, but if you keep that up, then everyone's going to be your senior..."
+                                },
+                                {
+                                    "id": "50161118",
+                                    "speaker": "Citlali",
+                                    "text": "And do you think saying all of this is gonna save you from a scolding, Ororon?"
+                                },
+                                {
+                                    "id": "50161119",
+                                    "speaker": "Ororon",
+                                    "text": "..."
+                                },
+                                {
+                                    "id": "50161120",
+                                    "speaker": "Citlali",
+                                    "text": "Haven't I told you a hundred times since you were a kid? Heed the three warnings!"
+                                },
+                                {
+                                    "id": "50161121",
+                                    "speaker": "Ororon",
+                                    "text": "Be wary of beasts prowling around, scammers looking for their next victim, and strange people who appear out of nowhere."
+                                },
+                                {
+                                    "id": "50161122",
+                                    "speaker": "Citlali",
+                                    "text": "Oh, so you do remember, and you just chose to ignore them! I always knew that living on your own was going to get you into trouble sooner or later, but getting kidnapped? That really takes the cake!"
+                                },
+                                {
+                                    "id": "50161123",
+                                    "speaker": "Citlali",
+                                    "text": "You won't always be able to rely on other people coming to your rescue, you know! You're just lucky we got here when we did, or we might be launching another search-and-rescue operation to find out where they put your severed head."
+                                },
+                                {
+                                    "id": "50161124",
+                                    "speaker": "Ororon",
+                                    "text": "I'm sorry, Granny. I'll be more careful next time."
+                                },
+                                {
+                                    "id": "50161125",
+                                    "speaker": "Citlali",
+                                    "text": "Next time!? Ohoho, good one! You think there'll be a next time after this!? Not a chance!"
+                                },
+                                {
+                                    "id": "50161126",
+                                    "speaker": "Ororon",
+                                    "text": "..."
+                                },
+                                {
+                                    "id": "50161127",
+                                    "speaker": "Citlali",
+                                    "text": "Hmph... They didn't hurt you, did they?"
+                                },
+                                {
+                                    "id": "50161128",
+                                    "speaker": "Ororon",
+                                    "text": "No, they just asked me a lot of questions about Natlan's terrain and made me draw a map of the Ley Line distribution."
+                                },
+                                {
+                                    "id": "50161129",
+                                    "speaker": "Citlali",
+                                    "text": "Okay, now answer me honestly... Were you the one who helped The Captain escape after his battle with the Pyro Archon?"
+                                },
+                                {
+                                    "id": "50161130",
+                                    "speaker": "Ororon",
+                                    "text": "Yes."
+                                },
+                                {
+                                    "id": "50161131",
+                                    "speaker": "Citlali",
+                                    "text": "So why did you do it?"
+                                },
+                                {
+                                    "id": "50161132",
+                                    "speaker": "Ororon",
+                                    "text": "Because..."
+                                },
+                                {
+                                    "id": "50161133",
+                                    "speaker": "Ororon",
+                                    "text": "Because they said they would need my help from there on out. They also said that if I refused, they'd just come to you, Granny, and they'd already figured out a way to make you do their bidding."
+                                },
+                                {
+                                    "id": "50161134",
+                                    "speaker": "Citlali",
+                                    "text": "Hey! I'm no ordinary granny! Would they really dare to come after me? And you! Did the gods give you a brain just for you not to use it? Did you really believe everything they said at face value, and not stop to think?"
+                                },
+                                {
+                                    "id": "50161135",
+                                    "speaker": "Citlali",
+                                    "text": "Thankfully, the Pyro Archon only asked that we find the \"mysterious individual from the Masters of the Night-Wind,\" and didn't slap your name on a wanted poster. Don't think for a second that she doesn't know what's happening."
+                                },
+                                {
+                                    "id": "50161136",
+                                    "speaker": "Citlali",
+                                    "text": "\"Even if the truth that you see will soon manifest into reality, there is still no need to preemptively panic.\" Have you forgotten the words that I've taught you?"
+                                },
+                                {
+                                    "id": "50161137",
+                                    "speaker": "Ororon",
+                                    "text": "I'm sorry."
+                                },
+                                {
+                                    "id": "50161138",
+                                    "speaker": "Citlali",
+                                    "text": "...Hmph. Forget it."
+                                },
+                                {
+                                    "id": "50161139",
+                                    "speaker": "Citlali",
+                                    "text": "We can submit the details of this camp and the defeated Fatui as evidence of your innocence."
+                                },
+                                {
+                                    "id": "50161140",
+                                    "speaker": "Citlali",
+                                    "text": "Let's clean this place up and get back to the city. Ororon, you better remember this lesson well and seriously reflect on your actions. Also, once we return to the city, come to the Speaker's Chamber with me. I'll need you to explain everything."
+                                },
+                                {
+                                    "id": "50161141",
+                                    "speaker": "Ororon",
+                                    "text": "Sounds good. Should I bring some of my homegrown vegetables as well?"
+                                },
+                                {
+                                    "id": "50161142",
+                                    "speaker": "Paimon",
+                                    "text": "Your... vegetables?"
+                                },
+                                {
+                                    "id": "50161143",
+                                    "speaker": "Ororon",
+                                    "text": "Yes. I grow a lot of fresh produce in my garden. I hope the Pyro Archon won't be too picky about the selection."
+                                },
+                                {
+                                    "id": "50161144",
+                                    "speaker": "Citlali",
+                                    "text": "Ugh, now's not the time to be thinking about that. If you do come face to face with the Pyro Archon, the first thing you should do is..."
+                                },
+                                {
+                                    "id": "50161145",
+                                    "speaker": "Ororon",
+                                    "text": "Recite the three warnings."
+                                },
+                                {
+                                    "id": "50161146",
+                                    "speaker": "Citlali",
+                                    "text": "Huh!? No, you should emphasize that you were not in cahoots with the Fatui!"
+                                },
+                                {
+                                    "id": "50161147",
+                                    "speaker": "Paimon",
+                                    "text": "How exactly did the Masters raise this guy..."
+                                },
+                                {
+                                    "id": "50161148",
+                                    "speaker": "Ororon",
+                                    "text": "Oh... right."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "50161115",
+                            "text": "So you treat everyone like they're your Gramps and Grannies?"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "501612",
+            "objective": "Go to the Speaker's Chamber",
+            "dialogues": [
+                {
+                    "id": "50161201",
+                    "speaker": "Black Screen",
+                    "text": "You return to the city and Citlali brings you to the Speaker's Chamber, where you recount everything that has happened to Ororon."
+                },
+                {
+                    "id": "50161202",
+                    "speaker": "Coyopa",
+                    "text": "...I see. So Ororon came to The Captain's rescue because he promised to help him in exchange for Citlali's safety."
+                },
+                {
+                    "id": "50161203",
+                    "speaker": "Ororon",
+                    "text": "That's right. I'm sorry."
+                },
+                {
+                    "id": "50161204",
+                    "speaker": "Citlali",
+                    "text": "Now that you know Ororon was only trying to protect another member of his tribe, could I ask you to petition the Pyro Archon for her forgiveness?"
+                },
+                {
+                    "id": "50161205",
+                    "speaker": "Coyopa",
+                    "text": "We will give her a full report. We'll let you know once she has reached a decision."
+                },
+                {
+                    "id": "50161206",
+                    "speaker": "Ororon",
+                    "text": "Will I need to stay here?"
+                },
+                {
+                    "id": "50161207",
+                    "speaker": "Coyopa",
+                    "text": "Technically, yes. But if Ms. Citlali is willing to serve as your guarantor, then we can release you from custody."
+                },
+                {
+                    "id": "50161208",
+                    "speaker": "Citlali",
+                    "text": "Sure, I'd be happy to do that. I don't have any more time to waste here — I still have other things to do."
+                },
+                {
+                    "id": "50161209",
+                    "speaker": "Coyopa",
+                    "text": "Understood, thank you very much. Mr. Ororon, please report back to the Speaker's Chamber as soon as you've received notice of the Archon's decision."
+                },
+                {
+                    "id": "50161210",
+                    "speaker": "Ororon",
+                    "text": "I understand. Thank you. And thank you too, Granny."
+                },
+                {
+                    "id": "50161211",
+                    "speaker": "Paimon",
+                    "text": "Phew! Well, at least you won't need to hide your face anymore."
+                },
+                {
+                    "id": "50161212",
+                    "speaker": "Citlali",
+                    "text": "#{NICKNAME}, Paimon, thank you very much for your help. And don't worry, I haven't forgotten about my side of the deal."
+                },
+                {
+                    "id": "50161213",
+                    "speaker": "Citlali",
+                    "text": "Once Ororon is settled, I'll go talk to Xilonen and get started on forging an Ancient Name for you."
+                },
+                {
+                    "id": "50161214",
+                    "speaker": "Paimon",
+                    "text": "Oh, thank you!"
+                },
+                {
+                    "id": "50161215",
+                    "speaker": "Player",
+                    "text": "I'll be counting on you."
+                },
+                {
+                    "id": "50161216",
+                    "speaker": "Citlali",
+                    "text": "You scratch my back, I scratch yours. It's as good as done — you can just go twiddle your thumbs or something while you wait for the good news. Bye for now."
+                },
+                {
+                    "id": "50161217",
+                    "speaker": "Citlali",
+                    "text": "Come with me, Ororon. We've got to find you a place to stay for the night."
+                },
+                {
+                    "id": "50161218",
+                    "speaker": "Ororon",
+                    "text": "#Goodbye, {M#Gramps}{F#other Granny}."
+                },
+                {
+                    "id": "50161219",
+                    "speaker": "Player",
+                    "text": "This new grandson of mine is way too polite."
+                },
+                {
+                    "id": "50161220",
+                    "speaker": "Ororon",
+                    "text": "..."
+                },
+                {
+                    "id": "50161221",
+                    "speaker": "Player",
+                    "text": "(That look on his face... He's probably trying to remind me about my promise.)"
+                },
+                {
+                    "id": "50161222",
+                    "speaker": "Player",
+                    "text": "(He doesn't strike me as a liar... Had I not seen everything for myself, I'd have never guessed that he could have done so much work behind Citlali's back. What does he really want...?)"
+                },
+                {
+                    "id": "50161223",
+                    "speaker": "Paimon",
+                    "text": "Whew! We're finally done! Alright, it's time to find some grub..."
+                },
+                {
+                    "id": "50161224",
+                    "speaker": "Player",
+                    "text": "Paimon, there's something I need to tell you."
+                },
+                {
+                    "id": "50161225",
+                    "speaker": "Paimon",
+                    "text": "#Huh? What is it, {NICKNAME}?"
+                },
+                {
+                    "id": "50161226",
+                    "speaker": "Black Screen",
+                    "text": "You pull Paimon aside and tell her everything that you saw earlier when you collapsed."
+                },
+                {
+                    "id": "50161227",
+                    "speaker": "Paimon",
+                    "text": "Whaaat!? The Captain!?"
+                },
+                {
+                    "id": "50161228",
+                    "speaker": "Player",
+                    "text": "Keep your voice down!"
+                },
+                {
+                    "id": "50161229",
+                    "speaker": "Paimon",
+                    "text": "Ahh, sorry! P—Paimon just didn't see that coming! So, you really saw him in the Night Kingdom? And he didn't attack you?"
+                },
+                {
+                    "id": "50161230",
+                    "speaker": "Paimon",
+                    "text": "Ugh, that Ororon... What is he up to? He sounded earnest enough just now, Paimon would've never guessed anything was happening!"
+                },
+                {
+                    "id": "50161231",
+                    "speaker": "Paimon",
+                    "text": "All that stuff about protecting Citlali and being forced to help the Fatui... When he's actually been a willing accomplice all along!",
+                    "choices": [
+                        {
+                            "id": "50161232",
+                            "text": "I'm still not completely sure.",
+                            "response": [
+                                {
+                                    "id": "50161234",
+                                    "speaker": "Paimon",
+                                    "text": "Yeah, you're right..."
+                                },
+                                {
+                                    "id": "50161235",
+                                    "speaker": "Paimon",
+                                    "text": "Still, Paimon appreciates you telling her about this! Paimon will support your choice no matter what, so if you wanna go, we can go together."
+                                },
+                                {
+                                    "id": "50161236",
+                                    "speaker": "Paimon",
+                                    "text": "We still have another whole day before the meeting, so we'll just meet with them when the time comes."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "50161233",
+                            "text": "We still need more information."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "501619",
+            "objective": "Wait until 20:00 the next day",
+            "dialogues": []
+        },
+        {
+            "id": "501613",
+            "objective": "Go to the agreed location",
+            "dialogues": [
+                {
+                    "id": "50161301",
+                    "speaker": "Paimon",
+                    "text": "Weird, Paimon doesn't see anyone... Ohh, please don't let this be a trap!"
+                },
+                {
+                    "id": "50161302",
+                    "speaker": "Player",
+                    "text": "...!"
+                },
+                {
+                    "id": "50161303",
+                    "speaker": "Paimon",
+                    "text": "Eek!!! What's that!?"
+                },
+                {
+                    "id": "50161304",
+                    "speaker": "Ororon",
+                    "text": "Good evening. Nice to see you again."
+                },
+                {
+                    "id": "50161305",
+                    "speaker": "Paimon",
+                    "text": "It's you! You shouldn't pop up from behind people like that! What're you, a ghost!?"
+                },
+                {
+                    "id": "50161306",
+                    "speaker": "Ororon",
+                    "text": "I'm terribly sorry. It's just... a force of habit."
+                },
+                {
+                    "id": "50161307",
+                    "speaker": "Paimon",
+                    "text": "Ugh, and what's with you apologizing all the time? You sound so polite and honest but you're actually doing shady stuff behind people's backs!"
+                },
+                {
+                    "id": "50161308",
+                    "speaker": "Ororon",
+                    "text": "You're right, Granny tells me that too. Huh, come to think of it, you remind me of her... Sometimes you two sound really similar, you know."
+                },
+                {
+                    "id": "50161309",
+                    "speaker": "Paimon",
+                    "text": "Oh, so you're gonna call Paimon granny too, now?"
+                },
+                {
+                    "id": "50161310",
+                    "speaker": "Ororon",
+                    "text": "Well... I could.",
+                    "choices": [
+                        {
+                            "id": "50161311",
+                            "text": "So what's the purpose of this meeting?",
+                            "response": [
+                                {
+                                    "id": "50161313",
+                                    "speaker": "Ororon",
+                                    "text": "..."
+                                },
+                                {
+                                    "id": "50161314",
+                                    "speaker": "Ororon",
+                                    "text": "It's all clear. Over to you."
+                                },
+                                {
+                                    "id": "50161315",
+                                    "speaker": "\"The Captain\"",
+                                    "text": "Excellent. The fact that you showed up proves that I was right about your character.",
+                                    "choices": [
+                                        {
+                                            "id": "50161316",
+                                            "text": "I'm only interested in the intel.",
+                                            "response": [
+                                                {
+                                                    "id": "50161318",
+                                                    "speaker": "\"The Captain\"",
+                                                    "text": "Yet, there's been a lot of talk about you. Childe told me that you're passionate about the unknown and willing to take risks. Rather than facing you as an enemy, I would much prefer to bring you to my side."
+                                                },
+                                                {
+                                                    "id": "50161319",
+                                                    "speaker": "\"The Captain\"",
+                                                    "text": "If we allow the current state of things to continue, we will inevitably clash, and that's a scenario that I'd very much like to avoid."
+                                                },
+                                                {
+                                                    "id": "50161320",
+                                                    "speaker": "Player",
+                                                    "text": "Why?"
+                                                },
+                                                {
+                                                    "id": "50161321",
+                                                    "speaker": "\"The Captain\"",
+                                                    "text": "I've long heard of your exploits across the nations. Though you have crossed swords with my colleagues many times, I know that you're by no means an unreasonable person."
+                                                },
+                                                {
+                                                    "id": "50161322",
+                                                    "speaker": "\"The Captain\"",
+                                                    "text": "And once you've learned the truth that the Pyro Archon, Mavuika, would never willingly share with you, you may just find it in your heart to consider my proposal."
+                                                },
+                                                {
+                                                    "id": "50161323",
+                                                    "speaker": "Ororon",
+                                                    "text": "I assume you've already been informed of the Pyro Archon's plan. In order to defeat the Abyss and save Natlan, she still needs two more heroes to appear."
+                                                },
+                                                {
+                                                    "id": "50161324",
+                                                    "speaker": "Paimon",
+                                                    "text": "Wait, how did you know that!? Uh, never mind, guess that's not important now..."
+                                                },
+                                                {
+                                                    "id": "50161325",
+                                                    "speaker": "\"The Captain\"",
+                                                    "text": "I've long kept a close eye on her plan. To be frank, it's an exceedingly risky plan. Will the heroes really appear? And even if they come to her, will their power be enough to drive the Abyss back?"
+                                                },
+                                                {
+                                                    "id": "50161326",
+                                                    "speaker": "\"The Captain\"",
+                                                    "text": "If any part of the plan goes awry, all of Natlan — even all of Teyvat, will pay for her mistakes."
+                                                },
+                                                {
+                                                    "id": "50161327",
+                                                    "speaker": "\"The Captain\"",
+                                                    "text": "Now, you may have been led to believe that this is the only plan available to her. But what if I told you she's had another emergency plan all along, the details of which she has chosen to keep hidden from you?"
+                                                },
+                                                {
+                                                    "id": "50161328",
+                                                    "speaker": "Paimon",
+                                                    "text": "An emergency plan...?"
+                                                },
+                                                {
+                                                    "id": "50161329",
+                                                    "speaker": "\"The Captain\"",
+                                                    "text": "Yes, a way to keep Natlan intact even if her original plan fails. But given the painful cost of its execution, she has chosen to keep it as a mere backup plan."
+                                                },
+                                                {
+                                                    "id": "50161330",
+                                                    "speaker": "\"The Captain\"",
+                                                    "text": "Whether this stems from hesitation, fear, or even naivete, I cannot say. But Natlan cannot afford to wait until she comes to her senses."
+                                                },
+                                                {
+                                                    "id": "50161331",
+                                                    "speaker": "\"The Captain\"",
+                                                    "text": "My fear is that given the enormity of the decision, she will be reluctant to confront the dire reality we face until it is too late. There will be no time left to execute the backup plan, and all of Natlan will be lost to the Abyss."
+                                                },
+                                                {
+                                                    "id": "50161332",
+                                                    "speaker": "\"The Captain\"",
+                                                    "text": "We have to make the decision for her, here and now."
+                                                },
+                                                {
+                                                    "id": "50161333",
+                                                    "speaker": "Player",
+                                                    "text": "That's just your speculation."
+                                                },
+                                                {
+                                                    "id": "50161334",
+                                                    "speaker": "Paimon",
+                                                    "text": "Yeah, do you have any evidence for all of this? Just telling us a bunch of scary stuff isn't enough, you know!"
+                                                },
+                                                {
+                                                    "id": "50161335",
+                                                    "speaker": "Paimon",
+                                                    "text": "Besides, wasn't it you who tried to seize the Gnosis for the Tsaritsa's plan?"
+                                                },
+                                                {
+                                                    "id": "50161336",
+                                                    "speaker": "Player",
+                                                    "text": "(Wait, by seizing the Gnosis and \"making the decision for her,\" could he mean that...)"
+                                                },
+                                                {
+                                                    "id": "50161337",
+                                                    "speaker": "Player",
+                                                    "text": "The Gnosis has something to do with this \"backup plan\"?"
+                                                },
+                                                {
+                                                    "id": "50161338",
+                                                    "speaker": "\"The Captain\"",
+                                                    "text": "I knew you'd be clever enough to see. That's right — I did not seek to seize the Gnosis for the Tsaritsa."
+                                                },
+                                                {
+                                                    "id": "50161339",
+                                                    "speaker": "\"The Captain\"",
+                                                    "text": "Since I was defeated in battle, I must put to rest my thoughts about the Gnosis. But even so, my desire to save Natlan remains unchanged."
+                                                },
+                                                {
+                                                    "id": "50161340",
+                                                    "speaker": "\"The Captain\"",
+                                                    "text": "And now, I have found a new way to solve the crisis. We can implement it immediately if we reach an agreement..."
+                                                },
+                                                {
+                                                    "id": "50161341",
+                                                    "speaker": "\"The Captain\"",
+                                                    "text": "...Hmph."
+                                                },
+                                                {
+                                                    "id": "50161342",
+                                                    "speaker": "Ororon",
+                                                    "text": "Someone's here!"
+                                                },
+                                                {
+                                                    "id": "50161343",
+                                                    "speaker": "Paimon",
+                                                    "text": "Huh? The Captain disappeared!?"
+                                                },
+                                                {
+                                                    "id": "50161344",
+                                                    "speaker": "Ororon",
+                                                    "text": "Something's rapidly approaching... Oh, no!"
+                                                },
+                                                {
+                                                    "id": "50161345",
+                                                    "speaker": "Citlali",
+                                                    "text": "\"Something\"!? Bad news, chump — it's your Granny!"
+                                                },
+                                                {
+                                                    "id": "50161346",
+                                                    "speaker": "Ororon",
+                                                    "text": "Oof!"
+                                                },
+                                                {
+                                                    "id": "50161347",
+                                                    "speaker": "Paimon",
+                                                    "text": "Citlali! Wh—When did you get here?"
+                                                },
+                                                {
+                                                    "id": "50161348",
+                                                    "speaker": "Citlali",
+                                                    "text": "Hmph, I knew something was amiss after we were separated. Hidden ceremonial tools, and an unconscious Traveler... I must say, I'm very curious about what you're up to!"
+                                                },
+                                                {
+                                                    "id": "50161349",
+                                                    "speaker": "Citlali",
+                                                    "text": "How dare you go behind our backs like this, Ororon! Colluding with the Fatui? Really?"
+                                                },
+                                                {
+                                                    "id": "50161350",
+                                                    "speaker": "Ororon",
+                                                    "text": "..."
+                                                },
+                                                {
+                                                    "id": "50161351",
+                                                    "speaker": "Citlali",
+                                                    "text": "Oh, here we go again — cat got your tongue, huh? You really think you can avoid a scolding just by staying quiet?"
+                                                },
+                                                {
+                                                    "id": "50161352",
+                                                    "speaker": "Ororon",
+                                                    "text": "I'm not trying to avoid anything."
+                                                },
+                                                {
+                                                    "id": "50161353",
+                                                    "speaker": "Citlali",
+                                                    "text": "Oho, and now you're talking back! Well, go on then, explain yourself. What the heck are you up to!?"
+                                                },
+                                                {
+                                                    "id": "50161354",
+                                                    "speaker": "Ororon",
+                                                    "text": "I'm sorry, Granny... I feel so guilty..."
+                                                },
+                                                {
+                                                    "id": "50161355",
+                                                    "speaker": "Citlali",
+                                                    "text": "You...! That's it, where are my tools!? I swear, if I don't teach you a lesson right here and now, I'll..."
+                                                },
+                                                {
+                                                    "id": "50161356",
+                                                    "speaker": "Paimon",
+                                                    "text": "Ah wait, Citlali! Please calm down! We still learned a lot of info, didn't we? Like the fact that The Captain isn't trying to seize the Gnosis anymore!"
+                                                },
+                                                {
+                                                    "id": "50161357",
+                                                    "speaker": "Paimon",
+                                                    "text": "So maybe just save the scolding for later, okay?"
+                                                },
+                                                {
+                                                    "id": "50161358",
+                                                    "speaker": "Player",
+                                                    "text": "Yeah, this is no place to discipline a child."
+                                                },
+                                                {
+                                                    "id": "50161359",
+                                                    "speaker": "Citlali",
+                                                    "text": "Listen well, Ororon. You're only getting out of this now because of the Traveler's plea. This isn't over, you hear me?"
+                                                },
+                                                {
+                                                    "id": "50161360",
+                                                    "speaker": "Citlali",
+                                                    "text": "#*sigh* You're right, {NICKNAME}. Let's go. We can discuss this more back in the city. You two keep an eye on Ororon for me, okay?"
+                                                },
+                                                {
+                                                    "id": "50161361",
+                                                    "speaker": "Player",
+                                                    "text": "(Our conversation with The Captain was interrupted at the most crucial moment. But if Ororon's still here, maybe we can still learn the rest from him.)"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "50161317",
+                                            "text": "I don't really care how the Fatui thinks of me."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "50161312",
+                            "text": "Let's get straight to the point."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "501614",
+            "objective": "Return to the Stadium",
+            "dialogues": [
+                {
+                    "id": "50161401",
+                    "speaker": "Citlali",
+                    "text": "Ugh! In all my years, I've never had a child cause me so much grief. Do you seriously not see what's at stake here? You've got a head on your shoulders, Ororon! Use it!"
+                },
+                {
+                    "id": "50161402",
+                    "speaker": "Citlali",
+                    "text": "Why did you help The Captain? And I want the truth this time!"
+                },
+                {
+                    "id": "50161403",
+                    "speaker": "Ororon",
+                    "text": "..."
+                },
+                {
+                    "id": "50161404",
+                    "speaker": "Citlali",
+                    "text": "Hah, no answer? Think you're being smart? Then let me ask a different question. What does The Captain want? What is his purpose in Natlan?"
+                },
+                {
+                    "id": "50161405",
+                    "speaker": "Ororon",
+                    "text": "..."
+                },
+                {
+                    "id": "50161406",
+                    "speaker": "Citlali",
+                    "text": "Really? You're just going to stonewall me!?"
+                },
+                {
+                    "id": "50161407",
+                    "speaker": "Ororon",
+                    "text": "..."
+                },
+                {
+                    "id": "50161408",
+                    "speaker": "Player",
+                    "text": "(Looks like Ororon has no intention of answering her...)"
+                },
+                {
+                    "id": "50161409",
+                    "speaker": "Citlali",
+                    "text": "Just use your brain for a second. What do you possibly stand to gain by helping The Captain? Only endless trouble awaits you and everyone in the tribe."
+                },
+                {
+                    "id": "50161410",
+                    "speaker": "Citlali",
+                    "text": "You've always been a good kid, why would you throw that all away now? If you're worried about something, just talk to me. Granny would much rather we had a conversation instead of constantly clashing like this."
+                },
+                {
+                    "id": "50161411",
+                    "speaker": "Ororon",
+                    "text": "..."
+                },
+                {
+                    "id": "50161412",
+                    "speaker": "Paimon",
+                    "text": "Uh... Why is he staring at us all of a sudden?"
+                },
+                {
+                    "id": "50161413",
+                    "speaker": "Ororon",
+                    "text": "...I'm sorry that you have to hear all this.",
+                    "choices": [
+                        {
+                            "id": "50161414",
+                            "text": "Ahaha... It's fine.",
+                            "response": [
+                                {
+                                    "id": "50161415",
+                                    "speaker": "Ororon",
+                                    "text": "You are very kind. Most people would have fled by now. Not everyone can handle Granny's scolding."
+                                },
+                                {
+                                    "id": "50161422",
+                                    "speaker": "Citlali",
+                                    "text": "Oh? You dare gossip between yourselves instead of listening to me!? You...!"
+                                },
+                                {
+                                    "id": "50161423",
+                                    "speaker": "Paimon",
+                                    "text": "Ah, sorry! Sorry, Granny...!"
+                                },
+                                {
+                                    "id": "50161424",
+                                    "speaker": "Citlali",
+                                    "text": "Hmph... \"sorry, Granny\"... Hehe... hahaha, \"sorry, Granny\"! You know what, fine! I'm perfectly aware that everything I say goes in one ear and out the other. You're all grown up now, so why would you listen to an old hag like me?"
+                                },
+                                {
+                                    "id": "50161425",
+                                    "speaker": "Citlali",
+                                    "text": "You say all the right things, but then you go and completely ignore me. Well, if that's how you're going to treat me, you can stop sending Ifa over to my place to deliver your stupid vegetables. I don't need anything from you."
+                                },
+                                {
+                                    "id": "50161426",
+                                    "speaker": "Paimon",
+                                    "text": "Who's Ifa? A delivery person?"
+                                },
+                                {
+                                    "id": "50161427",
+                                    "speaker": "Citlali",
+                                    "text": "That's irrelevant! The point is, he hangs out with this kid, so he must be no good. Tsk, you kids get to a certain age and suddenly act like you know it all... There's nothing I can say to get through to you."
+                                },
+                                {
+                                    "id": "50161428",
+                                    "speaker": "Citlali",
+                                    "text": "...Ororon, if you're still thinking about that so-called \"duty,\" then please, just forget about it. The Ley Lines did not fall to this state because of you, and we've long closed the book on that incident."
+                                },
+                                {
+                                    "id": "50161429",
+                                    "speaker": "Paimon",
+                                    "text": "Uh, seems they've started talking about some kind of tribal history? Paimon's starting to get lost..."
+                                },
+                                {
+                                    "id": "50161430",
+                                    "speaker": "Ororon",
+                                    "text": "That's not it, Granny."
+                                },
+                                {
+                                    "id": "50161431",
+                                    "speaker": "Player",
+                                    "text": "(Huh? There's something off about that voice...)"
+                                },
+                                {
+                                    "id": "50161432",
+                                    "speaker": "Ororon",
+                                    "text": "I know you tend to get down on yourself when you're upset, but I can tell I've really hurt you this time. All I can say is, I'm sorry."
+                                },
+                                {
+                                    "id": "50161433",
+                                    "speaker": "Citlali",
+                                    "text": "His voice... Ororon!? Where have you gone?"
+                                },
+                                {
+                                    "id": "50161434",
+                                    "speaker": "Paimon",
+                                    "text": "It sounds like he's somewhere super far away, but isn't he right here in front of us...?"
+                                },
+                                {
+                                    "id": "50161435",
+                                    "speaker": "Ororon",
+                                    "text": "I'm really sorry. It's up to all of us to do everything we can to save Natlan, so I've got to go."
+                                },
+                                {
+                                    "id": "50161436",
+                                    "speaker": "Citlali",
+                                    "text": "Get back here this instant! Ororon... Ugh, what is this? Powder from plant spores? Is that the trick he used?"
+                                },
+                                {
+                                    "id": "50161437",
+                                    "speaker": "Paimon",
+                                    "text": "What just happened? How was he able to suddenly get so far away like that?"
+                                },
+                                {
+                                    "id": "50161438",
+                                    "speaker": "Citlali",
+                                    "text": "It's a trick of his! If you grind spores into a powder and spray it in the air, it can be manipulated to create an illusion..."
+                                },
+                                {
+                                    "id": "50161439",
+                                    "speaker": "Citlali",
+                                    "text": "He pulled it off flawlessly, he must have put a lot of time into perfecting it. Don't tell me that's how he's been hunting in the fields these days... Couldn't he have picked up something more useful!?"
+                                },
+                                {
+                                    "id": "50161440",
+                                    "speaker": "Citlali",
+                                    "text": "Ugh, little brat! That's it! The next time we meet, I'm definitely going to break his legs!"
+                                },
+                                {
+                                    "id": "50161441",
+                                    "speaker": "Paimon",
+                                    "text": "Whoa, that's a little extreme... But still, why does he feel like he needs to run from us? If his goal is also to protect Natlan, then can't we work together?"
+                                },
+                                {
+                                    "id": "50161442",
+                                    "speaker": "Player",
+                                    "text": "He still doesn't want to tell us anything about his goals."
+                                },
+                                {
+                                    "id": "50161443",
+                                    "speaker": "Citlali",
+                                    "text": "..."
+                                },
+                                {
+                                    "id": "50161444",
+                                    "speaker": "Citlali",
+                                    "text": "I'm sorry for interrupting your conversation with them earlier. But even if you'd been able to hear them out, there's no guarantee you would have gained anything substantial."
+                                },
+                                {
+                                    "id": "50161445",
+                                    "speaker": "Citlali",
+                                    "text": "Ororon probably did everything he could to get away because he knew I'd get the truth out of him sooner or later. That brat, I swear..."
+                                },
+                                {
+                                    "id": "50161446",
+                                    "speaker": "Player",
+                                    "text": "(The Captain probably has some sort of substantial plan. Otherwise, Ororon would have no reason to keep following him.)"
+                                },
+                                {
+                                    "id": "50161447",
+                                    "speaker": "Player",
+                                    "text": "(Meeting again is out of the cards for now, so it might be faster to just approach the Pyro Archon and confirm what The Captain said. And also...)"
+                                },
+                                {
+                                    "id": "50161448",
+                                    "speaker": "Player",
+                                    "text": "(I can tell that Ororon's stubbornness has hurt Citlali deeply. I need to find a way to comfort her.)"
+                                },
+                                {
+                                    "id": "50161449",
+                                    "speaker": "Player",
+                                    "text": "What was all that about Ororon's \"duty\" earlier?"
+                                },
+                                {
+                                    "id": "50161450",
+                                    "speaker": "Citlali",
+                                    "text": "..."
+                                },
+                                {
+                                    "id": "50161451",
+                                    "speaker": "Citlali",
+                                    "text": "We've got quite a long walk back to the city... let's take our time. It'll give me a moment to figure out how to explain all this."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "50161416",
+                            "text": "Well, it's definitely a little awkward...",
+                            "response": [
+                                {
+                                    "id": "50161417",
+                                    "speaker": "Ororon",
+                                    "text": "Indeed. It's like going to visit a friend at his house, only to suddenly hear your friend berating a naughty Saurian..."
+                                },
+                                {
+                                    "id": "50161418",
+                                    "speaker": "Paimon",
+                                    "text": "Well, that's... an oddly specific analogy! Wait, did one of your friends really do that?"
+                                },
+                                {
+                                    "id": "50161419",
+                                    "speaker": "Ororon",
+                                    "text": "Yes. And every time my friend scolded his Saurians, they would look at me the same way you're looking at me now — helpless and embarrassed."
+                                },
+                                {
+                                    "id": "50161420",
+                                    "speaker": "Paimon",
+                                    "text": "Wait, but you're the one getting your head chewed off! Stop making this about us!"
+                                },
+                                {
+                                    "id": "50161421",
+                                    "speaker": "Ororon",
+                                    "text": "Indeed, you've got a point. Then please just hang in there for a little while longer. Granny should be done with her scolding session soon."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "501615",
+            "objective": "Return to the Stadium",
+            "dialogues": [
+                {
+                    "id": "50161501",
+                    "speaker": "Citlali",
+                    "text": "Do you two have some time? Feeling hungry? How about we get something to eat?"
+                },
+                {
+                    "id": "50161502",
+                    "speaker": "Paimon",
+                    "text": "Oh, right! It's been a while since we last ate... Now that we can relax, Paimon just realized how hungry she is!"
+                },
+                {
+                    "id": "50161503",
+                    "speaker": "Citlali",
+                    "text": "Then let's go. We can find somewhere to sit down and talk. Food and drinks are on me.",
+                    "choices": [
+                        {
+                            "id": "50161504",
+                            "text": "It's okay, we can cover our own bill...",
+                            "response": [
+                                {
+                                    "id": "50161505",
+                                    "speaker": "Paimon",
+                                    "text": "Huh? Really? You're not gonna take her offer?"
+                                },
+                                {
+                                    "id": "50161506",
+                                    "speaker": "Player",
+                                    "text": "..."
+                                },
+                                {
+                                    "id": "50161507",
+                                    "speaker": "Paimon",
+                                    "text": "(Ah, that's right... Citlali has gotten a lot quieter since Ororon ran away. She seems to be having a hard time...)"
+                                },
+                                {
+                                    "id": "50161508",
+                                    "speaker": "Paimon",
+                                    "text": "#{M#He}{F#She}'s right! We're seasoned adventurers, so we're more than capable of paying our own bill!"
+                                },
+                                {
+                                    "id": "50161515",
+                                    "speaker": "Citlali",
+                                    "text": "Hey, come on now? You won't even let me take you out for some food and drinks? *sigh* I just wanted to treat you to a meal..."
+                                },
+                                {
+                                    "id": "50161516",
+                                    "speaker": "Paimon",
+                                    "text": "Are you sure? We can save you some Mora..."
+                                },
+                                {
+                                    "id": "50161517",
+                                    "speaker": "Citlali",
+                                    "text": "Hah, Mora is the least of my concerns. Besides, we're definitely due a meal after all the time we've spent together. Let me get this one — I might be an old hag, but I like to think I'm not completely useless."
+                                },
+                                {
+                                    "id": "50161518",
+                                    "speaker": "Paimon",
+                                    "text": "Sure, that's fine with us, but... Paimon doesn't want you to be sad, Citlali."
+                                },
+                                {
+                                    "id": "50161519",
+                                    "speaker": "Citlali",
+                                    "text": "Haha, don't worry. I'm sure a juicy grilled steak will work wonders."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "50161509",
+                            "text": "Paimon's got a secret food fund, so she can do the honors.",
+                            "response": [
+                                {
+                                    "id": "50161510",
+                                    "speaker": "Paimon",
+                                    "text": "Huh? How did this become Paimon's bill?"
+                                },
+                                {
+                                    "id": "50161511",
+                                    "speaker": "Player",
+                                    "text": "..."
+                                },
+                                {
+                                    "id": "50161512",
+                                    "speaker": "Paimon",
+                                    "text": "(Aww... Citlali looks quite down on herself.)"
+                                },
+                                {
+                                    "id": "50161513",
+                                    "speaker": "Paimon",
+                                    "text": "Alright, alright, it's on Paimon this time! What's one meal to the best guide in Teyvat?"
+                                },
+                                {
+                                    "id": "50161514",
+                                    "speaker": "Paimon",
+                                    "text": "So you can just sit back and enjoy, Citlali! Paimon will take care of it!"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "501616",
+            "objective": "Go to the inn",
+            "dialogues": [
+                {
+                    "id": "50161601",
+                    "speaker": "Black Screen",
+                    "text": "The three of you walk into a tavern and find a quiet spot to sit."
+                },
+                {
+                    "id": "50161602",
+                    "speaker": "Black Screen",
+                    "text": "You and Paimon order some food and fruit juice while Citlali begins chugging down bottle after bottle of wine."
+                },
+                {
+                    "id": "50161603",
+                    "speaker": "Citlali",
+                    "text": "..."
+                },
+                {
+                    "id": "50161604",
+                    "speaker": "Paimon",
+                    "text": "Hm? What are you looking at?"
+                },
+                {
+                    "id": "50161605",
+                    "speaker": "Citlali",
+                    "text": "Do you see two people standing by the door? They look like spitting images of each other. Are they twins?"
+                },
+                {
+                    "id": "50161606",
+                    "speaker": "Paimon",
+                    "text": "But Paimon only sees one person there."
+                },
+                {
+                    "id": "50161607",
+                    "speaker": "Citlali",
+                    "text": "Huh? How could that be... Eh, guess my mind isn't as sharp as it used to be. Get me another bottle, Boss!"
+                },
+                {
+                    "id": "50161608",
+                    "speaker": "Paimon",
+                    "text": "Uh, do you think she's drunk?"
+                },
+                {
+                    "id": "50161609",
+                    "speaker": "Player",
+                    "text": "I'd be surprised if she wasn't..."
+                },
+                {
+                    "id": "50161610",
+                    "speaker": "Chanca",
+                    "text": "There you go, Miss! Oh my, it's not every day you see Granny Itztli here with some friends... Not to mention ones who've made a huge name for themselves recently!"
+                },
+                {
+                    "id": "50161611",
+                    "speaker": "Paimon",
+                    "text": "Oh? So you've heard of us? Ehehe..."
+                },
+                {
+                    "id": "50161612",
+                    "speaker": "Chanca",
+                    "text": "Of course I have. Aren't you the ones who saved Kachina and brought her back? No wonder you hit it off with Granny Citlali — she wouldn't spend time with just anybody, you know. *sigh* I don't even remember the last time I saw her with a new friend..."
+                },
+                {
+                    "id": "50161613",
+                    "speaker": "Paimon",
+                    "text": "Wait, so you call her \"Granny,\" too?"
+                },
+                {
+                    "id": "50161614",
+                    "speaker": "Chanca",
+                    "text": "Well, given our ages, it'd probably be more accurate for me to call her my great-great-granny, haha. She's one of the most famous people at the Masters of the Night-Wind — most days, hardly anyone even dares to talk to her!"
+                },
+                {
+                    "id": "50161615",
+                    "speaker": "Citlali",
+                    "text": "Huh? Gossiping about me right in my face now, are you, Chanca?"
+                },
+                {
+                    "id": "50161616",
+                    "speaker": "Chanca",
+                    "text": "Please, Granny, I wouldn't dare! I'm just beyond happy to see you bring over some new friends. After all, any friends of our regulars are sure to be great customers, too."
+                },
+                {
+                    "id": "50161617",
+                    "speaker": "Citlali",
+                    "text": "Alright, that's enough. Go on, now, I'm sure other customers would like to talk to you as well. There's no need to keep staring at me — I promise I'll keep my alcohol down until I leave."
+                },
+                {
+                    "id": "50161618",
+                    "speaker": "Chanca",
+                    "text": "Ahahaha. Well then, you have my thanks."
+                },
+                {
+                    "id": "50161619",
+                    "speaker": "Black Screen",
+                    "text": "After Chanca leaves, Citlali downs a few more glasses and begins to stare blankly into space from her chair."
+                },
+                {
+                    "id": "50161620",
+                    "speaker": "Black Screen",
+                    "text": "You start wondering whether she's actually drunk, or working through some complex problem in her head."
+                },
+                {
+                    "id": "50161621",
+                    "speaker": "Citlali",
+                    "text": "..."
+                },
+                {
+                    "id": "50161622",
+                    "speaker": "Paimon",
+                    "text": "Citlali? Citlali!"
+                },
+                {
+                    "id": "50161623",
+                    "speaker": "Citlali",
+                    "text": "Ugh... Who's that? Hmph, you got some gall calling me by my first name! *hic* Lemme guess — you wanna test your skills against Granny Itztli, don't ya?"
+                },
+                {
+                    "id": "50161624",
+                    "speaker": "Paimon",
+                    "text": "Uh, are you still with us, Citlali? You're kinda talking to no one..."
+                },
+                {
+                    "id": "50161625",
+                    "speaker": "Citlali",
+                    "text": "Hmph! You chumps come around here, picking fights with me... Well, you know what happens next? You lose, and then run off home to tell everyone about how I'M this big scary bully... It's always the same story. You brats start it, I finish it, and then I end up with the reputation of being some kind of terrible monster among the shamans..."
+                },
+                {
+                    "id": "50161626",
+                    "speaker": "Citlali",
+                    "text": "I mean, c'mon! Monster, me? Really? What did I do to deserve that?"
+                },
+                {
+                    "id": "50161627",
+                    "speaker": "Paimon",
+                    "text": "Granny Citlali, you're not a monster at all!"
+                },
+                {
+                    "id": "50161628",
+                    "speaker": "Citlali",
+                    "text": "Exactly! And while we're at it, I'm not some lazy slacker, either! Between meditation, advising the chief, and speaking with the Wayob, I actually have a pretty packed schedule, y'know..."
+                },
+                {
+                    "id": "50161629",
+                    "speaker": "Citlali",
+                    "text": "...*hic*! Oh yeah, AND I have to mentor after all the new kids! Hey, new kid! Yeah, you!",
+                    "choices": [
+                        {
+                            "id": "50161630",
+                            "text": "Who? Me?",
+                            "response": [
+                                {
+                                    "id": "50161632",
+                                    "speaker": "Citlali",
+                                    "text": "Don't play dumb! Didn't I teach you how to find phlogiston? You see, I know my stuff! I'm a good teacher, you tell 'em!",
+                                    "choices": [
+                                        {
+                                            "id": "50161633",
+                                            "text": "Absolutely!",
+                                            "response": [
+                                                {
+                                                    "id": "50161635",
+                                                    "speaker": "Citlali",
+                                                    "text": "Hmph, that's more like it. 'Bout dang time someone showed me a little respect! Yeah, Granny's a hard worker alright... You can always rely on old Granny... *hic*..."
+                                                },
+                                                {
+                                                    "id": "50161636",
+                                                    "speaker": "Citlali",
+                                                    "text": "Zzz... Zzz..."
+                                                },
+                                                {
+                                                    "id": "50161637",
+                                                    "speaker": "Paimon",
+                                                    "text": "Did she just fall asleep with her eyes open? Oh geez..."
+                                                },
+                                                {
+                                                    "id": "50161638",
+                                                    "speaker": "Citlali",
+                                                    "text": "Behind this pitch-black curtain, a chapter of hatred reveals itself. Behind the smoke, the lingering smoke..."
+                                                },
+                                                {
+                                                    "id": "50161639",
+                                                    "speaker": "Chanca",
+                                                    "text": "Ah, she's meditating again! She does this whenever she's had a few too many drinks. Her mind's actually racing at this point — it's quite the opposite of sleep!"
+                                                },
+                                                {
+                                                    "id": "50161640",
+                                                    "speaker": "Paimon",
+                                                    "text": "Is this another specialty of the Masters of the Night-Wind?"
+                                                },
+                                                {
+                                                    "id": "50161641",
+                                                    "speaker": "Chanca",
+                                                    "text": "No, I'd say it's an ability that's unique to Citlali herself. While she can easily pick up everyone else's skills and tricks, few have been able to master hers."
+                                                },
+                                                {
+                                                    "id": "50161642",
+                                                    "speaker": "Citlali",
+                                                    "text": "Warning... Warning... Red, the red color of danger... has now arisen within that pair of eyes..."
+                                                },
+                                                {
+                                                    "id": "50161643",
+                                                    "speaker": "Citlali",
+                                                    "text": "...Huh!"
+                                                },
+                                                {
+                                                    "id": "50161644",
+                                                    "speaker": "Paimon",
+                                                    "text": "Waaaaaah!"
+                                                },
+                                                {
+                                                    "id": "50161645",
+                                                    "speaker": "Player",
+                                                    "text": "Are you awake?"
+                                                },
+                                                {
+                                                    "id": "50161646",
+                                                    "speaker": "Citlali",
+                                                    "text": "#{NICKNAME}, Paimon...? I..."
+                                                },
+                                                {
+                                                    "id": "50161647",
+                                                    "speaker": "Paimon",
+                                                    "text": "What's wrong?"
+                                                },
+                                                {
+                                                    "id": "50161648",
+                                                    "speaker": "Citlali",
+                                                    "text": "I... I'm gonna hurl... Ughhh..."
+                                                },
+                                                {
+                                                    "id": "50161649",
+                                                    "speaker": "Chanca",
+                                                    "text": "Hang on! Just keep it in!"
+                                                },
+                                                {
+                                                    "id": "50161650",
+                                                    "speaker": "Citlali",
+                                                    "text": "...Phew... Okay, it's passed. That was a close one."
+                                                },
+                                                {
+                                                    "id": "50161651",
+                                                    "speaker": "Paimon",
+                                                    "text": "You had Paimon worried! Paimon really thought you were about to barf all over the table just now!"
+                                                },
+                                                {
+                                                    "id": "50161652",
+                                                    "speaker": "Citlali",
+                                                    "text": "Ugh, how embarrassing... I'm sorry you had to see me like that. It's never happened before, I swear... I've never thrown up. Not once."
+                                                },
+                                                {
+                                                    "id": "50161653",
+                                                    "speaker": "Player",
+                                                    "text": "(We didn't ask about before...!)"
+                                                },
+                                                {
+                                                    "id": "50161654",
+                                                    "speaker": "Paimon",
+                                                    "text": "Are you feeling okay? Wanna take a quick walk and get some fresh air?"
+                                                },
+                                                {
+                                                    "id": "50161655",
+                                                    "speaker": "Citlali",
+                                                    "text": "..."
+                                                },
+                                                {
+                                                    "id": "50161656",
+                                                    "speaker": "Citlali",
+                                                    "text": "There's so much that I want to say, but... I can't."
+                                                },
+                                                {
+                                                    "id": "50161657",
+                                                    "speaker": "Paimon",
+                                                    "text": "Why not? Of course you can, just say whatever's on your mind."
+                                                },
+                                                {
+                                                    "id": "50161658",
+                                                    "speaker": "Citlali",
+                                                    "text": "Please, Paimon, it's not as simple as you think... We've only known each other for a few days, right? What would you think of me if I were to start dumping all my complaints on you after we've only just met?"
+                                                },
+                                                {
+                                                    "id": "50161659",
+                                                    "speaker": "Paimon",
+                                                    "text": "Oh, Paimon gets it! You're hoping that we wouldn't think less of you no matter what you're about to say!"
+                                                },
+                                                {
+                                                    "id": "50161660",
+                                                    "speaker": "Citlali",
+                                                    "text": "Ah? No, that wasn't my point at all! Seriously, don't you youngsters know anything about shame? I'm talking about shame! I've lived all these years and still can't get rid of it... Surely, you know the feeling, too?"
+                                                },
+                                                {
+                                                    "id": "50161661",
+                                                    "speaker": "Paimon",
+                                                    "text": "Um... Actually... About that..."
+                                                },
+                                                {
+                                                    "id": "50161662",
+                                                    "speaker": "Player",
+                                                    "text": "Should we just tell her?"
+                                                },
+                                                {
+                                                    "id": "50161663",
+                                                    "speaker": "Citlali",
+                                                    "text": "Huh? Tell me what?"
+                                                },
+                                                {
+                                                    "id": "50161664",
+                                                    "speaker": "Paimon",
+                                                    "text": "Yeah, this is as good a time as any."
+                                                },
+                                                {
+                                                    "id": "50161665",
+                                                    "speaker": "Player",
+                                                    "text": "Alright, Citlali..."
+                                                },
+                                                {
+                                                    "id": "50161666",
+                                                    "speaker": "Player",
+                                                    "text": "Listen carefully, and try not to get too upset..."
+                                                },
+                                                {
+                                                    "id": "50161667",
+                                                    "speaker": "Black Screen",
+                                                    "text": "You describe the events that took place during Ororon's rescue as objectively, fairly, and impartially as possible."
+                                                },
+                                                {
+                                                    "id": "50161668",
+                                                    "speaker": "Black Screen",
+                                                    "text": "Citlali shared some of her senses with you through a spell, allowing you to temporarily hear her thoughts."
+                                                },
+                                                {
+                                                    "id": "50161669",
+                                                    "speaker": "Citlali",
+                                                    "text": "..."
+                                                },
+                                                {
+                                                    "id": "50161670",
+                                                    "speaker": "Citlali",
+                                                    "text": "So you heard... you heard my..."
+                                                },
+                                                {
+                                                    "id": "50161671",
+                                                    "speaker": "Paimon",
+                                                    "text": "It's okay, Citlali! You had every right to complain about those things!"
+                                                },
+                                                {
+                                                    "id": "50161672",
+                                                    "speaker": "Citlali",
+                                                    "text": "I can't take it anymore! Why do these things happen to me?"
+                                                },
+                                                {
+                                                    "id": "50161673",
+                                                    "speaker": "Citlali",
+                                                    "text": "Hearing me mumble under my breath is one thing, but hearing what I mumble in my own head? That's too much..."
+                                                },
+                                                {
+                                                    "id": "50161674",
+                                                    "speaker": "Citlali",
+                                                    "text": "It's just like when you're rolling on the floor in your pajamas, but you forget to lock the door, and someone bursts in to deliver cabbages and sees the whole thing..."
+                                                },
+                                                {
+                                                    "id": "50161675",
+                                                    "speaker": "Paimon",
+                                                    "text": "So that, uh... happens to you a lot?"
+                                                },
+                                                {
+                                                    "id": "50161676",
+                                                    "speaker": "Citlali",
+                                                    "text": "...It happens to people in general, okay!? Doesn't matter if you're two hundred years old or a thousand years old... Everyone rolls around in their pajamas sometimes! I was just picking something... generic..."
+                                                },
+                                                {
+                                                    "id": "50161677",
+                                                    "speaker": "Citlali",
+                                                    "text": "..."
+                                                },
+                                                {
+                                                    "id": "50161678",
+                                                    "speaker": "Player",
+                                                    "text": "Are you okay? You look dejected."
+                                                },
+                                                {
+                                                    "id": "50161679",
+                                                    "speaker": "Citlali",
+                                                    "text": "Take a walk with me. I have things to share with you."
+                                                },
+                                                {
+                                                    "id": "50161680",
+                                                    "speaker": "Paimon",
+                                                    "text": "Looks like she's completely given up... like those criminals who just confess everything and accept their fate..."
+                                                },
+                                                {
+                                                    "id": "50161681",
+                                                    "speaker": "Player",
+                                                    "text": "We should follow her, just to make sure she doesn't do anything stupid..."
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "50161634",
+                                            "text": "Thank you for all your teachings, ma'am!"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "50161631",
+                            "text": "Guess I'm a \"new kid\"?"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "501617",
+            "objective": "Follow Citlali to a different spot",
+            "dialogues": [
+                {
+                    "id": "50161701",
+                    "speaker": "Citlali",
+                    "text": "Well? Great view, right? I love coming here by myself."
+                },
+                {
+                    "id": "50161702",
+                    "speaker": "Paimon",
+                    "text": "Wow, it's beautiful!"
+                },
+                {
+                    "id": "50161703",
+                    "speaker": "Player",
+                    "text": "Thank you for bringing us here."
+                },
+                {
+                    "id": "50161704",
+                    "speaker": "Citlali",
+                    "text": "Haha, you're making me want to cry..."
+                },
+                {
+                    "id": "50161705",
+                    "speaker": "Paimon",
+                    "text": "Oh no, what do we do? Please don't cry!"
+                },
+                {
+                    "id": "50161706",
+                    "speaker": "Citlali",
+                    "text": "It was an expression, okay? A figure of speech! I'm just... embarrassed. Here you are thanking me, even after you helped me all this time..."
+                },
+                {
+                    "id": "50161707",
+                    "speaker": "Citlali",
+                    "text": "Let's just have a casual conversation. It's easiest that way."
+                },
+                {
+                    "id": "50161708",
+                    "speaker": "Paimon",
+                    "text": "Really? You don't seem like the kind of person who keeps things \"casual\"..."
+                },
+                {
+                    "id": "50161709",
+                    "speaker": "Citlali",
+                    "text": "Well, I guess I used to be more of a stickler for the rules."
+                },
+                {
+                    "id": "50161710",
+                    "speaker": "Citlali",
+                    "text": "And you're right... I don't usually open up to the people of my tribe like this."
+                },
+                {
+                    "id": "50161711",
+                    "speaker": "Citlali",
+                    "text": "I'm just an eccentric old hag to them. That story's been passed down so long, it might as well be true."
+                },
+                {
+                    "id": "50161712",
+                    "speaker": "Paimon",
+                    "text": "But, you're just a regular person!"
+                },
+                {
+                    "id": "50161713",
+                    "speaker": "Citlali",
+                    "text": "Haha, the kids of my tribe would have a heart attack if they heard you say that... \"Granny Itztli is a powerful figure. Be careful around her!\" — that's what they'd say."
+                },
+                {
+                    "id": "50161714",
+                    "speaker": "Paimon",
+                    "text": "Well, you ARE powerful. Are they afraid of you?"
+                },
+                {
+                    "id": "50161715",
+                    "speaker": "Citlali",
+                    "text": "Some are... Others are mad I always come out on top. A few decades like that, and people stop knowing how to deal with you."
+                },
+                {
+                    "id": "50161716",
+                    "speaker": "Citlali",
+                    "text": "What about you? Are you scared of me?"
+                },
+                {
+                    "id": "50161717",
+                    "speaker": "Paimon",
+                    "text": "We don't find you scary at all..."
+                },
+                {
+                    "id": "50161718",
+                    "speaker": "Player",
+                    "text": "Paimon's right."
+                },
+                {
+                    "id": "50161719",
+                    "speaker": "Citlali",
+                    "text": "Hmph... That's because you're not from my tribe. You don't know how many delusions of grandeur I've destroyed just by existing!"
+                },
+                {
+                    "id": "50161720",
+                    "speaker": "Citlali",
+                    "text": "I make people realize that, no matter how hard they work, they'll never become a living legend like me."
+                },
+                {
+                    "id": "50161721",
+                    "speaker": "Citlali",
+                    "text": "Oh, uh... Not to brag or anything! Maybe it's hard to believe. Just... just pretend I never said anything."
+                },
+                {
+                    "id": "50161722",
+                    "speaker": "Paimon",
+                    "text": "We believe you! Xilonen has full faith in your abilities, and Ororon didn't seem scared of you. He thinks of you as his \"Granny,\" right?"
+                },
+                {
+                    "id": "50161723",
+                    "speaker": "Citlali",
+                    "text": "Yes, but Ororon's a special case."
+                },
+                {
+                    "id": "50161724",
+                    "speaker": "Citlali",
+                    "text": "...Mavuika already told you about her plan, and you've given so much help to Ororon and me... You deserved to learn the full truth."
+                },
+                {
+                    "id": "50161725",
+                    "speaker": "Citlali",
+                    "text": "Ororon's... not like other people. As I mentioned, he was abandoned as a child..."
+                },
+                {
+                    "id": "50161726",
+                    "speaker": "Citlali",
+                    "text": "The reason being, his soul is incomplete. The Masters of the Night-Wind view this as a bad omen, capable of bringing about illness and misfortune."
+                },
+                {
+                    "id": "50161727",
+                    "speaker": "Citlali",
+                    "text": "No one knows who his parents were. He was just left on a rock in the wilderness. It's a miracle he wasn't devoured by some wild beast."
+                },
+                {
+                    "id": "50161728",
+                    "speaker": "Citlali",
+                    "text": "The Masters of the Night-Wind believe they can see human souls, and in Ororon's incomplete soul, they saw a possibility for Natlan..."
+                },
+                {
+                    "id": "50161729",
+                    "speaker": "Citlali",
+                    "text": "A possibility... to turn Ororon into a vessel for lost souls."
+                },
+                {
+                    "id": "50161730",
+                    "speaker": "Citlali",
+                    "text": "The ceremony would allow lost souls to gather within him. Ororon would then be sent to the Night Kingdom to return the souls to their rightful place, strengthening the Ley Lines and completing the ceremony."
+                },
+                {
+                    "id": "50161731",
+                    "speaker": "Paimon",
+                    "text": "Wait, that doesn't sound right!",
+                    "choices": [
+                        {
+                            "id": "50161732",
+                            "text": "Sending a living person to the Night Kingdom...",
+                            "response": [
+                                {
+                                    "id": "50161734",
+                                    "speaker": "Citlali",
+                                    "text": "Now, you see the problem."
+                                },
+                                {
+                                    "id": "50161735",
+                                    "speaker": "Citlali",
+                                    "text": "When damage occurs to the Night Kingdom, the souls held within disperse and remain adrift, unable to find a way back to the Ley Lines. This loss of souls damages the Night Kingdom even further."
+                                },
+                                {
+                                    "id": "50161736",
+                                    "speaker": "Citlali",
+                                    "text": "The ceremony can send back countless souls at once, which would benefit the Night Kingdom and the souls themselves. Of course, the vessel, Ororon, would be sacrificed in the process."
+                                },
+                                {
+                                    "id": "50161737",
+                                    "speaker": "Citlali",
+                                    "text": "I wasn't surprised the chief at the time came up with the plan. The Ley Lines were already in a terrible state. A suitable candidate for the ceremony appears, and now you have the chance to make things better... Of course you're going to take it."
+                                },
+                                {
+                                    "id": "50161738",
+                                    "speaker": "Citlali",
+                                    "text": "When the chief asked for my opinion, I didn't give my approval, but I didn't object, either. So, they went ahead with the ceremony... It failed, and Ororon escaped with his life."
+                                },
+                                {
+                                    "id": "50161739",
+                                    "speaker": "Citlali",
+                                    "text": "...Pathetic, isn't it? By not objecting, I basically gave them the go ahead. Maybe they didn't have my explicit approval, but it's not like I did the right thing. If the ceremony was successful, Ororon would probably be dead."
+                                },
+                                {
+                                    "id": "50161740",
+                                    "speaker": "Citlali",
+                                    "text": "Of course, in my tribe, death is rarely something to fear, but what kind of message would we be sending by sentencing a newborn to death? By using a human life as a tool?"
+                                },
+                                {
+                                    "id": "50161741",
+                                    "speaker": "Citlali",
+                                    "text": "It's not right! So, when I learned the ceremony had failed, I was ashamed by my inaction and absolutely relieved by the result."
+                                },
+                                {
+                                    "id": "50161742",
+                                    "speaker": "Citlali",
+                                    "text": "The plan was never a secret. Or, I guess I should say... there was no point to keeping it a secret. A simple investigation from Ororon would reveal everything."
+                                },
+                                {
+                                    "id": "50161743",
+                                    "speaker": "Citlali",
+                                    "text": "Everyone thought he would be happy he survived, and he never really said anything to the contrary. But, just as I was about to put all of it behind me..."
+                                },
+                                {
+                                    "id": "50161744",
+                                    "speaker": "Citlali",
+                                    "text": "He asks this question — \"Would Natlan have been saved if the ceremony succeeded?\""
+                                },
+                                {
+                                    "id": "50161745",
+                                    "speaker": "Paimon",
+                                    "text": "Wait, but... It's not his fault!"
+                                },
+                                {
+                                    "id": "50161746",
+                                    "speaker": "Citlali",
+                                    "text": "He knows that, but he still feels guilty. Ororon has a strong ability to perceive souls. More than any of us, he understands just how dire the situation with Ley Lines has become."
+                                },
+                                {
+                                    "id": "50161747",
+                                    "speaker": "Citlali",
+                                    "text": "Maybe he chose to work with the Fatui because he still thinks he owes a debt to Natlan. I can only imagine what they told him..."
+                                },
+                                {
+                                    "id": "50161748",
+                                    "speaker": "Paimon",
+                                    "text": "Traveler, didn't The Captain say he found a way to solve the crisis? Maybe that's what brought Ororon into this..."
+                                },
+                                {
+                                    "id": "50161749",
+                                    "speaker": "Paimon",
+                                    "text": "Anyway, we can't just let things go on like this... We have to convince him to come back!"
+                                },
+                                {
+                                    "id": "50161750",
+                                    "speaker": "Player",
+                                    "text": "Yeah, that should be our next step."
+                                },
+                                {
+                                    "id": "50161751",
+                                    "speaker": "Paimon",
+                                    "text": "Uhh, you don't look so good, Citlali... Maybe you should head back and get some sleep."
+                                },
+                                {
+                                    "id": "50161752",
+                                    "speaker": "Citlali",
+                                    "text": "Probably drank too much... It's okay, the fresh air is doing me good..."
+                                },
+                                {
+                                    "id": "50161753",
+                                    "speaker": "Citlali",
+                                    "text": "*retch* Okay forget that, I need to go home. I hit it a little too hard..."
+                                },
+                                {
+                                    "id": "50161754",
+                                    "speaker": "Player",
+                                    "text": "Don't worry. You don't have to do any of this alone!"
+                                },
+                                {
+                                    "id": "50161755",
+                                    "speaker": "Citlali",
+                                    "text": "You've helped me so much already. How do I even begin to thank you..."
+                                },
+                                {
+                                    "id": "50161756",
+                                    "speaker": "Paimon",
+                                    "text": "Hey, we're friends, aren't we? Besides, you already said you owe us a favor. So, you don't need to worry about us!"
+                                },
+                                {
+                                    "id": "50161757",
+                                    "speaker": "Citlali",
+                                    "text": "Good point... Well, I'll go home and get some sleep. We can figure out our next move in the morning."
+                                },
+                                {
+                                    "id": "50161758",
+                                    "speaker": "Citlali",
+                                    "text": "\"Friends\"... Haha, I like the sound of that."
+                                },
+                                {
+                                    "id": "50161759",
+                                    "speaker": "Paimon",
+                                    "text": "Ororon's probably back with The Captain, don't you think?"
+                                },
+                                {
+                                    "id": "50161760",
+                                    "speaker": "Player",
+                                    "text": "Yeah. We should tell the Pyro Archon what we learned."
+                                },
+                                {
+                                    "id": "50161761",
+                                    "speaker": "Paimon",
+                                    "text": "You mean about the \"backup plan\"? Do you really believe what The Captain told us?",
+                                    "choices": [
+                                        {
+                                            "id": "50161762",
+                                            "text": "She needs to know regardless.",
+                                            "response": [
+                                                {
+                                                    "id": "50161764",
+                                                    "speaker": "Paimon",
+                                                    "text": "Yeah, you're right. We should just go to her directly."
+                                                },
+                                                {
+                                                    "id": "50161765",
+                                                    "speaker": "Paimon",
+                                                    "text": "But, she's probably asleep. We can find her first thing in the morning. For now, let's... *yawn*... go to bed."
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "50161763",
+                                            "text": "We should just be upfront with her."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "50161733",
+                            "text": "Wouldn't that just kill him?"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "501651",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "50165101",
+                    "speaker": "Citlali",
+                    "text": "Hmm, don't think there's anything here... How about we check out somewhere else?"
+                }
+            ]
+        },
+        {
+            "id": "501699",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "50169901",
+                    "speaker": "Paimon",
+                    "text": "Over here, this way! Hehe, Citlali might say a lot of deep and confusing stuff, but this spell of hers is really something."
+                },
+                {
+                    "id": "50169902",
+                    "speaker": "Citlali",
+                    "text": "What was that?"
+                },
+                {
+                    "id": "50169903",
+                    "speaker": "Paimon",
+                    "text": "Oh, Paimon was just complimenting you! Really!"
+                },
+                {
+                    "id": "50169904",
+                    "speaker": "Paimon",
+                    "text": "Hey, looks like there's a new camp over there!"
+                },
+                {
+                    "id": "50169905",
+                    "speaker": "Citlali",
+                    "text": "Let's go take a look."
+                },
+                {
+                    "id": "50169906",
+                    "speaker": "???",
+                    "text": "(That little brat, I swear... I just hope he hasn't gotten himself into any real trouble.)"
+                },
+                {
+                    "id": "50169907",
+                    "speaker": "Paimon",
+                    "text": "Paimon sees some traces here! Let's follow them and see if we can find anything up ahead."
+                },
+                {
+                    "id": "50169908",
+                    "speaker": "Citlali",
+                    "text": "Still trying to resist? You've got no idea who you're up against."
+                }
+            ]
+        }
+    ]
+}

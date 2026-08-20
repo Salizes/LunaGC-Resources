@@ -1,0 +1,769 @@
+{
+    "quest": {
+        "id": "73015",
+        "title": "Memória de Pedra",
+        "description": "Parece que esse Aranakula medroso foi para o Monumento Yasna, Cogumelos estão por toda parte. Aranakula está acostumado a conviver com terra e sementes, ele deve precisar de ajuda...",
+        "rewards": [
+            {
+                "itemId": 102,
+                "count": 300
+            },
+            {
+                "itemId": 201,
+                "count": 40
+            },
+            {
+                "itemId": 202,
+                "count": 30000
+            },
+            {
+                "itemId": 104003,
+                "count": 3
+            }
+        ],
+        "rewards_formatted": "EXP de Aventura x300, Gema Essencial x40, Mora x30000, EXP do Herói x3",
+        "chapter": {
+            "icon": "UI_ChapterIcon_Sumeru",
+            "id": "10072",
+            "num": "",
+            "title": "Varuna Gatha"
+        },
+        "total_dialogue_lines": 119,
+        "total_speaker_counts": {
+            "Aranakula": 47,
+            "Paimon": 53,
+            "Player": 19
+        }
+    },
+    "talks": [
+        {
+            "id": "7301501",
+            "objective": "Vá até o Monumento Yasna e procure por Aranakula",
+            "dialogues": []
+        },
+        {
+            "id": "7301502",
+            "objective": "Procure por Aranakula",
+            "dialogues": []
+        },
+        {
+            "id": "7301503",
+            "objective": "Fale com Aranakula",
+            "dialogues": [
+                {
+                    "id": "730150301",
+                    "speaker": "Paimon",
+                    "text": "Você deve ser Aranakula!"
+                },
+                {
+                    "id": "730150302",
+                    "speaker": "Aranakula",
+                    "text": "Uau! U-Uma Nara descobriu Aranakula! O-O que ele deve fazer...?"
+                },
+                {
+                    "id": "730150303",
+                    "speaker": "Paimon",
+                    "text": "Não fuja! Arapandu nos disse que você estava aqui!"
+                },
+                {
+                    "id": "730150304",
+                    "speaker": "Aranakula",
+                    "text": "#Já... Já que foi Arapandu que lhes contou, vocês com certeza são {F#boas}{M#bons} Nara."
+                },
+                {
+                    "id": "730150305",
+                    "speaker": "Paimon",
+                    "text": "#Hã? Aranakula, você confiou assim tão facilmente? E se {NICKNAME} fosse {F#uma}{M#um} Nara mau e estivesse usando o nome de Arapandu para lhe enganar?"
+                },
+                {
+                    "id": "730150306",
+                    "speaker": "Aranakula",
+                    "text": "#Oh! Então, Nara dourad{F#a}{M#o} está realmente mentindo para Aranakula? Nara dourad{F#a}{M#o} é realmente {F#uma}{M#um} Nara malvad{F#a}{M#o}?"
+                },
+                {
+                    "id": "730150307",
+                    "speaker": "Paimon",
+                    "text": "Paimon está se sentindo tão culpada do nada..."
+                },
+                {
+                    "id": "730150308",
+                    "speaker": "Player",
+                    "text": "#Não dê ouvidos a Paimon, eu sou {F#uma boa}{M#um bom} Nara."
+                },
+                {
+                    "id": "730150309",
+                    "speaker": "Aranakula",
+                    "text": "#Excelente! Abençoado seja Aramuhukunda! Nara dourad{F#a}{M#o} é realmente {F#boa}{M#bom} Nara. Apesar de Nara {NICKNAME} ser muito mais alt{F#a}{M#o} que Aranakula, Aranakula não tem medo."
+                },
+                {
+                    "id": "730150310",
+                    "speaker": "Aranakula",
+                    "text": "Paimon... Paimon é pequena, por isso Aranakula não tem medo."
+                },
+                {
+                    "id": "730150311",
+                    "speaker": "Paimon",
+                    "text": "Ei!",
+                    "choices": [
+                        {
+                            "id": "730150312",
+                            "text": "Bem, Paimon é realmente bem pequena...",
+                            "response": [
+                                {
+                                    "id": "730150313",
+                                    "speaker": "Paimon",
+                                    "text": "Você vai se meter numa encrenca se subestimar Paimon! Hunf!"
+                                },
+                                {
+                                    "id": "730150316",
+                                    "speaker": "Paimon",
+                                    "text": "Mas, voltando ao ponto, estamos aqui para consertar a Máquina Varuna. Deve haver galhos e folhas da Máquina Varuna nessa parte de Vana, não é?"
+                                },
+                                {
+                                    "id": "730150317",
+                                    "speaker": "Paimon",
+                                    "text": "Arapandu nos pediu para vir ver como as coisas estavam indo, e também para ajudar caso você estivesse em apuros."
+                                },
+                                {
+                                    "id": "730150318",
+                                    "speaker": "Aranakula",
+                                    "text": "Oh! Há muitos inimigos em Vana... Há um caminho seguro, mas tenham cuidado. Há esporos ruins por todo lado. Até o memorial de Nara Varuna..."
+                                },
+                                {
+                                    "id": "730150319",
+                                    "speaker": "Aranakula",
+                                    "text": "#Nara {NICKNAME} é alt{F#a}{M#o} e grande, e talvez forte como Arabalika... Talvez Nara {NICKNAME} possa resolver..."
+                                },
+                                {
+                                    "id": "730150320",
+                                    "speaker": "Aranakula",
+                                    "text": "#...Nara {NICKNAME} talvez possa ajudar."
+                                },
+                                {
+                                    "id": "730150321",
+                                    "speaker": "Paimon",
+                                    "text": "#Bem, nós viemos aqui para ajudar, não é, {NICKNAME}?"
+                                },
+                                {
+                                    "id": "730150322",
+                                    "speaker": "Player",
+                                    "text": "Deixa com a gente."
+                                },
+                                {
+                                    "id": "730150323",
+                                    "speaker": "Aranakula",
+                                    "text": "Aranakula tem outro pedido. Antes de consertarem a Máquina Varuna... Por favor, ajudem-no a encontrar a Memória de Pedra."
+                                },
+                                {
+                                    "id": "730150324",
+                                    "speaker": "Player",
+                                    "text": "... Memória de Pedra?"
+                                },
+                                {
+                                    "id": "730150325",
+                                    "speaker": "Aranakula",
+                                    "text": "Vana não será esquecida, os Aranaras não serão esquecidos, mas os Aranaras deixaram memórias visíveis. Depois que os vilões chegaram, só havia semente do mal em todos os lugares..."
+                                },
+                                {
+                                    "id": "730150326",
+                                    "speaker": "Paimon",
+                                    "text": "Parece que os Aranaras só sabem falar em charadas... Paimon acha que entenderemos quando vermos."
+                                },
+                                {
+                                    "id": "730150327",
+                                    "speaker": "Paimon",
+                                    "text": "Enfim, vamos primeiro para lá com Aranakula!"
+                                },
+                                {
+                                    "id": "730150328",
+                                    "speaker": "Aranakula",
+                                    "text": "#{F#Boa}{M#Bom} Nara! Boa Paimon! Não vamos alertar os inimigos, usemos o caminho seguro."
+                                },
+                                {
+                                    "id": "730150329",
+                                    "speaker": "Paimon",
+                                    "text": "Hã? Os inimigos? Você está falando dos Cogumelos? Não precisa se preocupar com eles!"
+                                },
+                                {
+                                    "id": "730150330",
+                                    "speaker": "Paimon",
+                                    "text": "#Hehe! Escute, Aranakula, Nara {NICKNAME} é muito forte!"
+                                },
+                                {
+                                    "id": "730150331",
+                                    "speaker": "Paimon",
+                                    "text": "Não muito forte, mas sim muuuitooo forte!"
+                                },
+                                {
+                                    "id": "730150332",
+                                    "speaker": "Paimon",
+                                    "text": "Nós derrotamos muitos Cogumelos com Arapandu! Até Arapandu reconhece nossa força!"
+                                },
+                                {
+                                    "id": "730150333",
+                                    "speaker": "Aranakula",
+                                    "text": "#Aranakula entende. Nara {NICKNAME} deve ser forte como Arabalika. Mas, e Paimon?"
+                                },
+                                {
+                                    "id": "730150334",
+                                    "speaker": "Paimon",
+                                    "text": "Paimon? O que tem Paimon?"
+                                },
+                                {
+                                    "id": "730150335",
+                                    "speaker": "Aranakula",
+                                    "text": "Uma vez, Aranakula foi perseguido por um inimigo. Aranakula se escondeu no solo, mas o cavaram para fora..."
+                                },
+                                {
+                                    "id": "730150336",
+                                    "speaker": "Paimon",
+                                    "text": "*Suspiro*..."
+                                },
+                                {
+                                    "id": "730150337",
+                                    "speaker": "Aranakula",
+                                    "text": "Rolou para fora da boca do inimigo. Era molhada, e quente, cheirava à fruta podre..."
+                                },
+                                {
+                                    "id": "730150338",
+                                    "speaker": "Paimon",
+                                    "text": "Uau..."
+                                },
+                                {
+                                    "id": "730150339",
+                                    "speaker": "Aranakula",
+                                    "text": "Se Arabalika não tivesse chegado a tempo, Aranakula teria..."
+                                },
+                                {
+                                    "id": "730150340",
+                                    "speaker": "Paimon",
+                                    "text": "*Choro*..."
+                                },
+                                {
+                                    "id": "730150341",
+                                    "speaker": "Aranakula",
+                                    "text": "Aranakula levou um sermão de Arapandu por muito tempo. O sol se pôs e nasceu de novo. Até as sementes do jardim brotaram."
+                                },
+                                {
+                                    "id": "730150342",
+                                    "speaker": "Paimon",
+                                    "text": "... Que sermão longo!"
+                                },
+                                {
+                                    "id": "730150343",
+                                    "speaker": "Player",
+                                    "text": "Mas o que é que isso tem a ver com Paimon?"
+                                },
+                                {
+                                    "id": "730150344",
+                                    "speaker": "Paimon",
+                                    "text": "Sim, sim, o que é que isso tem a ver com Paimon?"
+                                },
+                                {
+                                    "id": "730150345",
+                                    "speaker": "Aranakula",
+                                    "text": "Aranakula é mais forte que Paimon, mas quase foi comido por um inimigo. Paimon é muito pequena... Muito perigoso!"
+                                },
+                                {
+                                    "id": "730150346",
+                                    "speaker": "Paimon",
+                                    "text": "#Isso... Faz sentido? Espere! {NICKNAME} é muito forte, e vai proteger Paimon, não é?",
+                                    "choices": [
+                                        {
+                                            "id": "730150347",
+                                            "text": "Claro que sim.",
+                                            "response": [
+                                                {
+                                                    "id": "730150348",
+                                                    "speaker": "Paimon",
+                                                    "text": "#Hehe, afinal, Paimon é a melhor amiga de {NICKNAME}!"
+                                                },
+                                                {
+                                                    "id": "730150351",
+                                                    "speaker": "Aranakula",
+                                                    "text": "#Mas, muitos inimigos. Aranakula não pode vencê-los... Hmm... Nara dourad{F#a}{M#o} é poderos{F#a}{M#o}, mas..."
+                                                },
+                                                {
+                                                    "id": "730150352",
+                                                    "speaker": "Aranakula",
+                                                    "text": "Aranakula conhece um caminho seguro. Vamos por ele, está bem?"
+                                                },
+                                                {
+                                                    "id": "730150353",
+                                                    "speaker": "Paimon",
+                                                    "text": "Hã? Aranakula, você tem medo especificamente dos Cogumelos?"
+                                                },
+                                                {
+                                                    "id": "730150354",
+                                                    "speaker": "Aranakula",
+                                                    "text": "*Choro*..."
+                                                },
+                                                {
+                                                    "id": "730150355",
+                                                    "speaker": "Paimon",
+                                                    "text": "Hehe! Paimon entendeu! Mas não é justo usar Paimon como uma desculpa!"
+                                                },
+                                                {
+                                                    "id": "730150356",
+                                                    "speaker": "Paimon",
+                                                    "text": "#Nesse caso, {NICKNAME}, vamos seguir o caminho seguro com Aranakula e vamos ter cuidado para não alertar os Cogumelos no caminho."
+                                                },
+                                                {
+                                                    "id": "730150357",
+                                                    "speaker": "Player",
+                                                    "text": "Eu sou experiente nisso."
+                                                },
+                                                {
+                                                    "id": "730150358",
+                                                    "speaker": "Paimon",
+                                                    "text": "Oh sim, Paimon sente que já fez esse tipo de coisa várias vezes..."
+                                                },
+                                                {
+                                                    "id": "730150359",
+                                                    "speaker": "Aranakula",
+                                                    "text": "Sim! Aranakula leva Nara para o caminho seguro."
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "730150349",
+                                            "text": "Paimon pode fugir primeiro sozinha.",
+                                            "response": [
+                                                {
+                                                    "id": "730150350",
+                                                    "speaker": "Paimon",
+                                                    "text": "#Paimon não fugiria, deixando você para trás, {NICKNAME}! Paimon não faria... Faria?"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "730150314",
+                            "text": "Pequena Paimon, grande energia.",
+                            "response": [
+                                {
+                                    "id": "730150315",
+                                    "speaker": "Paimon",
+                                    "text": "Isso mesmo! Paimon é muito poderosa!"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "7301523",
+            "objective": "#Prossiga sem ser descobert{F#a}{M#o}.",
+            "dialogues": []
+        },
+        {
+            "id": "7301504",
+            "objective": "#Prossiga sem ser descobert{F#a}{M#o}.",
+            "dialogues": []
+        },
+        {
+            "id": "7301521",
+            "objective": "#Prossiga sem ser descobert{F#a}{M#o}.",
+            "dialogues": [
+                {
+                    "id": "730152101",
+                    "speaker": "Paimon",
+                    "text": "Aranara são tão pequenos não é de se espantar que se assustassem ao encontrar um Cogumelo com muitas vezes o seu tamanho."
+                },
+                {
+                    "id": "730152102",
+                    "speaker": "Aranakula",
+                    "text": "Paimon não está assustada?"
+                },
+                {
+                    "id": "730152103",
+                    "speaker": "Paimon",
+                    "text": "Paimon? Claro que não!"
+                },
+                {
+                    "id": "730152104",
+                    "speaker": "Aranakula",
+                    "text": "Aranakula é muito mais forte que Paimon, mas não tem a coragem de Paimon. No caso do Cogumelo atacar de novo, Aranakula se esconde em um <color=#00E1FFFF> lugar seguro</color>..."
+                }
+            ]
+        },
+        {
+            "id": "7301515",
+            "objective": "#Avance sem ser descobert{F#a}{M#o}",
+            "dialogues": [
+                {
+                    "id": "730151501",
+                    "speaker": "Aranakula",
+                    "text": ""
+                }
+            ]
+        },
+        {
+            "id": "7301505",
+            "objective": "#Prossiga sem ser descobert{F#a}{M#o}.",
+            "dialogues": []
+        },
+        {
+            "id": "7301518",
+            "objective": "#Avance sem ser descobert{F#a}{M#o}",
+            "dialogues": []
+        },
+        {
+            "id": "7301506",
+            "objective": "#Prossiga sem ser descobert{F#a}{M#o}.",
+            "dialogues": []
+        },
+        {
+            "id": "7301519",
+            "objective": "#Avance sem ser descobert{F#a}{M#o}",
+            "dialogues": []
+        },
+        {
+            "id": "7301507",
+            "objective": "#Prossiga sem ser descobert{F#a}{M#o}.",
+            "dialogues": []
+        },
+        {
+            "id": "7301520",
+            "objective": "#Avance sem ser descobert{F#a}{M#o}",
+            "dialogues": []
+        },
+        {
+            "id": "7301508",
+            "objective": "Vá ao local mencionado por Aranakula",
+            "dialogues": []
+        },
+        {
+            "id": "7301509",
+            "objective": "Fale com Aranakula",
+            "dialogues": [
+                {
+                    "id": "730150901",
+                    "speaker": "Aranakula",
+                    "text": "#Nara {NICKNAME}, essas são as Memórias de Pedra que os Aranaras deixaram para Nara Varuna."
+                },
+                {
+                    "id": "730150902",
+                    "speaker": "Paimon",
+                    "text": "Chegamos... Paimon estava muito nervosa, não queria ser descoberta pelos Cogumelos no caminho...",
+                    "choices": [
+                        {
+                            "id": "730150903",
+                            "text": "É bom evitar lutar.",
+                            "response": [
+                                {
+                                    "id": "730150904",
+                                    "speaker": "Paimon",
+                                    "text": "Paimon acha que sim..."
+                                },
+                                {
+                                    "id": "730150907",
+                                    "speaker": "Paimon",
+                                    "text": "Hmm... Então essa é a Memória de Pedra? Parece com aquelas placas de pedra dos Aranaras..."
+                                },
+                                {
+                                    "id": "730150908",
+                                    "speaker": "Aranakula",
+                                    "text": "#Nara {NICKNAME}..."
+                                },
+                                {
+                                    "id": "730150909",
+                                    "speaker": "Player",
+                                    "text": "Estou aqui para eliminar as sementes do mal."
+                                },
+                                {
+                                    "id": "730150910",
+                                    "speaker": "Paimon",
+                                    "text": "#Aranakula, não se preocupe. Pode deixar com Nara {NICKNAME}. Será mamão com açúcar!"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "730150905",
+                            "text": "Pense nisto como um armazenamento de comida de emergência na floresta...",
+                            "response": [
+                                {
+                                    "id": "730150906",
+                                    "speaker": "Paimon",
+                                    "text": "?"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "7301510",
+            "objective": "Limpe os Esporos que cobrem as pedras",
+            "dialogues": [
+                {
+                    "id": "730151001",
+                    "speaker": "Aranakula",
+                    "text": "#Sementes malignas. Devem ser eliminadas... Nara {NICKNAME}..."
+                }
+            ]
+        },
+        {
+            "id": "7301511",
+            "objective": "Fale com Aranakula",
+            "dialogues": [
+                {
+                    "id": "730151101",
+                    "speaker": "Aranakula",
+                    "text": "#Oh! Obrigado, Nara {NICKNAME}!"
+                },
+                {
+                    "id": "730151102",
+                    "speaker": "Aranakula",
+                    "text": "Vana se lembra de tudo que aconteceu antes de Nara Varuna chegar. Árvores grandes lembram, sementes também, mas não sabem se Nara Varuna entende..."
+                },
+                {
+                    "id": "730151103",
+                    "speaker": "Aranakula",
+                    "text": "É por isso que deixamos memórias visíveis. Assim, quando Nara Varuna retornar, Nara Varuna saberá que Vana nunca esquece, que os Aranaras nunca esquecem."
+                },
+                {
+                    "id": "730151104",
+                    "speaker": "Paimon",
+                    "text": "Oh, Paimon entendeu agora... As Memórias de Pedra são monumentos memoriais. Falando nisso, humanos também erguem monumentos para se lembrarem de algumas coisas."
+                },
+                {
+                    "id": "730151105",
+                    "speaker": "Player",
+                    "text": "Porque Nara são criaturas com memória ruim."
+                },
+                {
+                    "id": "730151106",
+                    "speaker": "Paimon",
+                    "text": "... Comparado as florestas, Nara são como plantas pequenas que não se tornarão árvores grandes, e não terão anéis em seus troncos para lembrar de tudo..."
+                },
+                {
+                    "id": "730151107",
+                    "speaker": "Aranakula",
+                    "text": "Os Aranaras não deixarão Vana. Os Aranaras sempre estarão com Vana. Mas os Nara vêm e vão, assim como Nara Varuna."
+                },
+                {
+                    "id": "730151108",
+                    "speaker": "Aranakula",
+                    "text": "Existem muitos Aranaras, assim como Vana tem muitas grandes árvores, e muitos Aranaras têm muitos nomes, assim como as grandes árvores têm muitos galhos e folhas."
+                },
+                {
+                    "id": "730151109",
+                    "speaker": "Aranakula",
+                    "text": "#{M#A}{F#O} Nara {M#dourada}{F#dourado} lembra de muitos nomes de muitos Aranaras, lembra que eu sou Aranakula. É como pegar uma folha que caiu, mas sabendo de qual árvore grande veio."
+                },
+                {
+                    "id": "730151110",
+                    "speaker": "Paimon",
+                    "text": "#Para os Aranaras, Nara Varuna é {M#uma}{F#um} Nara especial! É por isso que fizeram um monumento dedicado à {M#ela}{F#ele}."
+                },
+                {
+                    "id": "730151111",
+                    "speaker": "Paimon",
+                    "text": "Mesmo que não seja a mesma coisa, mas já vimos estátuas com faces específicas esculpidas antes..."
+                },
+                {
+                    "id": "730151112",
+                    "speaker": "Player",
+                    "text": "...Estátuas?"
+                },
+                {
+                    "id": "730151113",
+                    "speaker": "Paimon",
+                    "text": "#Sim! Depois de escutar a história de Nara Varuna, {NICKNAME} não ficou com vontade de saber como {M#ela}{F#ele} se parece?"
+                },
+                {
+                    "id": "730151114",
+                    "speaker": "Paimon",
+                    "text": "Já que os Aranaras têm música, talvez sejam bons com outras coisas também! Talvez sejam capazes de esculpir estátuas de pedra realistas?",
+                    "choices": [
+                        {
+                            "id": "730151115",
+                            "text": "Eu adoraria vê-las se você tiver alguma.",
+                            "response": [
+                                {
+                                    "id": "730151116",
+                                    "speaker": "Paimon",
+                                    "text": "#Paimon sabe! Hehe, Nara Varuna, {M#uma}{F#um} Nara dourad{M#a}{F#o}..."
+                                },
+                                {
+                                    "id": "730151119",
+                                    "speaker": "Paimon",
+                                    "text": "Ah! Agora podemos ir curar os galhos e folhas da Máquina Varuna!"
+                                },
+                                {
+                                    "id": "730151120",
+                                    "speaker": "Aranakula",
+                                    "text": "#Aranakula vai levar Nara {NICKNAME} e Paimon lá."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "730151117",
+                            "text": "A arte dos Aranaras é tão simples, é difícil de imaginar...",
+                            "response": [
+                                {
+                                    "id": "730151118",
+                                    "speaker": "Paimon",
+                                    "text": "#Hmmm.... talvez esse tipo de arte seja muito avançado para {M#o}{F#a} {NICKNAME}?"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "7301512",
+            "objective": "Encontre os Galhos com Aranakula",
+            "dialogues": []
+        },
+        {
+            "id": "7301513",
+            "objective": "Fale com Aranakula",
+            "dialogues": [
+                {
+                    "id": "730151301",
+                    "speaker": "Paimon",
+                    "text": "Na verdade, está escondido por aqui. Provavelmente não acharíamos esse lugar sem Aranakula guiar o caminho..."
+                },
+                {
+                    "id": "730151302",
+                    "speaker": "Paimon",
+                    "text": "Onde estão as folhas? Paimon não consegue vê-las."
+                },
+                {
+                    "id": "730151303",
+                    "speaker": "Aranakula",
+                    "text": "As folhas... estão perto de uma árvore aqui perto, mas..."
+                },
+                {
+                    "id": "730151304",
+                    "speaker": "Paimon",
+                    "text": "Hmm... aqui é seguro. Os Cogumelos não vão nos encontrar aqui. Aranakula, você pode esperar por nós aqui."
+                },
+                {
+                    "id": "730151305",
+                    "speaker": "Paimon",
+                    "text": "Arapandu disse que tudo o que precisamos fazer é que as três folhas das pedras virem na mesma direção dos galhos, é isso, certo?"
+                },
+                {
+                    "id": "730151306",
+                    "speaker": "Aranakula",
+                    "text": "#Nara {NICKNAME} e Paimon, obrigado."
+                }
+            ]
+        },
+        {
+            "id": "7301514",
+            "objective": "Faça com que as três Folhas se virem na direção dos Galhos",
+            "dialogues": [
+                {
+                    "id": "730151401",
+                    "speaker": "Aranakula",
+                    "text": "Agora que a Máquina Varuna foi consertada, as sementes ruins se foram, e muitas flores irão crescer no jardim..."
+                }
+            ]
+        },
+        {
+            "id": "7301516",
+            "objective": "Fale com Aranakula",
+            "dialogues": [
+                {
+                    "id": "730151601",
+                    "speaker": "Paimon",
+                    "text": "Aranakula, estamos de volta! Você vai ter que lidar com as coisas agora."
+                },
+                {
+                    "id": "730151602",
+                    "speaker": "Aranakula",
+                    "text": "#Graças a Paimon e graças a Nara {NICKNAME}, Aranakula sabe o que fazer."
+                },
+                {
+                    "id": "730151603",
+                    "speaker": "Paimon",
+                    "text": "Oh! Parece que está tudo bem por aqui também."
+                },
+                {
+                    "id": "730151604",
+                    "speaker": "Player",
+                    "text": "Espero que a floresta volte ao normal em breve."
+                },
+                {
+                    "id": "730151605",
+                    "speaker": "Aranakula",
+                    "text": "Curar a Máquina Varuna com certeza é possível. Mas Marana... precisa ser eliminada, por Sarva, por Vana."
+                },
+                {
+                    "id": "730151606",
+                    "speaker": "Aranakula",
+                    "text": "Até parece que o \"Monumento\" construído para Nara Varuna está coberto de sementes do mal. Por causa da Marana, o \"Pavilhão Ashvattha\" também foi afetado."
+                },
+                {
+                    "id": "730151607",
+                    "speaker": "Aranakula",
+                    "text": "Foi em um momento antes de Nara Varuna vir para Vanarana. Nara e os Aranaras fizeram um jardim juntos. Mas agora..."
+                },
+                {
+                    "id": "730151608",
+                    "speaker": "Paimon",
+                    "text": "Apenas as crianças da Vila Vimara podem vê-los, e para os adultos, os Aranaras só existem em histórias... O jardim original uma vez se tornou um terreno baldio por causa de Marana..."
+                },
+                {
+                    "id": "730151609",
+                    "speaker": "Aranakula",
+                    "text": "Aranakula queria encher o jardim com flores, e Nara esqueceu-se dos Aranaras, mas tudo bem, Nara irá ver flores."
+                },
+                {
+                    "id": "730151610",
+                    "speaker": "Paimon",
+                    "text": "Aranakula..."
+                },
+                {
+                    "id": "730151611",
+                    "speaker": "Aranakula",
+                    "text": "#Nara {NICKNAME}, Paimon, obrigado, Aranakula não se esquecerá."
+                },
+                {
+                    "id": "730151612",
+                    "speaker": "Aranakula",
+                    "text": "Agora, Aranakula vai voltar ao Ponto de Descanso, e Arapandu ficará feliz por saber que o Monumento foi limpo."
+                },
+                {
+                    "id": "730151613",
+                    "speaker": "Aranakula",
+                    "text": "#Então, Nara {NICKNAME} e Paimon gostariam de voltar para o Ponto de Descanso com Aranakula?",
+                    "choices": [
+                        {
+                            "id": "730151614",
+                            "text": "Sim.",
+                            "response": [
+                                {
+                                    "id": "730151615",
+                                    "speaker": "Aranakula",
+                                    "text": "#Me sinto tão seguro de viajar com {M#o}{F#a} Nara dourad{M#o}{F#a}."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "730151616",
+                            "text": "Ainda tenho outras coisas para fazer.",
+                            "response": [
+                                {
+                                    "id": "730151617",
+                                    "speaker": "Aranakula",
+                                    "text": "#Que Aramuhukunda proteja Nara {NICKNAME} e Paimon. Tomem cuidado para não serem engolidos pelos bandidos."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

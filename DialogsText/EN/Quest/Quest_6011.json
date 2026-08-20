@@ -1,0 +1,930 @@
+{
+    "quest": {
+        "id": "6011",
+        "title": "Rest Beyond Reach",
+        "description": "Rerir used the cannon in Nasha Town to obtain a complete body. The chaos caused by the Wild Hunt is far from over...",
+        "rewards": [
+            {
+                "itemId": 102,
+                "count": 875
+            },
+            {
+                "itemId": 201,
+                "count": 30
+            },
+            {
+                "itemId": 202,
+                "count": 38100
+            },
+            {
+                "itemId": 104003,
+                "count": 4
+            },
+            {
+                "itemId": 104013,
+                "count": 7
+            }
+        ],
+        "rewards_formatted": "Adventure EXP x875, Primogem x30, Mora x38100, Hero's Wit x4, Mystic Enhancement Ore x7",
+        "chapter": {
+            "icon": "UI_ChapterIcon_NodKrai",
+            "id": "1601",
+            "num": "Song of the Welkin Moon: Act II",
+            "title": "Elegy of Dust and Lamplight"
+        },
+        "total_dialogue_lines": 155,
+        "total_speaker_counts": {
+            "\"Rächer of Solnari\"": 2,
+            "???": 1,
+            "Aino": 13,
+            "Black Screen": 1,
+            "Dori": 11,
+            "Flins": 34,
+            "Ineffa": 7,
+            "Jahoda": 8,
+            "Lauma": 7,
+            "Nefer": 8,
+            "Paimon": 15,
+            "Player": 26,
+            "The Damselette": 21,
+            "Varka": 1
+        }
+    },
+    "talks": [
+        {
+            "id": "601101",
+            "objective": "Return to Nasha Town and reunite with your companions",
+            "dialogues": [
+                {
+                    "id": "60110101",
+                    "speaker": "Black Screen",
+                    "text": "Everyone convenes, recounting what happened to them and sharing what they've learned..."
+                },
+                {
+                    "id": "60110102",
+                    "speaker": "Lauma",
+                    "text": "Fortunately, we were able to minimize the harm. Only a few townspeople were hurt."
+                },
+                {
+                    "id": "60110103",
+                    "speaker": "Lauma",
+                    "text": "But the Rächer of Solnari has now gained a complete form, while we still know nothing about his goals."
+                },
+                {
+                    "id": "60110104",
+                    "speaker": "Ineffa",
+                    "text": "It seems we have done something akin to releasing a vicious Qucusaur into the wild."
+                },
+                {
+                    "id": "60110105",
+                    "speaker": "Ineffa",
+                    "text": "...I am sorry. Is no one here familiar with Qucusaurs?"
+                },
+                {
+                    "id": "60110106",
+                    "speaker": "Paimon",
+                    "text": "P—Paimon knows what you mean, but that analogy seems more than slightly understated..."
+                },
+                {
+                    "id": "60110107",
+                    "speaker": "Nefer",
+                    "text": "He said that this world means nothing to him, so it is possible that he doesn't have a reason to fight us at the moment."
+                },
+                {
+                    "id": "60110108",
+                    "speaker": "Nefer",
+                    "text": "If his objective had been revenge alone, we would likely have no recourse."
+                },
+                {
+                    "id": "60110109",
+                    "speaker": "Jahoda",
+                    "text": "Is there, uh, still time for me to tender my resignation?"
+                },
+                {
+                    "id": "60110110",
+                    "speaker": "Jahoda",
+                    "text": "Just kidding, just kidding! Don't worry, Boss, I know there's no running now!"
+                },
+                {
+                    "id": "60110111",
+                    "speaker": "Aino",
+                    "text": "So my cannon, my pride and joy, was a hindrance rather than a help... Gah! You know what? I'm gonna dismantle it, right now!",
+                    "choices": [
+                        {
+                            "id": "60110112",
+                            "text": "This wasn't your fault, Aino...",
+                            "response": [
+                                {
+                                    "id": "60110114",
+                                    "speaker": "Paimon",
+                                    "text": "That's right, and it still works on normal Wild Hunt anomalies. Don't let this get you down, Aino!"
+                                },
+                                {
+                                    "id": "60110115",
+                                    "speaker": "Nefer",
+                                    "text": "Flins, we'll need you to attend to the aftermath with the Lightkeepers. Don't worry, I've explained everything to them. You're in the clear."
+                                },
+                                {
+                                    "id": "60110116",
+                                    "speaker": "Flins",
+                                    "text": "My thanks — for that, and for everything else I hear you did to help us arrive at the truth."
+                                },
+                                {
+                                    "id": "60110117",
+                                    "speaker": "Nefer",
+                                    "text": "Had you been willing to show yourself in public more often, you would not have been so easy to isolate, you know."
+                                },
+                                {
+                                    "id": "60110118",
+                                    "speaker": "Flins",
+                                    "text": "Heh, point taken. I will give that some thought."
+                                },
+                                {
+                                    "id": "60110119",
+                                    "speaker": "Flins",
+                                    "text": "Hmm. I suppose that's one way I'd benefit from replacing Sergeant Major Sousi..."
+                                },
+                                {
+                                    "id": "60110120",
+                                    "speaker": "Paimon",
+                                    "text": "You mean, you're being promoted?"
+                                },
+                                {
+                                    "id": "60110121",
+                                    "speaker": "Player",
+                                    "text": "He's joking, Paimon..."
+                                },
+                                {
+                                    "id": "60110122",
+                                    "speaker": "Paimon",
+                                    "text": "Was Paimon the only one who didn't get that?"
+                                },
+                                {
+                                    "id": "60110123",
+                                    "speaker": "Flins",
+                                    "text": "#Well, {NICKNAME}, if you've got a moment, would you like to come with me?"
+                                },
+                                {
+                                    "id": "60110124",
+                                    "speaker": "Flins",
+                                    "text": "There's a certain gentleman I'd like to send off on his final journey."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "60110113",
+                            "text": "Nor was it the cannon's..."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "601114",
+            "objective": "Follow Flins",
+            "dialogues": []
+        },
+        {
+            "id": "601102",
+            "objective": "Follow Flins",
+            "dialogues": [
+                {
+                    "id": "60110201",
+                    "speaker": "Flins",
+                    "text": "This man was like a lighthouse..."
+                },
+                {
+                    "id": "60110202",
+                    "speaker": "Flins",
+                    "text": "Here he lived, as if it were a mere matter of course, and brought light and grace to those around him. But people, once used to illumination, are apt to ignore the lantern's presence."
+                },
+                {
+                    "id": "60110203",
+                    "speaker": "Flins",
+                    "text": "Slowly, gradually, he came to think as such himself."
+                },
+                {
+                    "id": "60110204",
+                    "speaker": "Flins",
+                    "text": "\"I have achieved too little, I must do better, there is more work to be done...\""
+                },
+                {
+                    "id": "60110205",
+                    "speaker": "Flins",
+                    "text": "Perhaps his end was tragic, but I remain proud of the way in which he illuminated the path for others."
+                },
+                {
+                    "id": "60110206",
+                    "speaker": "Flins",
+                    "text": "Every shadow born of the light shall remember it."
+                },
+                {
+                    "id": "60110207",
+                    "speaker": "Paimon",
+                    "text": "Poor guy..."
+                },
+                {
+                    "id": "60110208",
+                    "speaker": "Player",
+                    "text": "I once heard the tale of a Lantern Fae."
+                },
+                {
+                    "id": "60110209",
+                    "speaker": "Flins",
+                    "text": "Heh. I've heard that one, too.",
+                    "choices": [
+                        {
+                            "id": "60110210",
+                            "text": "And I'd like to say the same to him.",
+                            "response": [
+                                {
+                                    "id": "60110212",
+                                    "speaker": "Flins",
+                                    "text": "Is that so?"
+                                },
+                                {
+                                    "id": "60110213",
+                                    "speaker": "Flins",
+                                    "text": "Well, you're right. It may seem that our efforts were in vain, that Rerir achieved his goals."
+                                },
+                                {
+                                    "id": "60110214",
+                                    "speaker": "Flins",
+                                    "text": "But we will pursue him to the last, even if the outcome is not what we wish for."
+                                },
+                                {
+                                    "id": "60110215",
+                                    "speaker": "Flins",
+                                    "text": "It is not dissimilar to the role of a Graveyard Keeper..."
+                                },
+                                {
+                                    "id": "60110216",
+                                    "speaker": "Flins",
+                                    "text": "We do not seek to bring the dead back to life, only to grant them peace."
+                                },
+                                {
+                                    "id": "60110217",
+                                    "speaker": "Player",
+                                    "text": "I'm glad to hear that's how you see it."
+                                },
+                                {
+                                    "id": "60110218",
+                                    "speaker": "Flins",
+                                    "text": "Yeah."
+                                },
+                                {
+                                    "id": "60110219",
+                                    "speaker": "Paimon",
+                                    "text": "Wh—What are you two talking about? Care to explain?"
+                                },
+                                {
+                                    "id": "60110220",
+                                    "speaker": "Player",
+                                    "text": "Not right now, Paimon. I'll tell you when we get back."
+                                },
+                                {
+                                    "id": "60110221",
+                                    "speaker": "Paimon",
+                                    "text": "Okay..."
+                                },
+                                {
+                                    "id": "60110222",
+                                    "speaker": "Flins",
+                                    "text": "Either way, the Lantern Fae is not playing the leading role in these final rites."
+                                },
+                                {
+                                    "id": "60110223",
+                                    "speaker": "Flins",
+                                    "text": "\"Light-bearer, with your blood, you have paved the road to glory and justice.\""
+                                },
+                                {
+                                    "id": "60110224",
+                                    "speaker": "Flins",
+                                    "text": "\"Even as we hurry on, bruised and battered though we may be, stay awhile and look back upon the world and all its love and hatred.\""
+                                },
+                                {
+                                    "id": "60110225",
+                                    "speaker": "Flins",
+                                    "text": "\"Until it closes its eyes in the depths of night, and a lantern lit for you alone flickers softly into life.\""
+                                },
+                                {
+                                    "id": "60110226",
+                                    "speaker": "Flins",
+                                    "text": "Thank you for everything, Sergeant Major Sousi."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "60110211",
+                            "text": "There's no need to be so fixated on the outcome."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "601110",
+            "objective": "Follow Luonnotar",
+            "dialogues": [
+                {
+                    "id": "60110801",
+                    "speaker": "Aino",
+                    "text": "Flins? Don't see you coming around here often. Just feel free to take a look. I'm busy right now."
+                },
+                {
+                    "id": "60110802",
+                    "speaker": "Flins",
+                    "text": "Well, I've come to visit you, Miss Aino. Here — I've brought some snacks from town in their traditional butter flavor. So, where should I leave them..."
+                },
+                {
+                    "id": "60110803",
+                    "speaker": "Aino",
+                    "text": "Shh! ... Ineffa might hear you."
+                },
+                {
+                    "id": "60110804",
+                    "speaker": "Aino",
+                    "text": "...So, what's the occasion? Are you... gonna to say that the Ratniki will be taking over all Wild Hunt incidents after that hiccup with the cannon?"
+                },
+                {
+                    "id": "60110805",
+                    "speaker": "Flins",
+                    "text": "And criticize a genius like yourself on account of results that none of us could anticipate? We would not be that crass."
+                },
+                {
+                    "id": "60110806",
+                    "speaker": "Flins",
+                    "text": "If we really did do that, I daresay we shall never again see technological breakthroughs."
+                },
+                {
+                    "id": "60110807",
+                    "speaker": "Aino",
+                    "text": "Hmph. Sweet-talker..."
+                },
+                {
+                    "id": "60110808",
+                    "speaker": "Flins",
+                    "text": "It gladdens me to have set your heart at ease."
+                },
+                {
+                    "id": "60110809",
+                    "speaker": "Aino",
+                    "text": "Anyway, what's the matter, exactly?"
+                },
+                {
+                    "id": "60110810",
+                    "speaker": "Flins",
+                    "text": "Well. Could you help me repair this lantern? I did bring it to Nasha Town to get it fixed, but it broke again during our previous battle."
+                },
+                {
+                    "id": "60110811",
+                    "speaker": "Aino",
+                    "text": "You want a genius like me to go fix a lantern?"
+                },
+                {
+                    "id": "60110812",
+                    "speaker": "Flins",
+                    "text": "Oh, my apologies. Perhaps this request should be better directed to Miss Ineffa, and perhaps the snacks too..."
+                },
+                {
+                    "id": "60110813",
+                    "speaker": "Aino",
+                    "text": "Wh—Wh—Wh... I... I mean, I can totally do this, no problem. Wait right there. I'll be done before you can say \"Fix-it!\""
+                },
+                {
+                    "id": "60110814",
+                    "speaker": "Flins",
+                    "text": "Much obliged, then."
+                },
+                {
+                    "id": "60110815",
+                    "speaker": "Aino",
+                    "text": "And next time this happens to you, make sure to come to me first, you hear?"
+                }
+            ]
+        },
+        {
+            "id": "601103",
+            "objective": "Follow Luonnotar",
+            "dialogues": [
+                {
+                    "id": "60110401",
+                    "speaker": "Ineffa",
+                    "text": "Krumkake creation complete. Please, enjoy while it's hot."
+                },
+                {
+                    "id": "60110402",
+                    "speaker": "Lauma",
+                    "text": "Thank you for going to the trouble of remembering that, Miss Ineffa. May this taste bear witness to a friendship that will endure forever and a day."
+                },
+                {
+                    "id": "60110403",
+                    "speaker": "Ineffa",
+                    "text": "Understood. However, I fear that krumkakes do not keep for that long. A week at most may pass before their taste deteriorates."
+                },
+                {
+                    "id": "60110404",
+                    "speaker": "Lauma",
+                    "text": "Hehe, that's not quite what I meant by... Hmm?"
+                },
+                {
+                    "id": "60110405",
+                    "speaker": "Ineffa",
+                    "text": "Oh? We appear to have some guests."
+                },
+                {
+                    "id": "60110406",
+                    "speaker": "Lauma",
+                    "text": "Ah, they must have followed the aroma of the krumkake... It's alright, come closer. Ineffa is a friend."
+                },
+                {
+                    "id": "60110407",
+                    "speaker": "Ineffa",
+                    "text": "Affirmative. In fact, I can devise a cereal omelette based on individual preferences, before crushing it into servings to share around."
+                },
+                {
+                    "id": "60110408",
+                    "speaker": "Lauma",
+                    "text": "..."
+                },
+                {
+                    "id": "60110409",
+                    "speaker": "Ineffa",
+                    "text": "What are they saying?"
+                },
+                {
+                    "id": "60110410",
+                    "speaker": "Lauma",
+                    "text": "They... are discussing your address. They wish to go home with you."
+                }
+            ]
+        },
+        {
+            "id": "601109",
+            "objective": "Follow Luonnotar",
+            "dialogues": [
+                {
+                    "id": "60110501",
+                    "speaker": "Jahoda",
+                    "text": "Boss, I... Do you remember that thing... that I wanted to ask your opinion about?"
+                },
+                {
+                    "id": "60110502",
+                    "speaker": "Jahoda",
+                    "text": "On a scale of 1 to 10, how much effort should the Curatorium of Secrets put in if we were to work with others again?"
+                },
+                {
+                    "id": "60110503",
+                    "speaker": "Nefer",
+                    "text": "Hehe."
+                },
+                {
+                    "id": "60110504",
+                    "speaker": "Jahoda",
+                    "text": "Is that a 1? Isn't that kinda low..."
+                },
+                {
+                    "id": "60110505",
+                    "speaker": "Nefer",
+                    "text": "Guess again."
+                },
+                {
+                    "id": "60110506",
+                    "speaker": "Jahoda",
+                    "text": "Wait, you mean zero? But wouldn't we just be slapping our brand on the joint venture and calling it a day? Why even team up at that point?"
+                },
+                {
+                    "id": "60110507",
+                    "speaker": "Nefer",
+                    "text": "*sigh* ...Jahoda."
+                },
+                {
+                    "id": "60110508",
+                    "speaker": "Nefer",
+                    "text": "What I mean to say is that there is neither an upper nor lower limit."
+                },
+                {
+                    "id": "60110509",
+                    "speaker": "Jahoda",
+                    "text": "Huh! That's just like you, Boss, always thinking ahead..."
+                },
+                {
+                    "id": "60110510",
+                    "speaker": "Jahoda",
+                    "text": "Wait a minute, that's not an answer at all, is it? C'mon, just give me a number, boss, please!"
+                }
+            ]
+        },
+        {
+            "id": "601111",
+            "objective": "Follow Luonnotar",
+            "dialogues": [
+                {
+                    "id": "60110901",
+                    "speaker": "Dori",
+                    "text": "Hmm? What brings you here? Didn't expect to see you around again..."
+                },
+                {
+                    "id": "60110902",
+                    "speaker": "Paimon",
+                    "text": "And where have you been, huh? Didn't run away or anything, did ya?"
+                },
+                {
+                    "id": "60110903",
+                    "speaker": "Dori",
+                    "text": "Oh, of course not! I was simply elsewhere discussing business deals."
+                },
+                {
+                    "id": "60110904",
+                    "speaker": "Dori",
+                    "text": "Indeed, it was all thanks to you that my little store was saved. *sob* I am grateful. So grateful..."
+                },
+                {
+                    "id": "60110905",
+                    "speaker": "Player",
+                    "text": "Okay, okay, you can cut it with the acting now..."
+                },
+                {
+                    "id": "60110906",
+                    "speaker": "Dori",
+                    "text": "What? Why, I wasn't acting in the slightest!"
+                },
+                {
+                    "id": "60110907",
+                    "speaker": "Dori",
+                    "text": "And didn't I tell you that my prices were reasonable? Ah, but you still turned to that Curatorium of Secrets, or whatever it is they call it."
+                },
+                {
+                    "id": "60110908",
+                    "speaker": "Dori",
+                    "text": "*sigh* If even regulars such as you abandon ship like this, what can a businesswoman do but take her wares elsewhere...?"
+                },
+                {
+                    "id": "60110909",
+                    "speaker": "Player",
+                    "text": "You're way too wary of the Curatorium..."
+                },
+                {
+                    "id": "60110910",
+                    "speaker": "Dori",
+                    "text": "And how should I not be, hmm? Running small overseas enterprises is no mean feat — never mind when such formidable competition exists..."
+                },
+                {
+                    "id": "60110911",
+                    "speaker": "Dori",
+                    "text": "Ah, forget it. Fortune and destiny are as one, so there is no use complaining."
+                },
+                {
+                    "id": "60110912",
+                    "speaker": "Dori",
+                    "text": "It's not as if Nefer did me no favors on account of our common homeland when I first arrived."
+                },
+                {
+                    "id": "60110913",
+                    "speaker": "Dori",
+                    "text": "If anything is to blame, it is the lack of opportunity to have her owe me in turn, big time!"
+                },
+                {
+                    "id": "60110914",
+                    "speaker": "Dori",
+                    "text": "Now then! Should she ever need anything, you make sure — no, make doubly sure — to inform me first, alright?"
+                }
+            ]
+        },
+        {
+            "id": "601113",
+            "objective": "Leave this place",
+            "dialogues": []
+        },
+        {
+            "id": "601104",
+            "objective": "Follow Luonnotar",
+            "dialogues": []
+        },
+        {
+            "id": "601105",
+            "objective": "Follow Luonnotar",
+            "dialogues": []
+        },
+        {
+            "id": "601106",
+            "objective": "Talk to The Damselette",
+            "dialogues": [
+                {
+                    "id": "60110601",
+                    "speaker": "Paimon",
+                    "text": "Columbina! What are you doing here?"
+                },
+                {
+                    "id": "60110602",
+                    "speaker": "The Damselette",
+                    "text": "Hmm? Was it not you who recommended such walkabouts to me?"
+                },
+                {
+                    "id": "60110603",
+                    "speaker": "Paimon",
+                    "text": "Yeah, but aren't you afraid the Fatui will see you?"
+                },
+                {
+                    "id": "60110604",
+                    "speaker": "The Damselette",
+                    "text": "Sandrone seems uninterested in my capture, and the others are unlikely to risk making contact at all. They have more troublesome affairs to deal with."
+                },
+                {
+                    "id": "60110605",
+                    "speaker": "Player",
+                    "text": "(Rerir, if I had to guess... He is a threat to all who live in Nod-Krai.)"
+                },
+                {
+                    "id": "60110606",
+                    "speaker": "Paimon",
+                    "text": "Well, it's good to come out for a walk either way. So, how do you feel? Is Nasha Town to your liking?"
+                },
+                {
+                    "id": "60110607",
+                    "speaker": "The Damselette",
+                    "text": "Mmm... The flow of kuuvahki is somewhat turbulent, and the people are ill at ease."
+                },
+                {
+                    "id": "60110608",
+                    "speaker": "The Damselette",
+                    "text": "However..."
+                },
+                {
+                    "id": "60110609",
+                    "speaker": "Paimon",
+                    "text": "However?"
+                },
+                {
+                    "id": "60110610",
+                    "speaker": "The Damselette",
+                    "text": "Is this where you purchased the dishes you \"treated\" me to?"
+                },
+                {
+                    "id": "60110611",
+                    "speaker": "Paimon",
+                    "text": "(Are you serious? That's what she's concerned about? Berries and Fried Meat?)"
+                },
+                {
+                    "id": "60110612",
+                    "speaker": "Paimon",
+                    "text": "Um, well, we can take you to grab a bite if you'd like to. There's all sorts of delicious stuff out here that you won't get to try at home."
+                },
+                {
+                    "id": "60110613",
+                    "speaker": "The Damselette",
+                    "text": "...You've been quite subdued. Thorny questions on your mind, perhaps?",
+                    "choices": [
+                        {
+                            "id": "60110614",
+                            "text": "I'm concerned about Rerir...",
+                            "response": [
+                                {
+                                    "id": "60110615",
+                                    "speaker": "The Damselette",
+                                    "text": "I could not gain any insight into his schemes, I fear."
+                                },
+                                {
+                                    "id": "60110616",
+                                    "speaker": "The Damselette",
+                                    "text": "Now that he has donned a shape and form, selling his power short would prove a fatal error."
+                                },
+                                {
+                                    "id": "60110617",
+                                    "speaker": "The Damselette",
+                                    "text": "But that power of his plays host to an obsession that borders on mania."
+                                },
+                                {
+                                    "id": "60110618",
+                                    "speaker": "The Damselette",
+                                    "text": "I cannot say if that fixation is directed at the moons or at something else..."
+                                },
+                                {
+                                    "id": "60110619",
+                                    "speaker": "The Damselette",
+                                    "text": "Perhaps understanding the subject of his fixation shall prove key to repelling him in the future...",
+                                    "choices": [
+                                        {
+                                            "id": "60110620",
+                                            "text": "Let's talk about the Fatui...",
+                                            "response": [
+                                                {
+                                                    "id": "60110621",
+                                                    "speaker": "The Damselette",
+                                                    "text": "Well, Sandrone's daily routine is highly irregular, while The Doctor often orders people around. As for Arlecchino..."
+                                                },
+                                                {
+                                                    "id": "60110622",
+                                                    "speaker": "The Damselette",
+                                                    "text": "Hmm? Was that not what you were curious about?"
+                                                },
+                                                {
+                                                    "id": "60110623",
+                                                    "speaker": "The Damselette",
+                                                    "text": "Well then. Have you been to that Experimental Design Bureau of theirs? That \"weapon\" will play a key role in the Tsaritsa's plan. That's what I've heard, anyway."
+                                                },
+                                                {
+                                                    "id": "60110624",
+                                                    "speaker": "The Damselette",
+                                                    "text": "And what plan is that, precisely? Well, I cannot say I care.",
+                                                    "choices": [
+                                                        {
+                                                            "id": "60110614",
+                                                            "text": "I'm concerned about Rerir..."
+                                                        },
+                                                        {
+                                                            "id": "60110625",
+                                                            "text": "I've been thinking about our spaceship...",
+                                                            "response": [
+                                                                {
+                                                                    "id": "60110626",
+                                                                    "speaker": "The Damselette",
+                                                                    "text": "I could look into the Eternal Moon's marrow for you, if you wish it so."
+                                                                },
+                                                                {
+                                                                    "id": "60110627",
+                                                                    "speaker": "The Damselette",
+                                                                    "text": "But after our previous attempt, I suspect your spaceship has been intentionally hidden away."
+                                                                },
+                                                                {
+                                                                    "id": "60110628",
+                                                                    "speaker": "The Damselette",
+                                                                    "text": "Perhaps someone has certain truths they wish to hide from you, or from others."
+                                                                },
+                                                                {
+                                                                    "id": "60110629",
+                                                                    "speaker": "The Damselette",
+                                                                    "text": "And I doubt there are many who could accomplish such a feat.",
+                                                                    "choices": [
+                                                                        {
+                                                                            "id": "60110614",
+                                                                            "text": "I'm concerned about Rerir..."
+                                                                        },
+                                                                        {
+                                                                            "id": "60110620",
+                                                                            "text": "Let's talk about the Fatui..."
+                                                                        },
+                                                                        {
+                                                                            "id": "60110630",
+                                                                            "text": "I'm good for now.",
+                                                                            "response": [
+                                                                                {
+                                                                                    "id": "60110631",
+                                                                                    "speaker": "The Damselette",
+                                                                                    "text": "I... still wish to return to the moon that belongs to me."
+                                                                                },
+                                                                                {
+                                                                                    "id": "60110632",
+                                                                                    "speaker": "The Damselette",
+                                                                                    "text": "That is where the answers lie buried. That... is my true \"home.\""
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "id": "60110630",
+                                                            "text": "I'm good for now."
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "60110625",
+                                            "text": "I've been thinking about our spaceship..."
+                                        },
+                                        {
+                                            "id": "60110630",
+                                            "text": "I'm good for now."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "60110620",
+                            "text": "Let's talk about the Fatui..."
+                        },
+                        {
+                            "id": "60110625",
+                            "text": "I've been thinking about our spaceship..."
+                        },
+                        {
+                            "id": "60110630",
+                            "text": "I'm good for now."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "601107",
+            "objective": "Epilogue",
+            "dialogues": [
+                {
+                    "id": "60110701",
+                    "speaker": "\"Rächer of Solnari\"",
+                    "text": "...Interesting."
+                },
+                {
+                    "id": "60110702",
+                    "speaker": "\"Rächer of Solnari\"",
+                    "text": "You've followed me this far. Why not show your face?"
+                },
+                {
+                    "id": "60110703",
+                    "speaker": "???",
+                    "text": "Haha, right, right! Right you are. I forgot to introduce myself."
+                },
+                {
+                    "id": "60110704",
+                    "speaker": "Varka",
+                    "text": "The name's Varka. Knight of Boreas, and Grand Master of the Knights of Favonius."
+                }
+            ]
+        },
+        {
+            "id": "601108",
+            "objective": "Epilogue",
+            "dialogues": []
+        },
+        {
+            "id": "601110",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "60111001",
+                    "speaker": "Aino",
+                    "text": "\"Fix my lantern,\" he says. Puh-lease! This won't take ten minutes!"
+                },
+                {
+                    "id": "60111002",
+                    "speaker": "Aino",
+                    "text": "If only everyone knew what the heck they were doing..."
+                },
+                {
+                    "id": "60111003",
+                    "speaker": "Aino",
+                    "text": "Take that Hintsa for instance. How in the world do you end up creating an integrated controller for the cannon AND the barrier from random components people ask you to fix!? Ugh, gives me a headache just thinking about it..."
+                },
+                {
+                    "id": "60111004",
+                    "speaker": "Aino",
+                    "text": "I gave him a real earful, and told him to send me regular reports — if he's been working on it lately, I wanna hear about it! *sigh* Y—Yeah, I mean, I know I'm partly at fault too, alright?"
+                }
+            ]
+        },
+        {
+            "id": "601111",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "60111101",
+                    "speaker": "Flins",
+                    "text": "#Ah, fancy meeting you here, {NICKNAME}. I've decided my lantern has earned itself some thorough maintenance after that rather intense battle."
+                },
+                {
+                    "id": "60111102",
+                    "speaker": "Flins",
+                    "text": "Thank you for keeping my secrets, despite knowing as much as you do.",
+                    "choices": [
+                        {
+                            "id": "60111103",
+                            "text": "I didn't have time to ask this before, but...",
+                            "response": [
+                                {
+                                    "id": "60111105",
+                                    "speaker": "Flins",
+                                    "text": "Well, because otherwise, I'd get in trouble with the Starshyna. If they couldn't detect my own lantern, I suspect the higher-ups would foist a standard-issue Ratnik lantern on me."
+                                },
+                                {
+                                    "id": "60111106",
+                                    "speaker": "Flins",
+                                    "text": "A Ratnik carrying two lanterns — imagine that! It would be an aesthetic transgression of the highest order. Hehe."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "60111104",
+                            "text": "Why were the Lightkeepers able to detect your lantern?"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "601199",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "60119901",
+                    "speaker": "Paimon",
+                    "text": "Hey, it's Luonnotar... Should we go after her? Or do you have someone else you'd like to meet?"
+                }
+            ]
+        }
+    ]
+}

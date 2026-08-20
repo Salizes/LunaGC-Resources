@@ -1,0 +1,2519 @@
+{
+    "quest": {
+        "id": "72167",
+        "title": "Uma Autora Muito Exigente",
+        "description": "Katheryne parece ter uma nova tarefa para você.",
+        "rewards": [
+            {
+                "itemId": 102,
+                "count": 450
+            },
+            {
+                "itemId": 201,
+                "count": 50
+            },
+            {
+                "itemId": 104003,
+                "count": 5
+            },
+            {
+                "itemId": 202,
+                "count": 50000
+            },
+            {
+                "itemId": 104013,
+                "count": 4
+            }
+        ],
+        "rewards_formatted": "EXP de Aventura x450, Gema Essencial x50, EXP do Herói x5, Mora x50000, Minério de Refinamento Místico x4",
+        "chapter": {
+            "icon": "UI_ChapterIcon_Common",
+            "id": "10044",
+            "num": "",
+            "title": "As Crônicas do Mar de Neblina"
+        },
+        "total_dialogue_lines": 436,
+        "total_speaker_counts": {
+            "???": 3,
+            "Abe": 5,
+            "Ipe": 19,
+            "Kama": 34,
+            "Katheryne": 8,
+            "Kina": 3,
+            "Kito": 4,
+            "Makiri": 13,
+            "Onkami": 2,
+            "Paimon": 86,
+            "Player": 123,
+            "Ruu": 28,
+            "Sumida": 97,
+            "Tasuku": 7,
+            "Una": 4
+        }
+    },
+    "talks": [
+        {
+            "id": "7216701",
+            "objective": "Fale com Katheryne da Guilda de Aventureiros de Inazuma",
+            "dialogues": [
+                {
+                    "id": "721670101",
+                    "speaker": "Katheryne",
+                    "text": "A senhorita Etsuko me contou dos seus feitos na Ilha Seirai. Eles foram incríveis."
+                },
+                {
+                    "id": "721670102",
+                    "speaker": "Katheryne",
+                    "text": "#Mas, voltando ao assunto, a Guilda recebeu uma missão ainda mais difícil que a que você completou na Ilha Seirai. Será que você estaria interessad{F#a}{M#o}?",
+                    "choices": [
+                        {
+                            "id": "721670103",
+                            "text": "Ainda mais difícil?",
+                            "response": [
+                                {
+                                    "id": "721670110",
+                                    "speaker": "Katheryne",
+                                    "text": "A pessoa que solicitou essa missão é uma tal de Senhorita Sumida. Quanto aos detalhes, talvez seja melhor você perguntar a ela pessoalmente."
+                                },
+                                {
+                                    "id": "721670111",
+                                    "speaker": "Katheryne",
+                                    "text": "Bem, ad astra abyssosque! Aguardo ansiosamente pelo seu próximo feito."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "721670104",
+                            "text": "Algo como \"ainda mais perigosa?\"",
+                            "response": [
+                                {
+                                    "id": "721670105",
+                                    "speaker": "Katheryne",
+                                    "text": "...Você consideraria esse tipo de missão difícil? Hmm, suponho que devo levar isso em consideração da próxima vez..."
+                                },
+                                {
+                                    "id": "721670106",
+                                    "speaker": "Katheryne",
+                                    "text": "..."
+                                },
+                                {
+                                    "id": "721670107",
+                                    "speaker": "Katheryne",
+                                    "text": "Entretanto, não é uma missão como aquela."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "721670108",
+                            "text": "Até mesmo os Mensageiros dos Fatui já caíram sob minhas mãos.",
+                            "response": [
+                                {
+                                    "id": "721670109",
+                                    "speaker": "Katheryne",
+                                    "text": "Com certeza."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "7216702",
+            "objective": "Fale com Sumida",
+            "dialogues": [
+                {
+                    "id": "721670201",
+                    "speaker": "Sumida",
+                    "text": "#Ah, olá. Será que você é {F#a}{M#o} lendári{F#a}{M#o} {NICKNAME}?",
+                    "choices": [
+                        {
+                            "id": "721670202",
+                            "text": "#Lendári{F#a}{M#o}?",
+                            "response": [
+                                {
+                                    "id": "721670205",
+                                    "speaker": "Paimon",
+                                    "text": "E Paimon é a lendária Paimon!"
+                                },
+                                {
+                                    "id": "721670206",
+                                    "speaker": "Sumida",
+                                    "text": "Bem, conte-me. Você já obteve a \"mais poderosa espada da vila\"?"
+                                },
+                                {
+                                    "id": "721670207",
+                                    "speaker": "Player",
+                                    "text": "Acho que o Prenúncio do Alvorecer conta, não é?"
+                                },
+                                {
+                                    "id": "721670208",
+                                    "speaker": "Paimon",
+                                    "text": "Você está falando da es{RUBY#[S]Prenúncio Triunfante da Madrugada que Aponta para a Vitória}pada que obtivemos de Kaeya?"
+                                },
+                                {
+                                    "id": "721670209",
+                                    "speaker": "Sumida",
+                                    "text": "Hahaha, isso realmente soa muito imponente. E esse nome parece ter sido proposital. De qualquer maneira..."
+                                },
+                                {
+                                    "id": "721670210",
+                                    "speaker": "Sumida",
+                                    "text": "Você teve uma vida cercada de belos homens e mulheres?"
+                                },
+                                {
+                                    "id": "721670211",
+                                    "speaker": "Sumida",
+                                    "text": "Bem, então, não muito depois de sua história começar você derrota um dragão gigante? Ou talvez você se envolve em alguma crise da qual depende a sobrevivência de uma nação? Ou até mesmo enfrenta \"uma força antagônica de elite distinguida com um sistema de classificação enumerado\"?"
+                                },
+                                {
+                                    "id": "721670212",
+                                    "speaker": "Player",
+                                    "text": "Bem, não posso dizer que não..."
+                                },
+                                {
+                                    "id": "721670213",
+                                    "speaker": "Paimon",
+                                    "text": "Mas espera aí, o que você quer dizer com \"não muito depois da sua história ter começado\"?"
+                                },
+                                {
+                                    "id": "721670214",
+                                    "speaker": "Sumida",
+                                    "text": "#Ou você é, talvez, de fato, {M#um}{F#uma} viajante de \"outro mundo\", assim como a personagem principal em \"Flores para a Princesa Fischl\"?",
+                                    "choices": [
+                                        {
+                                            "id": "721670215",
+                                            "text": "...Hã?",
+                                            "response": [
+                                                {
+                                                    "id": "721670217",
+                                                    "speaker": "Sumida",
+                                                    "text": "Hmm, não consigo sentir aquela sensação de \"destino\" que um protagonista deveria ter, vindo de você."
+                                                },
+                                                {
+                                                    "id": "721670218",
+                                                    "speaker": "Paimon",
+                                                    "text": "Sabe, quando a Katheryne disse que isso seria mais difícil, será que ela, na verdade, quis dizer que a comunicação seria mais difícil?",
+                                                    "choices": [
+                                                        {
+                                                            "id": "721670219",
+                                                            "text": "É isto, estou indo embora.",
+                                                            "response": [
+                                                                {
+                                                                    "id": "721670220",
+                                                                    "speaker": "Sumida",
+                                                                    "text": "Hã!? Espere! Não vá!"
+                                                                },
+                                                                {
+                                                                    "id": "721670221",
+                                                                    "speaker": "Sumida",
+                                                                    "text": "#Katheryne me contou tanto sobre você, então eu assumi que você seria mais como {M#um}{F#uma} protagonista de romances, sabe?"
+                                                                },
+                                                                {
+                                                                    "id": "721670222",
+                                                                    "speaker": "Sumida",
+                                                                    "text": "Mas na verdade, imagino que pessoas assim são difíceis de encontrar..."
+                                                                },
+                                                                {
+                                                                    "id": "721670224",
+                                                                    "speaker": "Sumida",
+                                                                    "text": "Meu nome é Sumida. Agora, quanto ao meu pseudônimo... Ainda não terminei de pensar sobre ele. Tenho planos de participar do \"Um Romance Extraordinário\" deste ano! Como tal, preciso de um aventureiro de confiança para me ajudar a fazer uma viagem à Ilha Tsurumi."
+                                                                },
+                                                                {
+                                                                    "id": "721670225",
+                                                                    "speaker": "Player",
+                                                                    "text": "Ilha Tsurumi?"
+                                                                },
+                                                                {
+                                                                    "id": "721670226",
+                                                                    "speaker": "Sumida",
+                                                                    "text": "#Isso mesmo. Agora, o nome do meu romance atualmente é \"As Crônicas do Mar de Neblina\". A ideia geral da trama é a seguinte: {M#um jovem rapaz}{F#uma jovem moça} e suas aventuras em uma nação envolta em um nevoeiro perpétuo."
+                                                                },
+                                                                {
+                                                                    "id": "721670227",
+                                                                    "speaker": "Sumida",
+                                                                    "text": "Bem, os detalhes da trama ainda estão atualmente em andamento. Mas meu objetivo final é escrever um romance épico que possa mover corações e almas, como em as \"Viagens de Kino\"!"
+                                                                },
+                                                                {
+                                                                    "id": "721670228",
+                                                                    "speaker": "Player",
+                                                                    "text": "Isso..."
+                                                                },
+                                                                {
+                                                                    "id": "721670229",
+                                                                    "speaker": "Sumida",
+                                                                    "text": "Sim, é exatamente aquela mesma \"Viagens de Kino\"!"
+                                                                },
+                                                                {
+                                                                    "id": "721670230",
+                                                                    "speaker": "Sumida",
+                                                                    "text": "Na qual uma forasteira chamada Kino, que não consegue se encaixar em nenhum lugar, caminha por muitas terras estranhas. Ela conhece todo tipo de gente, e é atraída para todos os tipos de planos maléficos e todos os tipos de guerras cruéis. No entanto, cada uma de suas aventuras um dia se transformará em ouro brilhante..."
+                                                                },
+                                                                {
+                                                                    "id": "721670231",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "#Paimon não deve ter entendido muito bem, mas realmente parece que ela está falando de você, {NICKNAME}..."
+                                                                },
+                                                                {
+                                                                    "id": "721670232",
+                                                                    "speaker": "Player",
+                                                                    "text": "Então, sobre a sua comissão..."
+                                                                },
+                                                                {
+                                                                    "id": "721670233",
+                                                                    "speaker": "Sumida",
+                                                                    "text": "Ah, sim. Desculpe, saí do assunto."
+                                                                },
+                                                                {
+                                                                    "id": "721670234",
+                                                                    "speaker": "Sumida",
+                                                                    "text": "Na verdade, tive refletido bastante sobre esse meu hábito. Ele se infiltra também em minha escrita, ao ponto de ter escrito mais de 20 páginas antes de chegar ao ponto."
+                                                                },
+                                                                {
+                                                                    "id": "721670235",
+                                                                    "speaker": "Sumida",
+                                                                    "text": "Naquela época, eu queria usar a lenda da Kitsune Saiguu levando o povo aos salões subterrâneos de Araumi para salvá-los de um desastre, como base para uma história sobre a vida pacífica de sua nova encarnação entre o povo de Hanamizaka...",
+                                                                    "choices": [
+                                                                        {
+                                                                            "id": "721670236",
+                                                                            "text": "Então, o que você quer que eu faça na Ilha Tsurumi?",
+                                                                            "response": [
+                                                                                {
+                                                                                    "id": "721670240",
+                                                                                    "speaker": "Sumida",
+                                                                                    "text": "Foi minha culpa... Então, por favor, vá para a Ilha Tsurumi e encontre uma maneira de trazer uma Maushiro de volta para mim. Este é um instrumento tradicional da civilização nativa da ilha, que está perdido há vários milênios."
+                                                                                },
+                                                                                {
+                                                                                    "id": "721670241",
+                                                                                    "speaker": "Sumida",
+                                                                                    "text": "#Então, essa é a ideia. O - obviamente fictício - enredo de \"As Crônicas do Mar de Neblina (título provisório)\" se passa na Ilha Tsurumi, e quando {M#um jovem rapaz}{F#uma jovem moça} coloca seus pés nela-"
+                                                                                },
+                                                                                {
+                                                                                    "id": "721670242",
+                                                                                    "speaker": "Paimon",
+                                                                                    "text": "#Vamos, {NICKNAME}."
+                                                                                },
+                                                                                {
+                                                                                    "id": "721670243",
+                                                                                    "speaker": "Sumida",
+                                                                                    "text": "—Eles ouvem um som estranho, mas na verdade é apenas o som das tradicionais Maushiros que os contos populares falam, então, eu quero descrever a eles corretamente seu som e é por isso que preciso de uma Maushiro real!"
+                                                                                },
+                                                                                {
+                                                                                    "id": "721670244",
+                                                                                    "speaker": "Player",
+                                                                                    "text": "Até me admira não ter divagado dessa vez."
+                                                                                },
+                                                                                {
+                                                                                    "id": "721670245",
+                                                                                    "speaker": "Paimon",
+                                                                                    "text": "Nah, ela já estava prestes a começar a falar sem parar. Mesmo assim, você realmente precisa de uma Maushiro de verdade só pra escrever um romance, senhorita Sumida? Um \"fufufu\" ou um \"fuéennn\" não serviria?"
+                                                                                },
+                                                                                {
+                                                                                    "id": "721670246",
+                                                                                    "speaker": "Sumida",
+                                                                                    "text": "A escrita é um esforço muito sério. Você deve tratar as coisas que está descrevendo com o máximo de respeito."
+                                                                                },
+                                                                                {
+                                                                                    "id": "721670247",
+                                                                                    "speaker": "Sumida",
+                                                                                    "text": "Por exemplo, se você deseja descrever a \"Tormenta Elétrica\", você deve ir à Garganta Musoujin para experimentá-la! Essa é a única maneira de manter a autenticidade e a credibilidade!"
+                                                                                },
+                                                                                {
+                                                                                    "id": "721670248",
+                                                                                    "speaker": "Player",
+                                                                                    "text": "Isso me parece muito perigoso."
+                                                                                },
+                                                                                {
+                                                                                    "id": "721670249",
+                                                                                    "speaker": "Sumida",
+                                                                                    "text": "De fato, e eu quase morri naquela época. Se eu não tivesse instruído Kama a me tirar de lá se ele visse que algo estava indo mal..."
+                                                                                },
+                                                                                {
+                                                                                    "id": "721670250",
+                                                                                    "speaker": "Sumida",
+                                                                                    "text": "Fui colocada de cama por alguns dias após aquele resgate. Tudo que eu conseguia ver, tudo que eu vomitei... Estava tudo roxo."
+                                                                                },
+                                                                                {
+                                                                                    "id": "721670251",
+                                                                                    "speaker": "Sumida",
+                                                                                    "text": "Mas agora que pensei nisso, o fato de que tudo que eu vomitei ser roxo, pode ter sido o resultado de eu só poder ver roxo na hora.",
+                                                                                    "choices": [
+                                                                                        {
+                                                                                            "id": "721670252",
+                                                                                            "text": "Parece mais que você comeu Melão de Lavanda demais...",
+                                                                                            "response": [
+                                                                                                {
+                                                                                                    "id": "721670253",
+                                                                                                    "speaker": "Sumida",
+                                                                                                    "text": "..."
+                                                                                                },
+                                                                                                {
+                                                                                                    "id": "721670254",
+                                                                                                    "speaker": "Sumida",
+                                                                                                    "text": "Hã. Agora que você comentou, é verdade. Eu deveria comparar e medir as duas experiências na próxima vez."
+                                                                                                },
+                                                                                                {
+                                                                                                    "id": "721670259",
+                                                                                                    "speaker": "Sumida",
+                                                                                                    "text": "Seja qual for o caso, esta carta é para você. Entregue-a a um homem chamado Kama em Ritou, e ele te levará para a Ilha Tsurumi."
+                                                                                                },
+                                                                                                {
+                                                                                                    "id": "721670260",
+                                                                                                    "speaker": "Sumida",
+                                                                                                    "text": "Por favor, o grande prêmio do \"Um Romance Extraordinário\" deste ano está em jogo!"
+                                                                                                }
+                                                                                            ]
+                                                                                        },
+                                                                                        {
+                                                                                            "id": "721670255",
+                                                                                            "text": "E o que você conseguiu escrever?",
+                                                                                            "response": [
+                                                                                                {
+                                                                                                    "id": "721670256",
+                                                                                                    "speaker": "Sumida",
+                                                                                                    "text": "...Eu não consegui sair da cama para escrever durante aqueles dias, então eu acabei perdendo o prazo."
+                                                                                                },
+                                                                                                {
+                                                                                                    "id": "721670257",
+                                                                                                    "speaker": "Paimon",
+                                                                                                    "text": "Espera aí, então tudo aquilo foi por nada?"
+                                                                                                },
+                                                                                                {
+                                                                                                    "id": "721670258",
+                                                                                                    "speaker": "Sumida",
+                                                                                                    "text": "Bem, como posso dizer? Isso será útil na próxima vez que eu precisar escrever um cenário convincente como... Como \"Aquela Vez em Que Fui Engolido Por Um Slime Electro\"."
+                                                                                                }
+                                                                                            ]
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        {
+                                                                            "id": "721670237",
+                                                                            "text": "Vá direto ao ponto, por favor."
+                                                                        },
+                                                                        {
+                                                                            "id": "721670238",
+                                                                            "text": "É isto, estou indo embora.",
+                                                                            "response": [
+                                                                                {
+                                                                                    "id": "721670239",
+                                                                                    "speaker": "Sumida",
+                                                                                    "text": "Eh? Espere! Desculpe! Desculpe! Não vá!"
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "id": "721670223",
+                                                            "text": "Então, sobre a sua comissão..."
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "721670216",
+                                            "text": "..."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "721670203",
+                            "text": "#Sou {M#o}{F#a} {NICKNAME}."
+                        },
+                        {
+                            "id": "721670204",
+                            "text": "#Sou {M#o lendário}{F#a lendária} {NICKNAME}."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "7216703",
+            "objective": "Fale com Kama",
+            "dialogues": [
+                {
+                    "id": "721670301",
+                    "speaker": "Kama",
+                    "text": "O que foi?"
+                },
+                {
+                    "id": "721670302",
+                    "speaker": "Player",
+                    "text": "Sumida nos enviou."
+                },
+                {
+                    "id": "721670303",
+                    "speaker": "Kama",
+                    "text": "Mais uma pessoa, hein?"
+                },
+                {
+                    "id": "721670304",
+                    "speaker": "Player",
+                    "text": "Mais uma?"
+                },
+                {
+                    "id": "721670305",
+                    "speaker": "Kama",
+                    "text": "#...Não é nada. Já que senhorita Sumida te recomendou, não tenho nada a reclamar. Você está pront{M#o}{F#a} para ir à Ilha Tsurumi?",
+                    "choices": [
+                        {
+                            "id": "721670306",
+                            "text": "Estou.",
+                            "response": [
+                                {
+                                    "id": "721670307",
+                                    "speaker": "Kama",
+                                    "text": "Então vamos enquanto o clima continua ameno."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "721670308",
+                            "text": "Ainda não.",
+                            "response": [
+                                {
+                                    "id": "721670309",
+                                    "speaker": "Kama",
+                                    "text": "Então volte quando estiver."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "7216723",
+            "objective": "",
+            "dialogues": [
+                {
+                    "id": "721672301",
+                    "speaker": "Kama",
+                    "text": "Após duas viagens de ida e volta, você deve saber qual o caminho a seguir agora."
+                },
+                {
+                    "id": "721672302",
+                    "speaker": "Paimon",
+                    "text": "Obrigada, Kama!"
+                },
+                {
+                    "id": "721672303",
+                    "speaker": "Kama",
+                    "text": "Não precisa me agradecer. Essas foram as instruções da senhorita Sumida, afinal de contas."
+                },
+                {
+                    "id": "721672304",
+                    "speaker": "Paimon",
+                    "text": "Na verdade, Paimon está meio interessada em saber...",
+                    "choices": [
+                        {
+                            "id": "721672305",
+                            "text": "Você já transportou muitas pessoas para a Ilha Tsurumi?",
+                            "response": [
+                                {
+                                    "id": "721672306",
+                                    "speaker": "Kama",
+                                    "text": "..."
+                                },
+                                {
+                                    "id": "721672307",
+                                    "speaker": "Kama",
+                                    "text": "Eu já transportei pessoas e mercadorias para a Ilha Tsurumi, e também para as terras do outro lado do oceano."
+                                },
+                                {
+                                    "id": "721672308",
+                                    "speaker": "Kama",
+                                    "text": "Não faz diferença para mim. Desde que a senhorita Sumida me peça, eu farei."
+                                },
+                                {
+                                    "id": "721672311",
+                                    "speaker": "Paimon",
+                                    "text": "Parece uma longa história."
+                                },
+                                {
+                                    "id": "721672312",
+                                    "speaker": "Kama",
+                                    "text": "..."
+                                },
+                                {
+                                    "id": "721672313",
+                                    "speaker": "Kama",
+                                    "text": "Eu já falei demais."
+                                },
+                                {
+                                    "id": "721672314",
+                                    "speaker": "Kama",
+                                    "text": "Bem, então. Adeus."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "721672309",
+                            "text": "Qual é a da \"senhorita\"?",
+                            "response": [
+                                {
+                                    "id": "721672310",
+                                    "speaker": "Kama",
+                                    "text": "Eu devo muito a senhorita Sumida."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "7216720",
+            "objective": "",
+            "dialogues": [
+                {
+                    "id": "721672001",
+                    "speaker": "Kama",
+                    "text": "#Você está pront{M#o}{F#a} para voltar?",
+                    "choices": [
+                        {
+                            "id": "721672002",
+                            "text": "Estou.",
+                            "response": [
+                                {
+                                    "id": "721672003",
+                                    "speaker": "Kama",
+                                    "text": "Ótimo. Pode subir, então."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "721672004",
+                            "text": "Ainda não.",
+                            "response": [
+                                {
+                                    "id": "721672005",
+                                    "speaker": "Kama",
+                                    "text": "..."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "7216704",
+            "objective": "",
+            "dialogues": [
+                {
+                    "id": "721670401",
+                    "speaker": "Kama",
+                    "text": "#Você está pront{M#o}{F#a}?",
+                    "choices": [
+                        {
+                            "id": "721670402",
+                            "text": "Estou.",
+                            "response": [
+                                {
+                                    "id": "721670403",
+                                    "speaker": "Kama",
+                                    "text": "Então vamos enquanto o clima continua ameno."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "721670404",
+                            "text": "Ainda não.",
+                            "response": [
+                                {
+                                    "id": "721670405",
+                                    "speaker": "Kama",
+                                    "text": "..."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "7216706",
+            "objective": "Fale com Kama",
+            "dialogues": [
+                {
+                    "id": "721670501",
+                    "speaker": "Paimon",
+                    "text": "Uau! Então essa é a Ilha Tsurumi? Tão..."
+                },
+                {
+                    "id": "721670502",
+                    "speaker": "Paimon",
+                    "text": "...Triste. Parece muito triste! Qual é a dessa neblina toda!?",
+                    "choices": [
+                        {
+                            "id": "721670503",
+                            "text": "Sumida chegou a mencionar sobre isso.",
+                            "response": [
+                                {
+                                    "id": "721670505",
+                                    "speaker": "Paimon",
+                                    "text": "Kama, você conhece aquele... Uh, como é que era mesmo?",
+                                    "choices": [
+                                        {
+                                            "id": "721670506",
+                                            "text": "\"Viagens de Kino\"?",
+                                            "response": [
+                                                {
+                                                    "id": "721670507",
+                                                    "speaker": "Kama",
+                                                    "text": "Sim, senhorita Sumida mencionou sobre."
+                                                },
+                                                {
+                                                    "id": "721670508",
+                                                    "speaker": "Paimon",
+                                                    "text": "Não! Não é isso que Paimon quis dizer! Paimon está falando sobre aquela coisa de madeira lá, que Sumida nos pediu para procurar."
+                                                },
+                                                {
+                                                    "id": "721670511",
+                                                    "speaker": "Paimon",
+                                                    "text": "Kama, você sabe onde deveríamos começar a procurar?"
+                                                },
+                                                {
+                                                    "id": "721670512",
+                                                    "speaker": "Player",
+                                                    "text": "Se você souber, Sumida não precisaria da nossa ajuda."
+                                                },
+                                                {
+                                                    "id": "721670513",
+                                                    "speaker": "Paimon",
+                                                    "text": "Urg, isso é tão irritante! Será mesmo que Paimon tem que fazer tudo sozinha!?",
+                                                    "choices": [
+                                                        {
+                                                            "id": "721670514",
+                                                            "text": "Acho que você está esquecendo quem faz o trabalho pesado por aqui...",
+                                                            "response": [
+                                                                {
+                                                                    "id": "721670516",
+                                                                    "speaker": "Kama",
+                                                                    "text": "É melhor você entrar por aquele portão grande ali, para que você não se perca na neblina com facilidade."
+                                                                },
+                                                                {
+                                                                    "id": "721670517",
+                                                                    "speaker": "Kama",
+                                                                    "text": "Vou esperar por você aqui."
+                                                                },
+                                                                {
+                                                                    "id": "721670518",
+                                                                    "speaker": "Kama",
+                                                                    "text": "Me procure quando você conseguir a Maushiro. Te levarei de volta."
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "id": "721670515",
+                                                            "text": "Tanto faz, você tem alguma sugestão?"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "721670509",
+                                            "text": "A Maushiro?",
+                                            "response": [
+                                                {
+                                                    "id": "721670510",
+                                                    "speaker": "Paimon",
+                                                    "text": "Sim! Isso mesmo!"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "721670504",
+                            "text": "Um fenômeno ambiental muito peculiar."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "7216705",
+            "objective": "Entre na Ilha Tsurumi",
+            "dialogues": []
+        },
+        {
+            "id": "7216732",
+            "objective": "Entre na Ilha Tsurumi",
+            "dialogues": [
+                {
+                    "id": "721672101",
+                    "speaker": "Paimon",
+                    "text": "Hã. Parece que conseguimos nos situar agora, né?"
+                },
+                {
+                    "id": "721672102",
+                    "speaker": "Player",
+                    "text": "Sim, embora a neblina não tenha se dissipado ainda."
+                },
+                {
+                    "id": "721672103",
+                    "speaker": "Paimon",
+                    "text": "Hã? Tem uma criança ali..."
+                },
+                {
+                    "id": "721672104",
+                    "speaker": "Paimon",
+                    "text": "Todas as crianças de Inazuma correm para ilhas desertas para brincar quando elas não têm mais nada para fazer?",
+                    "choices": [
+                        {
+                            "id": "721672105",
+                            "text": "Deveríamos levar ela para um lugar seguro.",
+                            "response": [
+                                {
+                                    "id": "721672106",
+                                    "speaker": "Paimon",
+                                    "text": "Sim, e vamos perguntar sobre o que a senhorita Sumida nos pediu para pegar nesse meio tempo."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "721672107",
+                            "text": "Podemos perguntar se a criança sabe alguma coisa sobre a Maushiro.",
+                            "response": [
+                                {
+                                    "id": "721672108",
+                                    "speaker": "Paimon",
+                                    "text": "Boa ideia!"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "7216707",
+            "objective": "Fale com garoto misterioso",
+            "dialogues": [
+                {
+                    "id": "721670601",
+                    "speaker": "???",
+                    "text": "Eita!"
+                },
+                {
+                    "id": "721670602",
+                    "speaker": "Player",
+                    "text": "Uh, não quis te assustar..."
+                },
+                {
+                    "id": "721670603",
+                    "speaker": "???",
+                    "text": "#Você é... {M#Um forasteiro}{F#Uma forasteira}..."
+                },
+                {
+                    "id": "721670604",
+                    "speaker": "???",
+                    "text": "#E você tem... Uma garotinha flutuante contigo! Isso é incrível! Não vejo {M#nenhum forasteiro}{F#nenhuma forasteira} há taaannnto tempo!"
+                },
+                {
+                    "id": "721670605",
+                    "speaker": "Paimon",
+                    "text": "Paimon não é uma \"garotinha\" e tal. Paimon é Paimon! E quem é você, sujeitinho?"
+                },
+                {
+                    "id": "721670606",
+                    "speaker": "Ruu",
+                    "text": "Meu nome é Ruu!",
+                    "choices": [
+                        {
+                            "id": "721670607",
+                            "text": "#Bem, sou {NICKNAME}.",
+                            "response": [
+                                {
+                                    "id": "721670610",
+                                    "speaker": "Paimon",
+                                    "text": "Uh, enfim, a questão importante aqui é...",
+                                    "choices": [
+                                        {
+                                            "id": "721670611",
+                                            "text": "De lembrar esse garoto de ir para um lugar seguro.",
+                                            "response": [
+                                                {
+                                                    "id": "721670613",
+                                                    "speaker": "Paimon",
+                                                    "text": "Não, não. Precisamos descobrir quem esse \"sujeitinho\" é! Quantos anos você tem, Ruu?"
+                                                },
+                                                {
+                                                    "id": "721670614",
+                                                    "speaker": "Ruu",
+                                                    "text": "Uhh... O que \"quantos anos\" significa?"
+                                                },
+                                                {
+                                                    "id": "721670615",
+                                                    "speaker": "Paimon",
+                                                    "text": "São as quantidades de anos que se passaram desde que você nasceu."
+                                                },
+                                                {
+                                                    "id": "721670616",
+                                                    "speaker": "Ruu",
+                                                    "text": "Quantidade de anos? Deixe-me contar..."
+                                                },
+                                                {
+                                                    "id": "721670617",
+                                                    "speaker": "Ruu",
+                                                    "text": "Vários milhares, talvez! Desculpe, não consigo me lembrar de nada mais específico."
+                                                },
+                                                {
+                                                    "id": "721670618",
+                                                    "speaker": "Player",
+                                                    "text": "...Hã?"
+                                                },
+                                                {
+                                                    "id": "721670619",
+                                                    "speaker": "Paimon",
+                                                    "text": "...Hã?"
+                                                },
+                                                {
+                                                    "id": "721670620",
+                                                    "speaker": "Player",
+                                                    "text": "Como que se conta \"um ano\", se eu puder perguntar?"
+                                                },
+                                                {
+                                                    "id": "721670621",
+                                                    "speaker": "Ruu",
+                                                    "text": "Hmm. Um ano passa sempre que ouço o trovão, é claro. Assim como todos contam."
+                                                },
+                                                {
+                                                    "id": "721670622",
+                                                    "speaker": "Paimon",
+                                                    "text": "...Hã?"
+                                                },
+                                                {
+                                                    "id": "721670623",
+                                                    "speaker": "Paimon",
+                                                    "text": "(Espere só um minutinho. Sumida não disse que a civilização da Ilha Tsurumi desapareceu há vários milênios?)"
+                                                },
+                                                {
+                                                    "id": "721670624",
+                                                    "speaker": "Paimon",
+                                                    "text": "(E sua maneira de contar anos é tão estranha!)",
+                                                    "choices": [
+                                                        {
+                                                            "id": "721670625",
+                                                            "text": "(É provavelmente porque eles não conseguem ver o sol ou a lua devido à forte neblina.)",
+                                                            "response": [
+                                                                {
+                                                                    "id": "721670627",
+                                                                    "speaker": "Ruu",
+                                                                    "text": "Enfim, você veio exatamente na hora certa! Hoje é o dia da nossa grande cerimônia!"
+                                                                },
+                                                                {
+                                                                    "id": "721670628",
+                                                                    "speaker": "Ruu",
+                                                                    "text": "#Kapatcir definitivamente vai ficar contente de ter {M#um novo e raro convidado}{F#uma nova e rara convidada} participando."
+                                                                },
+                                                                {
+                                                                    "id": "721670629",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "Quem é esse?"
+                                                                },
+                                                                {
+                                                                    "id": "721670630",
+                                                                    "speaker": "Ruu",
+                                                                    "text": "Minha grande amiga!"
+                                                                },
+                                                                {
+                                                                    "id": "721670631",
+                                                                    "speaker": "Player",
+                                                                    "text": "Então, vai ter uma cerimônia?"
+                                                                },
+                                                                {
+                                                                    "id": "721670632",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "Parece muito divertido!"
+                                                                },
+                                                                {
+                                                                    "id": "721670633",
+                                                                    "speaker": "Ruu",
+                                                                    "text": "Exatamente! Todos me dizem que desta vez eu serei a estrela do show!"
+                                                                },
+                                                                {
+                                                                    "id": "721670634",
+                                                                    "speaker": "Ruu",
+                                                                    "text": "Mas precisaremos fazer algumas coisas antes que a cerimônia possa começar!"
+                                                                },
+                                                                {
+                                                                    "id": "721670635",
+                                                                    "speaker": "Ruu",
+                                                                    "text": "#Enfim, {NICKNAME}, Paimon, venham comigo!"
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "id": "721670626",
+                                                            "text": "(Bem, de qualquer forma, vamos ouvir o que o garoto tem a dizer.)"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "721670612",
+                                            "text": "De perguntar onde está a Maushiro."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "721670608",
+                            "text": "#Sou {M#o lendário}{F#a lendária} {NICKNAME}.",
+                            "response": [
+                                {
+                                    "id": "721670609",
+                                    "speaker": "Ruu",
+                                    "text": "#Oooh, {M#o lendário}{F#a lendária} {NICKNAME}?"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "7216708",
+            "objective": "",
+            "dialogues": [
+                {
+                    "id": "721670801",
+                    "speaker": "Ipe",
+                    "text": "Bem, está feito."
+                },
+                {
+                    "id": "721670802",
+                    "speaker": "Makiri",
+                    "text": "Legal!"
+                },
+                {
+                    "id": "721670803",
+                    "speaker": "Ruu",
+                    "text": "Vocês voltaram!"
+                },
+                {
+                    "id": "721670804",
+                    "speaker": "Paimon",
+                    "text": "Estamos de volta!"
+                },
+                {
+                    "id": "721670805",
+                    "speaker": "Ruu",
+                    "text": "O poleiro parece muito feliz. Tenho certeza de que Kapatcir ficará feliz também!",
+                    "choices": [
+                        {
+                            "id": "721670806",
+                            "text": "Bem, isso é bom.",
+                            "response": [
+                                {
+                                    "id": "721670807",
+                                    "speaker": "Paimon",
+                                    "text": "Dito isto, quem é Kapatcir?"
+                                },
+                                {
+                                    "id": "721670809",
+                                    "speaker": "Ruu",
+                                    "text": "Minha amiga!"
+                                },
+                                {
+                                    "id": "721670810",
+                                    "speaker": "Ruu",
+                                    "text": "Kapatcir adora me ouvir cantar. Estarei cantando para ela durante a cerimônia!"
+                                },
+                                {
+                                    "id": "721670811",
+                                    "speaker": "Paimon",
+                                    "text": "#{M#O}{F#A} {NICKNAME} pode cantar também! Bem, mas {M#ele}{F#ela} cantando faz com que Lírio de Vidro virem Flores Gigantes."
+                                },
+                                {
+                                    "id": "721670812",
+                                    "speaker": "Ruu",
+                                    "text": "Isso é incrível!",
+                                    "choices": [
+                                        {
+                                            "id": "721670813",
+                                            "text": "Uh, Paimon, não foi isso que aconteceu...",
+                                            "response": [
+                                                {
+                                                    "id": "721670815",
+                                                    "speaker": "Ruu",
+                                                    "text": "Oh, você precisa da Maushiro? Bem, estaremos indo para o local da cerimônia logo."
+                                                },
+                                                {
+                                                    "id": "721670816",
+                                                    "speaker": "Ruu",
+                                                    "text": "Eles vão colocar todas as Maushiros lá durante a cerimônia. Aposto que o vovô Tasuku vai precisar de ajuda ao fazer as oferendas nos outros poleiros, também."
+                                                },
+                                                {
+                                                    "id": "721670817",
+                                                    "speaker": "Ruu",
+                                                    "text": "Bem, vejo vocês mais tarde!"
+                                                },
+                                                {
+                                                    "id": "721670818",
+                                                    "speaker": "Player",
+                                                    "text": "Não vai vir com a gente?"
+                                                },
+                                                {
+                                                    "id": "721670819",
+                                                    "speaker": "Ruu",
+                                                    "text": "Eu tenho algumas preparações para fazer para a cerimônia. Afinal de contas, me encontrarei com a Kapatcir lá."
+                                                },
+                                                {
+                                                    "id": "721670820",
+                                                    "speaker": "Ruu",
+                                                    "text": "Todos estão bem ansiosos pela cerimônia! Não vou desapontá-los!"
+                                                },
+                                                {
+                                                    "id": "721670822",
+                                                    "speaker": "Paimon",
+                                                    "text": "Bem, te vejo mais tarde então!"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "721670814",
+                                            "text": "A Maushiro..."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "721670808",
+                            "text": "Quem é Kapatcir?"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "7216709",
+            "objective": "Vá para o destino e fale com Ruu",
+            "dialogues": [
+                {
+                    "id": "721670701",
+                    "speaker": "Ruu",
+                    "text": "Deixe-me te apresentar para minha irmãzona Makiri e meu irmãozão Ipe."
+                },
+                {
+                    "id": "721670702",
+                    "speaker": "Player",
+                    "text": "#Olá, eu me chamo {NICKNAME}."
+                },
+                {
+                    "id": "721670703",
+                    "speaker": "Paimon",
+                    "text": "Olá, Paimon é Paimon!"
+                },
+                {
+                    "id": "721670704",
+                    "speaker": "Makiri",
+                    "text": "Hmmm~ O poleiro parece estar em bom estado. A cerimônia deste ano deve correr bem."
+                },
+                {
+                    "id": "721670705",
+                    "speaker": "Ipe",
+                    "text": "Oh qual é, menos papo e mais oferendas."
+                },
+                {
+                    "id": "721670706",
+                    "speaker": "Makiri",
+                    "text": "Afinal de contas, o Poleiro é a peça principal desta cerimônia. Esta é a árvore cuja Grande Pássaro do Trovão irá pousar."
+                },
+                {
+                    "id": "721670707",
+                    "speaker": "Makiri",
+                    "text": "O vovô Tasuku disse que a manutenção do poleiro indica nosso respeito e adoração para com a Grande Pássaro do Trovão. Se ele for danificado..."
+                },
+                {
+                    "id": "721670708",
+                    "speaker": "Ipe",
+                    "text": "Eu sei. Dito isto, a cerimônia deste ano deixa um gosto ruim em minha boca..."
+                },
+                {
+                    "id": "721670709",
+                    "speaker": "Ipe",
+                    "text": "E o fato de que eu sou o único trabalhando por aqui faz ainda pior!"
+                },
+                {
+                    "id": "721670710",
+                    "speaker": "Player",
+                    "text": "Acho que entendo você bem."
+                },
+                {
+                    "id": "721670711",
+                    "speaker": "Paimon",
+                    "text": "#Bem, você é bem confiável, {NICKNAME}."
+                },
+                {
+                    "id": "721670712",
+                    "speaker": "Makiri",
+                    "text": "He~ você é muito esforçado, Ipe. E mais, esta é minha primeira vez fazendo oferendas ao poleiro."
+                },
+                {
+                    "id": "721670713",
+                    "speaker": "Ipe",
+                    "text": "Sim, sim, tanto faz. De qualquer forma, o próximo passo é tocar no poleiro. Depois, ajude-me a procurar penas em torno desta área."
+                },
+                {
+                    "id": "721670714",
+                    "speaker": "Player",
+                    "text": "\"Penas\"?"
+                },
+                {
+                    "id": "721670715",
+                    "speaker": "Ipe",
+                    "text": "Hã? O vovô Tasuku não te contou sobre isso? Parte do processo é remover todos os objetos estranhos do poleiro."
+                },
+                {
+                    "id": "721670716",
+                    "speaker": "Ipe",
+                    "text": "Basicamente, o poder da Grande Pássaro do Trovão irá se acumular no poleiro, e transportará substâncias estranhas que se infiltram na Ilha Tsurumi sob a forma de \"penas\"."
+                },
+                {
+                    "id": "721670717",
+                    "speaker": "Ipe",
+                    "text": "Em seguida, o nevoeiro purificará essas penas. Afinal, a neblina protege nossa ilha, e não deixará nada passar pela barreira sagrada ao nosso redor."
+                },
+                {
+                    "id": "721670718",
+                    "speaker": "Ipe",
+                    "text": "É por isso que precisamos encontrar as penas espalhadas e trazê-las de volta para o poleiro."
+                },
+                {
+                    "id": "721670719",
+                    "speaker": "Makiri",
+                    "text": "Oh~ Entendi, entendi. Agora eu entendi."
+                },
+                {
+                    "id": "721670720",
+                    "speaker": "Ipe",
+                    "text": "...Sério?"
+                },
+                {
+                    "id": "721670721",
+                    "speaker": "Makiri",
+                    "text": "Provavelmente~"
+                },
+                {
+                    "id": "721670722",
+                    "speaker": "Ruu",
+                    "text": "(Irmãzona Makiri está só fingindo não entender.)",
+                    "choices": [
+                        {
+                            "id": "721670723",
+                            "text": "(Percebi.)",
+                            "response": [
+                                {
+                                    "id": "721670725",
+                                    "speaker": "Paimon",
+                                    "text": "Então, só precisamos encontrar essas penas, certo?"
+                                },
+                                {
+                                    "id": "721670726",
+                                    "speaker": "Ipe",
+                                    "text": "Então, só precisamos encontrar penas estranhas?"
+                                },
+                                {
+                                    "id": "721670727",
+                                    "speaker": "Ipe",
+                                    "text": "Como elas são formadas pela condensação do poder da Grande Pássaro do Trovão, se você for como Ruu, que tem sensibilidade aos Elementos, deve ser fácil encontrá-las."
+                                },
+                                {
+                                    "id": "721670728",
+                                    "speaker": "Makiri",
+                                    "text": "Sério? O Ruu é muito sortudo~"
+                                },
+                                {
+                                    "id": "721670729",
+                                    "speaker": "Ruu",
+                                    "text": "Hehe."
+                                },
+                                {
+                                    "id": "721670730",
+                                    "speaker": "Ipe",
+                                    "text": "..."
+                                },
+                                {
+                                    "id": "721670731",
+                                    "speaker": "Ipe",
+                                    "text": "Não seja besta."
+                                },
+                                {
+                                    "id": "721670732",
+                                    "speaker": "Makiri",
+                                    "text": "Oh. Me desculpe."
+                                },
+                                {
+                                    "id": "721670733",
+                                    "speaker": "Ruu",
+                                    "text": "Vamos lá, vocês. Vamos procurar essas penas! Se você ajudar a fazer oferendas ao poleiro, tenho certeza que Kapatcir ficará feliz."
+                                },
+                                {
+                                    "id": "721670734",
+                                    "speaker": "Paimon",
+                                    "text": "Uhh... Tudo bem então. Vamos só tocar logo naquele poleiro, beleza?"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "721670724",
+                            "text": "(Hã, eu não consegui perceber.)"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "7216722",
+            "objective": "Toque o poleiro",
+            "dialogues": [
+                {
+                    "id": "721672201",
+                    "speaker": "Paimon",
+                    "text": "Bem, agora que os poleiros estão resolvidos. Acho que agora podem começar a cerimônia sem problemas, não é?"
+                },
+                {
+                    "id": "721672202",
+                    "speaker": "Paimon",
+                    "text": "Uhum, depois de ouvir o Ruu falar tanto sobre ela, Paimon está ficando toda animada!",
+                    "choices": [
+                        {
+                            "id": "721672203",
+                            "text": "Digo o mesmo!",
+                            "response": [
+                                {
+                                    "id": "721672208",
+                                    "speaker": "Paimon",
+                                    "text": "Mesmo que você não queira ir, precisamos estar lá se quisermos pegar aquela Maushiro."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "721672204",
+                            "text": "Ele na verdade não falou tanto assim.",
+                            "response": [
+                                {
+                                    "id": "721672205",
+                                    "speaker": "Paimon",
+                                    "text": "#Hã? Mas ele falou muito sobre ela! Sabe, como todo mundo estava animado e como nós eramos bem-vind{M#o}{F#a}s e tal..."
+                                },
+                                {
+                                    "id": "721672206",
+                                    "speaker": "Paimon",
+                                    "text": "..."
+                                },
+                                {
+                                    "id": "721672207",
+                                    "speaker": "Paimon",
+                                    "text": "Meh, tanto faz! Esqueça!"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "7216710",
+            "objective": "Faça uma oferenda ao poleiro",
+            "dialogues": [
+                {
+                    "id": "721671001",
+                    "speaker": "Paimon",
+                    "text": "...Hã? Aonde ele foi?",
+                    "choices": [
+                        {
+                            "id": "721671002",
+                            "text": "Tenho um mau pressentimento sobre isso.",
+                            "response": [
+                                {
+                                    "id": "721671004",
+                                    "speaker": "Paimon",
+                                    "text": "Hmmm, parece que tem algo por ali..."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "721671003",
+                            "text": "Isso é realmente assustador."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "7216711",
+            "objective": "Reporte para Ruu",
+            "dialogues": []
+        },
+        {
+            "id": "7216725",
+            "objective": "Vá para o local da cerimônia",
+            "dialogues": [
+                {
+                    "id": "721672501",
+                    "speaker": "Paimon",
+                    "text": "Esta é a Maushiro?"
+                },
+                {
+                    "id": "721672502",
+                    "speaker": "Paimon",
+                    "text": "Legal! Parece que o Ruu não nos enganou no fim das contas."
+                },
+                {
+                    "id": "721672503",
+                    "speaker": "Player",
+                    "text": "Bem, acredito que com isso essa missão está completa."
+                },
+                {
+                    "id": "721672504",
+                    "speaker": "Paimon",
+                    "text": "Ainda assim... Paimon se sente enganada!"
+                },
+                {
+                    "id": "721672505",
+                    "speaker": "Player",
+                    "text": "E como você foi enganada, exatamente?"
+                },
+                {
+                    "id": "721672506",
+                    "speaker": "Paimon",
+                    "text": "Eles disseram que iria ter uma cerimônia! E ajudamos eles em tantas coisas, também!",
+                    "choices": [
+                        {
+                            "id": "721672507",
+                            "text": "Bem, eu não sei se nada disso importa, além de ter concluído o trabalho.",
+                            "response": [
+                                {
+                                    "id": "721672508",
+                                    "speaker": "Paimon",
+                                    "text": "Verdade, mas tem uma coisa que ainda é muito estranha..."
+                                },
+                                {
+                                    "id": "721672511",
+                                    "speaker": "Paimon",
+                                    "text": "Deveria ter mais pessoas aqui, mas parece que todas elas desapareceram..."
+                                },
+                                {
+                                    "id": "721672512",
+                                    "speaker": "Paimon",
+                                    "text": "E todas aquelas pessoas pareciam ter uns parafusos a menos, enfim né..."
+                                },
+                                {
+                                    "id": "721672513",
+                                    "speaker": "Paimon",
+                                    "text": "Tanto faz. Vamos voltar e procurar por Kama primeiro."
+                                },
+                                {
+                                    "id": "721672514",
+                                    "speaker": "Player",
+                                    "text": "Ele deve estar esperando pela gente na entrada."
+                                },
+                                {
+                                    "id": "721672515",
+                                    "speaker": "Paimon",
+                                    "text": "Vamos!"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "721672509",
+                            "text": "#Eu também estou muito preocupad{F#a}{M#o} com a situação da Ilha Tsurumi.",
+                            "response": [
+                                {
+                                    "id": "721672510",
+                                    "speaker": "Paimon",
+                                    "text": "Paimon também acha que tem algo estranho sobre esse lugar..."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "7216712",
+            "objective": "Procure pelo Sacerdote",
+            "dialogues": [
+                {
+                    "id": "721670901",
+                    "speaker": "Paimon",
+                    "text": "Olá!"
+                },
+                {
+                    "id": "721670902",
+                    "speaker": "Player",
+                    "text": "Estamos aqui para participar da cerimônia."
+                },
+                {
+                    "id": "721670903",
+                    "speaker": "Tasuku",
+                    "text": "Ah, quando estaremos prontos para realizar a cerimônia? Os preparativos para o poleiro do lado do Ipe já devem estar completos."
+                },
+                {
+                    "id": "721670904",
+                    "speaker": "Tasuku",
+                    "text": "Ele está lá com Makiri, então não deve ter nenhum problema."
+                },
+                {
+                    "id": "721670905",
+                    "speaker": "Paimon",
+                    "text": "Terminamos de fazer as oferendas ao poleiro por lá!"
+                },
+                {
+                    "id": "721670906",
+                    "speaker": "Tasuku",
+                    "text": "Mas ainda tem mais três poleiros. Quem sabe como estão indo as preparações por lá..."
+                },
+                {
+                    "id": "721670907",
+                    "speaker": "Player",
+                    "text": "Podemos ir lá dar uma olhada neles."
+                },
+                {
+                    "id": "721670908",
+                    "speaker": "Paimon",
+                    "text": "Onde estão os outros três poleiros?"
+                },
+                {
+                    "id": "721670909",
+                    "speaker": "Tasuku",
+                    "text": "Espero que... Não, a Grande Pássaro do Trovão certamente ficará satisfeita com a cerimônia desta vez..."
+                },
+                {
+                    "id": "721670910",
+                    "speaker": "Paimon",
+                    "text": "Hã?",
+                    "choices": [
+                        {
+                            "id": "721670911",
+                            "text": "O que é essa Pássaro do Trovão que você fala?",
+                            "response": [
+                                {
+                                    "id": "721670914",
+                                    "speaker": "Tasuku",
+                                    "text": "..."
+                                },
+                                {
+                                    "id": "721670915",
+                                    "speaker": "Paimon",
+                                    "text": "Ah, qual é! Por que ele está ignorando a gente?"
+                                },
+                                {
+                                    "id": "721670916",
+                                    "speaker": "Paimon",
+                                    "text": "Estamos aqui para ajudar também!"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "721670912",
+                            "text": "Conte-me sobre a cerimônia..."
+                        },
+                        {
+                            "id": "721670913",
+                            "text": "Você poderia me dizer algo sobre as Maushiros...?"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "7216726",
+            "objective": "",
+            "dialogues": [
+                {
+                    "id": "721672601",
+                    "speaker": "Sumida",
+                    "text": "#Ah, olá. Será que você é {F#a}{M#o} lendári{F#a}{M#o} {NICKNAME}?",
+                    "choices": [
+                        {
+                            "id": "721672602",
+                            "text": "#Lendári{F#a}{M#o}?",
+                            "response": [
+                                {
+                                    "id": "721672605",
+                                    "speaker": "Paimon",
+                                    "text": "E Paimon é a lendária Paimon!"
+                                },
+                                {
+                                    "id": "721672606",
+                                    "speaker": "Sumida",
+                                    "text": "Bem, conte-me. Você já obteve a \"mais poderosa espada da vila\"?"
+                                },
+                                {
+                                    "id": "721672607",
+                                    "speaker": "Sumida",
+                                    "text": "Você teve uma vida cercada de belos homens e mulheres?"
+                                },
+                                {
+                                    "id": "721672608",
+                                    "speaker": "Sumida",
+                                    "text": "Bem, então, não muito depois de sua história começar você derrota um dragão gigante? Ou talvez você se envolve em alguma crise da qual depende a sobrevivência de uma nação? Ou até mesmo enfrenta \"uma força antagônica de elite distinguida com um sistema de classificação enumerado\"?"
+                                },
+                                {
+                                    "id": "721672609",
+                                    "speaker": "Player",
+                                    "text": "Bem, não posso dizer que não..."
+                                },
+                                {
+                                    "id": "721672610",
+                                    "speaker": "Paimon",
+                                    "text": "Mas espera aí, o que você quer dizer com \"não muito depois da sua história ter começado\"?"
+                                },
+                                {
+                                    "id": "721672611",
+                                    "speaker": "Sumida",
+                                    "text": "#Ou você é, talvez, de fato, {M#um}{F#uma} viajante de \"outro mundo\", assim como a personagem principal em \"Flores para a Princesa Fischl\"?",
+                                    "choices": [
+                                        {
+                                            "id": "721672612",
+                                            "text": "...Hã?",
+                                            "response": [
+                                                {
+                                                    "id": "721672614",
+                                                    "speaker": "Sumida",
+                                                    "text": "Hmm, não consigo sentir aquela sensação de \"destino\" que um protagonista deveria ter, vindo de você."
+                                                },
+                                                {
+                                                    "id": "721672615",
+                                                    "speaker": "Paimon",
+                                                    "text": "Sabe, quando a Katheryne disse que isso seria mais difícil, será que ela, na verdade, quis dizer que a comunicação seria mais difícil?",
+                                                    "choices": [
+                                                        {
+                                                            "id": "721672616",
+                                                            "text": "É isto, estou indo embora.",
+                                                            "response": [
+                                                                {
+                                                                    "id": "721672617",
+                                                                    "speaker": "Sumida",
+                                                                    "text": "Hã!? Espere! Não vá!"
+                                                                },
+                                                                {
+                                                                    "id": "721672618",
+                                                                    "speaker": "Sumida",
+                                                                    "text": "#Katheryne me contou tanto sobre você, então eu assumi que você seria mais como {M#um}{F#uma} protagonista de Light Novels, sabe?"
+                                                                },
+                                                                {
+                                                                    "id": "721672619",
+                                                                    "speaker": "Sumida",
+                                                                    "text": "Mas na verdade, imagino que pessoas assim são difíceis de encontrar..."
+                                                                },
+                                                                {
+                                                                    "id": "721672621",
+                                                                    "speaker": "Sumida",
+                                                                    "text": "Meu nome é Sumida. Agora, quanto ao meu pseudônimo... Ainda não terminei de pensar sobre ele. Tenho planos de participar do \"Um Romance Extraordinário\" deste ano! Como tal, preciso de um aventureiro de confiança para me ajudar a fazer uma viagem à Ilha Tsurumi."
+                                                                },
+                                                                {
+                                                                    "id": "721672622",
+                                                                    "speaker": "Player",
+                                                                    "text": "Ilha Tsurumi?"
+                                                                },
+                                                                {
+                                                                    "id": "721672623",
+                                                                    "speaker": "Sumida",
+                                                                    "text": "#Isso mesmo. Agora, o nome do meu romance atualmente é \"As Crônicas do Mar de Neblina\". A ideia geral da trama é a seguinte: {M#um jovem rapaz}{F#uma jovem moça} e suas aventuras em uma nação envolta em um nevoeiro perpétuo."
+                                                                },
+                                                                {
+                                                                    "id": "721672624",
+                                                                    "speaker": "Sumida",
+                                                                    "text": "Bem, os detalhes da trama ainda estão atualmente em andamento. Mas meu objetivo final é escrever um romance épico que possa mover corações e almas, como em as \"Viagens de Kino\"!"
+                                                                },
+                                                                {
+                                                                    "id": "721672625",
+                                                                    "speaker": "Player",
+                                                                    "text": "Isso..."
+                                                                },
+                                                                {
+                                                                    "id": "721672626",
+                                                                    "speaker": "Sumida",
+                                                                    "text": "Sim, é exatamente aquela mesma \"Viagens de Kino\"!"
+                                                                },
+                                                                {
+                                                                    "id": "721672627",
+                                                                    "speaker": "Sumida",
+                                                                    "text": "Na qual uma forasteira chamada Kino, que não consegue se encaixar em nenhum lugar, caminha por muitas terras estranhas. Ela conhece todo tipo de gente, e é atraída para todos os tipos de planos maléficos e todos os tipos de guerras cruéis. No entanto, cada uma de suas aventuras um dia se transformará em ouro brilhante..."
+                                                                },
+                                                                {
+                                                                    "id": "721672628",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "#Paimon não deve ter entendido muito bem, mas realmente parece que ela está falando de você, {NICKNAME}..."
+                                                                },
+                                                                {
+                                                                    "id": "721672629",
+                                                                    "speaker": "Player",
+                                                                    "text": "Então, sobre a sua comissão..."
+                                                                },
+                                                                {
+                                                                    "id": "721672630",
+                                                                    "speaker": "Sumida",
+                                                                    "text": "Ah, sim. Desculpe, saí do assunto."
+                                                                },
+                                                                {
+                                                                    "id": "721672631",
+                                                                    "speaker": "Sumida",
+                                                                    "text": "Na verdade, tive refletido bastante sobre esse meu hábito. Ele se infiltra também em minha escrita, ao ponto de ter escrito mais de 20 páginas antes de chegar ao ponto."
+                                                                },
+                                                                {
+                                                                    "id": "721672632",
+                                                                    "speaker": "Sumida",
+                                                                    "text": "Naquela época, eu queria usar a lenda da Kitsune Saiguu levando o povo aos salões subterrâneos de Araumi para salvá-los de um desastre, como base para uma história sobre a vida pacífica de sua nova encarnação entre o povo de Hanamizaka...",
+                                                                    "choices": [
+                                                                        {
+                                                                            "id": "721672633",
+                                                                            "text": "Então, o que você quer que eu faça na Ilha Tsurumi?",
+                                                                            "response": [
+                                                                                {
+                                                                                    "id": "721672637",
+                                                                                    "speaker": "Sumida",
+                                                                                    "text": "Foi minha culpa... Então, por favor, vá para a Ilha Tsurumi e encontre uma maneira de trazer uma Maushiro de volta para mim. Este é um instrumento tradicional da civilização nativa da ilha, que está perdido há vários milênios."
+                                                                                },
+                                                                                {
+                                                                                    "id": "721672638",
+                                                                                    "speaker": "Sumida",
+                                                                                    "text": "#Então, essa é a ideia. O - obviamente fictício - enredo de \"As Crônicas do Mar de Neblina (título provisório)\" se passa na Ilha Tsurumi, e quando {M#um jovem rapaz}{F#uma jovem moça} coloca seus pés nela-"
+                                                                                },
+                                                                                {
+                                                                                    "id": "721672639",
+                                                                                    "speaker": "Paimon",
+                                                                                    "text": "#Vamos, {NICKNAME}."
+                                                                                },
+                                                                                {
+                                                                                    "id": "721672640",
+                                                                                    "speaker": "Sumida",
+                                                                                    "text": "—Eles ouvem um som estranho, mas na verdade é apenas o som das tradicionais Maushiros que os contos populares falam, então, eu quero descrever a eles corretamente seu som e é por isso que preciso de uma Maushiro real!"
+                                                                                },
+                                                                                {
+                                                                                    "id": "721672641",
+                                                                                    "speaker": "Player",
+                                                                                    "text": "Até me admira não ter divagado dessa vez."
+                                                                                },
+                                                                                {
+                                                                                    "id": "721672642",
+                                                                                    "speaker": "Paimon",
+                                                                                    "text": "Nah, ela já estava prestes a começar a falar sem parar. Mesmo assim, você realmente precisa de uma Maushiro de verdade só pra escrever um romance, senhorita Sumida? Um \"fufufu\" ou um \"fuéennn\" não serviria?"
+                                                                                },
+                                                                                {
+                                                                                    "id": "721672643",
+                                                                                    "speaker": "Sumida",
+                                                                                    "text": "A escrita é um esforço muito sério. Você deve tratar as coisas que está descrevendo com o máximo de respeito."
+                                                                                },
+                                                                                {
+                                                                                    "id": "721672644",
+                                                                                    "speaker": "Sumida",
+                                                                                    "text": "Por exemplo, se você deseja descrever a \"Tormenta Elétrica\", você deve ir à Garganta Musoujin para experimentá-la! Essa é a única maneira de manter a autenticidade e a credibilidade!"
+                                                                                },
+                                                                                {
+                                                                                    "id": "721672645",
+                                                                                    "speaker": "Player",
+                                                                                    "text": "Isso me parece muito perigoso."
+                                                                                },
+                                                                                {
+                                                                                    "id": "721672646",
+                                                                                    "speaker": "Sumida",
+                                                                                    "text": "De fato, e eu quase morri naquela época. Se eu não tivesse instruído Kama a me tirar de lá se ele visse que algo estava indo mal..."
+                                                                                },
+                                                                                {
+                                                                                    "id": "721672647",
+                                                                                    "speaker": "Sumida",
+                                                                                    "text": "Fui colocada de cama por alguns dias após aquele resgate. Tudo que eu conseguia ver, tudo que eu vomitei... Estava tudo roxo."
+                                                                                },
+                                                                                {
+                                                                                    "id": "721672648",
+                                                                                    "speaker": "Sumida",
+                                                                                    "text": "Mas agora que pensei nisso, o fato de que tudo que eu vomitei ser roxo, pode ter sido o resultado de eu só poder ver roxo na hora.",
+                                                                                    "choices": [
+                                                                                        {
+                                                                                            "id": "721672649",
+                                                                                            "text": "Parece mais que você comeu Melão de Lavanda demais...",
+                                                                                            "response": [
+                                                                                                {
+                                                                                                    "id": "721672650",
+                                                                                                    "speaker": "Sumida",
+                                                                                                    "text": "..."
+                                                                                                },
+                                                                                                {
+                                                                                                    "id": "721672651",
+                                                                                                    "speaker": "Sumida",
+                                                                                                    "text": "Hã. Agora que você comentou, é verdade. Eu deveria comparar e medir as duas experiências na próxima vez."
+                                                                                                },
+                                                                                                {
+                                                                                                    "id": "721672656",
+                                                                                                    "speaker": "Sumida",
+                                                                                                    "text": "Seja qual for o caso, esta carta é para você. Entregue-a a um homem chamado Kama em Ritou, e ele te levará para a Ilha Tsurumi."
+                                                                                                },
+                                                                                                {
+                                                                                                    "id": "721672657",
+                                                                                                    "speaker": "Sumida",
+                                                                                                    "text": "Por favor, o grande prêmio do \"Um Romance Extraordinário\" deste ano está em jogo!"
+                                                                                                }
+                                                                                            ]
+                                                                                        },
+                                                                                        {
+                                                                                            "id": "721672652",
+                                                                                            "text": "E o que você conseguiu escrever?",
+                                                                                            "response": [
+                                                                                                {
+                                                                                                    "id": "721672653",
+                                                                                                    "speaker": "Sumida",
+                                                                                                    "text": "...Eu não consegui sair da cama para escrever durante aqueles dias, então eu acabei perdendo o prazo."
+                                                                                                },
+                                                                                                {
+                                                                                                    "id": "721672654",
+                                                                                                    "speaker": "Paimon",
+                                                                                                    "text": "Espera aí, então tudo aquilo foi por nada?"
+                                                                                                },
+                                                                                                {
+                                                                                                    "id": "721672655",
+                                                                                                    "speaker": "Sumida",
+                                                                                                    "text": "Bem, como posso dizer? Isso será útil na próxima vez que eu precisar escrever um cenário convincente como... Como \"Aquela Vez em Que Fui Engolido Por Um Slime Electro\"."
+                                                                                                }
+                                                                                            ]
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        {
+                                                                            "id": "721672634",
+                                                                            "text": "Vá direto ao ponto, por favor."
+                                                                        },
+                                                                        {
+                                                                            "id": "721672635",
+                                                                            "text": "É isto, estou indo embora.",
+                                                                            "response": [
+                                                                                {
+                                                                                    "id": "721672636",
+                                                                                    "speaker": "Sumida",
+                                                                                    "text": "Eh? Espere! Desculpe! Desculpe! Não vá!"
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "id": "721672620",
+                                                            "text": "Então, sobre a sua comissão..."
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "721672613",
+                                            "text": "..."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "721672603",
+                            "text": "#Eu sou {NICKNAME}, sim."
+                        },
+                        {
+                            "id": "721672604",
+                            "text": "#Sou {M#o lendário}{F#a lendária} {NICKNAME}."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "7216713",
+            "objective": "",
+            "dialogues": [
+                {
+                    "id": "721671301",
+                    "speaker": "Kama",
+                    "text": "Qual o problema?",
+                    "choices": [
+                        {
+                            "id": "721671302",
+                            "text": "Podemos perguntar sobre o nevoeiro?",
+                            "response": [
+                                {
+                                    "id": "721671303",
+                                    "speaker": "Kama",
+                                    "text": "Atravesse o portão grande por ali. Esta costumava ser uma das tradições da Ilha Tsurumi."
+                                },
+                                {
+                                    "id": "721671304",
+                                    "speaker": "Kama",
+                                    "text": "Caso contrário, você se perderá no nevoeiro muito facilmente."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "721671305",
+                            "text": "Adeus.",
+                            "response": [
+                                {
+                                    "id": "721671306",
+                                    "speaker": "Kama",
+                                    "text": "Adeus."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "7216714",
+            "objective": "",
+            "dialogues": [
+                {
+                    "id": "721671401",
+                    "speaker": "Ruu",
+                    "text": "#Oh, {NICKNAME}!"
+                },
+                {
+                    "id": "721671402",
+                    "speaker": "Ipe",
+                    "text": "Qual o problema?",
+                    "choices": [
+                        {
+                            "id": "721671403",
+                            "text": "Você sabe algo sobre essa neblina?",
+                            "response": [
+                                {
+                                    "id": "721671404",
+                                    "speaker": "Makiri",
+                                    "text": "Essa neblina... Se é como o vovô Tasuku diz, se a neblina é tão poderosa que nada pode invadir a Ilha Tsurumi, como é que as coisas de fora chegam aos poleiros?"
+                                },
+                                {
+                                    "id": "721671405",
+                                    "speaker": "Ipe",
+                                    "text": "Isso porque essas substâncias estranhas vêm de dentro do solo. A neblina não pode impedir as coisas que vêm de lá, e é por isso que precisamos fazer oferendas e purificar os poleiros."
+                                },
+                                {
+                                    "id": "721671406",
+                                    "speaker": "Makiri",
+                                    "text": "Hã. E cá estava eu achando que a neblina podia fazer tudo."
+                                },
+                                {
+                                    "id": "721671407",
+                                    "speaker": "Ipe",
+                                    "text": "É o mesmo para coisas no oceano. Já pesquei coisas estranhas antes."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "721671408",
+                            "text": "Ei, você sabe algo sobre as penas...?",
+                            "response": [
+                                {
+                                    "id": "721671409",
+                                    "speaker": "Makiri",
+                                    "text": "Não consigo encontrar nenhuma pena!"
+                                },
+                                {
+                                    "id": "721671410",
+                                    "speaker": "Ipe",
+                                    "text": "Quando você toca o poleiro, as penas voam para áreas próximas. Depois disso, você terá que confiar em seus sentidos. Se você tiver um bom faro para os elementos, isto deve ser fácil."
+                                },
+                                {
+                                    "id": "721671411",
+                                    "speaker": "Ipe",
+                                    "text": "Não deve ser tão difícil..."
+                                },
+                                {
+                                    "id": "721671412",
+                                    "speaker": "Makiri",
+                                    "text": "Mas definitivamente é~"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "7216715",
+            "objective": "",
+            "dialogues": [
+                {
+                    "id": "721671501",
+                    "speaker": "Ruu",
+                    "text": ""
+                }
+            ]
+        },
+        {
+            "id": "7216721",
+            "objective": "Siga pela neblina, encontre e faça as oferendas para os poleiros",
+            "dialogues": []
+        },
+        {
+            "id": "7216717",
+            "objective": "",
+            "dialogues": [
+                {
+                    "id": "721671701",
+                    "speaker": "Abe",
+                    "text": "Mesmo que fosse apenas uma vez, eu gostaria de sair do mar de neblina e ver o que existe além..."
+                },
+                {
+                    "id": "721671702",
+                    "speaker": "Una",
+                    "text": "Você é idiota por acaso? É completamente escuridão lá fora!"
+                },
+                {
+                    "id": "721671703",
+                    "speaker": "Una",
+                    "text": "O sacerdote não disse que se deixarmos o nevoeiro, nossas almas se tornarão sombras perdidas que vagueiam além do Reino do Silêncio?"
+                },
+                {
+                    "id": "721671704",
+                    "speaker": "Una",
+                    "text": "Se não fosse pela Grande Pássaro do Trovão usando o nevoeiro para proteger a ilha, já teríamos morrido há muito tempo."
+                },
+                {
+                    "id": "721671705",
+                    "speaker": "Abe",
+                    "text": "Eu sei, e é por isso que realizamos cerimônias para agradecer à Grande Pássaro do Trovão por sua proteção."
+                },
+                {
+                    "id": "721671706",
+                    "speaker": "Abe",
+                    "text": "...Mas você não está nem um pouco curioso sobre o mundo lá fora de qualquer forma?"
+                },
+                {
+                    "id": "721671707",
+                    "speaker": "Una",
+                    "text": "Houve quem tentasse deixar este lugar e seguir a luz da Grande Pássaro Trovão para buscar novas terras. Nenhum deles retornou vivo. Você se lembra do filho da família Kama, não se lembra, velhote?"
+                },
+                {
+                    "id": "721671708",
+                    "speaker": "Abe",
+                    "text": "Oh, como eu poderia esquecer..."
+                },
+                {
+                    "id": "721671709",
+                    "speaker": "Abe",
+                    "text": "Talvez eu apenas desejasse que tudo tivesse dado certo para ele..."
+                }
+            ]
+        },
+        {
+            "id": "7216716",
+            "objective": "Retorne para o local da cerimônia",
+            "dialogues": [
+                {
+                    "id": "721671601",
+                    "speaker": "Paimon",
+                    "text": "Estamos de volta!"
+                },
+                {
+                    "id": "721671602",
+                    "speaker": "Kama",
+                    "text": "Já não era sem tempo."
+                },
+                {
+                    "id": "721671603",
+                    "speaker": "Kama",
+                    "text": "Você trouxe o item que a senhorita Sumida pediu?"
+                },
+                {
+                    "id": "721671604",
+                    "speaker": "Player",
+                    "text": "Trouxemos."
+                },
+                {
+                    "id": "721671605",
+                    "speaker": "Paimon",
+                    "text": "Tudo correu estranhamente bem."
+                },
+                {
+                    "id": "721671606",
+                    "speaker": "Kama",
+                    "text": "..."
+                },
+                {
+                    "id": "721671607",
+                    "speaker": "Player",
+                    "text": "Qual o problema?"
+                },
+                {
+                    "id": "721671608",
+                    "speaker": "Kama",
+                    "text": "#Nada. Vou te levar de volta agora, você está pront{M#o}{F#a} para partir?",
+                    "choices": [
+                        {
+                            "id": "721671609",
+                            "text": "Estou.",
+                            "response": [
+                                {
+                                    "id": "721671610",
+                                    "speaker": "Kama",
+                                    "text": "Ótimo. Pode subir, então."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "721671611",
+                            "text": "Ainda não.",
+                            "response": [
+                                {
+                                    "id": "721671612",
+                                    "speaker": "Kama",
+                                    "text": "..."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "7216718",
+            "objective": "Cheque a luz",
+            "dialogues": [
+                {
+                    "id": "721671801",
+                    "speaker": "Onkami",
+                    "text": "Onde aquele garoto Ruu foi parar?"
+                },
+                {
+                    "id": "721671802",
+                    "speaker": "Onkami",
+                    "text": "Sério. Já está quase na hora, e não podemos começar sem ele."
+                }
+            ]
+        },
+        {
+            "id": "7216724",
+            "objective": "Fale com Kama e retorne",
+            "dialogues": [
+                {
+                    "id": "721672401",
+                    "speaker": "Tasuku",
+                    "text": "Espero que... Não, a Grande Pássaro do Trovão certamente ficará satisfeita com a cerimônia desta vez...",
+                    "choices": [
+                        {
+                            "id": "721672402",
+                            "text": "Você poderia me contar sobre a Pássaro do Trovão...?",
+                            "response": [
+                                {
+                                    "id": "721672405",
+                                    "speaker": "Tasuku",
+                                    "text": "..."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "721672403",
+                            "text": "Conte-me sobre a cerimônia..."
+                        },
+                        {
+                            "id": "721672404",
+                            "text": "Você poderia me dizer algo sobre as Maushiros...?"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "7216734",
+            "objective": "Fale com Kama",
+            "dialogues": []
+        },
+        {
+            "id": "7216719",
+            "objective": "Reporte para Sumida",
+            "dialogues": [
+                {
+                    "id": "721671101",
+                    "speaker": "Sumida",
+                    "text": "Oh, você voltou."
+                },
+                {
+                    "id": "721671102",
+                    "speaker": "Sumida",
+                    "text": "Eu realmente espero que você tenha trazido a Maushiro desta vez... Caso contrário..."
+                },
+                {
+                    "id": "721671103",
+                    "speaker": "Sumida",
+                    "text": "...Caso contrário meu romance nunca será escrito!"
+                },
+                {
+                    "id": "721671104",
+                    "speaker": "Paimon",
+                    "text": "Ah qual é! Uma comissão deste nível é facílimo para a gente!"
+                },
+                {
+                    "id": "721671105",
+                    "speaker": "Paimon",
+                    "text": "#Vamos lá, {NICKNAME}, vamos mostrar a Maushiro que encontramos para ela!"
+                },
+                {
+                    "id": "721671106",
+                    "speaker": "Paimon",
+                    "text": "#Vamos terminar essa comissão, ser {M#pagos}{F#pagas}, e se dirigir ao Restaurante Kiminami para comer algo bem gostoso...",
+                    "choices": [
+                        {
+                            "id": "721671107",
+                            "text": "A Maushiro...",
+                            "response": [
+                                {
+                                    "id": "721671109",
+                                    "speaker": "Paimon",
+                                    "text": "O quê? Sumiu?"
+                                },
+                                {
+                                    "id": "721671110",
+                                    "speaker": "Paimon",
+                                    "text": "Isso é impossível! Acabamos de pegar!"
+                                },
+                                {
+                                    "id": "721671111",
+                                    "speaker": "Sumida",
+                                    "text": "*Suspira*",
+                                    "choices": [
+                                        {
+                                            "id": "721671112",
+                                            "text": "Não pode ser...",
+                                            "response": [
+                                                {
+                                                    "id": "721671114",
+                                                    "speaker": "Sumida",
+                                                    "text": "Parece que aconteceu com você também... Que dor de cabeça."
+                                                },
+                                                {
+                                                    "id": "721671115",
+                                                    "speaker": "Sumida",
+                                                    "text": "Não se preocupe muito com isso."
+                                                },
+                                                {
+                                                    "id": "721671116",
+                                                    "speaker": "Sumida",
+                                                    "text": "Na verdade, eu não fui completamente honesta com vocês. Eu realmente encarreguei outras pessoas antes de enviar vocês."
+                                                },
+                                                {
+                                                    "id": "721671117",
+                                                    "speaker": "Sumida",
+                                                    "text": "Aventureiros, soldados veteranos, membros dos Eremitas de Sumeru, estudantes da Técnica Iwakura, especialistas em solução de problemas do Yorozuya..."
+                                                },
+                                                {
+                                                    "id": "721671151",
+                                                    "speaker": "Sumida",
+                                                    "text": "Eu até contratei um Ladrão de Tesouro muito experiente... Se chamava de \"Captor\" ou algo assim. Acho que ele foi para Mondstadt depois que nos separamos..."
+                                                },
+                                                {
+                                                    "id": "721671118",
+                                                    "speaker": "Sumida",
+                                                    "text": "Hã, agora que parei para pensar sobre isso, uma equipe tão diversificada teria feito uma boa história. Uma equipe de pessoas com diferentes formações, personagens e habilidades se aventurando juntos..."
+                                                },
+                                                {
+                                                    "id": "721671119",
+                                                    "speaker": "Sumida",
+                                                    "text": "-Uh, espera aí! Agora não é o momento para tais pensamentos."
+                                                },
+                                                {
+                                                    "id": "721671120",
+                                                    "speaker": "Paimon",
+                                                    "text": "Uhuuu, olha só quem está controlando sua mania de sair do assunto!"
+                                                },
+                                                {
+                                                    "id": "721671121",
+                                                    "speaker": "Sumida",
+                                                    "text": "Seja como for, eles, como você, aceitaram este trabalho comigo, mas todos eles acabaram sendo incapazes de trazer a Maushiro que eles juravam terem conseguido."
+                                                },
+                                                {
+                                                    "id": "721671122",
+                                                    "speaker": "Sumida",
+                                                    "text": "#No início, eu achei que eles estavam apenas inventando desculpas pela sua falta de capacidade. Mas agora que até mesmo você, {M#o lendário aventureiro}{F#a lendária aventureira} de alto nível que a Guilda me recomendou tão insistentemente, também se deparou com esta situação..."
+                                                },
+                                                {
+                                                    "id": "721671123",
+                                                    "speaker": "Sumida",
+                                                    "text": "Uma missão inalcançável e Maushiros que desaparecem..."
+                                                },
+                                                {
+                                                    "id": "721671124",
+                                                    "speaker": "Paimon",
+                                                    "text": "\"Dariam uma boa história\", certo?"
+                                                },
+                                                {
+                                                    "id": "721671125",
+                                                    "speaker": "Sumida",
+                                                    "text": "...Isso é verdade, mas no momento, tudo que eu quero terminar de escrever é \"As Crônicas do Mar de Neblina (título provisório)\"!"
+                                                },
+                                                {
+                                                    "id": "721671126",
+                                                    "speaker": "Player",
+                                                    "text": "#Honestamente, estou bem preocupad{M#o}{F#a} também."
+                                                },
+                                                {
+                                                    "id": "721671127",
+                                                    "speaker": "Paimon",
+                                                    "text": "Mesmo assim, senhorita Sumida, como a civilização de Tsurumi desapareceu há tanto tempo, não deve haver ninguém que tenha ouvido o som das Maushiros, certo?"
+                                                },
+                                                {
+                                                    "id": "721671128",
+                                                    "speaker": "Paimon",
+                                                    "text": "Se você apenas disser que faz um som tipo \"fuuáááá\", ninguém saberá a diferença!"
+                                                },
+                                                {
+                                                    "id": "721671129",
+                                                    "speaker": "Sumida",
+                                                    "text": "A Maushiro..."
+                                                },
+                                                {
+                                                    "id": "721671130",
+                                                    "speaker": "Sumida",
+                                                    "text": "\"Quando eu acordei, um [insira som da Maushiro aqui] ecoou pela névoa cinzenta que me rodeava. Senti-me como se estivesse em um sonho, então continuei deitada ali. A areia estava contra minha bochecha, me dizendo que meu sonho estava em uma praia.\""
+                                                },
+                                                {
+                                                    "id": "721671131",
+                                                    "speaker": "Sumida",
+                                                    "text": "\"[Insira o tal som mencionado acima aqui] ficou ainda mais alto, e só então me lembrei, como um relâmpago perfurando o nevoeiro, daquela promessa que fiz a um amigo. Só então me lembrei que este mundo não era só praias e mar, mas cidades e árvores também...\"",
+                                                    "choices": [
+                                                        {
+                                                            "id": "721671132",
+                                                            "text": "Eu daria uma nota de 8 de 10 a isso.",
+                                                            "response": [
+                                                                {
+                                                                    "id": "721671136",
+                                                                    "speaker": "Sumida",
+                                                                    "text": "...Estou falando de como eu não poderei escrever essa parte se eu não souber como soa uma Maushiro!"
+                                                                },
+                                                                {
+                                                                    "id": "721671137",
+                                                                    "speaker": "Sumida",
+                                                                    "text": "Como uma romancista, isto é inaceitável! Inaceitável! Urg!"
+                                                                },
+                                                                {
+                                                                    "id": "721671138",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "Uh, não se preocupe, Paimon te entende...",
+                                                                    "choices": [
+                                                                        {
+                                                                            "id": "721671139",
+                                                                            "text": "Eu sugiro você procurar outra pessoa.",
+                                                                            "response": [
+                                                                                {
+                                                                                    "id": "721671140",
+                                                                                    "speaker": "Paimon",
+                                                                                    "text": "Oh, não seja assim! Paimon realmente está bem interessada na Ilha Tsurumi..."
+                                                                                },
+                                                                                {
+                                                                                    "id": "721671142",
+                                                                                    "speaker": "Sumida",
+                                                                                    "text": "Se você não se importar... Posso contatar todas as outras pessoas que pegaram essa comissão antes. Talvez uma discussão sobre o assunto possa trazer algum tipo de avanço..."
+                                                                                },
+                                                                                {
+                                                                                    "id": "721671143",
+                                                                                    "speaker": "Sumida",
+                                                                                    "text": "Não se preocupe, não irei reduzir seu pagamento por conta disso!"
+                                                                                },
+                                                                                {
+                                                                                    "id": "721671144",
+                                                                                    "speaker": "Paimon",
+                                                                                    "text": "#Paimon acha que isso é uma boa ideia! O que você acha, {NICKNAME}?",
+                                                                                    "choices": [
+                                                                                        {
+                                                                                            "id": "721671145",
+                                                                                            "text": "Não faz mal tentar.",
+                                                                                            "response": [
+                                                                                                {
+                                                                                                    "id": "721671148",
+                                                                                                    "speaker": "Sumida",
+                                                                                                    "text": "Maravilhoso! Você tem minha gratidão."
+                                                                                                },
+                                                                                                {
+                                                                                                    "id": "721671149",
+                                                                                                    "speaker": "Sumida",
+                                                                                                    "text": "Obrigada... Muito obrigada por isso."
+                                                                                                },
+                                                                                                {
+                                                                                                    "id": "721671150",
+                                                                                                    "speaker": "Sumida",
+                                                                                                    "text": "Vou entrar em contato com as pessoas que comissionei antes. Me dê um tempo para me preparar, e então nos encontraremos aqui de novo."
+                                                                                                }
+                                                                                            ]
+                                                                                        },
+                                                                                        {
+                                                                                            "id": "721671146",
+                                                                                            "text": "#Bem, estou bem interessad{M#o}{F#a} em explorar a Ilha Tsurumi de qualquer forma."
+                                                                                        },
+                                                                                        {
+                                                                                            "id": "721671147",
+                                                                                            "text": "#Desde que eu esteja sendo {M#pago}{F#paga} de forma justa..."
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        {
+                                                                            "id": "721671141",
+                                                                            "text": "Não tem nenhuma outra forma?"
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "id": "721671133",
+                                                            "text": "Eu provavelmente daria uma nota 6 para esse início."
+                                                        },
+                                                        {
+                                                            "id": "721671134",
+                                                            "text": "Meh, eu daria uma nota de 4 de 10."
+                                                        },
+                                                        {
+                                                            "id": "721671135",
+                                                            "text": "Do que você está falando?"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "721671113",
+                                            "text": "Não estou tentando te enganar..."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "721671108",
+                            "text": "Sumiu."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "7216712",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "721671201",
+                    "speaker": "Sumida",
+                    "text": "Você voltou. Você tem a Maushiro?",
+                    "choices": [
+                        {
+                            "id": "721671202",
+                            "text": "Posso perguntar sobre Kama por um momento?",
+                            "response": [
+                                {
+                                    "id": "721671203",
+                                    "speaker": "Sumida",
+                                    "text": "Ele? ...Bem, tudo começou quando eu ouvi Tang Wen mencionar o Tofu de Amêndoas do Albergue Wangshu. Pensei que seria uma boa adição aos meus romances. Por exemplo..."
+                                },
+                                {
+                                    "id": "721671204",
+                                    "speaker": "Sumida",
+                                    "text": "...Uh, quero dizer. Ele é um homem confiável, que pode te levar para todos os tipos de lugares só com os olhos. Ele pode até mesmo passar pelas tempestades de uma nação fechada."
+                                },
+                                {
+                                    "id": "721671205",
+                                    "speaker": "Sumida",
+                                    "text": "Ele tem aquela aura de \"mantendo seu verdadeiro poder um mistério, apenas para se juntar à equipe no protagonista nas fases finais da história\", sabe? Eu já trabalhei com ele muitas vezes."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "721671206",
+                            "text": "Então, sobre a Ilha Tsurumi...",
+                            "response": [
+                                {
+                                    "id": "721671207",
+                                    "speaker": "Sumida",
+                                    "text": "É uma ilha ao distante sul da Ilha Narukami, envolta em um perpétuo véu de neblina. De acordo com os \"Contos de Mares Distantes\", houve colônias nessa ilha até alguns milênios atrás, mas elas foram devastadas devido a alguma razão desconhecida."
+                                },
+                                {
+                                    "id": "721671208",
+                                    "speaker": "Sumida",
+                                    "text": "Muito interessante, não é? Uh, eu sei que não é exatamente respeitoso dizer que a queda de uma civilização é \"interessante\", mas isso realmente faz minha mão de escrever ficar coçando! \"As Crônicas do Mar de Neblina (título provisório)\" é um título de aventura ambientado na Ilha Tsurumi com base no que já sabemos sobre sua cultura..."
+                                },
+                                {
+                                    "id": "721671209",
+                                    "speaker": "Player",
+                                    "text": "(Vamos nos retirar discretamente...)"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "721671210",
+                            "text": "Ainda não.",
+                            "response": [
+                                {
+                                    "id": "721671211",
+                                    "speaker": "Sumida",
+                                    "text": "Por favor, encontre a Maushiro... O grande prêmio do \"Um Romance Extraordinário\" deste ano está em jogo!"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "7216719",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "721671901",
+                    "speaker": "Kito",
+                    "text": "Kina, o mural antigo que encontramos antes..."
+                },
+                {
+                    "id": "721671902",
+                    "speaker": "Kina",
+                    "text": "Sim, isso mesmo. Aquela estranha forma redonda, e todas aquelas formas parecidas com porcas em volta dela."
+                },
+                {
+                    "id": "721671903",
+                    "speaker": "Kito",
+                    "text": "Eu perguntei ao vovô Tasuku sobre elas. Ele me disse que este era como o mundo antigo era... Antes de ser engolido pela escuridão."
+                },
+                {
+                    "id": "721671904",
+                    "speaker": "Kito",
+                    "text": "Para proteger a Ilha Tsurumi, a Pássaro do Trovão criou o grande mar de neblina de tal forma que até mesmo a escuridão perderia seu caminho e se tornaria incapaz de entrar na ilha."
+                },
+                {
+                    "id": "721671905",
+                    "speaker": "Kina",
+                    "text": "...Sim, tá. Isso é legal e tudo mais, mas o que isso tudo tem a ver com aquelas formas?"
+                },
+                {
+                    "id": "721671906",
+                    "speaker": "Kina",
+                    "text": "Isso é tão estranho, não é? Sem falar que os sacerdotes nos desenhos lá não se parecem nem com o vovô Tasuku e nem com os outros."
+                },
+                {
+                    "id": "721671907",
+                    "speaker": "Kito",
+                    "text": "Sim, é muito estranho!"
+                }
+            ]
+        }
+    ]
+}

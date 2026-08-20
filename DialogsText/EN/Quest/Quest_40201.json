@@ -1,0 +1,800 @@
+{
+    "quest": {
+        "id": "40201",
+        "title": "Covert Investigation, Dirty Money Misdeeds",
+        "description": "The time to act is almost upon you. It's time to head to Yilong Wharf and meet up with Yelan...",
+        "rewards": [
+            {
+                "itemId": 201,
+                "count": 40
+            },
+            {
+                "itemId": 202,
+                "count": 20000
+            },
+            {
+                "itemId": 104003,
+                "count": 2
+            }
+        ],
+        "rewards_formatted": "Primogem x40, Mora x20000, Hero's Wit x2",
+        "chapter": {
+            "icon": "",
+            "id": "",
+            "num": "",
+            "title": ""
+        },
+        "total_dialogue_lines": 125,
+        "total_speaker_counts": {
+            "<UNKNOWN>": 1,
+            "Black Screen": 6,
+            "Corder": 6,
+            "Crewmember": 1,
+            "Doddamani": 3,
+            "Friendly Passenger": 1,
+            "Paimon": 25,
+            "Player": 29,
+            "Yelan": 53
+        }
+    },
+    "talks": [
+        {
+            "id": "4020101",
+            "objective": "Wait until two days later (08:00 – 12:00)",
+            "dialogues": [
+                {
+                    "id": "402010101",
+                    "speaker": "Yelan",
+                    "text": "Well done, you two. Right on time.",
+                    "choices": [
+                        {
+                            "id": "402010102",
+                            "text": "How's the case coming along?",
+                            "response": [
+                                {
+                                    "id": "402010104",
+                                    "speaker": "Yelan",
+                                    "text": "The day after we infiltrated the storage facility, the Dark Financier's two lackeys, Corder and Doddamani, started moving the goods."
+                                },
+                                {
+                                    "id": "402010105",
+                                    "speaker": "Yelan",
+                                    "text": "See that ship? It's the one Doddamani dispatched to transport the goods. It operates under the guise of a joint passenger and freight vessel."
+                                },
+                                {
+                                    "id": "402010106",
+                                    "speaker": "Paimon",
+                                    "text": "Whoa, that's one huge boat! Paimon can see all the goods piled up on the pier! Seems like it's transporting quite a few passengers to Lumidouce Harbor as well...",
+                                    "choices": [
+                                        {
+                                            "id": "402010107",
+                                            "text": "What if those aren't the real goods, though?",
+                                            "response": [
+                                                {
+                                                    "id": "402010109",
+                                                    "speaker": "Yelan",
+                                                    "text": "Thinking two-steps ahead? I like it. You're a fast learner."
+                                                },
+                                                {
+                                                    "id": "402010110",
+                                                    "speaker": "Yelan",
+                                                    "text": "If Corder and Doddamani think the authorities are on to them, it's possible the goods they're sending to Lumidouce Harbor are a whole bunch of nothing. Just bait to flush out the law enforcement on their tail."
+                                                },
+                                                {
+                                                    "id": "402010111",
+                                                    "speaker": "Yelan",
+                                                    "text": "But we need to be careful. Several members of the crew have confessed that a veteran Treasure Hoarder known as \"Scamface\" is involved with the Dark Financier."
+                                                },
+                                                {
+                                                    "id": "402010112",
+                                                    "speaker": "Yelan",
+                                                    "text": "As an escaped convict, Scamface is a master of staying hidden. Based on our earlier investigation, it's clear he's the one who's been doing reconnaissance on the Millelith's lighthouse."
+                                                },
+                                                {
+                                                    "id": "402010113",
+                                                    "speaker": "Yelan",
+                                                    "text": "I'll circle the area to draw Scamface's attention away from the scene while you two inspect the goods."
+                                                },
+                                                {
+                                                    "id": "402010114",
+                                                    "speaker": "Yelan",
+                                                    "text": "Remember to keep a low profile.",
+                                                    "choices": [
+                                                        {
+                                                            "id": "402010115",
+                                                            "text": "Understood. I'll keep it stealthy.",
+                                                            "response": [
+                                                                {
+                                                                    "id": "402010117",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "#Yeah! And Paimon will do her best to... float closer to the ground! No higher than {NICKNAME}'s shoulder!"
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "id": "402010116",
+                                                            "text": "Don't worry. I've got this."
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "402010108",
+                                            "text": "Should we investigate them just in case?"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "402010103",
+                            "text": "Any developments?"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "4020102",
+            "objective": "Go to Yilong Wharf",
+            "dialogues": []
+        },
+        {
+            "id": "4020109",
+            "objective": "Equip the item and talk to Yelan",
+            "dialogues": [
+                {
+                    "id": "402010901",
+                    "speaker": "Player",
+                    "text": "I'm ready to go."
+                },
+                {
+                    "id": "402010902",
+                    "speaker": "Yelan",
+                    "text": "Alright, we'll meet back up here once you're done."
+                }
+            ]
+        },
+        {
+            "id": "4020104",
+            "objective": "Investigate the goods on the pier",
+            "dialogues": [
+                {
+                    "id": "402010401",
+                    "speaker": "Paimon",
+                    "text": "Alright, that's all the bombs on the deck. What about the cargo hold? Do we have enough time?"
+                },
+                {
+                    "id": "402010402",
+                    "speaker": "Yelan",
+                    "text": "Already taken care of."
+                },
+                {
+                    "id": "402010403",
+                    "speaker": "Yelan",
+                    "text": "Good work, you two. You stayed calm and acted fast. That was the perfect response to a situation like this."
+                },
+                {
+                    "id": "402010404",
+                    "speaker": "Paimon",
+                    "text": "Yelan! Honestly, it's all thanks to you. It was your idea to board the ship. And, we never would've been able to figure out that message without your cipher..."
+                },
+                {
+                    "id": "402010405",
+                    "speaker": "Paimon",
+                    "text": "Wait a sec... Where are Corder and Doddamani?"
+                },
+                {
+                    "id": "402010406",
+                    "speaker": "Yelan",
+                    "text": "Heh..."
+                },
+                {
+                    "id": "402010407",
+                    "speaker": "Yelan",
+                    "text": "Recovering from the shock, I would imagine. Suddenly finding out that you're being targeted by a dangerous individual... That must have been quite the ordeal for you, gentlemen? Almost lost your cargo and your lives in one fell swoop..."
+                },
+                {
+                    "id": "402010408",
+                    "speaker": "Corder",
+                    "text": "..."
+                },
+                {
+                    "id": "402010409",
+                    "speaker": "Corder",
+                    "text": "Indeed. To think such evil exists in this world... I can scarcely imagine what I did to offend this fellow. Resorting to murder like this... It's quite unfathomable."
+                },
+                {
+                    "id": "402010410",
+                    "speaker": "Yelan",
+                    "text": "Well, no need to fear. I'll alert the Maison Gardiennage at once and ask them to send agents to Lumidouce Harbor. The two of you are clearly in need of protection."
+                },
+                {
+                    "id": "402010411",
+                    "speaker": "Yelan",
+                    "text": "Your cargo will also need to be handed over to the authorities for inspection, Mr. Corder — just to eliminate any remaining hazards. After which, the Maison Gardiennage will escort it all to its intended destination, of course."
+                },
+                {
+                    "id": "402010412",
+                    "speaker": "Yelan",
+                    "text": "So, if I may... Where are your goods heading, Mr. Corder?"
+                },
+                {
+                    "id": "402010413",
+                    "speaker": "Corder",
+                    "text": "...To the Hotel Debord. For an auction in two days."
+                },
+                {
+                    "id": "402010414",
+                    "speaker": "Yelan",
+                    "text": "Ah, then rest assured. The Maison Gardiennage is full of diligent and responsible personnel. You can trust that your goods will arrive at the auction without a scratch."
+                },
+                {
+                    "id": "402010415",
+                    "speaker": "Corder",
+                    "text": "Our sincerest thanks."
+                },
+                {
+                    "id": "402010416",
+                    "speaker": "Black Screen",
+                    "text": "After some time, the ship safely docks at Lumidouce Harbor. The Maison Gardiennage conduct a quick safety inspection and unload all the cargo from the ship."
+                },
+                {
+                    "id": "402010417",
+                    "speaker": "Black Screen",
+                    "text": "In the meantime, you tell Yelan about the note Scamface left for Corder and Doddamani."
+                }
+            ]
+        },
+        {
+            "id": "4020105",
+            "objective": "Summarize the results of your investigation",
+            "dialogues": [
+                {
+                    "id": "402010501",
+                    "speaker": "Paimon",
+                    "text": "Okay, so no fakes. These people are definitely anxious to get their goods to Fontaine all in one go..."
+                },
+                {
+                    "id": "402010502",
+                    "speaker": "Paimon",
+                    "text": "But did you see the strange markings on some of them? Wonder what they mean... Let's go ask Yelan!"
+                },
+                {
+                    "id": "402010503",
+                    "speaker": "Black Screen",
+                    "text": "You find Yelan and tell her the results of the investigation..."
+                },
+                {
+                    "id": "402010504",
+                    "speaker": "Yelan",
+                    "text": "Good work. As for the auction, Officer Edler was able to gather some useful intel too. We're almost certain their target is the auction taking place at the Hotel Debord in two days."
+                },
+                {
+                    "id": "402010505",
+                    "speaker": "Yelan",
+                    "text": "The markings you managed to capture were applied with a special kind of paint. Almost impossible to notice without some kind of specialized tech, like the Forensic Imaging Device."
+                },
+                {
+                    "id": "402010506",
+                    "speaker": "Yelan",
+                    "text": "I think we're looking at a Treasure Hoarder insignia. Each big shot in the organization has their own — almost like a personal signature. And considering what we know about the case, I'd wager this is Scamface's handiwork.",
+                    "choices": [
+                        {
+                            "id": "402010507",
+                            "text": "So... He's labeling the goods. But why?",
+                            "response": [
+                                {
+                                    "id": "402010509",
+                                    "speaker": "Yelan",
+                                    "text": "Based on the port manifest, it looks like the marked goods include... fertilizer from Sumeru, local fireworks, soap, and perfume."
+                                },
+                                {
+                                    "id": "402010510",
+                                    "speaker": "Paimon",
+                                    "text": "So nothing special then... Just some farming products and everyday necessities?"
+                                },
+                                {
+                                    "id": "402010511",
+                                    "speaker": "Yelan",
+                                    "text": "Fertilizer, soap, and perfume... No, there's something going on there."
+                                },
+                                {
+                                    "id": "402010512",
+                                    "speaker": "Yelan",
+                                    "text": "Might be risky, but I'm gonna investigate on board, and hitch a ride to Fontaine while I'm at it.",
+                                    "choices": [
+                                        {
+                                            "id": "402010513",
+                                            "text": "We've made it this far...",
+                                            "response": [
+                                                {
+                                                    "id": "402010515",
+                                                    "speaker": "Paimon",
+                                                    "text": "Yeah, let's see this thing through! Paimon's gotta know what's going on here!"
+                                                },
+                                                {
+                                                    "id": "402010516",
+                                                    "speaker": "Yelan",
+                                                    "text": "Well, you've proved yourselves so far, so I don't see a problem with that. Just know, once we board the ship, we're bound to come face to face with Corder and Doddamani."
+                                                },
+                                                {
+                                                    "id": "402010517",
+                                                    "speaker": "Yelan",
+                                                    "text": "So, make sure you're prepared. The investigation might look a little different this time."
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "402010514",
+                                            "text": "We'll come with you."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "402010508",
+                            "text": "What message is he trying to send?"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "4020111",
+            "objective": "Talk to Yelan",
+            "dialogues": [
+                {
+                    "id": "402011101",
+                    "speaker": "Player",
+                    "text": "(Yelan's distraction is holding. This is our chance, but we need to hurry.)"
+                }
+            ]
+        },
+        {
+            "id": "4020103",
+            "objective": "Talk to Yelan",
+            "dialogues": [
+                {
+                    "id": "402010201",
+                    "speaker": "Crewmember",
+                    "text": "Excuse me, passengers. Due to limited space in the cargo hold, we've been forced to store some of the goods on the deck. We apologize for the inconvenience."
+                },
+                {
+                    "id": "402010202",
+                    "speaker": "Friendly Passenger",
+                    "text": "Ah please, no need to apologize for your success in business! I just hope it rubs off on the rest of us! Hahaha..."
+                },
+                {
+                    "id": "402010203",
+                    "speaker": "Yelan",
+                    "text": "It looks like all the goods marked with Scamface's insignia have Corder listed as the shipper. Doddamani is in the cargo hold, likely making sure all the goods are in place for delivery."
+                },
+                {
+                    "id": "402010204",
+                    "speaker": "Paimon",
+                    "text": "Are they... inspecting something? Why are they rifling through the boxes? Paimon can't make sense of it!"
+                },
+                {
+                    "id": "402010205",
+                    "speaker": "Yelan",
+                    "text": "Here, take this cipher. It should help you figure out their coded messages."
+                },
+                {
+                    "id": "402010206",
+                    "speaker": "Yelan",
+                    "text": "This is the plan — while I distract Corder and Doddamani, you two investigate the goods marked with Scamface's insignia. We might learn something useful.",
+                    "choices": [
+                        {
+                            "id": "402010207",
+                            "text": "If I find something concerning...",
+                            "response": [
+                                {
+                                    "id": "402010209",
+                                    "speaker": "Yelan",
+                                    "text": "By all means. I trust your judgement."
+                                },
+                                {
+                                    "id": "402010210",
+                                    "speaker": "Paimon",
+                                    "text": "Huh? W—W—Wait! You're just gonna go up and talk to those guys!? Yelan!"
+                                },
+                                {
+                                    "id": "402010211",
+                                    "speaker": "Yelan",
+                                    "text": "Hm? Oh, excuse me gentlemen, but... Have we met?"
+                                },
+                                {
+                                    "id": "402010212",
+                                    "speaker": "Yelan",
+                                    "text": "You're Mr. Corder, a famous antique collector in the Quartier Lyonnais, correct? I believe the three of us have had the pleasure of meeting once before. At Jiulue Teahouse in Yilong Wharf, if I'm not mistaken..."
+                                },
+                                {
+                                    "id": "402010213",
+                                    "speaker": "Doddamani",
+                                    "text": "Huh? You... You!"
+                                },
+                                {
+                                    "id": "402010214",
+                                    "speaker": "Corder",
+                                    "text": "...Ah, the Dice Master of Yanshang Teahouse... It's a pleasure, Miss Yelan."
+                                },
+                                {
+                                    "id": "402010215",
+                                    "speaker": "Yelan",
+                                    "text": "Oh, so you've heard of me too?"
+                                },
+                                {
+                                    "id": "402010216",
+                                    "speaker": "Corder",
+                                    "text": "Yes, I had an absolutely delectable cup of tea there once. One can hardly leave Yanshang Teahouse without hearing about your legendary dice skills. I suppose something keeps bringing us together. A shared love of tea, perhaps?"
+                                },
+                                {
+                                    "id": "402010217",
+                                    "speaker": "Yelan",
+                                    "text": "Yes, that must be it... Well, looks like we ran into each other at the perfect time. I'm heading to Fontaine on vacation, you see. Any recommendations on where I should visit?"
+                                },
+                                {
+                                    "id": "402010218",
+                                    "speaker": "Yelan",
+                                    "text": "Someplace I could find an exquisite tea set, perhaps... Like a fine art exhibition. Or, an auction? I hear Fontainian black tea has a unique flavor. I imagine your tea sets are a sight to behold as well."
+                                },
+                                {
+                                    "id": "402010219",
+                                    "speaker": "Doddamani",
+                                    "text": "You—!"
+                                },
+                                {
+                                    "id": "402010220",
+                                    "speaker": "Yelan",
+                                    "text": "Ah, does this gentleman have an interest in tea sets as well?"
+                                },
+                                {
+                                    "id": "402010221",
+                                    "speaker": "Doddamani",
+                                    "text": "I... Ahem... Of course. It's a pleasure to meet you, Miss Yelan. I'm also heading to Fontaine for travel. Corder's invitation, you see. In fact, I'm the one who owns this ship..."
+                                },
+                                {
+                                    "id": "402010222",
+                                    "speaker": "Paimon",
+                                    "text": "Yep, Yelan is actually talking to them! Are we sure that's a good idea...?",
+                                    "choices": [
+                                        {
+                                            "id": "402010223",
+                                            "text": "We don't have much time!",
+                                            "response": [
+                                                {
+                                                    "id": "402010225",
+                                                    "speaker": "Paimon",
+                                                    "text": "Alright! Then, let's go somewhere out of their line of sight so we can start investigating those boxes!"
+                                                },
+                                                {
+                                                    "id": "402010226",
+                                                    "speaker": "Paimon",
+                                                    "text": "*coughing* What's with the strong smell coming from these boxes? Must be a bunch of stuff mixed together..."
+                                                },
+                                                {
+                                                    "id": "402010227",
+                                                    "speaker": "Paimon",
+                                                    "text": "And there's a strange note. But, Paimon can't read what it says...",
+                                                    "choices": [
+                                                        {
+                                                            "id": "402010228",
+                                                            "text": "It's written in code...",
+                                                            "response": [
+                                                                {
+                                                                    "id": "402010230",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "Yelan really thinks of everything, huh! But, uh... You know how to use this thing, right?"
+                                                                },
+                                                                {
+                                                                    "id": "402010231",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "Well? Well? What does it say?",
+                                                                    "choices": [
+                                                                        {
+                                                                            "id": "402010232",
+                                                                            "text": "If I'm right, they're planning to dispose of the goods...",
+                                                                            "response": [
+                                                                                {
+                                                                                    "id": "402010234",
+                                                                                    "speaker": "Paimon",
+                                                                                    "text": "B—B—B—Blowing up the ship!?"
+                                                                                },
+                                                                                {
+                                                                                    "id": "402010235",
+                                                                                    "speaker": "Paimon",
+                                                                                    "text": "Are they nuts? Paimon thought this was about getting the authorities off their tails... Not drawing even more attention!",
+                                                                                    "choices": [
+                                                                                        {
+                                                                                            "id": "402010236",
+                                                                                            "text": "Scamface needs to protect the person at the top...",
+                                                                                            "response": [
+                                                                                                {
+                                                                                                    "id": "402010239",
+                                                                                                    "speaker": "Paimon",
+                                                                                                    "text": "Okay, Yelan was right! This guy is a complete lunatic!"
+                                                                                                },
+                                                                                                {
+                                                                                                    "id": "402010240",
+                                                                                                    "speaker": "Paimon",
+                                                                                                    "text": "There are innocent people on this ship! We need to find and disarm those bombs as soon as possible!"
+                                                                                                }
+                                                                                            ]
+                                                                                        },
+                                                                                        {
+                                                                                            "id": "402010237",
+                                                                                            "text": "So, he's diverting attention to an ever bigger problem..."
+                                                                                        },
+                                                                                        {
+                                                                                            "id": "402010238",
+                                                                                            "text": "And cutting off all our leads in the process..."
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        {
+                                                                            "id": "402010233",
+                                                                            "text": "...By blowing up the ship."
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "id": "402010229",
+                                                            "text": "Luckily, we have the cipher..."
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "402010224",
+                                            "text": "She's giving us an opening! Let's use it!"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "402010208",
+                            "text": "Is it okay if I deal with it right then and there?"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "4020110",
+            "objective": "Prepare to dismantle the bomb",
+            "dialogues": [
+                {
+                    "id": "402011301",
+                    "speaker": "Player",
+                    "text": "Let's act now!"
+                }
+            ]
+        },
+        {
+            "id": "4020106",
+            "objective": "Dismantle the bomb",
+            "dialogues": [
+                {
+                    "id": "402010601",
+                    "speaker": "Yelan",
+                    "text": "Alright, remember to equip the <color=#00E1FFFF>Forensic Imaging Device</color> and try not to make too much noise."
+                }
+            ]
+        },
+        {
+            "id": "4020108",
+            "objective": "Talk to Yelan",
+            "dialogues": []
+        },
+        {
+            "id": "4020107",
+            "objective": "Summarize the situation with Yelan",
+            "dialogues": [
+                {
+                    "id": "402010301",
+                    "speaker": "Paimon",
+                    "text": "Oh, you scared the life out of Paimon, Yelan! Going right up to them like that... What if they caught on and decided to, you know... try something desperate!?"
+                },
+                {
+                    "id": "402010302",
+                    "speaker": "Yelan",
+                    "text": "It's not a question of \"if,\" Paimon. I'm sure they caught on, but in the interest of their own survival, they had no choice but to play along."
+                },
+                {
+                    "id": "402010303",
+                    "speaker": "Yelan",
+                    "text": "Now, we can be sure the Dark Financier is getting desperate. The stint on the ship, that was him trying to cut his losses to save his own skin."
+                },
+                {
+                    "id": "402010304",
+                    "speaker": "Yelan",
+                    "text": "He needs to get rid of anything that could be traced back to him. So, you blow up the ship. You send the goods meant for the auction straight to the bottom of the sea, and let Scamface take the heat..."
+                },
+                {
+                    "id": "402010305",
+                    "speaker": "Yelan",
+                    "text": "The last thing he wanted was for the goods to make it to the auction. But, now, we've ensured that they will. So, he has no choice but to follow through."
+                },
+                {
+                    "id": "402010306",
+                    "speaker": "Yelan",
+                    "text": "He could choose not to send one of his agents to the auction, and let his goods go to an unsuspecting buyer instead. But remember, their worth is inflated..."
+                },
+                {
+                    "id": "402010307",
+                    "speaker": "Yelan",
+                    "text": "It would only be a matter of time before the buyer realized the valuation was off and reported it to the authorities. As the seller, Corder would be staring down a potential conviction."
+                },
+                {
+                    "id": "402010308",
+                    "speaker": "Yelan",
+                    "text": "At best, the Dark Financier has to find a new kind of Mora-laundering scheme. At worst, he loses one of his last reliable agents in Fontaine.",
+                    "choices": [
+                        {
+                            "id": "402010309",
+                            "text": "And, if he does decide to continue with the auction...",
+                            "response": [
+                                {
+                                    "id": "402010311",
+                                    "speaker": "Yelan",
+                                    "text": "Exactly. Our trail of evidence remains intact, and we let the buyer at the auction lead us closer to the Dark Financier."
+                                },
+                                {
+                                    "id": "402010312",
+                                    "speaker": "Paimon",
+                                    "text": "Okay, um... So, uh... That means, um... Could we go over this again?"
+                                },
+                                {
+                                    "id": "402010313",
+                                    "speaker": "Yelan",
+                                    "text": "#Don't worry. I'm sure {NICKNAME} will explain it again in Paimon-friendly language."
+                                },
+                                {
+                                    "id": "402010314",
+                                    "speaker": "Yelan",
+                                    "text": "We're in the home stretch, and taking advantage of this auction is crucial... So, come prepared to see this through."
+                                },
+                                {
+                                    "id": "402010315",
+                                    "speaker": "Yelan",
+                                    "text": "Officer Edler already has an informant stationed at the scene. This invitation letter will get you in to the auction."
+                                },
+                                {
+                                    "id": "402010316",
+                                    "speaker": "Yelan",
+                                    "text": "I'll meet you at the Hotel Debord in two days."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "402010310",
+                            "text": "That also works in our favor..."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "4020107",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "402010701",
+                    "speaker": "Yelan",
+                    "text": "All set?"
+                }
+            ]
+        },
+        {
+            "id": "4020108",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "402010801",
+                    "speaker": "Player",
+                    "text": "Hold on, let me check!"
+                }
+            ]
+        },
+        {
+            "id": "4020110",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "402011001",
+                    "speaker": "Player",
+                    "text": "(I should equip the <color=#00E1FFFF>Forensic Imaging Device</color>...)"
+                }
+            ]
+        },
+        {
+            "id": "4020112",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "402011201",
+                    "speaker": "Player",
+                    "text": "Let me just check something first..."
+                }
+            ]
+        },
+        {
+            "id": "4020114",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "402011401",
+                    "speaker": "<UNKNOWN>",
+                    "text": "Yelan is turning the heat up on your opponent — now is the time to focus on dismantling the bomb..."
+                }
+            ]
+        },
+        {
+            "id": "4020115",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "402011501",
+                    "speaker": "Yelan",
+                    "text": "I'll keep an eye on the perimeter and make sure Scamface doesn't get close..."
+                },
+                {
+                    "id": "402011502",
+                    "speaker": "Yelan",
+                    "text": "Of course, if he knows I'm here, there's no way he'll risk showing his face."
+                },
+                {
+                    "id": "402011503",
+                    "speaker": "Yelan",
+                    "text": "Take this opportunity to collect evidence. Check the goods carefully."
+                }
+            ]
+        },
+        {
+            "id": "4020198",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "402019801",
+                    "speaker": "Black Screen",
+                    "text": "You arrive at the pier and begin your investigation."
+                },
+                {
+                    "id": "402019802",
+                    "speaker": "Black Screen",
+                    "text": "In the meantime, you tell Yelan about the note Scamface left for Corder and Doddamani."
+                },
+                {
+                    "id": "402019803",
+                    "speaker": "Black Screen",
+                    "text": ""
+                }
+            ]
+        },
+        {
+            "id": "4020199",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "402019901",
+                    "speaker": "Paimon",
+                    "text": "Well, it's been two days! Let's go meet up with Yelan!"
+                },
+                {
+                    "id": "402019902",
+                    "speaker": "Paimon",
+                    "text": "Ooh, Paimon's getting excited! Searching for evidence, tracking down a crime boss... It's like being a real detective!"
+                }
+            ]
+        }
+    ]
+}

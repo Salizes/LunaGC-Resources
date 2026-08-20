@@ -1,0 +1,1754 @@
+{
+    "quest": {
+        "id": "12040",
+        "title": "Cleansing Light",
+        "description": "The Adventurers' Guild in Inazuma seems to have a commission concerning the Sacred Sakura...",
+        "rewards": [
+            {
+                "itemId": 102,
+                "count": 525
+            },
+            {
+                "itemId": 202,
+                "count": 38100
+            },
+            {
+                "itemId": 104003,
+                "count": 4
+            },
+            {
+                "itemId": 104013,
+                "count": 8
+            }
+        ],
+        "rewards_formatted": "Adventure EXP x525, Mora x38100, Hero's Wit x4, Mystic Enhancement Ore x8",
+        "chapter": {
+            "icon": "UI_ChapterIcon_Shougun",
+            "id": "2027",
+            "num": "Imperatrix Umbrosa Chapter: Act II",
+            "title": "Transient Dreams"
+        },
+        "total_dialogue_lines": 316,
+        "total_speaker_counts": {
+            "Black Screen": 1,
+            "Ei": 123,
+            "Furuyama": 30,
+            "Hirano": 8,
+            "Katheryne": 15,
+            "Kitamura": 23,
+            "Paimon": 65,
+            "Player": 49,
+            "Raiden Shogun?": 2
+        }
+    },
+    "talks": [
+        {
+            "id": "1204001",
+            "objective": "Talk to Katheryne",
+            "dialogues": [
+                {
+                    "id": "120400101",
+                    "speaker": "Katheryne",
+                    "text": "#Ad astra abyssosque, {NICKNAME}."
+                },
+                {
+                    "id": "120400102",
+                    "speaker": "Katheryne",
+                    "text": "Recently, the Adventurers' Guild has received an unusual commission, and after careful consideration, we believe that—"
+                },
+                {
+                    "id": "120400103",
+                    "speaker": "Paimon",
+                    "text": "\"The traveler would be the most suitable candidate.\" Right?"
+                },
+                {
+                    "id": "120400104",
+                    "speaker": "Katheryne",
+                    "text": "Hehe, indeed. As ever."
+                },
+                {
+                    "id": "120400105",
+                    "speaker": "Katheryne",
+                    "text": "I will spare the pleasantries, then. May I ask if you two are available to help?",
+                    "choices": [
+                        {
+                            "id": "120400106",
+                            "text": "Of course, that's what we're here for.",
+                            "response": [
+                                {
+                                    "id": "120400108",
+                                    "speaker": "Katheryne",
+                                    "text": "Well, let me go over it briefly. Our client for this job is the Yashiro Commission. Apparently, rifthounds are attacking the roots of the Sacred Sakura nearby Mt. Yougou in great numbers."
+                                },
+                                {
+                                    "id": "120400109",
+                                    "speaker": "Paimon",
+                                    "text": "Rifthounds? ...On Narukami Island?"
+                                },
+                                {
+                                    "id": "120400110",
+                                    "speaker": "Katheryne",
+                                    "text": "Yes. We are not sure where exactly these creatures come from. But this time, they are attacking in alarming numbers with great aggression and a clear target."
+                                },
+                                {
+                                    "id": "120400111",
+                                    "speaker": "Katheryne",
+                                    "text": "The Sacred Sakura is of tremendous importance to Inazuma. I trust you are aware of this already?",
+                                    "choices": [
+                                        {
+                                            "id": "120400112",
+                                            "text": "I believe I understand.",
+                                            "response": [
+                                                {
+                                                    "id": "120400113",
+                                                    "speaker": "Katheryne",
+                                                    "text": "Good. Then you can see that this case is very urgent indeed."
+                                                },
+                                                {
+                                                    "id": "120400117",
+                                                    "speaker": "Paimon",
+                                                    "text": "Is the Tenryou Commission aware?"
+                                                },
+                                                {
+                                                    "id": "120400118",
+                                                    "speaker": "Katheryne",
+                                                    "text": "Yes, and they are already taking action of their own. However, given that the Sacred Sakura's root system is vast and complex, and faced with the unpredictability and scale of the rifthounds' attacks, they are finding it difficult to defend against them."
+                                                },
+                                                {
+                                                    "id": "120400119",
+                                                    "speaker": "Katheryne",
+                                                    "text": "Their main priority is to protect the civilian population. So they are actively looking to cooperate with all other available forces to eliminate the monsters."
+                                                },
+                                                {
+                                                    "id": "120400120",
+                                                    "speaker": "Katheryne",
+                                                    "text": "The Adventurers' Guild is one of the key parties assisting the Tenryou Commission with their work. But so far, the combined efforts to combat the rifthounds has failed to substantially ameliorate the situation.",
+                                                    "choices": [
+                                                        {
+                                                            "id": "120400121",
+                                                            "text": "Time to make some whelps yelp.",
+                                                            "response": [
+                                                                {
+                                                                    "id": "120400123",
+                                                                    "speaker": "Katheryne",
+                                                                    "text": "You have our deepest gratitude. Your confident response puts me far more at ease."
+                                                                },
+                                                                {
+                                                                    "id": "120400124",
+                                                                    "speaker": "Katheryne",
+                                                                    "text": "I will mark on your map the areas where rifthound appearances have been recently reported. I hope you won't encounter too much trouble overcoming them."
+                                                                },
+                                                                {
+                                                                    "id": "120400125",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "Relax! We'll be back before you can say \"ad astra abyssosque.\""
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "id": "120400122",
+                                                            "text": "I'll send these pooches packing."
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "120400114",
+                                            "text": "I'm hazy.",
+                                            "response": [
+                                                {
+                                                    "id": "120400115",
+                                                    "speaker": "Katheryne",
+                                                    "text": "For a long time, the Sacred Sakura has been absorbing filth from Inazuma's Ley Lines to maintain stability in the land."
+                                                },
+                                                {
+                                                    "id": "120400116",
+                                                    "speaker": "Katheryne",
+                                                    "text": "If it were ever damaged, the filth would once again invade Inazuma, causing great catastrophe. That's why this is a rather urgent case."
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "120400107",
+                            "text": "It'll depend on the task and the compensation."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "1204002",
+            "objective": "Go to the area where the monsters have appeared",
+            "dialogues": [
+                {
+                    "id": "120400201",
+                    "speaker": "Raiden Shogun?",
+                    "text": "Torn to oblivion!"
+                },
+                {
+                    "id": "120400202",
+                    "speaker": "Paimon",
+                    "text": "Sh—Shogun? Wait, no... could also be Ei..."
+                },
+                {
+                    "id": "120400203",
+                    "speaker": "Raiden Shogun?",
+                    "text": "...It's you two."
+                },
+                {
+                    "id": "120400204",
+                    "speaker": "Ei",
+                    "text": "It has been a long time. We have not seen each other since the resolution of the Tenryou Commission crisis."
+                },
+                {
+                    "id": "120400205",
+                    "speaker": "Paimon",
+                    "text": "Okay, sounds more like Ei... it is you, right?"
+                },
+                {
+                    "id": "120400206",
+                    "speaker": "Paimon",
+                    "text": "You sure made short work of them. That was amazing!",
+                    "choices": [
+                        {
+                            "id": "120400207",
+                            "text": "...What are you doing here?",
+                            "response": [
+                                {
+                                    "id": "120400209",
+                                    "speaker": "Ei",
+                                    "text": "I'm making early preparations for what is to come."
+                                },
+                                {
+                                    "id": "120400210",
+                                    "speaker": "Ei",
+                                    "text": "Last time we took a walk around Inazuma together, I witnessed the way the world is today. I was finally able to comprehend some things that I had never understood in the past."
+                                },
+                                {
+                                    "id": "120400211",
+                                    "speaker": "Ei",
+                                    "text": "Since then, every time I encounter an obstacle in my thinking, I find myself having the urge to spend some time in the outside world."
+                                },
+                                {
+                                    "id": "120400212",
+                                    "speaker": "Paimon",
+                                    "text": "Makes sense. You must get super bored being stuck in there all the time."
+                                },
+                                {
+                                    "id": "120400213",
+                                    "speaker": "Ei",
+                                    "text": "...Might I remind you that I am not here to amuse myself."
+                                },
+                                {
+                                    "id": "120400214",
+                                    "speaker": "Ei",
+                                    "text": "Recently, I have observed a number of changes in the external world from the Plane of Euthymia. The most serious of these being the attack on the Sacred Sakura by numerous rifthounds."
+                                },
+                                {
+                                    "id": "120400215",
+                                    "speaker": "Ei",
+                                    "text": "I considered this matter worthy of my attention. So I pursued them, and they led me here, where I happened to run into you.",
+                                    "choices": [
+                                        {
+                                            "id": "120400216",
+                                            "text": "But the Commissions and adventurers can deal with monsters.",
+                                            "response": [
+                                                {
+                                                    "id": "120400218",
+                                                    "speaker": "Ei",
+                                                    "text": "If the Shogun rather than I were to discover them... Yes, perhaps she would have left the situation alone."
+                                                },
+                                                {
+                                                    "id": "120400219",
+                                                    "speaker": "Paimon",
+                                                    "text": "Hmm? Why? Because she's just a puppet?"
+                                                },
+                                                {
+                                                    "id": "120400220",
+                                                    "speaker": "Ei",
+                                                    "text": "Precisely. According to the rules I designed for her, matters of this nature are to be delegated to the Tri-Commission."
+                                                },
+                                                {
+                                                    "id": "120400221",
+                                                    "speaker": "Ei",
+                                                    "text": "But rifthounds attacking the Sacred Sakura... it brings back bad memories of that terrible disaster..."
+                                                },
+                                                {
+                                                    "id": "120400222",
+                                                    "speaker": "Paimon",
+                                                    "text": "A disaster?"
+                                                },
+                                                {
+                                                    "id": "120400223",
+                                                    "speaker": "Ei",
+                                                    "text": "Yes. Five hundred years ago, a great catastrophe befell Inazuma."
+                                                },
+                                                {
+                                                    "id": "120400224",
+                                                    "speaker": "Ei",
+                                                    "text": "Everything was engulfed in a pitch-black fog and monsters ravaged the land... Countless lives were lost, and this homeland that the people had worked so hard to build barely escaped being obliterated entirely."
+                                                },
+                                                {
+                                                    "id": "120400225",
+                                                    "speaker": "Ei",
+                                                    "text": "The monsters committed many atrocities on Inazuman soil. And the rifthounds were always their advance guard."
+                                                },
+                                                {
+                                                    "id": "120400226",
+                                                    "speaker": "Ei",
+                                                    "text": "Their duty was to tear open a passage through space with their claws and teeth, and then call in even more powerful beasts."
+                                                },
+                                                {
+                                                    "id": "120400227",
+                                                    "speaker": "Player",
+                                                    "text": "Five hundred years ago... Khaenri'ah."
+                                                },
+                                                {
+                                                    "id": "120400228",
+                                                    "speaker": "Ei",
+                                                    "text": "Hmm. So you've heard of it, too."
+                                                },
+                                                {
+                                                    "id": "120400229",
+                                                    "speaker": "Ei",
+                                                    "text": "That's an episode of history that I am loath to recall. Maybe to you, it seems like my response to these creatures was an excessive one."
+                                                },
+                                                {
+                                                    "id": "120400230",
+                                                    "speaker": "Ei",
+                                                    "text": "But an excess of caution is not unwarranted in this case."
+                                                },
+                                                {
+                                                    "id": "120400231",
+                                                    "speaker": "Paimon",
+                                                    "text": "Guess you can't argue with that..."
+                                                },
+                                                {
+                                                    "id": "120400232",
+                                                    "speaker": "Ei",
+                                                    "text": "Since we are both here for the same reason, let us work together."
+                                                },
+                                                {
+                                                    "id": "120400233",
+                                                    "speaker": "Ei",
+                                                    "text": "From the traces they've left in the surrounding area, there should be many more monsters nearby. All of them must be eliminated."
+                                                },
+                                                {
+                                                    "id": "120400234",
+                                                    "speaker": "Player",
+                                                    "text": "Let's go."
+                                                },
+                                                {
+                                                    "id": "120400235",
+                                                    "speaker": "Paimon",
+                                                    "text": "Paimon feels so safe when we're in Ei's company! Having someone uber-powerful on your team kinda makes you feel invincible, doesn't it?"
+                                                },
+                                                {
+                                                    "id": "120400236",
+                                                    "speaker": "Paimon",
+                                                    "text": "Oh, yeah — after we've dealt with the monsters, we should ask her to tell us more about Khaenri'ah."
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "120400217",
+                                            "text": "It doesn't seem like a matter needing the archon's attention..."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "120400208",
+                            "text": "What brings you out this time?"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "1204003",
+            "objective": "Defeat the Rifthounds",
+            "dialogues": [
+                {
+                    "id": "120400301",
+                    "speaker": "Ei",
+                    "text": "We are lucky... the damage is not too serious. The Yashiro Commission will be able to nurse the root system back to health."
+                },
+                {
+                    "id": "120400302",
+                    "speaker": "Paimon",
+                    "text": "This stuff that's flowing out, is it sap or something? And how come it's glowing..."
+                },
+                {
+                    "id": "120400303",
+                    "speaker": "Paimon",
+                    "text": "...Huh?"
+                },
+                {
+                    "id": "120400304",
+                    "speaker": "Paimon",
+                    "text": "Wh—What's this?",
+                    "choices": [
+                        {
+                            "id": "120400305",
+                            "text": "Is someone injured?",
+                            "response": [
+                                {
+                                    "id": "120400307",
+                                    "speaker": "Paimon",
+                                    "text": "Could they be... dead people? It wouldn't be the first time we'd seen ghosts on our journey."
+                                },
+                                {
+                                    "id": "120400308",
+                                    "speaker": "Paimon",
+                                    "text": "But... why would they appear here?"
+                                },
+                                {
+                                    "id": "120400309",
+                                    "speaker": "Ei",
+                                    "text": "Let's search the area. Perhaps we will find out."
+                                },
+                                {
+                                    "id": "120400310",
+                                    "speaker": "Kitamura",
+                                    "text": "Ugh... ugh..."
+                                },
+                                {
+                                    "id": "120400311",
+                                    "speaker": "Kitamura",
+                                    "text": "I can't go on like this... not when the other troops are counting on me..."
+                                },
+                                {
+                                    "id": "120400312",
+                                    "speaker": "Paimon",
+                                    "text": "What happened here? Could you tell us?"
+                                },
+                                {
+                                    "id": "120400313",
+                                    "speaker": "Kitamura",
+                                    "text": "Who are you? What are you doing here?"
+                                },
+                                {
+                                    "id": "120400314",
+                                    "speaker": "Kitamura",
+                                    "text": "Run, quick, while you still can! The monsters will be back... And once you're in their sights, I'm telling you — there's no escaping them!"
+                                },
+                                {
+                                    "id": "120400315",
+                                    "speaker": "Kitamura",
+                                    "text": "We will defend Inazuma... until our dying breath!",
+                                    "choices": [
+                                        {
+                                            "id": "120400316",
+                                            "text": "What exactly happened?",
+                                            "response": [
+                                                {
+                                                    "id": "120400318",
+                                                    "speaker": "Kitamura",
+                                                    "text": "You... you don't know? Inazuma is engulfed in darkness."
+                                                },
+                                                {
+                                                    "id": "120400319",
+                                                    "speaker": "Kitamura",
+                                                    "text": "Beasts and horrifying monsters are everywhere! They are merciless, ferocious... and they will devour everything in their path..."
+                                                },
+                                                {
+                                                    "id": "120400320",
+                                                    "speaker": "Kitamura",
+                                                    "text": "Every last trace of humanity's existence, I tell you... they'll devour it all..."
+                                                },
+                                                {
+                                                    "id": "120400321",
+                                                    "speaker": "Paimon",
+                                                    "text": "But look... none of that seems to be going on around here."
+                                                },
+                                                {
+                                                    "id": "120400322",
+                                                    "speaker": "Kitamura",
+                                                    "text": "Not right now, but they'll be back... Look — get out of here, now!!! There's no time left!"
+                                                },
+                                                {
+                                                    "id": "120400323",
+                                                    "speaker": "Kitamura",
+                                                    "text": "The Almighty Shogun is gone, so is Kitsune Saiguu. There's no one left to rely on but ourselves."
+                                                },
+                                                {
+                                                    "id": "120400324",
+                                                    "speaker": "Kitamura",
+                                                    "text": "I don't know how long we can hold out for, but... if we abandon our hope, then we've got nothing left at all."
+                                                },
+                                                {
+                                                    "id": "120400325",
+                                                    "speaker": "Ei",
+                                                    "text": "Don't worry. I am right here."
+                                                },
+                                                {
+                                                    "id": "120400326",
+                                                    "speaker": "Kitamura",
+                                                    "text": "It's... the Shogun!?"
+                                                },
+                                                {
+                                                    "id": "120400327",
+                                                    "speaker": "Kitamura",
+                                                    "text": "You're back!"
+                                                },
+                                                {
+                                                    "id": "120400328",
+                                                    "speaker": "Kitamura",
+                                                    "text": "Please, we beg you... you have to help us... you have to save Inazuma!"
+                                                },
+                                                {
+                                                    "id": "120400329",
+                                                    "speaker": "Kitamura",
+                                                    "text": "Only the glow of your supreme lightning can dispel this terrible darkness... please, or the whole of Inazuma will be reduced to a hunting ground for the beasts!"
+                                                },
+                                                {
+                                                    "id": "120400330",
+                                                    "speaker": "Ei",
+                                                    "text": "Calm down. The war you speak of is over."
+                                                },
+                                                {
+                                                    "id": "120400331",
+                                                    "speaker": "Kitamura",
+                                                    "text": "Over? But... what do you mean, Shogun..."
+                                                },
+                                                {
+                                                    "id": "120400332",
+                                                    "speaker": "Ei",
+                                                    "text": "Look around you. The grass grows green and lush and a soft breeze blows. This is Inazuma at peace, as you will no doubt remember."
+                                                },
+                                                {
+                                                    "id": "120400333",
+                                                    "speaker": "Ei",
+                                                    "text": "There are no monsters, nor is there anything else here that could threaten your life."
+                                                },
+                                                {
+                                                    "id": "120400334",
+                                                    "speaker": "Kitamura",
+                                                    "text": "Hmm..."
+                                                },
+                                                {
+                                                    "id": "120400335",
+                                                    "speaker": "Kitamura",
+                                                    "text": "But... how? Just moments ago, they were everywhere..."
+                                                },
+                                                {
+                                                    "id": "120400336",
+                                                    "speaker": "Kitamura",
+                                                    "text": "I saw them tear my comrade to shreds with my own eyes..."
+                                                },
+                                                {
+                                                    "id": "120400337",
+                                                    "speaker": "Paimon",
+                                                    "text": "Hey, calm down! Everything's fine now!"
+                                                },
+                                                {
+                                                    "id": "120400338",
+                                                    "speaker": "Kitamura",
+                                                    "text": "Huh..."
+                                                },
+                                                {
+                                                    "id": "120400339",
+                                                    "speaker": "Kitamura",
+                                                    "text": "I think I understand... Almighty Shogun... you saved Inazuma!"
+                                                },
+                                                {
+                                                    "id": "120400340",
+                                                    "speaker": "Kitamura",
+                                                    "text": "Yes... we were right to place our trust in the Almighty Shogun. As long as the Shogun is with us, Inazuma will last for an eternity..."
+                                                },
+                                                {
+                                                    "id": "120400341",
+                                                    "speaker": "Kitamura",
+                                                    "text": "Thank you, Your Excellency, thank you, thank you..."
+                                                },
+                                                {
+                                                    "id": "120400342",
+                                                    "speaker": "Paimon",
+                                                    "text": "Wh—What's wrong with him?"
+                                                },
+                                                {
+                                                    "id": "120400343",
+                                                    "speaker": "Player",
+                                                    "text": "Is he disappearing?"
+                                                },
+                                                {
+                                                    "id": "120400344",
+                                                    "speaker": "Ei",
+                                                    "text": "...He's gone."
+                                                },
+                                                {
+                                                    "id": "120400345",
+                                                    "speaker": "Paimon",
+                                                    "text": "...Paimon can't even begin to understand what that was all about... but somehow, Paimon feels all sad and hopeless..."
+                                                },
+                                                {
+                                                    "id": "120400346",
+                                                    "speaker": "Ei",
+                                                    "text": "If I am not mistaken, what we just saw was a samurai's memory that was buried in the land."
+                                                },
+                                                {
+                                                    "id": "120400347",
+                                                    "speaker": "Ei",
+                                                    "text": "The Sacred Sakura can absorb and purify the filth in the Ley Lines. After the rifthounds attacked, some of this filth leaked out through the cracks in the trunk and formed a physical entity."
+                                                },
+                                                {
+                                                    "id": "120400348",
+                                                    "speaker": "Ei",
+                                                    "text": "An entity formed with strong filth would be highly aggressive. But when purified, it presents in the form of a memory."
+                                                },
+                                                {
+                                                    "id": "120400349",
+                                                    "speaker": "Ei",
+                                                    "text": "Purified filth quickly dissipates and will be absorbed by the Ley Lines shortly afterwards. In other words, it cannot exist for too long.",
+                                                    "choices": [
+                                                        {
+                                                            "id": "120400350",
+                                                            "text": "I see...",
+                                                            "response": [
+                                                                {
+                                                                    "id": "120400352",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "So the memories of the ones that died are all appearing at this moment?"
+                                                                },
+                                                                {
+                                                                    "id": "120400353",
+                                                                    "speaker": "Ei",
+                                                                    "text": "Yes. That soldier was one of the many thousands who made the ultimate sacrifice. What he was describing just now was precisely the disaster that happened in Inazuma 500 years ago.",
+                                                                    "choices": [
+                                                                        {
+                                                                            "id": "120400354",
+                                                                            "text": "He mentioned that the Shogun was absent...",
+                                                                            "response": [
+                                                                                {
+                                                                                    "id": "120400356",
+                                                                                    "speaker": "Ei",
+                                                                                    "text": "Yes. Inazuma was facing many great crises at that time. Some were local in origin, while others... others came from the now-fallen kingdom of Khaenri'ah."
+                                                                                },
+                                                                                {
+                                                                                    "id": "120400357",
+                                                                                    "speaker": "Ei",
+                                                                                    "text": "The disaster in Inazuma caused me great concern. I felt that I had to step in before it was too late, otherwise it would spread to all of Teyvat."
+                                                                                },
+                                                                                {
+                                                                                    "id": "120400358",
+                                                                                    "speaker": "Ei",
+                                                                                    "text": "But my friend, Kitsune Saiguu, reassured me that I had nothing to worry about. She would shoulder the responsibility of protecting Inazuma, and mobilize all forces at her disposal to combat the threat."
+                                                                                },
+                                                                                {
+                                                                                    "id": "120400359",
+                                                                                    "speaker": "Ei",
+                                                                                    "text": "...I could tell that although neither of us acknowledged it, we both knew that the road ahead would likely end in tragedy."
+                                                                                },
+                                                                                {
+                                                                                    "id": "120400360",
+                                                                                    "speaker": "Paimon",
+                                                                                    "text": "So... Inazuma was attacked at the same time as when the disaster happened in Khaenri'ah?"
+                                                                                },
+                                                                                {
+                                                                                    "id": "120400361",
+                                                                                    "speaker": "Ei",
+                                                                                    "text": "Indeed. Countless monsters suddenly appeared throughout all of Inazuma. In the end... Kitsune Saiguu sacrificed her life to protect the people."
+                                                                                },
+                                                                                {
+                                                                                    "id": "120400362",
+                                                                                    "speaker": "Ei",
+                                                                                    "text": "I never had the chance to see her one last time. But I would like to believe that she kept her promise to me until the very last."
+                                                                                },
+                                                                                {
+                                                                                    "id": "120400363",
+                                                                                    "speaker": "Ei",
+                                                                                    "text": "But even then, Inazuma was left more devastated than we could have ever imagined. Those terrible tragedies left great wounds that are still felt to this day, both on the land itself... and in my heart."
+                                                                                },
+                                                                                {
+                                                                                    "id": "120400364",
+                                                                                    "speaker": "Paimon",
+                                                                                    "text": "Ei..."
+                                                                                },
+                                                                                {
+                                                                                    "id": "120400365",
+                                                                                    "speaker": "Player",
+                                                                                    "text": "Is this the \"loss\" that Yae Miko mentioned?"
+                                                                                },
+                                                                                {
+                                                                                    "id": "120400366",
+                                                                                    "speaker": "Ei",
+                                                                                    "text": "Yes. For the longest time, I couldn't bring myself to face the pain of that loss."
+                                                                                },
+                                                                                {
+                                                                                    "id": "120400367",
+                                                                                    "speaker": "Ei",
+                                                                                    "text": "All my martial might was in vain... Though I could conquer Tatarigami and vanquish monsters, I was helpless against the ravages of time, powerless to keep the ones I cherished alive."
+                                                                                },
+                                                                                {
+                                                                                    "id": "120400368",
+                                                                                    "speaker": "Ei",
+                                                                                    "text": "..."
+                                                                                },
+                                                                                {
+                                                                                    "id": "120400369",
+                                                                                    "speaker": "Ei",
+                                                                                    "text": "But after my clash with human ambition, I thought long and hard. Now I realize I cannot fixate on the past forever."
+                                                                                },
+                                                                                {
+                                                                                    "id": "120400370",
+                                                                                    "speaker": "Player",
+                                                                                    "text": "So you're no longer stuck in the past?"
+                                                                                },
+                                                                                {
+                                                                                    "id": "120400371",
+                                                                                    "speaker": "Ei",
+                                                                                    "text": "...When I traveled around Inazuma with you, I caught a glimpse of how the nation has progressed over the centuries. A glimpse of human potential. Everything far exceeded my expectations."
+                                                                                },
+                                                                                {
+                                                                                    "id": "120400372",
+                                                                                    "speaker": "Ei",
+                                                                                    "text": "Moving forward inevitably invites further loss, but also new encounters."
+                                                                                },
+                                                                                {
+                                                                                    "id": "120400373",
+                                                                                    "speaker": "Ei",
+                                                                                    "text": "Just think of that soldier. Despite all the losses he had experienced, he still chose to keep fighting, for the sake of moving forward."
+                                                                                },
+                                                                                {
+                                                                                    "id": "120400374",
+                                                                                    "speaker": "Ei",
+                                                                                    "text": "All those who sacrificed themselves back then gave their lives fighting for a future... but perhaps the future they were hoping for is not the eternity that I once strove for.",
+                                                                                    "choices": [
+                                                                                        {
+                                                                                            "id": "120400375",
+                                                                                            "text": "Absolutely.",
+                                                                                            "response": [
+                                                                                                {
+                                                                                                    "id": "120400377",
+                                                                                                    "speaker": "Ei",
+                                                                                                    "text": "As Inazuma's god, it is high time I honored their wishes."
+                                                                                                },
+                                                                                                {
+                                                                                                    "id": "120400378",
+                                                                                                    "speaker": "Ei",
+                                                                                                    "text": "Warriors of the past who spilled your blood on this land, your noble souls now rest in this earth."
+                                                                                                },
+                                                                                                {
+                                                                                                    "id": "120400379",
+                                                                                                    "speaker": "Ei",
+                                                                                                    "text": "I will never forget you, and all that you did for Inazuma."
+                                                                                                },
+                                                                                                {
+                                                                                                    "id": "120400380",
+                                                                                                    "speaker": "Paimon",
+                                                                                                    "text": "Ei's taking all this pretty hard..."
+                                                                                                },
+                                                                                                {
+                                                                                                    "id": "120400381",
+                                                                                                    "speaker": "Player",
+                                                                                                    "text": "..."
+                                                                                                },
+                                                                                                {
+                                                                                                    "id": "120400382",
+                                                                                                    "speaker": "Ei",
+                                                                                                    "text": "Come on. Let's keep investigating the damage to the Sacred Sakura."
+                                                                                                }
+                                                                                            ]
+                                                                                        },
+                                                                                        {
+                                                                                            "id": "120400376",
+                                                                                            "text": "That's what being human is about."
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        {
+                                                                            "id": "120400355",
+                                                                            "text": "He mentioned that Kitsune Saiguu was absent..."
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "id": "120400351",
+                                                            "text": "The same thing happened to Dusky Ming."
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "120400317",
+                                            "text": "What monsters?"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "120400306",
+                            "text": "How terrible."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "1204004",
+            "objective": "Talk to Raiden Ei",
+            "dialogues": []
+        },
+        {
+            "id": "1204005",
+            "objective": "Look for the marks left behind",
+            "dialogues": []
+        },
+        {
+            "id": "1204006",
+            "objective": "Look for the marks left behind",
+            "dialogues": [
+                {
+                    "id": "120400601",
+                    "speaker": "Paimon",
+                    "text": "Hey, where'd he go?"
+                },
+                {
+                    "id": "120400602",
+                    "speaker": "Paimon",
+                    "text": "He wouldn't have gone looking for a tea set himself, would he?"
+                },
+                {
+                    "id": "120400603",
+                    "speaker": "Player",
+                    "text": "Wouldn't put it past him..."
+                },
+                {
+                    "id": "120400604",
+                    "speaker": "Ei",
+                    "text": "Or perhaps the Ley Lines did not have the power to sustain him for very long. As was the case with the memory we saw earlier."
+                },
+                {
+                    "id": "120400605",
+                    "speaker": "Paimon",
+                    "text": "So... so we won't get to drink his tea?"
+                },
+                {
+                    "id": "120400606",
+                    "speaker": "Paimon",
+                    "text": "We didn't even have a chance to say goodbye... *sobs*"
+                },
+                {
+                    "id": "120400607",
+                    "speaker": "Ei",
+                    "text": "The information held in the Ley Lines is complex and disorderly. The fact that we were able to meet him to begin with was a miracle of fate..."
+                },
+                {
+                    "id": "120400608",
+                    "speaker": "Paimon",
+                    "text": "Mmm...",
+                    "choices": [
+                        {
+                            "id": "120400609",
+                            "text": "Cheer up, Paimon.",
+                            "response": [
+                                {
+                                    "id": "120400611",
+                                    "speaker": "Ei",
+                                    "text": "Well, this chance won't come often, and we do have a tea set. Perhaps I should try my hand at making us a pot of tea."
+                                },
+                                {
+                                    "id": "120400612",
+                                    "speaker": "Ei",
+                                    "text": "I've watched Furuyama brew tea on many occasions... I doubt I should have any major problems doing it myself."
+                                },
+                                {
+                                    "id": "120400613",
+                                    "speaker": "Black Screen",
+                                    "text": "Ei brews a piping-hot pot of tea with the tea set."
+                                },
+                                {
+                                    "id": "120400614",
+                                    "speaker": "Ei",
+                                    "text": "The tea is ready, please give it a try."
+                                },
+                                {
+                                    "id": "120400615",
+                                    "speaker": "Ei",
+                                    "text": "So many thoughts were racing through my head as I was brewing it, I... I'm not sure how to explain it...",
+                                    "choices": [
+                                        {
+                                            "id": "120400616",
+                                            "text": "You don't need to. I understand.",
+                                            "response": [
+                                                {
+                                                    "id": "120400618",
+                                                    "speaker": "Ei",
+                                                    "text": "You're right, but the things we've seen today have brought back many memories for me."
+                                                },
+                                                {
+                                                    "id": "120400619",
+                                                    "speaker": "Ei",
+                                                    "text": "I've been reminded of many people, too. Kitsune Saiguu, Makoto, and all the other friends who I watched pass even further back."
+                                                },
+                                                {
+                                                    "id": "120400620",
+                                                    "speaker": "Ei",
+                                                    "text": "Back at the Yashiro Commission, I kept the conversation reasonably light-hearted. But now... I'd like to broach a heavier topic, if I may."
+                                                },
+                                                {
+                                                    "id": "120400621",
+                                                    "speaker": "Ei",
+                                                    "text": "The events of 500 years ago not only robbed me of my friend, Kitsune Saiguu... they also took Makoto away from me for good."
+                                                },
+                                                {
+                                                    "id": "120400622",
+                                                    "speaker": "Paimon",
+                                                    "text": "She died in that disaster too?"
+                                                },
+                                                {
+                                                    "id": "120400623",
+                                                    "speaker": "Ei",
+                                                    "text": "Yes. She went to Khaenri'ah alone, without telling me."
+                                                },
+                                                {
+                                                    "id": "120400624",
+                                                    "speaker": "Ei",
+                                                    "text": "Unlike me, Makoto was no martial artist. Whenever similar crises had arisen in the past, I was always the one to face them in her stead."
+                                                },
+                                                {
+                                                    "id": "120400625",
+                                                    "speaker": "Ei",
+                                                    "text": "But this time, the circumstances were so grave that Makoto had no choice but to leave me behind. Or... perhaps it was more that she went ahead of me, put herself in front of me so that I would remain hidden. In any case, by the time I realized what was happening..."
+                                                },
+                                                {
+                                                    "id": "120400626",
+                                                    "speaker": "Player",
+                                                    "text": "Makoto had already..."
+                                                },
+                                                {
+                                                    "id": "120400627",
+                                                    "speaker": "Ei",
+                                                    "text": "Yes. It was too late. I arrived only in time to hear her dying breath."
+                                                },
+                                                {
+                                                    "id": "120400628",
+                                                    "speaker": "Ei",
+                                                    "text": "She had already lapsed into unconsciousness by that point, so all I could do was enter into her mind... As far as you're concerned, it would be somewhere similar to the Plane of Euthymia."
+                                                },
+                                                {
+                                                    "id": "120400629",
+                                                    "speaker": "Ei",
+                                                    "text": "It was there that we bid each other a final farewell. I cried bitterly. Even in those final moments, I couldn't understand her actions."
+                                                },
+                                                {
+                                                    "id": "120400630",
+                                                    "speaker": "Ei",
+                                                    "text": "Why did she go to Khaenri'ah first, and not I? Why did she keep me in the dark about it? Was it to shield me?"
+                                                },
+                                                {
+                                                    "id": "120400631",
+                                                    "speaker": "Ei",
+                                                    "text": "It was there and then that I resolved to pursue eternity. As a testament to that decision, I saved her realm of consciousness just before it collapsed completely, and brought it back to Inazuma."
+                                                },
+                                                {
+                                                    "id": "120400632",
+                                                    "speaker": "Paimon",
+                                                    "text": "That's quite a story..."
+                                                },
+                                                {
+                                                    "id": "120400633",
+                                                    "speaker": "Ei",
+                                                    "text": "When I returned to Inazuma, I was shocked to find that a great sakura tree had appeared on Mt. Yougou. The tree that you know as the Sacred Sakura.",
+                                                    "choices": [
+                                                        {
+                                                            "id": "120400634",
+                                                            "text": "...\"Appeared\"?",
+                                                            "response": [
+                                                                {
+                                                                    "id": "120400636",
+                                                                    "speaker": "Ei",
+                                                                    "text": "That's exactly what everyone back then told me as well. That it had existed since time immemorial. They were so matter-of-fact about it, and couldn't at all understand what I was so surprised about."
+                                                                },
+                                                                {
+                                                                    "id": "120400637",
+                                                                    "speaker": "Ei",
+                                                                    "text": "No one questioned it, and yet its presence contrasted so starkly with the area as I remembered it... it seemed as if I was the only one to have noticed it appear suddenly out of thin air."
+                                                                },
+                                                                {
+                                                                    "id": "120400638",
+                                                                    "speaker": "Ei",
+                                                                    "text": "In the end, I simply had to accept that it was a miraculous effect of Makoto's consciousness."
+                                                                },
+                                                                {
+                                                                    "id": "120400639",
+                                                                    "speaker": "Ei",
+                                                                    "text": "With the help of the Sacred Sakura's power, I was finally able to overcome the monsters and quell the disaster in Inazuma."
+                                                                },
+                                                                {
+                                                                    "id": "120400640",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "This is all really hard to understand... Kinda beyond Paimon's level."
+                                                                },
+                                                                {
+                                                                    "id": "120400641",
+                                                                    "speaker": "Player",
+                                                                    "text": "Simply put, Makoto's power somehow made that tree appear."
+                                                                },
+                                                                {
+                                                                    "id": "120400642",
+                                                                    "speaker": "Ei",
+                                                                    "text": "Yes... She had such a great love for this land, and for its people. In this respect, I still do not compare to her."
+                                                                },
+                                                                {
+                                                                    "id": "120400643",
+                                                                    "speaker": "Ei",
+                                                                    "text": "I once told myself that I would never speak of these events again. Facing the fact that she is gone is unbearably painful."
+                                                                },
+                                                                {
+                                                                    "id": "120400644",
+                                                                    "speaker": "Ei",
+                                                                    "text": "But even the tea that is most bitter to the tongue, once swallowed, leaves some sweetness in the throat."
+                                                                },
+                                                                {
+                                                                    "id": "120400645",
+                                                                    "speaker": "Ei",
+                                                                    "text": "...And it's time I came to terms with it all.",
+                                                                    "choices": [
+                                                                        {
+                                                                            "id": "120400646",
+                                                                            "text": "It seems like you've done a lot of thinking about this already.",
+                                                                            "response": [
+                                                                                {
+                                                                                    "id": "120400648",
+                                                                                    "speaker": "Paimon",
+                                                                                    "text": "Oh, um, while we're on the topic, since you experienced that battle in person..."
+                                                                                },
+                                                                                {
+                                                                                    "id": "120400649",
+                                                                                    "speaker": "Player",
+                                                                                    "text": "#Have you seen my {F#brother}{M#sister} before?"
+                                                                                },
+                                                                                {
+                                                                                    "id": "120400650",
+                                                                                    "speaker": "Ei",
+                                                                                    "text": "#{F#Brother}{M#Sister}? Hmm... I had heard that you were looking for your family."
+                                                                                },
+                                                                                {
+                                                                                    "id": "120400651",
+                                                                                    "speaker": "Ei",
+                                                                                    "text": "#You mean to say that {F#he}{M#she} was somehow involved in the Khaenri'ah disaster?"
+                                                                                },
+                                                                                {
+                                                                                    "id": "120400652",
+                                                                                    "speaker": "Paimon",
+                                                                                    "text": "Based on what we've learned so far, it seems so, yeah."
+                                                                                },
+                                                                                {
+                                                                                    "id": "120400653",
+                                                                                    "speaker": "Ei",
+                                                                                    "text": "I'm sorry. I wasn't there for the whole thing. By the time I arrived, the worst of the fighting was already over."
+                                                                                },
+                                                                                {
+                                                                                    "id": "120400654",
+                                                                                    "speaker": "Ei",
+                                                                                    "text": "And also... my mind was consumed entirely with the plight of Inazuma and the fate of those closest to me."
+                                                                                },
+                                                                                {
+                                                                                    "id": "120400655",
+                                                                                    "speaker": "Ei",
+                                                                                    "text": "So I am afraid I can't help you."
+                                                                                },
+                                                                                {
+                                                                                    "id": "120400656",
+                                                                                    "speaker": "Paimon",
+                                                                                    "text": "Oh... well that's a shame. But it can't be helped I guess..."
+                                                                                },
+                                                                                {
+                                                                                    "id": "120400657",
+                                                                                    "speaker": "Paimon",
+                                                                                    "text": "Boy, both of you have experienced great tragedy..."
+                                                                                },
+                                                                                {
+                                                                                    "id": "120400658",
+                                                                                    "speaker": "Ei",
+                                                                                    "text": "With this last cup of tea, let us honor the tea master's memory."
+                                                                                },
+                                                                                {
+                                                                                    "id": "120400659",
+                                                                                    "speaker": "Ei",
+                                                                                    "text": "Thank you, destiny, for giving us the chance to meet again."
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        {
+                                                                            "id": "120400647",
+                                                                            "text": "I know the pain of separation too."
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "id": "120400635",
+                                                            "text": "The Sacred Sakura has always been there, hasn't it?"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "120400617",
+                                            "text": "It's just the memories flooding back in..."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "120400610",
+                            "text": "Let's make our own tea."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "1204007",
+            "objective": "Look for the marks left behind",
+            "dialogues": [
+                {
+                    "id": "120400701",
+                    "speaker": "Furuyama",
+                    "text": "After my eyes went bad, many aspects of daily life became much more challenging. But I always wanted to be a competent tea brewer, right to the end."
+                },
+                {
+                    "id": "120400702",
+                    "speaker": "Furuyama",
+                    "text": "*sigh* But now, it looks like I have to rely on you."
+                }
+            ]
+        },
+        {
+            "id": "1204008",
+            "objective": "Try to figure out what happened",
+            "dialogues": []
+        },
+        {
+            "id": "1204009",
+            "objective": "Continue the pursuit",
+            "dialogues": []
+        },
+        {
+            "id": "1204010",
+            "objective": "Defeat the Rifthounds",
+            "dialogues": []
+        },
+        {
+            "id": "1204011",
+            "objective": "Talk to the person who appeared",
+            "dialogues": [
+                {
+                    "id": "120400401",
+                    "speaker": "Paimon",
+                    "text": "Hmm, something seems wrong with Ei..."
+                },
+                {
+                    "id": "120400402",
+                    "speaker": "Player",
+                    "text": "Are you feeling okay?"
+                },
+                {
+                    "id": "120400403",
+                    "speaker": "Ei",
+                    "text": "Why would you ask that?"
+                },
+                {
+                    "id": "120400404",
+                    "speaker": "Paimon",
+                    "text": "Well, usually, you'd pull out your sword and \"swish,\" vaporize them all in one go, no?"
+                },
+                {
+                    "id": "120400405",
+                    "speaker": "Ei",
+                    "text": "You are unduly concerned. I'm simply conserving my energy."
+                },
+                {
+                    "id": "120400406",
+                    "speaker": "Ei",
+                    "text": "Although I have some understanding of the situation already, it could take an unexpected turn at any time."
+                },
+                {
+                    "id": "120400407",
+                    "speaker": "Ei",
+                    "text": "I must be prepared for anything. If there are more formidable monsters lying in wait in this area, I must make sure I have the strength to face them."
+                },
+                {
+                    "id": "120400408",
+                    "speaker": "Paimon",
+                    "text": "Ah, makes sense! Spoken like a seasoned shogun."
+                },
+                {
+                    "id": "120400409",
+                    "speaker": "Paimon",
+                    "text": "The roots seem pretty badly damaged this time... We definitely need to tell the Yashiro Commission about this."
+                },
+                {
+                    "id": "120400410",
+                    "speaker": "Paimon",
+                    "text": "Hey, the same light is leaking out again."
+                },
+                {
+                    "id": "120400411",
+                    "speaker": "Player",
+                    "text": "Is it the same situation as before?"
+                },
+                {
+                    "id": "120400412",
+                    "speaker": "Ei",
+                    "text": "...Furuyama? Is that you?"
+                },
+                {
+                    "id": "120400413",
+                    "speaker": "Furuyama",
+                    "text": "Hmm?"
+                },
+                {
+                    "id": "120400414",
+                    "speaker": "Furuyama",
+                    "text": "Almighty Shogun? What brings you back so soon? I thought you were off fighting a battle in a distant land?"
+                },
+                {
+                    "id": "120400415",
+                    "speaker": "Paimon",
+                    "text": "(Fighting a battle in a distant land? Sounds like this guy's talking about 500 years ago, too.)"
+                },
+                {
+                    "id": "120400416",
+                    "speaker": "Ei",
+                    "text": "Allow me to introduce Furuyama. He is a tea master and a member of my retinue."
+                },
+                {
+                    "id": "120400417",
+                    "speaker": "Ei",
+                    "text": "Though blind, Furuyama is unparalleled in his ability to appraise tea. He brews some of the very finest tea in all of Inazuma."
+                },
+                {
+                    "id": "120400418",
+                    "speaker": "Furuyama",
+                    "text": "Your Excellency, you shower me with praise undeserved. I have simply had the good fortune to be in Your Excellency's presence long enough to become acquainted with all the skills that are required of me."
+                },
+                {
+                    "id": "120400419",
+                    "speaker": "Furuyama",
+                    "text": "It sounds like the Almighty Shogun has brought a guest?"
+                },
+                {
+                    "id": "120400420",
+                    "speaker": "Furuyama",
+                    "text": "...I'm afraid I am unable to serve you any respectable refreshments on account of the current situation... but please sit and rest."
+                },
+                {
+                    "id": "120400421",
+                    "speaker": "Furuyama",
+                    "text": "After all... it's quite a mess out there."
+                },
+                {
+                    "id": "120400422",
+                    "speaker": "Paimon",
+                    "text": "Um... what should we do?",
+                    "choices": [
+                        {
+                            "id": "120400423",
+                            "text": "Let's go along with what he says.",
+                            "response": [
+                                {
+                                    "id": "120400425",
+                                    "speaker": "Paimon",
+                                    "text": "Oh, um... yeah, sheesh, there's monsters everywhere out there, it's pitch-black, and loads of people have been injured..."
+                                },
+                                {
+                                    "id": "120400426",
+                                    "speaker": "Furuyama",
+                                    "text": "I see. So they have fought their way this far already."
+                                },
+                                {
+                                    "id": "120400427",
+                                    "speaker": "Furuyama",
+                                    "text": "Most of the residents in this neighborhood have already escaped. They wanted to take me with them, but it seemed rather pointless to me. So I decided to stay."
+                                },
+                                {
+                                    "id": "120400428",
+                                    "speaker": "Furuyama",
+                                    "text": "And now the Almighty Shogun is here, I have even less reason to run away, hehe."
+                                },
+                                {
+                                    "id": "120400429",
+                                    "speaker": "Furuyama",
+                                    "text": "Imagine, if this was something that even the Almighty Shogun was powerless to resolve, where could I possibly run to then?"
+                                },
+                                {
+                                    "id": "120400430",
+                                    "speaker": "Player",
+                                    "text": "How come you're not panicking?"
+                                },
+                                {
+                                    "id": "120400431",
+                                    "speaker": "Furuyama",
+                                    "text": "People flee out of a desire to live on. And the desire to live on stems from a feeling of having unfinished business in life."
+                                },
+                                {
+                                    "id": "120400432",
+                                    "speaker": "Furuyama",
+                                    "text": "But me? I have no such thoughts, and I have no regrets."
+                                },
+                                {
+                                    "id": "120400433",
+                                    "speaker": "Furuyama",
+                                    "text": "The Almighty Shogun often speaks to me about her dreams over tea."
+                                },
+                                {
+                                    "id": "120400434",
+                                    "speaker": "Furuyama",
+                                    "text": "Just listening to her stories, ahh... I've been blind for many years, but her vivid descriptions took me on a splendid journey to all the most beautiful places in Inazuma... Over time, I've come to understand her mindset. Quite the romantic at heart. A true dreamer."
+                                },
+                                {
+                                    "id": "120400435",
+                                    "speaker": "Furuyama",
+                                    "text": "One thing she always says is... \"Good things don't last forever. Everything changes, fades, disappears completely over the passage of time. And so, people must make the most of the life they have, seize the chance to enjoy it while it lasts, and have no regrets in the end...\""
+                                },
+                                {
+                                    "id": "120400436",
+                                    "speaker": "Paimon",
+                                    "text": "Umm...",
+                                    "choices": [
+                                        {
+                                            "id": "120400437",
+                                            "text": "(That doesn't sound like Ei at all...)",
+                                            "response": [
+                                                {
+                                                    "id": "120400439",
+                                                    "speaker": "Furuyama",
+                                                    "text": "So you see, as bleak as things may be now, I have experienced countless wonderful things in life, and have no reason not to be satisfied."
+                                                },
+                                                {
+                                                    "id": "120400440",
+                                                    "speaker": "Ei",
+                                                    "text": "Perhaps... you are right."
+                                                },
+                                                {
+                                                    "id": "120400441",
+                                                    "speaker": "Furuyama",
+                                                    "text": "It won't be long now before I have to say goodbye to the Almighty Shogun for the last time. Ah, what a pity... I'll never get to see what Inazuma looks like after the Almighty Shogun rebuilds it anew."
+                                                },
+                                                {
+                                                    "id": "120400442",
+                                                    "speaker": "Furuyama",
+                                                    "text": "But I suppose it doesn't matter. Everyone says that Inazuma has turned dark now... but to me, it went dark a long time ago."
+                                                },
+                                                {
+                                                    "id": "120400443",
+                                                    "speaker": "Furuyama",
+                                                    "text": "Once this catastrophe is over, life is sure to spring forth anew. But even if I survived until then, I'd probably be a hopelessly befuddled old so-and-so by then... Hahaha, so never mind, eh."
+                                                },
+                                                {
+                                                    "id": "120400444",
+                                                    "speaker": "Ei",
+                                                    "text": "..."
+                                                },
+                                                {
+                                                    "id": "120400445",
+                                                    "speaker": "Furuyama",
+                                                    "text": "Oh, goodness me. Speaking of befuddled, look at me rambling away to my heart's content and forgetting to serve the tea."
+                                                },
+                                                {
+                                                    "id": "120400446",
+                                                    "speaker": "Furuyama",
+                                                    "text": "The Almighty Shogun comes to visit and I don't have the tea ready. A truly egregious loss of decorum."
+                                                },
+                                                {
+                                                    "id": "120400447",
+                                                    "speaker": "Furuyama",
+                                                    "text": "One moment, I'll just... Hmm? Where in the world is the tea set?"
+                                                },
+                                                {
+                                                    "id": "120400448",
+                                                    "speaker": "Furuyama",
+                                                    "text": "I hope the others didn't smash it to smithereens in their hasty departure."
+                                                },
+                                                {
+                                                    "id": "120400449",
+                                                    "speaker": "Paimon",
+                                                    "text": "Can't see a tea set anywhere around here..."
+                                                },
+                                                {
+                                                    "id": "120400450",
+                                                    "speaker": "Furuyama",
+                                                    "text": "Really? But it's always been right by my side... Goodness gracious... What a fool I'm making of myself."
+                                                },
+                                                {
+                                                    "id": "120400451",
+                                                    "speaker": "Player",
+                                                    "text": "We know where to find a tea set."
+                                                },
+                                                {
+                                                    "id": "120400452",
+                                                    "speaker": "Furuyama",
+                                                    "text": "I couldn't possibly have my guests fetch it themselves, that would be most discourteous indeed."
+                                                },
+                                                {
+                                                    "id": "120400453",
+                                                    "speaker": "Ei",
+                                                    "text": "Don't worry about it. Take a rest, we'll be back right away."
+                                                },
+                                                {
+                                                    "id": "120400454",
+                                                    "speaker": "Furuyama",
+                                                    "text": "Almighty Shogun, you're not going too, are you? No, no, no, your humble servant implores you... Not with the war raging outside..."
+                                                },
+                                                {
+                                                    "id": "120400455",
+                                                    "speaker": "Ei",
+                                                    "text": "This place is... complicated. It's quite unlike the tea house in your memories."
+                                                },
+                                                {
+                                                    "id": "120400456",
+                                                    "speaker": "Ei",
+                                                    "text": "Leave it to us."
+                                                },
+                                                {
+                                                    "id": "120400457",
+                                                    "speaker": "Furuyama",
+                                                    "text": "But... well, okay. I never thought I'd see the day that I need the Almighty Shogun to personally collect my tea set for me..."
+                                                },
+                                                {
+                                                    "id": "120400458",
+                                                    "speaker": "Furuyama",
+                                                    "text": "I can't decide whether it's a final regret or a final stroke of good fortune, haha."
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "120400438",
+                                            "text": "(This doesn't fit the definition of eternity at all.)"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "120400424",
+                            "text": "I want to learn more about the past."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "1204012",
+            "objective": "Go to the Kamisato Estate to get a tea set",
+            "dialogues": []
+        },
+        {
+            "id": "1204013",
+            "objective": "Talk to Ei",
+            "dialogues": [
+                {
+                    "id": "120400505",
+                    "speaker": "Hirano",
+                    "text": "It's the Traveler, and... the Almighty Shogun!"
+                },
+                {
+                    "id": "120400506",
+                    "speaker": "Hirano",
+                    "text": "How might I be of assistance, Your Excellency?"
+                },
+                {
+                    "id": "120400507",
+                    "speaker": "Ei",
+                    "text": "I wish to borrow a tea set from the Yashiro Commission."
+                },
+                {
+                    "id": "120400508",
+                    "speaker": "Hirano",
+                    "text": "Oh, uh, sure! I'll fetch that for you right away."
+                },
+                {
+                    "id": "120400509",
+                    "speaker": "Hirano",
+                    "text": "Uh, please step into the courtyard and have a rest, Almighty Shogun. Oh, and I'll inform my lord about your visit immediately. Ah, and the tea set, I'll bring that here as soon as it's ready..."
+                },
+                {
+                    "id": "120400510",
+                    "speaker": "Ei",
+                    "text": "Be at ease, I'm not here to see Commissioner Kamisato. Actually, I'd prefer to spend this time chatting with the Traveler. Please, fetch the tea set at your convenience."
+                },
+                {
+                    "id": "120400511",
+                    "speaker": "Hirano",
+                    "text": "No, no, no. I am your humble servant, I daren't think of my own convenience when the Almighty Shogun graces me with her presence! I'll deal with it right away."
+                },
+                {
+                    "id": "120400512",
+                    "speaker": "Ei",
+                    "text": "Well, it's not often we have the chance to chat. I'm sure you must have a lot of questions?"
+                },
+                {
+                    "id": "120400513",
+                    "speaker": "Player",
+                    "text": "Was it really you that that tea master used to serve?"
+                },
+                {
+                    "id": "120400514",
+                    "speaker": "Paimon",
+                    "text": "Right, Paimon wanted to ask that, too! The Almighty Shogun that he described didn't sound anything like you at all."
+                },
+                {
+                    "id": "120400515",
+                    "speaker": "Ei",
+                    "text": "I seldom had the time to drink tea. Any free time I had was spent practicing martial arts."
+                },
+                {
+                    "id": "120400516",
+                    "speaker": "Ei",
+                    "text": "So in the vast majority of cases, the one he made tea for was the former Electro Archon... who was also my sister. Raiden Makoto."
+                },
+                {
+                    "id": "120400517",
+                    "speaker": "Ei",
+                    "text": "He may well have had an inkling about there being two \"Raiden Shoguns.\" But he always acted as if he was completely unaware of it."
+                },
+                {
+                    "id": "120400518",
+                    "speaker": "Ei",
+                    "text": "The philosophy of life that he shared with us just now, that was Makoto's view on reality. She always saw things that way."
+                },
+                {
+                    "id": "120400519",
+                    "speaker": "Paimon",
+                    "text": "You and Makoto had pretty different views, huh..."
+                },
+                {
+                    "id": "120400520",
+                    "speaker": "Ei",
+                    "text": "Indeed we did. It was the biggest difference between us."
+                },
+                {
+                    "id": "120400521",
+                    "speaker": "Ei",
+                    "text": "In her eyes, the most precious things in this world were dreams — the yearning for a better future held by living beings."
+                },
+                {
+                    "id": "120400522",
+                    "speaker": "Player",
+                    "text": "Dreams... or in other words, \"ambitions\"?"
+                },
+                {
+                    "id": "120400523",
+                    "speaker": "Ei",
+                    "text": "They are similar, but not identical."
+                },
+                {
+                    "id": "120400524",
+                    "speaker": "Ei",
+                    "text": "When you came charging into the Plane of Euthymia, I saw human aspirations light up the sky far above in the form of countless stars. This... somewhat shook me."
+                },
+                {
+                    "id": "120400525",
+                    "speaker": "Ei",
+                    "text": "Now, it seems like she was right, while I took the wayward path."
+                },
+                {
+                    "id": "120400526",
+                    "speaker": "Paimon",
+                    "text": "Wow. There sure was a lot going on beneath the surface..."
+                },
+                {
+                    "id": "120400527",
+                    "speaker": "Ei",
+                    "text": "Makoto saw a bigger picture than I did. In her view, a \"dream\" is more imaginary, more abstract than an \"ambition.\""
+                },
+                {
+                    "id": "120400528",
+                    "speaker": "Ei",
+                    "text": "An \"ambition\" is a yearning for something material, or a concrete outcome. It is finite in nature, and will be replaced by a new ambition in due course."
+                },
+                {
+                    "id": "120400529",
+                    "speaker": "Ei",
+                    "text": "Makoto was more concerned with the force that drives humans to constantly generate new ambitions in the first place. It is something innate, rooted in instinct — in other words... it is something eternal."
+                },
+                {
+                    "id": "120400530",
+                    "speaker": "Paimon",
+                    "text": "That's, uh, quite a lot to take in..."
+                },
+                {
+                    "id": "120400531",
+                    "speaker": "Ei",
+                    "text": "To put it simply, Makoto wasn't concerned about outcomes."
+                },
+                {
+                    "id": "120400532",
+                    "speaker": "Ei",
+                    "text": "I didn't understand at the time. How can we say that we are maintaining eternity when things are constantly moving forward and evolving?"
+                },
+                {
+                    "id": "120400533",
+                    "speaker": "Ei",
+                    "text": "I suppose what it comes down to is the definition of \"eternity\" she set out with."
+                },
+                {
+                    "id": "120400534",
+                    "speaker": "Player",
+                    "text": "It seems more in line with how humans view the world."
+                },
+                {
+                    "id": "120400535",
+                    "speaker": "Ei",
+                    "text": "Yes, it does. I always thought that she must have grasped some elusive, arcane wisdom to arrive at the conclusions she did."
+                },
+                {
+                    "id": "120400536",
+                    "speaker": "Ei",
+                    "text": "But in the last analysis, Makoto's philosophy was — on the surface, at least — an elegantly simple one. Notwithstanding that it was also the more prudent choice, based on a more mature, far-sighted outlook."
+                },
+                {
+                    "id": "120400537",
+                    "speaker": "Paimon",
+                    "text": "Do you feel you're starting to understand her better now?"
+                },
+                {
+                    "id": "120400538",
+                    "speaker": "Ei",
+                    "text": "You have already witnessed my previous views on eternity."
+                },
+                {
+                    "id": "120400539",
+                    "speaker": "Ei",
+                    "text": "But now, I no longer cling to what was lost. I suppose that means our differences have been reconciled."
+                },
+                {
+                    "id": "120400540",
+                    "speaker": "Hirano",
+                    "text": "Almighty Shogun, I found a tea set! This one in particular should be fit for Your Excellency's use..."
+                },
+                {
+                    "id": "120400541",
+                    "speaker": "Ei",
+                    "text": "It's quite beautiful. Thank you."
+                },
+                {
+                    "id": "120400542",
+                    "speaker": "Hirano",
+                    "text": "You are too kind, a humble servant such as I does not deserve the gratitude of the Almighty Shogun..."
+                },
+                {
+                    "id": "120400543",
+                    "speaker": "Paimon",
+                    "text": "It's all good, Sir! She's actually pretty chill."
+                },
+                {
+                    "id": "120400544",
+                    "speaker": "Ei",
+                    "text": "Let us return. We ought not keep Furuyama waiting too long."
+                }
+            ]
+        },
+        {
+            "id": "1204014",
+            "objective": "Go to where the tea master is",
+            "dialogues": []
+        },
+        {
+            "id": "1204015",
+            "objective": "Talk to Ei once again",
+            "dialogues": []
+        },
+        {
+            "id": "1204008",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "120400801",
+                    "speaker": "Hirano",
+                    "text": "Take care, Almighty Shogun. You too, Traveler... And you too, um, uh... y—you take care too, anyway."
+                }
+            ]
+        },
+        {
+            "id": "1204099",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "120409901",
+                    "speaker": "Paimon",
+                    "text": "The Sacred Sakura's in danger again, huh. Who'd have thought."
+                },
+                {
+                    "id": "120409902",
+                    "speaker": "Paimon",
+                    "text": "Keeping the Sacred Sakura safe was Hanachirusato's greatest wish, and now these mangy mutts are trying to destroy it. Time to teach them a lesson!"
+                },
+                {
+                    "id": "120409903",
+                    "speaker": "Paimon",
+                    "text": "They're attacking the Sacred Sakura! Stop them!"
+                },
+                {
+                    "id": "120409904",
+                    "speaker": "Paimon",
+                    "text": "This color... It's similar to the color when the Sacred Sakura takes damage!"
+                },
+                {
+                    "id": "120409905",
+                    "speaker": "Paimon",
+                    "text": "Let's follow it, it should be this way."
+                },
+                {
+                    "id": "120409906",
+                    "speaker": "Paimon",
+                    "text": "As expected, there are a load of rifthounds here, too."
+                },
+                {
+                    "id": "120409907",
+                    "speaker": "Ei",
+                    "text": "Leave them to me."
+                },
+                {
+                    "id": "120409908",
+                    "speaker": "Paimon",
+                    "text": "Where should we go to find a tea set?"
+                },
+                {
+                    "id": "120409909",
+                    "speaker": "Paimon",
+                    "text": "Having a cup of tea isn't exactly the most urgent thing to do right now... but at the same time, this lovely old man from 500 years ago has been through so much, and it makes Paimon so sad..."
+                },
+                {
+                    "id": "120409910",
+                    "speaker": "Ei",
+                    "text": "I'm also feeling very nostalgic for his tea."
+                },
+                {
+                    "id": "120409911",
+                    "speaker": "Paimon",
+                    "text": "Oh, why don't we go to the Kamisato Estate? There'll definitely be a tea set we can borrow there."
+                },
+                {
+                    "id": "120409912",
+                    "speaker": "Ei",
+                    "text": "I'm also feeling very nostalgic for his tea."
+                },
+                {
+                    "id": "120409913",
+                    "speaker": "Paimon",
+                    "text": "Oh, why don't we go to the Kamisato Estate? There'll definitely be a tea set we can borrow there."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,501 @@
+{
+    "quest": {
+        "id": "462",
+        "title": "Mystery of the Arcadian Ruins",
+        "description": "According to Kaeya, his pirate grandfather left behind a treasured sword that has been buried in the Lost Arcadian Ruins. To prevent it from falling into the wrong hands, you search high and low for intelligence regarding the ruins.",
+        "rewards": [
+            {
+                "itemId": 102,
+                "count": 250
+            },
+            {
+                "itemId": 202,
+                "count": 3225
+            },
+            {
+                "itemId": 104001,
+                "count": 8
+            },
+            {
+                "itemId": 104012,
+                "count": 3
+            }
+        ],
+        "rewards_formatted": "Adventure EXP x250, Mora x3225, Wanderer's Advice x8, Fine Enhancement Ore x3",
+        "chapter": {
+            "icon": "UI_ChapterIcon_Kaeya",
+            "id": "2001",
+            "num": "Pavo Ocellus Chapter: Act I",
+            "title": "Secret Pirate Treasure"
+        },
+        "total_dialogue_lines": 77,
+        "total_speaker_counts": {
+            "Kaeya": 23,
+            "Paimon": 34,
+            "Player": 9,
+            "Vile": 11
+        }
+    },
+    "talks": [
+        {
+            "id": "46201",
+            "objective": "Meet with the informant at the designated location",
+            "dialogues": [
+                {
+                    "id": "4620101",
+                    "speaker": "Paimon",
+                    "text": "#Look, {NICKNAME}! She's in trouble!"
+                },
+                {
+                    "id": "4620102",
+                    "speaker": "Paimon",
+                    "text": "Forget about the informant. Let's save her!"
+                }
+            ]
+        },
+        {
+            "id": "46202",
+            "objective": "Defeat the opponents attacking the informant",
+            "dialogues": [
+                {
+                    "id": "4620201",
+                    "speaker": "Paimon",
+                    "text": "..."
+                }
+            ]
+        },
+        {
+            "id": "46203",
+            "objective": "Talk to the informant",
+            "dialogues": [
+                {
+                    "id": "4620301",
+                    "speaker": "Vile",
+                    "text": "Why is this happening to me? I shouldn't have helped <color=#00E1FFFF>him</color>..."
+                },
+                {
+                    "id": "4620302",
+                    "speaker": "Paimon",
+                    "text": "Him, who?"
+                },
+                {
+                    "id": "4620303",
+                    "speaker": "Vile",
+                    "text": "Thanks so much for saving me! You're far more reliable than those Favonius guys."
+                },
+                {
+                    "id": "4620304",
+                    "speaker": "Paimon",
+                    "text": "#It's nothing. {M#He}{F#She}'s a traveler, {M#he}{F#she} has to deal with stuff like this all the time."
+                },
+                {
+                    "id": "4620305",
+                    "speaker": "Vile",
+                    "text": "Traveler? I've heard stories about you. I didn't think I'd be saved by <color=#00E1FFFF>the one I'm here to meet</color>."
+                },
+                {
+                    "id": "4620306",
+                    "speaker": "Paimon",
+                    "text": "Oh, so you're the..."
+                },
+                {
+                    "id": "4620307",
+                    "speaker": "Vile",
+                    "text": "Hahaha... I didn't know how I could pay you back initially, but now, I think I'll just give you the intel for free."
+                },
+                {
+                    "id": "4620308",
+                    "speaker": "Vile",
+                    "text": "People in our circle know how important the network is.",
+                    "choices": [
+                        {
+                            "id": "4620309",
+                            "text": "Really?",
+                            "response": [
+                                {
+                                    "id": "4620310",
+                                    "speaker": "Vile",
+                                    "text": "Well, you did save my life."
+                                },
+                                {
+                                    "id": "4620312",
+                                    "speaker": "Paimon",
+                                    "text": "LUCKY!"
+                                },
+                                {
+                                    "id": "4620313",
+                                    "speaker": "Paimon",
+                                    "text": "But... it's lucky for Kaeya, isn't it? He's supposed to pay for the intel..."
+                                },
+                                {
+                                    "id": "4620314",
+                                    "speaker": "Vile",
+                                    "text": "Listen well then, the intel on the Arcadian Ruins..."
+                                },
+                                {
+                                    "id": "4620315",
+                                    "speaker": "Vile",
+                                    "text": "\"Three six-armed giants reside in the city in the lake. Two guard the statue, one, the treasure.\""
+                                },
+                                {
+                                    "id": "4620316",
+                                    "speaker": "Paimon",
+                                    "text": "Right... Wait, is that it?"
+                                },
+                                {
+                                    "id": "4620325",
+                                    "speaker": "Vile",
+                                    "text": "There's also this map that came with it."
+                                },
+                                {
+                                    "id": "4620317",
+                                    "speaker": "Paimon",
+                                    "text": "Could... this be the X-marks-the-spot?"
+                                },
+                                {
+                                    "id": "4620318",
+                                    "speaker": "Paimon",
+                                    "text": "So the clue is more like a riddle..."
+                                },
+                                {
+                                    "id": "4620319",
+                                    "speaker": "Paimon",
+                                    "text": "#Well, should be a piece of cake for ya, right {NICKNAME}? Paimon'll leave it to you then!",
+                                    "choices": [
+                                        {
+                                            "id": "4620320",
+                                            "text": "Sure thing.",
+                                            "response": [
+                                                {
+                                                    "id": "4620322",
+                                                    "speaker": "Paimon",
+                                                    "text": "Well, if you can't solve it, we can ask Kaeya. He seems like a nerd too."
+                                                },
+                                                {
+                                                    "id": "4620326",
+                                                    "speaker": "Vile",
+                                                    "text": "I'll leave you the intel so you can review it at any time."
+                                                },
+                                                {
+                                                    "id": "4620327",
+                                                    "speaker": "Paimon",
+                                                    "text": "Thanks, Vile."
+                                                },
+                                                {
+                                                    "id": "4620323",
+                                                    "speaker": "Paimon",
+                                                    "text": "\"Three six-armed giants reside in the city in the lake. Two guard the statue, one, the treasure.\""
+                                                },
+                                                {
+                                                    "id": "4620324",
+                                                    "speaker": "Paimon",
+                                                    "text": "What does that mean? If you don't wanna ask Kaeya, you better figure it out!"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "4620321",
+                                            "text": "Sure... I hope."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "4620311",
+                            "text": "Thank you, friend."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "46204",
+            "objective": "Find the location of the buried treasure",
+            "dialogues": [
+                {
+                    "id": "4620401",
+                    "speaker": "Paimon",
+                    "text": "Ooh, lemme see what's inside!"
+                },
+                {
+                    "id": "4620402",
+                    "speaker": "Paimon",
+                    "text": "\"She doesn't love him at all. The passion rushing through the clear spring is just a front. When she's cold and alone, her true heart is revealed.\""
+                },
+                {
+                    "id": "4620407",
+                    "speaker": "Paimon",
+                    "text": "There's another map."
+                },
+                {
+                    "id": "4620403",
+                    "speaker": "Paimon",
+                    "text": "More riddles?"
+                },
+                {
+                    "id": "4620404",
+                    "speaker": "Paimon",
+                    "text": "Paimon's dizzy already. Oh, no! Paimon used up all her brain juice!"
+                },
+                {
+                    "id": "4620405",
+                    "speaker": "Player",
+                    "text": "You never had any to begin with..."
+                },
+                {
+                    "id": "4620406",
+                    "speaker": "Paimon",
+                    "text": "Paimon'll let you have all the fun. Or, you could get Kaeya to help."
+                }
+            ]
+        },
+        {
+            "id": "46210",
+            "objective": "Disappears after controlling Paimon to talk",
+            "dialogues": []
+        },
+        {
+            "id": "46205",
+            "objective": "Solve the mystery (Go to Kaeya at the Knights of Favonius HQ for a hint)",
+            "dialogues": [
+                {
+                    "id": "4620501",
+                    "speaker": "Kaeya",
+                    "text": "#{NICKNAME}! You're back! Looks like you got the intel."
+                },
+                {
+                    "id": "4620502",
+                    "speaker": "Paimon",
+                    "text": "Yes and no. It's a lot more complicated than that."
+                },
+                {
+                    "id": "4620503",
+                    "speaker": "Paimon",
+                    "text": "\"Three six-armed giants reside in the city in the lake. Two guard the statue, one, the treasure.\" What do you make of it?"
+                },
+                {
+                    "id": "4620504",
+                    "speaker": "Kaeya",
+                    "text": "Riddles? How quaint. Let me think..."
+                },
+                {
+                    "id": "4620505",
+                    "speaker": "Kaeya",
+                    "text": "\"City in the lake\" is clearly Mondstadt... As for the Six-Armed Giants... Hmm..."
+                },
+                {
+                    "id": "4620506",
+                    "speaker": "Player",
+                    "text": "Crabs?"
+                },
+                {
+                    "id": "4620507",
+                    "speaker": "Paimon",
+                    "text": "Giant crabs!"
+                },
+                {
+                    "id": "4620508",
+                    "speaker": "Kaeya",
+                    "text": "Aside from asking just where we would find giant crabs..."
+                },
+                {
+                    "id": "4620509",
+                    "speaker": "Kaeya",
+                    "text": "Crabs have eight legs, not six..."
+                },
+                {
+                    "id": "4620516",
+                    "speaker": "Player",
+                    "text": "The windmills, then?"
+                },
+                {
+                    "id": "4620517",
+                    "speaker": "Player",
+                    "text": "Should be... the windmills?"
+                },
+                {
+                    "id": "4620518",
+                    "speaker": "Kaeya",
+                    "text": "Hey! That's smart!"
+                },
+                {
+                    "id": "4620519",
+                    "speaker": "Kaeya",
+                    "text": "A windmill has six blades... It fits."
+                },
+                {
+                    "id": "4620510",
+                    "speaker": "Paimon",
+                    "text": "Wow! That makes sense!"
+                },
+                {
+                    "id": "4620511",
+                    "speaker": "Kaeya",
+                    "text": "So, out of the three windmills, two are close to the statue..."
+                },
+                {
+                    "id": "4620512",
+                    "speaker": "Kaeya",
+                    "text": "The other one is guarding..."
+                },
+                {
+                    "id": "4620513",
+                    "speaker": "Paimon",
+                    "text": "Ooh! Ooh! This one Paimon knows! The treasure!"
+                },
+                {
+                    "id": "4620514",
+                    "speaker": "Kaeya",
+                    "text": "Hehehe... Let's hope it's really that simple."
+                },
+                {
+                    "id": "4620515",
+                    "speaker": "Paimon",
+                    "text": "#Come on, {NICKNAME}! Let's go take a look around that windmill!"
+                }
+            ]
+        },
+        {
+            "id": "46208",
+            "objective": "Look for the location in the riddle",
+            "dialogues": [
+                {
+                    "id": "4620801",
+                    "speaker": "Kaeya",
+                    "text": "The location is in the Whispering Woods — you haven't forgotten, right?"
+                }
+            ]
+        },
+        {
+            "id": "46206",
+            "objective": "Find the location of the buried treasure",
+            "dialogues": [
+                {
+                    "id": "4620601",
+                    "speaker": "Paimon",
+                    "text": "Hehe, to a genius like me, this is nothing. Take a look at this map!"
+                }
+            ]
+        },
+        {
+            "id": "46207",
+            "objective": "Solve the mystery (Go to Kaeya at the Knights of Favonius HQ for a hint)",
+            "dialogues": [
+                {
+                    "id": "4620701",
+                    "speaker": "Kaeya",
+                    "text": "\"She doesn't love him at all. The passion rushing through the clear spring is just a front. When she's cold and alone, her true heart is revealed.\""
+                },
+                {
+                    "id": "4620702",
+                    "speaker": "Paimon",
+                    "text": "Any idea what that means?"
+                },
+                {
+                    "id": "4620703",
+                    "speaker": "Kaeya",
+                    "text": "Is this some page stripped from a love novel that you just happened to find?"
+                },
+                {
+                    "id": "4620704",
+                    "speaker": "Paimon",
+                    "text": "Oh, so it's not a clue. No wonder someone as clever as Paimon wasn't able to get it."
+                },
+                {
+                    "id": "4620705",
+                    "speaker": "Kaeya",
+                    "text": "Hahaha... I'm just joking."
+                },
+                {
+                    "id": "4620706",
+                    "speaker": "Paimon",
+                    "text": "Hmph... Take this more seriously, Kaeya!"
+                },
+                {
+                    "id": "4620707",
+                    "speaker": "Kaeya",
+                    "text": "Haha, this riddle is hard to figure out. Clear spring... Is it referring to Springvale?"
+                },
+                {
+                    "id": "4620708",
+                    "speaker": "Kaeya",
+                    "text": "\"Passion rushing through the clear spring...\" So when does passion rush through a clear spring?"
+                },
+                {
+                    "id": "4620709",
+                    "speaker": "Kaeya",
+                    "text": "And the \"heart\" of the waterfall must refer to the cliff on the left side of the waterfall. I noticed it once when I was out on patrol in the area."
+                },
+                {
+                    "id": "4620710",
+                    "speaker": "Kaeya",
+                    "text": "The ending, \"cold and alone,\" probably has something to do with Cryo, which can be controlled by a Vision."
+                },
+                {
+                    "id": "4620711",
+                    "speaker": "Kaeya",
+                    "text": "You should probably <color=#00E1FFFF>take someone who can manipulate Cryo with you</color>."
+                },
+                {
+                    "id": "4620712",
+                    "speaker": "Player",
+                    "text": "Thanks for the help, Kaeya."
+                },
+                {
+                    "id": "4620713",
+                    "speaker": "Kaeya",
+                    "text": "It's nothing. If a Knight of Favonius couldn't even answer a riddle, how could we be trusted to solve criminal mysteries?"
+                },
+                {
+                    "id": "4620714",
+                    "speaker": "Paimon",
+                    "text": "Let's go take a look in Springvale. We'll leave you to your \"criminal mysteries\"!"
+                },
+                {
+                    "id": "4620715",
+                    "speaker": "Kaeya",
+                    "text": "Erm..."
+                },
+                {
+                    "id": "4620716",
+                    "speaker": "Paimon",
+                    "text": "No, wait... Leave you to SOLVING your criminal mysteries!"
+                }
+            ]
+        },
+        {
+            "id": "46209",
+            "objective": "Look for the location in the riddle",
+            "dialogues": [
+                {
+                    "id": "4620901",
+                    "speaker": "Kaeya",
+                    "text": "If I'm right, the location described by the clue is the windmill the furthest away from the statue... I'm not completely certain though."
+                }
+            ]
+        },
+        {
+            "id": "46210",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "4621001",
+                    "speaker": "Kaeya",
+                    "text": "Take a look around the waterfall near Springvale. Remember to bring a friend who can manipulate Cryo. Huh? Oh... Me?"
+                }
+            ]
+        },
+        {
+            "id": "46211",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "4621101",
+                    "speaker": "Vile",
+                    "text": "\"Three six-armed giants reside in the city in the lake. Two guard the statue, one, the treasure.\" Got it?"
+                }
+            ]
+        }
+    ]
+}

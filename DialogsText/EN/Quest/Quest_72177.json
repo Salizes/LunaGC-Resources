@@ -1,0 +1,2774 @@
+{
+    "quest": {
+        "id": "72177",
+        "title": "The Subterranean Trials of Drake and Serpent",
+        "description": "For treasure and for the future of Watatsumi Island, you accept Tsuyuko's commission and prepare to descend into Enkanomiya...",
+        "rewards": [
+            {
+                "itemId": 102,
+                "count": 300
+            },
+            {
+                "itemId": 201,
+                "count": 40
+            },
+            {
+                "itemId": 104003,
+                "count": 4
+            },
+            {
+                "itemId": 202,
+                "count": 30000
+            }
+        ],
+        "rewards_formatted": "Adventure EXP x300, Primogem x40, Hero's Wit x4, Mora x30000",
+        "chapter": {
+            "icon": "UI_ChapterIcon_Common",
+            "id": "10055",
+            "num": "",
+            "title": "From Dusk to Dawn in Byakuyakoku"
+        },
+        "total_dialogue_lines": 485,
+        "total_speaker_counts": {
+            "???": 18,
+            "Aru": 141,
+            "Black Screen": 3,
+            "Eboshi": 22,
+            "Enjou": 156,
+            "Examine the Map": 1,
+            "Paimon": 63,
+            "Player": 61,
+            "The Thing Calling Itself \"Enjou\"": 12,
+            "Tsuyuko": 8
+        }
+    },
+    "talks": [
+        {
+            "id": "7217702",
+            "objective": "Go to the ruins up ahead",
+            "dialogues": [
+                {
+                    "id": "721770201",
+                    "speaker": "???",
+                    "text": "Uh-oh! Trying to trespass, are we...?"
+                },
+                {
+                    "id": "721770202",
+                    "speaker": "???",
+                    "text": "...Wait, maybe not. I correct myself. You two must be the heroes who have come to retrieve the coral this time, are you not?"
+                },
+                {
+                    "id": "721770203",
+                    "speaker": "Paimon",
+                    "text": "\"Two?\" Hehe, so you're counting Paimon too?"
+                },
+                {
+                    "id": "721770204",
+                    "speaker": "???",
+                    "text": "Haha. Well, I was originally thinking that \"Sangonomiya Shrine couldn't possibly be so shorthanded that they're only sending one person, right?\""
+                },
+                {
+                    "id": "721770205",
+                    "speaker": "???",
+                    "text": "So consider my expectations exceeded. There's actually two of you.",
+                    "choices": [
+                        {
+                            "id": "721770206",
+                            "text": "Oh, I know my way around a fight.",
+                            "response": [
+                                {
+                                    "id": "721770208",
+                                    "speaker": "???",
+                                    "text": "Haha! I love your gusto and optimism! Good stuff!"
+                                },
+                                {
+                                    "id": "721770209",
+                                    "speaker": "???",
+                                    "text": "I hope that by the end of this, you'll count me in the team as well. I'm sure the three of us will get on swimmingly!"
+                                },
+                                {
+                                    "id": "721770210",
+                                    "speaker": "???",
+                                    "text": "Let me introduce myself: I'm a researcher who has come to assist you. Call me Enjou."
+                                },
+                                {
+                                    "id": "721770211",
+                                    "speaker": "Enjou",
+                                    "text": "My main duty is to organize and translate clues regarding the trial to guide you on your path."
+                                },
+                                {
+                                    "id": "721770212",
+                                    "speaker": "Paimon",
+                                    "text": "Ooh, that's nice. We've always had to rely on our own memory to figure the puzzles we encountered elsewhere."
+                                },
+                                {
+                                    "id": "721770213",
+                                    "speaker": "Enjou",
+                                    "text": "Wow! You know what? You might actually be more professional than me, then! I mean, I'm just a scholar."
+                                },
+                                {
+                                    "id": "721770214",
+                                    "speaker": "Player",
+                                    "text": "But Tsuyuko said..."
+                                },
+                                {
+                                    "id": "721770215",
+                                    "speaker": "Enjou",
+                                    "text": "Tsuyuko... Right. Her. Didn't she say that there would be some clerical staff on hand to assist the hero?"
+                                },
+                                {
+                                    "id": "721770216",
+                                    "speaker": "Paimon",
+                                    "text": "She did say something like that..."
+                                },
+                                {
+                                    "id": "721770217",
+                                    "speaker": "Enjou",
+                                    "text": "Exactomundo. I mean, it would be quite a stretch to expect you to learn Byakuyakoku's script from scratch."
+                                },
+                                {
+                                    "id": "721770218",
+                                    "speaker": "Enjou",
+                                    "text": "And that's where I come in! I'm here to help translate documents and hints. Any questions for me?"
+                                },
+                                {
+                                    "id": "721770219",
+                                    "speaker": "Player",
+                                    "text": "What do you know about that central tower?"
+                                },
+                                {
+                                    "id": "721770220",
+                                    "speaker": "Enjou",
+                                    "text": "That's the heart of the trial, a building known as Dainichi Mikoshi — which also means \"chariot of the sun.\""
+                                },
+                                {
+                                    "id": "721770221",
+                                    "speaker": "Enjou",
+                                    "text": "I believe that it should be defended by a barrier right now. Its original purpose was to protect the citizens, but at present, we cannot enter unless it is disabled."
+                                },
+                                {
+                                    "id": "721770222",
+                                    "speaker": "Enjou",
+                                    "text": "Now I can see the questions bubbling up in your face already, so let me just explain how we're going to break this barrier."
+                                },
+                                {
+                                    "id": "721770223",
+                                    "speaker": "Enjou",
+                                    "text": "First, you'll need to find something known as the \"Golden Bridle.\" According to related literature, it's a device that is less than an armful in size."
+                                },
+                                {
+                                    "id": "721770224",
+                                    "speaker": "Paimon",
+                                    "text": "Oh, so it's not a rope?"
+                                },
+                                {
+                                    "id": "721770225",
+                                    "speaker": "Enjou",
+                                    "text": "The name is simply derived from one of Byakuyakoku's legends. They say that the sun and the moon were moved by the chariots of the gods."
+                                },
+                                {
+                                    "id": "721770226",
+                                    "speaker": "Enjou",
+                                    "text": "And the Golden Bridle was Byakuyakoku's national treasure.",
+                                    "choices": [
+                                        {
+                                            "id": "721770227",
+                                            "text": "Byakuyakoku's...",
+                                            "response": [
+                                                {
+                                                    "id": "721770229",
+                                                    "speaker": "Enjou",
+                                                    "text": "That's right, Byakuyakoku. That's the real name of this place. A nether realm without light. Byakuyakoku — the place where sins piled high in the ever-{RUBY#[S]Tokoyo}night, only to be cleansed, revealing their true colors."
+                                                },
+                                                {
+                                                    "id": "721770230",
+                                                    "speaker": "Enjou",
+                                                    "text": "...But back to the trial. The people of Byakuyakoku were saved by the Great Serpent, and thus re-attained the light of heaven. They all moved above the depths."
+                                                },
+                                                {
+                                                    "id": "721770231",
+                                                    "speaker": "Enjou",
+                                                    "text": "Just so you know, that's what my name means. \"Above the depths.\""
+                                                },
+                                                {
+                                                    "id": "721770232",
+                                                    "speaker": "Player",
+                                                    "text": "Hahaha..."
+                                                },
+                                                {
+                                                    "id": "721770233",
+                                                    "speaker": "Enjou",
+                                                    "text": "Anyway, the people of Watatsumi archived Byakuyakoku's facilities after leaving that place. As for this place, this is one of those very facilities — the library of Byakuyakoku."
+                                                },
+                                                {
+                                                    "id": "721770234",
+                                                    "speaker": "Enjou",
+                                                    "text": "To facilitate future trials, the Golden Bridle was moved closer by. To the back of the library, to be exact."
+                                                },
+                                                {
+                                                    "id": "721770235",
+                                                    "speaker": "Enjou",
+                                                    "text": "So, finding this Golden Bridle is the first part of the trial. Well, that's what the trial guidebook in the library says, anyway."
+                                                },
+                                                {
+                                                    "id": "721770236",
+                                                    "speaker": "Player",
+                                                    "text": "How did you get here earlier than us?"
+                                                },
+                                                {
+                                                    "id": "721770237",
+                                                    "speaker": "Enjou",
+                                                    "text": "Oh, that? You're the heroes. Yours is the rough, narrow road up to the front gate of the trial. As for us support staff... We have our own side routes and back doors."
+                                                },
+                                                {
+                                                    "id": "721770238",
+                                                    "speaker": "Enjou",
+                                                    "text": "Anyone of a more plebeian persuasion who manages to sneak in isn't gonna get very far... Without the Key of the Moon-Bathed Deep to open the gate, the trial and its contents will not activate."
+                                                },
+                                                {
+                                                    "id": "721770239",
+                                                    "speaker": "Enjou",
+                                                    "text": "Plus, it's not as if ordinary people would understand Byakuyakoku's script, anyway. They wouldn't be able to figure the clues out."
+                                                },
+                                                {
+                                                    "id": "721770240",
+                                                    "speaker": "Enjou",
+                                                    "text": "Without the Golden Bridle, there is no entering Enkanomiya and probing the secrets of its eternal night."
+                                                },
+                                                {
+                                                    "id": "721770241",
+                                                    "speaker": "Enjou",
+                                                    "text": "If you really don't trust me, you're free to rough me up a bit. But, ah, don't drag me back to the surface afterwards, thanks."
+                                                },
+                                                {
+                                                    "id": "721770242",
+                                                    "speaker": "Enjou",
+                                                    "text": "As you can see, I'm just a scholar with a thirst for knowledge, and with a certain tome that he must find in Byakuyakoku."
+                                                },
+                                                {
+                                                    "id": "721770243",
+                                                    "speaker": "Paimon",
+                                                    "text": "Well, he's said this much, and it certainly doesn't look like he's trying to trick us."
+                                                },
+                                                {
+                                                    "id": "721770244",
+                                                    "speaker": "Paimon",
+                                                    "text": "#Paimon thinks we can trust him for a while, {NICKNAME}."
+                                                },
+                                                {
+                                                    "id": "721770245",
+                                                    "speaker": "Enjou",
+                                                    "text": "Haha, thanks for the token of faith. Well, off you get then. This Golden Bridle isn't going to find itself!"
+                                                },
+                                                {
+                                                    "id": "721770246",
+                                                    "speaker": "Player",
+                                                    "text": "Is this what you're looking for?"
+                                                },
+                                                {
+                                                    "id": "721770247",
+                                                    "speaker": "Enjou",
+                                                    "text": "Ah, yep. That's the one. You're pretty good at this hero business, aren't you?"
+                                                },
+                                                {
+                                                    "id": "721770248",
+                                                    "speaker": "Enjou",
+                                                    "text": "The book says that the craftsman \"Aberaku n{RUBY#[S]Abrax}o Mikoto\" was ordered to create the chariot of the sun to finally bring light to the everlasting night."
+                                                },
+                                                {
+                                                    "id": "721770249",
+                                                    "speaker": "Enjou",
+                                                    "text": "Before this, the people lived in a constant state of fear, for it was the great hunters in the dark — the Bathysmal Vishaps — who were the original rulers of this land."
+                                                },
+                                                {
+                                                    "id": "721770250",
+                                                    "speaker": "Paimon",
+                                                    "text": "The Bathysmal Vishaps?"
+                                                },
+                                                {
+                                                    "id": "721770251",
+                                                    "speaker": "Enjou",
+                                                    "text": "Yes. Pure, primordial elemental creatures, wild spirits who never bent the knee to any god or worldly power."
+                                                },
+                                                {
+                                                    "id": "721770252",
+                                                    "speaker": "Enjou",
+                                                    "text": "I believe that the traditional Sangonomiya tale, \"The Clash of the Drakes and the Serpent,\" also refers to a Bathysmal Vishap as a Dragonheir of the Depths."
+                                                },
+                                                {
+                                                    "id": "721770253",
+                                                    "speaker": "Enjou",
+                                                    "text": "At first, people would light lamps to chase the dark away, but to little effect. But when the Dainichi Mikoshi was created, the White Night chased the darkness of the Ever-Night away. Thus did the people gain a reprieve with which to live their lives."
+                                                },
+                                                {
+                                                    "id": "721770254",
+                                                    "speaker": "Enjou",
+                                                    "text": "The Dainichi Mikoshi could even be used to put forth a barrier to protect the people of Byakuyakoku. With this, we should be able to bring the barrier down."
+                                                },
+                                                {
+                                                    "id": "721770255",
+                                                    "speaker": "Enjou",
+                                                    "text": "Let me help you activate it. According to what the book says, I need to do this, then this... and then this. Okay! That should do it!"
+                                                },
+                                                {
+                                                    "id": "721770256",
+                                                    "speaker": "Enjou",
+                                                    "text": "The Golden Bridle's ready. Commanding the Dainichi Mikoshi to drop the barrier should be peanuts now!"
+                                                },
+                                                {
+                                                    "id": "721770257",
+                                                    "speaker": "Enjou",
+                                                    "text": "But we should probably perform such portentous deeds at the outermost gates of the Dainichi Mikoshi, wouldn't you say?"
+                                                },
+                                                {
+                                                    "id": "721770258",
+                                                    "speaker": "Enjou",
+                                                    "text": "The main gate should be on the southeastern section of the area it occupies. Just circle the barrier a bit till you find it."
+                                                },
+                                                {
+                                                    "id": "721770259",
+                                                    "speaker": "Black Screen",
+                                                    "text": "Enjou goes into detail about where the meeting place is.\\n...Without really caring if you can understand him or not."
+                                                },
+                                                {
+                                                    "id": "721770260",
+                                                    "speaker": "Enjou",
+                                                    "text": "Enkanomiya is surrounded by bottomless chasms. If you fall, you could count to a hundred without ever hitting the bottom, so please, please watch your step."
+                                                },
+                                                {
+                                                    "id": "721770261",
+                                                    "speaker": "Enjou",
+                                                    "text": "In any case, if you can't find the place, just circle around the barrier a bit. You'll get there eventually."
+                                                },
+                                                {
+                                                    "id": "721770262",
+                                                    "speaker": "Enjou",
+                                                    "text": "I'm almost done with my own investigations here. I haven't found what I'm looking for, though, so I'll go on ahead to wait for you."
+                                                },
+                                                {
+                                                    "id": "721770263",
+                                                    "speaker": "Enjou",
+                                                    "text": "Oh, one other thing — I believe that this picture behind me matches Enkanomiya's topography. I suggest you study it carefully before heading out."
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "721770228",
+                                            "text": "...National treasure?"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "721770207",
+                            "text": "Two is plenty."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "7217703",
+            "objective": "Investigate the ruin ahead",
+            "dialogues": [
+                {
+                    "id": "721770301",
+                    "speaker": "Enjou",
+                    "text": "Have you made any progress looking for the Golden Bridle?"
+                },
+                {
+                    "id": "721770302",
+                    "speaker": "Enjou",
+                    "text": "When I first entered the library, there was a handbook sitting in a most conspicuous position, detailing hints concerning the trial in the ancient tongue. The Golden Bridle should be in the back of this library."
+                }
+            ]
+        },
+        {
+            "id": "7217710",
+            "objective": "Defeat the opponents that appeared",
+            "dialogues": [
+                {
+                    "id": "721771001",
+                    "speaker": "Aru",
+                    "text": "It seems that you've retrieved all the fragments."
+                },
+                {
+                    "id": "721771002",
+                    "speaker": "Aru",
+                    "text": "Now, please do not be startled by the next thing I'm about to tell you..."
+                },
+                {
+                    "id": "721771003",
+                    "speaker": "Aru",
+                    "text": "The Bloodbranch Coral needs to be retrieved from the body of special Bathysmal Vishaps, which are right under the Dainichi Mikoshi...",
+                    "choices": [
+                        {
+                            "id": "721771004",
+                            "text": "What is it with dragons and being buried underground...",
+                            "response": [
+                                {
+                                    "id": "721771006",
+                                    "speaker": "Aru",
+                                    "text": "The Vishaps locked beneath it have been adjusted specifically such that they can accept fragments of Watatsumi Omikami's Bloodbranch Coral without experiencing any rejection."
+                                },
+                                {
+                                    "id": "721771007",
+                                    "speaker": "Aru",
+                                    "text": "But these adjustments have also made them exceptionally large, and they're most likely not that easy to kill."
+                                },
+                                {
+                                    "id": "721771008",
+                                    "speaker": "Aru",
+                                    "text": "Nonetheless, every good trial must end with the hero defeating the wicked dragon."
+                                },
+                                {
+                                    "id": "721771009",
+                                    "speaker": "Paimon",
+                                    "text": "So we'll have to find them after all?"
+                                },
+                                {
+                                    "id": "721771010",
+                                    "speaker": "Aru",
+                                    "text": "Indeed, that is so. As such, you shall have to complete three more Trials of Valor before the way will open for you."
+                                },
+                                {
+                                    "id": "721771011",
+                                    "speaker": "Aru",
+                                    "text": "If you cannot complete these trials, I doubt that you'll be anything but a free meal for those Bathysmal Vishaps."
+                                },
+                                {
+                                    "id": "721771012",
+                                    "speaker": "Aru",
+                                    "text": "But you need not worry, I believe that it'll be easy enough for you. Or you can treat it as a warm-up, whichever suits you."
+                                },
+                                {
+                                    "id": "721771013",
+                                    "speaker": "Paimon",
+                                    "text": "Don't you say this to everyone who comes this way? You're just an afterimage with some self-awareness, aren't you?"
+                                },
+                                {
+                                    "id": "721771014",
+                                    "speaker": "Aru",
+                                    "text": "Eh? You don't look like much, but you're actually smarter than our Watatsumi heroes. Interesting."
+                                },
+                                {
+                                    "id": "721771015",
+                                    "speaker": "Paimon",
+                                    "text": "Nah, you guys just have too little brain juice to go around!"
+                                },
+                                {
+                                    "id": "721771016",
+                                    "speaker": "Paimon",
+                                    "text": "No, wait a moment. What Paimon wanted to say is: won't you cause the heroes to underestimate the trial if you talk like this?"
+                                },
+                                {
+                                    "id": "721771017",
+                                    "speaker": "Aru",
+                                    "text": "I know. This is the \"sin of deception.\" But the coral's retrieval is something that concerns the survival of Watatsumi."
+                                },
+                                {
+                                    "id": "721771018",
+                                    "speaker": "Aru",
+                                    "text": "The heroes are only here because they're determined to see this through. All I can do at this point is push them forward."
+                                },
+                                {
+                                    "id": "721771019",
+                                    "speaker": "Aru",
+                                    "text": "In name, at least, I am a sinless \"Shade of Tokoyo\" born for ritual purpose. But on this level, I suppose I am not myself free of transgression.",
+                                    "choices": [
+                                        {
+                                            "id": "721771020",
+                                            "text": "(Sorry to disappoint you...)",
+                                            "response": [
+                                                {
+                                                    "id": "721771022",
+                                                    "speaker": "Aru",
+                                                    "text": "Allow me to awaken the last three testing grounds."
+                                                },
+                                                {
+                                                    "id": "721771023",
+                                                    "speaker": "Aru",
+                                                    "text": "Please wait a moment."
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "721771021",
+                                            "text": "(But we're actually here for the treasure...)"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "721771005",
+                            "text": "Quite the surprise..."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "7217711",
+            "objective": "Examine the mechanism and open the great door",
+            "dialogues": [
+                {
+                    "id": "721771101",
+                    "speaker": "Aru",
+                    "text": "The three trial areas have been prepared."
+                },
+                {
+                    "id": "721771102",
+                    "speaker": "Aru",
+                    "text": "Now, allow me to give you the clues to clearing them."
+                },
+                {
+                    "id": "721771103",
+                    "speaker": "Aru",
+                    "text": "Now, in this Evernight, gaze upon the borders of Byakuyakoku."
+                },
+                {
+                    "id": "721771104",
+                    "speaker": "Aru",
+                    "text": "\"In the faintness of everlasting night, beyond the rushing of the river Styx, within the sinless flow of heavenly light.\""
+                },
+                {
+                    "id": "721771105",
+                    "speaker": "Aru",
+                    "text": "Speaking of which, hero, would you mind listening to some of my personal thoughts? Hmm, come to think of it, the fact that I have such thoughts, means that my original self must've had such frustrations as well."
+                },
+                {
+                    "id": "721771106",
+                    "speaker": "Paimon",
+                    "text": "What's this all of a sudden?"
+                },
+                {
+                    "id": "721771107",
+                    "speaker": "Aru",
+                    "text": "The war between us and the Bathysmal Vishaps can be traced back to ancient times. Once upon a time, this was a brutal battle for survival."
+                },
+                {
+                    "id": "721771108",
+                    "speaker": "Aru",
+                    "text": "But... Now that we are about to live above the surface, we will no longer fight with them over territory."
+                },
+                {
+                    "id": "721771109",
+                    "speaker": "Aru",
+                    "text": "It's just that the threat of Holy Soil that the Vassals of Watatsumi warned us of will never cease. Watatsumi Omikami also warned us that its days shall be numbered once it returns to land."
+                },
+                {
+                    "id": "721771110",
+                    "speaker": "Aru",
+                    "text": "We have done a great wrong to the Bathysmal Vishaps. For fear of our future, we did something awful to them."
+                },
+                {
+                    "id": "721771111",
+                    "speaker": "Aru",
+                    "text": "\"To know sin is to be free of it.\" Such magical words do not convince me at all, for according to this law, all the people of Watatsumi are bearers of sin.",
+                    "choices": [
+                        {
+                            "id": "721771112",
+                            "text": "(I'm not sure I get what this is about...)",
+                            "response": [
+                                {
+                                    "id": "721771114",
+                                    "speaker": "Aru",
+                                    "text": "It seems that I've spoken too much."
+                                },
+                                {
+                                    "id": "721771115",
+                                    "speaker": "Aru",
+                                    "text": "Well then, let me help you put the Reins of Revival together. You will need it as proof of your worthiness during the trials."
+                                },
+                                {
+                                    "id": "721771133",
+                                    "speaker": "Black Screen",
+                                    "text": "Aru puts the three fragments and the Golden Bridle together..."
+                                },
+                                {
+                                    "id": "721771116",
+                                    "speaker": "Aru",
+                                    "text": "From now on, the kingship of Byakuya and Enkanomiya are in your hands."
+                                },
+                                {
+                                    "id": "721771117",
+                                    "speaker": "Aru",
+                                    "text": "This way, you may release the seal on The Emanant Skylight. Then, you may ascend to the Gate of Heaven and access the site of the trial."
+                                },
+                                {
+                                    "id": "721771118",
+                                    "speaker": "Player",
+                                    "text": "The Emanant Skylight?"
+                                },
+                                {
+                                    "id": "721771119",
+                                    "speaker": "Aru",
+                                    "text": "It's one part of the ritual. All heroes who initiate the trial must obtain the Reins of Revival. Only by proving yourself that way can you proceed to the next step."
+                                },
+                                {
+                                    "id": "721771120",
+                                    "speaker": "Aru",
+                                    "text": "At night, you can see three pillars of light that descend from the dome above. These pillars point unto The Emanant Skylight."
+                                },
+                                {
+                                    "id": "721771121",
+                                    "speaker": "Paimon",
+                                    "text": "Take the Reins of Revival there, and you will understand."
+                                },
+                                {
+                                    "id": "721771122",
+                                    "speaker": "Paimon",
+                                    "text": "You're speaking in riddles!"
+                                },
+                                {
+                                    "id": "721771123",
+                                    "speaker": "Aru",
+                                    "text": "Sorry. I delivered these lines from memory according to Sangonomiya's script. I mean, aren't unclear instructions also part of the tradition of such trials?"
+                                },
+                                {
+                                    "id": "721771124",
+                                    "speaker": "Aru",
+                                    "text": "Whatever the case may be. All the Jibashiri at the trial area are weirdos. If you don't pass through the teleporter to get there, they won't speak gently to you."
+                                },
+                                {
+                                    "id": "721771125",
+                                    "speaker": "Aru",
+                                    "text": "Either way, I can only stay here and hope that you will conquer all the obstacles set before you, and that you will return crowned in recognition."
+                                },
+                                {
+                                    "id": "721771126",
+                                    "speaker": "Aru",
+                                    "text": "Ah, right. Due to the power of the Reins of Revival, Enkanomiya will now show you a different side of itself. You should meet various afterimages along your path."
+                                },
+                                {
+                                    "id": "721771127",
+                                    "speaker": "Aru",
+                                    "text": "But they are not quite the same as this ritual afterimage of mine. These people have been chosen by the undying principles of Enkanomiya due to their powerful emotions, and their transgression has resulted in an afterimage being created."
+                                },
+                                {
+                                    "id": "721771128",
+                                    "speaker": "Aru",
+                                    "text": "They are what the Jibashiri call the Shades of Tokoyo. But bear in mind the principle that \"to know sin is to be free of it.\" Do not tell them that they are afterimages."
+                                },
+                                {
+                                    "id": "721771129",
+                                    "speaker": "Aru",
+                                    "text": "The other afterimages are not like me. The moment they realize that they are shadows of their former selves, they will dissipate.",
+                                    "choices": [
+                                        {
+                                            "id": "721771130",
+                                            "text": "We've seen someplace similar in Liyue.",
+                                            "response": [
+                                                {
+                                                    "id": "721771132",
+                                                    "speaker": "Aru",
+                                                    "text": "On the other hand, we people of Enkanomiya have gotten used to it by now. Well then, good luck to you."
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "721771131",
+                                            "text": "This place really is quite curious."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "721771113",
+                            "text": "..."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "7217756",
+            "objective": "Go into the ruins",
+            "dialogues": [
+                {
+                    "id": "721775601",
+                    "speaker": "Enjou",
+                    "text": "#Check you out, {NICKNAME}! You actually defeated these Bathysmal Vishaps all by yourself! Impressive, most impressive indeed!"
+                },
+                {
+                    "id": "721775602",
+                    "speaker": "Enjou",
+                    "text": "Can I touch them?"
+                },
+                {
+                    "id": "721775603",
+                    "speaker": "Paimon",
+                    "text": "Enjou? What are you doing here?"
+                },
+                {
+                    "id": "721775604",
+                    "speaker": "Enjou",
+                    "text": "Hah. Actually, I'm gonna touch 'em no matter what you say. These are the mortal foes of humanity, after all. This chance may never come again!"
+                },
+                {
+                    "id": "721775605",
+                    "speaker": "Enjou",
+                    "text": "Ah, oh yes, you must be wondering how I got here. Well, bear with me a moment. I need to think about where to start explaining."
+                },
+                {
+                    "id": "721775606",
+                    "speaker": "Enjou",
+                    "text": "Simply put, Enkanomiya is the netherworld of sinners, yes? I am one such sinner — one who has committed the sins of deception and betrayal."
+                },
+                {
+                    "id": "721775607",
+                    "speaker": "Paimon",
+                    "text": "Wait, wait, Paimon still doesn't get it... What are you trying to do, Enjou?"
+                },
+                {
+                    "id": "721775608",
+                    "speaker": "Enjou",
+                    "text": "I came here to search for a certain book. That book contains records of things that happened in Byakuyakoku before the Dainichi Mikoshi was constructed."
+                },
+                {
+                    "id": "721775609",
+                    "speaker": "Enjou",
+                    "text": "These chronicles are known to the people here as the times \"before Sun and Moon.\" Back then, no gods walked the earth, and the whole land belonged to a single civilization."
+                },
+                {
+                    "id": "721775610",
+                    "speaker": "Paimon",
+                    "text": "Was there ever really such a time? The bards claim that the times \"when gods walked the earth\" is the furthest back we go!"
+                },
+                {
+                    "id": "721775611",
+                    "speaker": "Enjou",
+                    "text": "Yes, that's precisely it. That's why I wanted to find this book. That way, we, the Abyss Order, would have proof. Proof that the gods and Celestia came from beyond this world."
+                },
+                {
+                    "id": "721775612",
+                    "speaker": "Enjou",
+                    "text": "The only thing I do know at the moment is that the Great Serpent was sentenced to death by Celestia for accidentally reading this book."
+                },
+                {
+                    "id": "721775613",
+                    "speaker": "Enjou",
+                    "text": "An entire nation was relocated, the door to the depths was sealed, and that nation was stirred up in an eastern expedition to cover this truth."
+                },
+                {
+                    "id": "721775614",
+                    "speaker": "Enjou",
+                    "text": "Yes, that was the grand ritual of sacrifice required for the people of Watatsumi to once again live like humans."
+                },
+                {
+                    "id": "721775615",
+                    "speaker": "Enjou",
+                    "text": "But as for this book... I searched for it in the library and the Dainichi Mikoshi, but I could not find it.",
+                    "choices": [
+                        {
+                            "id": "721775616",
+                            "text": "That's... too much information.",
+                            "response": [
+                                {
+                                    "id": "721775618",
+                                    "speaker": "Enjou",
+                                    "text": "Wait, I said this much, and that's all you have to say?"
+                                },
+                                {
+                                    "id": "721775619",
+                                    "speaker": "Enjou",
+                                    "text": "Not going to grit your teeth in anger, or just dispense with that and smack me in the face?"
+                                },
+                                {
+                                    "id": "721775620",
+                                    "speaker": "Paimon",
+                                    "text": "...Do you seriously want to get beaten up that badly?"
+                                },
+                                {
+                                    "id": "721775621",
+                                    "speaker": "Enjou",
+                                    "text": "But actually, I don't think I did anything THAT bad. I didn't technically lie to you — I am a clerical staff member sent to help you... I just never said that I was sent by Sangonomiya."
+                                },
+                                {
+                                    "id": "721775622",
+                                    "speaker": "Enjou",
+                                    "text": "I was indeed translating literature here, but you know, it had nothing to do with the trial. I am a bookish character, and hey — did I or did I not transform into a fire-flinging monster!?"
+                                },
+                                {
+                                    "id": "721775623",
+                                    "speaker": "Enjou",
+                                    "text": "...I believe that you refer to our exegetes as \"Lectors,\" yes?"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "721775617",
+                            "text": "So you tricked us, then?"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "7217704",
+            "objective": "Talk to the person on the second floor",
+            "dialogues": [
+                {
+                    "id": "721770101",
+                    "speaker": "???",
+                    "text": "Uh-oh! Trying to trespass, are we...?"
+                },
+                {
+                    "id": "721770102",
+                    "speaker": "???",
+                    "text": "...Wait, maybe not. I correct myself. You two must be the heroes who have come to retrieve the coral this time, are you not?"
+                },
+                {
+                    "id": "721770103",
+                    "speaker": "Paimon",
+                    "text": "\"Two?\" Hehe, so you're counting Paimon too?"
+                },
+                {
+                    "id": "721770104",
+                    "speaker": "???",
+                    "text": "Haha. Well, I was originally thinking that \"Sangonomiya Shrine couldn't possibly be so shorthanded that they're only sending one person, right?\""
+                },
+                {
+                    "id": "721770105",
+                    "speaker": "???",
+                    "text": "So consider my expectations exceeded. There's actually two of you.",
+                    "choices": [
+                        {
+                            "id": "721770106",
+                            "text": "Oh, I know my way around a fight.",
+                            "response": [
+                                {
+                                    "id": "721770108",
+                                    "speaker": "???",
+                                    "text": "Haha! I love your gusto and optimism! Good stuff!"
+                                },
+                                {
+                                    "id": "721770109",
+                                    "speaker": "???",
+                                    "text": "I hope that by the end of this, you'll count me in the team as well. I'm sure the three of us will get on swimmingly!"
+                                },
+                                {
+                                    "id": "721770110",
+                                    "speaker": "???",
+                                    "text": "Let me introduce myself: I'm a researcher who has come to assist you. Call me Enjou."
+                                },
+                                {
+                                    "id": "721770111",
+                                    "speaker": "Enjou",
+                                    "text": "My main duty is to organize and translate clues regarding the trial to guide you on your path."
+                                },
+                                {
+                                    "id": "721770112",
+                                    "speaker": "Paimon",
+                                    "text": "Ooh, that's nice. We've always had to rely on our own memory to figure the puzzles we encountered elsewhere."
+                                },
+                                {
+                                    "id": "721770113",
+                                    "speaker": "Enjou",
+                                    "text": "Wow! You know what? You might actually be more professional than me, then! I mean, I'm just a scholar."
+                                },
+                                {
+                                    "id": "721770114",
+                                    "speaker": "Player",
+                                    "text": "But Tsuyuko said..."
+                                },
+                                {
+                                    "id": "721770115",
+                                    "speaker": "Enjou",
+                                    "text": "Tsuyuko... Right. Her. Didn't she say that there would be some clerical staff on hand to assist the hero?"
+                                },
+                                {
+                                    "id": "721770116",
+                                    "speaker": "Paimon",
+                                    "text": "She did say something like that..."
+                                },
+                                {
+                                    "id": "721770117",
+                                    "speaker": "Enjou",
+                                    "text": "Exactomundo. I mean, it would be quite a stretch to expect you to learn Byakuyakoku's script from scratch."
+                                },
+                                {
+                                    "id": "721770118",
+                                    "speaker": "Enjou",
+                                    "text": "And that's where I come in! I'm here to help translate documents and hints. Any questions for me?"
+                                },
+                                {
+                                    "id": "721770119",
+                                    "speaker": "Player",
+                                    "text": "What do you know about that central tower?"
+                                },
+                                {
+                                    "id": "721770120",
+                                    "speaker": "Enjou",
+                                    "text": "That's the heart of the trial, a building known as Dainichi Mikoshi — which also means \"chariot of the sun.\""
+                                },
+                                {
+                                    "id": "721770121",
+                                    "speaker": "Enjou",
+                                    "text": "I believe that it should be defended by a barrier right now. Its original purpose was to protect the citizens, but at present, we cannot enter unless it is disabled."
+                                },
+                                {
+                                    "id": "721770122",
+                                    "speaker": "Enjou",
+                                    "text": "Now I can see the questions bubbling up in your face already, so let me just explain how we're going to break this barrier."
+                                },
+                                {
+                                    "id": "721770123",
+                                    "speaker": "Enjou",
+                                    "text": "First, you'll need to find something known as the \"Golden Bridle.\" According to related literature, it's a device that is less than an armful in size."
+                                },
+                                {
+                                    "id": "721770124",
+                                    "speaker": "Paimon",
+                                    "text": "Oh, so it's not a rope?"
+                                },
+                                {
+                                    "id": "721770125",
+                                    "speaker": "Enjou",
+                                    "text": "The name is simply derived from one of Byakuyakoku's legends. They say that the sun and the moon were moved by the chariots of the gods."
+                                },
+                                {
+                                    "id": "721770126",
+                                    "speaker": "Enjou",
+                                    "text": "And the Golden Bridle was Byakuyakoku's national treasure.",
+                                    "choices": [
+                                        {
+                                            "id": "721770127",
+                                            "text": "Byakuyakoku's...",
+                                            "response": [
+                                                {
+                                                    "id": "721770129",
+                                                    "speaker": "Enjou",
+                                                    "text": "That's right, Byakuyakoku. That's the real name of this place. A nether realm without light. Byakuyakoku — the place where sins piled high in the ever-{RUBY#[S]Tokoyo}night, only to be cleansed, revealing their true colors."
+                                                },
+                                                {
+                                                    "id": "721770130",
+                                                    "speaker": "Enjou",
+                                                    "text": "...But back to the trial. The people of Byakuyakoku were saved by the Great Serpent, and thus re-attained the light of heaven. They all moved above the depths."
+                                                },
+                                                {
+                                                    "id": "721770131",
+                                                    "speaker": "Enjou",
+                                                    "text": "Just so you know, that's what my name means. \"Above the depths.\""
+                                                },
+                                                {
+                                                    "id": "721770132",
+                                                    "speaker": "Player",
+                                                    "text": "Hahaha..."
+                                                },
+                                                {
+                                                    "id": "721770133",
+                                                    "speaker": "Enjou",
+                                                    "text": "Anyway, the people of Watatsumi archived Byakuyakoku's facilities after leaving that place. As for this place, this is one of those very facilities — the library of Byakuyakoku."
+                                                },
+                                                {
+                                                    "id": "721770134",
+                                                    "speaker": "Enjou",
+                                                    "text": "To facilitate future trials, the Golden Bridle was moved closer by. To the back of the library, to be exact."
+                                                },
+                                                {
+                                                    "id": "721770135",
+                                                    "speaker": "Enjou",
+                                                    "text": "So, finding this Golden Bridle is the first part of the trial. Well, that's what the trial guidebook in the library says, anyway."
+                                                },
+                                                {
+                                                    "id": "721770136",
+                                                    "speaker": "Player",
+                                                    "text": "How did you get here earlier than us?"
+                                                },
+                                                {
+                                                    "id": "721770137",
+                                                    "speaker": "Enjou",
+                                                    "text": "Oh, that? You're the heroes. Yours is the rough, narrow road up to the front gate of the trial. As for us support staff... We have our own side routes and back doors."
+                                                },
+                                                {
+                                                    "id": "721770138",
+                                                    "speaker": "Enjou",
+                                                    "text": "Anyone of a more plebeian persuasion who manages to sneak in isn't gonna get very far... Without the Key of the Moon-Bathed Deep to open the gate, the trial and its contents will not activate."
+                                                },
+                                                {
+                                                    "id": "721770139",
+                                                    "speaker": "Enjou",
+                                                    "text": "Plus, it's not as if ordinary people would understand Byakuyakoku's script, anyway. They wouldn't be able to figure the clues out."
+                                                },
+                                                {
+                                                    "id": "721770140",
+                                                    "speaker": "Enjou",
+                                                    "text": "Without the Golden Bridle, there is no entering Enkanomiya and probing the secrets of its eternal night."
+                                                },
+                                                {
+                                                    "id": "721770141",
+                                                    "speaker": "Enjou",
+                                                    "text": "If you really don't trust me, you're free to rough me up a bit. But, ah, don't drag me back to the surface afterwards, thanks."
+                                                },
+                                                {
+                                                    "id": "721770142",
+                                                    "speaker": "Enjou",
+                                                    "text": "As you can see, I'm just a scholar with a thirst for knowledge, and with a certain tome that he must find in Byakuyakoku."
+                                                },
+                                                {
+                                                    "id": "721770143",
+                                                    "speaker": "Paimon",
+                                                    "text": "Well, he's said this much, and it certainly doesn't look like he's trying to trick us."
+                                                },
+                                                {
+                                                    "id": "721770144",
+                                                    "speaker": "Paimon",
+                                                    "text": "#Paimon thinks we can trust him for a while, {NICKNAME}."
+                                                },
+                                                {
+                                                    "id": "721770145",
+                                                    "speaker": "Enjou",
+                                                    "text": "Haha, thanks for the token of faith. Well, I've covered the basics of the trial with you. Off you get then. This Golden Bridle isn't going to find itself!"
+                                                },
+                                                {
+                                                    "id": "721770146",
+                                                    "speaker": "Enjou",
+                                                    "text": "Oh, one other thing — I believe that this picture behind me matches Enkanomiya's topography. I suggest you study it carefully before heading out."
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "721770128",
+                                            "text": "...National treasure?"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "721770107",
+                            "text": "Two is plenty."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "7217706",
+            "objective": "Go to the back of the library and seek out the Golden Bridle",
+            "dialogues": [
+                {
+                    "id": "721770601",
+                    "speaker": "Paimon",
+                    "text": "Hey! It's the Abyss Order. Are these the \"scurrying rats\" that Tsuyuko was referring to?"
+                }
+            ]
+        },
+        {
+            "id": "7217738",
+            "objective": "Investigate the rear of the library and solve the puzzle",
+            "dialogues": []
+        },
+        {
+            "id": "7217739",
+            "objective": "Obtain the Golden Bridle",
+            "dialogues": []
+        },
+        {
+            "id": "7217707",
+            "objective": "Go to the library and talk to Enjou",
+            "dialogues": [
+                {
+                    "id": "721770401",
+                    "speaker": "Enjou",
+                    "text": "Have you made any progress looking for the Golden Bridle?"
+                },
+                {
+                    "id": "721770402",
+                    "speaker": "Player",
+                    "text": "Is this what you're looking for?"
+                },
+                {
+                    "id": "721770403",
+                    "speaker": "Enjou",
+                    "text": "Ah yes, that's the one! Why, isn't this a coincidence?"
+                },
+                {
+                    "id": "721770404",
+                    "speaker": "Enjou",
+                    "text": "The book says that the craftsman \"Aberaku n{RUBY#[S]Abrax}o Mikoto\" was ordered to create the chariot of the sun to finally bring light to the everlasting night."
+                },
+                {
+                    "id": "721770405",
+                    "speaker": "Enjou",
+                    "text": "Before this, the people lived in a constant state of fear, for it was the great hunters in the dark — the Bathysmal Vishaps — who were the original rulers of this land."
+                },
+                {
+                    "id": "721770406",
+                    "speaker": "Player",
+                    "text": "The Bathysmal Vishaps?"
+                },
+                {
+                    "id": "721770407",
+                    "speaker": "Enjou",
+                    "text": "Yes. Pure, primordial elemental creatures, wild spirits who never bent the knee to any god or worldly power."
+                },
+                {
+                    "id": "721770408",
+                    "speaker": "Enjou",
+                    "text": "I believe that the traditional Sangonomiya tale, \"The Clash of the Drakes and the Serpent,\" also refers to a Bathysmal Vishap as a Dragonheir of the Depths."
+                },
+                {
+                    "id": "721770409",
+                    "speaker": "Enjou",
+                    "text": "At first, people would light lamps to chase the dark away, but to little effect. But when the Dainichi Mikoshi was created, the White Night chased the darkness of the Ever-Night away. Thus did the people gain a reprieve with which to live their lives."
+                },
+                {
+                    "id": "721770410",
+                    "speaker": "Enjou",
+                    "text": "The Dainichi Mikoshi could even be used to put forth a barrier to protect the people of Byakuyakoku. With this, we should be able to bring the barrier down."
+                },
+                {
+                    "id": "721770411",
+                    "speaker": "Enjou",
+                    "text": "Let me help you activate it. According to what the book says, I need to do this, then this... and then this. Okay! That should do it!"
+                },
+                {
+                    "id": "721770412",
+                    "speaker": "Enjou",
+                    "text": "The Golden Bridle's ready. Commanding the Dainichi Mikoshi to drop the barrier should be peanuts now!"
+                },
+                {
+                    "id": "721770413",
+                    "speaker": "Enjou",
+                    "text": "But we should probably perform such portentous deeds at the outermost gates of the Dainichi Mikoshi, wouldn't you say?"
+                },
+                {
+                    "id": "721770414",
+                    "speaker": "Enjou",
+                    "text": "The main gate should be on the southeastern section of the area it occupies. Just circle the barrier a bit till you find it."
+                },
+                {
+                    "id": "721770415",
+                    "speaker": "Black Screen",
+                    "text": "Enjou goes into detail about where the meeting place is.\\n...Without really caring if you can understand him or not."
+                },
+                {
+                    "id": "721770416",
+                    "speaker": "Enjou",
+                    "text": "Enkanomiya is surrounded by bottomless chasms. If you fall, you could count to a hundred without ever hitting the bottom, so please, please watch your step."
+                },
+                {
+                    "id": "721770417",
+                    "speaker": "Enjou",
+                    "text": "In any case, if you can't find the place, just circle around the barrier a bit. You'll get there eventually."
+                },
+                {
+                    "id": "721770418",
+                    "speaker": "Enjou",
+                    "text": "I'm almost done with my own investigations here. I haven't found what I'm looking for, though, so I'll go on ahead to wait for you."
+                }
+            ]
+        },
+        {
+            "id": "7217721",
+            "objective": "",
+            "dialogues": [
+                {
+                    "id": "721772101",
+                    "speaker": "Enjou",
+                    "text": "Byakuyakoku has a tradition of triangle worship."
+                },
+                {
+                    "id": "721772102",
+                    "speaker": "Enjou",
+                    "text": "They believed that Byakuyakoku was the intersection between three realms: the Vishap Realm, the Human Realm, and the Void Realm."
+                },
+                {
+                    "id": "721772103",
+                    "speaker": "Enjou",
+                    "text": "The three trial sites on the border were originally watch-posts against the Vishaps, and they were also a spiritual junction for the three powers that flowed through Enkanomiya."
+                },
+                {
+                    "id": "721772104",
+                    "speaker": "Enjou",
+                    "text": "In that triangular formation of nature, there was an opposition between the abyssal Void Realm and the elemental Vishap Realm."
+                },
+                {
+                    "id": "721772105",
+                    "speaker": "Enjou",
+                    "text": "Humans would create high towers in later years to allow the Human Realm to interpose itself between the two, thus creating a stable space — one held up by three towers in three corners."
+                }
+            ]
+        },
+        {
+            "id": "7217751",
+            "objective": "Follow Enjou's instructions and explore up ahead",
+            "dialogues": []
+        },
+        {
+            "id": "7217752",
+            "objective": "Follow Enjou's instructions and explore up ahead",
+            "dialogues": []
+        },
+        {
+            "id": "7217753",
+            "objective": "Follow Enjou's instructions and explore up ahead",
+            "dialogues": []
+        },
+        {
+            "id": "7217754",
+            "objective": "Go to the broken bridge in front of the Dainichi Mikoshi",
+            "dialogues": []
+        },
+        {
+            "id": "7217709",
+            "objective": "Talk to Enjou",
+            "dialogues": [
+                {
+                    "id": "721770801",
+                    "speaker": "Enjou",
+                    "text": "Ah, you're here. Allow me to help you shut the barrier down. Could you pass me the Golden Bridle?"
+                },
+                {
+                    "id": "721770802",
+                    "speaker": "Player",
+                    "text": "(I suddenly have some reservations...)"
+                },
+                {
+                    "id": "721770803",
+                    "speaker": "Enjou",
+                    "text": "Huh? Still suspicious of me?"
+                },
+                {
+                    "id": "721770804",
+                    "speaker": "Paimon",
+                    "text": "Well, Enjou, don't you think you're a bit too quick on your feet?"
+                },
+                {
+                    "id": "721770805",
+                    "speaker": "Enjou",
+                    "text": "Oh, come now, that's hurtful talk, though I suppose that the sight of a literary researcher bouncing about the place happily is a rare one."
+                },
+                {
+                    "id": "721770806",
+                    "speaker": "Enjou",
+                    "text": "But come now, I didn't deceive you earlier, did I?"
+                },
+                {
+                    "id": "721770807",
+                    "speaker": "Paimon",
+                    "text": "Well, that's true. We couldn't have found the Golden Bridle without your help."
+                },
+                {
+                    "id": "721770808",
+                    "speaker": "Enjou",
+                    "text": "I mean, this will definitely sound like villain-talk, but: Aha, only I can help you now!"
+                },
+                {
+                    "id": "721770809",
+                    "speaker": "Enjou",
+                    "text": "You can hold me at sword-point, or hit me to make up for the time you didn't earlier."
+                },
+                {
+                    "id": "721770810",
+                    "speaker": "Enjou",
+                    "text": "But once you're done with that, I'd like you to trust me. If you don't, none of us are going to enter the Dainichi Mikoshi."
+                },
+                {
+                    "id": "721770811",
+                    "speaker": "Paimon",
+                    "text": "...Are you the type who enjoys getting beaten up or something?"
+                },
+                {
+                    "id": "721770812",
+                    "speaker": "Paimon",
+                    "text": "#Not that Paimon's going to do that! What do you think, {NICKNAME}?",
+                    "choices": [
+                        {
+                            "id": "721770813",
+                            "text": "(Hang on, I'm rolling my sleeves up.)",
+                            "response": [
+                                {
+                                    "id": "721770814",
+                                    "speaker": "Enjou",
+                                    "text": "Err... W—Wait just a moment there. Y—You're joking, right? I've got a glass jaw!"
+                                },
+                                {
+                                    "id": "721770815",
+                                    "speaker": "Paimon",
+                                    "text": "#Okay, okay, stop scaring him already. Just give him the Bridle, {NICKNAME}."
+                                },
+                                {
+                                    "id": "721770816",
+                                    "speaker": "Enjou",
+                                    "text": "Okay then. Now, allow me to help you bring this barrier down. Please step back a bit."
+                                },
+                                {
+                                    "id": "721770817",
+                                    "speaker": "Enjou",
+                                    "text": "This is my first time, after all. Things, uh, could go poorly. You never know."
+                                },
+                                {
+                                    "id": "721770818",
+                                    "speaker": "Paimon",
+                                    "text": "What could happen?"
+                                },
+                                {
+                                    "id": "721770819",
+                                    "speaker": "Enjou",
+                                    "text": "For example, the blast could send you tumbling into a bottomless chasm. Or the fetid air might make it hard to breathe. Or maybe some giant guardian dragon might come charging out..."
+                                },
+                                {
+                                    "id": "721770820",
+                                    "speaker": "Enjou",
+                                    "text": "Or I might even get cursed and turn into some sort of flame-flinging monster."
+                                },
+                                {
+                                    "id": "721770821",
+                                    "speaker": "Paimon",
+                                    "text": "Uh... That's kinda scary."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "721770822",
+                            "text": "(Hand the Golden Bridle over.)",
+                            "response": [
+                                {
+                                    "id": "721770823",
+                                    "speaker": "Enjou",
+                                    "text": "Okay then. Now, allow me to help you bring this barrier down. Please step back a bit."
+                                },
+                                {
+                                    "id": "721770824",
+                                    "speaker": "Enjou",
+                                    "text": "This is my first time, after all. Things, uh, could go poorly. You never know."
+                                },
+                                {
+                                    "id": "721770825",
+                                    "speaker": "Paimon",
+                                    "text": "What could \"go poorly\"?"
+                                },
+                                {
+                                    "id": "721770826",
+                                    "speaker": "Enjou",
+                                    "text": "For example, the blast could send you tumbling into a bottomless chasm. Or the fetid air might make it hard to breathe. Or maybe some giant guardian dragon might come charging out..."
+                                },
+                                {
+                                    "id": "721770827",
+                                    "speaker": "Enjou",
+                                    "text": "Or I might even get cursed and turn into some sort of flame-flinging monster."
+                                },
+                                {
+                                    "id": "721770828",
+                                    "speaker": "Paimon",
+                                    "text": "Uh... That's kinda scary."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "7217712",
+            "objective": "",
+            "dialogues": [
+                {
+                    "id": "721771201",
+                    "speaker": "Enjou",
+                    "text": "Have you found all the fragments?"
+                },
+                {
+                    "id": "721771202",
+                    "speaker": "Enjou",
+                    "text": "See? I told you! We're the unbeatable trio!"
+                },
+                {
+                    "id": "721771203",
+                    "speaker": "Enjou",
+                    "text": "Quick, go give them to Aru. Once you can see all the afterimages in Enkanomiya, you should be able to discover still more secrets."
+                }
+            ]
+        },
+        {
+            "id": "7217714",
+            "objective": "Talk to Enjou",
+            "dialogues": [
+                {
+                    "id": "721770701",
+                    "speaker": "Enjou",
+                    "text": "Ah, I gotta say, opening ancient ruins for the first time in my life feels pretty exciting!"
+                },
+                {
+                    "id": "721770702",
+                    "speaker": "Enjou",
+                    "text": "Watching that huge wall disappear really gives you that kind of rush you get from burning a huge library, you know?"
+                },
+                {
+                    "id": "721770703",
+                    "speaker": "Paimon",
+                    "text": "Huh? That sounds really dangerous. You sure you're a researcher?"
+                },
+                {
+                    "id": "721770704",
+                    "speaker": "Enjou",
+                    "text": "Of course! I already can't wait to investigate the insides of the Dainichi Mikoshi. What long-lost volumes will we uncover there?"
+                },
+                {
+                    "id": "721770705",
+                    "speaker": "Enjou",
+                    "text": "Well, allow me to go ahead first. If you find any tempting treasures, you're free to take them."
+                }
+            ]
+        },
+        {
+            "id": "7217713",
+            "objective": "Go to the Dainichi Mikoshi",
+            "dialogues": [
+                {
+                    "id": "721771301",
+                    "speaker": "Aru",
+                    "text": "Have you found all the fragments?"
+                }
+            ]
+        },
+        {
+            "id": "7217715",
+            "objective": "Investigate the mechanism",
+            "dialogues": [
+                {
+                    "id": "721771501",
+                    "speaker": "Paimon",
+                    "text": "There's someone upstairs!"
+                }
+            ]
+        },
+        {
+            "id": "7217716",
+            "objective": "Talk to Aru",
+            "dialogues": [
+                {
+                    "id": "721770901",
+                    "speaker": "Enjou",
+                    "text": "Aaahh!! Ghost! I—It's a ghost!"
+                },
+                {
+                    "id": "721770902",
+                    "speaker": "Paimon",
+                    "text": "Eeeek!"
+                },
+                {
+                    "id": "721770903",
+                    "speaker": "Paimon",
+                    "text": "C'mon, Enjou! You scared Paimon more than this ghostly guy over here!"
+                },
+                {
+                    "id": "721770904",
+                    "speaker": "Enjou",
+                    "text": "*cough* I, uh, sorry. I—I'm fine now. Mostly."
+                },
+                {
+                    "id": "721770905",
+                    "speaker": "Enjou",
+                    "text": "B—Byakuyakoku, due to its properties as a nether realm... sometimes projects shadows of the past based on remnant thoughts."
+                },
+                {
+                    "id": "721770906",
+                    "speaker": "Enjou",
+                    "text": "Though their stories have already ended, who they were at that moment is captured and retained. They can even interact with you."
+                },
+                {
+                    "id": "721770907",
+                    "speaker": "Enjou",
+                    "text": "Such powerful emotions are called the \"Sins of Tokoyo.\"",
+                    "choices": [
+                        {
+                            "id": "721770908",
+                            "text": "\"Powerful emotions\"...",
+                            "response": [
+                                {
+                                    "id": "721770910",
+                                    "speaker": "Enjou",
+                                    "text": "Thus, these unique ley line phenomena are known as \"Sinshades\" or \"Shades of Tokoyo.\""
+                                },
+                                {
+                                    "id": "721770911",
+                                    "speaker": "???",
+                                    "text": "...So, my current form will be visible to future heroes as well, then?"
+                                },
+                                {
+                                    "id": "721770912",
+                                    "speaker": "???",
+                                    "text": "That's good to know. Guess I don't have to be nervous after all, huh? The future me is going to act based on current me's memories."
+                                },
+                                {
+                                    "id": "721770913",
+                                    "speaker": "???",
+                                    "text": "...Still nervous, though."
+                                },
+                                {
+                                    "id": "721770914",
+                                    "speaker": "Enjou",
+                                    "text": "What in the world... It's talking!"
+                                },
+                                {
+                                    "id": "721770915",
+                                    "speaker": "???",
+                                    "text": "Ah. Seems like our heroes have arrived. Hello there. My Watatsumi name is Aru, and my original Byakuyakoku name is Argos."
+                                },
+                                {
+                                    "id": "721770916",
+                                    "speaker": "Aru",
+                                    "text": "I'm in charge of explaining the next step of the trial, which is to restore the \"Reins of Revival\" and display your royal right over this land."
+                                },
+                                {
+                                    "id": "721770917",
+                                    "speaker": "Aru",
+                                    "text": "The Reins of Revival are a national treasure that can be used to command the spirits of the nether to speak, and they are made of the same material as the Dainichi Mikoshi."
+                                },
+                                {
+                                    "id": "721770918",
+                                    "speaker": "Aru",
+                                    "text": "The Reins must be pieced together with the Golden Bridle as their core. As such, you need to find three other fragments."
+                                },
+                                {
+                                    "id": "721770919",
+                                    "speaker": "Aru",
+                                    "text": "Ah, and if you have any other questions, feel free to ask. I believe that my leftover spiritual essence should be able to answer your questions."
+                                },
+                                {
+                                    "id": "721770920",
+                                    "speaker": "Player",
+                                    "text": "Do you like eating Butter Crab?"
+                                },
+                                {
+                                    "id": "721770921",
+                                    "speaker": "Aru",
+                                    "text": "Wh—What is that..."
+                                },
+                                {
+                                    "id": "721770922",
+                                    "speaker": "Paimon",
+                                    "text": "Then do you like some fresh fish sashimi?"
+                                },
+                                {
+                                    "id": "721770923",
+                                    "speaker": "Aru",
+                                    "text": "Huh, that reminds me. Recently, Watatsumi Omikami has raised land for us above the sea's surface, so we should be able to start shallow sea fishing. The variety of edible fish should also increase."
+                                },
+                                {
+                                    "id": "721770924",
+                                    "speaker": "Aru",
+                                    "text": "...But yes, back on topic. The three fragments have been hidden in three key locations around the Dainichi Mikoshi. These would be The Narrows, the Evernight Temple, and the Serpent's Heart."
+                                },
+                                {
+                                    "id": "721770925",
+                                    "speaker": "Aru",
+                                    "text": "And when I say \"hidden,\" I do mean hidden. The officials in charge of setting the trial up are very capable indeed."
+                                },
+                                {
+                                    "id": "721770926",
+                                    "speaker": "Player",
+                                    "text": "No problem. We've faced loads of tricky puzzles before..."
+                                },
+                                {
+                                    "id": "721770927",
+                                    "speaker": "Aru",
+                                    "text": "If you see the altar at the Serpent's Heart, you may want to search that place thoroughly for clues. A Jibashiri spent all day setting them up."
+                                },
+                                {
+                                    "id": "721770928",
+                                    "speaker": "Paimon",
+                                    "text": "Jibashiri?"
+                                },
+                                {
+                                    "id": "721770929",
+                                    "speaker": "Enjou",
+                                    "text": "The special officer corps Chthonios, the armed judges of the nether in Byakuyakoku. That's who the \"Jibashiri\" are."
+                                },
+                                {
+                                    "id": "721770930",
+                                    "speaker": "Enjou",
+                                    "text": "They possessed tokens made out of a special material that could cause the souls of Byakuyakoku to reveal themselves."
+                                },
+                                {
+                                    "id": "721770931",
+                                    "speaker": "Paimon",
+                                    "text": "That... doesn't sound like an Inazuman name at all."
+                                },
+                                {
+                                    "id": "721770932",
+                                    "speaker": "Enjou",
+                                    "text": "Well, Watatsumi Island was a product of the Archon War. Before that..."
+                                },
+                                {
+                                    "id": "721770933",
+                                    "speaker": "Enjou",
+                                    "text": "Byakuyakoku's histories are filled with names like Abrax, Spartacus, Chthonios, Gigantus, and such."
+                                },
+                                {
+                                    "id": "721770934",
+                                    "speaker": "Enjou",
+                                    "text": "Hmm. So is this human culture where the divine envoys do not interfere too much..."
+                                },
+                                {
+                                    "id": "721770935",
+                                    "speaker": "Paimon",
+                                    "text": "Huh? What did you say?"
+                                },
+                                {
+                                    "id": "721770936",
+                                    "speaker": "Enjou",
+                                    "text": "Ah, er, nothing. Just the bad habit of a bookworm. Keep listening to Argos."
+                                },
+                                {
+                                    "id": "721770937",
+                                    "speaker": "Aru",
+                                    "text": "Ah, yes. Now that the Evernight has arrived, all of Enkanomiya will show you a different side of itself. You should meet various afterimages along your path."
+                                },
+                                {
+                                    "id": "721770938",
+                                    "speaker": "Aru",
+                                    "text": "But they are not quite the same as this ritual afterimage of mine. These people have been chosen by the undying principles of Enkanomiya due to their powerful emotions, and their transgression has resulted in an afterimage being created."
+                                },
+                                {
+                                    "id": "721770939",
+                                    "speaker": "Aru",
+                                    "text": "They are what the Jibashiri call the Shades of Tokoyo. But bear in mind the principle that \"to know sin is to be free of it.\" Do not tell them that they are afterimages."
+                                },
+                                {
+                                    "id": "721770940",
+                                    "speaker": "Aru",
+                                    "text": "The other afterimages are not like me. The moment they realize that they are shadows of their former selves, they will dissipate.",
+                                    "choices": [
+                                        {
+                                            "id": "721770941",
+                                            "text": "We've seen someplace similar in Liyue.",
+                                            "response": [
+                                                {
+                                                    "id": "721770943",
+                                                    "speaker": "Aru",
+                                                    "text": "On the other hand, we people of Enkanomiya have gotten used to it by now. Well then, good luck to you."
+                                                },
+                                                {
+                                                    "id": "721770944",
+                                                    "speaker": "Aru",
+                                                    "text": "Well, I'll be waiting here for good news from you."
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "721770942",
+                                            "text": "This place really is quite curious."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "721770909",
+                            "text": "\"Sins\"..."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "7217717",
+            "objective": "Gather the three fragments",
+            "dialogues": []
+        },
+        {
+            "id": "7217718",
+            "objective": "Gather the three fragments",
+            "dialogues": [
+                {
+                    "id": "721771801",
+                    "speaker": "Aru",
+                    "text": "Is there anything I can help you with?",
+                    "choices": [
+                        {
+                            "id": "721771802",
+                            "text": "About the fragment at the Evernight Temple...",
+                            "response": [
+                                {
+                                    "id": "721771803",
+                                    "speaker": "Aru",
+                                    "text": "The fragment is said to have been hidden in a secret part of the Temple. Its gates will only open at night."
+                                },
+                                {
+                                    "id": "721771804",
+                                    "speaker": "Aru",
+                                    "text": "The fragment contains the power of the \"Serpent-Seeker Rule,\" which will attract Vishaps."
+                                },
+                                {
+                                    "id": "721771805",
+                                    "speaker": "Aru",
+                                    "text": "As such, you can follow their trail to find the fragment. But there will be monsters remaining there and standing guard, so it is best to be careful."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "721771806",
+                            "text": "Tell me about the fragment at the Serpent's Heart...",
+                            "response": [
+                                {
+                                    "id": "721771807",
+                                    "speaker": "Aru",
+                                    "text": "The Serpent's Heart is home to an altar that is considered the heart of the Cosmic Serpent. Before the coming of Watatsumi Omikami, we called this place The Heart of Ouroboros."
+                                },
+                                {
+                                    "id": "721771808",
+                                    "speaker": "Aru",
+                                    "text": "It is, in essence, a sealing device for storing important objects. Using a phenomenon unique to Enkanomiya known as the Sunfire Phantasms, we added another dimension of possibilities to that device."
+                                },
+                                {
+                                    "id": "721771809",
+                                    "speaker": "Aru",
+                                    "text": "As such, that place was already known as Delphi, the Serpent's Land, even before the coming of Watatsumi Omikami."
+                                },
+                                {
+                                    "id": "721771810",
+                                    "speaker": "Aru",
+                                    "text": "The proper entry procedures must be followed in strict order to retrieve the corresponding objects from their locations. As such, this place can also be used to imprison criminals."
+                                },
+                                {
+                                    "id": "721771811",
+                                    "speaker": "Aru",
+                                    "text": "The codes have been scattered throughout Enkanomiya. If you find them, some other rewards may yet await."
+                                },
+                                {
+                                    "id": "721771812",
+                                    "speaker": "Aru",
+                                    "text": "One of the fragments is within the altar. As for any secret messages regarding it, they should be found near the altar — it took a real scolding from Lady Eboshi before those were added in, too."
+                                },
+                                {
+                                    "id": "721771813",
+                                    "speaker": "Aru",
+                                    "text": "By the way, when you are out searching for clues, watch out for Enkanomiya's Whitenight and Evernight states."
+                                },
+                                {
+                                    "id": "721771814",
+                                    "speaker": "Aru",
+                                    "text": "There is also a type of ley line phenomenon here known as Sunfire Phantasms. As the land phases between Whitenight and Evernight, energy will gather and disperse. This can cause objects to be hidden or become visible."
+                                },
+                                {
+                                    "id": "721771815",
+                                    "speaker": "Aru",
+                                    "text": "If you cannot find clues but discover certain irregularities, try switching between day and night."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "721771816",
+                            "text": "As for the fragment at the Narrows...",
+                            "response": [
+                                {
+                                    "id": "721771817",
+                                    "speaker": "Aru",
+                                    "text": "The ruins of the Narrows contains a hidden chamber. Its exact position is yours to discover alone."
+                                },
+                                {
+                                    "id": "721771818",
+                                    "speaker": "Aru",
+                                    "text": "The entrance to the chamber has been concealed by a Sunfire Phantasm. It can only be revealed by switching between Whitenight and Evernight."
+                                },
+                                {
+                                    "id": "721771819",
+                                    "speaker": "Aru",
+                                    "text": "In later days, we would come to grasp the phenomenon known as the Sunfire Phantasms and use them to conceal secrets."
+                                },
+                                {
+                                    "id": "721771820",
+                                    "speaker": "Aru",
+                                    "text": "Matters related to the trial are of utmost secrecy, so please, simply rely on your observational skills and the changes between night and day to explore on your own."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "721771821",
+                            "text": "I've got nothing else to ask...",
+                            "response": [
+                                {
+                                    "id": "721771822",
+                                    "speaker": "Aru",
+                                    "text": "Understood. If you require help, feel free to seek me out at any time — though I fear that I can only answer specific questions you may have in my current state..."
+                                },
+                                {
+                                    "id": "721771823",
+                                    "speaker": "Aru",
+                                    "text": "Good luck."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "7217719",
+            "objective": "Gather the three fragments",
+            "dialogues": [
+                {
+                    "id": "721771901",
+                    "speaker": "Enjou",
+                    "text": "These afterimages really are interesting...",
+                    "choices": [
+                        {
+                            "id": "721771902",
+                            "text": "About the movement of the sun and moon here...",
+                            "response": [
+                                {
+                                    "id": "721771903",
+                                    "speaker": "Enjou",
+                                    "text": "Well, we are underground, so there is no sun here. That is why the people here created this lighthouse."
+                                },
+                                {
+                                    "id": "721771904",
+                                    "speaker": "Enjou",
+                                    "text": "Through this and perhaps other devices as well, the rulers of Byakuyakoku could adjust a solar and lunar cycle, thus alternating between Whitenight and Evernight."
+                                },
+                                {
+                                    "id": "721771905",
+                                    "speaker": "Enjou",
+                                    "text": "In ancient times, the Dainichi Mikoshi's name was \"Hyperion,\" which refers to the main body of the sun in the ancient tongue."
+                                },
+                                {
+                                    "id": "721771906",
+                                    "speaker": "Enjou",
+                                    "text": "I can understand their sentiments. Everything must have been hard, living in a realm bereft of the sun."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "721771907",
+                            "text": "Is there anything else you know about Byakuyakoku?",
+                            "response": [
+                                {
+                                    "id": "721771908",
+                                    "speaker": "Enjou",
+                                    "text": "Byakuyakoku has a tradition of triangle worship."
+                                },
+                                {
+                                    "id": "721771909",
+                                    "speaker": "Enjou",
+                                    "text": "They believed that Byakuyakoku was the intersection between three realms: the Vishap Realm, the Human Realm, and the Void Realm."
+                                },
+                                {
+                                    "id": "721771910",
+                                    "speaker": "Enjou",
+                                    "text": "The three trial sites on the border were originally watch-posts against the Vishaps, and they were also a spiritual junction for the three powers that flowed through Enkanomiya."
+                                },
+                                {
+                                    "id": "721771911",
+                                    "speaker": "Enjou",
+                                    "text": "In that triangular formation of nature, there was an opposition between the abyssal Void Realm and the elemental Vishap Realm."
+                                },
+                                {
+                                    "id": "721771912",
+                                    "speaker": "Enjou",
+                                    "text": "Humans would create high towers in later years to allow the Human Realm to interpose itself between the two, thus creating a stable space — one held up by three towers in three corners."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "7217728",
+            "objective": "",
+            "dialogues": [
+                {
+                    "id": "721772801",
+                    "speaker": "Aru",
+                    "text": "\"Watatsumi is pronounced guilty of the following sins: four counts of the sin of profanity, and a further eight counts for the sin of deceiving living souls.\""
+                },
+                {
+                    "id": "721772802",
+                    "speaker": "Aru",
+                    "text": "\"With this stone I seal the everlasting, that transgressions past shall not be pursued.\""
+                },
+                {
+                    "id": "721772803",
+                    "speaker": "Paimon",
+                    "text": "What are you talking about, Aru?"
+                },
+                {
+                    "id": "721772804",
+                    "speaker": "Aru",
+                    "text": "This is my final task, which is that I must read this blessing. Its meaning is that Watatsumi Omikami has carried all our transgressions and gone to its death."
+                },
+                {
+                    "id": "721772805",
+                    "speaker": "Aru",
+                    "text": "There is one last thing I must ask of you. When you have left Enkanomiya, tell no one of anything regarding the trial."
+                },
+                {
+                    "id": "721772806",
+                    "speaker": "Aru",
+                    "text": "This is how all previous trials have been conducted — and I hope you can keep it this way."
+                },
+                {
+                    "id": "721772807",
+                    "speaker": "Player",
+                    "text": "I understand."
+                },
+                {
+                    "id": "721772808",
+                    "speaker": "Aru",
+                    "text": "Next, you must prove your valor against the Bathysmal Vishaps underneath the Mikoshi— *sigh* You know what? This isn't the way I want to put this."
+                },
+                {
+                    "id": "721772809",
+                    "speaker": "Aru",
+                    "text": "You are there for the Bloodbranch Corals that were grafted onto their bodies, and they will not simply roll over and let you do it."
+                },
+                {
+                    "id": "721772810",
+                    "speaker": "Aru",
+                    "text": "They will unleash upon you the grudge that they have nursed over many long years against humanity."
+                },
+                {
+                    "id": "721772811",
+                    "speaker": "Aru",
+                    "text": "This will, without a doubt, be a mortal struggle. Sangonomiya's survival is in your hands. Good luck."
+                }
+            ]
+        },
+        {
+            "id": "7217722",
+            "objective": "Talk to Aru",
+            "dialogues": [
+                {
+                    "id": "721772201",
+                    "speaker": "Enjou",
+                    "text": ""
+                },
+                {
+                    "id": "721772202",
+                    "speaker": "Enjou",
+                    "text": ""
+                },
+                {
+                    "id": "721772203",
+                    "speaker": "Enjou",
+                    "text": ""
+                }
+            ]
+        },
+        {
+            "id": "7217740",
+            "objective": "Talk to Aru",
+            "dialogues": [
+                {
+                    "id": "721771601",
+                    "speaker": "Aru",
+                    "text": "It seems that you've retrieved all the fragments."
+                },
+                {
+                    "id": "721771602",
+                    "speaker": "Aru",
+                    "text": "I'm not sure if you've realized this during the course of your adventures..."
+                },
+                {
+                    "id": "721771603",
+                    "speaker": "Aru",
+                    "text": "But it is no longer important. Now, please do not be startled by what I'm about to tell you—"
+                },
+                {
+                    "id": "721771604",
+                    "speaker": "Aru",
+                    "text": "The Bloodbranch Coral needs to be retrieved from the body of special Bathysmal Vishaps, which are right under the Dainichi Mikoshi...",
+                    "choices": [
+                        {
+                            "id": "721771605",
+                            "text": "What is it with dragons and being buried underground...",
+                            "response": [
+                                {
+                                    "id": "721771607",
+                                    "speaker": "Aru",
+                                    "text": "The Vishaps locked beneath it have been adjusted specifically such that they can accept fragments of Watatsumi Omikami's Bloodbranch Coral without experiencing any rejection."
+                                },
+                                {
+                                    "id": "721771608",
+                                    "speaker": "Aru",
+                                    "text": "But these adjustments have also made them exceptionally large, and they're most likely not that easy to kill."
+                                },
+                                {
+                                    "id": "721771609",
+                                    "speaker": "Aru",
+                                    "text": "Nonetheless, every good trial must end with the hero defeating the wicked dragon."
+                                },
+                                {
+                                    "id": "721771610",
+                                    "speaker": "Paimon",
+                                    "text": "Looks like we'll have to fight after all, huh?"
+                                },
+                                {
+                                    "id": "721771611",
+                                    "speaker": "Aru",
+                                    "text": "That is the case. But you need not worry. The Vishap swarm is not your match."
+                                },
+                                {
+                                    "id": "721771612",
+                                    "speaker": "Paimon",
+                                    "text": "#Paimon's pretty confident in {NICKNAME}'s skills too. But can you prove what you just said?"
+                                },
+                                {
+                                    "id": "721771613",
+                                    "speaker": "Aru",
+                                    "text": "Hahaha, not at all. This is simply the default encouragement."
+                                },
+                                {
+                                    "id": "721771614",
+                                    "speaker": "Paimon",
+                                    "text": "That seems mighty irresponsible of you. Aren't you just giving your heroes blind confidence like that?"
+                                },
+                                {
+                                    "id": "721771615",
+                                    "speaker": "Aru",
+                                    "text": "Huh. You know, you don't look like much, but you're actually brighter than our Watatsumi heroes. Interesting."
+                                },
+                                {
+                                    "id": "721771616",
+                                    "speaker": "Paimon",
+                                    "text": "Nah, you guys just have too little brain juice to go around!"
+                                },
+                                {
+                                    "id": "721771617",
+                                    "speaker": "Paimon",
+                                    "text": "Uh, wait, no. Paimon was just saying that this isn't right!"
+                                },
+                                {
+                                    "id": "721771618",
+                                    "speaker": "Aru",
+                                    "text": "I know. This is the \"sin of deception.\" But the coral's retrieval is something that concerns the survival of Watatsumi."
+                                },
+                                {
+                                    "id": "721771619",
+                                    "speaker": "Aru",
+                                    "text": "The heroes are only here because they're determined to see this through. All I can do at this point is push them forward."
+                                },
+                                {
+                                    "id": "721771620",
+                                    "speaker": "Aru",
+                                    "text": "I have faith in the people of Watatsumi, and I believe in those that shall come after us."
+                                },
+                                {
+                                    "id": "721771621",
+                                    "speaker": "Aru",
+                                    "text": "In name, at least, I am a sinless \"Shade of Tokoyo\" born for ritual purpose. But on this level, I suppose I am not myself free of transgression.",
+                                    "choices": [
+                                        {
+                                            "id": "721771622",
+                                            "text": "(Sorry to disappoint you...)",
+                                            "response": [
+                                                {
+                                                    "id": "721771624",
+                                                    "speaker": "Aru",
+                                                    "text": "In that case, allow me to help you put the Reins of Revival together."
+                                                },
+                                                {
+                                                    "id": "721771625",
+                                                    "speaker": "Aru",
+                                                    "text": "Though I suppose the name \"Reins of Revival\" is not entirely accurate. It was originally written as the \"Reins of Recovery\" — namely, the \"recovery of control over things that return from beyond the grave.\""
+                                                },
+                                                {
+                                                    "id": "721771626",
+                                                    "speaker": "Aru",
+                                                    "text": "The chariot of the sun brings light in the day, and by night come the spirits of the past. The one who bears the Reins may master both the light and the gloom."
+                                                },
+                                                {
+                                                    "id": "721771627",
+                                                    "speaker": "Paimon",
+                                                    "text": "Huh. Speaking of which, where did Enjou go?"
+                                                },
+                                                {
+                                                    "id": "721771628",
+                                                    "speaker": "Aru",
+                                                    "text": "That person looked up and down the Dainichi Mikoshi for a while before displaying some displeasure and leaving. It seems that he had not found what he was searching for."
+                                                },
+                                                {
+                                                    "id": "721771629",
+                                                    "speaker": "Aru",
+                                                    "text": "I am quite certain that he is not of any Watatsumi bloodline. He also has some kind of special art on his person that may be able to disrupt the ritual or cause me to dissipate."
+                                                },
+                                                {
+                                                    "id": "721771630",
+                                                    "speaker": "Aru",
+                                                    "text": "I am one who guides the heroes, and cannot act rashly. If I were to disappear, these trials would also cease. I cannot allow such an outcome."
+                                                },
+                                                {
+                                                    "id": "721771631",
+                                                    "speaker": "Aru",
+                                                    "text": "Thus, while he is not near, I must caution you to be wary of him."
+                                                },
+                                                {
+                                                    "id": "721771632",
+                                                    "speaker": "Paimon",
+                                                    "text": "But we wouldn't have been able to find the Golden Bridle without his help. We might not even have reached the Dainichi Mikoshi at all!"
+                                                },
+                                                {
+                                                    "id": "721771633",
+                                                    "speaker": "Aru",
+                                                    "text": "Is that so? Perhaps I am overthinking things. After all, only the trusted retainers of the Sangonomiya would know the ancient language of Watatsumi. Of course, there is another possibility..."
+                                                },
+                                                {
+                                                    "id": "721771634",
+                                                    "speaker": "Aru",
+                                                    "text": "But it is likely no large problem. Long years have passed since, and time grinds all civilizations into dust."
+                                                },
+                                                {
+                                                    "id": "721771635",
+                                                    "speaker": "Aru",
+                                                    "text": "...But let us return to the trial. I shall open the path to the final trial."
+                                                },
+                                                {
+                                                    "id": "721771636",
+                                                    "speaker": "Aru",
+                                                    "text": "\"Watatsumi is pronounced guilty of the following sins: four counts of the sin of profanity, and a further eight counts for the sin of deceiving living souls.\""
+                                                },
+                                                {
+                                                    "id": "721771637",
+                                                    "speaker": "Aru",
+                                                    "text": "\"With this stone I seal the everlasting, that transgressions past shall not be pursued.\""
+                                                },
+                                                {
+                                                    "id": "721771638",
+                                                    "speaker": "Paimon",
+                                                    "text": "What are you talking about, Aru?"
+                                                },
+                                                {
+                                                    "id": "721771639",
+                                                    "speaker": "Aru",
+                                                    "text": "This is my final task, which is to read this blessing. Its meaning is that Watatsumi Omikami is about to carry all our transgressions and go to its death."
+                                                },
+                                                {
+                                                    "id": "721771640",
+                                                    "speaker": "Aru",
+                                                    "text": "There is one last thing I must ask of you. When you have left Enkanomiya, tell no one of anything regarding the trial."
+                                                },
+                                                {
+                                                    "id": "721771641",
+                                                    "speaker": "Aru",
+                                                    "text": "This is how all previous trials have been conducted — and I hope you can keep it this way."
+                                                },
+                                                {
+                                                    "id": "721771642",
+                                                    "speaker": "Player",
+                                                    "text": "I understand."
+                                                },
+                                                {
+                                                    "id": "721771643",
+                                                    "speaker": "Aru",
+                                                    "text": "Next, you must prove your valor against the Bathysmal Vishaps underneath the Mikoshi— *sigh* You know what? This isn't the way I want to put this."
+                                                },
+                                                {
+                                                    "id": "721771644",
+                                                    "speaker": "Aru",
+                                                    "text": "You are there for the Bloodbranch Corals that were grafted onto their bodies, and they will not simply roll over and let you do it."
+                                                },
+                                                {
+                                                    "id": "721771645",
+                                                    "speaker": "Aru",
+                                                    "text": "They will unleash upon you the grudge that they have nursed over many long years against humanity."
+                                                },
+                                                {
+                                                    "id": "721771646",
+                                                    "speaker": "Aru",
+                                                    "text": "This will, without a doubt, be a mortal struggle. Sangonomiya's survival is in your hands. Good luck."
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "721771623",
+                                            "text": "(But we're actually here for the treasure...)"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "721771606",
+                            "text": "Quite the surprise..."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "7217747",
+            "objective": "Open the way to the final trial",
+            "dialogues": []
+        },
+        {
+            "id": "7217732",
+            "objective": "Go to the base of the Dainichi Mikoshi",
+            "dialogues": [
+                {
+                    "id": "721773201",
+                    "speaker": "Paimon",
+                    "text": "What's with this Enjou guy, and why did he just run off by himself?"
+                },
+                {
+                    "id": "721773202",
+                    "speaker": "Paimon",
+                    "text": "Enkanomiya might have been emptied, but that's way too reckless."
+                },
+                {
+                    "id": "721773203",
+                    "speaker": "Paimon",
+                    "text": "You know what? Paimon still thinks he's kinda fishy..."
+                }
+            ]
+        },
+        {
+            "id": "7217734",
+            "objective": "Defeat the Bathysmal Vishap",
+            "dialogues": []
+        },
+        {
+            "id": "7217748",
+            "objective": "Obtain the Bloodbranch Coral",
+            "dialogues": []
+        },
+        {
+            "id": "7217735",
+            "objective": "Talk to Enjou",
+            "dialogues": []
+        },
+        {
+            "id": "7217736",
+            "objective": "Defeat the Abyss Lector: Fathomless Flames",
+            "dialogues": []
+        },
+        {
+            "id": "7217737",
+            "objective": "Talk to the thing calling itself \"Enjou\"",
+            "dialogues": [
+                {
+                    "id": "721775701",
+                    "speaker": "The Thing Calling Itself \"Enjou\"",
+                    "text": "Phew... Wow. I didn't underestimate you, goodness no, but... I suppose a clerk is ultimately no match for a hero."
+                },
+                {
+                    "id": "721775702",
+                    "speaker": "The Thing Calling Itself \"Enjou\"",
+                    "text": "I wanted to get rid of you and then find some disguise with which I could claim that your mission was a failure. I mean, there's got to be some stories in which the hero doesn't slay the dragon. But oh well..."
+                },
+                {
+                    "id": "721775703",
+                    "speaker": "Paimon",
+                    "text": "Why did you attack us?"
+                },
+                {
+                    "id": "721775704",
+                    "speaker": "The Thing Calling Itself \"Enjou\"",
+                    "text": "You mean, why wouldn't I, right? I'm a creature writhing in the Abyss, and you're a mortal walking in the sun."
+                },
+                {
+                    "id": "721775705",
+                    "speaker": "The Thing Calling Itself \"Enjou\"",
+                    "text": "You did defeat a lot of my subordinates and comrades on your way here, too. So you can consider this revenge from a sentimental perspective."
+                },
+                {
+                    "id": "721775718",
+                    "speaker": "The Thing Calling Itself \"Enjou\"",
+                    "text": "I mean, I was also thinking... \"See, I can't find this book no matter where I look. Might it be with you? Perhaps I should dispose of you and then search you.\""
+                },
+                {
+                    "id": "721775706",
+                    "speaker": "The Thing Calling Itself \"Enjou\"",
+                    "text": "Also, \"Hmm. This person here is carrying all these Mint, Cabbage, and Fowl... I wonder what they're trying to do.\""
+                },
+                {
+                    "id": "721775707",
+                    "speaker": "The Thing Calling Itself \"Enjou\"",
+                    "text": "...Well, you get the picture. There are lots of reasons why I should kill you. As for reasons against, there's only one: \"I rather like you.\" Could you think of another?",
+                    "choices": [
+                        {
+                            "id": "721775708",
+                            "text": "...",
+                            "response": [
+                                {
+                                    "id": "721775710",
+                                    "speaker": "The Thing Calling Itself \"Enjou\"",
+                                    "text": "Ahahah!"
+                                },
+                                {
+                                    "id": "721775711",
+                                    "speaker": "The Thing Calling Itself \"Enjou\"",
+                                    "text": "Yes, yes, I failed. And we all learned a little something today, didn't we? I suppose you shouldn't trust people that easily in the future, eh?"
+                                },
+                                {
+                                    "id": "721775712",
+                                    "speaker": "The Thing Calling Itself \"Enjou\"",
+                                    "text": "Take that little fellow by your side. Perhaps you shall someday face betrayal from that corner too. Who knows?"
+                                },
+                                {
+                                    "id": "721775713",
+                                    "speaker": "Paimon",
+                                    "text": "Hey, hey! You trying to split us up here?",
+                                    "choices": [
+                                        {
+                                            "id": "721775714",
+                                            "text": "Paimon wouldn't turn on me.",
+                                            "response": [
+                                                {
+                                                    "id": "721775716",
+                                                    "speaker": "The Thing Calling Itself \"Enjou\"",
+                                                    "text": "Oh, come on. You didn't learn anything at all!"
+                                                },
+                                                {
+                                                    "id": "721775717",
+                                                    "speaker": "The Thing Calling Itself \"Enjou\"",
+                                                    "text": "...Well, whatever. We haven't much time left to talk. I'll depart for now. We'll meet again."
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "721775715",
+                                            "text": "Paimon doesn't really have much capacity for betrayal."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "721775709",
+                            "text": "How about \"not taking on someone you can't beat\"?"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "7217744",
+            "objective": "Obtain the Bloodbranch Coral",
+            "dialogues": []
+        },
+        {
+            "id": "7217749",
+            "objective": "Return to Sangonomiya Shrine and talk to Tsuyuko",
+            "dialogues": [
+                {
+                    "id": "721773101",
+                    "speaker": "Paimon",
+                    "text": "Tsuyuko, we found the Bloodbranch Coral."
+                },
+                {
+                    "id": "721773102",
+                    "speaker": "Tsuyuko",
+                    "text": "Ah, our great hero, our gallant warrior, our mighty paragon, our destined savior! On behalf of Madam Kokomi and all the people of Watatsumi Island, I give you my thanks."
+                },
+                {
+                    "id": "721773103",
+                    "speaker": "Tsuyuko",
+                    "text": "You look exhausted. Perhaps it was too taxing a task to send you down alone after all..."
+                },
+                {
+                    "id": "721773104",
+                    "speaker": "Paimon",
+                    "text": "Not alone! Paimon was there too! ...And then there was this other guy who sneaked in. He did help us a lot at first..."
+                },
+                {
+                    "id": "721773105",
+                    "speaker": "Paimon",
+                    "text": "#But in the end... Ugh, this is a long story. It's the main reason why {NICKNAME}'s so exhausted, too."
+                },
+                {
+                    "id": "721773106",
+                    "speaker": "Tsuyuko",
+                    "text": "It seems like something that Madam Kokomi did not anticipate occurred."
+                },
+                {
+                    "id": "721773107",
+                    "speaker": "Tsuyuko",
+                    "text": "Did one who seemed like a mere thief with a Watatsumi language dictionary turn out to be something far more troublesome?"
+                },
+                {
+                    "id": "721773108",
+                    "speaker": "Paimon",
+                    "text": "It was someone from the Abyss Order."
+                },
+                {
+                    "id": "721773109",
+                    "speaker": "Tsuyuko",
+                    "text": "...This... This is very grave news. I will report it to Madam Kokomi."
+                },
+                {
+                    "id": "721773110",
+                    "speaker": "Tsuyuko",
+                    "text": "However, since you have returned with the branch, it will soon come time for her to see to the Watatsumi Goryou Matsuri."
+                },
+                {
+                    "id": "721773111",
+                    "speaker": "Tsuyuko",
+                    "text": "I will go and pull her out of her room now."
+                },
+                {
+                    "id": "721773112",
+                    "speaker": "Tsuyuko",
+                    "text": "#Whatever the case, {NICKNAME}, please accept our gratitude."
+                }
+            ]
+        },
+        {
+            "id": "7217714",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "721771401",
+                    "speaker": "Aru",
+                    "text": "It seems that you have completed all the trials and thus displayed your valor. Now then. Display the Reins of Revival, and display your kingship over Byakuyakoku."
+                },
+                {
+                    "id": "721771402",
+                    "speaker": "Aru",
+                    "text": "Though I suppose the name \"Reins of Revival\" is not entirely accurate. It was originally written as the \"Reins of Recovery\" — namely, the \"recovery of control over things that return from beyond the grave.\""
+                },
+                {
+                    "id": "721771423",
+                    "speaker": "Aru",
+                    "text": "The chariot of the sun brings light in the day, and by night come the spirits of the past. The one who bears the Reins may master both the light and the gloom."
+                },
+                {
+                    "id": "721771403",
+                    "speaker": "Paimon",
+                    "text": "Huh. Speaking of which, where did Enjou go?"
+                },
+                {
+                    "id": "721771404",
+                    "speaker": "Aru",
+                    "text": "That person looked up and down the Dainichi Mikoshi for a while before displaying some displeasure and leaving. It seems that he had not found what he was searching for."
+                },
+                {
+                    "id": "721771405",
+                    "speaker": "Aru",
+                    "text": "I am quite certain that he is not of any Watatsumi bloodline. He also has some kind of special art on his person that may be able to disrupt the ritual or cause me to dissipate."
+                },
+                {
+                    "id": "721771406",
+                    "speaker": "Aru",
+                    "text": "I am one who guides the heroes, and cannot act rashly. If I were to disappear, these trials would also cease. I cannot allow such an outcome."
+                },
+                {
+                    "id": "721771407",
+                    "speaker": "Aru",
+                    "text": "Thus, while he is not near, I must caution you to be wary of him."
+                },
+                {
+                    "id": "721771408",
+                    "speaker": "Paimon",
+                    "text": "But we wouldn't have been able to find the Golden Bridle without his help. We might not even have reached the Dainichi Mikoshi at all!"
+                },
+                {
+                    "id": "721771409",
+                    "speaker": "Aru",
+                    "text": "Is that so? Perhaps I am overthinking things. After all, only the trusted retainers of the Sangonomiya would know the ancient language of Watatsumi. Of course, there is another possibility..."
+                },
+                {
+                    "id": "721771410",
+                    "speaker": "Aru",
+                    "text": "But it is likely no large problem. Long years have passed since, and time grinds all civilizations into dust."
+                },
+                {
+                    "id": "721771411",
+                    "speaker": "Aru",
+                    "text": "Regardless, let us return to the trial. I shall open the path to the final trial."
+                },
+                {
+                    "id": "721771412",
+                    "speaker": "Aru",
+                    "text": "\"Watatsumi is pronounced guilty of the following sins: four counts of the sin of profanity, and a further eight counts for the sin of deceiving living souls.\""
+                },
+                {
+                    "id": "721771413",
+                    "speaker": "Aru",
+                    "text": "\"With this stone I seal the everlasting, that transgressions past shall not be pursued.\""
+                },
+                {
+                    "id": "721771414",
+                    "speaker": "Paimon",
+                    "text": "What are you talking about, Aru?"
+                },
+                {
+                    "id": "721771415",
+                    "speaker": "Aru",
+                    "text": "This is my final task, which is to read this blessing. Its meaning is that Watatsumi Omikami is about to carry all our transgressions and go to its death."
+                },
+                {
+                    "id": "721771416",
+                    "speaker": "Aru",
+                    "text": "There is one last thing I must ask of you. When you have left Enkanomiya, tell no one of anything regarding the trial."
+                },
+                {
+                    "id": "721771417",
+                    "speaker": "Aru",
+                    "text": "This is how all previous trials have been conducted — and I hope you can keep it this way."
+                },
+                {
+                    "id": "721771418",
+                    "speaker": "Player",
+                    "text": "I understand."
+                },
+                {
+                    "id": "721771419",
+                    "speaker": "Aru",
+                    "text": "Next, you must prove your valor against the Bathysmal Vishaps underneath the Mikoshi— *sigh* You know what? This isn't the way I want to put this."
+                },
+                {
+                    "id": "721771420",
+                    "speaker": "Aru",
+                    "text": "You are there for the Bloodbranch Corals that were grafted onto their bodies, and they will not simply roll over and let you do it."
+                },
+                {
+                    "id": "721771421",
+                    "speaker": "Aru",
+                    "text": "They will unleash upon you the grudge that they have nursed over many long years against humanity."
+                },
+                {
+                    "id": "721771422",
+                    "speaker": "Aru",
+                    "text": "This will, without a doubt, be a mortal struggle. Sangonomiya's survival is in your hands. Good luck."
+                }
+            ]
+        },
+        {
+            "id": "7217723",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "721772301",
+                    "speaker": "Aru",
+                    "text": ""
+                },
+                {
+                    "id": "721772302",
+                    "speaker": "Aru",
+                    "text": ""
+                }
+            ]
+        },
+        {
+            "id": "7217724",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "721772401",
+                    "speaker": "Enjou",
+                    "text": ""
+                }
+            ]
+        },
+        {
+            "id": "7217725",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "721772501",
+                    "speaker": "Aru",
+                    "text": ""
+                }
+            ]
+        },
+        {
+            "id": "7217726",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "721772601",
+                    "speaker": "Enjou",
+                    "text": "I was waiting for you two."
+                },
+                {
+                    "id": "721772602",
+                    "speaker": "Enjou",
+                    "text": "You now control the hub of Enkanomiya... No, Byakuyakoku. Here, try touching this device."
+                },
+                {
+                    "id": "721772603",
+                    "speaker": "Enjou",
+                    "text": "I wager it'll be quite the experience."
+                }
+            ]
+        },
+        {
+            "id": "7217727",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "721772701",
+                    "speaker": "Aru",
+                    "text": ""
+                },
+                {
+                    "id": "721772702",
+                    "speaker": "Aru",
+                    "text": ""
+                },
+                {
+                    "id": "721772703",
+                    "speaker": "Aru",
+                    "text": ""
+                }
+            ]
+        },
+        {
+            "id": "7217729",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "721772901",
+                    "speaker": "Examine the Map",
+                    "text": ""
+                }
+            ]
+        },
+        {
+            "id": "7217730",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "721773001",
+                    "speaker": "Eboshi",
+                    "text": "Congratulations, hero of Sangonomiya. You have obtained the blood-branch of coral."
+                },
+                {
+                    "id": "721773002",
+                    "speaker": "Eboshi",
+                    "text": "My name is Erebos. In the Inazuman tongue, that would be Eboshi."
+                },
+                {
+                    "id": "721773003",
+                    "speaker": "Eboshi",
+                    "text": "You have proven here that your valor is beyond compare — that you are a worthy savior of Sangonomiya's people. Thus, you have earned the right to ask and to be answered."
+                },
+                {
+                    "id": "721773004",
+                    "speaker": "Eboshi",
+                    "text": "Still, I ask that you follow the rules and not take the truth beyond this ocean abyss."
+                },
+                {
+                    "id": "721773005",
+                    "speaker": "Eboshi",
+                    "text": "What else do you wish to know?",
+                    "choices": [
+                        {
+                            "id": "721773006",
+                            "text": "Tell me about the Bathysmal Vishaps...",
+                            "response": [
+                                {
+                                    "id": "721773007",
+                                    "speaker": "Eboshi",
+                                    "text": "They are primordial elemental beings, unbent and unbowed by the power that came from the heavens owing to their living deep underwater."
+                                },
+                                {
+                                    "id": "721773008",
+                                    "speaker": "Eboshi",
+                                    "text": "They are actually very intelligent, and they are adept at evolving. They would even evolve into different elemental forms throughout the history of their war against us."
+                                },
+                                {
+                                    "id": "721773009",
+                                    "speaker": "Eboshi",
+                                    "text": "I would not be surprised at all if they have learned language or perhaps even evolved into lizard-people of a sort."
+                                },
+                                {
+                                    "id": "721773010",
+                                    "speaker": "Eboshi",
+                                    "text": "The Holy Soil phenomenon is, in fact, the expansion of their habitat. That means that the primordial elemental power of the three realms is growing stronger."
+                                },
+                                {
+                                    "id": "721773011",
+                                    "speaker": "Eboshi",
+                                    "text": "Only by using Watatsumi Omikami's life force to awaken its second servant could we convert this raw, raging elemental power."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "721773012",
+                            "text": "Tell me about Watatsumi Omikami...",
+                            "response": [
+                                {
+                                    "id": "721773013",
+                                    "speaker": "Eboshi",
+                                    "text": "Watatsumi Omikami, due to ill-fortune, fell into this place, beyond the jurisdiction of the heavenly order."
+                                },
+                                {
+                                    "id": "721773014",
+                                    "speaker": "Eboshi",
+                                    "text": "But this was undoubtedly to the good fortune of us, the people of Byakuyakoku. It has done a great many things for us."
+                                },
+                                {
+                                    "id": "721773015",
+                                    "speaker": "Eboshi",
+                                    "text": "Unfortunately, by making contact with us, it also grasped a truth that came before its own existence. Thus, it was forced to seek a valiant death."
+                                },
+                                {
+                                    "id": "721773016",
+                                    "speaker": "Eboshi",
+                                    "text": "Thus, the people would no longer suspect that there might be secrets that lay hidden in the shadows. This was the only way the people of Byakuyakoku would be allowed to live under the rule of The Seven."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "721773017",
+                            "text": "So, what were things like before the sun and moon?",
+                            "response": [
+                                {
+                                    "id": "721773018",
+                                    "speaker": "Eboshi",
+                                    "text": "Before Byakuyakoku fell into the deep sea, the whole world had a single unified culture."
+                                },
+                                {
+                                    "id": "721773019",
+                                    "speaker": "Eboshi",
+                                    "text": "Later, a great war broke out, in which the heavens capsized and the earth was ripped asunder. This land was then plunged into the dark ocean depths."
+                                },
+                                {
+                                    "id": "721773020",
+                                    "speaker": "Eboshi",
+                                    "text": "However, the heavenly order seemed to not wish for those who remembered all this to remain on the earth. We searched and searched for a road of return, but there was none to be found."
+                                },
+                                {
+                                    "id": "721773021",
+                                    "speaker": "Eboshi",
+                                    "text": "Much, much later, heaven's powers of prohibition would gradually weaken. Thus did Watatsumi Omikami manage to fall into this place."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "721773022",
+                            "text": "Tell me about the Dainichi Mikoshi.",
+                            "response": [
+                                {
+                                    "id": "721773023",
+                                    "speaker": "Eboshi",
+                                    "text": "The Dainichi Mikoshi was constructed by the Sage Abrax. It has the power to bring light to the dark depths."
+                                },
+                                {
+                                    "id": "721773024",
+                                    "speaker": "Eboshi",
+                                    "text": "It has quite a few other functions, to boot."
+                                },
+                                {
+                                    "id": "721773025",
+                                    "speaker": "Eboshi",
+                                    "text": "All in all, it is a very powerful device."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "721773026",
+                            "text": "I've got nothing else to ask.",
+                            "response": [
+                                {
+                                    "id": "721773027",
+                                    "speaker": "Eboshi",
+                                    "text": "Fair enough. Again, please remember to keep all that you have seen here in Enkanomiya an eternal secret."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

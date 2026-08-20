@@ -1,10 +1,12 @@
-# 7.0 resources
-# The bare minimum!
+# YuanShen Resources
 
-# Credits:
+## Target Version
 
-- pmagixc & Meowereal for putting this together in 6.1.0
-- Hiro for resources
-- Dimbreath for resources as well
-- Yuuki for resource inspiration
-- iam-akuzihs for resources
+Current version: OSCBWin6.7.54
+
+## Disclaimer
+
+This unofficial, non-commercial project is intended strictly for educational research and reverse engineering. It is not affiliated with or endorsed by miHoYo/HoYoverse. All game assets and data structures are the property of their respective owners, and no proprietary content is redistributed here.
+
+
+![lily](https://safebooru.org//images/567/81f35de3b4c6801d3f4a25fe7c86fff16b572bb4.jpg)

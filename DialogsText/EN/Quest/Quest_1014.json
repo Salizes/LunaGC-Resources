@@ -1,0 +1,603 @@
+{
+    "quest": {
+        "id": "1014",
+        "title": "The Realm Within",
+        "description": "After identifying Rex Lapis' preferred scent, Zhongli sends you to Yujing Terrace to seek out an old friend of his, Madame Ping, and borrow a certain Cleansing Bell. Strange... Zhongli seems to be avoiding his old friend...",
+        "rewards": [
+            {
+                "itemId": 102,
+                "count": 575
+            },
+            {
+                "itemId": 202,
+                "count": 19800
+            },
+            {
+                "itemId": 104002,
+                "count": 7
+            },
+            {
+                "itemId": 104013,
+                "count": 4
+            }
+        ],
+        "rewards_formatted": "Adventure EXP x575, Mora x19800, Adventurer's Experience x7, Mystic Enhancement Ore x4",
+        "chapter": {
+            "icon": "UI_ChapterIcon_Liyue",
+            "id": "1102",
+            "num": "Chapter I: Act II",
+            "title": "Farewell, Archaic Lord"
+        },
+        "total_dialogue_lines": 99,
+        "total_speaker_counts": {
+            "Madame Ping": 51,
+            "Paimon": 21,
+            "Player": 16,
+            "Touch the teapot": 2,
+            "Zhongli": 9
+        }
+    },
+    "talks": [
+        {
+            "id": "101401",
+            "objective": "Talk to Madame Ping",
+            "dialogues": [
+                {
+                    "id": "10140101",
+                    "speaker": "Madame Ping",
+                    "text": "All things must change...",
+                    "choices": [
+                        {
+                            "id": "10140102",
+                            "text": "How do you do?",
+                            "response": [
+                                {
+                                    "id": "10140103",
+                                    "speaker": "Madame Ping",
+                                    "text": "Mm? Youngster, are you here to admire the flowers?"
+                                },
+                                {
+                                    "id": "10140104",
+                                    "speaker": "Madame Ping",
+                                    "text": "But it's a shame. These Glaze Lilies have almost all wilted..."
+                                },
+                                {
+                                    "id": "10140107",
+                                    "speaker": "Paimon",
+                                    "text": "What happened to them?"
+                                },
+                                {
+                                    "id": "10140108",
+                                    "speaker": "Madame Ping",
+                                    "text": "Back in my day, people said that Glaze Lilies can read human hearts."
+                                },
+                                {
+                                    "id": "10140109",
+                                    "speaker": "Madame Ping",
+                                    "text": "If they heard beautiful sounds like laughter and singing, they would also bloom joyfully."
+                                },
+                                {
+                                    "id": "10140110",
+                                    "speaker": "Madame Ping",
+                                    "text": "But if they heard too much wild gossip or slander, they would quickly wither away."
+                                },
+                                {
+                                    "id": "10140111",
+                                    "speaker": "Paimon",
+                                    "text": "...So that means these flowers feel what's happening in Liyue."
+                                },
+                                {
+                                    "id": "10140112",
+                                    "speaker": "Madame Ping",
+                                    "text": "Yes, the rumors of Rex Lapis' death are no small matter. They are everywhere."
+                                },
+                                {
+                                    "id": "10140113",
+                                    "speaker": "Madame Ping",
+                                    "text": "Some say it was a Fatui plot. Others say that the Qixing made it all up, and still others think that That Which Lies in the Deep is breaking free."
+                                },
+                                {
+                                    "id": "10140114",
+                                    "speaker": "Madame Ping",
+                                    "text": "This harbor is like a mountain of dry tinder. One spark and the fire will consume us all."
+                                },
+                                {
+                                    "id": "10140115",
+                                    "speaker": "Madame Ping",
+                                    "text": "...Well, I shall say no more. This old woman's grown too old and naggy... Did you have something to say, youngster?",
+                                    "choices": [
+                                        {
+                                            "id": "10140116",
+                                            "text": "We'd like to borrow the Cleansing Bell.",
+                                            "response": [
+                                                {
+                                                    "id": "10140117",
+                                                    "speaker": "Madame Ping",
+                                                    "text": "Ah, that old trinket... I remember it being here with me, but I've grown old. I can't quite recall where it is exactly."
+                                                },
+                                                {
+                                                    "id": "10140118",
+                                                    "speaker": "Madame Ping",
+                                                    "text": "An old friend of mine used to wear it on his person, back when I was young..."
+                                                },
+                                                {
+                                                    "id": "10140119",
+                                                    "speaker": "Madame Ping",
+                                                    "text": "He saw me gazing at it often and gave it to me."
+                                                },
+                                                {
+                                                    "id": "10140120",
+                                                    "speaker": "Madame Ping",
+                                                    "text": "But he told me then that if someone should come to borrow that bell, I should not be loath to part with it."
+                                                },
+                                                {
+                                                    "id": "10140127",
+                                                    "speaker": "Madame Ping",
+                                                    "text": "It has been many years, and who knows how many times someone has come to borrow this bell."
+                                                },
+                                                {
+                                                    "id": "10140128",
+                                                    "speaker": "Madame Ping",
+                                                    "text": "Still, though I can't recall when it started, it's been a long time since anyone has come to borrow it."
+                                                },
+                                                {
+                                                    "id": "10140129",
+                                                    "speaker": "Madame Ping",
+                                                    "text": "Ah, these old bones are so slow to look for things. I doubt you can wait that long...",
+                                                    "choices": [
+                                                        {
+                                                            "id": "10140130",
+                                                            "text": "We can look for it ourselves.",
+                                                            "response": [
+                                                                {
+                                                                    "id": "10140131",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "That's right granny. We'll follow you back home, and search for it ourselves!"
+                                                                },
+                                                                {
+                                                                    "id": "10140132",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "And... Um, we can help with chores if you have any too!"
+                                                                },
+                                                                {
+                                                                    "id": "10140135",
+                                                                    "speaker": "Madame Ping",
+                                                                    "text": "Alright, children, there is no need to worry. I didn't place the bell very far away."
+                                                                },
+                                                                {
+                                                                    "id": "10140136",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "Eh? Do you live near here, granny? Whoa, but this is Yujing Terrace. It's gotta be expensive!"
+                                                                },
+                                                                {
+                                                                    "id": "10140137",
+                                                                    "speaker": "Madame Ping",
+                                                                    "text": "Haha, an old lady like me can't afford to buy a place in this city. See this ceramic teapot? My entire household is in here."
+                                                                },
+                                                                {
+                                                                    "id": "10140138",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "...How does that work?",
+                                                                    "choices": [
+                                                                        {
+                                                                            "id": "10140139",
+                                                                            "text": "It contains your house keys?",
+                                                                            "response": [
+                                                                                {
+                                                                                    "id": "10140146",
+                                                                                    "speaker": "Madame Ping",
+                                                                                    "text": "Hohoho, youngsters. I simply mean that the bell is somewhere inside this teapot, and you are quite welcome to borrow it — if you can find it."
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        {
+                                                                            "id": "10140140",
+                                                                            "text": "The bell is all you own?",
+                                                                            "response": [
+                                                                                {
+                                                                                    "id": "10140141",
+                                                                                    "speaker": "Paimon",
+                                                                                    "text": "Hey, that's rude!"
+                                                                                },
+                                                                                {
+                                                                                    "id": "10140142",
+                                                                                    "speaker": "Paimon",
+                                                                                    "text": "...And even if it was like that, it must be a very expensive bell, right granny?"
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        {
+                                                                            "id": "10140143",
+                                                                            "text": "In you go, Paimon.",
+                                                                            "response": [
+                                                                                {
+                                                                                    "id": "10140144",
+                                                                                    "speaker": "Paimon",
+                                                                                    "text": "What!? There's no way Paimon would fit in there!"
+                                                                                },
+                                                                                {
+                                                                                    "id": "10140145",
+                                                                                    "speaker": "Paimon",
+                                                                                    "text": "And why do you need Paimon to go in, anyway? Can't you just lift the lid and look inside?"
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "id": "10140133",
+                                                            "text": "I'm a Knights of Favonius-certified lost property finder!",
+                                                            "response": [
+                                                                {
+                                                                    "id": "10140134",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "What a weird thing to be proud of..."
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "10140121",
+                                            "text": "We'd like to borrow something from you...",
+                                            "response": [
+                                                {
+                                                    "id": "10140122",
+                                                    "speaker": "Madame Ping",
+                                                    "text": "Borrow something? ...Oh, you've come to borrow the Cleansing Bell, yes?"
+                                                },
+                                                {
+                                                    "id": "10140123",
+                                                    "speaker": "Madame Ping",
+                                                    "text": "Apart from that, I don't have anything of value that you youngsters might want."
+                                                },
+                                                {
+                                                    "id": "10140124",
+                                                    "speaker": "Madame Ping",
+                                                    "text": "But it was not originally mine, either. That trinket used to belong to a friend of mine."
+                                                },
+                                                {
+                                                    "id": "10140125",
+                                                    "speaker": "Madame Ping",
+                                                    "text": "I was a vain beauty when I was young, and I would pester him for that bell all the time."
+                                                },
+                                                {
+                                                    "id": "10140126",
+                                                    "speaker": "Madame Ping",
+                                                    "text": "He could not dissuade me, and so he gave it to me. But he said that if someone should come to borrow it, I must not be loath to give it away."
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "10140105",
+                            "text": "Are you alright?",
+                            "response": [
+                                {
+                                    "id": "10140106",
+                                    "speaker": "Madame Ping",
+                                    "text": "It's nothing, it's nothing. I just thought it a great shame that so many of these Glaze Lilies have wilted."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "101406",
+            "objective": "Touch Madame Ping's teapot",
+            "dialogues": [
+                {
+                    "id": "10140601",
+                    "speaker": "Touch the teapot",
+                    "text": ""
+                },
+                {
+                    "id": "10140602",
+                    "speaker": "Touch the teapot",
+                    "text": ""
+                }
+            ]
+        },
+        {
+            "id": "101402",
+            "objective": "Search for the Cleansing Bell",
+            "dialogues": [
+                {
+                    "id": "10140201",
+                    "speaker": "Madame Ping",
+                    "text": "Aren't you youngsters in a hurry to find that bell? Hop to it, then."
+                },
+                {
+                    "id": "10140202",
+                    "speaker": "Madame Ping",
+                    "text": "But be careful, I haven't cleaned this place up in a long time."
+                },
+                {
+                    "id": "10140203",
+                    "speaker": "Madame Ping",
+                    "text": "If you were to get dirt on your beautiful clothes, it would take some work to clean up."
+                }
+            ]
+        },
+        {
+            "id": "101403",
+            "objective": "Talk to Madame Ping",
+            "dialogues": [
+                {
+                    "id": "10140301",
+                    "speaker": "Madame Ping",
+                    "text": "Ho-ho, in and out in no time... You youngsters really are quick.",
+                    "choices": [
+                        {
+                            "id": "10140302",
+                            "text": "Are you an adeptus, ma'am?",
+                            "response": [
+                                {
+                                    "id": "10140303",
+                                    "speaker": "Madame Ping",
+                                    "text": "An adeptus... I haven't heard anyone say those words in earnest for a long time."
+                                },
+                                {
+                                    "id": "10140304",
+                                    "speaker": "Madame Ping",
+                                    "text": "As to whether I am one or not, child, surely you already understand?"
+                                },
+                                {
+                                    "id": "10140312",
+                                    "speaker": "Paimon",
+                                    "text": "Ugh... Paimon kinda knows what you mean, but is also kinda confused. Are you really giving us the bell just like that Granny?"
+                                },
+                                {
+                                    "id": "10140313",
+                                    "speaker": "Paimon",
+                                    "text": "Don't you think it's weird? Something's just happened to Rex Lapis, and then we come running up asking for it..."
+                                },
+                                {
+                                    "id": "10140314",
+                                    "speaker": "Madame Ping",
+                                    "text": "Oh, don't be silly. Liyue Harbor has been through a great deal in its history. In that time, it has seen the departure of countless adepti."
+                                },
+                                {
+                                    "id": "10140315",
+                                    "speaker": "Madame Ping",
+                                    "text": "But no matter what, we have always performed the Rite of Parting first before any other matters."
+                                },
+                                {
+                                    "id": "10140316",
+                                    "speaker": "Madame Ping",
+                                    "text": "To cry \"catch the murderer!\" at the top of one's lungs, but ignore the Rite of Parting... That, to me, is what is wrong-headed."
+                                },
+                                {
+                                    "id": "10140317",
+                                    "speaker": "Madame Ping",
+                                    "text": "Now that you have come to borrow the bell, I guess that perhaps an old friend of mine has finally decided to take matters into their own hands."
+                                },
+                                {
+                                    "id": "10140318",
+                                    "speaker": "Madame Ping",
+                                    "text": "So, why would I be unwilling to lend you the bell?",
+                                    "choices": [
+                                        {
+                                            "id": "10140319",
+                                            "text": "What if your friend doesn't return it?",
+                                            "response": [
+                                                {
+                                                    "id": "10140320",
+                                                    "speaker": "Madame Ping",
+                                                    "text": "Oh? Well, if it came to that... Haha, they would find a certain old lady knocking at their door."
+                                                },
+                                                {
+                                                    "id": "10140321",
+                                                    "speaker": "Madame Ping",
+                                                    "text": "We haven't met in a while anyway, it would be nice to share a drink and chat."
+                                                },
+                                                {
+                                                    "id": "10140326",
+                                                    "speaker": "Madame Ping",
+                                                    "text": "Well, you must have things to do. Since you have the bell, you should return."
+                                                },
+                                                {
+                                                    "id": "10140327",
+                                                    "speaker": "Madame Ping",
+                                                    "text": "Oh, and, do tell the person who sent you..."
+                                                },
+                                                {
+                                                    "id": "10140328",
+                                                    "speaker": "Madame Ping",
+                                                    "text": "...that if they have time, they can come over for tea. I don't have much to offer, but you can always count on an old lady for a pot of tea."
+                                                },
+                                                {
+                                                    "id": "10140329",
+                                                    "speaker": "Paimon",
+                                                    "text": "We will! Thanks, granny!"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "10140322",
+                                            "text": "Can I keep it?",
+                                            "response": [
+                                                {
+                                                    "id": "10140323",
+                                                    "speaker": "Paimon",
+                                                    "text": "Hey! It belongs to granny! We're supposed to return what we borrow!"
+                                                },
+                                                {
+                                                    "id": "10140324",
+                                                    "speaker": "Madame Ping",
+                                                    "text": "Let you keep it? Haha, you really are a frank child. If you want it, you can keep it."
+                                                },
+                                                {
+                                                    "id": "10140325",
+                                                    "speaker": "Madame Ping",
+                                                    "text": "But this bell gets homesick sometimes. Who knows, it might find its way back into these old hands..."
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "10140305",
+                            "text": "Are you one of the Liyue Qixing?",
+                            "response": [
+                                {
+                                    "id": "10140306",
+                                    "speaker": "Madame Ping",
+                                    "text": "The Qixing... Those children stopped letting my friends and I into their counsel long ago."
+                                },
+                                {
+                                    "id": "10140307",
+                                    "speaker": "Madame Ping",
+                                    "text": "Still, they've done well recently. We old folks are content to be idle."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "10140308",
+                            "text": "Are you with the Fatui?",
+                            "response": [
+                                {
+                                    "id": "10140309",
+                                    "speaker": "Madame Ping",
+                                    "text": "The Fatui? Hah! Child, what goes on in that mind of yours, I wonder?"
+                                },
+                                {
+                                    "id": "10140310",
+                                    "speaker": "Madame Ping",
+                                    "text": "I'm far too old to be quibbling with them."
+                                },
+                                {
+                                    "id": "10140311",
+                                    "speaker": "Madame Ping",
+                                    "text": "But if they overreach themselves, I will do what I must."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "101404",
+            "objective": "Put the perfume and Cleansing Bell in place",
+            "dialogues": [
+                {
+                    "id": "10140401",
+                    "speaker": "Zhongli",
+                    "text": "Indeed, this is the Cleansing Bell. Hmm, it's in good condition."
+                },
+                {
+                    "id": "10140402",
+                    "speaker": "Zhongli",
+                    "text": "Let's place the perfume we've prepared inside.",
+                    "choices": [
+                        {
+                            "id": "10140403",
+                            "text": "Do you know Madame Ping?",
+                            "response": [
+                                {
+                                    "id": "10140404",
+                                    "speaker": "Zhongli",
+                                    "text": "Of course. How would I know that the bell was with her, otherwise?"
+                                },
+                                {
+                                    "id": "10140407",
+                                    "speaker": "Paimon",
+                                    "text": "That's suspicious! But if you don't want to talk about it, we won't pry."
+                                },
+                                {
+                                    "id": "10140408",
+                                    "speaker": "Paimon",
+                                    "text": "Oh, yes! That old granny asked us to tell you something."
+                                },
+                                {
+                                    "id": "10140409",
+                                    "speaker": "Paimon",
+                                    "text": "\"If you have the time, you can come over for tea. I don't have much to offer, but you can always count on an old lady for a pot of tea.\""
+                                },
+                                {
+                                    "id": "10140410",
+                                    "speaker": "Zhongli",
+                                    "text": "Ha, that tone does not suit you. Still, her teapot is indeed very good. There are none better for brewing tea."
+                                },
+                                {
+                                    "id": "10140411",
+                                    "speaker": "Zhongli",
+                                    "text": "When a suitable time arrives, I'll bring a spot of fine tea and pay her a visit."
+                                },
+                                {
+                                    "id": "10140412",
+                                    "speaker": "Paimon",
+                                    "text": "So, what's the next step in our preparations?"
+                                },
+                                {
+                                    "id": "10140413",
+                                    "speaker": "Zhongli",
+                                    "text": "Hmm... Next, we need to purchase <color=#00E1FFFF>kites</color>."
+                                },
+                                {
+                                    "id": "10140414",
+                                    "speaker": "Paimon",
+                                    "text": "Ooh! Paimon loves kites! Are you taking us kite flying? Is this our break time?"
+                                },
+                                {
+                                    "id": "10140415",
+                                    "speaker": "Zhongli",
+                                    "text": "Haha, no, no. Kites are children's toys, yes, but they also play various symbolic roles in Liyue's rituals."
+                                },
+                                {
+                                    "id": "10140416",
+                                    "speaker": "Zhongli",
+                                    "text": "I will explain it to you. But our next course of action should probably be to purchase the kites first."
+                                },
+                                {
+                                    "id": "10140417",
+                                    "speaker": "Paimon",
+                                    "text": "Oh, sure... curiouser and curiouser..."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "10140405",
+                            "text": "Are you also an adeptus?",
+                            "response": [
+                                {
+                                    "id": "10140406",
+                                    "speaker": "Zhongli",
+                                    "text": "An adeptus..."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "101410",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "10141001",
+                    "speaker": "Madame Ping",
+                    "text": "It seems my old friends just can't stand idly by anymore."
+                },
+                {
+                    "id": "10141002",
+                    "speaker": "Madame Ping",
+                    "text": "Let's just hope nothing messy comes of this."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,677 @@
+{
+    "quest": {
+        "id": "73067",
+        "title": "Courage Is in the Heart",
+        "description": "You found a journal by the Aranara named Arashakun in an Aranara house. Despite losing \"courage,\" Arashakun still decided to venture into such a dangerous place. Go check the situation out...",
+        "rewards": [
+            {
+                "itemId": 102,
+                "count": 200
+            },
+            {
+                "itemId": 201,
+                "count": 30
+            },
+            {
+                "itemId": 202,
+                "count": 20000
+            },
+            {
+                "itemId": 104003,
+                "count": 2
+            }
+        ],
+        "rewards_formatted": "Adventure EXP x200, Primogem x30, Mora x20000, Hero's Wit x2",
+        "chapter": {
+            "icon": "",
+            "id": "",
+            "num": "",
+            "title": ""
+        },
+        "total_dialogue_lines": 107,
+        "total_speaker_counts": {
+            "???": 1,
+            "Arashakun": 43,
+            "Inconsistently-Written Notes": 12,
+            "Paimon": 38,
+            "Player": 13
+        }
+    },
+    "talks": [
+        {
+            "id": "7306701",
+            "objective": "",
+            "dialogues": [
+                {
+                    "id": "730670101",
+                    "speaker": "Paimon",
+                    "text": "Huh? These hilichurls dropped something strange..."
+                },
+                {
+                    "id": "730670102",
+                    "speaker": "Paimon",
+                    "text": "It seems to be made out of flowers. Weird, but these flowers are ordinary and were picked quite some time ago, yet they still haven't wilted."
+                },
+                {
+                    "id": "730670103",
+                    "speaker": "Paimon",
+                    "text": "Paimon can sense quite a lot of Dendro energy on it, and it's been discarded here, too...",
+                    "choices": [
+                        {
+                            "id": "730670104",
+                            "text": "It must belong to Aranara.",
+                            "response": [
+                                {
+                                    "id": "730670105",
+                                    "speaker": "Paimon",
+                                    "text": "Yeah, must be."
+                                },
+                                {
+                                    "id": "730670108",
+                                    "speaker": "Paimon",
+                                    "text": "Hmm, this flower thing has so much Dendro energy that it didn't even wither in the hands of the hilichurls.",
+                                    "choices": [
+                                        {
+                                            "id": "730670109",
+                                            "text": "Maybe they carried it with them all the time.",
+                                            "response": [
+                                                {
+                                                    "id": "730670111",
+                                                    "speaker": "Paimon",
+                                                    "text": "Yep, let's return this to the Aranara as soon as possible."
+                                                },
+                                                {
+                                                    "id": "730670112",
+                                                    "speaker": "Paimon",
+                                                    "text": "#Let's go inside the house, {NICKNAME}. Maybe whoever lost it is super bummed out right now!"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "730670110",
+                                            "text": "Maybe it's something very precious."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "730670106",
+                            "text": "It might be from a Dendro hilichurl...",
+                            "response": [
+                                {
+                                    "id": "730670107",
+                                    "speaker": "Paimon",
+                                    "text": "What are you saying? It must be from an Aranara who lives here."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "7306702",
+            "objective": "Defeat the hilichurls by the Aranara house",
+            "dialogues": [
+                {
+                    "id": "730670201",
+                    "speaker": "Inconsistently-Written Notes",
+                    "text": "(The first few pages contain very small and scribbled writing...)"
+                },
+                {
+                    "id": "730670202",
+                    "speaker": "Inconsistently-Written Notes",
+                    "text": "\"Ohhh... I can't believe there is a Nara willing to be Arashakun's friend. What a good Nara! The good Nara didn't mind timid Arashakun, and even taught Arashakun how to write Nara words...\""
+                },
+                {
+                    "id": "730670203",
+                    "speaker": "Inconsistently-Written Notes",
+                    "text": "\"...Good Nara comforted Arashakun when Arashakun was frightened by a leaf that fell on his head. Good Nara is Arashakun's friend forever!\""
+                },
+                {
+                    "id": "730670204",
+                    "speaker": "Inconsistently-Written Notes",
+                    "text": "(The handwriting becomes tinier and more flustered in the following pages...)"
+                },
+                {
+                    "id": "730670205",
+                    "speaker": "Inconsistently-Written Notes",
+                    "text": "\"Oh no... Nara friend was taken by Furry Mask Demon King! It has such long arms. So scary...\""
+                },
+                {
+                    "id": "730670206",
+                    "speaker": "Inconsistently-Written Notes",
+                    "text": "\"But... must save Nara... Ohh...\""
+                },
+                {
+                    "id": "730670207",
+                    "speaker": "Inconsistently-Written Notes",
+                    "text": "(The following pages are written in big, forceful handwriting...)"
+                },
+                {
+                    "id": "730670208",
+                    "speaker": "Inconsistently-Written Notes",
+                    "text": "\"The Furry Mask Demon King has been defeated! Saved Nara friend, and Nara friend gave Arashakun 'courage'! Arashakun is not the same old timid Arashakun anymore.\""
+                },
+                {
+                    "id": "730670209",
+                    "speaker": "Inconsistently-Written Notes",
+                    "text": "\"Arashakun has 'courage' now and bravely fought the furry masked monsters. No Nara nearby will ever have to worry about getting bullied by the furry masked monsters again!\""
+                },
+                {
+                    "id": "730670210",
+                    "speaker": "Inconsistently-Written Notes",
+                    "text": "(The handwriting shrinks back down in the latest pages...)"
+                },
+                {
+                    "id": "730670211",
+                    "speaker": "Inconsistently-Written Notes",
+                    "text": "\"Oh no... How did this happen? Arashakun's 'courage' is missing... The 'courage' Nara gave to Arashakun... It must have been stolen by the Furry Mask Demon King.\""
+                },
+                {
+                    "id": "730670212",
+                    "speaker": "Inconsistently-Written Notes",
+                    "text": "\"Furry Mask Demon King, arms very long, very scary. But Arashakun can do nothing after losing his 'courage'... Arashakun will go looking for it in <color=#00E1FFFF>the cave to the east</color>...\""
+                }
+            ]
+        },
+        {
+            "id": "7306715",
+            "objective": "Talk to Paimon",
+            "dialogues": []
+        },
+        {
+            "id": "7306704",
+            "objective": "Enter the Aranara house",
+            "dialogues": [
+                {
+                    "id": "730670401",
+                    "speaker": "Paimon",
+                    "text": "Are you Arashakun?"
+                },
+                {
+                    "id": "730670402",
+                    "speaker": "Arashakun",
+                    "text": "*sob*... Arashakun is indeed my name... Eek, don't come so close so quickly!"
+                },
+                {
+                    "id": "730670403",
+                    "speaker": "Arashakun",
+                    "text": "Arashakun's very grateful to you two for saving me, but I must still request that you keep a certain distance... *sob*"
+                },
+                {
+                    "id": "730670404",
+                    "speaker": "Arashakun",
+                    "text": "That will make Arashakun feel a bit more comfortable..."
+                },
+                {
+                    "id": "730670405",
+                    "speaker": "Paimon",
+                    "text": "What? We just rescued you!"
+                },
+                {
+                    "id": "730670406",
+                    "speaker": "Arashakun",
+                    "text": "I'm sorry! Sorry for my rude request. Sorry for angering you..."
+                },
+                {
+                    "id": "730670407",
+                    "speaker": "Arashakun",
+                    "text": "But I've been trapped here and am still... I—I haven't settled down yet. *sob* Please forgive me..."
+                },
+                {
+                    "id": "730670408",
+                    "speaker": "Paimon",
+                    "text": "It's okay, it's okay..."
+                },
+                {
+                    "id": "730670409",
+                    "speaker": "Arashakun",
+                    "text": "Okay, thank you. May Arashakun get your names?"
+                },
+                {
+                    "id": "730670410",
+                    "speaker": "Paimon",
+                    "text": "It's Paimon."
+                },
+                {
+                    "id": "730670411",
+                    "speaker": "Player",
+                    "text": "#I'm {NICKNAME}."
+                },
+                {
+                    "id": "730670412",
+                    "speaker": "Arashakun",
+                    "text": "#Golden Nara {NICKNAME} and Paimon... So, how come you know Arashakun's name?"
+                },
+                {
+                    "id": "730670413",
+                    "speaker": "Player",
+                    "text": "We read the journal in the house."
+                },
+                {
+                    "id": "730670414",
+                    "speaker": "Arashakun",
+                    "text": "#Golden-haired Nara {NICKNAME} read the journal and came looking for Arashakun? Then rescued trapped Arashakun? Nara is so kind and so powerful."
+                },
+                {
+                    "id": "730670415",
+                    "speaker": "Arashakun",
+                    "text": "*sob* If Arashakun hadn't lost \"courage,\" Arashakun wouldn't have been so helpless..."
+                },
+                {
+                    "id": "730670416",
+                    "speaker": "Paimon",
+                    "text": "We read about that in the journal. What did you mean by missing \"courage,\" Arashakun?"
+                },
+                {
+                    "id": "730670417",
+                    "speaker": "Arashakun",
+                    "text": "This is a story from long, long ago..."
+                },
+                {
+                    "id": "730670418",
+                    "speaker": "Arashakun",
+                    "text": "Many moons ago, Arashakun was just like the Arashakun now, without \"courage.\" Back then, even the sound of a twig snapping would keep Arashakun up at night..."
+                },
+                {
+                    "id": "730670419",
+                    "speaker": "Arashakun",
+                    "text": "But even timid Arashakun had a Nara friend for a companion. That Nara friend was no mighty Nara Varuna, but was still a very good Nara!"
+                },
+                {
+                    "id": "730670420",
+                    "speaker": "Arashakun",
+                    "text": "He never teased timid Arashakun. When Arashakun felt scared, he would hold Arashakun's hand. He was a friend Arashakun would never forget."
+                },
+                {
+                    "id": "730670421",
+                    "speaker": "Arashakun",
+                    "text": "But one day, that Nara was taken by the Furry Mask Demon King..."
+                },
+                {
+                    "id": "730670422",
+                    "speaker": "Paimon",
+                    "text": "Wait, what's this Furry Mask Demon King you speak of?"
+                },
+                {
+                    "id": "730670423",
+                    "speaker": "Arashakun",
+                    "text": "Furry Mask Demon King is a furry demon king wearing a mask."
+                },
+                {
+                    "id": "730670424",
+                    "speaker": "Paimon",
+                    "text": "Uh, yeah, sure...",
+                    "choices": [
+                        {
+                            "id": "730670425",
+                            "text": "Do you know what it is, Paimon?",
+                            "response": [
+                                {
+                                    "id": "730670426",
+                                    "speaker": "Paimon",
+                                    "text": "There's no way Paimon would know that..."
+                                },
+                                {
+                                    "id": "730670429",
+                                    "speaker": "Paimon",
+                                    "text": "But the Furry Mask Demon King captured Arashakun's friend."
+                                },
+                                {
+                                    "id": "730670430",
+                                    "speaker": "Arashakun",
+                                    "text": "The Furry Mask Demon King was very cunning. Just thinking about it makes Arashakun shudder."
+                                },
+                                {
+                                    "id": "730670431",
+                                    "speaker": "Arashakun",
+                                    "text": "*sob*... When Nara friend was taken, Arashakun was afraid of getting beat up by the Furry Mask Demon King, but was even more terrified of never seeing Nara friend again."
+                                },
+                                {
+                                    "id": "730670432",
+                                    "speaker": "Arashakun",
+                                    "text": "So Arashakun tried very hard! Closed eyes! Gritted teeth! Used hands and hit, and hit, and hit! Then saved Nara friend."
+                                },
+                                {
+                                    "id": "730670433",
+                                    "speaker": "Arashakun",
+                                    "text": "After that, Nara friend used flowers to make a \"Talisman of Courage\" and told Arashakun, \"Arashakun is a good Aranara with courage, not a timid Aranara!\""
+                                },
+                                {
+                                    "id": "730670434",
+                                    "speaker": "Arashakun",
+                                    "text": "So from then on, Arashakun had \"courage.\""
+                                },
+                                {
+                                    "id": "730670435",
+                                    "speaker": "Paimon",
+                                    "text": "But wasn't \"Closed eyes! Gritted teeth! Used hands and hit, and hit, and hit!\" very courageous?"
+                                },
+                                {
+                                    "id": "730670436",
+                                    "speaker": "Arashakun",
+                                    "text": "No. Arashakun only had \"courage\" after getting it from Nara friend."
+                                },
+                                {
+                                    "id": "730670437",
+                                    "speaker": "Paimon",
+                                    "text": "But your act to save your friend was already brave."
+                                },
+                                {
+                                    "id": "730670438",
+                                    "speaker": "Arashakun",
+                                    "text": "No, no, no. Arashakun was so scared when saving Nara friend. Arms and legs, all shaky. But after getting \"courage,\" Arashakun's arms and legs were not weak anymore."
+                                },
+                                {
+                                    "id": "730670439",
+                                    "speaker": "Paimon",
+                                    "text": "Ah...",
+                                    "choices": [
+                                        {
+                                            "id": "730670440",
+                                            "text": "The talisman was just a symbol.",
+                                            "response": [
+                                                {
+                                                    "id": "730670442",
+                                                    "speaker": "Arashakun",
+                                                    "text": "#*sob*... Nara {NICKNAME} is making this too complicated. Arashakun just know that there is \"courage\" only when I have the \"Talisman of Courage.\""
+                                                },
+                                                {
+                                                    "id": "730670443",
+                                                    "speaker": "Arashakun",
+                                                    "text": "After \"courage\" was stolen, Arashakun came to the cave of the Furry Mask Demon King to search, hoping to find clues for Arashakun to find \"courage\" again."
+                                                },
+                                                {
+                                                    "id": "730670444",
+                                                    "speaker": "Paimon",
+                                                    "text": "But Arashakun ended up getting surrounded by slimes in the cave... Fortunately, the Furry Mask Demon King didn't notice."
+                                                },
+                                                {
+                                                    "id": "730670445",
+                                                    "speaker": "Paimon",
+                                                    "text": "#Speaking of which... Remember that thing we picked up from the hilichurls, {NICKNAME}? Do you think that's the talisman?"
+                                                },
+                                                {
+                                                    "id": "730670446",
+                                                    "speaker": "Paimon",
+                                                    "text": "Arashakun, we might have found the courage you lost!"
+                                                },
+                                                {
+                                                    "id": "730670447",
+                                                    "speaker": "Arashakun",
+                                                    "text": "#Really? Have you really found Arashakun's \"courage,\" Nara {NICKNAME} and Paimon?"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "730670441",
+                                            "text": "The courage was in you all along!"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "730670427",
+                            "text": "That's a very Aranara answer...",
+                            "response": [
+                                {
+                                    "id": "730670428",
+                                    "speaker": "Paimon",
+                                    "text": "Paimon has no clue what this Furry Mask Demon King could be..."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "7306705",
+            "objective": "Search the Aranara house for clues",
+            "dialogues": []
+        },
+        {
+            "id": "7306714",
+            "objective": "Talk to Paimon",
+            "dialogues": [
+                {
+                    "id": "730670301",
+                    "speaker": "Paimon",
+                    "text": "Uh, so, is \"Arashakun\" the Aranara who wrote all this?"
+                },
+                {
+                    "id": "730670302",
+                    "speaker": "Paimon",
+                    "text": "The writing in this journal is big at times and real tiny at others. The big letters are fine, but..."
+                },
+                {
+                    "id": "730670303",
+                    "speaker": "Paimon",
+                    "text": "Gotta say, the small ones hurt Paimon's eyes a little."
+                },
+                {
+                    "id": "730670304",
+                    "speaker": "Player",
+                    "text": "Our little Paimon's having trouble reading those small letters?"
+                },
+                {
+                    "id": "730670305",
+                    "speaker": "Paimon",
+                    "text": "Hey, Paimon reads letters in normal size just fine, thank you! Paimon's just not used to reading tiny letters, that's all!"
+                },
+                {
+                    "id": "730670306",
+                    "speaker": "Paimon",
+                    "text": "Hmm, did this Arashakun not return after writing these most recent pages...?"
+                },
+                {
+                    "id": "730670307",
+                    "speaker": "Paimon",
+                    "text": "Let's check out that cave in the east. The journal said that his courage is missing... Can \"courage\" really go missing? Paimon's curious..."
+                }
+            ]
+        },
+        {
+            "id": "7306706",
+            "objective": "Find Arashakun in the cave",
+            "dialogues": [
+                {
+                    "id": "730670601",
+                    "speaker": "Arashakun",
+                    "text": "Yes, this is it, this is it!"
+                },
+                {
+                    "id": "730670602",
+                    "speaker": "Arashakun",
+                    "text": "This is the \"Talisman of Courage\"! The flower has faded a bit after being apart from Arashakun for a few days..."
+                },
+                {
+                    "id": "730670603",
+                    "speaker": "Arashakun",
+                    "text": "But it's okay! Arashakun will guard it well from now on!"
+                },
+                {
+                    "id": "730670604",
+                    "speaker": "Arashakun",
+                    "text": "\"Arashakun is a good Aranara with courage, not a timid Aranara!\""
+                },
+                {
+                    "id": "730670605",
+                    "speaker": "Arashakun",
+                    "text": "#Thank you so much, Nara {NICKNAME} and Paimon!"
+                },
+                {
+                    "id": "730670606",
+                    "speaker": "Arashakun",
+                    "text": "Arashakun now has \"courage\" back. Nothing can stop me! I beat Furry Mask Demon King once before and I shall do it again!"
+                },
+                {
+                    "id": "730670607",
+                    "speaker": "Paimon",
+                    "text": "(Whoa, Arashakun's attitude and tone are completely different now.)"
+                },
+                {
+                    "id": "730670608",
+                    "speaker": "Arashakun",
+                    "text": "#The Furry Mask Demon King has done a lot of evil things. Please come with me, Nara {NICKNAME} and Paimon. With your help, we'll defeat it for sure!"
+                },
+                {
+                    "id": "730670609",
+                    "speaker": "Arashakun",
+                    "text": "Arashakun can feel it. Today... will be the day it meets its end!"
+                },
+                {
+                    "id": "730670610",
+                    "speaker": "Paimon",
+                    "text": "#Okay then, {NICKNAME}, let's go and see what on earth that Furry Mask Demon King is supposed to be!"
+                }
+            ]
+        },
+        {
+            "id": "7306707",
+            "objective": "Defeat the monsters besieging the Aranara",
+            "dialogues": [
+                {
+                    "id": "730670701",
+                    "speaker": "Paimon",
+                    "text": "Paimon had her guesses... But as it turns out, the Furry Mask Demon King really was a hilichurl all along."
+                },
+                {
+                    "id": "730670702",
+                    "speaker": "Arashakun",
+                    "text": "A hilichurl?"
+                },
+                {
+                    "id": "730670703",
+                    "speaker": "Paimon",
+                    "text": "Yes, the \"Furry Mask Demon King\" is actually a hilichurl."
+                },
+                {
+                    "id": "730670704",
+                    "speaker": "Arashakun",
+                    "text": "Are all Hillychuchu \"Furry Mask Demon Kings\"?"
+                },
+                {
+                    "id": "730670705",
+                    "speaker": "Paimon",
+                    "text": "Uh, no..."
+                },
+                {
+                    "id": "730670706",
+                    "speaker": "Player",
+                    "text": "But that's all you need to know, Arashakun."
+                },
+                {
+                    "id": "730670707",
+                    "speaker": "Arashakun",
+                    "text": "Okay, Arashakun understands."
+                },
+                {
+                    "id": "730670708",
+                    "speaker": "Arashakun",
+                    "text": "#Yes, with help from Nara {NICKNAME} and Paimon, Arashakun will lead the charge and be invincible! Even the devious Furry Mask Demon King will be no match!"
+                },
+                {
+                    "id": "730670709",
+                    "speaker": "Arashakun",
+                    "text": "Arashakun shall mark today with a big entry!"
+                },
+                {
+                    "id": "730670710",
+                    "speaker": "Player",
+                    "text": "A big entry...?"
+                },
+                {
+                    "id": "730670711",
+                    "speaker": "Arashakun",
+                    "text": "Yeah, a big entry in big writing!"
+                },
+                {
+                    "id": "730670712",
+                    "speaker": "Paimon",
+                    "text": "Arashakun with \"courage\" and without sure feel like two completely different Aranara."
+                },
+                {
+                    "id": "730670713",
+                    "speaker": "Arashakun",
+                    "text": "Arashakun with no \"courage\" has weak arms and legs, but Arashakun with \"courage\" can do all sorts of amazing feats!"
+                },
+                {
+                    "id": "730670714",
+                    "speaker": "Arashakun",
+                    "text": "\"Courage\" is not just the best gift from Nara friend, but also the most important thing to Arashakun."
+                },
+                {
+                    "id": "730670715",
+                    "speaker": "Paimon",
+                    "text": "Well, make sure you keep it safe and don't let the hilichurls steal it again!"
+                },
+                {
+                    "id": "730670716",
+                    "speaker": "Arashakun",
+                    "text": "Arashakun understands. Arashakun will never let \"courage\" go missing again!"
+                }
+            ]
+        },
+        {
+            "id": "7306713",
+            "objective": "Talk to the Aranara",
+            "dialogues": []
+        },
+        {
+            "id": "7306712",
+            "objective": "Give the talisman back to Arashakun",
+            "dialogues": []
+        },
+        {
+            "id": "7306708",
+            "objective": "Talk to Arashakun",
+            "dialogues": []
+        },
+        {
+            "id": "7306709",
+            "objective": "Go to the Furry Mask Demon King's camp",
+            "dialogues": []
+        },
+        {
+            "id": "7306710",
+            "objective": "Defeat the Furry Mask Demon King",
+            "dialogues": []
+        },
+        {
+            "id": "7306711",
+            "objective": "Talk to Arashakun",
+            "dialogues": []
+        },
+        {
+            "id": "7306705",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "730670501",
+                    "speaker": "Arashakun",
+                    "text": "#*sob*... Would Nara {NICKNAME} mind giving my \"courage\" back to me...?"
+                }
+            ]
+        },
+        {
+            "id": "7306799",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "730679904",
+                    "speaker": "???",
+                    "text": "*sob*... Help me, help me! Please, can someone out there save Arashakun from this scary cave?"
+                },
+                {
+                    "id": "730679905",
+                    "speaker": "Paimon",
+                    "text": "#Huh? {NICKNAME}, did you hear that? It sounds like someone's calling for help!"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,946 @@
+{
+    "quest": {
+        "id": "10500",
+        "title": "Astrology and the 50-Year Pact",
+        "description": "You and Paimon went outside Liyue, intending to set off on an adventure...",
+        "rewards": [
+            {
+                "itemId": 102,
+                "count": 525
+            },
+            {
+                "itemId": 202,
+                "count": 31125
+            },
+            {
+                "itemId": 104003,
+                "count": 4
+            },
+            {
+                "itemId": 104013,
+                "count": 7
+            }
+        ],
+        "rewards_formatted": "Adventure EXP x525, Mora x31125, Hero's Wit x4, Mystic Enhancement Ore x7",
+        "chapter": {
+            "icon": "UI_ChapterIcon_Mona",
+            "id": "2010",
+            "num": "Astrolabos Chapter: Act I",
+            "title": "Beyond This World's Stars"
+        },
+        "total_dialogue_lines": 157,
+        "total_speaker_counts": {
+            "???": 4,
+            "Mona": 65,
+            "Mr. Zhu": 11,
+            "Paimon": 38,
+            "Player": 39
+        }
+    },
+    "talks": [
+        {
+            "id": "1050007",
+            "objective": "Leave Liyue Harbor",
+            "dialogues": [
+                {
+                    "id": "105000701",
+                    "speaker": "Paimon",
+                    "text": "Found it! This must be the ring!"
+                },
+                {
+                    "id": "105000702",
+                    "speaker": "Paimon",
+                    "text": "It's so pretty. Paimon's sure it's worth a ton of..."
+                },
+                {
+                    "id": "105000703",
+                    "speaker": "Paimon",
+                    "text": "...Ah, Paimon wasn't having any bad thoughts! Let's bring the ring back to <color=#00E1FFFF>Mr. Zhu</color>!"
+                }
+            ]
+        },
+        {
+            "id": "1050001",
+            "objective": "Find out what the girl who stopped you wants",
+            "dialogues": [
+                {
+                    "id": "105000101",
+                    "speaker": "Paimon",
+                    "text": "H—How do you know about that?"
+                },
+                {
+                    "id": "105000102",
+                    "speaker": "???",
+                    "text": "How? Because I'm a master of true astrology."
+                },
+                {
+                    "id": "105000103",
+                    "speaker": "???",
+                    "text": "If you've no other questions, let's be off.",
+                    "choices": [
+                        {
+                            "id": "105000104",
+                            "text": "Oh, I'm just full of questions.",
+                            "response": [
+                                {
+                                    "id": "105000106",
+                                    "speaker": "???",
+                                    "text": "*sigh* Fine, I'll exercise a little patience, and explain."
+                                },
+                                {
+                                    "id": "105000107",
+                                    "speaker": "Mona",
+                                    "text": "I am Astrologist Mona Megistus. But considering that it is most rude to misremember names, I allow others to call me Mona."
+                                },
+                                {
+                                    "id": "105000108",
+                                    "speaker": "Mona",
+                                    "text": "I am on a mission from my master to retrieve a certain box from Mondstadt."
+                                },
+                                {
+                                    "id": "105000109",
+                                    "speaker": "Mona",
+                                    "text": "It was part of an agreement she made with a friend 50 years ago. But she isn't as spry as she used to be, so now it's up to me."
+                                },
+                                {
+                                    "id": "105000110",
+                                    "speaker": "Paimon",
+                                    "text": "Not sure what getting some box back has to do with us. Why do you need us to come along?"
+                                },
+                                {
+                                    "id": "105000111",
+                                    "speaker": "Mona",
+                                    "text": "Well... that's because I would also like to take on the guardian of the box."
+                                },
+                                {
+                                    "id": "105000112",
+                                    "speaker": "Mona",
+                                    "text": "My master and her friend contended in the mystic arts all their lives without a clear victor. If I triumph here, then I will show myself to be superior to my master!",
+                                    "choices": [
+                                        {
+                                            "id": "105000113",
+                                            "text": "So you want to prove yourself, huh...",
+                                            "response": [
+                                                {
+                                                    "id": "105000114",
+                                                    "speaker": "Mona",
+                                                    "text": "Ahem, well, I want to prove the power and status of astrology, to be precise."
+                                                },
+                                                {
+                                                    "id": "105000117",
+                                                    "speaker": "Mona",
+                                                    "text": "Now, from my predictions, I know that my master's friend has left Mondstadt, leaving her successor as the current guardian of that box."
+                                                },
+                                                {
+                                                    "id": "105000118",
+                                                    "speaker": "Mona",
+                                                    "text": "Like me, that successor must also be one who has surpassed their teacher. I must not be careless."
+                                                },
+                                                {
+                                                    "id": "105000119",
+                                                    "speaker": "Mona",
+                                                    "text": "But I would prefer to assure my victory in this contest, and upon giving it some thought, you came to mind!",
+                                                    "choices": [
+                                                        {
+                                                            "id": "105000120",
+                                                            "text": "But... I have no idea how astrology works.",
+                                                            "response": [
+                                                                {
+                                                                    "id": "105000121",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "#How did {M#he}{F#she} get involved in this anyway?"
+                                                                },
+                                                                {
+                                                                    "id": "105000123",
+                                                                    "speaker": "Mona",
+                                                                    "text": "The knowledge passed down to me from my master must be passed on in turn."
+                                                                },
+                                                                {
+                                                                    "id": "105000124",
+                                                                    "speaker": "Mona",
+                                                                    "text": "If I were to bring my disciple to meet her, then the lead is already mine, no?"
+                                                                },
+                                                                {
+                                                                    "id": "105000125",
+                                                                    "speaker": "Mona",
+                                                                    "text": "And you are Mondstadt's great hero, my equal in status. So...",
+                                                                    "choices": [
+                                                                        {
+                                                                            "id": "105000126",
+                                                                            "text": "I refuse.",
+                                                                            "response": [
+                                                                                {
+                                                                                    "id": "105000128",
+                                                                                    "speaker": "Mona",
+                                                                                    "text": "Come on, you don't have to actually become my disciple. You just need to act the part."
+                                                                                },
+                                                                                {
+                                                                                    "id": "105000129",
+                                                                                    "speaker": "Mona",
+                                                                                    "text": "There's something in it for you as well, should you come with me to get that box."
+                                                                                },
+                                                                                {
+                                                                                    "id": "105000130",
+                                                                                    "speaker": "Mona",
+                                                                                    "text": "Once I meet that successor and have a chance to exchange knowledge with them, I should be able to read your fate more accurately."
+                                                                                },
+                                                                                {
+                                                                                    "id": "105000131",
+                                                                                    "speaker": "Mona",
+                                                                                    "text": "Then, I will have answers for you, even regarding such distant and foggy matters as gods and kin."
+                                                                                },
+                                                                                {
+                                                                                    "id": "105000132",
+                                                                                    "speaker": "Paimon",
+                                                                                    "text": "That does seem much faster than searching the land country by country!",
+                                                                                    "choices": [
+                                                                                        {
+                                                                                            "id": "105000133",
+                                                                                            "text": "Those sound like fine conditions.",
+                                                                                            "response": [
+                                                                                                {
+                                                                                                    "id": "105000135",
+                                                                                                    "speaker": "Mona",
+                                                                                                    "text": "Hehe, a wise decision."
+                                                                                                },
+                                                                                                {
+                                                                                                    "id": "105000136",
+                                                                                                    "speaker": "Mona",
+                                                                                                    "text": "That said, I would like to pay a certain place a visit before we go."
+                                                                                                }
+                                                                                            ]
+                                                                                        },
+                                                                                        {
+                                                                                            "id": "105000134",
+                                                                                            "text": "Well... I guess we'll play along."
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        {
+                                                                            "id": "105000127",
+                                                                            "text": "Since when was I your student?"
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "id": "105000122",
+                                                            "text": "How did you end up thinking of me?"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "105000115",
+                                            "text": "So basically, you want to look good.",
+                                            "response": [
+                                                {
+                                                    "id": "105000116",
+                                                    "speaker": "Mona",
+                                                    "text": "What are you talking about? The main thing here is to use this chance to prove the power and status of astrology!"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "105000105",
+                            "text": "For starters, who are you?"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "1050002",
+            "objective": "Find out what the girl who stopped you wants",
+            "dialogues": []
+        },
+        {
+            "id": "1050003",
+            "objective": "Accompany Mona to say farewell to Mr. Zhu",
+            "dialogues": [
+                {
+                    "id": "105000201",
+                    "speaker": "Paimon",
+                    "text": "(Well, it's no wonder that an inn set up here has no business...)"
+                },
+                {
+                    "id": "105000202",
+                    "speaker": "Mr. Zhu",
+                    "text": "Mona, you've come at just the right time. Did you see a jade ring while you made your way here?"
+                },
+                {
+                    "id": "105000203",
+                    "speaker": "Mona",
+                    "text": "A jade ring? Can't say I have."
+                },
+                {
+                    "id": "105000204",
+                    "speaker": "Mr. Zhu",
+                    "text": "Oh, that's not good... that ring was given to me by my mother. But while my back was turned, it was swallowed up by a slime!"
+                },
+                {
+                    "id": "105000205",
+                    "speaker": "Paimon",
+                    "text": "Hmm? That should be no trouble with Mona here. She's really good at astrology..."
+                },
+                {
+                    "id": "105000206",
+                    "speaker": "Mona",
+                    "text": "Absolutely not. Astrology is meant to be used to gain insight into reality and observe destiny itself. It's certainly not for such mundane affairs."
+                },
+                {
+                    "id": "105000207",
+                    "speaker": "Paimon",
+                    "text": "But didn't you say that the owner here's been good to you?"
+                },
+                {
+                    "id": "105000208",
+                    "speaker": "Mona",
+                    "text": "This is a matter of pride and one's state of mind. If an astrologist thinks that their arts can solve all problems, they will be forsaken by the starry ether."
+                },
+                {
+                    "id": "105000209",
+                    "speaker": "Mona",
+                    "text": "Their divinations will lose the power to guide, and will not be able to pierce the fog of the unknown before them. Principles are principles."
+                },
+                {
+                    "id": "105000210",
+                    "speaker": "Paimon",
+                    "text": "Such a powerful ability, and you don't use it to earn a living? What a shame..."
+                },
+                {
+                    "id": "105000211",
+                    "speaker": "Mr. Zhu",
+                    "text": "*sigh* Well, I was going to put up twenty thousand Mora as compensation, if you were willing."
+                },
+                {
+                    "id": "105000212",
+                    "speaker": "Mona",
+                    "text": "Twenty thousand...!",
+                    "choices": [
+                        {
+                            "id": "105000213",
+                            "text": "Are you alright?",
+                            "response": [
+                                {
+                                    "id": "105000215",
+                                    "speaker": "Mona",
+                                    "text": "Oh, ahh, it's nothing! I... I was just thinking that the person who finds that ring must be lucky indeed, to be able to earn twenty thousand Mora just like that.",
+                                    "choices": [
+                                        {
+                                            "id": "105000216",
+                                            "text": "You were just talking about an astrologist's pride...",
+                                            "response": [
+                                                {
+                                                    "id": "105000218",
+                                                    "speaker": "Mona",
+                                                    "text": "Ahem. Yes. Of course. Still... the owner's business has had it pretty hard. It must be a truly extraordinary ring, to be worth spending this much Mora to find."
+                                                },
+                                                {
+                                                    "id": "105000219",
+                                                    "speaker": "Mona",
+                                                    "text": "It wouldn't be right for us to leave like this, so let's help to search for it. There may be other means we can employ besides astrology."
+                                                },
+                                                {
+                                                    "id": "105000220",
+                                                    "speaker": "Paimon",
+                                                    "text": "Oh, Paimon knows where this is going."
+                                                },
+                                                {
+                                                    "id": "105000221",
+                                                    "speaker": "Mona",
+                                                    "text": "#{NICKNAME}, I know, I'll leave this one to you! This is the first mission I'm giving you as your master!",
+                                                    "choices": [
+                                                        {
+                                                            "id": "105000222",
+                                                            "text": "But of course...",
+                                                            "response": [
+                                                                {
+                                                                    "id": "105000224",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "Hmm, since it was swallowed up by a slime, maybe we can use Elemental Bait to lure all the nearby slimes to us."
+                                                                },
+                                                                {
+                                                                    "id": "105000225",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "You remember? The stuff we helped Master Diluc make."
+                                                                },
+                                                                {
+                                                                    "id": "105000226",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "And... Hehe, Paimon actually kept a small amount!",
+                                                                    "choices": [
+                                                                        {
+                                                                            "id": "105000227",
+                                                                            "text": "Well done Paimon!",
+                                                                            "response": [
+                                                                                {
+                                                                                    "id": "105000228",
+                                                                                    "speaker": "Paimon",
+                                                                                    "text": "Paimon's the very best partner, right?"
+                                                                                },
+                                                                                {
+                                                                                    "id": "105000231",
+                                                                                    "speaker": "Mona",
+                                                                                    "text": "Seems like you already have a plan."
+                                                                                },
+                                                                                {
+                                                                                    "id": "105000232",
+                                                                                    "speaker": "Paimon",
+                                                                                    "text": "Yup. We'll be back in a jiffy!"
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        {
+                                                                            "id": "105000229",
+                                                                            "text": "Don't tell me that when you get greedy, you...",
+                                                                            "response": [
+                                                                                {
+                                                                                    "id": "105000230",
+                                                                                    "speaker": "Paimon",
+                                                                                    "text": "Aw, don't sweat the small stuff."
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "id": "105000223",
+                                                            "text": "Guess it's become my business. Again."
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "105000217",
+                                            "text": "Whatever happened to \"principles are principles\"?"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "105000214",
+                            "text": "What's with that look on your face?"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "1050004",
+            "objective": "Attract slimes and reclaim Mr. Zhu's lost ring",
+            "dialogues": [
+                {
+                    "id": "105000401",
+                    "speaker": "Mona",
+                    "text": "There is a small inn near <color=#00E1FFFF>Mt. Tianheng</color> that never sees a lot of business, even though its food is always great value for the money."
+                }
+            ]
+        },
+        {
+            "id": "1050005",
+            "objective": "Defeat the slimes and search for the ring",
+            "dialogues": [
+                {
+                    "id": "105000501",
+                    "speaker": "Mr. Zhu",
+                    "text": "Thank you all very much, that ring really is very important to me."
+                }
+            ]
+        },
+        {
+            "id": "1050008",
+            "objective": "Talk to Paimon",
+            "dialogues": []
+        },
+        {
+            "id": "1050006",
+            "objective": "Give the ring back to Mr. Zhu",
+            "dialogues": [
+                {
+                    "id": "105000301",
+                    "speaker": "Mr. Zhu",
+                    "text": "That's it, that's the one! I thought it was lost forever!"
+                },
+                {
+                    "id": "105000302",
+                    "speaker": "Mona",
+                    "text": "You actually found it. Not bad."
+                },
+                {
+                    "id": "105000303",
+                    "speaker": "Mona",
+                    "text": "Mr. Zhu, you must take care of such precious things a bit better. You might not be so fortunate next time."
+                },
+                {
+                    "id": "105000304",
+                    "speaker": "Mr. Zhu",
+                    "text": "You're absolutely right. How would I have faced my family if I had lost the 253rd ring my mother gave me?",
+                    "choices": [
+                        {
+                            "id": "105000305",
+                            "text": "...",
+                            "response": [
+                                {
+                                    "id": "105000308",
+                                    "speaker": "Mr. Zhu",
+                                    "text": "Ah, let me explain. My family owns three jade mines, and in order to ensure that I would be able to find myself a good wife, my mother had many jade accessories made as heirlooms."
+                                },
+                                {
+                                    "id": "105000309",
+                                    "speaker": "Mr. Zhu",
+                                    "text": "I think there might be over five hundred of them."
+                                },
+                                {
+                                    "id": "105000310",
+                                    "speaker": "Mona",
+                                    "text": "Then, why would you feel the need to set up an inn here?"
+                                },
+                                {
+                                    "id": "105000311",
+                                    "speaker": "Mr. Zhu",
+                                    "text": "Well, inheriting the family business too early unavoidably made things boring."
+                                },
+                                {
+                                    "id": "105000312",
+                                    "speaker": "Mr. Zhu",
+                                    "text": "Thank you, all the same. Here's the Mora, as agreed. Please take it."
+                                },
+                                {
+                                    "id": "105000313",
+                                    "speaker": "Paimon",
+                                    "text": "Then—"
+                                },
+                                {
+                                    "id": "105000314",
+                                    "speaker": "Mona",
+                                    "text": "—Then I'll take it gladly!",
+                                    "choices": [
+                                        {
+                                            "id": "105000315",
+                                            "text": "That was quick!",
+                                            "response": [
+                                                {
+                                                    "id": "105000317",
+                                                    "speaker": "Paimon",
+                                                    "text": "But we did all the work!"
+                                                },
+                                                {
+                                                    "id": "105000318",
+                                                    "speaker": "Mona",
+                                                    "text": "A disciple should act like one. How can they steal their master's thunder?",
+                                                    "choices": [
+                                                        {
+                                                            "id": "105000319",
+                                                            "text": "Well...",
+                                                            "response": [
+                                                                {
+                                                                    "id": "105000320",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "#{NICKNAME}, didn't we say we were just playing pretend?"
+                                                                },
+                                                                {
+                                                                    "id": "105000323",
+                                                                    "speaker": "Mona",
+                                                                    "text": "Well, you need to start practicing now. If my rival is as smart as I think they are, they will figure you out in a heartbeat."
+                                                                },
+                                                                {
+                                                                    "id": "105000324",
+                                                                    "speaker": "???",
+                                                                    "text": "*stomach grumble*"
+                                                                },
+                                                                {
+                                                                    "id": "105000325",
+                                                                    "speaker": "Mona",
+                                                                    "text": "Huh..."
+                                                                },
+                                                                {
+                                                                    "id": "105000326",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "What was that rumbling sound?"
+                                                                },
+                                                                {
+                                                                    "id": "105000327",
+                                                                    "speaker": "Mr. Zhu",
+                                                                    "text": "Oh, right, you mustn't have eaten in days. I'm very sorry, I forgot that you have no..."
+                                                                },
+                                                                {
+                                                                    "id": "105000328",
+                                                                    "speaker": "Mona",
+                                                                    "text": "Aaaaaaah—! Shhhhahahahaha! That didn't happen! Forget it!"
+                                                                },
+                                                                {
+                                                                    "id": "105000329",
+                                                                    "speaker": "Mona",
+                                                                    "text": "...Hmph! Well, I suddenly feel that you have indeed contributed to our good fortune. I say we spend this money on treating you to a fine meal!"
+                                                                },
+                                                                {
+                                                                    "id": "105000330",
+                                                                    "speaker": "Mona",
+                                                                    "text": "If we travel north, we'll reach the <color=#00E1FFFF>Wangshu Inn</color>. I hear that the food there is really good, so let's go try it out!"
+                                                                },
+                                                                {
+                                                                    "id": "105000331",
+                                                                    "speaker": "Mona",
+                                                                    "text": "No need to thank me, I'm just doing as a good master should!"
+                                                                },
+                                                                {
+                                                                    "id": "105000332",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "Did she say she was treating us!? Is Paimon hearing things?",
+                                                                    "choices": [
+                                                                        {
+                                                                            "id": "105000333",
+                                                                            "text": "\"Let's go after her.\" There. I said it for you.",
+                                                                            "response": [
+                                                                                {
+                                                                                    "id": "105000334",
+                                                                                    "speaker": "Paimon",
+                                                                                    "text": "Let's go after her! For good food!"
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        {
+                                                                            "id": "105000335",
+                                                                            "text": "\"She's a good person.\" Said it for you.",
+                                                                            "response": [
+                                                                                {
+                                                                                    "id": "105000336",
+                                                                                    "speaker": "Paimon",
+                                                                                    "text": "She's such a good person! Hehe, let's have ourselves a great meal!"
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "id": "105000321",
+                                                            "text": "I never said I'd really be your disciple.",
+                                                            "response": [
+                                                                {
+                                                                    "id": "105000322",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "Exactly!"
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "105000316",
+                                            "text": "Even Paimon wasn't that fast!"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "105000306",
+                            "text": "..."
+                        },
+                        {
+                            "id": "105000307",
+                            "text": "... ... ..."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "1050004",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "105000402",
+                    "speaker": "Mona",
+                    "text": "The owner has always been good to me, so I'd like to say a farewell before I set off."
+                },
+                {
+                    "id": "105000403",
+                    "speaker": "Paimon",
+                    "text": "The Elemental Bait's really strong — it will attract all the slimes in the area."
+                },
+                {
+                    "id": "105000404",
+                    "speaker": "Paimon",
+                    "text": "Even if they're just slimes, they can be dangerous together, so we'd best prepare ourselves."
+                }
+            ]
+        },
+        {
+            "id": "1050006",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "105000601",
+                    "speaker": "Mona",
+                    "text": "This is your first mission, so don't mess it up."
+                },
+                {
+                    "id": "105000602",
+                    "speaker": "Mona",
+                    "text": "But if the going gets too tough for you... Well, I shall lend a hand then."
+                }
+            ]
+        },
+        {
+            "id": "1050008",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "105000825",
+                    "speaker": "Paimon",
+                    "text": "Did you know? It's something that the Dawn Winery accidentally refined while making wine..."
+                },
+                {
+                    "id": "105000826",
+                    "speaker": "Paimon",
+                    "text": "The formula is a secret, but it's really good at attracting slimes."
+                },
+                {
+                    "id": "105000827",
+                    "speaker": "Paimon",
+                    "text": "And... Hehe, Paimon actually kept a small amount!",
+                    "choices": [
+                        {
+                            "id": "105000828",
+                            "text": "Well done Paimon!",
+                            "response": [
+                                {
+                                    "id": "105000829",
+                                    "speaker": "Paimon",
+                                    "text": "Paimon's the very best partner, right?"
+                                },
+                                {
+                                    "id": "105000832",
+                                    "speaker": "Mona",
+                                    "text": "Seems like you already have a plan."
+                                },
+                                {
+                                    "id": "105000833",
+                                    "speaker": "Paimon",
+                                    "text": "Yup. We'll be back in a jiffy!"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "105000830",
+                            "text": "Don't tell me that when you get greedy, you...",
+                            "response": [
+                                {
+                                    "id": "105000831",
+                                    "speaker": "Paimon",
+                                    "text": "Aw, don't sweat the small stuff."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "1050009",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "105000901",
+                    "speaker": "Mona",
+                    "text": "Does my ability to see through your secrets so easily not evoke any memories?",
+                    "choices": [
+                        {
+                            "id": "105000902",
+                            "text": "It's been a while.",
+                            "response": [
+                                {
+                                    "id": "105000904",
+                                    "speaker": "Paimon",
+                                    "text": "Oh, Paimon remembers! You're that astrologist!"
+                                },
+                                {
+                                    "id": "105000905",
+                                    "speaker": "Mona",
+                                    "text": "That's right. It is I, Astrologist Mona Megistus."
+                                },
+                                {
+                                    "id": "105000906",
+                                    "speaker": "Mona",
+                                    "text": "This time, I would like you to come with me to Mondstadt to reclaim a box that belongs to my master."
+                                },
+                                {
+                                    "id": "105000907",
+                                    "speaker": "Mona",
+                                    "text": "It was part of an agreement she made with a friend 50 years ago. But she isn't as spry as she used to be, so now it's up to me."
+                                },
+                                {
+                                    "id": "105000908",
+                                    "speaker": "Paimon",
+                                    "text": "Not sure what getting some box back has to do with us. Why do you need us to come along?"
+                                },
+                                {
+                                    "id": "105000909",
+                                    "speaker": "Mona",
+                                    "text": "Well... that's because I would also like to take on the guardian of the box."
+                                },
+                                {
+                                    "id": "105000910",
+                                    "speaker": "Mona",
+                                    "text": "My master and her friend contended in the mystic arts all their lives without a clear victor. If I triumph here, then I will show myself to be superior to my master!",
+                                    "choices": [
+                                        {
+                                            "id": "105000911",
+                                            "text": "So you want to prove yourself, huh...",
+                                            "response": [
+                                                {
+                                                    "id": "105000912",
+                                                    "speaker": "Mona",
+                                                    "text": "Ahem, well, I want to prove the power and status of astrology, to be precise."
+                                                },
+                                                {
+                                                    "id": "105000915",
+                                                    "speaker": "Mona",
+                                                    "text": "Now, from my predictions, I know that my master's friend has left Mondstadt, leaving her successor as the current guardian of that box."
+                                                },
+                                                {
+                                                    "id": "105000916",
+                                                    "speaker": "Mona",
+                                                    "text": "Like me, that successor must also be one who has surpassed their teacher. I must not be careless."
+                                                },
+                                                {
+                                                    "id": "105000917",
+                                                    "speaker": "Mona",
+                                                    "text": "But I would prefer to assure my victory in this contest, and upon giving it some thought, you came to mind!",
+                                                    "choices": [
+                                                        {
+                                                            "id": "105000918",
+                                                            "text": "But... I have no idea how astrology works.",
+                                                            "response": [
+                                                                {
+                                                                    "id": "105000919",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "#How did {M#he}{F#she} get involved in this anyway?"
+                                                                },
+                                                                {
+                                                                    "id": "105000921",
+                                                                    "speaker": "Mona",
+                                                                    "text": "The knowledge passed down to me from my master must be passed on in turn."
+                                                                },
+                                                                {
+                                                                    "id": "105000922",
+                                                                    "speaker": "Mona",
+                                                                    "text": "If I were to bring my disciple to meet her, then the lead is already mine, no?"
+                                                                },
+                                                                {
+                                                                    "id": "105000923",
+                                                                    "speaker": "Mona",
+                                                                    "text": "And you are Mondstadt's great hero, my equal in status. So...",
+                                                                    "choices": [
+                                                                        {
+                                                                            "id": "105000924",
+                                                                            "text": "I refuse.",
+                                                                            "response": [
+                                                                                {
+                                                                                    "id": "105000926",
+                                                                                    "speaker": "Mona",
+                                                                                    "text": "Come on, you don't have to actually become my disciple. You just need to act the part."
+                                                                                },
+                                                                                {
+                                                                                    "id": "105000927",
+                                                                                    "speaker": "Mona",
+                                                                                    "text": "There's something in it for you as well, should you come with me to get that box."
+                                                                                },
+                                                                                {
+                                                                                    "id": "105000928",
+                                                                                    "speaker": "Mona",
+                                                                                    "text": "Once I meet that successor and have a chance to exchange knowledge with them, I should be able to read your fate more accurately."
+                                                                                },
+                                                                                {
+                                                                                    "id": "105000929",
+                                                                                    "speaker": "Mona",
+                                                                                    "text": "Then, I will have answers for you, even regarding such distant and foggy matters as gods and kin."
+                                                                                },
+                                                                                {
+                                                                                    "id": "105000930",
+                                                                                    "speaker": "Paimon",
+                                                                                    "text": "That does seem much faster than searching the land country by country!",
+                                                                                    "choices": [
+                                                                                        {
+                                                                                            "id": "105000931",
+                                                                                            "text": "Those sound like fine conditions.",
+                                                                                            "response": [
+                                                                                                {
+                                                                                                    "id": "105000933",
+                                                                                                    "speaker": "Mona",
+                                                                                                    "text": "Hehe, a wise decision."
+                                                                                                },
+                                                                                                {
+                                                                                                    "id": "105000934",
+                                                                                                    "speaker": "Mona",
+                                                                                                    "text": "That said, I would like to pay a certain place a visit before we go."
+                                                                                                }
+                                                                                            ]
+                                                                                        },
+                                                                                        {
+                                                                                            "id": "105000932",
+                                                                                            "text": "Well... I guess we'll play along."
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        {
+                                                                            "id": "105000925",
+                                                                            "text": "Since when was I your student?"
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "id": "105000920",
+                                                            "text": "How did you end up thinking of me?"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "105000913",
+                                            "text": "So basically, you want to look good.",
+                                            "response": [
+                                                {
+                                                    "id": "105000914",
+                                                    "speaker": "Mona",
+                                                    "text": "What are you talking about? The main thing here is to use this chance to prove the power and status of astrology!"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "105000903",
+                            "text": "You're Mona!"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

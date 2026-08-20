@@ -1,0 +1,894 @@
+{
+    "quest": {
+        "id": "2013",
+        "title": "Ritou Escape Plan",
+        "description": "Thoma has set you a test to leave Ritou by your own power, lest your journey end here...",
+        "rewards": [
+            {
+                "itemId": 102,
+                "count": 800
+            },
+            {
+                "itemId": 202,
+                "count": 38100
+            },
+            {
+                "itemId": 104003,
+                "count": 4
+            },
+            {
+                "itemId": 104013,
+                "count": 7
+            }
+        ],
+        "rewards_formatted": "Adventure EXP x800, Mora x38100, Hero's Wit x4, Mystic Enhancement Ore x7",
+        "chapter": {
+            "icon": "UI_ChapterIcon_Inazuma",
+            "id": "1202",
+            "num": "Chapter II: Act I",
+            "title": "The Immovable God and the Eternal Euthymia"
+        },
+        "total_dialogue_lines": 150,
+        "total_speaker_counts": {
+            "Hiiragi Chisato": 28,
+            "Hiiragi Shinsuke": 21,
+            "Kenzaburou": 11,
+            "Kobayashi": 2,
+            "Paimon": 43,
+            "Player": 29,
+            "Shinnojou": 12,
+            "Yokoyama": 4
+        }
+    },
+    "talks": [
+        {
+            "id": "201301",
+            "objective": "Try to leave Ritou",
+            "dialogues": [
+                {
+                    "id": "20130101",
+                    "speaker": "Kobayashi",
+                    "text": "Stop there! Present your Travel Permits!"
+                },
+                {
+                    "id": "20130102",
+                    "speaker": "Paimon",
+                    "text": "Sorry, but we've really gotta get to Narukami Island, it's kinda urgent..."
+                },
+                {
+                    "id": "20130103",
+                    "speaker": "Kobayashi",
+                    "text": "If you don't have a Travel Permit, this is as far as you'll get. Those are the rules."
+                },
+                {
+                    "id": "20130104",
+                    "speaker": "Paimon",
+                    "text": "Huh... as expected."
+                },
+                {
+                    "id": "20130105",
+                    "speaker": "Paimon",
+                    "text": "Traveler, you gotta think of something. How do we get out of Ritou?",
+                    "choices": [
+                        {
+                            "id": "20130106",
+                            "text": "If the Yashiro Commission has heard of us...",
+                            "response": [
+                                {
+                                    "id": "20130108",
+                                    "speaker": "Paimon",
+                                    "text": "Are you saying... we should go and meet with the Kanjou Commissioner?"
+                                },
+                                {
+                                    "id": "20130109",
+                                    "speaker": "Paimon",
+                                    "text": "...Guess it can't hurt to try. Even if Paimon has a few choice words to say about his subordinates..."
+                                },
+                                {
+                                    "id": "20130110",
+                                    "speaker": "Paimon",
+                                    "text": "Who knows — maybe he's our biggest fan! Hee-hee."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "20130107",
+                            "text": "I wonder if the Kanjou Commission has heard of us..."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "201311",
+            "objective": "Go to the Kanjou Commissioner's Office to ask about a way to leave Ritou",
+            "dialogues": [
+                {
+                    "id": "20131101",
+                    "speaker": "Yokoyama",
+                    "text": "Halt! This is the Kanjou Commissioner's Office. No trespassers!"
+                },
+                {
+                    "id": "20131102",
+                    "speaker": "Paimon",
+                    "text": "We're here to see, uh... y'know, um... the Kanjou Commissioner!"
+                },
+                {
+                    "id": "20131103",
+                    "speaker": "Yokoyama",
+                    "text": "The Kanjou Commissioner seldom entertains outlanders. Leave, now or we'll be forced to—"
+                },
+                {
+                    "id": "20131104",
+                    "speaker": "Hiiragi Shinsuke",
+                    "text": "Ah... Wait, wait, wait..."
+                },
+                {
+                    "id": "20131105",
+                    "speaker": "Yokoyama",
+                    "text": "Oh! Commissioner!"
+                },
+                {
+                    "id": "20131106",
+                    "speaker": "Hiiragi Shinsuke",
+                    "text": "These two are honored guests from afar, no need to give them the usual spiel."
+                },
+                {
+                    "id": "20131107",
+                    "speaker": "Hiiragi Shinsuke",
+                    "text": "Come on in, let's see what we can do for you."
+                },
+                {
+                    "id": "20131108",
+                    "speaker": "Paimon",
+                    "text": "Hmph! Did you get all that, mister!?"
+                },
+                {
+                    "id": "20131109",
+                    "speaker": "Yokoyama",
+                    "text": "M—My sincere apologies."
+                }
+            ]
+        },
+        {
+            "id": "201302",
+            "objective": "Talk to Shinsuke of the Kanjou Commission",
+            "dialogues": [
+                {
+                    "id": "20130201",
+                    "speaker": "Hiiragi Shinsuke",
+                    "text": "I am Hiiragi Shinsuke, Kanjou Commissioner and head of the Hiiragi Clan. It's an honor to meet you both.",
+                    "choices": [
+                        {
+                            "id": "20130202",
+                            "text": "I, too, am honored to meet you.",
+                            "response": [
+                                {
+                                    "id": "20130204",
+                                    "speaker": "Paimon",
+                                    "text": "Nice to meet you, Sir!"
+                                },
+                                {
+                                    "id": "20130205",
+                                    "speaker": "Paimon",
+                                    "text": "So, the reason we wanted to come and see you was because—"
+                                },
+                                {
+                                    "id": "20130206",
+                                    "speaker": "Hiiragi Shinsuke",
+                                    "text": "Alright, alright, all in good time. Two travelers renowned far and wide have shown up to see me, and I should very much like to make their acquaintance! Let's not limit this to business only."
+                                },
+                                {
+                                    "id": "20130207",
+                                    "speaker": "Paimon",
+                                    "text": "Hee-hee, so what you're saying is, we really are pretty famous, huh?"
+                                },
+                                {
+                                    "id": "20130208",
+                                    "speaker": "Hiiragi Shinsuke",
+                                    "text": "Absolutely. How many other people in the world have what it takes to knock the wind out of Stormterror's sails and put the Overlord of the Vortex back under the sea, eh?"
+                                },
+                                {
+                                    "id": "20130209",
+                                    "speaker": "Paimon",
+                                    "text": "Exactly! Paimon thinks you make an excellent point."
+                                },
+                                {
+                                    "id": "20130210",
+                                    "speaker": "Hiiragi Shinsuke",
+                                    "text": "And... I hear you also foiled a Fatui plot in Liyue Harbor, even beat one of their harbingers in a duel. Is that true?"
+                                },
+                                {
+                                    "id": "20130211",
+                                    "speaker": "Paimon",
+                                    "text": "Whoa! You heard about that, too? Yup, it's true, alright!"
+                                },
+                                {
+                                    "id": "20130212",
+                                    "speaker": "Hiiragi Shinsuke",
+                                    "text": "Hmm... As I thought."
+                                },
+                                {
+                                    "id": "20130213",
+                                    "speaker": "Paimon",
+                                    "text": "Something wrong?"
+                                },
+                                {
+                                    "id": "20130214",
+                                    "speaker": "Hiiragi Shinsuke",
+                                    "text": "Hehe, no, no, no. I'm simply awestruck by you both, is all.",
+                                    "choices": [
+                                        {
+                                            "id": "20130215",
+                                            "text": "You're too kind.",
+                                            "response": [
+                                                {
+                                                    "id": "20130217",
+                                                    "speaker": "Hiiragi Shinsuke",
+                                                    "text": "...Ritou is greatly honored to have you visit us."
+                                                },
+                                                {
+                                                    "id": "20130218",
+                                                    "speaker": "Hiiragi Shinsuke",
+                                                    "text": "One other thing I heard about you is your great zeal for helping other people. This makes me wonder... whether you might be so kind as to render your assistance to the Kanjou Commission?"
+                                                },
+                                                {
+                                                    "id": "20130219",
+                                                    "speaker": "Paimon",
+                                                    "text": "#Sure, no problem! Whatever you need — right, {NICKNAME}?",
+                                                    "choices": [
+                                                        {
+                                                            "id": "20130220",
+                                                            "text": "Time to run some errands again?",
+                                                            "response": [
+                                                                {
+                                                                    "id": "20130222",
+                                                                    "speaker": "Hiiragi Shinsuke",
+                                                                    "text": "Excellent. Well, then..."
+                                                                },
+                                                                {
+                                                                    "id": "20130223",
+                                                                    "speaker": "Hiiragi Shinsuke",
+                                                                    "text": "You must know the Qingxin? A flower, grows on the mountaintops in Liyue."
+                                                                },
+                                                                {
+                                                                    "id": "20130224",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "Yup, we've picked a few of those before. So, uh... you want us to go back to Liyue?"
+                                                                },
+                                                                {
+                                                                    "id": "20130225",
+                                                                    "speaker": "Hiiragi Shinsuke",
+                                                                    "text": "Yes. Bring me 300 Qingxin, would you? Freshly picked, I mean."
+                                                                },
+                                                                {
+                                                                    "id": "20130226",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "...Uh, did Paimon hear that wrong?",
+                                                                    "choices": [
+                                                                        {
+                                                                            "id": "20130227",
+                                                                            "text": "I think you might be a couple orders of magnitude off?",
+                                                                            "response": [
+                                                                                {
+                                                                                    "id": "20130229",
+                                                                                    "speaker": "Hiiragi Shinsuke",
+                                                                                    "text": "Hmm? Too much trouble, is it? Hmm... I see."
+                                                                                },
+                                                                                {
+                                                                                    "id": "20130230",
+                                                                                    "speaker": "Hiiragi Shinsuke",
+                                                                                    "text": "Then how about this: We have a few items that need delivering, perhaps you could help with that?"
+                                                                                },
+                                                                                {
+                                                                                    "id": "20130231",
+                                                                                    "speaker": "Paimon",
+                                                                                    "text": "That sounds much more like it."
+                                                                                },
+                                                                                {
+                                                                                    "id": "20130232",
+                                                                                    "speaker": "Hiiragi Shinsuke",
+                                                                                    "text": "709 letters, to be precise."
+                                                                                },
+                                                                                {
+                                                                                    "id": "20130233",
+                                                                                    "speaker": "Paimon",
+                                                                                    "text": "Hey! What gives? How come you don't have people to do that already!?"
+                                                                                },
+                                                                                {
+                                                                                    "id": "20130234",
+                                                                                    "speaker": "Hiiragi Shinsuke",
+                                                                                    "text": "Terribly sorry, we're just a little short on people lately..."
+                                                                                },
+                                                                                {
+                                                                                    "id": "20130235",
+                                                                                    "speaker": "Paimon",
+                                                                                    "text": "What sort of an explanation is that!?"
+                                                                                },
+                                                                                {
+                                                                                    "id": "20130236",
+                                                                                    "speaker": "Player",
+                                                                                    "text": "..."
+                                                                                },
+                                                                                {
+                                                                                    "id": "20130237",
+                                                                                    "speaker": "Paimon",
+                                                                                    "text": "Traveler, what're we gonna do? Should we really help this guy?",
+                                                                                    "choices": [
+                                                                                        {
+                                                                                            "id": "20130238",
+                                                                                            "text": "I'll consider it.",
+                                                                                            "response": [
+                                                                                                {
+                                                                                                    "id": "20130240",
+                                                                                                    "speaker": "Hiiragi Shinsuke",
+                                                                                                    "text": "That's the spirit! Don't keep me waiting too long, now, hehe..."
+                                                                                                }
+                                                                                            ]
+                                                                                        },
+                                                                                        {
+                                                                                            "id": "20130239",
+                                                                                            "text": "I'll need to look into it more first."
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        {
+                                                                            "id": "20130228",
+                                                                            "text": "They don't stay fresh after they're picked."
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "id": "20130221",
+                                                            "text": "This is my forte."
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "20130216",
+                                            "text": "Ultimately, they still got their way."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "20130203",
+                            "text": "Hey there."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "201303",
+            "objective": "Leave the Kanjou Commissioner's Office",
+            "dialogues": []
+        },
+        {
+            "id": "201304",
+            "objective": "Talk to Shinnojou",
+            "dialogues": [
+                {
+                    "id": "20130401",
+                    "speaker": "Shinnojou",
+                    "text": "Halt, you two.",
+                    "choices": [
+                        {
+                            "id": "20130402",
+                            "text": "Just as I expected.",
+                            "response": [
+                                {
+                                    "id": "20130404",
+                                    "speaker": "Paimon",
+                                    "text": "Huh? What did we do?"
+                                },
+                                {
+                                    "id": "20130405",
+                                    "speaker": "Shinnojou",
+                                    "text": "Miss Hiiragi has a letter for you. She insists that you read it immediately."
+                                },
+                                {
+                                    "id": "20130406",
+                                    "speaker": "Paimon",
+                                    "text": "A letter? Quick, let Paimon see!"
+                                },
+                                {
+                                    "id": "20130407",
+                                    "speaker": "Paimon",
+                                    "text": "Dear Traveler, would that I could convey this message to you in person. I apologize for the hasty means by which this letter has come to you and I hope that it hasn't left you feeling perplexed or perturbed in any way. This is my first time extending an invitation to an unknown outlander, after all. It is no mere coincidence that our paths have crossed. Therefore, I hope that you would be so courteous as to meet me tonight, under the glow of resplendent moonlight. Please do not fret about retainers and bodyguards, I'll ensure that their attention will be elsewhere. I look forward to the pleasure of your company."
+                                },
+                                {
+                                    "id": "20130408",
+                                    "speaker": "Paimon",
+                                    "text": "So this means... she wants you to secretly meet her at night?"
+                                },
+                                {
+                                    "id": "20130409",
+                                    "speaker": "Paimon",
+                                    "text": "But you didn't seem surprised at all by this... What's going on?",
+                                    "choices": [
+                                        {
+                                            "id": "20130410",
+                                            "text": "We shared a glance.",
+                                            "response": [
+                                                {
+                                                    "id": "20130411",
+                                                    "speaker": "Paimon",
+                                                    "text": "Huh? Have you been up to something behind Paimon's back?"
+                                                },
+                                                {
+                                                    "id": "20130414",
+                                                    "speaker": "Paimon",
+                                                    "text": "Hmm... let's ask her tonight and see what she has to say."
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "20130412",
+                                            "text": "Shinsuke has no intention of letting us leave.",
+                                            "response": [
+                                                {
+                                                    "id": "20130413",
+                                                    "speaker": "Paimon",
+                                                    "text": "Paimon knew something just didn't seem right about him!"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "20130403",
+                            "text": "Saw this coming."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "201306",
+            "objective": "Meet Ms. Hiiragi at the appointed time (18:00 – 24:00)",
+            "dialogues": []
+        },
+        {
+            "id": "201307",
+            "objective": "Meet Hiiragi Chisato",
+            "dialogues": [
+                {
+                    "id": "20130701",
+                    "speaker": "Hiiragi Chisato",
+                    "text": "Ah, you've finally arrived... Allow me to introduce myself, I am Hiiragi Chisato."
+                },
+                {
+                    "id": "20130702",
+                    "speaker": "Hiiragi Chisato",
+                    "text": "This is... technically the second time we have met. It's a pleasure to see you again."
+                },
+                {
+                    "id": "20130703",
+                    "speaker": "Paimon",
+                    "text": "Wow, she's the daughter of the Hiiragi Clan alright...",
+                    "choices": [
+                        {
+                            "id": "20130704",
+                            "text": "The pleasure is mine.",
+                            "response": [
+                                {
+                                    "id": "20130706",
+                                    "speaker": "Hiiragi Chisato",
+                                    "text": "N—No need to be so formal — I've long marveled at your accomplishments... and at last we have the chance to meet."
+                                },
+                                {
+                                    "id": "20130707",
+                                    "speaker": "Paimon",
+                                    "text": "Is it Paimon, or does something seem a bit off here?"
+                                },
+                                {
+                                    "id": "20130708",
+                                    "speaker": "Hiiragi Chisato",
+                                    "text": "The reason why I wanted to secretly meet you here is... Well, I feared that I might never have another opportunity to discuss this with you..."
+                                },
+                                {
+                                    "id": "20130709",
+                                    "speaker": "Paimon",
+                                    "text": "D—Discuss what?"
+                                },
+                                {
+                                    "id": "20130710",
+                                    "speaker": "Hiiragi Chisato",
+                                    "text": "Ahem... I should like to ask for your help with... delivering a letter.",
+                                    "choices": [
+                                        {
+                                            "id": "20130711",
+                                            "text": "...",
+                                            "response": [
+                                                {
+                                                    "id": "20130713",
+                                                    "speaker": "Paimon",
+                                                    "text": "Ugh, like father, like daughter! Couldn't you be more original?"
+                                                },
+                                                {
+                                                    "id": "20130714",
+                                                    "speaker": "Hiiragi Chisato",
+                                                    "text": "N—No! You misunderstand me — please... allow me to explain."
+                                                },
+                                                {
+                                                    "id": "20130715",
+                                                    "speaker": "Hiiragi Chisato",
+                                                    "text": "I was hoping that you could deliver a letter to Narukami Island in my stead. It is to be given to Kujou Kamaji of the Tenryou Commission."
+                                                },
+                                                {
+                                                    "id": "20130716",
+                                                    "speaker": "Hiiragi Chisato",
+                                                    "text": "My father has always forbidden me from communicating with him. He knows that there are prospects for my marriage that would better serve him politically. But my heart is with Kamaji."
+                                                },
+                                                {
+                                                    "id": "20130717",
+                                                    "speaker": "Hiiragi Chisato",
+                                                    "text": "There is no one who would dare defy my father's will on Ritou, but you are outlanders — outlanders seeking to get to Narukami Island. It would be regrettable to let such an opportunity pass..."
+                                                },
+                                                {
+                                                    "id": "20130718",
+                                                    "speaker": "Paimon",
+                                                    "text": "Ah, Paimon gets the whole picture now..."
+                                                },
+                                                {
+                                                    "id": "20130719",
+                                                    "speaker": "Hiiragi Chisato",
+                                                    "text": "Of course, in doing so, I will also do everything in my power to help you leave Ritou. That is my promise.",
+                                                    "choices": [
+                                                        {
+                                                            "id": "20130720",
+                                                            "text": "Hmm, seems like a reasonable deal.",
+                                                            "response": [
+                                                                {
+                                                                    "id": "20130722",
+                                                                    "speaker": "Hiiragi Chisato",
+                                                                    "text": "To be perfectly honest... as long as you remain in Inazuma, my father will have no intention of letting you leave Ritou."
+                                                                },
+                                                                {
+                                                                    "id": "20130723",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "Yeah, we figured as much. It was pretty obvious he was just trying to hold us up here."
+                                                                },
+                                                                {
+                                                                    "id": "20130724",
+                                                                    "speaker": "Hiiragi Chisato",
+                                                                    "text": "I secretly overheard a conversation between my father and a very arrogant-sounding woman just a few days ago."
+                                                                },
+                                                                {
+                                                                    "id": "20130725",
+                                                                    "speaker": "Hiiragi Chisato",
+                                                                    "text": "They seemed to be discussing how to keep you here on Ritou. In fact, it was the first time I had ever heard my father speak so respectfully to someone who wasn't the shogun.",
+                                                                    "choices": [
+                                                                        {
+                                                                            "id": "20130726",
+                                                                            "text": "An arrogant-sounding woman...",
+                                                                            "response": [
+                                                                                {
+                                                                                    "id": "20130728",
+                                                                                    "speaker": "Hiiragi Chisato",
+                                                                                    "text": "We don't have much time. I'll tell you my plans to help you off the island. It just so happens that a shipment of goods is..."
+                                                                                },
+                                                                                {
+                                                                                    "id": "20130729",
+                                                                                    "speaker": "Hiiragi Chisato",
+                                                                                    "text": "(Hiiragi Chisato tells the Traveler her plans.)"
+                                                                                },
+                                                                                {
+                                                                                    "id": "20130730",
+                                                                                    "speaker": "Hiiragi Chisato",
+                                                                                    "text": "Very well, I'll be waiting for you at the border. I'm counting on you to deliver my letter."
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        {
+                                                                            "id": "20130727",
+                                                                            "text": "Seems we need to get off Ritou as fast as we can."
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "id": "20130721",
+                                                            "text": "Seeing as we don't have any other options..."
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "20130712",
+                                            "text": "I'm leaving."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "20130705",
+                            "text": "I'm delighted to see you again."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "201308",
+            "objective": "Go to Ritou's border to carry out Chisato's plan",
+            "dialogues": [
+                {
+                    "id": "20130801",
+                    "speaker": "Hiiragi Chisato",
+                    "text": "Hold on please... These goods are being sent to... Watatsumi Island?"
+                },
+                {
+                    "id": "20130802",
+                    "speaker": "Shinnojou",
+                    "text": "My lady! This is an unexpected honor. You are correct, these goods have been repeatedly requested by the Kanjou Commissioner. We must be certain that they reach Watatsumi Island intact."
+                },
+                {
+                    "id": "20130803",
+                    "speaker": "Kenzaburou",
+                    "text": "Is there something wrong, Lady Hiiragi?"
+                },
+                {
+                    "id": "20130804",
+                    "speaker": "Hiiragi Chisato",
+                    "text": "No, as you were. My father simply has some concerns of the shipment's safety, and has ordered that myself and an additional qualified escort be dispatched to ensure safe transport of the goods."
+                },
+                {
+                    "id": "20130805",
+                    "speaker": "Kenzaburou",
+                    "text": "My lady, you aren't suggesting that you intend to escort the shipment personally, are you? There's certainly no need for you to trouble yourself with such a matter, and as for this \"qualified escort\"...",
+                    "choices": [
+                        {
+                            "id": "20130806",
+                            "text": "I look forward to working with you.",
+                            "response": [
+                                {
+                                    "id": "20130808",
+                                    "speaker": "Hiiragi Chisato",
+                                    "text": "Please, do not cause us any further delay. If memory serves me right, my father has already asserted that this shipment must arrive on time. I'm certain punishment will be duly dispensed if it fails to do so."
+                                },
+                                {
+                                    "id": "20130809",
+                                    "speaker": "Kenzaburou",
+                                    "text": "Yes, of course my lady. I—It's just that... Well, we don't know who this—"
+                                },
+                                {
+                                    "id": "20130810",
+                                    "speaker": "Hiiragi Chisato",
+                                    "text": "Now, need I remind you of the penalty if anything were to happen to me en route? I'm sure you are all quite familiar with my father's temperament."
+                                },
+                                {
+                                    "id": "20130811",
+                                    "speaker": "Hiiragi Chisato",
+                                    "text": "Do you really presume that you can fully guarantee my safety on your own?"
+                                },
+                                {
+                                    "id": "20130812",
+                                    "speaker": "Paimon",
+                                    "text": "Boy, Chisato can talk the talk, they don't stand a chance..."
+                                },
+                                {
+                                    "id": "20130813",
+                                    "speaker": "Shinnojou",
+                                    "text": "A—Ah, yes my lady. Very well then... I—It's an honor to have you accompanying us. Your safety is our highest priority."
+                                },
+                                {
+                                    "id": "20130814",
+                                    "speaker": "Kenzaburou",
+                                    "text": "Shinnojou! You can't really be agreeing to this!?"
+                                },
+                                {
+                                    "id": "20130815",
+                                    "speaker": "Shinnojou",
+                                    "text": "Well, the request is from Lady Hiiragi herself. It is our duty to serve her in the utmost capacity."
+                                },
+                                {
+                                    "id": "20130816",
+                                    "speaker": "Kenzaburou",
+                                    "text": "Yes, but... that's not the problem here..."
+                                },
+                                {
+                                    "id": "20130817",
+                                    "speaker": "Hiiragi Chisato",
+                                    "text": "Well then, if we're through here, I suggest we set off at once. Dawdling will only allow potential thieves more time to prepare, no?"
+                                },
+                                {
+                                    "id": "20130818",
+                                    "speaker": "Kenzaburou",
+                                    "text": "Y—Yes, my lady. You heard her, there's no time to lose!"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "20130807",
+                            "text": "You dare question my abilities?"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "201309",
+            "objective": "Escort the goods and leave Ritou",
+            "dialogues": []
+        },
+        {
+            "id": "201310",
+            "objective": "Say farewell to Hiiragi Chisato",
+            "dialogues": [
+                {
+                    "id": "20131001",
+                    "speaker": "Shinnojou",
+                    "text": "Whew, we can take refuge in the village up ahead. How are you faring, my lady?"
+                },
+                {
+                    "id": "20131002",
+                    "speaker": "Hiiragi Chisato",
+                    "text": "I'm perfectly alright. You may stop here. The road to Narukami Island is just over there."
+                },
+                {
+                    "id": "20131003",
+                    "speaker": "Hiiragi Chisato",
+                    "text": "In my letter, I've requested Kamaji to grant you a special Travel Permit from the Tenryou Commission. Consider it a token of my appreciation.",
+                    "choices": [
+                        {
+                            "id": "20131004",
+                            "text": "Thank you, Chisato.",
+                            "response": [
+                                {
+                                    "id": "20131006",
+                                    "speaker": "Shinnojou",
+                                    "text": "My lady...?"
+                                },
+                                {
+                                    "id": "20131007",
+                                    "speaker": "Kenzaburou",
+                                    "text": "Huh! So that's how it is. I had a feeling something was amiss, but Shinnojou, you..."
+                                },
+                                {
+                                    "id": "20131008",
+                                    "speaker": "Shinnojou",
+                                    "text": "No, Lady Hiiragi would never hide anything from us, I'm sure of it. But who is this \"Kamaji\" you speak of, my lady?"
+                                },
+                                {
+                                    "id": "20131009",
+                                    "speaker": "Hiiragi Chisato",
+                                    "text": "I'm not afraid to say that... he's the one I love."
+                                },
+                                {
+                                    "id": "20131010",
+                                    "speaker": "Shinnojou",
+                                    "text": "The one... you love?"
+                                },
+                                {
+                                    "id": "20131011",
+                                    "speaker": "Kenzaburou",
+                                    "text": "Shinnojou... Did you honestly think that...?"
+                                },
+                                {
+                                    "id": "20131012",
+                                    "speaker": "Shinnojou",
+                                    "text": "What!? N—No, I uh... ahem! I was clarifying, that's all. I would never in my wildest dreams, uh... ahem!"
+                                },
+                                {
+                                    "id": "20131013",
+                                    "speaker": "Hiiragi Chisato",
+                                    "text": "You two needn't worry. Please, forget that this ever happened. If my father catches word of it, I alone will be held accountable."
+                                },
+                                {
+                                    "id": "20131014",
+                                    "speaker": "Kenzaburou",
+                                    "text": "Yes, of course. As you wish, my lady."
+                                },
+                                {
+                                    "id": "20131015",
+                                    "speaker": "Paimon",
+                                    "text": "But what will happen if your actions here are discovered, Chisato?"
+                                },
+                                {
+                                    "id": "20131016",
+                                    "speaker": "Hiiragi Chisato",
+                                    "text": "Don't fret, my father has always been one to spoil me. The worst he'd do is sentence me to half a day without food, or something to that effect."
+                                },
+                                {
+                                    "id": "20131017",
+                                    "speaker": "Paimon",
+                                    "text": "Huh, Paimon never suspected a guy like him could have a soft side..."
+                                },
+                                {
+                                    "id": "20131018",
+                                    "speaker": "Hiiragi Chisato",
+                                    "text": "I wish you a safe journey. I'm sure we will meet again."
+                                },
+                                {
+                                    "id": "20131019",
+                                    "speaker": "Paimon",
+                                    "text": "Bye Chisato!"
+                                },
+                                {
+                                    "id": "20131020",
+                                    "speaker": "Kenzaburou",
+                                    "text": "Come now! Quit your staring and let's get moving. We've got goods to shift."
+                                },
+                                {
+                                    "id": "20131021",
+                                    "speaker": "Shinnojou",
+                                    "text": "*whimpers* Al—Alright... *sobs*"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "20131005",
+                            "text": "Please be careful."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "201391",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "20139101",
+                    "speaker": "Hiiragi Shinsuke",
+                    "text": "Have you finished the work that we spoke about?"
+                },
+                {
+                    "id": "20139102",
+                    "speaker": "Hiiragi Shinsuke",
+                    "text": "Report back to me once you've finished."
+                }
+            ]
+        },
+        {
+            "id": "201399",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "20139901",
+                    "speaker": "Paimon",
+                    "text": "You're seriously considering taking this job? The terms are ridiculous..."
+                },
+                {
+                    "id": "20139902",
+                    "speaker": "Kenzaburou",
+                    "text": "Monsters sighted! Prepare to counterattack!"
+                },
+                {
+                    "id": "20139903",
+                    "speaker": "Shinnojou",
+                    "text": "Protect Lady Hiiragi at all costs!"
+                },
+                {
+                    "id": "20139904",
+                    "speaker": "Paimon",
+                    "text": "We'll take care of this. Stay with Chisato!"
+                },
+                {
+                    "id": "20139907",
+                    "speaker": "Paimon",
+                    "text": "Whew, we're finally on our own way again!"
+                },
+                {
+                    "id": "20139908",
+                    "speaker": "Paimon",
+                    "text": "I suppose it's time we find Thoma. Now where did he say he would meet us again... Right, Komore Teahouse!"
+                }
+            ]
+        }
+    ]
+}

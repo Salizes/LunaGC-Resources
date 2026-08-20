@@ -1,0 +1,1438 @@
+{
+    "quest": {
+        "id": "6012",
+        "title": "Hidden in the Shadows",
+        "description": "The \"Rächer of Solnari\" has been revived with the aid of a kuuvahki beam. Now a new crisis looms over Nod-Krai...",
+        "rewards": [
+            {
+                "itemId": 102,
+                "count": 1500
+            },
+            {
+                "itemId": 202,
+                "count": 66000
+            },
+            {
+                "itemId": 104003,
+                "count": 6
+            },
+            {
+                "itemId": 104013,
+                "count": 12
+            }
+        ],
+        "rewards_formatted": "Adventure EXP x1500, Mora x66000, Hero's Wit x6, Mystic Enhancement Ore x12",
+        "chapter": {
+            "icon": "UI_ChapterIcon_NodKrai",
+            "id": "1603",
+            "num": "Song of the Welkin Moon: Act III",
+            "title": "A Nation That Doesn't Exist"
+        },
+        "total_dialogue_lines": 264,
+        "total_speaker_counts": {
+            "???": 1,
+            "Aino": 20,
+            "Black Screen": 2,
+            "Flins": 29,
+            "Ineffa": 11,
+            "Jahoda": 26,
+            "Lauma": 32,
+            "Nefer": 15,
+            "Paimon": 32,
+            "Player": 13,
+            "Radimir": 2,
+            "The Damselette": 29,
+            "The Wild Hunt's Roar": 1,
+            "Varka": 51
+        }
+    },
+    "talks": [
+        {
+            "id": "601201",
+            "objective": "Wait until two days later",
+            "dialogues": []
+        },
+        {
+            "id": "601209",
+            "objective": "Go to Nasha Town",
+            "dialogues": [
+                {
+                    "id": "60120901",
+                    "speaker": "Paimon",
+                    "text": "It's been a few days since we said bye to the others in Nasha Town."
+                },
+                {
+                    "id": "60120902",
+                    "speaker": "Paimon",
+                    "text": "Still no news about Rerir, though. Where could he have slunk off to?"
+                },
+                {
+                    "id": "60120903",
+                    "speaker": "Paimon",
+                    "text": "If only he was gone for good... But with all the trouble he stirred up before, there's no way we've seen the last of him!"
+                },
+                {
+                    "id": "60120904",
+                    "speaker": "Radimir",
+                    "text": "Hello! You must be the Traveler and Paimon?"
+                },
+                {
+                    "id": "60120905",
+                    "speaker": "Radimir",
+                    "text": "Mr. Flins has been looking for you. Unfortunately, there's been a serious Wild Hunt attack over at the quarry. He thinks it's time to regroup and figure out a plan."
+                },
+                {
+                    "id": "60120906",
+                    "speaker": "Paimon",
+                    "text": "The Wild Hunt!? Uh-oh, we'd better get over there, right away!"
+                },
+                {
+                    "id": "60120907",
+                    "speaker": "Paimon",
+                    "text": "#C'mon, let's go, {NICKNAME}!"
+                }
+            ]
+        },
+        {
+            "id": "601202",
+            "objective": "Meet up with Flins at the quarry",
+            "dialogues": [
+                {
+                    "id": "60120201",
+                    "speaker": "Flins",
+                    "text": "..."
+                },
+                {
+                    "id": "60120202",
+                    "speaker": "Lauma",
+                    "text": "I can barely sense any kuuvahki at all. This whole area feels like a soulless husk."
+                },
+                {
+                    "id": "60120203",
+                    "speaker": "Flins",
+                    "text": "Looks like his appetite truly is insatiable. As if the power of that Energy Cannon wasn't enough..."
+                },
+                {
+                    "id": "60120204",
+                    "speaker": "Jahoda",
+                    "text": "He's not seriously still getting stronger!? What's his endgame here?"
+                },
+                {
+                    "id": "60120205",
+                    "speaker": "Paimon",
+                    "text": "Ah, everyone's here already. Hey, we made it... So, what's going on?"
+                },
+                {
+                    "id": "60120206",
+                    "speaker": "Flins",
+                    "text": "We've all been on high alert since we split up a few days back, expecting Rerir to strike again."
+                },
+                {
+                    "id": "60120207",
+                    "speaker": "Flins",
+                    "text": "But it's like he just vanished into thin air. No one has seen him, nor found any trace of his presence."
+                },
+                {
+                    "id": "60120208",
+                    "speaker": "Flins",
+                    "text": "...That is, until this morning, when a Ratnik found signs of Wild Hunt activity while out here on patrol. As you can see, the Crystonite itself is physically intact, but the kuuvahki it contained is all but completely diminished."
+                },
+                {
+                    "id": "60120209",
+                    "speaker": "Paimon",
+                    "text": "And we're sure that Rerir did this?"
+                },
+                {
+                    "id": "60120210",
+                    "speaker": "Aino",
+                    "text": "Who else? He's the only one who could pull off a stunt like this..."
+                },
+                {
+                    "id": "60120211",
+                    "speaker": "Ineffa",
+                    "text": "Kuuvahki loss has reached critical levels. Rächer of Solnari set to maximum threat level."
+                },
+                {
+                    "id": "60120212",
+                    "speaker": "Ineffa",
+                    "text": "Warning: Unless de-escalation measures are taken soon, he will pose a threat beyond our ability to contain. The consequences could be catastrophic."
+                },
+                {
+                    "id": "60120213",
+                    "speaker": "Flins",
+                    "text": "#{NICKNAME}, do you remember when we encountered Rerir just after regaining his body?"
+                },
+                {
+                    "id": "60120214",
+                    "speaker": "Flins",
+                    "text": "There wasn't a shred of sanity left — nothing but madness and rage.",
+                    "choices": [
+                        {
+                            "id": "60120215",
+                            "text": "I remember it well.",
+                            "response": [
+                                {
+                                    "id": "60120217",
+                                    "speaker": "Paimon",
+                                    "text": "Yeah. Didn't he shout out a bunch of names? Then he started raving about how nothing in this world mattered to him..."
+                                },
+                                {
+                                    "id": "60120218",
+                                    "speaker": "Paimon",
+                                    "text": "Paimon gets chills just thinking about it. But the thought that he's still out there, lurking somewhere in Nod-Krai, waiting for his chance to strike... *shudder* Even chillier."
+                                },
+                                {
+                                    "id": "60120219",
+                                    "speaker": "Flins",
+                                    "text": "Last time we fought, we were already at a disadvantage. If he has such overwhelming strength, why would he suddenly go into hiding?"
+                                },
+                                {
+                                    "id": "60120220",
+                                    "speaker": "Aino",
+                                    "text": "Yeah... If I were him, and I wanted more kuuvahki, I'd just take it by force. No point staying in the shadows."
+                                },
+                                {
+                                    "id": "60120221",
+                                    "speaker": "Aino",
+                                    "text": "Unless... something went wrong? His whole resurrection thing didn't exactly go smoothly."
+                                },
+                                {
+                                    "id": "60120222",
+                                    "speaker": "Flins",
+                                    "text": "The other thing is... how does someone who's completely lost their mind still have the wherewithal to cover their tracks so perfectly?"
+                                },
+                                {
+                                    "id": "60120223",
+                                    "speaker": "Aino",
+                                    "text": "Beats me..."
+                                },
+                                {
+                                    "id": "60120224",
+                                    "speaker": "Ineffa",
+                                    "text": "According to certain medical studies, insanity does not always entail a complete loss of rationality. It may be that he is simply living in a world of his own."
+                                },
+                                {
+                                    "id": "60120225",
+                                    "speaker": "Paimon",
+                                    "text": "That... actually sounds about right. He was ranting away to himself the whole time, like he had zero interest in talking to us."
+                                },
+                                {
+                                    "id": "60120226",
+                                    "speaker": "Lauma",
+                                    "text": "There are many unanswered questions here. He could be right under our noses, and we'd still be in the dark."
+                                },
+                                {
+                                    "id": "60120227",
+                                    "speaker": "Lauma",
+                                    "text": "Besides his name and title, we know little about him. Certainly nothing about his past or what he might be hoping to achieve."
+                                },
+                                {
+                                    "id": "60120228",
+                                    "speaker": "Jahoda",
+                                    "text": "Exactly — and we wouldn't even know where to begin looking! Even boss hadn't heard of the \"Rächer of Solnari\" before all this."
+                                },
+                                {
+                                    "id": "60120229",
+                                    "speaker": "Jahoda",
+                                    "text": "I'd be willing to bet that even if we gathered together every scrap of intel in Nod-Krai, we still wouldn't find more than, like, three useful facts about him."
+                                },
+                                {
+                                    "id": "60120230",
+                                    "speaker": "Paimon",
+                                    "text": "So if we do nothing, he'll just keep getting stronger... but if we wanna investigate him, we have no idea where to look."
+                                },
+                                {
+                                    "id": "60120231",
+                                    "speaker": "Paimon",
+                                    "text": "Last time, we had Marionette and her big robo-buddy to help us, and we still barely held our ground. If we had to face him alone..."
+                                },
+                                {
+                                    "id": "60120232",
+                                    "speaker": "Paimon",
+                                    "text": "Ugh, Paimon's head hurts just thinking about it. What are we supposed to do against a threat this big?"
+                                },
+                                {
+                                    "id": "60120233",
+                                    "speaker": "Flins",
+                                    "text": "Well, I do have a little hunch about his next move. Given that he attacked the quarry, I'd say it's likely he'll target other places rich in kuuvahki."
+                                },
+                                {
+                                    "id": "60120234",
+                                    "speaker": "Flins",
+                                    "text": "Somewhere like the Eye of Kratti, or the Pillar of Embla. One thing's for sure — if we just sit back and let him keep absorbing kuuvahki, we really won't stand a chance against him."
+                                },
+                                {
+                                    "id": "60120235",
+                                    "speaker": "Ineffa",
+                                    "text": "A perfectly reasonable hypothesis. However, it is worth noting that these two locations are quite far apart. To investigate them both, we'll need to split up."
+                                },
+                                {
+                                    "id": "60120236",
+                                    "speaker": "Flins",
+                                    "text": "I agree, we should split up. Right now, Rerir's goal seems to be gathering kuuvahki, not fighting us directly. Once we're done, let's regroup on Hiisi Island."
+                                },
+                                {
+                                    "id": "60120237",
+                                    "speaker": "Lauma",
+                                    "text": "...Wait, why Hiisi Island?"
+                                },
+                                {
+                                    "id": "60120238",
+                                    "speaker": "Flins",
+                                    "text": "If I recall correctly, your largest goddess statue was carved from kuuvahki-rich ore, was it not?"
+                                },
+                                {
+                                    "id": "60120239",
+                                    "speaker": "Lauma",
+                                    "text": "Hmm, that's right... Yes, it could well be a potential target of his. I should head back and start evacuating the pilgrims."
+                                },
+                                {
+                                    "id": "60120240",
+                                    "speaker": "Aino",
+                                    "text": "Splitting up's always gonna be risky, but I guess we don't have much choice, right? We're in a race against time here."
+                                },
+                                {
+                                    "id": "60120241",
+                                    "speaker": "Paimon",
+                                    "text": "And if we do run into Rerir... What then?"
+                                },
+                                {
+                                    "id": "60120242",
+                                    "speaker": "Jahoda",
+                                    "text": "Heh, that's when you follow the third rule of treasure hunting: Run like the wind!"
+                                },
+                                {
+                                    "id": "60120243",
+                                    "speaker": "Paimon",
+                                    "text": "Uh... Didn't you say the third rule was \"go with the flow\"?"
+                                },
+                                {
+                                    "id": "60120244",
+                                    "speaker": "Jahoda",
+                                    "text": "Uhh... I dunno, did I? Anyway, whatever! In this situation, \"go with the flow\" means \"go find backup.\""
+                                },
+                                {
+                                    "id": "60120245",
+                                    "speaker": "Flins",
+                                    "text": "Agreed. If anyone finds so much as a trace of Rerir, do not pursue him. Get out of the area and alert the rest of us as soon as possible. We need to put safety first."
+                                },
+                                {
+                                    "id": "60120246",
+                                    "speaker": "Aino",
+                                    "text": "Alright, we'd better get moving. C'mon Ineffa, let's go."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "60120216",
+                            "text": "He was already extremely dangerous, even then..."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "601204",
+            "objective": "Go to the Frostmoon Enclave",
+            "dialogues": [
+                {
+                    "id": "60120401",
+                    "speaker": "Lauma",
+                    "text": "Any leads?"
+                },
+                {
+                    "id": "60120402",
+                    "speaker": "Jahoda",
+                    "text": "Nope, diddly-squat. No clues to where he might be hiding. It's like he's a ghost..."
+                },
+                {
+                    "id": "60120403",
+                    "speaker": "Jahoda",
+                    "text": "It feels like we're sitting on a powder keg that could go off at any second... Ugh, I hate this feeling! I'd rather face him head-on than be left hanging like this!"
+                },
+                {
+                    "id": "60120404",
+                    "speaker": "Paimon",
+                    "text": "So you guys didn't find anything either?"
+                },
+                {
+                    "id": "60120405",
+                    "speaker": "Jahoda",
+                    "text": "*sigh* Not loving the word \"either\"... How about you, Flins?"
+                },
+                {
+                    "id": "60120406",
+                    "speaker": "Flins",
+                    "text": "I questioned a few Ratniki and eventually narrowed my investigation down to one suspicious individual. But by the time I got to his place, he was already gone."
+                },
+                {
+                    "id": "60120407",
+                    "speaker": "Flins",
+                    "text": "Almost as if he knew someone was onto him... Either that, or he's just extremely cautious and doesn't stay in one place for long."
+                },
+                {
+                    "id": "60120408",
+                    "speaker": "Lauma",
+                    "text": "He's been biding his time for a while now... The question is, where or what is his next target?"
+                },
+                {
+                    "id": "60120409",
+                    "speaker": "Flins",
+                    "text": "No idea. Since regaining his body, he seems to have lost all interest in the fragment in my possession. If he did still want it, he's had plenty of chances to take it."
+                },
+                {
+                    "id": "60120410",
+                    "speaker": "Jahoda",
+                    "text": "All we can do now is hope that Aino and Ineffa turn up some leads... Darn it, Rerir! If you've got the guts, come face me one-on-one!"
+                },
+                {
+                    "id": "60120411",
+                    "speaker": "Jahoda",
+                    "text": "...W—Wait, he's actually here!? I didn't mean it, I swear!"
+                },
+                {
+                    "id": "60120412",
+                    "speaker": "Lauma",
+                    "text": "No, it's coming from..."
+                },
+                {
+                    "id": "60120413",
+                    "speaker": "Lauma",
+                    "text": "...Silvermoon Hall! The Lady Kuu{RUBY#[S]Moon Maiden}tar might be in danger!"
+                },
+                {
+                    "id": "60120414",
+                    "speaker": "Paimon",
+                    "text": "Let's get over there, quick!"
+                }
+            ]
+        },
+        {
+            "id": "601210",
+            "objective": "Discuss the situation with everyone",
+            "dialogues": [
+                {
+                    "id": "60121001",
+                    "speaker": "Paimon",
+                    "text": "Th—That was too close..."
+                },
+                {
+                    "id": "60121002",
+                    "speaker": "Jahoda",
+                    "text": "We barely made it out of there alive! What's that guy's deal? How'd he get so crazy strong?",
+                    "choices": [
+                        {
+                            "id": "60121003",
+                            "text": "He's one of the Five Sinners...",
+                            "response": [
+                                {
+                                    "id": "60121005",
+                                    "speaker": "Flins",
+                                    "text": "He's a threat to this entire nation. I doubt his strength could even be measured by conventional standards."
+                                },
+                                {
+                                    "id": "60121006",
+                                    "speaker": "Aino",
+                                    "text": "I have a question."
+                                },
+                                {
+                                    "id": "60121007",
+                                    "speaker": "Aino",
+                                    "text": "When me and Ineffa showed up, we saw him chasing after this lady like he wanted her dead. What was that all about?"
+                                },
+                                {
+                                    "id": "60121008",
+                                    "speaker": "Paimon",
+                                    "text": "We weren't there for the whole thing either. They were already duking it out by the time we arrived."
+                                },
+                                {
+                                    "id": "60121009",
+                                    "speaker": "Jahoda",
+                                    "text": "Yeah, we didn't see how it all started. It all escalated so quickly, we had no choice but to step in."
+                                },
+                                {
+                                    "id": "60121010",
+                                    "speaker": "Lauma",
+                                    "text": "Kuu{RUBY#[S]Moon Maiden}tar, can you shed any light on the situation?"
+                                },
+                                {
+                                    "id": "60121011",
+                                    "speaker": "Ineffa",
+                                    "text": "Kuutar... Cross-checking database... I see. So you're the one that the Frostmoon Scions refer to as the \"Moon Goddess\"?"
+                                },
+                                {
+                                    "id": "60121012",
+                                    "speaker": "Aino",
+                                    "text": "(Wait, she's the Moon Goddess!? Ohhh, no wonder she looks just like all those statues...)"
+                                },
+                                {
+                                    "id": "60121013",
+                                    "speaker": "The Damselette",
+                                    "text": "There are many reasons why people might worship the moon... and just as many why they might despise it."
+                                },
+                                {
+                                    "id": "60121014",
+                                    "speaker": "The Damselette",
+                                    "text": "I've never met that person before, but there was no mistaking his deep-seated hostility towards me."
+                                },
+                                {
+                                    "id": "60121015",
+                                    "speaker": "The Damselette",
+                                    "text": "Why he holds me in such contempt, I cannot say. But since he hunts the power of the moon... it's no surprise that I am a target."
+                                },
+                                {
+                                    "id": "60121016",
+                                    "speaker": "Lauma",
+                                    "text": "Kuu{RUBY#[S]Moon Maiden}tar..."
+                                },
+                                {
+                                    "id": "60121017",
+                                    "speaker": "Ineffa",
+                                    "text": "#There are many potential motives. For instance, you helped {NICKNAME} escape his grasp. This could be his way of taking revenge."
+                                },
+                                {
+                                    "id": "60121018",
+                                    "speaker": "Ineffa",
+                                    "text": "It is also possible that he covets the kuuvahki inside you, and seeks to take it for his own. The list goes on."
+                                },
+                                {
+                                    "id": "60121019",
+                                    "speaker": "Ineffa",
+                                    "text": "But right now, devising a counter-strategy should be our number one priority. The likelihood of this location being discovered is close to 100%."
+                                },
+                                {
+                                    "id": "60121020",
+                                    "speaker": "Jahoda",
+                                    "text": "(A counter-strategy? But we don't stand a chance against an enemy like this...)"
+                                },
+                                {
+                                    "id": "60121021",
+                                    "speaker": "Jahoda",
+                                    "text": "(Surely, our only option is to run? He's not gonna chase us to the end of the world, right? So, as long as we can sneak out of Nod-Krai undetected...)"
+                                },
+                                {
+                                    "id": "60121022",
+                                    "speaker": "Jahoda",
+                                    "text": "(...No, I can't say that! Come on, Jahoda, this is serious stuff... You can't suggest we all just chicken out!)"
+                                },
+                                {
+                                    "id": "60121023",
+                                    "speaker": "The Damselette",
+                                    "text": "Running is our only option."
+                                },
+                                {
+                                    "id": "60121024",
+                                    "speaker": "Jahoda",
+                                    "text": "Huh!?"
+                                },
+                                {
+                                    "id": "60121025",
+                                    "speaker": "The Damselette",
+                                    "text": "You seem surprised... But what other choice do we have? We are facing an enemy we cannot possibly defeat in battle."
+                                },
+                                {
+                                    "id": "60121026",
+                                    "speaker": "Jahoda",
+                                    "text": "W—Well, I mean, yeah... but still..."
+                                },
+                                {
+                                    "id": "60121027",
+                                    "speaker": "The Damselette",
+                                    "text": "It's not too late. I can distract him, so you'll have plenty of time to make your escape."
+                                },
+                                {
+                                    "id": "60121028",
+                                    "speaker": "Paimon",
+                                    "text": "Wait, what? You're gonna act as bait!?"
+                                },
+                                {
+                                    "id": "60121029",
+                                    "speaker": "The Damselette",
+                                    "text": "Doesn't that make sense? I'm the one he's after. There's no need for you to risk your necks on my behalf."
+                                },
+                                {
+                                    "id": "60121030",
+                                    "speaker": "The Damselette",
+                                    "text": "A coyote doesn't stop for bypassers while it's howling at the moon."
+                                },
+                                {
+                                    "id": "60121031",
+                                    "speaker": "Lauma",
+                                    "text": "..."
+                                },
+                                {
+                                    "id": "60121032",
+                                    "speaker": "The Damselette",
+                                    "text": "What is it, Lauma?"
+                                },
+                                {
+                                    "id": "60121033",
+                                    "speaker": "The Damselette",
+                                    "text": "The Frostmoon Scions have already grown accustomed to life without their Goddess. My presence here is no longer essential, and this is not my home, so you needn't ask me to stay."
+                                },
+                                {
+                                    "id": "60121034",
+                                    "speaker": "Aino",
+                                    "text": "We can't just roll over and let him get away with this! That's not our style!"
+                                },
+                                {
+                                    "id": "60121035",
+                                    "speaker": "Jahoda",
+                                    "text": "Yeah! We can't just call it quits after everything we've been through together!"
+                                },
+                                {
+                                    "id": "60121036",
+                                    "speaker": "Jahoda",
+                                    "text": "(Besides, she pretty much saved my life back there. If I just ditched her now, I'd never forgive myself!)"
+                                },
+                                {
+                                    "id": "60121037",
+                                    "speaker": "Flins",
+                                    "text": "We can't overlook that you have saved our lives multiple times now. To talk of returning the favor would be a little crass for my liking, but... suffice to say that we are friends, and friends look out for one another."
+                                },
+                                {
+                                    "id": "60121038",
+                                    "speaker": "Ineffa",
+                                    "text": "Rerir's true objective remains unclear. Even if we were to sacrifice Miss Kuu{RUBY#[S]Moon Maiden}tar, there's no guarantee he would stop.",
+                                    "choices": [
+                                        {
+                                            "id": "60121039",
+                                            "text": "Running away won't solve anything.",
+                                            "response": [
+                                                {
+                                                    "id": "60121041",
+                                                    "speaker": "The Damselette",
+                                                    "text": "But—"
+                                                },
+                                                {
+                                                    "id": "60121042",
+                                                    "speaker": "Lauma",
+                                                    "text": "Kuu{RUBY#[S]Moon Maiden}tar... I know why you left the Frostmoon Scions so long ago. It was because people started treating prayer as a form of trade."
+                                                },
+                                                {
+                                                    "id": "60121043",
+                                                    "speaker": "Lauma",
+                                                    "text": "They would make self-centered wishes, force you to accept meaningless offerings in return, and then expect you to perform miracles for them as if that were their entitlement."
+                                                },
+                                                {
+                                                    "id": "60121044",
+                                                    "speaker": "Lauma",
+                                                    "text": "If it were me, I might have walked away too. But I believe that time can change everything... and that sometimes, it takes losing something precious to appreciate its true worth."
+                                                },
+                                                {
+                                                    "id": "60121045",
+                                                    "speaker": "Lauma",
+                                                    "text": "After much reflection, I've realized that this was never about whether the Frostmoon Scions \"need\" you."
+                                                },
+                                                {
+                                                    "id": "60121046",
+                                                    "speaker": "Lauma",
+                                                    "text": "Any relationship based on need is purely transactional. What I truly hope... is that you'll choose to stay, not out of obligation, but as part of our family."
+                                                },
+                                                {
+                                                    "id": "60121047",
+                                                    "speaker": "Lauma",
+                                                    "text": "You were born here, and now you've returned. Who knows, perhaps it was the moonlight that guided you home."
+                                                },
+                                                {
+                                                    "id": "60121048",
+                                                    "speaker": "The Damselette",
+                                                    "text": "..."
+                                                },
+                                                {
+                                                    "id": "60121049",
+                                                    "speaker": "The Damselette",
+                                                    "text": "Thank you, Lauma, but my power is on the wane. I'm afraid I will be of little use to you now.",
+                                                    "choices": [
+                                                        {
+                                                            "id": "60121050",
+                                                            "text": "We'll find a way.",
+                                                            "response": [
+                                                                {
+                                                                    "id": "60121052",
+                                                                    "speaker": "The Damselette",
+                                                                    "text": "...Very well then. I'll do as you say."
+                                                                },
+                                                                {
+                                                                    "id": "60121053",
+                                                                    "speaker": "Flins",
+                                                                    "text": "Both times you saved us, we were transported across great distances in an instant. Is that one of your powers as the Moon Goddess?"
+                                                                },
+                                                                {
+                                                                    "id": "60121054",
+                                                                    "speaker": "The Damselette",
+                                                                    "text": "It is, but I find it very draining. I barely managed to pull it off just now... and it will be some time before I'm strong enough to do so again."
+                                                                },
+                                                                {
+                                                                    "id": "60121055",
+                                                                    "speaker": "The Damselette",
+                                                                    "text": "Rejected by the world, my power is dwindling — like a lake cut off from its source, slowly shrinking away. Now... it has almost run dry."
+                                                                },
+                                                                {
+                                                                    "id": "60121056",
+                                                                    "speaker": "Lauma",
+                                                                    "text": "What do you mean, \"rejected by the world\"?"
+                                                                },
+                                                                {
+                                                                    "id": "60121057",
+                                                                    "speaker": "The Damselette",
+                                                                    "text": "The three moons belonged to the ancient, bygone era in which they came into being. From the moment I was born, the world itself has been steadily sapping away at my strength."
+                                                                },
+                                                                {
+                                                                    "id": "60121058",
+                                                                    "speaker": "Player",
+                                                                    "text": "That's why we need the Moon Marrow — to borrow the Eternal Moon's power..."
+                                                                },
+                                                                {
+                                                                    "id": "60121059",
+                                                                    "speaker": "The Damselette",
+                                                                    "text": "The three moons are not one and the same. As the Goddess of the Frost Moon, I cannot wield the powers of the other two."
+                                                                },
+                                                                {
+                                                                    "id": "60121060",
+                                                                    "speaker": "The Damselette",
+                                                                    "text": "Yet moonlight has a way of blending together. Each can reflect the others' glow. So when our fingers touched, I was able to restore my strength by drawing kuuvahki from the Eternal Moon's marrow."
+                                                                },
+                                                                {
+                                                                    "id": "60121061",
+                                                                    "speaker": "The Damselette",
+                                                                    "text": "But this method of recovery is painfully slow. If only we could find th—"
+                                                                },
+                                                                {
+                                                                    "id": "60121062",
+                                                                    "speaker": "The Wild Hunt's Roar",
+                                                                    "text": "Raargh!"
+                                                                },
+                                                                {
+                                                                    "id": "60121063",
+                                                                    "speaker": "Jahoda",
+                                                                    "text": "It's the Wild Hunt!"
+                                                                },
+                                                                {
+                                                                    "id": "60121064",
+                                                                    "speaker": "Aino",
+                                                                    "text": "Ugh, even faster than we expected. We'll have to finish this conversation later."
+                                                                },
+                                                                {
+                                                                    "id": "60121065",
+                                                                    "speaker": "Flins",
+                                                                    "text": "Hmm... See how those Wild Hunt creatures are running away from us? They're likely just a scouting party... Which means, Rerir won't be far behind."
+                                                                },
+                                                                {
+                                                                    "id": "60121066",
+                                                                    "speaker": "Aino",
+                                                                    "text": "Then what are we waiting for? Let's get the heck outta here!"
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "id": "60121051",
+                                                            "text": "It's our turn to help you now."
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "60121040",
+                                            "text": "We stand and fight, no matter what."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "60121004",
+                            "text": "...And that probably wasn't his full strength."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "601206",
+            "objective": "Break out of the Wild Hunt's onslaught",
+            "dialogues": []
+        },
+        {
+            "id": "601207",
+            "objective": "Talk to the mysterious man",
+            "dialogues": [
+                {
+                    "id": "60120701",
+                    "speaker": "???",
+                    "text": "What's the matter, bit off more than you could chew?"
+                },
+                {
+                    "id": "60120702",
+                    "speaker": "Paimon",
+                    "text": "Wh—Who the..."
+                },
+                {
+                    "id": "60120703",
+                    "speaker": "Paimon",
+                    "text": "Uhh... Who are you?"
+                },
+                {
+                    "id": "60120704",
+                    "speaker": "Aino",
+                    "text": "Uncle Varka! You're back from Amsvartnir?"
+                },
+                {
+                    "id": "60120705",
+                    "speaker": "Paimon",
+                    "text": "Whoa, you're Varka? Grand Master of the Knights of Favonius!?"
+                },
+                {
+                    "id": "60120706",
+                    "speaker": "Varka",
+                    "text": "We can save the intros for later. Right now, let's get you all out of this hellhole. Follow me — I know somewhere you'll be safe."
+                },
+                {
+                    "id": "60120707",
+                    "speaker": "Jahoda",
+                    "text": "Oh, is that where I think it is?"
+                },
+                {
+                    "id": "60120708",
+                    "speaker": "Varka",
+                    "text": "That's the one. C'mon, move — there's no time to waste!"
+                }
+            ]
+        },
+        {
+            "id": "601208",
+            "objective": "Head to the secret base",
+            "dialogues": [
+                {
+                    "id": "60120801",
+                    "speaker": "Paimon",
+                    "text": "Wow, where are we? This is so well-hidden..."
+                },
+                {
+                    "id": "60120802",
+                    "speaker": "Varka",
+                    "text": "Heh, well that goes without saying. This is the Knights of Favonius's meeting place in Nod-Krai, and a contact hub for the Northern Intelligence Network."
+                },
+                {
+                    "id": "60120803",
+                    "speaker": "Player",
+                    "text": "The Northern Intelligence Network..."
+                },
+                {
+                    "id": "60120804",
+                    "speaker": "Varka",
+                    "text": "...Aka, the black market of intel. No matter what faction you're with, it's THE place to buy and sell information. Their headquarters are in Nod-Krai, but they've got contacts in every nation."
+                },
+                {
+                    "id": "60120805",
+                    "speaker": "Varka",
+                    "text": "As an expeditionary force on foreign soil, working with them has offered us the most effective way of getting our hands on reliable local intel. This is where we meet — so naturally, it's secure."
+                },
+                {
+                    "id": "60120806",
+                    "speaker": "Varka",
+                    "text": "Anyway, where were we? Folks from Nod-Krai should be pretty familiar with me by now, but I believe this is the first time we've met."
+                },
+                {
+                    "id": "60120807",
+                    "speaker": "Varka",
+                    "text": "Allow me to introduce myself. I am Varka, Knight of Boreas, and Grand Master of the Knights of Favonius."
+                },
+                {
+                    "id": "60120808",
+                    "speaker": "Paimon",
+                    "text": "Hehe, we've heard all about you. This meeting's been a long time coming!"
+                },
+                {
+                    "id": "60120809",
+                    "speaker": "Paimon",
+                    "text": "You look way younger than Paimon expected! But you definitely have that Grand Master vibe, hehe."
+                },
+                {
+                    "id": "60120810",
+                    "speaker": "Varka",
+                    "text": "Haha, well, I'm no spring chicken. Just not showing my age yet."
+                },
+                {
+                    "id": "60120811",
+                    "speaker": "Varka",
+                    "text": "Definitely feeling some of that back pain today, though... Rushed back from Amsvartnir without a wink of sleep, only to get right into another fight with that freshly revived maniac..."
+                },
+                {
+                    "id": "60120812",
+                    "speaker": "Flins",
+                    "text": "Another? You mean, you've fought him before?"
+                },
+                {
+                    "id": "60120813",
+                    "speaker": "Varka",
+                    "text": "Yep. He wasn't nearly as strong back then, but he was still a formidable foe. I brought some of the Knights along to give him a little \"surprise,\" but he saw us coming from a mile off."
+                },
+                {
+                    "id": "60120814",
+                    "speaker": "Varka",
+                    "text": "My squad took heavy injuries, and I barely made it out alive myself. We knew it might have been our last chance, so we staked everything on it... But still, it wasn't enough to stop him."
+                },
+                {
+                    "id": "60120815",
+                    "speaker": "Varka",
+                    "text": "I tried tracking him down afterwards, but he didn't leave a trace. Even in his unhinged mental state, he's as cautious as any trained operative..."
+                },
+                {
+                    "id": "60120816",
+                    "speaker": "Varka",
+                    "text": "So I decided to come find you, and as luck would have it, turned up to find you being ambushed by the Wild Hunt. The rest, you already know."
+                },
+                {
+                    "id": "60120817",
+                    "speaker": "Flins",
+                    "text": "Hmm... Is that why he's been frantically absorbing kuuvahki these past few days? Because he sees you as a threat?"
+                },
+                {
+                    "id": "60120818",
+                    "speaker": "Varka",
+                    "text": "Maybe I'm part of the equation, but even if I weren't, I'm sure he'd still be gathering power. He's clearly working up towards something."
+                },
+                {
+                    "id": "60120819",
+                    "speaker": "Ineffa",
+                    "text": "Note to self: Uncle Varka's strength rating officially upgraded."
+                },
+                {
+                    "id": "60120820",
+                    "speaker": "Varka",
+                    "text": "Guess it's my turn to ask questions now... So, what exactly's been happening in Nod-Krai? Why has the Wild Hunt returned in humanoid form, and why is it after you?"
+                },
+                {
+                    "id": "60120821",
+                    "speaker": "Aino",
+                    "text": "That's a long story, but I'll try to make it quick..."
+                },
+                {
+                    "id": "60120822",
+                    "speaker": "Black Screen",
+                    "text": "Aino brings Varka up to speed about what happened before..."
+                },
+                {
+                    "id": "60120823",
+                    "speaker": "Varka",
+                    "text": "Wow, I had no idea so much had happened. Sounds like you guys have really been through it."
+                },
+                {
+                    "id": "60120824",
+                    "speaker": "Varka",
+                    "text": "So, the Kuu{RUBY#[S]Moon Maiden}tar is actually a Fatui Harbinger... and all this Wild Hunt activity in Nod-Krai is the work of the \"Rächer of Solnari,\" one of the Five Sinners..."
+                },
+                {
+                    "id": "60120825",
+                    "speaker": "Varka",
+                    "text": "That's a lot to take in. Need some time to wrap my head around it all..."
+                },
+                {
+                    "id": "60120826",
+                    "speaker": "Lauma",
+                    "text": "I'm truly sorry, Mr. Varka."
+                },
+                {
+                    "id": "60120827",
+                    "speaker": "Lauma",
+                    "text": "You stood with us against the Wild Hunt, and did everything you could to stop it from escalating into a full-blown catastrophe. And then, the one time you're away, it all comes to a head and all your hard work gets undone..."
+                },
+                {
+                    "id": "60120828",
+                    "speaker": "Varka",
+                    "text": "You've got nothing to apologize for, Miss Moonchanter."
+                },
+                {
+                    "id": "60120829",
+                    "speaker": "Varka",
+                    "text": "You can plan a hundred steps ahead and still slip up — that's just life. No one knows what tomorrow holds. You can't predict which way the wind will blow next."
+                },
+                {
+                    "id": "60120830",
+                    "speaker": "Varka",
+                    "text": "And to be perfectly honest, I can't say I'm surprised. For all the times we've defeated the Wild Hunt in the past, we've never been able to completely wipe it out. Turns out we were just delaying the inevitable."
+                },
+                {
+                    "id": "60120831",
+                    "speaker": "Varka",
+                    "text": "But now that a new variable has come into play, fate may well take a different course."
+                },
+                {
+                    "id": "60120832",
+                    "speaker": "Paimon",
+                    "text": "A new variable? You mean... us?"
+                },
+                {
+                    "id": "60120833",
+                    "speaker": "Varka",
+                    "text": "Heh, who else? And in a strange way, I think his resurgence might not be an entirely bad thing. The Wild Hunt is like an unrelenting force of nature, but Rerir is an individual with an agenda. He's gotta have a weak spot somewhere."
+                },
+                {
+                    "id": "60120834",
+                    "speaker": "Varka",
+                    "text": "That said, while Aino was explaining everything just now, some of the points that Mr. Flins added caught my attention."
+                },
+                {
+                    "id": "60120835",
+                    "speaker": "Flins",
+                    "text": "You mean about our mystery ally?"
+                },
+                {
+                    "id": "60120836",
+                    "speaker": "Varka",
+                    "text": "That's right. From what you've said, not only did they lead you straight to some key files, they also shielded Hiisi Island from a lethal kuuvahki blast."
+                },
+                {
+                    "id": "60120837",
+                    "speaker": "Varka",
+                    "text": "I don't know who or what could pull something like that off... Heck, even Miss Columbina doesn't have a clue."
+                },
+                {
+                    "id": "60120838",
+                    "speaker": "The Damselette",
+                    "text": "I hadn't heard the story about those files... Would you mind repeating their titles for me?"
+                },
+                {
+                    "id": "60120839",
+                    "speaker": "Flins",
+                    "text": "\"Wild Hunt Phenomena Log,\" \"A Nod-Kraian Ratnik's Field Journal,\" and \"Kuuvahki Survey Log\"..."
+                },
+                {
+                    "id": "60120840",
+                    "speaker": "The Damselette",
+                    "text": "Oh... No, still doesn't ring a bell..."
+                },
+                {
+                    "id": "60120841",
+                    "speaker": "Varka",
+                    "text": "Hmm, another dead end... Guess all we can do now is hope that our mystery ally keeps showing up when we most need them."
+                },
+                {
+                    "id": "60120842",
+                    "speaker": "Varka",
+                    "text": "Still, it's safest to assume they won't be intervening again. From here on out, we'll have to resolve this crisis by ourselves."
+                },
+                {
+                    "id": "60120843",
+                    "speaker": "Varka",
+                    "text": "Your intel also explains something else I've been wondering about. The reason I led my team to Amsvartnir was because we'd had reports about a possible source of the Wild Hunt showing up there."
+                },
+                {
+                    "id": "60120844",
+                    "speaker": "Varka",
+                    "text": "But once we looked into it, it turned out to be a red herring. I don't know who was behind it, but clearly, it served its purpose."
+                },
+                {
+                    "id": "60120845",
+                    "speaker": "Varka",
+                    "text": "I doubt it's by chance that he happened to make his comeback while my attention was diverted. And from everything you've told me, it sounds like his scheming began well before his return... so maybe luring me away was all a part of his plan."
+                },
+                {
+                    "id": "60120846",
+                    "speaker": "Varka",
+                    "text": "(But is it even possible that he orchestrated all of this by himself?)"
+                },
+                {
+                    "id": "60120847",
+                    "speaker": "Varka",
+                    "text": "(The Moon Maiden and the Rächer of Solnari, in Nod-Krai of all places... The way everything is unfolding, it can't be a coincidence.)"
+                },
+                {
+                    "id": "60120848",
+                    "speaker": "Jahoda",
+                    "text": "So... What do we do now? Got any ideas?"
+                },
+                {
+                    "id": "60120849",
+                    "speaker": "Varka",
+                    "text": "Right now, we've got at least three things to consider. Let's go through them one by one."
+                },
+                {
+                    "id": "60120850",
+                    "speaker": "Varka",
+                    "text": "First, we need to figure out how to take down Rerir. If we can't beat him in a straight-up fight, the rest won't even matter."
+                },
+                {
+                    "id": "60120851",
+                    "speaker": "Varka",
+                    "text": "To my knowledge, the bulk of Nod-Krai's fighting force is already gathered here. But even with everyone united, we're still no match for Rerir in his current state — let alone with his power still growing."
+                },
+                {
+                    "id": "60120852",
+                    "speaker": "The Damselette",
+                    "text": "...What if there was a way to tap into a new power of our own?"
+                },
+                {
+                    "id": "60120853",
+                    "speaker": "Varka",
+                    "text": "How so?"
+                },
+                {
+                    "id": "60120854",
+                    "speaker": "Paimon",
+                    "text": "Have you thought of something, Columbina?"
+                },
+                {
+                    "id": "60120855",
+                    "speaker": "The Damselette",
+                    "text": "Three moons once watched over this world: the Eternal Moon was the largest, the Frost Moon was the brightest, and the Iridescent Moon was the most mysterious."
+                },
+                {
+                    "id": "60120856",
+                    "speaker": "The Damselette",
+                    "text": "They say that back then, the three Moon Goddesses wielded immense power. Enough to shape the workings of the world itself."
+                },
+                {
+                    "id": "60120857",
+                    "speaker": "The Damselette",
+                    "text": "#I now bear the Frost Moon's power, and the Eternal Moon's marrow resides within {NICKNAME}."
+                },
+                {
+                    "id": "60120858",
+                    "speaker": "Lauma",
+                    "text": "Hold on, are you suggesting..."
+                },
+                {
+                    "id": "60120859",
+                    "speaker": "Flins",
+                    "text": "The Iridescent Moon, the last piece in the puzzle..."
+                },
+                {
+                    "id": "60120860",
+                    "speaker": "The Damselette",
+                    "text": "That's right. If we can find the Iridescent Moon's marrow, I will be able to regain my strength much more quickly."
+                },
+                {
+                    "id": "60120861",
+                    "speaker": "Lauma",
+                    "text": "The three moons are said to stir the tides and illuminate all things. Perhaps they hold further secrets beyond our understanding."
+                },
+                {
+                    "id": "60120862",
+                    "speaker": "Ineffa",
+                    "text": "According to my analysis, this solution is feasible. However, it is subject to one major condition — how do we locate the Iridescent Moon's marrow?"
+                },
+                {
+                    "id": "60120863",
+                    "speaker": "The Damselette",
+                    "text": "I know a way, but... We will need to visit the Fatui's Experimental Design Bureau."
+                },
+                {
+                    "id": "60120864",
+                    "speaker": "Paimon",
+                    "text": "The Experimental Design Bureau? Are you saying... we need to involve Marionette?"
+                },
+                {
+                    "id": "60120865",
+                    "speaker": "The Damselette",
+                    "text": "Yes. I must speak with Sandrone."
+                },
+                {
+                    "id": "60120866",
+                    "speaker": "Flins",
+                    "text": "It's a long way from here to the Experimental Design Bureau... There's a high chance you'll be spotted. You shouldn't go alone."
+                },
+                {
+                    "id": "60120867",
+                    "speaker": "Player",
+                    "text": "I will go with her."
+                },
+                {
+                    "id": "60120868",
+                    "speaker": "Varka",
+                    "text": "Then that's settled. Next up, our second priority — somehow, we need to figure out Rerir's end goal."
+                },
+                {
+                    "id": "60120869",
+                    "speaker": "Varka",
+                    "text": "As you saw for yourselves, when he was still in his Wild Hunt form, everything he did was for the sake of recovering his body and resurrecting himself. His first act since then, after laying low for a while, was to try and assassinate this young lady."
+                },
+                {
+                    "id": "60120870",
+                    "speaker": "Varka",
+                    "text": "People's obsessions often reveal their greatest vulnerabilities. There must be a reason why he despises the moon so deeply... Perhaps it'd shed some light on his title, the \"Rächer of Solnari.\""
+                },
+                {
+                    "id": "60120871",
+                    "speaker": "Varka",
+                    "text": "The Wild Hunt has plagued Nod-Krai for centuries now. If we want to stop it for good, we have to get to the root cause of what's driving it."
+                },
+                {
+                    "id": "60120872",
+                    "speaker": "Lauma",
+                    "text": "It's true... We still know very little about him."
+                },
+                {
+                    "id": "60120873",
+                    "speaker": "Lauma",
+                    "text": "If Kuu{RUBY#[S]Moon Maiden}tar hadn't given us that lead, we wouldn't even know his name."
+                },
+                {
+                    "id": "60120874",
+                    "speaker": "Aino",
+                    "text": "But where would we even start? I doubt even the intel queen of Nod-Krai has a clue, and she has info coming out of her ears..."
+                },
+                {
+                    "id": "60120875",
+                    "speaker": "Nefer",
+                    "text": "Oh? That's a rather hasty conclusion for someone who's so painstakingly meticulous when it comes to dealing with machines."
+                },
+                {
+                    "id": "60120876",
+                    "speaker": "Aino",
+                    "text": "Ah, she heard me..."
+                },
+                {
+                    "id": "60120877",
+                    "speaker": "Jahoda",
+                    "text": "Boss! What are you doing here?"
+                },
+                {
+                    "id": "60120878",
+                    "speaker": "Nefer",
+                    "text": "I'm now asking myself the same question... I received a letter from a \"humble knight of Favonius,\" requesting a meeting to discuss a major business deal. But it looks like this humble knight had something else in mind."
+                },
+                {
+                    "id": "60120879",
+                    "speaker": "Varka",
+                    "text": "Hahaha, details, details... Miss Nefer, the important thing is that you've arrived at the perfect time."
+                },
+                {
+                    "id": "60120880",
+                    "speaker": "Varka",
+                    "text": "Since his failed ambush, I've been racking my brains trying to come up with a plan to fight Rerir. Given the severity of the situation, I think it's fair to say that our only chance lies in uniting as one — and I'm talking ALL the factions in Nod-Krai."
+                },
+                {
+                    "id": "60120881",
+                    "speaker": "Varka",
+                    "text": "We can't do this without the Curatorium, but I knew it'd be a tough job to win you over. So I took the liberty of reaching out for a little chat."
+                },
+                {
+                    "id": "60120882",
+                    "speaker": "Paimon",
+                    "text": "Wait a sec... How did you even hear about this place, Nefer?"
+                },
+                {
+                    "id": "60120883",
+                    "speaker": "Paimon",
+                    "text": "Didn't you say this is meant to be the Knights of Favonius's meeting spot, and a contact hub for the Northern Intelligence Network? And... isn't it supposed to be super hidden?"
+                },
+                {
+                    "id": "60120884",
+                    "speaker": "Nefer",
+                    "text": "You really think he could've gotten settled in Nod-Krai without my help? Besides, I'm the one running this gig — of course I know where the meeting place is.",
+                    "choices": [
+                        {
+                            "id": "60120885",
+                            "text": "You mean...",
+                            "response": [
+                                {
+                                    "id": "60120887",
+                                    "speaker": "Varka",
+                                    "text": "Allow me to introduce the current head of the Northern Intelligence Network. If it's intel you're after, she's your woman. Pretty much seen and heard it all."
+                                },
+                                {
+                                    "id": "60120888",
+                                    "speaker": "Nefer",
+                                    "text": "Please, spare me the flattery. Let's cut to the chase — seems like you've run into some trouble, huh?"
+                                },
+                                {
+                                    "id": "60120889",
+                                    "speaker": "Black Screen",
+                                    "text": "You bring Nefer up to speed on what's been happening..."
+                                },
+                                {
+                                    "id": "60120890",
+                                    "speaker": "Nefer",
+                                    "text": "Well, this certainly qualifies as an unforeseen crisis. On behalf of the Curatorium of Secrets... I wish you all the best of luck."
+                                },
+                                {
+                                    "id": "60120891",
+                                    "speaker": "Lauma",
+                                    "text": "So you're just going to sit this one out?"
+                                },
+                                {
+                                    "id": "60120892",
+                                    "speaker": "Nefer",
+                                    "text": "Why should I get involved? What could possibly be in it for me?"
+                                },
+                                {
+                                    "id": "60120893",
+                                    "speaker": "Lauma",
+                                    "text": "What if we told you we can't do this without you?"
+                                },
+                                {
+                                    "id": "60120894",
+                                    "speaker": "Nefer",
+                                    "text": "Oh? Then I'd say, you'd better make it worth my while. I don't work for free."
+                                },
+                                {
+                                    "id": "60120895",
+                                    "speaker": "Lauma",
+                                    "text": "I can't put a price on something like this — it's just not in my nature. But then again, you and I have always been polar opposites in this regard — so I can't exactly say I didn't see this coming."
+                                },
+                                {
+                                    "id": "60120896",
+                                    "speaker": "Lauma",
+                                    "text": "If you insist on compensation, I will pay you. Consider this a formal commission. Sound fair?"
+                                },
+                                {
+                                    "id": "60120897",
+                                    "speaker": "Nefer",
+                                    "text": "You just don't give up, do you? Heh, too bad — I know you well enough to know you can't afford my prices."
+                                },
+                                {
+                                    "id": "60120898",
+                                    "speaker": "Nefer",
+                                    "text": "The riskier the job, the more it'll cost, and a Moonchanter's stipend isn't exactly generous... Unless you're planning to start passing the donation box around among the faithful?"
+                                },
+                                {
+                                    "id": "60120899",
+                                    "speaker": "Jahoda",
+                                    "text": "Uhh, boss, just a thought... If they come up short, maybe you can take the difference out of my next few paychecks?"
+                                },
+                                {
+                                    "id": "60121401",
+                                    "speaker": "Jahoda",
+                                    "text": "Things got really dangerous during the fight with Rerir. If this girl hadn't saved me, I'd be ley line fodder by now... I'd be gone for good, boss."
+                                },
+                                {
+                                    "id": "60121402",
+                                    "speaker": "Jahoda",
+                                    "text": "If there's any way we can make this work, I'd really like to help her... Please, I'm begging you!"
+                                },
+                                {
+                                    "id": "60121403",
+                                    "speaker": "Nefer",
+                                    "text": "..."
+                                },
+                                {
+                                    "id": "60121404",
+                                    "speaker": "Nefer",
+                                    "text": "This is why I'm always telling you — never accept favors. They're the hardest debts to repay."
+                                },
+                                {
+                                    "id": "60121405",
+                                    "speaker": "Nefer",
+                                    "text": "You have to be careful who you get involved with, or you invite all kinds of misfortune... *sigh* Very well, Jahoda, I will help — but just this once. Don't count on this happening again."
+                                },
+                                {
+                                    "id": "60121406",
+                                    "speaker": "Nefer",
+                                    "text": "Flins, that fragment that Rerir was after... Do you still have it on you?"
+                                },
+                                {
+                                    "id": "60121407",
+                                    "speaker": "Flins",
+                                    "text": "Of course."
+                                },
+                                {
+                                    "id": "60121408",
+                                    "speaker": "Nefer",
+                                    "text": "Let me borrow it. I need it to follow up on some leads."
+                                },
+                                {
+                                    "id": "60121409",
+                                    "speaker": "Paimon",
+                                    "text": "Wait... You actually have some leads!?"
+                                },
+                                {
+                                    "id": "60121410",
+                                    "speaker": "Nefer",
+                                    "text": "Shh... This is top-secret information."
+                                },
+                                {
+                                    "id": "60121411",
+                                    "speaker": "Varka",
+                                    "text": "I get it... We all have things we'd rather keep to ourselves. Plus, I know we can count on you, so we'll leave the intel-gathering in your hands."
+                                },
+                                {
+                                    "id": "60121412",
+                                    "speaker": "Varka",
+                                    "text": "And that brings me to the third and final item... We need to find a way to distract him. We need time to make our move, so someone will have to stall him."
+                                },
+                                {
+                                    "id": "60121413",
+                                    "speaker": "Varka",
+                                    "text": "I'm in for this part, no matter what. Anyone coming with?"
+                                },
+                                {
+                                    "id": "60121414",
+                                    "speaker": "Flins",
+                                    "text": "Count me in too."
+                                },
+                                {
+                                    "id": "60121415",
+                                    "speaker": "Aino",
+                                    "text": "Come off it, you two... Quit playing heroes."
+                                },
+                                {
+                                    "id": "60121416",
+                                    "speaker": "Aino",
+                                    "text": "I'm waaay ahead of you here... Ineffa did a scan of the Moon Goddess's kuuvahki signature, and we're gonna use it to make some decoys over at the Krumkake Craftshop. Anyone who's \"in,\" follow me."
+                                },
+                                {
+                                    "id": "60121417",
+                                    "speaker": "Aino",
+                                    "text": "Once they're ready, we'll deploy the decoys across Nod-Krai. So as long as the rest of you keep moving, he won't catch onto your scent and won't be able to track you down."
+                                },
+                                {
+                                    "id": "60121418",
+                                    "speaker": "Varka",
+                                    "text": "I like it! Genius idea."
+                                },
+                                {
+                                    "id": "60121419",
+                                    "speaker": "Aino",
+                                    "text": "No biggie!"
+                                },
+                                {
+                                    "id": "60121420",
+                                    "speaker": "Varka",
+                                    "text": "Alright then, we'll split into three teams."
+                                },
+                                {
+                                    "id": "60121421",
+                                    "speaker": "Varka",
+                                    "text": "Once your team has finished their mission, return here and wait for the others. Dismissed!"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "60120886",
+                            "text": "You're...!"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "601211",
+            "objective": "Head to the secret base",
+            "dialogues": []
+        },
+        {
+            "id": "601203",
+            "objective": "",
+            "dialogues": [
+                {
+                    "id": "60120301",
+                    "speaker": "Lauma",
+                    "text": ""
+                },
+                {
+                    "id": "60120302",
+                    "speaker": "Lauma",
+                    "text": ""
+                },
+                {
+                    "id": "60120303",
+                    "speaker": "Lauma",
+                    "text": ""
+                }
+            ]
+        }
+    ]
+}

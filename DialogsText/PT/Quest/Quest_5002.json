@@ -1,0 +1,1996 @@
+{
+    "quest": {
+        "id": "5002",
+        "title": "Lar das Fontes Termais",
+        "description": "Conforme a Peregrinação se encerra, Kachina emerge vitoriosa e ela se junta à Guerra da Guarda Noturna ao lado de veteranos experientes. Após o torneio, Mualani discute a ideia de visitar o Povo das Termas...",
+        "rewards": [
+            {
+                "itemId": 102,
+                "count": 1000
+            },
+            {
+                "itemId": 201,
+                "count": 30
+            },
+            {
+                "itemId": 202,
+                "count": 44000
+            },
+            {
+                "itemId": 104003,
+                "count": 4
+            },
+            {
+                "itemId": 104013,
+                "count": 8
+            }
+        ],
+        "rewards_formatted": "EXP de Aventura x1000, Gema Essencial x30, Mora x44000, EXP do Herói x4, Minério de Refinamento Místico x8",
+        "chapter": {
+            "icon": "UI_ChapterIcon_Natlan",
+            "id": "1500",
+            "num": "Capítulo V - Ato I",
+            "title": "Jornada das Flores de Glória e Dias Flamejantes"
+        },
+        "total_dialogue_lines": 355,
+        "total_speaker_counts": {
+            "???": 3,
+            "Ajaw": 2,
+            "Amina": 13,
+            "Anaa": 1,
+            "Atea": 60,
+            "Black Screen": 7,
+            "Hikueru": 18,
+            "Kinich": 3,
+            "Lisa": 1,
+            "Makemo": 1,
+            "Marokau": 14,
+            "Mersa": 1,
+            "Moeava": 1,
+            "Mualani": 131,
+            "Multidão": 1,
+            "Niu": 1,
+            "Paimon": 41,
+            "Player": 39,
+            "Taenga": 2,
+            "Taheta": 2,
+            "Tureia": 1,
+            "Venti": 2,
+            "Yelafath": 10
+        }
+    },
+    "talks": [
+        {
+            "id": "500201",
+            "objective": "Vá ao Povo das Termas",
+            "dialogues": [
+                {
+                    "id": "50020101",
+                    "speaker": "Paimon",
+                    "text": "Finalmente estamos aqui! Então, essa é a sua casa, Mualani! Paimon mal pode esperar para dar uma olhada!"
+                },
+                {
+                    "id": "50020102",
+                    "speaker": "Moeava",
+                    "text": "Ahh... Viu, o que foi que eu disse? Um mergulho na fonte termal depois de uma batalha é a melhor coisa!"
+                },
+                {
+                    "id": "50020103",
+                    "speaker": "Taheta",
+                    "text": "Por favor, querido, me traga uma garrafa de vinho."
+                },
+                {
+                    "id": "50020104",
+                    "speaker": "Makemo",
+                    "text": "Apenas uma? Vamos pegar outra, ainda está cedo, não é?"
+                },
+                {
+                    "id": "50020105",
+                    "speaker": "Taenga",
+                    "text": "Quer ir para o Crepúsculo Dourado mais tarde?"
+                },
+                {
+                    "id": "50020106",
+                    "speaker": "Mersa",
+                    "text": "Agora isso, sim, são férias... Incrível!"
+                },
+                {
+                    "id": "50020107",
+                    "speaker": "Paimon",
+                    "text": "Uau, está tão vivo por aqui! É algum tipo de feriado acontecendo, Mualani?"
+                },
+                {
+                    "id": "50020108",
+                    "speaker": "Mualani",
+                    "text": "Tentamos tratar todos os dias como um feriado por aqui. Acreditamos que todos os dias merecem ser celebrados."
+                },
+                {
+                    "id": "50020109",
+                    "speaker": "Mualani",
+                    "text": "Agora, deixa eu te mostrar por aí. Hmm... onde começar..."
+                },
+                {
+                    "id": "50020110",
+                    "speaker": "Mualani",
+                    "text": "Discos Xochicuicatl, Praça Colomche... São tantas opções, mas eu recomendo começar com o verdadeiro destaque por aqui.",
+                    "choices": [
+                        {
+                            "id": "50020111",
+                            "text": "O verdadeiro destaque?",
+                            "response": [
+                                {
+                                    "id": "50020113",
+                                    "speaker": "Mualani",
+                                    "text": "A fonte termal, é claro! Fontes termais naturais possuem vários benefícios de saúde. Vá dar um bom e longo mergulho e você certamente terá uma boa noite de sono!"
+                                },
+                                {
+                                    "id": "50020114",
+                                    "speaker": "Paimon",
+                                    "text": "E-Espera, você quer que a gente tome banho... aqui?"
+                                },
+                                {
+                                    "id": "50020115",
+                                    "speaker": "Mualani",
+                                    "text": "Oh, não tenha vergonha. Vamos lá, eu te levo para se trocar—"
+                                },
+                                {
+                                    "id": "50020116",
+                                    "speaker": "???",
+                                    "text": "Mualani!"
+                                },
+                                {
+                                    "id": "50020117",
+                                    "speaker": "Mualani",
+                                    "text": "Hã? Oh... Tia Atea!"
+                                },
+                                {
+                                    "id": "50020118",
+                                    "speaker": "Atea",
+                                    "text": "Por favor, eu já te disse que só \"Atea\" basta. Eu pareço velha para você?"
+                                },
+                                {
+                                    "id": "50020119",
+                                    "speaker": "Atea",
+                                    "text": "#Você estava levando {M#esses dois}{F#essas duas} para as fontes termais?"
+                                },
+                                {
+                                    "id": "50020120",
+                                    "speaker": "Mualani",
+                                    "text": "#Isso mesmo. Oh, deixe-me te apresentar. {M#Esse é o}{F#Essa é a} Viajante, e a pequenina perto {M#dele}{F#dela} é Paimon."
+                                },
+                                {
+                                    "id": "50020121",
+                                    "speaker": "Mualani",
+                                    "text": "#{M#Eles}{F#Elas} acabaram de chegar em Natlan, então estou levando {M#eles}{F#elas} para experienciarem nossos costumes!"
+                                },
+                                {
+                                    "id": "50020122",
+                                    "speaker": "Paimon",
+                                    "text": "Olá!",
+                                    "choices": [
+                                        {
+                                            "id": "50020123",
+                                            "text": "Oi.",
+                                            "response": [
+                                                {
+                                                    "id": "50020125",
+                                                    "speaker": "Atea",
+                                                    "text": "Sou vizinha de Mualani, Atea. A propósito, Mualani, ouvi que você perdeu para Kachina durante a Peregrinação. É verdade?"
+                                                },
+                                                {
+                                                    "id": "50020126",
+                                                    "speaker": "Mualani",
+                                                    "text": "É, eu estava BEM perto de ganhar. *Suspira*... Definitivamente não é o resultado que eu queria, mas, mesmo assim, não estou surpresa. Kachina sempre foi muito forte."
+                                                },
+                                                {
+                                                    "id": "50020127",
+                                                    "speaker": "Mualani",
+                                                    "text": "#Enfim, está tudo no passado. Vou levar {M#esses dois}{F#essas duas} para mergulhar na fonte termal. Falo com você mais tarde!"
+                                                },
+                                                {
+                                                    "id": "50020128",
+                                                    "speaker": "Mualani",
+                                                    "text": "Oh, esperem, vocês vão precisar de roupas de banho... Hmm, acho que posso encontrar algo pra vocês pela loja. Vou dar uma olhada!"
+                                                },
+                                                {
+                                                    "id": "50020129",
+                                                    "speaker": "Atea",
+                                                    "text": "Espere aí, mocinha. Você se esqueceu da regra sobre tomar banho nas termas?"
+                                                },
+                                                {
+                                                    "id": "50020130",
+                                                    "speaker": "Mualani",
+                                                    "text": "Regra...? Oh, você quis dizer..."
+                                                },
+                                                {
+                                                    "id": "50020131",
+                                                    "speaker": "Paimon",
+                                                    "text": "Há uma regra sobre tomar banho nas fontes termais?"
+                                                },
+                                                {
+                                                    "id": "50020132",
+                                                    "speaker": "Atea",
+                                                    "text": "Isso mesmo. Forasteiros têm que passar por um teste numa fonte termal artificial antes de poderem acessar as naturais.",
+                                                    "choices": [
+                                                        {
+                                                            "id": "50020133",
+                                                            "text": "Um teste?",
+                                                            "response": [
+                                                                {
+                                                                    "id": "50020135",
+                                                                    "speaker": "Mualani",
+                                                                    "text": "Não é tão assustador assim. Pra resumir, fontes termais naturais possuem temperaturas altas que nem todo mundo consegue suportar."
+                                                                },
+                                                                {
+                                                                    "id": "50020136",
+                                                                    "speaker": "Mualani",
+                                                                    "text": "Alguns viajantes já se queimaram no passado, por isso temos uma regra informal: todos os forasteiros primeiro precisam se adaptar às fontes termais artificiais com temperaturas mais baixas."
+                                                                },
+                                                                {
+                                                                    "id": "50020137",
+                                                                    "speaker": "Mualani",
+                                                                    "text": "#Mas, sério, tia Atea, temos que ser tão rigorosas assim? Ess{F#as}{M#es} {F#duas}{M#dois} são aventureir{F#as}{M#os} formidáveis! Eu sei que eles podem dar conta!"
+                                                                },
+                                                                {
+                                                                    "id": "50020138",
+                                                                    "speaker": "Atea",
+                                                                    "text": "Todos que subestimam as fontes termais dizem isso. É melhor prevenir do que remediar. Além disso, o ambiente está instável ultimamente. Pode ser um sinal que o Abismo está para atacar."
+                                                                },
+                                                                {
+                                                                    "id": "50020139",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "Isso parece perigoso! Sabe, Paimon não é lá essas coisas todas de \"formidável\" e tal, por isso, ela prefere ter cuidado!"
+                                                                },
+                                                                {
+                                                                    "id": "50020140",
+                                                                    "speaker": "Atea",
+                                                                    "text": "#Exato. Enquanto eu estiver de olho, vocês não vão correr riscos desnecessários. Mualani, leve {F#elas}{M#eles} para as fontes termais artificiais primeiro."
+                                                                },
+                                                                {
+                                                                    "id": "50020141",
+                                                                    "speaker": "Mualani",
+                                                                    "text": "Tá bom, tá bom..."
+                                                                },
+                                                                {
+                                                                    "id": "50020142",
+                                                                    "speaker": "Atea",
+                                                                    "text": "#Isso aí, e não tentem dar uma de espertinh{F#as}{M#os}. Estou indo para as fontes termais artificiais, e se eu não vir vocês lá... Seus dias de comida de graça na minha casa chegaram ao fim."
+                                                                },
+                                                                {
+                                                                    "id": "50020143",
+                                                                    "speaker": "Mualani",
+                                                                    "text": "Relaxe, relaxe... oh, sim, Atea, como você está se sentindo ultimamente?"
+                                                                },
+                                                                {
+                                                                    "id": "50020144",
+                                                                    "speaker": "Atea",
+                                                                    "text": "Bem melhor. Como eu teria energia pra ficar de olho em você?"
+                                                                },
+                                                                {
+                                                                    "id": "50020145",
+                                                                    "speaker": "Atea",
+                                                                    "text": "Ei, vocês aí! Quantas vezes eu já disse pra não brigar perto das fontes termais!"
+                                                                },
+                                                                {
+                                                                    "id": "50020146",
+                                                                    "speaker": "Niu",
+                                                                    "text": "Oh, droga, aquela senhora esquisita tá de volta!"
+                                                                },
+                                                                {
+                                                                    "id": "50020147",
+                                                                    "speaker": "Anaa",
+                                                                    "text": "Corram!"
+                                                                },
+                                                                {
+                                                                    "id": "50020148",
+                                                                    "speaker": "Atea",
+                                                                    "text": "Parem aí! Vocês precisam de um sermão!"
+                                                                },
+                                                                {
+                                                                    "id": "50020149",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "Ela tem muita energia...",
+                                                                    "choices": [
+                                                                        {
+                                                                            "id": "50020150",
+                                                                            "text": "É uma velha amiga sua?",
+                                                                            "response": [
+                                                                                {
+                                                                                    "id": "50020152",
+                                                                                    "speaker": "Mualani",
+                                                                                    "text": "Haha, ela é uma lenda na nossa tribo. Todo mundo conhece ela."
+                                                                                },
+                                                                                {
+                                                                                    "id": "50020153",
+                                                                                    "speaker": "Mualani",
+                                                                                    "text": "Quando eu herdei meu Nome Antigo, ela era uma das guerreiras mais renomadas de Natlan, e famosa por seu amor por fontes termais. Na verdade, ela costumava dar festas nelas."
+                                                                                },
+                                                                                {
+                                                                                    "id": "50020154",
+                                                                                    "speaker": "Mualani",
+                                                                                    "text": "Ela se referia a qualquer um que vinha a essas festas como \"colegas de termas\". Todos os convidados eram guerreiros renomados como Liliuo, Kaiulani, Vichama... oh, e a Arconte Pyro."
+                                                                                },
+                                                                                {
+                                                                                    "id": "50020155",
+                                                                                    "speaker": "Paimon",
+                                                                                    "text": "Se Paimon morasse aqui, ela ia aproveitar as fontes termais também!"
+                                                                                },
+                                                                                {
+                                                                                    "id": "50020156",
+                                                                                    "speaker": "Mualani",
+                                                                                    "text": "É só que... durante uma batalha, ela foi perfurada por um monstro do Abismo em seu abdômen."
+                                                                                },
+                                                                                {
+                                                                                    "id": "50020157",
+                                                                                    "speaker": "Mualani",
+                                                                                    "text": "Os doutores conseguiram salvar sua vida, mas deixaram claro que ela nunca mais poderia tomar banho nas fontes termais."
+                                                                                },
+                                                                                {
+                                                                                    "id": "50020158",
+                                                                                    "speaker": "Mualani",
+                                                                                    "text": "Poder abissal ainda existe dentro do corpo dela. Mergulhar em água quente aceleraria a corrosão de seus órgãos internos e o avanço de sua doença."
+                                                                                },
+                                                                                {
+                                                                                    "id": "50020159",
+                                                                                    "speaker": "Paimon",
+                                                                                    "text": "Oh, não surpreende ela ter tantas cicatrizes... Paimon não imaginava que ela tava tão ferida..."
+                                                                                },
+                                                                                {
+                                                                                    "id": "50020160",
+                                                                                    "speaker": "Mualani",
+                                                                                    "text": "Isso é normal. Ela nunca fala sobre seu ferimento."
+                                                                                },
+                                                                                {
+                                                                                    "id": "50020161",
+                                                                                    "speaker": "Mualani",
+                                                                                    "text": "Ela trabalhou incansavelmente ao longo dos anos cavando fontes termais artificiais para que mais pessoas pudessem desfrutar das maravilhas naturais de nossa tribo, mesmo ela não podendo mais as aproveitar. Eu a respeito muito por isso."
+                                                                                },
+                                                                                {
+                                                                                    "id": "50020162",
+                                                                                    "speaker": "Mualani",
+                                                                                    "text": "Enfim, vamos para as fontes termais artificiais. Se a tia Atea chegar lá antes da gente, vamos acabar numa encrenca."
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        {
+                                                                            "id": "50020151",
+                                                                            "text": "Vocês parecem próximas."
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "id": "50020134",
+                                                            "text": "Diz logo o que eu tenho que lutar."
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "50020124",
+                                            "text": "E você é...?"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "50020112",
+                            "text": "O que seria?"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "500202",
+            "objective": "Vá até a fonte termal artificial",
+            "dialogues": [
+                {
+                    "id": "50020201",
+                    "speaker": "Amina",
+                    "text": "Oh, entendo... ótima ideia. Gostei!"
+                },
+                {
+                    "id": "50020202",
+                    "speaker": "Hikueru",
+                    "text": "Viu? Eu disse que a Chefe ia gostar!"
+                },
+                {
+                    "id": "50020203",
+                    "speaker": "Marokau",
+                    "text": "Vamos lá! Não podemos deixar ninguém ouvir um pio sobre isso..."
+                },
+                {
+                    "id": "50020204",
+                    "speaker": "Mualani",
+                    "text": "Ei, Amina, Hikueru, Maroukau! Vocês parecem mais alegres que o normal hoje. O que tá rolando?"
+                },
+                {
+                    "id": "50020205",
+                    "speaker": "Hikueru",
+                    "text": "#Oh, Mualani! Você voltou! E quem são ess{F#as}{M#es} aí...?"
+                },
+                {
+                    "id": "50020206",
+                    "speaker": "Mualani",
+                    "text": "#{F#Essa}{M#Esse} é {F#a}{M#o} Viajante, importantes convidad{F#as}{M#os}. Eu queria levar el{F#as}{M#es} para as fontes termais naturais, mas a tia Atea nos pegou, por isso tivemos que vir pra cá primeiro."
+                },
+                {
+                    "id": "50020207",
+                    "speaker": "Amina",
+                    "text": "Oh, que coincidência, a gente tava falando dela!"
+                },
+                {
+                    "id": "50020208",
+                    "speaker": "Marokau",
+                    "text": "Achamos que a doença da tia Atea melhorou."
+                },
+                {
+                    "id": "50020209",
+                    "speaker": "Mualani",
+                    "text": "Mesmo? Por quê?"
+                },
+                {
+                    "id": "50020210",
+                    "speaker": "Hikueru",
+                    "text": "Bem, enquanto você tava preocupada com a Peregrinação, reparamos que ela tem visitado as fontes termais durante a noite."
+                },
+                {
+                    "id": "50020211",
+                    "speaker": "Hikueru",
+                    "text": "Para ser mais preciso, as fontes termais na caverna ao norte de nossa tribo. Você sabe qual é. Aparentemente, ela ia muito lá antes de ter sido abandonada por alguma razão."
+                },
+                {
+                    "id": "50020212",
+                    "speaker": "Hikueru",
+                    "text": "Ela nunca podia entrar em contato com água quente antes, e agora, ela vai todas as noites para as fontes termais. É óbvio o que significa, não acha?"
+                },
+                {
+                    "id": "50020213",
+                    "speaker": "Marokau",
+                    "text": "Sim, por isso pensamos... e se renovássemos as fontes termais abandonadas sem que ela soubesse? E depois fizéssemos uma festa enorme!"
+                },
+                {
+                    "id": "50020214",
+                    "speaker": "Marokau",
+                    "text": "Chefe Amina acha que é uma ótima ideia também. E aí, tá dentro?"
+                },
+                {
+                    "id": "50020215",
+                    "speaker": "Mualani",
+                    "text": "Claro! Como vocês sequer pensaram em fazer uma coisa dessa sem mim?"
+                },
+                {
+                    "id": "50020216",
+                    "speaker": "Mualani",
+                    "text": "Eu tô meio ocupada agora. Vou procurar vocês quanto já tivermos resolvido lá pelas termas."
+                },
+                {
+                    "id": "50020217",
+                    "speaker": "Amina",
+                    "text": "#Claro, sem problemas! Você deve focar {F#nas nossas convidadas}{M#nos nossos convidados}!"
+                },
+                {
+                    "id": "50020218",
+                    "speaker": "Amina",
+                    "text": "Essas fontes termais artificiais são bem novas, mas a experiência é tão boa quanto as naturais na minha opinião. Trabalhamos duro nelas, espero que vocês gostem!"
+                },
+                {
+                    "id": "50020219",
+                    "speaker": "Amina",
+                    "text": "E vocês dois... eu sei que vocês querem focar na surpresa de Atea, mas não se esqueçam de suas patrulhas. O Abismo pode atacar a qualquer momento, por isso precisamos estar vigilantes."
+                },
+                {
+                    "id": "50020220",
+                    "speaker": "Hikueru",
+                    "text": "Beleza, Chefe. Vamos ficar de olho, pode contar com a gente."
+                },
+                {
+                    "id": "50020221",
+                    "speaker": "Marokau",
+                    "text": "Certo, então vamos indo. Vejo você nas fontes termais abandonadas, Mualani."
+                },
+                {
+                    "id": "50020222",
+                    "speaker": "Amina",
+                    "text": "Eu também vou indo. Se divirtam!"
+                },
+                {
+                    "id": "50020223",
+                    "speaker": "Mualani",
+                    "text": "Finalmente, é hora das fontes termais! Oh, eu peguei umas roupas de banho pra vocês. Venham, vou levar vocês pra o vestiário."
+                }
+            ]
+        },
+        {
+            "id": "500203",
+            "objective": "Experimente a fonte termal artificial",
+            "dialogues": [
+                {
+                    "id": "50020301",
+                    "speaker": "Player",
+                    "text": "(Espera, como isso aqui cabe tão bem...?)"
+                }
+            ]
+        },
+        {
+            "id": "500204",
+            "objective": "Troque para a roupa que Mualani preparou",
+            "dialogues": [
+                {
+                    "id": "50020441",
+                    "speaker": "Player",
+                    "text": "(Espera, como isso aqui cabe tão bem...?)"
+                },
+                {
+                    "id": "50020401",
+                    "speaker": "Paimon",
+                    "text": "Ahh..."
+                },
+                {
+                    "id": "50020402",
+                    "speaker": "Player",
+                    "text": "*Ofegante*"
+                },
+                {
+                    "id": "50020403",
+                    "speaker": "Mualani",
+                    "text": "Aaaaah... E aí, o que acharam? Podem sentir o calor relaxar seus músculos?"
+                },
+                {
+                    "id": "50020404",
+                    "speaker": "Paimon",
+                    "text": "Sim, é tão bom. O vapor é tão quentinho também..."
+                },
+                {
+                    "id": "50020405",
+                    "speaker": "Mualani",
+                    "text": "Não houve efeito relaxante nenhum na primeira vez que vim para as fontes termais. Eu tinha tanta energia que assim que meus pais se distraíram, corri para as piscinas de temperaturas altas."
+                },
+                {
+                    "id": "50020406",
+                    "speaker": "Mualani",
+                    "text": "Na verdade, me lembrar disso é bem divertido. Eles ficaram nervosos, me procurando por todo lado até verem minha cabeça sair da água."
+                },
+                {
+                    "id": "50020407",
+                    "speaker": "Mualani",
+                    "text": "Eu era pequena demais para me lembrar de tudo, mas meus pais contaram a história inteira. Eu nasci para nadar. E assim como ela, me ensinei a como mergulhar debaixo d'água na primeira vez que fui nadar."
+                },
+                {
+                    "id": "50020408",
+                    "speaker": "Mualani",
+                    "text": "Por isso, fiquem à vontade para nadar. Vou estar aqui se precisarem de ajuda."
+                },
+                {
+                    "id": "50020409",
+                    "speaker": "Paimon",
+                    "text": "Certo, lá vai a Paimon..."
+                },
+                {
+                    "id": "50020410",
+                    "speaker": "Atea",
+                    "text": "Ahem."
+                },
+                {
+                    "id": "50020411",
+                    "speaker": "Mualani",
+                    "text": "Tia Atea! Você veio mesmo olhar a gente?"
+                },
+                {
+                    "id": "50020412",
+                    "speaker": "Atea",
+                    "text": "Claro, e estou satisfeita que vocês ouviram. Trouxe leite e alguns lanches, vou deixar aqui."
+                },
+                {
+                    "id": "50020413",
+                    "speaker": "Atea",
+                    "text": "A temperatura nas fontes termais artificiais não é muito alta, por isso escolhi Bolachas Saurus e Tortilhas de Frutogrão. O que vocês acham?"
+                },
+                {
+                    "id": "50020414",
+                    "speaker": "Paimon",
+                    "text": "Oh, obrigada!"
+                },
+                {
+                    "id": "50020415",
+                    "speaker": "Paimon",
+                    "text": "Hmm, isso é uma delícia!"
+                },
+                {
+                    "id": "50020416",
+                    "speaker": "Atea",
+                    "text": "Bem, eu mesma que fiz."
+                },
+                {
+                    "id": "50020417",
+                    "speaker": "Atea",
+                    "text": "Poucos jovens sabem como apreciar as fontes termais, então escutem bem. A temperatura das fontes termais determina o tipo de lanche que você deve comer, mas também o tempo que você deve passar na água."
+                },
+                {
+                    "id": "50020418",
+                    "speaker": "Atea",
+                    "text": "Se banhar numa fonte termal é para espairecer a cabeça. Por isso, nadar nas fontes termais é extremamente mal-educado... e não é algo que vocês deviam aprender com Mualani."
+                },
+                {
+                    "id": "50020419",
+                    "speaker": "Mualani",
+                    "text": "Ei!"
+                },
+                {
+                    "id": "50020420",
+                    "speaker": "Atea",
+                    "text": "Certo. Parece que vocês se adaptaram à temperatura sem nenhum problema. Vocês podem trocar para as fontes termais naturais sem problemas."
+                },
+                {
+                    "id": "50020421",
+                    "speaker": "Atea",
+                    "text": "Bem, eu tenho que ir. Oh, e bebam seu leite. Eu estou de olho em você, Mualani. Ainda me lembro como você derramava ele na água quando era criança."
+                },
+                {
+                    "id": "50020422",
+                    "speaker": "Atea",
+                    "text": "É melhor que isso não aconteça, quer eu esteja de olho ou não."
+                },
+                {
+                    "id": "50020423",
+                    "speaker": "Mualani",
+                    "text": "Tá bom, tá bom."
+                },
+                {
+                    "id": "50020424",
+                    "speaker": "Paimon",
+                    "text": "Paimon não achava que você fosse o tipo de pessoa para fazer algo assim..."
+                },
+                {
+                    "id": "50020425",
+                    "speaker": "Mualani",
+                    "text": "Haha, lembro-me de pensar que ia escapar impune, mas, acabei descobrindo que o leite é bem fácil de perceber quando é despejado em água clara... Não foi o meu melhor trabalho."
+                },
+                {
+                    "id": "50020426",
+                    "speaker": "Black Screen",
+                    "text": "Você bebe o leite e aproveita a fonte termal com Mualani..."
+                },
+                {
+                    "id": "50020427",
+                    "speaker": "Mualani",
+                    "text": "Algumas pessoas ficam tontas se ficarem aqui por muito tempo. Vocês estão bem?"
+                },
+                {
+                    "id": "50020428",
+                    "speaker": "Paimon",
+                    "text": "Paimon está bem, só um pouco cheia..."
+                },
+                {
+                    "id": "50020429",
+                    "speaker": "Player",
+                    "text": "Eu também estou bem."
+                },
+                {
+                    "id": "50020430",
+                    "speaker": "Mualani",
+                    "text": "#Parece que vocês d{M#ois}{F#uas} são naturais! Ah, aliás, eu tenho que deixá-l{M#os sozinhos}{F#as sozinhas} por um tempo esta tarde. Vou ajudar os outros a consertar essa fonte abandonada."
+                },
+                {
+                    "id": "50020431",
+                    "speaker": "Mualani",
+                    "text": "Certamente não confio no gosto estético deles. Quem sabe o que vai acontecer com o lugar se eu os deixar sem supervisão?"
+                },
+                {
+                    "id": "50020432",
+                    "speaker": "Mualani",
+                    "text": "Em troca, porém, posso recomendar algumas lojas que valem a visita...",
+                    "choices": [
+                        {
+                            "id": "50020433",
+                            "text": "Vamos ajudar também.",
+                            "response": [
+                                {
+                                    "id": "50020435",
+                                    "speaker": "Mualani",
+                                    "text": "Hã?"
+                                },
+                                {
+                                    "id": "50020436",
+                                    "speaker": "Player",
+                                    "text": "Atea foi bem gentil com a gente..."
+                                },
+                                {
+                                    "id": "50020437",
+                                    "speaker": "Paimon",
+                                    "text": "Sim! Ela trouxe lanches, e nos ensinou sobre as fontes termais... a gente quer fazer nossa parte também."
+                                },
+                                {
+                                    "id": "50020438",
+                                    "speaker": "Paimon",
+                                    "text": "Amigos devem se ajudar! A gente ia se sentir mal se não desse uma mão."
+                                },
+                                {
+                                    "id": "50020439",
+                                    "speaker": "Mualani",
+                                    "text": "Bem, quanto mais, melhor!"
+                                },
+                                {
+                                    "id": "50020440",
+                                    "speaker": "Mualani",
+                                    "text": "Muito bem, temos que ir andando. Vamos organizar a melhor reunião na fonte termal que Natlan já viu!"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "50020434",
+                            "text": "Desde que não estejamos atrapalhando..."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "500205",
+            "objective": "Encontre-se com Marokau e os outros",
+            "dialogues": [
+                {
+                    "id": "50020501",
+                    "speaker": "Hikueru",
+                    "text": "#Mualani! Espera, você trouxe noss{M#o}{F#a}s convidad{M#o}{F#a}s também?"
+                },
+                {
+                    "id": "50020502",
+                    "speaker": "Paimon",
+                    "text": "Estamos aqui para ajudar!"
+                },
+                {
+                    "id": "50020503",
+                    "speaker": "Marokau",
+                    "text": "#Mas, vocês são convidad{M#o}{F#a}s importantes! Não podemos te colocar para trabalhar!",
+                    "choices": [
+                        {
+                            "id": "50020504",
+                            "text": "Queremos fazer a nossa parte.",
+                            "response": [
+                                {
+                                    "id": "50020506",
+                                    "speaker": "Mualani",
+                                    "text": "Tá bom, tá bom. Parem de brigar pra ver quem é mais educado que o outro. Quanto mais cedo começarmos essa festa, mais cedo poderemos aproveitar dela!"
+                                },
+                                {
+                                    "id": "50020507",
+                                    "speaker": "Mualani",
+                                    "text": "Agora, onde começar... Hmm, parece que a saída de água está super bloqueada. Teremos que cavar debaixo dela."
+                                },
+                                {
+                                    "id": "50020508",
+                                    "speaker": "Mualani",
+                                    "text": "Essas caixas no canto precisam ser jogadas fora também... Arg. Elas também estão cheias de mofo!"
+                                },
+                                {
+                                    "id": "50020509",
+                                    "speaker": "Mualani",
+                                    "text": "Além disso, alguém precisa ir pegar um pouco de tecido, madeira e decorações... Oh, e lanchinhos também! Acho que deveríamos pegar o suficiente para vinte ou trinta pessoas. Afinal de contas, comprar em volume sai mais barato... Oh, mas não aceite a primeira oferta que te derem—"
+                                },
+                                {
+                                    "id": "50020510",
+                                    "speaker": "Hikueru",
+                                    "text": "Uh... Não sou muito bom em pechinchar. Por que você não vai?"
+                                },
+                                {
+                                    "id": "50020511",
+                                    "speaker": "Marokau",
+                                    "text": "Ei, não sou muito melhor, e eu nem saberia o que comprar. Uhh, que tal eu resolver as coisas por aqui enquanto vocês três lidam com as compras?"
+                                },
+                                {
+                                    "id": "50020512",
+                                    "speaker": "Mualani",
+                                    "text": "É, isso serve também!"
+                                },
+                                {
+                                    "id": "50020513",
+                                    "speaker": "Mualani",
+                                    "text": "Eu posso te mostrar todas as lojas enquanto isso. Muito bem, vamos nos encontrar aqui mais tarde."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "50020505",
+                            "text": "Não temos mais nada para fazer no momento."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "500206",
+            "objective": "Vá à rua comercial para comprar itens essenciais",
+            "dialogues": [
+                {
+                    "id": "50020601",
+                    "speaker": "Mualani",
+                    "text": "Olá, Yelafath. Espero que os negócios estejam indo bem."
+                },
+                {
+                    "id": "50020602",
+                    "speaker": "Yelafath",
+                    "text": "Oras, se não é Mualani. Voltou da Peregrinação?"
+                },
+                {
+                    "id": "50020603",
+                    "speaker": "Mualani",
+                    "text": "Isso mesmo. Mas, não consegui passar esse ano."
+                },
+                {
+                    "id": "50020604",
+                    "speaker": "Yelafath",
+                    "text": "Bem, não seria uma competição se todos ganhassem. Então, o que vai ser hoje?"
+                },
+                {
+                    "id": "50020605",
+                    "speaker": "Mualani",
+                    "text": "Aqui, está tudo na lista — um pedido bem grande, como pode ver. Então, uh... quem sabe um desconto?"
+                },
+                {
+                    "id": "50020606",
+                    "speaker": "Yelafath",
+                    "text": "Uau, que pedido grande. Para que tudo isso, uma festa?"
+                },
+                {
+                    "id": "50020607",
+                    "speaker": "Mualani",
+                    "text": "Isso mesmo. Deixe isso entre a gente por agora... mas, vamos fazer uma festa na fonte termal para a Tia Atea."
+                },
+                {
+                    "id": "50020608",
+                    "speaker": "Yelafath",
+                    "text": "Espera, você está dizendo que ela pode ir para as fontes termais de novo? Isso são ótimas notícias! Que tal assim — você pode ficar com as decorações por conta da casa, e eu te darei vinte por cento de desconto no tecido e madeira."
+                },
+                {
+                    "id": "50020609",
+                    "speaker": "Mualani",
+                    "text": "Qual é, sei que você consegue melhorar isso aí. Essa pilha de madeiras está aí parada desde que saí para a Peregrinação. A essa altura, você precisa se livrar dela ou vai ficar mofada..."
+                },
+                {
+                    "id": "50020610",
+                    "speaker": "Yelafath",
+                    "text": "Tá bom, tá bom... *Suspira* Que chatice. Apenas me dê um momento enquanto eu junto tudo para você."
+                },
+                {
+                    "id": "50020611",
+                    "speaker": "Paimon",
+                    "text": "Uau, isso foi incrível, Mualani!"
+                },
+                {
+                    "id": "50020612",
+                    "speaker": "Mualani",
+                    "text": "Haha, não foi nada. A propósito, Yelafath, essas pedras estão a venda?"
+                },
+                {
+                    "id": "50020613",
+                    "speaker": "Yelafath",
+                    "text": "Interessada? Elas não são baratas."
+                },
+                {
+                    "id": "50020614",
+                    "speaker": "Mualani",
+                    "text": "Não estou planejando pechinchar dessa vez, prometo. Empacote elas separadamente, por favor."
+                },
+                {
+                    "id": "50020615",
+                    "speaker": "Player",
+                    "text": "Isso também são decorações?"
+                },
+                {
+                    "id": "50020616",
+                    "speaker": "Mualani",
+                    "text": "Não. Kachina gosta de coisinhas pequeninas e brilhantes, então sempre que me deparo com algo assim, eu compro para ela."
+                },
+                {
+                    "id": "50020617",
+                    "speaker": "Mualani",
+                    "text": "Vou guardar elas por enquanto. Será uma boa surpresa para quando ela retornar vitoriosa da batalha. Tenho certeza que ela vai gostar."
+                },
+                {
+                    "id": "50020618",
+                    "speaker": "Yelafath",
+                    "text": "Muito bem, isso deve ser tudo. Se você puder só checar — para garantir que nada está faltando."
+                },
+                {
+                    "id": "50020619",
+                    "speaker": "Mualani",
+                    "text": "Deixa eu ver... Hã? O que essa caixa de suco está fazendo aqui?"
+                },
+                {
+                    "id": "50020620",
+                    "speaker": "Yelafath",
+                    "text": "É por conta da casa."
+                },
+                {
+                    "id": "50020621",
+                    "speaker": "Yelafath",
+                    "text": "Sete anos atrás, quando o Abismo atacou nossa tribo, Atea salvou a vida do meu irmão. Ela nunca pediu por nada em troca, mas eu nunca pude esquecer o que ela fez pela minha família naquele dia."
+                },
+                {
+                    "id": "50020622",
+                    "speaker": "Yelafath",
+                    "text": "Então, mande meus cumprimentos. E divirta-se!"
+                },
+                {
+                    "id": "50020623",
+                    "speaker": "Mualani",
+                    "text": "Oh, iremos! Vai ser uma festa para ser lembrada! Muito obrigada, Yelafath!"
+                },
+                {
+                    "id": "50020624",
+                    "speaker": "Mualani",
+                    "text": "Bem, terminamos nossas compras. Vamos voltar."
+                }
+            ]
+        },
+        {
+            "id": "500207",
+            "objective": "Volte para a fonte termal abandonada",
+            "dialogues": [
+                {
+                    "id": "50020701",
+                    "speaker": "Mualani",
+                    "text": "Voltamos. Como estão as coisas?"
+                },
+                {
+                    "id": "50020702",
+                    "speaker": "Mualani",
+                    "text": "Uau, esse lugar ficou limpinho, hein? Você também desbloqueou a água! Bom trabalho."
+                },
+                {
+                    "id": "50020703",
+                    "speaker": "Hikueru",
+                    "text": "Espero que sim. Passamos o dia todo limpando destroços do fundo da fonte termal."
+                },
+                {
+                    "id": "50020704",
+                    "speaker": "Hikueru",
+                    "text": "Vocês pegaram tudo?"
+                },
+                {
+                    "id": "50020705",
+                    "speaker": "Paimon",
+                    "text": "Ah, a gente trouxe um montão de coisa de volta, hehe. Colocamos elas perto da entrada da caverna."
+                },
+                {
+                    "id": "50020706",
+                    "speaker": "Marokau",
+                    "text": "Tudo bem, então, arregacem as mangas, pessoal, vamos voltar ao trabalho!"
+                },
+                {
+                    "id": "50020707",
+                    "speaker": "Mualani",
+                    "text": "#Na verdade, por que vocês não dão uma pausa? Eu cuido das coisas daqui. {NICKNAME}, se importa de me dar uma mãozinha?",
+                    "choices": [
+                        {
+                            "id": "50020708",
+                            "text": "É só falar.",
+                            "response": [
+                                {
+                                    "id": "50020710",
+                                    "speaker": "Mualani",
+                                    "text": "Eu estava pensando no caminho para cá e acho que a gente podia desenhar alguma coisa na parede aqui, e os lanches e bebidas podem vir aqui..."
+                                },
+                                {
+                                    "id": "50020711",
+                                    "speaker": "Black Screen",
+                                    "text": "Sob a direção de Mualani, você dá uma recauchutada na fonte termal..."
+                                },
+                                {
+                                    "id": "50020712",
+                                    "speaker": "Mualani",
+                                    "text": "Então, o que acham? Nada mal, né?"
+                                },
+                                {
+                                    "id": "50020713",
+                                    "speaker": "Paimon",
+                                    "text": "Parece incrível! Paimon não tinha ideia que você era uma designer tão incrível!"
+                                },
+                                {
+                                    "id": "50020714",
+                                    "speaker": "Mualani",
+                                    "text": "Bem, geralmente sou responsável pela loja da família, então sou boa em coisas tipo reformas e organização."
+                                },
+                                {
+                                    "id": "50020715",
+                                    "speaker": "Mualani",
+                                    "text": "Sem mencionar que isso foi um esforço coletivo... Mesmo assim, não esperava que fosse demorar tanto... Acho que é tarde demais para convidar a Tia Atea, né..."
+                                },
+                                {
+                                    "id": "50020716",
+                                    "speaker": "Hikueru",
+                                    "text": "É, hoje não vai funcionar mesmo. Chefe Amina preparou aquelas patrulhas para proteger contra o Abismo e Atea se voluntariou. Então, ela está de guarda essa noite."
+                                },
+                                {
+                                    "id": "50020717",
+                                    "speaker": "Mualani",
+                                    "text": "Entendo. Bem, acho que a surpresa terá que esperar até amanhã."
+                                },
+                                {
+                                    "id": "50020718",
+                                    "speaker": "Mualani",
+                                    "text": "Hmm... Isso poderia ser bom, na verdade. Ela pode aliviar o cansaço de ficar de guarda a noite toda se banhando na fonte termal! Ela vai amar!"
+                                },
+                                {
+                                    "id": "50020719",
+                                    "speaker": "Mualani",
+                                    "text": "#Bem, vamos encerrar por aqui, então! {NICKNAME}, Paimon, vocês também devem estar cansad{M#os}{F#as}. Venham, vou levar vocês para a pousada."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "50020709",
+                            "text": "Como posso ajudar?"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "500208",
+            "objective": "Retorne a pousada para descansar",
+            "dialogues": [
+                {
+                    "id": "50020801",
+                    "speaker": "Mualani",
+                    "text": "Tudo bem, é isso. Tenham uma boa noite de sono, ok? Vejo vocês amanhã."
+                },
+                {
+                    "id": "50020802",
+                    "speaker": "Paimon",
+                    "text": "Certo! Boa noite!"
+                },
+                {
+                    "id": "50020803",
+                    "speaker": "Paimon",
+                    "text": "*Boceja* Paimon tá exausta. A gente foi mesmo pra tudo que é lado hoje, né?"
+                },
+                {
+                    "id": "50020804",
+                    "speaker": "Paimon",
+                    "text": "Enfim, precisamos descansar para a festa amanhã, então vamos voltar!"
+                }
+            ]
+        },
+        {
+            "id": "500209",
+            "objective": "Volte à hospedaria e durma",
+            "dialogues": []
+        },
+        {
+            "id": "500210",
+            "objective": "Lide com a situação imprevista",
+            "dialogues": [
+                {
+                    "id": "50021001",
+                    "speaker": "???",
+                    "text": "Peguem as armas, pessoal! Peguem as armas!"
+                },
+                {
+                    "id": "50021002",
+                    "speaker": "???",
+                    "text": "Ugh, logo agora?!"
+                },
+                {
+                    "id": "50021003",
+                    "speaker": "Paimon",
+                    "text": "*Ronca* Hã? Que barulheira é essa...?"
+                },
+                {
+                    "id": "50021004",
+                    "speaker": "Mualani",
+                    "text": "#{NICKNAME}, Paimon, acordem!"
+                },
+                {
+                    "id": "50021005",
+                    "speaker": "Paimon",
+                    "text": "Mualani? O que tá rolando... Aah, de onde saiu esse tanto de monstro?!"
+                },
+                {
+                    "id": "50021006",
+                    "speaker": "Mualani",
+                    "text": "É o Abismo. Nossas patrulhas estão tentando expulsá-los agora mesmo."
+                },
+                {
+                    "id": "50021007",
+                    "speaker": "Mualani",
+                    "text": "Venham comigo. Levo vocês para um lugar seguro!"
+                },
+                {
+                    "id": "50021008",
+                    "speaker": "Taheta",
+                    "text": "Mualani, uma ajudinha aqui? Não conseguimos segurar eles por mais tempo!"
+                },
+                {
+                    "id": "50021009",
+                    "speaker": "Mualani",
+                    "text": "Um momento. Chego já aí!",
+                    "choices": [
+                        {
+                            "id": "50021010",
+                            "text": "Nós também vamos!",
+                            "response": [
+                                {
+                                    "id": "50021011",
+                                    "speaker": "Mualani",
+                                    "text": "Sério? Perfeito! Tava esperando uma chance de lutar ao seu lado!"
+                                },
+                                {
+                                    "id": "50021014",
+                                    "speaker": "Mualani",
+                                    "text": "Aguentem aí, estamos aqui para ajudar!"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "50021012",
+                            "text": "Vamos mostrar a esses monstros o que a gente sabe.",
+                            "response": [
+                                {
+                                    "id": "50021013",
+                                    "speaker": "Mualani",
+                                    "text": "Eu não podia ter dito melhor!"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "500211",
+            "objective": "Derrote a invasão do Abismo",
+            "dialogues": []
+        },
+        {
+            "id": "500212",
+            "objective": "Fale com Mualani",
+            "dialogues": [
+                {
+                    "id": "50021201",
+                    "speaker": "Mualani",
+                    "text": "Já eliminamos a maioria dos monstros aqui. Graças à sua ajuda — teria levado muito tempo sozinha."
+                },
+                {
+                    "id": "50021202",
+                    "speaker": "Mualani",
+                    "text": "Mas parece que a noite ainda será longa. Ainda não temos ideia de onde essas criaturas estão vindo..."
+                },
+                {
+                    "id": "50021203",
+                    "speaker": "Mualani",
+                    "text": "Vamos perguntar a Amina. Ela vai ter uma compreensão melhor da situação."
+                }
+            ]
+        },
+        {
+            "id": "500213",
+            "objective": "Vá com Mualani e encontre Amina",
+            "dialogues": [
+                {
+                    "id": "50021301",
+                    "speaker": "Mualani",
+                    "text": "Amina!"
+                },
+                {
+                    "id": "50021302",
+                    "speaker": "Amina",
+                    "text": "Ah, são vocês três... Obrigada por ajudarem a eliminar todos aqueles monstros."
+                },
+                {
+                    "id": "50021303",
+                    "speaker": "Amina",
+                    "text": "Estávamos preparados para um ataque, mas não tínhamos gente suficiente para prevenir que penetrassem nossas defesas. Mas não houve nenhuma vítima."
+                },
+                {
+                    "id": "50021304",
+                    "speaker": "Mualani",
+                    "text": "De onde eles vieram dessa vez?"
+                },
+                {
+                    "id": "50021305",
+                    "speaker": "Amina",
+                    "text": "Pelo leste. Nós identificamos a posição de um Portal do Abismo, mas não temos gente o bastante para acabar com ele."
+                },
+                {
+                    "id": "50021306",
+                    "speaker": "Paimon",
+                    "text": "Um Portal do Abismo? O que é isso?"
+                },
+                {
+                    "id": "50021307",
+                    "speaker": "Mualani",
+                    "text": "É uma porta criada pelo Abismo e que permite que os monstros do Reino da Noite entrem no mundo físico."
+                },
+                {
+                    "id": "50021308",
+                    "speaker": "Mualani",
+                    "text": "A única forma de acabar com o ataque é destruindo o Portal o mais rápido possível. Caso contrário, as ondas infinitas de monstros vão extinguir nossas defesas."
+                },
+                {
+                    "id": "50021309",
+                    "speaker": "Amina",
+                    "text": "Exato, é isso que estou mais preocupada. Seus números sugerem que devem existir vários Portais na área. Estamos procurando por eles neste exato momento..."
+                },
+                {
+                    "id": "50021310",
+                    "speaker": "Mualani",
+                    "text": "#Certo, vamos selar o Portal no leste. {NICKNAME}, Paimon, posso contar com vocês?"
+                },
+                {
+                    "id": "50021311",
+                    "speaker": "Paimon",
+                    "text": "#Claro! A gente não pode ficar só parad{F#a}{M#o} sem fazer nada!"
+                },
+                {
+                    "id": "50021312",
+                    "speaker": "Amina",
+                    "text": "Eu agradeço em nome do Povo das Termas. Estamos contando com vocês."
+                },
+                {
+                    "id": "50021313",
+                    "speaker": "Mualani",
+                    "text": "Vamos, não há tempo a perder. Se cuide, Amina."
+                }
+            ]
+        },
+        {
+            "id": "500214",
+            "objective": "Destrua o Portal do Abismo",
+            "dialogues": []
+        },
+        {
+            "id": "500215",
+            "objective": "Fale com Mualani",
+            "dialogues": [
+                {
+                    "id": "50021601",
+                    "speaker": "Paimon",
+                    "text": "Ufa, isso deve ser o suficiente, certo?"
+                },
+                {
+                    "id": "50021602",
+                    "speaker": "Mualani",
+                    "text": "Eu não estou vendo mais nenhum monstro, então devemos estar seguros."
+                },
+                {
+                    "id": "50021603",
+                    "speaker": "Paimon",
+                    "text": "Esses ataques acontecem sempre? Deve ser difícil para a sua tribo..."
+                },
+                {
+                    "id": "50021604",
+                    "speaker": "Mualani",
+                    "text": "Sim, às vezes pode ser um pouco difícil, mas é assim que nossos antepassados sempre viveram."
+                },
+                {
+                    "id": "50021605",
+                    "speaker": "Mualani",
+                    "text": "Além disso, o Abismo não se importa com o quão difícil são as nossas vidas. Lutar é a nossa única saída."
+                },
+                {
+                    "id": "50021606",
+                    "speaker": "Mualani",
+                    "text": "Enfim, devemos voltar... Hã? O que você está olhando aí? Você viu alguma coisa?",
+                    "choices": [
+                        {
+                            "id": "50021607",
+                            "text": "Naquela direção...",
+                            "response": [
+                                {
+                                    "id": "50021609",
+                                    "speaker": "Paimon",
+                                    "text": "Você está certa! Mualani, veja! Eles estão vindo daquela direção!"
+                                },
+                                {
+                                    "id": "50021610",
+                                    "speaker": "Paimon",
+                                    "text": "Espera, essa área me parece meio familiar..."
+                                },
+                                {
+                                    "id": "50021611",
+                                    "speaker": "Player",
+                                    "text": "Aquela é a localização da fonte termal abandonada!"
+                                },
+                                {
+                                    "id": "50021612",
+                                    "speaker": "Mualani",
+                                    "text": "O-O quê!? Que azar! Acabamos de terminar as renovações!"
+                                },
+                                {
+                                    "id": "50021613",
+                                    "speaker": "Mualani",
+                                    "text": "Provavelmente não temos reforços por lá, então depende de nós! Vamos nos mexer!"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "50021608",
+                            "text": "Tem muitos monstros..."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "500216",
+            "objective": "Vá à fonte termal abandonada",
+            "dialogues": [
+                {
+                    "id": "50021701",
+                    "speaker": "Atea",
+                    "text": "*Cof, cof*"
+                },
+                {
+                    "id": "50021702",
+                    "speaker": "Mualani",
+                    "text": "Atea! O que você está fazendo aqui? Cadê o Portão do Abismo?"
+                },
+                {
+                    "id": "50021703",
+                    "speaker": "Atea",
+                    "text": "Ha! O que você acha...? Se eu estou aqui, quer dizer que aquela coisa já era."
+                },
+                {
+                    "id": "50021704",
+                    "speaker": "Atea",
+                    "text": "Eu estava com pressa, então não pude fazer muita coisa. Você deveria verificar se as coisas importantes continuam todas aqui."
+                },
+                {
+                    "id": "50021705",
+                    "speaker": "Mualani",
+                    "text": "Pare de falar por enquanto. Essa ferida parece bem feia... o Abismo está corroendo o seu corpo."
+                },
+                {
+                    "id": "50021706",
+                    "speaker": "Hikueru",
+                    "text": "Essa é a área correta? Olá? Tem alguém aí?"
+                },
+                {
+                    "id": "50021707",
+                    "speaker": "Hikueru",
+                    "text": "Mualani e... Atea? O que está acontecendo? Nos falaram que o segundo Portão estava por aqui..."
+                },
+                {
+                    "id": "50021708",
+                    "speaker": "Mualani",
+                    "text": "Atea cuidou disso, mas ela se feriu... Rápido! Alguém chame um médico!"
+                },
+                {
+                    "id": "50021709",
+                    "speaker": "Atea",
+                    "text": "Certo, certo, chega disso. Eu conheço meu corpo, e nada tá quebrado... essa é uma terma linda. Consigo ver quanto vocês se esforçaram nela."
+                },
+                {
+                    "id": "50021710",
+                    "speaker": "Mualani",
+                    "text": "Espera, não. Isso era para ser uma... surpresa."
+                },
+                {
+                    "id": "50021711",
+                    "speaker": "Atea",
+                    "text": "Para mim, não é? Eu já sabia."
+                },
+                {
+                    "id": "50021712",
+                    "speaker": "Mualani",
+                    "text": "..."
+                },
+                {
+                    "id": "50021713",
+                    "speaker": "Marokau",
+                    "text": "Atea..."
+                },
+                {
+                    "id": "50021714",
+                    "speaker": "Atea",
+                    "text": "Vocês acham que eu não percebi que vocês estavam me evitando de propósito? Nenhum de vocês parou para me dar um oi hoje... Não havia como ser mais óbvio que vocês estavam escondendo algo."
+                },
+                {
+                    "id": "50021715",
+                    "speaker": "Atea",
+                    "text": "E você, Mualani. Você que comprou os lanches? Quantas vezes eu já disse? Você tem que escolher eles de acordo com a temperatura da água..."
+                },
+                {
+                    "id": "50021716",
+                    "speaker": "Mualani",
+                    "text": "Por favor, não se force. O médico está quase chegando, e você vai melhorar. Então vamos poder ter uma refeição juntos, e vou fazer o que você quiser, tá bem? Você só precisa segurar mais um pouco..."
+                },
+                {
+                    "id": "50021717",
+                    "speaker": "Player",
+                    "text": "(Mualani disse que Atea havia sido ferida pelo Abismo antes. Talvez seja por isso que a Corrosão está tão rápida dessa vez...)"
+                },
+                {
+                    "id": "50021718",
+                    "speaker": "Player",
+                    "text": "(Nesse ritmo, ela não vai aguentar até a ajuda chegar. Talvez eu possa fazer algo.)"
+                },
+                {
+                    "id": "50021719",
+                    "speaker": "Lisa",
+                    "text": "O poder dessas impurezas repele a energia elemental de nossos corpos."
+                },
+                {
+                    "id": "50021720",
+                    "speaker": "Paimon",
+                    "text": "O quê? O cristal foi purificado? Desde quando?"
+                },
+                {
+                    "id": "50021721",
+                    "speaker": "Venti",
+                    "text": "É uma lágrima de sofrimento..."
+                },
+                {
+                    "id": "50021722",
+                    "speaker": "Venti",
+                    "text": "Eu também tenho um Cristal de Lágrima aqui. Você pode purificá-lo?"
+                },
+                {
+                    "id": "50021723",
+                    "speaker": "Player",
+                    "text": "(Isso mesmo. Naquela hora, eu...)"
+                },
+                {
+                    "id": "50021724",
+                    "speaker": "Mualani",
+                    "text": "Atea? Atea!"
+                },
+                {
+                    "id": "50021725",
+                    "speaker": "Player",
+                    "text": "Me deixa tentar uma coisa..."
+                },
+                {
+                    "id": "50021726",
+                    "speaker": "Mualani",
+                    "text": "Espera, o que você quer dizer?"
+                },
+                {
+                    "id": "50021727",
+                    "speaker": "Mualani",
+                    "text": "...!"
+                },
+                {
+                    "id": "50021728",
+                    "speaker": "Mualani",
+                    "text": "O que é isso? Uma purificação? O poder do Abismo... ele está sendo purificado!"
+                },
+                {
+                    "id": "50021729",
+                    "speaker": "Hikueru",
+                    "text": "Como isso é possível?!"
+                },
+                {
+                    "id": "50021730",
+                    "speaker": "Marokau",
+                    "text": "Eu não sabia que isso era possível..."
+                },
+                {
+                    "id": "50021731",
+                    "speaker": "Atea",
+                    "text": "..."
+                },
+                {
+                    "id": "50021732",
+                    "speaker": "Atea",
+                    "text": "*Cof*"
+                },
+                {
+                    "id": "50021733",
+                    "speaker": "Mualani",
+                    "text": "Atea!"
+                },
+                {
+                    "id": "50021734",
+                    "speaker": "Atea",
+                    "text": "A marca do Abismo... ela se foi?"
+                },
+                {
+                    "id": "50021735",
+                    "speaker": "Mualani",
+                    "text": "#Sim, graças {F#a}{M#ao} Viajante... falando nisso, você tá bem, {NICKNAME}?"
+                },
+                {
+                    "id": "50021736",
+                    "speaker": "Mualani",
+                    "text": "Eu vi você purificar o poder do Abismo do corpo de Atea. Você não se feriu, né?"
+                },
+                {
+                    "id": "50021737",
+                    "speaker": "Player",
+                    "text": "#Tô tranquil{M#o}{F#a}."
+                },
+                {
+                    "id": "50021738",
+                    "speaker": "Mualani",
+                    "text": "Você tem certeza?",
+                    "choices": [
+                        {
+                            "id": "50021739",
+                            "text": "Claro.",
+                            "response": [
+                                {
+                                    "id": "50021741",
+                                    "speaker": "Mualani",
+                                    "text": "Bom, bom..."
+                                },
+                                {
+                                    "id": "50021742",
+                                    "speaker": "Hikueru",
+                                    "text": "Graças aos Arcontes!"
+                                },
+                                {
+                                    "id": "50021743",
+                                    "speaker": "Marokau",
+                                    "text": "Você deu um susto em todo mundo!"
+                                },
+                                {
+                                    "id": "50021744",
+                                    "speaker": "Black Screen",
+                                    "text": "Um grupo de jovens da tribo correm até você e Atea."
+                                },
+                                {
+                                    "id": "50021745",
+                                    "speaker": "Black Screen",
+                                    "text": "#Eles jogam você no ar, erguendo um{F#a heroína}{M# héroi} triunfante."
+                                },
+                                {
+                                    "id": "50021746",
+                                    "speaker": "Mualani",
+                                    "text": "Certo, pessoal, vamos voltar e descansar. Vamos nos encontrar aqui amanhã!"
+                                },
+                                {
+                                    "id": "50021747",
+                                    "speaker": "Mualani",
+                                    "text": "Vamos celebrar a recuperação de Atea e nosso triunfo sobre o Abismo!"
+                                },
+                                {
+                                    "id": "50021748",
+                                    "speaker": "Mualani",
+                                    "text": "#E, mais importante, vamos mostrar para {F#a}{M#o} Viajante e Paimon como estamos gratos pela sua ajuda! Vamos fazer essa ocasião memorável! Dispensados!"
+                                },
+                                {
+                                    "id": "50021749",
+                                    "speaker": "Multidão",
+                                    "text": "Entendido!"
+                                },
+                                {
+                                    "id": "50021750",
+                                    "speaker": "Mualani",
+                                    "text": "Você tem algum outro poder que eu deva ficar sabendo, haha? Mas, falando sério, você nos salvou hoje. Muito obrigada."
+                                },
+                                {
+                                    "id": "50021751",
+                                    "speaker": "Paimon",
+                                    "text": "Paimon quase esqueceu você tinha essa habilidade. Você usou ela em Mondstadt para purificar as lágrimas do Dvalin, não foi?"
+                                },
+                                {
+                                    "id": "50021752",
+                                    "speaker": "Paimon",
+                                    "text": "Você pensou rápido, Viajante... Hã? Você tá com a cara que tem algo te incomodando. O que tem de errado?"
+                                },
+                                {
+                                    "id": "50021753",
+                                    "speaker": "Player",
+                                    "text": "(Eu não quis estragar o humor, mas quando eu tava purificando o poder do Abismo em Atea, eu pude sentir algo...)"
+                                },
+                                {
+                                    "id": "50021754",
+                                    "speaker": "Player",
+                                    "text": "(Resquícios desse poder existiram por anos no corpo dela, corroendo do interior pra fora...)"
+                                },
+                                {
+                                    "id": "50021755",
+                                    "speaker": "Player",
+                                    "text": "(Eu fiz o meu melhor para purificar esse poder, mas ele está nos seus órgãos. Ela está frágil como uma folha seca no vento.)"
+                                },
+                                {
+                                    "id": "50021756",
+                                    "speaker": "Mualani",
+                                    "text": "Poder do Abismo ainda existe no corpo dela. Mergulhar em água quente aceleraria a corrosão de seus órgãos internos e o avanço de sua doença."
+                                },
+                                {
+                                    "id": "50021757",
+                                    "speaker": "Marokau",
+                                    "text": "Achamos que a doença da tia Atea melhorou."
+                                },
+                                {
+                                    "id": "50021758",
+                                    "speaker": "Hikueru",
+                                    "text": "Ela nunca podia entrar em contato com água quente antes, e agora, ela vai todas as noites para as fontes termais. É óbvio o que significa, não acha?"
+                                },
+                                {
+                                    "id": "50021759",
+                                    "speaker": "Player",
+                                    "text": "(Eu não acho que ela estava indo para as termas porque estava se recuperando, mas porque percebeu que sua condição havia piorado sem chance de melhoras... não sei se devia dizer para Mualani.)"
+                                },
+                                {
+                                    "id": "50021760",
+                                    "speaker": "Paimon",
+                                    "text": "Alôôôôô! Viajante! Você pode viajar na maionese depois, porque Paimon tá com os olhos pregados. Vamos voltar."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "50021740",
+                            "text": "Tá vendo?"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "500218",
+            "objective": "Participe da festa da fonte termal",
+            "dialogues": [
+                {
+                    "id": "50021801",
+                    "speaker": "Atea",
+                    "text": "Não tá com vontade de se divertir com as crianças?"
+                },
+                {
+                    "id": "50021802",
+                    "speaker": "Player",
+                    "text": "..."
+                },
+                {
+                    "id": "50021803",
+                    "speaker": "Atea",
+                    "text": "Não gostou dos lanches? A temperatura das termas tá muito alta?"
+                },
+                {
+                    "id": "50021804",
+                    "speaker": "Atea",
+                    "text": "...Nenhuma dessas, hein? Soube que foi você que purificou o poder do Abismo ontem... Você sentiu, não foi?"
+                },
+                {
+                    "id": "50021805",
+                    "speaker": "Player",
+                    "text": "..."
+                },
+                {
+                    "id": "50021806",
+                    "speaker": "Atea",
+                    "text": "*Suspiro* Eu esperava manter segredo por mais alguns dias, não queria arruinar as comemorações e tudo mais, mas parece que não tem como... Ei, garota!"
+                },
+                {
+                    "id": "50021807",
+                    "speaker": "Mualani",
+                    "text": "Quem, eu?"
+                },
+                {
+                    "id": "50021808",
+                    "speaker": "Atea",
+                    "text": "Sim, você. Vem, vamos dar uma caminhada."
+                },
+                {
+                    "id": "50021809",
+                    "speaker": "Hikueru",
+                    "text": "Ei, aonde vocês estão indo? Aconteceu alguma coisa?"
+                },
+                {
+                    "id": "50021810",
+                    "speaker": "Atea",
+                    "text": "Só indo tomar um pouco de ar. É barulhento demais aqui."
+                },
+                {
+                    "id": "50021811",
+                    "speaker": "Atea",
+                    "text": "Se divirtam — voltamos em breve. Ah, e tem uns lanches extras naquela caixa ali se precisarem repor. Assei eles essa manhã, estão fresquinhos."
+                },
+                {
+                    "id": "50021812",
+                    "speaker": "Marokau",
+                    "text": "Tudo bem! Parece ótimo!"
+                },
+                {
+                    "id": "50021813",
+                    "speaker": "Atea",
+                    "text": "Mualani."
+                },
+                {
+                    "id": "50021814",
+                    "speaker": "Mualani",
+                    "text": "Hã?"
+                },
+                {
+                    "id": "50021815",
+                    "speaker": "Atea",
+                    "text": "...Você ficou tão alta, sabe disso? Parece que ontem mesmo você era uma menina malcriada, causando todo tipo de problema nas fontes termais. É como se todo aquele tempo tivesse passado num piscar de olhos..."
+                },
+                {
+                    "id": "50021816",
+                    "speaker": "Atea",
+                    "text": "Me diga, como estão seus pais?"
+                },
+                {
+                    "id": "50021817",
+                    "speaker": "Mualani",
+                    "text": "Eles estão viajando a negócios... Sério, Atea, o que tá acontecendo? Você tá agindo tão estranha..."
+                },
+                {
+                    "id": "50021818",
+                    "speaker": "Mualani",
+                    "text": "#{NICKNAME}, aconteceu alguma coisa? Vocês parecem meio estranh{M#os}{F#as} hoje..."
+                },
+                {
+                    "id": "50021819",
+                    "speaker": "Atea",
+                    "text": "Acho que devo explicar."
+                },
+                {
+                    "id": "50021820",
+                    "speaker": "Atea",
+                    "text": "Eu não estava visitando as fontes termais porque estava melhorando. E aquele Portal ontem... Eu não queria enfrentá-lo porque eu fui imprudente, ou fiquei ansiosa demais para esperar por reforços..."
+                },
+                {
+                    "id": "50021821",
+                    "speaker": "Atea",
+                    "text": "É porque meu corpo não vai durar muito mais tempo."
+                },
+                {
+                    "id": "50021822",
+                    "speaker": "Atea",
+                    "text": "#{M#Seu amigo}{F#Sua amiga} salvou minha vida naquela caverna, eu pude aproveitar essa comemoração com todos vocês... Mas estou apenas a alguns dias do fim."
+                },
+                {
+                    "id": "50021823",
+                    "speaker": "Atea",
+                    "text": "As fontes termais... só estou tentando aproveitá-las pelo máximo de tempo que puder."
+                },
+                {
+                    "id": "50021824",
+                    "speaker": "Mualani",
+                    "text": "..."
+                },
+                {
+                    "id": "50021825",
+                    "speaker": "Atea",
+                    "text": "Mualani?"
+                },
+                {
+                    "id": "50021826",
+                    "speaker": "Mualani",
+                    "text": "\"É melhor não acontecer de novo, esteja eu aqui para te pegar ou não\" — foi o que você disse na fonte artificial. Eu... tive uma sensação ruim na hora, mas não queria que fosse verdade."
+                },
+                {
+                    "id": "50021827",
+                    "speaker": "Mualani",
+                    "text": "Eu... queria acreditar que você estava realmente se recuperando..."
+                },
+                {
+                    "id": "50021828",
+                    "speaker": "Atea",
+                    "text": "Quer saber de uma coisa? Recuperação, morte... Para mim, as duas coisas não são tão diferentes. Ambas valem a pena celebrar."
+                },
+                {
+                    "id": "50021829",
+                    "speaker": "Atea",
+                    "text": "Você nunca foi revivida, então pode não entender, mas eu e a morte? Somos velhas amigas a essa altura. Não tem nada de triste em se reunir com uma velha amiga."
+                },
+                {
+                    "id": "50021830",
+                    "speaker": "Atea",
+                    "text": "Eu vivi com arrependimento por muito tempo... arrependimento que minha doença significasse que eu não poderia mais ir à linha de frente, especialmente enquanto nossa nação cai em crise."
+                },
+                {
+                    "id": "50021831",
+                    "speaker": "Atea",
+                    "text": "Mas ontem, finalmente pude abandonar esse arrependimento. Não só porque encontrei a força para lutar contra o Abismo, mesmo no fim da minha vida... Mas, porque eu pude te ver em ação, Mualani."
+                },
+                {
+                    "id": "50021832",
+                    "speaker": "Atea",
+                    "text": "Te ver lá... Me fez perceber que eu não preciso me preocupar com o futuro da nossa nação ou tribo. Você tem a capacidade de unir todos."
+                },
+                {
+                    "id": "50021833",
+                    "speaker": "Atea",
+                    "text": "Mesmo se eu jamais tivesse me ferido, a velhice ainda me levaria um dia, mas eu fiz o que precisava fazer — o futuro está em suas mãos agora."
+                },
+                {
+                    "id": "50021834",
+                    "speaker": "Atea",
+                    "text": "Só lembre — seja na vida ou na morte, estou sempre com vocês."
+                },
+                {
+                    "id": "50021835",
+                    "speaker": "Mualani",
+                    "text": "Eu entendo. Parece que você pensou muito nisso, Atea. Obrigada por me contar tudo isso."
+                },
+                {
+                    "id": "50021836",
+                    "speaker": "Mualani",
+                    "text": "Farei tudo em meu poder para proteger nossa tribo, nossa nação e cumprir as expectativas do exemplo que você foi para mim."
+                },
+                {
+                    "id": "50021837",
+                    "speaker": "Atea",
+                    "text": "Bom... Oh, e se vocês tiverem alguma chance de encontrar a Arconte, pode entregar isso a ela por mim?"
+                },
+                {
+                    "id": "50021838",
+                    "speaker": "Player",
+                    "text": "O que é isso?"
+                },
+                {
+                    "id": "50021839",
+                    "speaker": "Atea",
+                    "text": "Um talismã que carreguei comigo por toda minha vida. Pode parecer estranho dizer isso enquanto estou viva, mas só pense nisso como uma \"relíquia\" que estou deixando para ela."
+                },
+                {
+                    "id": "50021840",
+                    "speaker": "Atea",
+                    "text": "Me trouxe sorte em batalha. Mesmo após eu ficar doente demais para lutar, eu nunca o tirei."
+                },
+                {
+                    "id": "50021841",
+                    "speaker": "Atea",
+                    "text": "Só diga a ela que \"incorpora memórias felizes e minha força de vontade\". Ela entenderá o que estou tentando dizer."
+                },
+                {
+                    "id": "50021842",
+                    "speaker": "Mualani",
+                    "text": "Não se preocupe... Vamos garantir que chegue a ela."
+                },
+                {
+                    "id": "50021843",
+                    "speaker": "Atea",
+                    "text": "Tudo bem, isso era tudo que eu queria dizer. Vamos voltar para festa. Não adianta passar o pouco tempo que tenho estando triste."
+                },
+                {
+                    "id": "50021844",
+                    "speaker": "Paimon",
+                    "text": "#{NICKNAME}, Atea, Mualani! Se não se apressarem não vai sobrar nenhum lanche!"
+                },
+                {
+                    "id": "50021845",
+                    "speaker": "Atea",
+                    "text": "Ei, o que eu falei sobre se banhar na fonte termal de barriga cheia? Vocês tão me ouvindo—"
+                },
+                {
+                    "id": "50021846",
+                    "speaker": "Black Screen",
+                    "text": "Todos se divertem na atmosfera festiva. Quando chega a hora de partir, Atea dá tchau com um sorriso no rosto."
+                },
+                {
+                    "id": "50021847",
+                    "speaker": "Black Screen",
+                    "text": "Quando ela chega ao seu grupo, ela bate no ombro de Mualani com gentileza."
+                },
+                {
+                    "id": "50021848",
+                    "speaker": "Atea",
+                    "text": "\"A vida é uma jornada da qual não há volta, então avance e não se segure.\""
+                }
+            ]
+        },
+        {
+            "id": "500215",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "50021501",
+                    "speaker": "Mualani",
+                    "text": ""
+                }
+            ]
+        },
+        {
+            "id": "500221",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "50022101",
+                    "speaker": "Hikueru",
+                    "text": "Vamos cavar, então?"
+                },
+                {
+                    "id": "50022102",
+                    "speaker": "Marokau",
+                    "text": "Vamos lá!"
+                }
+            ]
+        },
+        {
+            "id": "500231",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "50023101",
+                    "speaker": "Paimon",
+                    "text": "Quais são os seus planos, Kinich?"
+                },
+                {
+                    "id": "50023102",
+                    "speaker": "Kinich",
+                    "text": "Tenho que entregar alguns artefatos cerimoniais de volta à minha tribo. Eu não tive uma classificação muito boa nessa Peregrinação, então, agora que ela acabou, é hora de voltar para casa e voltar ao trabalho."
+                },
+                {
+                    "id": "50023103",
+                    "speaker": "Paimon",
+                    "text": "Você não marcou pontos suficientes?"
+                },
+                {
+                    "id": "50023104",
+                    "speaker": "Kinich",
+                    "text": "É. Eu me machuquei durante a rodada de equipes e acabei perdendo duas partidas importantes durante a competição individual — enfrentei os dois oponentes muitas vezes no passado. Todos nós tivemos nossa parcela de vitórias e derrotas. Acontece."
+                },
+                {
+                    "id": "50023105",
+                    "speaker": "Ajaw",
+                    "text": "Haha, é isso que você ganha por me prender mais cedo! Se acostume com o gostinho da retribuição... Que essas feridas sejam as primeiras de muitas!"
+                },
+                {
+                    "id": "50023106",
+                    "speaker": "Kinich",
+                    "text": "..."
+                },
+                {
+                    "id": "50023107",
+                    "speaker": "Ajaw",
+                    "text": "...Ei! O que você tá fazendo?! Argh...!"
+                }
+            ]
+        },
+        {
+            "id": "500236",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "50023601",
+                    "speaker": "Amina",
+                    "text": "Ufa... Obrigado pela sua ajuda. O Abismo finalmente fugiu para o Reino da Noite, e a temperatura da água voltou ao normal."
+                },
+                {
+                    "id": "50023602",
+                    "speaker": "Amina",
+                    "text": "Acho que isso significa que temos várias coisas para celebrar nessa festa!"
+                }
+            ]
+        },
+        {
+            "id": "500297",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "50029701",
+                    "speaker": "Black Screen",
+                    "text": "Com dúvidas ainda permeando em seu coração, você retorna para o hotel para descansar até a manhã seguinte. Até que seja hora da festa da fonte termal..."
+                }
+            ]
+        },
+        {
+            "id": "500299",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "50029901",
+                    "speaker": "Paimon",
+                    "text": "Mualani, esse é o Portal?"
+                },
+                {
+                    "id": "50029902",
+                    "speaker": "Mualani",
+                    "text": "Já deu, beleza. Vamos lá, vamos nos livrar dessa coisa!"
+                },
+                {
+                    "id": "50029903",
+                    "speaker": "Taenga",
+                    "text": "Hmm... Parece que o número de monstros está diminuindo..."
+                },
+                {
+                    "id": "50029904",
+                    "speaker": "Tureia",
+                    "text": "Vamos lá, pessoal! Continuem!"
+                }
+            ]
+        }
+    ]
+}

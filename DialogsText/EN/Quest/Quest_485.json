@@ -1,0 +1,484 @@
+{
+    "quest": {
+        "id": "485",
+        "title": "Outrider Style",
+        "description": "During your pursuit, you track Raptor to his hideout. You plunge into its depths without hesitation. Time to bring this criminal to justice.",
+        "rewards": [
+            {
+                "itemId": 102,
+                "count": 275
+            },
+            {
+                "itemId": 201,
+                "count": 60
+            },
+            {
+                "itemId": 202,
+                "count": 6175
+            },
+            {
+                "itemId": 104301,
+                "count": 5
+            },
+            {
+                "itemId": 104002,
+                "count": 3
+            },
+            {
+                "itemId": 104012,
+                "count": 7
+            }
+        ],
+        "rewards_formatted": "Adventure EXP x275, Primogem x60, Mora x6175, Teachings of Freedom x5, Adventurer's Experience x3, Fine Enhancement Ore x7",
+        "chapter": {
+            "icon": "UI_ChapterIcon_Ambor",
+            "id": "2003",
+            "num": "Lepus Chapter: Act I",
+            "title": "Wind, Courage, and Wings"
+        },
+        "total_dialogue_lines": 72,
+        "total_speaker_counts": {
+            "Amber": 38,
+            "Paimon": 14,
+            "Player": 14,
+            "Raptor": 6
+        }
+    },
+    "talks": [
+        {
+            "id": "48501",
+            "objective": "Enter Raptor's Hideout",
+            "dialogues": []
+        },
+        {
+            "id": "48511",
+            "objective": "Talk to Amber",
+            "dialogues": [
+                {
+                    "id": "4851101",
+                    "speaker": "Amber",
+                    "text": "There's only one way over there. Raptor must be up ahead."
+                }
+            ]
+        },
+        {
+            "id": "48509",
+            "objective": "Defeat all opponents",
+            "dialogues": []
+        },
+        {
+            "id": "48510",
+            "objective": "Enter Amber Dungeon",
+            "dialogues": []
+        },
+        {
+            "id": "48502",
+            "objective": "Hunt down Raptor",
+            "dialogues": []
+        },
+        {
+            "id": "48503",
+            "objective": "Hunt down Raptor",
+            "dialogues": [
+                {
+                    "id": "4850301",
+                    "speaker": "Amber",
+                    "text": "It looks like there's no way across... Ugh, he must be around here somewhere."
+                },
+                {
+                    "id": "4850302",
+                    "speaker": "Paimon",
+                    "text": "Amber, over there!"
+                },
+                {
+                    "id": "4850303",
+                    "speaker": "Raptor",
+                    "text": "If you insist on chasing me, so be it... Huh? Who brought the little girl?"
+                },
+                {
+                    "id": "4850304",
+                    "speaker": "Amber",
+                    "text": "You must be Raptor! You can't escape!"
+                },
+                {
+                    "id": "4850305",
+                    "speaker": "Raptor",
+                    "text": "Haha, I don't need to escape! There's no way you can make it over here."
+                },
+                {
+                    "id": "4850306",
+                    "speaker": "Amber",
+                    "text": "Oh... It is pretty high... and quite far..."
+                },
+                {
+                    "id": "4850307",
+                    "speaker": "Raptor",
+                    "text": "Oh, little girl, why don't you run along home now and let your leader deal with this? Don't worry, I promise that once the Grand Master gets here, I'll surrender immediately! Haha!"
+                },
+                {
+                    "id": "4850308",
+                    "speaker": "Amber",
+                    "text": "Hey, watch it! You're talking to a Knights of Favonius Outrider! You'll be sorry when I arrest you!",
+                    "choices": [
+                        {
+                            "id": "4850309",
+                            "text": "Deep breaths, Amber.",
+                            "response": [
+                                {
+                                    "id": "4850311",
+                                    "speaker": "Amber",
+                                    "text": "...You're right."
+                                },
+                                {
+                                    "id": "4850312",
+                                    "speaker": "Amber",
+                                    "text": "Ugh... He's right there in front of us... If only we could glide across."
+                                },
+                                {
+                                    "id": "4850313",
+                                    "speaker": "Paimon",
+                                    "text": "So how did HE get across?",
+                                    "choices": [
+                                        {
+                                            "id": "4850314",
+                                            "text": "Some sort of mechanism?",
+                                            "response": [
+                                                {
+                                                    "id": "4850315",
+                                                    "speaker": "Amber",
+                                                    "text": "I don't see a mechanism, and I have good eyesight."
+                                                },
+                                                {
+                                                    "id": "4850316",
+                                                    "speaker": "Amber",
+                                                    "text": "Besides, there's nowhere on the ledge that you could build one."
+                                                },
+                                                {
+                                                    "id": "4850322",
+                                                    "speaker": "Raptor",
+                                                    "text": "Bye-bye, kiddo..."
+                                                },
+                                                {
+                                                    "id": "4850323",
+                                                    "speaker": "Paimon",
+                                                    "text": "Oh no! He's getting away!"
+                                                },
+                                                {
+                                                    "id": "4850324",
+                                                    "speaker": "Amber",
+                                                    "text": "We can't hesitate any longer. The only way to get across is to glide there."
+                                                },
+                                                {
+                                                    "id": "4850325",
+                                                    "speaker": "Paimon",
+                                                    "text": "But... but..."
+                                                },
+                                                {
+                                                    "id": "4850326",
+                                                    "speaker": "Amber",
+                                                    "text": "Don't worry — I'm the Gliding Champion of Mondstadt, remember! If Raptor can do it, I can do it too."
+                                                },
+                                                {
+                                                    "id": "4850327",
+                                                    "speaker": "Raptor",
+                                                    "text": "Oi, Outrider! You have less chance of surviving this than jumping off the Anemo God statue in Mondstadt without your wind glider! Haha!",
+                                                    "choices": [
+                                                        {
+                                                            "id": "4850328",
+                                                            "text": "I'm with Amber.",
+                                                            "response": [
+                                                                {
+                                                                    "id": "4850330",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "#Paimon sees your point {NICKNAME}... If you rule out everything that's completely impossible, gliding is the only idea left."
+                                                                },
+                                                                {
+                                                                    "id": "4850331",
+                                                                    "speaker": "Amber",
+                                                                    "text": "#{NICKNAME}, remember that book I lent you? The one I thought was the gliding manual, but wasn't?"
+                                                                },
+                                                                {
+                                                                    "id": "4850332",
+                                                                    "speaker": "Amber",
+                                                                    "text": "The first birds couldn't fly. Flight was their reward for their courage to plunge into the canyon."
+                                                                },
+                                                                {
+                                                                    "id": "4850333",
+                                                                    "speaker": "Amber",
+                                                                    "text": "Be my witness."
+                                                                },
+                                                                {
+                                                                    "id": "4850334",
+                                                                    "speaker": "Player",
+                                                                    "text": "Go! Go! Outrider!"
+                                                                },
+                                                                {
+                                                                    "id": "4850335",
+                                                                    "speaker": "Amber",
+                                                                    "text": "Roger! Let's show this guy what an Outrider is made of!"
+                                                                },
+                                                                {
+                                                                    "id": "4850336",
+                                                                    "speaker": "Raptor",
+                                                                    "text": "Wait... Stop! You'll never make it! Come on, off you go now, back home like a good little girl."
+                                                                },
+                                                                {
+                                                                    "id": "4850337",
+                                                                    "speaker": "Amber",
+                                                                    "text": "Raptor says I'll never make it. But, if you listen carefully..."
+                                                                },
+                                                                {
+                                                                    "id": "4850338",
+                                                                    "speaker": "Amber",
+                                                                    "text": "The wind! The wind says I WILL make it, and that's good enough for me!"
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "id": "4850329",
+                                                            "text": "This will take some serious guts, but it's not completely impossible."
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "4850317",
+                                            "text": "Some kind of elemental magic?",
+                                            "response": [
+                                                {
+                                                    "id": "4850318",
+                                                    "speaker": "Paimon",
+                                                    "text": "#{NICKNAME}, can you see anything with your Elemental Sight...? No? Oh, okay... Never mind..."
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "4850319",
+                                            "text": "A grappling hook, or spikes, or something?",
+                                            "response": [
+                                                {
+                                                    "id": "4850320",
+                                                    "speaker": "Paimon",
+                                                    "text": "If it's too far to glide, it's definitely too far for anything like that."
+                                                },
+                                                {
+                                                    "id": "4850321",
+                                                    "speaker": "Amber",
+                                                    "text": "There's also no sign of an anchor point."
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "4850310",
+                            "text": "Let's examine our surroundings — just like you taught me."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "48504",
+            "objective": "Glide over the chasm",
+            "dialogues": [
+                {
+                    "id": "4850401",
+                    "speaker": "Paimon",
+                    "text": "Amber, no! You're gonna fall! You're gonna fall—!"
+                }
+            ]
+        },
+        {
+            "id": "48505",
+            "objective": "Track down Raptor and arrest him!",
+            "dialogues": []
+        },
+        {
+            "id": "48506",
+            "objective": "Talk to Amber",
+            "dialogues": [
+                {
+                    "id": "4850601",
+                    "speaker": "Amber",
+                    "text": "Alright! I got him!"
+                },
+                {
+                    "id": "4850602",
+                    "speaker": "Amber",
+                    "text": "I only noticed the wind current from in the air — and it's the only one."
+                },
+                {
+                    "id": "4850603",
+                    "speaker": "Amber",
+                    "text": "It would be suicide to try and escape in the direction Raptor was going."
+                },
+                {
+                    "id": "4850604",
+                    "speaker": "Amber",
+                    "text": "In other words, the only way Raptor could have gotten out would be this way — past us."
+                },
+                {
+                    "id": "4850605",
+                    "speaker": "Paimon",
+                    "text": "Aha! So he was just trying to fool us by acting smug, in the hope that we would just give up and leave."
+                },
+                {
+                    "id": "4850606",
+                    "speaker": "Paimon",
+                    "text": "Little did he know, we're not so easily fooled."
+                },
+                {
+                    "id": "4850607",
+                    "speaker": "Amber",
+                    "text": "#It was all thanks to {NICKNAME}'s sharp thinking! Just like a wise man once said, \"Once you eliminate the impossible, whatever remains, no matter how improbable, must be the truth.\""
+                },
+                {
+                    "id": "4850608",
+                    "speaker": "Amber",
+                    "text": "At the end of the day, gliding is seven parts technique, three parts instinct — and then 90 parts courage."
+                },
+                {
+                    "id": "4850609",
+                    "speaker": "Paimon",
+                    "text": "What you did now looked more like 99 parts courage..."
+                },
+                {
+                    "id": "4850610",
+                    "speaker": "Amber",
+                    "text": "Ah, it was just like in my first gliding exam... I was super nervous, but in the end, there was nothing to be afraid of and I passed no problem."
+                },
+                {
+                    "id": "4850611",
+                    "speaker": "Amber",
+                    "text": "I kinda missed that nervous rush in the exams I've done since then... It just wasn't the same."
+                },
+                {
+                    "id": "4850612",
+                    "speaker": "Paimon",
+                    "text": "...Erm, sorry — Paimon thought you said you passed no problem? What do you mean, exams since then?"
+                },
+                {
+                    "id": "4850613",
+                    "speaker": "Amber",
+                    "text": "Ah... Well you see, the thing is, Mondstadt is all \"no glide zone\" this, \"no landing zone\" that..."
+                },
+                {
+                    "id": "4850614",
+                    "speaker": "Amber",
+                    "text": "*sigh* Every time I get my license it keeps getting revoked. I must have taken the exam about 15 times altogether..."
+                },
+                {
+                    "id": "4850615",
+                    "speaker": "Amber",
+                    "text": "But I always pass the first time. I guess my little gliding manual ain't so bad after all!"
+                },
+                {
+                    "id": "4850616",
+                    "speaker": "Paimon",
+                    "text": "#...{NICKNAME}, let's go and get a copy of the real gliding manual from Acting Grand Master Jean some time.",
+                    "choices": [
+                        {
+                            "id": "4850617",
+                            "text": "Sounds good.",
+                            "response": [
+                                {
+                                    "id": "4850619",
+                                    "speaker": "Amber",
+                                    "text": "I'll head off first because I need to escort Raptor back to the city."
+                                },
+                                {
+                                    "id": "4850620",
+                                    "speaker": "Amber",
+                                    "text": "Once you're back in the city don't forget to come find me at the Cathedral. I'll issue your gliding license there."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "4850618",
+                            "text": "I feel sorry for Jean..."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "48507",
+            "objective": "Go to the Cathedral to get your gliding license",
+            "dialogues": []
+        },
+        {
+            "id": "48508",
+            "objective": "Talk to Amber",
+            "dialogues": [
+                {
+                    "id": "4850801",
+                    "speaker": "Amber",
+                    "text": "Congratulations, here is your gliding license! You're officially legal now, yay!"
+                },
+                {
+                    "id": "4850802",
+                    "speaker": "Amber",
+                    "text": "I'm not surprised though, you are a natural after all.",
+                    "choices": [
+                        {
+                            "id": "4850803",
+                            "text": "Yeah, it was easy.",
+                            "response": [
+                                {
+                                    "id": "4850805",
+                                    "speaker": "Amber",
+                                    "text": "Oh — and I'll sign you up for the next Wind Gliding Championship!"
+                                },
+                                {
+                                    "id": "4850806",
+                                    "speaker": "Amber",
+                                    "text": "I glide so fast that no one can keep up — it's just me up there, on my own, gliding around... It's kinda boring.",
+                                    "choices": [
+                                        {
+                                            "id": "4850807",
+                                            "text": "Cool. I'm definitely gonna win.",
+                                            "response": [
+                                                {
+                                                    "id": "4850809",
+                                                    "speaker": "Amber",
+                                                    "text": "Ooh... Fighting talk! Heh. It seems you have no idea how terrifying the championship really is..."
+                                                },
+                                                {
+                                                    "id": "4850810",
+                                                    "speaker": "Amber",
+                                                    "text": "Well, until I kick your butt in the championship, I wish you a happy, liberating, and above all law-abiding gliding experience."
+                                                },
+                                                {
+                                                    "id": "4850811",
+                                                    "speaker": "Amber",
+                                                    "text": "Make sure you obey the rules. Whatever you do, don't get your license revoked..."
+                                                },
+                                                {
+                                                    "id": "4850812",
+                                                    "speaker": "Paimon",
+                                                    "text": "Oh brother... If you ask me, that's a bit rich, coming from Amber..."
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "4850808",
+                                            "text": "You won't stand a chance of winning if you sign me up."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "4850804",
+                            "text": "I actually put a lot of effort into this."
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

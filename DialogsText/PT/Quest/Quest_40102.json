@@ -1,0 +1,842 @@
+{
+    "quest": {
+        "id": "40102",
+        "title": "Suspeitas Levantadas",
+        "description": "A segunda rodada chegou ao fim, mas existem alguns assuntos que não foram resolvidos...",
+        "rewards": [
+            {
+                "itemId": 201,
+                "count": 30
+            },
+            {
+                "itemId": 202,
+                "count": 30000
+            },
+            {
+                "itemId": 104003,
+                "count": 3
+            },
+            {
+                "itemId": 104013,
+                "count": 6
+            }
+        ],
+        "rewards_formatted": "Gema Essencial x30, Mora x30000, EXP do Herói x3, Minério de Refinamento Místico x6",
+        "chapter": {
+            "icon": "UI_ChapterIcon_AkaFes",
+            "id": "10140",
+            "num": "Capítulo de Sabedoria e Sagacidade: Ato II",
+            "title": "Inícios e Fins"
+        },
+        "total_dialogue_lines": 144,
+        "total_speaker_counts": {
+            "Aarav": 13,
+            "Black Screen": 1,
+            "Candace": 9,
+            "Dehya": 14,
+            "Kaveh": 41,
+            "Nilou": 7,
+            "Paimon": 48,
+            "Player": 11
+        }
+    },
+    "talks": [
+        {
+            "id": "4010201",
+            "objective": "Vá jogar em uma tenda da Academia",
+            "dialogues": [
+                {
+                    "id": "401020101",
+                    "speaker": "Paimon",
+                    "text": "#{NICKNAME}, parece que você esteve pensando em algo esse tempo todo.",
+                    "choices": [
+                        {
+                            "id": "401020102",
+                            "text": "(Aquele homem de cabelos brancos que vimos antes da competição começar...)",
+                            "response": [
+                                {
+                                    "id": "401020104",
+                                    "speaker": "Candace",
+                                    "text": "#{NICKNAME}, Paimon! Finalmente encontrei vocês!"
+                                },
+                                {
+                                    "id": "401020105",
+                                    "speaker": "Paimon",
+                                    "text": "\"Finalmente\"? Aconteceu alguma coisa?"
+                                },
+                                {
+                                    "id": "401020106",
+                                    "speaker": "Dehya",
+                                    "text": "Vocês não acham que parece haver alguma coisa muito errada com a Extravagância Acadêmica desse ano?"
+                                },
+                                {
+                                    "id": "401020107",
+                                    "speaker": "Dehya",
+                                    "text": "Quando Candace e eu estávamos em um café mais cedo, acho que vimos alguns mercenários em atividade. O fato é que eles estavam disfarçados de turistas aqui para fazer compras."
+                                },
+                                {
+                                    "id": "401020108",
+                                    "speaker": "Dehya",
+                                    "text": "Mas nenhum disfarce consegue mascarar o fedor de sangue. Apenas por seus olhares suspeitos, aposto que eles fazem trabalhos sujos como sequestros ou assassinatos."
+                                },
+                                {
+                                    "id": "401020109",
+                                    "speaker": "Candace",
+                                    "text": "Nós escutamos eles por um tempo. O alvo deles parece ser alguém chamado Sachin."
+                                },
+                                {
+                                    "id": "401020110",
+                                    "speaker": "Paimon",
+                                    "text": "Sachin? Não é a pessoa que Kareena mencionou durante a cerimônia de abertura?"
+                                },
+                                {
+                                    "id": "401020111",
+                                    "speaker": "Paimon",
+                                    "text": "Aparentemente, ele é o patrocinador por trás dos prêmios da competição e do Diadema do Conhecimento. Mas ele não apareceu em lugar nenhum..."
+                                },
+                                {
+                                    "id": "401020112",
+                                    "speaker": "Dehya",
+                                    "text": "Parece ser uma pessoa muito rica... Agora tudo faz sentido."
+                                },
+                                {
+                                    "id": "401020113",
+                                    "speaker": "Dehya",
+                                    "text": "Os Eremitas estão tendo dificuldades para se manter ultimamente, então vários grupos estão fazendo trabalhos \"privados\" que envolvem pessoas ricas."
+                                },
+                                {
+                                    "id": "401020114",
+                                    "speaker": "Dehya",
+                                    "text": "Em suas palavras, um \"trampo\" desses pode render por seis meses. Um único trabalho como esse rende Mora o bastante para eles ficarem tranquilos por um tempo."
+                                },
+                                {
+                                    "id": "401020115",
+                                    "speaker": "Candace",
+                                    "text": "A Extravagância Acadêmica trouxe muitos turistas para a Cidade de Sumeru de uma só vez, eles provavelmente aproveitaram a oportunidade para entrar despercebidos."
+                                },
+                                {
+                                    "id": "401020116",
+                                    "speaker": "Candace",
+                                    "text": "Dehya e eu queríamos capturá-los diretamente, mas eles estavam atentos e inventaram uma desculpa para fugir."
+                                },
+                                {
+                                    "id": "401020117",
+                                    "speaker": "Dehya",
+                                    "text": "Eu teria amarrado todos se isso não causasse um alvoroço."
+                                },
+                                {
+                                    "id": "401020118",
+                                    "speaker": "Dehya",
+                                    "text": "Quem deveria cuidar desse tipo de coisa legalmente? Os Matras? A Tropa dos Trinta?"
+                                },
+                                {
+                                    "id": "401020119",
+                                    "speaker": "Paimon",
+                                    "text": "Hmm... Se o Cyno estivesse aqui, ele com certeza teria feito algo. Por que não vamos para a Academia e avisamos os Matras?"
+                                },
+                                {
+                                    "id": "401020120",
+                                    "speaker": "Paimon",
+                                    "text": "Dehya, Candace, dessa vez temos que agradecer a vocês!"
+                                },
+                                {
+                                    "id": "401020121",
+                                    "speaker": "Candace",
+                                    "text": "Sem problemas. Foi uma coincidência de nossa parte também."
+                                },
+                                {
+                                    "id": "401020122",
+                                    "speaker": "Dehya",
+                                    "text": "É, tudo bem. A reputação dos Eremitas vai ficar ainda pior se esses caras conseguirem o que querem."
+                                },
+                                {
+                                    "id": "401020123",
+                                    "speaker": "Dehya",
+                                    "text": "Mas essa é a Cidade de Sumeru. Candace e eu não temos tanta liberdade para agir aqui, então deixaremos em suas mãos."
+                                },
+                                {
+                                    "id": "401020124",
+                                    "speaker": "Candace",
+                                    "text": "Se precisarem da nossa ajuda, venham nos encontrar no café."
+                                },
+                                {
+                                    "id": "401020125",
+                                    "speaker": "Paimon",
+                                    "text": "Paimon notou que tem algo te incomodando. É a Extravagância Acadêmica? Porque Paimon está começando a pensar que há mais do que aparenta aqui também..."
+                                },
+                                {
+                                    "id": "401020126",
+                                    "speaker": "Paimon",
+                                    "text": "Hum, ficar pensando assim também não está ajudando. Vamos procurar por um Matra!"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "401020103",
+                            "text": "(Aquela conversa secreta que ouvimos após o fim da primeira rodada...)"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "4010207",
+            "objective": "Siga para a Academia e encontre um Matra",
+            "dialogues": []
+        },
+        {
+            "id": "4010202",
+            "objective": "Fale com Aarav",
+            "dialogues": [
+                {
+                    "id": "401020201",
+                    "speaker": "Aarav",
+                    "text": "Olá, já faz algum tempo. Vocês têm algum problema para informar?"
+                },
+                {
+                    "id": "401020202",
+                    "speaker": "Black Screen",
+                    "text": "Você conta para Aarav sobre a situação com Dehya e Candace."
+                },
+                {
+                    "id": "401020203",
+                    "speaker": "Aarav",
+                    "text": "Alguém está planejando sequestrar Sachin? Pela Arconte... Embora isso também não seja tão surpreendente."
+                },
+                {
+                    "id": "401020204",
+                    "speaker": "Aarav",
+                    "text": "A popularidade crescente da Extravagância Acadêmica deu a ele um grande impulso em sua reputação como patrocinador. Ele é visto como um desses \"super-ricos\"."
+                },
+                {
+                    "id": "401020205",
+                    "speaker": "Paimon",
+                    "text": "Bem, como ele tem um alvo nas costas agora, você não deveria enviar algumas pessoas para protegê-lo?"
+                },
+                {
+                    "id": "401020206",
+                    "speaker": "Aarav",
+                    "text": "Para dizer a verdade, pensamos em fazer exatamente isso. No entanto, Sachin aparentemente prefere passar a maioria do tempo fazendo trabalho de campo e raramente volta para a Cidade de Sumeru. Ninguém conseguiu contatá-lo."
+                },
+                {
+                    "id": "401020207",
+                    "speaker": "Aarav",
+                    "text": "Nossa única pista é algo que ele disse uma vez... \"Cada vez que o Campeonato Interdarshan for realizado, estarei observando de perto para escolher uma pessoa adequada para herdar minha fortuna.\""
+                },
+                {
+                    "id": "401020208",
+                    "speaker": "Aarav",
+                    "text": "Presumindo que continue investido nessa promessa, então ele deve estar aqui em algum lugar da cidade. Eu suspeito que os Eremitas em questão devem ter ouvido falar disso também, e decidiram vir aqui e tentar a sorte."
+                },
+                {
+                    "id": "401020209",
+                    "speaker": "Paimon",
+                    "text": "Então eles também não devem saber onde Sachin está, certo?"
+                },
+                {
+                    "id": "401020210",
+                    "speaker": "Aarav",
+                    "text": "Eu diria que não. De qualquer forma, Cyno ainda está de férias, então eu cuido disso."
+                },
+                {
+                    "id": "401020211",
+                    "speaker": "Aarav",
+                    "text": "Não se preocupe. Sequestradores não vão muito longe na Cidade de Sumeru hoje em dia. Eu tenho minhas maneiras de forçá-los a aparecer."
+                },
+                {
+                    "id": "401020212",
+                    "speaker": "Aarav",
+                    "text": "Dito isso, já que vocês têm interesse na história de Sachin, por que vocês não tentam achá-lo também?"
+                },
+                {
+                    "id": "401020213",
+                    "speaker": "Aarav",
+                    "text": "Quanto mais cedo descobrirmos seu paradeiro, mais rápido poderemos agir para garantir sua segurança. Quero dizer, você poderia encarregar todos os Matras e toda a Tropa dos Trinta com a proteção de alguém, mas se o cliente não aparecer, não há nada que possamos fazer para ajudá-lo."
+                },
+                {
+                    "id": "401020214",
+                    "speaker": "Paimon",
+                    "text": "Faz sentido. Acho que podemos procurar por ele também. Por onde devemos começar?"
+                },
+                {
+                    "id": "401020215",
+                    "speaker": "Player",
+                    "text": "Os Matras têm alguma informação sobre o Sachin?"
+                },
+                {
+                    "id": "401020216",
+                    "speaker": "Aarav",
+                    "text": "Receio não ter nenhuma. Ele nunca cometeu nenhum crime ou quebrou algum protocolo da Academia, então não temos documentos detalhados sobre ele."
+                },
+                {
+                    "id": "401020217",
+                    "speaker": "Aarav",
+                    "text": "Ouvi dizer que o Sr. Alhaitham deixou seu posto como Grande Sábio Interino e voltou a ser o Escriba novamente. Talvez valha a pena ver se ele sabe de alguma coisa?"
+                },
+                {
+                    "id": "401020218",
+                    "speaker": "Paimon",
+                    "text": "Boa ideia. Certo, vamos voltar para o local da competição e ver se o encontramos!"
+                }
+            ]
+        },
+        {
+            "id": "4010203",
+            "objective": "Vá para o local principal do evento e encontre Alhaitham",
+            "dialogues": [
+                {
+                    "id": "401020301",
+                    "speaker": "Paimon",
+                    "text": "Ufa... Oi, Nilou! Você viu o Alhaitham por aí?"
+                },
+                {
+                    "id": "401020302",
+                    "speaker": "Nilou",
+                    "text": "Alhaitham? Por quê? O que houve?"
+                },
+                {
+                    "id": "401020303",
+                    "speaker": "Paimon",
+                    "text": "Estamos procurando por uma pessoa e precisamos dele para pegar alguns registros para nós."
+                },
+                {
+                    "id": "401020304",
+                    "speaker": "Nilou",
+                    "text": "Ah, entendi... Desculpe, mas eu não sei para onde ele foi."
+                },
+                {
+                    "id": "401020305",
+                    "speaker": "Nilou",
+                    "text": "Ele sempre é o primeiro a ir embora quando a competição acaba e nunca fala para ninguém para onde está indo..."
+                },
+                {
+                    "id": "401020306",
+                    "speaker": "Paimon",
+                    "text": "Hum... É, na verdade, parece ser coisa dele mesmo."
+                },
+                {
+                    "id": "401020307",
+                    "speaker": "Nilou",
+                    "text": "Deixe-me pensar... Para ser honesta, ele não parece muito interessado na Extravagância Acadêmica, então ele não deve ter ficado mais do que precisava."
+                },
+                {
+                    "id": "401020308",
+                    "speaker": "Nilou",
+                    "text": "Para ele, ser um comentarista é só trabalho extra que arranjaram para ele. Vocês têm alguma ideia de onde ele costuma ir depois que larga do trabalho?",
+                    "choices": [
+                        {
+                            "id": "401020309",
+                            "text": "Uma taverna?",
+                            "response": [
+                                {
+                                    "id": "401020310",
+                                    "speaker": "Nilou",
+                                    "text": "Uhh... Ainda há uma rodada faltando. Será que ele realmente iria para uma taverna no meio da competição?"
+                                },
+                                {
+                                    "id": "401020311",
+                                    "speaker": "Paimon",
+                                    "text": "Oh! Paimon tem uma ideia. Será que ele voltou direto para casa?"
+                                },
+                                {
+                                    "id": "401020314",
+                                    "speaker": "Paimon",
+                                    "text": "Paimon se lembra que a casa de Alhaitham não é tão longe daqui, podemos dar uma passada lá!"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "401020312",
+                            "text": "...De volta para casa?",
+                            "response": [
+                                {
+                                    "id": "401020313",
+                                    "speaker": "Paimon",
+                                    "text": "Sim!"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "4010204",
+            "objective": "Siga para a cada do Alhaitham",
+            "dialogues": [
+                {
+                    "id": "401020401",
+                    "speaker": "Paimon",
+                    "text": "Bem, pelo menos podemos tentar bater na porta..."
+                },
+                {
+                    "id": "401020402",
+                    "speaker": "Player",
+                    "text": "(Bater na porta.)"
+                },
+                {
+                    "id": "401020403",
+                    "speaker": "Paimon",
+                    "text": "Sem resposta... Será que não tem ninguém em casa?"
+                },
+                {
+                    "id": "401020404",
+                    "speaker": "Player",
+                    "text": "(Bater na porta.)"
+                },
+                {
+                    "id": "401020405",
+                    "speaker": "Paimon",
+                    "text": "Olááá...? Alhaitham? Você está em casa? Precisamos de sua ajuda!"
+                },
+                {
+                    "id": "401020406",
+                    "speaker": "Kaveh",
+                    "text": "Oh, são vocês?"
+                },
+                {
+                    "id": "401020407",
+                    "speaker": "Paimon",
+                    "text": "Kaveh! Você está em casa!"
+                },
+                {
+                    "id": "401020408",
+                    "speaker": "Kaveh",
+                    "text": "...Entrem, podem deixar que eu abro a porta."
+                }
+            ]
+        },
+        {
+            "id": "4010206",
+            "objective": "Bata na porta e entre na casa do Alhaitham",
+            "dialogues": [
+                {
+                    "id": "401020601",
+                    "speaker": "Paimon",
+                    "text": "Não ouvimos um pio quando batemos da primeira vez — achamos que ninguém estava em casa!"
+                },
+                {
+                    "id": "401020602",
+                    "speaker": "Kaveh",
+                    "text": "Bem, cuidado nunca é demais. Se alguém da Academia viesse aqui procurando pelo Alhaitham e eu abrisse a porta para eles sem pensar, a cidade inteira saberia que eu moro aqui..."
+                },
+                {
+                    "id": "401020603",
+                    "speaker": "Paimon",
+                    "text": "Você é bem meticuloso quanto a isso, hein..."
+                },
+                {
+                    "id": "401020604",
+                    "speaker": "Paimon",
+                    "text": "Então... o que acontece se alguém entra procurando por ele enquanto você está em casa?"
+                },
+                {
+                    "id": "401020605",
+                    "speaker": "Kaveh",
+                    "text": "Por mim, tudo bem, desde que eu fique no meu próprio quarto. Enfim, por que alguém entraria aqui desse jeito procurando por ele? A maioria das pessoas têm coisas melhores para fazer."
+                },
+                {
+                    "id": "401020606",
+                    "speaker": "Paimon",
+                    "text": "Justo. Então, você sabe onde ele está no momento?"
+                },
+                {
+                    "id": "401020607",
+                    "speaker": "Kaveh",
+                    "text": "O que você acha? Quem sabe o que ele faz em seu tempo livre? Tudo que importa para mim é que ele está fora de casa!"
+                },
+                {
+                    "id": "401020608",
+                    "speaker": "Player",
+                    "text": "Vocês tiveram uma discussão ou algo assim?"
+                },
+                {
+                    "id": "401020609",
+                    "speaker": "Kaveh",
+                    "text": "Eu não chamaria disso, ele só é incapaz de dizer qualquer coisa boa!"
+                },
+                {
+                    "id": "401020610",
+                    "speaker": "Kaveh",
+                    "text": "Eu contei a ele como foi a segunda rodada. Eu ganhei o sorteio, lembra? Graças ao carma bom que eu tenho, é claro. Minha sorte está nas alturas."
+                },
+                {
+                    "id": "401020611",
+                    "speaker": "Kaveh",
+                    "text": "Mas ele, sendo ele... Você não acreditaria no que ele disse depois que terminei de falar!"
+                },
+                {
+                    "id": "401020641",
+                    "speaker": "Kaveh",
+                    "text": "\"Você é sempre ágil em me lembrar que é meu veterano, e ainda assim você não soluciona problemas como um veterano. Isso faz surgir a pergunta de porque atribuímos prestígio aos veteranos.\" O que ele quer dizer, \"como um veterano\"? Quer dizer que eu tenho que merecer o título de veterano?!"
+                },
+                {
+                    "id": "401020642",
+                    "speaker": "Kaveh",
+                    "text": "E ele não parou aí! Ele disse:"
+                },
+                {
+                    "id": "401020612",
+                    "speaker": "Kaveh",
+                    "text": "\"Eu te encorajo a refletir no motivo de você sempre depender da sorte em todas as rodadas. Honestamente, é incompreensível para mim como você conseguiu chegar a essa idade sem perceber o elefante gigante no meio da sala que é a sua vida.\""
+                },
+                {
+                    "id": "401020613",
+                    "speaker": "Paimon",
+                    "text": "Hahaha... Isso realmente parece com algo que Alhaitham diria..."
+                },
+                {
+                    "id": "401020614",
+                    "speaker": "Kaveh",
+                    "text": "Estou farto dele! Sempre que falo com ele é a mesma coisa! Ele encontra uma forma de me enfurecer, todas às vezes!"
+                },
+                {
+                    "id": "401020615",
+                    "speaker": "Kaveh",
+                    "text": "Enfim, o desdém é mútuo entre nós, então estarei de mudança o mais rápido possível. Na verdade, estou empacotando minhas coisas agora mesmo. Ele terá que se acostumar a fazer sua própria limpeza e organização de agora em diante!"
+                },
+                {
+                    "id": "401020616",
+                    "speaker": "Kaveh",
+                    "text": "Vê essas pinturas perfeitamente penduradas na parede? Elas estão vindo comigo, também! Heh, se a vida dele já não fosse desprovida de sensibilidade artística, certamente será depois de hoje."
+                },
+                {
+                    "id": "401020617",
+                    "speaker": "Paimon",
+                    "text": "Espera, você já está de mudança? Mas a competição ainda nem acabou. Como você vai conseguir pagar?"
+                },
+                {
+                    "id": "401020618",
+                    "speaker": "Kaveh",
+                    "text": "Bem, obviamente eu não posso ainda. Só estou empacotando mais cedo, para estar preparado."
+                },
+                {
+                    "id": "401020619",
+                    "speaker": "Kaveh",
+                    "text": "Eu já até escolhi meu novo local. No momento que eu colocar minhas mãos na premiação em dinheiro, comprarei o lugar e colocarei minhas coisas lá. Vai demorar pelo menos uns três dias, no máximo, para me mudar de vez daqui."
+                },
+                {
+                    "id": "401020620",
+                    "speaker": "Kaveh",
+                    "text": "Sei o que tenho que fazer para atingir meu objetivo. Não importa o que acontecer na terceira rodada, eu vou ganhar. Sairei triunfante! Vocês vão ver!"
+                },
+                {
+                    "id": "401020621",
+                    "speaker": "Paimon",
+                    "text": "Bem, estamos torcendo por você. Mas... tem certeza que vai ficar tudo bem?"
+                },
+                {
+                    "id": "401020622",
+                    "speaker": "Kaveh",
+                    "text": "Hmm? De que jeito?"
+                },
+                {
+                    "id": "401020623",
+                    "speaker": "Paimon",
+                    "text": "Layla disse que acha que você vai se envolver em conflitos internos."
+                },
+                {
+                    "id": "401020624",
+                    "speaker": "Kaveh",
+                    "text": "...O que isso quer dizer, exatamente? Não me diga que vocês também acham que eu tenho sérias falhas de caráter...?"
+                },
+                {
+                    "id": "401020625",
+                    "speaker": "Paimon",
+                    "text": "Não dissemos isso! Mas pense nisso. Você diz que quer vencer, mas também recusou Faruzan quando ela te ofereceu os pontos dela. Além disso, você ainda inventou de ajudar aquelas Raposas do Deserto..."
+                },
+                {
+                    "id": "401020626",
+                    "speaker": "Kaveh",
+                    "text": "Espere, o que é tão incomum nisso? Eu dei as minhas razões — eu teria me sentido culpado... Onde está o conflito nisso?"
+                },
+                {
+                    "id": "401020627",
+                    "speaker": "Player",
+                    "text": "Por que você se sentiria culpado?"
+                },
+                {
+                    "id": "401020628",
+                    "speaker": "Kaveh",
+                    "text": "..."
+                },
+                {
+                    "id": "401020629",
+                    "speaker": "Kaveh",
+                    "text": "Bem, quando você fala assim... Sim, por que mesmo? É uma boa pergunta. Acho que é apenas minha natureza. E mais, se eu não fizesse nada, então não haveria como escapar a culpa se algo ruim acontecesse depois."
+                },
+                {
+                    "id": "401020630",
+                    "speaker": "Paimon",
+                    "text": "Mas pensar assim o tempo todo deve tornar sua vida tão exaustiva. Sem mencionar que ao ajudar, você se coloca em risco... Desmaiar no meio do deserto, por exemplo. Valeu mesmo a pena?"
+                },
+                {
+                    "id": "401020631",
+                    "speaker": "Kaveh",
+                    "text": "É complicado, eu... Veja, vamos deixar esse conversa para outra hora. Com o que vocês precisavam da ajuda de Alhaitham mesmo?"
+                },
+                {
+                    "id": "401020632",
+                    "speaker": "Player",
+                    "text": "Queríamos que ele nos ajudasse a pesquisar sobre Sachin."
+                },
+                {
+                    "id": "401020633",
+                    "speaker": "Kaveh",
+                    "text": "Sachin? Hã, ele realmente falou de um Sachin recentemente."
+                },
+                {
+                    "id": "401020634",
+                    "speaker": "Kaveh",
+                    "text": "Eu lembro que ele trouxe alguns documentos para casa nesse dia. Ele estava pensando alto enquanto olhava eles, tomando notas e fazendo rabiscos enquanto progredia. Ele até sugeriu que deveria dar uma olhada, mas eu não dei. Me dê um momento, deixe-me encontrá-los."
+                },
+                {
+                    "id": "401020635",
+                    "speaker": "Kaveh",
+                    "text": "...É esse aqui. Pode pegar."
+                },
+                {
+                    "id": "401020636",
+                    "speaker": "Paimon",
+                    "text": "Uh... tem certeza que não teria problemas com ele?"
+                },
+                {
+                    "id": "401020637",
+                    "speaker": "Kaveh",
+                    "text": "Em tomar liberdade? Ele certamente não tem problemas ao beber minha cerveja quando bem entende."
+                },
+                {
+                    "id": "401020638",
+                    "speaker": "Kaveh",
+                    "text": "Enfim, ele me perguntou se eu queria ler as notas dele. Eu não vi motivo na época, então ele as deixou de lado."
+                },
+                {
+                    "id": "401020639",
+                    "speaker": "Kaveh",
+                    "text": "Ele não deixa documentos soltos por aí a não ser que não haja problema com outras pessoas os lendo. Está tudo bem, eu prometo."
+                },
+                {
+                    "id": "401020640",
+                    "speaker": "Paimon",
+                    "text": "Beleza, se você diz. Vamos ver o que ele tem sobre Sachin..."
+                }
+            ]
+        },
+        {
+            "id": "4010205",
+            "objective": "Investigue os documentos na mesa",
+            "dialogues": [
+                {
+                    "id": "401020501",
+                    "speaker": "Paimon",
+                    "text": "Uau, quanta informação... A cabeça de Paimon está doendo."
+                },
+                {
+                    "id": "401020502",
+                    "speaker": "Paimon",
+                    "text": "Para resumir, Sachin colocou a Academia como responsável por gerenciar a propriedade dele e partiu para pesquisar, né?"
+                },
+                {
+                    "id": "401020503",
+                    "speaker": "Paimon",
+                    "text": "Ele até mesmo disse que se gostasse de um dos competidores, não só daria uma recompensa para eles, mas a propriedade inteira! Isso deve valer muita Mora!"
+                },
+                {
+                    "id": "401020504",
+                    "speaker": "Kaveh",
+                    "text": "O quê?! Você está falando sério?!"
+                },
+                {
+                    "id": "401020505",
+                    "speaker": "Kaveh",
+                    "text": "Toda a fortuna de Sachin... Isso é mais do que eu poderia gastar na minha vida. Se eu fosse escolhido, poderia pagar todas as minhas dívidas, comprar um lugar para mim e ainda teria dinheiro sobrando..."
+                },
+                {
+                    "id": "401020506",
+                    "speaker": "Kaveh",
+                    "text": "Eu poderia construir outro Palácio de Alcazarzaray... Mas dessa vez, dez vezes maior..."
+                },
+                {
+                    "id": "401020507",
+                    "speaker": "Kaveh",
+                    "text": "E tem esse novo projeto no Porto Ormos, é claro — a renovação da ponte. Para fazê-la apropriadamente, levaria vários—"
+                },
+                {
+                    "id": "401020508",
+                    "speaker": "Paimon",
+                    "text": "Ei, ei, saia dessa! Você está se perdendo totalmente, mocinho!"
+                },
+                {
+                    "id": "401020509",
+                    "speaker": "Kaveh",
+                    "text": "Você tem razão. Primeiro, preciso focar em ganhar e me mudar deste lugar..."
+                },
+                {
+                    "id": "401020510",
+                    "speaker": "Paimon",
+                    "text": "Hã? Espere um momento, tem um pedaço solto de papel entre essas páginas."
+                },
+                {
+                    "id": "401020511",
+                    "speaker": "Paimon",
+                    "text": "O Alhaitham escreveu isso? Parece que ele estava anotando ideias diferentes enquanto pensava sobre algumas coisas. Vamos ver... Hmm, duas frases foram circuladas:"
+                },
+                {
+                    "id": "401020512",
+                    "speaker": "Paimon",
+                    "text": "\"Sachin, vivo ou morto? Desconhecido\"... e \"Diadema do Conhecimento\"?"
+                },
+                {
+                    "id": "401020513",
+                    "speaker": "Paimon",
+                    "text": "Algumas dessas coisas são totalmente incompreensíveis. Isso está escrito em alguma outra língua?"
+                },
+                {
+                    "id": "401020514",
+                    "speaker": "Kaveh",
+                    "text": "Deixe-me ver... Hã? Eu reconheço essa letra. Hmm, me dê um segundo..."
+                },
+                {
+                    "id": "401020515",
+                    "speaker": "Kaveh",
+                    "text": "\"Ideais grandiosos podem não fornecer nenhuma defesa contra o niilismo, mas talvez poucas decisões possam.\" ...Essa é uma tradução meio bruta, mas enfim. Não posso garantir que esteja cem por cento certa."
+                },
+                {
+                    "id": "401020516",
+                    "speaker": "Kaveh",
+                    "text": "...Hmm? Tem outra linha menor de texto embaixo... Hã... Me pergunto o que ele pode ter tentado dizer com isso?"
+                },
+                {
+                    "id": "401020517",
+                    "speaker": "Paimon",
+                    "text": "Uau, é muito legal que você tenha mesmo lido o manuscrito!"
+                },
+                {
+                    "id": "401020518",
+                    "speaker": "Kaveh",
+                    "text": "Trabalhamos juntos em um projeto quando éramos estudantes - o título era \"Interpretação de Runas Antigas e Direção do Design Arquitetônico nas Ruínas da Civilização do Rei Deshret\". Eu tive que me familiarizar um pouco com esse manuscrito na época."
+                },
+                {
+                    "id": "401020519",
+                    "speaker": "Paimon",
+                    "text": "Ah, que interessante! Então... você tem alguma ideia do que o Alhaitham quis dizer com tudo isso?"
+                },
+                {
+                    "id": "401020520",
+                    "speaker": "Kaveh",
+                    "text": "Heh. Quem sabe? A forma como sua mente funciona é um dos grandes mistérios do mundo."
+                },
+                {
+                    "id": "401020521",
+                    "speaker": "Paimon",
+                    "text": "Tudo bem. Bem, acho que descobrimos tudo que podemos por aqui."
+                },
+                {
+                    "id": "401020522",
+                    "speaker": "Player",
+                    "text": "Vamos torcer para que Aarav tenha feito algum progresso."
+                },
+                {
+                    "id": "401020523",
+                    "speaker": "Paimon",
+                    "text": "É, Paimon acha bom ele pegar esses bandidos. Mas, até lá, uh... É, vamos apenas sair para dar uma caminhada."
+                }
+            ]
+        },
+        {
+            "id": "4010250",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "401025001",
+                    "speaker": "Dehya",
+                    "text": "Estou surpresa por alguém ter tido a coragem de tentar algo assim durante a Extravagância. Só mostra o quão tentadora é uma fortuna como a de Sachin."
+                },
+                {
+                    "id": "401025002",
+                    "speaker": "Dehya",
+                    "text": "O que você faria se um monte de Mora assim caísse no seu colo de repente?"
+                },
+                {
+                    "id": "401025003",
+                    "speaker": "Candace",
+                    "text": "Eu não sei. Nunca pensei sobre isso."
+                },
+                {
+                    "id": "401025004",
+                    "speaker": "Dehya",
+                    "text": "Vamos lá, primeira coisa que vem à mente. Como você ia gastar?"
+                },
+                {
+                    "id": "401025005",
+                    "speaker": "Candace",
+                    "text": "Hmm... Comprando comida, encontrando fontes de água... Esse tipo de coisa, eu acho?"
+                }
+            ]
+        },
+        {
+            "id": "4010251",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "401025101",
+                    "speaker": "Aarav",
+                    "text": "Podem relaxar, eu levarei estes criminosos à justiça."
+                }
+            ]
+        },
+        {
+            "id": "4010253",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "401025301",
+                    "speaker": "Kaveh",
+                    "text": "Eu trouxe os documentos para vocês. Sintam-se à vontade para olhá-los o quanto quiserem."
+                }
+            ]
+        },
+        {
+            "id": "4010254",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "401025401",
+                    "speaker": "Nilou",
+                    "text": "Onde será que Alhaitham foi?"
+                }
+            ]
+        },
+        {
+            "id": "4010299",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "401029901",
+                    "speaker": "Paimon",
+                    "text": "Ei... Aquele não é o Matra que investigamos juntos sobre Siraj?"
+                },
+                {
+                    "id": "401029902",
+                    "speaker": "Paimon",
+                    "text": "\"Aarav\", não é? Vamos ir falar com ele!"
+                },
+                {
+                    "id": "401029903",
+                    "speaker": "Dehya",
+                    "text": "(Alguns encrenqueiros não têm como fazer muita coisa de ruim. Mas todo esse problema com Sachin... Tem algo de estranho nisso.)"
+                },
+                {
+                    "id": "401029904",
+                    "speaker": "Candace",
+                    "text": "(Hmm, que café gostoso.)"
+                },
+                {
+                    "id": "401029905",
+                    "speaker": "Kaveh",
+                    "text": "(Ele deixou as anotações aqui de propósito, ou foi mera coincidência? Não... Mas se não foi uma coincidência, então...)"
+                }
+            ]
+        }
+    ]
+}

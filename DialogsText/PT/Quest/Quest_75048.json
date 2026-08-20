@@ -1,0 +1,1336 @@
+{
+    "quest": {
+        "id": "75048",
+        "title": "Saltando o Muro da Névoa Matinal",
+        "description": "Para encontrar o tesouro misterioso conhecido como o Jade do Retorno e rastrear o Dragão Maligno, você entrou nas ruínas antigas às quais a entrada é considerada proibida...",
+        "rewards": [
+            {
+                "itemId": 102,
+                "count": 350
+            },
+            {
+                "itemId": 201,
+                "count": 40
+            },
+            {
+                "itemId": 202,
+                "count": 30000
+            },
+            {
+                "itemId": 104003,
+                "count": 4
+            },
+            {
+                "itemId": 104013,
+                "count": 4
+            }
+        ],
+        "rewards_formatted": "EXP de Aventura x350, Gema Essencial x40, Mora x30000, EXP do Herói x4, Minério de Refinamento Místico x4",
+        "chapter": {
+            "icon": "UI_ChapterIcon_Natlan",
+            "id": "10213",
+            "num": "Viajante Perdido no Reino das Cinzas - Ato I",
+            "title": "Cidade Coberta de Cinzas"
+        },
+        "total_dialogue_lines": 224,
+        "total_speaker_counts": {
+            "#{REALNAME[ID(2)|SHOWHOST(true)]}": 9,
+            "???": 5,
+            "Black Screen": 2,
+            "Bona": 95,
+            "Cocouik": 6,
+            "Paimon": 73,
+            "Player": 34
+        }
+    },
+    "talks": [
+        {
+            "id": "7504802",
+            "objective": "Vá para a torre contendo a estátua",
+            "dialogues": []
+        },
+        {
+            "id": "7504803",
+            "objective": "Vá para a torre contendo a estátua",
+            "dialogues": [
+                {
+                    "id": "750480343",
+                    "speaker": "Black Screen",
+                    "text": "Enquanto uma enorme explosão soa, vocês todos escorregam para baixo em meio a destroços e areia..."
+                }
+            ]
+        },
+        {
+            "id": "7504804",
+            "objective": "Vá para Ochkanatlan",
+            "dialogues": []
+        },
+        {
+            "id": "7504805",
+            "objective": "Continue explorando Ochkanatlan",
+            "dialogues": []
+        },
+        {
+            "id": "7504863",
+            "objective": "Tente entrar na torre à frente",
+            "dialogues": []
+        },
+        {
+            "id": "7504806",
+            "objective": "Explore a torre",
+            "dialogues": []
+        },
+        {
+            "id": "7504853",
+            "objective": "Explore a torre",
+            "dialogues": [
+                {
+                    "id": "750480701",
+                    "speaker": "Paimon",
+                    "text": "Por pouco!"
+                },
+                {
+                    "id": "750480702",
+                    "speaker": "Paimon",
+                    "text": "#Será que Paimon tava vendo coisas? A gente foi salv{F#a}{M#o} por um raio de luz dourada.",
+                    "choices": [
+                        {
+                            "id": "750480703",
+                            "text": "Eu vi alguns padrões dourados...",
+                            "response": [
+                                {
+                                    "id": "750480704",
+                                    "speaker": "Paimon",
+                                    "text": "#Será que é o mesmo tipo de padrão dourado que vimos quando encontramos {REALNAME[ID(2)|SHOWHOST(true)]}? Será que esse padrão nos guiou até aqui?"
+                                },
+                                {
+                                    "id": "750480705",
+                                    "speaker": "Paimon",
+                                    "text": "Parece que estamos sendo auxiliados por algum tipo de poder superior!"
+                                },
+                                {
+                                    "id": "750480707",
+                                    "speaker": "Paimon",
+                                    "text": "Bem, pelo menos parece mais seguro aqui. Urgh, Paimon nunca achou que a gente teria que correr de Hilichurls!"
+                                },
+                                {
+                                    "id": "750480708",
+                                    "speaker": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+                                    "text": "Rawr... Rawr?"
+                                },
+                                {
+                                    "id": "750480709",
+                                    "speaker": "Paimon",
+                                    "text": "#O que foi? Você tá bem, {REALNAME[ID(2)|SHOWHOST(true)]}?"
+                                },
+                                {
+                                    "id": "750480710",
+                                    "speaker": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+                                    "text": "Rawwrr..."
+                                },
+                                {
+                                    "id": "750480711",
+                                    "speaker": "Paimon",
+                                    "text": "Algo aqui chamou sua atenção?"
+                                },
+                                {
+                                    "id": "750480712",
+                                    "speaker": "Paimon",
+                                    "text": "Bem, não é como se a gente fosse sair agora com eles bloqueando a porta, por isso vamos aproveitar e explorar esse lugar."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "750480706",
+                            "text": "De qualquer forma, estamos seguros por enquanto."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "7504817",
+            "objective": "Explore a torre",
+            "dialogues": [
+                {
+                    "id": "750481701",
+                    "speaker": "Paimon",
+                    "text": "Ugh, Paimon não acredita que escapou de novo!"
+                },
+                {
+                    "id": "750481702",
+                    "speaker": "Paimon",
+                    "text": "A gente quase conseguiu, mas a força do dragão foi restaurada do nada...",
+                    "choices": [
+                        {
+                            "id": "750481703",
+                            "text": "\"Esse não é o fim\"...",
+                            "response": [
+                                {
+                                    "id": "750481704",
+                                    "speaker": "Paimon",
+                                    "text": "Hã? Você consegue entender o que o dragão disse?"
+                                },
+                                {
+                                    "id": "750481705",
+                                    "speaker": "Player",
+                                    "text": "É o padrão dourado."
+                                },
+                                {
+                                    "id": "750481707",
+                                    "speaker": "Paimon",
+                                    "text": "#Hmm, é o mesmo padrão que vimos quando encontramos {REALNAME[ID(2)|SHOWHOST(true)]}? Será que esse dragão maligno é relacionado a ele de algum jeito?"
+                                },
+                                {
+                                    "id": "750481708",
+                                    "speaker": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+                                    "text": "Rawwrr..."
+                                },
+                                {
+                                    "id": "750481709",
+                                    "speaker": "Paimon",
+                                    "text": "#Ah, Paimon não tá suspeitando de você ou nada assim, {REALNAME[ID(2)|SHOWHOST(true)]}! Mas parece que alguém tá guiando a gente desde que entramos nessa cidade antiga..."
+                                },
+                                {
+                                    "id": "750481710",
+                                    "speaker": "Paimon",
+                                    "text": "Talvez Paimon só tá pensando demais..."
+                                },
+                                {
+                                    "id": "750481711",
+                                    "speaker": "Bona",
+                                    "text": "Hã? Do que você tá falando?"
+                                },
+                                {
+                                    "id": "750481712",
+                                    "speaker": "Bona",
+                                    "text": "Que cansaço... Foi bem difícil. Pensei que a gente tinha acabado com tudo lá, mas ele vive para lutar outro dia."
+                                },
+                                {
+                                    "id": "750481713",
+                                    "speaker": "Bona",
+                                    "text": "Pelo menos agora podemos pegar a Pyrofosforita de volta... Ah, sim. Tá bem ali!"
+                                },
+                                {
+                                    "id": "750481714",
+                                    "speaker": "Paimon",
+                                    "text": "Falando nisso, o que devemos fazer? Viemos aqui procurar o Jade do Retorno que aquele aventureiro falou..."
+                                },
+                                {
+                                    "id": "750481715",
+                                    "speaker": "Paimon",
+                                    "text": "Mas nós ainda não sabemos o que é essa coisa, não é?"
+                                },
+                                {
+                                    "id": "750481716",
+                                    "speaker": "Paimon",
+                                    "text": "Você deve saber algo sobre isso, né, Bona? É uma daquelas coisas que requer três Pyrofosforita para quebrar o selo e pá?"
+                                },
+                                {
+                                    "id": "750481717",
+                                    "speaker": "Bona",
+                                    "text": "Se fosse tão simples... Na verdade, não está na cidade, mas no céu."
+                                },
+                                {
+                                    "id": "750481718",
+                                    "speaker": "Paimon",
+                                    "text": "O quê? Mas as notas que encontramos na torre diziam... será que os aventureiros cometeram um erro?"
+                                },
+                                {
+                                    "id": "750481719",
+                                    "speaker": "Bona",
+                                    "text": "Espera, você veio para Ochkanatlan, a cidade proibida, só por causa de umas notas que você pegou? Hehe. Parece que quanto mais habilidosa é uma pessoa, mais corajosa ela é."
+                                },
+                                {
+                                    "id": "750481720",
+                                    "speaker": "Bona",
+                                    "text": "Já que vocês não sabem nada sobre o Jade do Retorno, vocês provavelmente não ouviram a história de Tona{RUBY#[S]Navio da Serpente Voadora}tiuh, né?"
+                                },
+                                {
+                                    "id": "750481721",
+                                    "speaker": "Bona",
+                                    "text": "Como o nome sugere, era um navio voador construído pelo Rei Píton Och-kan, o tirano que governou Ochkanatlan. O navio era cheio até o topo com tesouros e incontáveis aventureiros de Natlan procuraram por ele."
+                                },
+                                {
+                                    "id": "750481722",
+                                    "speaker": "Bona",
+                                    "text": "Incluindo meu pai, claro. Ele era o melhor aventureiro do Clã das Plumas de Flores."
+                                },
+                                {
+                                    "id": "750481723",
+                                    "speaker": "Bona",
+                                    "text": "Mas o Tonatiuh tinha um significado maior para ele, além de suas ambições como aventureiro."
+                                },
+                                {
+                                    "id": "750481724",
+                                    "speaker": "Bona",
+                                    "text": "A calamidade do Abismo destruiu nossa tribo décadas atrás, e o dragão maligno que ocupa essa cidade antiga também apareceu nessa mesma época."
+                                },
+                                {
+                                    "id": "750481725",
+                                    "speaker": "Bona",
+                                    "text": "Dizem os rumores que um dos incontáveis tesouros a bordo do navio era o Jade do{RUBY#[S]Ometeotl} Retorno, e que o localizar acabaria com essa cidade antiga manchada pelo Abismo."
+                                },
+                                {
+                                    "id": "750481726",
+                                    "speaker": "Bona",
+                                    "text": "Na época, havíamos acabado de testemunhar o pesadelo do Abismo. Então se pudéssemos encontrar o Jade e suprimir a contaminação aqui na cidade, nossa tribo não teria mais que viver em medo."
+                                },
+                                {
+                                    "id": "750481727",
+                                    "speaker": "Bona",
+                                    "text": "Meu pai partiu em uma jornada com esse objetivo... Mas ele nunca voltou. Tudo que sobrou foi a Pyrofosforita que ele encontrou nas ruínas.",
+                                    "choices": [
+                                        {
+                                            "id": "750481728",
+                                            "text": "Sinto muito pela sua perda...",
+                                            "response": [
+                                                {
+                                                    "id": "750481729",
+                                                    "speaker": "Bona",
+                                                    "text": "Tá tudo bem. Eu nunca conheci ele. Ouvi isso tudo de uma mulher que se aventurou ao lado dele."
+                                                },
+                                                {
+                                                    "id": "750481732",
+                                                    "speaker": "Bona",
+                                                    "text": "As inscrições num monumento nas ruínas dizem que os ventos do passado distante guiarão o caminho até o Tonatiuh <color=#00E1FFFF>quando a Pyrofosforita for colocada no Altar do Fogo Original na cidade antiga</color>."
+                                                },
+                                                {
+                                                    "id": "750481733",
+                                                    "speaker": "Bona",
+                                                    "text": "Mas a cidade se tornou um lugar proibido para a tribo após a mulher voltar sozinha como a única sobrevivente do esquadrão do meu pai."
+                                                },
+                                                {
+                                                    "id": "750481734",
+                                                    "speaker": "Paimon",
+                                                    "text": "Paimon não sabia que o Jade do Retorno era tão importante. Paimon acha que a gente não vai mais penhorar ele por Mora..."
+                                                },
+                                                {
+                                                    "id": "750481735",
+                                                    "speaker": "Paimon",
+                                                    "text": "Mas podemos remover a ameaça do Abismo contra sua tribo se pudermos encontrá-lo, e isso seria incrível também!"
+                                                },
+                                                {
+                                                    "id": "750481736",
+                                                    "speaker": "Paimon",
+                                                    "text": "Só temos que localizar esse Altar, né? Bona, você deve saber onde fica, não sabe?"
+                                                },
+                                                {
+                                                    "id": "750481737",
+                                                    "speaker": "Bona",
+                                                    "text": "Bem, eu não sei. Só entrei aqui recentemente, e foi só porque estava em busca de pistas sobre o Altar do Fogo Original."
+                                                },
+                                                {
+                                                    "id": "750481738",
+                                                    "speaker": "Bona",
+                                                    "text": "Encontrei muitos perigos inesperados, mas as coisas começaram a melhorar depois que conheci Coco."
+                                                },
+                                                {
+                                                    "id": "750481739",
+                                                    "speaker": "Cocouik",
+                                                    "text": "Chiii!"
+                                                },
+                                                {
+                                                    "id": "750481740",
+                                                    "speaker": "Bona",
+                                                    "text": "O dragão maligno era o único problema! Eu planejava entrar de fininho enquanto ele estava fora, mas ele me pegou, haha!"
+                                                },
+                                                {
+                                                    "id": "750481741",
+                                                    "speaker": "Bona",
+                                                    "text": "Mas ele já se foi agora, graças a vocês, e eu consegui minha Pyrofosforita de volta, então posso ir atrás do Altar do Fogo Original.",
+                                                    "choices": [
+                                                        {
+                                                            "id": "750481742",
+                                                            "text": "Você precisa encontrar o Jade do Retorno?",
+                                                            "response": [
+                                                                {
+                                                                    "id": "750481743",
+                                                                    "speaker": "Bona",
+                                                                    "text": "Sim, preciso. Eu me tornei uma aventureira porque queria o encontrar."
+                                                                },
+                                                                {
+                                                                    "id": "750481746",
+                                                                    "speaker": "Bona",
+                                                                    "text": "Vocês também estão aqui pelo Jade do Retorno, né? Nesse caso, gostariam de vir comigo? Será bem mais fácil se juntarmos a sua força ao meu conhecimento."
+                                                                },
+                                                                {
+                                                                    "id": "750481747",
+                                                                    "speaker": "Bona",
+                                                                    "text": "Contanto que sigamos as orientações de Coco, a gente deve conseguir encontrar ele e acessar o Tonatiuh no céu juntos..."
+                                                                },
+                                                                {
+                                                                    "id": "750481748",
+                                                                    "speaker": "Bona",
+                                                                    "text": "Não posso dividir o Jade do Retorno com vocês para venderem, mas deve ter outros tesouros lá que um aventureiro pode pegar como recompensa!"
+                                                                },
+                                                                {
+                                                                    "id": "750481749",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "Bem, não parece garantido, mas não é como se pudéssemos fazer mais nada, a não ser confiar em você, né?"
+                                                                },
+                                                                {
+                                                                    "id": "750481750",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "Se conseguirmos chegar no Tonatiuh, podemos ajudar todos e lucrar muito. Todo mundo ganha!"
+                                                                },
+                                                                {
+                                                                    "id": "750481751",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "#Que tal isso, {NICKNAME}? Vamos com Bona, certo?"
+                                                                },
+                                                                {
+                                                                    "id": "750481752",
+                                                                    "speaker": "Bona",
+                                                                    "text": "Hehe, mesmo? Isso é ótimo! Eu sabia que vocês gostariam de ajudar! Com vocês por perto, tenho certeza que poderei realizar o último desejo do meu pai."
+                                                                },
+                                                                {
+                                                                    "id": "750481753",
+                                                                    "speaker": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+                                                                    "text": "Rawr!"
+                                                                },
+                                                                {
+                                                                    "id": "750481754",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "#{REALNAME[ID(2)|SHOWHOST(true)]} concorda! Tá decidido, então. Vamos nessa antes que o dragão volte!"
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "id": "750481744",
+                                                            "text": "Não quer que a gente vá com você?",
+                                                            "response": [
+                                                                {
+                                                                    "id": "750481745",
+                                                                    "speaker": "Bona",
+                                                                    "text": "Uau! Eu tava prestes a pedir, na verdade!"
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "750481730",
+                                            "text": "O dragão maligno...",
+                                            "response": [
+                                                {
+                                                    "id": "750481731",
+                                                    "speaker": "Bona",
+                                                    "text": "Quem sabe? Eu nunca o conheci. Eu ouvi isso tudo de uma mulher que se aventurou ao lado dele."
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "750481706",
+                            "text": "O padrão dourado..."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "7504807",
+            "objective": "Explore a torre",
+            "dialogues": []
+        },
+        {
+            "id": "7504808",
+            "objective": "Fale com o aventureiro misterioso",
+            "dialogues": [
+                {
+                    "id": "750480801",
+                    "speaker": "???",
+                    "text": "Ei, você aí!"
+                },
+                {
+                    "id": "750480802",
+                    "speaker": "???",
+                    "text": "Sim, estou falando com vocês três! Se virem!"
+                },
+                {
+                    "id": "750480803",
+                    "speaker": "???",
+                    "text": "Parece que vocês entendem o que estou dizendo."
+                },
+                {
+                    "id": "750480804",
+                    "speaker": "???",
+                    "text": "Ufa. Vocês me assustaram, sabiam? Eu pensei que vocês eram monstros do Abismo se fingindo de humanos. Se não tivessem respondido, eu teria atacado.",
+                    "choices": [
+                        {
+                            "id": "750480805",
+                            "text": "Nós que devíamos estar assustados.",
+                            "response": [
+                                {
+                                    "id": "750480806",
+                                    "speaker": "Paimon",
+                                    "text": "Sim, a gente não esperava encontrar outras pessoas aqui!"
+                                },
+                                {
+                                    "id": "750480810",
+                                    "speaker": "Bona",
+                                    "text": "Enfim, nosso encontro é parte do destino. Eu sou uma aventureira do Clã das Plumas de Flores. Podem me chamar de Bona.",
+                                    "choices": [
+                                        {
+                                            "id": "750480811",
+                                            "text": "#Eu me chamo {NICKNAME}.",
+                                            "response": [
+                                                {
+                                                    "id": "750480812",
+                                                    "speaker": "Paimon",
+                                                    "text": "#E o nome da Paimon é Paimon. Também somos aventureir{F#as}{M#os} explorando esse lugar. E esse aqui é o nosso companheiro, {REALNAME[ID(2)|SHOWHOST(true)]}!"
+                                                },
+                                                {
+                                                    "id": "750480816",
+                                                    "speaker": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+                                                    "text": "Rawr!"
+                                                },
+                                                {
+                                                    "id": "750480817",
+                                                    "speaker": "Paimon",
+                                                    "text": "Você também tá procurando pelo Jade do Retorno, como os outros aventureiros?"
+                                                },
+                                                {
+                                                    "id": "750480818",
+                                                    "speaker": "Bona",
+                                                    "text": "O Jade do Retorno... Sim, eu acho. Vocês também?"
+                                                },
+                                                {
+                                                    "id": "750480819",
+                                                    "speaker": "Paimon",
+                                                    "text": "Isso! Parece que a gente tava certa. Ninguém encontrou ainda!"
+                                                },
+                                                {
+                                                    "id": "750480820",
+                                                    "speaker": "Bona",
+                                                    "text": "#Mas... {M#um aventureiro}{F#uma aventureira} que demonstra sua fraqueza abertamente, um espírito guia branco descuidado e um Tepetlissauro pequeno que não sabe o que está acontecendo..."
+                                                },
+                                                {
+                                                    "id": "750480821",
+                                                    "speaker": "Bona",
+                                                    "text": "Já sei! Vocês são novatos que acabaram de chegar nesse local proibido sem nenhum preparo!"
+                                                },
+                                                {
+                                                    "id": "750480822",
+                                                    "speaker": "Bona",
+                                                    "text": "O Jade do Retorno não é algo que aventureiros amadores podem encontrar! Vocês têm sorte de terem me encontrado, ou acabariam morrendo antes de descobrirem as coisas desse lugar."
+                                                },
+                                                {
+                                                    "id": "750480823",
+                                                    "speaker": "Paimon",
+                                                    "text": "#O que você falou sobre um espírito guia? Cuidado com suas palavras, não somos novat{F#as}{M#os}!",
+                                                    "choices": [
+                                                        {
+                                                            "id": "750480824",
+                                                            "text": "Somos bem experientes.",
+                                                            "response": [
+                                                                {
+                                                                    "id": "750480825",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "Se não acredita na gente, pode perguntar a Katheryne na Guilda de Aventureiros. Vai descobrir como somos incríveis rapidinho!"
+                                                                },
+                                                                {
+                                                                    "id": "750480828",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "Por que você não dá uma olhada na nossa Licença de Aventura? Foi autenticada pela Guilda de Aventureiros e contém nossas aventuras!"
+                                                                },
+                                                                {
+                                                                    "id": "750480829",
+                                                                    "speaker": "Bona",
+                                                                    "text": "Espera aí, uma Licença de Aventura? E essa Guilda de Aventureiros... Nunca ouvi falar. Foi criada recentemente?"
+                                                                },
+                                                                {
+                                                                    "id": "750480830",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "Hã? Como você se chama de aventureira se nunca ouviu falar em nada disso?"
+                                                                },
+                                                                {
+                                                                    "id": "750480831",
+                                                                    "speaker": "Bona",
+                                                                    "text": "Não, não, o que eu quis dizer é que vocês não estão fazendo sentido. Como assim precisam ser certificados por uma organização aleatória para se tornarem aventureiros?!"
+                                                                },
+                                                                {
+                                                                    "id": "750480832",
+                                                                    "speaker": "Bona",
+                                                                    "text": "Aventureiros não deveriam ser corajosos e irrestritos? Por que deveria existir uma Guilda para controlá-los?"
+                                                                },
+                                                                {
+                                                                    "id": "750480833",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "Hmm, faz sentido... Espera, não! A Guilda de Aventureiros é muito importante, não é só uma organização qualquer!"
+                                                                },
+                                                                {
+                                                                    "id": "750480834",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "Ainda assim, Paimon nunca pensou como as pessoas se tornariam aventureiros se a Guilda não existisse..."
+                                                                },
+                                                                {
+                                                                    "id": "750480835",
+                                                                    "speaker": "Bona",
+                                                                    "text": "Boa pergunta! Pra começo de conversa, alguém precisa de curiosidade suficiente, uma sede de conhecimento e um senso de responsabilidade para ajudar os outros."
+                                                                },
+                                                                {
+                                                                    "id": "750480836",
+                                                                    "speaker": "Bona",
+                                                                    "text": "Mas, mais importante, você precisa da coragem para dar o primeiro passo! Quando você fizer a decisão de começar uma jornada, já se tornou um aventureiro.",
+                                                                    "choices": [
+                                                                        {
+                                                                            "id": "750480837",
+                                                                            "text": "#Paimon já é curiosa por nós {F#duas}{M#dois}.",
+                                                                            "response": [
+                                                                                {
+                                                                                    "id": "750480838",
+                                                                                    "speaker": "Paimon",
+                                                                                    "text": "Isso mesmo, Paimon é super curiosa! Sejam tesouros ou comidas, Paimon tá sempre fuçando!"
+                                                                                },
+                                                                                {
+                                                                                    "id": "750480839",
+                                                                                    "speaker": "Paimon",
+                                                                                    "text": "Falando nisso, Paimon comeu um Ensopado Flamejante delicioso hoje de manhã."
+                                                                                },
+                                                                                {
+                                                                                    "id": "750480840",
+                                                                                    "speaker": "Player",
+                                                                                    "text": "Já sei onde isso vai chegar."
+                                                                                },
+                                                                                {
+                                                                                    "id": "750480845",
+                                                                                    "speaker": "Bona",
+                                                                                    "text": "Mas como vocês chegaram a entrar? A única entrada estava selada. Se estão aqui dentro, isso quer dizer que os monstros lá fora..."
+                                                                                },
+                                                                                {
+                                                                                    "id": "750480846",
+                                                                                    "speaker": "Paimon",
+                                                                                    "text": "Oh, sobre isso... É constrangedor, mas uns Hilichurls nos perseguiram até aqui..."
+                                                                                },
+                                                                                {
+                                                                                    "id": "750480847",
+                                                                                    "speaker": "Paimon",
+                                                                                    "text": "Além disso, não precisa se preocupar com os monstros. Uma luz dourada impediu eles de entrarem aqui."
+                                                                                },
+                                                                                {
+                                                                                    "id": "750480848",
+                                                                                    "speaker": "Bona",
+                                                                                    "text": "Uma luz dourada? Oh, então Coco salvou vocês! Me sinto bem mais segura agora. Se Coco aprova vocês, então não devem ser más pessoas."
+                                                                                },
+                                                                                {
+                                                                                    "id": "750480849",
+                                                                                    "speaker": "Paimon",
+                                                                                    "text": "Coco? O que é isso? Tem mais alguém aqui?"
+                                                                                },
+                                                                                {
+                                                                                    "id": "750480850",
+                                                                                    "speaker": "Bona",
+                                                                                    "text": "#Coco é meu companheiro, como {REALNAME[ID(2)|SHOWHOST(true)]} é o de vocês. Enfim, venham comigo que vocês verão."
+                                                                                },
+                                                                                {
+                                                                                    "id": "750480851",
+                                                                                    "speaker": "Black Screen",
+                                                                                    "text": "Vocês seguem Bona e retornam até o térreo."
+                                                                                },
+                                                                                {
+                                                                                    "id": "750480852",
+                                                                                    "speaker": "Bona",
+                                                                                    "text": "Cocouik? Cadê você?"
+                                                                                },
+                                                                                {
+                                                                                    "id": "750480853",
+                                                                                    "speaker": "Bona",
+                                                                                    "text": "Ahá, aqui está você."
+                                                                                },
+                                                                                {
+                                                                                    "id": "750480854",
+                                                                                    "speaker": "Cocouik",
+                                                                                    "text": "Piu?"
+                                                                                },
+                                                                                {
+                                                                                    "id": "750480855",
+                                                                                    "speaker": "Paimon",
+                                                                                    "text": "Que fofinha! Parece um Espectro verde.",
+                                                                                    "choices": [
+                                                                                        {
+                                                                                            "id": "750480856",
+                                                                                            "text": "Isso não parece fofinho.",
+                                                                                            "response": [
+                                                                                                {
+                                                                                                    "id": "750480858",
+                                                                                                    "speaker": "Bona",
+                                                                                                    "text": "Não chame de um Espectro! Seu nome é Cocouik, e é bem brilhante!"
+                                                                                                },
+                                                                                                {
+                                                                                                    "id": "750480859",
+                                                                                                    "speaker": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+                                                                                                    "text": "Rawr!"
+                                                                                                },
+                                                                                                {
+                                                                                                    "id": "750480860",
+                                                                                                    "speaker": "Cocouik",
+                                                                                                    "text": "Kulu?"
+                                                                                                },
+                                                                                                {
+                                                                                                    "id": "750480861",
+                                                                                                    "speaker": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+                                                                                                    "text": "Rawr... Rawr!"
+                                                                                                },
+                                                                                                {
+                                                                                                    "id": "750480862",
+                                                                                                    "speaker": "Paimon",
+                                                                                                    "text": "Vocês parecem estar se dando bem. Então a luzinha que nos salvou era essa mocinha aí? Incrível!"
+                                                                                                },
+                                                                                                {
+                                                                                                    "id": "750480863",
+                                                                                                    "speaker": "Bona",
+                                                                                                    "text": "Isso mesmo. Cocouik pode ser pequeno, mas é o espírito guardião dessa área. Já pude voar por toda essa cidade antiga graças a ele."
+                                                                                                },
+                                                                                                {
+                                                                                                    "id": "750480864",
+                                                                                                    "speaker": "Bona",
+                                                                                                    "text": "E quando acumula poder suficiente, nem mesmo aquele dragão é páreo!"
+                                                                                                },
+                                                                                                {
+                                                                                                    "id": "750480865",
+                                                                                                    "speaker": "Paimon",
+                                                                                                    "text": "Certo, Paimon quase esqueceu disso! Você encontrou ele também, né? Bem, a gente não teria vindo aqui se não fosse o dragão!"
+                                                                                                },
+                                                                                                {
+                                                                                                    "id": "750480866",
+                                                                                                    "speaker": "Bona",
+                                                                                                    "text": "Isso é constrangedor, mas o dragão levou minha Pyrofosforita, que é um item crucial para encontrar o Jade do Retorno. Eu tenho que pegar de volta!"
+                                                                                                },
+                                                                                                {
+                                                                                                    "id": "750480867",
+                                                                                                    "speaker": "Paimon",
+                                                                                                    "text": "Pyrofosforita? Então você precisa disso para pegar o Jade do Retorno? Parece complicado."
+                                                                                                },
+                                                                                                {
+                                                                                                    "id": "750480868",
+                                                                                                    "speaker": "Bona",
+                                                                                                    "text": "#É normal não saberem. Então, meu pai... Enfim, já que somos tod{M#os}{F#as} aventureir{M#os}{F#as} pres{M#os}{F#as} aqui, que tal a gente trabalhar junt{M#os}{F#as} até a gente acabar com aquele dragão maligno?"
+                                                                                                },
+                                                                                                {
+                                                                                                    "id": "750480869",
+                                                                                                    "speaker": "Bona",
+                                                                                                    "text": "Não sei se vocês são fortes, mas não dá para errar juntando forças, seja para explorar esse lugar ou lutar contra o dragão.",
+                                                                                                    "choices": [
+                                                                                                        {
+                                                                                                            "id": "750480870",
+                                                                                                            "text": "Bem, por mim tá sussa.",
+                                                                                                            "response": [
+                                                                                                                {
+                                                                                                                    "id": "750480871",
+                                                                                                                    "speaker": "Bona",
+                                                                                                                    "text": "Hehe! Eu gosto da sua atitude."
+                                                                                                                },
+                                                                                                                {
+                                                                                                                    "id": "750480874",
+                                                                                                                    "speaker": "Paimon",
+                                                                                                                    "text": "Hunf. Isso mesmo, a gente tem que chegar nesse dragão maligno de novo para garantir que ele não machuque ninguém!"
+                                                                                                                },
+                                                                                                                {
+                                                                                                                    "id": "750480875",
+                                                                                                                    "speaker": "Paimon",
+                                                                                                                    "text": "Mesmo assim, se conseguirmos derrotar o safado e pegar a Pyrofosforita de volta, e você encontrar o Jade do Retorno, lembre de dar uma parte para a gente também, certo? A gente... aceita uma divisão 40-60..."
+                                                                                                                },
+                                                                                                                {
+                                                                                                                    "id": "750480876",
+                                                                                                                    "speaker": "Bona",
+                                                                                                                    "text": "Heh, é um pouco cedo pra essa discussão, não acha? Além disso, o Jade do Retorno não é o tipo de coisa que você divide facilmente como uma torta..."
+                                                                                                                },
+                                                                                                                {
+                                                                                                                    "id": "750480877",
+                                                                                                                    "speaker": "Bona",
+                                                                                                                    "text": "Vocês não sabiam mesmo antes de vir para cá, sabiam? Que bom que se encontraram comigo."
+                                                                                                                },
+                                                                                                                {
+                                                                                                                    "id": "750480878",
+                                                                                                                    "speaker": "Bona",
+                                                                                                                    "text": "A gente fala das outras coisas mais tarde, certo? Nossa prioridade agora é derrotar o dragão maligno e pegar a Pyrofosforita de volta."
+                                                                                                                },
+                                                                                                                {
+                                                                                                                    "id": "750480879",
+                                                                                                                    "speaker": "Bona",
+                                                                                                                    "text": "Bem, vamos nessa! Os monstros lá fora não devem ser um problema com Coco do nosso lado, mas o dragão... Bem, aí já é diferente."
+                                                                                                                },
+                                                                                                                {
+                                                                                                                    "id": "750480880",
+                                                                                                                    "speaker": "Bona",
+                                                                                                                    "text": "Tenho que encontrar uma forma de carregá-lo antes de irmos contra ele."
+                                                                                                                },
+                                                                                                                {
+                                                                                                                    "id": "750480881",
+                                                                                                                    "speaker": "Bona",
+                                                                                                                    "text": "Os <color=#00E1FFFF>Fragmentos da Fonte Secreta</color> que defendem a cidade antiga estão espalhados por ela. Hmm...podemos encontrá-los se <color=#00E1FFFF>seguirmos a luz de Coco</color>!"
+                                                                                                                }
+                                                                                                            ]
+                                                                                                        },
+                                                                                                        {
+                                                                                                            "id": "750480872",
+                                                                                                            "text": "Essa é a nossa fala. A gente não pode só te deixar aqui, né?",
+                                                                                                            "response": [
+                                                                                                                {
+                                                                                                                    "id": "750480873",
+                                                                                                                    "speaker": "Bona",
+                                                                                                                    "text": "Hah, você não devia me subestimar assim... mesmo assim, gosto da sua atitude."
+                                                                                                                }
+                                                                                                            ]
+                                                                                                        }
+                                                                                                    ]
+                                                                                                }
+                                                                                            ]
+                                                                                        },
+                                                                                        {
+                                                                                            "id": "750480857",
+                                                                                            "text": "Essas palavras não são lisonjeadoras, Paimon."
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        {
+                                                                            "id": "750480841",
+                                                                            "text": "#Eu gosto muito de meter meu nariz onde não fui chamad{F#a}{M#o}.",
+                                                                            "response": [
+                                                                                {
+                                                                                    "id": "750480842",
+                                                                                    "speaker": "Paimon",
+                                                                                    "text": "#Você quer dizer que gosta de ajudar as outras pessoas, não é? Por que ia falar desse jeito sobre si mesm{F#a}{M#o}?"
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        {
+                                                                            "id": "750480843",
+                                                                            "text": "O que importa é a coragem.",
+                                                                            "response": [
+                                                                                {
+                                                                                    "id": "750480844",
+                                                                                    "speaker": "Bona",
+                                                                                    "text": "#Certo, tudo bem. Vocês são corajos{F#as}{M#os} ao ponto de entrarem nessa cidade perdida."
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "id": "750480826",
+                                                            "text": "Essa é Paimon, a melhor aventureira em Teyvat.",
+                                                            "response": [
+                                                                {
+                                                                    "id": "750480827",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "#Que exagero. Mas cá entre nós, Paimon acha que somos aventureir{F#a}{M#o}s de primeira classe."
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "750480813",
+                                            "text": "Essa é Paimon, minha empregadora.",
+                                            "response": [
+                                                {
+                                                    "id": "750480814",
+                                                    "speaker": "Paimon",
+                                                    "text": "#Hã? É sério? O que você vai falar agora, dizer que é {F#a}{M#o} guia da Paimon? Enfim, el{F#a}{M#e} é {NICKNAME}. Somos aventureir{F#as}{M#os} que acabaram de chegar."
+                                                },
+                                                {
+                                                    "id": "750480815",
+                                                    "speaker": "Paimon",
+                                                    "text": "#E esse aqui é o nosso companheiro, {REALNAME[ID(2)|SHOWHOST(true)]}!"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "750480807",
+                            "text": "Ainda bem que reajo rápido.",
+                            "response": [
+                                {
+                                    "id": "750480808",
+                                    "speaker": "???",
+                                    "text": "É por isso que você expôs suas costas para mim com tanta confiança?"
+                                },
+                                {
+                                    "id": "750480809",
+                                    "speaker": "Paimon",
+                                    "text": "Bem, não achávamos que havia outra pessoa por aqui!"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "7504818",
+            "objective": "Saia da torre",
+            "dialogues": []
+        },
+        {
+            "id": "7504865",
+            "objective": "Saia da torre",
+            "dialogues": []
+        },
+        {
+            "id": "7504809",
+            "objective": "Explore a Rua das Cinzas e colete os Fragmentos da Fonte Secreta",
+            "dialogues": []
+        },
+        {
+            "id": "7504810",
+            "objective": "Explore a Rua das Cinzas",
+            "dialogues": [
+                {
+                    "id": "750481001",
+                    "speaker": "Bona",
+                    "text": "E já era hora também. Se a gente conseguir derrubar daqui..."
+                },
+                {
+                    "id": "750481002",
+                    "speaker": "Cocouik",
+                    "text": "Cheep! Cheep!"
+                },
+                {
+                    "id": "750481003",
+                    "speaker": "Bona",
+                    "text": "#Sim, só use essa coisa. Tente colocar sua mão em Coco, {NICKNAME}..."
+                },
+                {
+                    "id": "750481004",
+                    "speaker": "Bona",
+                    "text": "\"Raio Superpoderoso Maravilhoso\", disparar!"
+                }
+            ]
+        },
+        {
+            "id": "7504811",
+            "objective": "Derrube o dragão maligno com o Raio Superpoderoso Maravilhoso",
+            "dialogues": []
+        },
+        {
+            "id": "7504843",
+            "objective": "Derrube o dragão maligno com o Raio Superpoderoso Maravilhoso",
+            "dialogues": []
+        },
+        {
+            "id": "7504812",
+            "objective": "Ache o dragão maligno",
+            "dialogues": [
+                {
+                    "id": "750481201",
+                    "speaker": "Bona",
+                    "text": "Legal! O Raio Superpoderoso Maravilhoso é do balacobaco, hein?"
+                },
+                {
+                    "id": "750481202",
+                    "speaker": "Paimon",
+                    "text": "Mas por que se chama assim? Você tem uns gostos estranhos..."
+                },
+                {
+                    "id": "750481203",
+                    "speaker": "Bona",
+                    "text": "Você não acha que é super maneiro? Falando pela minha experiência em aventuras, é muito mais fácil para as pessoas lembrarem e continuarem usando nomes de habilidades se forem espalhafatosos."
+                },
+                {
+                    "id": "750481204",
+                    "speaker": "Paimon",
+                    "text": "Vamos esquecer o nome um momentinho... Coco nos ajudou derrubando o dragão."
+                },
+                {
+                    "id": "750481205",
+                    "speaker": "Cocouik",
+                    "text": "Coo..."
+                },
+                {
+                    "id": "750481206",
+                    "speaker": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+                    "text": "Rawr..."
+                },
+                {
+                    "id": "750481207",
+                    "speaker": "Paimon",
+                    "text": "#Não fique triste! Paimon não disse que você não fez nada, {REALNAME[ID(2)|SHOWHOST(true)]}.",
+                    "choices": [
+                        {
+                            "id": "750481208",
+                            "text": "Sem jeito com as palavras, hein?",
+                            "response": [
+                                {
+                                    "id": "750481209",
+                                    "speaker": "Paimon",
+                                    "text": "#Qual é, só ajuda Paimon a explicar, {NICKNAME}! Todo mundo tem forças diferentes! Só não era hora de {REALNAME[ID(2)|SHOWHOST(true)]} brilhar ainda!"
+                                },
+                                {
+                                    "id": "750481212",
+                                    "speaker": "Paimon",
+                                    "text": "Enfim, o dragão maligno saiu voando naquela direção?"
+                                },
+                                {
+                                    "id": "750481213",
+                                    "speaker": "Bona",
+                                    "text": "Hunf. Um bicho ferido sempre retorna ao ninho primeiro, então pode estar para esse lado, sim."
+                                },
+                                {
+                                    "id": "750481214",
+                                    "speaker": "Bona",
+                                    "text": "Vamos ter que pegar a Pyrofosforita de volta antes que se recupere!"
+                                },
+                                {
+                                    "id": "750481215",
+                                    "speaker": "Bona",
+                                    "text": "Se eu estivesse sozinha, eu não teria ousado enfrentar o dragão mesmo se ele estivesse ferido."
+                                },
+                                {
+                                    "id": "750481216",
+                                    "speaker": "Bona",
+                                    "text": "Mas somos um grupo agora e vocês se garantem... Acho que vamos ficar bem.",
+                                    "choices": [
+                                        {
+                                            "id": "750481217",
+                                            "text": "#Eu não posso fazer tudo sozinh{M#o}{F#a}, sabe?",
+                                            "response": [
+                                                {
+                                                    "id": "750481219",
+                                                    "speaker": "Bona",
+                                                    "text": "Não se preocupem, eu vou primeiro. Só me deem cobertura!"
+                                                },
+                                                {
+                                                    "id": "750481220",
+                                                    "speaker": "Bona",
+                                                    "text": "O tempo está acabando. Vamos lá!"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "750481218",
+                                            "text": "Desculpe, tenho assuntos urgentes para resolver..."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "750481210",
+                            "text": "Todos têm suas forças.",
+                            "response": [
+                                {
+                                    "id": "750481211",
+                                    "speaker": "Paimon",
+                                    "text": "#Isso mesmo. Você vai ter uma chance em breve, {REALNAME[ID(2)|SHOWHOST(true)]}, Paimon sabe!"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "7504813",
+            "objective": "Ache o dragão maligno",
+            "dialogues": []
+        },
+        {
+            "id": "7504814",
+            "objective": "Derrote o dragão maligno em seu covil",
+            "dialogues": []
+        },
+        {
+            "id": "7504815",
+            "objective": "Derrote o dragão maligno em seu covil",
+            "dialogues": []
+        },
+        {
+            "id": "7504816",
+            "objective": "Recupere a Pyrofosforita",
+            "dialogues": [
+                {
+                    "id": "750481601",
+                    "speaker": "Paimon",
+                    "text": "Ugh, Paimon não acredita que escapou de novo!"
+                },
+                {
+                    "id": "750481602",
+                    "speaker": "Paimon",
+                    "text": "A gente quase conseguiu, mas a força do dragão foi restaurada do nada...",
+                    "choices": [
+                        {
+                            "id": "750481603",
+                            "text": "\"Esse não é o fim\"...",
+                            "response": [
+                                {
+                                    "id": "750481604",
+                                    "speaker": "Paimon",
+                                    "text": "Hã? Você consegue entender o que o dragão disse?"
+                                },
+                                {
+                                    "id": "750481605",
+                                    "speaker": "Player",
+                                    "text": "É o padrão dourado."
+                                },
+                                {
+                                    "id": "750481607",
+                                    "speaker": "Paimon",
+                                    "text": "Hã? Você viu o padrão dourado de novo? Foi uma dica deixada para trás por aquele, hmm... Sábio da Chama Roubada?"
+                                },
+                                {
+                                    "id": "750481608",
+                                    "speaker": "Paimon",
+                                    "text": "Espera, procurar pelo tesouro nessa cidade antiga também é um dos testes dele?"
+                                },
+                                {
+                                    "id": "750481609",
+                                    "speaker": "Bona",
+                                    "text": "Hã? Do que você tá falando?"
+                                },
+                                {
+                                    "id": "750481610",
+                                    "speaker": "Bona",
+                                    "text": "Que cansaço... Foi bem difícil. Pensei que a gente tinha acabado com tudo lá, mas ele vive para lutar outro dia."
+                                },
+                                {
+                                    "id": "750481611",
+                                    "speaker": "Bona",
+                                    "text": "Pelo menos agora podemos pegar a Pyrofosforita de volta... Ah, sim. Tá bem ali!"
+                                },
+                                {
+                                    "id": "750481612",
+                                    "speaker": "Paimon",
+                                    "text": "Falando nisso, o que devemos fazer? Viemos aqui procurar o Jade do Retorno que aquele aventureiro falou..."
+                                },
+                                {
+                                    "id": "750481613",
+                                    "speaker": "Paimon",
+                                    "text": "Mas nós ainda não sabemos o que é essa coisa, não é?"
+                                },
+                                {
+                                    "id": "750481614",
+                                    "speaker": "Paimon",
+                                    "text": "Você deve saber algo sobre isso, né, Bona? É uma daquelas coisas que requer três Pyrofosforita para quebrar o selo e pá?"
+                                },
+                                {
+                                    "id": "750481615",
+                                    "speaker": "Bona",
+                                    "text": "Se fosse tão simples... Na verdade, não está na cidade, mas no céu."
+                                },
+                                {
+                                    "id": "750481616",
+                                    "speaker": "Paimon",
+                                    "text": "O quê? Mas as notas que encontramos na torre diziam... será que os aventureiros cometeram um erro?"
+                                },
+                                {
+                                    "id": "750481617",
+                                    "speaker": "Bona",
+                                    "text": "Espera, você veio para Ochkanatlan, a cidade proibida, só por causa de umas notas que você pegou? Hehe. Parece que quanto mais habilidosa é uma pessoa, mais corajosa ela é."
+                                },
+                                {
+                                    "id": "750481618",
+                                    "speaker": "Bona",
+                                    "text": "Já que vocês não sabem nada sobre o Jade do Retorno, vocês provavelmente não ouviram a história de Tona{RUBY#[S]Navio da Serpente Voadora}tiuh, né?"
+                                },
+                                {
+                                    "id": "750481619",
+                                    "speaker": "Bona",
+                                    "text": "Como o nome sugere, era um navio voador construído pelo Rei Píton Och-kan, o tirano que governou Ochkanatlan. O navio era cheio até o topo com tesouros e incontáveis aventureiros de Natlan procuraram por ele."
+                                },
+                                {
+                                    "id": "750481620",
+                                    "speaker": "Bona",
+                                    "text": "Incluindo meu pai, claro. Ele era o melhor aventureiro do Clã das Plumas de Flores."
+                                },
+                                {
+                                    "id": "750481621",
+                                    "speaker": "Bona",
+                                    "text": "Mas o Tonatiuh tinha um significado maior para ele, além de suas ambições como aventureiro."
+                                },
+                                {
+                                    "id": "750481622",
+                                    "speaker": "Bona",
+                                    "text": "A calamidade do Abismo destruiu nossa tribo décadas atrás, e o dragão maligno que ocupa essa cidade antiga também apareceu nessa mesma época."
+                                },
+                                {
+                                    "id": "750481623",
+                                    "speaker": "Bona",
+                                    "text": "Dizem os rumores que um dos incontáveis tesouros a bordo do navio era o Jade do{RUBY#[S]Ometeotl} Retorno, e que o localizar acabaria com essa cidade antiga manchada pelo Abismo."
+                                },
+                                {
+                                    "id": "750481624",
+                                    "speaker": "Bona",
+                                    "text": "Na época, havíamos acabado de testemunhar o pesadelo do Abismo. Então se pudéssemos encontrar o Jade e suprimir a contaminação aqui na cidade, nossa tribo não teria mais que viver em medo."
+                                },
+                                {
+                                    "id": "750481625",
+                                    "speaker": "Bona",
+                                    "text": "Meu pai partiu em uma jornada com esse objetivo... Mas ele nunca voltou. Tudo que sobrou foi a Pyrofosforita que ele encontrou nas ruínas.",
+                                    "choices": [
+                                        {
+                                            "id": "750481626",
+                                            "text": "Sinto muito pela sua perda...",
+                                            "response": [
+                                                {
+                                                    "id": "750481627",
+                                                    "speaker": "Bona",
+                                                    "text": "Tá tudo bem. Eu nunca conheci ele. Ouvi isso tudo de uma mulher que se aventurou ao lado dele."
+                                                },
+                                                {
+                                                    "id": "750481630",
+                                                    "speaker": "Bona",
+                                                    "text": "As inscrições num monumento nas ruínas dizem que os ventos do passado distante guiarão o caminho até o Tonatiuh quando a Pyrofosforita for colocada no Altar do Fogo Original na cidade antiga."
+                                                },
+                                                {
+                                                    "id": "750481631",
+                                                    "speaker": "Bona",
+                                                    "text": "Mas a cidade se tornou um lugar proibido para a tribo após a mulher voltar sozinha como a única sobrevivente do esquadrão do meu pai."
+                                                },
+                                                {
+                                                    "id": "750481632",
+                                                    "speaker": "Paimon",
+                                                    "text": "Paimon não sabia que o Jade do Retorno era tão importante. Paimon acha que a gente não vai mais penhorar ele por Mora..."
+                                                },
+                                                {
+                                                    "id": "750481633",
+                                                    "speaker": "Paimon",
+                                                    "text": "Mas podemos remover a ameaça do Abismo contra sua tribo se pudermos encontrá-lo, e isso seria incrível também!"
+                                                },
+                                                {
+                                                    "id": "750481634",
+                                                    "speaker": "Paimon",
+                                                    "text": "Só temos que localizar esse Altar, né? Bona, você deve saber onde fica, não sabe?"
+                                                },
+                                                {
+                                                    "id": "750481635",
+                                                    "speaker": "Bona",
+                                                    "text": "Bem, eu não sei. Só entrei aqui recentemente, e foi só porque estava em busca de pistas sobre o Altar do Fogo Original."
+                                                },
+                                                {
+                                                    "id": "750481636",
+                                                    "speaker": "Bona",
+                                                    "text": "Encontrei muitos perigos inesperados, mas as coisas começaram a melhorar depois que conheci Coco."
+                                                },
+                                                {
+                                                    "id": "750481637",
+                                                    "speaker": "Cocouik",
+                                                    "text": "Chiii!"
+                                                },
+                                                {
+                                                    "id": "750481638",
+                                                    "speaker": "Bona",
+                                                    "text": "O dragão maligno era o único problema! Eu planejava entrar de fininho enquanto ele estava fora, mas ele me pegou, haha!"
+                                                },
+                                                {
+                                                    "id": "750481639",
+                                                    "speaker": "Bona",
+                                                    "text": "Mas ele já se foi agora, graças a vocês, e eu consegui minha Pyrofosforita de volta, então posso ir atrás do Altar do Fogo Original.",
+                                                    "choices": [
+                                                        {
+                                                            "id": "750481640",
+                                                            "text": "Você precisa encontrar o Jade do Retorno?",
+                                                            "response": [
+                                                                {
+                                                                    "id": "750481641",
+                                                                    "speaker": "Bona",
+                                                                    "text": "Sim, preciso. Eu me tornei uma aventureira porque queria o encontrar."
+                                                                },
+                                                                {
+                                                                    "id": "750481644",
+                                                                    "speaker": "Bona",
+                                                                    "text": "Contanto que sigamos as orientações de Coco, a gente deve conseguir encontrar ele e acessar o Tonatiuh no céu juntos..."
+                                                                },
+                                                                {
+                                                                    "id": "750481645",
+                                                                    "speaker": "Bona",
+                                                                    "text": "Não posso dividir o Jade do Retorno com vocês para venderem, mas deve ter outros tesouros lá que um aventureiro pode pegar como recompensa!"
+                                                                },
+                                                                {
+                                                                    "id": "750481646",
+                                                                    "speaker": "Bona",
+                                                                    "text": "Olha, até a luz do Coco aponta para um lugar mais alto!"
+                                                                },
+                                                                {
+                                                                    "id": "750481647",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "Bem, não parece garantido, mas não é como se pudéssemos fazer mais nada, a não ser confiar em você, né?"
+                                                                },
+                                                                {
+                                                                    "id": "750481648",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "Se conseguirmos chegar no Tonatiuh, podemos ajudar todos e lucrar muito. Todo mundo ganha!"
+                                                                },
+                                                                {
+                                                                    "id": "750481649",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "#Que tal isso, {NICKNAME}? Vamos com Bona, certo?"
+                                                                },
+                                                                {
+                                                                    "id": "750481650",
+                                                                    "speaker": "Bona",
+                                                                    "text": "Hehe, mesmo? Isso é ótimo! Eu sabia que vocês gostariam de ajudar! Com vocês por perto, tenho certeza que poderei realizar o último desejo do meu pai."
+                                                                },
+                                                                {
+                                                                    "id": "750481651",
+                                                                    "speaker": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+                                                                    "text": "Rawr!"
+                                                                },
+                                                                {
+                                                                    "id": "750481652",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "#{REALNAME[ID(2)|SHOWHOST(true)]} concorda! Tá decidido, então. Vamos nessa antes que o dragão volte!"
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "id": "750481642",
+                                                            "text": "Não quer que a gente vá com você?",
+                                                            "response": [
+                                                                {
+                                                                    "id": "750481643",
+                                                                    "speaker": "Bona",
+                                                                    "text": "Uau! Eu tava prestes a pedir, na verdade!"
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "750481628",
+                                            "text": "O dragão maligno...",
+                                            "response": [
+                                                {
+                                                    "id": "750481629",
+                                                    "speaker": "Bona",
+                                                    "text": "Quem sabe? Eu nunca o conheci. Eu ouvi isso tudo de uma mulher que se aventurou ao lado dele."
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "750481606",
+                            "text": "O padrão dourado..."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "7504861",
+            "objective": "Derrube o dragão maligno com o Raio Superpoderoso Maravilhoso",
+            "dialogues": []
+        }
+    ]
+}

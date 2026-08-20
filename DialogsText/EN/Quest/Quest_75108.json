@@ -1,0 +1,789 @@
+{
+    "quest": {
+        "id": "75108",
+        "title": "Friends of Fire and Water",
+        "description": "You and Paimon discover a suspicious campsite somewhere within Flower-Feather Clan territory. There, you unexpectedly rescue a Blubberbeast. It seems to make a good friend for your Saurian companion...",
+        "rewards": [
+            {
+                "itemId": 102,
+                "count": 200
+            },
+            {
+                "itemId": 201,
+                "count": 30
+            },
+            {
+                "itemId": 202,
+                "count": 35000
+            }
+        ],
+        "rewards_formatted": "Adventure EXP x200, Primogem x30, Mora x35000",
+        "chapter": {
+            "icon": "UI_ChapterIcon_LittleDrillhead",
+            "id": "10204",
+            "num": "",
+            "title": "In the Footsteps of the Chosen of Dragons"
+        },
+        "total_dialogue_lines": 127,
+        "total_speaker_counts": {
+            "#{REALNAME[ID(2)|SHOWHOST(true)]}": 11,
+            "Black Screen": 4,
+            "Now-Healthy Blubberbeast": 1,
+            "Paimon": 54,
+            "Player": 51,
+            "Victimized Blubberbeast": 1,
+            "Weakened Blubberbeast": 5
+        }
+    },
+    "talks": [
+        {
+            "id": "7510801",
+            "objective": "",
+            "dialogues": [
+                {
+                    "id": "751080101",
+                    "speaker": "Paimon",
+                    "text": "We said we were going to cook, but what exactly should we make?"
+                },
+                {
+                    "id": "751080102",
+                    "speaker": "Paimon",
+                    "text": "Hmm... We used to feed fish to the Blubberbeast Berrypuff, didn't we? In that case, a fish dish should do just fine!"
+                },
+                {
+                    "id": "751080103",
+                    "speaker": "Paimon",
+                    "text": "#If we want the Blubberbeast and {REALNAME[ID(2)|SHOWHOST(true)]} to eat well... Natlan's special Grilled Fish in Mint Sauce might be a pretty good choice.",
+                    "choices": [
+                        {
+                            "id": "751080104",
+                            "text": "That's practically a specialty of mine.",
+                            "response": [
+                                {
+                                    "id": "751080106",
+                                    "speaker": "Paimon",
+                                    "text": "Alright, let's get started then. Paimon will give you some pointers while you're at it!",
+                                    "choices": [
+                                        {
+                                            "id": "751080107",
+                                            "text": "Make deeper cuts.",
+                                            "response": [
+                                                {
+                                                    "id": "751080108",
+                                                    "speaker": "Paimon",
+                                                    "text": "That's right! The deeper the cuts, the deeper the flavor seeps in!",
+                                                    "choices": [
+                                                        {
+                                                            "id": "751080111",
+                                                            "text": "A little extra salt, a little extra happiness!",
+                                                            "response": [
+                                                                {
+                                                                    "id": "751080112",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "#Mmm, that sure tastes rich. {REALNAME[ID(2)|SHOWHOST(true)]} and the Blubberbeast are going to love it!",
+                                                                    "choices": [
+                                                                        {
+                                                                            "id": "751080115",
+                                                                            "text": "Mint sauce. The more, the merrier.",
+                                                                            "response": [
+                                                                                {
+                                                                                    "id": "751080116",
+                                                                                    "speaker": "Paimon",
+                                                                                    "text": "Hehe, that refreshing, cool taste is going to be awesome!",
+                                                                                    "choices": [
+                                                                                        {
+                                                                                            "id": "751080119",
+                                                                                            "text": "Chili peppers are indispensable.",
+                                                                                            "response": [
+                                                                                                {
+                                                                                                    "id": "751080120",
+                                                                                                    "speaker": "Paimon",
+                                                                                                    "text": "Just the right amount of spiciness — enough to whet the appetite!",
+                                                                                                    "choices": [
+                                                                                                        {
+                                                                                                            "id": "751080123",
+                                                                                                            "text": "Flame-grilled over scorching heat — crispy on the outside, tender on the inside!",
+                                                                                                            "response": [
+                                                                                                                {
+                                                                                                                    "id": "751080124",
+                                                                                                                    "speaker": "Paimon",
+                                                                                                                    "text": "Heehee, that sounds so delicious, Paimon's drooling already."
+                                                                                                                },
+                                                                                                                {
+                                                                                                                    "id": "751080127",
+                                                                                                                    "speaker": "Black Screen",
+                                                                                                                    "text": "#After a splendid culinary process, the special fish you grilled for {REALNAME[ID(2)|SHOWHOST(true)]} and the Blubberbeast is ready..."
+                                                                                                                }
+                                                                                                            ]
+                                                                                                        },
+                                                                                                        {
+                                                                                                            "id": "751080125",
+                                                                                                            "text": "Slow roasted — tender and juicy!",
+                                                                                                            "response": [
+                                                                                                                {
+                                                                                                                    "id": "751080126",
+                                                                                                                    "speaker": "Paimon",
+                                                                                                                    "text": "#Wow, amazing! {NICKNAME}'s secret art grilled fish... Maybe someday it'll become one of your specialties and you'll be able to cook it for our other friends!"
+                                                                                                                }
+                                                                                                            ]
+                                                                                                        }
+                                                                                                    ]
+                                                                                                }
+                                                                                            ]
+                                                                                        },
+                                                                                        {
+                                                                                            "id": "751080121",
+                                                                                            "text": "Animals from Fontaine might be allergic to spicy food...",
+                                                                                            "response": [
+                                                                                                {
+                                                                                                    "id": "751080122",
+                                                                                                    "speaker": "Paimon",
+                                                                                                    "text": "But it'd feel like something is missing if there's no chili at all, so why not add just a little?",
+                                                                                                    "choices": [
+                                                                                                        {
+                                                                                                            "id": "751080123",
+                                                                                                            "text": "Flame-grilled over scorching heat — crispy on the outside, tender on the inside!"
+                                                                                                        },
+                                                                                                        {
+                                                                                                            "id": "751080125",
+                                                                                                            "text": "Slow roasted — tender and juicy!"
+                                                                                                        }
+                                                                                                    ]
+                                                                                                }
+                                                                                            ]
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        {
+                                                                            "id": "751080117",
+                                                                            "text": "Will an aquatic animal like the Blubberbeast be afraid of mint?",
+                                                                            "response": [
+                                                                                {
+                                                                                    "id": "751080118",
+                                                                                    "speaker": "Paimon",
+                                                                                    "text": "That's not how that works. A Blubberbeast is going to find the surface dry and hot, so adding a little mint sauce ought to help it cool down, right?",
+                                                                                    "choices": [
+                                                                                        {
+                                                                                            "id": "751080119",
+                                                                                            "text": "Chili peppers are indispensable."
+                                                                                        },
+                                                                                        {
+                                                                                            "id": "751080121",
+                                                                                            "text": "Animals from Fontaine might be allergic to spicy food..."
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "id": "751080113",
+                                                            "text": "The flavor's great as-is. No need for any salt.",
+                                                            "response": [
+                                                                {
+                                                                    "id": "751080114",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "Yup. We've still got other seasonings, so we don't have to go so heavy on the salt.",
+                                                                    "choices": [
+                                                                        {
+                                                                            "id": "751080115",
+                                                                            "text": "Mint sauce. The more, the merrier."
+                                                                        },
+                                                                        {
+                                                                            "id": "751080117",
+                                                                            "text": "Will an aquatic animal like the Blubberbeast be afraid of mint?"
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "751080109",
+                                            "text": "Make shallower cuts.",
+                                            "response": [
+                                                {
+                                                    "id": "751080110",
+                                                    "speaker": "Paimon",
+                                                    "text": "Not bad. It should keep the flavor light while maintaining the original fishiness — which the Blubberbeast is sure to love.",
+                                                    "choices": [
+                                                        {
+                                                            "id": "751080111",
+                                                            "text": "A little extra salt, a little extra happiness!"
+                                                        },
+                                                        {
+                                                            "id": "751080113",
+                                                            "text": "The flavor's great as-is. No need for any salt."
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "751080105",
+                            "text": "Can't say I've perfected it, but no problem."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "7510803",
+            "objective": "",
+            "dialogues": [
+                {
+                    "id": "751080301",
+                    "speaker": "Paimon",
+                    "text": "Sure enough, there are still some Saurians locked up here..."
+                },
+                {
+                    "id": "751080302",
+                    "speaker": "Paimon",
+                    "text": "Who'd have thought they'd persist in their wicked ways and keep hurting Saurians, even after we destroyed their base..."
+                },
+                {
+                    "id": "751080303",
+                    "speaker": "Paimon",
+                    "text": "Had we known, we could've chased them down and wiped them all out.",
+                    "choices": [
+                        {
+                            "id": "751080304",
+                            "text": "Well, they're all done for now.",
+                            "response": [
+                                {
+                                    "id": "751080305",
+                                    "speaker": "Paimon",
+                                    "text": "True. Now let's save 'em, quick!"
+                                },
+                                {
+                                    "id": "751080308",
+                                    "speaker": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+                                    "text": "Rawr!"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "751080306",
+                            "text": "Yes, I should've been cold and cruel back then!",
+                            "response": [
+                                {
+                                    "id": "751080307",
+                                    "speaker": "Paimon",
+                                    "text": "#Paimon can hardly imagine you being like that, {NICKNAME}... Anyway, let's help 'em first!"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "7510804",
+            "objective": "",
+            "dialogues": [
+                {
+                    "id": "751080401",
+                    "speaker": "Paimon",
+                    "text": "Hmm? Why are there Saurians in the cages here?"
+                },
+                {
+                    "id": "751080402",
+                    "speaker": "Paimon",
+                    "text": "Something's not right here... Wait. Could they all have been captured by those people?"
+                },
+                {
+                    "id": "751080403",
+                    "speaker": "Paimon",
+                    "text": "Have we busted some kinda Saurian trafficking ring without even realizing it?",
+                    "choices": [
+                        {
+                            "id": "751080404",
+                            "text": "Wonderful! Villains vanquished, by the by!",
+                            "response": [
+                                {
+                                    "id": "751080405",
+                                    "speaker": "Paimon",
+                                    "text": "That's right! Now let's get all these Saurians outta here!"
+                                },
+                                {
+                                    "id": "751080408",
+                                    "speaker": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+                                    "text": "Rawr!"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "751080406",
+                            "text": "Doesn't matter. We took those villains out either way.",
+                            "response": [
+                                {
+                                    "id": "751080407",
+                                    "speaker": "Paimon",
+                                    "text": "C'mon, it matters a lot — that the kidnapped Saurians can now regain their freedom, that is. Let's help them, pronto!"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "7510805",
+            "objective": "Rescue the animals",
+            "dialogues": [
+                {
+                    "id": "751080501",
+                    "speaker": "Paimon",
+                    "text": "Wait, there's a... Blubberbeast in here? How in the world—? Guess bad guys really will sell anything..."
+                },
+                {
+                    "id": "751080502",
+                    "speaker": "Victimized Blubberbeast",
+                    "text": "Awrr... Bluboo!"
+                },
+                {
+                    "id": "751080503",
+                    "speaker": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+                    "text": "Rroo... Mrrooh!"
+                },
+                {
+                    "id": "751080504",
+                    "speaker": "Paimon",
+                    "text": "#Huh? You're kinda interested in the Blubberbeast, aren't you, {REALNAME[ID(2)|SHOWHOST(true)]}?"
+                },
+                {
+                    "id": "751080505",
+                    "speaker": "Black Screen",
+                    "text": "#{REALNAME[ID(2)|SHOWHOST(true)]} listens intently to the cries of the Blubberbeast and, seemingly understanding something, lifts the creature by the tail to take it over to the shallows, where they play together."
+                },
+                {
+                    "id": "751080512",
+                    "speaker": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+                    "text": "Rawr!",
+                    "choices": [
+                        {
+                            "id": "751080506",
+                            "text": "The Blubberbeast seems chuffed.",
+                            "response": [
+                                {
+                                    "id": "751080508",
+                                    "speaker": "Paimon",
+                                    "text": "Sure does! Maybe they can become friends?"
+                                },
+                                {
+                                    "id": "751080509",
+                                    "speaker": "Paimon",
+                                    "text": "But that Blubberbeast doesn't seem to have the slightest bit of strength, and its two... Err, paws...? Either way, they don't seem able to flap around much."
+                                },
+                                {
+                                    "id": "751080510",
+                                    "speaker": "Paimon",
+                                    "text": "There wasn't even a plate of food around... Perhaps they've been locked up so long that they're starving."
+                                },
+                                {
+                                    "id": "751080511",
+                                    "speaker": "Paimon",
+                                    "text": "#If that's so, let's make something for the Blubberbeast and {REALNAME[ID(2)|SHOWHOST(true)]} to eat!"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "751080507",
+                            "text": "#{REALNAME[ID(2)|SHOWHOST(true)]} seems pretty happy, too."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "7510802",
+            "objective": "Prepare food for your animal friends",
+            "dialogues": []
+        },
+        {
+            "id": "7510806",
+            "objective": "Deliver food to your animal friends",
+            "dialogues": []
+        },
+        {
+            "id": "7510807",
+            "objective": "Deliver food to your animal friends",
+            "dialogues": [
+                {
+                    "id": "751080701",
+                    "speaker": "Paimon",
+                    "text": "Here comes something yummy! Don't just play around — you have to replenish your energy, too."
+                },
+                {
+                    "id": "751080702",
+                    "speaker": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+                    "text": "Rawr!"
+                },
+                {
+                    "id": "751080703",
+                    "speaker": "Weakened Blubberbeast",
+                    "text": "A... Aooouhh!"
+                },
+                {
+                    "id": "751080704",
+                    "speaker": "Paimon",
+                    "text": "Hehe, looks like they're having a great time. Will you choke if you eat upside down like that, though...?"
+                },
+                {
+                    "id": "751080705",
+                    "speaker": "Player",
+                    "text": "Stay safe. Don't be like that Blubberbeast."
+                },
+                {
+                    "id": "751080706",
+                    "speaker": "Paimon",
+                    "text": "Hey, what's with that patronizing tone? Paimon's no Blubberbeast. She's not gonna be so silly as to eat like that."
+                },
+                {
+                    "id": "751080707",
+                    "speaker": "Player",
+                    "text": "Try it yourself and you'll see."
+                },
+                {
+                    "id": "751080708",
+                    "speaker": "Paimon",
+                    "text": "Hey! Paimon's not gonna eat like that — she isn't a Blubberbeast anyway!"
+                },
+                {
+                    "id": "751080709",
+                    "speaker": "Black Screen",
+                    "text": "The Blubberbeast seems to have recovered enough strength for it to flap over and tumble into the sea..."
+                },
+                {
+                    "id": "751080719",
+                    "speaker": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+                    "text": "Mmm... Aourgh!"
+                },
+                {
+                    "id": "751080710",
+                    "speaker": "Now-Healthy Blubberbeast",
+                    "text": "Aohh! Woo... Arr!"
+                },
+                {
+                    "id": "751080712",
+                    "speaker": "Paimon",
+                    "text": "Ah, it's gone..."
+                },
+                {
+                    "id": "751080713",
+                    "speaker": "Player",
+                    "text": "That's just how things are. I mean, it's not indigenous to Natlan."
+                },
+                {
+                    "id": "751080715",
+                    "speaker": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+                    "text": "Rrooh..."
+                },
+                {
+                    "id": "751080716",
+                    "speaker": "Paimon",
+                    "text": "#Don't be sad, {REALNAME[ID(2)|SHOWHOST(true)]}. You had so much fun just now, and you're already friends!"
+                },
+                {
+                    "id": "751080717",
+                    "speaker": "Paimon",
+                    "text": "Anyway, Paimon's got a feeling that this isn't the last we've seen of that Blubberbeast!"
+                },
+                {
+                    "id": "751080718",
+                    "speaker": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+                    "text": "Rawr!"
+                }
+            ]
+        },
+        {
+            "id": "7510802",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "751080201",
+                    "speaker": "Paimon",
+                    "text": "We said we were going to cook, but what exactly should we make?"
+                },
+                {
+                    "id": "751080202",
+                    "speaker": "Paimon",
+                    "text": "Blubberbeasts live in the water, so it must eat fish, right? Let's do a fish dish, then."
+                },
+                {
+                    "id": "751080203",
+                    "speaker": "Paimon",
+                    "text": "#If we want the Blubberbeast and {REALNAME[ID(2)|SHOWHOST(true)]} to eat well... Natlan's special Grilled Fish in Mint Sauce might be a pretty good choice.",
+                    "choices": [
+                        {
+                            "id": "751080204",
+                            "text": "That's practically a specialty of mine.",
+                            "response": [
+                                {
+                                    "id": "751080206",
+                                    "speaker": "Paimon",
+                                    "text": "Alright, let's get started then. Paimon will give you some pointers while you're at it!",
+                                    "choices": [
+                                        {
+                                            "id": "751080207",
+                                            "text": "Make deeper cuts.",
+                                            "response": [
+                                                {
+                                                    "id": "751080208",
+                                                    "speaker": "Paimon",
+                                                    "text": "That's right! The deeper the cuts, the deeper the flavor seeps in!",
+                                                    "choices": [
+                                                        {
+                                                            "id": "751080211",
+                                                            "text": "A little extra salt, a little extra happiness!",
+                                                            "response": [
+                                                                {
+                                                                    "id": "751080212",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "#Mmm, that sure tastes rich. {REALNAME[ID(2)|SHOWHOST(true)]} and the Blubberbeast are going to love it!",
+                                                                    "choices": [
+                                                                        {
+                                                                            "id": "751080215",
+                                                                            "text": "Mint sauce. The more, the merrier.",
+                                                                            "response": [
+                                                                                {
+                                                                                    "id": "751080216",
+                                                                                    "speaker": "Paimon",
+                                                                                    "text": "Hehe, that refreshing, cool taste is going to be awesome!",
+                                                                                    "choices": [
+                                                                                        {
+                                                                                            "id": "751080219",
+                                                                                            "text": "Chili peppers are indispensable.",
+                                                                                            "response": [
+                                                                                                {
+                                                                                                    "id": "751080220",
+                                                                                                    "speaker": "Paimon",
+                                                                                                    "text": "Just the right amount of spiciness — enough to whet the appetite!",
+                                                                                                    "choices": [
+                                                                                                        {
+                                                                                                            "id": "751080223",
+                                                                                                            "text": "Flame-grilled over scorching heat — crispy on the outside, tender on the inside!",
+                                                                                                            "response": [
+                                                                                                                {
+                                                                                                                    "id": "751080224",
+                                                                                                                    "speaker": "Paimon",
+                                                                                                                    "text": "Heehee, that sounds so delicious, Paimon's drooling already."
+                                                                                                                },
+                                                                                                                {
+                                                                                                                    "id": "751080227",
+                                                                                                                    "speaker": "Black Screen",
+                                                                                                                    "text": "#After a splendid culinary process, the special fish you grilled for {REALNAME[ID(2)|SHOWHOST(true)]} and the Blubberbeast is ready..."
+                                                                                                                }
+                                                                                                            ]
+                                                                                                        },
+                                                                                                        {
+                                                                                                            "id": "751080225",
+                                                                                                            "text": "Slow roasted — tender and juicy!",
+                                                                                                            "response": [
+                                                                                                                {
+                                                                                                                    "id": "751080226",
+                                                                                                                    "speaker": "Paimon",
+                                                                                                                    "text": "Hehe, nice, it's your special grilled fish. Maybe we can sell it on the streets in the future!"
+                                                                                                                }
+                                                                                                            ]
+                                                                                                        }
+                                                                                                    ]
+                                                                                                }
+                                                                                            ]
+                                                                                        },
+                                                                                        {
+                                                                                            "id": "751080221",
+                                                                                            "text": "Animals from Fontaine might be allergic to spicy food...",
+                                                                                            "response": [
+                                                                                                {
+                                                                                                    "id": "751080222",
+                                                                                                    "speaker": "Paimon",
+                                                                                                    "text": "But it'd feel like something is missing if there's no chili at all, so why not add just a little?",
+                                                                                                    "choices": [
+                                                                                                        {
+                                                                                                            "id": "751080223",
+                                                                                                            "text": "Flame-grilled over scorching heat — crispy on the outside, tender on the inside!"
+                                                                                                        },
+                                                                                                        {
+                                                                                                            "id": "751080225",
+                                                                                                            "text": "Slow roasted — tender and juicy!"
+                                                                                                        }
+                                                                                                    ]
+                                                                                                }
+                                                                                            ]
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        {
+                                                                            "id": "751080217",
+                                                                            "text": "Will an aquatic animal like the Blubberbeast be afraid of mint?",
+                                                                            "response": [
+                                                                                {
+                                                                                    "id": "751080218",
+                                                                                    "speaker": "Paimon",
+                                                                                    "text": "That's not how that works. A Blubberbeast is going to find the surface dry and hot, so adding a little mint sauce ought to help it cool down, right?",
+                                                                                    "choices": [
+                                                                                        {
+                                                                                            "id": "751080219",
+                                                                                            "text": "Chili peppers are indispensable."
+                                                                                        },
+                                                                                        {
+                                                                                            "id": "751080221",
+                                                                                            "text": "Animals from Fontaine might be allergic to spicy food..."
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "id": "751080213",
+                                                            "text": "The flavor's great as-is. No need for any salt.",
+                                                            "response": [
+                                                                {
+                                                                    "id": "751080214",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "Yup. We've still got other seasonings, so we don't have to go so heavy on the salt.",
+                                                                    "choices": [
+                                                                        {
+                                                                            "id": "751080215",
+                                                                            "text": "Mint sauce. The more, the merrier."
+                                                                        },
+                                                                        {
+                                                                            "id": "751080217",
+                                                                            "text": "Will an aquatic animal like the Blubberbeast be afraid of mint?"
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "751080209",
+                                            "text": "Make shallower cuts.",
+                                            "response": [
+                                                {
+                                                    "id": "751080210",
+                                                    "speaker": "Paimon",
+                                                    "text": "Not bad. It should keep the flavor light while maintaining the original fishiness — which the Blubberbeast is sure to love.",
+                                                    "choices": [
+                                                        {
+                                                            "id": "751080211",
+                                                            "text": "A little extra salt, a little extra happiness!"
+                                                        },
+                                                        {
+                                                            "id": "751080213",
+                                                            "text": "The flavor's great as-is. No need for any salt."
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "751080205",
+                            "text": "Can't say I've perfected it, but no problem."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "7510813",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "751081301",
+                    "speaker": "Weakened Blubberbeast",
+                    "text": "Aouhhh..."
+                },
+                {
+                    "id": "751081302",
+                    "speaker": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+                    "text": "Arawr?"
+                },
+                {
+                    "id": "751081303",
+                    "speaker": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+                    "text": "Awwrr..."
+                },
+                {
+                    "id": "751081304",
+                    "speaker": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+                    "text": "Rawr!"
+                },
+                {
+                    "id": "751081305",
+                    "speaker": "Weakened Blubberbeast",
+                    "text": "Aouh?"
+                },
+                {
+                    "id": "751081306",
+                    "speaker": "Weakened Blubberbeast",
+                    "text": "Aouh..."
+                },
+                {
+                    "id": "751081307",
+                    "speaker": "Weakened Blubberbeast",
+                    "text": "Auh!"
+                },
+                {
+                    "id": "751081308",
+                    "speaker": "Paimon",
+                    "text": "Paimon can't understand their conversation at all, but it seems they've reached an understanding...?",
+                    "choices": [
+                        {
+                            "id": "751081309",
+                            "text": "It's fine if you don't get it.",
+                            "response": [
+                                {
+                                    "id": "751081311",
+                                    "speaker": "Paimon",
+                                    "text": "Makes sense. Even though the Blubberbeast doesn't have much strength, it feels like they're really happy — and Paimon feels happy for 'em, too!"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "751081310",
+                            "text": "As long as the emotion's there, that's all that matters."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "7510899",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "751089901",
+                    "speaker": "Paimon",
+                    "text": ""
+                }
+            ]
+        }
+    ]
+}

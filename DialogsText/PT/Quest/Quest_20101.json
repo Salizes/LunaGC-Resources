@@ -1,0 +1,889 @@
+{
+    "quest": {
+        "id": "20101",
+        "title": "Perseguindo Sombras",
+        "description": "Quem o Diluc levou foi a Mestre Jean. Depois de algumas conversas, entenderam que foram os Fatui que roubaram a Lira Sagrada de Der Himmel. Vocês devem pegar a Lira Sagrada de Der Himmel de volta para poder salvar Dvalin.",
+        "rewards": [
+            {
+                "itemId": 102,
+                "count": 175
+            },
+            {
+                "itemId": 202,
+                "count": 4225
+            },
+            {
+                "itemId": 101,
+                "count": 2200
+            },
+            {
+                "itemId": 104012,
+                "count": 4
+            }
+        ],
+        "rewards_formatted": "EXP de Aventura x175, Mora x4225, EXP do Personagem x2200, Minério de Refinamento Fino x4",
+        "chapter": {
+            "icon": "UI_ChapterIcon_Mengde",
+            "id": "1002",
+            "num": "Prólogo - Ato II",
+            "title": "Por um Amanhã Sem Lágrimas"
+        },
+        "total_dialogue_lines": 110,
+        "total_speaker_counts": {
+            "Agente de Dívidas": 1,
+            "Guarda Guloso": 26,
+            "Guarda Tímido": 20,
+            "Guarda dos Fatui": 11,
+            "Paimon": 23,
+            "Player": 29
+        }
+    },
+    "talks": [
+        {
+            "id": "2010101",
+            "objective": "Entre no esconderijo dos Fatui",
+            "dialogues": []
+        },
+        {
+            "id": "2010102",
+            "objective": "Pergunte ao guarda por pistas",
+            "dialogues": []
+        },
+        {
+            "id": "2010103",
+            "objective": "Pergunte ao guarda por pistas",
+            "dialogues": [
+                {
+                    "id": "201010301",
+                    "speaker": "Guarda dos Fatui",
+                    "text": "Não, não me coma! Err... Você é um humano?"
+                },
+                {
+                    "id": "201010302",
+                    "speaker": "Guarda dos Fatui",
+                    "text": "Nossa defesa do primeiro piso foi invadida...! Eu pensei que era a Ordem do Abismo atacando...",
+                    "choices": [
+                        {
+                            "id": "201010303",
+                            "text": "Nós viemos em busca da Lira Sagrada der Himmel.",
+                            "response": [
+                                {
+                                    "id": "201010304",
+                                    "speaker": "Guarda dos Fatui",
+                                    "text": "Co... Como vocês sabem que a Lira está aqui?"
+                                },
+                                {
+                                    "id": "201010309",
+                                    "speaker": "Guarda dos Fatui",
+                                    "text": "Este lugar está mantido bem trancado! Se você estiver procurando a chave... Então entre mais a fundo nas ruínas, não me procure!"
+                                },
+                                {
+                                    "id": "201010310",
+                                    "speaker": "Guarda dos Fatui",
+                                    "text": "Não sei quais guardas que tem, mas tenho certeza de que você consegue encontrar os guardas e descobrir você mesmo."
+                                },
+                                {
+                                    "id": "201010311",
+                                    "speaker": "Paimon",
+                                    "text": "Este cara parece que está prestes a se molhar..."
+                                },
+                                {
+                                    "id": "201010312",
+                                    "speaker": "Guarda dos Fatui",
+                                    "text": "C-Cuidem das suas vidas!"
+                                },
+                                {
+                                    "id": "201010313",
+                                    "speaker": "Guarda dos Fatui",
+                                    "text": "Uma dos Onze já está em Mondstadt!"
+                                },
+                                {
+                                    "id": "201010314",
+                                    "speaker": "Guarda dos Fatui",
+                                    "text": "#Signora. Quando ela colocar as mãos em você, ela vai amarrá-l{M#o}{F#a} e torturá-l{M#o}{F#a}. Quando chegar a hora, não ouse dizer uma palavra sobre mim."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "201010305",
+                            "text": "Viemos buscar a sua vida.",
+                            "response": [
+                                {
+                                    "id": "201010306",
+                                    "speaker": "Guarda dos Fatui",
+                                    "text": "AH!!!"
+                                },
+                                {
+                                    "id": "201010307",
+                                    "speaker": "Guarda dos Fatui",
+                                    "text": "Não...! Eu tenho uma informação valiosa de seu interesse!"
+                                },
+                                {
+                                    "id": "201010308",
+                                    "speaker": "Guarda dos Fatui",
+                                    "text": "Nós escondemos a Lira Sagrada nas profundezas destas ruínas."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "2010105",
+            "objective": "",
+            "dialogues": [
+                {
+                    "id": "201010501",
+                    "speaker": "Guarda Tímido",
+                    "text": "Qu-Quem é você? O qu-O que você está fazendo aqui? Arg!"
+                }
+            ]
+        },
+        {
+            "id": "2010106",
+            "objective": "Ameace o NPC",
+            "dialogues": [
+                {
+                    "id": "201010601",
+                    "speaker": "Player",
+                    "text": "Desista, ninguém virá para lhe salvar."
+                },
+                {
+                    "id": "201010602",
+                    "speaker": "Guarda Tímido",
+                    "text": "Você já derrotou todos os outros guardas?"
+                }
+            ]
+        },
+        {
+            "id": "2010107",
+            "objective": "",
+            "dialogues": [
+                {
+                    "id": "201010701",
+                    "speaker": "Player",
+                    "text": "(Diálogo de conteúdo enganoso)"
+                },
+                {
+                    "id": "201010702",
+                    "speaker": "Guarda Tímido",
+                    "text": "Como é que..."
+                }
+            ]
+        },
+        {
+            "id": "2010108",
+            "objective": "Desafie o NPC para um duelo.",
+            "dialogues": [
+                {
+                    "id": "201010801",
+                    "speaker": "Player",
+                    "text": "Chega de conversa!"
+                },
+                {
+                    "id": "201010802",
+                    "speaker": "Guarda Tímido",
+                    "text": "Uau... Você está pensando em me atacar?"
+                }
+            ]
+        },
+        {
+            "id": "2010109",
+            "objective": "",
+            "dialogues": [
+                {
+                    "id": "201010901",
+                    "speaker": "Guarda Tímido",
+                    "text": "Uh..."
+                }
+            ]
+        },
+        {
+            "id": "2010110",
+            "objective": "",
+            "dialogues": [
+                {
+                    "id": "201011001",
+                    "speaker": "Guarda Tímido",
+                    "text": "Hmm..."
+                },
+                {
+                    "id": "2010110011",
+                    "speaker": "Guarda Tímido",
+                    "text": "De acordo, suponho que eu não tenha outra escolha."
+                },
+                {
+                    "id": "2010110012",
+                    "speaker": "Guarda Tímido",
+                    "text": "Bem, vou deixar vocês irem."
+                },
+                {
+                    "id": "2010110013",
+                    "speaker": "Guarda Tímido",
+                    "text": "Mas, infelizmente, eu não tenho a chave. Você precisa perguntar ao próximo guarda que encontrar."
+                }
+            ]
+        },
+        {
+            "id": "2010111",
+            "objective": "",
+            "dialogues": [
+                {
+                    "id": "201011101",
+                    "speaker": "Guarda Tímido",
+                    "text": "Hehehe..."
+                },
+                {
+                    "id": "2010111011",
+                    "speaker": "Guarda Tímido",
+                    "text": "Já chega!"
+                },
+                {
+                    "id": "2010111012",
+                    "speaker": "Guarda Tímido",
+                    "text": "Sou um cidadão orgulhoso de Snezhnaya, e não cederei!"
+                }
+            ]
+        },
+        {
+            "id": "2010112",
+            "objective": "",
+            "dialogues": [
+                {
+                    "id": "201011201",
+                    "speaker": "Guarda Tímido",
+                    "text": "Hm! Tolos de Mondstadt, se acharem que podem me convencer facilmente assim com poucas Mora, estão muito enganados!"
+                }
+            ]
+        },
+        {
+            "id": "2010113",
+            "objective": "",
+            "dialogues": [
+                {
+                    "id": "201011301",
+                    "speaker": "Guarda Tímido",
+                    "text": "Sou um cidadão orgulhoso de Snezhnaya, e não cederei!"
+                }
+            ]
+        },
+        {
+            "id": "2010153",
+            "objective": "",
+            "dialogues": [
+                {
+                    "id": "201010605",
+                    "speaker": "Player",
+                    "text": "Isso mesmo, eu os derrubei todos."
+                },
+                {
+                    "id": "201010609",
+                    "speaker": "Guarda Tímido",
+                    "text": "O quê? Não estou com medo de você. O agente virá pelo meu resgate!"
+                }
+            ]
+        },
+        {
+            "id": "2010154",
+            "objective": "",
+            "dialogues": [
+                {
+                    "id": "201010603",
+                    "speaker": "Player",
+                    "text": "Mas eles foram chamados de volta para a Snezhnaya por assuntos urgentes."
+                }
+            ]
+        },
+        {
+            "id": "2010155",
+            "objective": "",
+            "dialogues": [
+                {
+                    "id": "201010610",
+                    "speaker": "Player",
+                    "text": "Oh, eu já resolvi as coisas com ele."
+                }
+            ]
+        },
+        {
+            "id": "2010156",
+            "objective": "",
+            "dialogues": [
+                {
+                    "id": "201010612",
+                    "speaker": "Player",
+                    "text": "Ambos de nós sabemos que está mentindo."
+                }
+            ]
+        },
+        {
+            "id": "2010157",
+            "objective": "",
+            "dialogues": [
+                {
+                    "id": "201010614",
+                    "speaker": "Player",
+                    "text": "Ele está se embebedando na Cauda do Gato."
+                }
+            ]
+        },
+        {
+            "id": "2010115",
+            "objective": "",
+            "dialogues": [
+                {
+                    "id": "201011501",
+                    "speaker": "Guarda Guloso",
+                    "text": "Que-Quem é você? Como você conseguiu entrar aqui!?"
+                }
+            ]
+        },
+        {
+            "id": "2010116",
+            "objective": "",
+            "dialogues": [
+                {
+                    "id": "201011601",
+                    "speaker": "Player",
+                    "text": "(Conteúdo de diálogo ameaçador)"
+                },
+                {
+                    "id": "201011602",
+                    "speaker": "Guarda Guloso",
+                    "text": "Você está me ameaçando?"
+                }
+            ]
+        },
+        {
+            "id": "2010117",
+            "objective": "",
+            "dialogues": [
+                {
+                    "id": "201011701",
+                    "speaker": "Player",
+                    "text": "Somos embaixadores da Sociedade Snezhno-Mondstadt."
+                },
+                {
+                    "id": "201011799",
+                    "speaker": "Guarda Guloso",
+                    "text": "Nunca ouvi falar dessa associação antes..."
+                },
+                {
+                    "id": "201011702",
+                    "speaker": "Guarda Guloso",
+                    "text": "O que vocês vieram fazer aqui?",
+                    "choices": [
+                        {
+                            "id": "201011703",
+                            "text": "Viemos pedir emprestado a Lira Sagrada der Himmel.",
+                            "response": [
+                                {
+                                    "id": "201011704",
+                                    "speaker": "Guarda Guloso",
+                                    "text": "Esta mentira é tão óbvia, não tem nada melhor?"
+                                },
+                                {
+                                    "id": "201011709",
+                                    "speaker": "Guarda Guloso",
+                                    "text": "E como vocês pretendem pedir emprestado?"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "201011705",
+                            "text": "Estamos aqui fazendo as coisas por boa vontade...",
+                            "response": [
+                                {
+                                    "id": "201011706",
+                                    "speaker": "Guarda Guloso",
+                                    "text": "Oh? Continue falando..."
+                                },
+                                {
+                                    "id": "2010117061",
+                                    "speaker": "Guarda Guloso",
+                                    "text": "Você está aqui pela Lira, não está?"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "201011707",
+                            "text": "Estamos investigando a sua corrupção.",
+                            "response": [
+                                {
+                                    "id": "201011708",
+                                    "speaker": "Guarda Guloso",
+                                    "text": "Que ridículo! Como vocês chegaram aqui? Vocês me levam como um tolo?"
+                                },
+                                {
+                                    "id": "2010117081",
+                                    "speaker": "Guarda Guloso",
+                                    "text": "Você está aqui pela Lira, não está?"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "2010118",
+            "objective": "",
+            "dialogues": [
+                {
+                    "id": "201011801",
+                    "speaker": "Player",
+                    "text": "Não há o que discutir, desista."
+                },
+                {
+                    "id": "201011802",
+                    "speaker": "Guarda Guloso",
+                    "text": "Haha, nunca!"
+                }
+            ]
+        },
+        {
+            "id": "2010119",
+            "objective": "",
+            "dialogues": [
+                {
+                    "id": "201011901",
+                    "speaker": "Guarda Guloso",
+                    "text": "Hmm..."
+                }
+            ]
+        },
+        {
+            "id": "2010120",
+            "objective": "",
+            "dialogues": [
+                {
+                    "id": "201012001",
+                    "speaker": "Guarda Guloso",
+                    "text": "Hmm..."
+                },
+                {
+                    "id": "2010120011",
+                    "speaker": "Guarda Guloso",
+                    "text": "Ok, isso soa como um plano."
+                },
+                {
+                    "id": "2010120012",
+                    "speaker": "Guarda Guloso",
+                    "text": "Bem, vou deixar vocês irem."
+                },
+                {
+                    "id": "2010120013",
+                    "speaker": "Guarda Guloso",
+                    "text": "Mas, infelizmente, eu não tenho a chave. Você precisa perguntar ao próximo guarda que encontrar."
+                }
+            ]
+        },
+        {
+            "id": "2010121",
+            "objective": "",
+            "dialogues": [
+                {
+                    "id": "201012101",
+                    "speaker": "Guarda Guloso",
+                    "text": "Hunf! Tolos de Mondstadt! O desejo de Snezhnaya é forte como o gelo polar! Eu não irei ceder!"
+                }
+            ]
+        },
+        {
+            "id": "2010122",
+            "objective": "",
+            "dialogues": [
+                {
+                    "id": "201012201",
+                    "speaker": "Guarda Guloso",
+                    "text": "Hehehe..."
+                },
+                {
+                    "id": "2010122011",
+                    "speaker": "Guarda Guloso",
+                    "text": "Você acha que pode me menosprezar assim?"
+                },
+                {
+                    "id": "2010122012",
+                    "speaker": "Guarda Guloso",
+                    "text": "O desejo de Snezhnaya é forte como o gelo polar! Eu não irei ceder!"
+                }
+            ]
+        },
+        {
+            "id": "2010123",
+            "objective": "",
+            "dialogues": [
+                {
+                    "id": "201012301",
+                    "speaker": "Guarda Guloso",
+                    "text": "O desejo de Snezhnaya é forte como o gelo polar! Eu não irei ceder!"
+                }
+            ]
+        },
+        {
+            "id": "2010158",
+            "objective": "",
+            "dialogues": [
+                {
+                    "id": "201011710",
+                    "speaker": "Player",
+                    "text": "Que tal 500.000 Mora?"
+                }
+            ]
+        },
+        {
+            "id": "2010159",
+            "objective": "",
+            "dialogues": [
+                {
+                    "id": "201011712",
+                    "speaker": "Player",
+                    "text": "Vamos recomendar você à Sociedade."
+                }
+            ]
+        },
+        {
+            "id": "2010160",
+            "objective": "",
+            "dialogues": [
+                {
+                    "id": "201011714",
+                    "speaker": "Player",
+                    "text": "Você quer essa maçã?"
+                }
+            ]
+        },
+        {
+            "id": "2010141",
+            "objective": "Vasculhe os Fatui para encontrar a chave",
+            "dialogues": []
+        },
+        {
+            "id": "2010142",
+            "objective": "Abra a porta",
+            "dialogues": []
+        },
+        {
+            "id": "2010143",
+            "objective": "Entre na área onde o artefato está guardado.",
+            "dialogues": []
+        },
+        {
+            "id": "2010152",
+            "objective": "Obtenha a Lira Sagrada der Himmel",
+            "dialogues": [
+                {
+                    "id": "201015201",
+                    "speaker": "Paimon",
+                    "text": "Ele disse que a chave não está aqui. Vamos tentar em <color=#00E1FFFF>outra sala</color>?"
+                }
+            ]
+        },
+        {
+            "id": "2010151",
+            "objective": "Fale com a Paimon",
+            "dialogues": [
+                {
+                    "id": "201015101",
+                    "speaker": "Paimon",
+                    "text": "Para onde esse cara foi? Ele estava aqui alguns segundos atrás..."
+                },
+                {
+                    "id": "201015102",
+                    "speaker": "Agente de Dívidas",
+                    "text": "A Signora vai acabar com você. As músicas que os bardos cantarão sobre a sua morte serão tão assustadoras que as pessoas de Mondstadt nunca mais vão conseguir voltar a dormir em paz à noite."
+                },
+                {
+                    "id": "201015103",
+                    "speaker": "Paimon",
+                    "text": "Grande discurso para alguém que foge no final..."
+                }
+            ]
+        },
+        {
+            "id": "2010125",
+            "objective": "",
+            "dialogues": [
+                {
+                    "id": "201012501",
+                    "speaker": "Paimon",
+                    "text": "(Ganancioso, suscetível de persuasão) Q-Quem é você? Como você chegou aqui?!"
+                }
+            ]
+        },
+        {
+            "id": "2010126",
+            "objective": "",
+            "dialogues": [
+                {
+                    "id": "201012601",
+                    "speaker": "Player",
+                    "text": "(Conteúdo de diálogo ameaçador)"
+                },
+                {
+                    "id": "201012602",
+                    "speaker": "Paimon",
+                    "text": "Você está me ameaçando?"
+                }
+            ]
+        },
+        {
+            "id": "2010127",
+            "objective": "",
+            "dialogues": [
+                {
+                    "id": "201012701",
+                    "speaker": "Player",
+                    "text": "(Conteúdo enganoso) Somos os membros da Sociedade Snezhno-Mondstadt."
+                },
+                {
+                    "id": "201012799",
+                    "speaker": "Player",
+                    "text": "Estamos aqui para emitir recompensas em nome da Sociedade, mas precisamos conversar um pouco com seu capitão primeiro."
+                },
+                {
+                    "id": "201012702",
+                    "speaker": "Paimon",
+                    "text": "Como você descobriu que eu quero ajudar?",
+                    "choices": [
+                        {
+                            "id": "201012703",
+                            "text": "O dinheiro diz tudo.",
+                            "response": [
+                                {
+                                    "id": "201012704",
+                                    "speaker": "Paimon",
+                                    "text": "O quê?!"
+                                },
+                                {
+                                    "id": "201012709",
+                                    "speaker": "Paimon",
+                                    "text": "Eu posso ajudar você, mas uma vez que o capitão concordar, eu precisarei de 2.000 Mora como compensação.",
+                                    "choices": [
+                                        {
+                                            "id": "201012710",
+                                            "text": "Fechado.",
+                                            "response": [
+                                                {
+                                                    "id": "201012711",
+                                                    "speaker": "Paimon",
+                                                    "text": "Hum... vale a pena dar uma pensada."
+                                                },
+                                                {
+                                                    "id": "201012716",
+                                                    "speaker": "Paimon",
+                                                    "text": "Grrr..."
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "201012712",
+                                            "text": "Que tal 1.500?",
+                                            "response": [
+                                                {
+                                                    "id": "201012713",
+                                                    "speaker": "Paimon",
+                                                    "text": "O quê?"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "201012714",
+                                            "text": "Pode ser parcelado?",
+                                            "response": [
+                                                {
+                                                    "id": "201012715",
+                                                    "speaker": "Paimon",
+                                                    "text": "Você está brincando comigo?"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "201012705",
+                            "text": "O segredo de ganhar qualquer negociação é saber qual presente dar.",
+                            "response": [
+                                {
+                                    "id": "201012706",
+                                    "speaker": "Paimon",
+                                    "text": "Hum... Palavras sábias!"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "201012707",
+                            "text": "Você tem \"insaciável\" escrito em sua testa.",
+                            "response": [
+                                {
+                                    "id": "201012708",
+                                    "speaker": "Paimon",
+                                    "text": "Isso é ridículo..."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "2010128",
+            "objective": "",
+            "dialogues": [
+                {
+                    "id": "201012801",
+                    "speaker": "Player",
+                    "text": "Desafie o NPC para um duelo."
+                },
+                {
+                    "id": "201012802",
+                    "speaker": "Paimon",
+                    "text": "Você está me ameaçando?"
+                }
+            ]
+        },
+        {
+            "id": "2010129",
+            "objective": "",
+            "dialogues": [
+                {
+                    "id": "201012901",
+                    "speaker": "Paimon",
+                    "text": "Grrr..."
+                },
+                {
+                    "id": "201012902",
+                    "speaker": "Paimon",
+                    "text": "Paimon entendeu..."
+                },
+                {
+                    "id": "201012903",
+                    "speaker": "Paimon",
+                    "text": "Neste caso..."
+                }
+            ]
+        },
+        {
+            "id": "2010130",
+            "objective": "",
+            "dialogues": [
+                {
+                    "id": "201013001",
+                    "speaker": "Paimon",
+                    "text": "Você fez uma oferta generosa, mas infelizmente, a <color=#00E1FFFF>chave</color> não está comigo.\\nPergunte aos outros guardas. E não se esqueça do combinado!"
+                }
+            ]
+        },
+        {
+            "id": "2010131",
+            "objective": "",
+            "dialogues": [
+                {
+                    "id": "201013101",
+                    "speaker": "Paimon",
+                    "text": "Hunf! Tolos de Mondstadt! O desejo de Snezhnaya é forte como o gelo polar! Eu não irei ceder!"
+                }
+            ]
+        },
+        {
+            "id": "2010132",
+            "objective": "",
+            "dialogues": [
+                {
+                    "id": "201013201",
+                    "speaker": "Paimon",
+                    "text": "Hunf, tolos de Mondstadt! Se pensavam que podiam me convencer facilmente assim, estão muito enganados!"
+                }
+            ]
+        },
+        {
+            "id": "2010133",
+            "objective": "",
+            "dialogues": [
+                {
+                    "id": "201013301",
+                    "speaker": "Paimon",
+                    "text": "Vocês não são nada, além de meros invasores! Não terei piedade em puni-los!"
+                }
+            ]
+        },
+        {
+            "id": "20101100",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "2010110021",
+                    "speaker": "Guarda Tímido",
+                    "text": "De acordo, suponho que eu não tenha outra escolha."
+                },
+                {
+                    "id": "2010110022",
+                    "speaker": "Guarda Tímido",
+                    "text": "Bem, vou deixar vocês irem."
+                },
+                {
+                    "id": "2010110023",
+                    "speaker": "Guarda Tímido",
+                    "text": "Eu tenho a <color=#00E1FFFF>chave</color> aqui. Você pode sair do salão do lado de fora, mas não conte a ninguém que fui eu quem lhe deu a chave."
+                }
+            ]
+        },
+        {
+            "id": "2010113",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "201011302",
+                    "speaker": "Guarda Tímido",
+                    "text": "Vá! Já tem o que queria!"
+                },
+                {
+                    "id": "201011303",
+                    "speaker": "Guarda Tímido",
+                    "text": "Rá...rápido! Saia daqui! Procure outra pessoa!"
+                }
+            ]
+        },
+        {
+            "id": "2010120",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "201012002",
+                    "speaker": "Guarda Guloso",
+                    "text": "Hmm..."
+                },
+                {
+                    "id": "2010120021",
+                    "speaker": "Guarda Guloso",
+                    "text": "Ok, isso soa como um plano."
+                },
+                {
+                    "id": "2010120022",
+                    "speaker": "Guarda Guloso",
+                    "text": "Eu tenho a chave aqui. Você pode seguir para o salão lá fora, mas não conte a ninguém quem lhe deu a chave."
+                }
+            ]
+        },
+        {
+            "id": "2010123",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "201012302",
+                    "speaker": "Guarda Guloso",
+                    "text": "Não se atreva a dizer que você está me devendo uma..."
+                },
+                {
+                    "id": "201012303",
+                    "speaker": "Guarda Guloso",
+                    "text": "O que você está fazendo aqui? Não me ponha em problemas!"
+                }
+            ]
+        }
+    ]
+}

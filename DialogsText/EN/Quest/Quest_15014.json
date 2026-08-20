@@ -1,0 +1,2395 @@
+{
+    "quest": {
+        "id": "15014",
+        "title": "A Faint Signal Lingers",
+        "description": "Xilonen has caught a glimpse of the Blazegem Inscriptions' forging process and has guessed what Tlazolli means to use them for. For safety reasons, she will dismantle this particular Inscription and analyze its inner workings first, and then decide whether to help Tlazolli save the gravely ill Nechca.",
+        "rewards": [
+            {
+                "itemId": 102,
+                "count": 500
+            },
+            {
+                "itemId": 202,
+                "count": 44000
+            },
+            {
+                "itemId": 104003,
+                "count": 5
+            },
+            {
+                "itemId": 104013,
+                "count": 10
+            }
+        ],
+        "rewards_formatted": "Adventure EXP x500, Mora x44000, Hero's Wit x5, Mystic Enhancement Ore x10",
+        "chapter": {
+            "icon": "UI_ChapterIcon_Natlan_Drillhead",
+            "id": "2060",
+            "num": "A Prayer for Blessings, Told to Crested Peaks: Act III",
+            "title": "Melodious Chant"
+        },
+        "total_dialogue_lines": 443,
+        "total_speaker_counts": {
+            "???": 1,
+            "Apoxpalon": 8,
+            "Black Screen": 7,
+            "Cheven": 17,
+            "Iknal": 9,
+            "Nechca": 35,
+            "Paimon": 66,
+            "Player": 72,
+            "Tlazolli": 66,
+            "Xilonen": 162
+        }
+    },
+    "talks": [
+        {
+            "id": "1501401",
+            "objective": "Head to Xilonen's workshop",
+            "dialogues": [
+                {
+                    "id": "150140101",
+                    "speaker": "Xilonen",
+                    "text": "You two can wait outside for a moment — I just need to go in and grab something. The workshop is a little messy, so unfortunately, I won't be able to show you around.",
+                    "choices": [
+                        {
+                            "id": "150140102",
+                            "text": "But I want to have a look!",
+                            "response": [
+                                {
+                                    "id": "150140104",
+                                    "speaker": "Xilonen",
+                                    "text": "Uh, that's not really what I mean... It's not the mess that's really the problem."
+                                },
+                                {
+                                    "id": "150140105",
+                                    "speaker": "Xilonen",
+                                    "text": "It's just that the workshop is cluttered with way too much stuff... Books, files, and even ancient texts I got from Masters of the Night-Wind."
+                                },
+                                {
+                                    "id": "150140106",
+                                    "speaker": "Xilonen",
+                                    "text": "Everything's piled up to the ceiling. You probably won't know where to step once you're inside."
+                                },
+                                {
+                                    "id": "150140107",
+                                    "speaker": "Xilonen",
+                                    "text": "Kachina suffered quite an unfortunate series of events the last time she went inside... Ahem, I suppose it was my fault for being so focused on searching for information at the time that I forgot to lock the door..."
+                                },
+                                {
+                                    "id": "150140108",
+                                    "speaker": "Xilonen",
+                                    "text": "After entering the workshop, she was shocked to find herself face-to-face with a massive woven scroll from the Masters of the Night-Wind. Then, she turned around, and knocked over a huge stack of forging blueprints."
+                                },
+                                {
+                                    "id": "150140109",
+                                    "speaker": "Xilonen",
+                                    "text": "She tried to step out of the way, but tripped on an poster tube that was behind her. And then, BOOM, the forging blueprints came crashing right onto her head."
+                                },
+                                {
+                                    "id": "150140110",
+                                    "speaker": "Paimon",
+                                    "text": "Oh no...",
+                                    "choices": [
+                                        {
+                                            "id": "150140111",
+                                            "text": "That must've hurt!",
+                                            "response": [
+                                                {
+                                                    "id": "150140113",
+                                                    "speaker": "Xilonen",
+                                                    "text": "She's lucky I noticed in time. I found Kachina in a daze and managed to save her before an entire set of the History of the Children of Echoes was about to bury her... I then dragged her up to the second floor."
+                                                },
+                                                {
+                                                    "id": "150140114",
+                                                    "speaker": "Xilonen",
+                                                    "text": "Ever since then, Kachina always waits outside the door, and doesn't dare take a step in whenever she comes to see me.",
+                                                    "choices": [
+                                                        {
+                                                            "id": "150140115",
+                                                            "text": "Are there really that many books inside?",
+                                                            "response": [
+                                                                {
+                                                                    "id": "150140117",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "Yeah, you're an artisan and craftswoman, after all. We thought there would be weapons and armor hanging all over the place."
+                                                                },
+                                                                {
+                                                                    "id": "150140118",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "But it seems more like a library than a workshop."
+                                                                },
+                                                                {
+                                                                    "id": "150140119",
+                                                                    "speaker": "Xilonen",
+                                                                    "text": "Well, my primary work is forging Ancient Names, which is much trickier than making swords and tools. Aside from the necessary craftsmanship, I also need to consult many ancient texts."
+                                                                },
+                                                                {
+                                                                    "id": "150140120",
+                                                                    "speaker": "Xilonen",
+                                                                    "text": "You probably already know that each Ancient Name represents a certain \"spirit,\" behind which are countless related stories to support it."
+                                                                },
+                                                                {
+                                                                    "id": "150140121",
+                                                                    "speaker": "Xilonen",
+                                                                    "text": "In other words, the essence of an Ancient Name is the physical manifestation of a certain spiritual will."
+                                                                },
+                                                                {
+                                                                    "id": "150140122",
+                                                                    "speaker": "Xilonen",
+                                                                    "text": "And as a Name Engraver, when I'm working on a new Ancient Name, I'm not only trying to give it a physical shape..."
+                                                                },
+                                                                {
+                                                                    "id": "150140123",
+                                                                    "speaker": "Xilonen",
+                                                                    "text": "But more importantly, I'm also trying to understand the spirit contained within the name."
+                                                                },
+                                                                {
+                                                                    "id": "150140124",
+                                                                    "speaker": "Xilonen",
+                                                                    "text": "And to do that, I have to collect as many related stories as possible, and read through them all."
+                                                                },
+                                                                {
+                                                                    "id": "150140125",
+                                                                    "speaker": "Xilonen",
+                                                                    "text": "But, as you might know, people tend to add a lot of... extraneous details when it comes to stories about themselves."
+                                                                },
+                                                                {
+                                                                    "id": "150140126",
+                                                                    "speaker": "Xilonen",
+                                                                    "text": "For stories that have been clearly exaggerated or altered, I must gather other related stories or information as cross-references..."
+                                                                },
+                                                                {
+                                                                    "id": "150140127",
+                                                                    "speaker": "Xilonen",
+                                                                    "text": "This way, I can filter out all the absurd and exaggerated details, and restore the person's life to its true nature."
+                                                                },
+                                                                {
+                                                                    "id": "150140128",
+                                                                    "speaker": "Xilonen",
+                                                                    "text": "Only in true stories can you find the authentic spirit."
+                                                                },
+                                                                {
+                                                                    "id": "150140129",
+                                                                    "speaker": "Xilonen",
+                                                                    "text": "And this is the only way for the spirit to become an Ancient Name that matches its essence."
+                                                                },
+                                                                {
+                                                                    "id": "150140130",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "We've heard about the concept behind Ancient Names before, but after hearing you explain the details, Paimon can't help but think that Ancient Names are really powerful!"
+                                                                },
+                                                                {
+                                                                    "id": "150140131",
+                                                                    "speaker": "Player",
+                                                                    "text": "If only they could be even more powerful..."
+                                                                },
+                                                                {
+                                                                    "id": "150140132",
+                                                                    "speaker": "Xilonen",
+                                                                    "text": "No matter how powerful Ancient Names could be, they would never be able to suddenly turn into a blade, or allow you to smash through an entire cliff in one punch."
+                                                                },
+                                                                {
+                                                                    "id": "150140133",
+                                                                    "speaker": "Xilonen",
+                                                                    "text": "It's just a form of spiritual power that's passed down from generation to generation. It doesn't have those kinds of physically tangible effects."
+                                                                },
+                                                                {
+                                                                    "id": "150140134",
+                                                                    "speaker": "Xilonen",
+                                                                    "text": "Um... Take your own names, for example."
+                                                                },
+                                                                {
+                                                                    "id": "150140135",
+                                                                    "speaker": "Xilonen",
+                                                                    "text": "From the moment you appeared in this world, some person had already prepared a blessing for you."
+                                                                },
+                                                                {
+                                                                    "id": "150140136",
+                                                                    "speaker": "Xilonen",
+                                                                    "text": "That person then condensed this \"blessing\" into your name, and gave it to you as a gift."
+                                                                },
+                                                                {
+                                                                    "id": "150140137",
+                                                                    "speaker": "Xilonen",
+                                                                    "text": "It may feel like the moment you received your name is already in the past, but it will always stay with you, and move with you into the future."
+                                                                },
+                                                                {
+                                                                    "id": "150140138",
+                                                                    "speaker": "Xilonen",
+                                                                    "text": "\"Names are blessings for the future from people standing in the past.\" That's what Auntie once told me."
+                                                                },
+                                                                {
+                                                                    "id": "150140139",
+                                                                    "speaker": "Xilonen",
+                                                                    "text": "With this blessing, people will become more confident as they walk into their future... To put it another way, it's like having a lamp in your hand as you walk through the darkness of night."
+                                                                },
+                                                                {
+                                                                    "id": "150140140",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "Oh, Paimon gets that! If you're alone when you're walking in the dark, it's easy to get scared and tired quickly."
+                                                                },
+                                                                {
+                                                                    "id": "150140141",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "But if someone else is walking with you, then it won't be nearly as scary. And... well, you might still get tired, but it'll still be a whole lot better than walking alone."
+                                                                },
+                                                                {
+                                                                    "id": "150140142",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "#{NICKNAME} always has Paimon by {M#his}{F#her} side though, so {M#he}{F#she}'ll never have to worry about that."
+                                                                },
+                                                                {
+                                                                    "id": "150140143",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "#Oh, Paimon's sure many wish they could be in your shoes, {NICKNAME}."
+                                                                },
+                                                                {
+                                                                    "id": "150140144",
+                                                                    "speaker": "Player",
+                                                                    "text": "Please, you're always the one to get tired when we're on the road."
+                                                                },
+                                                                {
+                                                                    "id": "150140145",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "P—Paimon's always flying! Of course it gets tiring... But we're getting off-topic! We can talk about that later...",
+                                                                    "choices": [
+                                                                        {
+                                                                            "id": "150140146",
+                                                                            "text": "Try not to fall asleep on me next time...",
+                                                                            "response": [
+                                                                                {
+                                                                                    "id": "150140148",
+                                                                                    "speaker": "Xilonen",
+                                                                                    "text": "Anyway, this is what Tlazolli told me when I was training as a Name Engraver."
+                                                                                },
+                                                                                {
+                                                                                    "id": "150140149",
+                                                                                    "speaker": "Xilonen",
+                                                                                    "text": "To be honest, I've only understood twenty percent of what she said at most. I've never been able to figure out the rest."
+                                                                                },
+                                                                                {
+                                                                                    "id": "150140150",
+                                                                                    "speaker": "Paimon",
+                                                                                    "text": "But doesn't that basically mean you don't get it!?"
+                                                                                },
+                                                                                {
+                                                                                    "id": "150140151",
+                                                                                    "speaker": "Xilonen",
+                                                                                    "text": "Well, that's not entirely true. Auntie and I have at least come to a consensus on the most important thing."
+                                                                                },
+                                                                                {
+                                                                                    "id": "150140152",
+                                                                                    "speaker": "Xilonen",
+                                                                                    "text": "Ah, I'm sick of talking, we can talk about this more later. Please wait a moment while I grab my things."
+                                                                                },
+                                                                                {
+                                                                                    "id": "150140153",
+                                                                                    "speaker": "Black Screen",
+                                                                                    "text": "Xilonen opens the door and walks into her workshop. Some unsettling crashing sounds come from the workshop, followed by some agonizing creaks and squeaks."
+                                                                                },
+                                                                                {
+                                                                                    "id": "150140154",
+                                                                                    "speaker": "Black Screen",
+                                                                                    "text": "Eventually, Xilonen rushes out the door with a box in her arms. She then turns around and kicks the door closed, shutting the sound of dusty books falling to the ground inside..."
+                                                                                },
+                                                                                {
+                                                                                    "id": "150140155",
+                                                                                    "speaker": "Paimon",
+                                                                                    "text": "Did you hear a whole section of something collapse in there just now?"
+                                                                                },
+                                                                                {
+                                                                                    "id": "150140156",
+                                                                                    "speaker": "Xilonen",
+                                                                                    "text": "*coughs* It's fine, it's fine. It was just a bunch of very old Ancient Name records, I've already made copies of them."
+                                                                                },
+                                                                                {
+                                                                                    "id": "150140157",
+                                                                                    "speaker": "Xilonen",
+                                                                                    "text": "I kept this set of Phlogiston Wedges in the back, so it wasn't easy to take out. I had to resort to brute force."
+                                                                                },
+                                                                                {
+                                                                                    "id": "150140158",
+                                                                                    "speaker": "Xilonen",
+                                                                                    "text": "Come on, let's go disassemble the Central Inscription. It shouldn't take long."
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        {
+                                                                            "id": "150140147",
+                                                                            "text": "At least try not to eat so much..."
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "id": "150140116",
+                                                            "text": "I thought a workshop was supposed to be full of tools..."
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "150140112",
+                                            "text": "W—Was Kachina okay?"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "150140103",
+                            "text": "A mess is what I like best!"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "1501403",
+            "objective": "Help Xilonen dismantle the Blazegem Inscription",
+            "dialogues": [
+                {
+                    "id": "150140301",
+                    "speaker": "Xilonen",
+                    "text": "Here we are, this is the place."
+                },
+                {
+                    "id": "150140302",
+                    "speaker": "Paimon",
+                    "text": "This cliff is pretty high... What are we going to do here? Are we gonna climb to the very top and then throw this Inscription down the cliff?",
+                    "choices": [
+                        {
+                            "id": "150140303",
+                            "text": "We're disassembling it, not destroying it, Paimon.",
+                            "response": [
+                                {
+                                    "id": "150140305",
+                                    "speaker": "Xilonen",
+                                    "text": "I'm going to use phlogiston to make an engraving circle on the cliff wall. That will allow me to investigate the internals of the Central Inscription."
+                                },
+                                {
+                                    "id": "150140306",
+                                    "speaker": "Xilonen",
+                                    "text": "Now let me see if this thing can even turn on. I was still an apprentice the last time I used it."
+                                },
+                                {
+                                    "id": "150140307",
+                                    "speaker": "Xilonen",
+                                    "text": "Before we attempt to engrave the inside pattern of an Ancient Name with phlogiston, we always use this to draw out the engraving diagram on a cliff or open ground."
+                                },
+                                {
+                                    "id": "150140308",
+                                    "speaker": "Xilonen",
+                                    "text": "Only after we've confirmed that phlogiston can flow properly through the internal engravings can we start formally working on the small internal engravings of the Ancient Name."
+                                },
+                                {
+                                    "id": "150140309",
+                                    "speaker": "Xilonen",
+                                    "text": "If we want to dismantle the Central Inscription in a non destructive manner, we'll have to use this thing... I really don't want to engrave such a large diagram with my bare hands."
+                                },
+                                {
+                                    "id": "150140310",
+                                    "speaker": "Paimon",
+                                    "text": "Oh, so you'll be able to see what it looks like on the inside without ruining Tlazolli's Inscription?"
+                                },
+                                {
+                                    "id": "150140311",
+                                    "speaker": "Xilonen",
+                                    "text": "For the most part. If it were just an ordinary unfinished Ancient Name piece, I'd just take it apart and pour phlogiston into the internal engravings to see everything."
+                                },
+                                {
+                                    "id": "150140312",
+                                    "speaker": "Xilonen",
+                                    "text": "But since it's the Central Inscription... It would be better not to destroy the blessing that Auntie has prepared for Nechca."
+                                },
+                                {
+                                    "id": "150140313",
+                                    "speaker": "Paimon",
+                                    "text": "So, Xilonen... Does this Central Inscription fall under the twenty percent you understand about Ancient Names, or the other eighty percent you don't understand?"
+                                },
+                                {
+                                    "id": "150140314",
+                                    "speaker": "Player",
+                                    "text": "There's an eighty percent chance that it's part of the twenty percent."
+                                },
+                                {
+                                    "id": "150140315",
+                                    "speaker": "Xilonen",
+                                    "text": "Don't worry. As I said, Auntie and I share an understanding of the most important principle."
+                                },
+                                {
+                                    "id": "150140316",
+                                    "speaker": "Xilonen",
+                                    "text": "Which is... \"Names are intrinsically valuable.\""
+                                },
+                                {
+                                    "id": "150140317",
+                                    "speaker": "Xilonen",
+                                    "text": "Only by having names can things be sorted and categorized. They allow the world to become more orderly and identifiable."
+                                },
+                                {
+                                    "id": "150140318",
+                                    "speaker": "Xilonen",
+                                    "text": "For example, when I order ore, I would usually say, \"I need Volcanic Crystals of about thirty-five percent purity and no more than three percent of impurities.\""
+                                },
+                                {
+                                    "id": "150140319",
+                                    "speaker": "Xilonen",
+                                    "text": "Without specific names, I would only be able to go to the ore merchant and say, \"I want this, and this... No, this isn't it. That one? No, not that one either.\" You see what I mean?"
+                                },
+                                {
+                                    "id": "150140320",
+                                    "speaker": "Xilonen",
+                                    "text": "Names are a crucial part of how we standardize our workflow. Without names, the work would be impossible.",
+                                    "choices": [
+                                        {
+                                            "id": "150140321",
+                                            "text": "Hm, makes sense...",
+                                            "response": [
+                                                {
+                                                    "id": "150140323",
+                                                    "speaker": "Xilonen",
+                                                    "text": "Yes, because forging Ancient Names is first and foremost a technical job. There's no debating that."
+                                                },
+                                                {
+                                                    "id": "150140324",
+                                                    "speaker": "Xilonen",
+                                                    "text": "As for the question of why it's important... As long as it does not affect your ability to perform the work, you'll gradually understand it as you put the process into practice.",
+                                                    "choices": [
+                                                        {
+                                                            "id": "150140325",
+                                                            "text": "You really care about efficiency above all else...",
+                                                            "response": [
+                                                                {
+                                                                    "id": "150140327",
+                                                                    "speaker": "Xilonen",
+                                                                    "text": "After all, creating an Ancient Name is quite the complicated process..."
+                                                                },
+                                                                {
+                                                                    "id": "150140328",
+                                                                    "speaker": "Xilonen",
+                                                                    "text": "*sigh* Let me break it down even further, we're not in the tribe right now anyway... Essentially, by forging Ancient Names, I'm assigning \"nicknames\" to the heroes in Natlan's history."
+                                                                },
+                                                                {
+                                                                    "id": "150140329",
+                                                                    "speaker": "Xilonen",
+                                                                    "text": "Giving someone a name is a subjective expression. You just need to express your hopes and wishes for them."
+                                                                },
+                                                                {
+                                                                    "id": "150140330",
+                                                                    "speaker": "Xilonen",
+                                                                    "text": "But giving someone a nickname is a much more objective expression. To come up with a fitting and accurate nickname requires much thought and observation."
+                                                                },
+                                                                {
+                                                                    "id": "150140331",
+                                                                    "speaker": "Xilonen",
+                                                                    "text": "If Ancient Names, or nicknames, aren't descriptive enough, no one will remember them anyway."
+                                                                },
+                                                                {
+                                                                    "id": "150140332",
+                                                                    "speaker": "Xilonen",
+                                                                    "text": "So the best I can do is gather all the information I could, and try to come up with the most fitting nicknames possible."
+                                                                },
+                                                                {
+                                                                    "id": "150140333",
+                                                                    "speaker": "Xilonen",
+                                                                    "text": "Even a minor mistake in the process could cause people to misunderstand the nickname. For a Name Engraver such as myself, such mistakes would be considered a major blunder.",
+                                                                    "choices": [
+                                                                        {
+                                                                            "id": "150140334",
+                                                                            "text": "Paimon! Nicknames are your specialty!",
+                                                                            "response": [
+                                                                                {
+                                                                                    "id": "150140336",
+                                                                                    "speaker": "Paimon",
+                                                                                    "text": "Paimon isn't trying to come up with a nickname for Xilonen! Besides, all of Paimon's nicknames have been very descriptive. Everyone can remember them!"
+                                                                                },
+                                                                                {
+                                                                                    "id": "150140337",
+                                                                                    "speaker": "Xilonen",
+                                                                                    "text": "Now I'm curious. Why don't you come up with one for me?"
+                                                                                },
+                                                                                {
+                                                                                    "id": "150140338",
+                                                                                    "speaker": "Paimon",
+                                                                                    "text": "Huh? Are you serious!?"
+                                                                                },
+                                                                                {
+                                                                                    "id": "150140339",
+                                                                                    "speaker": "Xilonen",
+                                                                                    "text": "Of course. This is also my line of work, you know. Go ahead."
+                                                                                },
+                                                                                {
+                                                                                    "id": "150140340",
+                                                                                    "speaker": "Paimon",
+                                                                                    "text": "Hmm... A nickname... Xilonen... She uses phlogiston to forge weapons and make names for others...",
+                                                                                    "choices": [
+                                                                                        {
+                                                                                            "id": "150140341",
+                                                                                            "text": "Don't over stress, Paimon.",
+                                                                                            "response": [
+                                                                                                {
+                                                                                                    "id": "150140343",
+                                                                                                    "speaker": "Paimon",
+                                                                                                    "text": "Uh, uhhh... Smith?"
+                                                                                                },
+                                                                                                {
+                                                                                                    "id": "150140344",
+                                                                                                    "speaker": "Xilonen",
+                                                                                                    "text": "Hahaha. Not bad, not bad, and quite fitting, too. I'll remember it."
+                                                                                                },
+                                                                                                {
+                                                                                                    "id": "150140345",
+                                                                                                    "speaker": "Xilonen",
+                                                                                                    "text": "But you should keep observing my work, Paimon. Maybe you'll come up with an even better nickname."
+                                                                                                },
+                                                                                                {
+                                                                                                    "id": "150140346",
+                                                                                                    "speaker": "Xilonen",
+                                                                                                    "text": "Right, time to make like a \"Smith\" and start smithing. Watch closely."
+                                                                                                }
+                                                                                            ]
+                                                                                        },
+                                                                                        {
+                                                                                            "id": "150140342",
+                                                                                            "text": "You'd better make it a good one."
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        {
+                                                                            "id": "150140335",
+                                                                            "text": "See? Your nicknames need more thought and observation, Paimon!"
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "id": "150140326",
+                                                            "text": "Sounds like the most efficient approach..."
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "150140322",
+                                            "text": "So you're talking about it from a technical perspective..."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "150140304",
+                            "text": "I'm sure Xilonen knows what she's doing."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "1501404",
+            "objective": "Connect the activated Phlogiston Wedges",
+            "dialogues": []
+        },
+        {
+            "id": "1501405",
+            "objective": "Hear Xilonen's conclusions after having disassembled and analyzed the Blazegem Inscription",
+            "dialogues": [
+                {
+                    "id": "150140501",
+                    "speaker": "Paimon",
+                    "text": "Amazing, Xilonen! You were running all over that cliff as if it was flat ground!"
+                },
+                {
+                    "id": "150140502",
+                    "speaker": "Player",
+                    "text": "Is that the power of the Children of Echoes?"
+                },
+                {
+                    "id": "150140503",
+                    "speaker": "Xilonen",
+                    "text": "It doesn't have anything to do with my tribe. It's just the phlogiston adhesive I have on my shoes."
+                },
+                {
+                    "id": "150140504",
+                    "speaker": "Xilonen",
+                    "text": "But after all that running around, I'll have to infuse them with more phlogiston again... I should prepare a spare supply of Phlogiston to bring with me next time."
+                },
+                {
+                    "id": "150140505",
+                    "speaker": "Player",
+                    "text": "Don't tell me you're actually already covered head to toe in work equipment?"
+                },
+                {
+                    "id": "150140506",
+                    "speaker": "Xilonen",
+                    "text": "More or less, yeah. I usually have at least the key equipment on hand."
+                },
+                {
+                    "id": "150140507",
+                    "speaker": "Xilonen",
+                    "text": "I can show them to you when we next find the time. But let's get to work first."
+                },
+                {
+                    "id": "150140508",
+                    "speaker": "Xilonen",
+                    "text": "Let me see... Start with anchor one, and activate it with density three phlogiston..."
+                },
+                {
+                    "id": "150140509",
+                    "speaker": "Paimon",
+                    "text": "Whoa, a super huge diagram just appeared!"
+                },
+                {
+                    "id": "150140510",
+                    "speaker": "Paimon",
+                    "text": "Tlazolli's Central Inscription is even floating...!"
+                },
+                {
+                    "id": "150140511",
+                    "speaker": "Black Screen",
+                    "text": "Under Xilonen's guidance, the phlogiston engraving diagram on the cliffside remains stable as the Central Inscription is hit by massive amounts of Phlogiston at different frequencies."
+                },
+                {
+                    "id": "150140512",
+                    "speaker": "Black Screen",
+                    "text": "After some time, the blasts of Phlogiston cease and the Central Inscription returns to Xilonen's hands."
+                },
+                {
+                    "id": "150140513",
+                    "speaker": "Paimon",
+                    "text": "So are you done checking the Inscription, Xilonen? How does it look?"
+                },
+                {
+                    "id": "150140514",
+                    "speaker": "Xilonen",
+                    "text": "I didn't find any anomalies in the Phlogiston Engraving. All the adjustments are indeed based on Ancient Name engraving techniques.",
+                    "choices": [
+                        {
+                            "id": "150140516",
+                            "text": "So you're saying that everything's normal?",
+                            "response": [
+                                {
+                                    "id": "150140518",
+                                    "speaker": "Paimon",
+                                    "text": "That means we can help Tlazolli and Nechca now, right?"
+                                },
+                                {
+                                    "id": "150140519",
+                                    "speaker": "Xilonen",
+                                    "text": "Probably, but I have good news and bad news. Oh, but I'm also just going to go ahead and share both, so it's not like you'll have a choice in the matter."
+                                },
+                                {
+                                    "id": "150140520",
+                                    "speaker": "Paimon",
+                                    "text": "Paimon will cover her ears after the good news..."
+                                },
+                                {
+                                    "id": "150140521",
+                                    "speaker": "Xilonen",
+                                    "text": "#Even if you cover your ears, the issue will still continue to exist... But before we get to that, I want to ask {NICKNAME} a question."
+                                },
+                                {
+                                    "id": "150140522",
+                                    "speaker": "Xilonen",
+                                    "text": "What are your thoughts on absorbing memories?",
+                                    "choices": [
+                                        {
+                                            "id": "150140523",
+                                            "text": "It's necessary to save Nechca.",
+                                            "response": [
+                                                {
+                                                    "id": "150140524",
+                                                    "speaker": "Xilonen",
+                                                    "text": "Sounds like something you would say."
+                                                },
+                                                {
+                                                    "id": "150140525",
+                                                    "speaker": "Xilonen",
+                                                    "text": "But if you ask me, there's a problem with what Auntie said."
+                                                },
+                                                {
+                                                    "id": "150140528",
+                                                    "speaker": "Xilonen",
+                                                    "text": "It's hard to control the absorption of memories. Technically speaking, this type of Inscription has the power to do far more than absorb memories related to a single person."
+                                                },
+                                                {
+                                                    "id": "150140529",
+                                                    "speaker": "Xilonen",
+                                                    "text": "By herself, Auntie can't handle that level and scope of work, but if she has accomplices... It is completely possible for her to use this Inscription to accomplish far bigger things."
+                                                },
+                                                {
+                                                    "id": "150140530",
+                                                    "speaker": "Paimon",
+                                                    "text": "Accomplices... You make it sound like she's committing a crime..."
+                                                },
+                                                {
+                                                    "id": "150140531",
+                                                    "speaker": "Xilonen",
+                                                    "text": "Well, here's the good news. Yes, this Blazegem Inscription would be the perfect tool to commit crimes, but we haven't found any accomplices or signs that she intends to put it to such uses."
+                                                },
+                                                {
+                                                    "id": "150140532",
+                                                    "speaker": "Xilonen",
+                                                    "text": "From a purely objective standpoint, we can consider that possibility as \"yet to be confirmed\" for now."
+                                                },
+                                                {
+                                                    "id": "150140533",
+                                                    "speaker": "Xilonen",
+                                                    "text": "The bad news is... there is still an underlying problem with this Blazegem Inscription that cannot be ignored."
+                                                },
+                                                {
+                                                    "id": "150140534",
+                                                    "speaker": "Xilonen",
+                                                    "text": "I believe I've mentioned this before. Ancient Names operate with the help of the Wayob, granting them the power to read information kept in the Ley Lines."
+                                                },
+                                                {
+                                                    "id": "150140535",
+                                                    "speaker": "Xilonen",
+                                                    "text": "In this process, the Wayob actually function like relays, helping the Ancient Name bearer sense the information from within the Ley Lines."
+                                                },
+                                                {
+                                                    "id": "150140536",
+                                                    "speaker": "Xilonen",
+                                                    "text": "If you remove the Wayob from the process and don't use any tools, then finding a specific story is akin to..."
+                                                },
+                                                {
+                                                    "id": "150140537",
+                                                    "speaker": "Xilonen",
+                                                    "text": "Trying to scoop up a specific grain of sand from a rushing river.",
+                                                    "choices": [
+                                                        {
+                                                            "id": "150140538",
+                                                            "text": "So before you're even able to retrieve the sand...",
+                                                            "response": [
+                                                                {
+                                                                    "id": "150140540",
+                                                                    "speaker": "Xilonen",
+                                                                    "text": "Exactly. Anyone who attempts to do so will likely lose most of their cognitive function, or become a babbling madman who talks to themselves all day long."
+                                                                },
+                                                                {
+                                                                    "id": "150140541",
+                                                                    "speaker": "Xilonen",
+                                                                    "text": "Now, let's consider the memories that Auntie has gathered as the Ley Line, and Nechca as the only Ancient Name bearer of this Ley Line."
+                                                                },
+                                                                {
+                                                                    "id": "150140542",
+                                                                    "speaker": "Xilonen",
+                                                                    "text": "There's no way Auntie would let Nechca plunge into the river of memories without any tools — she'd only be overwhelmed by the surge of memories."
+                                                                },
+                                                                {
+                                                                    "id": "150140543",
+                                                                    "speaker": "Xilonen",
+                                                                    "text": "And considering that Nechca has forgotten all of her past, she'll be unable to work on her own to accurately find the \"correct past.\""
+                                                                },
+                                                                {
+                                                                    "id": "150140544",
+                                                                    "speaker": "Xilonen",
+                                                                    "text": "Only Aunt Tlazolli can help her filter the correct memories of her past."
+                                                                },
+                                                                {
+                                                                    "id": "150140545",
+                                                                    "speaker": "Xilonen",
+                                                                    "text": "So, if my hypothesis is correct, Auntie is actually planning on turning herself into Nechca's \"Wayob\" to help her extract the corresponding memories in the different situations she may face."
+                                                                },
+                                                                {
+                                                                    "id": "150140546",
+                                                                    "speaker": "Xilonen",
+                                                                    "text": "In an ideal world, this would be perfectly fine. As long as every extracted memory is correct, Nechca would essentially be getting her past back."
+                                                                },
+                                                                {
+                                                                    "id": "150140547",
+                                                                    "speaker": "Xilonen",
+                                                                    "text": "And I also believe that there won't be any mistakes in everything that Auntie remembers about Nechca."
+                                                                },
+                                                                {
+                                                                    "id": "150140548",
+                                                                    "speaker": "Xilonen",
+                                                                    "text": "But... Auntie is not a Wayob. Her body won't be able to handle the load for long.",
+                                                                    "choices": [
+                                                                        {
+                                                                            "id": "150140549",
+                                                                            "text": "So at any moment, she might just...",
+                                                                            "response": [
+                                                                                {
+                                                                                    "id": "150140551",
+                                                                                    "speaker": "Paimon",
+                                                                                    "text": "But how can we solve this problem!? No matter how we try, Tlazolli will...",
+                                                                                    "choices": [
+                                                                                        {
+                                                                                            "id": "150140552",
+                                                                                            "text": "She's already made up her mind.",
+                                                                                            "response": [
+                                                                                                {
+                                                                                                    "id": "150140554",
+                                                                                                    "speaker": "Xilonen",
+                                                                                                    "text": "\"Names are blessings for the future from people standing in the past\"..."
+                                                                                                },
+                                                                                                {
+                                                                                                    "id": "150140555",
+                                                                                                    "speaker": "Xilonen",
+                                                                                                    "text": "I've also made up my mind. C'mon, let's go see Auntie."
+                                                                                                }
+                                                                                            ]
+                                                                                        },
+                                                                                        {
+                                                                                            "id": "150140553",
+                                                                                            "text": "She's ready to pay the price."
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        {
+                                                                            "id": "150140550",
+                                                                            "text": "I see... This is the problem that we can't ignore."
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "id": "150140539",
+                                                            "text": "You would most likely drown."
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "150140526",
+                                            "text": "It somehow doesn't seem right.",
+                                            "response": [
+                                                {
+                                                    "id": "150140527",
+                                                    "speaker": "Xilonen",
+                                                    "text": "I knew you felt the same way. That'll save me some initial explanation, I've never been very good at that anyway."
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "150140517",
+                            "text": "So that means..."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "1501406",
+            "objective": "Return to Tlazolli's house",
+            "dialogues": [
+                {
+                    "id": "150140601",
+                    "speaker": "Tlazolli",
+                    "text": "Ah, Xilonen. It looks like... you've made your decision. Am I right?"
+                },
+                {
+                    "id": "150140602",
+                    "speaker": "Xilonen",
+                    "text": "Yes. Here's some research that I've done. You can reference it to modify the way the Central Inscription operates."
+                },
+                {
+                    "id": "150140603",
+                    "speaker": "Xilonen",
+                    "text": "I'll also help you continue working on the Blazegem Inscription, but I must have complete control over all the Inscriptions, and the ability to oversee their uses."
+                },
+                {
+                    "id": "150140604",
+                    "speaker": "Xilonen",
+                    "text": "The memories that can be absorbed by the Inscription will be limited solely to Nechca's past. We'll plan a set timeframe together from which the memories can be drawn from shortly."
+                },
+                {
+                    "id": "150140605",
+                    "speaker": "Xilonen",
+                    "text": "If you attempt to extract any memories beyond this scope, then I'll consider that as committing a criminal act, and halt all work related to the Central Inscription."
+                },
+                {
+                    "id": "150140606",
+                    "speaker": "Xilonen",
+                    "text": "After the memory bank is constructed, the Blazegem Inscriptions' absorption functions must be stopped immediately. Only functionalities for outputting memories will be kept."
+                },
+                {
+                    "id": "150140607",
+                    "speaker": "Tlazolli",
+                    "text": "I accept."
+                },
+                {
+                    "id": "150140608",
+                    "speaker": "Tlazolli",
+                    "text": "Thank you, Xilonen. I really..."
+                },
+                {
+                    "id": "150140609",
+                    "speaker": "Xilonen",
+                    "text": "Auntie, you know I can't stand it when you do this. If you needed my help, you should have just said so. There's no need to beat around the bush like you did."
+                },
+                {
+                    "id": "150140610",
+                    "speaker": "Tlazolli",
+                    "text": "Using technology for Ancient Names to forge other things without permission is no trivial matter. I..."
+                },
+                {
+                    "id": "150140611",
+                    "speaker": "Xilonen",
+                    "text": "Yes, it's a major departure from the technology's intended use. But it's nothing compared to a child who needs help... compared to a name that's about to be lost."
+                },
+                {
+                    "id": "150140612",
+                    "speaker": "Xilonen",
+                    "text": "But once this is all over, you must come with me to see Pacal and discuss everything that happened."
+                },
+                {
+                    "id": "150140613",
+                    "speaker": "Tlazolli",
+                    "text": "That's fine. I'm willing to accept any punishment for my little Nechca."
+                },
+                {
+                    "id": "150140614",
+                    "speaker": "Xilonen",
+                    "text": "Alright, let's clear off the table and come up with a plan..."
+                },
+                {
+                    "id": "150140615",
+                    "speaker": "Xilonen",
+                    "text": "I need some time to consider how to let Nechca control the Blazegem Inscription on her own and extract the memories from her past."
+                },
+                {
+                    "id": "150140616",
+                    "speaker": "Xilonen",
+                    "text": "By the way, did you give the book to Nechca?"
+                },
+                {
+                    "id": "150140617",
+                    "speaker": "Tlazolli",
+                    "text": "How could I just hand her a birthday present that you specially brought for her?"
+                },
+                {
+                    "id": "150140618",
+                    "speaker": "Tlazolli",
+                    "text": "I've picked out a box and packaged it up. Wait till her birthday and then bring it to her, it'll be a nice surprise."
+                },
+                {
+                    "id": "150140619",
+                    "speaker": "Xilonen",
+                    "text": "It's just an old book, there's no need to—"
+                },
+                {
+                    "id": "150140621",
+                    "speaker": "Paimon",
+                    "text": "Oh, is Nechca up again? But what was all that noise? It sounded like something broke.",
+                    "choices": [
+                        {
+                            "id": "150140622",
+                            "text": "Oh no, did she fall?",
+                            "response": [
+                                {
+                                    "id": "150140623",
+                                    "speaker": "Paimon",
+                                    "text": "Uh-oh, that's not good! Let's go have a look!"
+                                },
+                                {
+                                    "id": "150140626",
+                                    "speaker": "Tlazolli",
+                                    "text": "Nechca, don't hurt yourself!"
+                                },
+                                {
+                                    "id": "150140627",
+                                    "speaker": "???",
+                                    "text": "Xilonen, is that you?"
+                                },
+                                {
+                                    "id": "150140628",
+                                    "speaker": "Paimon",
+                                    "text": "Uh, you're Nechca?"
+                                },
+                                {
+                                    "id": "150140629",
+                                    "speaker": "Tlazolli",
+                                    "text": "How many times have I told you? Don't get out of bed on your own. You were running a fever yesterday."
+                                },
+                                {
+                                    "id": "150140630",
+                                    "speaker": "Xilonen",
+                                    "text": "Hello, Nechca."
+                                },
+                                {
+                                    "id": "150140631",
+                                    "speaker": "Nechca",
+                                    "text": "Thank you for the book, I've already read it several times."
+                                },
+                                {
+                                    "id": "150140632",
+                                    "speaker": "Paimon",
+                                    "text": "You've already read it? But didn't Tlazolli package up the book that Xilonen brought?"
+                                },
+                                {
+                                    "id": "150140633",
+                                    "speaker": "Tlazolli",
+                                    "text": "No, she's all mixed up. The one she read isn't from Xilonen, it's one I bought for her before."
+                                },
+                                {
+                                    "id": "150140634",
+                                    "speaker": "Tlazolli",
+                                    "text": "A few days ago, she told me she wanted a book. I know nothing about those kinds of books, so I had no choice but to go to the tribe and look for a copy."
+                                },
+                                {
+                                    "id": "150140635",
+                                    "speaker": "Tlazolli",
+                                    "text": "I eventually found one and bought it for her. I put it in her room once I got back."
+                                },
+                                {
+                                    "id": "150140636",
+                                    "speaker": "Tlazolli",
+                                    "text": "Soon after, she suddenly developed a fever. I was so busy taking care of her that I forgot about the book and even forgot that she had asked you for a gift."
+                                },
+                                {
+                                    "id": "150140637",
+                                    "speaker": "Xilonen",
+                                    "text": "Auntie, do you know which version of the book you bought?"
+                                },
+                                {
+                                    "id": "150140638",
+                                    "speaker": "Tlazolli",
+                                    "text": "Which version? The shopkeeper said it was the one with the \"perfect\" ending to the story. Apparently, that's the only one you can find on the market now."
+                                },
+                                {
+                                    "id": "150140639",
+                                    "speaker": "Tlazolli",
+                                    "text": "Ugh, it's all my fault. You wasted your money, and now, it won't even be a surprise..."
+                                },
+                                {
+                                    "id": "150140640",
+                                    "speaker": "Xilonen",
+                                    "text": "It's alright, it's just a book. As long as Nechca enjoys it, that's what matters."
+                                },
+                                {
+                                    "id": "150140641",
+                                    "speaker": "Paimon",
+                                    "text": "Oh right, Nechca probably doesn't know us. We're—"
+                                },
+                                {
+                                    "id": "150140642",
+                                    "speaker": "Nechca",
+                                    "text": "#You're Paimon and {M#Mr.}{F#Miss} {NICKNAME}! Mom told me about you."
+                                },
+                                {
+                                    "id": "150140643",
+                                    "speaker": "Paimon",
+                                    "text": "Oh, hehe, seems like everyone knows who we are now.",
+                                    "choices": [
+                                        {
+                                            "id": "150140644",
+                                            "text": "No need to introduce ourselves anymore.",
+                                            "response": [
+                                                {
+                                                    "id": "150140646",
+                                                    "speaker": "Xilonen",
+                                                    "text": "Nechca seems to be doing pretty well today. Since she's been stuck indoors for the last few days, why don't we take her out for a walk?",
+                                                    "choices": [
+                                                        {
+                                                            "id": "150140647",
+                                                            "text": "Let's check your temperature...",
+                                                            "response": [
+                                                                {
+                                                                    "id": "150140649",
+                                                                    "speaker": "Tlazolli",
+                                                                    "text": "Take her for a walk... But, considering her condition, I don't think she—"
+                                                                },
+                                                                {
+                                                                    "id": "150140650",
+                                                                    "speaker": "Xilonen",
+                                                                    "text": "#Don't worry, Auntie. She'll be safe with {NICKNAME} and me."
+                                                                },
+                                                                {
+                                                                    "id": "150140651",
+                                                                    "speaker": "Xilonen",
+                                                                    "text": "We won't leave the tribe, and if anything comes up, we'll be sure to find the doctor immediately."
+                                                                },
+                                                                {
+                                                                    "id": "150140652",
+                                                                    "speaker": "Xilonen",
+                                                                    "text": "Besides, it's her birthday in a few days, and we need to go to the tribe to buy some things. Let's give her a proper celebration."
+                                                                },
+                                                                {
+                                                                    "id": "150140653",
+                                                                    "speaker": "Xilonen",
+                                                                    "text": "What do you think, Auntie?"
+                                                                },
+                                                                {
+                                                                    "id": "150140654",
+                                                                    "speaker": "Nechca",
+                                                                    "text": "I promise I'll be good, Mom."
+                                                                },
+                                                                {
+                                                                    "id": "150140655",
+                                                                    "speaker": "Nechca",
+                                                                    "text": "Didn't you say before that I need more fresh air?"
+                                                                },
+                                                                {
+                                                                    "id": "150140656",
+                                                                    "speaker": "Tlazolli",
+                                                                    "text": "Alright, alright. As you wish."
+                                                                },
+                                                                {
+                                                                    "id": "150140657",
+                                                                    "speaker": "Tlazolli",
+                                                                    "text": "I also happen to have a few repaired Blazegem Inscriptions that I need to get back to the tribe. We can go together."
+                                                                },
+                                                                {
+                                                                    "id": "150140658",
+                                                                    "speaker": "Tlazolli",
+                                                                    "text": "Wait for a moment. I'll go get Nechca's water bottle and some towels... Ah, some medicine... Oh, and a parasol."
+                                                                },
+                                                                {
+                                                                    "id": "150140659",
+                                                                    "speaker": "Black Screen",
+                                                                    "text": "Tlazolli enters Nechca's room. After quickly packing, she comes back out..."
+                                                                },
+                                                                {
+                                                                    "id": "150140660",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "Talk about being prepared..."
+                                                                },
+                                                                {
+                                                                    "id": "150140661",
+                                                                    "speaker": "Player",
+                                                                    "text": "We can camp out with all that stuff."
+                                                                },
+                                                                {
+                                                                    "id": "150140662",
+                                                                    "speaker": "Tlazolli",
+                                                                    "text": "It doesn't hurt to be prepared. Okay, let's go. Please be good, now, Nechca. Don't cause any trouble for Xilonen and the others."
+                                                                },
+                                                                {
+                                                                    "id": "150140663",
+                                                                    "speaker": "Xilonen",
+                                                                    "text": "You can let me carry these. Don't be a stranger, Nechca, feel free to tell us anything. Even I was quite a handful for Auntie when I was little."
+                                                                },
+                                                                {
+                                                                    "id": "150140664",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "Hehe, yeah! It's not often you get to go out to play, so just have fun! Everything will be fine.",
+                                                                    "choices": [
+                                                                        {
+                                                                            "id": "150140665",
+                                                                            "text": "If you don't stir up some trouble when you're little...",
+                                                                            "response": [
+                                                                                {
+                                                                                    "id": "150140667",
+                                                                                    "speaker": "Nechca",
+                                                                                    "text": "Okay. Thanks, everyone. And please don't worry, Mom."
+                                                                                },
+                                                                                {
+                                                                                    "id": "150140668",
+                                                                                    "speaker": "Nechca",
+                                                                                    "text": "I'll be good."
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        {
+                                                                            "id": "150140666",
+                                                                            "text": "Then you'll never get the chance again."
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "id": "150140648",
+                                                            "text": "Seems the fever's gone."
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "150140645",
+                                            "text": "Hello, Nechca."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "150140624",
+                            "text": "Maybe she knocked something over?",
+                            "response": [
+                                {
+                                    "id": "150140625",
+                                    "speaker": "Paimon",
+                                    "text": "Uh-oh! What if something fell on her? We should check. Paimon will go have a look!"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "1501407",
+            "objective": "Give the Blazegem Inscription back to Iknal",
+            "dialogues": [
+                {
+                    "id": "150140701",
+                    "speaker": "Iknal",
+                    "text": "Tlazolli, what brings you to the tribe today? Oh? And Nechca, too!"
+                },
+                {
+                    "id": "150140702",
+                    "speaker": "Iknal",
+                    "text": "She seems to be doing much better now! She's even out and about. I'm sure it won't be long before she'll be playing with Chanil and the others."
+                },
+                {
+                    "id": "150140703",
+                    "speaker": "Tlazolli",
+                    "text": "I hope so. Here, Iknal, this is your Inscription. I've finished repairing it."
+                },
+                {
+                    "id": "150140704",
+                    "speaker": "Iknal",
+                    "text": "Oh, thank you for bringing it back for me. By the way, I came across a piece of good-quality ore a while ago. I was thinking of using it to make some pretty jewelry for little Nechca."
+                },
+                {
+                    "id": "150140705",
+                    "speaker": "Iknal",
+                    "text": "I remember that Nechca would become so happy every time she saw a shiny ring. Right, Nechca?"
+                },
+                {
+                    "id": "150140706",
+                    "speaker": "Tlazolli",
+                    "text": "I'm sure she'd love that, thank you."
+                },
+                {
+                    "id": "150140707",
+                    "speaker": "Iknal",
+                    "text": "My pleasure. Give me a moment, I'll bring the ore."
+                },
+                {
+                    "id": "150140708",
+                    "speaker": "Xilonen",
+                    "text": "I can make the jewelry for her. What kind would you like, Nechca?"
+                },
+                {
+                    "id": "150140709",
+                    "speaker": "Nechca",
+                    "text": "I would like..."
+                },
+                {
+                    "id": "150140710",
+                    "speaker": "Tlazolli",
+                    "text": "Something shaped like an Embercore Flower would be nice. She was always asking me before to make her an Ancient Name with an Embercore Flower design."
+                },
+                {
+                    "id": "150140711",
+                    "speaker": "Xilonen",
+                    "text": "Noted. I'll make that as a gift for her next birthday."
+                },
+                {
+                    "id": "150140712",
+                    "speaker": "Xilonen",
+                    "text": "Sorry, Nechca. It won't be a surprise for you."
+                },
+                {
+                    "id": "150140713",
+                    "speaker": "Nechca",
+                    "text": "...That's okay. Thank you, Xilonen."
+                },
+                {
+                    "id": "150140714",
+                    "speaker": "Iknal",
+                    "text": "Found it! Sorry to keep you waiting. Here, please take it."
+                },
+                {
+                    "id": "150140715",
+                    "speaker": "Iknal",
+                    "text": "By the way, Nechca, feel free to write to me if you ever want to know more about ores."
+                },
+                {
+                    "id": "150140716",
+                    "speaker": "Iknal",
+                    "text": "I was shocked last time when you wrote me out of the blue asking for a Volcanic Crystal."
+                },
+                {
+                    "id": "150140717",
+                    "speaker": "Tlazolli",
+                    "text": "*sigh* Sorry about that. She can hardly contain her curiosity now that she's started to recover."
+                },
+                {
+                    "id": "150140718",
+                    "speaker": "Tlazolli",
+                    "text": "She's still too weak to go out whenever she wants, so she begs me every day to help her write letters to people in the tribe about all sorts of things."
+                },
+                {
+                    "id": "150140719",
+                    "speaker": "Iknal",
+                    "text": "Hahaha! That's how you know she's one of the Children of Echoes. It's normal for us to be interested in ore."
+                },
+                {
+                    "id": "150140720",
+                    "speaker": "Paimon",
+                    "text": "Everything's looking up. Hehe, we're just like the main character in the new version of Tequil the Brave when he was about to save his brother, Rimac."
+                },
+                {
+                    "id": "150140721",
+                    "speaker": "Paimon",
+                    "text": "According to the story, we should be right around... Hmm, let Paimon see..."
+                },
+                {
+                    "id": "150140722",
+                    "speaker": "Paimon",
+                    "text": "\"Tequil prayed to the Goddess of Mountains and Fire, 'Let my brother's name ever live on. I am willing to sacrifice my heart and blood in return.'\""
+                },
+                {
+                    "id": "150140723",
+                    "speaker": "Paimon",
+                    "text": "\"The Goddess replied, 'I've heard your prayer, but your brother is no longer your kin. His name has sunken into the deepest of depths.'\""
+                },
+                {
+                    "id": "150140724",
+                    "speaker": "Nechca",
+                    "text": "Then, Tequil said..."
+                },
+                {
+                    "id": "150140725",
+                    "speaker": "Nechca",
+                    "text": "\"Turn my blood to fire, so my heart may illuminate the depths. I will bring my brother back before my blood runs dry.\""
+                },
+                {
+                    "id": "150140726",
+                    "speaker": "Paimon",
+                    "text": "Oh! You remembered that whole line, Nechca! Paimon remembers that's exactly what the book... Huh? Wait, what did the book say?"
+                },
+                {
+                    "id": "150140727",
+                    "speaker": "Player",
+                    "text": "You forgot? But didn't you just read it, Paimon?"
+                },
+                {
+                    "id": "150140728",
+                    "speaker": "Paimon",
+                    "text": "Paimon finished both books in one sitting! A lot of their content is nearly the same, so it's easy to get mixed up."
+                },
+                {
+                    "id": "150140729",
+                    "speaker": "Paimon",
+                    "text": "But the ending in the older version is more interesting. Even if it's hard for kids to, well... completely understand."
+                },
+                {
+                    "id": "150140730",
+                    "speaker": "Paimon",
+                    "text": "Oh, wait! Nechca hasn't read the other ending... It's okay! Just wait a bit, and Paimon will read it out for you!"
+                },
+                {
+                    "id": "150140731",
+                    "speaker": "Nechca",
+                    "text": "Th—That's not true. Actually... I already know the other ending."
+                },
+                {
+                    "id": "150140732",
+                    "speaker": "Paimon",
+                    "text": "You already know the other ending? But didn't you only read the edition your Mom got for you...?"
+                },
+                {
+                    "id": "150140733",
+                    "speaker": "Tlazolli",
+                    "text": "Hey, what are you all chatting about so happily?"
+                },
+                {
+                    "id": "150140734",
+                    "speaker": "Nechca",
+                    "text": "...!"
+                },
+                {
+                    "id": "150140735",
+                    "speaker": "Nechca",
+                    "text": "#Mom... {M#Mr.}{F#Miss} {NICKNAME} and I were just talking about the ending of that book."
+                },
+                {
+                    "id": "150140736",
+                    "speaker": "Nechca",
+                    "text": "We were just talking about how the bad guy was defeated and everyone returned home safely... It's a really happy ending.",
+                    "choices": [
+                        {
+                            "id": "150140737",
+                            "text": "...",
+                            "response": [
+                                {
+                                    "id": "150140739",
+                                    "speaker": "Tlazolli",
+                                    "text": "Aren't happy endings always nice? But if you already read the whole thing, then what will Mom have to read to you at bedtime?"
+                                },
+                                {
+                                    "id": "150140740",
+                                    "speaker": "Tlazolli",
+                                    "text": "Guess you'll have to go to bed early tonight. But I'll buy you some more fairy tales next time, okay?"
+                                },
+                                {
+                                    "id": "150140741",
+                                    "speaker": "Nechca",
+                                    "text": "Okay, Mom..."
+                                },
+                                {
+                                    "id": "150140742",
+                                    "speaker": "Player",
+                                    "text": "So, how's the ore?"
+                                },
+                                {
+                                    "id": "150140743",
+                                    "speaker": "Xilonen",
+                                    "text": "It's pretty good quality. I'll be able to give Nechca a beautiful and durable piece of jewelry for her next birthday."
+                                },
+                                {
+                                    "id": "150140744",
+                                    "speaker": "Xilonen",
+                                    "text": "But for now, let's focus on celebrating her upcoming birthday. Where are we headed next, Auntie?"
+                                },
+                                {
+                                    "id": "150140745",
+                                    "speaker": "Tlazolli",
+                                    "text": "Next, let's visit Apoxpalon, he should be close by."
+                                },
+                                {
+                                    "id": "150140746",
+                                    "speaker": "Tlazolli",
+                                    "text": "Stay close, Nechca. Don't go too far."
+                                },
+                                {
+                                    "id": "150140747",
+                                    "speaker": "Nechca",
+                                    "text": "Yes, Mom..."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "150140738",
+                            "text": "(That's... not the \"other ending\" she was talking about.)"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "1501408",
+            "objective": "Give the Blazegem Inscription back to Apoxpalon",
+            "dialogues": [
+                {
+                    "id": "150140801",
+                    "speaker": "Apoxpalon",
+                    "text": "Why do my eyebrows keep twitching today? Strange..."
+                },
+                {
+                    "id": "150140802",
+                    "speaker": "Tlazolli",
+                    "text": "That means you're about to hit the jackpot, Apoxpalon."
+                },
+                {
+                    "id": "150140803",
+                    "speaker": "Apoxpalon",
+                    "text": "Haha, I didn't expect to have two Name Engravers coming in today. Welcome!"
+                },
+                {
+                    "id": "150140804",
+                    "speaker": "Apoxpalon",
+                    "text": "What are you looking to buy, Tlazolli? I'll give you a discount like usual!"
+                },
+                {
+                    "id": "150140805",
+                    "speaker": "Paimon",
+                    "text": "Whoa, offering a discount just like that? Tlazolli sure has connections..."
+                },
+                {
+                    "id": "150140806",
+                    "speaker": "Apoxpalon",
+                    "text": "She was once our Name Engraver, and did a lot for the tribe. It's only fair that I offer her a discount."
+                },
+                {
+                    "id": "150140807",
+                    "speaker": "Tlazolli",
+                    "text": "Thank you for your generosity... I've finished repairing your Blazegem Inscription. Here, have a look."
+                },
+                {
+                    "id": "150140808",
+                    "speaker": "Tlazolli",
+                    "text": "Come on Nechca, say thank you."
+                },
+                {
+                    "id": "150140809",
+                    "speaker": "Nechca",
+                    "text": "Thank you, sir..."
+                },
+                {
+                    "id": "150140810",
+                    "speaker": "Apoxpalon",
+                    "text": "Oh, so this is Nechca? Tlazolli has shown me some pictures before."
+                },
+                {
+                    "id": "150140811",
+                    "speaker": "Apoxpalon",
+                    "text": "It looks like you are doing much better now. How about this? Go ahead and pick anything you'd like from the store. Think of it as a gift from me."
+                },
+                {
+                    "id": "150140812",
+                    "speaker": "Nechca",
+                    "text": "No, no, that's alright. Mom told me that you've already given a lot to our family."
+                },
+                {
+                    "id": "150140813",
+                    "speaker": "Apoxpalon",
+                    "text": "Well, that was for your family. I've never given anything just for you. If you don't feel like it, you can also let your Mom choose for you."
+                },
+                {
+                    "id": "150140814",
+                    "speaker": "Xilonen",
+                    "text": "No need to stand on ceremony, Auntie. Go ahead and pick something for Nechca."
+                },
+                {
+                    "id": "150140815",
+                    "speaker": "Xilonen",
+                    "text": "His drills and small clamps are good quality. The measurements of each part are exact, and they are always very durable."
+                },
+                {
+                    "id": "150140816",
+                    "speaker": "Xilonen",
+                    "text": "I always come here to buy things if I find myself in a pinch."
+                },
+                {
+                    "id": "150140817",
+                    "speaker": "Xilonen",
+                    "text": "Do you have any child-friendly safety scissors? I remember seeing a few different styles."
+                },
+                {
+                    "id": "150140818",
+                    "speaker": "Apoxpalon",
+                    "text": "I have a few in stock, but I put them in the back. Let me bring some out for you to pick."
+                },
+                {
+                    "id": "150140819",
+                    "speaker": "Xilonen",
+                    "text": "No need to bring them all the way here. Why don't we just go in the back and choose there? It should only take a moment."
+                },
+                {
+                    "id": "150140820",
+                    "speaker": "Tlazolli",
+                    "text": "I don't know much about that kind of scissors, why don't you just go yourself and..."
+                },
+                {
+                    "id": "150140821",
+                    "speaker": "Xilonen",
+                    "text": "There are too many different designs and varieties of kid's scissors. If you don't come and help me choose, I won't be able to pick one that Nechca would like."
+                },
+                {
+                    "id": "150140822",
+                    "speaker": "Xilonen",
+                    "text": "Come on, Auntie. It'll only take a moment."
+                },
+                {
+                    "id": "150140823",
+                    "speaker": "Paimon",
+                    "text": "There goes Xilonen dragging Tlazolli off to buy more stuff. What a busy day...",
+                    "choices": [
+                        {
+                            "id": "150140824",
+                            "text": "Let's just wait for them here.",
+                            "response": [
+                                {
+                                    "id": "150140826",
+                                    "speaker": "Nechca",
+                                    "text": "I won't run off. Um, Paimon... who's your favorite character in Tequil the Brave?"
+                                },
+                                {
+                                    "id": "150140827",
+                                    "speaker": "Paimon",
+                                    "text": "Paimon's favorite? Tequil of course! He went through a lot to rescue his family."
+                                },
+                                {
+                                    "id": "150140828",
+                                    "speaker": "Paimon",
+                                    "text": "In the old version of the story, he was never able to reunite with his family... But he was still really strong and fought as best as he could.",
+                                    "choices": [
+                                        {
+                                            "id": "150140829",
+                                            "text": "He's a brave character.",
+                                            "response": [
+                                                {
+                                                    "id": "150140831",
+                                                    "speaker": "Paimon",
+                                                    "text": "What about you, Nechca? Which character do you like?"
+                                                },
+                                                {
+                                                    "id": "150140832",
+                                                    "speaker": "Nechca",
+                                                    "text": "I... I like Rimac."
+                                                },
+                                                {
+                                                    "id": "150140833",
+                                                    "speaker": "Paimon",
+                                                    "text": "Oh... the one who was possessed by Coatlicue but never forgot his brother Tequil. He was also an amazing character!"
+                                                },
+                                                {
+                                                    "id": "150140834",
+                                                    "speaker": "Paimon",
+                                                    "text": "If it wasn't for his determination, both he and his brother would have been defeated by Coatlicue in the final battle.",
+                                                    "choices": [
+                                                        {
+                                                            "id": "150140835",
+                                                            "text": "Wow, you remember all the details, Paimon.",
+                                                            "response": [
+                                                                {
+                                                                    "id": "150140837",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "Of course! A story's only interesting if you can really get immersed in it."
+                                                                },
+                                                                {
+                                                                    "id": "150140838",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "Hey Nechca, why don't we play pretend? You can be Rimac, and Paimon will be Tequil, okay?"
+                                                                },
+                                                                {
+                                                                    "id": "150140839",
+                                                                    "speaker": "Player",
+                                                                    "text": "You just like reciting epic lines."
+                                                                },
+                                                                {
+                                                                    "id": "150140840",
+                                                                    "speaker": "Nechca",
+                                                                    "text": "#{M#Mr.}{F#Miss} {NICKNAME}... Can I play the role of Coatlicue?"
+                                                                },
+                                                                {
+                                                                    "id": "150140841",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "But isn't she the villain? In the old version, she even ate Rimac and took on his appearance.",
+                                                                    "choices": [
+                                                                        {
+                                                                            "id": "150140842",
+                                                                            "text": "You said it yourself. That's the old version.",
+                                                                            "response": [
+                                                                                {
+                                                                                    "id": "150140844",
+                                                                                    "speaker": "Paimon",
+                                                                                    "text": "Ah, right. She read the version with a happy ending... In that one, Coatlicue was defeated and the brothers both survived."
+                                                                                },
+                                                                                {
+                                                                                    "id": "150140845",
+                                                                                    "speaker": "Paimon",
+                                                                                    "text": "Well, it doesn't matter, only the lines at the end were different. You can go ahead and say your favorite lines, Nechca. Paimon's read both versions, so she'll be able to play along."
+                                                                                },
+                                                                                {
+                                                                                    "id": "150140846",
+                                                                                    "speaker": "Nechca",
+                                                                                    "text": "My favorite line is the one from the end! It's..."
+                                                                                },
+                                                                                {
+                                                                                    "id": "150140847",
+                                                                                    "speaker": "Tlazolli",
+                                                                                    "text": "Come here, Nechca. Look at you... You're sweating."
+                                                                                },
+                                                                                {
+                                                                                    "id": "150140848",
+                                                                                    "speaker": "Nechca",
+                                                                                    "text": "Mom!"
+                                                                                },
+                                                                                {
+                                                                                    "id": "150140849",
+                                                                                    "speaker": "Tlazolli",
+                                                                                    "text": "Let me wipe your forehead. Now, drink some water. This child... You forget everything as soon as you start playing."
+                                                                                },
+                                                                                {
+                                                                                    "id": "150140850",
+                                                                                    "speaker": "Xilonen",
+                                                                                    "text": "We've picked something out for Nechca. Apoxpalon will deliver it to Auntie's house once he's packaged it up. How was Nechca?"
+                                                                                },
+                                                                                {
+                                                                                    "id": "150140851",
+                                                                                    "speaker": "Paimon",
+                                                                                    "text": "We were just about to get to the exciting part...",
+                                                                                    "choices": [
+                                                                                        {
+                                                                                            "id": "150140852",
+                                                                                            "text": "Xilonen, did you leave us with Nechca on purpose?",
+                                                                                            "response": [
+                                                                                                {
+                                                                                                    "id": "150140854",
+                                                                                                    "speaker": "Paimon",
+                                                                                                    "text": "Huh, really? Oh, now that Paimon thinks about it, Xilonen has dragged Tlazolli away from us a couple of times now. But why?",
+                                                                                                    "choices": [
+                                                                                                        {
+                                                                                                            "id": "150140855",
+                                                                                                            "text": "Nechca has a strange look on her face...",
+                                                                                                            "response": [
+                                                                                                                {
+                                                                                                                    "id": "150140857",
+                                                                                                                    "speaker": "Xilonen",
+                                                                                                                    "text": "Let's talk later. Just trust me, and act normal for now."
+                                                                                                                },
+                                                                                                                {
+                                                                                                                    "id": "150140858",
+                                                                                                                    "speaker": "Xilonen",
+                                                                                                                    "text": "We should head to our last stop, Auntie. It's real hot today, and we shouldn't let Nechca be in the heat for too long."
+                                                                                                                },
+                                                                                                                {
+                                                                                                                    "id": "150140859",
+                                                                                                                    "speaker": "Tlazolli",
+                                                                                                                    "text": "Right, let's go see Cheven and head back home."
+                                                                                                                }
+                                                                                                            ]
+                                                                                                        },
+                                                                                                        {
+                                                                                                            "id": "150140856",
+                                                                                                            "text": "Seems like she has something to say."
+                                                                                                        }
+                                                                                                    ]
+                                                                                                }
+                                                                                            ]
+                                                                                        },
+                                                                                        {
+                                                                                            "id": "150140853",
+                                                                                            "text": "So we could talk with her alone?"
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        {
+                                                                            "id": "150140843",
+                                                                            "text": "That wasn't the one Nechca read."
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "id": "150140836",
+                                                            "text": "Seems like you were really immersed in the story."
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "150140830",
+                                            "text": "I admire his courage."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "150140825",
+                            "text": "Be sure to stay close, Nechca."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "1501409",
+            "objective": "Give the Blazegem Inscription back to Cheven",
+            "dialogues": [
+                {
+                    "id": "150140901",
+                    "speaker": "Tlazolli",
+                    "text": "I've finished repairing your Blazegem Inscription, Cheven. I've also reinforced it, so it shouldn't fall apart so easily now."
+                },
+                {
+                    "id": "150140902",
+                    "speaker": "Cheven",
+                    "text": "Thank you... How about the Volcanic Crystal? Was it usable?"
+                },
+                {
+                    "id": "150140903",
+                    "speaker": "Tlazolli",
+                    "text": "Yes, thanks for that."
+                },
+                {
+                    "id": "150140904",
+                    "speaker": "Cheven",
+                    "text": "You're welcome. I just want to see Nechca get better."
+                },
+                {
+                    "id": "150140905",
+                    "speaker": "Nechca",
+                    "text": "Thank you, Miss Cheven..."
+                },
+                {
+                    "id": "150140906",
+                    "speaker": "Cheven",
+                    "text": "*sigh* It's fine. Honestly, you're both too polite for your own good..."
+                },
+                {
+                    "id": "150140907",
+                    "speaker": "Xilonen",
+                    "text": "I was wondering where you got the ore for such a large-scale Blazegem Inscription."
+                },
+                {
+                    "id": "150140908",
+                    "speaker": "Xilonen",
+                    "text": "So you must be one of Tlazolli's accomplices, then?"
+                },
+                {
+                    "id": "150140909",
+                    "speaker": "Cheven",
+                    "text": "Oh, Xilonen... um..."
+                },
+                {
+                    "id": "150140910",
+                    "speaker": "Xilonen",
+                    "text": "We already know what's going on."
+                },
+                {
+                    "id": "150140911",
+                    "speaker": "Player",
+                    "text": "We're all doing our best for Nechca."
+                },
+                {
+                    "id": "150140912",
+                    "speaker": "Cheven",
+                    "text": "Whew, you had me worried there! I thought we'd been found out... We'd be in real trouble if Pacal ever got wind of it."
+                },
+                {
+                    "id": "150140913",
+                    "speaker": "Cheven",
+                    "text": "To be honest, I won't be able to cover it up for much longer. I've been traveling away from home every few days, and the ore reserves have noticeably decreased..."
+                },
+                {
+                    "id": "150140914",
+                    "speaker": "Cheven",
+                    "text": "The last time Pacal came and asked me about it, I could only say that I'd been using up a lot of ore to research new styles of jewelry..."
+                },
+                {
+                    "id": "150140915",
+                    "speaker": "Cheven",
+                    "text": "As for why I had been leaving so often, I said that I had found a new ore vein and wanted to extract some new gems from it."
+                },
+                {
+                    "id": "150140916",
+                    "speaker": "Cheven",
+                    "text": "Ah, sorry... I've been talking my head off. Please come in and have a seat."
+                },
+                {
+                    "id": "150140917",
+                    "speaker": "Tlazolli",
+                    "text": "Sure, we can sit for a moment, but..."
+                },
+                {
+                    "id": "150140918",
+                    "speaker": "Nechca",
+                    "text": "Miss Cheven, can I... go see some of the jewelry over there?"
+                },
+                {
+                    "id": "150140919",
+                    "speaker": "Cheven",
+                    "text": "You mean Imix's work? Sure, go ahead. Remember to stay in the shade as much as you can."
+                },
+                {
+                    "id": "150140920",
+                    "speaker": "Paimon",
+                    "text": "Paimon wants to go, too! We'll go together. Paimon hasn't looked at Natlan's jewelry very closely yet.",
+                    "choices": [
+                        {
+                            "id": "150140921",
+                            "text": "I'll have to buy you some.",
+                            "response": [
+                                {
+                                    "id": "150140923",
+                                    "speaker": "Paimon",
+                                    "text": "Really? Then Paimon's gonna take a good look at what they have."
+                                },
+                                {
+                                    "id": "150140924",
+                                    "speaker": "Xilonen",
+                                    "text": "You haven't bought any jewelry for a while, Auntie. Why don't you pick one out?"
+                                },
+                                {
+                                    "id": "150140925",
+                                    "speaker": "Tlazolli",
+                                    "text": "...",
+                                    "choices": [
+                                        {
+                                            "id": "150140926",
+                                            "text": "(Xilonen's taking Tlazolli with her again...)",
+                                            "response": [
+                                                {
+                                                    "id": "150140928",
+                                                    "speaker": "Paimon",
+                                                    "text": "Come on, Nechca. We don't know anything about Natlan's jewelry, so you can help us pick something out!"
+                                                },
+                                                {
+                                                    "id": "150140929",
+                                                    "speaker": "Nechca",
+                                                    "text": "#{M#Mr.}{F#Miss} {NICKNAME}, I..."
+                                                },
+                                                {
+                                                    "id": "150140930",
+                                                    "speaker": "Tlazolli",
+                                                    "text": "Come here, Nechca."
+                                                },
+                                                {
+                                                    "id": "150140931",
+                                                    "speaker": "Nechca",
+                                                    "text": "...!"
+                                                },
+                                                {
+                                                    "id": "150140932",
+                                                    "speaker": "Tlazolli",
+                                                    "text": "Sorry, Cheven and Xilonen, but it's already getting late. We should be heading back now."
+                                                },
+                                                {
+                                                    "id": "150140933",
+                                                    "speaker": "Tlazolli",
+                                                    "text": "It'll be Nechca's birthday in a few days, and there's still a lot for us to do before then..."
+                                                },
+                                                {
+                                                    "id": "150140934",
+                                                    "speaker": "Cheven",
+                                                    "text": "No problem, I'll be sure to bring her some beautiful jewelry to celebrate."
+                                                },
+                                                {
+                                                    "id": "150140935",
+                                                    "speaker": "Nechca",
+                                                    "text": "Mom, I..."
+                                                },
+                                                {
+                                                    "id": "150140936",
+                                                    "speaker": "Tlazolli",
+                                                    "text": "You're getting hot again... Here, Mom will carry you. Let's get going."
+                                                },
+                                                {
+                                                    "id": "150140937",
+                                                    "speaker": "Tlazolli",
+                                                    "text": "You forget to take care of yourself once you start playing. Let's go back and we'll have a talk."
+                                                },
+                                                {
+                                                    "id": "150140938",
+                                                    "speaker": "Nechca",
+                                                    "text": "I... I didn't..."
+                                                },
+                                                {
+                                                    "id": "150140939",
+                                                    "speaker": "Tlazolli",
+                                                    "text": "Nechca, I never taught you to lie."
+                                                },
+                                                {
+                                                    "id": "150140940",
+                                                    "speaker": "Nechca",
+                                                    "text": "S—Sorry, Mom. I... I..."
+                                                },
+                                                {
+                                                    "id": "150140941",
+                                                    "speaker": "Paimon",
+                                                    "text": "Nechca's looking at us... Paimon feels like something's not right. What should we do?",
+                                                    "choices": [
+                                                        {
+                                                            "id": "150140942",
+                                                            "text": "...Just wait.",
+                                                            "response": [
+                                                                {
+                                                                    "id": "150140944",
+                                                                    "speaker": "Xilonen",
+                                                                    "text": "Nechca was having so much fun today that she forgot the time. It's not a big deal."
+                                                                },
+                                                                {
+                                                                    "id": "150140945",
+                                                                    "speaker": "Xilonen",
+                                                                    "text": "Let me help carry her home. I'm worried you would also have to recover if you carried her the whole way."
+                                                                },
+                                                                {
+                                                                    "id": "150140946",
+                                                                    "speaker": "Tlazolli",
+                                                                    "text": "No, it's fine. I'll carry her."
+                                                                },
+                                                                {
+                                                                    "id": "150140947",
+                                                                    "speaker": "Tlazolli",
+                                                                    "text": "Let's go, Nechca. It's time to go home."
+                                                                },
+                                                                {
+                                                                    "id": "150140948",
+                                                                    "speaker": "Black Screen",
+                                                                    "text": "Tlazolli declines your help and leaves the tribe, carrying Nechca. She is staggering somewhat by the time she reaches home, but she is still able to shield Nechca behind her..."
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "id": "150140943",
+                                                            "text": "Stay quiet. Let's see what Xilonen says."
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "150140927",
+                                            "text": "(Let's keep talking with Nechca...)"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "150140922",
+                            "text": "If the price is good, we could buy you a whole set."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "1501410",
+            "objective": "Go back to Tlazolli's house together",
+            "dialogues": [
+                {
+                    "id": "150141001",
+                    "speaker": "Tlazolli",
+                    "text": "Thank you, everyone, for spending so much time with us today."
+                },
+                {
+                    "id": "150141002",
+                    "speaker": "Tlazolli",
+                    "text": "Please be sure to come to Nechca's birthday party.",
+                    "choices": [
+                        {
+                            "id": "150141003",
+                            "text": "We'll be there.",
+                            "response": [
+                                {
+                                    "id": "150141005",
+                                    "speaker": "Tlazolli",
+                                    "text": "Alright, it's nearly bedtime for Nechca, so let's part our ways here."
+                                },
+                                {
+                                    "id": "150141006",
+                                    "speaker": "Xilonen",
+                                    "text": "Auntie, remember to give her the book that copy of Tequil the Brave I brought. I went to a lot of trouble to find it."
+                                },
+                                {
+                                    "id": "150141007",
+                                    "speaker": "Tlazolli",
+                                    "text": "I understand. Really, do you think I'd let your efforts go to waste?"
+                                },
+                                {
+                                    "id": "150141008",
+                                    "speaker": "Tlazolli",
+                                    "text": "It's very special to receive a book from you, I'm sure she'll put it somewhere safe... Right, Nechca?"
+                                },
+                                {
+                                    "id": "150141009",
+                                    "speaker": "Nechca",
+                                    "text": "Y—Yeah. Thanks, Xilonen..."
+                                },
+                                {
+                                    "id": "150141010",
+                                    "speaker": "Xilonen",
+                                    "text": "Put it somewhere? Isn't she going to read it?"
+                                },
+                                {
+                                    "id": "150141011",
+                                    "speaker": "Tlazolli",
+                                    "text": "Well, I've read the story to her many times already, she's even memorized nearly every line..."
+                                },
+                                {
+                                    "id": "150141012",
+                                    "speaker": "Xilonen",
+                                    "text": "That won't be a problem, Auntie. Nechca has probably never heard this version of Tequil the Brave."
+                                },
+                                {
+                                    "id": "150141013",
+                                    "speaker": "Tlazolli",
+                                    "text": "Oh? What's different about this version?"
+                                },
+                                {
+                                    "id": "150141014",
+                                    "speaker": "Xilonen",
+                                    "text": "The majority is about the same, but the ending is different from the one that you bought her."
+                                },
+                                {
+                                    "id": "150141015",
+                                    "speaker": "Xilonen",
+                                    "text": "The one I gave her is the unedited version that was originally published."
+                                },
+                                {
+                                    "id": "150141016",
+                                    "speaker": "Xilonen",
+                                    "text": "It was released long before Nechca fell ill."
+                                },
+                                {
+                                    "id": "150141017",
+                                    "speaker": "Tlazolli",
+                                    "text": "Oh? But I remember you were never very interested in fairy tales, Xilonen."
+                                },
+                                {
+                                    "id": "150141018",
+                                    "speaker": "Xilonen",
+                                    "text": "Well, I was just thinking that if what you said about Nechca's illness is true, she shouldn't be able to remember anything about her past before her illness..."
+                                },
+                                {
+                                    "id": "150141019",
+                                    "speaker": "Xilonen",
+                                    "text": "So, the ending to the original version of Tequil the Brave is also part of the past that she should have forgotten."
+                                },
+                                {
+                                    "id": "150141020",
+                                    "speaker": "Xilonen",
+                                    "text": "In other words, if she hasn't recently read the old version of the story, then she couldn't possibly know the ending, right?"
+                                },
+                                {
+                                    "id": "150141021",
+                                    "speaker": "Tlazolli",
+                                    "text": "I don't understand. Why are you so concerned about the ending of this book? Even if she does remember the ending, what does that prove?"
+                                },
+                                {
+                                    "id": "150141022",
+                                    "speaker": "Tlazolli",
+                                    "text": "Maybe she snuck out somewhere when I wasn't watching, and read the first edition of the story."
+                                },
+                                {
+                                    "id": "150141023",
+                                    "speaker": "Xilonen",
+                                    "text": "That is a possibility. After all, she does remember things that have happened recently."
+                                },
+                                {
+                                    "id": "150141024",
+                                    "speaker": "Xilonen",
+                                    "text": "In which case, let's go ask around the tribe and see if anyone remembers Nechca reading that book."
+                                },
+                                {
+                                    "id": "150141025",
+                                    "speaker": "Xilonen",
+                                    "text": "There are only a few shops in the tribe that sell books. Or, we can just ask Nechca where she had read it."
+                                },
+                                {
+                                    "id": "150141026",
+                                    "speaker": "Tlazolli",
+                                    "text": "The book sellers all have Inscriptions, so there's a chance that their memories..."
+                                },
+                                {
+                                    "id": "150141027",
+                                    "speaker": "Xilonen",
+                                    "text": "So, you admit that the Blazegem Inscriptions can also affect the tribe's current memories?"
+                                },
+                                {
+                                    "id": "150141028",
+                                    "speaker": "Xilonen",
+                                    "text": "I was very clear that I would consider that a crime, and would put a stop to all work on it."
+                                },
+                                {
+                                    "id": "150141029",
+                                    "speaker": "Tlazolli",
+                                    "text": "...There must be a few more books at home, I..."
+                                },
+                                {
+                                    "id": "150141030",
+                                    "speaker": "Xilonen",
+                                    "text": "\"I do not wish to see your blood be reduced to ash, but I have seen the light of your heart and spirit...\""
+                                },
+                                {
+                                    "id": "150141031",
+                                    "speaker": "Tlazolli",
+                                    "text": "...I beg your pardon?"
+                                },
+                                {
+                                    "id": "150141032",
+                                    "speaker": "Xilonen",
+                                    "text": "Nechca, where did you read that book? Answer me."
+                                },
+                                {
+                                    "id": "150141033",
+                                    "speaker": "Tlazolli",
+                                    "text": "Go home, Nechca."
+                                },
+                                {
+                                    "id": "150141034",
+                                    "speaker": "Nechca",
+                                    "text": "I... I..."
+                                },
+                                {
+                                    "id": "150141035",
+                                    "speaker": "Tlazolli",
+                                    "text": "Are you disobeying me?"
+                                },
+                                {
+                                    "id": "150141036",
+                                    "speaker": "Xilonen",
+                                    "text": "You're the one who wrote me the letter, Nechca. You're the one who wanted the book. Only you can speak for yourself."
+                                },
+                                {
+                                    "id": "150141037",
+                                    "speaker": "Xilonen",
+                                    "text": "We're listening, Nechca. Right here, right now."
+                                },
+                                {
+                                    "id": "150141038",
+                                    "speaker": "Nechca",
+                                    "text": "\"...Remember my name, brother. As long as you remember me, I will never have left.\""
+                                },
+                                {
+                                    "id": "150141039",
+                                    "speaker": "Tlazolli",
+                                    "text": "Silence!"
+                                },
+                                {
+                                    "id": "150141040",
+                                    "speaker": "Paimon",
+                                    "text": "That's the line from the old ending! Nechca remembers it!"
+                                },
+                                {
+                                    "id": "150141041",
+                                    "speaker": "Nechca",
+                                    "text": "I know! I know everything! Xilonen, help me! Please help me!"
+                                },
+                                {
+                                    "id": "150141042",
+                                    "speaker": "Nechca",
+                                    "text": "Ahhh!!!"
+                                },
+                                {
+                                    "id": "150141043",
+                                    "speaker": "Paimon",
+                                    "text": "Something's blocking the door!"
+                                },
+                                {
+                                    "id": "150141044",
+                                    "speaker": "Xilonen",
+                                    "text": "Get back."
+                                },
+                                {
+                                    "id": "150141045",
+                                    "speaker": "Black Screen",
+                                    "text": "Without hesitation, Xilonen strides forward and kicks the door, shattering it and the surrounding structure."
+                                },
+                                {
+                                    "id": "150141046",
+                                    "speaker": "Paimon",
+                                    "text": "Xilonen! Wait for us!"
+                                },
+                                {
+                                    "id": "150141047",
+                                    "speaker": "Xilonen",
+                                    "text": "The tunnel is blocked. We can't go in... there might also be traps."
+                                },
+                                {
+                                    "id": "150141048",
+                                    "speaker": "Paimon",
+                                    "text": "Whoa, what are all those things on Nechca's walls?"
+                                },
+                                {
+                                    "id": "150141049",
+                                    "speaker": "Xilonen",
+                                    "text": "It seems Auntie put all the extra Inscriptions she made here.",
+                                    "choices": [
+                                        {
+                                            "id": "150141050",
+                                            "text": "There's no one here!",
+                                            "response": [
+                                                {
+                                                    "id": "150141052",
+                                                    "speaker": "Xilonen",
+                                                    "text": "If she's trying to finish that Ancient Name, then there's only one place she could go."
+                                                },
+                                                {
+                                                    "id": "150141053",
+                                                    "speaker": "Xilonen",
+                                                    "text": "Come on, follow me."
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "150141051",
+                                            "text": "Where did they go?"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "150141004",
+                            "text": "I hope she'll continue to feel better."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "1501419",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "150141901",
+                    "speaker": "Cheven",
+                    "text": "Nechca is finally better. Phew... I hope this is over soon, I can't keep this up much longer...",
+                    "choices": [
+                        {
+                            "id": "150141902",
+                            "text": "About the sales plan for the Inscriptions...",
+                            "response": [
+                                {
+                                    "id": "150141903",
+                                    "speaker": "Cheven",
+                                    "text": "Hm? \"Make 'em few, and sell 'em high\"? Uh... I definitely never suggested anything like that to Tlazolli."
+                                },
+                                {
+                                    "id": "150141904",
+                                    "speaker": "Cheven",
+                                    "text": "Quite the opposite, I've always been telling her to make more inscriptions and expand her market. Maybe that way, she could even sell to other tribes."
+                                },
+                                {
+                                    "id": "150141905",
+                                    "speaker": "Cheven",
+                                    "text": "Wouldn't that be a lot more profitable? But she always says she has limited energy, and can't forge them..."
+                                },
+                                {
+                                    "id": "150141906",
+                                    "speaker": "Cheven",
+                                    "text": "*sigh* Maybe taking care of Nechca is too tiring..."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "150141907",
+                            "text": "See you later.",
+                            "response": [
+                                {
+                                    "id": "150141908",
+                                    "speaker": "Cheven",
+                                    "text": "Alright, I should be getting back to work now too. Now, why did I put the ore from before..."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "1501499",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "150149901",
+                    "speaker": "Xilonen",
+                    "text": "Let's head back to the tribe first. There are some things I need to get from my workshop."
+                },
+                {
+                    "id": "150149902",
+                    "speaker": "Xilonen",
+                    "text": "Disassembling the Central Inscription... It's not gonna be easy."
+                },
+                {
+                    "id": "150149911",
+                    "speaker": "Tlazolli",
+                    "text": "Let's go look for Iknal. I've had her Blazegem Inscription for a while now, and I'll finally return it to her today."
+                }
+            ]
+        }
+    ]
+}

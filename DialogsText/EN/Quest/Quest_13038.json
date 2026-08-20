@@ -1,0 +1,798 @@
+{
+    "quest": {
+        "id": "13038",
+        "title": "Sage of Sages",
+        "description": "Sethos leads you into the ancient Temple of Silence. There, you learn why Cyrus went into the desert alone, and the origin of Cyno's power. Next, it's time to face the requirements of the Temple of Silence.",
+        "rewards": [
+            {
+                "itemId": 102,
+                "count": 500
+            },
+            {
+                "itemId": 202,
+                "count": 38100
+            },
+            {
+                "itemId": 104003,
+                "count": 4
+            },
+            {
+                "itemId": 104013,
+                "count": 8
+            }
+        ],
+        "rewards_formatted": "Adventure EXP x500, Mora x38100, Hero's Wit x4, Mystic Enhancement Ore x8",
+        "chapter": {
+            "icon": "UI_ChapterIcon_Cyno",
+            "id": "2049",
+            "num": "Lupus Aureus Chapter: Act II",
+            "title": "Oathkeeper"
+        },
+        "total_dialogue_lines": 133,
+        "total_speaker_counts": {
+            "Bamoun": 1,
+            "Black Screen": 2,
+            "Cyno": 36,
+            "Duaenre": 12,
+            "Paimon": 12,
+            "Player": 8,
+            "Sethos": 41,
+            "Tighnari": 21
+        }
+    },
+    "talks": [
+        {
+            "id": "1303801",
+            "objective": "Wait until nighttime (20:00 – 24:00)",
+            "dialogues": [
+                {
+                    "id": "130380101",
+                    "speaker": "Black Screen",
+                    "text": "The group gathers again at the agreed time..."
+                },
+                {
+                    "id": "130380102",
+                    "speaker": "Cyno",
+                    "text": "I've taken some time to reflect on this... If I had to guess, Professor Cyrus came to the desert knowing that he would almost certainly never return."
+                },
+                {
+                    "id": "130380103",
+                    "speaker": "Cyno",
+                    "text": "He's a stubborn man who tends to double down when he feels strongly about something. We won't get anywhere trying to convince him to escape."
+                },
+                {
+                    "id": "130380104",
+                    "speaker": "Tighnari",
+                    "text": "I agree. My master, Naphis, says the same thing — once Cyrus makes up his mind about something, he won't listen to reason."
+                },
+                {
+                    "id": "130380105",
+                    "speaker": "Cyno",
+                    "text": "Mhm. So that's one thing. A few other things came to mind, too."
+                },
+                {
+                    "id": "130380106",
+                    "speaker": "Cyno",
+                    "text": "You've heard all you need to hear about the Temple of Silence, so on that, I don't have anything to add."
+                },
+                {
+                    "id": "130380107",
+                    "speaker": "Cyno",
+                    "text": "My own memories of this place are hazy, though. Probably something to do with the overpowering presence of the Ba Fragments. That might explain why I suffered from constant headaches and fevers as a child."
+                },
+                {
+                    "id": "130380108",
+                    "speaker": "Cyno",
+                    "text": "I do remember having some fleeting moments of profound emotion, when vague images would appear in my mind. But I don't recall much, only bits and pieces."
+                },
+                {
+                    "id": "130380109",
+                    "speaker": "Cyno",
+                    "text": "I was still young, then, and all I could understand was that there was this strong will inside my mind. Thinking back on it now, I suppose it was Hermanubis's way of trying to encourage me, even if we couldn't communicate."
+                },
+                {
+                    "id": "130380110",
+                    "speaker": "Cyno",
+                    "text": "The power that came to inhabit my spirit was probably one of the cornerstones of their whole faith. So if the will and might of Hermanubis is a real and tangible thing, and they are its rightful worshipers, then..."
+                },
+                {
+                    "id": "130380111",
+                    "speaker": "Paimon",
+                    "text": "You're not gonna give in to their demands, are you? Surely there has to be another way?",
+                    "choices": [
+                        {
+                            "id": "130380112",
+                            "text": "Don't make any rash decisions, Cyno.",
+                            "response": [
+                                {
+                                    "id": "130380114",
+                                    "speaker": "Cyno",
+                                    "text": "No, I have no intention of returning it. I need this power to protect Sumeru. But the Temple has the right to make the final decision over its fate, since it belongs to one of the Seven Pillars of King Deshret..."
+                                },
+                                {
+                                    "id": "130380115",
+                                    "speaker": "Cyno",
+                                    "text": "So I will challenge them head-on, and win the right to wield this power for myself, fair and square."
+                                },
+                                {
+                                    "id": "130380116",
+                                    "speaker": "Tighnari",
+                                    "text": "Hmm, this reminds me of something Alhaitham mentioned to me just before we left. He said that the Temple of Silence was originally founded by the ruling elite of the day. Traditionally, such organizations are bound by a strict and ancient code of nobility."
+                                },
+                                {
+                                    "id": "130380117",
+                                    "speaker": "Tighnari",
+                                    "text": "Kaveh has made similar observations about the desert tribes from his work trips there. He says many of them have their own internal rules. They talk about the importance of never dishonoring their tribal bonds, or the rules laid down by their ancestors."
+                                },
+                                {
+                                    "id": "130380118",
+                                    "speaker": "Tighnari",
+                                    "text": "I think we could turn that to our advantage. Go back to them with a proposal of our own."
+                                },
+                                {
+                                    "id": "130380119",
+                                    "speaker": "Paimon",
+                                    "text": "Wow... And just like that, we've turned the tables on them!"
+                                },
+                                {
+                                    "id": "130380120",
+                                    "speaker": "Cyno",
+                                    "text": "Looks like we have the same idea."
+                                },
+                                {
+                                    "id": "130380121",
+                                    "speaker": "Cyno",
+                                    "text": "Turn it back on them now, while we still can, in terms that they cannot refuse. That's how we win this."
+                                },
+                                {
+                                    "id": "130380122",
+                                    "speaker": "Player",
+                                    "text": "That sounds good to me."
+                                },
+                                {
+                                    "id": "130380123",
+                                    "speaker": "Tighnari",
+                                    "text": "Great. And I know just how to start the conversation. Let's go find Sethos. We'll tell him that I know a thing or two about medicine, and would like to take a look at his grandfather's condition."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "130380113",
+                            "text": "There must be another way!"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "1303802",
+            "objective": "Talk things over with your companions",
+            "dialogues": []
+        },
+        {
+            "id": "1303803",
+            "objective": "Talk to Sethos",
+            "dialogues": [
+                {
+                    "id": "130380201",
+                    "speaker": "Cyno",
+                    "text": "Sethos. Let's talk."
+                },
+                {
+                    "id": "130380202",
+                    "speaker": "Sethos",
+                    "text": "Have you made up your mind?"
+                },
+                {
+                    "id": "130380203",
+                    "speaker": "Tighnari",
+                    "text": "We'll get to that. But first — I have some degree of medical training, so I was wondering if you might let me take a look at your grandfather?"
+                },
+                {
+                    "id": "130380204",
+                    "speaker": "Sethos",
+                    "text": "I have no objections, although we do have our own doctors here. I doubt you'll be able to tell us anything we don't already know."
+                },
+                {
+                    "id": "130380205",
+                    "speaker": "Tighnari",
+                    "text": "Only one way to find out."
+                },
+                {
+                    "id": "130380206",
+                    "speaker": "Sethos",
+                    "text": "Follow me."
+                },
+                {
+                    "id": "130380207",
+                    "speaker": "Sethos",
+                    "text": "Keep your voices down. We don't want to disturb him."
+                },
+                {
+                    "id": "130380208",
+                    "speaker": "Black Screen",
+                    "text": "Tighnari takes out his medical kit and performs a basic medical exam for Bamoun."
+                },
+                {
+                    "id": "130380209",
+                    "speaker": "Tighnari",
+                    "text": "..."
+                },
+                {
+                    "id": "130380210",
+                    "speaker": "Tighnari",
+                    "text": "Let's talk outside."
+                },
+                {
+                    "id": "130380211",
+                    "speaker": "Tighnari",
+                    "text": "Bamoun has fallen into a deep coma, and his prognosis is quite grave. I am sure that your physicians have come to the same conclusion."
+                },
+                {
+                    "id": "130380212",
+                    "speaker": "Tighnari",
+                    "text": "He appears to have sustained a serious injury in his youth, which has been exacerbated over the years by the heavy burden of work, and now by the effects of old age..."
+                },
+                {
+                    "id": "130380213",
+                    "speaker": "Tighnari",
+                    "text": "Regretfully, I must inform you that... based on what I've seen with patients in a similar condition, he doesn't have long left. A few days at most."
+                },
+                {
+                    "id": "130380214",
+                    "speaker": "Sethos",
+                    "text": "...Yeah, I've known for a long time."
+                },
+                {
+                    "id": "130380215",
+                    "speaker": "Cyno",
+                    "text": "You're his heir, aren't you? You clearly have a lot of respect for the man. But you also see things differently. You have a broader range of concerns, and a more pragmatic approach."
+                },
+                {
+                    "id": "130380216",
+                    "speaker": "Cyno",
+                    "text": "So tell me how we can end this on your terms. Let's find a way to bring all this to a resolution while Bamoun is still alive to see it — that's what really matters to you, I know it."
+                },
+                {
+                    "id": "130380217",
+                    "speaker": "Paimon",
+                    "text": "Yeah. There's no time to waste here. You know that better than anyone."
+                },
+                {
+                    "id": "130380218",
+                    "speaker": "Sethos",
+                    "text": "..."
+                },
+                {
+                    "id": "130380219",
+                    "speaker": "Tighnari",
+                    "text": "You know, the two of you are actually in a very similar predicament right now. Both of you have a very different perspective from the men who raised you."
+                },
+                {
+                    "id": "130380220",
+                    "speaker": "Paimon",
+                    "text": "Right. And you didn't create this situation — they did, but somehow, you've ended up having to make the tough decisions..."
+                },
+                {
+                    "id": "130380221",
+                    "speaker": "Sethos",
+                    "text": "...You're right. We both look at this problem very differently than the people we inherited it from."
+                },
+                {
+                    "id": "130380222",
+                    "speaker": "Sethos",
+                    "text": "I accept, Cyno. This all began because of Hermanubis, so let's end it with a rite he himself created."
+                },
+                {
+                    "id": "130380223",
+                    "speaker": "Sethos",
+                    "text": "Legend has it that when Hermanubis first arrived in Tulaytullah, he sparred with the city's residents. He and his two companions proved their mettle by fighting over several days, winning the support of many fine people."
+                },
+                {
+                    "id": "130380224",
+                    "speaker": "Sethos",
+                    "text": "That group of supporters were some of the first members of the Temple of Silence, and the sparring matches were enshrined as one of our founding rites... The Rite of Duels. It's where it all began."
+                },
+                {
+                    "id": "130380225",
+                    "speaker": "Cyno",
+                    "text": "Sounds very fitting. I'm in."
+                },
+                {
+                    "id": "130380226",
+                    "speaker": "Sethos",
+                    "text": "As a fellow vessel of Hermanubis, your ties to the Temple of Silence run deep. So I will permit you to participate in this rite, along with your chosen companions."
+                },
+                {
+                    "id": "130380227",
+                    "speaker": "Tighnari",
+                    "text": "Three against three. Sounds good."
+                },
+                {
+                    "id": "130380228",
+                    "speaker": "Sethos",
+                    "text": "However, I have some additional terms. As the challengers, you must win all three of your fights to win. And Cyno... both of us must put our Ba Fragment on the line. The winner takes them both."
+                },
+                {
+                    "id": "130380229",
+                    "speaker": "Sethos",
+                    "text": "Letting Cyrus leave with one of the Ba Fragments was a mistake, made by my grandfather out of pity. It is a longstanding issue that must be addressed for the Temple of Silence to move forward. I can make no concessions on that front."
+                },
+                {
+                    "id": "130380230",
+                    "speaker": "Cyno",
+                    "text": "None needed. We're on the same page."
+                },
+                {
+                    "id": "130380231",
+                    "speaker": "Cyno",
+                    "text": "If I win, the Temple of Silence must release Cyrus, and consider this past dispute resolved."
+                },
+                {
+                    "id": "130380232",
+                    "speaker": "Cyno",
+                    "text": "If you win, I'll return my power to you."
+                },
+                {
+                    "id": "130380233",
+                    "speaker": "Sethos",
+                    "text": "It's a deal. Then let's meet at the ceremonial hall tomorrow evening, eight o'clock."
+                }
+            ]
+        },
+        {
+            "id": "1303809",
+            "objective": "Talk to Cyno",
+            "dialogues": [
+                {
+                    "id": "130380601",
+                    "speaker": "Tighnari",
+                    "text": "Well, after how that went, there's definitely no turning back now."
+                },
+                {
+                    "id": "130380602",
+                    "speaker": "Cyno",
+                    "text": "There never was. Turning back hasn't been an option for me since the moment the professor slipped away to return to the desert."
+                },
+                {
+                    "id": "130380603",
+                    "speaker": "Tighnari",
+                    "text": "You have to win. You need this power — both as General Mahamatra and for yourself."
+                },
+                {
+                    "id": "130380604",
+                    "speaker": "Paimon",
+                    "text": "Yeah, that's right! Besides, it's stayed with you ever since you were a small child. Surely that's a sign it thinks of you as its rightful owner."
+                },
+                {
+                    "id": "130380605",
+                    "speaker": "Cyno",
+                    "text": "...Both as General Mahamatra, and for myself..."
+                },
+                {
+                    "id": "130380606",
+                    "speaker": "Cyno",
+                    "text": "Yeah, when you put it that way... I've had to overcome a lot to tame this power and claim it for myself. Not everyone could have done that."
+                },
+                {
+                    "id": "130380607",
+                    "speaker": "Paimon",
+                    "text": "Exactly!",
+                    "choices": [
+                        {
+                            "id": "130380608",
+                            "text": "Let's not get sidetracked. We gotta focus on winning!",
+                            "response": [
+                                {
+                                    "id": "130380610",
+                                    "speaker": "Tighnari",
+                                    "text": "#{NICKNAME} and I will never lose."
+                                },
+                                {
+                                    "id": "130380611",
+                                    "speaker": "Cyno",
+                                    "text": "And neither shall I."
+                                },
+                                {
+                                    "id": "130380612",
+                                    "speaker": "Cyno",
+                                    "text": "The desert was home to an ancient and great civilization that for a variety of reasons, fell out with the civilization of the rainforest. It's just as Dehya said — prejudices pushed people apart."
+                                },
+                                {
+                                    "id": "130380613",
+                                    "speaker": "Cyno",
+                                    "text": "But there must be personal factors at work here, too. I can't shake the feeling that Bamoun cares for many more things than he lets on, and I don't think that Sethos is any kind of villain. He's just doing what he thinks is best."
+                                },
+                                {
+                                    "id": "130380614",
+                                    "speaker": "Cyno",
+                                    "text": "...Tomorrow, everything will be resolved."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "130380609",
+                            "text": "We'll help you see this through."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "1303804",
+            "objective": "Wait until the next day (20:00 – 00:00)",
+            "dialogues": []
+        },
+        {
+            "id": "1303805",
+            "objective": "Go to the ceremonial hall",
+            "dialogues": [
+                {
+                    "id": "130380301",
+                    "speaker": "Duaenre",
+                    "text": "We gather on this day to perform once more the Rite of Duels, with the greatest of all sages, Lord Hermanubis as our witness, for his power and authority is present in our midst."
+                },
+                {
+                    "id": "130380302",
+                    "speaker": "Duaenre",
+                    "text": "This is our most sacred of ceremonies, and no disruption from the audience shall be tolerated. It is incumbent upon all to observe the duel with the utmost respect and reverence throughout the proceedings."
+                },
+                {
+                    "id": "130380303",
+                    "speaker": "Duaenre",
+                    "text": "Representing the Temple of Silence: The defenders."
+                },
+                {
+                    "id": "130380304",
+                    "speaker": "Sethos",
+                    "text": "Grandfather, you're here."
+                },
+                {
+                    "id": "130380305",
+                    "speaker": "Bamoun",
+                    "text": "*cough* ...A Rite of Duels, after all these years... I am surprised by your decision, Sethos."
+                },
+                {
+                    "id": "130380306",
+                    "speaker": "Sethos",
+                    "text": "I know what I'm doing, Grandfather. Just leave it to me."
+                },
+                {
+                    "id": "130380307",
+                    "speaker": "Duaenre",
+                    "text": "Representing the Akademiya: The challengers."
+                },
+                {
+                    "id": "130380308",
+                    "speaker": "Cyno",
+                    "text": "Ready. We will fight to have our voices heard."
+                },
+                {
+                    "id": "130380309",
+                    "speaker": "Duaenre",
+                    "text": "Warriors, take your positions and decide on the order of battle."
+                },
+                {
+                    "id": "130380310",
+                    "speaker": "Duaenre",
+                    "text": "We come not to debate what brings our challengers here, nor what will become of the defeated duelists. Duelists, the might of Hermanubis himself is at stake here. Now, fight, fight until the rightful victor is proclaimed!"
+                },
+                {
+                    "id": "130380311",
+                    "speaker": "Player",
+                    "text": "I'll go first."
+                },
+                {
+                    "id": "130380312",
+                    "speaker": "Paimon",
+                    "text": "Huh? Are you sure?"
+                },
+                {
+                    "id": "130380313",
+                    "speaker": "Player",
+                    "text": "I'm sure. We want to keep our morale up."
+                },
+                {
+                    "id": "130380314",
+                    "speaker": "Tighnari",
+                    "text": "#I agree. {NICKNAME} is very strong. Sending {F#her}{M#him} out first will definitely intimidate the opposing side."
+                },
+                {
+                    "id": "130380315",
+                    "speaker": "Cyno",
+                    "text": "Okay, then you're second."
+                },
+                {
+                    "id": "130380316",
+                    "speaker": "Tighnari",
+                    "text": "Sure."
+                },
+                {
+                    "id": "130380317",
+                    "speaker": "Cyno",
+                    "text": "We have decided."
+                },
+                {
+                    "id": "130380318",
+                    "speaker": "Sethos",
+                    "text": "So have we. Let's begin."
+                }
+            ]
+        },
+        {
+            "id": "1303810",
+            "objective": "Prepare for the first bout",
+            "dialogues": [
+                {
+                    "id": "130380701",
+                    "speaker": "Duaenre",
+                    "text": "Duelists of the first bout, please step forward."
+                },
+                {
+                    "id": "130380702",
+                    "speaker": "Player",
+                    "text": "Leave it to me."
+                }
+            ]
+        },
+        {
+            "id": "1303814",
+            "objective": "Prepare for the first bout",
+            "dialogues": []
+        },
+        {
+            "id": "1303806",
+            "objective": "Participate in the first bout",
+            "dialogues": []
+        },
+        {
+            "id": "1303816",
+            "objective": "Participate in the first bout",
+            "dialogues": []
+        },
+        {
+            "id": "1303811",
+            "objective": "Prepare for the second bout",
+            "dialogues": [
+                {
+                    "id": "130380801",
+                    "speaker": "Duaenre",
+                    "text": "A swift end to the first bout. I now invite the duelists of the second bout to please step forward."
+                },
+                {
+                    "id": "130380802",
+                    "speaker": "Duaenre",
+                    "text": "When you're both ready, you may begin."
+                },
+                {
+                    "id": "130380803",
+                    "speaker": "Tighnari",
+                    "text": "Let's begin."
+                }
+            ]
+        },
+        {
+            "id": "1303807",
+            "objective": "Participate in the second bout",
+            "dialogues": []
+        },
+        {
+            "id": "1303808",
+            "objective": "Prepare for the third bout",
+            "dialogues": [
+                {
+                    "id": "130380501",
+                    "speaker": "Duaenre",
+                    "text": "Thus ends the second bout. We will now move to the third bout. Duelists, please step forward."
+                },
+                {
+                    "id": "130380502",
+                    "speaker": "Cyno",
+                    "text": "I'm ready."
+                },
+                {
+                    "id": "130380503",
+                    "speaker": "Sethos",
+                    "text": "So am I."
+                },
+                {
+                    "id": "130380504",
+                    "speaker": "Duaenre",
+                    "text": "This is the final stage of the rite. I remind you both that the terms you agreed upon in advance are binding."
+                },
+                {
+                    "id": "130380505",
+                    "speaker": "Duaenre",
+                    "text": "When you're both ready, you may begin."
+                },
+                {
+                    "id": "130380506",
+                    "speaker": "Sethos",
+                    "text": "..."
+                },
+                {
+                    "id": "130380507",
+                    "speaker": "Sethos",
+                    "text": "I am Sethos, vessel of Hermanubis, grandson of Bamoun, the leader of the Temple of Silence."
+                },
+                {
+                    "id": "130380508",
+                    "speaker": "Sethos",
+                    "text": "For many years, we have kept our covenant with Lord Hermanubis by guarding the secrets of King Deshret. And even in our darkest hour, when we could not see a way forward, we chose not to abandon hope, but to embark on a brave new experiment so that we might prevail."
+                },
+                {
+                    "id": "130380509",
+                    "speaker": "Sethos",
+                    "text": "We earnestly sought Lord Hermanubis's wisdom and power, longing to see his spirit and his light descend upon us."
+                },
+                {
+                    "id": "130380510",
+                    "speaker": "Sethos",
+                    "text": "Now, I will fight to become the rightful wielder of that power!"
+                },
+                {
+                    "id": "130380511",
+                    "speaker": "Cyno",
+                    "text": "I am Cyno, General Mahamatra of the Akademiya, student and successor of Cyrus, the sage of Spantamad. I fight in defense of my power, my professor, and my nation."
+                },
+                {
+                    "id": "130380512",
+                    "speaker": "Cyno",
+                    "text": "And you? I think you left some things unsaid. This is a sacred duel, and Hermanubis is watching. So bare your soul."
+                },
+                {
+                    "id": "130380513",
+                    "speaker": "Sethos",
+                    "text": "..."
+                },
+                {
+                    "id": "130380514",
+                    "speaker": "Sethos",
+                    "text": "(Everyone... old and young, fit and frail, they're all waiting to see how this duel will end.)"
+                },
+                {
+                    "id": "130380515",
+                    "speaker": "Sethos",
+                    "text": "My grandfather is a wise leader. He is also known to be a ruler who is not afraid to get blood on his hands. I understand his beliefs well, and I know what he expects of me."
+                },
+                {
+                    "id": "130380516",
+                    "speaker": "Sethos",
+                    "text": "But our faith has held us back for too long. After I grew up, I went to the rainforest once, and I saw for myself the people of the city."
+                },
+                {
+                    "id": "130380517",
+                    "speaker": "Sethos",
+                    "text": "Times have changed. The people of Sumeru are happier and more free now than in the past. I thought about this as I stood at one of the tallest points in the city, gazing down at the streets below."
+                },
+                {
+                    "id": "130380518",
+                    "speaker": "Sethos",
+                    "text": "Then I thought of you, Cyno. You and I both wield the same power, yet the lives we lead could not be more different."
+                },
+                {
+                    "id": "130380519",
+                    "speaker": "Sethos",
+                    "text": "Each Ba Fragment of Hermanubis stands for something different — might, glory... or one of many other secrets that have yet to be revealed."
+                },
+                {
+                    "id": "130380520",
+                    "speaker": "Sethos",
+                    "text": "I once thought that the nature of our fragments must be what makes us so different from one other. But... maybe, it's that you've found your answer, and I am still searching for mine."
+                },
+                {
+                    "id": "130380521",
+                    "speaker": "Cyno",
+                    "text": "I am more than just a warrior. I am my own person."
+                },
+                {
+                    "id": "130380522",
+                    "speaker": "Tighnari",
+                    "text": "...Exactly."
+                },
+                {
+                    "id": "130380523",
+                    "speaker": "Sethos",
+                    "text": "..."
+                },
+                {
+                    "id": "130380524",
+                    "speaker": "Sethos",
+                    "text": "The name \"Hermanubis\" has left its mark on both of us, shaped the course of our lives. We are his vessels, and yet we are more besides."
+                },
+                {
+                    "id": "130380525",
+                    "speaker": "Sethos",
+                    "text": "So show me your answer, Cyno. Show me I can be more than my faith, more than the power I wield... Show me the person I can become!"
+                },
+                {
+                    "id": "130380526",
+                    "speaker": "Sethos",
+                    "text": "Bring it on!"
+                },
+                {
+                    "id": "130380527",
+                    "speaker": "Paimon",
+                    "text": "How is it? Do you feel okay?"
+                },
+                {
+                    "id": "130380528",
+                    "speaker": "Cyno",
+                    "text": "..."
+                },
+                {
+                    "id": "130380529",
+                    "speaker": "Sethos",
+                    "text": "..."
+                }
+            ]
+        },
+        {
+            "id": "1303851",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "130385101",
+                    "speaker": "Sethos",
+                    "text": "I'm really looking forward to this Rite of Duels. It'll be one for the ages."
+                },
+                {
+                    "id": "130385102",
+                    "speaker": "Sethos",
+                    "text": "Not just for the sake of the Ba Fragments, but for many other people as well."
+                },
+                {
+                    "id": "130385103",
+                    "speaker": "Sethos",
+                    "text": "Grandfather..."
+                }
+            ]
+        },
+        {
+            "id": "1303899",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "130389901",
+                    "speaker": "Sethos",
+                    "text": "(...Grandfather, you have to hold on.)"
+                },
+                {
+                    "id": "130389902",
+                    "speaker": "Paimon",
+                    "text": "Don't forget, safety first!"
+                },
+                {
+                    "id": "130389903",
+                    "speaker": "Paimon",
+                    "text": "#Hey, you there! You better play nice with {M#him}{F#her}, or Paimon will make you regret it!"
+                },
+                {
+                    "id": "130389904",
+                    "speaker": "Sethos",
+                    "text": "Little bit too much chatter from the audience over there."
+                },
+                {
+                    "id": "130389905",
+                    "speaker": "Paimon",
+                    "text": "Heyyy!"
+                },
+                {
+                    "id": "130389906",
+                    "speaker": "Cyno",
+                    "text": "Watch out!"
+                },
+                {
+                    "id": "130389907",
+                    "speaker": "Paimon",
+                    "text": "Go, Tighnari, go!"
+                },
+                {
+                    "id": "130389908",
+                    "speaker": "Cyno",
+                    "text": "He drank plenty of water before the bout, so he should be fine..."
+                }
+            ]
+        }
+    ]
+}

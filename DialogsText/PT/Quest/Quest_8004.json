@@ -1,0 +1,670 @@
+{
+    "quest": {
+        "id": "8004",
+        "title": "Um Reencontro Inesperado nas Profundezas",
+        "description": "Katheryne tem uma nova comissão para você. Vá conferir.",
+        "rewards": [
+            {
+                "itemId": 102,
+                "count": 300
+            },
+            {
+                "itemId": 202,
+                "count": 10850
+            },
+            {
+                "itemId": 104002,
+                "count": 4
+            },
+            {
+                "itemId": 104013,
+                "count": 2
+            }
+        ],
+        "rewards_formatted": "EXP de Aventura x300, Mora x10850, EXP do Aventureiro x4, Minério de Refinamento Místico x2",
+        "chapter": {
+            "icon": "UI_ChapterIcon_Traveler",
+            "id": "1206",
+            "num": "Capítulo II - Ato IV",
+            "title": "Réquiem para os Ecos Profundos"
+        },
+        "total_dialogue_lines": 112,
+        "total_speaker_counts": {
+            "Dainsleif": 23,
+            "Katheryne": 8,
+            "Paimon": 36,
+            "Player": 26,
+            "Yuehui": 19
+        }
+    },
+    "talks": [
+        {
+            "id": "800401",
+            "objective": "Fale com Katheryne",
+            "dialogues": [
+                {
+                    "id": "80040101",
+                    "speaker": "Katheryne",
+                    "text": "Oh, Viajante, que coincidência."
+                },
+                {
+                    "id": "80040102",
+                    "speaker": "Paimon",
+                    "text": "Katheryne, por que você está tão feliz em nos ver? Que Comissão tem para nós hoje?"
+                },
+                {
+                    "id": "80040103",
+                    "speaker": "Katheryne",
+                    "text": "Talvez porque hoje eu fui ao santuário tirar um Rolinho, e a Sacerdotisa me disse que terei \"um reencontro inesperado\"?"
+                },
+                {
+                    "id": "80040104",
+                    "speaker": "Paimon",
+                    "text": "Katheryne, você foi para o santuário tirar Rolinhos? Paimon está com uma sensação de que isso é algo muito, muito inusitado!"
+                },
+                {
+                    "id": "80040105",
+                    "speaker": "Paimon",
+                    "text": "Espere um pouco... Você foi para Inazuma em um dia e voltou?! Nós estamos em Liyue!"
+                },
+                {
+                    "id": "80040106",
+                    "speaker": "Katheryne",
+                    "text": "Hehe, até eu tenho uma vida privada, sabe?"
+                },
+                {
+                    "id": "80040107",
+                    "speaker": "Paimon",
+                    "text": "Então você quer dizer que \"um reencontro inesperado\", está falando de nós?"
+                },
+                {
+                    "id": "80040108",
+                    "speaker": "Katheryne",
+                    "text": "Quem sabe? Pelo menos com essa expectativa, qualquer pessoa que eu encontrar ficarei feliz."
+                },
+                {
+                    "id": "80040109",
+                    "speaker": "Paimon",
+                    "text": "Bom.... O fato é que a gente se vê quase todos os dias... Mas enfim, contanto que você esteja feliz, é tudo o que importa!",
+                    "choices": [
+                        {
+                            "id": "80040110",
+                            "text": "Um reencontro inesperado...",
+                            "response": [
+                                {
+                                    "id": "80040112",
+                                    "speaker": "Paimon",
+                                    "text": "#Você quer dizer... Hum, eu entendo muito bem o que você está sentindo, {NICKNAME}. Espero que o que a Sacerdotisa disse seja verdade..."
+                                },
+                                {
+                                    "id": "80040113",
+                                    "speaker": "Paimon",
+                                    "text": "#{M#A sua irmã}{F#O seu irmão}..."
+                                },
+                                {
+                                    "id": "80040114",
+                                    "speaker": "Katheryne",
+                                    "text": "#Vocês parecem estar um pouco decepcionad{M#os}{F#as}, será que eu disse algo inapropriado?"
+                                },
+                                {
+                                    "id": "80040115",
+                                    "speaker": "Paimon",
+                                    "text": "Tudo bem, Katheryne. É melhor a gente voltar ao assunto de comissões. Você tem alguma comissão com que a gente possa dar uma mão?"
+                                },
+                                {
+                                    "id": "80040116",
+                                    "speaker": "Katheryne",
+                                    "text": "Sim. Por acaso recebemos uma comissão de um minerador, é para investigar o Despenhadeiro."
+                                },
+                                {
+                                    "id": "80040117",
+                                    "speaker": "Paimon",
+                                    "text": "Hã? Isso quer dizer que o Despenhadeiro está acessível agora?"
+                                },
+                                {
+                                    "id": "80040118",
+                                    "speaker": "Katheryne",
+                                    "text": "Sobre os detalhes, é melhor vocês se comunicarem diretamente com o solicitante. O nome dele é Yuehui, e partindo agora acredito que vocês possam encontrar ele perto do Despenhadeiro mesmo."
+                                },
+                                {
+                                    "id": "80040119",
+                                    "speaker": "Paimon",
+                                    "text": "Entendido, Katheryne, estaremos partindo agora mesmo então!"
+                                },
+                                {
+                                    "id": "80040120",
+                                    "speaker": "Katheryne",
+                                    "text": "Ótimo, ad astra abyssosque! Hum, parece que o destino de vocês desta vez será realmente o \"Abismo\"! Boa sorte para vocês!"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "80040111",
+                            "text": "Talvez..."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "800402",
+            "objective": "Encontre o minerador solicitante da comissão perto do Despenhadeiro",
+            "dialogues": [
+                {
+                    "id": "80040201",
+                    "speaker": "Paimon",
+                    "text": "Olá, você é... Yuehui? Estamos aqui sob a ordem da Guilda de Aventureiros."
+                },
+                {
+                    "id": "80040202",
+                    "speaker": "Yuehui",
+                    "text": "Oh, muito prazer! Fui eu quem solicitei mesmo."
+                },
+                {
+                    "id": "80040203",
+                    "speaker": "Yuehui",
+                    "text": "#Hum? Você me parece um pouco familiar. Você não é aquel{M#e}{F#a} grande aventureir{M#o}{F#a}?",
+                    "choices": [
+                        {
+                            "id": "80040204",
+                            "text": "Minha história é complicada.",
+                            "response": [
+                                {
+                                    "id": "80040206",
+                                    "speaker": "Yuehui",
+                                    "text": "Ah, ok, tudo bem. Vou me apresentar primeiro, então. Eu sou um minerador, e consegui há pouco tempo a licença de extração do Despenhadeiro, e tenho alguns homens que estão trabalhando comigo."
+                                },
+                                {
+                                    "id": "80040207",
+                                    "speaker": "Paimon",
+                                    "text": "Uau, você conseguiu a licença de extração do Despenhadeiro?"
+                                },
+                                {
+                                    "id": "80040208",
+                                    "speaker": "Yuehui",
+                                    "text": "Sim. Os superiores do Terraço de Yujing finalmente deixaram de ser cabeças-duras e sob a proteção dos Millelith, a extração na superfície foi agora finalmente permitida. A propósito, a gente foi um dos primeiros a conseguir a licença."
+                                },
+                                {
+                                    "id": "80040209",
+                                    "speaker": "Yuehui",
+                                    "text": "Mas o que aconteceu ultimamente tem nos deixados preocupados."
+                                },
+                                {
+                                    "id": "80040210",
+                                    "speaker": "Paimon",
+                                    "text": "O que aconteceu? Não ouvimos falar de nada."
+                                },
+                                {
+                                    "id": "80040211",
+                                    "speaker": "Yuehui",
+                                    "text": "Então... É meio difícil de dizer exatamente o quão grave é o problema. Pode ser considerado algo preocupante ou não. A questão principal é que é bem... Estranho."
+                                },
+                                {
+                                    "id": "80040212",
+                                    "speaker": "Yuehui",
+                                    "text": "É que um parceiro nosso viu alguns Hilichurls passando bem cansados e distraídos enquanto estava descansando."
+                                },
+                                {
+                                    "id": "80040213",
+                                    "speaker": "Yuehui",
+                                    "text": "E esses Hilichurls caminharam diretamente para o fundo do Despenhadeiro sem olharem por 1 segundo para ele."
+                                },
+                                {
+                                    "id": "80040214",
+                                    "speaker": "Yuehui",
+                                    "text": "Então o meu parceiro passou a prestar mais atenção nisso, e percebeu que tal anormalidade ocorria de tempos em tempos."
+                                },
+                                {
+                                    "id": "80040215",
+                                    "speaker": "Paimon",
+                                    "text": "Será que os Hilichurls também são curiosos e vieram só para dar uma olhada?"
+                                },
+                                {
+                                    "id": "80040216",
+                                    "speaker": "Yuehui",
+                                    "text": "Não. O bizarro é que os Hilichurls que entraram no Despenhadeiro..."
+                                },
+                                {
+                                    "id": "80040217",
+                                    "speaker": "Yuehui",
+                                    "text": "Nunca mais saíram."
+                                },
+                                {
+                                    "id": "80040218",
+                                    "speaker": "Yuehui",
+                                    "text": "Esses Hilichurls andavam apenas em uma direção, e depois de entrarem, nunca mais saíram do Despenhadeiro."
+                                },
+                                {
+                                    "id": "80040219",
+                                    "speaker": "Yuehui",
+                                    "text": "E tal anormalidade tem ocorrido de forma cada vez mais frequente."
+                                },
+                                {
+                                    "id": "80040220",
+                                    "speaker": "Yuehui",
+                                    "text": "\"Quais são os objetivos dos Hilichurls?\", \"Como eles estão agora?\", \"Será que eles estão tramando algo?\"..."
+                                },
+                                {
+                                    "id": "80040221",
+                                    "speaker": "Yuehui",
+                                    "text": "Esses pensamentos não param de circular pela cabeça dos meus homens, e muitos deles estão ficando quase loucos de medo."
+                                },
+                                {
+                                    "id": "80040222",
+                                    "speaker": "Paimon",
+                                    "text": "Hum, a Paimon compreende. Isso é algo que dá arrepios.",
+                                    "choices": [
+                                        {
+                                            "id": "80040223",
+                                            "text": "Não quero nem imaginar como que deve estar agora lá dentro do Despenhadeiro...",
+                                            "response": [
+                                                {
+                                                    "id": "80040225",
+                                                    "speaker": "Yuehui",
+                                                    "text": "Exatamente. O que mais nos assusta é pelo fato do acontecimento ser de origem desconhecida, creio que só sabendo a verdade por trás disso é que poderemos trabalhar tranquilamente."
+                                                },
+                                                {
+                                                    "id": "80040226",
+                                                    "speaker": "Paimon",
+                                                    "text": "Nós... Nós vamos aceitar essa comissão mesmo? Hum, senhor, acho que precisamos pensar mais um pouquinho..."
+                                                },
+                                                {
+                                                    "id": "80040227",
+                                                    "speaker": "Player",
+                                                    "text": "Deixa com a gente."
+                                                },
+                                                {
+                                                    "id": "80040228",
+                                                    "speaker": "Paimon",
+                                                    "text": "Ei! Você ignorou a opinião da Paimon!",
+                                                    "choices": [
+                                                        {
+                                                            "id": "80040229",
+                                                            "text": "Uma situação tão peculiar...",
+                                                            "response": [
+                                                                {
+                                                                    "id": "80040231",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "#Bem pensado. Hum... Talvez... talvez você possa encontrar algumas pistas sobre {M#a sua irmã}{F#o seu irmão} desta vez."
+                                                                },
+                                                                {
+                                                                    "id": "80040232",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "Você irá se arrepender se não formos, né?"
+                                                                },
+                                                                {
+                                                                    "id": "80040233",
+                                                                    "speaker": "Yuehui",
+                                                                    "text": "Então vocês vão aceitar esta comissão? Não quero que a minha licença que não foi nada fácil de obter vire desperdício."
+                                                                },
+                                                                {
+                                                                    "id": "80040234",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "#Sim, até porque estamos {M#curiosos}{F#curiosas} também."
+                                                                },
+                                                                {
+                                                                    "id": "80040235",
+                                                                    "speaker": "Yuehui",
+                                                                    "text": "Obrigado pela ajuda! Deixa eu mostrar para vocês em que direção os Hilichurls foram."
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "id": "80040230",
+                                                            "text": "Creio que tem algo a ver com a \"Ordem do Abismo\"."
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "80040224",
+                                            "text": "Essa é realmente uma situação bem bizarra."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "80040205",
+                            "text": "Bem, vamos voltar ao que interessa."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "800407",
+            "objective": "Entre nas Minas Subterrâneas do Despenhadeiro",
+            "dialogues": []
+        },
+        {
+            "id": "800403",
+            "objective": "Vá para o local marcado investigar",
+            "dialogues": [
+                {
+                    "id": "80040301",
+                    "speaker": "Paimon",
+                    "text": "Esta aqui é uma cidade!"
+                },
+                {
+                    "id": "80040302",
+                    "speaker": "Paimon",
+                    "text": "Uma cidade que flutua no ar... E que fica de cabeça para baixo?!",
+                    "choices": [
+                        {
+                            "id": "80040303",
+                            "text": "Que cenário impressionante...",
+                            "response": [
+                                {
+                                    "id": "80040402",
+                                    "speaker": "Paimon",
+                                    "text": "#{NICKNAME}, olhando para este lugar, você está lembrando de algo?"
+                                },
+                                {
+                                    "id": "80040403",
+                                    "speaker": "Paimon",
+                                    "text": "Hum... O que era mesmo?"
+                                },
+                                {
+                                    "id": "80040404",
+                                    "speaker": "Player",
+                                    "text": "\"Estátua Profanada\"."
+                                },
+                                {
+                                    "id": "80040405",
+                                    "speaker": "Paimon",
+                                    "text": "Isso! Isso mesmo! Bizarra, de cabeça para baixo e em certos aspectos, até mesmo impressionante! E essa mesma sensação."
+                                },
+                                {
+                                    "id": "80040406",
+                                    "speaker": "Paimon",
+                                    "text": "Isso quer dizer que a parte debaixo do Despenhadeiro realmente tem a ver com a Ordem do Abismo?"
+                                },
+                                {
+                                    "id": "80040407",
+                                    "speaker": "Paimon",
+                                    "text": "Precisamos arranjar um jeito de investigar isso melhor!"
+                                },
+                                {
+                                    "id": "80040408",
+                                    "speaker": "Paimon",
+                                    "text": "Ah..."
+                                },
+                                {
+                                    "id": "80040409",
+                                    "speaker": "Dainsleif",
+                                    "text": "...",
+                                    "choices": [
+                                        {
+                                            "id": "80040410",
+                                            "text": "Dainsleif?",
+                                            "response": [
+                                                {
+                                                    "id": "80040412",
+                                                    "speaker": "Dainsleif",
+                                                    "text": "Também não achei que iria me encontrar com vocês por aqui."
+                                                },
+                                                {
+                                                    "id": "80040413",
+                                                    "speaker": "Paimon",
+                                                    "text": "Quanto tempo! Dain... Não, espera aí... O que você está fazendo aqui no Despenhadeiro?"
+                                                },
+                                                {
+                                                    "id": "80040414",
+                                                    "speaker": "Dainsleif",
+                                                    "text": "Despenhadeiro... Ou seja, aqui é a parte debaixo do Despenhadeiro? Um lugar que nem mesmo eu já pisei? Então era isso..."
+                                                },
+                                                {
+                                                    "id": "80040415",
+                                                    "speaker": "Player",
+                                                    "text": "Tenho muitas coisas que preciso te perguntar!"
+                                                },
+                                                {
+                                                    "id": "80040416",
+                                                    "speaker": "Dainsleif",
+                                                    "text": "Eu entendo como você deve estar se sentindo já que o nosso encontro e a nossa despedida aconteceram de forma muito repentina da última vez."
+                                                },
+                                                {
+                                                    "id": "80040417",
+                                                    "speaker": "Dainsleif",
+                                                    "text": "Por tal coincidência que acabou de acontecer, o destino realmente te deve uma resposta.",
+                                                    "choices": [
+                                                        {
+                                                            "id": "80040418",
+                                                            "text": "Me esclareça primeiro como você chegou até aqui do nada?",
+                                                            "response": [
+                                                                {
+                                                                    "id": "80040420",
+                                                                    "speaker": "Dainsleif",
+                                                                    "text": "Suponho que não deve ser muito difícil de perceber que eu detectei algumas ações de um Apóstolo do Abismo e então comecei a persegui-lo."
+                                                                },
+                                                                {
+                                                                    "id": "80040421",
+                                                                    "speaker": "Dainsleif",
+                                                                    "text": "Mas infelizmente, aquele cara usou seu truque antigo de novo depois que eu deixei ele sem escolhas."
+                                                                },
+                                                                {
+                                                                    "id": "80040422",
+                                                                    "speaker": "Dainsleif",
+                                                                    "text": "Eu fui seguindo ele e acabei entrando no portal, e como você pode ver, fui teleportado para um lugar errado.",
+                                                                    "choices": [
+                                                                        {
+                                                                            "id": "80040423",
+                                                                            "text": "Então, isso quer dizer que na última vez...",
+                                                                            "response": [
+                                                                                {
+                                                                                    "id": "80040425",
+                                                                                    "speaker": "Dainsleif",
+                                                                                    "text": "Não. De acordo com as minhas experiências recentes, acredito que o Abismo tem o poder de manipular o teleporte... Ao invés de ser ponto a ponto, o teleporte deles tem uma rede integral."
+                                                                                },
+                                                                                {
+                                                                                    "id": "80040426",
+                                                                                    "speaker": "Dainsleif",
+                                                                                    "text": "Isso quer dizer então que o destino do teleporte pode ser qualquer ponto desta rede, e são eles que decidem isso."
+                                                                                },
+                                                                                {
+                                                                                    "id": "80040427",
+                                                                                    "speaker": "Paimon",
+                                                                                    "text": "Isso soa parecido com os Ponto de Teleporte, não?"
+                                                                                },
+                                                                                {
+                                                                                    "id": "80040428",
+                                                                                    "speaker": "Dainsleif",
+                                                                                    "text": "#Enfim, mesmo que daquela vez eu tenha conseguido entrar no portal seguindo {M#a sua irmã}{F#o seu irmão}, no momento seguinte, quando me dei conta, eu já..."
+                                                                                },
+                                                                                {
+                                                                                    "id": "80040429",
+                                                                                    "speaker": "Dainsleif",
+                                                                                    "text": "Estava sozinho, na Toca do Stormterror."
+                                                                                },
+                                                                                {
+                                                                                    "id": "80040430",
+                                                                                    "speaker": "Paimon",
+                                                                                    "text": "Ah, falando nisso, Paimon queria saber como está o olho do primeiro \"Cultivador da Terra\"?"
+                                                                                },
+                                                                                {
+                                                                                    "id": "80040431",
+                                                                                    "speaker": "Dainsleif",
+                                                                                    "text": "Está tudo sob controle... Pode ficar tranquila que antes de eu saber o real motivo do plano do \"Tear do Destino\", ele não cairá nas mãos do Abismo.",
+                                                                                    "choices": [
+                                                                                        {
+                                                                                            "id": "80040432",
+                                                                                            "text": "Por que você não refresca a minha memória?",
+                                                                                            "response": [
+                                                                                                {
+                                                                                                    "id": "80040434",
+                                                                                                    "speaker": "Dainsleif",
+                                                                                                    "text": "Ha, você memorizou este título, é?"
+                                                                                                },
+                                                                                                {
+                                                                                                    "id": "80040435",
+                                                                                                    "speaker": "Dainsleif",
+                                                                                                    "text": "Não que eu esteja escondendo de propósito, mas ele uma vez testemunhou a glória de Khaenri'ah, e agora..."
+                                                                                                },
+                                                                                                {
+                                                                                                    "id": "80040436",
+                                                                                                    "speaker": "Dainsleif",
+                                                                                                    "text": "Este título parece mais uma ironia, ou uma espécie de maldição..."
+                                                                                                },
+                                                                                                {
+                                                                                                    "id": "80040437",
+                                                                                                    "speaker": "Dainsleif",
+                                                                                                    "text": "Eu, como o capitão dos guardas reais que testemunhou a destruição da própria pátria, acredito que tenho um motivo muito bem justificado de não querer mais lembrar sobre este título."
+                                                                                                },
+                                                                                                {
+                                                                                                    "id": "80040438",
+                                                                                                    "speaker": "Paimon",
+                                                                                                    "text": "#Parece que {M#a sua irmã}{F#o seu irmão} estava {M#certa}{F#certo}.",
+                                                                                                    "choices": [
+                                                                                                        {
+                                                                                                            "id": "80040439",
+                                                                                                            "text": "#Então o que realmente aconteceu entre mim e {M#a minha irmã}{F#o meu irmão}...",
+                                                                                                            "response": [
+                                                                                                                {
+                                                                                                                    "id": "80040441",
+                                                                                                                    "speaker": "Dainsleif",
+                                                                                                                    "text": "Éramos companheiros de viagem."
+                                                                                                                },
+                                                                                                                {
+                                                                                                                    "id": "80040442",
+                                                                                                                    "speaker": "Dainsleif",
+                                                                                                                    "text": "Foi uma jornada dolorosa em busca do nosso destino, mas infelizmente... Não conseguimos chegar até o final da jornada juntos..."
+                                                                                                                },
+                                                                                                                {
+                                                                                                                    "id": "80040443",
+                                                                                                                    "speaker": "Player",
+                                                                                                                    "text": "O final da jornada..."
+                                                                                                                },
+                                                                                                                {
+                                                                                                                    "id": "80040444",
+                                                                                                                    "speaker": "Dainsleif",
+                                                                                                                    "text": "Antes de você continuar com as suas perguntas sem fim, tenho a obrigação de te dizer que..."
+                                                                                                                },
+                                                                                                                {
+                                                                                                                    "id": "80040445",
+                                                                                                                    "speaker": "Dainsleif",
+                                                                                                                    "text": "Se meus palpites sobre a rede do teleporte estiverem certos, e pelo fato de eu ter sido teleportado de novo para cá, para a Ordem do Abismo, deve então existir um porquê deles terem estabelecido um ponto de teleporte por aqui."
+                                                                                                                },
+                                                                                                                {
+                                                                                                                    "id": "80040446",
+                                                                                                                    "speaker": "Paimon",
+                                                                                                                    "text": "#Você quer dizer que a Ordem do Abismo está conspirando algo ruim por aqui? Isso coincide com o que eu e {NICKNAME} estávamos pensando."
+                                                                                                                },
+                                                                                                                {
+                                                                                                                    "id": "80040447",
+                                                                                                                    "speaker": "Dainsleif",
+                                                                                                                    "text": "Então, agora, neste momento, é muito possível que a gente esteja sendo vigiado pelo Abismo."
+                                                                                                                },
+                                                                                                                {
+                                                                                                                    "id": "80040448",
+                                                                                                                    "speaker": "Paimon",
+                                                                                                                    "text": "Pare... Pare de dizer isso. Paimon está ficando arrepiada!",
+                                                                                                                    "choices": [
+                                                                                                                        {
+                                                                                                                            "id": "80040449",
+                                                                                                                            "text": "Vamos investigar primeiro.",
+                                                                                                                            "response": [
+                                                                                                                                {
+                                                                                                                                    "id": "80040451",
+                                                                                                                                    "speaker": "Dainsleif",
+                                                                                                                                    "text": "Hehe, escolha sensata. Parece haver um brilho lá no muro, vamos dar uma olhada lá."
+                                                                                                                                }
+                                                                                                                            ]
+                                                                                                                        },
+                                                                                                                        {
+                                                                                                                            "id": "80040450",
+                                                                                                                            "text": "Eu acredito em você, por enquanto."
+                                                                                                                        }
+                                                                                                                    ]
+                                                                                                                }
+                                                                                                            ]
+                                                                                                        },
+                                                                                                        {
+                                                                                                            "id": "80040440",
+                                                                                                            "text": "O que aconteceu entre vocês dois?"
+                                                                                                        }
+                                                                                                    ]
+                                                                                                }
+                                                                                            ]
+                                                                                        },
+                                                                                        {
+                                                                                            "id": "80040433",
+                                                                                            "text": "\"Espada do Crepúsculo\"."
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        {
+                                                                            "id": "80040424",
+                                                                            "text": "#Você não conseguiu alcançar {M#a minha irmã}{F#o meu irmão} com o portal?"
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "id": "80040419",
+                                                            "text": "E o que era aquele portal?"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "80040411",
+                                            "text": "Que entrada impressionante."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "80040304",
+                            "text": "Isso realmente foi além da minha imaginação..."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "800405",
+            "objective": "Vá para o local marcado investigar",
+            "dialogues": [
+                {
+                    "id": "80040501",
+                    "speaker": "Yuehui",
+                    "text": "Obter esta licença de extração me custou muito... Conto com vocês com o restante hein!"
+                }
+            ]
+        },
+        {
+            "id": "800404",
+            "objective": "Vá para o local marcado investigar",
+            "dialogues": []
+        },
+        {
+            "id": "800404",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "80040401",
+                    "speaker": "Paimon",
+                    "text": "É por aqui que o minerador quer que a gente investigue?"
+                }
+            ]
+        },
+        {
+            "id": "800499",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "80049901",
+                    "speaker": "Paimon",
+                    "text": "Acho que não tem como entrar por aqui... Hum, será que a gente não consegue abrir este buraco?"
+                }
+            ]
+        }
+    ]
+}

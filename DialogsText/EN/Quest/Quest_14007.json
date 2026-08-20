@@ -1,0 +1,2347 @@
+{
+    "quest": {
+        "id": "14007",
+        "title": "A Familiar Threat",
+        "description": "Paimon is curious about Neuvillette. Go talk to him.",
+        "rewards": [
+            {
+                "itemId": 102,
+                "count": 625
+            },
+            {
+                "itemId": 202,
+                "count": 44000
+            },
+            {
+                "itemId": 104003,
+                "count": 5
+            },
+            {
+                "itemId": 104013,
+                "count": 10
+            }
+        ],
+        "rewards_formatted": "Adventure EXP x625, Mora x44000, Hero's Wit x5, Mystic Enhancement Ore x10",
+        "chapter": {
+            "icon": "UI_ChapterIcon_Neuvillette",
+            "id": "2041",
+            "num": "Diluvies Chapter: Act I",
+            "title": "The Remains of the Past Day"
+        },
+        "total_dialogue_lines": 425,
+        "total_speaker_counts": {
+            "\"Neuvillette's Note\"": 1,
+            "About Wriothesley...": 3,
+            "About the Representative Council's proposal...": 3,
+            "About the Spina di Rosula...": 3,
+            "About the bribery case...": 3,
+            "About the smuggling case...": 3,
+            "Black Screen": 4,
+            "Charlotte": 16,
+            "Clorinde": 6,
+            "Eloffe": 10,
+            "Graciette": 2,
+            "Kiara": 29,
+            "Neuvillette": 159,
+            "Paimon": 124,
+            "Player": 42,
+            "Sedene": 15,
+            "Trudaine": 2
+        }
+    },
+    "talks": [
+        {
+            "id": "1400701",
+            "objective": "Go to the Palais Mermonia",
+            "dialogues": [
+                {
+                    "id": "140070101",
+                    "speaker": "Sedene",
+                    "text": "Wait, did I hear that right? Monsieur Neuvillette, are you sure you'd like to take over the case yourself?"
+                },
+                {
+                    "id": "140070102",
+                    "speaker": "Neuvillette",
+                    "text": "That's right."
+                },
+                {
+                    "id": "140070103",
+                    "speaker": "Sedene",
+                    "text": "But why? Technically speaking, cases like this are better left to the Gardes..."
+                },
+                {
+                    "id": "140070104",
+                    "speaker": "Paimon",
+                    "text": "Neuvillette, Sedene, hey there! What are you two talking about?"
+                },
+                {
+                    "id": "140070105",
+                    "speaker": "Sedene",
+                    "text": "#{NICKNAME} and Paimon, please help me talk our Chief Justice out of this. He wants to investigate a case on his own!"
+                },
+                {
+                    "id": "140070106",
+                    "speaker": "Sedene",
+                    "text": "This is completely unprecedented. How can we have the Iudex acting like a private detective?",
+                    "choices": [
+                        {
+                            "id": "140070107",
+                            "text": "Planning to break into a new industry?",
+                            "response": [
+                                {
+                                    "id": "140070108",
+                                    "speaker": "Neuvillette",
+                                    "text": "Thank you for your concern, but I currently have no such plans."
+                                },
+                                {
+                                    "id": "140070109",
+                                    "speaker": "Neuvillette",
+                                    "text": "Oh... apologies. I took your question in earnest, but it now occurs to me that it was mostly likely in jest."
+                                },
+                                {
+                                    "id": "140070112",
+                                    "speaker": "Paimon",
+                                    "text": "So what is it exactly? It sure sounds serious if it's something you've got to investigate personally!"
+                                },
+                                {
+                                    "id": "140070113",
+                                    "speaker": "Neuvillette",
+                                    "text": "A Melusine named Kiara received a threat letter."
+                                },
+                                {
+                                    "id": "140070114",
+                                    "speaker": "Paimon",
+                                    "text": "And then...?"
+                                },
+                                {
+                                    "id": "140070115",
+                                    "speaker": "Neuvillette",
+                                    "text": "That is all the information I have acquired at this stage."
+                                },
+                                {
+                                    "id": "140070116",
+                                    "speaker": "Paimon",
+                                    "text": "Huh?"
+                                },
+                                {
+                                    "id": "140070117",
+                                    "speaker": "Sedene",
+                                    "text": "*sigh* I have no idea why you're so hung up over this."
+                                },
+                                {
+                                    "id": "140070118",
+                                    "speaker": "Sedene",
+                                    "text": "I've checked the schedule in advance, and it seems like there aren't any trials today. So if you insist... I have no objections."
+                                },
+                                {
+                                    "id": "140070119",
+                                    "speaker": "Neuvillette",
+                                    "text": "Thank you for understanding. I will leave a note explaining my absence on my desk — I would appreciate it if you could take it to Lady Furina."
+                                },
+                                {
+                                    "id": "140070120",
+                                    "speaker": "Neuvillette",
+                                    "text": "She may have no interest in official affairs, but standard procedure dictates that I'm still responsible for reporting to her."
+                                },
+                                {
+                                    "id": "140070121",
+                                    "speaker": "Sedene",
+                                    "text": "Yes yes! Understood. I'll come back later and deliver the note to her."
+                                },
+                                {
+                                    "id": "140070122",
+                                    "speaker": "Paimon",
+                                    "text": "Judging from Sedene's reaction, it must be pretty rare for you to investigate stuff personally. What's so special about this case?"
+                                },
+                                {
+                                    "id": "140070123",
+                                    "speaker": "Neuvillette",
+                                    "text": "I cannot tell you just yet, but it reminded me of certain past events."
+                                },
+                                {
+                                    "id": "140070124",
+                                    "speaker": "Neuvillette",
+                                    "text": "There could be complicated conflicts of interest behind all this, so I must eliminate all risks in advance.",
+                                    "choices": [
+                                        {
+                                            "id": "140070125",
+                                            "text": "Conflicts of interest?",
+                                            "response": [
+                                                {
+                                                    "id": "140070127",
+                                                    "speaker": "Paimon",
+                                                    "text": "C'mon, stop being so secretive! We still have no idea what's going on!"
+                                                },
+                                                {
+                                                    "id": "140070128",
+                                                    "speaker": "Neuvillette",
+                                                    "text": "It is not my intention to keep you in the dark, but I need some time to revisit those memories and collect my thoughts."
+                                                },
+                                                {
+                                                    "id": "140070129",
+                                                    "speaker": "Neuvillette",
+                                                    "text": "Long story short... A little more than four hundred years ago, I became the Iudex of Fontaine and initiated a series of institutional reforms."
+                                                },
+                                                {
+                                                    "id": "140070130",
+                                                    "speaker": "Neuvillette",
+                                                    "text": "There were few people I could trust, but I had two subordinates who were exceptionally trustworthy and capable: Carole, a Melusine, and Vautrin, leader of the Special Security and Surveillance Patrol."
+                                                },
+                                                {
+                                                    "id": "140070131",
+                                                    "speaker": "Paimon",
+                                                    "text": "They must've been amazing people to receive such high praise from you!"
+                                                },
+                                                {
+                                                    "id": "140070132",
+                                                    "speaker": "Neuvillette",
+                                                    "text": "Indeed. Unfortunately, I wasn't able to protect them."
+                                                },
+                                                {
+                                                    "id": "140070133",
+                                                    "speaker": "Neuvillette",
+                                                    "text": "The reforms damaged the interests of some, and the more conservative faction took advantage of Carole's identity to instigate political unrest. Ultimately, they wanted me to yield more of my power."
+                                                },
+                                                {
+                                                    "id": "140070134",
+                                                    "speaker": "Neuvillette",
+                                                    "text": "The incident resulted in Carole taking her own life and Vautrin being exiled. From then on, I've been especially careful when dealing with cases related to Melusines.",
+                                                    "choices": [
+                                                        {
+                                                            "id": "140070135",
+                                                            "text": "You're concerned that you're the perpetrator's real target?",
+                                                            "response": [
+                                                                {
+                                                                    "id": "140070137",
+                                                                    "speaker": "Neuvillette",
+                                                                    "text": "All Melusines used to live a secluded life away from human society."
+                                                                },
+                                                                {
+                                                                    "id": "140070138",
+                                                                    "speaker": "Neuvillette",
+                                                                    "text": "I granted their wishes when some of them, including Carole, asked me to bring them to the Court of Fontaine."
+                                                                },
+                                                                {
+                                                                    "id": "140070139",
+                                                                    "speaker": "Neuvillette",
+                                                                    "text": "Many common folk believe that I share a special bond with the Melusines, and whatever they do can be traced back to me."
+                                                                },
+                                                                {
+                                                                    "id": "140070140",
+                                                                    "speaker": "Neuvillette",
+                                                                    "text": "Some of them — especially those who hold a grudge against me — exploit that belief and stir up conflict over Melusines in an attempt to lay the blame on me."
+                                                                },
+                                                                {
+                                                                    "id": "140070141",
+                                                                    "speaker": "Neuvillette",
+                                                                    "text": "I have nothing against the opinions of others, but the moment a whirlpool of conspiracy forms, it inevitably affects the innocent."
+                                                                },
+                                                                {
+                                                                    "id": "140070142",
+                                                                    "speaker": "Neuvillette",
+                                                                    "text": "And it's already happened once, and I want to make sure it does not happen again."
+                                                                },
+                                                                {
+                                                                    "id": "140070143",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "Um, even so, why do you have to be the one investigating?"
+                                                                },
+                                                                {
+                                                                    "id": "140070144",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "There's the Gardes, the Marechaussee Phantom, and the Special Security and Surveillance Patrol! Aren't they more than enough to figure out what's going on?"
+                                                                },
+                                                                {
+                                                                    "id": "140070145",
+                                                                    "speaker": "Neuvillette",
+                                                                    "text": "Based on prior experience, there's a high chance that those who hold hostility towards me do not belong to the same department."
+                                                                },
+                                                                {
+                                                                    "id": "140070146",
+                                                                    "speaker": "Neuvillette",
+                                                                    "text": "The political system of Fontaine is relatively complex and involves the interests of multiple different factions."
+                                                                },
+                                                                {
+                                                                    "id": "140070147",
+                                                                    "speaker": "Neuvillette",
+                                                                    "text": "However, since I am technically an outsider in Fontaine, a lot of trouble could be avoided if I personally took on the case."
+                                                                },
+                                                                {
+                                                                    "id": "140070148",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "Outsider?"
+                                                                },
+                                                                {
+                                                                    "id": "140070149",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "But aren't you the Chief Justice of Fontaine? Why would you be an outsider?"
+                                                                },
+                                                                {
+                                                                    "id": "140070150",
+                                                                    "speaker": "Neuvillette",
+                                                                    "text": "I understand where you're coming from, but there is not necessarily a connection between my responsibilities and how I perceive myself."
+                                                                },
+                                                                {
+                                                                    "id": "140070151",
+                                                                    "speaker": "Neuvillette",
+                                                                    "text": "You know very well about my true identity and have even met others of my kind in other nations..."
+                                                                },
+                                                                {
+                                                                    "id": "140070152",
+                                                                    "speaker": "Player",
+                                                                    "text": "The Hydro Dragon Sovereign..."
+                                                                },
+                                                                {
+                                                                    "id": "140070153",
+                                                                    "speaker": "Neuvillette",
+                                                                    "text": "Even though I was born with a human form, there's a fundamental difference between dragons and humans."
+                                                                },
+                                                                {
+                                                                    "id": "140070154",
+                                                                    "speaker": "Neuvillette",
+                                                                    "text": "Taking on the role of Chief Justice does not make me a part of this community. In fact, the status I was granted has prevented me from forming deeper bonds with others."
+                                                                },
+                                                                {
+                                                                    "id": "140070155",
+                                                                    "speaker": "Neuvillette",
+                                                                    "text": "I have lived in Fontaine for a long time, but I do not belong here. That is why I call myself an outsider — a fish out of water.",
+                                                                    "choices": [
+                                                                        {
+                                                                            "id": "140070156",
+                                                                            "text": "If you put it that way...",
+                                                                            "response": [
+                                                                                {
+                                                                                    "id": "140070158",
+                                                                                    "speaker": "Paimon",
+                                                                                    "text": "Yeah! We have nothing to do with all those organizations anyway, so how about we come with you on your investigation?"
+                                                                                },
+                                                                                {
+                                                                                    "id": "140070159",
+                                                                                    "speaker": "Paimon",
+                                                                                    "text": "Let's team up and round up all the bad guys lurking in the dark!"
+                                                                                },
+                                                                                {
+                                                                                    "id": "140070160",
+                                                                                    "speaker": "Neuvillette",
+                                                                                    "text": "...That does not sound like a bad idea. I rarely investigate cases on my own, but with professionals like you around, I'm sure it'll go a lot smoother."
+                                                                                },
+                                                                                {
+                                                                                    "id": "140070161",
+                                                                                    "speaker": "Paimon",
+                                                                                    "text": "Hehe, Paimon's starting to get a little embarrassed. Just leave it to us!"
+                                                                                },
+                                                                                {
+                                                                                    "id": "140070162",
+                                                                                    "speaker": "Neuvillette",
+                                                                                    "text": "I'll write my note of absence right away. Let us depart together once I am done."
+                                                                                },
+                                                                                {
+                                                                                    "id": "140070163",
+                                                                                    "speaker": "Black Screen",
+                                                                                    "text": "Neuvillette writes a note to Furina and sets it on the desk."
+                                                                                },
+                                                                                {
+                                                                                    "id": "140070164",
+                                                                                    "speaker": "Neuvillette",
+                                                                                    "text": "Let us go. We should visit Kiara first and try to gain a better understanding of the situation."
+                                                                                },
+                                                                                {
+                                                                                    "id": "140070165",
+                                                                                    "speaker": "Paimon",
+                                                                                    "text": "Um, so Neuvillette feels like he doesn't truly belong here in Fontaine, but is that really true?"
+                                                                                },
+                                                                                {
+                                                                                    "id": "140070166",
+                                                                                    "speaker": "Paimon",
+                                                                                    "text": "Paimon feels like he has a kinda... skewed perspective on a lot of things. Anyway, let's catch up with him first!"
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        {
+                                                                            "id": "140070157",
+                                                                            "text": "We're also outsiders to Fontaine."
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "id": "140070136",
+                                                            "text": "Seems like they're using Melusines against you..."
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "140070126",
+                                            "text": "Care to explain in detail?"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "140070110",
+                            "text": "I can introduce you to some amazing detectives.",
+                            "response": [
+                                {
+                                    "id": "140070111",
+                                    "speaker": "Neuvillette",
+                                    "text": "I trust that you'd be able to work that out with how well-connected you are, but I must apologize. I do not plan on relying on anyone else's help for this matter."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "1400702",
+            "objective": "Talk to Neuvillette",
+            "dialogues": []
+        },
+        {
+            "id": "1400703",
+            "objective": "Ask Kiara about the threatening letter",
+            "dialogues": [
+                {
+                    "id": "140070501",
+                    "speaker": "Kiara",
+                    "text": "Whew... The weather's amazing today."
+                },
+                {
+                    "id": "140070502",
+                    "speaker": "Neuvillette",
+                    "text": "Kiara."
+                },
+                {
+                    "id": "140070503",
+                    "speaker": "Kiara",
+                    "text": "Huh, Monsieur Neuvillette! And you are..."
+                },
+                {
+                    "id": "140070504",
+                    "speaker": "Kiara",
+                    "text": "#Oh, I remember! You're {NICKNAME} and Paimon. I've heard about you."
+                },
+                {
+                    "id": "140070505",
+                    "speaker": "Paimon",
+                    "text": "Aww, she's adorable! Hey there, it's nice to meet you!"
+                },
+                {
+                    "id": "140070506",
+                    "speaker": "Kiara",
+                    "text": "Hehe, thanks for the compliment. Is there anything I can do for you?"
+                },
+                {
+                    "id": "140070507",
+                    "speaker": "Neuvillette",
+                    "text": "I heard from Sedene that you received a threatening letter."
+                },
+                {
+                    "id": "140070508",
+                    "speaker": "Kiara",
+                    "text": "A threatening letter... Oh, right, I remember now."
+                },
+                {
+                    "id": "140070509",
+                    "speaker": "Kiara",
+                    "text": "The letter fell through the crack in my door as I was heading out this morning. It said something about catching me, so I thought someone wanted to play hide-and-seek."
+                },
+                {
+                    "id": "140070510",
+                    "speaker": "Kiara",
+                    "text": "But Sedene told me it was a threatening letter and that I could be in danger. But that's not gonna happen with everyone looking after me, right?"
+                },
+                {
+                    "id": "140070511",
+                    "speaker": "Neuvillette",
+                    "text": "Have you run into any suspicious-looking people recently?"
+                },
+                {
+                    "id": "140070512",
+                    "speaker": "Kiara",
+                    "text": "Suspicious-looking people? What counts as suspicious?",
+                    "choices": [
+                        {
+                            "id": "140070513",
+                            "text": "Someone who follows you from behind?",
+                            "response": [
+                                {
+                                    "id": "140070515",
+                                    "speaker": "Kiara",
+                                    "text": "Ah!"
+                                },
+                                {
+                                    "id": "140070516",
+                                    "speaker": "Paimon",
+                                    "text": "Did you think of something?"
+                                },
+                                {
+                                    "id": "140070517",
+                                    "speaker": "Kiara",
+                                    "text": "Nope! I don't remember meeting anyone like that!"
+                                },
+                                {
+                                    "id": "140070518",
+                                    "speaker": "Neuvillette",
+                                    "text": "Do you still have the letter with you? I want you to show me what it says."
+                                },
+                                {
+                                    "id": "140070519",
+                                    "speaker": "Kiara",
+                                    "text": "Oh, ah... Let's see... Found it!"
+                                },
+                                {
+                                    "id": "140070520",
+                                    "speaker": "Neuvillette",
+                                    "text": "Now then... \"Get lost! If you don't leave the Marechaussee Phantom, I will come and catch you in person. Don't say I didn't warn you!\""
+                                },
+                                {
+                                    "id": "140070521",
+                                    "speaker": "Neuvillette",
+                                    "text": "Hmm, a simple threat. Neither the handwriting nor the content itself reveals anything about the writer's intentions."
+                                },
+                                {
+                                    "id": "140070522",
+                                    "speaker": "Player",
+                                    "text": "Are they concealing their identity on purpose?"
+                                },
+                                {
+                                    "id": "140070523",
+                                    "speaker": "Neuvillette",
+                                    "text": "We can't rule out that possibility."
+                                },
+                                {
+                                    "id": "140070524",
+                                    "speaker": "Neuvillette",
+                                    "text": "Since you can't think of anyone suspicious, I'll be heading back to the Palais Mermonia to review some official documents."
+                                },
+                                {
+                                    "id": "140070525",
+                                    "speaker": "Neuvillette",
+                                    "text": "Kiara, you should come with us. It's safer if you stay close by."
+                                },
+                                {
+                                    "id": "140070526",
+                                    "speaker": "Kiara",
+                                    "text": "Sure!"
+                                },
+                                {
+                                    "id": "140070527",
+                                    "speaker": "Kiara",
+                                    "text": "Wait, no, no, no, I still have a case to work on! I promised Eloffe that I'd check on her place later."
+                                },
+                                {
+                                    "id": "140070528",
+                                    "speaker": "Neuvillette",
+                                    "text": "But you're being watched right now. Going off on your own could be dangerous..."
+                                },
+                                {
+                                    "id": "140070529",
+                                    "speaker": "Paimon",
+                                    "text": "And that's where we come in to help! We'll stay with Kiara and make sure she's safe."
+                                },
+                                {
+                                    "id": "140070530",
+                                    "speaker": "Paimon",
+                                    "text": "With us around, anyone scheming to hurt Kiara can forget about it!"
+                                },
+                                {
+                                    "id": "140070531",
+                                    "speaker": "Kiara",
+                                    "text": "#Thank you, {NICKNAME}, Big Sis Paimon!"
+                                },
+                                {
+                                    "id": "140070532",
+                                    "speaker": "Player",
+                                    "text": "Big Sis Paimon..."
+                                },
+                                {
+                                    "id": "140070533",
+                                    "speaker": "Paimon",
+                                    "text": "Uh... Ahem! Don't worry, your Big Sis Paimon is super strong!"
+                                },
+                                {
+                                    "id": "140070534",
+                                    "speaker": "Neuvillette",
+                                    "text": "Alright, let us go our separate ways for now. Please take care of Kiara."
+                                },
+                                {
+                                    "id": "140070535",
+                                    "speaker": "Paimon",
+                                    "text": "We'll take her to Eloffe's place right away. See you around!"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "140070514",
+                            "text": "Someone who always strikes up a conversation with you?"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "1400704",
+            "objective": "Protect Kiara during her work",
+            "dialogues": [
+                {
+                    "id": "140070401",
+                    "speaker": "Graciette",
+                    "text": "We should've gone up to him and said something..."
+                },
+                {
+                    "id": "140070402",
+                    "speaker": "Trudaine",
+                    "text": "Yeah, that was the perfect opportunity..."
+                }
+            ]
+        },
+        {
+            "id": "1400719",
+            "objective": "Follow Kiara",
+            "dialogues": [
+                {
+                    "id": "140071901",
+                    "speaker": "Sedene",
+                    "text": "Huh? Did I hear that right? Monsieur Neuvillette, are you sure you'd like to take over the case yourself?"
+                },
+                {
+                    "id": "140071902",
+                    "speaker": "Neuvillette",
+                    "text": "That's right."
+                },
+                {
+                    "id": "140071903",
+                    "speaker": "Sedene",
+                    "text": "But why? Technically speaking, cases like this are better left to the Gardes..."
+                },
+                {
+                    "id": "140071904",
+                    "speaker": "Paimon",
+                    "text": "Neuvillette, Sedene, hey there! What are you two talking about?"
+                },
+                {
+                    "id": "140071905",
+                    "speaker": "Sedene",
+                    "text": "#{NICKNAME} and Paimon, please help me talk our Chief Justice out of this. He wants to investigate a case on his own!"
+                },
+                {
+                    "id": "140071906",
+                    "speaker": "Sedene",
+                    "text": "This is completely unprecedented. How can we have the Iudex acting like a private detective?",
+                    "choices": [
+                        {
+                            "id": "140071907",
+                            "text": "Starting a new job?",
+                            "response": [
+                                {
+                                    "id": "140071908",
+                                    "speaker": "Neuvillette",
+                                    "text": "Thank you for your concern, but I currently have no such plans."
+                                },
+                                {
+                                    "id": "140071909",
+                                    "speaker": "Neuvillette",
+                                    "text": "Oh... apologies. I took your question in earnest, but it now occurs to me that it was mostly likely in jest."
+                                },
+                                {
+                                    "id": "140071912",
+                                    "speaker": "Paimon",
+                                    "text": "So what is it exactly? It sure sounds serious if it's something you've got to investigate personally!"
+                                },
+                                {
+                                    "id": "140071913",
+                                    "speaker": "Neuvillette",
+                                    "text": "A Melusine named Kiara received a threat letter."
+                                },
+                                {
+                                    "id": "140071914",
+                                    "speaker": "Paimon",
+                                    "text": "And then...?"
+                                },
+                                {
+                                    "id": "140071915",
+                                    "speaker": "Neuvillette",
+                                    "text": "That is all the information I have acquired at this stage."
+                                },
+                                {
+                                    "id": "140071916",
+                                    "speaker": "Paimon",
+                                    "text": "Huh?"
+                                },
+                                {
+                                    "id": "140071917",
+                                    "speaker": "Sedene",
+                                    "text": "*sigh* I have no idea why you're so hung up over this."
+                                },
+                                {
+                                    "id": "140071918",
+                                    "speaker": "Sedene",
+                                    "text": "I've checked the schedule in advance, and it seems like there aren't any trials today. So if you insist... I have no objections."
+                                },
+                                {
+                                    "id": "140071919",
+                                    "speaker": "Neuvillette",
+                                    "text": "Thank you for understanding."
+                                },
+                                {
+                                    "id": "140071920",
+                                    "speaker": "Sedene",
+                                    "text": "Then I shall return to my post for now. Should anyone visit while you are away, I will be sure to make a record of it. I sincerely hope that you will return soon."
+                                },
+                                {
+                                    "id": "140071921",
+                                    "speaker": "Paimon",
+                                    "text": "Judging from Sedene's reaction, it must be pretty rare for you to investigate stuff personally. What's so special about this case?"
+                                },
+                                {
+                                    "id": "140071922",
+                                    "speaker": "Neuvillette",
+                                    "text": "I can't tell you just yet, but it reminded me of certain past events."
+                                },
+                                {
+                                    "id": "140071923",
+                                    "speaker": "Neuvillette",
+                                    "text": "There could be complicated conflicts of interest behind all this, so I must eliminate all risks in advance.",
+                                    "choices": [
+                                        {
+                                            "id": "140071924",
+                                            "text": "Conflicts of interest?",
+                                            "response": [
+                                                {
+                                                    "id": "140071926",
+                                                    "speaker": "Paimon",
+                                                    "text": "C'mon, stop being so secretive! We still have no idea what's going on!"
+                                                },
+                                                {
+                                                    "id": "140071927",
+                                                    "speaker": "Neuvillette",
+                                                    "text": "It is not my intention to keep you in the dark, but I need some time to revisit those memories and collect my thoughts."
+                                                },
+                                                {
+                                                    "id": "140071928",
+                                                    "speaker": "Neuvillette",
+                                                    "text": "Long story short... A little more than four hundred years ago, I became the Iudex of Fontaine and initiated a series of institutional reforms."
+                                                },
+                                                {
+                                                    "id": "140071929",
+                                                    "speaker": "Neuvillette",
+                                                    "text": "There were few people I could trust, but I had two subordinates who were exceptionally trustworthy and capable: Carole, a Melusine, and Vautrin, leader of the Special Security and Surveillance Patrol."
+                                                },
+                                                {
+                                                    "id": "140071930",
+                                                    "speaker": "Paimon",
+                                                    "text": "They must've been amazing people to receive such high praise from you!"
+                                                },
+                                                {
+                                                    "id": "140071931",
+                                                    "speaker": "Neuvillette",
+                                                    "text": "Indeed. Unfortunately, I wasn't able to protect them."
+                                                },
+                                                {
+                                                    "id": "140071932",
+                                                    "speaker": "Neuvillette",
+                                                    "text": "The reforms damaged the interests of some, and the more conservative faction took advantage of Carole's identity to instigate political unrest. Ultimately, they wanted me to yield more of my power."
+                                                },
+                                                {
+                                                    "id": "140071933",
+                                                    "speaker": "Neuvillette",
+                                                    "text": "The incident resulted in Carole taking her own life and Vautrin being exiled. From then on, I've been especially careful when dealing with cases related to Melusines.",
+                                                    "choices": [
+                                                        {
+                                                            "id": "140071934",
+                                                            "text": "You're concerned that you're the perpetrator's real target?",
+                                                            "response": [
+                                                                {
+                                                                    "id": "140071936",
+                                                                    "speaker": "Neuvillette",
+                                                                    "text": "All Melusines used to live a secluded life away from human society."
+                                                                },
+                                                                {
+                                                                    "id": "140071937",
+                                                                    "speaker": "Neuvillette",
+                                                                    "text": "I granted their wishes when some of them, including Carole, asked me to bring them to the Court of Fontaine."
+                                                                },
+                                                                {
+                                                                    "id": "140071938",
+                                                                    "speaker": "Neuvillette",
+                                                                    "text": "Many common folk believe that I share a special bond with the Melusines, and whatever they do can be traced back to me."
+                                                                },
+                                                                {
+                                                                    "id": "140071939",
+                                                                    "speaker": "Neuvillette",
+                                                                    "text": "Some of them — especially those who hold a grudge against me — exploit that belief and stir up conflict over Melusines in an attempt to lay the blame on me."
+                                                                },
+                                                                {
+                                                                    "id": "140071940",
+                                                                    "speaker": "Neuvillette",
+                                                                    "text": "I have nothing against the opinions of others, but the moment a whirlpool of conspiracy forms, it inevitably affects the innocent."
+                                                                },
+                                                                {
+                                                                    "id": "140071941",
+                                                                    "speaker": "Neuvillette",
+                                                                    "text": "It's already happened once, and I want to make sure it does not happen again."
+                                                                },
+                                                                {
+                                                                    "id": "140071942",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "Um, even so, why do you have to be the one investigating?"
+                                                                },
+                                                                {
+                                                                    "id": "140071943",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "There's the Gardes, the Marechaussee Phantom, and the Special Security and Surveillance Patrol! Aren't they more than enough to figure out what's going on?"
+                                                                },
+                                                                {
+                                                                    "id": "140071944",
+                                                                    "speaker": "Neuvillette",
+                                                                    "text": "Based on prior experience, there's a high chance that those who hold hostility towards me don't belong to the same department."
+                                                                },
+                                                                {
+                                                                    "id": "140071945",
+                                                                    "speaker": "Neuvillette",
+                                                                    "text": "The political system of Fontaine is relatively complex and involves the interests of multiple different factions."
+                                                                },
+                                                                {
+                                                                    "id": "140071946",
+                                                                    "speaker": "Neuvillette",
+                                                                    "text": "However, since I am technically an outsider in Fontaine, a lot of trouble could be avoided if I personally took on the case."
+                                                                },
+                                                                {
+                                                                    "id": "140071947",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "Outsider?"
+                                                                },
+                                                                {
+                                                                    "id": "140071948",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "But aren't you the Chief Justice of Fontaine? Why would you be an outsider?"
+                                                                },
+                                                                {
+                                                                    "id": "140071949",
+                                                                    "speaker": "Neuvillette",
+                                                                    "text": "I understand where you're coming from, but there is not necessarily a connection between my responsibilities and how I perceive myself."
+                                                                },
+                                                                {
+                                                                    "id": "140071950",
+                                                                    "speaker": "Neuvillette",
+                                                                    "text": "You know very well about my true identity and have even met others of my kind in other nations..."
+                                                                },
+                                                                {
+                                                                    "id": "140071951",
+                                                                    "speaker": "Player",
+                                                                    "text": "The Hydro Dragon Sovereign..."
+                                                                },
+                                                                {
+                                                                    "id": "140071952",
+                                                                    "speaker": "Neuvillette",
+                                                                    "text": "Even though I was born with a human form, there's a fundamental difference between dragons and humans."
+                                                                },
+                                                                {
+                                                                    "id": "140071953",
+                                                                    "speaker": "Neuvillette",
+                                                                    "text": "Taking on the role of Chief Justice doesn't make me a part of this community. In fact, the status I was granted has prevented me from forming deeper bonds with others."
+                                                                },
+                                                                {
+                                                                    "id": "140071954",
+                                                                    "speaker": "Neuvillette",
+                                                                    "text": "I've lived in Fontaine for a long time, I do not belong here. That's why I call myself an outsider — a fish out of water.",
+                                                                    "choices": [
+                                                                        {
+                                                                            "id": "140071955",
+                                                                            "text": "If you put it that way...",
+                                                                            "response": [
+                                                                                {
+                                                                                    "id": "140071957",
+                                                                                    "speaker": "Paimon",
+                                                                                    "text": "Yeah! We have nothing to do with all those organizations anyway, so how about we come with you on your investigation?"
+                                                                                },
+                                                                                {
+                                                                                    "id": "140071958",
+                                                                                    "speaker": "Paimon",
+                                                                                    "text": "Let's team up and round up all the bad guys lurking in the dark!"
+                                                                                },
+                                                                                {
+                                                                                    "id": "140071959",
+                                                                                    "speaker": "Neuvillette",
+                                                                                    "text": "...That does not sound like a bad idea. I rarely investigate cases on my own, but with professionals like you around, I'm sure it'll go a lot smoother."
+                                                                                },
+                                                                                {
+                                                                                    "id": "140071960",
+                                                                                    "speaker": "Paimon",
+                                                                                    "text": "Hehe, Paimon's starting to get a little embarrassed. Just leave it to us!"
+                                                                                },
+                                                                                {
+                                                                                    "id": "140071961",
+                                                                                    "speaker": "Neuvillette",
+                                                                                    "text": "Let us go. We should visit Kiara first and try to gain a better understanding of the situation."
+                                                                                },
+                                                                                {
+                                                                                    "id": "140071962",
+                                                                                    "speaker": "Paimon",
+                                                                                    "text": "Um, so Neuvillette feels like he doesn't truly belong here in Fontaine, but is that really true?"
+                                                                                },
+                                                                                {
+                                                                                    "id": "140071963",
+                                                                                    "speaker": "Paimon",
+                                                                                    "text": "Paimon feels like he has a kinda... skewed perspective on a lot of things. Anyway, let's catch up with him first!"
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        {
+                                                                            "id": "140071956",
+                                                                            "text": "We're also outsiders to Fontaine."
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "id": "140071935",
+                                                            "text": "Seems like they're using Melusines against you..."
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "140071925",
+                                            "text": "Care to explain in detail?"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "140071910",
+                            "text": "I can introduce you to some amazing detectives.",
+                            "response": [
+                                {
+                                    "id": "140071911",
+                                    "speaker": "Neuvillette",
+                                    "text": "I trust that you'd be able to work that out with how well-connected you are, but I must apologize. I don't plan on relying on anyone else's help for this matter."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "1400705",
+            "objective": "Talk to Kiara",
+            "dialogues": [
+                {
+                    "id": "140070601",
+                    "speaker": "Paimon",
+                    "text": "Strange... Paimon felt like someone was following us..."
+                },
+                {
+                    "id": "140070602",
+                    "speaker": "Kiara",
+                    "text": "Eloffe!"
+                },
+                {
+                    "id": "140070603",
+                    "speaker": "Eloffe",
+                    "text": "Kiara, you're here! Huh? Wait, aren't these two..."
+                },
+                {
+                    "id": "140070604",
+                    "speaker": "Kiara",
+                    "text": "#They're {NICKNAME} and Big Sis Paimon!"
+                },
+                {
+                    "id": "140070605",
+                    "speaker": "Eloffe",
+                    "text": "I thought so. What brings you here?",
+                    "choices": [
+                        {
+                            "id": "140070606",
+                            "text": "We're on a secret mission.",
+                            "response": [
+                                {
+                                    "id": "140070607",
+                                    "speaker": "Eloffe",
+                                    "text": "Alright, guess I shouldn't have asked."
+                                },
+                                {
+                                    "id": "140070611",
+                                    "speaker": "Kiara",
+                                    "text": "May I begin inspecting the store as planned?"
+                                },
+                                {
+                                    "id": "140070612",
+                                    "speaker": "Eloffe",
+                                    "text": "Of course, go ahead!"
+                                },
+                                {
+                                    "id": "140070613",
+                                    "speaker": "Kiara",
+                                    "text": "Hmm... No hazards detected. You've cleared the inspection. Seems like the criminal from that case last month never set foot in here at all."
+                                },
+                                {
+                                    "id": "140070614",
+                                    "speaker": "Paimon",
+                                    "text": "That was quick! What were you inspecting?"
+                                },
+                                {
+                                    "id": "140070615",
+                                    "speaker": "Kiara",
+                                    "text": "I took a look around the shop. Neuvillette says that us Melusines have special eyes that can see things people can't."
+                                },
+                                {
+                                    "id": "140070616",
+                                    "speaker": "Kiara",
+                                    "text": "Things like bloodstains. No matter how hard you try to clean them up, we Melusines can see their residual stains for some time. Pretty cool, huh?"
+                                },
+                                {
+                                    "id": "140070617",
+                                    "speaker": "Eloffe",
+                                    "text": "Alright, alright, now that you're done inspecting, can we have a chat?"
+                                },
+                                {
+                                    "id": "140070618",
+                                    "speaker": "Eloffe",
+                                    "text": "Hear me out. I'm planning to release an outfit for children next month and wanted to hire you as my model. Is that okay with you?"
+                                },
+                                {
+                                    "id": "140070619",
+                                    "speaker": "Kiara",
+                                    "text": "Of course! Is there anything I need to do?"
+                                },
+                                {
+                                    "id": "140070620",
+                                    "speaker": "Eloffe",
+                                    "text": "Please wait a moment while I take your measurements. The sample should be a perfect fit..."
+                                },
+                                {
+                                    "id": "140070621",
+                                    "speaker": "Paimon",
+                                    "text": "Seems like they get along really well!"
+                                },
+                                {
+                                    "id": "140070622",
+                                    "speaker": "Paimon",
+                                    "text": "#Huh, {NICKNAME}? What are you looking at?"
+                                },
+                                {
+                                    "id": "140070623",
+                                    "speaker": "Player",
+                                    "text": "I think there's someone over there..."
+                                },
+                                {
+                                    "id": "140070624",
+                                    "speaker": "Paimon",
+                                    "text": "Is there really someone watching us!? Shh... Let's sneak over and take a look."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "140070608",
+                            "text": "We're protecting Kiara.",
+                            "response": [
+                                {
+                                    "id": "140070609",
+                                    "speaker": "Eloffe",
+                                    "text": "Did you run into any trouble?"
+                                },
+                                {
+                                    "id": "140070610",
+                                    "speaker": "Paimon",
+                                    "text": "Eh, it's not really trouble anymore with us around."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "1400714",
+            "objective": "Look for the suspicious person",
+            "dialogues": [
+                {
+                    "id": "140070801",
+                    "speaker": "Charlotte",
+                    "text": "Strange... Why isn't he back yet..."
+                },
+                {
+                    "id": "140070802",
+                    "speaker": "Paimon",
+                    "text": "Gotcha!"
+                },
+                {
+                    "id": "140070803",
+                    "speaker": "Charlotte",
+                    "text": "Whoa!!"
+                },
+                {
+                    "id": "140070804",
+                    "speaker": "Paimon",
+                    "text": "Charlotte!? What are you doing here?"
+                },
+                {
+                    "id": "140070805",
+                    "speaker": "Paimon",
+                    "text": "Wait, don't tell Paimon you're the one who sent Kiara that threatening letter! But you don't seem like the type to—"
+                },
+                {
+                    "id": "140070806",
+                    "speaker": "Charlotte",
+                    "text": "Threat letter? What threat letter?"
+                },
+                {
+                    "id": "140070807",
+                    "speaker": "Player",
+                    "text": "What are you doing here, exactly?"
+                },
+                {
+                    "id": "140070808",
+                    "speaker": "Charlotte",
+                    "text": "Uh, this is starting to feel like an interrogation... Okay, I'll be straight with you. I don't know the slightest thing about that threat letter you mentioned — I only wanted to follow Monsieur Neuvillette and request an interview with him."
+                },
+                {
+                    "id": "140070809",
+                    "speaker": "Paimon",
+                    "text": "You wanna interview him?"
+                },
+                {
+                    "id": "140070810",
+                    "speaker": "Charlotte",
+                    "text": "That's right! I'm not the only one, y'know. Interviewing him is every journalist's dream."
+                },
+                {
+                    "id": "140070811",
+                    "speaker": "Charlotte",
+                    "text": "But it's not an easy task to accomplish. The Palais Mermonia rarely accepts appointment requests from us, and we never have the chance to interrupt when the court's in session."
+                },
+                {
+                    "id": "140070812",
+                    "speaker": "Charlotte",
+                    "text": "So imagine how surprised I was seeing him out on the streets today! It seemed like you were investigating something too... The perfect opportunity to whip up an exclusive, don't you think?"
+                },
+                {
+                    "id": "140070813",
+                    "speaker": "Charlotte",
+                    "text": "Of course, I'll make sure to turn in my manuscript to him for review. I have my principles, and I'd never publish an article without the consent of all parties involved.",
+                    "choices": [
+                        {
+                            "id": "140070814",
+                            "text": "I don't think he'd agree...",
+                            "response": [
+                                {
+                                    "id": "140070816",
+                                    "speaker": "Paimon",
+                                    "text": "Yeah! We're doing a secret investigation that can't be made public knowledge!"
+                                },
+                                {
+                                    "id": "140070817",
+                                    "speaker": "Charlotte",
+                                    "text": "I see... Well, if you say so, I guess I'll put this matter aside for now. What a shame... Chances like this don't come by very often, you know."
+                                },
+                                {
+                                    "id": "140070818",
+                                    "speaker": "Charlotte",
+                                    "text": "In exchange, could you tell me what the threat letter is about? I swear I won't tell!"
+                                },
+                                {
+                                    "id": "140070819",
+                                    "speaker": "Paimon",
+                                    "text": "Alright then..."
+                                },
+                                {
+                                    "id": "140070820",
+                                    "speaker": "Black Screen",
+                                    "text": "You tell Charlotte about the letter Kiara received..."
+                                },
+                                {
+                                    "id": "140070821",
+                                    "speaker": "Charlotte",
+                                    "text": "WHAT!? Someone's targeting a cute little Melusine?"
+                                },
+                                {
+                                    "id": "140070822",
+                                    "speaker": "Paimon",
+                                    "text": "Shh, not so loud!"
+                                },
+                                {
+                                    "id": "140070823",
+                                    "speaker": "Charlotte",
+                                    "text": "It just so happens that I did an interview with Kiara — last month, in fact. It was well-received by our readers, so I was planning to continue the series... and now someone's coming after her?"
+                                },
+                                {
+                                    "id": "140070824",
+                                    "speaker": "Charlotte",
+                                    "text": "I'll ask my colleagues about it. Who knows? We might find something. And don't worry, I know what I'm doing! This secret's safe with me."
+                                },
+                                {
+                                    "id": "140070825",
+                                    "speaker": "Charlotte",
+                                    "text": "But I gotta warn you, even if I keep my lips sealed, others will know eventually."
+                                },
+                                {
+                                    "id": "140070826",
+                                    "speaker": "Paimon",
+                                    "text": "Why?"
+                                },
+                                {
+                                    "id": "140070827",
+                                    "speaker": "Charlotte",
+                                    "text": "People care a great deal about Monsieur Neuvillette's each and every move. Some may have already realized that something was up. Besides, the case involves Melusines, so..."
+                                },
+                                {
+                                    "id": "140070828",
+                                    "speaker": "Charlotte",
+                                    "text": "Anyway, I'll get going now. Watch yourselves, alright?"
+                                },
+                                {
+                                    "id": "140070829",
+                                    "speaker": "Paimon",
+                                    "text": "Well, that was a nice chat... Let's head back and check on Kiara."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "140070815",
+                            "text": "It's better if we kept this secret."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "1400715",
+            "objective": "Rendezvous with Kiara",
+            "dialogues": [
+                {
+                    "id": "140070901",
+                    "speaker": "Eloffe",
+                    "text": "What do you think? The design looks pretty good, huh?"
+                },
+                {
+                    "id": "140070902",
+                    "speaker": "Kiara",
+                    "text": "I think it's great!"
+                },
+                {
+                    "id": "140070903",
+                    "speaker": "Clorinde",
+                    "text": "It's very pretty indeed."
+                },
+                {
+                    "id": "140070904",
+                    "speaker": "Paimon",
+                    "text": "Clorinde! What are you doing here?"
+                },
+                {
+                    "id": "140070905",
+                    "speaker": "Paimon",
+                    "text": "It seems that you just showed up out of nowhere."
+                },
+                {
+                    "id": "140070906",
+                    "speaker": "Clorinde",
+                    "text": "As I passed by the Palais Mermonia, I heard that Neuvillette was investigating a case with you."
+                },
+                {
+                    "id": "140070907",
+                    "speaker": "Clorinde",
+                    "text": "Technically speaking, he and I are under an employer-employee relationship. It didn't feel right to have my employer personally take on such trivial cases."
+                },
+                {
+                    "id": "140070908",
+                    "speaker": "Clorinde",
+                    "text": "I happen to have some time at the moment and came to take a look. I sometimes have my clothes custom-made at this boutique, in any case, so we always have a lot to talk about."
+                },
+                {
+                    "id": "140070909",
+                    "speaker": "Paimon",
+                    "text": "Neuvillette sure is lucky to have someone like you!"
+                },
+                {
+                    "id": "140070910",
+                    "speaker": "Clorinde",
+                    "text": "Leave this to me. You should go meet up with Neuvillette."
+                },
+                {
+                    "id": "140070911",
+                    "speaker": "Paimon",
+                    "text": "Okay then, we'll leave Kiara in your hands. C'mon, Let's go find Neuvillette!"
+                }
+            ]
+        },
+        {
+            "id": "1400706",
+            "objective": "Return to the Palais Mermonia",
+            "dialogues": []
+        },
+        {
+            "id": "1400707",
+            "objective": "Ask Neuvillette about how the investigation is coming along",
+            "dialogues": [
+                {
+                    "id": "140071101",
+                    "speaker": "Neuvillette",
+                    "text": "Oh? You're back. Is everything alright?"
+                },
+                {
+                    "id": "140071102",
+                    "speaker": "Paimon",
+                    "text": "We ran into Clorinde! She offered to help us protect Kiara."
+                },
+                {
+                    "id": "140071103",
+                    "speaker": "Neuvillette",
+                    "text": "That is good to hear — I trust her abilities. It looks like Kiara's in good hands."
+                },
+                {
+                    "id": "140071104",
+                    "speaker": "Paimon",
+                    "text": "We thought so too! Well, did you find any leads?"
+                },
+                {
+                    "id": "140071105",
+                    "speaker": "Neuvillette",
+                    "text": "I've been looking through the case records. Specifically, inspection reports submitted by Kiara and major cases I've judged over the past decade."
+                },
+                {
+                    "id": "140071106",
+                    "speaker": "Neuvillette",
+                    "text": "I've come up with two plans. On one hand, I could start with Kiara and track down the group behind all this, step by step."
+                },
+                {
+                    "id": "140071107",
+                    "speaker": "Neuvillette",
+                    "text": "On the other... I could also analyze the conflicting interests of these major cases and confirm my suspicions if there is indeed a mysterious group that bears a grudge against me."
+                },
+                {
+                    "id": "140071108",
+                    "speaker": "Paimon",
+                    "text": "Hmm, they both sound like pretty solid plans! But can you really finish browsing through all these documents? That's a lot of reading... even for Paimon."
+                },
+                {
+                    "id": "140071109",
+                    "speaker": "Neuvillette",
+                    "text": "Don't worry, I'm a fast reader when it comes to official documents. After all, I have several hundred years of reviewing under my belt."
+                },
+                {
+                    "id": "140071110",
+                    "speaker": "Paimon",
+                    "text": "We'll help you read through them! We have nothing else to do."
+                },
+                {
+                    "id": "140071111",
+                    "speaker": "Neuvillette",
+                    "text": "Thank you. I will continue looking through the ones piled up on the desk, but feel free to browse through anything else in this room."
+                }
+            ]
+        },
+        {
+            "id": "1400708",
+            "objective": "Review official documents",
+            "dialogues": [
+                {
+                    "id": "140071301",
+                    "speaker": "About Wriothesley...",
+                    "text": "\"The defendant, Wriothesley, has confessed to his crimes, and was declared guilty by Iudex Neuvillette.\""
+                },
+                {
+                    "id": "140071302",
+                    "speaker": "About Wriothesley...",
+                    "text": "\"Wriothesley will be exiled to the Fortress of Meropide, where he will be serving his sentence.\""
+                },
+                {
+                    "id": "140071303",
+                    "speaker": "About Wriothesley...",
+                    "text": "\"During the trial, Neuvillette remained silent for a long time.\""
+                }
+            ]
+        },
+        {
+            "id": "1400709",
+            "objective": "Review official documents",
+            "dialogues": [
+                {
+                    "id": "140071401",
+                    "speaker": "About the Spina di Rosula...",
+                    "text": "\"Callas, boss of the Spina di Rosula, was defeated in the duel and died of serious injuries.\""
+                },
+                {
+                    "id": "140071402",
+                    "speaker": "About the Spina di Rosula...",
+                    "text": "\"The defense of his honor has now come to a close. The defendant did not raise any objections throughout the trial.\""
+                },
+                {
+                    "id": "140071403",
+                    "speaker": "About the Spina di Rosula...",
+                    "text": "\"Iudex Neuvillette reserved judgment in this case. Its details are still under investigation.\""
+                }
+            ]
+        },
+        {
+            "id": "1400710",
+            "objective": "Review official documents",
+            "dialogues": [
+                {
+                    "id": "140071501",
+                    "speaker": "About the smuggling case...",
+                    "text": "\"The smuggling case was solved by the joint forces of the Gardes and Marechaussee Phantom.\""
+                },
+                {
+                    "id": "140071502",
+                    "speaker": "About the smuggling case...",
+                    "text": "\"The principal offenders have received judgment based on the severity of their crimes.\""
+                },
+                {
+                    "id": "140071503",
+                    "speaker": "About the smuggling case...",
+                    "text": "\"Please refer to the appendix for the list of names.\""
+                }
+            ]
+        },
+        {
+            "id": "1400717",
+            "objective": "Review official documents",
+            "dialogues": [
+                {
+                    "id": "140071601",
+                    "speaker": "About the bribery case...",
+                    "text": "\"There has been a severe bribery scandal within the Gardes.\""
+                },
+                {
+                    "id": "140071602",
+                    "speaker": "About the bribery case...",
+                    "text": "\"The Special Security and Surveillance Patrol has investigated the case. All suspects involved have been arrested.\""
+                },
+                {
+                    "id": "140071603",
+                    "speaker": "About the bribery case...",
+                    "text": "\"The suspects have confessed to their crimes.\""
+                }
+            ]
+        },
+        {
+            "id": "1400718",
+            "objective": "Review official documents",
+            "dialogues": [
+                {
+                    "id": "140071701",
+                    "speaker": "About the Representative Council's proposal...",
+                    "text": "\"The Representative Council has filed a request to collaborate with the Marechaussee Phantom on certain public events.\""
+                },
+                {
+                    "id": "140071702",
+                    "speaker": "About the Representative Council's proposal...",
+                    "text": "\"Based on research, they believe that Melusines can enhance the popularity of these events.\""
+                },
+                {
+                    "id": "140071703",
+                    "speaker": "About the Representative Council's proposal...",
+                    "text": "\"The Marechaussee Phantom has yet to respond. However, it has not prohibited the Melusines from participating in such activities.\""
+                }
+            ]
+        },
+        {
+            "id": "1400712",
+            "objective": "",
+            "dialogues": [
+                {
+                    "id": "140071201",
+                    "speaker": "Neuvillette",
+                    "text": "...You're done reading already? Please wait a moment, I still need some time."
+                }
+            ]
+        },
+        {
+            "id": "1400713",
+            "objective": "Talk to Neuvillette",
+            "dialogues": [
+                {
+                    "id": "140071801",
+                    "speaker": "Neuvillette",
+                    "text": "Have you made any progress?"
+                },
+                {
+                    "id": "140071802",
+                    "speaker": "Paimon",
+                    "text": "We skimmed through some of them, but there wasn't anything useful."
+                },
+                {
+                    "id": "140071803",
+                    "speaker": "Paimon",
+                    "text": "There's so many documents lying around! Just how many cases have you handled!?"
+                },
+                {
+                    "id": "140071804",
+                    "speaker": "Neuvillette",
+                    "text": "I would love to answer that question, but the truth is, I've never made a precise calculation myself."
+                },
+                {
+                    "id": "140071805",
+                    "speaker": "Neuvillette",
+                    "text": "If memory serves me right, there should be at least one hundred thousand cases. The documents you see are just a small fraction of what is really there."
+                },
+                {
+                    "id": "140071806",
+                    "speaker": "Paimon",
+                    "text": "Whoa... that's a lot! Looks like the work of a Chief Justice isn't easy at all."
+                },
+                {
+                    "id": "140071807",
+                    "speaker": "Neuvillette",
+                    "text": "That might be how it seems like from another's perspective, but trials and official duties are, to me, simply routine."
+                },
+                {
+                    "id": "140071808",
+                    "speaker": "Neuvillette",
+                    "text": "There are many documents here. Take a break if you're tired."
+                },
+                {
+                    "id": "140071809",
+                    "speaker": "Paimon",
+                    "text": "Whew, you read Paimon's mind!"
+                },
+                {
+                    "id": "140071810",
+                    "speaker": "Neuvillette",
+                    "text": "Alright, let us take a break then."
+                },
+                {
+                    "id": "140071811",
+                    "speaker": "Neuvillette",
+                    "text": "..."
+                },
+                {
+                    "id": "140071812",
+                    "speaker": "Paimon",
+                    "text": "..."
+                },
+                {
+                    "id": "140071813",
+                    "speaker": "Player",
+                    "text": "..."
+                },
+                {
+                    "id": "140071814",
+                    "speaker": "Paimon",
+                    "text": "Uh... Even though resting is a part of taking a break, shouldn't we at least talk about something?"
+                },
+                {
+                    "id": "140071815",
+                    "speaker": "Paimon",
+                    "text": "All this silence is making Paimon feel really awkward..."
+                },
+                {
+                    "id": "140071816",
+                    "speaker": "Neuvillette",
+                    "text": "Please pardon my lack of consideration. People rarely come to the Palais Mermonia for matters outside of work. To be quite honest, I'm not sure what we should do."
+                },
+                {
+                    "id": "140071817",
+                    "speaker": "Neuvillette",
+                    "text": "Would you like to have some drinks, perhaps? You must be thirsty after all that work."
+                },
+                {
+                    "id": "140071818",
+                    "speaker": "Paimon",
+                    "text": "Ooh, drinks! Thank you!"
+                },
+                {
+                    "id": "140071819",
+                    "speaker": "Paimon",
+                    "text": "Paimon wonders what Neuvillette likes to drink... Oh! Maybe he's a fan of really fancy wines!"
+                },
+                {
+                    "id": "140071820",
+                    "speaker": "Paimon",
+                    "text": "He seems like the type of person who'd own an entire winery... Y'know, like Diluc!"
+                },
+                {
+                    "id": "140071821",
+                    "speaker": "Black Screen",
+                    "text": "Neuvillette momentarily leaves and brings back several exquisite wine glasses..."
+                },
+                {
+                    "id": "140071822",
+                    "speaker": "Paimon",
+                    "text": "Uh... What's inside these glasses? It looks just like water..."
+                },
+                {
+                    "id": "140071823",
+                    "speaker": "Neuvillette",
+                    "text": "An astute observation. It is indeed water."
+                },
+                {
+                    "id": "140071824",
+                    "speaker": "Paimon",
+                    "text": "So it's just plain old water!?"
+                },
+                {
+                    "id": "140071825",
+                    "speaker": "Neuvillette",
+                    "text": "What did you think it was?"
+                },
+                {
+                    "id": "140071826",
+                    "speaker": "Paimon",
+                    "text": "Um... Since you're the Chief Justice and all, Paimon thought you'd prefer something more sophisticated."
+                },
+                {
+                    "id": "140071827",
+                    "speaker": "Neuvillette",
+                    "text": "This water is indeed very special. It would not be an overstatement to call it \"sophisticated.\""
+                },
+                {
+                    "id": "140071828",
+                    "speaker": "Paimon",
+                    "text": "Huh?"
+                },
+                {
+                    "id": "140071829",
+                    "speaker": "Neuvillette",
+                    "text": "I believe you've already tried Fonta. In fact, there are many other drink factories in Fontaine, including those that specialize in packaging pure drinking water."
+                },
+                {
+                    "id": "140071830",
+                    "speaker": "Neuvillette",
+                    "text": "Said water is sourced from all across Teyvat, including Mondstadt's Cider Lake, Liyue's Qingce Village, and Inazuma's Konda Village..."
+                },
+                {
+                    "id": "140071831",
+                    "speaker": "Neuvillette",
+                    "text": "Here's one of their latest products: water from Sumeru's Apam Woods.",
+                    "choices": [
+                        {
+                            "id": "140071832",
+                            "text": "Is there any difference?",
+                            "response": [
+                                {
+                                    "id": "140071834",
+                                    "speaker": "Neuvillette",
+                                    "text": "If I were to comment on their mouthfeel... The waters of Cider Lake warm the heart, the waters of Qingce Village have a poignant touch, while one might call the waters of Konda Village placid."
+                                },
+                                {
+                                    "id": "140071835",
+                                    "speaker": "Neuvillette",
+                                    "text": "Distinct differences exist between the waters of each area. You'll appreciate their intricacies once you taste them carefully."
+                                },
+                                {
+                                    "id": "140071836",
+                                    "speaker": "Paimon",
+                                    "text": "Really? Let Paimon try..."
+                                },
+                                {
+                                    "id": "140071837",
+                                    "speaker": "Neuvillette",
+                                    "text": "What do you think?"
+                                },
+                                {
+                                    "id": "140071838",
+                                    "speaker": "Paimon",
+                                    "text": "Nope, Paimon couldn't taste any difference at all! Isn't this just normal water?"
+                                },
+                                {
+                                    "id": "140071839",
+                                    "speaker": "Neuvillette",
+                                    "text": "How regrettable. It seems like you still have a long way to go in refining your tastes."
+                                },
+                                {
+                                    "id": "140071840",
+                                    "speaker": "Paimon",
+                                    "text": "Hey, this doesn't have to do with refining our tastes! Paimon's pretty sure most ordinary people can't tell the difference... How'd you do it anyway?"
+                                },
+                                {
+                                    "id": "140071841",
+                                    "speaker": "Paimon",
+                                    "text": "Oh! Could it be because you're the Hydro Dragon?"
+                                },
+                                {
+                                    "id": "140071842",
+                                    "speaker": "Player",
+                                    "text": "That could be the case."
+                                },
+                                {
+                                    "id": "140071843",
+                                    "speaker": "Paimon",
+                                    "text": "Uh, we are allowed to bring that up, right? Since no one else is around..."
+                                },
+                                {
+                                    "id": "140071844",
+                                    "speaker": "Paimon",
+                                    "text": "Oh, Paimon's been wanting to ask this for ages! If you're the Hydro Dragon, why would you become Chief Justice in human society?"
+                                },
+                                {
+                                    "id": "140071845",
+                                    "speaker": "Neuvillette",
+                                    "text": "..."
+                                },
+                                {
+                                    "id": "140071846",
+                                    "speaker": "Paimon",
+                                    "text": "Uh, sorry, Paimon was just curious. You don't have to answer!"
+                                },
+                                {
+                                    "id": "140071847",
+                                    "speaker": "Neuvillette",
+                                    "text": "There's nothing to hide. I was simply organizing my thoughts."
+                                },
+                                {
+                                    "id": "140071848",
+                                    "speaker": "Neuvillette",
+                                    "text": "I accepted this position because I wanted to seek out answers to questions that have perplexed me."
+                                },
+                                {
+                                    "id": "140071849",
+                                    "speaker": "Paimon",
+                                    "text": "Questions? Are there really things you can't figure out?"
+                                },
+                                {
+                                    "id": "140071850",
+                                    "speaker": "Neuvillette",
+                                    "text": "Many, in fact. But the one question that puzzles me the most concerns my own existence."
+                                },
+                                {
+                                    "id": "140071851",
+                                    "speaker": "Neuvillette",
+                                    "text": "In essence... I neither know why I was born in this form, nor do I understand where my long life should take me."
+                                },
+                                {
+                                    "id": "140071852",
+                                    "speaker": "Neuvillette",
+                                    "text": "I lost many memories from the moment I was born. The Primordial Sea, for example. I can only vaguely recall its connection to me, but I am unaware of what that connection is exactly."
+                                },
+                                {
+                                    "id": "140071853",
+                                    "speaker": "Player",
+                                    "text": "Is there anyone who can answer those questions?"
+                                },
+                                {
+                                    "id": "140071854",
+                                    "speaker": "Neuvillette",
+                                    "text": "Perhaps the elemental dragons of other nations may have some form of an answer. However, they are scattered across all of Teyvat. Abruptly visiting could very well pose an unpredictable risk."
+                                },
+                                {
+                                    "id": "140071855",
+                                    "speaker": "Paimon",
+                                    "text": "True... Some of them have very... unique personalities too."
+                                },
+                                {
+                                    "id": "140071856",
+                                    "speaker": "Neuvillette",
+                                    "text": "I have been holding on to these unanswered questions for a long time..."
+                                },
+                                {
+                                    "id": "140071857",
+                                    "speaker": "Neuvillette",
+                                    "text": "But there's one thing I've discovered along the way: My emotions easily resonate with those of others... even I don't have the slightest idea what they mean."
+                                },
+                                {
+                                    "id": "140071858",
+                                    "speaker": "Neuvillette",
+                                    "text": "My guess would be that there are at least some similarities between humans and myself. By observing their behavior, perhaps I could one day understand the meaning of my existence."
+                                },
+                                {
+                                    "id": "140071859",
+                                    "speaker": "Player",
+                                    "text": "I see."
+                                },
+                                {
+                                    "id": "140071860",
+                                    "speaker": "Paimon",
+                                    "text": "Have you made any progress then?"
+                                },
+                                {
+                                    "id": "140071861",
+                                    "speaker": "Neuvillette",
+                                    "text": "Perhaps, but I find such progress difficult to describe. As an outsider, chances to engage in meaningful interactions with others are few and far between."
+                                },
+                                {
+                                    "id": "140071862",
+                                    "speaker": "Neuvillette",
+                                    "text": "That's why I'm quite thankful for this chat — such opportunities are rare. Alas, time is limited. We should move on with our investigation."
+                                },
+                                {
+                                    "id": "140071863",
+                                    "speaker": "Paimon",
+                                    "text": "Are we gonna continue reading these documents? Ugh, Paimon's getting dizzy already."
+                                },
+                                {
+                                    "id": "140071864",
+                                    "speaker": "Neuvillette",
+                                    "text": "I wasn't able to find any leads even after browsing through most of the documents, but while we were on the topic of \"water\" a moment ago, another idea came to me."
+                                },
+                                {
+                                    "id": "140071865",
+                                    "speaker": "Paimon",
+                                    "text": "Water? Do you mean..."
+                                },
+                                {
+                                    "id": "140071866",
+                                    "speaker": "Player",
+                                    "text": "The Fountain of Lucine?"
+                                },
+                                {
+                                    "id": "140071867",
+                                    "speaker": "Neuvillette",
+                                    "text": "That's right."
+                                },
+                                {
+                                    "id": "140071868",
+                                    "speaker": "Neuvillette",
+                                    "text": "The Fountain of Lucine is where all of Fontaine's waters converge. It is the vessel of countless memories and emotions."
+                                },
+                                {
+                                    "id": "140071869",
+                                    "speaker": "Neuvillette",
+                                    "text": "If there really were an organization attempting to use Melusines against me, they should also hold an intense resentment towards me."
+                                },
+                                {
+                                    "id": "140071870",
+                                    "speaker": "Neuvillette",
+                                    "text": "Perhaps we'll be able to find some new leads by sensing the Hydro element within the fountain."
+                                },
+                                {
+                                    "id": "140071871",
+                                    "speaker": "Paimon",
+                                    "text": "Huh. Why didn't Paimon think of that? C'mon, let's go take a look!"
+                                },
+                                {
+                                    "id": "140071872",
+                                    "speaker": "Neuvillette",
+                                    "text": "Perhaps we should go, there shouldn't be too many people near the Fountain of Lucine during the evening."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "140071833",
+                            "text": "They're all just water, aren't they?"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "1400702",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "140070201",
+                    "speaker": "Sedene",
+                    "text": "I hope the Chief Justice returns soon..."
+                }
+            ]
+        },
+        {
+            "id": "1400703",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "140070301",
+                    "speaker": "\"Neuvillette's Note\"",
+                    "text": "\"Away for personal reasons. Will be back in a day.\""
+                }
+            ]
+        },
+        {
+            "id": "1400707",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "140070701",
+                    "speaker": "Eloffe",
+                    "text": "I think light and frilly clothes look best on you. You'd definitely look cute wearing them."
+                },
+                {
+                    "id": "140070702",
+                    "speaker": "Kiara",
+                    "text": "I love them too! Especially the soft and fluffy kind..."
+                }
+            ]
+        },
+        {
+            "id": "1400710",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "140071001",
+                    "speaker": "Kiara",
+                    "text": "How has your work been recently?"
+                },
+                {
+                    "id": "140071002",
+                    "speaker": "Clorinde",
+                    "text": "Same as usual. My schedule normally isn't too packed, so I have plenty of time for myself."
+                },
+                {
+                    "id": "140071003",
+                    "speaker": "Kiara",
+                    "text": "Ooh, then shall we go out to play? How about a beach vacation, like last time?"
+                },
+                {
+                    "id": "140071004",
+                    "speaker": "Kiara",
+                    "text": "I've even signed up as a volunteer lifeguard! I'm really good at swimming, so I'm sure I can help."
+                }
+            ]
+        },
+        {
+            "id": "1400720",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "140072001",
+                    "speaker": "Neuvillette",
+                    "text": "Have you made any progress?"
+                },
+                {
+                    "id": "140072002",
+                    "speaker": "Paimon",
+                    "text": "We skimmed through some of them, but there wasn't anything useful."
+                },
+                {
+                    "id": "140072003",
+                    "speaker": "Paimon",
+                    "text": "There's so many documents lying around! Just how many cases have you handled!?"
+                },
+                {
+                    "id": "140072004",
+                    "speaker": "Neuvillette",
+                    "text": "I would love to answer that question, but the truth is, I've never made a precise calculation myself."
+                },
+                {
+                    "id": "140072005",
+                    "speaker": "Neuvillette",
+                    "text": "If memory serves me right, there should be at least one hundred thousand cases. The documents you see are just a small fraction of what is really there."
+                },
+                {
+                    "id": "140072006",
+                    "speaker": "Paimon",
+                    "text": "Whoa... that's a lot! Looks like the work of a Chief Justice isn't easy at all."
+                },
+                {
+                    "id": "140072007",
+                    "speaker": "Neuvillette",
+                    "text": "That might be how it seems from another's perspective, but trials and official duties are, to me, simply routine."
+                },
+                {
+                    "id": "140072008",
+                    "speaker": "Neuvillette",
+                    "text": "There are many documents here. Take a break if you're tired."
+                },
+                {
+                    "id": "140072009",
+                    "speaker": "Paimon",
+                    "text": "Whew, you read Paimon's mind!"
+                },
+                {
+                    "id": "140072010",
+                    "speaker": "Neuvillette",
+                    "text": "Alright, let us take a break then."
+                },
+                {
+                    "id": "140072011",
+                    "speaker": "Neuvillette",
+                    "text": "..."
+                },
+                {
+                    "id": "140072012",
+                    "speaker": "Paimon",
+                    "text": "..."
+                },
+                {
+                    "id": "140072013",
+                    "speaker": "Player",
+                    "text": "..."
+                },
+                {
+                    "id": "140072014",
+                    "speaker": "Paimon",
+                    "text": "Uh... Even though resting is a part of taking a break, shouldn't we at least talk about something?"
+                },
+                {
+                    "id": "140072015",
+                    "speaker": "Paimon",
+                    "text": "All this silence is making Paimon feel really awkward..."
+                },
+                {
+                    "id": "140072016",
+                    "speaker": "Neuvillette",
+                    "text": "Please pardon my lack of consideration. People rarely come to the Palais Mermonia for matters outside of work. To be quite honest, I'm not sure what we should do."
+                },
+                {
+                    "id": "140072017",
+                    "speaker": "Neuvillette",
+                    "text": "Would you like to have some drinks, perhaps? You must be thirsty after all that work."
+                },
+                {
+                    "id": "140072018",
+                    "speaker": "Paimon",
+                    "text": "Ooh, drinks! Thank you!"
+                },
+                {
+                    "id": "140072019",
+                    "speaker": "Paimon",
+                    "text": "Paimon wonders what Neuvillette likes to drink... Oh! Maybe he's a fan of really fancy wines!"
+                },
+                {
+                    "id": "140072020",
+                    "speaker": "Paimon",
+                    "text": "He seems like the type of person who'd own an entire winery... Y'know, like Diluc!"
+                },
+                {
+                    "id": "140072021",
+                    "speaker": "Black Screen",
+                    "text": "Neuvillette momentarily leaves and brings back several exquisite wine glasses..."
+                },
+                {
+                    "id": "140072022",
+                    "speaker": "Paimon",
+                    "text": "Uh... What's inside these glasses? It looks just like water..."
+                },
+                {
+                    "id": "140072023",
+                    "speaker": "Neuvillette",
+                    "text": "An astute observation. It is indeed water."
+                },
+                {
+                    "id": "140072024",
+                    "speaker": "Paimon",
+                    "text": "So it's just plain old water!?"
+                },
+                {
+                    "id": "140072025",
+                    "speaker": "Neuvillette",
+                    "text": "What did you think it was?"
+                },
+                {
+                    "id": "140072026",
+                    "speaker": "Paimon",
+                    "text": "Um... Since you're the Chief Justice and all, Paimon thought you'd prefer something more sophisticated."
+                },
+                {
+                    "id": "140072027",
+                    "speaker": "Neuvillette",
+                    "text": "This water is indeed very special. It would not be an overstatement to call it \"sophisticated.\""
+                },
+                {
+                    "id": "140072028",
+                    "speaker": "Paimon",
+                    "text": "Huh?"
+                },
+                {
+                    "id": "140072029",
+                    "speaker": "Neuvillette",
+                    "text": "I believe you've already tried Fonta. In fact, there are many other drink factories in Fontaine, including those that specialize in packaging pure drinking water."
+                },
+                {
+                    "id": "140072030",
+                    "speaker": "Neuvillette",
+                    "text": "Said water is sourced from all across Teyvat, including Mondstadt's Cider Lake, Liyue's Qingce Village, and Inazuma's Konda Village..."
+                },
+                {
+                    "id": "140072031",
+                    "speaker": "Neuvillette",
+                    "text": "Here's one of their latest products: water from Sumeru's Apam Woods.",
+                    "choices": [
+                        {
+                            "id": "140072032",
+                            "text": "Is there any difference?",
+                            "response": [
+                                {
+                                    "id": "140072034",
+                                    "speaker": "Neuvillette",
+                                    "text": "If I were to comment on their mouthfeel... The waters of Cider Lake warm the heart, the waters of Qingce Village have a poignant touch, while one might call the waters of Konda Village placid."
+                                },
+                                {
+                                    "id": "140072035",
+                                    "speaker": "Neuvillette",
+                                    "text": "Distinct differences exist between the waters of each area. You'll appreciate their intricacies once you taste them carefully."
+                                },
+                                {
+                                    "id": "140072036",
+                                    "speaker": "Paimon",
+                                    "text": "Really? Let Paimon try..."
+                                },
+                                {
+                                    "id": "140072037",
+                                    "speaker": "Neuvillette",
+                                    "text": "What do you think?"
+                                },
+                                {
+                                    "id": "140072038",
+                                    "speaker": "Paimon",
+                                    "text": "Nope, Paimon couldn't taste any difference at all! Isn't this just normal water?"
+                                },
+                                {
+                                    "id": "140072039",
+                                    "speaker": "Neuvillette",
+                                    "text": "How regrettable. It seems like you still have a long way to go in refining your tastes."
+                                },
+                                {
+                                    "id": "140072040",
+                                    "speaker": "Paimon",
+                                    "text": "Hey, this doesn't have to do with refining our tastes! Paimon's pretty sure most ordinary people can't tell the difference... How'd you do it anyway?"
+                                },
+                                {
+                                    "id": "140072041",
+                                    "speaker": "Paimon",
+                                    "text": "Oh! Could it be because you're the Hydro Dragon?"
+                                },
+                                {
+                                    "id": "140072042",
+                                    "speaker": "Player",
+                                    "text": "That could be the case."
+                                },
+                                {
+                                    "id": "140072043",
+                                    "speaker": "Paimon",
+                                    "text": "Uh, we are allowed to bring that up, right? Since no one else is around..."
+                                },
+                                {
+                                    "id": "140072044",
+                                    "speaker": "Paimon",
+                                    "text": "Oh, Paimon's been wanting to ask this for ages! If you're the Hydro Dragon, why would you become Chief Justice in human society?"
+                                },
+                                {
+                                    "id": "140072045",
+                                    "speaker": "Neuvillette",
+                                    "text": "..."
+                                },
+                                {
+                                    "id": "140072046",
+                                    "speaker": "Paimon",
+                                    "text": "Uh, sorry, Paimon was just curious. You don't have to answer!"
+                                },
+                                {
+                                    "id": "140072047",
+                                    "speaker": "Neuvillette",
+                                    "text": "There's nothing to hide. I was simply organizing my thoughts."
+                                },
+                                {
+                                    "id": "140072048",
+                                    "speaker": "Neuvillette",
+                                    "text": "I accepted this position because I wanted to seek out answers to questions that have perplexed me."
+                                },
+                                {
+                                    "id": "140072049",
+                                    "speaker": "Paimon",
+                                    "text": "Questions? Are there really things you can't figure out?"
+                                },
+                                {
+                                    "id": "140072050",
+                                    "speaker": "Neuvillette",
+                                    "text": "Many, in fact. But the one question that puzzles me the most concerns my own existence."
+                                },
+                                {
+                                    "id": "140072051",
+                                    "speaker": "Neuvillette",
+                                    "text": "In essence... I neither know why I was born in this form, nor do I understand where my long life should take me."
+                                },
+                                {
+                                    "id": "140072052",
+                                    "speaker": "Neuvillette",
+                                    "text": "For a long time, my memory was rather incomplete. With regard to the Primordial Sea, for example. I used to only be able to vaguely recall its connection to me, but I was unaware of what that connection was exactly."
+                                },
+                                {
+                                    "id": "140072053",
+                                    "speaker": "Player",
+                                    "text": "Is there anyone who can answer those questions?"
+                                },
+                                {
+                                    "id": "140072054",
+                                    "speaker": "Neuvillette",
+                                    "text": "Perhaps the elemental dragons of other nations may have some form of an answer. However, they are scattered across all of Teyvat. Abruptly visiting could very well pose an unpredictable risk."
+                                },
+                                {
+                                    "id": "140072055",
+                                    "speaker": "Paimon",
+                                    "text": "True... Some of them have very... unique personalities too."
+                                },
+                                {
+                                    "id": "140072056",
+                                    "speaker": "Neuvillette",
+                                    "text": "I have been holding on to these unanswered questions for a long time..."
+                                },
+                                {
+                                    "id": "140072057",
+                                    "speaker": "Neuvillette",
+                                    "text": "But there's one thing I've discovered along the way: My emotions easily resonate with those of others... even I don't have the slightest idea what they mean."
+                                },
+                                {
+                                    "id": "140072058",
+                                    "speaker": "Neuvillette",
+                                    "text": "My guess would be that there are at least some similarities between humans and myself. By observing their behavior, perhaps I could one day understand the meaning of my existence."
+                                },
+                                {
+                                    "id": "140072059",
+                                    "speaker": "Player",
+                                    "text": "I see."
+                                },
+                                {
+                                    "id": "140072060",
+                                    "speaker": "Paimon",
+                                    "text": "Have you made any progress then?"
+                                },
+                                {
+                                    "id": "140072061",
+                                    "speaker": "Neuvillette",
+                                    "text": "Perhaps, but I find such progress difficult to describe. As an outsider, chances to engage in meaningful interactions with others are few and far between."
+                                },
+                                {
+                                    "id": "140072062",
+                                    "speaker": "Neuvillette",
+                                    "text": "That's why I'm quite thankful for this chat — such opportunities are rare. Alas, time is limited. We should move on with our investigation."
+                                },
+                                {
+                                    "id": "140072063",
+                                    "speaker": "Paimon",
+                                    "text": "Are we gonna continue reading these documents? Ugh, Paimon's getting dizzy already."
+                                },
+                                {
+                                    "id": "140072064",
+                                    "speaker": "Neuvillette",
+                                    "text": "I wasn't able to find any leads even after browsing through most of the documents, but while we were on the topic of \"water\" a moment ago, another idea came to me."
+                                },
+                                {
+                                    "id": "140072065",
+                                    "speaker": "Paimon",
+                                    "text": "Water? Do you mean..."
+                                },
+                                {
+                                    "id": "140072066",
+                                    "speaker": "Player",
+                                    "text": "The Fountain of Lucine?"
+                                },
+                                {
+                                    "id": "140072067",
+                                    "speaker": "Neuvillette",
+                                    "text": "That's right."
+                                },
+                                {
+                                    "id": "140072068",
+                                    "speaker": "Neuvillette",
+                                    "text": "The Fountain of Lucine is where all of Fontaine's waters converge. It is the vessel of countless memories and emotions."
+                                },
+                                {
+                                    "id": "140072069",
+                                    "speaker": "Neuvillette",
+                                    "text": "If there really were an organization attempting to use Melusines against me, they should also hold an intense resentment towards me."
+                                },
+                                {
+                                    "id": "140072070",
+                                    "speaker": "Neuvillette",
+                                    "text": "Perhaps we'll be able to find some new leads by sensing the Hydro element within the fountain."
+                                },
+                                {
+                                    "id": "140072071",
+                                    "speaker": "Paimon",
+                                    "text": "Huh. Why didn't Paimon think of that? C'mon, let's go take a look!"
+                                },
+                                {
+                                    "id": "140072072",
+                                    "speaker": "Neuvillette",
+                                    "text": "Perhaps we should go, there shouldn't be too many people near the Fountain of Lucine during the evening."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "140072033",
+                            "text": "They're all just water, aren't they?"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "1400799",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "140079901",
+                    "speaker": "Paimon",
+                    "text": "It's been a while since we last saw Neuvillette. Paimon wonders what he's been up to."
+                },
+                {
+                    "id": "140079902",
+                    "speaker": "Paimon",
+                    "text": "Paimon has so many questions about his true identity... Let's go talk to him and find out!"
+                },
+                {
+                    "id": "140079903",
+                    "speaker": "Paimon",
+                    "text": "Paimon's been thinking... You called yourself a \"fish out of water,\" right?"
+                },
+                {
+                    "id": "140079904",
+                    "speaker": "Paimon",
+                    "text": "But since you're the Hydro Dragon, wouldn't \"dragon out of water\" suit you better?"
+                },
+                {
+                    "id": "140079905",
+                    "speaker": "Neuvillette",
+                    "text": "Thank you for your suggestion. I will consider using the more accurate term in private occasions."
+                },
+                {
+                    "id": "140079906",
+                    "speaker": "Neuvillette",
+                    "text": "Please allow me to rephrase: As a dragon out of water..."
+                },
+                {
+                    "id": "140079907",
+                    "speaker": "Paimon",
+                    "text": "Pfft! That sounds kinda weird! Let's stick with the previous version instead."
+                },
+                {
+                    "id": "140079908",
+                    "speaker": "Graciette",
+                    "text": "I never thought I'd see him here..."
+                },
+                {
+                    "id": "140079909",
+                    "speaker": "Trudaine",
+                    "text": "Does anyone have a Kamera?"
+                },
+                {
+                    "id": "140079910",
+                    "speaker": "Paimon",
+                    "text": "So, Kiara, how old are you?"
+                },
+                {
+                    "id": "140079911",
+                    "speaker": "Kiara",
+                    "text": "Hmm, lemme think... One, two, ten... Uh, I can't remember."
+                },
+                {
+                    "id": "140079912",
+                    "speaker": "Kiara",
+                    "text": "But I remember coming to the Court of Fontaine with Carole and Neuvillette. That must've been a long time ago."
+                },
+                {
+                    "id": "140079913",
+                    "speaker": "Paimon",
+                    "text": "Carole... Didn't Neuvillette mention her just now? That was more than four hundred years ago! Why would Paimon be a big sister to you?"
+                },
+                {
+                    "id": "140079914",
+                    "speaker": "Kiara",
+                    "text": "My memory isn't that good, but Carole told me I could address others based on how I feel about them... Paimon feels a lot more grown-up than me, so you're Big Sis."
+                },
+                {
+                    "id": "140079915",
+                    "speaker": "Paimon",
+                    "text": "Huh, Paimon sees..."
+                },
+                {
+                    "id": "140079916",
+                    "speaker": "Paimon",
+                    "text": "#Hey {NICKNAME}, did you hear that?"
+                }
+            ]
+        }
+    ]
+}

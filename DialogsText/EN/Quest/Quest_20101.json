@@ -1,0 +1,979 @@
+{
+    "quest": {
+        "id": "20101",
+        "title": "Chasing Shadows",
+        "description": "The person Diluc called in turned out to be Jean from the Knights of Favonius. After some discussions, it is discovered that it was the Fatui who stole the Holy Lyre der Himmel. You must retrieve it to rescue Dvalin.",
+        "rewards": [
+            {
+                "itemId": 102,
+                "count": 175
+            },
+            {
+                "itemId": 202,
+                "count": 4225
+            },
+            {
+                "itemId": 101,
+                "count": 2200
+            },
+            {
+                "itemId": 104012,
+                "count": 4
+            }
+        ],
+        "rewards_formatted": "Adventure EXP x175, Mora x4225, Character EXP x2200, Fine Enhancement Ore x4",
+        "chapter": {
+            "icon": "UI_ChapterIcon_Mengde",
+            "id": "1002",
+            "num": "Prologue: Act II",
+            "title": "For a Tomorrow Without Tears"
+        },
+        "total_dialogue_lines": 110,
+        "total_speaker_counts": {
+            "Agent": 1,
+            "Fatui Guard": 11,
+            "Greedy Guard": 26,
+            "Paimon": 23,
+            "Player": 29,
+            "Timid Guard": 20
+        }
+    },
+    "talks": [
+        {
+            "id": "2010100",
+            "objective": "Player returned to the world. Tavern cleared.",
+            "dialogues": []
+        },
+        {
+            "id": "2010101",
+            "objective": "Enter the Fatui hideout",
+            "dialogues": []
+        },
+        {
+            "id": "2010102",
+            "objective": "Interrogate the guard",
+            "dialogues": []
+        },
+        {
+            "id": "2010103",
+            "objective": "Interrogate the guard",
+            "dialogues": [
+                {
+                    "id": "201010301",
+                    "speaker": "Fatui Guard",
+                    "text": "No, NO! Don't eat me! Ah? You're... You're human?"
+                },
+                {
+                    "id": "201010302",
+                    "speaker": "Fatui Guard",
+                    "text": "The entire floor's defenses... have been broken. I thought it was the Abyss Order attacking...",
+                    "choices": [
+                        {
+                            "id": "201010303",
+                            "text": "We have come for the Holy Lyre der Himmel.",
+                            "response": [
+                                {
+                                    "id": "201010304",
+                                    "speaker": "Fatui Guard",
+                                    "text": "H—How did you guys know the lyre's here?"
+                                },
+                                {
+                                    "id": "201010309",
+                                    "speaker": "Fatui Guard",
+                                    "text": "The place it's being kept is locked up tight. If you're after the key, keep going further into the ruins, but d—don't come after me!"
+                                },
+                                {
+                                    "id": "201010310",
+                                    "speaker": "Fatui Guard",
+                                    "text": "I don't know which one of the guards has it, but I'm sure you can find the guards and find out for yourselves."
+                                },
+                                {
+                                    "id": "201010311",
+                                    "speaker": "Paimon",
+                                    "text": "This guy looks like he's about to wet himself..."
+                                },
+                                {
+                                    "id": "201010312",
+                                    "speaker": "Fatui Guard",
+                                    "text": "Y—You just worry about yourselves!"
+                                },
+                                {
+                                    "id": "201010313",
+                                    "speaker": "Fatui Guard",
+                                    "text": "One of the Harbingers is already in Mondstadt."
+                                },
+                                {
+                                    "id": "201010314",
+                                    "speaker": "Fatui Guard",
+                                    "text": "Signora. When she gets her hands on you she's going to string you up and torture you. When that time comes, don't you dare say a word about me."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "201010305",
+                            "text": "We have come for your life.",
+                            "response": [
+                                {
+                                    "id": "201010306",
+                                    "speaker": "Fatui Guard",
+                                    "text": "Ahh, Ah, Ah!"
+                                },
+                                {
+                                    "id": "201010307",
+                                    "speaker": "Fatui Guard",
+                                    "text": "No, don't! I have valuable information! I'll tell you!"
+                                },
+                                {
+                                    "id": "201010308",
+                                    "speaker": "Fatui Guard",
+                                    "text": "We hid the Holy Lyre in the depths of these ruins."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "2010144",
+            "objective": "Stage callback on door open. Key destroyed.",
+            "dialogues": []
+        },
+        {
+            "id": "2010104",
+            "objective": "Scenario 1 Trigger",
+            "dialogues": []
+        },
+        {
+            "id": "2010105",
+            "objective": "Talk to the NPC in room 1",
+            "dialogues": [
+                {
+                    "id": "201010501",
+                    "speaker": "Timid Guard",
+                    "text": "Wh-Who are you? Wh-What are you doing here? Argh!"
+                }
+            ]
+        },
+        {
+            "id": "2010106",
+            "objective": "Threaten the NPC",
+            "dialogues": [
+                {
+                    "id": "201010601",
+                    "speaker": "Player",
+                    "text": "Give up. No one's coming to rescue you."
+                },
+                {
+                    "id": "201010602",
+                    "speaker": "Timid Guard",
+                    "text": "Did you already beat all the other guards?"
+                }
+            ]
+        },
+        {
+            "id": "2010107",
+            "objective": "Bribe the NPC",
+            "dialogues": [
+                {
+                    "id": "201010701",
+                    "speaker": "Player",
+                    "text": "(Deceptive dialog content)"
+                },
+                {
+                    "id": "201010702",
+                    "speaker": "Timid Guard",
+                    "text": "How in the..."
+                }
+            ]
+        },
+        {
+            "id": "2010108",
+            "objective": "Challenge NPC to a duel.",
+            "dialogues": [
+                {
+                    "id": "201010801",
+                    "speaker": "Player",
+                    "text": "Enough talk. Stick 'em up!"
+                },
+                {
+                    "id": "201010802",
+                    "speaker": "Timid Guard",
+                    "text": "Ahh!? You're just going to attack me!?"
+                }
+            ]
+        },
+        {
+            "id": "2010109",
+            "objective": "Negotiation with NPC succeeded - return",
+            "dialogues": [
+                {
+                    "id": "201010901",
+                    "speaker": "Timid Guard",
+                    "text": "Ah..."
+                }
+            ]
+        },
+        {
+            "id": "2010110",
+            "objective": "Negotiation with NPC failed - return",
+            "dialogues": [
+                {
+                    "id": "201011001",
+                    "speaker": "Timid Guard",
+                    "text": "Hmm..."
+                },
+                {
+                    "id": "2010110011",
+                    "speaker": "Timid Guard",
+                    "text": "Fine. Not like I have a choice anyway."
+                },
+                {
+                    "id": "2010110012",
+                    "speaker": "Timid Guard",
+                    "text": "Alright. You're free to go."
+                },
+                {
+                    "id": "2010110013",
+                    "speaker": "Timid Guard",
+                    "text": "But I don't have the key unfortunately. You'll have to ask the next guard you come across."
+                }
+            ]
+        },
+        {
+            "id": "2010111",
+            "objective": "Negotiation with NPC fell apart - trigger before combat",
+            "dialogues": [
+                {
+                    "id": "201011101",
+                    "speaker": "Timid Guard",
+                    "text": "Hehe..."
+                },
+                {
+                    "id": "2010111011",
+                    "speaker": "Timid Guard",
+                    "text": "I've had enough!"
+                },
+                {
+                    "id": "2010111012",
+                    "speaker": "Timid Guard",
+                    "text": "I am a proud citizen of Snezhnaya! I will not falter!"
+                }
+            ]
+        },
+        {
+            "id": "2010112",
+            "objective": "Negotiation with NPC failed - combat loop",
+            "dialogues": [
+                {
+                    "id": "201011201",
+                    "speaker": "Timid Guard",
+                    "text": "Hmph! Foolish Mondstadters! You think you can buy me off with a few Mora?"
+                }
+            ]
+        },
+        {
+            "id": "2010113",
+            "objective": "Room 1 - complete pinned quest",
+            "dialogues": [
+                {
+                    "id": "201011301",
+                    "speaker": "Timid Guard",
+                    "text": "I am a proud citizen of Snezhnaya! I will not falter!"
+                }
+            ]
+        },
+        {
+            "id": "2010145",
+            "objective": "Room 1 - quest pin for obtaining key through negotiations",
+            "dialogues": []
+        },
+        {
+            "id": "2010146",
+            "objective": "Room 1 - quest pin for obtaining key through combat",
+            "dialogues": []
+        },
+        {
+            "id": "2010153",
+            "objective": "",
+            "dialogues": [
+                {
+                    "id": "201010605",
+                    "speaker": "Player",
+                    "text": "I kicked their Snezhnayan butts."
+                },
+                {
+                    "id": "201010609",
+                    "speaker": "Timid Guard",
+                    "text": "What!? I—I'm not scared of you. An Agent will come to my aid!"
+                }
+            ]
+        },
+        {
+            "id": "2010154",
+            "objective": "",
+            "dialogues": [
+                {
+                    "id": "201010603",
+                    "speaker": "Player",
+                    "text": "No, but they got called back to Snezhnaya on urgent business."
+                }
+            ]
+        },
+        {
+            "id": "2010155",
+            "objective": "",
+            "dialogues": [
+                {
+                    "id": "201010610",
+                    "speaker": "Player",
+                    "text": "Oh, I dealt with him already."
+                }
+            ]
+        },
+        {
+            "id": "2010156",
+            "objective": "",
+            "dialogues": [
+                {
+                    "id": "201010612",
+                    "speaker": "Player",
+                    "text": "We both know you're making that up."
+                }
+            ]
+        },
+        {
+            "id": "2010157",
+            "objective": "",
+            "dialogues": [
+                {
+                    "id": "201010614",
+                    "speaker": "Player",
+                    "text": "He's getting drunk at the Cat's Tail."
+                }
+            ]
+        },
+        {
+            "id": "2010114",
+            "objective": "Scenario 2 Trigger",
+            "dialogues": []
+        },
+        {
+            "id": "2010115",
+            "objective": "Talk to the NPC in room 2",
+            "dialogues": [
+                {
+                    "id": "201011501",
+                    "speaker": "Greedy Guard",
+                    "text": "W-Who are you? How'd you get in here!?"
+                }
+            ]
+        },
+        {
+            "id": "2010116",
+            "objective": "Threaten NPC 2",
+            "dialogues": [
+                {
+                    "id": "201011601",
+                    "speaker": "Player",
+                    "text": "(Threatening dialog content)"
+                },
+                {
+                    "id": "201011602",
+                    "speaker": "Greedy Guard",
+                    "text": "You dare threaten me!?"
+                }
+            ]
+        },
+        {
+            "id": "2010117",
+            "objective": "Bribe NPC 2",
+            "dialogues": [
+                {
+                    "id": "201011701",
+                    "speaker": "Player",
+                    "text": "We are goodwill ambassadors from the Snezhno-Mondstadtian Association."
+                },
+                {
+                    "id": "201011799",
+                    "speaker": "Greedy Guard",
+                    "text": "Never heard of that association before..."
+                },
+                {
+                    "id": "201011702",
+                    "speaker": "Greedy Guard",
+                    "text": "What are you lot doing here?",
+                    "choices": [
+                        {
+                            "id": "201011703",
+                            "text": "We wish to borrow the Holy Lyre der Himmel.",
+                            "response": [
+                                {
+                                    "id": "201011704",
+                                    "speaker": "Greedy Guard",
+                                    "text": "That lie's way too obvious. You really haven't got anything better?"
+                                },
+                                {
+                                    "id": "201011709",
+                                    "speaker": "Greedy Guard",
+                                    "text": "And just how do you plan to \"borrow\" it?"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "201011705",
+                            "text": "We are here to do goodwill... stuff.",
+                            "response": [
+                                {
+                                    "id": "201011706",
+                                    "speaker": "Greedy Guard",
+                                    "text": "Oh? Keep talking..."
+                                },
+                                {
+                                    "id": "2010117061",
+                                    "speaker": "Greedy Guard",
+                                    "text": "Hmm, you're here for the Lyre, aren't you?"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "201011707",
+                            "text": "We are investigating you for alleged corruption.",
+                            "response": [
+                                {
+                                    "id": "201011708",
+                                    "speaker": "Greedy Guard",
+                                    "text": "What? How did you little brats creep in here? You take me for a fool?"
+                                },
+                                {
+                                    "id": "2010117081",
+                                    "speaker": "Greedy Guard",
+                                    "text": "Hmm, you're here for the Lyre, aren't you?"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "2010118",
+            "objective": "Challenge NPC 2 to a duel.",
+            "dialogues": [
+                {
+                    "id": "201011801",
+                    "speaker": "Player",
+                    "text": "There's nothing to discuss. Give up now."
+                },
+                {
+                    "id": "201011802",
+                    "speaker": "Greedy Guard",
+                    "text": "Ha... Like hell!"
+                }
+            ]
+        },
+        {
+            "id": "2010119",
+            "objective": "Negotiation with NPC 2 succeeded - return",
+            "dialogues": [
+                {
+                    "id": "201011901",
+                    "speaker": "Greedy Guard",
+                    "text": "Wow..."
+                }
+            ]
+        },
+        {
+            "id": "2010120",
+            "objective": "Negotiation with NPC 2 failed - return",
+            "dialogues": [
+                {
+                    "id": "201012001",
+                    "speaker": "Greedy Guard",
+                    "text": "Okay..."
+                },
+                {
+                    "id": "2010120011",
+                    "speaker": "Greedy Guard",
+                    "text": "Okay. Sounds like a plan."
+                },
+                {
+                    "id": "2010120012",
+                    "speaker": "Greedy Guard",
+                    "text": "Alright. You're free to go."
+                },
+                {
+                    "id": "2010120013",
+                    "speaker": "Greedy Guard",
+                    "text": "But I don't have the key unfortunately. You'll have to ask the next guard you come across."
+                }
+            ]
+        },
+        {
+            "id": "2010121",
+            "objective": "Negotiation with NPC 2 fell apart - trigger before combat",
+            "dialogues": [
+                {
+                    "id": "201012101",
+                    "speaker": "Greedy Guard",
+                    "text": "Hmph, Mondstadt fools! The will of Snezhnaya is as solid as the permafrost! I will not yield!"
+                }
+            ]
+        },
+        {
+            "id": "2010122",
+            "objective": "Negotiation with NPC 2 failed - combat loop",
+            "dialogues": [
+                {
+                    "id": "201012201",
+                    "speaker": "Greedy Guard",
+                    "text": "Hehe..."
+                },
+                {
+                    "id": "2010122011",
+                    "speaker": "Greedy Guard",
+                    "text": "Think you can look down your nose at me, huh?"
+                },
+                {
+                    "id": "2010122012",
+                    "speaker": "Greedy Guard",
+                    "text": "The will of Snezhnaya is as solid as the permafrost! I will not yield!"
+                }
+            ]
+        },
+        {
+            "id": "2010123",
+            "objective": "Room 2 - complete pinned quest",
+            "dialogues": [
+                {
+                    "id": "201012301",
+                    "speaker": "Greedy Guard",
+                    "text": "The will of Snezhnaya is as solid as the permafrost! I will not yield!"
+                }
+            ]
+        },
+        {
+            "id": "2010147",
+            "objective": "Room 2 - quest pin for obtaining key through negotiations",
+            "dialogues": []
+        },
+        {
+            "id": "2010148",
+            "objective": "Room 2 - quest pin for obtaining key through combat",
+            "dialogues": []
+        },
+        {
+            "id": "2010158",
+            "objective": "",
+            "dialogues": [
+                {
+                    "id": "201011710",
+                    "speaker": "Player",
+                    "text": "How does 500,000 Mora sound?"
+                }
+            ]
+        },
+        {
+            "id": "2010159",
+            "objective": "",
+            "dialogues": [
+                {
+                    "id": "201011712",
+                    "speaker": "Player",
+                    "text": "We'll recommend you to the Association."
+                }
+            ]
+        },
+        {
+            "id": "2010160",
+            "objective": "",
+            "dialogues": [
+                {
+                    "id": "201011714",
+                    "speaker": "Player",
+                    "text": "Have an apple!"
+                }
+            ]
+        },
+        {
+            "id": "2010149",
+            "objective": "Room 3 - quest pin for obtaining key through negotiations",
+            "dialogues": []
+        },
+        {
+            "id": "2010150",
+            "objective": "Room 3 - quest pin for obtaining key through combat",
+            "dialogues": []
+        },
+        {
+            "id": "2010134",
+            "objective": "Scenario 4 Trigger",
+            "dialogues": []
+        },
+        {
+            "id": "2010135",
+            "objective": "Room 4 — combat loop and pin quest",
+            "dialogues": []
+        },
+        {
+            "id": "2010138",
+            "objective": "Scenario 6 Trigger",
+            "dialogues": []
+        },
+        {
+            "id": "2010139",
+            "objective": "Room 5 — combat loop and pin quest",
+            "dialogues": []
+        },
+        {
+            "id": "2010140",
+            "objective": "Record progress - third record",
+            "dialogues": []
+        },
+        {
+            "id": "2010141",
+            "objective": "Scour the Fatui hideout to find the key",
+            "dialogues": []
+        },
+        {
+            "id": "2010142",
+            "objective": "Open the sealed door.",
+            "dialogues": []
+        },
+        {
+            "id": "2010143",
+            "objective": "Enter the area where the lyre is stored",
+            "dialogues": []
+        },
+        {
+            "id": "2010152",
+            "objective": "Obtain the Holy Lyre der Himmel",
+            "dialogues": [
+                {
+                    "id": "201015201",
+                    "speaker": "Paimon",
+                    "text": "He says the key isn't here. Shall we try <color=#00E1FFFF>another room</color>?"
+                }
+            ]
+        },
+        {
+            "id": "2010151",
+            "objective": "Talk to Paimon",
+            "dialogues": [
+                {
+                    "id": "201015101",
+                    "speaker": "Paimon",
+                    "text": "Where did that guy go, though? He was here a second ago..."
+                },
+                {
+                    "id": "201015102",
+                    "speaker": "Agent",
+                    "text": "Signora is going to end you. The songs bards sing of your demise will be so terrifying — the people of Mondstadt will never sleep again for the nightmares they give them."
+                },
+                {
+                    "id": "201015103",
+                    "speaker": "Paimon",
+                    "text": "Big talk for a guy who still ran off in the end... Chicken."
+                }
+            ]
+        },
+        {
+            "id": "2010124",
+            "objective": "Scenario 3 Trigger",
+            "dialogues": []
+        },
+        {
+            "id": "2010125",
+            "objective": "Talk to the NPC in room 3",
+            "dialogues": [
+                {
+                    "id": "201012501",
+                    "speaker": "Paimon",
+                    "text": "(Greedy, susceptible to persuasion) W-Who are you? How'd you get in here!?"
+                }
+            ]
+        },
+        {
+            "id": "2010126",
+            "objective": "Threaten NPC 3",
+            "dialogues": [
+                {
+                    "id": "201012601",
+                    "speaker": "Player",
+                    "text": "(Threatening dialog content)"
+                },
+                {
+                    "id": "201012602",
+                    "speaker": "Paimon",
+                    "text": "You dare threaten me!?"
+                }
+            ]
+        },
+        {
+            "id": "2010127",
+            "objective": "Bribe NPC 3",
+            "dialogues": [
+                {
+                    "id": "201012701",
+                    "speaker": "Player",
+                    "text": "(Deceptive dialog content) We are members of the Society for The Advancement of Snezhno-Mondstadtian Relations."
+                },
+                {
+                    "id": "201012799",
+                    "speaker": "Player",
+                    "text": "We are here to issue rewards on behalf of the Association. But we need to have a little... discussion with your captain first."
+                },
+                {
+                    "id": "201012702",
+                    "speaker": "Paimon",
+                    "text": "How did you know Paimon would be willing to help you?",
+                    "choices": [
+                        {
+                            "id": "201012703",
+                            "text": "Money talks.",
+                            "response": [
+                                {
+                                    "id": "201012704",
+                                    "speaker": "Paimon",
+                                    "text": "What!?"
+                                },
+                                {
+                                    "id": "201012709",
+                                    "speaker": "Paimon",
+                                    "text": "Paimon can help you, but once the captain agrees Paimon will need 2,000 Mora as compensation.",
+                                    "choices": [
+                                        {
+                                            "id": "201012710",
+                                            "text": "It's a deal.",
+                                            "response": [
+                                                {
+                                                    "id": "201012711",
+                                                    "speaker": "Paimon",
+                                                    "text": "...That does sound worth considering."
+                                                },
+                                                {
+                                                    "id": "201012716",
+                                                    "speaker": "Paimon",
+                                                    "text": "*snarling*"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "201012712",
+                                            "text": "1,500 and no more.",
+                                            "response": [
+                                                {
+                                                    "id": "201012713",
+                                                    "speaker": "Paimon",
+                                                    "text": "Huh?"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "201012714",
+                                            "text": "As a loan with repayments due monthly?",
+                                            "response": [
+                                                {
+                                                    "id": "201012715",
+                                                    "speaker": "Paimon",
+                                                    "text": "Do you take me for a fool!?"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "201012705",
+                            "text": "The secret to winning any negotiation is knowing the right gift to give.",
+                            "response": [
+                                {
+                                    "id": "201012706",
+                                    "speaker": "Paimon",
+                                    "text": "Hmm... Wise words!"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "201012707",
+                            "text": "You have \"greedy\" written all over you.",
+                            "response": [
+                                {
+                                    "id": "201012708",
+                                    "speaker": "Paimon",
+                                    "text": "...Huh."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "2010128",
+            "objective": "Challenge NPC 3 to a duel.",
+            "dialogues": [
+                {
+                    "id": "201012801",
+                    "speaker": "Player",
+                    "text": "Challenge NPC to a duel."
+                },
+                {
+                    "id": "201012802",
+                    "speaker": "Paimon",
+                    "text": "You dare threaten me!?"
+                }
+            ]
+        },
+        {
+            "id": "2010129",
+            "objective": "Negotiation with NPC 3 succeeded - return",
+            "dialogues": [
+                {
+                    "id": "201012901",
+                    "speaker": "Paimon",
+                    "text": "*snarling*"
+                },
+                {
+                    "id": "201012902",
+                    "speaker": "Paimon",
+                    "text": "Paimon sees..."
+                },
+                {
+                    "id": "201012903",
+                    "speaker": "Paimon",
+                    "text": "In that case..."
+                }
+            ]
+        },
+        {
+            "id": "2010130",
+            "objective": "Negotiation with NPC 3 failed - return",
+            "dialogues": [
+                {
+                    "id": "201013001",
+                    "speaker": "Paimon",
+                    "text": "You make a generous offer, but unfortunately the <color=#00E1FFFF>key</color> is not in my possession.\\nAsk the other guards. And don't forget our deal!"
+                }
+            ]
+        },
+        {
+            "id": "2010131",
+            "objective": "Negotiation with NPC 3 fell apart - trigger before combat",
+            "dialogues": [
+                {
+                    "id": "201013101",
+                    "speaker": "Paimon",
+                    "text": "Hmph, Mondstadt fools! The will of Snezhnaya is as solid as the permafrost! I will not yield!"
+                }
+            ]
+        },
+        {
+            "id": "2010132",
+            "objective": "Negotiation with NPC 3 failed — combat loop",
+            "dialogues": [
+                {
+                    "id": "201013201",
+                    "speaker": "Paimon",
+                    "text": "Hmph, Mondstadt fools! If you think you can sweet-talk your way past me, think again!"
+                }
+            ]
+        },
+        {
+            "id": "2010133",
+            "objective": "Room 3 — complete pinned quest",
+            "dialogues": [
+                {
+                    "id": "201013301",
+                    "speaker": "Paimon",
+                    "text": "You're nothing but a couple of intruders! Your punishment will be merciless!"
+                }
+            ]
+        },
+        {
+            "id": "2010136",
+            "objective": "Scenario 5 Trigger",
+            "dialogues": []
+        },
+        {
+            "id": "2010137",
+            "objective": "Room 5 — combat loop and pin quest",
+            "dialogues": []
+        },
+        {
+            "id": "20101100",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "2010110021",
+                    "speaker": "Timid Guard",
+                    "text": "Fine. Not like I have a choice anyway."
+                },
+                {
+                    "id": "2010110022",
+                    "speaker": "Timid Guard",
+                    "text": "Alright. You're free to go."
+                },
+                {
+                    "id": "2010110023",
+                    "speaker": "Timid Guard",
+                    "text": "I have the <color=#00E1FFFF>key</color> here. You can head in from the hall outside, but don't tell anyone that it was me who gave you the key."
+                }
+            ]
+        },
+        {
+            "id": "2010113",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "201011302",
+                    "speaker": "Timid Guard",
+                    "text": "Scram! You already got what you wanted!"
+                },
+                {
+                    "id": "201011303",
+                    "speaker": "Timid Guard",
+                    "text": "G—Go, quickly! Get out of here! Go find someone else!"
+                }
+            ]
+        },
+        {
+            "id": "2010120",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "201012002",
+                    "speaker": "Greedy Guard",
+                    "text": "Okay..."
+                },
+                {
+                    "id": "2010120021",
+                    "speaker": "Greedy Guard",
+                    "text": "Okay. Sounds like a plan."
+                },
+                {
+                    "id": "2010120022",
+                    "speaker": "Greedy Guard",
+                    "text": "I have the key here. You can head in from the hall outside, but don't tell anyone that it was me who gave you the key."
+                }
+            ]
+        },
+        {
+            "id": "2010123",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "201012302",
+                    "speaker": "Greedy Guard",
+                    "text": "Don't even try to say you don't owe me..."
+                },
+                {
+                    "id": "201012303",
+                    "speaker": "Greedy Guard",
+                    "text": "What're you still doing here? Don't get me into trouble."
+                }
+            ]
+        }
+    ]
+}

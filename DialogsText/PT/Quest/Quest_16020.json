@@ -1,0 +1,2126 @@
+{
+    "quest": {
+        "id": "16020",
+        "title": "Trilhando o Caminho Certo",
+        "description": "Depois de acordar do sonho, Linnea decidiu procurar Celaeno mais uma vez para esclarecer toda a verdade.",
+        "rewards": [
+            {
+                "itemId": 102,
+                "count": 600
+            },
+            {
+                "itemId": 201,
+                "count": 60
+            },
+            {
+                "itemId": 202,
+                "count": 53900
+            },
+            {
+                "itemId": 104363,
+                "count": 5
+            },
+            {
+                "itemId": 121535,
+                "count": 1
+            },
+            {
+                "itemId": 104003,
+                "count": 6
+            },
+            {
+                "itemId": 104013,
+                "count": 12
+            }
+        ],
+        "rewards_formatted": "EXP de Aventura x600, Gema Essencial x60, Mora x53900, Guia da Peregrinação x5, Medalha de Campeão do Campeonato da Emissária Espiritual x1, EXP do Herói x6, Minério de Refinamento Místico x12",
+        "chapter": {
+            "icon": "UI_ChapterIcon_Linnea",
+            "id": "2089",
+            "num": "Capítulo de Alcyon: Ato I",
+            "title": "Para Cima! Rumo às Asas do Lar"
+        },
+        "total_dialogue_lines": 374,
+        "total_speaker_counts": {
+            "#{REALNAME[ID(2)|SHOWHOST(true)]}": 1,
+            "<UNKNOWN>": 1,
+            "???": 1,
+            "Aguara": 26,
+            "Biliana": 1,
+            "Black Screen": 1,
+            "Celaeno": 92,
+            "Czeslawa": 23,
+            "Haemus": 2,
+            "Linnea": 125,
+            "Lumi": 17,
+            "Mikko": 1,
+            "Mualani": 2,
+            "Paimon": 36,
+            "Player": 39,
+            "Slawomir": 2,
+            "Um Assento na Plateia": 1,
+            "Vedrfolnir": 2,
+            "Voitto": 1
+        }
+    },
+    "talks": [
+        {
+            "id": "1602001",
+            "objective": "Desperte do sonho",
+            "dialogues": [
+                {
+                    "id": "160200101",
+                    "speaker": "Paimon",
+                    "text": "Linnea! Você acordou!"
+                },
+                {
+                    "id": "160200102",
+                    "speaker": "Paimon",
+                    "text": "Você ficou desacordada por muito tempo. Você deve tá morrendo de fome! Quer comer alguma coisa?"
+                },
+                {
+                    "id": "160200103",
+                    "speaker": "Linnea",
+                    "text": "..."
+                },
+                {
+                    "id": "160200104",
+                    "speaker": "Paimon",
+                    "text": "Linnea? P-Por que você tá chorando?"
+                },
+                {
+                    "id": "160200105",
+                    "speaker": "Linnea",
+                    "text": "Que... Que horas são?"
+                },
+                {
+                    "id": "160200106",
+                    "speaker": "Paimon",
+                    "text": "É noite... E é o dia depois das quartas de final."
+                },
+                {
+                    "id": "160200107",
+                    "speaker": "Paimon",
+                    "text": "Estávamos assistindo à partida entre Celaeno e Jahoda, quando você pegou o braço de Celaeno. E então você desmaiou. Você lembra algo disso?"
+                },
+                {
+                    "id": "160200108",
+                    "speaker": "Linnea",
+                    "text": "...",
+                    "choices": [
+                        {
+                            "id": "160200109",
+                            "text": "Você teve um pesadelo?",
+                            "response": [
+                                {
+                                    "id": "160200111",
+                                    "speaker": "Linnea",
+                                    "text": "Tantas coisas apareceram na minha mente, uma atrás da outra... No final da competição, coisas do meu futuro, até o fim da minha vida, quando eu já havia me despedido do mundo."
+                                },
+                                {
+                                    "id": "160200112",
+                                    "speaker": "Linnea",
+                                    "text": "Alguns momentos eram de alegria, outros dolorosos, e tudo parecia tão real. Eu não sei como descrever, mas era assustador."
+                                },
+                                {
+                                    "id": "160200113",
+                                    "speaker": "Player",
+                                    "text": "(Depois de uma de suas partidas, Linnea mencionou que sua intuição misteriosa ajuda ela a prever os movimentos do oponente.)"
+                                },
+                                {
+                                    "id": "160200114",
+                                    "speaker": "Player",
+                                    "text": "(Celaeno parecia ter uma habilidade similar durante sua luta contra Jahoda. Será que isso tinha algo a ver com o sonho de Linnea?)",
+                                    "choices": [
+                                        {
+                                            "id": "160200115",
+                                            "text": "Talvez Celaeno saiba mais.",
+                                            "response": [
+                                                {
+                                                    "id": "160200117",
+                                                    "speaker": "Paimon",
+                                                    "text": "Boa ideia. Você desmaiou logo após pegar ela. Além disso, ela falou um monte de coisas misteriosas... Talvez ela saiba o que tá acontecendo."
+                                                },
+                                                {
+                                                    "id": "160200118",
+                                                    "speaker": "Paimon",
+                                                    "text": "Ainda assim... é uma boa ideia procurar por ela? E se a mesma coisa acontecer de novo?"
+                                                },
+                                                {
+                                                    "id": "160200119",
+                                                    "speaker": "Player",
+                                                    "text": "Sim, pode causar outro desses sonhos vívidos..."
+                                                },
+                                                {
+                                                    "id": "160200120",
+                                                    "speaker": "Linnea",
+                                                    "text": "..."
+                                                },
+                                                {
+                                                    "id": "160200121",
+                                                    "speaker": "Linnea",
+                                                    "text": "Você se lembra quando estávamos no Speranza, e eu contei sobre a minha infância? Bem... eu deixei alguns detalhes de fora..."
+                                                },
+                                                {
+                                                    "id": "160200122",
+                                                    "speaker": "Linnea",
+                                                    "text": "Eu não era uma criança muito animada, nem era tão corajosa. Eu passei muitas noites acordadas antes de contar para meus pais humanos que era uma feérica."
+                                                },
+                                                {
+                                                    "id": "160200123",
+                                                    "speaker": "Linnea",
+                                                    "text": "Eu sabia o que poderia acontecer quando contasse para eles. Eu queria que eles dissessem que mesmo que eu não fosse sua filha, ainda me amavam."
+                                                },
+                                                {
+                                                    "id": "160200124",
+                                                    "speaker": "Linnea",
+                                                    "text": "Mas eu sabia que isso era impossível. Sua própria filha humana estava por aí, bem como meus pais feéricos. Nossa família era uma mentira que não podia continuar."
+                                                },
+                                                {
+                                                    "id": "160200125",
+                                                    "speaker": "Linnea",
+                                                    "text": "Por isso, apesar de eu estar apavorada, e eu sabia que poderia acabar como uma criança que ninguém queria, eu criei a coragem de contar para eles."
+                                                },
+                                                {
+                                                    "id": "160200126",
+                                                    "speaker": "Linnea",
+                                                    "text": "Eu fiz o que eu achei que era certo. Eu sabia que as coisas poderiam sair como eu não esperava, mas eu não ia voltar atrás na minha decisão. Mesma coisa agora. Eu tenho que ver Celaeno."
+                                                },
+                                                {
+                                                    "id": "160200127",
+                                                    "speaker": "Paimon",
+                                                    "text": "Linnea..."
+                                                },
+                                                {
+                                                    "id": "160200128",
+                                                    "speaker": "Linnea",
+                                                    "text": "Hã... Agora que eu percebi que não faço ideia onde ela está. Não me digam que vou ter que esperar até a próxima rodada da competição..."
+                                                },
+                                                {
+                                                    "id": "160200129",
+                                                    "speaker": "Aguara",
+                                                    "text": "Rawr! Raaaawr!"
+                                                },
+                                                {
+                                                    "id": "160200130",
+                                                    "speaker": "Paimon",
+                                                    "text": "Hã? Aguara, você sabe onde Celaeno tá?"
+                                                },
+                                                {
+                                                    "id": "160200131",
+                                                    "speaker": "Player",
+                                                    "text": "Eu acho que ele quer a gente siga ele..."
+                                                },
+                                                {
+                                                    "id": "160200132",
+                                                    "speaker": "Linnea",
+                                                    "text": "Você se lembra do cheiro de Celaeno? Incrível! Valeu, Aguinho!"
+                                                },
+                                                {
+                                                    "id": "160200133",
+                                                    "speaker": "Aguara",
+                                                    "text": "Rawr!"
+                                                },
+                                                {
+                                                    "id": "160200134",
+                                                    "speaker": "Linnea",
+                                                    "text": "Ufa... Tudo bem! Acho que estou pronta pra isso. Não tem pra que esperar mais, vamos nessa!"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "160200116",
+                                            "text": "Devíamos perguntar a Celaeno?"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "160200110",
+                            "text": "O que aconteceu?"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "1602018",
+            "objective": "Siga Aguara e encontre Celaeno",
+            "dialogues": []
+        },
+        {
+            "id": "1602002",
+            "objective": "Siga Aguara e encontre Celaeno",
+            "dialogues": []
+        },
+        {
+            "id": "1602016",
+            "objective": "Continue seguindo Aguara",
+            "dialogues": [
+                {
+                    "id": "160201601",
+                    "speaker": "Celaeno",
+                    "text": "Mas e você, Linnea? Qual é sua perspectiva?"
+                },
+                {
+                    "id": "160201602",
+                    "speaker": "Linnea",
+                    "text": "Eu... Eu acho que vejo as coisas de um jeito diferente."
+                },
+                {
+                    "id": "160201603",
+                    "speaker": "Linnea",
+                    "text": "Que tal continuarmos essa conversa após o torneio? Eu prefiro dar minha reposta quando chegar a hora."
+                },
+                {
+                    "id": "160201604",
+                    "speaker": "Celaeno",
+                    "text": "Certo, só não coloque toda sua fé no futuro... Não quero ver a decepção te destruir."
+                },
+                {
+                    "id": "160201605",
+                    "speaker": "Linnea",
+                    "text": "Vou ficar bem, confie em mim. Enfim, vamos parar por aqui hoje, vejo vocês na arena!"
+                }
+            ]
+        },
+        {
+            "id": "1602017",
+            "objective": "Continue seguindo Aguara",
+            "dialogues": [
+                {
+                    "id": "160201701",
+                    "speaker": "Paimon",
+                    "text": "Sim!!!"
+                },
+                {
+                    "id": "160201702",
+                    "speaker": "Linnea",
+                    "text": "Muito bem! Continue, Aguara!"
+                }
+            ]
+        },
+        {
+            "id": "1602003",
+            "objective": "Fale com Celaeno",
+            "dialogues": [
+                {
+                    "id": "160200301",
+                    "speaker": "Aguara",
+                    "text": "Rawr!"
+                },
+                {
+                    "id": "160200302",
+                    "speaker": "Paimon",
+                    "text": "Depois disso tudo, Celaeno tá ficando no quarto ao lado do nosso? Não surpreende Aguara ter sentido o cheiro dela!"
+                },
+                {
+                    "id": "160200303",
+                    "speaker": "Linnea",
+                    "text": "Tem alguém aí?"
+                },
+                {
+                    "id": "160200304",
+                    "speaker": "Linnea",
+                    "text": "... Você tem certeza que esse é o quarto certo?"
+                },
+                {
+                    "id": "160200305",
+                    "speaker": "Aguara",
+                    "text": "Rawr!"
+                },
+                {
+                    "id": "160200306",
+                    "speaker": "Linnea",
+                    "text": "Celaeno, eu sei que você tá aí. Por favor, eu preciso falar com você!"
+                },
+                {
+                    "id": "160200307",
+                    "speaker": "Linnea",
+                    "text": "Celaeno..."
+                },
+                {
+                    "id": "160200308",
+                    "speaker": "Celaeno",
+                    "text": "Tem ninguém em casa!"
+                },
+                {
+                    "id": "160200309",
+                    "speaker": "Linnea",
+                    "text": "Claro que sim!"
+                },
+                {
+                    "id": "160200310",
+                    "speaker": "Celaeno",
+                    "text": "Não! Me deixem em paz!"
+                },
+                {
+                    "id": "160200311",
+                    "speaker": "Linnea",
+                    "text": "Sem chance! Se você não abrir essa porta, eu vou ficar plantada aqui fora esperando você abrir."
+                },
+                {
+                    "id": "160200312",
+                    "speaker": "Linnea",
+                    "text": "Eu tenho muitas perguntas. Você pode pelo menos me responder uma? Quem é você? Você é minha irmã?"
+                },
+                {
+                    "id": "160200313",
+                    "speaker": "Celaeno",
+                    "text": "...!"
+                },
+                {
+                    "id": "160200314",
+                    "speaker": "Linnea",
+                    "text": "Abra a porta!"
+                },
+                {
+                    "id": "160200315",
+                    "speaker": "Celaeno",
+                    "text": "Tá bom, tá bom. Pare de gritar"
+                },
+                {
+                    "id": "160200316",
+                    "speaker": "Celaeno",
+                    "text": "... Entre."
+                },
+                {
+                    "id": "160200317",
+                    "speaker": "Linnea",
+                    "text": "Hehe, não foi tão difícil, né?"
+                },
+                {
+                    "id": "160200318",
+                    "speaker": "Celaeno",
+                    "text": "Sente-se. E só para deixar claro, eu não estava esperando visitantes, não posso oferecer nada."
+                },
+                {
+                    "id": "160200319",
+                    "speaker": "Celaeno",
+                    "text": "Curiosidade é algo perigoso, Linnea. Você vai se arrepender de vir aqui. Não diga que eu não avisei."
+                },
+                {
+                    "id": "160200320",
+                    "speaker": "Linnea",
+                    "text": "Tem certeza? Porque se eu não tivesse vindo aqui, eu já estaria me arrependendo."
+                },
+                {
+                    "id": "160200321",
+                    "speaker": "Linnea",
+                    "text": "Você vai me responder? Por que temos essas asas nas nossas cabeças? Por que eu desmaiei quanto te toquei? E por que eu vi todas aquelas... aquelas..."
+                },
+                {
+                    "id": "160200322",
+                    "speaker": "Celaeno",
+                    "text": "...Visões de seu futuro?"
+                },
+                {
+                    "id": "160200323",
+                    "speaker": "Linnea",
+                    "text": "..."
+                },
+                {
+                    "id": "160200324",
+                    "speaker": "Paimon",
+                    "text": "...Então não foi só um sonho?"
+                },
+                {
+                    "id": "160200325",
+                    "speaker": "Celaeno",
+                    "text": "Claro que não."
+                },
+                {
+                    "id": "160200326",
+                    "speaker": "Celaeno",
+                    "text": "Linnea, você é uma estudante do mundo natural. Você deve estar familiarizada com os seis tipos mais comuns de feéricos, não é?"
+                },
+                {
+                    "id": "160200327",
+                    "speaker": "Linnea",
+                    "text": "Os Vila, os Domovoy, os Leshy, os Volkodlak, os Snegovik e os Geladinhos."
+                },
+                {
+                    "id": "160200328",
+                    "speaker": "Celaeno",
+                    "text": "Sim. Bem, também há as variantes menos conhecidas. Os Feéricos da Lanterna, as Sereias com suas canções, e nós, os Pássaros do Auguro."
+                },
+                {
+                    "id": "160200329",
+                    "speaker": "Celaeno",
+                    "text": "\"Prevemos os desastres e alegrias, olhando as alvoradas passadas e noites futuras. Outros temem e veneram nosso poder, enquanto nós odiamos nossa maldição\"."
+                },
+                {
+                    "id": "160200330",
+                    "speaker": "Linnea",
+                    "text": "...Eu nunca ouvi falar de um Pássaro do Auguro. Nem o que você recitou."
+                },
+                {
+                    "id": "160200331",
+                    "speaker": "Celaeno",
+                    "text": "Não surpreende. Dá para contar o número de Pássaros do Auguro restantes numa mão, e isso inclui nós duas."
+                },
+                {
+                    "id": "160200332",
+                    "speaker": "Linnea",
+                    "text": "Então é verdade... Somos uma família."
+                },
+                {
+                    "id": "160200333",
+                    "speaker": "Celaeno",
+                    "text": "Família... Hunf."
+                },
+                {
+                    "id": "160200334",
+                    "speaker": "Player",
+                    "text": "(Celaeno não negou serem uma família, mas algo sobre essa palavra a incomoda. Claramente, ela tem emoções conflitantes sobre a família.)"
+                },
+                {
+                    "id": "160200335",
+                    "speaker": "Celaeno",
+                    "text": "Pássaros do Auguro nascem com uma habilidade única. Podemos ver as encruzilhadas do fluxo do destino. São eventos do futuro imutáveis aos quais todos os caminhos levam."
+                },
+                {
+                    "id": "160200336",
+                    "speaker": "Paimon",
+                    "text": "Você tá falando de profecias?"
+                },
+                {
+                    "id": "160200337",
+                    "speaker": "Player",
+                    "text": "Conhecemos outras pessoas com a habilidade de ver o futuro."
+                },
+                {
+                    "id": "160200338",
+                    "speaker": "Celaeno",
+                    "text": "Não me surpreende. A humanidade possui muitos meios de observar o destino, sejam as estrelas, ou as Linhas Ley... Comparado com isso, nossas habilidades não são nada."
+                },
+                {
+                    "id": "160200339",
+                    "speaker": "Celaeno",
+                    "text": "Só podemos ver nossos próprios destinos. Se um amigo quiser saber seu futuro, ou alguém estiver preocupado com o destino do mundo, não temos como ajudar."
+                },
+                {
+                    "id": "160200340",
+                    "speaker": "Celaeno",
+                    "text": "Mas sentir o que é testemunhar o seu próprio destino... Acho que você entende agora, Linnea."
+                },
+                {
+                    "id": "160200341",
+                    "speaker": "Linnea",
+                    "text": "Bem, com certeza não foi divertido. Essas profecias trouxeram muitas emoções, desde animação até frustração e amargura... No final, eu só fiquei com um vazio."
+                },
+                {
+                    "id": "160200342",
+                    "speaker": "Linnea",
+                    "text": "Eu tinha um objetivo na vida... e antes de ter a chance de lutar por ele, eu já sabia como ia acabar. É como ter o final de uma história estragado."
+                },
+                {
+                    "id": "160200343",
+                    "speaker": "Celaeno",
+                    "text": "Espere até você tentar desafiar o destino e descobrir como é impotente para mudá-lo... É aí que o sofrimento começa."
+                },
+                {
+                    "id": "160200344",
+                    "speaker": "Player",
+                    "text": "(...)"
+                },
+                {
+                    "id": "160200345",
+                    "speaker": "Vedrfolnir",
+                    "text": "Tudo está acontecendo como eu previ, mas ainda assim, não posso fazer nada para mudar. O destino é imutável. Eu só posso lamentar enquanto o inevitável se desenrola."
+                },
+                {
+                    "id": "160200346",
+                    "speaker": "Vedrfolnir",
+                    "text": "Eu me pergunto se conferir o poder a um homem para ver o futuro não serve para mais nada a não ser esmagar lentamente seu espírito..."
+                },
+                {
+                    "id": "160200347",
+                    "speaker": "Player",
+                    "text": "(...Vedrfolnir, o Visionário, disse algo similar.)"
+                },
+                {
+                    "id": "160200348",
+                    "speaker": "Player",
+                    "text": "(Se fosse fácil mudar o destino, ver o futuro seria uma bênção. Seria um poder cobiçado por todos.)"
+                },
+                {
+                    "id": "160200349",
+                    "speaker": "Player",
+                    "text": "(Mas... se o destino está predeterminado, então saber o futuro também deve ser um fardo.)"
+                },
+                {
+                    "id": "160200350",
+                    "speaker": "Celaeno",
+                    "text": "Quando você sabe toda alegria e dor que terá, e que não há nada que você possa fazer para mudar... como você disse, isso deixa apenas um vazio."
+                },
+                {
+                    "id": "160200351",
+                    "speaker": "Celaeno",
+                    "text": "As gerações dos Pássaros do Auguro viveram com esse fardo... até você nascer, e então nossos pais descobriram a única solução."
+                },
+                {
+                    "id": "160200352",
+                    "speaker": "Celaeno",
+                    "text": "\"Se um Pássaro do Auguro for enviado para longe dos feéricos para crescer entre humanos, o despertar de suas habilidades proféticas pode ser retardado.\""
+                },
+                {
+                    "id": "160200353",
+                    "speaker": "Linnea",
+                    "text": "Então foi assim que eu virei um metamorfo?"
+                },
+                {
+                    "id": "160200354",
+                    "speaker": "Linnea",
+                    "text": "E a criança com quem fui trocada? O que aconteceu com ela?"
+                },
+                {
+                    "id": "160200355",
+                    "speaker": "Celaeno",
+                    "text": "Não se preocupe. Ela era seu oposto, alguém que tinha de viver entre os feéricos. Ela nasceu com uma doença única que os humanos não podiam curar. Se não tivesse sido trocada, teria morrido há muito tempo."
+                },
+                {
+                    "id": "160200356",
+                    "speaker": "Celaeno",
+                    "text": "Nossos pais salvaram a vida dela e criaram ela como se fosse sua própria filha. Eventualmente, seus pais biológicos vieram atrás dela, e agora estão todos vivendo juntos em Snezhnograd."
+                },
+                {
+                    "id": "160200357",
+                    "speaker": "Linnea",
+                    "text": "...Entendo. Uau."
+                },
+                {
+                    "id": "160200358",
+                    "speaker": "Linnea",
+                    "text": "Agora eu entendo o que aconteceu, mas ainda há algo importante que eu preciso saber. O que você quis dizer antes de eu desmaiar?"
+                },
+                {
+                    "id": "160200359",
+                    "speaker": "Celaeno",
+                    "text": "Eu quis dizer o que eu disse. Eu não gosto de você."
+                },
+                {
+                    "id": "160200360",
+                    "speaker": "Linnea",
+                    "text": "Por quê?"
+                },
+                {
+                    "id": "160200361",
+                    "speaker": "Celaeno",
+                    "text": "Não tem porquê."
+                },
+                {
+                    "id": "160200362",
+                    "speaker": "Linnea",
+                    "text": "Então voltamos pra isso? Se você não vai me dizer, eu vou ter que adivinhar."
+                },
+                {
+                    "id": "160200363",
+                    "speaker": "Linnea",
+                    "text": "Celaeno... Você tem inveja de mim?"
+                },
+                {
+                    "id": "160200364",
+                    "speaker": "Celaeno",
+                    "text": "...!"
+                },
+                {
+                    "id": "160200365",
+                    "speaker": "Celaeno",
+                    "text": "Haha, na mosca! Mas eu não diria inveja, tá mais pra rancor."
+                },
+                {
+                    "id": "160200366",
+                    "speaker": "Celaeno",
+                    "text": "Quando nossos pais pensaram na solução, e você partiu pra viver com os humanos, eu já estava atormentada por visões. Se eu tivesse nascido alguns anos depois... *Suspiro* Como o destino é cruel."
+                },
+                {
+                    "id": "160200367",
+                    "speaker": "Celaeno",
+                    "text": "Mamãe e papai fugiam para Nod-Krai para ver você, e viviam falando de você também. Até a criança humana recebia mais atenção do que eu."
+                },
+                {
+                    "id": "160200368",
+                    "speaker": "Celaeno",
+                    "text": "Eu fui com eles uma vez para ver você. Você era tão despreocupada, e isso me deixou cheia de inveja, tendo que fingir que nada estava errado. Eu até mesmo desejei o bem para você."
+                },
+                {
+                    "id": "160200369",
+                    "speaker": "Celaeno",
+                    "text": "Alguém já pensou em como eu me sentia? Como eu era para essas pessoas? Uma fracassada? Uma desgraçada abandonada pelo destino?"
+                },
+                {
+                    "id": "160200370",
+                    "speaker": "Paimon",
+                    "text": "Celaeno..."
+                },
+                {
+                    "id": "160200371",
+                    "speaker": "Celaeno",
+                    "text": "E assim, há muito tempo, eu decidi que quando você estivesse mais velha, eu visitaria. Eu pensei em contar toda a verdade, e assim você compartilharia da mesma dor que eu sinto."
+                },
+                {
+                    "id": "160200372",
+                    "speaker": "Celaeno",
+                    "text": "Que coisa terrível de se querer... Mas é assim que eu sou..."
+                },
+                {
+                    "id": "160200373",
+                    "speaker": "Linnea",
+                    "text": "Então por que você se escondeu de mim?"
+                },
+                {
+                    "id": "160200374",
+                    "speaker": "Celaeno",
+                    "text": "..."
+                },
+                {
+                    "id": "160200375",
+                    "speaker": "Linnea",
+                    "text": "Você quer que eu continue adivinhando?"
+                },
+                {
+                    "id": "160200376",
+                    "speaker": "Celaeno",
+                    "text": "...Porque eu descobri que a sua versão feliz, aquela mimada pelos pais e favorecida pelo destino, era só uma fantasia."
+                },
+                {
+                    "id": "160200377",
+                    "speaker": "Celaeno",
+                    "text": "Eu ouvi vocês no Speranza falando sobre o passado... tentando desesperadamente esconder a verdade sobre quem você é, de alguma maneira sobrevivendo com um grupinho de crianças na Gangue da Concha."
+                },
+                {
+                    "id": "160200400",
+                    "speaker": "Celaeno",
+                    "text": "Você descreveu isso tão despreocupadamente, mas estava me comendo por dentro."
+                },
+                {
+                    "id": "160200378",
+                    "speaker": "Celaeno",
+                    "text": "Naquele momento, eu não queria te ver sofrer... E eu não podia mais continuar ressentindo você. Eu só queria te abraçar forte e te dizer que tudo ficará bem, que você ainda tem uma família..."
+                },
+                {
+                    "id": "160200379",
+                    "speaker": "Linnea",
+                    "text": "Irmã..."
+                },
+                {
+                    "id": "160200380",
+                    "speaker": "Linnea",
+                    "text": "Você não serve para ser vilã."
+                },
+                {
+                    "id": "160200381",
+                    "speaker": "Linnea",
+                    "text": "Olhe só para você, chorando... Agora sou eu que tenho que te confortar!"
+                },
+                {
+                    "id": "160200382",
+                    "speaker": "Linnea",
+                    "text": "Mas eu entendo como você se sente agora. Você não ficou com raiva de mim... você só era solitária."
+                },
+                {
+                    "id": "160200383",
+                    "speaker": "Linnea",
+                    "text": "Eu sempre pensei em como minha família seria. Eu fiquei tão feliz que você queria me ver, irmã."
+                },
+                {
+                    "id": "160200384",
+                    "speaker": "Celaeno",
+                    "text": "Obrigada... a todos vocês. Eu não esperava que as coisas fossem acabar assim."
+                },
+                {
+                    "id": "160200385",
+                    "speaker": "Paimon",
+                    "text": "Não foi nada."
+                },
+                {
+                    "id": "160200386",
+                    "speaker": "Paimon",
+                    "text": "Paimon sempre diz que é melhor colocar tudo pra fora! Assim, todo mundo pode voltar a ser feliz!"
+                },
+                {
+                    "id": "160200387",
+                    "speaker": "Linnea",
+                    "text": "Hehe, você tá certa, Paimon. Faz muito tempo que não fico tão feliz."
+                },
+                {
+                    "id": "160200388",
+                    "speaker": "Lumi",
+                    "text": "Ya-ho!"
+                },
+                {
+                    "id": "160200389",
+                    "speaker": "Linnea",
+                    "text": "Ei, Celaeno, eu tava pensando... Como você acabou com um Lâmina de Chifre Radiante como seu parceiro? Todos os que conheci eram agressivos. Nunca deixavam eu me aproximar."
+                },
+                {
+                    "id": "160200390",
+                    "speaker": "Celaeno",
+                    "text": "Nos conhecemos quando mamãe e papai me trouxeram para ver você em Nod-Krai. Na época, Haemus era só um bebê que foi separado dos pais. Eu acabei cuidando dele por um tempo."
+                },
+                {
+                    "id": "160200391",
+                    "speaker": "Celaeno",
+                    "text": "Eu acho que nossa amizade estava predeterminada. Assim como minha futura vitória, uma encruzilhada imutável no destino."
+                },
+                {
+                    "id": "160200392",
+                    "speaker": "Linnea",
+                    "text": "\"Imutável\"?"
+                },
+                {
+                    "id": "160200393",
+                    "speaker": "Celaeno",
+                    "text": "Você pode tentar lutar com ele. Já que você está tão animada para experimentar a crueldade do destino."
+                },
+                {
+                    "id": "160200394",
+                    "speaker": "Celaeno",
+                    "text": "Saia dessa competição e voe para algum lugar longe. Eu prometo que algo vai acontecer que vai forçar você a retornar."
+                },
+                {
+                    "id": "160200395",
+                    "speaker": "Celaeno",
+                    "text": "Ou você pode tentar ir com tudo e tentar me vencer, mas você nunca superará a diferença de força, nem a graça da sorte."
+                },
+                {
+                    "id": "160200396",
+                    "speaker": "Celaeno",
+                    "text": "As profecias que estamos vendo são os pontos de encontro de todo caminho possível. Cada estrada tem seu rumo, mas todas elas vão para o mesmo destino."
+                },
+                {
+                    "id": "160200397",
+                    "speaker": "Linnea",
+                    "text": "Agora que sei a dor de conhecer meu próprio destino, tenho que perguntar... Como você seguiu em frente todos esses anos?"
+                },
+                {
+                    "id": "160200398",
+                    "speaker": "Celaeno",
+                    "text": "Eu aprendi a me render ao destino. Eu só tenho que aceitar que tudo acontecerá, não há escolha."
+                },
+                {
+                    "id": "160200399",
+                    "speaker": "Celaeno",
+                    "text": "Já que o resultado não pode ser mudado, como eu chego lá não importa no grande panorama. Cada encruzilhada que previ é uma maldição, então o melhor que posso fazer é perseguir um pouco de felicidade nos desconhecidos entre elas."
+                }
+            ]
+        },
+        {
+            "id": "1602005",
+            "objective": "Volte para o seu quarto no Navio-Chefe para descansar",
+            "dialogues": [
+                {
+                    "id": "160200501",
+                    "speaker": "Paimon",
+                    "text": "#{NICKNAME}, você tá dormindo?",
+                    "choices": [
+                        {
+                            "id": "160200502",
+                            "text": "Não tô mais.",
+                            "response": [
+                                {
+                                    "id": "160200504",
+                                    "speaker": "Paimon",
+                                    "text": "Nem Paimon. Linnea e Celaeno não são as únicas com o dia cheio amanhã, você tem sua semifinal pra ganhar. A gente não faz ideia de quem poderia ser seu oponente, Paimon fica um pouco nervosa..."
+                                },
+                                {
+                                    "id": "160200505",
+                                    "speaker": "Paimon",
+                                    "text": "Já que estamos com dificuldade pra dormir, quer sair pra dar uma caminhada? A gente pode comer uma coisa gostosa, aí levar Aguara pra ver a arena. Pode ser uma boa chance para nosso guerreirinho conhecer o local."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "160200503",
+                            "text": "Não consigo dormir..."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "1602015",
+            "objective": "Confira o campo de treinamento",
+            "dialogues": [
+                {
+                    "id": "160200901",
+                    "speaker": "Linnea",
+                    "text": "Escuta, Lumi. Eu vi o Lâmina de Chifre de Calaeno em ação e ele não é só forte... é rápido também."
+                },
+                {
+                    "id": "160200902",
+                    "speaker": "Linnea",
+                    "text": "O melhor jeito que ela tem de explorar essas características será fazendo o Lâmina de Chifre investir contra você. Você vai ter que achar um jeito de evitar os ataques, aí escolher o momento certo de contra-atacar..."
+                },
+                {
+                    "id": "160200903",
+                    "speaker": "Paimon",
+                    "text": "Linnea!"
+                },
+                {
+                    "id": "160200904",
+                    "speaker": "Player",
+                    "text": "Está se preparando de última hora?"
+                },
+                {
+                    "id": "160200905",
+                    "speaker": "Linnea",
+                    "text": "Com certeza! O que vocês tão fazendo aqui?"
+                },
+                {
+                    "id": "160200906",
+                    "speaker": "Linnea",
+                    "text": "Eu e Lumi estávamos pensando na nossa estratégia de amanhã! Como você está aqui também, que tal deixar Aguara se juntar a Lumi num amistoso?"
+                },
+                {
+                    "id": "160200907",
+                    "speaker": "Lumi",
+                    "text": "Ya-ho!"
+                },
+                {
+                    "id": "160200908",
+                    "speaker": "Aguara",
+                    "text": "Rawwr!"
+                },
+                {
+                    "id": "160200909",
+                    "speaker": "Linnea",
+                    "text": "Adapte-se, contenha-se e espere uma chance de atacar... É tudo que consigo pensar."
+                },
+                {
+                    "id": "160200910",
+                    "speaker": "Linnea",
+                    "text": "Mas Haemus é tão forte. Mesmo se identificarmos uma fraqueza, não tenho certeza se Lumi tem a força necessária para explorá-la. Preciso de um plano melhor...",
+                    "choices": [
+                        {
+                            "id": "160200911",
+                            "text": "Você realmente pensou bastante nisso...",
+                            "response": [
+                                {
+                                    "id": "160200913",
+                                    "speaker": "Linnea",
+                                    "text": "Obrigada. Não é porque eu vi o futuro e sei que vou ser derrotada que vou desistir sem lutar!"
+                                },
+                                {
+                                    "id": "160200914",
+                                    "speaker": "Linnea",
+                                    "text": "O que é o destino? Ver ele com os próprios olhos não o deixa menos misterioso."
+                                },
+                                {
+                                    "id": "160200915",
+                                    "speaker": "Player",
+                                    "text": "O que o destino significa pra você?"
+                                },
+                                {
+                                    "id": "160200916",
+                                    "speaker": "Linnea",
+                                    "text": "O que é isso? Tá se sentindo toda filosófica do nada? Preciso de tempo para pensar, eu acabei de descobrir quem eu sou."
+                                },
+                                {
+                                    "id": "160200917",
+                                    "speaker": "Linnea",
+                                    "text": "Além disso, eu sou uma consultora. A Guilda não ia querer que eu enganasse você com palpites e especulação."
+                                },
+                                {
+                                    "id": "160200918",
+                                    "speaker": "Player",
+                                    "text": "#Relaxe. Só estou curios{M#o}{F#a} pra ouvir sua opinião."
+                                },
+                                {
+                                    "id": "160200919",
+                                    "speaker": "Linnea",
+                                    "text": "Certo, lá vai. Eu acho... que saber o futuro é horrível, mas a vida é cheia de coisas que são horríveis."
+                                },
+                                {
+                                    "id": "160200920",
+                                    "speaker": "Linnea",
+                                    "text": "Quando eu era uma criança, meu maior sofrimento veio de não saber, não saber o que meus pais fariam quando eu contasse a verdade, e não saber para onde ir quando eles partissem..."
+                                },
+                                {
+                                    "id": "160200921",
+                                    "speaker": "Linnea",
+                                    "text": "Na época, eu queria ver o futuro. Eu sonhei que o destino me enviaria um sinal, uma orientação certa, algo para me dar a coragem de seguir em frente."
+                                },
+                                {
+                                    "id": "160200922",
+                                    "speaker": "Linnea",
+                                    "text": "Mas o destino não me mostrou nada. Foi minha teimosia que me fez ir em frente. Eu era a única pessoa com quem eu podia contar."
+                                },
+                                {
+                                    "id": "160200923",
+                                    "speaker": "Linnea",
+                                    "text": "... Eu tinha pavor do desconhecido, e agora, o conhecido me deu mais problemas para lidar. O mundo ainda está aqui, fazendo sua parte, e eu também. O que eu tenho a temer?"
+                                },
+                                {
+                                    "id": "160200924",
+                                    "speaker": "Lumi",
+                                    "text": "Ya-ho!"
+                                },
+                                {
+                                    "id": "160200925",
+                                    "speaker": "Aguara",
+                                    "text": "Rawwr!"
+                                },
+                                {
+                                    "id": "160200926",
+                                    "speaker": "Paimon",
+                                    "text": "Treino encerrado! Parece que aqueles dois estão se aproximando mesmo."
+                                },
+                                {
+                                    "id": "160200927",
+                                    "speaker": "Linnea",
+                                    "text": "Certo! Não vamos ficar mais prontas do que isso. Hora de descansar."
+                                },
+                                {
+                                    "id": "160200928",
+                                    "speaker": "Linnea",
+                                    "text": "Amanhã, vamos enfrentar nosso destino."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "160200912",
+                            "text": "Você consegue."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "1602006",
+            "objective": "Espere até o dia seguinte (08:00 - 12:00)",
+            "dialogues": [
+                {
+                    "id": "160200601",
+                    "speaker": "Player",
+                    "text": "(Haemus parece estar ficando sem gás, mas Aguara também já tá ofegante...)"
+                },
+                {
+                    "id": "160200602",
+                    "speaker": "Player",
+                    "text": "(Parece que é hora de acabar com isso daqui!)"
+                },
+                {
+                    "id": "160200603",
+                    "speaker": "Player",
+                    "text": "Aguara, é hora de seu especial!"
+                },
+                {
+                    "id": "160200604",
+                    "speaker": "Aguara",
+                    "text": "Rawr!"
+                }
+            ]
+        },
+        {
+            "id": "1602007",
+            "objective": "Conclua o duelo destinado",
+            "dialogues": [
+                {
+                    "id": "160200701",
+                    "speaker": "Czeslawa",
+                    "text": "Todos prontos?! Preparem-se para a partida de abertura das semifinais!"
+                },
+                {
+                    "id": "160200702",
+                    "speaker": "Czeslawa",
+                    "text": "#Nossos participantes estão prontos para começar! De um lado, temos {NICKNAME} e seu parceiro Aguara, do outro, temos Biliana e seu companheiro, Gornyisyn!"
+                },
+                {
+                    "id": "160200703",
+                    "speaker": "Paimon",
+                    "text": "Você consegue, Aguara!"
+                },
+                {
+                    "id": "160200704",
+                    "speaker": "Aguara",
+                    "text": "Rawr!"
+                },
+                {
+                    "id": "160200705",
+                    "speaker": "Black Screen",
+                    "text": "Talvez devido ao treinamento no último minuto de ontem, Aguara está mais animado do que o normal e vence a partida com estilo."
+                },
+                {
+                    "id": "160200706",
+                    "speaker": "Aguara",
+                    "text": "Rawwr!"
+                },
+                {
+                    "id": "160200707",
+                    "speaker": "Czeslawa",
+                    "text": "Temos um vencedor! Pessoal, descansem. A segunda semifinal começará em breve!"
+                },
+                {
+                    "id": "160200708",
+                    "speaker": "Paimon",
+                    "text": "Bom trabalho, Aguara!"
+                },
+                {
+                    "id": "160200709",
+                    "speaker": "Paimon",
+                    "text": "Ei, Viajante, Linnea e Celaeno são as próximas! Vamos torcer por elas!"
+                },
+                {
+                    "id": "160200710",
+                    "speaker": "Czeslawa",
+                    "text": "Parece que nossos competidores e seus parceiros estão em posição."
+                },
+                {
+                    "id": "160200711",
+                    "speaker": "Czeslawa",
+                    "text": "De um lado, temos Linnea e sua parceira Lumi, e do outro, temos Celaeno e seu parceiro Haemus! Se preparem, pessoal, é hora da semifinal!"
+                },
+                {
+                    "id": "160200712",
+                    "speaker": "Lumi",
+                    "text": "Ya-ho!"
+                },
+                {
+                    "id": "160200713",
+                    "speaker": "Mikko",
+                    "text": "Vamos, antiga chefe! Vai com tudo!"
+                },
+                {
+                    "id": "160200714",
+                    "speaker": "Paimon",
+                    "text": "Pega eles, Linnea!"
+                },
+                {
+                    "id": "160200715",
+                    "speaker": "Linnea",
+                    "text": "Lumi..."
+                },
+                {
+                    "id": "160200716",
+                    "speaker": "Lumi",
+                    "text": "Rawr..."
+                },
+                {
+                    "id": "160200717",
+                    "speaker": "Linnea",
+                    "text": "Você foi incrível! Eu não sabia que você podia crescer tanto!"
+                },
+                {
+                    "id": "160200718",
+                    "speaker": "Lumi",
+                    "text": "Ya-hoho..."
+                },
+                {
+                    "id": "160200719",
+                    "speaker": "Linnea",
+                    "text": "Mas você parece meio diferente depois de absorver todo aquele Geo.... Espera, eu não consigo acreditar!"
+                },
+                {
+                    "id": "160200720",
+                    "speaker": "Paimon",
+                    "text": "Linnea! Vocês estão bem?"
+                },
+                {
+                    "id": "160200721",
+                    "speaker": "Linnea",
+                    "text": "Viajante, Paimon, venham rápido!"
+                },
+                {
+                    "id": "160200722",
+                    "speaker": "Linnea",
+                    "text": "Eu descobri porque Lumi é diferente de outros Geladinhos! Eu já tinha pensado em várias teorias no passado, mas havia uma possibilidade que eu nunca tinha pensado."
+                },
+                {
+                    "id": "160200723",
+                    "speaker": "Linnea",
+                    "text": "Talvez Lumi não tenha nascido diferente. E se ela foi afetada por sua dieta? Ingerir muito de minério raro pode ter feito ela desenvolver novas funcionalidades do Geo..."
+                },
+                {
+                    "id": "160200724",
+                    "speaker": "Linnea",
+                    "text": "Olha só para os Dragartos! Dependendo de seu elemento, Dragartos podem parecer bem diferentes, mas de um ponto de vista biológico, ainda são a mesma espécie."
+                },
+                {
+                    "id": "160200725",
+                    "speaker": "Linnea",
+                    "text": "Lumi, você não tem que esperar pela evolução lhe alcançar. Você só precisa encontrar outro Geladinho que gosta das mesmas coisas que você, assim você terá um companheiro de verdade!"
+                },
+                {
+                    "id": "160200726",
+                    "speaker": "Linnea",
+                    "text": "Eu estou tão feliz que você liberou seu poder, Lumi. Se você não tivesse insistido, eu nunca teria tido essa epifania!"
+                },
+                {
+                    "id": "160200727",
+                    "speaker": "Lumi",
+                    "text": "Ya-ho!"
+                },
+                {
+                    "id": "160200728",
+                    "speaker": "Player",
+                    "text": "(Eu pensei que Linnea estaria desapontada depois de perder sua partida... Mas eu acho que essa reação combina mais com ela.)"
+                },
+                {
+                    "id": "160200729",
+                    "speaker": "Celaeno",
+                    "text": "Linnea..."
+                },
+                {
+                    "id": "160200730",
+                    "speaker": "Celaeno",
+                    "text": "Por que você se conteve?"
+                },
+                {
+                    "id": "160200731",
+                    "speaker": "Linnea",
+                    "text": "O que você quer dizer? Se Lumi tivesse atingido aquele golpe, você e Haemus estariam em perigo."
+                },
+                {
+                    "id": "160200732",
+                    "speaker": "Celaeno",
+                    "text": "Ainda assim..."
+                },
+                {
+                    "id": "160200733",
+                    "speaker": "Celaeno",
+                    "text": "(Quando aquele martelo começou a cair, o futuro que eu vi desapareceu...)"
+                },
+                {
+                    "id": "160200734",
+                    "speaker": "Celaeno",
+                    "text": "(Será que o medo me fez ver algo falso? Ou será que ela realmente ultrapassou o destino?)"
+                },
+                {
+                    "id": "160200735",
+                    "speaker": "Celaeno",
+                    "text": "(Isso importa? No final, o destino caiu com toda sua força. A profecia se realizou, inevitável como o sol raiando.)"
+                },
+                {
+                    "id": "160200736",
+                    "speaker": "Linnea",
+                    "text": "O que você está pensando?"
+                },
+                {
+                    "id": "160200737",
+                    "speaker": "Celaeno",
+                    "text": "... Eu só acho que é uma pena. Você deu seu melhor, e ainda assim não mudou nada."
+                },
+                {
+                    "id": "160200738",
+                    "speaker": "Celaeno",
+                    "text": "São apenas caminhos diferentes que levam para a mesma encruzilhada, que demonstração cruel do destino."
+                },
+                {
+                    "id": "160200739",
+                    "speaker": "Linnea",
+                    "text": "Celaeno, você se lembra que eu daria minha resposta após o torneio?"
+                },
+                {
+                    "id": "160200740",
+                    "speaker": "Celaeno",
+                    "text": "Eu lembro, eu ainda quero saber o que você acha."
+                },
+                {
+                    "id": "160200741",
+                    "speaker": "Linnea",
+                    "text": "Você me disse \"Cada estrada pode seguir seu próprio rumo, mas todas voltam para o mesmo destino\". Eu acho que você errou na ênfase. O destino pode ser sempre o mesmo, mas as estradas percorrem vários caminhos até lá."
+                },
+                {
+                    "id": "160200742",
+                    "speaker": "Linnea",
+                    "text": "Talvez o destino leve sempre ao mesmo final, mas eu nunca me importei com os resultados, só quero trilhar meu próprio caminho."
+                },
+                {
+                    "id": "160200743",
+                    "speaker": "Linnea",
+                    "text": "Então, mesmo que eu estivesse destinada a perder para você, sem chance de eu não dar tudo de mim."
+                },
+                {
+                    "id": "160200744",
+                    "speaker": "Linnea",
+                    "text": "Ainda que meu navio acabe no fundo do oceano, eu ainda quero navegar para todos os cantos do mundo."
+                },
+                {
+                    "id": "160200745",
+                    "speaker": "Linnea",
+                    "text": "Se tudo com que as pessoas se importassem fossem só resultados, então por que todo mundo não desiste de felicidade e amor? Afinal, a certeza da morte é a única coisa que toda pessoa sabe sobre o próprio destino."
+                },
+                {
+                    "id": "160200746",
+                    "speaker": "Linnea",
+                    "text": "Meus sentimentos, meus pensamentos, tudo que eu vi existir além do destino. Isso pertence a mim, e ninguém mais controla isso."
+                },
+                {
+                    "id": "160200747",
+                    "speaker": "Lumi",
+                    "text": "Ya-ho!"
+                },
+                {
+                    "id": "160200748",
+                    "speaker": "Linnea",
+                    "text": "Lumi, você concorda comigo, não é?"
+                },
+                {
+                    "id": "160200749",
+                    "speaker": "Lumi",
+                    "text": "Ya-hoho..."
+                },
+                {
+                    "id": "160200750",
+                    "speaker": "Celaeno",
+                    "text": "Linnea..."
+                },
+                {
+                    "id": "160200751",
+                    "speaker": "Celaeno",
+                    "text": "... A ignorância é uma bênção."
+                },
+                {
+                    "id": "160200752",
+                    "speaker": "Linnea",
+                    "text": "Mesmo quando estamos com medo e incertos, é importante enfrentar a realidade."
+                },
+                {
+                    "id": "160200753",
+                    "speaker": "Linnea",
+                    "text": "Tem certeza? Porque se eu não tivesse vindo aqui, eu já estaria me arrependendo."
+                },
+                {
+                    "id": "160200754",
+                    "speaker": "Celaeno",
+                    "text": "(Quando vi você pela primeira vez, invejei seu otimismo. Pensei que sua felicidade vinha da sua ignorância do destino.)"
+                },
+                {
+                    "id": "160200755",
+                    "speaker": "Celaeno",
+                    "text": "(Mas mesmo depois de você testemunhar seu destino e experimentar seu fracasso, você não deixou isso lhe arrastar para baixo.)"
+                },
+                {
+                    "id": "160200756",
+                    "speaker": "Celaeno",
+                    "text": "(Talvez eu estivesse errada desde o começo... O que nos separava não era saber nosso destino, mas a coragem para aceitá-lo.)"
+                },
+                {
+                    "id": "160200757",
+                    "speaker": "Linnea",
+                    "text": "Ei, Celaeno, você tá viajando na maionese de novo!"
+                },
+                {
+                    "id": "160200758",
+                    "speaker": "Celaeno",
+                    "text": "Oh, desculpe. Eu só estava pensando... Que estou feliz por você."
+                },
+                {
+                    "id": "160200759",
+                    "speaker": "Celaeno",
+                    "text": "Eu reivindiquei a vitória que o destino previu, e você encontrou sua resposta, uma verdade que transcende o destino."
+                },
+                {
+                    "id": "160200760",
+                    "speaker": "Linnea",
+                    "text": "Parece que eu saí ganhando. Mas nossa jornada não acabou ainda, não é, Lumi?"
+                },
+                {
+                    "id": "160200761",
+                    "speaker": "Linnea",
+                    "text": "#Então aproveite sua vitória, Celaeno. Mas não dê bobeira... senão {F#minha parceira}{M#meu parceiro} aqui pode tomar ela de você um dia.",
+                    "choices": [
+                        {
+                            "id": "160200762",
+                            "text": "Eu? Sério?",
+                            "response": [
+                                {
+                                    "id": "160200764",
+                                    "speaker": "Aguara",
+                                    "text": "Rawr! Raaaawr!"
+                                },
+                                {
+                                    "id": "160200765",
+                                    "speaker": "Lumi",
+                                    "text": "Ya-ho!"
+                                },
+                                {
+                                    "id": "160200766",
+                                    "speaker": "Celaeno",
+                                    "text": "Haha... Essa coisinha?"
+                                },
+                                {
+                                    "id": "160200767",
+                                    "speaker": "Linnea",
+                                    "text": "Não se esqueça dos laços que construímos no caminho!"
+                                },
+                                {
+                                    "id": "160200768",
+                                    "speaker": "Linnea",
+                                    "text": "#Vamos lá, parceir{M#o}{F#a}. Agora é minha vez de te ajudar a treinar!"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "160200763",
+                            "text": "Fique de olho!"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "1602008",
+            "objective": "Vá a Natlan e conclua o treinamento",
+            "dialogues": [
+                {
+                    "id": "160200801",
+                    "speaker": "Linnea",
+                    "text": "Olá, Natlan, estou de volta! Me dê um momento para montar a tenda. Eu comprei essa da última vez que estive aqui."
+                },
+                {
+                    "id": "160200802",
+                    "speaker": "Paimon",
+                    "text": "Vamos dar uma mão!"
+                },
+                {
+                    "id": "160200803",
+                    "speaker": "Linnea",
+                    "text": "Agora, Aguinho, é hora de você aprender um dos golpes finalizadores de Lumi."
+                },
+                {
+                    "id": "160200804",
+                    "speaker": "Aguara",
+                    "text": "Rrrawr?"
+                },
+                {
+                    "id": "160200805",
+                    "speaker": "Linnea",
+                    "text": "Fique de olho, Lumi!"
+                },
+                {
+                    "id": "160200806",
+                    "speaker": "Lumi",
+                    "text": "Ya-ho!"
+                },
+                {
+                    "id": "160200807",
+                    "speaker": "Player",
+                    "text": "Martelo de Rocha!"
+                },
+                {
+                    "id": "160200808",
+                    "speaker": "Paimon",
+                    "text": "Hmm... Linnea, você acha mesmo que Aguara consegue usar um martelo de Geo gigante?"
+                },
+                {
+                    "id": "160200809",
+                    "speaker": "Linnea",
+                    "text": "Pelo que vi, o estilo de luta de Aguara é parecido com o de Lumi. Os dois usam agilidade para enganar seus oponentes enquanto procuram por uma chance de atacar."
+                },
+                {
+                    "id": "160200810",
+                    "speaker": "Linnea",
+                    "text": "Mas Aguara não é forte o suficiente para quebrar as defesas de Heamus. Precisa de uma arma para vencer."
+                },
+                {
+                    "id": "160200811",
+                    "speaker": "Linnea",
+                    "text": "Se puder canalizar o Geo do chão para criar um poderoso martelo de pedra... bem, isso parece simples, mas é difícil. Quer tentar, Aguara?"
+                },
+                {
+                    "id": "160200812",
+                    "speaker": "Aguara",
+                    "text": "Rawr!"
+                },
+                {
+                    "id": "160200813",
+                    "speaker": "Aguara",
+                    "text": "Rawr?"
+                },
+                {
+                    "id": "160200814",
+                    "speaker": "Linnea",
+                    "text": "Não se preocupe. É normal falhar na primeira vez. Você só tem que continuar tentando."
+                },
+                {
+                    "id": "160200815",
+                    "speaker": "Linnea",
+                    "text": "Você vai pegar o jeito. Lumi, mostre pra Aguara."
+                },
+                {
+                    "id": "160200816",
+                    "speaker": "Lumi",
+                    "text": "Ya-hoho..."
+                }
+            ]
+        },
+        {
+            "id": "1602009",
+            "objective": "Espere até a noite do dia depois de amanhã",
+            "dialogues": []
+        },
+        {
+            "id": "1602010",
+            "objective": "Fale com Linnea",
+            "dialogues": [
+                {
+                    "id": "160201001",
+                    "speaker": "Linnea",
+                    "text": "Ufa... Parece que pisquei e dois dias passaram voando."
+                },
+                {
+                    "id": "160201002",
+                    "speaker": "Linnea",
+                    "text": "Eu ouvi dizer que as pessoas podem descobrir seus destinos nas estrelas. Isso quer dizer que o destino esteve de olho na gente o tempo inteiro?"
+                },
+                {
+                    "id": "160201003",
+                    "speaker": "Linnea",
+                    "text": "*Bocejo*... Eu quero muito dormir. Boa noite, pessoal."
+                },
+                {
+                    "id": "160201004",
+                    "speaker": "Player",
+                    "text": "(...)"
+                },
+                {
+                    "id": "160201005",
+                    "speaker": "Player",
+                    "text": "#(Como um{F#a} Descid{F#a}{M#o}, eu não sei o que é ter meu destino preso a um lugar.)"
+                },
+                {
+                    "id": "160201006",
+                    "speaker": "Player",
+                    "text": "(As regras desse mundo existem por alguma razão, o mesmo vale para o destino. Mas nessa jornada, eu vi muitas pessoas desejarem desafiá-lo.)"
+                },
+                {
+                    "id": "160201007",
+                    "speaker": "Player",
+                    "text": "(Prender o destino em um lugar... Será que essa é mesma a melhor solução? Um dia, se eu puder...)"
+                },
+                {
+                    "id": "160201008",
+                    "speaker": "Aguara",
+                    "text": "Rawr..."
+                },
+                {
+                    "id": "160201009",
+                    "speaker": "Aguara",
+                    "text": "Rawr..."
+                },
+                {
+                    "id": "160201010",
+                    "speaker": "???",
+                    "text": "Rawr."
+                },
+                {
+                    "id": "160201011",
+                    "speaker": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+                    "text": "Rawr!"
+                },
+                {
+                    "id": "160201012",
+                    "speaker": "Aguara",
+                    "text": "Rawwr!"
+                },
+                {
+                    "id": "160201013",
+                    "speaker": "Paimon",
+                    "text": "*Bocejo*... Ah, Paimon dormiu muito bem."
+                },
+                {
+                    "id": "160201014",
+                    "speaker": "Paimon",
+                    "text": "Hã? Eita, olha só esse monte de Frutogrão! Aguara, você pegou pra gente?"
+                },
+                {
+                    "id": "160201015",
+                    "speaker": "Aguara",
+                    "text": "Rawr!"
+                },
+                {
+                    "id": "160201016",
+                    "speaker": "Paimon",
+                    "text": "Uau! Quando você aprendeu a fazer isso?!"
+                },
+                {
+                    "id": "160201017",
+                    "speaker": "Lumi",
+                    "text": "Ya-ho!"
+                },
+                {
+                    "id": "160201018",
+                    "speaker": "Aguara",
+                    "text": "Rawwr!"
+                },
+                {
+                    "id": "160201019",
+                    "speaker": "Linnea",
+                    "text": "Você tá dizendo... que teve ajuda de outro Sauriano? Hmm, quem poderia ter sido?"
+                },
+                {
+                    "id": "160201020",
+                    "speaker": "Player",
+                    "text": "..."
+                }
+            ]
+        },
+        {
+            "id": "1602020",
+            "objective": "Retorne à Oficina da Lua Gelada para concluir as finais",
+            "dialogues": [
+                {
+                    "id": "160202001",
+                    "speaker": "Celaeno",
+                    "text": "Agora, Haemus. Pise nele!"
+                },
+                {
+                    "id": "160202002",
+                    "speaker": "Celaeno",
+                    "text": "Marche para a vitória e não deixe nada de pé."
+                }
+            ]
+        },
+        {
+            "id": "1602013",
+            "objective": "Retorne à Oficina da Lua Gelada para concluir as finais",
+            "dialogues": []
+        },
+        {
+            "id": "1602014",
+            "objective": "Dê a entrevista pós-partida",
+            "dialogues": [
+                {
+                    "id": "160201401",
+                    "speaker": "Slawomir",
+                    "text": "Temos um vencedor! Haemus foi derrotado. Acabou, pessoal! Os campeões são:"
+                },
+                {
+                    "id": "160201402",
+                    "speaker": "Slawomir",
+                    "text": "#{NICKNAME} e seu parceiro Aguara!"
+                },
+                {
+                    "id": "160201403",
+                    "speaker": "Um Assento na Plateia",
+                    "text": "Aguara! Aguara!"
+                },
+                {
+                    "id": "160201404",
+                    "speaker": "Celaeno",
+                    "text": "Aah, perdi..."
+                },
+                {
+                    "id": "160201405",
+                    "speaker": "Celaeno",
+                    "text": "Você foi muito bem, Haemus. Descanse bem."
+                },
+                {
+                    "id": "160201406",
+                    "speaker": "Haemus",
+                    "text": "Raargh..."
+                },
+                {
+                    "id": "160201407",
+                    "speaker": "Celaeno",
+                    "text": "Parece que subestimei seu parceirinho. Estou impressionada."
+                },
+                {
+                    "id": "160201408",
+                    "speaker": "Linnea",
+                    "text": "#Hehe, o que eu disse? Te falei que {M#meu parceiro}{F#minha parceira} ia me ajudar a acertar as contas.",
+                    "choices": [
+                        {
+                            "id": "160201409",
+                            "text": "Você teve um grande papel nessa vitória!",
+                            "response": [
+                                {
+                                    "id": "160201411",
+                                    "speaker": "Aguara",
+                                    "text": "Rawr!"
+                                },
+                                {
+                                    "id": "160201412",
+                                    "speaker": "Lumi",
+                                    "text": "Ya-ho!"
+                                },
+                                {
+                                    "id": "160201413",
+                                    "speaker": "Czeslawa",
+                                    "text": "Senhoras e senhores, teremos agora um breve intervalo para dar aos nossos finalistas um momento para se recuperarem. Mas não vão para muito longe, porque voltaremos em breve com a cerimônia de premiação!"
+                                },
+                                {
+                                    "id": "160201414",
+                                    "speaker": "Czeslawa",
+                                    "text": "Agradecemos a todos os nossos participantes pelos desempenhos incríveis! Agora, entrevistaremos nossos quatro primeiros colocados!"
+                                },
+                                {
+                                    "id": "160201415",
+                                    "speaker": "Czeslawa",
+                                    "text": "#Primeiro, são nossos campeões: {NICKNAME} e Aguara!"
+                                },
+                                {
+                                    "id": "160201416",
+                                    "speaker": "Aguara",
+                                    "text": "Rawr!"
+                                },
+                                {
+                                    "id": "160201417",
+                                    "speaker": "Czeslawa",
+                                    "text": "Todos podemos ver que Aguara ainda é um Tepetlissauro bem jovem, mas ele saiu vitorioso contra vários oponentes difíceis. Qual é o segredo do sucesso?",
+                                    "choices": [
+                                        {
+                                            "id": "160201418",
+                                            "text": "O segredo são as conexões especiais de Aguara com os amigos dele.",
+                                            "response": [
+                                                {
+                                                    "id": "160201419",
+                                                    "speaker": "Czeslawa",
+                                                    "text": "Entendi. Parece que por trás de cada campeão há um grupo dedicado de amigos dando apoio."
+                                                },
+                                                {
+                                                    "id": "160201422",
+                                                    "speaker": "Czeslawa",
+                                                    "text": "Tenho certeza que estamos todos ansiosos para performances ainda mais espetaculares de Aguara no futuro. Está confiante para o desafio, pequenino?"
+                                                },
+                                                {
+                                                    "id": "160201423",
+                                                    "speaker": "Aguara",
+                                                    "text": "Rawwr!"
+                                                },
+                                                {
+                                                    "id": "160201424",
+                                                    "speaker": "Czeslawa",
+                                                    "text": "A seguir, temos nossa vice-campeã, Celaeno. Me deixe começar perguntando, o que vem agora para você e Haemus? Vocês continuarão se aventurando juntos no futuro?"
+                                                },
+                                                {
+                                                    "id": "160201425",
+                                                    "speaker": "Celaeno",
+                                                    "text": "...Não. Haemus não me pertence. Espero que, em breve, eu possa libertar ele para viver livre na natureza."
+                                                },
+                                                {
+                                                    "id": "160201426",
+                                                    "speaker": "Celaeno",
+                                                    "text": "E claro... Já que ele é tão amigável com humanos, espero que quaisquer aventureiros que encontrarem Haemus no futuro não o maltratem."
+                                                },
+                                                {
+                                                    "id": "160201427",
+                                                    "speaker": "Czeslawa",
+                                                    "text": "Parece que Haemus ama mesmo a liberdade. Se tivermos algum aventureiro na plateia, por favor, fiquem atentos e não machuquem nosso Lâmina de Chifre amigável."
+                                                },
+                                                {
+                                                    "id": "160201428",
+                                                    "speaker": "Czeslawa",
+                                                    "text": "Continuando, temos mais alguns rostos familiares para as semifinais."
+                                                },
+                                                {
+                                                    "id": "160201429",
+                                                    "speaker": "Czeslawa",
+                                                    "text": "Essa primeira pergunta é para Linnea. Durante sua partida contra Celaeno, você entrou para parar o frenesi da sua própria parceira, Lumi, custando a você uma vitória certa. Você se arrepende?"
+                                                },
+                                                {
+                                                    "id": "160201430",
+                                                    "speaker": "Linnea",
+                                                    "text": "Eu estaria mentindo se dissesse que não me arrependo nem um pouco..."
+                                                },
+                                                {
+                                                    "id": "160201431",
+                                                    "speaker": "Linnea",
+                                                    "text": "Mas quem não se arrependeria? Tudo que podemos fazer é viver da melhor maneira e esperar conseguir refletir sobre o passado com o mínimo de arrependimentos possível."
+                                                },
+                                                {
+                                                    "id": "160201432",
+                                                    "speaker": "Linnea",
+                                                    "text": "E, no geral, me diverti muito nessa competição! Encontrei minha família perdida há muito tempo e nos amamos muito."
+                                                },
+                                                {
+                                                    "id": "160201433",
+                                                    "speaker": "Czeslawa",
+                                                    "text": "Palavras inspiradoras de Linnea. Agora é hora da nossa entrevistada final, por favor, recebam Biliana, de Snezhnograd. Algo que gostaria de compartilhar com a plateia?"
+                                                },
+                                                {
+                                                    "id": "160201434",
+                                                    "speaker": "Biliana",
+                                                    "text": "Bem, eu adorei Nod-Krai. Tem tanto para ver e fazer! Estou planejando ficar aqui por um tempo então, se me virem por aí, venham me dar oi!"
+                                                },
+                                                {
+                                                    "id": "160201435",
+                                                    "speaker": "Czeslawa",
+                                                    "text": "Ótimo, aproveite sua estadia, Biliana! Bem, pessoal, ouvimos as respostas de todos os nossos semifinalistas. Agora, para encerrar as coisas, é hora de uma foto em grupo!"
+                                                },
+                                                {
+                                                    "id": "160201436",
+                                                    "speaker": "Czeslawa",
+                                                    "text": "Agradecemos a todos que participaram do Campeonato da Emissária Espiritual. Esperamos ver vocês novamente na próxima!"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "160201420",
+                                            "text": "O segredo é trabalhar duro e praticar.",
+                                            "response": [
+                                                {
+                                                    "id": "160201421",
+                                                    "speaker": "Czeslawa",
+                                                    "text": "Entendo. Bem, parece que uma vontade indômita ajudou Aguara a conquistar o impossível."
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "160201410",
+                            "text": "Foi tudo graças à arma secreta de Lumi."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "1602019",
+            "objective": "Se despeça de Celaeno",
+            "dialogues": [
+                {
+                    "id": "160202101",
+                    "speaker": "Celaeno",
+                    "text": "Linnea, tenho que ir. Vou garantir de contar para a mamãe e o papai como você está, sei que vão ficar felizes por você."
+                },
+                {
+                    "id": "160202102",
+                    "speaker": "Celaeno",
+                    "text": "Sem eu por aqui, suas habilidades proféticas vão demorar para se desenvolver. Mas saiba que você já esteve na tundra, já encontrou outros feéricos, por isso é só uma questão de tempo até suas habilidades despertarem."
+                },
+                {
+                    "id": "160202103",
+                    "speaker": "Linnea",
+                    "text": "Você entende como eu me sinto, irmã. Não tenho medo do futuro, só tenho medo de uma vida sem você, mamãe e papai."
+                },
+                {
+                    "id": "160202104",
+                    "speaker": "Celaeno",
+                    "text": "Eu sei. Escreva-me, sempre ficarei feliz de vir te ver."
+                },
+                {
+                    "id": "160202105",
+                    "speaker": "Celaeno",
+                    "text": "E quando você estiver pronta, pode nos visitar na tundra. Esse aqui é o endereço."
+                },
+                {
+                    "id": "160202106",
+                    "speaker": "Linnea",
+                    "text": "Obrigada, Celaeno, e irmã. Mal posso esperar para ver vocês de novo!"
+                },
+                {
+                    "id": "160202107",
+                    "speaker": "Lumi",
+                    "text": "Ya-ho!"
+                }
+            ]
+        },
+        {
+            "id": "1602012",
+            "objective": "",
+            "dialogues": [
+                {
+                    "id": "160201201",
+                    "speaker": "Mualani",
+                    "text": "As pessoas parecem curtir mesmo das bebidas daqui! Será que eu levo um pouco de volta pra Vovó Citlali?"
+                }
+            ]
+        },
+        {
+            "id": "1601899",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "160189901",
+                    "speaker": "Linnea",
+                    "text": "Tá ficando bem tarde. A gente deveria dormir um pouco."
+                },
+                {
+                    "id": "160189907",
+                    "speaker": "Paimon",
+                    "text": "Hã? O Navio-Chefe? Por que estamos aqui?"
+                },
+                {
+                    "id": "160189908",
+                    "speaker": "Linnea",
+                    "text": "Então Aguara vem de Natlan, não é?"
+                },
+                {
+                    "id": "160189909",
+                    "speaker": "Linnea",
+                    "text": "Se vamos treinar duro, a gente devia fazer isso lá. Tem um monte de Flogisto natural por lá, o que vai manter o gás desse carinha lá em cima."
+                },
+                {
+                    "id": "160189910",
+                    "speaker": "Linnea",
+                    "text": "Vamos lá!"
+                },
+                {
+                    "id": "160189911",
+                    "speaker": "Linnea",
+                    "text": "Vocês estão no Navio-Chefe, não é? Bem, eu vou embora, até a próxima."
+                },
+                {
+                    "id": "160189912",
+                    "speaker": "Linnea",
+                    "text": "Ah, e obrigada por me fazer companhia hoje! Hehe. Boa noite!"
+                }
+            ]
+        },
+        {
+            "id": "1602002",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "160200202",
+                    "speaker": "Celaeno",
+                    "text": "Se escondendo debaixo do chão, não é?"
+                },
+                {
+                    "id": "160200203",
+                    "speaker": "Celaeno",
+                    "text": "Haemus, continue. Faça ele sair!"
+                },
+                {
+                    "id": "160200204",
+                    "speaker": "Celaeno",
+                    "text": "Urgh... Haemus, você tá bem?"
+                },
+                {
+                    "id": "160200205",
+                    "speaker": "Haemus",
+                    "text": "Raaargh!"
+                }
+            ]
+        },
+        {
+            "id": "1602004",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "160200402",
+                    "speaker": "Celaeno",
+                    "text": "...Previsível."
+                },
+                {
+                    "id": "160200403",
+                    "speaker": "Paimon",
+                    "text": "Aguara acertou na sua barriga... mas não parece ter tido muito efeito."
+                },
+                {
+                    "id": "160200404",
+                    "speaker": "Celaeno",
+                    "text": "Era a jogada óbvia. Haemus estava bem preparado para um ataque desses."
+                }
+            ]
+        },
+        {
+            "id": "1602011",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "160201102",
+                    "speaker": "Mualani",
+                    "text": "Espera! O chifre de Aguara ainda não terminou de crescer..."
+                },
+                {
+                    "id": "160201103",
+                    "speaker": "Aguara",
+                    "text": "Rawr!"
+                }
+            ]
+        },
+        {
+            "id": "1602013",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "160201301",
+                    "speaker": "Voitto",
+                    "text": "A final está prestes a começar. Participantes, por favor, assumam suas posições. Espectadores, pedimos gentilmente que esperem fora da arena."
+                },
+                {
+                    "id": "160201302",
+                    "speaker": "Paimon",
+                    "text": "Finalmente chegou! Aguara, hoje é o seu dia de brilhar!"
+                },
+                {
+                    "id": "160201303",
+                    "speaker": "Aguara",
+                    "text": "Rawr!"
+                },
+                {
+                    "id": "160201304",
+                    "speaker": "Lumi",
+                    "text": "Ya-ho!"
+                },
+                {
+                    "id": "160201305",
+                    "speaker": "Linnea",
+                    "text": "Tudo depende de você, parceiro. Você já fez todos os preparativos necessários, agora vai lá e acredite em si!"
+                },
+                {
+                    "id": "160201306",
+                    "speaker": "Linnea",
+                    "text": "É hora de escrever seu nome nas luzes e mostrar ao mundo como trabalhamos duro. Você consegue, Aguara!",
+                    "choices": [
+                        {
+                            "id": "160201307",
+                            "text": "Deixa com a gente.",
+                            "response": [
+                                {
+                                    "id": "160201309",
+                                    "speaker": "Lumi",
+                                    "text": "Ya-hoho..."
+                                },
+                                {
+                                    "id": "160201310",
+                                    "speaker": "Czeslawa",
+                                    "text": "Senhoras e senhores, a espera acabou! É hora da final do Campeonato da Emissária Espiritual!"
+                                },
+                                {
+                                    "id": "160201311",
+                                    "speaker": "Czeslawa",
+                                    "text": "Vocês já conhecem bem os participantes a essa altura. Celaeno e seu parceiro, o Lâmina de Chifre Radiante, Haemus, que conseguiu a posição na final após uma vitória difícil na última rodada."
+                                },
+                                {
+                                    "id": "160201312",
+                                    "speaker": "Czeslawa",
+                                    "text": "#Então temos {NICKNAME} e Aguara. Esse Tepetlissaurinho pode não parecer a maior fera de todas, mas essa dupla lutou com coragem para chegar à fase final."
+                                },
+                                {
+                                    "id": "160201313",
+                                    "speaker": "Czeslawa",
+                                    "text": "Quem serão coroados como campeões hoje? Em breve, descobriremos!"
+                                },
+                                {
+                                    "id": "160201314",
+                                    "speaker": "Celaeno",
+                                    "text": "De volta do treinamento?"
+                                },
+                                {
+                                    "id": "160201315",
+                                    "speaker": "Aguara",
+                                    "text": "Rawr!"
+                                },
+                                {
+                                    "id": "160201316",
+                                    "speaker": "Celaeno",
+                                    "text": "Então vamos nessa. Me mostre o que sabe fazer."
+                                },
+                                {
+                                    "id": "160201317",
+                                    "speaker": "Linnea",
+                                    "text": "Você consegue, Aguara, não fique nervoso!"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "160201308",
+                            "text": "Não vou perder!"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "1602015",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "160201502",
+                    "speaker": "Celaeno",
+                    "text": "Ainda esperando uma abertura?"
+                },
+                {
+                    "id": "160201503",
+                    "speaker": "Celaeno",
+                    "text": "Não dê tempo para ele pensar, Haemus."
+                },
+                {
+                    "id": "160201504",
+                    "speaker": "Aguara",
+                    "text": "Rawr..."
+                }
+            ]
+        },
+        {
+            "id": "1602018",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "160201802",
+                    "speaker": "Celaeno",
+                    "text": "O medo roubou todo o seu raciocínio?"
+                },
+                {
+                    "id": "160201803",
+                    "speaker": "Celaeno",
+                    "text": "Haemus, vá com tudo."
+                },
+                {
+                    "id": "160201804",
+                    "speaker": "Aguara",
+                    "text": "Rawr..."
+                }
+            ]
+        },
+        {
+            "id": "1602019",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "160201901",
+                    "speaker": "Celaeno",
+                    "text": "Impressionante."
+                },
+                {
+                    "id": "160201902",
+                    "speaker": "Celaeno",
+                    "text": "Haemus, invoque energia Anemo no seu chifre e ataque."
+                },
+                {
+                    "id": "160201903",
+                    "speaker": "Celaeno",
+                    "text": "...Agora você vê contra o que está indo."
+                }
+            ]
+        },
+        {
+            "id": "1602022",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "160202201",
+                    "speaker": "<UNKNOWN>",
+                    "text": ""
+                }
+            ]
+        },
+        {
+            "id": "1602023",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "160202301",
+                    "speaker": "Linnea",
+                    "text": "Você vai pegar o jeito. Lumi, mostre pra Aguara."
+                }
+            ]
+        },
+        {
+            "id": "1602099",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "160209901",
+                    "speaker": "Paimon",
+                    "text": "Tudo bem! Agora que Aguara dominou a arma secreta de Lumi, é hora de voltar para Nod-Krai."
+                },
+                {
+                    "id": "160209902",
+                    "speaker": "Paimon",
+                    "text": "Parece que devemos chegar bem a tempo das finais!"
+                }
+            ]
+        }
+    ]
+}

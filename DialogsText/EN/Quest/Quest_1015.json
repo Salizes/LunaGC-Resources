@@ -1,0 +1,1034 @@
+{
+    "quest": {
+        "id": "1015",
+        "title": "Guizhong",
+        "description": "You came to renowned purveyor of Liyue herbal medicine, Bubu Pharmacy, to procure some Everlasting Incense. But what started out as a straightforward trip to the pharmacy has turned into a far more complicated affair...",
+        "rewards": [
+            {
+                "itemId": 102,
+                "count": 700
+            },
+            {
+                "itemId": 201,
+                "count": 30
+            },
+            {
+                "itemId": 202,
+                "count": 24250
+            },
+            {
+                "itemId": 104003,
+                "count": 2
+            },
+            {
+                "itemId": 104013,
+                "count": 5
+            }
+        ],
+        "rewards_formatted": "Adventure EXP x700, Primogem x30, Mora x24250, Hero's Wit x2, Mystic Enhancement Ore x5",
+        "chapter": {
+            "icon": "UI_ChapterIcon_Liyue",
+            "id": "1102",
+            "num": "Chapter I: Act II",
+            "title": "Farewell, Archaic Lord"
+        },
+        "total_dialogue_lines": 171,
+        "total_speaker_counts": {
+            "???": 2,
+            "Baizhu": 6,
+            "Changsheng": 2,
+            "Childe": 9,
+            "Crowd": 1,
+            "Ekaterina": 1,
+            "Freckle Huang": 7,
+            "Paimon": 44,
+            "Player": 28,
+            "Qiqi": 19,
+            "White Snake": 2,
+            "Zhongli": 50
+        }
+    },
+    "talks": [
+        {
+            "id": "101501",
+            "objective": "Go to Bubu Pharmacy",
+            "dialogues": []
+        },
+        {
+            "id": "101513",
+            "objective": "",
+            "dialogues": [
+                {
+                    "id": "10151301",
+                    "speaker": "Paimon",
+                    "text": "Huh, the reception is deserted. And it seems kinda spooky in here..."
+                },
+                {
+                    "id": "10151302",
+                    "speaker": "Paimon",
+                    "text": "Hello? Is anybody there?"
+                },
+                {
+                    "id": "10151303",
+                    "speaker": "???",
+                    "text": "Welcome to Bubu Pharmacy."
+                },
+                {
+                    "id": "10151304",
+                    "speaker": "Paimon",
+                    "text": "..."
+                },
+                {
+                    "id": "10151305",
+                    "speaker": "Paimon",
+                    "text": "D—Did you hear that? Wh—Where did it come from?"
+                },
+                {
+                    "id": "10151306",
+                    "speaker": "Zhongli",
+                    "text": "The reception, it seems."
+                },
+                {
+                    "id": "10151307",
+                    "speaker": "Paimon",
+                    "text": "#{NICKNAME}, how about... you go check it out, and... Paimon will bring up the rear."
+                }
+            ]
+        },
+        {
+            "id": "101509",
+            "objective": "Find the source of the mystery voice",
+            "dialogues": [
+                {
+                    "id": "10150901",
+                    "speaker": "Paimon",
+                    "text": "Oh, there you are! But you can't even reach the counter!",
+                    "choices": [
+                        {
+                            "id": "10150902",
+                            "text": "Is she... a zombie!?",
+                            "response": [
+                                {
+                                    "id": "10150903",
+                                    "speaker": "Paimon",
+                                    "text": "Ah... Paimon thinks you might be right! Look at the talisman on her forehead!"
+                                },
+                                {
+                                    "id": "10150908",
+                                    "speaker": "Qiqi",
+                                    "text": "Welcome to Bubu Pharmacy. I am Qiqi."
+                                },
+                                {
+                                    "id": "10150909",
+                                    "speaker": "Qiqi",
+                                    "text": "Once upon a time, Qiqi died. Then, Qiqi was saved by the adepti. Now, Qiqi is a zombie.",
+                                    "choices": [
+                                        {
+                                            "id": "10150910",
+                                            "text": "Such nonchalant delivery for a bombshell revelation...",
+                                            "response": [
+                                                {
+                                                    "id": "10150912",
+                                                    "speaker": "Paimon",
+                                                    "text": "Something like this would be unimaginable in Mondstadt..."
+                                                },
+                                                {
+                                                    "id": "10150913",
+                                                    "speaker": "Zhongli",
+                                                    "text": "Hello... little girl. Do you sell Everlasting Incense here?"
+                                                },
+                                                {
+                                                    "id": "10150914",
+                                                    "speaker": "Qiqi",
+                                                    "text": "Excuse me, sir. Did you bring your prescription?"
+                                                },
+                                                {
+                                                    "id": "10150915",
+                                                    "speaker": "Zhongli",
+                                                    "text": "I... Surely no prescription is needed to purchase Everlasting Incense? It's not a controlled substance..."
+                                                },
+                                                {
+                                                    "id": "10150916",
+                                                    "speaker": "Qiqi",
+                                                    "text": "Qiqi can get your medicine. But only if you show Qiqi your prescription. These are Qiqi's orders, from Qiqi.",
+                                                    "choices": [
+                                                        {
+                                                            "id": "10150917",
+                                                            "text": "\"Orders\"?",
+                                                            "response": [
+                                                                {
+                                                                    "id": "10150920",
+                                                                    "speaker": "Zhongli",
+                                                                    "text": "Zombies are limited to acting within the confines of their orders. And somehow, in this case, the zombie issues her own orders to herself."
+                                                                },
+                                                                {
+                                                                    "id": "10150921",
+                                                                    "speaker": "Zhongli",
+                                                                    "text": "My dear Qiqi, we didn't bring a prescription, I'm afraid. But we do hope that you can still help us find some Everlasting Incense."
+                                                                },
+                                                                {
+                                                                    "id": "10150922",
+                                                                    "speaker": "Qiqi",
+                                                                    "text": "Okay then."
+                                                                },
+                                                                {
+                                                                    "id": "10150923",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "How did you manage that?"
+                                                                },
+                                                                {
+                                                                    "id": "10150924",
+                                                                    "speaker": "Qiqi",
+                                                                    "text": "But. Qiqi helps you, you help Qiqi. Only fair."
+                                                                },
+                                                                {
+                                                                    "id": "10150925",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "Since when do customers need to do favors for customer service staff?"
+                                                                },
+                                                                {
+                                                                    "id": "10150926",
+                                                                    "speaker": "Zhongli",
+                                                                    "text": "Never mind, just think of it as a peer-to-peer transaction. That way everybody wins. Sometimes, in Liyue, the art of the deal is simply about victory via mental gymnastics."
+                                                                },
+                                                                {
+                                                                    "id": "10150927",
+                                                                    "speaker": "Qiqi",
+                                                                    "text": "Go to Mt. Tianheng. Find the Guizhong Ballista. And hunt a Cocogoat. Please and thank you.",
+                                                                    "choices": [
+                                                                        {
+                                                                            "id": "10150928",
+                                                                            "text": "Hunt the what with the which at where?",
+                                                                            "response": [
+                                                                                {
+                                                                                    "id": "10150929",
+                                                                                    "speaker": "Zhongli",
+                                                                                    "text": "Guizhong Ballista... I have heard of this device before."
+                                                                                },
+                                                                                {
+                                                                                    "id": "10150932",
+                                                                                    "speaker": "Zhongli",
+                                                                                    "text": "It is a kind of crossbow turret, installed on Mt. Tianheng by an adeptus in the distant past. An early mechanical device."
+                                                                                },
+                                                                                {
+                                                                                    "id": "10150933",
+                                                                                    "speaker": "Zhongli",
+                                                                                    "text": "Located in Tianheng Pass, it was designed to automatically fire at large monsters, protecting Liyue from external threats."
+                                                                                },
+                                                                                {
+                                                                                    "id": "10150934",
+                                                                                    "speaker": "Paimon",
+                                                                                    "text": "Mr. Zhongli really knows Liyue inside out!"
+                                                                                },
+                                                                                {
+                                                                                    "id": "10150935",
+                                                                                    "speaker": "Zhongli",
+                                                                                    "text": "Apparently, not quite... This is the first I have ever heard of the \"Cocogoat.\""
+                                                                                },
+                                                                                {
+                                                                                    "id": "10150936",
+                                                                                    "speaker": "Qiqi",
+                                                                                    "text": "The Cocogoat is a legendary animal. An adeptibeast."
+                                                                                },
+                                                                                {
+                                                                                    "id": "10150937",
+                                                                                    "speaker": "Paimon",
+                                                                                    "text": "Did you wanna add anything else, or..."
+                                                                                },
+                                                                                {
+                                                                                    "id": "10150938",
+                                                                                    "speaker": "Qiqi",
+                                                                                    "text": "No. Just that the Cocogoat is a legendary animal. An adeptibeast."
+                                                                                },
+                                                                                {
+                                                                                    "id": "10150939",
+                                                                                    "speaker": "Qiqi",
+                                                                                    "text": "What it looks like: don't know. Where to find it: don't know either. Where it came from: also don't know.",
+                                                                                    "choices": [
+                                                                                        {
+                                                                                            "id": "10150940",
+                                                                                            "text": "Do tell us if you remember anything else you don't remember...",
+                                                                                            "response": [
+                                                                                                {
+                                                                                                    "id": "10150942",
+                                                                                                    "speaker": "Zhongli",
+                                                                                                    "text": "Very well then... Let's start by investigating near the <color=#00E1FFFF>Guizhong Ballista</color>. Perhaps we will find some clues."
+                                                                                                },
+                                                                                                {
+                                                                                                    "id": "10150943",
+                                                                                                    "speaker": "Paimon",
+                                                                                                    "text": "What the heck is a Cocogoat..."
+                                                                                                }
+                                                                                            ]
+                                                                                        },
+                                                                                        {
+                                                                                            "id": "10150941",
+                                                                                            "text": "This isn't much to go on..."
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        {
+                                                                            "id": "10150930",
+                                                                            "text": "She's playing games with us...",
+                                                                            "response": [
+                                                                                {
+                                                                                    "id": "10150931",
+                                                                                    "speaker": "Zhongli",
+                                                                                    "text": "I don't believe so. The Guizhong Ballista, at least, I have heard of before."
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "id": "10150918",
+                                                            "text": "Why is she being so difficult?",
+                                                            "response": [
+                                                                {
+                                                                    "id": "10150919",
+                                                                    "speaker": "Zhongli",
+                                                                    "text": "I'm afraid that she's probably right — it's to do with her orders."
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "10150911",
+                                            "text": "Do zombies also count as adepti...?"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "10150904",
+                            "text": "Paimon, if we're going to talk about height, you ahh...",
+                            "response": [
+                                {
+                                    "id": "10150905",
+                                    "speaker": "Paimon",
+                                    "text": "Joke's on you — Paimon floats, so height is no restriction."
+                                },
+                                {
+                                    "id": "10150906",
+                                    "speaker": "Paimon",
+                                    "text": "Anyway, there's something weird about this one over here. What's that talisman doing on her forehead?"
+                                },
+                                {
+                                    "id": "10150907",
+                                    "speaker": "Paimon",
+                                    "text": "It can't be... she's... a zombie!?"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "101502",
+            "objective": "Look for the Guizhong Ballista",
+            "dialogues": []
+        },
+        {
+            "id": "101508",
+            "objective": "Inspect the Guizhong Ballista",
+            "dialogues": []
+        },
+        {
+            "id": "101503",
+            "objective": "",
+            "dialogues": [
+                {
+                    "id": "10150301",
+                    "speaker": "Paimon",
+                    "text": "It's huge! Paimon can totally believe it took an adeptus to build this."
+                },
+                {
+                    "id": "10150302",
+                    "speaker": "Paimon",
+                    "text": "But... how do you operate this thing? Just think how much strength you would need..."
+                },
+                {
+                    "id": "10150303",
+                    "speaker": "Zhongli",
+                    "text": "Hmm... It is currently inoperable, in any case. This device is broken."
+                },
+                {
+                    "id": "10150304",
+                    "speaker": "Paimon",
+                    "text": "Aw, what? It broke!?"
+                },
+                {
+                    "id": "10150305",
+                    "speaker": "Zhongli",
+                    "text": "After millennia of wear and tear, even adepti contraptions are difficult to maintain."
+                },
+                {
+                    "id": "10150306",
+                    "speaker": "Paimon",
+                    "text": "So what're we gonna do? Quick, Mr. Zhongli, use your unlimited high-society knowledge powers!"
+                },
+                {
+                    "id": "10150307",
+                    "speaker": "Zhongli",
+                    "text": "Hmm. You almost make it sound like I'm some sort of... bourgeois parasite, whose only utility lies in providing quaint pieces of trivia on demand."
+                },
+                {
+                    "id": "10150308",
+                    "speaker": "Zhongli",
+                    "text": "That said, let me think for a moment... Ah yes. Spare parts were made for the Guizhong Ballista when it was first built, in case it was damaged in battle."
+                },
+                {
+                    "id": "10150309",
+                    "speaker": "Zhongli",
+                    "text": "As I recall, there is a military supply post from that period somewhere inside the Pass."
+                },
+                {
+                    "id": "10150310",
+                    "speaker": "Zhongli",
+                    "text": "If we can retrieve the spare parts from where they are stored, we may be able to repair the Guizhong Ballista. One just needs to understand the basic working principles of the device."
+                },
+                {
+                    "id": "10150311",
+                    "speaker": "Paimon",
+                    "text": "So... what you're saying is that you actually understand the working principles?"
+                },
+                {
+                    "id": "10150312",
+                    "speaker": "Zhongli",
+                    "text": "I have a smattering of knowledge on the topic."
+                },
+                {
+                    "id": "10150313",
+                    "speaker": "Zhongli",
+                    "text": "With the <color=#00E1FFFF>parts</color> in hand, I could at least tinker with it."
+                }
+            ]
+        },
+        {
+            "id": "101504",
+            "objective": "Retrieve spare parts from the military supply post",
+            "dialogues": []
+        },
+        {
+            "id": "101505",
+            "objective": "Repair the Guizhong Ballista",
+            "dialogues": []
+        },
+        {
+            "id": "101506",
+            "objective": "",
+            "dialogues": [
+                {
+                    "id": "10150601",
+                    "speaker": "Zhongli",
+                    "text": "These parts look useful."
+                },
+                {
+                    "id": "10150602",
+                    "speaker": "Zhongli",
+                    "text": "One moment, I will try to repair the device..."
+                },
+                {
+                    "id": "10150603",
+                    "speaker": "Zhongli",
+                    "text": "It is done. The Guizhong Ballista is more intricately designed than I thought."
+                },
+                {
+                    "id": "10150604",
+                    "speaker": "Paimon",
+                    "text": "Woo! Now how do we turn it on?"
+                },
+                {
+                    "id": "10150605",
+                    "speaker": "Zhongli",
+                    "text": "It's easy enough. We simply need to do this... Look, it even has a scope."
+                },
+                {
+                    "id": "10150617",
+                    "speaker": "Paimon",
+                    "text": "Over here we have... Nothing. And over there... More nothing."
+                },
+                {
+                    "id": "10150606",
+                    "speaker": "Freckle Huang",
+                    "text": "Hey! Just what do you think you're doing!?"
+                },
+                {
+                    "id": "10150607",
+                    "speaker": "Freckle Huang",
+                    "text": "So, you've fixed up this turret... because you're planning to do what, exactly!?"
+                },
+                {
+                    "id": "10150608",
+                    "speaker": "Zhongli",
+                    "text": "Not a turret. A Guizhong Ballista. Also, kindly state your name before you ask a question, it's just good manners."
+                },
+                {
+                    "id": "10150609",
+                    "speaker": "Freckle Huang",
+                    "text": "Hah! Are you blind or something? You're looking at the leader of the Treasure Hoarders, old man!"
+                },
+                {
+                    "id": "10150610",
+                    "speaker": "Freckle Huang",
+                    "text": "This area's supposed to be chock-full of hidden treasures, but you can't get anywhere near them with this thing keeping watch. It might look like any other mechanical device, but trust me, it's got a mind of its own!"
+                },
+                {
+                    "id": "10150611",
+                    "speaker": "Freckle Huang",
+                    "text": "Last time we approached the mountain, it nearly skewered one of our guys..."
+                },
+                {
+                    "id": "10150612",
+                    "speaker": "Freckle Huang",
+                    "text": "A few of us risked our lives to disarm it — which, amazingly, we managed — and then we turn our backs for two seconds and you've ALREADY GONE AND REPAIRED IT!?"
+                },
+                {
+                    "id": "10150613",
+                    "speaker": "Freckle Huang",
+                    "text": "The next thing you'll be repairing is your faces, and that's if you get out of this alive!"
+                },
+                {
+                    "id": "10150614",
+                    "speaker": "Zhongli",
+                    "text": "Tut-tut. Vandalizing the legacy of an adeptus for selfish gain. Disgraceful behavior."
+                },
+                {
+                    "id": "10150615",
+                    "speaker": "Zhongli",
+                    "text": "It is not we who need reprimanding, but you."
+                },
+                {
+                    "id": "10150616",
+                    "speaker": "Paimon",
+                    "text": "#Quite right! Let's get 'em, {NICKNAME}!"
+                }
+            ]
+        },
+        {
+            "id": "101510",
+            "objective": "Defeat the Treasure Hoarders",
+            "dialogues": []
+        },
+        {
+            "id": "101514",
+            "objective": "",
+            "dialogues": [
+                {
+                    "id": "10151401",
+                    "speaker": "Paimon",
+                    "text": "These lowlifes didn't know who they were messing with!"
+                },
+                {
+                    "id": "10151402",
+                    "speaker": "Zhongli",
+                    "text": "Troubling ourselves over this rabble is not worth the time. We should focus on our contract with Qiqi."
+                },
+                {
+                    "id": "10151403",
+                    "speaker": "Paimon",
+                    "text": "Oh yeah... that. So we've got the Guizhong Ballista working, but where's our Cocogoat?"
+                },
+                {
+                    "id": "10151404",
+                    "speaker": "Zhongli",
+                    "text": "A search using the Guizhong Ballista revealed no significant life forms nearby, save for the usual wildlife."
+                },
+                {
+                    "id": "10151405",
+                    "speaker": "Zhongli",
+                    "text": "What's more, a contraption built using adeptus technology should have no trouble detecting an \"adeptibeast\" as Qiqi put it..."
+                },
+                {
+                    "id": "10151406",
+                    "speaker": "Paimon",
+                    "text": "Which means...",
+                    "choices": [
+                        {
+                            "id": "10151407",
+                            "text": "...",
+                            "response": [
+                                {
+                                    "id": "10151410",
+                                    "speaker": "Zhongli",
+                                    "text": "We won't solve anything while standing here and racking our brains. Let's return to Bubu Pharmacy, explain that we could not find a Cocogoat, and review our next step."
+                                },
+                                {
+                                    "id": "10151411",
+                                    "speaker": "Paimon",
+                                    "text": "Good idea. We did our best, and that's what counts."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "10151408",
+                            "text": "Repairing this was a complete waste of time?",
+                            "response": [
+                                {
+                                    "id": "10151409",
+                                    "speaker": "Paimon",
+                                    "text": "Paimon wouldn't go that far. We did something positive, right?"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "101507",
+            "objective": "Find Qiqi back at the Bubu Pharmacy",
+            "dialogues": [
+                {
+                    "id": "10150701",
+                    "speaker": "Zhongli",
+                    "text": "Forgive us, we were unable to fulfill our end of the contract. We found no trace of the Cocogoat adeptibeast of which you speak."
+                },
+                {
+                    "id": "10150702",
+                    "speaker": "Qiqi",
+                    "text": "Ah. What a disappointment. Don't worry about it. But I feel very disappointed."
+                },
+                {
+                    "id": "10150703",
+                    "speaker": "Paimon",
+                    "text": "Aw, poor Qiqi... Why does Paimon feel so guilty all of a sudden?",
+                    "choices": [
+                        {
+                            "id": "10150704",
+                            "text": "Qiqi, do you have any other clues?",
+                            "response": [
+                                {
+                                    "id": "10150706",
+                                    "speaker": "Qiqi",
+                                    "text": "Cocogoat milk is tasty. So tasty. Much better than normal goat milk. Only an adeptibeast could make such tasty milk."
+                                },
+                                {
+                                    "id": "10150707",
+                                    "speaker": "Qiqi",
+                                    "text": "I'm sorry. I have a poor memory. I cannot remember the name of the milk. That's why I wrote it down. Where did I put it..."
+                                },
+                                {
+                                    "id": "10150708",
+                                    "speaker": "Qiqi",
+                                    "text": "Ah. Here. This is the name. \"Coconut milk.\""
+                                },
+                                {
+                                    "id": "10150709",
+                                    "speaker": "Crowd",
+                                    "text": "Ehh!?"
+                                },
+                                {
+                                    "id": "10150710",
+                                    "speaker": "Zhongli",
+                                    "text": "..."
+                                },
+                                {
+                                    "id": "10150711",
+                                    "speaker": "Zhongli",
+                                    "text": "I owe you both an apology. I hastily agreed to what appeared to be an equitable agreement with this zombie child, when perhaps I should have undertaken further due diligence."
+                                },
+                                {
+                                    "id": "10150712",
+                                    "speaker": "Paimon",
+                                    "text": "Never mind Zhongli, you didn't know. As the Liyue proverb goes, \"All things are random, and... so how are you supposed to predict anything.\" Literally no one could have seen this coming..."
+                                },
+                                {
+                                    "id": "10150713",
+                                    "speaker": "Qiqi",
+                                    "text": "Excuse me, everyone. Did Qiqi say a bad thing?"
+                                },
+                                {
+                                    "id": "10150714",
+                                    "speaker": "Paimon",
+                                    "text": "#Ooh... Sorry, {NICKNAME}, but Paimon's gonna leave the job of shattering this poor kiddo's world to you...",
+                                    "choices": [
+                                        {
+                                            "id": "10150715",
+                                            "text": "It's time to tell you where coconut milk comes from...",
+                                            "response": [
+                                                {
+                                                    "id": "10150717",
+                                                    "speaker": "Qiqi",
+                                                    "text": "No... Im—Impossible..."
+                                                },
+                                                {
+                                                    "id": "10150718",
+                                                    "speaker": "Paimon",
+                                                    "text": "Seems Qiqi took this pretty hard.",
+                                                    "choices": [
+                                                        {
+                                                            "id": "10150719",
+                                                            "text": "She just needs time to work through it.",
+                                                            "response": [
+                                                                {
+                                                                    "id": "10150721",
+                                                                    "speaker": "???",
+                                                                    "text": "Haha, someone learnt a valuable life lesson today, then? Thank you all for looking after my little Qiqi."
+                                                                },
+                                                                {
+                                                                    "id": "10150722",
+                                                                    "speaker": "Zhongli",
+                                                                    "text": "Might I ask, who..."
+                                                                },
+                                                                {
+                                                                    "id": "10150723",
+                                                                    "speaker": "Baizhu",
+                                                                    "text": "Ah, how rude of me. I'm Baizhu, boss of the Bubu Pharmacy."
+                                                                },
+                                                                {
+                                                                    "id": "10150724",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "Paimon thought Qiqi was the boss... turns out it's some wacko who wears medicinal ingredients around his neck!"
+                                                                },
+                                                                {
+                                                                    "id": "10150725",
+                                                                    "speaker": "White Snake",
+                                                                    "text": "What a sorry state of affairs... This little mascot is even more of a simpleton than Qiqi..."
+                                                                },
+                                                                {
+                                                                    "id": "10150726",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "Ah! The medicine— The snake is s—speaking!",
+                                                                    "choices": [
+                                                                        {
+                                                                            "id": "10150727",
+                                                                            "text": "Wow, a talking snake!",
+                                                                            "response": [
+                                                                                {
+                                                                                    "id": "10150729",
+                                                                                    "speaker": "White Snake",
+                                                                                    "text": "Hmph! I prefer to stay silent. But faced with strangers, I must speak, lest you mistake me for an escapee from the medicine cabinet, for I am a living, breathing, serpent!"
+                                                                                },
+                                                                                {
+                                                                                    "id": "10150730",
+                                                                                    "speaker": "Baizhu",
+                                                                                    "text": "Hahaha, don't mind Changsheng, she's a good girl, really. As for you three... Communal chaos-causing with Qiqi aside, what business brings you here?"
+                                                                                },
+                                                                                {
+                                                                                    "id": "10150731",
+                                                                                    "speaker": "Zhongli",
+                                                                                    "text": "Do you sell Everlasting Incense in this fine establishment?"
+                                                                                },
+                                                                                {
+                                                                                    "id": "10150732",
+                                                                                    "speaker": "Baizhu",
+                                                                                    "text": "Everlasting Incense? Why, of course we do!"
+                                                                                },
+                                                                                {
+                                                                                    "id": "10150733",
+                                                                                    "speaker": "Paimon",
+                                                                                    "text": "Phew, at last! Things are finally starting to come together—"
+                                                                                },
+                                                                                {
+                                                                                    "id": "10150734",
+                                                                                    "speaker": "Baizhu",
+                                                                                    "text": "Three million Mora, top quality, guaranteed.",
+                                                                                    "choices": [
+                                                                                        {
+                                                                                            "id": "10150735",
+                                                                                            "text": "Three million!?",
+                                                                                            "response": [
+                                                                                                {
+                                                                                                    "id": "10150736",
+                                                                                                    "speaker": "Paimon",
+                                                                                                    "text": "You might as well just rob the Golden House! Oh, but the Qixing have taken it over for now... Security will be tighter than usual."
+                                                                                                },
+                                                                                                {
+                                                                                                    "id": "10150739",
+                                                                                                    "speaker": "Zhongli",
+                                                                                                    "text": "Hmm... Three million... An innocuous number in and of itself, though practically speaking, it could be a hard sum to come by."
+                                                                                                },
+                                                                                                {
+                                                                                                    "id": "10150740",
+                                                                                                    "speaker": "Paimon",
+                                                                                                    "text": "It's a crazy number! We'd never be able to make that much Mora, and as for Mr. Zhongli... he's around three million short."
+                                                                                                },
+                                                                                                {
+                                                                                                    "id": "10150741",
+                                                                                                    "speaker": "Zhongli",
+                                                                                                    "text": "This is correct."
+                                                                                                },
+                                                                                                {
+                                                                                                    "id": "10150742",
+                                                                                                    "speaker": "Player",
+                                                                                                    "text": "No shame..."
+                                                                                                },
+                                                                                                {
+                                                                                                    "id": "10150743",
+                                                                                                    "speaker": "Paimon",
+                                                                                                    "text": "What're we gonna do? Is this the part where we go crawling back to Childe...?"
+                                                                                                },
+                                                                                                {
+                                                                                                    "id": "10150744",
+                                                                                                    "speaker": "Childe",
+                                                                                                    "text": "Bwahahahahahaha!"
+                                                                                                },
+                                                                                                {
+                                                                                                    "id": "10150745",
+                                                                                                    "speaker": "Childe",
+                                                                                                    "text": "Cocogoat! Cocogo— Ahahaow my sides hurt... Oh my goodness, I cannot BELIEVE you fell for that!"
+                                                                                                },
+                                                                                                {
+                                                                                                    "id": "10150746",
+                                                                                                    "speaker": "Paimon",
+                                                                                                    "text": "Hey! Less laughter, more sympathy!"
+                                                                                                },
+                                                                                                {
+                                                                                                    "id": "10150747",
+                                                                                                    "speaker": "Childe",
+                                                                                                    "text": "I'm almost in tears over here... Ah, thank you, that was the best laugh I've had in a long time. In return, I'm more than happy to sort out this mess you've managed to get yourselves into..."
+                                                                                                },
+                                                                                                {
+                                                                                                    "id": "10150748",
+                                                                                                    "speaker": "Childe",
+                                                                                                    "text": "Excuse me, sir... Dr. Baizhu, isn't it? Truly honored, I'm Childe, one of the Fatui Harbingers. Forgive my audacity, but I see a great many opportunities for us to collaborate in the future..."
+                                                                                                },
+                                                                                                {
+                                                                                                    "id": "10150749",
+                                                                                                    "speaker": "Childe",
+                                                                                                    "text": "If Bubu Pharmacy needed a stable supply of, say, coconut milk, the Fatui could help by setting up a robust and speedy distribution network."
+                                                                                                },
+                                                                                                {
+                                                                                                    "id": "10150750",
+                                                                                                    "speaker": "Changsheng",
+                                                                                                    "text": "Strange... I knew the Fatui infiltrated businesses with seductive deals, but... So much fuss over coconut milk?"
+                                                                                                },
+                                                                                                {
+                                                                                                    "id": "10150751",
+                                                                                                    "speaker": "Qiqi",
+                                                                                                    "text": "Coconut milk. Baizhu. Quick. Qiqi wants coconut milk."
+                                                                                                },
+                                                                                                {
+                                                                                                    "id": "10150752",
+                                                                                                    "speaker": "Baizhu",
+                                                                                                    "text": "Ah... Yes, of course, Qiqi, anything you want... Th—Thank you, Childe. I look forward to a successful collaboration in the future. I can give you a discount on that Everlasting Incense too, let's say... 2,990,000 Mora."
+                                                                                                },
+                                                                                                {
+                                                                                                    "id": "10150753",
+                                                                                                    "speaker": "Paimon",
+                                                                                                    "text": "That's like, zero difference from three million!"
+                                                                                                },
+                                                                                                {
+                                                                                                    "id": "10150754",
+                                                                                                    "speaker": "Zhongli",
+                                                                                                    "text": "Hmm... 2,990,000... Also an innocuous number in and of itself, though practically speaking it is a whole ten thousand less than the original sum of three million."
+                                                                                                },
+                                                                                                {
+                                                                                                    "id": "10150755",
+                                                                                                    "speaker": "Zhongli",
+                                                                                                    "text": "Well, now that this is settled, we must head back to Yujing Terrace. Mr. Childe, Dr. Baizhu, Little Miss Qiqi, see you soon."
+                                                                                                },
+                                                                                                {
+                                                                                                    "id": "10150756",
+                                                                                                    "speaker": "Childe",
+                                                                                                    "text": "That lot is an absolute riot. Honestly, I can't remember the last time I laughed so hard."
+                                                                                                },
+                                                                                                {
+                                                                                                    "id": "10150757",
+                                                                                                    "speaker": "Childe",
+                                                                                                    "text": "So. You've been eavesdropping, I hope. What have I missed?"
+                                                                                                },
+                                                                                                {
+                                                                                                    "id": "10150758",
+                                                                                                    "speaker": "Ekaterina",
+                                                                                                    "text": "Yes, Master Childe. They spoke of the Qixing taking the Golden House..."
+                                                                                                },
+                                                                                                {
+                                                                                                    "id": "10150759",
+                                                                                                    "speaker": "Childe",
+                                                                                                    "text": "Well, well, well. Ningguang and her Qixing cronies. What else would they be hiding in the Golden House... if not the Exuvia?"
+                                                                                                },
+                                                                                                {
+                                                                                                    "id": "10150760",
+                                                                                                    "speaker": "Childe",
+                                                                                                    "text": "#I apologize, {NICKNAME}. But I warned you, didn't I? As the old Liyue saying goes: \"The walls have ears.\""
+                                                                                                }
+                                                                                            ]
+                                                                                        },
+                                                                                        {
+                                                                                            "id": "10150737",
+                                                                                            "text": "You might as well just rob the Golden House!",
+                                                                                            "response": [
+                                                                                                {
+                                                                                                    "id": "10150738",
+                                                                                                    "speaker": "Paimon",
+                                                                                                    "text": "Too bad, the Qixing have taken it over for now... Security will be tighter than usual."
+                                                                                                }
+                                                                                            ]
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        {
+                                                                            "id": "10150728",
+                                                                            "text": "Nothing in Liyue surprises me anymore."
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "id": "10150720",
+                                                            "text": "They all need to grow up sometime."
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "10150716",
+                                            "text": "It all begins with the fruit of the coconut tree..."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "10150705",
+                            "text": "What do you need this Cocogoat for?"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "101511",
+            "objective": "Put the Everlasting Incense in place",
+            "dialogues": [
+                {
+                    "id": "10151101",
+                    "speaker": "Zhongli",
+                    "text": "Well, as it stands, we've hired helpers, and we've acquired the Everlasting Incense. The completion of our preparations is not far off."
+                },
+                {
+                    "id": "10151102",
+                    "speaker": "Paimon",
+                    "text": "Whew... Finally!"
+                },
+                {
+                    "id": "10151103",
+                    "speaker": "Zhongli",
+                    "text": "Well, Traveler, have you gained anything from our adventure so far?"
+                },
+                {
+                    "id": "10151104",
+                    "speaker": "Player",
+                    "text": "It's been... odd."
+                },
+                {
+                    "id": "10151105",
+                    "speaker": "Zhongli",
+                    "text": "Odd?",
+                    "choices": [
+                        {
+                            "id": "10151106",
+                            "text": "I'm not sure if we've been living the high life...",
+                            "response": [
+                                {
+                                    "id": "10151108",
+                                    "speaker": "Zhongli",
+                                    "text": "Haha, which is it, I wonder?"
+                                },
+                                {
+                                    "id": "10151109",
+                                    "speaker": "Zhongli",
+                                    "text": "The questions that such travels raise are ever so complicated. Well, I'll leave you to ruminate over it yourself. As to remuneration for your help, I've decided..."
+                                },
+                                {
+                                    "id": "10151110",
+                                    "speaker": "Zhongli",
+                                    "text": "...to treat you to a meal.",
+                                    "choices": [
+                                        {
+                                            "id": "10151111",
+                                            "text": "Zhongli... treating?",
+                                            "response": [
+                                                {
+                                                    "id": "10151113",
+                                                    "speaker": "Zhongli",
+                                                    "text": "Oh? Ah yes, don't worry. I will remember to bring the Mora this time."
+                                                },
+                                                {
+                                                    "id": "10151114",
+                                                    "speaker": "Zhongli",
+                                                    "text": "Tonight, I shall take you both to an old hole-in-the-wall, praised throughout Liyue."
+                                                },
+                                                {
+                                                    "id": "10151115",
+                                                    "speaker": "Paimon",
+                                                    "text": "Hole-in-the-wall? As in... a cool restaurant?"
+                                                },
+                                                {
+                                                    "id": "10151116",
+                                                    "speaker": "Zhongli",
+                                                    "text": "Indeed. Let us meet near the harbor at \"Third-Round Knockout.\""
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "10151112",
+                                            "text": "Wow. Amazing."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "10151107",
+                            "text": "Or experiencing the struggles of the poor?"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "10150701",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "1015070101",
+                    "speaker": "Qiqi",
+                    "text": "This is good. There will be coconut milk from now on. Yes, it's good."
+                }
+            ]
+        },
+        {
+            "id": "10150702",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "1015070201",
+                    "speaker": "Baizhu",
+                    "text": "What an odd exchange we've had. Well, I look forward to your patronage in the future as well. Hahaha."
+                },
+                {
+                    "id": "1015070202",
+                    "speaker": "Changsheng",
+                    "text": "That sound is the laughter of a man who's found new people to fleece. Consider yourselves warned..."
+                }
+            ]
+        },
+        {
+            "id": "10150901",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "1015090101",
+                    "speaker": "Qiqi",
+                    "text": "Cocogoat. Go find it."
+                }
+            ]
+        }
+    ]
+}

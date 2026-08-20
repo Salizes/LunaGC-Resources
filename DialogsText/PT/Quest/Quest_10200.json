@@ -1,0 +1,1258 @@
+{
+    "quest": {
+        "id": "10200",
+        "title": "Quem é o Lutador mais forte de Mondstadt?",
+        "description": "Os clientes do Presentes dos Anjos começaram a discutir...",
+        "rewards": [
+            {
+                "itemId": 102,
+                "count": 400
+            },
+            {
+                "itemId": 202,
+                "count": 18000
+            },
+            {
+                "itemId": 104003,
+                "count": 2
+            },
+            {
+                "itemId": 104013,
+                "count": 4
+            }
+        ],
+        "rewards_formatted": "EXP de Aventura x400, Mora x18000, EXP do Herói x2, Minério de Refinamento Místico x4",
+        "chapter": {
+            "icon": "UI_ChapterIcon_Klee",
+            "id": "2009",
+            "num": "Capítulo de Trifolium: Ato I",
+            "title": "Tesouro Verdadeiro"
+        },
+        "total_dialogue_lines": 200,
+        "total_speaker_counts": {
+            "???": 7,
+            "Bruce": 15,
+            "Charles": 18,
+            "Jack": 16,
+            "Jean": 11,
+            "José dos Seis Dedos": 33,
+            "Klee": 9,
+            "Paimon": 53,
+            "Patton": 8,
+            "Player": 30
+        }
+    },
+    "talks": [
+        {
+            "id": "1020001",
+            "objective": "Esperando o Anoitecer",
+            "dialogues": [
+                {
+                    "id": "102000101",
+                    "speaker": "Jean",
+                    "text": "Temos que investigar mais a fundo para descobrir por que a Ordem do Abismo está mais ativa recentemente..."
+                },
+                {
+                    "id": "102000102",
+                    "speaker": "Jean",
+                    "text": "#{NICKNAME}, tenha cuidado durante a sua jornada."
+                }
+            ]
+        },
+        {
+            "id": "1020002",
+            "objective": "Diálogo entre Patton e Paimon.",
+            "dialogues": [
+                {
+                    "id": "102000201",
+                    "speaker": "Patton",
+                    "text": "*Suspiro* Que pena. Posso apenas ouvir as discussões da fora da janela e não tenho nem uma chance de participar na discussão. Eu também gostaria de dizer a minha opinião..."
+                },
+                {
+                    "id": "102000202",
+                    "speaker": "Paimon",
+                    "text": "Hum? O que foi? É alguma coisa interessante? Eu também quero saber!"
+                },
+                {
+                    "id": "102000203",
+                    "speaker": "Patton",
+                    "text": "Recentemente, todos os clientes da taverna têm debatido sobre o mesmo assunto: \"Quem é o lutador mais forte de Mondstadt?\""
+                },
+                {
+                    "id": "102000204",
+                    "speaker": "Paimon",
+                    "text": "\"O mais forte\"...?"
+                },
+                {
+                    "id": "102000205",
+                    "speaker": "Paimon",
+                    "text": "Derrubar alguns Hilichurls com apenas um golpe pode ser considerado como o mais forte?",
+                    "choices": [
+                        {
+                            "id": "102000206",
+                            "text": "Não deve ser tão fácil assim.",
+                            "response": [
+                                {
+                                    "id": "102000207",
+                                    "speaker": "Paimon",
+                                    "text": "Ugh... Então realmente deve ser muito difícil se tornar o mais forte de todos."
+                                },
+                                {
+                                    "id": "102000210",
+                                    "speaker": "Paimon",
+                                    "text": "Mas enfim, existe algum consenso sobre quem é na cidade?"
+                                },
+                                {
+                                    "id": "102000211",
+                                    "speaker": "Patton",
+                                    "text": "Hum? Esperar que as pessoas da Capital da Liberdade cheguem a um acordo é tão difícil quanto esperar cair Pão de Pescador do céu."
+                                },
+                                {
+                                    "id": "102000212",
+                                    "speaker": "Patton",
+                                    "text": "Cada pessoa tem a sua forma de pensar, mas ninguém tem a informação completa, por isso a discussão está ficando mais intensa e interessante."
+                                },
+                                {
+                                    "id": "102000213",
+                                    "speaker": "Patton",
+                                    "text": "As nomeações mais populares agora... deixe-me pensar..."
+                                },
+                                {
+                                    "id": "102000214",
+                                    "speaker": "Patton",
+                                    "text": "Um é a Cavaleira de Dandelion, e o outro é Herói Obscuro.",
+                                    "choices": [
+                                        {
+                                            "id": "102000215",
+                                            "text": "Paimon, para quem você vai votar?",
+                                            "response": [
+                                                {
+                                                    "id": "102000217",
+                                                    "speaker": "Paimon",
+                                                    "text": "Você tem o meu apoio."
+                                                },
+                                                {
+                                                    "id": "102000218",
+                                                    "speaker": "Paimon",
+                                                    "text": "Bem! Vamos entrar na <color=#00E1FFFF>Taverna</color> e falar com os clientes. Talvez possamos encontrar mais rumores interessantes."
+                                                },
+                                                {
+                                                    "id": "102000219",
+                                                    "speaker": "Patton",
+                                                    "text": "Há... Eu realmente invejo a sua vida boa."
+                                                },
+                                                {
+                                                    "id": "102000220",
+                                                    "speaker": "Patton",
+                                                    "text": "Deixa para lá... *Suspiro*... Eu tenho que continuar trabalhando..."
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "102000216",
+                                            "text": "Tem alguém que me apoie?"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "102000208",
+                            "text": "Eu também posso.",
+                            "response": [
+                                {
+                                    "id": "102000209",
+                                    "speaker": "Paimon",
+                                    "text": "Então eu irei te nomear!"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "1020015",
+            "objective": "Fale com Patton sobre os tópicos recentes de conversas",
+            "dialogues": []
+        },
+        {
+            "id": "1020003",
+            "objective": "Entrar na Taverna",
+            "dialogues": [
+                {
+                    "id": "102000301",
+                    "speaker": "Paimon",
+                    "text": "Patton estava certo em uma coisa.",
+                    "choices": [
+                        {
+                            "id": "102000302",
+                            "text": "Todos têm a sua opinião.",
+                            "response": [
+                                {
+                                    "id": "102000304",
+                                    "speaker": "Paimon",
+                                    "text": "Mas, se continuarmos assim, ninguém vai convencer ninguém..."
+                                },
+                                {
+                                    "id": "102000305",
+                                    "speaker": "Paimon",
+                                    "text": "... Como que conseguiremos quem é o lutador mais forte de Mondstadt?"
+                                },
+                                {
+                                    "id": "102000306",
+                                    "speaker": "Paimon",
+                                    "text": "Ah, já sei!"
+                                },
+                                {
+                                    "id": "102000307",
+                                    "speaker": "Paimon",
+                                    "text": "Vamos falar com a <color=#00E1FFFF>Jean</color>?"
+                                },
+                                {
+                                    "id": "102000308",
+                                    "speaker": "Paimon",
+                                    "text": "Talvez tenha uma classificação oficial dos Cavaleiros de Favonius.",
+                                    "choices": [
+                                        {
+                                            "id": "102000309",
+                                            "text": "Realmente existe tal coisa?",
+                                            "response": [
+                                                {
+                                                    "id": "102000310",
+                                                    "speaker": "Paimon",
+                                                    "text": "Veja, vamos pelo menos perguntar. Nunca iremos descobrir se não perguntarmos!"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "102000311",
+                                            "text": "Oh! Você acha que vou estar lá?",
+                                            "response": [
+                                                {
+                                                    "id": "102000312",
+                                                    "speaker": "Paimon",
+                                                    "text": "Suponho que isso depende se eles contam todas as travessuras suas ou não!"
+                                                },
+                                                {
+                                                    "id": "102000313",
+                                                    "speaker": "Paimon",
+                                                    "text": "Eu confio na sua capacidade!"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "102000303",
+                            "text": "Também escutei sobre alguns candidatos especiais."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "1020004",
+            "objective": "Pergunte aos clientes da Taverna sobre os lutadores mais fortes de Mondstadt.",
+            "dialogues": [
+                {
+                    "id": "102000701",
+                    "speaker": "Jack",
+                    "text": "Quem é o lutador mais forte de Mondstadt?"
+                },
+                {
+                    "id": "102000702",
+                    "speaker": "Jack",
+                    "text": "Você quer saber quem que eu acho que é o lutador mais forte?"
+                },
+                {
+                    "id": "102000703",
+                    "speaker": "Jack",
+                    "text": "Na minha opinião, esse seria o melhor aventureiro de todos - Stanley."
+                },
+                {
+                    "id": "102000704",
+                    "speaker": "Jack",
+                    "text": "O Mestre da Guilda Cyrus está lá em cima como os mais fortes, também, mas somente o Stanley pode enfrentar as bestas sanguinárias do Mare Jivari!"
+                },
+                {
+                    "id": "102000705",
+                    "speaker": "Paimon",
+                    "text": "Bestas sanguinárias do Mare Jivari? Parece aterrorizante!"
+                },
+                {
+                    "id": "102000706",
+                    "speaker": "Paimon",
+                    "text": "Você acha que ficaria assustado se estivesse diante de um desses?",
+                    "choices": [
+                        {
+                            "id": "102000707",
+                            "text": "Eu o espancaria até não sobrar nada.",
+                            "response": [
+                                {
+                                    "id": "102000708",
+                                    "speaker": "Paimon",
+                                    "text": "Sim! Bam, pá, pow!"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "102000709",
+                            "text": "Eu correria por minha vida.",
+                            "response": [
+                                {
+                                    "id": "102000710",
+                                    "speaker": "Paimon",
+                                    "text": "Uma decisão sensata. Segurança em primeiro lugar."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "1020011",
+            "objective": "Pergunte aos clientes da Taverna sobre os lutadores mais fortes de Mondstadt.",
+            "dialogues": [
+                {
+                    "id": "102000801",
+                    "speaker": "Bruce",
+                    "text": "Quem é o lutador mais forte de Mondstadt?"
+                },
+                {
+                    "id": "102000802",
+                    "speaker": "Bruce",
+                    "text": "Err... *hic* O lutador mais forte de todos?"
+                },
+                {
+                    "id": "102000803",
+                    "speaker": "Bruce",
+                    "text": "Claro que seria a Jean!*hic*"
+                },
+                {
+                    "id": "102000804",
+                    "speaker": "Bruce",
+                    "text": "Por quê? A Grande Mestre Jean é tão forte... ela pode acabar com o Guarda das Ruínas em alguns poucos golpes com sua espada. *hic*"
+                },
+                {
+                    "id": "102000805",
+                    "speaker": "Bruce",
+                    "text": "Ela também poderia eliminar as tribos de Hilichurls no Vale Dadaupa sozinha. *hic*"
+                },
+                {
+                    "id": "102000806",
+                    "speaker": "Bruce",
+                    "text": "Caso contrário, não estaríamos tão tranquilos, sem nada para fazer..."
+                },
+                {
+                    "id": "102000807",
+                    "speaker": "Paimon",
+                    "text": "Sim, certamente a Jean faz com que as pessoas se sintam em boas mãos."
+                },
+                {
+                    "id": "102000808",
+                    "speaker": "Paimon",
+                    "text": "Enquanto isso, este cara está super bêbado..."
+                }
+            ]
+        },
+        {
+            "id": "1020012",
+            "objective": "Pergunte aos clientes da Taverna sobre os lutadores mais fortes de Mondstadt.",
+            "dialogues": [
+                {
+                    "id": "102000901",
+                    "speaker": "Charles",
+                    "text": "Quem é o lutador mais forte de Mondstadt?"
+                },
+                {
+                    "id": "102000902",
+                    "speaker": "Charles",
+                    "text": "O lutador mais forte? Eu não presto muita atenção nessas coisas..."
+                },
+                {
+                    "id": "102000903",
+                    "speaker": "Paimon",
+                    "text": "Hum. Paimon achava que os bartenders tinham algum tipo de fonte de informação especial."
+                },
+                {
+                    "id": "102000904",
+                    "speaker": "Player",
+                    "text": "Assim como eles têm um fornecedor exclusivo de vinho?"
+                },
+                {
+                    "id": "102000905",
+                    "speaker": "Paimon",
+                    "text": "Exatamente! Era aí que Paimon estava querendo chegar."
+                },
+                {
+                    "id": "102000906",
+                    "speaker": "Charles",
+                    "text": "Não tenho nenhum envolvimento em nenhuma operação de coleta de informações."
+                },
+                {
+                    "id": "102000907",
+                    "speaker": "Charles",
+                    "text": "Mas se eu tivesse que escolher alguém, seria o Herói Obscuro."
+                },
+                {
+                    "id": "102000908",
+                    "speaker": "Charles",
+                    "text": "Eu já ouvi algumas histórias sobre ele. Aparentemente, ele resgatou um habitante da cidade da Ordem do Abismo."
+                },
+                {
+                    "id": "102000909",
+                    "speaker": "Paimon",
+                    "text": "Olha só - a informação ultra-secreta de um bartender!"
+                },
+                {
+                    "id": "102000910",
+                    "speaker": "Paimon",
+                    "text": "Falando sobre a Ordem do Abismo, a missão deles é causar problemas por todo lado, né?"
+                }
+            ]
+        },
+        {
+            "id": "1020013",
+            "objective": "Pergunte aos clientes da Taverna sobre os lutadores mais fortes de Mondstadt.",
+            "dialogues": [
+                {
+                    "id": "102001001",
+                    "speaker": "José dos Seis Dedos",
+                    "text": "Quem é o lutador mais forte de Mondstadt?"
+                },
+                {
+                    "id": "102001002",
+                    "speaker": "José dos Seis Dedos",
+                    "text": "Hã? O mais forte de Mondstadt?"
+                },
+                {
+                    "id": "102001003",
+                    "speaker": "José dos Seis Dedos",
+                    "text": "...Ela é uma garotinha que se veste de vermelho."
+                },
+                {
+                    "id": "102001004",
+                    "speaker": "Player",
+                    "text": "Uma garota de vermelho?"
+                },
+                {
+                    "id": "102001005",
+                    "speaker": "José dos Seis Dedos",
+                    "text": "Isso mesmo! Descobri isto um dia, há cerca de meio mês atrás, quando fui às Montanhas do Precursor do Vento, procurando por inspirações para minha nova música."
+                },
+                {
+                    "id": "102001006",
+                    "speaker": "José dos Seis Dedos",
+                    "text": "Adivinha o que aconteceu?"
+                },
+                {
+                    "id": "102001007",
+                    "speaker": "Paimon",
+                    "text": "O que aconteceu?"
+                },
+                {
+                    "id": "102001008",
+                    "speaker": "José dos Seis Dedos",
+                    "text": "Vi o poder mais destrutivo que já vi em toda minha vida!"
+                },
+                {
+                    "id": "102001009",
+                    "speaker": "José dos Seis Dedos",
+                    "text": "Estou te dizendo, isso mudou completamente toda a paisagem naquela parte das montanhas!"
+                },
+                {
+                    "id": "102001010",
+                    "speaker": "Paimon",
+                    "text": "Carambolas!!!"
+                },
+                {
+                    "id": "102001011",
+                    "speaker": "José dos Seis Dedos",
+                    "text": "Eu estava escondido atrás de um arbusto e vi essa garotinha de vermelho correndo para longe, deixando para trás um grande rastro de caos."
+                },
+                {
+                    "id": "102001012",
+                    "speaker": "José dos Seis Dedos",
+                    "text": "*Suspiro*... Mas não sei se alguém acreditaria em mim."
+                },
+                {
+                    "id": "102001013",
+                    "speaker": "Paimon",
+                    "text": "Hmm... Agora que você mencionou isso, a ideia de uma menininha portando tanto poder destrutivo é um pouco absurda..."
+                },
+                {
+                    "id": "102001014",
+                    "speaker": "José dos Seis Dedos",
+                    "text": "Você quer saber o que eu acho? Acho que ela tem um tesouro que mais ninguém tem conhecimento."
+                },
+                {
+                    "id": "102001015",
+                    "speaker": "José dos Seis Dedos",
+                    "text": "Talvez, até mesmo o tesouro mais poderoso de toda Mondstadt!"
+                },
+                {
+                    "id": "102001016",
+                    "speaker": "Paimon",
+                    "text": "Você disse... Tesouro!?"
+                },
+                {
+                    "id": "102001017",
+                    "speaker": "Paimon",
+                    "text": "#{NICKNAME}, Paimon está imaginando coisas, ou você também ouviu isso?"
+                },
+                {
+                    "id": "102001018",
+                    "speaker": "José dos Seis Dedos",
+                    "text": "...É só uma suposição. Digo... Não, é a intuição de um Bardo astuto!",
+                    "choices": [
+                        {
+                            "id": "102001019",
+                            "text": "Não sei, parece falso.",
+                            "response": [
+                                {
+                                    "id": "102001020",
+                                    "speaker": "José dos Seis Dedos",
+                                    "text": "Como você pode dizer algo assim..."
+                                },
+                                {
+                                    "id": "102001023",
+                                    "speaker": "Paimon",
+                                    "text": "Então. Essa garota. Qual é o nome dela?"
+                                },
+                                {
+                                    "id": "102001024",
+                                    "speaker": "José dos Seis Dedos",
+                                    "text": "Ah... Eu não sei o nome dela. Não a vejo com frequência na Cidade de Mondstadt."
+                                },
+                                {
+                                    "id": "102001025",
+                                    "speaker": "José dos Seis Dedos",
+                                    "text": "Ei, eu estou falando a verdade! Você precisa confiar em mim!"
+                                },
+                                {
+                                    "id": "102001026",
+                                    "speaker": "Paimon",
+                                    "text": "Hmmm... Não me parece que haja muito para se continuar..."
+                                },
+                                {
+                                    "id": "102001027",
+                                    "speaker": "Paimon",
+                                    "text": "Mas obrigada pela informação!"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "102001021",
+                            "text": "Eu acredito em você, por enquanto.",
+                            "response": [
+                                {
+                                    "id": "102001022",
+                                    "speaker": "José dos Seis Dedos",
+                                    "text": "#Obrigado, amig{M#o}{F#a}! Estou tão felizmente em conhecer um amig{M#o}{F#a}! Quem pensaria que..."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "1020014",
+            "objective": "Pergunte aos clientes da Taverna sobre os lutadores mais fortes de Mondstadt.",
+            "dialogues": [
+                {
+                    "id": "102001401",
+                    "speaker": "Jack",
+                    "text": "Adeus."
+                },
+                {
+                    "id": "102001402",
+                    "speaker": "Jack",
+                    "text": "Adeus! Boa aventura!"
+                }
+            ]
+        },
+        {
+            "id": "1020016",
+            "objective": "",
+            "dialogues": [
+                {
+                    "id": "102001601",
+                    "speaker": "Player",
+                    "text": "...Uh, quem é você?"
+                },
+                {
+                    "id": "102001602",
+                    "speaker": "José dos Seis Dedos",
+                    "text": "Podem me chamar de \"José dos Seis Dedos\""
+                },
+                {
+                    "id": "102001603",
+                    "speaker": "José dos Seis Dedos",
+                    "text": "Eu sou um bardo famoso em Mondstadt... Ou será que eu deveria dizer, eu era antigamente.",
+                    "choices": [
+                        {
+                            "id": "102001604",
+                            "text": "Tua nova obra?",
+                            "response": [
+                                {
+                                    "id": "102001605",
+                                    "speaker": "José dos Seis Dedos",
+                                    "text": "Oh? Você quer ouvir a minha última canção? Se chama \"Ode ao Vento Matinal\"."
+                                },
+                                {
+                                    "id": "102001606",
+                                    "speaker": "José dos Seis Dedos",
+                                    "text": "Eu só preciso afinar o meu instrumento..."
+                                },
+                                {
+                                    "id": "102001607",
+                                    "speaker": "José dos Seis Dedos",
+                                    "text": "Uh..."
+                                },
+                                {
+                                    "id": "102001608",
+                                    "speaker": "José dos Seis Dedos",
+                                    "text": "Desculpe, mas faz muito tempo que não tenho uma audiência para tocar. As minhas cordas estão um pouco... deixa para a próxima."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "102001609",
+                            "text": "Existem muitos outros bardos em Mondstadt?",
+                            "response": [
+                                {
+                                    "id": "102001610",
+                                    "speaker": "José dos Seis Dedos",
+                                    "text": "Claro, afinal Mondstadt tem outro título de Cidade da Canção Pastoral."
+                                },
+                                {
+                                    "id": "102001611",
+                                    "speaker": "José dos Seis Dedos",
+                                    "text": "Mas ultimamente, um bardo misterioso apareceu neste lugar. Eu procurei por todos os cantos, mas não consigo encontrar nada sobre ele."
+                                },
+                                {
+                                    "id": "102001612",
+                                    "speaker": "José dos Seis Dedos",
+                                    "text": "Desde que ele apareceu, minha audiência foi diminuindo."
+                                },
+                                {
+                                    "id": "102001613",
+                                    "speaker": "José dos Seis Dedos",
+                                    "text": "Eu até pensei em ter uma competição para ter os meus seguidores de volta."
+                                },
+                                {
+                                    "id": "102001614",
+                                    "speaker": "José dos Seis Dedos",
+                                    "text": "Mas acho que até eu mesmo seria atraído pela bela voz dele..."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "1020005",
+            "objective": "Discutir suas descobertas com Paimon",
+            "dialogues": []
+        },
+        {
+            "id": "1020006",
+            "objective": "Vá ao Quartel-General dos Cavaleiros de Favonius",
+            "dialogues": [
+                {
+                    "id": "102000601",
+                    "speaker": "???",
+                    "text": "E-Eu estou bem! Eu não estou machucada! Desculpe por esbarrar em você."
+                },
+                {
+                    "id": "102000602",
+                    "speaker": "Player",
+                    "text": "Você deixou cair alguma coisa."
+                },
+                {
+                    "id": "102000603",
+                    "speaker": "Paimon",
+                    "text": "Ei, olha, acho que tem algo escrito aqui..."
+                },
+                {
+                    "id": "102000604",
+                    "speaker": "Paimon",
+                    "text": "\"Quem fizer uma explosão na cidade, vai ser trancado no confinamento solitário\", \"Se uma bomba machucar alguém, a Jean imediatamente aparece\", \"Se Mondstadt for bombardeada, Klee será punida\"..."
+                },
+                {
+                    "id": "102000605",
+                    "speaker": "???",
+                    "text": "Vixe!"
+                },
+                {
+                    "id": "102000606",
+                    "speaker": "???",
+                    "text": "O Sr. Kaeya escreveu isso para mim, hum... Eles são... Regras de sobrevivência."
+                },
+                {
+                    "id": "102000607",
+                    "speaker": "Paimon",
+                    "text": "Regras de sobrevivência?"
+                },
+                {
+                    "id": "102000608",
+                    "speaker": "???",
+                    "text": "S-Sim... Regras que eu jamais, de forma nenhuma, absolutamente não devo quebrar em nenhuma circunstância."
+                },
+                {
+                    "id": "102000609",
+                    "speaker": "???",
+                    "text": "Caso contrário, algo terrível pode acontecer.",
+                    "choices": [
+                        {
+                            "id": "102000610",
+                            "text": "É assim que se escreve Kaeya?",
+                            "response": [
+                                {
+                                    "id": "102000612",
+                                    "speaker": "???",
+                                    "text": "Sim!"
+                                },
+                                {
+                                    "id": "102000613",
+                                    "speaker": "???",
+                                    "text": "Ahhh, eu esqueci de me apresentar!"
+                                },
+                                {
+                                    "id": "102000614",
+                                    "speaker": "Klee",
+                                    "text": "Eu me chamo Klee.",
+                                    "choices": [
+                                        {
+                                            "id": "102000615",
+                                            "text": "Olá.",
+                                            "response": [
+                                                {
+                                                    "id": "102000618",
+                                                    "speaker": "Klee",
+                                                    "text": "#Oh, eu ouvi falar sobre vocês! Você é {M#o}{F#a} Cavaleir{M#o}{F#a} Honorável que salvou Mondstadt!"
+                                                },
+                                                {
+                                                    "id": "102000619",
+                                                    "speaker": "Paimon",
+                                                    "text": "Uau!"
+                                                },
+                                                {
+                                                    "id": "102000620",
+                                                    "speaker": "Paimon",
+                                                    "text": "Mais reconhecimento, yay! Paimon está tão feliz neste momento."
+                                                },
+                                                {
+                                                    "id": "102000621",
+                                                    "speaker": "Klee",
+                                                    "text": "Eu ouvi da Amber... Mas espere, não- não temos tempo para isso agora."
+                                                },
+                                                {
+                                                    "id": "102000622",
+                                                    "speaker": "Klee",
+                                                    "text": "Estou lidando com uma grande emergência. Peguei meu mapa e corri o mais rápido que pude até aqui."
+                                                },
+                                                {
+                                                    "id": "102000623",
+                                                    "speaker": "Player",
+                                                    "text": "Qual o problema?"
+                                                },
+                                                {
+                                                    "id": "102000624",
+                                                    "speaker": "Klee",
+                                                    "text": "O tesouro que eu enterrei no <color=#00E1FFFF>Bosque Sussurrante</color>, ele... Desapareceu."
+                                                },
+                                                {
+                                                    "id": "102000625",
+                                                    "speaker": "Paimon",
+                                                    "text": "Você disse... Tesouro enterrado!?",
+                                                    "choices": [
+                                                        {
+                                                            "id": "102000626",
+                                                            "text": "Acho que ela precisa de nossa ajuda.",
+                                                            "response": [
+                                                                {
+                                                                    "id": "102000627",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "Exatamente o que Paimon estava pensando!"
+                                                                },
+                                                                {
+                                                                    "id": "102000631",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "Um tesouro perdido é muito importante. Deixe-nos ajudá-la a encontrá-lo!"
+                                                                },
+                                                                {
+                                                                    "id": "102000632",
+                                                                    "speaker": "Klee",
+                                                                    "text": "Uhuuu! Obrigada, pessoal!"
+                                                                },
+                                                                {
+                                                                    "id": "102000633",
+                                                                    "speaker": "Klee",
+                                                                    "text": "Deixe-me ver... Aqui! É aqui onde o mapa diz que o tesouro deve estar enterrado. Eu coloquei um círculo em volta."
+                                                                },
+                                                                {
+                                                                    "id": "102000634",
+                                                                    "speaker": "Klee",
+                                                                    "text": "Também coloquei uma placa de madeira no chão, no local onde o enterrei. Para facilitar a busca!"
+                                                                },
+                                                                {
+                                                                    "id": "102000635",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "(... Paimon está começando a entender como este tesouro desapareceu tão facilmente.)"
+                                                                },
+                                                                {
+                                                                    "id": "102000636",
+                                                                    "speaker": "Klee",
+                                                                    "text": "#Vamos lá, {M#senhor}{F#senhora} Cavaleir{M#o}{F#a} Honorável, vamos!"
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "id": "102000628",
+                                                            "text": "Uma garota vestida de vermelho, hmmm...",
+                                                            "response": [
+                                                                {
+                                                                    "id": "102000629",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "E ela tem um tesouro!"
+                                                                },
+                                                                {
+                                                                    "id": "102000630",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "(Sério? Klee recebe o voto do José Seis Dedos como o lutador mais forte de Mondstadt? O que há de errado com as pessoas...)"
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "102000616",
+                                            "text": "#Eu me chamo {NICKNAME}.",
+                                            "response": [
+                                                {
+                                                    "id": "102000617",
+                                                    "speaker": "Paimon",
+                                                    "text": "E o nome da Paimon é... Bem, Paimon."
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "102000611",
+                            "text": "Coisas terríveis?"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "1020007",
+            "objective": "Pergunte a Jean sobre os lutadores mais fortes de Mondstadt",
+            "dialogues": [
+                {
+                    "id": "102000401",
+                    "speaker": "Paimon",
+                    "text": "Mestre Jean! Desculpe incomodar, mas estamos coletando informações sobre lutadores mais fortes de Mondstadt."
+                },
+                {
+                    "id": "102000402",
+                    "speaker": "Paimon",
+                    "text": "Você tem... Uh... Uma daquelas coisinhas de... Classificação oficial dos Cavaleiros de Favonius?"
+                },
+                {
+                    "id": "102000403",
+                    "speaker": "Jean",
+                    "text": "O lutador mais forte de Mondstadt?"
+                },
+                {
+                    "id": "102000404",
+                    "speaker": "Jean",
+                    "text": "Desculpe, mas eu não posso ajudar. Eu não tenho nenhuma informação relevante sobre isso..."
+                },
+                {
+                    "id": "102000405",
+                    "speaker": "Paimon",
+                    "text": "Oh... Que droga."
+                },
+                {
+                    "id": "102000406",
+                    "speaker": "Paimon",
+                    "text": "#Paimon esperava que {M#o}{F#a} {NICKNAME} pudesse entrar nos primeiros cinco."
+                },
+                {
+                    "id": "102000407",
+                    "speaker": "Jean",
+                    "text": "#Hehe. Bem, embora eu não tenha os dados para fazer essa avaliação, direi que nunca duvidei das habilidades de noss{M#o}{F#a} Cavaleir{M#o}{F#a} Honorável."
+                },
+                {
+                    "id": "102000408",
+                    "speaker": "Jean",
+                    "text": "Ah, falando nisso..."
+                },
+                {
+                    "id": "102000409",
+                    "speaker": "Jean",
+                    "text": "Recentemente, um dos Feiticeiros da Ordem do Abismo esteve ativo perto da cidade, embora ele esteja sendo discreto."
+                },
+                {
+                    "id": "102000410",
+                    "speaker": "Jean",
+                    "text": "Se você estiver hospedado em Mondstadt, esteja atento ao perigo."
+                },
+                {
+                    "id": "102000411",
+                    "speaker": "Jean",
+                    "text": "Dada sua... Bem, sua força de luta de alto nível, confio que você será capaz de ajudar a manter a área segura."
+                },
+                {
+                    "id": "102000412",
+                    "speaker": "Paimon",
+                    "text": "#Fantástico! Depois que {M#o}{F#a} {NICKNAME} derrotar a Ordem do Abismo, {M#ele}{F#ela} subirá naquela tabela de classificação mais rápido do que sobe todos aqueles penhascos!",
+                    "choices": [
+                        {
+                            "id": "102000413",
+                            "text": "Paimon. Não existe tabela de classificação.",
+                            "response": [
+                                {
+                                    "id": "102000415",
+                                    "speaker": "Paimon",
+                                    "text": "Bem, de qualquer forma, quebrar a Ordem do Abismo em pedaços é a coisa certa a fazer."
+                                },
+                                {
+                                    "id": "102000416",
+                                    "speaker": "Jean",
+                                    "text": "Hehe. Eu gosto de seu entusiasmo. É contagioso."
+                                },
+                                {
+                                    "id": "102000417",
+                                    "speaker": "Jean",
+                                    "text": "Mas tome cuidado lá fora."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "102000414",
+                            "text": "Você acha que vou ficar em primeiro lugar?"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "1020008",
+            "objective": "Saia do escritório dos Cavaleiros de Favonius",
+            "dialogues": []
+        },
+        {
+            "id": "1020009",
+            "objective": "Junte o livro que está no chão",
+            "dialogues": []
+        },
+        {
+            "id": "1020010",
+            "objective": "Pergunte a garotinha o que está acontecendo",
+            "dialogues": []
+        },
+        {
+            "id": "1020005",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "102000501",
+                    "speaker": "Charles",
+                    "text": "O que vai ser hoje?"
+                }
+            ]
+        },
+        {
+            "id": "1020011",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "102001101",
+                    "speaker": "Jack",
+                    "text": "Ei, estou fazendo um treinamento de aventureiro... Treinamento de tolerância ao álcool, para ser mais exato... Quer se juntar a mim?"
+                }
+            ]
+        },
+        {
+            "id": "1020012",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "102001201",
+                    "speaker": "Jack",
+                    "text": "Parece que você já bebeu o suficiente."
+                },
+                {
+                    "id": "102001202",
+                    "speaker": "Jack",
+                    "text": "Sério? Deixe-me ver... Oito cervejas, cinco vinhos, sete sidras... Não é muita coisa!"
+                },
+                {
+                    "id": "102001203",
+                    "speaker": "Jack",
+                    "text": "Eu não sou páreo para os outros aventureiros lendários de Mondstadt que podem beber metade do Lago de Sidra em vinho..."
+                },
+                {
+                    "id": "102001204",
+                    "speaker": "Jack",
+                    "text": "...Apenas uma figura de linguagem? Sério mesmo? Não é de se admirar... Eu nunca consegui descobrir como eles poderiam pagar tanto vinho com a renda de um aventureiro..."
+                }
+            ]
+        },
+        {
+            "id": "1020013",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "102001301",
+                    "speaker": "Jack",
+                    "text": "Que tipo de bebida você prefere?"
+                },
+                {
+                    "id": "102001302",
+                    "speaker": "Jack",
+                    "text": "Eu...? Cerveja. Mas não é algo que eu goste muito..."
+                },
+                {
+                    "id": "102001303",
+                    "speaker": "Jack",
+                    "text": "É só que... Cavalo dado não se olha os dentes..."
+                },
+                {
+                    "id": "102001304",
+                    "speaker": "Jack",
+                    "text": "Desde que me deixe bêbado, é uma boa cerveja. Você não concorda?"
+                }
+            ]
+        },
+        {
+            "id": "1020015",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "102001501",
+                    "speaker": "José dos Seis Dedos",
+                    "text": "#Olá, amig{F#a}{M#o}!"
+                },
+                {
+                    "id": "102001502",
+                    "speaker": "José dos Seis Dedos",
+                    "text": "Desejam ouvir minha composição nova? Eu me dediquei de corpo e alma nela."
+                }
+            ]
+        },
+        {
+            "id": "1020017",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "102001701",
+                    "speaker": "Player",
+                    "text": "Adeus."
+                },
+                {
+                    "id": "102001702",
+                    "speaker": "José dos Seis Dedos",
+                    "text": "Já está de saída? Você parece uma pessoa bastante ocupada."
+                },
+                {
+                    "id": "102001703",
+                    "speaker": "José dos Seis Dedos",
+                    "text": "Se você estiver com tempo, eu não me importaria se você viesse ao meu show."
+                }
+            ]
+        },
+        {
+            "id": "1020018",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "102001801",
+                    "speaker": "Bruce",
+                    "text": "Olá! Você também está aqui para experimentar o famoso vinho de Mondstadt?"
+                }
+            ]
+        },
+        {
+            "id": "1020019",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "102001901",
+                    "speaker": "Player",
+                    "text": "Como você está aqui?"
+                },
+                {
+                    "id": "102001902",
+                    "speaker": "Bruce",
+                    "text": "O que você quer dizer? É que meu expediente terminou..."
+                },
+                {
+                    "id": "102001903",
+                    "speaker": "Bruce",
+                    "text": "Eu durmo melhor se puder beber um pouco depois do trabalho."
+                },
+                {
+                    "id": "102001904",
+                    "speaker": "Bruce",
+                    "text": "Hum? Que diferença faz, já que eu fico sem fazer nada o diariamente?"
+                },
+                {
+                    "id": "102001905",
+                    "speaker": "Bruce",
+                    "text": "Bem, não há nada para fazer em Mondstadt, pois... aqui é um lugar muito pacífico."
+                },
+                {
+                    "id": "102001906",
+                    "speaker": "Bruce",
+                    "text": "Tenho certeza de que minha vida teria sido mais interessante se eu tivesse ido com a Guilda dos Aventureiros..."
+                },
+                {
+                    "id": "102001907",
+                    "speaker": "Player",
+                    "text": "...Por que você está dizendo isso?"
+                },
+                {
+                    "id": "102001908",
+                    "speaker": "Bruce",
+                    "text": "Apenas pense... Como um aventureiro, você pode explorar onde quiser, literalmente qualquer lugar das sete nações de Teyvat..."
+                },
+                {
+                    "id": "102001909",
+                    "speaker": "Bruce",
+                    "text": "E o melhor de tudo, você pode ganhar a vida com isso! O que poderia ser mais divertido do que isso?"
+                }
+            ]
+        },
+        {
+            "id": "1020022",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "102002201",
+                    "speaker": "Jack",
+                    "text": "Ei, estou fazendo um treinamento de aventureiro... Treinamento de tolerância ao álcool, para ser mais exato... Quer se juntar a mim?"
+                }
+            ]
+        },
+        {
+            "id": "1020023",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "102002301",
+                    "speaker": "José dos Seis Dedos",
+                    "text": "#Olá, amig{F#a}{M#o}!"
+                },
+                {
+                    "id": "102002302",
+                    "speaker": "José dos Seis Dedos",
+                    "text": "Desejam ouvir minha composição nova? Eu me dediquei de corpo e alma nela."
+                }
+            ]
+        },
+        {
+            "id": "1020024",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "102002401",
+                    "speaker": "Bruce",
+                    "text": "Olá! Você também está aqui para experimentar o famoso vinho de Mondstadt?"
+                }
+            ]
+        },
+        {
+            "id": "1020025",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "102002501",
+                    "speaker": "Charles",
+                    "text": "Alguma recomendação?"
+                },
+                {
+                    "id": "102002502",
+                    "speaker": "Charles",
+                    "text": "A Sidra de Maçã da Adega do Alvorecer é uma bebida especial na Presentes dos Anjos."
+                },
+                {
+                    "id": "102002503",
+                    "speaker": "Charles",
+                    "text": "Você pode experimentar meu coquetel especial, se quiser. O coquetel é por conta da casa, se for sua primeira vez aqui."
+                }
+            ]
+        },
+        {
+            "id": "1020026",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "102002601",
+                    "speaker": "Charles",
+                    "text": "Conte-me sobre você."
+                },
+                {
+                    "id": "102002602",
+                    "speaker": "Charles",
+                    "text": "O que você quer saber de mim?"
+                },
+                {
+                    "id": "102002603",
+                    "speaker": "Charles",
+                    "text": "Trabalho aqui como bartender há mais de uma década. Sou empregado da Adega do Alvorecer, como todo mundo."
+                },
+                {
+                    "id": "102002604",
+                    "speaker": "Charles",
+                    "text": "Não estou muito interessado no álcool, mas é o meu trabalho, então..."
+                },
+                {
+                    "id": "102002605",
+                    "speaker": "Charles",
+                    "text": "Quero dizer, eu não sou como Diona da Cauda de Gato. Ouvi dizer que ela odeia álcool."
+                },
+                {
+                    "id": "102002606",
+                    "speaker": "Charles",
+                    "text": "Às vezes, o Mestre Diluc, o dono do Vinhedo, cobre o meu turno."
+                },
+                {
+                    "id": "102002607",
+                    "speaker": "Charles",
+                    "text": "Afinal, os dias de folga são preciosos, por isso sou muito grato a ele por isso."
+                }
+            ]
+        },
+        {
+            "id": "1020027",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "102002701",
+                    "speaker": "Charles",
+                    "text": "#Não precisa, obrigad{M#o}{F#a}."
+                },
+                {
+                    "id": "102002702",
+                    "speaker": "Charles",
+                    "text": "Sério? Acho que não deveria beber muito de qualquer forma."
+                }
+            ]
+        }
+    ]
+}

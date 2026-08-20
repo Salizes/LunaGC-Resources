@@ -1,0 +1,2770 @@
+{
+    "quest": {
+        "id": "74001",
+        "title": "The Narzissenkreuz Adventure",
+        "description": "In Fontaine, where there aren't supposed to be any Oceanids, you meet a tiny Oceanid...",
+        "rewards": [
+            {
+                "itemId": 102,
+                "count": 450
+            },
+            {
+                "itemId": 201,
+                "count": 50
+            },
+            {
+                "itemId": 202,
+                "count": 50000
+            },
+            {
+                "itemId": 104003,
+                "count": 5
+            },
+            {
+                "itemId": 104013,
+                "count": 4
+            }
+        ],
+        "rewards_formatted": "Adventure EXP x450, Primogem x50, Mora x50000, Hero's Wit x5, Mystic Enhancement Ore x4",
+        "chapter": {
+            "icon": "UI_ChapterIcon_Fontaine",
+            "id": "10146",
+            "num": "Ann of the Narzissenkreuz: Act I",
+            "title": "The Narzissenkreuz Adventure"
+        },
+        "total_dialogue_lines": 473,
+        "total_speaker_counts": {
+            "???": 3,
+            "Al": 40,
+            "Ann": 95,
+            "Ann & Petit Chou": 1,
+            "Black Screen": 5,
+            "Colonel Kate": 28,
+            "Evil Fang of Narcissus": 1,
+            "Jak": 31,
+            "Jak & Al": 1,
+            "Mori": 17,
+            "Paimon": 123,
+            "Petit Chou": 36,
+            "Player": 92
+        }
+    },
+    "talks": [
+        {
+            "id": "7400101",
+            "objective": "",
+            "dialogues": [
+                {
+                    "id": "740010101",
+                    "speaker": "???",
+                    "text": "Ah! You there! You look most reliable, good knight. Please, help us!",
+                    "choices": [
+                        {
+                            "id": "740010102",
+                            "text": "We certainly do look reliable enough...",
+                            "response": [
+                                {
+                                    "id": "740010104",
+                                    "speaker": "???",
+                                    "text": "The evil minions of the fell dragon Narcissus have surrounded Petit Chou! We must help her!"
+                                },
+                                {
+                                    "id": "740010105",
+                                    "speaker": "Paimon",
+                                    "text": "\"Petit Chou\"...?",
+                                    "choices": [
+                                        {
+                                            "id": "740010106",
+                                            "text": "\"Narcissus\"...",
+                                            "response": [
+                                                {
+                                                    "id": "740010107",
+                                                    "speaker": "Paimon",
+                                                    "text": "Uh, never mind these weird names. This seems serious! Let's get over there and lend a hand!"
+                                                },
+                                                {
+                                                    "id": "740010109",
+                                                    "speaker": "Ann",
+                                                    "text": "Thank you! My name is Ann, a member of the Narzissenkreuz Adventure Team. Please, come with me!"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "740010108",
+                                            "text": "Yeah, forget the names. Just lead the way."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "740010103",
+                            "text": "What happened?"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "7400102",
+            "objective": "Head to the designated location",
+            "dialogues": [
+                {
+                    "id": "740010201",
+                    "speaker": "Paimon",
+                    "text": "Well, guess we won't be worrying about this mysterious bubble cannon anymore."
+                },
+                {
+                    "id": "740010202",
+                    "speaker": "???",
+                    "text": "Well done, soldiers! Assemble!"
+                },
+                {
+                    "id": "740010203",
+                    "speaker": "Paimon",
+                    "text": "Huh, where's that voice coming from? Does \"soldiers\" refer to us?"
+                },
+                {
+                    "id": "740010204",
+                    "speaker": "Ann",
+                    "text": "Wonderful! It seems that Colonel Kate is still here. Let's go meet up with him."
+                }
+            ]
+        },
+        {
+            "id": "7400133",
+            "objective": "Head to the designated location",
+            "dialogues": [
+                {
+                    "id": "740013301",
+                    "speaker": "Petit Chou",
+                    "text": "Eek! Get away from me!"
+                },
+                {
+                    "id": "740013302",
+                    "speaker": "Paimon",
+                    "text": "Is that... the \"Petit Chou\" you were referring to, Ann?"
+                },
+                {
+                    "id": "740013303",
+                    "speaker": "Ann",
+                    "text": "That's right! Please, help her!"
+                }
+            ]
+        },
+        {
+            "id": "7400103",
+            "objective": "Help Petit Chou",
+            "dialogues": [
+                {
+                    "id": "740010301",
+                    "speaker": "Player",
+                    "text": "Where's the rest of your team?"
+                }
+            ]
+        },
+        {
+            "id": "7400104",
+            "objective": "Help Petit Chou",
+            "dialogues": [
+                {
+                    "id": "740010401",
+                    "speaker": "Player",
+                    "text": "Aren't you the same as the Orchestre Jak?"
+                },
+                {
+                    "id": "740010402",
+                    "speaker": "Colonel Kate",
+                    "text": "What? We're as different as night and day! Why, that Jak... One day, people like him will warp the very essence of our resistance movement!"
+                },
+                {
+                    "id": "740010403",
+                    "speaker": "Paimon",
+                    "text": "Hmm. Isn't the Orchestre Jak's goal to defeat Narcissus and save Princess Lyris— sorry, Ms. Lyris? Aren't your goals the same?"
+                },
+                {
+                    "id": "740010404",
+                    "speaker": "Colonel Kate",
+                    "text": "Aye, and there's the rub! He does not recognize her as our rightful Princess! He is, simply put, a problem waiting to happen!"
+                },
+                {
+                    "id": "740010405",
+                    "speaker": "Colonel Kate",
+                    "text": "Today, he refuses to recognize her! What will he do tomorrow? Lead his Orchestre to overturn the kingdom!?"
+                },
+                {
+                    "id": "740010406",
+                    "speaker": "Paimon",
+                    "text": "#(Uh, {NICKNAME}, what do we do? Jak does seem like the sorta guy who might do that!)",
+                    "choices": [
+                        {
+                            "id": "740010407",
+                            "text": "(That's an internal issue.)",
+                            "response": [
+                                {
+                                    "id": "740010409",
+                                    "speaker": "Ann",
+                                    "text": "Alright, alright. Our goals are aligned! We're all doing this for Princess Lyris and the Reconquista, right?"
+                                },
+                                {
+                                    "id": "740010410",
+                                    "speaker": "Paimon",
+                                    "text": "Hmm. It seems like the Narzissenkreuz Kingdom's situation is kinda complicated... Wait. What about your team?"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "740010408",
+                            "text": "(Let's put a pin in that first.)"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "7400105",
+            "objective": "Talk to Petit Chou",
+            "dialogues": [
+                {
+                    "id": "740010501",
+                    "speaker": "Player",
+                    "text": "That did happen..."
+                }
+            ]
+        },
+        {
+            "id": "7400106",
+            "objective": "Talk to Petit Chou",
+            "dialogues": [
+                {
+                    "id": "740014101",
+                    "speaker": "Petit Chou",
+                    "text": "R—Really? You're so strong..."
+                },
+                {
+                    "id": "740014102",
+                    "speaker": "Ann",
+                    "text": "#It is our great fortune to have met you, good knight {NICKNAME}. It seems that the time has come at last for the Reconquista! The Narzissenkreuz Adventure Team shall reclaim the realm and rescue Princess Lyris."
+                },
+                {
+                    "id": "740014103",
+                    "speaker": "Ann",
+                    "text": "Come, Petit Chou, let us do as we planned. First, let's get rid of all this foul water!"
+                },
+                {
+                    "id": "740014104",
+                    "speaker": "Petit Chou",
+                    "text": "I... I'll do my best!"
+                },
+                {
+                    "id": "740014105",
+                    "speaker": "Paimon",
+                    "text": "?"
+                },
+                {
+                    "id": "740014106",
+                    "speaker": "Ann & Petit Chou",
+                    "text": "Alrighty!"
+                }
+            ]
+        },
+        {
+            "id": "7400145",
+            "objective": "",
+            "dialogues": [
+                {
+                    "id": "740014501",
+                    "speaker": "Paimon",
+                    "text": "Ugh! Paimon's starting to get confused about what counts as a dragon...",
+                    "choices": [
+                        {
+                            "id": "740014502",
+                            "text": "I'm confused as well...",
+                            "response": [
+                                {
+                                    "id": "740014507",
+                                    "speaker": "Al",
+                                    "text": "Our purpose defines our essence. At this time, we are the heroes challenging the wicked dragon, and he is the wicked dragon. This is sufficient."
+                                },
+                                {
+                                    "id": "740014508",
+                                    "speaker": "Petit Chou",
+                                    "text": "Huh, this must be what Al means when he says \"A rose by any other name would smell just as sweet!\""
+                                },
+                                {
+                                    "id": "740014509",
+                                    "speaker": "Al",
+                                    "text": "That is precisely the case, dear Petit Chou. Were you not called \"Petit Chou,\" you would still be my dearest younger sister."
+                                },
+                                {
+                                    "id": "740014510",
+                                    "speaker": "Paimon",
+                                    "text": "...So, so long as that's the tower your Princess sleeps in, the one lurking atop the tower is the fell dragon Narcissus. Is that right?"
+                                },
+                                {
+                                    "id": "740014511",
+                                    "speaker": "Ann",
+                                    "text": "No, I fear. As we stated previously, he is \"not here now,\" which is why we were able to win our way here so easily. That up there is the dragon's hatred made manifest."
+                                },
+                                {
+                                    "id": "740014512",
+                                    "speaker": "Paimon",
+                                    "text": "That's so complicated... Can't it just be an ordinary statue?"
+                                },
+                                {
+                                    "id": "740014513",
+                                    "speaker": "Paimon",
+                                    "text": "Like, you know, Narcissus commanding his underlings to make an image of him on the highest tower, so as to show off his greatness, and force all the people of the land to look upon him... or something?"
+                                },
+                                {
+                                    "id": "740014514",
+                                    "speaker": "Ann",
+                                    "text": "Well... You actually make a reasonable point, Paimon. But if that was the case, then we should still have been able to see it even before Petit Chou made the foul water disappear, right?"
+                                },
+                                {
+                                    "id": "740014515",
+                                    "speaker": "Ann",
+                                    "text": "But instead, Narcissus's evil has melded with the waters, which is why his wicked intent crystallized into that image once the waters were drained."
+                                },
+                                {
+                                    "id": "740014516",
+                                    "speaker": "Paimon",
+                                    "text": "Is that seriously how it happened...?"
+                                },
+                                {
+                                    "id": "740014517",
+                                    "speaker": "Petit Chou",
+                                    "text": "The fell dragon is truly terrifying. My talons hurt just looking at him..."
+                                },
+                                {
+                                    "id": "740014518",
+                                    "speaker": "Ann",
+                                    "text": "#Well, we have our knight, {NICKNAME}, so we should be fine even if he is present, yes?",
+                                    "choices": [
+                                        {
+                                            "id": "740014519",
+                                            "text": "It'd be best if he wasn't home all the same...",
+                                            "response": [
+                                                {
+                                                    "id": "740014520",
+                                                    "speaker": "Al",
+                                                    "text": "Humility becomes a knight indeed."
+                                                },
+                                                {
+                                                    "id": "740014523",
+                                                    "speaker": "Ann",
+                                                    "text": "Let us move on, then. With you by our side, we have nothing to fear!"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "740014521",
+                                            "text": "It's just a lil' dragon.",
+                                            "response": [
+                                                {
+                                                    "id": "740014522",
+                                                    "speaker": "Petit Chou",
+                                                    "text": "#Hehe, that's our {NICKNAME} for you!"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "740014503",
+                            "text": "I never understood that in the first place."
+                        },
+                        {
+                            "id": "740014504",
+                            "text": "Categories are just a social construct. There is no objective meaning.",
+                            "response": [
+                                {
+                                    "id": "740014505",
+                                    "speaker": "Paimon",
+                                    "text": "...Come on, that can't be right! How would we be able to communicate and understand this world otherwise?"
+                                },
+                                {
+                                    "id": "740014506",
+                                    "speaker": "Al",
+                                    "text": "I agree with the knight here. Our categories should not define our essence."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "7400141",
+            "objective": "Talk to Petit Chou",
+            "dialogues": []
+        },
+        {
+            "id": "7400108",
+            "objective": "Talk to Petit Chou",
+            "dialogues": [
+                {
+                    "id": "740010801",
+                    "speaker": "Paimon",
+                    "text": "Ugh, all this water... Is this some kind of Oceanid magic?"
+                },
+                {
+                    "id": "740010802",
+                    "speaker": "Ann",
+                    "text": "Phew. The defensive power has weakened. There will also be less obstacles for us to fight from here on out."
+                },
+                {
+                    "id": "740010803",
+                    "speaker": "Petit Chou",
+                    "text": "Phew... This is so tiring..."
+                },
+                {
+                    "id": "740010804",
+                    "speaker": "Petit Chou",
+                    "text": "#Ann, {NICKNAME}, let's go help my brother Al!"
+                },
+                {
+                    "id": "740010805",
+                    "speaker": "Paimon",
+                    "text": "Your brother? Is he another character?"
+                },
+                {
+                    "id": "740010806",
+                    "speaker": "Ann",
+                    "text": "Well, Petit Chou and I can't be the only members of the team. We don't quite think *that* highly of ourselves."
+                },
+                {
+                    "id": "740010807",
+                    "speaker": "Petit Chou",
+                    "text": "We certainly aren't as strong as you or Paimon..."
+                },
+                {
+                    "id": "740010808",
+                    "speaker": "Ann",
+                    "text": "Al covered our escape when we retreated. Now that Narcissus's power is waning, let's go help him."
+                },
+                {
+                    "id": "740010809",
+                    "speaker": "Paimon",
+                    "text": "Well, then let's go!"
+                }
+            ]
+        },
+        {
+            "id": "7400109",
+            "objective": "",
+            "dialogues": [
+                {
+                    "id": "740010901",
+                    "speaker": "Colonel Kate",
+                    "text": "We charged bravely into the Bubble Formation!"
+                },
+                {
+                    "id": "740010902",
+                    "speaker": "Paimon",
+                    "text": "Yes, yes, and where's your team?"
+                },
+                {
+                    "id": "740010903",
+                    "speaker": "Colonel Kate",
+                    "text": "..."
+                },
+                {
+                    "id": "740010904",
+                    "speaker": "Colonel Kate",
+                    "text": "We charged bravely into the Bubble Formation! And as for the rest... please, don't ask..."
+                },
+                {
+                    "id": "740010905",
+                    "speaker": "Paimon",
+                    "text": "Looks like Colonel Kate's got problems, too..."
+                },
+                {
+                    "id": "740010906",
+                    "speaker": "Ann",
+                    "text": "Well, he is up against immense firepower... or should I say, waterpower."
+                },
+                {
+                    "id": "740010907",
+                    "speaker": "Ann",
+                    "text": "What's next for you?"
+                },
+                {
+                    "id": "740010908",
+                    "speaker": "Colonel Kate",
+                    "text": "I plan on going behind enemy lines to see what can be done there. After all, it should be quite easy to go up there now that the Bubble Formation has been broken. I mean, I can't lose to some new recruit, can I?",
+                    "choices": [
+                        {
+                            "id": "740010909",
+                            "text": "There's no shame in losing to me...",
+                            "response": [
+                                {
+                                    "id": "740010911",
+                                    "speaker": "Colonel Kate",
+                                    "text": "Hmph! Regardless, I shall return when the sun sinks into the sea, victory in hand! Let us meet again before the high tower."
+                                },
+                                {
+                                    "id": "740010912",
+                                    "speaker": "Black Screen",
+                                    "text": "Colonel Kate bounces away."
+                                },
+                                {
+                                    "id": "740010913",
+                                    "speaker": "Paimon",
+                                    "text": "Wait. There's neither sun nor sea here!"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "740010910",
+                            "text": "This isn't a competition..."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "7400111",
+            "objective": "",
+            "dialogues": [
+                {
+                    "id": "740011101",
+                    "speaker": "Player",
+                    "text": "Like Mondstadt's Dvalin..."
+                },
+                {
+                    "id": "740011102",
+                    "speaker": "Paimon",
+                    "text": "What? Dvalin's a whole different story from Oceanids. Dvalin's super blue, his wings are huge, and he can fly..."
+                },
+                {
+                    "id": "740011103",
+                    "speaker": "Petit Chou",
+                    "text": "What!? That's... exactly like the fell dragon!"
+                }
+            ]
+        },
+        {
+            "id": "7400123",
+            "objective": "Talk to Colonel Kate",
+            "dialogues": []
+        },
+        {
+            "id": "7400142",
+            "objective": "Talk to Colonel Kate",
+            "dialogues": []
+        },
+        {
+            "id": "7400143",
+            "objective": "Talk to Colonel Kate",
+            "dialogues": []
+        },
+        {
+            "id": "7400112",
+            "objective": "Talk to Colonel Kate",
+            "dialogues": []
+        },
+        {
+            "id": "7400144",
+            "objective": "Help Al",
+            "dialogues": []
+        },
+        {
+            "id": "7400113",
+            "objective": "Help Al",
+            "dialogues": [
+                {
+                    "id": "740011301",
+                    "speaker": "Player",
+                    "text": "Like Liyue's Azhdaha..."
+                },
+                {
+                    "id": "740011302",
+                    "speaker": "Paimon",
+                    "text": "Who... became the embodiment of primal energies and Liyue's enemy?"
+                },
+                {
+                    "id": "740011303",
+                    "speaker": "Ann",
+                    "text": "I see. So it was a being as evil as Narcissus, then?"
+                },
+                {
+                    "id": "740011304",
+                    "speaker": "Paimon",
+                    "text": "No, not at all!"
+                },
+                {
+                    "id": "740011305",
+                    "speaker": "Ann",
+                    "text": "And how are they different? Narcissus represents primordial regression and aggregation, and is our foe."
+                },
+                {
+                    "id": "740011306",
+                    "speaker": "Paimon",
+                    "text": "Well... Uh... But Azhdaha's from Liyue! That's a huge difference... right?"
+                }
+            ]
+        },
+        {
+            "id": "7400114",
+            "objective": "Help Al",
+            "dialogues": [
+                {
+                    "id": "740011401",
+                    "speaker": "Player",
+                    "text": "Like Sumeru's Apep..."
+                },
+                {
+                    "id": "740011402",
+                    "speaker": "Paimon",
+                    "text": "A being whose true form cannot be grasped by humanity, and who can summon all manner of servants..."
+                },
+                {
+                    "id": "740011403",
+                    "speaker": "Al",
+                    "text": "That does sound quite like Narcissus. Inscrutable and a master of many servants. That must've been a grueling battle. Very impressive!"
+                }
+            ]
+        },
+        {
+            "id": "7400115",
+            "objective": "Talk to Al",
+            "dialogues": [
+                {
+                    "id": "740011501",
+                    "speaker": "Paimon",
+                    "text": "No, no, we've definitely met other dragons before..."
+                }
+            ]
+        },
+        {
+            "id": "7400116",
+            "objective": "Talk to Al",
+            "dialogues": []
+        },
+        {
+            "id": "7400117",
+            "objective": "Head to the designated location",
+            "dialogues": []
+        },
+        {
+            "id": "7400118",
+            "objective": "Head to the designated location",
+            "dialogues": [
+                {
+                    "id": "740016301",
+                    "speaker": "Jak",
+                    "text": "The name is merely an analogy, for we weave resistance like an orchestra in our struggle against Narcissus as we seek to rescue Ms. Lyris.",
+                    "choices": [
+                        {
+                            "id": "740016302",
+                            "text": "Don't you mean \"Princess Lyris\"?",
+                            "response": [
+                                {
+                                    "id": "740016304",
+                                    "speaker": "Paimon",
+                                    "text": "That's right. Isn't Lyris a Princess?"
+                                },
+                                {
+                                    "id": "740016305",
+                                    "speaker": "Al",
+                                    "text": "Well, both terms refer to the same person. But leaving that aside, we should..."
+                                },
+                                {
+                                    "id": "740016306",
+                                    "speaker": "Jak",
+                                    "text": "Listen well. The title \"Princess\" is a rigid, hierarchical term of address, a product of an oppressive system. It was a title whose merit is birth, not labor or wisdom."
+                                },
+                                {
+                                    "id": "740016307",
+                                    "speaker": "Ann",
+                                    "text": "*sigh* Here we go again..."
+                                },
+                                {
+                                    "id": "740016308",
+                                    "speaker": "Jak",
+                                    "text": "If the universe was a more rational one, there would be no gods, no kings, and certainly no princes or princesses. Nor would there be mystical powers that only a few may wield."
+                                },
+                                {
+                                    "id": "740016309",
+                                    "speaker": "Jak",
+                                    "text": "Do you follow me thus far?",
+                                    "choices": [
+                                        {
+                                            "id": "740016310",
+                                            "text": "There will always be those who desire special privileges.",
+                                            "response": [
+                                                {
+                                                    "id": "740016311",
+                                                    "speaker": "Player",
+                                                    "text": "It is a deplorable state of affairs."
+                                                },
+                                                {
+                                                    "id": "740016316",
+                                                    "speaker": "Paimon",
+                                                    "text": "Ugh... This sounds really deep, but it's also confusing Paimon..."
+                                                },
+                                                {
+                                                    "id": "740016317",
+                                                    "speaker": "Paimon",
+                                                    "text": "But not doing anything all day while being able to enjoy delicious Sweet Madames is pretty nice. Is there anything wrong with that?"
+                                                },
+                                                {
+                                                    "id": "740016318",
+                                                    "speaker": "Jak",
+                                                    "text": "See! If there are some who will reap the benefits despite doing no labor, then there must be some who shall have to do more to compensate.",
+                                                    "choices": [
+                                                        {
+                                                            "id": "740016319",
+                                                            "text": "Like me!",
+                                                            "response": [
+                                                                {
+                                                                    "id": "740016320",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "#Um, uh... Thanks a lot, {NICKNAME}... and sorry? Paimon promises that she'll eat less in the future. Honest!"
+                                                                },
+                                                                {
+                                                                    "id": "740016329",
+                                                                    "speaker": "Al",
+                                                                    "text": "This has been a very interesting conversation, but please allow me to interject. Dear Jak, good knight, may we now begin discussing our next course of action in our rescue of Princess Lyris..."
+                                                                },
+                                                                {
+                                                                    "id": "740016330",
+                                                                    "speaker": "Jak",
+                                                                    "text": "#Hmph! Silencing voices you do not want to hear, I see! Oh, {NICKNAME}! Come, see the repression inherent in the system! Help! Help! Al's repressing me!"
+                                                                },
+                                                                {
+                                                                    "id": "740016331",
+                                                                    "speaker": "Al",
+                                                                    "text": "Jak, you...!"
+                                                                },
+                                                                {
+                                                                    "id": "740016332",
+                                                                    "speaker": "Petit Chou",
+                                                                    "text": "Al isn't doing that! He's a good person, he wouldn't bully you!"
+                                                                },
+                                                                {
+                                                                    "id": "740016333",
+                                                                    "speaker": "Al",
+                                                                    "text": "*sigh* Dear sister, please, do not lose your temper over this."
+                                                                },
+                                                                {
+                                                                    "id": "740016334",
+                                                                    "speaker": "Al",
+                                                                    "text": "If you have more to say, Jak, why don't we find a corner and settle this like gentlemen? Hmm?",
+                                                                    "choices": [
+                                                                        {
+                                                                            "id": "740016335",
+                                                                            "text": "Can I trouble you all to stop for a second...",
+                                                                            "response": [
+                                                                                {
+                                                                                    "id": "740016338",
+                                                                                    "speaker": "Ann",
+                                                                                    "text": "Please, everyone. Aren't we comrades? We've all gathered to rescue Princess... or \"Ms.\" Lyris, after all!"
+                                                                                },
+                                                                                {
+                                                                                    "id": "740016339",
+                                                                                    "speaker": "Jak & Al",
+                                                                                    "text": "..."
+                                                                                },
+                                                                                {
+                                                                                    "id": "740016340",
+                                                                                    "speaker": "Jak",
+                                                                                    "text": "Hmph. We count as such, I suppose. We shall cooperate... even though my final goal is to create a more beautiful world for Ms. Lyris."
+                                                                                },
+                                                                                {
+                                                                                    "id": "740016341",
+                                                                                    "speaker": "Al",
+                                                                                    "text": "Let us shake hands then. Comrades?"
+                                                                                },
+                                                                                {
+                                                                                    "id": "740016342",
+                                                                                    "speaker": "Jak",
+                                                                                    "text": "You have wings, I have webbed feet. If you think these apt replacements for hands, then we shall do so, comrade."
+                                                                                },
+                                                                                {
+                                                                                    "id": "740016343",
+                                                                                    "speaker": "Black Screen",
+                                                                                    "text": "Jak and Al shake hands... awkwardly.\\nIf nothing else, they extend their wing and webbed foot, and tap them together."
+                                                                                },
+                                                                                {
+                                                                                    "id": "740016344",
+                                                                                    "speaker": "Petit Chou",
+                                                                                    "text": "Please get along with him, Al."
+                                                                                },
+                                                                                {
+                                                                                    "id": "740016345",
+                                                                                    "speaker": "Al",
+                                                                                    "text": "Of course, dear sister, do not worry. We are united in one cause."
+                                                                                },
+                                                                                {
+                                                                                    "id": "740016346",
+                                                                                    "speaker": "Ann",
+                                                                                    "text": "Alright, alright, now that the problem is solved..."
+                                                                                },
+                                                                                {
+                                                                                    "id": "740016347",
+                                                                                    "speaker": "Jak",
+                                                                                    "text": "Pah. \"Problem\"? This is but the manifestation of a deeper issue..."
+                                                                                },
+                                                                                {
+                                                                                    "id": "740016348",
+                                                                                    "speaker": "Ann",
+                                                                                    "text": "Jak, please!"
+                                                                                },
+                                                                                {
+                                                                                    "id": "740016349",
+                                                                                    "speaker": "Jak",
+                                                                                    "text": "..."
+                                                                                },
+                                                                                {
+                                                                                    "id": "740016350",
+                                                                                    "speaker": "Paimon",
+                                                                                    "text": "Okay, so... What do we do next, Ann?"
+                                                                                },
+                                                                                {
+                                                                                    "id": "740016351",
+                                                                                    "speaker": "Ann",
+                                                                                    "text": "Hmm? Oh. Right! I almost forgot that we were here to save the Princess. Why, I was starting to think that I'd brought such capable help along, just to let them listen to two boys squabble!"
+                                                                                },
+                                                                                {
+                                                                                    "id": "740016352",
+                                                                                    "speaker": "Ann",
+                                                                                    "text": "As for the situation... Ask Al and Jak to explain. I... need a moment to cool off."
+                                                                                },
+                                                                                {
+                                                                                    "id": "740016353",
+                                                                                    "speaker": "Paimon",
+                                                                                    "text": "Ann's having a tough time too, huh..."
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        {
+                                                                            "id": "740016336",
+                                                                            "text": "I've heard enough. See you around."
+                                                                        },
+                                                                        {
+                                                                            "id": "740016337",
+                                                                            "text": "Stop squabbling. We all have the same goal."
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "id": "740016321",
+                                                            "text": "Paimon lacks the strength for labor. Thus, such compensation is my obligation.",
+                                                            "response": [
+                                                                {
+                                                                    "id": "740016322",
+                                                                    "speaker": "Jak",
+                                                                    "text": "...It would indeed seem so. Your line of thinking is fair and responsible."
+                                                                },
+                                                                {
+                                                                    "id": "740016323",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "#Um... Then, thanks a lot, {NICKNAME}..."
+                                                                },
+                                                                {
+                                                                    "id": "740016324",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "Wait! Paimon does do work in her own way, doesn't she?"
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "id": "740016325",
+                                                            "text": "It doesn't matter to me. Paimon's happiness is mine as well.",
+                                                            "response": [
+                                                                {
+                                                                    "id": "740016326",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "Hehe, Paimon hopes you can be happy, too!"
+                                                                },
+                                                                {
+                                                                    "id": "740016327",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "#Wait a minute. In that case, wouldn't {NICKNAME} be happy if {M#he}{F#she} makes Paimon happy...?"
+                                                                },
+                                                                {
+                                                                    "id": "740016328",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "Hehe, that means making Paimon happy more is good for you too! That's how this works, right?"
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "740016313",
+                                            "text": "...Didn't you put your name on your organization as well?",
+                                            "response": [
+                                                {
+                                                    "id": "740016314",
+                                                    "speaker": "Jak",
+                                                    "text": "An orchestra must have a conductor, lest no music be made out of cacophony."
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "740016315",
+                                            "text": "This rabbit hole's not for me..."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "740016303",
+                            "text": "\"Ms.\"...?"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "7400119",
+            "objective": "Talk to Jak",
+            "dialogues": [
+                {
+                    "id": "740012601",
+                    "speaker": "Ann",
+                    "text": "We must destroy the three <color=#00E1FFFF>Bubble Formations</color> set up by Narcissus before we head up."
+                },
+                {
+                    "id": "740012602",
+                    "speaker": "Paimon",
+                    "text": "What are those exactly?"
+                },
+                {
+                    "id": "740012603",
+                    "speaker": "Al",
+                    "text": "They are underhanded contraptions powered by <color=#00E1FFFF>Hydrograna</color> that can bombard intruders from a great distance... Perhaps you might have already seen one on the way here."
+                },
+                {
+                    "id": "740012604",
+                    "speaker": "Al",
+                    "text": "Ann speaks true. The road ahead will be vastly more perilous if we do not first destroy those Formations."
+                },
+                {
+                    "id": "740012605",
+                    "speaker": "Jak",
+                    "text": "Hmph. Kate should have been in charge of eliminating them before we attacked. But it seems that he might have been smashed into seafoam already."
+                },
+                {
+                    "id": "740012606",
+                    "speaker": "Ann",
+                    "text": "Don't say that! We should be hoping that he made it — he is our comrade in the end, isn't he?"
+                },
+                {
+                    "id": "740012607",
+                    "speaker": "Ann",
+                    "text": "In that case, our next task is the destruction of the Bubble Formations! After that, let's go to the small fountain and see what we find there!"
+                },
+                {
+                    "id": "740012608",
+                    "speaker": "Paimon",
+                    "text": "#In that case, leave it to {NICKNAME}. From what Petit Chou and Al have said, it seems like only {M#his}{F#her} attacks will work..."
+                },
+                {
+                    "id": "740012609",
+                    "speaker": "Petit Chou",
+                    "text": "Ohh..."
+                },
+                {
+                    "id": "740012610",
+                    "speaker": "Paimon",
+                    "text": "#Paimon didn't mean to put you down! You guys have been fighting Narcissus and trying to save Princess Lyris for so long... But just leave this bit to {NICKNAME}, alright?",
+                    "choices": [
+                        {
+                            "id": "740012611",
+                            "text": "That's right. Leave it to me.",
+                            "response": [
+                                {
+                                    "id": "740012614",
+                                    "speaker": "Al",
+                                    "text": "You have my thanks."
+                                },
+                                {
+                                    "id": "740012615",
+                                    "speaker": "Ann",
+                                    "text": "Alright! In that case, let me lead the way!"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "740012612",
+                            "text": "You may see it as a knight doing their duty."
+                        },
+                        {
+                            "id": "740012613",
+                            "text": "I'd like to see where this \"story\" goes, too."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "7400120",
+            "objective": "Clear the Bubble Formation",
+            "dialogues": [
+                {
+                    "id": "740012001",
+                    "speaker": "Player",
+                    "text": "An... Orchestre?"
+                },
+                {
+                    "id": "740012002",
+                    "speaker": "Paimon",
+                    "text": "Is that some kind of musical troupe?"
+                }
+            ]
+        },
+        {
+            "id": "7400121",
+            "objective": "Clear the Bubble Formation",
+            "dialogues": [
+                {
+                    "id": "740012101",
+                    "speaker": "Player",
+                    "text": "That sounds oddly similar to Kate's Resistance Front."
+                },
+                {
+                    "id": "740012102",
+                    "speaker": "Paimon",
+                    "text": "That's what Paimon wanted to say too!"
+                },
+                {
+                    "id": "740012103",
+                    "speaker": "Jak",
+                    "text": "Kate's Resistance Front? Bah! That disorganized, untrained militia are but rabble!"
+                },
+                {
+                    "id": "740012104",
+                    "speaker": "Jak",
+                    "text": "We here at Orchestre Jak are a collective of people from all walks of life who carry out operations based on our personal abilities."
+                },
+                {
+                    "id": "740012105",
+                    "speaker": "Paimon",
+                    "text": "Ooh, Paimon knows! The Orchestre's in charge of music and the Resistance Front resists, so they're not the same at heart, like bards and knights!"
+                }
+            ]
+        },
+        {
+            "id": "7400122",
+            "objective": "Clear the Bubble Formation",
+            "dialogues": [
+                {
+                    "id": "740012201",
+                    "speaker": "Ann",
+                    "text": "...",
+                    "choices": [
+                        {
+                            "id": "740012202",
+                            "text": "You're pretty difficult yourself.",
+                            "response": [
+                                {
+                                    "id": "740012203",
+                                    "speaker": "Ann",
+                                    "text": "He wasn't always like this. He once had a really good heart, and loved to cry. He would take care of the younger children..."
+                                },
+                                {
+                                    "id": "740012204",
+                                    "speaker": "Ann",
+                                    "text": "But one day, he said that he would never cry again, and later still, he changed. This might be due to Rene, I fear... and Rene changed too...",
+                                    "choices": [
+                                        {
+                                            "id": "740012205",
+                                            "text": "And who's Rene?",
+                                            "response": [
+                                                {
+                                                    "id": "740012208",
+                                                    "speaker": "Ann",
+                                                    "text": "Um, sorry, where was I? Right, our course of action. You should ask Jak and the others. He and Al might argue a lot, but they're actually good friends."
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "740012206",
+                                            "text": "...",
+                                            "response": [
+                                                {
+                                                    "id": "740012207",
+                                                    "speaker": "Ann",
+                                                    "text": "Alain split with them. But as for me..."
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "740012209",
+                            "text": "See you.",
+                            "response": [
+                                {
+                                    "id": "740012210",
+                                    "speaker": "Ann",
+                                    "text": "You should ask Jak and the others about our course of action. He and Al might argue a lot, but they're actually good friends."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "7400146",
+            "objective": "Head to the designated location",
+            "dialogues": []
+        },
+        {
+            "id": "7400124",
+            "objective": "Head to the designated location",
+            "dialogues": [
+                {
+                    "id": "740012401",
+                    "speaker": "Paimon",
+                    "text": "Jak! You..."
+                },
+                {
+                    "id": "740012402",
+                    "speaker": "Petit Chou",
+                    "text": "Paimon! Don't..."
+                },
+                {
+                    "id": "740012403",
+                    "speaker": "Jak",
+                    "text": "...?",
+                    "choices": [
+                        {
+                            "id": "740012404",
+                            "text": "(Knock it off, or we're going to start this all over again.)",
+                            "response": [
+                                {
+                                    "id": "740012405",
+                                    "speaker": "Paimon",
+                                    "text": "(Hmph, Paimon knows!)"
+                                },
+                                {
+                                    "id": "740012406",
+                                    "speaker": "Paimon",
+                                    "text": "*cough* Ann told us that you could explain the situation..."
+                                },
+                                {
+                                    "id": "740012408",
+                                    "speaker": "Al",
+                                    "text": "Allow me to speak first then, honored Knight and Paimon. Concerning the tower before us, Narcissus has been unable to overcome it. As such, the Princess is still safe."
+                                },
+                                {
+                                    "id": "740012409",
+                                    "speaker": "Al",
+                                    "text": "At that time, when all seemed lost, the Princess gave her greatest treasure to us, and that was the \"time\" that belonged to her."
+                                },
+                                {
+                                    "id": "740012410",
+                                    "speaker": "Paimon",
+                                    "text": "?",
+                                    "choices": [
+                                        {
+                                            "id": "740012411",
+                                            "text": "...?",
+                                            "response": [
+                                                {
+                                                    "id": "740012414",
+                                                    "speaker": "Al",
+                                                    "text": "After she lost that time, the Princess and the tower she dwells in both fell into a stagnant, dreamless slumber. In remembrance of her, we named our fallen realm the Annapausis."
+                                                },
+                                                {
+                                                    "id": "740012415",
+                                                    "speaker": "Paimon",
+                                                    "text": "And what does that mean...?"
+                                                },
+                                                {
+                                                    "id": "740012416",
+                                                    "speaker": "Al",
+                                                    "text": "Because it has completely stagnated, Narcissus has also been unable to taint anything within... That's more or less our situation."
+                                                },
+                                                {
+                                                    "id": "740012417",
+                                                    "speaker": "Paimon",
+                                                    "text": "What do you mean \"more or less our situation\"? Firstly, how would someone give anyone else their \"time\"?"
+                                                },
+                                                {
+                                                    "id": "740012418",
+                                                    "speaker": "Petit Chou",
+                                                    "text": "But it's true! Princess Lyris did share her time with us. Narcissus would constantly plot to invade, but with the time she gave us, we became far stronger!"
+                                                },
+                                                {
+                                                    "id": "740012419",
+                                                    "speaker": "Petit Chou",
+                                                    "text": "For example... My brother, Al, can usually only defeat one foe at once, but with more \"time,\" he can vanquish four or even five at one go!"
+                                                },
+                                                {
+                                                    "id": "740012420",
+                                                    "speaker": "Al",
+                                                    "text": "A most vivid example. Thank you for your explanation, dear Petit Chou."
+                                                },
+                                                {
+                                                    "id": "740012421",
+                                                    "speaker": "Petit Chou",
+                                                    "text": "#Hehe. Well, I hope you understand now, {NICKNAME}, Paimon.",
+                                                    "choices": [
+                                                        {
+                                                            "id": "740012422",
+                                                            "text": "Not at all, in fact.",
+                                                            "response": [
+                                                                {
+                                                                    "id": "740012423",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "Yeah. How do you even give your time to other people!?"
+                                                                },
+                                                                {
+                                                                    "id": "740012424",
+                                                                    "speaker": "Jak",
+                                                                    "text": "Do these details matter? Is this not similar to how feudal nobles would hire sharecroppers?"
+                                                                },
+                                                                {
+                                                                    "id": "740012425",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "Share... croppers? How do those things even connect!? Are you trying to say that exchanging time for pay is a form of giving your time to others?"
+                                                                },
+                                                                {
+                                                                    "id": "740012426",
+                                                                    "speaker": "Jak",
+                                                                    "text": "Only a very small part of the wealth a sharecropper creates will belong to him. If this is understood and regarded as normal by all, then what is there about this situation that is hard to comprehend?"
+                                                                },
+                                                                {
+                                                                    "id": "740012427",
+                                                                    "speaker": "Al",
+                                                                    "text": "..."
+                                                                },
+                                                                {
+                                                                    "id": "740012428",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "(Ugh, he got Paimon!)"
+                                                                },
+                                                                {
+                                                                    "id": "740012429",
+                                                                    "speaker": "Player",
+                                                                    "text": "(Why are you debating with an Oceanid?)"
+                                                                },
+                                                                {
+                                                                    "id": "740012430",
+                                                                    "speaker": "Player",
+                                                                    "text": "(There's too much oddity at play here. Let's just leave this aside for now.)"
+                                                                },
+                                                                {
+                                                                    "id": "740012431",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "That's true... Alright, uh, Paimon totally gets it!"
+                                                                },
+                                                                {
+                                                                    "id": "740012436",
+                                                                    "speaker": "Al",
+                                                                    "text": "Narcissus has spent long years since searching for the Princess's treasure. Only its power can cause time in the tower to flow again, and only then will its locked gates open."
+                                                                },
+                                                                {
+                                                                    "id": "740012437",
+                                                                    "speaker": "Al",
+                                                                    "text": "Thus he summoned waters brimming with wicked intent to drown the kingdom, and created underlings unnumbered and many magical devices besides."
+                                                                },
+                                                                {
+                                                                    "id": "740012438",
+                                                                    "speaker": "Al",
+                                                                    "text": "All this was done to hunt us Narzissenkreuz Adventure Team members down and seize the treasure that should have been in our hands."
+                                                                },
+                                                                {
+                                                                    "id": "740012439",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "Wait. \"Should have\"?"
+                                                                },
+                                                                {
+                                                                    "id": "740012440",
+                                                                    "speaker": "Petit Chou",
+                                                                    "text": "Before, we had another older brother... Ney. In those terrifying days, he took the treasure and fled alongside us, but he dissolved into the waters while covering us."
+                                                                },
+                                                                {
+                                                                    "id": "740012441",
+                                                                    "speaker": "Jak",
+                                                                    "text": "I miss him so much."
+                                                                },
+                                                                {
+                                                                    "id": "740012442",
+                                                                    "speaker": "Al",
+                                                                    "text": "We were very good friends."
+                                                                },
+                                                                {
+                                                                    "id": "740012443",
+                                                                    "speaker": "Petit Chou",
+                                                                    "text": "I hate the dragon, even though I know that these feelings are not good. But I miss Ney. He was like my real brother, just like Al."
+                                                                },
+                                                                {
+                                                                    "id": "740012444",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "Um, we're... sorry for your loss..."
+                                                                },
+                                                                {
+                                                                    "id": "740012445",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "But if that's the case, how are we supposed to save Princess Lyris? The treasure has sealed the tower, and it can only be opened again with said treasure..."
+                                                                },
+                                                                {
+                                                                    "id": "740012446",
+                                                                    "speaker": "Jak",
+                                                                    "text": "Well. When they, ah... How do I put this? While they were \"consolidating our rear lines,\" we of Orchestre Jak obtained some key intelligence that has allowed us to ascertain the treasure's location."
+                                                                },
+                                                                {
+                                                                    "id": "740012447",
+                                                                    "speaker": "Petit Chou",
+                                                                    "text": "Really? You have?"
+                                                                },
+                                                                {
+                                                                    "id": "740012448",
+                                                                    "speaker": "Jak",
+                                                                    "text": "Of course. It is right over there."
+                                                                },
+                                                                {
+                                                                    "id": "740012449",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "Huh? In the sky? As in, in the water in the sky?"
+                                                                },
+                                                                {
+                                                                    "id": "740012450",
+                                                                    "speaker": "Jak",
+                                                                    "text": "Before Ney dissolved, he used the last of his strength to purify a patch of water in the firmament. It was there that he hid the treasure."
+                                                                },
+                                                                {
+                                                                    "id": "740012451",
+                                                                    "speaker": "Jak",
+                                                                    "text": "What an irony. It seems that Narcissus has gotten too used to looking down upon the citizenry below, and has not been in the habit of looking up — and there, the treasure has been hidden all along."
+                                                                },
+                                                                {
+                                                                    "id": "740012452",
+                                                                    "speaker": "Al",
+                                                                    "text": "I see. Well, it does sound like something Ney would come up with."
+                                                                },
+                                                                {
+                                                                    "id": "740012453",
+                                                                    "speaker": "Player",
+                                                                    "text": "How do we get up there, though?"
+                                                                },
+                                                                {
+                                                                    "id": "740012454",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "Hmm... Could Petit Chou and Al take us up there?"
+                                                                },
+                                                                {
+                                                                    "id": "740012455",
+                                                                    "speaker": "Al",
+                                                                    "text": "A very imaginative idea... but unfortunately, impractical."
+                                                                },
+                                                                {
+                                                                    "id": "740012456",
+                                                                    "speaker": "Ann",
+                                                                    "text": "If we go up there, we should find a small fountain full of magic. Options may open to us should we reach it."
+                                                                },
+                                                                {
+                                                                    "id": "740012457",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "Are you feeling better now, Ann...?"
+                                                                },
+                                                                {
+                                                                    "id": "740012458",
+                                                                    "speaker": "Ann",
+                                                                    "text": "Thank you, Paimon, but you need not worry."
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "id": "740012432",
+                                                            "text": "Yes, yes, I understand.",
+                                                            "response": [
+                                                                {
+                                                                    "id": "740012433",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "(What did you even understand!?)"
+                                                                },
+                                                                {
+                                                                    "id": "740012434",
+                                                                    "speaker": "Player",
+                                                                    "text": "(There's too much oddity at play here. Let's just leave this aside for now.)"
+                                                                },
+                                                                {
+                                                                    "id": "740012435",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "Ah... Alright then, Paimon totally gets it too!"
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "740012412",
+                                            "text": "She gave you her what now?",
+                                            "response": [
+                                                {
+                                                    "id": "740012413",
+                                                    "speaker": "Paimon",
+                                                    "text": "\"Time,\" you say..."
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "740012407",
+                            "text": "Is there anything I need to do?"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "7400125",
+            "objective": "Head to the designated location",
+            "dialogues": [
+                {
+                    "id": "740012501",
+                    "speaker": "Paimon",
+                    "text": "Hello!"
+                },
+                {
+                    "id": "740012502",
+                    "speaker": "Mori",
+                    "text": "..."
+                },
+                {
+                    "id": "740012503",
+                    "speaker": "Mori",
+                    "text": "*sniffs*"
+                },
+                {
+                    "id": "740012504",
+                    "speaker": "Ann",
+                    "text": "Mori, no!"
+                },
+                {
+                    "id": "740012505",
+                    "speaker": "Paimon",
+                    "text": "...?"
+                },
+                {
+                    "id": "740012506",
+                    "speaker": "Mori",
+                    "text": "Woof, woof! Bad people!"
+                }
+            ]
+        },
+        {
+            "id": "7400126",
+            "objective": "Use force to clear up any misunderstandings!",
+            "dialogues": []
+        },
+        {
+            "id": "7400127",
+            "objective": "Talk to Mori",
+            "dialogues": [
+                {
+                    "id": "740012701",
+                    "speaker": "Ann",
+                    "text": "We must destroy the three <color=#00E1FFFF>Bubble Formations</color> set up by Narcissus before we head up."
+                },
+                {
+                    "id": "740012702",
+                    "speaker": "Paimon",
+                    "text": "What are those exactly?"
+                },
+                {
+                    "id": "740012703",
+                    "speaker": "Al",
+                    "text": "They are underhanded contraptions powered by Hydrograna that can bombard intruders from a great distance... Perhaps you might have already seen one on the way here."
+                },
+                {
+                    "id": "740012704",
+                    "speaker": "Paimon",
+                    "text": "Oh, so that's what you call those annoying bubble cannons!"
+                },
+                {
+                    "id": "740012705",
+                    "speaker": "Ann",
+                    "text": "That's right. We already solved one part of the problem on the way here, but we'll need to finish the job if our road up is to be made safe."
+                },
+                {
+                    "id": "740012706",
+                    "speaker": "Jak",
+                    "text": "Hmph. Kate should have been in charge of eliminating them before we attacked. But it seems that he might have been smashed into seafoam already."
+                },
+                {
+                    "id": "740012707",
+                    "speaker": "Ann",
+                    "text": "Don't say that! We should be hoping that he made it — he is our comrade in the end, isn't he?"
+                },
+                {
+                    "id": "740012708",
+                    "speaker": "Ann",
+                    "text": "Whatever the case, our next task is the destruction of the remaining Bubble Formations! After that, let's go to the small fountain and see what we find there!"
+                },
+                {
+                    "id": "740012709",
+                    "speaker": "Paimon",
+                    "text": "#In that case, leave it to {NICKNAME}. From what Petit Chou and Al have said, it seems like only {M#his}{F#her} attacks will work..."
+                },
+                {
+                    "id": "740012710",
+                    "speaker": "Petit Chou",
+                    "text": "Ohh..."
+                },
+                {
+                    "id": "740012711",
+                    "speaker": "Paimon",
+                    "text": "#Paimon didn't mean to put you down! You guys have been fighting Narcissus and trying to save Princess Lyris for so long... But just leave this bit to {NICKNAME}, alright?",
+                    "choices": [
+                        {
+                            "id": "740012712",
+                            "text": "That's right. Leave it to me.",
+                            "response": [
+                                {
+                                    "id": "740012715",
+                                    "speaker": "Al",
+                                    "text": "You have my thanks."
+                                },
+                                {
+                                    "id": "740012716",
+                                    "speaker": "Ann",
+                                    "text": "Alright! In that case, let me lead the way!"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "740012713",
+                            "text": "You may see it as a knight doing their duty."
+                        },
+                        {
+                            "id": "740012714",
+                            "text": "I'd like to see where this \"story\" goes, too."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "7400129",
+            "objective": "Talk to Mori",
+            "dialogues": [
+                {
+                    "id": "740012801",
+                    "speaker": "Ann",
+                    "text": "Silly dog, Mori! Bad! They're good people!"
+                },
+                {
+                    "id": "740012802",
+                    "speaker": "Mori",
+                    "text": "Woof, understood. Give paw?"
+                },
+                {
+                    "id": "740012803",
+                    "speaker": "Paimon",
+                    "text": "Huh. You really are a dog..."
+                },
+                {
+                    "id": "740012804",
+                    "speaker": "Black Screen",
+                    "text": "You and Paimon shake hands with Mori.\\nIt's a slippery experience, as one might expect of a \"dog\" made of water."
+                },
+                {
+                    "id": "740012805",
+                    "speaker": "Ann",
+                    "text": "Great, now we're all introduced. Don't attack them, okay, Mori?"
+                },
+                {
+                    "id": "740012806",
+                    "speaker": "Player",
+                    "text": "Ah, so you're a dog. This makes much more sense."
+                },
+                {
+                    "id": "740012807",
+                    "speaker": "Paimon",
+                    "text": "Does it? Does it really? How does Mori resemble a dog at all?"
+                },
+                {
+                    "id": "740012808",
+                    "speaker": "Player",
+                    "text": "Didn't Al say that..."
+                },
+                {
+                    "id": "740012809",
+                    "speaker": "Paimon",
+                    "text": "What? Don't you go believing that \"purpose defines essence\" nonsense... and even if you do, Paimon won't!"
+                },
+                {
+                    "id": "740012810",
+                    "speaker": "Ann",
+                    "text": "But that's what Mori is, though. A silly dog."
+                },
+                {
+                    "id": "740012811",
+                    "speaker": "Paimon",
+                    "text": "..."
+                },
+                {
+                    "id": "740012812",
+                    "speaker": "Paimon",
+                    "text": "Ugh, whatever! If an Oceanid can be an evil dragon, then a Forest Boar can be a dog! Alright? Alright!"
+                },
+                {
+                    "id": "740012813",
+                    "speaker": "Mori",
+                    "text": "I am a silly dog, yes. Woof."
+                },
+                {
+                    "id": "740012814",
+                    "speaker": "Ann",
+                    "text": "And you've been a good boy, haven't you, guarding this place?"
+                },
+                {
+                    "id": "740012815",
+                    "speaker": "Paimon",
+                    "text": "So, is Mori a member of your team?"
+                },
+                {
+                    "id": "740012816",
+                    "speaker": "Ann",
+                    "text": "No... I mean, Mori is a dog."
+                },
+                {
+                    "id": "740012817",
+                    "speaker": "Paimon",
+                    "text": "But a duck, a frog, a finch, and a squirrel can join... So why can't a dog?"
+                },
+                {
+                    "id": "740012818",
+                    "speaker": "Mori",
+                    "text": "Mori is Mori. Must protect the princess."
+                },
+                {
+                    "id": "740012819",
+                    "speaker": "Mori",
+                    "text": "A long, long time ago, Mori played here. With the Princess, Al, Petit Chou, Ney, and Jak."
+                },
+                {
+                    "id": "740012820",
+                    "speaker": "Mori",
+                    "text": "But the air and water were later filled with the scent of evil, and everyone left."
+                },
+                {
+                    "id": "740012821",
+                    "speaker": "Mori",
+                    "text": "Only the Princess remains. So I protect her."
+                },
+                {
+                    "id": "740012822",
+                    "speaker": "Paimon",
+                    "text": "So that's Princess Lyris..."
+                },
+                {
+                    "id": "740012823",
+                    "speaker": "Paimon",
+                    "text": "Right! It was mentioned earlier that the Princess lost her treasure, which is why everything stagnated. So this is where it was!",
+                    "choices": [
+                        {
+                            "id": "740012824",
+                            "text": "Problem solved!",
+                            "response": [
+                                {
+                                    "id": "740012825",
+                                    "speaker": "Ann",
+                                    "text": "This is just a statue of the Princess. She's still in the tower."
+                                },
+                                {
+                                    "id": "740012828",
+                                    "speaker": "Paimon",
+                                    "text": "Seriously? Another \"looks like it, but not really\"?"
+                                },
+                                {
+                                    "id": "740012829",
+                                    "speaker": "Mori",
+                                    "text": "Woof, woof? Not the Princess?"
+                                },
+                                {
+                                    "id": "740012830",
+                                    "speaker": "Ann",
+                                    "text": "Nope. Princess Lyris is in her tower."
+                                },
+                                {
+                                    "id": "740012831",
+                                    "speaker": "Mori",
+                                    "text": "There are two Princesses?"
+                                },
+                                {
+                                    "id": "740012832",
+                                    "speaker": "Ann",
+                                    "text": "No, silly. This one's not real."
+                                },
+                                {
+                                    "id": "740012833",
+                                    "speaker": "Mori",
+                                    "text": "Woof, woof? Not the Princess?"
+                                },
+                                {
+                                    "id": "740012834",
+                                    "speaker": "Ann",
+                                    "text": "Well, try giving it a sniff."
+                                },
+                                {
+                                    "id": "740012835",
+                                    "speaker": "Mori",
+                                    "text": "*sniffs*"
+                                },
+                                {
+                                    "id": "740012836",
+                                    "speaker": "Mori",
+                                    "text": "Woof, woof? Not the Princess?"
+                                },
+                                {
+                                    "id": "740012837",
+                                    "speaker": "Ann",
+                                    "text": "Told you so."
+                                },
+                                {
+                                    "id": "740012838",
+                                    "speaker": "Paimon",
+                                    "text": "Well, it's an understandable mistake. In this Annapausis, a boar is a dog, an Oceanid is an evil dragon, and the evil dragon turned out to be a statue...",
+                                    "choices": [
+                                        {
+                                            "id": "740012839",
+                                            "text": "And a duck and a finch are siblings...",
+                                            "response": [
+                                                {
+                                                    "id": "740012841",
+                                                    "speaker": "Paimon",
+                                                    "text": "Exactly. Ugh, Paimon can feel her sense of what's real or not slipping away the longer we stay here..."
+                                                },
+                                                {
+                                                    "id": "740012842",
+                                                    "speaker": "Ann",
+                                                    "text": "*cough* Well, um, let's not sweat the small stuff, alright?"
+                                                },
+                                                {
+                                                    "id": "740012843",
+                                                    "speaker": "Mori",
+                                                    "text": "?"
+                                                },
+                                                {
+                                                    "id": "740012844",
+                                                    "speaker": "Ann",
+                                                    "text": "Okay, Mori. Be a good doggie and descend the tower, then meet up with everyone."
+                                                },
+                                                {
+                                                    "id": "740012845",
+                                                    "speaker": "Mori",
+                                                    "text": "Okay. What about you, Ann?"
+                                                },
+                                                {
+                                                    "id": "740012846",
+                                                    "speaker": "Ann",
+                                                    "text": "#Me? Well, I'm going up with {NICKNAME} and Paimon to reclaim the Princess's treasure."
+                                                },
+                                                {
+                                                    "id": "740012847",
+                                                    "speaker": "Mori",
+                                                    "text": "I see. Okay. Bye-bye."
+                                                },
+                                                {
+                                                    "id": "740012848",
+                                                    "speaker": "Paimon",
+                                                    "text": "Alright then. What do we do now?"
+                                                },
+                                                {
+                                                    "id": "740012849",
+                                                    "speaker": "Ann",
+                                                    "text": "Use these bubbles. The Princess would make these back when she would play with us, and they would fly very high up indeed. We would fly around in those bubbles, touring the realm.",
+                                                    "choices": [
+                                                        {
+                                                            "id": "740012850",
+                                                            "text": "That sounds quite exciting...",
+                                                            "response": [
+                                                                {
+                                                                    "id": "740012853",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "Whatever the case, we just need to sit in the bubble, and it'll take us up there, right?"
+                                                                },
+                                                                {
+                                                                    "id": "740012854",
+                                                                    "speaker": "Ann",
+                                                                    "text": "That's right! In the meantime, I'll do my best to control the bubbles' direction."
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "id": "740012851",
+                                                            "text": "That sounds like the trick those Hydro Abyss Mages pull...",
+                                                            "response": [
+                                                                {
+                                                                    "id": "740012852",
+                                                                    "speaker": "Ann",
+                                                                    "text": "Hey! Don't say that about the Princess's magic!"
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "740012840",
+                                            "text": "And a squirrel is a Colonel..."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "740012826",
+                            "text": "Isn't the princess in the tower, though?",
+                            "response": [
+                                {
+                                    "id": "740012827",
+                                    "speaker": "Ann",
+                                    "text": "That's right. This is only a statue of her."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "7400130",
+            "objective": "",
+            "dialogues": [
+                {
+                    "id": "740013001",
+                    "speaker": "Al",
+                    "text": "But before we ascend, we need to deal with the various Bubble Formations to make safe our path."
+                },
+                {
+                    "id": "740013002",
+                    "speaker": "Paimon",
+                    "text": "Bubble Formations... There's three of them, right? If that's the case, we've already taken them all out!"
+                },
+                {
+                    "id": "740013003",
+                    "speaker": "Al",
+                    "text": "My, that's our mighty knight and Paimon for you! Ah, it's just a shame that I was unable to watch the battle between you and the Three Royal Blades of Narcissus in person!",
+                    "choices": [
+                        {
+                            "id": "740013004",
+                            "text": "They were super weak...",
+                            "response": [
+                                {
+                                    "id": "740013008",
+                                    "speaker": "Al",
+                                    "text": "Ah, what reliable allies you are. When you've the time, please do tell Petit Chou and I of that valorous deed!"
+                                },
+                                {
+                                    "id": "740013009",
+                                    "speaker": "Petit Chou",
+                                    "text": "Please do!"
+                                },
+                                {
+                                    "id": "740013010",
+                                    "speaker": "Ann",
+                                    "text": "In that case, to the fountain! We'll find a way to access the waters above and retrieve Princess Lyris's treasure!"
+                                },
+                                {
+                                    "id": "740013011",
+                                    "speaker": "Ann",
+                                    "text": "Al, Petit Chou, Jak, this place is yours to guard!"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "740013005",
+                            "text": "It was a grinding battle, but we ultimately emerged triumphant."
+                        },
+                        {
+                            "id": "740013006",
+                            "text": "...Sorry, the what of the what now?",
+                            "response": [
+                                {
+                                    "id": "740013007",
+                                    "speaker": "Ann",
+                                    "text": "#The three leaders who were defending the three Bubble Formations. They were quickly dispatched by {NICKNAME}, though, as if they were mere chaff."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "7400131",
+            "objective": "",
+            "dialogues": [
+                {
+                    "id": "740013101",
+                    "speaker": "Ann",
+                    "text": ""
+                }
+            ]
+        },
+        {
+            "id": "7400132",
+            "objective": "",
+            "dialogues": [
+                {
+                    "id": "740013201",
+                    "speaker": "Colonel Kate",
+                    "text": ""
+                },
+                {
+                    "id": "740013202",
+                    "speaker": "Colonel Kate",
+                    "text": ""
+                }
+            ]
+        },
+        {
+            "id": "7400107",
+            "objective": "",
+            "dialogues": [
+                {
+                    "id": "740010701",
+                    "speaker": "Player",
+                    "text": "More than once, in fact."
+                }
+            ]
+        },
+        {
+            "id": "7400106",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "740010601",
+                    "speaker": "Petit Chou",
+                    "text": "Ah... I'm saved..."
+                },
+                {
+                    "id": "740010602",
+                    "speaker": "Paimon",
+                    "text": "Wait. So Petit Chou is a Finch...?"
+                },
+                {
+                    "id": "740010603",
+                    "speaker": "Ann",
+                    "text": "Petit Chou is Petit Chou."
+                },
+                {
+                    "id": "740010604",
+                    "speaker": "Ann",
+                    "text": "Regardless, it's good that you're well, Petit Chou! Now let me introduce these two..."
+                },
+                {
+                    "id": "740010605",
+                    "speaker": "Ann",
+                    "text": "Um, actually, I haven't yet asked you two your names...",
+                    "choices": [
+                        {
+                            "id": "740010606",
+                            "text": "I'm \"a knight who looks most reliable.\"",
+                            "response": [
+                                {
+                                    "id": "740010607",
+                                    "speaker": "Paimon",
+                                    "text": "#Are you seriously still hung up about that? {M#He}{F#She}'s {NICKNAME}, and Paimon's Paimon!"
+                                },
+                                {
+                                    "id": "740010610",
+                                    "speaker": "Petit Chou",
+                                    "text": "#Thank you, Knight {NICKNAME}, Squire Paimon!"
+                                },
+                                {
+                                    "id": "740010611",
+                                    "speaker": "Paimon",
+                                    "text": "Squire...?",
+                                    "choices": [
+                                        {
+                                            "id": "740010612",
+                                            "text": "Squire Paimon, attend to my weapons.",
+                                            "response": [
+                                                {
+                                                    "id": "740010613",
+                                                    "speaker": "Paimon",
+                                                    "text": "#Gah, you've got it all wrong! Paimon's no squire. She's {NICKNAME}'s companion. Actually, wait a moment... Your weapons need maintaining?"
+                                                },
+                                                {
+                                                    "id": "740010614",
+                                                    "speaker": "Player",
+                                                    "text": "Indeed, there's been a misunderstanding. We're companions, of course.",
+                                                    "choices": [
+                                                        {
+                                                            "id": "740010619",
+                                                            "text": "...And don't you get that twisted.",
+                                                            "response": [
+                                                                {
+                                                                    "id": "740010620",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "Hah! That's more like it."
+                                                                },
+                                                                {
+                                                                    "id": "740010623",
+                                                                    "speaker": "Petit Chou",
+                                                                    "text": "I see, I see. My apologies, Paimon! I am Petit Chou, a member of the Narzissenkreuz Adventure Team. If not for your help, I might have..."
+                                                                },
+                                                                {
+                                                                    "id": "740010624",
+                                                                    "speaker": "Ann",
+                                                                    "text": "Well, Narcissus has girded his subordinates with the Aegis of Four Orthants, so our powers are unable to overcome them. That's how it is."
+                                                                },
+                                                                {
+                                                                    "id": "740010625",
+                                                                    "speaker": "Ann",
+                                                                    "text": "But with you and your companion on our side, good knight, we shall have nothing to fear!"
+                                                                },
+                                                                {
+                                                                    "id": "740010626",
+                                                                    "speaker": "Petit Chou",
+                                                                    "text": "The Princess will be pleased!"
+                                                                },
+                                                                {
+                                                                    "id": "740010627",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "...Uh, one moment! Who's this Princess again?"
+                                                                },
+                                                                {
+                                                                    "id": "740010628",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "Also, what is this Adventure Team of yours? And what's going on with this Narcissus?"
+                                                                },
+                                                                {
+                                                                    "id": "740010629",
+                                                                    "speaker": "Ann",
+                                                                    "text": "Well... This is how things went. A long, long time ago, this was a kingdom of unparalleled gladness. The children and Princess Lyris lived happily together here."
+                                                                },
+                                                                {
+                                                                    "id": "740010630",
+                                                                    "speaker": "Ann",
+                                                                    "text": "But later, the kingdom fell to the predations of Narcissus, a fell dragon who had designs on the Princess and her treasures."
+                                                                },
+                                                                {
+                                                                    "id": "740010631",
+                                                                    "speaker": "Ann",
+                                                                    "text": "Princess Lyris hid herself away in a high tower and entered a deep slumber. That is why we now name the kingdom \"Annapausis.\""
+                                                                },
+                                                                {
+                                                                    "id": "740010632",
+                                                                    "speaker": "Ann",
+                                                                    "text": "Narcissus filled Annapausis with bitter waters. That which we just defeated was an evil being born from those waters, an entity that opposes the Reconquista."
+                                                                },
+                                                                {
+                                                                    "id": "740010633",
+                                                                    "speaker": "Petit Chou",
+                                                                    "text": "This time, we attempted to infiltrate this place and rescue the Princess while the dragon was absent. However, we ran into a great many foes, and ultimately, we failed."
+                                                                },
+                                                                {
+                                                                    "id": "740010634",
+                                                                    "speaker": "Ann",
+                                                                    "text": "#But now that we have you and Paimon on our side, {NICKNAME}, we have nothing to fear!"
+                                                                },
+                                                                {
+                                                                    "id": "740010635",
+                                                                    "speaker": "Ann",
+                                                                    "text": "#Moreover, we have a Princess, a kingdom, and a wicked dragon... Tradition and the stories dictate that we must also have a knight — yes, a mighty and righteous knight like you, {NICKNAME}.",
+                                                                    "choices": [
+                                                                        {
+                                                                            "id": "740010636",
+                                                                            "text": "Stories?",
+                                                                            "response": [
+                                                                                {
+                                                                                    "id": "740010639",
+                                                                                    "speaker": "Paimon",
+                                                                                    "text": "#Paimon's not sure what you're going on about, but if it's dragons you want, {NICKNAME}'s beaten 'em before."
+                                                                                },
+                                                                                {
+                                                                                    "id": "740010640",
+                                                                                    "speaker": "Ann",
+                                                                                    "text": "Really? You have?"
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        {
+                                                                            "id": "740010637",
+                                                                            "text": "Tradition?"
+                                                                        },
+                                                                        {
+                                                                            "id": "740010638",
+                                                                            "text": "Well, I have defeated a dragon in the past."
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "id": "740010621",
+                                                            "text": "...Although I have indeed considered getting a squire in the past.",
+                                                            "response": [
+                                                                {
+                                                                    "id": "740010622",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "Do you really want one? Seems like this journey has been pretty tough for you, huh..."
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "740010615",
+                                            "text": "Squire Paimon, my shoulders ache.",
+                                            "response": [
+                                                {
+                                                    "id": "740010616",
+                                                    "speaker": "Paimon",
+                                                    "text": "#Gah, you've got it all wrong! Paimon's no squire. She's {NICKNAME}'s companion!"
+                                                },
+                                                {
+                                                    "id": "740010617",
+                                                    "speaker": "Player",
+                                                    "text": "Indeed, there's been a misunderstanding. We're companions, of course.",
+                                                    "choices": [
+                                                        {
+                                                            "id": "740010619",
+                                                            "text": "...And don't you get that twisted."
+                                                        },
+                                                        {
+                                                            "id": "740010621",
+                                                            "text": "...Although I have indeed considered getting a squire in the past."
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "740010618",
+                                            "text": "She's not my squire, we're companions."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "740010608",
+                            "text": "#{NICKNAME}'s the name.",
+                            "response": [
+                                {
+                                    "id": "740010609",
+                                    "speaker": "Paimon",
+                                    "text": "And Paimon's Paimon!"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "7400116",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "740011601",
+                    "speaker": "Petit Chou",
+                    "text": "Al! You're safe! I was so worried..."
+                },
+                {
+                    "id": "740011602",
+                    "speaker": "Al",
+                    "text": "Ah, my dear Petit Chou — and you too, Ann! We meet again at last. In those darkest of days, I thought of you, and drew strength to fight on from those thoughts."
+                },
+                {
+                    "id": "740011603",
+                    "speaker": "Al",
+                    "text": "Thank you, noble warriors, you who have come forth to uphold the cause of justice. Why, had I arms as slender as yours, I would tip my hat to honor you."
+                },
+                {
+                    "id": "740011604",
+                    "speaker": "Paimon",
+                    "text": "There's no need to be so prim and proper..."
+                },
+                {
+                    "id": "740011605",
+                    "speaker": "Black Screen",
+                    "text": "Ann introduces you and Paimon to Al and explains what happened previously."
+                },
+                {
+                    "id": "740011606",
+                    "speaker": "Paimon",
+                    "text": "Uh, but why's a finch's older brother a duck?"
+                },
+                {
+                    "id": "740011607",
+                    "speaker": "Al",
+                    "text": "Why a \"duck,\" you ask? Are such definitions important? I have a supple body, an iron will, and webbed feet with which to tread water. Of these I am proud, and that is enough."
+                },
+                {
+                    "id": "740011608",
+                    "speaker": "Al",
+                    "text": "And Petit Chou is Petit Chou. The sphere is the shape closest to perfection, and the most complicated of all shapes. I am most proud of my sister."
+                },
+                {
+                    "id": "740011609",
+                    "speaker": "Petit Chou",
+                    "text": "S—Seriously, brother, what are you talking about..."
+                },
+                {
+                    "id": "740011610",
+                    "speaker": "Paimon",
+                    "text": "#(Actually, {NICKNAME}, what *is* Al talking about?)",
+                    "choices": [
+                        {
+                            "id": "740011611",
+                            "text": "(He means that we shouldn't dwell too much on these details.)",
+                            "response": [
+                                {
+                                    "id": "740011613",
+                                    "speaker": "Ann",
+                                    "text": "We members of the Narzissenkreuz Adventure Team are disparate indeed, but we have one goal. We shall save Princess Lyris, and we shall defeat the fell dragon Narcissus!"
+                                },
+                                {
+                                    "id": "740011614",
+                                    "speaker": "Al",
+                                    "text": "Well said. The person I am now knows only that the one who stands before me is a noble and valiant knight who possesses the iron will needed to defeat Narcissus. That is enough for me."
+                                },
+                                {
+                                    "id": "740011615",
+                                    "speaker": "Al",
+                                    "text": "Usually, the mightier the will, the larger the form needed to be its vessel, as it is in the case of Narcissus. This knight's stature is much like mine, and yet..."
+                                },
+                                {
+                                    "id": "740011616",
+                                    "speaker": "Paimon",
+                                    "text": "Ugh... Seriously, the first and last thing Paimon understood here was \"Narcissus.\" You're always going on about Narcissus this and Narcissus that... But what is it, really?"
+                                },
+                                {
+                                    "id": "740011617",
+                                    "speaker": "Ann",
+                                    "text": "Look up, above Princess Lyris's tower — that is Narcissus."
+                                },
+                                {
+                                    "id": "740011618",
+                                    "speaker": "Paimon",
+                                    "text": "Huh? That wasn't there before the water rose...",
+                                    "choices": [
+                                        {
+                                            "id": "740011619",
+                                            "text": "...Isn't that just an Oceanid?",
+                                            "response": [
+                                                {
+                                                    "id": "740011622",
+                                                    "speaker": "Ann",
+                                                    "text": "But that is the fell dragon Narcissus."
+                                                },
+                                                {
+                                                    "id": "740011623",
+                                                    "speaker": "Al",
+                                                    "text": "The dragon who invaded the Narzissenkreuz Kingdom."
+                                                },
+                                                {
+                                                    "id": "740011624",
+                                                    "speaker": "Petit Chou",
+                                                    "text": "And its wings are very huge and frightening."
+                                                },
+                                                {
+                                                    "id": "740011625",
+                                                    "speaker": "Paimon",
+                                                    "text": "...But it's an Oceanid, isn't it?"
+                                                },
+                                                {
+                                                    "id": "740011626",
+                                                    "speaker": "Ann",
+                                                    "text": "#Well, {NICKNAME} and Paimon, you have seen much. What, then, should a dragon look like?"
+                                                },
+                                                {
+                                                    "id": "740011627",
+                                                    "speaker": "Paimon",
+                                                    "text": "Well, if you're talking about the dragons we've fought before, they'd be..."
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "740011620",
+                                            "text": "Good golly gosh, the fell dragon Narcissus!",
+                                            "response": [
+                                                {
+                                                    "id": "740011621",
+                                                    "speaker": "Paimon",
+                                                    "text": "Waaaait a minute, that's an Oceanid no matter how you look at it, not a dragon!"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "740011612",
+                            "text": "(I don't know... but it's probably not important.)"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "7400118",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "740011801",
+                    "speaker": "Petit Chou",
+                    "text": "Jak..."
+                },
+                {
+                    "id": "740011802",
+                    "speaker": "Ann",
+                    "text": "Thank goodness you're safe!"
+                },
+                {
+                    "id": "740011803",
+                    "speaker": "Jak",
+                    "text": "Hmm. As I thought, you were the ones who emptied the water out. Excellent, excellent! If I had hands like yours, yellow and white ones, I would be applauding already."
+                },
+                {
+                    "id": "740011804",
+                    "speaker": "Al",
+                    "text": "Dear friend, please show some respect. Petit Chou is doing her best..."
+                },
+                {
+                    "id": "740011805",
+                    "speaker": "Jak",
+                    "text": "Hmph. You are right, I suppose. She has done nothing wrong. Ultimately..."
+                },
+                {
+                    "id": "740011806",
+                    "speaker": "Ann",
+                    "text": "..."
+                },
+                {
+                    "id": "740011807",
+                    "speaker": "Jak",
+                    "text": "Forget it. The yellow and white ones here... Who are they?"
+                },
+                {
+                    "id": "740011808",
+                    "speaker": "Paimon",
+                    "text": "Yellow and white... You mean us?"
+                },
+                {
+                    "id": "740011809",
+                    "speaker": "Jak",
+                    "text": "And who else would I mean? Does Petit Chou look yellower to you? Or does Ann?"
+                },
+                {
+                    "id": "740011810",
+                    "speaker": "Paimon",
+                    "text": "Hey! You... you blue frog!"
+                },
+                {
+                    "id": "740011811",
+                    "speaker": "Ann",
+                    "text": "#Alright, alright, Paimon, please don't be angry. Jak, this is knight {NICKNAME} and Paimon."
+                },
+                {
+                    "id": "740011812",
+                    "speaker": "Jak",
+                    "text": "Hmph. A knight, you say... Then I suppose this Paimon is the squire?"
+                },
+                {
+                    "id": "740011813",
+                    "speaker": "Paimon",
+                    "text": "No, no! Come on, why does everyone call Paimon that!?"
+                },
+                {
+                    "id": "740011814",
+                    "speaker": "Player",
+                    "text": "Paimon is no squire.",
+                    "choices": [
+                        {
+                            "id": "740011815",
+                            "text": "Paimon is a bard whose task is to record my adventures.",
+                            "response": [
+                                {
+                                    "id": "740011816",
+                                    "speaker": "Petit Chou",
+                                    "text": "Is that how it is? No wonder Paimon's such a good talker!"
+                                },
+                                {
+                                    "id": "740011817",
+                                    "speaker": "Paimon",
+                                    "text": "#Hey! You stop that, {NICKNAME}, or Paimon's gonna come up with a... lively limerick to give you a licking the likes of which you've never seen!"
+                                },
+                                {
+                                    "id": "740011818",
+                                    "speaker": "Paimon",
+                                    "text": "Anyway, we're companions, alright? Companions!"
+                                },
+                                {
+                                    "id": "740011820",
+                                    "speaker": "Jak",
+                                    "text": "I see. Then you are not some minor feudal warrior. Not in the usual sense, anyway. Are you, then, some \"honorary knight,\" one with a title that comes with little benefit?"
+                                },
+                                {
+                                    "id": "740011821",
+                                    "speaker": "Paimon",
+                                    "text": "#Well, {NICKNAME} is an Honorary Knight, but {M#he}{F#she} got it in Mondstadt for heroically doing battle with Stormterror!"
+                                },
+                                {
+                                    "id": "740011822",
+                                    "speaker": "Jak",
+                                    "text": "Ah, then you are a dutiful, capable warrior. Very good! In that case, welcome to Orchestre Jak."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "740011819",
+                            "text": "Paimon's my companion."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "7400123",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "740012301",
+                    "speaker": "Colonel Kate",
+                    "text": "Ann! You look well. That is good. These two are reinforcements, then?"
+                },
+                {
+                    "id": "740012302",
+                    "speaker": "Ann",
+                    "text": "Yes! They are..."
+                },
+                {
+                    "id": "740012303",
+                    "speaker": "Colonel Kate",
+                    "text": "Halt. I do not wish to know soldiers' names."
+                },
+                {
+                    "id": "740012304",
+                    "speaker": "Colonel Kate",
+                    "text": "Amidst cruel battle, anyone can be turned into ruptured bubbles and scattered foam at any time. Knowing the names of the troops will only cast a shadow upon our final victory."
+                },
+                {
+                    "id": "740012305",
+                    "speaker": "Paimon",
+                    "text": "...?"
+                },
+                {
+                    "id": "740012306",
+                    "speaker": "Colonel Kate",
+                    "text": "I just need to know one thing. Are they the reinforcements you sought?"
+                },
+                {
+                    "id": "740012307",
+                    "speaker": "Ann",
+                    "text": "Yes, but..."
+                },
+                {
+                    "id": "740012308",
+                    "speaker": "Colonel Kate",
+                    "text": "Very good. Fresh hands will help us continue our suppression of the two remaining Bubble Formations."
+                },
+                {
+                    "id": "740012309",
+                    "speaker": "Paimon",
+                    "text": "About that Bubble Formation..."
+                },
+                {
+                    "id": "740012310",
+                    "speaker": "Colonel Kate",
+                    "text": "Next time, soldier, you will give your report first before asking questions. Yes, the Formations are places of unparalleled peril — not to mention the three mighty subordinates that Narcissus has placed within them."
+                },
+                {
+                    "id": "740012311",
+                    "speaker": "Paimon",
+                    "text": "Well, about that... We've actually cleared all the Formations..."
+                },
+                {
+                    "id": "740012312",
+                    "speaker": "Colonel Kate",
+                    "text": "What!? Why didn't you say so earlier?"
+                },
+                {
+                    "id": "740012313",
+                    "speaker": "Ann",
+                    "text": "We've been trying to tell you, but you haven't been listening!"
+                },
+                {
+                    "id": "740012314",
+                    "speaker": "Colonel Kate",
+                    "text": "..."
+                },
+                {
+                    "id": "740012315",
+                    "speaker": "Colonel Kate",
+                    "text": "Um... Ha. Hahaha. Well then, it's good to see that everyone is well! So, Ann, who are these people again?",
+                    "choices": [
+                        {
+                            "id": "740012316",
+                            "text": "#I'm {NICKNAME}, and this is Paimon.",
+                            "response": [
+                                {
+                                    "id": "740012317",
+                                    "speaker": "Colonel Kate",
+                                    "text": "#{NICKNAME} and Paimon, hmm? Pleased to make your acquaintance."
+                                },
+                                {
+                                    "id": "740012321",
+                                    "speaker": "Colonel Kate",
+                                    "text": "It's a pleasure to have new blood like you in Kate's Resistance Front. Let us fight for Princess Lyris and the Reconquista!"
+                                },
+                                {
+                                    "id": "740012322",
+                                    "speaker": "Paimon",
+                                    "text": "Kate's Resistance Front, huh. Are you guys the same thing as the Narzissenkreuz Adventure Team?"
+                                },
+                                {
+                                    "id": "740012323",
+                                    "speaker": "Ann",
+                                    "text": "Let me think... \"We are now the same thing,\" is how I would put it."
+                                },
+                                {
+                                    "id": "740012324",
+                                    "speaker": "Colonel Kate",
+                                    "text": "Indeed. We have the same objective and plan of action. It is only because I have more combat experience that I am a colonel with my own force."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "740012318",
+                            "text": "#{NICKNAME}, reporting in!",
+                            "response": [
+                                {
+                                    "id": "740012319",
+                                    "speaker": "Paimon",
+                                    "text": "Paimon, reporting in!"
+                                },
+                                {
+                                    "id": "740012320",
+                                    "speaker": "Colonel Kate",
+                                    "text": "#Very good, {NICKNAME}, Paimon! Very good!"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "7400134",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "740013401",
+                    "speaker": "Ann",
+                    "text": "Since the Bubble Formations are gone, let's head to the little fountain. It's just over there!"
+                }
+            ]
+        },
+        {
+            "id": "7400161",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "740016101",
+                    "speaker": "Player",
+                    "text": "I don't know much about music."
+                }
+            ]
+        },
+        {
+            "id": "7400162",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "740016201",
+                    "speaker": "Player",
+                    "text": "Wonderful. I'm a master musician."
+                }
+            ]
+        },
+        {
+            "id": "7400166",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "740016601",
+                    "speaker": "Colonel Kate",
+                    "text": "We charged bravely into the Bubble Formation!"
+                },
+                {
+                    "id": "740016602",
+                    "speaker": "Paimon",
+                    "text": "Yes, yes, and where's your team?"
+                },
+                {
+                    "id": "740016603",
+                    "speaker": "Colonel Kate",
+                    "text": "..."
+                },
+                {
+                    "id": "740016604",
+                    "speaker": "Colonel Kate",
+                    "text": "We charged bravely into the Bubble Formation! And as for the rest... please, don't ask..."
+                },
+                {
+                    "id": "740016605",
+                    "speaker": "Paimon",
+                    "text": "Looks like Colonel Kate's got problems, too..."
+                },
+                {
+                    "id": "740016606",
+                    "speaker": "Ann",
+                    "text": "Well, he is up against immense firepower... or should I say, waterpower."
+                },
+                {
+                    "id": "740016607",
+                    "speaker": "Ann",
+                    "text": "What's next for you?"
+                },
+                {
+                    "id": "740016608",
+                    "speaker": "Colonel Kate",
+                    "text": "I plan on going behind enemy lines to see what can be done there. After all, it should be quite easy to go up there now that the Bubble Formation has been broken. I mean, I can't lose to some new recruit, can I?",
+                    "choices": [
+                        {
+                            "id": "740016609",
+                            "text": "There's no shame in losing to me...",
+                            "response": [
+                                {
+                                    "id": "740016611",
+                                    "speaker": "Colonel Kate",
+                                    "text": "Hmph! Regardless, I shall return when the sun sinks into the sea, victory in hand! Let us meet again before the high tower."
+                                },
+                                {
+                                    "id": "740016612",
+                                    "speaker": "Black Screen",
+                                    "text": "Colonel Kate bounces away."
+                                },
+                                {
+                                    "id": "740016613",
+                                    "speaker": "Paimon",
+                                    "text": "Wait. There's neither sun nor sea here!"
+                                },
+                                {
+                                    "id": "740016614",
+                                    "speaker": "Ann",
+                                    "text": "Since the Bubble Formations are gone, let's head to the little fountain. It's just over there!"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "740016610",
+                            "text": "This isn't a competition..."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "7400199",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "740019901",
+                    "speaker": "Paimon",
+                    "text": "What is the Narzissenkreuz Adventure Team anyway?"
+                },
+                {
+                    "id": "740019902",
+                    "speaker": "Ann",
+                    "text": "Hmm? Well, after the Narzissenkreuz Kingdom was conquered by Narcissus the fell dragon..."
+                },
+                {
+                    "id": "740019903",
+                    "speaker": "Ann",
+                    "text": "We banded together to rescue Princess Lyris and reclaim the realm. That's the basic answer, anyway."
+                },
+                {
+                    "id": "740019904",
+                    "speaker": "Paimon",
+                    "text": "That doesn't sound basic at all, but we'll talk about that later. We've got people to save first!"
+                },
+                {
+                    "id": "740019905",
+                    "speaker": "Ann",
+                    "text": "That's right. Come with me, this way!"
+                },
+                {
+                    "id": "740019906",
+                    "speaker": "Evil Fang of Narcissus",
+                    "text": "Mwa—hahahah! I have you now, Petit Chou of the Narzissenkreuz Adventure Team!"
+                },
+                {
+                    "id": "740019907",
+                    "speaker": "Petit Chou",
+                    "text": "I—If you don't leave, I'm gonna get serious! Grrr!"
+                },
+                {
+                    "id": "740019908",
+                    "speaker": "Paimon",
+                    "text": "#This reminds Paimon of the time you became a knight, {NICKNAME}. After fighting the dragon, we were sent off to the temples of the Four Winds..."
+                },
+                {
+                    "id": "740019909",
+                    "speaker": "Petit Chou",
+                    "text": "Ooh! To beseech their aid?"
+                },
+                {
+                    "id": "740019910",
+                    "speaker": "Paimon",
+                    "text": "Hmm... Why was that, again? Paimon recalls that we destroyed something inside the temples to decrease the dragon's power..."
+                },
+                {
+                    "id": "740019911",
+                    "speaker": "Ann",
+                    "text": "I see, so they were temples in name, but dens of evil in truth!"
+                },
+                {
+                    "id": "740019912",
+                    "speaker": "Petit Chou",
+                    "text": "Um, were there four temples of the Four Winds, or just one?"
+                },
+                {
+                    "id": "740019913",
+                    "speaker": "Paimon",
+                    "text": "There were three, actually... Huh, why *were* there only three?"
+                },
+                {
+                    "id": "740019914",
+                    "speaker": "Petit Chou",
+                    "text": "That's right. Why three?"
+                },
+                {
+                    "id": "740019915",
+                    "speaker": "Paimon",
+                    "text": "It's been quite a while... There must've been a reason. Paimon just doesn't remember it..."
+                },
+                {
+                    "id": "740019916",
+                    "speaker": "Ann",
+                    "text": "Hmm. That does make sense. The trivial details of a brilliant knight's deeds wouldn't matter much, would they?"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,833 @@
+{
+    "quest": {
+        "id": "10110",
+        "title": "O Segredo de Uma Criança",
+        "description": "Na praça ao pé da Estátua, você e a Paimon encontraram uma menina brincando com um Amigo Imaginário...",
+        "rewards": [
+            {
+                "itemId": 102,
+                "count": 350
+            },
+            {
+                "itemId": 202,
+                "count": 22000
+            },
+            {
+                "itemId": 104003,
+                "count": 2
+            },
+            {
+                "itemId": 104013,
+                "count": 5
+            }
+        ],
+        "rewards_formatted": "EXP de Aventura x350, Mora x22000, EXP do Herói x2, Minério de Refinamento Místico x5",
+        "chapter": {
+            "icon": "UI_ChapterIcon_Venti",
+            "id": "2013",
+            "num": "Capítulo Carmen Dei: Ato I",
+            "title": "Se Você Ficasse Preso Numa Terra sem Vento"
+        },
+        "total_dialogue_lines": 140,
+        "total_speaker_counts": {
+            "Diluc": 5,
+            "Ellin": 19,
+            "Flora": 16,
+            "Kaeya": 5,
+            "Paimon": 40,
+            "Pallad Imprudente": 1,
+            "Player": 31,
+            "Venti": 23
+        }
+    },
+    "talks": [
+        {
+            "id": "1011001",
+            "objective": "Dirija-se a um certo lugar na Praça da Estátua do Deus Anemo",
+            "dialogues": [
+                {
+                    "id": "101100101",
+                    "speaker": "Paimon",
+                    "text": "#Ei, {NICKNAME}, olha ali!"
+                },
+                {
+                    "id": "101100102",
+                    "speaker": "Paimon",
+                    "text": "Ela... Ela está sozinha, né?"
+                },
+                {
+                    "id": "101100103",
+                    "speaker": "Paimon",
+                    "text": "Porque ela está agindo como se estivesse falando e rindo com outra pessoa. Uhhh! Paimon está assustada..."
+                },
+                {
+                    "id": "101100104",
+                    "speaker": "Player",
+                    "text": "Eu também tinha um amigo imaginário quando eu era criança."
+                },
+                {
+                    "id": "101100105",
+                    "speaker": "Paimon",
+                    "text": "#O quê? Quer dizer que você também costumava agir assim, {NICKNAME}?"
+                },
+                {
+                    "id": "101100106",
+                    "speaker": "Paimon",
+                    "text": "Uh... Então isso é... Um amigo invisível que sai com você às vezes? Ou... Eles apenas existem na sua imaginação?",
+                    "choices": [
+                        {
+                            "id": "101100107",
+                            "text": "\"Imaginário\" significa \"na sua imaginação\".",
+                            "response": [
+                                {
+                                    "id": "101100108",
+                                    "speaker": "Paimon",
+                                    "text": "Imaginário... Imaginação..."
+                                },
+                                {
+                                    "id": "101100111",
+                                    "speaker": "Paimon",
+                                    "text": "... Ohh, você quis dizer \"amigo imaginário\", certo? Por que você não disse isso antes!?"
+                                },
+                                {
+                                    "id": "101100112",
+                                    "speaker": "Paimon",
+                                    "text": "Então, esse seu \"amigo imaginário\"... Quando que Paimon vai poder conhecer ele?",
+                                    "choices": [
+                                        {
+                                            "id": "101100113",
+                                            "text": "Nós, errr... Não saímos mais juntos.",
+                                            "response": [
+                                                {
+                                                    "id": "101100115",
+                                                    "speaker": "Paimon",
+                                                    "text": "Ah, sério? Então os amigos imaginários apenas... Desaparecem quando você cresce?",
+                                                    "choices": [
+                                                        {
+                                                            "id": "101100116",
+                                                            "text": "Exatamente, sim.",
+                                                            "response": [
+                                                                {
+                                                                    "id": "101100118",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "#Oh... Paimon estava ansiosa para conhecer {F#seu}{M#sua}... Ei, será que {F#seu irmão}{M#sua irmã} também não tem um amigo imaginário?"
+                                                                },
+                                                                {
+                                                                    "id": "101100119",
+                                                                    "speaker": "Player",
+                                                                    "text": "É claro que sim."
+                                                                },
+                                                                {
+                                                                    "id": "101100120",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "Sem chance! Vocês são tão sortudos..."
+                                                                },
+                                                                {
+                                                                    "id": "101100121",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "Porque eles têm este jogo em Liyue - você já ouviu falar dele? É um jogo para quatro jogadores, mas parece que vocês poderiam jogá-lo só com vocês!"
+                                                                },
+                                                                {
+                                                                    "id": "101100122",
+                                                                    "speaker": "Venti",
+                                                                    "text": "#Viajante! Que bom encontrá-l{M#o}{F#a} aqui."
+                                                                },
+                                                                {
+                                                                    "id": "101100123",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "Bardo Desafinado, o que você está fazendo aqui?"
+                                                                },
+                                                                {
+                                                                    "id": "101100124",
+                                                                    "speaker": "Venti",
+                                                                    "text": "Haha, eu estou aqui porque a Lisa tem feito algumas novas ferramentas interessantes."
+                                                                },
+                                                                {
+                                                                    "id": "101100125",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "Por que pensar nas ferramentas da Lisa deixa Paimon tão nervosa..."
+                                                                },
+                                                                {
+                                                                    "id": "101100126",
+                                                                    "speaker": "Venti",
+                                                                    "text": "Qual é, isso não é maneira de se falar da elegante Srta. Lisa!"
+                                                                },
+                                                                {
+                                                                    "id": "101100127",
+                                                                    "speaker": "Venti",
+                                                                    "text": "Para esta ferramenta específica, Lisa teve que importar alguns materiais perigosos de Sumeru."
+                                                                },
+                                                                {
+                                                                    "id": "101100128",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "P-Perigosos!?",
+                                                                    "choices": [
+                                                                        {
+                                                                            "id": "101100129",
+                                                                            "text": "Um monóculo equipado com algum tipo de... Detector?",
+                                                                            "response": [
+                                                                                {
+                                                                                    "id": "101100130",
+                                                                                    "speaker": "Venti",
+                                                                                    "text": "Isso mesmo! Parece um monóculo, mas na verdade é chamado de \"Detector de Nirnama\"."
+                                                                                },
+                                                                                {
+                                                                                    "id": "101100133",
+                                                                                    "speaker": "Venti",
+                                                                                    "text": "Infelizmente, Lisa não é capaz de usá-lo por conta própria, então estou pedindo emprestado por um tempo. ...E também, estou testando-o para ela, para ver se realmente funciona."
+                                                                                },
+                                                                                {
+                                                                                    "id": "101100134",
+                                                                                    "speaker": "Paimon",
+                                                                                    "text": "Err...? Por que a Lisa não pode usar?"
+                                                                                },
+                                                                                {
+                                                                                    "id": "101100135",
+                                                                                    "speaker": "Venti",
+                                                                                    "text": "Hmm... Talvez seja porque lhe falta um pouco da inocência infantil? Ou talvez haja algum outro motivo para isso."
+                                                                                },
+                                                                                {
+                                                                                    "id": "101100136",
+                                                                                    "speaker": "Venti",
+                                                                                    "text": "Se você quiser saber com certeza, pergunte a ela você mesmo algum dia."
+                                                                                },
+                                                                                {
+                                                                                    "id": "101100137",
+                                                                                    "speaker": "Paimon",
+                                                                                    "text": "Então você consegue vê-los? Vamos lá, conte-nos - como é este amigo imaginário?"
+                                                                                },
+                                                                                {
+                                                                                    "id": "101100138",
+                                                                                    "speaker": "Venti",
+                                                                                    "text": "Haha... Não posso dizer."
+                                                                                },
+                                                                                {
+                                                                                    "id": "101100139",
+                                                                                    "speaker": "Venti",
+                                                                                    "text": "De qualquer forma, agora é todo seu, Viajante. Dê uma olhada, veja se você pode ver o amigo imaginário da Nora."
+                                                                                },
+                                                                                {
+                                                                                    "id": "101100140",
+                                                                                    "speaker": "Paimon",
+                                                                                    "text": "Você consegue vê-los? Você consegue?",
+                                                                                    "choices": [
+                                                                                        {
+                                                                                            "id": "101100141",
+                                                                                            "text": "Uau, funciona mesmo!",
+                                                                                            "response": [
+                                                                                                {
+                                                                                                    "id": "101100143",
+                                                                                                    "speaker": "Venti",
+                                                                                                    "text": "Então, também funciona para você..."
+                                                                                                },
+                                                                                                {
+                                                                                                    "id": "101100144",
+                                                                                                    "speaker": "Paimon",
+                                                                                                    "text": "Paimon quer ver! ... Espera, esta porcaria não está no tamanho da Paimon."
+                                                                                                },
+                                                                                                {
+                                                                                                    "id": "101100145",
+                                                                                                    "speaker": "Paimon",
+                                                                                                    "text": "#Muito bem, então, você terá que ser os olhos da Paimon no chão, {NICKNAME}! Vamos ver como são os amigos imaginários dos <color=#00E1FFFF>outros</color>."
+                                                                                                }
+                                                                                            ]
+                                                                                        },
+                                                                                        {
+                                                                                            "id": "101100142",
+                                                                                            "text": "Sim! Parece que elas são muito boas amigas."
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        {
+                                                                            "id": "101100131",
+                                                                            "text": "Me parece só um monóculo normal.",
+                                                                            "response": [
+                                                                                {
+                                                                                    "id": "101100132",
+                                                                                    "speaker": "Venti",
+                                                                                    "text": "Pois é, né? Aparentemente, porém, é chamado de Detector de Nirnama."
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "id": "101100117",
+                                                            "text": "É uma pena, mas é assim que funciona."
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "101100114",
+                                            "text": "Ele está... Invisível agora."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "101100109",
+                            "text": "\"Na sua imaginação\" significa \"imaginário\".",
+                            "response": [
+                                {
+                                    "id": "101100110",
+                                    "speaker": "Paimon",
+                                    "text": "Imaginação... Imaginário..."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "1011002",
+            "objective": "Se encontrar com Flora",
+            "dialogues": [
+                {
+                    "id": "101100203",
+                    "speaker": "Venti",
+                    "text": "Olha só. Contemplem, um amigo imaginário para a Flora de cabeça flutuante: Uma Semente Flutuante!"
+                },
+                {
+                    "id": "101100204",
+                    "speaker": "Paimon",
+                    "text": "Espera aí, amigos imaginários podem ser plantas agora!?"
+                },
+                {
+                    "id": "101100205",
+                    "speaker": "Flora",
+                    "text": "Hehehehe, olá Viajante. Olá Bardo.",
+                    "choices": [
+                        {
+                            "id": "101100206",
+                            "text": "Oi Flora. Posso te fazer uma pergunta?",
+                            "response": [
+                                {
+                                    "id": "101100208",
+                                    "speaker": "Flora",
+                                    "text": "Claro. Como posso ajudar?",
+                                    "choices": [
+                                        {
+                                            "id": "101100209",
+                                            "text": "Quem é seu... Amigo?",
+                                            "response": [
+                                                {
+                                                    "id": "101100210",
+                                                    "speaker": "Flora",
+                                                    "text": "Hmm? Oh, você quer dizer o Sr. Flutuante? A maioria das pessoas não conseguem vê-lo."
+                                                },
+                                                {
+                                                    "id": "101100211",
+                                                    "speaker": "Flora",
+                                                    "text": "O Sr.Flutuante é o meu melhor amigo. Nós crescemos juntos."
+                                                },
+                                                {
+                                                    "id": "101100216",
+                                                    "speaker": "Paimon",
+                                                    "text": "(Hunf. Não é justo! Paimon odeia se sentir excluída...)"
+                                                },
+                                                {
+                                                    "id": "101100217",
+                                                    "speaker": "Venti",
+                                                    "text": "Flora... Por que exatamente seu amigo é uma semente flutuante?"
+                                                },
+                                                {
+                                                    "id": "101100218",
+                                                    "speaker": "Flora",
+                                                    "text": "O que tem de errado nisso? Eu sempre quis ser amigo de uma planta que pudesse voar."
+                                                },
+                                                {
+                                                    "id": "101100219",
+                                                    "speaker": "Paimon",
+                                                    "text": "Amigo de uma planta voadora? Por quê?"
+                                                },
+                                                {
+                                                    "id": "101100220",
+                                                    "speaker": "Flora",
+                                                    "text": "Hehehe, porque então quando estiver ventando, você e seu amigo podem voar juntos para o céu! Você tem que admitir que isso é muito legal."
+                                                },
+                                                {
+                                                    "id": "101100221",
+                                                    "speaker": "Paimon",
+                                                    "text": "... Não é isso que se chama \"ser levado pelo vento\"?"
+                                                },
+                                                {
+                                                    "id": "101100222",
+                                                    "speaker": "Flora",
+                                                    "text": "Hehehe, é assim que algumas pessoas gostam de chamar."
+                                                },
+                                                {
+                                                    "id": "101100223",
+                                                    "speaker": "Flora",
+                                                    "text": "Só descobri que esta planta existia de um explorador que me contou histórias de suas aventuras."
+                                                },
+                                                {
+                                                    "id": "101100224",
+                                                    "speaker": "Flora",
+                                                    "text": "Acho que seu nome era... Stanley!",
+                                                    "choices": [
+                                                        {
+                                                            "id": "101100225",
+                                                            "text": "Oh, eu conheço o Stanley.",
+                                                            "response": [
+                                                                {
+                                                                    "id": "101100227",
+                                                                    "speaker": "Flora",
+                                                                    "text": "O Stanley é um aventureiro."
+                                                                },
+                                                                {
+                                                                    "id": "101100228",
+                                                                    "speaker": "Flora",
+                                                                    "text": "E você pode dizer que ele é um especialista nisso a partir das histórias que ele conta! Hehehe."
+                                                                },
+                                                                {
+                                                                    "id": "101100229",
+                                                                    "speaker": "Flora",
+                                                                    "text": "\"A Aventura Fantástica do Stanley\" é super famosa em Mondstadt!"
+                                                                },
+                                                                {
+                                                                    "id": "101100230",
+                                                                    "speaker": "Flora",
+                                                                    "text": "Ele está na cidade no momento. Você deveria ir pedir a ele que lhe contasse algumas de suas histórias."
+                                                                },
+                                                                {
+                                                                    "id": "101100231",
+                                                                    "speaker": "Venti",
+                                                                    "text": "Isso parece uma ideia divertida para a próxima vez! Mas neste momento temos outras coisas a tratar..."
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "id": "101100226",
+                                                            "text": "Não é alguém que conheço."
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "101100212",
+                                            "text": "Vocês dois são da família, ou...?",
+                                            "response": [
+                                                {
+                                                    "id": "101100213",
+                                                    "speaker": "Flora",
+                                                    "text": "Hehehe, você se refere a mim e ao Sr.Flutuante?"
+                                                },
+                                                {
+                                                    "id": "101100214",
+                                                    "speaker": "Flora",
+                                                    "text": "O Sr.Flutuante é o meu melhor amigo. Nós vivemos juntos."
+                                                },
+                                                {
+                                                    "id": "101100215",
+                                                    "speaker": "Flora",
+                                                    "text": "Diga olá, Sr. Flutuante! Eles conseguem ver você."
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "101100207",
+                            "text": "Olá. Você tem um minuto?"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "1011003",
+            "objective": "Ir ver o Timmie",
+            "dialogues": [
+                {
+                    "id": "101100304",
+                    "speaker": "Paimon",
+                    "text": "S-Sem chance!"
+                },
+                {
+                    "id": "101100305",
+                    "speaker": "Venti",
+                    "text": "Bem. Isso foi... Inesperado."
+                },
+                {
+                    "id": "101100306",
+                    "speaker": "Paimon",
+                    "text": "O amigo imaginário do Timmie é um Guarda das Ruínas!?",
+                    "choices": [
+                        {
+                            "id": "101100307",
+                            "text": "Eu estou... Vendo coisas...?",
+                            "response": [
+                                {
+                                    "id": "101100309",
+                                    "speaker": "Paimon",
+                                    "text": "Paimon está assustada agora mesmo... Essa coisa com certeza vai nos atacar!"
+                                },
+                                {
+                                    "id": "101100310",
+                                    "speaker": "Venti",
+                                    "text": "Haha... O que diz de adiarmos nossa conversa com o Timmie por enquanto?",
+                                    "choices": [
+                                        {
+                                            "id": "101100311",
+                                            "text": "Paimon, é hora de dizer sua frase.",
+                                            "response": [
+                                                {
+                                                    "id": "101100313",
+                                                    "speaker": "Paimon",
+                                                    "text": "Hã? Paimon tem uma frase favorita?"
+                                                },
+                                                {
+                                                    "id": "101100314",
+                                                    "speaker": "Player",
+                                                    "text": "Aquela sobre explorar a área à nossa frente, mais tarde."
+                                                },
+                                                {
+                                                    "id": "101100315",
+                                                    "speaker": "Paimon",
+                                                    "text": "Sério? Oh, tudo bem então..."
+                                                },
+                                                {
+                                                    "id": "101100316",
+                                                    "speaker": "Paimon",
+                                                    "text": "Que tal explorarmos a área à nossa frente mais tarde?"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "101100312",
+                                            "text": "Aquela frase que você gosta tanto de dizer."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "101100308",
+                            "text": "Já ouvi falar de \"anjo da guarda\", mas qual é..."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "1011004",
+            "objective": "Veja os adultos na taverna",
+            "dialogues": [
+                {
+                    "id": "101100404",
+                    "speaker": "Kaeya",
+                    "text": "O segredo do vinho é que você tem que beber na própria taverna ou você perde parte da diversão."
+                },
+                {
+                    "id": "101100405",
+                    "speaker": "Diluc",
+                    "text": "Me parece que você descobriria alguma forma de se manter entretido mesmo que beba sozinho."
+                },
+                {
+                    "id": "101100406",
+                    "speaker": "Kaeya",
+                    "text": "Haha, se eu não te conhecesse bem eu diria que você está sendo deliberadamente indelicado."
+                },
+                {
+                    "id": "101100407",
+                    "speaker": "Diluc",
+                    "text": "Apenas... Beba com responsabilidade em minhas propriedades, está bem?"
+                },
+                {
+                    "id": "101100408",
+                    "speaker": "Kaeya",
+                    "text": "E se eu bebesse um pouco a mais, o que aconteceria? Você me jogaria fora junto com o lixo, é isso?"
+                },
+                {
+                    "id": "101100409",
+                    "speaker": "Diluc",
+                    "text": "\"Jogar você fora\"?"
+                },
+                {
+                    "id": "101100410",
+                    "speaker": "Kaeya",
+                    "text": "Você sabe... Da mesma forma que você jogou fora o legado do pai? Você vendeu a mansão dele - ou talvez tenha esquecido?"
+                },
+                {
+                    "id": "101100411",
+                    "speaker": "Diluc",
+                    "text": "Não vejo razão para apegar-se a coisas que ultrapassaram seu propósito."
+                },
+                {
+                    "id": "101100412",
+                    "speaker": "Kaeya",
+                    "text": "É verdade? Então confio que você foi bem rápido em se livrar de um certo vaso?"
+                },
+                {
+                    "id": "101100413",
+                    "speaker": "Diluc",
+                    "text": "Desculpe, não me recordo."
+                },
+                {
+                    "id": "101100414",
+                    "speaker": "Pallad Imprudente",
+                    "text": "Isso é estranho, porque o Mestre Diluc definitivamente tem um vaso em casa - muito bonito, inconfundível, na verdade..."
+                },
+                {
+                    "id": "101100415",
+                    "speaker": "Paimon",
+                    "text": "Parece que nossas suspeitas estavam certas... Os adultos não parecem ter amigos imaginários."
+                },
+                {
+                    "id": "101100416",
+                    "speaker": "Venti",
+                    "text": "Como eu disse - a falta da imaginação infantil."
+                },
+                {
+                    "id": "101100417",
+                    "speaker": "Player",
+                    "text": "Parece que os adultos são os mesmos em todos os lugares."
+                },
+                {
+                    "id": "101100418",
+                    "speaker": "Paimon",
+                    "text": "Então as pessoas simplesmente param de sonhar quando crescem? Certo, então, Paimon portanto nunca quer crescer!"
+                },
+                {
+                    "id": "101100419",
+                    "speaker": "Venti",
+                    "text": "Hmm... Isto levanta uma questão interessante: Com que idade, exatamente, os amigos imaginários das pessoas desaparecem?"
+                },
+                {
+                    "id": "101100420",
+                    "speaker": "Venti",
+                    "text": "Vamos... Ir e conferir."
+                }
+            ]
+        },
+        {
+            "id": "1011005",
+            "objective": "Ver como Ellin está",
+            "dialogues": [
+                {
+                    "id": "101100703",
+                    "speaker": "Paimon",
+                    "text": "Jean! O que a Jean está fazendo aqui?"
+                },
+                {
+                    "id": "101100704",
+                    "speaker": "Paimon",
+                    "text": "A amiga imaginária da Ellin é a Mestre Jean?",
+                    "choices": [
+                        {
+                            "id": "101100705",
+                            "text": "Ellin é uma criança responsável.",
+                            "response": [
+                                {
+                                    "id": "101100706",
+                                    "speaker": "Paimon",
+                                    "text": "Então ela está tão determinada a se tornar uma cavaleira que ela... Ok, isso é meio estranho."
+                                },
+                                {
+                                    "id": "101100709",
+                                    "speaker": "Ellin",
+                                    "text": "Hmm? Oh, olá. O que vocês estão fazendo?"
+                                },
+                                {
+                                    "id": "101100710",
+                                    "speaker": "Paimon",
+                                    "text": "Você está sempre treinando aqui?"
+                                },
+                                {
+                                    "id": "101100711",
+                                    "speaker": "Ellin",
+                                    "text": "Pode apostar. Hoje, ouvi Stanley falar de suas aventuras. Foi incrível! Me deixou muito entusiasmada."
+                                },
+                                {
+                                    "id": "101100712",
+                                    "speaker": "Ellin",
+                                    "text": "Espero que um dia eu possa ser tão extraordinária quanto ele."
+                                },
+                                {
+                                    "id": "101100713",
+                                    "speaker": "Venti",
+                                    "text": "Para que você possa lutar lado a lado com a Mestre Jean?"
+                                },
+                                {
+                                    "id": "101100714",
+                                    "speaker": "Ellin",
+                                    "text": "Q-Quero dizer, eu obviamente quero me tornar uma cavaleira! ...E se pudesse me aventurar com a própria Jean... Bem, seria ainda melhor!"
+                                },
+                                {
+                                    "id": "101100715",
+                                    "speaker": "Paimon",
+                                    "text": "A Ellin realmente admira a Jean...",
+                                    "choices": [
+                                        {
+                                            "id": "101100716",
+                                            "text": "Não tem nada de errado nisso.",
+                                            "response": [
+                                                {
+                                                    "id": "101100718",
+                                                    "speaker": "Ellin",
+                                                    "text": "Obrigada!"
+                                                },
+                                                {
+                                                    "id": "101100719",
+                                                    "speaker": "Ellin",
+                                                    "text": "#Eu estava pensando, não é todos os dias que eu saio com {M#o}{F#a} Cavaleir{M#o}{F#a} Honorável... Você se juntaria a mim para um <color=#00E1FFFF>treinamento com espada</color>?"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "101100717",
+                                            "text": "Acredito que você conseguirá, Ellin."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "101100707",
+                            "text": "A Ellin está realmente determinada a se tornar uma cavaleira.",
+                            "response": [
+                                {
+                                    "id": "101100708",
+                                    "speaker": "Paimon",
+                                    "text": "Sim, ela é tão responsável que eu... me assustei!"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "1011010",
+            "objective": "Destrua todos os bonecos de treino",
+            "dialogues": []
+        },
+        {
+            "id": "1011007",
+            "objective": "",
+            "dialogues": [
+                {
+                    "id": "101100701",
+                    "speaker": "Venti",
+                    "text": "Hmm... E quanto a <color=#00E1FFFF>Ellin</color>? Alguém da idade dela certamente deve ter um pouco de imaginação restante, não acha?"
+                }
+            ]
+        },
+        {
+            "id": "1011008",
+            "objective": "Destrua todos os bonecos de treino",
+            "dialogues": []
+        },
+        {
+            "id": "1011009",
+            "objective": "Fale com Ellin",
+            "dialogues": [
+                {
+                    "id": "101100901",
+                    "speaker": "Ellin",
+                    "text": "Ufa! Obrigada, está claro que ainda tenho um longo caminho a percorrer no meu treinamento."
+                },
+                {
+                    "id": "101100902",
+                    "speaker": "Venti",
+                    "text": "Tão modesta! Eu, por exemplo, acho que você já é uma grande profissional nisto."
+                },
+                {
+                    "id": "101100903",
+                    "speaker": "Ellin",
+                    "text": "Bem, estou exausta do treinamento, então claramente minha condição física precisa de algum trabalho. Um dia, porém... Esmagarei todos os manequins de treinamento em Mondstadt..."
+                },
+                {
+                    "id": "101100904",
+                    "speaker": "Paimon",
+                    "text": "Ellin, Ellin, ela é nossa garota! Se ela não consegue fazer isso... Err... Hilichurl!"
+                },
+                {
+                    "id": "101100905",
+                    "speaker": "Ellin",
+                    "text": "Obrigada... Droga, fiquei tão envolvida aqui que esqueci que havia algo que eu deveria ter feito hoje!"
+                },
+                {
+                    "id": "101100906",
+                    "speaker": "Ellin",
+                    "text": "Ugh... Mas estou tão dolorida com o treinamento, que mal consigo me mover..."
+                },
+                {
+                    "id": "101100907",
+                    "speaker": "Ellin",
+                    "text": "#Cavaleir{M#o}{F#a} Honorável, você poderia entregar uma mensagem ao Jack para mim?",
+                    "choices": [
+                        {
+                            "id": "101100908",
+                            "text": "Quem é Jack?",
+                            "response": [
+                                {
+                                    "id": "101100909",
+                                    "speaker": "Ellin",
+                                    "text": "Ele é um amigo meu. Recentemente começou como um aventureiro."
+                                },
+                                {
+                                    "id": "101100910",
+                                    "speaker": "Ellin",
+                                    "text": "Íamos nos reunir esta noite e discutir planos de aventura... Você poderia avisá-lo que terá que ser em outro dia?"
+                                },
+                                {
+                                    "id": "101100911",
+                                    "speaker": "Ellin",
+                                    "text": "Se não estou enganada, você deverá encontrá-lo no <color=#00E1FFFF>Templo do Leão</color>. Ele está se aventurando com o Stanley hoje."
+                                },
+                                {
+                                    "id": "101100912",
+                                    "speaker": "Ellin",
+                                    "text": "Stanley é um aventureiro verdadeiramente lendário, reconhecido em toda a cidade de Mondstadt. Ele uma vez pôs os pés no Mare Jivari."
+                                },
+                                {
+                                    "id": "101100917",
+                                    "speaker": "Player",
+                                    "text": "Templo do Leão? Claro, tenho saudades daquele lugar!"
+                                },
+                                {
+                                    "id": "101100918",
+                                    "speaker": "Ellin",
+                                    "text": "Ótimo! Muito obrigada."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "101100913",
+                            "text": "Claro. Onde posso encontrá-lo?",
+                            "response": [
+                                {
+                                    "id": "101100914",
+                                    "speaker": "Ellin",
+                                    "text": "Ele foi se aventurar no <color=#00E1FFFF>Templo do Leão</color> com o Stanley hoje."
+                                },
+                                {
+                                    "id": "101100915",
+                                    "speaker": "Ellin",
+                                    "text": "Stanley é um aventureiro verdadeiramente lendário, reconhecido em toda a cidade de Mondstadt. Ele uma vez pôs os pés no Mare Jivari."
+                                },
+                                {
+                                    "id": "101100916",
+                                    "speaker": "Ellin",
+                                    "text": "Íamos nos reunir esta noite e discutir planos de aventura... Você poderia avisá-lo que terá que ser em outro dia?"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

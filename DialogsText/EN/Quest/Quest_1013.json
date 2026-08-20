@@ -1,0 +1,980 @@
+{
+    "quest": {
+        "id": "1013",
+        "title": "Downtown",
+        "description": "Who would have guessed — Madame Ping is an adeptus! After leaving her household, which turned out to be a realm within a teapot, you proceed to Chihu Rock to continue preparations.",
+        "rewards": [
+            {
+                "itemId": 102,
+                "count": 575
+            },
+            {
+                "itemId": 201,
+                "count": 30
+            },
+            {
+                "itemId": 202,
+                "count": 19800
+            },
+            {
+                "itemId": 104002,
+                "count": 7
+            },
+            {
+                "itemId": 104013,
+                "count": 4
+            }
+        ],
+        "rewards_formatted": "Adventure EXP x575, Primogem x30, Mora x19800, Adventurer's Experience x7, Mystic Enhancement Ore x4",
+        "chapter": {
+            "icon": "UI_ChapterIcon_Liyue",
+            "id": "1102",
+            "num": "Chapter I: Act II",
+            "title": "Farewell, Archaic Lord"
+        },
+        "total_dialogue_lines": 145,
+        "total_speaker_counts": {
+            "Childe": 16,
+            "Granny Shan": 8,
+            "Paimon": 20,
+            "Player": 27,
+            "Tac": 17,
+            "Tic": 19,
+            "Toe": 17,
+            "Zhongli": 21
+        }
+    },
+    "talks": [
+        {
+            "id": "101301",
+            "objective": "Go and buy kites",
+            "dialogues": [
+                {
+                    "id": "10130101",
+                    "speaker": "Granny Shan",
+                    "text": "Ah, sir, you're here. The seven kites you asked for have been made to order. Would you like to take them now?"
+                },
+                {
+                    "id": "10130102",
+                    "speaker": "Zhongli",
+                    "text": "Yes. Thank you."
+                },
+                {
+                    "id": "10130103",
+                    "speaker": "Granny Shan",
+                    "text": "It's rare to see customers who want to buy this type of kite nowadays. In the early days, we used to get orders from people of all walks of life..."
+                },
+                {
+                    "id": "10130104",
+                    "speaker": "Paimon",
+                    "text": "Well, this is Mr. Zhongli from the Wangsheng Funeral Parlor, so he's probably well-versed in all these walks of life."
+                },
+                {
+                    "id": "10130105",
+                    "speaker": "Paimon",
+                    "text": "We've talked about a whole bunch of things while traveling with him...",
+                    "choices": [
+                        {
+                            "id": "10130106",
+                            "text": "Fashion, economics, jewelry and jade pottery...",
+                            "response": [
+                                {
+                                    "id": "10130108",
+                                    "speaker": "Paimon",
+                                    "text": "He seems to know Liyue's favorite topics, money and government, really well, but he likes talking about less useful topics instead."
+                                },
+                                {
+                                    "id": "10130109",
+                                    "speaker": "Zhongli",
+                                    "text": "Well, that's because I prefer to share fun things with you."
+                                },
+                                {
+                                    "id": "10130110",
+                                    "speaker": "Granny Shan",
+                                    "text": "Children's toys are very fun things, that's for sure. I enjoy watching the children at play as much as anyone else. But there is more to it than that."
+                                },
+                                {
+                                    "id": "10130111",
+                                    "speaker": "Granny Shan",
+                                    "text": "Finely crafted toys are well-loved by children. But this craft itself has been honed over thousands of years, and there is meaning behind that."
+                                },
+                                {
+                                    "id": "10130112",
+                                    "speaker": "Granny Shan",
+                                    "text": "I have made kites in Liyue for forty years, and I am intimately familiar with the forms passed down from my ancestors. The meaning of these seven kites is far from banal."
+                                },
+                                {
+                                    "id": "10130113",
+                                    "speaker": "Zhongli",
+                                    "text": "Indeed. These are decorations used in the Rite of Parting. The seven kites represent The Seven."
+                                },
+                                {
+                                    "id": "10130114",
+                                    "speaker": "Granny Shan",
+                                    "text": "I took the liberty of coloring outside the lines when doing the insignia of the Anemo Archon."
+                                },
+                                {
+                                    "id": "10130115",
+                                    "speaker": "Granny Shan",
+                                    "text": "As for the kite that honors the Geo Archon, one must follow the contract given right down to the last letter. These patterns are ancient, and you can also find them in the Golden House."
+                                },
+                                {
+                                    "id": "10130116",
+                                    "speaker": "Paimon",
+                                    "text": "Ah, Paimon's heard that name before—",
+                                    "choices": [
+                                        {
+                                            "id": "10130117",
+                                            "text": "Shh!",
+                                            "response": [
+                                                {
+                                                    "id": "10130119",
+                                                    "speaker": "Paimon",
+                                                    "text": "Huh?"
+                                                },
+                                                {
+                                                    "id": "10130120",
+                                                    "speaker": "Zhongli",
+                                                    "text": "The design of this kite displays a firm grasp on the cyclicality and eternity so dear to the Electro Archon."
+                                                },
+                                                {
+                                                    "id": "10130121",
+                                                    "speaker": "Zhongli",
+                                                    "text": "These markings of tree and leaf pay due honor to wisdom and the passage of time. All this, on a single kite — truly astonishing."
+                                                },
+                                                {
+                                                    "id": "10130122",
+                                                    "speaker": "Zhongli",
+                                                    "text": "Justice flows across the surface of the waters, war rages like a flame, as does that which the Cryo Archon once... yes, these details are masterfully done."
+                                                },
+                                                {
+                                                    "id": "10130123",
+                                                    "speaker": "Granny Shan",
+                                                    "text": "Hehehe, the compliments of a learned man truly are pleasant."
+                                                },
+                                                {
+                                                    "id": "10130124",
+                                                    "speaker": "Zhongli",
+                                                    "text": "Well then, Granny Shan, I shall take these back with me. As for the payment...",
+                                                    "choices": [
+                                                        {
+                                                            "id": "10130125",
+                                                            "text": "Uh-oh!",
+                                                            "response": [
+                                                                {
+                                                                    "id": "10130127",
+                                                                    "speaker": "Childe",
+                                                                    "text": "Well, allow me."
+                                                                },
+                                                                {
+                                                                    "id": "10130128",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "Hey, it's Childe!",
+                                                                    "choices": [
+                                                                        {
+                                                                            "id": "10130129",
+                                                                            "text": "Did you arrange to meet here?",
+                                                                            "response": [
+                                                                                {
+                                                                                    "id": "10130130",
+                                                                                    "speaker": "Childe",
+                                                                                    "text": "Haha. No, I was merely passing through."
+                                                                                },
+                                                                                {
+                                                                                    "id": "10130133",
+                                                                                    "speaker": "Childe",
+                                                                                    "text": "I see Mr. Zhongli's the same as ever. When paying— Well, when getting others to pay for him, he neither looks at the price tag nor his wallet."
+                                                                                },
+                                                                                {
+                                                                                    "id": "10130134",
+                                                                                    "speaker": "Childe",
+                                                                                    "text": "He knows a great deal about money, and about the trials of the common man. He just doesn't consider poverty to be something that could ever happen to him."
+                                                                                },
+                                                                                {
+                                                                                    "id": "10130135",
+                                                                                    "speaker": "Childe",
+                                                                                    "text": "Or perhaps you could say that he cannot imagine himself lacking money."
+                                                                                },
+                                                                                {
+                                                                                    "id": "10130136",
+                                                                                    "speaker": "Paimon",
+                                                                                    "text": "How has he not died of hunger yet?"
+                                                                                },
+                                                                                {
+                                                                                    "id": "10130137",
+                                                                                    "speaker": "Zhongli",
+                                                                                    "text": "...Childe, you are as fond of jokes as ever. Well then, since we've purchased our kites without incident, there's no need to take a break before moving to the next step in our preparations."
+                                                                                },
+                                                                                {
+                                                                                    "id": "10130138",
+                                                                                    "speaker": "Zhongli",
+                                                                                    "text": "The Rite of Parting requires helping hands as well as materials. We should be able to find some people near the harbor."
+                                                                                },
+                                                                                {
+                                                                                    "id": "10130139",
+                                                                                    "speaker": "Childe",
+                                                                                    "text": "#Oh, by the way, {NICKNAME}, take this bag of money. You probably won't want to let Zhongli do the bargaining, if you know what I mean."
+                                                                                },
+                                                                                {
+                                                                                    "id": "10130140",
+                                                                                    "speaker": "Childe",
+                                                                                    "text": "Hmm... It seems I missed out on some interesting information."
+                                                                                },
+                                                                                {
+                                                                                    "id": "10130141",
+                                                                                    "speaker": "Childe",
+                                                                                    "text": "...I suppose I'll just have to find a more opportune moment next time."
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        {
+                                                                            "id": "10130131",
+                                                                            "text": "You ambushed us!",
+                                                                            "response": [
+                                                                                {
+                                                                                    "id": "10130132",
+                                                                                    "speaker": "Childe",
+                                                                                    "text": "Haha, no way. I was just passing through!"
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "id": "10130126",
+                                                            "text": "\"As for the payment,\" he says!"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "10130118",
+                                            "text": "Paimon, stop talking..."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "10130107",
+                            "text": "Tea, perfumes, flora and fauna..."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "101303",
+            "objective": "",
+            "dialogues": [
+                {
+                    "id": "10130301",
+                    "speaker": "Tic",
+                    "text": "Oh? Help? Sure! I, Tic, always put in one hundred percent effort into everything I do! Of course, there'll be a premium if you want me to give a hundred and ten percent."
+                },
+                {
+                    "id": "10130302",
+                    "speaker": "Tic",
+                    "text": "So, what's the job?"
+                },
+                {
+                    "id": "10130303",
+                    "speaker": "Zhongli",
+                    "text": "Let me see... we are still missing some wooden implements over at Yujing Terrace. They aren't uncommon objects, so I didn't make any special preparations for them."
+                },
+                {
+                    "id": "10130304",
+                    "speaker": "Player",
+                    "text": "Fetch me 50 tree branches, and 20 stacks of timber!"
+                },
+                {
+                    "id": "10130305",
+                    "speaker": "Tic",
+                    "text": "No problem. That'll be <color=#00E1FFFF>twenty thousand Mora</color> for a single trip. How does that sound?"
+                },
+                {
+                    "id": "10130306",
+                    "speaker": "Zhongli",
+                    "text": "Done.",
+                    "choices": [
+                        {
+                            "id": "10130307",
+                            "text": "Wait, let's talk prices."
+                        },
+                        {
+                            "id": "10130308",
+                            "text": "We have a deal."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "101321",
+            "objective": "Find the three workers",
+            "dialogues": []
+        },
+        {
+            "id": "101304",
+            "objective": "Talk to Tic",
+            "dialogues": [
+                {
+                    "id": "10130401",
+                    "speaker": "Tic",
+                    "text": "You're mad! And to think I was so willing to bargain, too! Twenty thousand Mora, and not one Mora less! If not, the deal's off!"
+                },
+                {
+                    "id": "10130402",
+                    "speaker": "Paimon",
+                    "text": "#Hey, don't get mad... Ah, guess we have no choice but to pay in full, {NICKNAME}."
+                }
+            ]
+        },
+        {
+            "id": "101305",
+            "objective": "Find a Qingxin flower",
+            "dialogues": [
+                {
+                    "id": "10130501",
+                    "speaker": "Tic",
+                    "text": "Oh? Help? Sure! I, Tic, always put in one hundred percent effort into everything I do! Of course, there'll be a premium if you want me to give a hundred and ten percent."
+                },
+                {
+                    "id": "10130502",
+                    "speaker": "Tic",
+                    "text": "So, what's the job?"
+                },
+                {
+                    "id": "10130503",
+                    "speaker": "Zhongli",
+                    "text": "Let me see... we are still missing some wooden implements over at Yujing Terrace. They aren't uncommon objects, so I didn't make any special preparations for them."
+                },
+                {
+                    "id": "10130504",
+                    "speaker": "Player",
+                    "text": "Fetch me 50 tree branches, and 20 stacks of timber!"
+                },
+                {
+                    "id": "10130505",
+                    "speaker": "Tic",
+                    "text": "No problem. That'll be <color=#00E1FFFF>twenty thousand Mora</color> for a single trip. How does that sound?"
+                },
+                {
+                    "id": "10130506",
+                    "speaker": "Zhongli",
+                    "text": "Done."
+                },
+                {
+                    "id": "10130507",
+                    "speaker": "Player",
+                    "text": "Ugh, we brought too little money..."
+                },
+                {
+                    "id": "10130508",
+                    "speaker": "Tic",
+                    "text": "This is all you've got? Then no can do."
+                },
+                {
+                    "id": "10130509",
+                    "speaker": "Player",
+                    "text": "Please go look for someone named Childe..."
+                },
+                {
+                    "id": "10130510",
+                    "speaker": "Tic",
+                    "text": "Childe? No, no, no. He's putting up the money? Still, no. Wouldn't that mean that I have to make two trips rather than one?"
+                },
+                {
+                    "id": "10130511",
+                    "speaker": "Tic",
+                    "text": "How about this. Let's make a trade. I'll take what you're offering right now, and..."
+                },
+                {
+                    "id": "10130512",
+                    "speaker": "Tic",
+                    "text": "Get me a single <color=#00E1FFFF>Qingxin flower</color>, and I'll consider that payment for a detour to find this Childe fellow. How does that sound?"
+                },
+                {
+                    "id": "10130513",
+                    "speaker": "Paimon",
+                    "text": "Guess we've got no choice."
+                }
+            ]
+        },
+        {
+            "id": "101306",
+            "objective": "Give the Qingxin flower to Tic",
+            "dialogues": [
+                {
+                    "id": "10139301",
+                    "speaker": "Tic",
+                    "text": "Have you brought the goods?"
+                },
+                {
+                    "id": "10139302",
+                    "speaker": "Tic",
+                    "text": "Hey, that's pretty good. These things are pretty rare, and I have no idea where I'd find them."
+                },
+                {
+                    "id": "10139303",
+                    "speaker": "Tic",
+                    "text": "With this Qingxin flower, I should be able to pacify my daughter tonight. I'll make sure the work is done before I return home."
+                }
+            ]
+        },
+        {
+            "id": "101307",
+            "objective": "",
+            "dialogues": [
+                {
+                    "id": "10130701",
+                    "speaker": "Tac",
+                    "text": "A full day of odd jobs at Yujing Terrace? Hmm... No problem. <color=#00E1FFFF>Twenty-five thousand</color> per day. A fair trade, yes?"
+                },
+                {
+                    "id": "10130702",
+                    "speaker": "Paimon",
+                    "text": "Whoa, that's expensive. Um, could you give us a bit of a discount on account of the whole Hero of Mondstadt thing?"
+                },
+                {
+                    "id": "10130703",
+                    "speaker": "Tac",
+                    "text": "Hero of Mondstadt? Never heard of them."
+                },
+                {
+                    "id": "10130704",
+                    "speaker": "Zhongli",
+                    "text": "Well, you may never have heard of this hero, but it seems you've heard of Mora nonetheless, thus I will simply pay the whole sum.",
+                    "choices": [
+                        {
+                            "id": "10130705",
+                            "text": "Wait, let's talk prices."
+                        },
+                        {
+                            "id": "10130706",
+                            "text": "We'll pay in full."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "101322",
+            "objective": "Find the three workers",
+            "dialogues": []
+        },
+        {
+            "id": "101308",
+            "objective": "Talk to Tac",
+            "dialogues": [
+                {
+                    "id": "10130801",
+                    "speaker": "Tac",
+                    "text": "That's enough! I'm done! Twenty-five thousand, and not a Mora less! Take it or leave it!"
+                },
+                {
+                    "id": "10130802",
+                    "speaker": "Paimon",
+                    "text": "#Hey, don't get mad... Ah, guess we have no choice but to pay in full, {NICKNAME}."
+                }
+            ]
+        },
+        {
+            "id": "101309",
+            "objective": "Find a Lotus Head",
+            "dialogues": [
+                {
+                    "id": "10130901",
+                    "speaker": "Tac",
+                    "text": "A full day of odd jobs at Yujing Terrace? Hmm... No problem. <color=#00E1FFFF>Twenty-five thousand</color> per day. A fair trade, yes?"
+                },
+                {
+                    "id": "10130902",
+                    "speaker": "Paimon",
+                    "text": "Whoa, that's expensive. Um, could you give us a bit of a discount on account of the whole Hero of Mondstadt thing?"
+                },
+                {
+                    "id": "10130903",
+                    "speaker": "Tac",
+                    "text": "Hero of Mondstadt? Never heard of them."
+                },
+                {
+                    "id": "10130904",
+                    "speaker": "Zhongli",
+                    "text": "Well, you may never have heard of this hero, but it seems you've heard of Mora nonetheless, thus I will simply pay the whole sum."
+                },
+                {
+                    "id": "10130905",
+                    "speaker": "Player",
+                    "text": "Ugh, we brought too little money..."
+                },
+                {
+                    "id": "10130906",
+                    "speaker": "Tac",
+                    "text": "This is all you've got? Then no can do."
+                },
+                {
+                    "id": "10130907",
+                    "speaker": "Player",
+                    "text": "Please go look for someone named Childe..."
+                },
+                {
+                    "id": "10130908",
+                    "speaker": "Tac",
+                    "text": "Childe? No, no, no. He's putting up the money? Still, no. Wouldn't that mean that I have to make two trips rather than one?"
+                },
+                {
+                    "id": "10130909",
+                    "speaker": "Tac",
+                    "text": "How about this. Let's make a trade. I'll take what you're offering right now, and..."
+                },
+                {
+                    "id": "10130910",
+                    "speaker": "Tac",
+                    "text": "Find me a high-quality <color=#00E1FFFF>Lotus Head</color>. I'll consider that my detour fee paid, and go find what's-his-face Childe. How about it?"
+                },
+                {
+                    "id": "10130911",
+                    "speaker": "Paimon",
+                    "text": "Guess we've got no choice."
+                }
+            ]
+        },
+        {
+            "id": "101310",
+            "objective": "Give the Lotus Head to Tac",
+            "dialogues": [
+                {
+                    "id": "10138601",
+                    "speaker": "Tac",
+                    "text": "Have you brought the goods?"
+                },
+                {
+                    "id": "10138602",
+                    "speaker": "Tac",
+                    "text": "Oh, that looks good. I'm hitting the kitchen tonight, and it's not often that I get to use such fresh and high-end ingredients..."
+                },
+                {
+                    "id": "10138603",
+                    "speaker": "Tac",
+                    "text": "Well, I'll head to Yujing Terrace in a moment. I won't be late!"
+                }
+            ]
+        },
+        {
+            "id": "101311",
+            "objective": "",
+            "dialogues": [
+                {
+                    "id": "10131101",
+                    "speaker": "Toe",
+                    "text": "Hiring help? Sure, but let me just say first that I'm a reserve member of the Adventurers' Guild. I take adventuring commissions, but I don't do anything clerical."
+                },
+                {
+                    "id": "10131102",
+                    "speaker": "Zhongli",
+                    "text": "Adventure... venturing into the mountains to capture a few crystalflies seems adventurous enough."
+                },
+                {
+                    "id": "10131103",
+                    "speaker": "Player",
+                    "text": "Brave adventurer, we have need of 5 crystalflies."
+                },
+                {
+                    "id": "10131104",
+                    "speaker": "Toe",
+                    "text": "Eh? That's not hard, almost a bit too easy for a reserve adventurer... Eh, never mind. I'll only charge you <color=#00E1FFFF>fifteen thousand Mora</color>. What say you?"
+                },
+                {
+                    "id": "10131105",
+                    "speaker": "Zhongli",
+                    "text": "A most fair price.",
+                    "choices": [
+                        {
+                            "id": "10131106",
+                            "text": "No, let's negotiate..."
+                        },
+                        {
+                            "id": "10131107",
+                            "text": "Yes, a fair price."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "101323",
+            "objective": "Find the three workers",
+            "dialogues": []
+        },
+        {
+            "id": "101312",
+            "objective": "Talk to Toe",
+            "dialogues": [
+                {
+                    "id": "10131201",
+                    "speaker": "Toe",
+                    "text": "Fifteen thousand Mora, not one less! That's the lowest I'm going, end of story!"
+                },
+                {
+                    "id": "10131202",
+                    "speaker": "Paimon",
+                    "text": "#Hey, don't get mad... Ah, guess we have no choice but to pay in full, {NICKNAME}."
+                }
+            ]
+        },
+        {
+            "id": "101313",
+            "objective": "Find an Iron Chunk",
+            "dialogues": [
+                {
+                    "id": "10131301",
+                    "speaker": "Toe",
+                    "text": "Hiring help? Sure, but let me just say first that I'm a reserve member of the Adventurers' Guild. I take adventuring commissions, but I don't do anything clerical."
+                },
+                {
+                    "id": "10131302",
+                    "speaker": "Zhongli",
+                    "text": "Adventure... venturing into the mountains to capture a few crystalflies seems adventurous enough."
+                },
+                {
+                    "id": "10131303",
+                    "speaker": "Player",
+                    "text": "Brave adventurer, we have need of 5 crystalflies."
+                },
+                {
+                    "id": "10131304",
+                    "speaker": "Toe",
+                    "text": "Eh? That's not hard, almost a bit too easy for a reserve adventurer... Eh, never mind. I'll only charge you <color=#00E1FFFF>fifteen thousand Mora</color>. What say you?"
+                },
+                {
+                    "id": "10131305",
+                    "speaker": "Zhongli",
+                    "text": "A most fair price."
+                },
+                {
+                    "id": "10131306",
+                    "speaker": "Player",
+                    "text": "Ugh, we brought too little money..."
+                },
+                {
+                    "id": "10131307",
+                    "speaker": "Toe",
+                    "text": "This is all you've got? Then no can do."
+                },
+                {
+                    "id": "10131308",
+                    "speaker": "Player",
+                    "text": "Please go look for someone named Childe..."
+                },
+                {
+                    "id": "10131309",
+                    "speaker": "Toe",
+                    "text": "Childe? No, no, no. He's putting up the money? Still, no. Wouldn't that mean that I have to make two trips rather than one?"
+                },
+                {
+                    "id": "10131310",
+                    "speaker": "Toe",
+                    "text": "How about this. Let's make a trade. I'll take what you're offering right now, and..."
+                },
+                {
+                    "id": "10131311",
+                    "speaker": "Toe",
+                    "text": "Get me a piece of <color=#00E1FFFF>iron ore</color>. I'll take that as payment to go see that Childe person. What do you think?"
+                },
+                {
+                    "id": "10131312",
+                    "speaker": "Paimon",
+                    "text": "Guess we've got no choice."
+                }
+            ]
+        },
+        {
+            "id": "101314",
+            "objective": "Give the Iron Chunk to Toe",
+            "dialogues": [
+                {
+                    "id": "10137901",
+                    "speaker": "Toe",
+                    "text": "Have you brought the goods?"
+                },
+                {
+                    "id": "10137902",
+                    "speaker": "Toe",
+                    "text": "Mm, this is good ore. As an adventurer, one must have a trusty weapon by one's side..."
+                },
+                {
+                    "id": "10137903",
+                    "speaker": "Toe",
+                    "text": "This'll work. Once I've finished, I will go and claim my payment."
+                }
+            ]
+        },
+        {
+            "id": "101317",
+            "objective": "",
+            "dialogues": [
+                {
+                    "id": "10131701",
+                    "speaker": "Childe",
+                    "text": "All finished then? Splendid. Any leftover cash is yours to keep — a favor for the Fatui should never go unrewarded."
+                },
+                {
+                    "id": "10131702",
+                    "speaker": "Paimon",
+                    "text": "You think you can buy us off with some loose change? No way! Paimon demands to know when the next payment is coming!"
+                },
+                {
+                    "id": "10131703",
+                    "speaker": "Childe",
+                    "text": "Haha. Well, how does this sound: You give me the information I need, and maybe I'll leave the Northland Bank's vaults open and unattended for half an hour..."
+                },
+                {
+                    "id": "10131704",
+                    "speaker": "Paimon",
+                    "text": "What info do you need!?"
+                },
+                {
+                    "id": "10131705",
+                    "speaker": "Player",
+                    "text": "No!"
+                },
+                {
+                    "id": "10131706",
+                    "speaker": "Paimon",
+                    "text": "#Huh? {NICKNAME}, does that mean you know what he's after?",
+                    "choices": [
+                        {
+                            "id": "10131707",
+                            "text": "What else could the Fatui want?",
+                            "response": [
+                                {
+                                    "id": "10131709",
+                                    "speaker": "Paimon",
+                                    "text": "Yikes! You're right, Signora..."
+                                },
+                                {
+                                    "id": "10131710",
+                                    "speaker": "Childe",
+                                    "text": "..."
+                                },
+                                {
+                                    "id": "10131711",
+                                    "speaker": "Childe",
+                                    "text": "#You both need to calm down... I don't know what's gotten into you, {NICKNAME}."
+                                },
+                                {
+                                    "id": "10131712",
+                                    "speaker": "Childe",
+                                    "text": "Just what is this about? The atmosphere got so tense all of a sudden."
+                                },
+                                {
+                                    "id": "10131713",
+                                    "speaker": "Paimon",
+                                    "text": "Ehh..."
+                                },
+                                {
+                                    "id": "10131714",
+                                    "speaker": "Zhongli",
+                                    "text": "Next, we need some Everlasting Incense. For this, we need to go to Bubu Pharmacy, the finest pharmacy in all of—"
+                                },
+                                {
+                                    "id": "10131715",
+                                    "speaker": "Zhongli",
+                                    "text": "Is... everything okay?"
+                                },
+                                {
+                                    "id": "10131716",
+                                    "speaker": "Childe",
+                                    "text": "Everything is fine. I was just informing them that they need not return the surplus Mora."
+                                },
+                                {
+                                    "id": "10131717",
+                                    "speaker": "Childe",
+                                    "text": "Now, if you'll excuse me, I must be going."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "10131708",
+                            "text": "Are you forgetting what happened in Mondstadt?"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "101320",
+            "objective": "Talk to Childe",
+            "dialogues": []
+        },
+        {
+            "id": "101306",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "10130601",
+                    "speaker": "Tic",
+                    "text": "Have you brought the goods?"
+                }
+            ]
+        },
+        {
+            "id": "101310",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "10131001",
+                    "speaker": "Tac",
+                    "text": "Have you brought the goods?"
+                }
+            ]
+        },
+        {
+            "id": "101314",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "10131401",
+                    "speaker": "Toe",
+                    "text": "Have you brought the goods?"
+                }
+            ]
+        },
+        {
+            "id": "101380",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "10138001",
+                    "speaker": "Toe",
+                    "text": "Let's see... No. Go higher, or I'm not doing this."
+                }
+            ]
+        },
+        {
+            "id": "101381",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "10138101",
+                    "speaker": "Toe",
+                    "text": "That won't do, I'm afraid. It's too little! Too little, I say!"
+                }
+            ]
+        },
+        {
+            "id": "101383",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "10138301",
+                    "speaker": "Toe",
+                    "text": "Five Geo Crystalflies... Yes, I do think it's worth about this much. I'll do it."
+                }
+            ]
+        },
+        {
+            "id": "101385",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "10138501",
+                    "speaker": "Toe",
+                    "text": "A pleasure doing business with you."
+                }
+            ]
+        },
+        {
+            "id": "101387",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "10138701",
+                    "speaker": "Tac",
+                    "text": "This... is too little. I'd consider it if it was a bit higher."
+                }
+            ]
+        },
+        {
+            "id": "101388",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "10138801",
+                    "speaker": "Tac",
+                    "text": "That's too little. Hardly a fair price."
+                }
+            ]
+        },
+        {
+            "id": "101390",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "10139001",
+                    "speaker": "Tac",
+                    "text": "This price'll do. No loss to me for a day's work."
+                }
+            ]
+        },
+        {
+            "id": "101392",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "10139201",
+                    "speaker": "Tac",
+                    "text": "Hey, that's a good price. Anyone would work for this much Mora."
+                }
+            ]
+        },
+        {
+            "id": "101394",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "10139401",
+                    "speaker": "Tic",
+                    "text": "Huh? No, no... How about a bit more. This amount isn't worth going out of the way to make only one trip."
+                }
+            ]
+        },
+        {
+            "id": "101395",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "10139501",
+                    "speaker": "Tic",
+                    "text": "Oh, come on, that's too little."
+                }
+            ]
+        },
+        {
+            "id": "101397",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "10139701",
+                    "speaker": "Tic",
+                    "text": "Let me think... Deal. This price is reasonable. I'll hop right to it."
+                }
+            ]
+        },
+        {
+            "id": "101399",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "10139901",
+                    "speaker": "Tic",
+                    "text": "Oh? You're a straight shooter, huh? We have a deal."
+                }
+            ]
+        }
+    ]
+}

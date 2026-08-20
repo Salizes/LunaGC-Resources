@@ -1,0 +1,681 @@
+{
+    "quest": {
+        "id": "1020",
+        "title": "O Palácio Flutuante",
+        "description": "A misteriosa emissária Ganyu apareceu diante de você no Alto no Terceiro Copo. Alegando ter vindo a pedido de Ningguang, ela o convidou para o palácio do céu, conhecido como a Câmara de Jade. Para isso, você e Paimon vieram ao Monte Tianheng, do qual você pode ver a Câmara de Jade ao longe.",
+        "rewards": [
+            {
+                "itemId": 102,
+                "count": 675
+            },
+            {
+                "itemId": 202,
+                "count": 27500
+            },
+            {
+                "itemId": 104003,
+                "count": 3
+            },
+            {
+                "itemId": 104013,
+                "count": 5
+            }
+        ],
+        "rewards_formatted": "EXP de Aventura x675, Mora x27500, EXP do Herói x3, Minério de Refinamento Místico x5",
+        "chapter": {
+            "icon": "UI_ChapterIcon_Liyue",
+            "id": "1103",
+            "num": "Capítulo I - Ato III",
+            "title": "Uma Nova Estrela em Ascensão"
+        },
+        "total_dialogue_lines": 114,
+        "total_speaker_counts": {
+            "???": 1,
+            "Huaqing": 4,
+            "Keqing": 27,
+            "Paimon": 52,
+            "Player": 29,
+            "Yang": 1
+        }
+    },
+    "talks": [
+        {
+            "id": "102001",
+            "objective": "Avançar para o Monte Tianheng",
+            "dialogues": [
+                {
+                    "id": "10200101",
+                    "speaker": "Paimon",
+                    "text": "Olhe, lá em cima! Aquela é a Câmara de Jade.",
+                    "choices": [
+                        {
+                            "id": "10200102",
+                            "text": "Tão alto",
+                            "response": [
+                                {
+                                    "id": "10200104",
+                                    "speaker": "Paimon",
+                                    "text": "Você é... Uhh..."
+                                },
+                                {
+                                    "id": "10200105",
+                                    "speaker": "Paimon",
+                                    "text": "Ah, isso é ruim... Paimon deveria ser seu guia, mas Paimon não sabe onde fica o caminho até a Câmara de Jade...",
+                                    "choices": [
+                                        {
+                                            "id": "10200106",
+                                            "text": "Descobriu isso só agora, é...?",
+                                            "response": [
+                                                {
+                                                    "id": "10200108",
+                                                    "speaker": "Paimon",
+                                                    "text": "Ugh..."
+                                                },
+                                                {
+                                                    "id": "10200109",
+                                                    "speaker": "Paimon",
+                                                    "text": "Todavia, agora que vamos para a Câmara de Jade, ir para sua localização no mapa é o mais sensato a se fazer!"
+                                                },
+                                                {
+                                                    "id": "10200110",
+                                                    "speaker": "Paimon",
+                                                    "text": "Vamos dar uma olhada ao redor. Tem que haver um caminho até lá em cima por perto!"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "10200107",
+                                            "text": "Deveríamos ter perguntado a emissária, Ganyu."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "10200103",
+                            "text": "A questão é: como chegaremos lá em cima?"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "102002",
+            "objective": "Procure pelo caminho para a Câmara de Jade",
+            "dialogues": [
+                {
+                    "id": "10200201",
+                    "speaker": "Paimon",
+                    "text": "Ei, olha! Tem uma espécie de mecanismo!"
+                },
+                {
+                    "id": "10200202",
+                    "speaker": "Paimon",
+                    "text": "Já que este é o local correto, deve ter algo a ver com a Câmara de Jade.",
+                    "choices": [
+                        {
+                            "id": "10200203",
+                            "text": "Talvez seja o caminho para a Câmara de Jade?",
+                            "response": [
+                                {
+                                    "id": "10200204",
+                                    "speaker": "Paimon",
+                                    "text": "Sim, este deve ser o caminho!"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "10200205",
+                            "text": "Parece algum tipo de armadilha.",
+                            "response": [
+                                {
+                                    "id": "10200206",
+                                    "speaker": "Paimon",
+                                    "text": "Sem chance! Apenas confie nos instintos de Paimon!"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "102003",
+            "objective": "Tente usar o dispositivo",
+            "dialogues": []
+        },
+        {
+            "id": "102007",
+            "objective": "",
+            "dialogues": [
+                {
+                    "id": "10200701",
+                    "speaker": "Paimon",
+                    "text": "Hã? Só nos leva até aqui..."
+                },
+                {
+                    "id": "10200702",
+                    "speaker": "Paimon",
+                    "text": "Ah, se essa corrente de vento fosse mais forte, seríamos capazes de alcançar o topo de uma vez só!"
+                },
+                {
+                    "id": "10200703",
+                    "speaker": "Player",
+                    "text": "É melhor voltarmos a Liyue e perguntarmos aos Millelith..."
+                },
+                {
+                    "id": "10200704",
+                    "speaker": "Paimon",
+                    "text": "Ah? Por quê?"
+                },
+                {
+                    "id": "10200705",
+                    "speaker": "Player",
+                    "text": "A forma de subir não deveria ser nenhum segredo, ou..."
+                },
+                {
+                    "id": "10200706",
+                    "speaker": "Paimon",
+                    "text": "Senão?... Oh entendi! Se fosse um segredo, a Ganyu não teria nos deixado tentar descobrir por conta própria, certo?"
+                },
+                {
+                    "id": "10200707",
+                    "speaker": "Paimon",
+                    "text": "Tudo bem, vamos seguir o seu plano, depois podemos..."
+                },
+                {
+                    "id": "10200708",
+                    "speaker": "Paimon",
+                    "text": "Ahh! Espera um minutinho aí. Olhe lá embaixo!"
+                },
+                {
+                    "id": "10200709",
+                    "speaker": "Paimon",
+                    "text": "Finalmente chegamos perto da <color=#00E1FFFF>Balista Guizhong</color>."
+                },
+                {
+                    "id": "10200710",
+                    "speaker": "Paimon",
+                    "text": "Bem... Hmm... Paimon tem uma nova ideia!"
+                },
+                {
+                    "id": "10200711",
+                    "speaker": "Paimon",
+                    "text": "Por que não atiramos você até lá em cima, na Câmara de Jade, usando a Balista?",
+                    "choices": [
+                        {
+                            "id": "10200712",
+                            "text": "#Não obrigad{M#o}{F#a}. Não sou muito fã de morrer.",
+                            "response": [
+                                {
+                                    "id": "10200713",
+                                    "speaker": "Paimon",
+                                    "text": "Oh... Certo. Esse método realmente parece um pouco não muito seguro..."
+                                },
+                                {
+                                    "id": "10200716",
+                                    "speaker": "Player",
+                                    "text": "Ainda assim, lembro que a Balista tinha uma luneta."
+                                },
+                                {
+                                    "id": "10200717",
+                                    "speaker": "Paimon",
+                                    "text": "Ah, sim!"
+                                },
+                                {
+                                    "id": "10200718",
+                                    "speaker": "Paimon",
+                                    "text": "Agora que você está dizendo, podemos usar sim... Então vamos usar Balista Guizhong para arranjar um caminho para subir."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "10200714",
+                            "text": "Você me odeia, por acaso?",
+                            "response": [
+                                {
+                                    "id": "10200715",
+                                    "speaker": "Paimon",
+                                    "text": "Uhh... Não. Paimon talvez só tenha esquecido de pensar nas medidas de segurança..."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "102004",
+            "objective": "Avançar para os arredores da Balista Guizhong",
+            "dialogues": [
+                {
+                    "id": "10200401",
+                    "speaker": "Huaqing",
+                    "text": "Parado ai!"
+                },
+                {
+                    "id": "10200402",
+                    "speaker": "Huaqing",
+                    "text": "Quem ousa invadir este território sagrado!?",
+                    "choices": [
+                        {
+                            "id": "10200403",
+                            "text": "Só estamos de passagem...",
+                            "response": [
+                                {
+                                    "id": "10200405",
+                                    "speaker": "Paimon",
+                                    "text": "Exato, não entendo nada do que vocês estão falando!"
+                                },
+                                {
+                                    "id": "10200406",
+                                    "speaker": "Paimon",
+                                    "text": "Nós recebemos um convite, somos convidados! Por que estão nos tratando dessa forma?"
+                                },
+                                {
+                                    "id": "10200407",
+                                    "speaker": "Paimon",
+                                    "text": "Não... Espera... Será que isso é um plano de Ningguang?"
+                                },
+                                {
+                                    "id": "10200408",
+                                    "speaker": "Paimon",
+                                    "text": "Ela fingiu nos convidar para a Câmara de Jade, mas escondeu uns Millelith para nos pegar de surpresa!",
+                                    "choices": [
+                                        {
+                                            "id": "10200409",
+                                            "text": "Eu acho que não...",
+                                            "response": [
+                                                {
+                                                    "id": "10200411",
+                                                    "speaker": "Paimon",
+                                                    "text": "Arg - Agora Paimon está furiosa! ... Você! Isso, você aí! Isso é uma pegadinha, não é? Que sem-vergonha!"
+                                                },
+                                                {
+                                                    "id": "10200412",
+                                                    "speaker": "Huaqing",
+                                                    "text": "O quê? Apenas estamos de guarda. O que você quer dizer com \"sem-vergonha\"?"
+                                                },
+                                                {
+                                                    "id": "10200413",
+                                                    "speaker": "Yang",
+                                                    "text": "Quanta besteira! Apreendam imediatamente estes intrusos suspeitos!"
+                                                },
+                                                {
+                                                    "id": "10200414",
+                                                    "speaker": "Paimon",
+                                                    "text": "Bem, lá vem eles - vamos derrotá-los de uma vez!"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "10200410",
+                                            "text": "Ainda não explicamos o convite para eles..."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "10200404",
+                            "text": "Território sagrado? Essas são só as redondezas selvagens do Monte Tianheng..."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "102005",
+            "objective": "Lutar contra Millelith",
+            "dialogues": []
+        },
+        {
+            "id": "102006",
+            "objective": "",
+            "dialogues": [
+                {
+                    "id": "10200601",
+                    "speaker": "???",
+                    "text": "Parem! Do que se trata tudo isso?"
+                },
+                {
+                    "id": "10200602",
+                    "speaker": "Huaqing",
+                    "text": "Senhora Keqing, essas duas pessoas estranhas apareceram de repente. Eles parecem ter planos de fazer algo na Balista Guizhong."
+                },
+                {
+                    "id": "10200603",
+                    "speaker": "Paimon",
+                    "text": "Qu-Quem você está chamando de \"estranha\"!?"
+                },
+                {
+                    "id": "10200604",
+                    "speaker": "Player",
+                    "text": "Estávamos apenas procurando por um caminho até a Câmara de Jade."
+                },
+                {
+                    "id": "10200605",
+                    "speaker": "Keqing",
+                    "text": "Hmm? Você quer ir até a Câmara de Jade? Quem é você?"
+                },
+                {
+                    "id": "10200606",
+                    "speaker": "Paimon",
+                    "text": "#Nós fomos convidad{M#o}{F#a}s, estamos aqui para procurar os Qixing de Liyue! Quem é você?"
+                },
+                {
+                    "id": "10200607",
+                    "speaker": "Keqing",
+                    "text": "..."
+                },
+                {
+                    "id": "10200608",
+                    "speaker": "Keqing",
+                    "text": "Bem, por um acaso, eu sou um dos Qixing de Liyue."
+                },
+                {
+                    "id": "10200609",
+                    "speaker": "Paimon",
+                    "text": "???"
+                },
+                {
+                    "id": "10200610",
+                    "speaker": "Keqing",
+                    "text": "Eu sou Keqing, a Yuheng dos Qixing."
+                },
+                {
+                    "id": "10200611",
+                    "speaker": "Keqing",
+                    "text": "#Eu sei quem é você, Viajante. Você é {M#o}{F#a} convidad{M#o}{F#a} da Ningguang, não é? Não esperava encontrá-l{M#o}{F#a} aqui nas montanhas."
+                },
+                {
+                    "id": "10200612",
+                    "speaker": "Paimon",
+                    "text": "Uau... Paimon também não imaginou que nos encontraríamos uma pessoa super rica e importante aqui no meio do nada."
+                },
+                {
+                    "id": "10200613",
+                    "speaker": "Keqing",
+                    "text": "A Balista Guizhong da Passagem de Tianheng quebrou, mas foi consertada apenas em uma noite! Estou aqui para dar uma pesquisada."
+                },
+                {
+                    "id": "10200614",
+                    "speaker": "Keqing",
+                    "text": "Estes Millelith estão aqui apenas para vigiar a área, não para prender ninguém."
+                },
+                {
+                    "id": "10200615",
+                    "speaker": "Paimon",
+                    "text": "Então, tudo isto foi um mal-entendido? Paimon nunca teria imaginado..."
+                },
+                {
+                    "id": "10200616",
+                    "speaker": "Player",
+                    "text": "Pensar não é tão difícil, Paimon."
+                },
+                {
+                    "id": "10200617",
+                    "speaker": "Keqing",
+                    "text": "Digamos assim, o mecanismo feito pelos Adepti foi consertado por um mortal. Até para a Qixing, é algo raro."
+                },
+                {
+                    "id": "10200618",
+                    "speaker": "Paimon",
+                    "text": "Hehe, isso foi...",
+                    "choices": [
+                        {
+                            "id": "10200619",
+                            "text": "(Shhh, Paimon, não complique as coisas!)",
+                            "response": [
+                                {
+                                    "id": "10200621",
+                                    "speaker": "Paimon",
+                                    "text": "Ei? Ah... Sim... A senhora Yuheng, você sabe por que a Tianquan nos convidou para a Câmara de Jade?"
+                                },
+                                {
+                                    "id": "10200622",
+                                    "speaker": "Keqing",
+                                    "text": "Apenas me chame de Keqing."
+                                },
+                                {
+                                    "id": "10200623",
+                                    "speaker": "Keqing",
+                                    "text": "#A Ningguang quer que você fique mais neutro, como {M#um herói}{F#uma heroína}, razão pela qual ela marcou um encontrou com você... Melhor dizendo, era para você não ficar totalmente do lado dos Adepti."
+                                },
+                                {
+                                    "id": "10200624",
+                                    "speaker": "Paimon",
+                                    "text": "Não estamos tomando partido. Falamos com os Adepti. Eles estão procurando proteger Liyue também..."
+                                },
+                                {
+                                    "id": "10200625",
+                                    "speaker": "Keqing",
+                                    "text": "Quando você diz \"proteger\", você se refere à arrogância hipócrita deles, não é mesmo?"
+                                },
+                                {
+                                    "id": "10200626",
+                                    "speaker": "Paimon",
+                                    "text": "Ei?"
+                                },
+                                {
+                                    "id": "10200627",
+                                    "speaker": "Keqing",
+                                    "text": "Porque vocês são mortais, aqueles que eles protegem. Razão pela qual eles não lhe consideram \"um assassino com capacidade de matar o arconte\"."
+                                },
+                                {
+                                    "id": "10200628",
+                                    "speaker": "Keqing",
+                                    "text": "Eles devem achar que tudo que a Ningguang fez era inútil, ou até estava disfarçando a verdade."
+                                },
+                                {
+                                    "id": "10200629",
+                                    "speaker": "Keqing",
+                                    "text": "Vou dizer com clareza: Eles estão nos subestimando."
+                                },
+                                {
+                                    "id": "10200630",
+                                    "speaker": "Paimon",
+                                    "text": "Bem, você tem um ponto..."
+                                },
+                                {
+                                    "id": "10200631",
+                                    "speaker": "Paimon",
+                                    "text": "Ainda assim, esta é a primeira vez que Paimon vê uma pessoa de Liyue que não respeita os deuses ou os Adepti."
+                                },
+                                {
+                                    "id": "10200632",
+                                    "speaker": "Keqing",
+                                    "text": "Hã? Eles não têm senso de tempo, e são sempre arrogantes para os mortais, portanto, podemos dar um suspiro de alívio por não agirem contra a Qixing. Você quer dizer que é isso que eu admiro?"
+                                },
+                                {
+                                    "id": "10200633",
+                                    "speaker": "Keqing",
+                                    "text": "Esqueça. Eu não deveria falar deles desta maneira. Este ceticismo é só meu, e Ningguang não o compartilha."
+                                },
+                                {
+                                    "id": "10200634",
+                                    "speaker": "Keqing",
+                                    "text": "De qualquer forma, admito que as ações dos Adepti desta vez foram bastante restringidas."
+                                },
+                                {
+                                    "id": "10200635",
+                                    "speaker": "Keqing",
+                                    "text": "O falecimento do Rex Lapis é algo excepcional. Embora enfrentem uma circunstância anormal, eles decidiram convocar todos os Adepti para negociar em vez de discutir..."
+                                },
+                                {
+                                    "id": "10200636",
+                                    "speaker": "Keqing",
+                                    "text": "Que estranhamente civilizado da parte deles.",
+                                    "choices": [
+                                        {
+                                            "id": "10200637",
+                                            "text": "Alguma chance de você poder conversar com eles?",
+                                            "response": [
+                                                {
+                                                    "id": "10200639",
+                                                    "speaker": "Keqing",
+                                                    "text": "Para a Ningguang, é melhor nos sentarmos e negociarmos - mas isso é impossível."
+                                                },
+                                                {
+                                                    "id": "10200640",
+                                                    "speaker": "Keqing",
+                                                    "text": "O Tempo dos Adepti já passou. Se mesmo os Qixing de Liyue não querem encarar essa verdade, então qual futuro existe para Liyue?"
+                                                },
+                                                {
+                                                    "id": "10200641",
+                                                    "speaker": "Paimon",
+                                                    "text": "Uff... Outra declaração super ousada..."
+                                                },
+                                                {
+                                                    "id": "10200642",
+                                                    "speaker": "Keqing",
+                                                    "text": "#*Suspiro* Ficamos por aqui então. Não devia ter contado tanto, mas você é {M#um bom}{F#uma boa} ouvinte, Viajante!"
+                                                },
+                                                {
+                                                    "id": "10200643",
+                                                    "speaker": "Keqing",
+                                                    "text": "Bom. Devem partir agora para a Câmara de Jade. Não se atrasem! Os encontros com a Ningguang já foram marcados para o ano que vem!"
+                                                },
+                                                {
+                                                    "id": "10200644",
+                                                    "speaker": "Keqing",
+                                                    "text": "Para os comerciantes da primeira classe, subir até Câmara de Jade é a maior honra na sua carreira. Todo mundo leva presentes valiosos, só para conseguir um pequeno favor da Ningguang."
+                                                },
+                                                {
+                                                    "id": "10200645",
+                                                    "speaker": "Paimon",
+                                                    "text": "Fa-Favor!?",
+                                                    "choices": [
+                                                        {
+                                                            "id": "10200646",
+                                                            "text": "Paimon, este não é o ponto.",
+                                                            "response": [
+                                                                {
+                                                                    "id": "10200648",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "Mas... Mas!"
+                                                                },
+                                                                {
+                                                                    "id": "10200649",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "Espere, é isso mesmo! Presentes de saudações são um dos elementos básicos da cultura de Liyue. Precisamos conseguir um, não para receber favores ou qualquer coisa do tipo - apenas para... Respeitar a cultura de Liyue!"
+                                                                },
+                                                                {
+                                                                    "id": "10200650",
+                                                                    "speaker": "Player",
+                                                                    "text": "Ah, tão entusiasmada..."
+                                                                },
+                                                                {
+                                                                    "id": "10200651",
+                                                                    "speaker": "Keqing",
+                                                                    "text": "Já chega! Bom, é o seu próprio assunto procurar presente. Deixe-me só lhes dizer como ir para a Câmara de Jade."
+                                                                },
+                                                                {
+                                                                    "id": "10200652",
+                                                                    "speaker": "Keqing",
+                                                                    "text": "Não era preciso virem para a Monte Tianheng. Voltem ao Porto de Liyue, e encontre o \"Guia\" e..."
+                                                                },
+                                                                {
+                                                                    "id": "10200653",
+                                                                    "speaker": "Keqing",
+                                                                    "text": "Bem, que nos encontremos novamente, Viajante."
+                                                                },
+                                                                {
+                                                                    "id": "10200654",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "Hum... Aquela Yuheng não respeita os arcontes de certa maneira, mas a Paimon acha que ela é bem legal.",
+                                                                    "choices": [
+                                                                        {
+                                                                            "id": "10200655",
+                                                                            "text": "Ela me passou uma boa impressão, também.",
+                                                                            "response": [
+                                                                                {
+                                                                                    "id": "10200657",
+                                                                                    "speaker": "Paimon",
+                                                                                    "text": "Então... O que deveríamos dar a Ningguang quando a virmos?"
+                                                                                },
+                                                                                {
+                                                                                    "id": "10200658",
+                                                                                    "speaker": "Player",
+                                                                                    "text": "Você realmente mudou o foco, não é mesmo Paimon..."
+                                                                                },
+                                                                                {
+                                                                                    "id": "10200659",
+                                                                                    "speaker": "Paimon",
+                                                                                    "text": "Ah! Agora que me lembrei, ontem eu sonhei com um lanche muito refinado - <color=#00E1FFFF>Slimes Açucarados Gelados</color>!"
+                                                                                },
+                                                                                {
+                                                                                    "id": "10200660",
+                                                                                    "speaker": "Paimon",
+                                                                                    "text": "Paimon tem a sensação de que seria perfeito para uma pessoa super rica como a Ningguang!"
+                                                                                },
+                                                                                {
+                                                                                    "id": "10200661",
+                                                                                    "speaker": "Paimon",
+                                                                                    "text": "Por que não escolhemos isso como presente?",
+                                                                                    "choices": [
+                                                                                        {
+                                                                                            "id": "10200662",
+                                                                                            "text": "Portanto, você tem uma receita?",
+                                                                                            "response": [
+                                                                                                {
+                                                                                                    "id": "10200663",
+                                                                                                    "speaker": "Paimon",
+                                                                                                    "text": "Não! Mas a Paimon tem certeza de que só precisamos fazer isso com um \"boom shaka-laka\"!"
+                                                                                                },
+                                                                                                {
+                                                                                                    "id": "10200666",
+                                                                                                    "speaker": "Paimon",
+                                                                                                    "text": "Vamos recolher mais materiais! Não temos tempo a perder, a fortuna e riqueza estão à nossa espera!"
+                                                                                                }
+                                                                                            ]
+                                                                                        },
+                                                                                        {
+                                                                                            "id": "10200664",
+                                                                                            "text": "E... Como faríamos essa coisa que você sonhou?",
+                                                                                            "response": [
+                                                                                                {
+                                                                                                    "id": "10200665",
+                                                                                                    "speaker": "Paimon",
+                                                                                                    "text": "Com um \"boom shaka-laka\"!"
+                                                                                                }
+                                                                                            ]
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        {
+                                                                            "id": "10200656",
+                                                                            "text": "Eu concordo com alguns de seus pontos de vista."
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "id": "10200647",
+                                                            "text": "Paimon, estamos falando de assuntos sérios."
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "10200638",
+                                            "text": "Ningguang iria preferir negociar, não é mesmo?"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "10200620",
+                            "text": "(Fizemos apenas uma pequena parte do trabalho lá...)"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

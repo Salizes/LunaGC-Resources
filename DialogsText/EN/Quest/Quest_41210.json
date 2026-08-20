@@ -1,0 +1,720 @@
+{
+    "quest": {
+        "id": "41210",
+        "title": "Festering Desire",
+        "description": "After your journey up Dragonspine, you and Paimon prepare to head back to the adventurer camp in the foothills to have a look.",
+        "rewards": [
+            {
+                "itemId": 201,
+                "count": 60
+            },
+            {
+                "itemId": 104003,
+                "count": 3
+            },
+            {
+                "itemId": 202,
+                "count": 30000
+            }
+        ],
+        "rewards_formatted": "Primogem x60, Hero's Wit x3, Mora x30000",
+        "chapter": {
+            "icon": "UI_ChapterIcon_Dragonspine",
+            "id": "10010",
+            "num": "The Chalk Prince and the Dragon: Act I",
+            "title": "Festering Desire"
+        },
+        "total_dialogue_lines": 122,
+        "total_speaker_counts": {
+            "Albedo": 48,
+            "Ferocious Man": 3,
+            "Paimon": 37,
+            "Player": 17,
+            "Sucrose": 17
+        }
+    },
+    "talks": [
+        {
+            "id": "4121001",
+            "objective": "Head to the adventurer camp",
+            "dialogues": [
+                {
+                    "id": "412100101",
+                    "speaker": "Paimon",
+                    "text": "#Huh? Look at that, {NICKNAME}! Looks like someone made camp here. Are other people adventuring nearby?"
+                },
+                {
+                    "id": "412100102",
+                    "speaker": "Paimon",
+                    "text": "Let's see how our fellow explorers are doing!"
+                }
+            ]
+        },
+        {
+            "id": "4121002",
+            "objective": "Speak to Sucrose",
+            "dialogues": [
+                {
+                    "id": "412100201",
+                    "speaker": "Paimon",
+                    "text": "Hey, it's Sucrose!"
+                },
+                {
+                    "id": "412100202",
+                    "speaker": "Paimon",
+                    "text": "Are you here to explore the Snowy Mountain too?"
+                },
+                {
+                    "id": "412100203",
+                    "speaker": "Sucrose",
+                    "text": "Aah! Y—You scared me... Please, don't scare me like that! I was giving my research report some much-needed consideration."
+                },
+                {
+                    "id": "412100204",
+                    "speaker": "Paimon",
+                    "text": "But you were just standing over there, staring into space..."
+                },
+                {
+                    "id": "412100205",
+                    "speaker": "Sucrose",
+                    "text": "N—Not at all! I was just thinking of a name for a new subspecies of Sweet Flower I propagated. It has seeds that are four times as large as normal.",
+                    "choices": [
+                        {
+                            "id": "412100206",
+                            "text": "Four times? Sounds tasty.",
+                            "response": [
+                                {
+                                    "id": "412100208",
+                                    "speaker": "Sucrose",
+                                    "text": "Oh, are you interested? Wonderful! Next time, please allow me to show you the fruits of my work!"
+                                },
+                                {
+                                    "id": "412100209",
+                                    "speaker": "Sucrose",
+                                    "text": "It's a shame. If I wasn't coming to this mountain, I would've brought some samples with me..."
+                                },
+                                {
+                                    "id": "412100210",
+                                    "speaker": "Paimon",
+                                    "text": "Yeah, weren't you doing research in the city? How come you're here?"
+                                },
+                                {
+                                    "id": "412100211",
+                                    "speaker": "Sucrose",
+                                    "text": "Timaeus and I were helping Albedo organize research data. Timaeus just left, in fact. You didn't run into him?"
+                                },
+                                {
+                                    "id": "412100212",
+                                    "speaker": "Paimon",
+                                    "text": "Sure didn't."
+                                },
+                                {
+                                    "id": "412100213",
+                                    "speaker": "Sucrose",
+                                    "text": "He said that he wasn't as sharp as Albedo when it came to data — by quite a long shot, in fact."
+                                },
+                                {
+                                    "id": "412100214",
+                                    "speaker": "Sucrose",
+                                    "text": "The significance of some things Albedo is able to grasp almost immediately, but we on the other hand take considerable time. I fear that this must be the difference in our knowledge and experience showing..."
+                                },
+                                {
+                                    "id": "412100215",
+                                    "speaker": "Sucrose",
+                                    "text": "Timaeus seemed rather depressed about the matter. He said he was going to take a walk, so I'm currently settling the leftover affairs myself."
+                                },
+                                {
+                                    "id": "412100216",
+                                    "speaker": "Player",
+                                    "text": "(It feels like he's just leaving her high and dry...)"
+                                },
+                                {
+                                    "id": "412100217",
+                                    "speaker": "Sucrose",
+                                    "text": "I was originally going to take a look around myself after finishing up here, but unexpectedly, I gleaned some interesting data from these reports!"
+                                },
+                                {
+                                    "id": "412100218",
+                                    "speaker": "Sucrose",
+                                    "text": "But, well... *sigh* Guess my search for secrets will have to wait..."
+                                },
+                                {
+                                    "id": "412100219",
+                                    "speaker": "Paimon",
+                                    "text": "Secrets? Ooh, what secrets?"
+                                },
+                                {
+                                    "id": "412100220",
+                                    "speaker": "Sucrose",
+                                    "text": "Hmm... Actually, do you two have time right now?"
+                                },
+                                {
+                                    "id": "412100221",
+                                    "speaker": "Paimon",
+                                    "text": "Don't have anything on us but that!"
+                                },
+                                {
+                                    "id": "412100222",
+                                    "speaker": "Sucrose",
+                                    "text": "Then could I ask you for a favor? In truth, I feel like Albedo is... concealing something from myself and Timaeus."
+                                },
+                                {
+                                    "id": "412100223",
+                                    "speaker": "Paimon",
+                                    "text": "But isn't he your teacher? What would a teacher have to hide from his students?"
+                                },
+                                {
+                                    "id": "412100224",
+                                    "speaker": "Sucrose",
+                                    "text": "That's true, but I feel like he's always hiding something... It is my personal guess that it is some great secret of alchemy!"
+                                },
+                                {
+                                    "id": "412100225",
+                                    "speaker": "Paimon",
+                                    "text": "Wait. How're you so sure?"
+                                },
+                                {
+                                    "id": "412100226",
+                                    "speaker": "Sucrose",
+                                    "text": "Timaeus and I are both passionate researchers of alchemy. If it was anything else, Albedo wouldn't have any reason to hide it from us."
+                                },
+                                {
+                                    "id": "412100227",
+                                    "speaker": "Paimon",
+                                    "text": "Hmm... You do have a point."
+                                },
+                                {
+                                    "id": "412100228",
+                                    "speaker": "Sucrose",
+                                    "text": "Could you help me investigate what it is that Albedo's hiding? Please! I'm... I'm just too curious!"
+                                },
+                                {
+                                    "id": "412100229",
+                                    "speaker": "Paimon",
+                                    "text": "Hmm... What do you think?",
+                                    "choices": [
+                                        {
+                                            "id": "412100230",
+                                            "text": "If the lady wishes it, we shall do it.",
+                                            "response": [
+                                                {
+                                                    "id": "412100232",
+                                                    "speaker": "Sucrose",
+                                                    "text": "Yes! Thank you, thank you!"
+                                                },
+                                                {
+                                                    "id": "412100233",
+                                                    "speaker": "Paimon",
+                                                    "text": "Alright, alright. Let's take a little trip, shall we?"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "412100231",
+                                            "text": "I'm curious about Albedo's secret stash myself."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "412100207",
+                            "text": "Can you eat that, I wonder?"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "4121003",
+            "objective": "Find Albedo and learn his secret",
+            "dialogues": [
+                {
+                    "id": "412100301",
+                    "speaker": "Paimon",
+                    "text": "Albedo!"
+                },
+                {
+                    "id": "412100302",
+                    "speaker": "Player",
+                    "text": "Hey there. It's us again."
+                },
+                {
+                    "id": "412100303",
+                    "speaker": "Albedo",
+                    "text": "Hmm? Why are you here?"
+                },
+                {
+                    "id": "412100304",
+                    "speaker": "Albedo",
+                    "text": "Are you lost?"
+                },
+                {
+                    "id": "412100305",
+                    "speaker": "Paimon",
+                    "text": "No we're not!",
+                    "choices": [
+                        {
+                            "id": "412100306",
+                            "text": "Sucrose has commissioned us to probe you for secrets.",
+                            "response": [
+                                {
+                                    "id": "412100308",
+                                    "speaker": "Albedo",
+                                    "text": "A secret?"
+                                },
+                                {
+                                    "id": "412100309",
+                                    "speaker": "Paimon",
+                                    "text": "Hey! What are you doing!?"
+                                },
+                                {
+                                    "id": "412100310",
+                                    "speaker": "Paimon",
+                                    "text": "Our mission calls for a delicate approach!"
+                                },
+                                {
+                                    "id": "412100311",
+                                    "speaker": "Player",
+                                    "text": "Well, we weren't fooling him either way."
+                                },
+                                {
+                                    "id": "412100312",
+                                    "speaker": "Paimon",
+                                    "text": "Uh... Sure, but still..."
+                                },
+                                {
+                                    "id": "412100313",
+                                    "speaker": "Albedo",
+                                    "text": "Actually, you've arrived at just the right moment. I have business with you too, in fact."
+                                },
+                                {
+                                    "id": "412100314",
+                                    "speaker": "Albedo",
+                                    "text": "Here you go."
+                                },
+                                {
+                                    "id": "412100315",
+                                    "speaker": "Paimon",
+                                    "text": "Huh? What's this?"
+                                },
+                                {
+                                    "id": "412100316",
+                                    "speaker": "Albedo",
+                                    "text": "As you can see, it is a sword.",
+                                    "choices": [
+                                        {
+                                            "id": "412100317",
+                                            "text": "Into forging, are you?",
+                                            "response": [
+                                                {
+                                                    "id": "412100319",
+                                                    "speaker": "Albedo",
+                                                    "text": "I did not make this sword. However, I did add some alchemical touches to it."
+                                                },
+                                                {
+                                                    "id": "412100320",
+                                                    "speaker": "Albedo",
+                                                    "text": "Would you like to try it out?"
+                                                },
+                                                {
+                                                    "id": "412100321",
+                                                    "speaker": "Player",
+                                                    "text": "You're giving it to me?"
+                                                },
+                                                {
+                                                    "id": "412100322",
+                                                    "speaker": "Albedo",
+                                                    "text": "My research indicates that this sword has some... unique properties. Only you can use it."
+                                                },
+                                                {
+                                                    "id": "412100323",
+                                                    "speaker": "Albedo",
+                                                    "text": "But I need to gather data from it quite urgently — so, could I bother you to use it in battle?"
+                                                },
+                                                {
+                                                    "id": "412100324",
+                                                    "speaker": "Paimon",
+                                                    "text": "Waaait a second. How can there be a sword that only one person can use?"
+                                                },
+                                                {
+                                                    "id": "412100325",
+                                                    "speaker": "Player",
+                                                    "text": "Any adverse side effects?"
+                                                },
+                                                {
+                                                    "id": "412100326",
+                                                    "speaker": "Albedo",
+                                                    "text": "Very astute of you. This sword has indeed had a curse laid upon it."
+                                                },
+                                                {
+                                                    "id": "412100327",
+                                                    "speaker": "Albedo",
+                                                    "text": "An ordinary person would be unable to wield it at all. However, you are an exception."
+                                                },
+                                                {
+                                                    "id": "412100328",
+                                                    "speaker": "Paimon",
+                                                    "text": "Huh...?"
+                                                },
+                                                {
+                                                    "id": "412100329",
+                                                    "speaker": "Albedo",
+                                                    "text": "Or perhaps I should say that only you are immune to the curse. As such, who could I find to help me, if not you?"
+                                                },
+                                                {
+                                                    "id": "412100330",
+                                                    "speaker": "Albedo",
+                                                    "text": "We gain little from saying more. Go find some monsters nearby — after all, some things are best discovered through practice."
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "412100318",
+                                            "text": "Is smithing part of an alchemist's qualifications, too?"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "412100307",
+                            "text": "Sucrose says that you conceal some unspeakable secret."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "4121004",
+            "objective": "Speak to Albedo",
+            "dialogues": []
+        },
+        {
+            "id": "4121005",
+            "objective": "Take up the mysterious sword and do battle",
+            "dialogues": [
+                {
+                    "id": "412100501",
+                    "speaker": "Paimon",
+                    "text": "Now that's rich — Treasure Hoarders calling us thieves!"
+                },
+                {
+                    "id": "412100502",
+                    "speaker": "Albedo",
+                    "text": "They certainly arrived quickly.",
+                    "choices": [
+                        {
+                            "id": "412100503",
+                            "text": "Wait, you're the thief they were talking about?",
+                            "response": [
+                                {
+                                    "id": "412100505",
+                                    "speaker": "Albedo",
+                                    "text": "Goodness, no."
+                                },
+                                {
+                                    "id": "412100506",
+                                    "speaker": "Paimon",
+                                    "text": "They seem to have been talking about this sword. What's going on?"
+                                },
+                                {
+                                    "id": "412100507",
+                                    "speaker": "Albedo",
+                                    "text": "Why are you looking at me like that? Of course I didn't steal this sword."
+                                },
+                                {
+                                    "id": "412100508",
+                                    "speaker": "Albedo",
+                                    "text": "Not long ago, the Knights caught a band of Treasure Hoarders outside the city. The goods they were smuggling were also impounded."
+                                },
+                                {
+                                    "id": "412100509",
+                                    "speaker": "Albedo",
+                                    "text": "This sword was one of those items. We believed it to be stolen plunder, but no one came to claim it, nor could we find out where it came from, so it languished in our stores."
+                                },
+                                {
+                                    "id": "412100510",
+                                    "speaker": "Albedo",
+                                    "text": "I noticed it quite by chance while in our storehouse. To tell you the truth, such an old sword would see little use outside of alchemy."
+                                },
+                                {
+                                    "id": "412100511",
+                                    "speaker": "Paimon",
+                                    "text": "Eh? You claimed it for yourself, just like that?"
+                                },
+                                {
+                                    "id": "412100512",
+                                    "speaker": "Paimon",
+                                    "text": "So... then what happened? You just took it with you?"
+                                },
+                                {
+                                    "id": "412100513",
+                                    "speaker": "Albedo",
+                                    "text": "Indeed, and I initially intended to perform some experiments on it, but I unexpectedly discovered its true origins in the process."
+                                },
+                                {
+                                    "id": "412100514",
+                                    "speaker": "Albedo",
+                                    "text": "This ancient-looking weapon once passed through the hands of a now-deceased blacksmith. It is a legendary magical sword."
+                                },
+                                {
+                                    "id": "412100515",
+                                    "speaker": "Paimon",
+                                    "text": "A magical sword!?"
+                                },
+                                {
+                                    "id": "412100516",
+                                    "speaker": "Albedo",
+                                    "text": "It is said that the smith vanished not long after creating the weapon, with the weapon subsequently becoming lost to time."
+                                },
+                                {
+                                    "id": "412100517",
+                                    "speaker": "Albedo",
+                                    "text": "Working backwards from its eventual fate as plunder, one can guess that it was then stolen by the Treasure Hoarders, where it remained in obscurity till recently."
+                                },
+                                {
+                                    "id": "412100518",
+                                    "speaker": "Paimon",
+                                    "text": "The blacksmith who made this weapon... disappeared!? That's kinda spooky."
+                                },
+                                {
+                                    "id": "412100519",
+                                    "speaker": "Paimon",
+                                    "text": "No wonder it's cursed!"
+                                },
+                                {
+                                    "id": "412100520",
+                                    "speaker": "Albedo",
+                                    "text": "Exactly."
+                                },
+                                {
+                                    "id": "412100521",
+                                    "speaker": "Player",
+                                    "text": "To think that humans could make such a weapon..."
+                                },
+                                {
+                                    "id": "412100522",
+                                    "speaker": "Albedo",
+                                    "text": "Do you know the story of <color=#00E1FFFF>Durin</color> and this mountain?"
+                                },
+                                {
+                                    "id": "412100523",
+                                    "speaker": "Albedo",
+                                    "text": "<color=#00E1FFFF>Durin</color> was the black dragon who menaced Mondstadt, before finally being defeated by the combined efforts of <color=#00E1FFFF>Dvalin</color> and the <color=#00E1FFFF>Anemo Archon Barbatos</color>."
+                                },
+                                {
+                                    "id": "412100524",
+                                    "speaker": "Albedo",
+                                    "text": "After a fierce battle, the vanquished Durin crashed to ruin here, falling into the thick snow."
+                                },
+                                {
+                                    "id": "412100525",
+                                    "speaker": "Albedo",
+                                    "text": "Snow gathers atop this mountain and never melts, which is a most curious phenomenon. Which leads one to wonder — was Durin's fall here purely by chance, or was it intent?"
+                                },
+                                {
+                                    "id": "412100526",
+                                    "speaker": "Paimon",
+                                    "text": "Could it really have been intent?"
+                                },
+                                {
+                                    "id": "412100527",
+                                    "speaker": "Albedo",
+                                    "text": "Perhaps this place was chosen as a gravesite precisely so that the snow's power could seal the corrosive toxin coming from Durin's body."
+                                },
+                                {
+                                    "id": "412100528",
+                                    "speaker": "Albedo",
+                                    "text": "It seems plausible that Barbatos would think of such a method."
+                                },
+                                {
+                                    "id": "412100529",
+                                    "speaker": "Paimon",
+                                    "text": "Huh... Was Barbatos such a capable god?"
+                                },
+                                {
+                                    "id": "412100530",
+                                    "speaker": "Albedo",
+                                    "text": "Well, these are just my postulations. I don't have any evidence. But what's for certain is that this mountain and Durin are deeply intertwined."
+                                },
+                                {
+                                    "id": "412100531",
+                                    "speaker": "Albedo",
+                                    "text": "In fact, I believe that the very sword in your hand has Durin's remains in it."
+                                },
+                                {
+                                    "id": "412100532",
+                                    "speaker": "Paimon",
+                                    "text": "A dragon's remains!?"
+                                },
+                                {
+                                    "id": "412100533",
+                                    "speaker": "Albedo",
+                                    "text": "Indeed. The dragon's eyes, claws, and scales, ground into dust before being used to coat the blade."
+                                },
+                                {
+                                    "id": "412100534",
+                                    "speaker": "Albedo",
+                                    "text": "In this way, Durin's corruption and venom entered into the sword, and became the source of its power."
+                                },
+                                {
+                                    "id": "412100535",
+                                    "speaker": "Albedo",
+                                    "text": "This is very advanced craftsmanship. I presume that having successfully forged the weapon, the smith must have tried it out themselves in their joy."
+                                },
+                                {
+                                    "id": "412100536",
+                                    "speaker": "Albedo",
+                                    "text": "But using this sword in battle would have allowed the corruption to seep through the blade's handle, and into their bodies."
+                                },
+                                {
+                                    "id": "412100537",
+                                    "speaker": "Albedo",
+                                    "text": "Ordinary mortals cannot withstand such power. The blacksmith must then have fled, driven mad by the curse, before meeting their end in some unknown place."
+                                },
+                                {
+                                    "id": "412100538",
+                                    "speaker": "Paimon",
+                                    "text": "Eek..."
+                                },
+                                {
+                                    "id": "412100539",
+                                    "speaker": "Player",
+                                    "text": "..."
+                                },
+                                {
+                                    "id": "412100540",
+                                    "speaker": "Albedo",
+                                    "text": "You've purified Dvalin's Tears before, which is a very rare ability indeed."
+                                },
+                                {
+                                    "id": "412100541",
+                                    "speaker": "Albedo",
+                                    "text": "This ability has protected you from being corrupted or poisoned, and you can completely eliminate their effects."
+                                },
+                                {
+                                    "id": "412100542",
+                                    "speaker": "Albedo",
+                                    "text": "Which is why you, and only you, can properly wield this sword."
+                                },
+                                {
+                                    "id": "412100543",
+                                    "speaker": "Paimon",
+                                    "text": "Still, this sword really is huge... Yikes!"
+                                },
+                                {
+                                    "id": "412100544",
+                                    "speaker": "Paimon",
+                                    "text": "I—It's glowing!"
+                                },
+                                {
+                                    "id": "412100545",
+                                    "speaker": "Albedo",
+                                    "text": "As far as I'm concerned, this is where the real experiment begins."
+                                },
+                                {
+                                    "id": "412100546",
+                                    "speaker": "Albedo",
+                                    "text": "This sword is still very weak at present. However, it is able to absorb energy, and through that, it is able to constantly become stronger."
+                                },
+                                {
+                                    "id": "412100547",
+                                    "speaker": "Albedo",
+                                    "text": "In some sense, you could even say that it is a living thing."
+                                },
+                                {
+                                    "id": "412100548",
+                                    "speaker": "Albedo",
+                                    "text": "Well then, Traveler, adventure with it to your heart's content. I need you to help it grow."
+                                },
+                                {
+                                    "id": "412100549",
+                                    "speaker": "Albedo",
+                                    "text": "I believe that we will soon have all the proof that we need."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "412100504",
+                            "text": "You didn't filch anything from them, did you?"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "4121015",
+            "objective": "Defeat the slimes",
+            "dialogues": []
+        },
+        {
+            "id": "4121006",
+            "objective": "",
+            "dialogues": [
+                {
+                    "id": "412100401",
+                    "speaker": "Ferocious Man",
+                    "text": "Over here! It's with this brat!"
+                },
+                {
+                    "id": "412100402",
+                    "speaker": "Ferocious Man",
+                    "text": "Give it back, you thief!"
+                },
+                {
+                    "id": "412100403",
+                    "speaker": "Paimon",
+                    "text": "Treasure Hoarders? There are Treasure Hoarders in a place this cold?"
+                },
+                {
+                    "id": "412100404",
+                    "speaker": "Ferocious Man",
+                    "text": "Enough talk! Hand it over!"
+                },
+                {
+                    "id": "412100405",
+                    "speaker": "Albedo",
+                    "text": "Watch out!"
+                }
+            ]
+        },
+        {
+            "id": "4121007",
+            "objective": "Defeat the Treasure Hoarders",
+            "dialogues": []
+        },
+        {
+            "id": "4121008",
+            "objective": "Speak to Albedo",
+            "dialogues": []
+        },
+        {
+            "id": "4121006",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "412100601",
+                    "speaker": "Albedo",
+                    "text": "How about those over there?"
+                },
+                {
+                    "id": "412100602",
+                    "speaker": "Paimon",
+                    "text": "Paimon still has a bad feeling about this..."
+                }
+            ]
+        },
+        {
+            "id": "4121099",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "412109901",
+                    "speaker": "Sucrose",
+                    "text": "Albedo's secret must be something truly extraordinary. But if that's the case, why the secrecy in the first place?"
+                }
+            ]
+        }
+    ]
+}

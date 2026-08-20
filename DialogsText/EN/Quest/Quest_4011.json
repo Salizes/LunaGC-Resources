@@ -1,0 +1,1306 @@
+{
+    "quest": {
+        "id": "4011",
+        "title": "A Tea Party Most Thorny",
+        "description": "Now that the serial disappearances case has been solved, you decide to rest up for a while, but something is stirring in the dark...",
+        "rewards": [
+            {
+                "itemId": 102,
+                "count": 850
+            },
+            {
+                "itemId": 202,
+                "count": 36825
+            },
+            {
+                "itemId": 104003,
+                "count": 3
+            },
+            {
+                "itemId": 104013,
+                "count": 7
+            }
+        ],
+        "rewards_formatted": "Adventure EXP x850, Mora x36825, Hero's Wit x3, Mystic Enhancement Ore x7",
+        "chapter": {
+            "icon": "UI_ChapterIcon_Fontaine",
+            "id": "1403",
+            "num": "Chapter IV: Act III",
+            "title": "To the Stars Shining in the Depths"
+        },
+        "total_dialogue_lines": 230,
+        "total_speaker_counts": {
+            "<UNKNOWN>": 1,
+            "Black Screen": 4,
+            "Charlotte": 15,
+            "Deakin": 2,
+            "Furina": 15,
+            "Isadora": 5,
+            "Madeleine": 7,
+            "Marette": 13,
+            "Neuvillette": 56,
+            "Paimon": 63,
+            "Player": 31,
+            "The Knave": 18
+        }
+    },
+    "talks": [
+        {
+            "id": "401101",
+            "objective": "Return to Spina di Rosula's base in the Court of Fontaine",
+            "dialogues": [
+                {
+                    "id": "40110101",
+                    "speaker": "Paimon",
+                    "text": "Yep, here's the room, and it's empty and waiting for us as promised! Navia is such a good person."
+                },
+                {
+                    "id": "40110102",
+                    "speaker": "Paimon",
+                    "text": "Now that the serial disappearances case has been solved, no one's going to come after us for anything. Even without Silver standing guard, we can just completely relax!"
+                },
+                {
+                    "id": "40110103",
+                    "speaker": "Paimon",
+                    "text": "Why don't we stay and rest up here for a while? Even machines in Fontaine need to stop and recharge now and then.",
+                    "choices": [
+                        {
+                            "id": "40110104",
+                            "text": "If we wanted to rest...",
+                            "response": [
+                                {
+                                    "id": "40110106",
+                                    "speaker": "Paimon",
+                                    "text": "C'mon, this place isn't that bad. Besides, how often do we get to stay in an actual base?"
+                                },
+                                {
+                                    "id": "40110107",
+                                    "speaker": "Player",
+                                    "text": "The truth, Paimon."
+                                },
+                                {
+                                    "id": "40110108",
+                                    "speaker": "Paimon",
+                                    "text": "Oh, fine, fine!"
+                                },
+                                {
+                                    "id": "40110109",
+                                    "speaker": "Paimon",
+                                    "text": "Remember that detective story Paimon read before? Well, the author is about to release a new book, so Paimon wanted to buy it as soon as it came out and have a quiet place to read it...",
+                                    "choices": [
+                                        {
+                                            "id": "40110110",
+                                            "text": "Fair enough.",
+                                            "response": [
+                                                {
+                                                    "id": "40110112",
+                                                    "speaker": "Paimon",
+                                                    "text": "Yipee! Then it's agreed! Come on, let's get some sleep. We'll need to be up first thing in the morning to get in line and buy a copy!"
+                                                },
+                                                {
+                                                    "id": "40110113",
+                                                    "speaker": "Black Screen",
+                                                    "text": "You and Paimon relax for a while at Spina di Rosula's base in the Court of Fontaine..."
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "40110111",
+                                            "text": "Just don't spoil the ending for me this time."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "40110105",
+                            "text": "Couldn't we pick somewhere with a decent view?"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "401102",
+            "objective": "Talk to Isadora",
+            "dialogues": [
+                {
+                    "id": "40110201",
+                    "speaker": "Paimon",
+                    "text": "Paimon didn't expect that style at all! Even though it's a detective novel, it's also like a social documentary... hmm, it's actually pretty good.",
+                    "choices": [
+                        {
+                            "id": "40110202",
+                            "text": "You just finished it?",
+                            "response": [
+                                {
+                                    "id": "40110204",
+                                    "speaker": "Paimon",
+                                    "text": "N—No... Paimon just spends a bit more time sleeping than you, that's all!"
+                                },
+                                {
+                                    "id": "40110205",
+                                    "speaker": "Isadora",
+                                    "text": "#Excuse me... But do you know if {NICKNAME} and Paimon are lodging here?"
+                                },
+                                {
+                                    "id": "40110206",
+                                    "speaker": "Paimon",
+                                    "text": "Eh? Who're you? Paimon doesn't recall seeing you before... Wait, you're not here to give us trouble, are you?"
+                                },
+                                {
+                                    "id": "40110207",
+                                    "speaker": "Isadora",
+                                    "text": "A blond traveler and a chatty little fairy... Whew, looks like I've found the place. Good thing I asked the Spina di Rosula, seems they sent me the right way."
+                                },
+                                {
+                                    "id": "40110208",
+                                    "speaker": "Paimon",
+                                    "text": "Hey, what do you mean by \"chatty\"!? Paimon's always careful not to talk too much! ...Most of the time, anyway..."
+                                },
+                                {
+                                    "id": "40110209",
+                                    "speaker": "Isadora",
+                                    "text": "It's an honor to meet you both. I was sent from the Palais Mermonia. Monsieur Neuvillette wishes to see you. It seems he has something important to discuss in person."
+                                },
+                                {
+                                    "id": "40110210",
+                                    "speaker": "Paimon",
+                                    "text": "Neuvillette? He wants to see us again already? We talked so much the last time we met, has something happened since then?"
+                                },
+                                {
+                                    "id": "40110211",
+                                    "speaker": "Isadora",
+                                    "text": "I am not privy to the details. It would be best if you came to the Palais Mermonia and asked Monsieur Neuvillette in person."
+                                },
+                                {
+                                    "id": "40110212",
+                                    "speaker": "Paimon",
+                                    "text": "If you say so... But Paimon has a bad feeling about this..."
+                                },
+                                {
+                                    "id": "40110213",
+                                    "speaker": "Isadora",
+                                    "text": "Now that I've delivered the message, I'll take my leave."
+                                },
+                                {
+                                    "id": "40110214",
+                                    "speaker": "Paimon",
+                                    "text": "Thanks! We haven't left the room for a few days, so we'll head over once we've freshened up a bit."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "40110203",
+                            "text": "You're a pretty slow reader, Paimon."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "401103",
+            "objective": "Talk to Neuvillette",
+            "dialogues": [
+                {
+                    "id": "40110301",
+                    "speaker": "Paimon",
+                    "text": "Neuvillette! We're here! Did you want to see us about something?"
+                },
+                {
+                    "id": "40110302",
+                    "speaker": "Paimon",
+                    "text": "Huh? Why were you just standing there? You daydreaming, or thinking something over?"
+                },
+                {
+                    "id": "40110303",
+                    "speaker": "Neuvillette",
+                    "text": "Yes... I did send someone to fetch you. But as for what I'd like to discuss next... Well, I still have some reservations..."
+                },
+                {
+                    "id": "40110304",
+                    "speaker": "Paimon",
+                    "text": "Given that we've already made the trip here, you should just tell us! Bet you need us to help you with something, right?"
+                },
+                {
+                    "id": "40110305",
+                    "speaker": "Neuvillette",
+                    "text": "I do indeed have something I'd like to ask you to do, however... you should wait until after I tell you the details, then decide for yourselves whether you'd like to help or not."
+                },
+                {
+                    "id": "40110306",
+                    "speaker": "Neuvillette",
+                    "text": "The situation is this..."
+                },
+                {
+                    "id": "40110307",
+                    "speaker": "Neuvillette",
+                    "text": "...If I am understanding you correctly, the Snezhnayan Harbinger known as The Knave has essentially requested a diplomatic meeting with you, correct?"
+                },
+                {
+                    "id": "40110308",
+                    "speaker": "Neuvillette",
+                    "text": "I heard that she was originally from Fontaine, but for her to suddenly arrive here and abruptly request such a meeting like this..."
+                },
+                {
+                    "id": "40110309",
+                    "speaker": "Neuvillette",
+                    "text": "I sincerely advise you to refuse her invitation outright."
+                },
+                {
+                    "id": "40110310",
+                    "speaker": "Furina",
+                    "text": "..."
+                },
+                {
+                    "id": "40110311",
+                    "speaker": "Neuvillette",
+                    "text": "I'm sure you're aware that her purpose is most likely related to Childe's recent predicament..."
+                },
+                {
+                    "id": "40110312",
+                    "speaker": "Neuvillette",
+                    "text": "We convicted one of the Snezhnayan Harbingers in a court of law, but we have yet to provide any form of detailed report on the matter. This does indeed provide an opportunity for Snezhnaya to put pressure on us."
+                },
+                {
+                    "id": "40110313",
+                    "speaker": "Neuvillette",
+                    "text": "I believe we should adopt an evasive stance until we can provide a proper explanation and have a preliminary plan on how to deal with the matter."
+                },
+                {
+                    "id": "40110314",
+                    "speaker": "Furina",
+                    "text": "No... we shouldn't... I think we should agree to the meeting."
+                },
+                {
+                    "id": "40110315",
+                    "speaker": "Neuvillette",
+                    "text": "Oh?"
+                },
+                {
+                    "id": "40110316",
+                    "speaker": "Furina",
+                    "text": "Well, you see... we are the ones that owe an explanation. If we keep putting off the meeting, it could easily result in the problem escalating, right?"
+                },
+                {
+                    "id": "40110317",
+                    "speaker": "Furina",
+                    "text": "It's like... like a fight between two friends. If they don't agree to see each other and talk in person, isn't it possible that the friendship could end entirely?"
+                },
+                {
+                    "id": "40110318",
+                    "speaker": "Neuvillette",
+                    "text": "Though diplomatic relations between Fontaine and Snezhnaya could be considered as friendly, it is only superficially so. You wouldn't go so far as to say that our nations are \"friends\" as you did in your example."
+                },
+                {
+                    "id": "40110319",
+                    "speaker": "Furina",
+                    "text": "*sigh* It was just an analogy... an analogy, okay?"
+                },
+                {
+                    "id": "40110320",
+                    "speaker": "Neuvillette",
+                    "text": "Moreover, even if we were to talk in person, if we don't have sufficient information prepared, it is quite possible the result wouldn't be restored relations, but a complete falling-out."
+                },
+                {
+                    "id": "40110321",
+                    "speaker": "Furina",
+                    "text": "Hmm, I don't think we should overthink those possibilities yet... *ahem* Even if the logic of the divine is not immediately apparent, its wisdom will only be revealed with time."
+                },
+                {
+                    "id": "40110322",
+                    "speaker": "Furina",
+                    "text": "Besides, you'll be at the meeting! If any problems do pop up, you'll have no problem navigating them."
+                },
+                {
+                    "id": "40110323",
+                    "speaker": "Neuvillette",
+                    "text": "I must clarify that interacting and communicating with people outside of court is not my cup of tea. It seems you think too much of me."
+                },
+                {
+                    "id": "40110324",
+                    "speaker": "Neuvillette",
+                    "text": "But more importantly... When did I agree to join the meeting with you?"
+                },
+                {
+                    "id": "40110325",
+                    "speaker": "Furina",
+                    "text": "Eeeeh!? You mean you won't come? No... no no no, that won't do! I can't go to the meeting alone, you have to accompany me, I must take you with me..."
+                },
+                {
+                    "id": "40110326",
+                    "speaker": "Neuvillette",
+                    "text": "Lady Furina, could there be something else regarding this matter that is being kept from me?"
+                },
+                {
+                    "id": "40110327",
+                    "speaker": "Furina",
+                    "text": "No, not at all... Look, I am the Hydro Archon of Fontaine, Focalors. The God of Justice, who is loved and adored by many..."
+                },
+                {
+                    "id": "40110328",
+                    "speaker": "Furina",
+                    "text": "So, I only hope that justice will be served in this matter. Don't overthink it... I'll go find someone to arrange the meeting..."
+                },
+                {
+                    "id": "40110329",
+                    "speaker": "Neuvillette",
+                    "text": "..."
+                },
+                {
+                    "id": "40110330",
+                    "speaker": "Black Screen",
+                    "text": "The time for the meeting with The Knave that Lady Furina insisted upon arrives..."
+                },
+                {
+                    "id": "40110331",
+                    "speaker": "The Knave",
+                    "text": "Though it could officially be considered a diplomatic conference, I prefer to see our meeting today as an ordinary tea party."
+                },
+                {
+                    "id": "40110332",
+                    "speaker": "The Knave",
+                    "text": "I assume you see it the same way, Miss Furina?"
+                },
+                {
+                    "id": "40110333",
+                    "speaker": "Furina",
+                    "text": "..."
+                },
+                {
+                    "id": "40110334",
+                    "speaker": "The Knave",
+                    "text": "Lady Furina?"
+                },
+                {
+                    "id": "40110335",
+                    "speaker": "Furina",
+                    "text": "Ah? Oh... yes, yes, that's right! Just like you said, a tea party. I should thank you for providing the pastries, they look delectable."
+                },
+                {
+                    "id": "40110336",
+                    "speaker": "Furina",
+                    "text": "To make this tea party even more lively, I've invited someone else to join us today..."
+                },
+                {
+                    "id": "40110337",
+                    "speaker": "The Knave",
+                    "text": "It's a pleasure to meet you, Monsieur Neuvillette. I was born in Fontaine, so naturally, there's no need to introduce the nation's revered Iudex to me."
+                },
+                {
+                    "id": "40110338",
+                    "speaker": "Neuvillette",
+                    "text": "Hello, the pleasure is also mine."
+                },
+                {
+                    "id": "40110339",
+                    "speaker": "The Knave",
+                    "text": "First, I would like to thank the two of you. I'm often away on business outside of Fontaine, and I'm told that the children of the House of the Hearth have been well taken care of by you."
+                },
+                {
+                    "id": "40110340",
+                    "speaker": "Furina",
+                    "text": "Uh..."
+                },
+                {
+                    "id": "40110341",
+                    "speaker": "The Knave",
+                    "text": "Oh, I'm not referring to when my children Lyney and Lynette were falsely accused by you, please don't misunderstand."
+                },
+                {
+                    "id": "40110342",
+                    "speaker": "The Knave",
+                    "text": "The children of the House of the Hearth are often misunderstood, perhaps due to the reputation of the Fatui. There's no getting around that."
+                },
+                {
+                    "id": "40110343",
+                    "speaker": "The Knave",
+                    "text": "All I meant to say is that Fontaine has been stable in recent years. The people are well off and the children lead happy, fulfilled lives."
+                },
+                {
+                    "id": "40110344",
+                    "speaker": "The Knave",
+                    "text": "That is something truly worth cherishing, and no one wishes to disrupt such peace..."
+                },
+                {
+                    "id": "40110345",
+                    "speaker": "Neuvillette",
+                    "text": "Now then. You have come regarding the matter of Childe, correct?"
+                },
+                {
+                    "id": "40110346",
+                    "speaker": "The Knave",
+                    "text": "Well, yes... It appears the ever-busy Iudex Neuvillette doesn't wish to waste time with diplomatic pleasantries and hopes that we can get straight to the point of our talk."
+                },
+                {
+                    "id": "40110347",
+                    "speaker": "The Knave",
+                    "text": "Yes, as you surmised, understanding Childe's situation is indeed one of the goals of this trip."
+                },
+                {
+                    "id": "40110348",
+                    "speaker": "The Knave",
+                    "text": "As we are both diplomats from Snezhnaya as well as Fatui Harbingers, Childe and I have always been colleagues..."
+                },
+                {
+                    "id": "40110349",
+                    "speaker": "The Knave",
+                    "text": "Were anything to happen in Fontaine, each of us would serve as the other's attorney to resolve the issue."
+                },
+                {
+                    "id": "40110350",
+                    "speaker": "The Knave",
+                    "text": "So now, in my capacity as his attorney, I request that Childe be turned over to Snezhnaya. We have a responsibility to cooperate with Fontaine and resolve what has happened to him together."
+                },
+                {
+                    "id": "40110351",
+                    "speaker": "Neuvillette",
+                    "text": "The rules governing attorneys only apply before a trial has concluded. Since a verdict has already been rendered, we see the case as settled. I apologize for being unable to grant your request."
+                },
+                {
+                    "id": "40110352",
+                    "speaker": "The Knave",
+                    "text": "An outright refusal... Very well. I respect all the rules of Fontaine's courts, just as I respect you as Chief Justice."
+                },
+                {
+                    "id": "40110353",
+                    "speaker": "The Knave",
+                    "text": "Okay, why don't we back up a step?"
+                },
+                {
+                    "id": "40110354",
+                    "speaker": "The Knave",
+                    "text": "You don't need to transfer Childe to us. I only request to enter the Fortress of Meropide to see Childe and confirm his condition."
+                },
+                {
+                    "id": "40110355",
+                    "speaker": "The Knave",
+                    "text": "It's not like you couldn't even manage to fulfill a simple request like that, right, Miss Furina?"
+                },
+                {
+                    "id": "40110356",
+                    "speaker": "Furina",
+                    "text": "Uh, um, about th—that..."
+                },
+                {
+                    "id": "40110357",
+                    "speaker": "Neuvillette",
+                    "text": "The Fortress of Meropide has always been completely autonomous. Even we have no authority to interfere there, and diplomatic issues do not suffice as an excuse."
+                },
+                {
+                    "id": "40110358",
+                    "speaker": "Neuvillette",
+                    "text": "However, if you absolutely must confirm the situation of the Harbinger, I have a proposal..."
+                }
+            ]
+        },
+        {
+            "id": "401104",
+            "objective": "Listen to Neuvillette's thoughts",
+            "dialogues": [
+                {
+                    "id": "40110401",
+                    "speaker": "Paimon",
+                    "text": "The Knave showed up already? Well, Lyney did say that \"Father will be returning soon\"..."
+                },
+                {
+                    "id": "40110402",
+                    "speaker": "Paimon",
+                    "text": "We didn't even know that Lyney was from the House of the Hearth at the time, so we kinda overlooked that information.",
+                    "choices": [
+                        {
+                            "id": "40110403",
+                            "text": "Please be careful, Neuvillette.",
+                            "response": [
+                                {
+                                    "id": "40110405",
+                                    "speaker": "Neuvillette",
+                                    "text": "Yes, thank you for your kind advice. I'm well aware of the situation."
+                                },
+                                {
+                                    "id": "40110406",
+                                    "speaker": "Neuvillette",
+                                    "text": "I also noticed that Lady Furina acts a little odd and unnatural whenever I bring up matters related to The Knave..."
+                                },
+                                {
+                                    "id": "40110407",
+                                    "speaker": "Paimon",
+                                    "text": "Could The Knave be threatening Lady Furina or something?"
+                                },
+                                {
+                                    "id": "40110408",
+                                    "speaker": "Neuvillette",
+                                    "text": "If that were the case, then why wouldn't Lady Furina inform me? And what means could The Knave possibly have to twist the arm of an archon?"
+                                },
+                                {
+                                    "id": "40110409",
+                                    "speaker": "Paimon",
+                                    "text": "Hmm, so maybe that's not very likely... Even though Furina can act a little weird at times, she's still an Archon..."
+                                },
+                                {
+                                    "id": "40110410",
+                                    "speaker": "Neuvillette",
+                                    "text": "In reality, this problem is even more thorny than it appears. According to reports from the Fortress of Meropide, Childe recently disappeared under mysterious circumstances.",
+                                    "choices": [
+                                        {
+                                            "id": "40110411",
+                                            "text": "Disappeared?",
+                                            "response": [
+                                                {
+                                                    "id": "40110413",
+                                                    "speaker": "Neuvillette",
+                                                    "text": "The details are still unclear. We cannot rule out an escape, but there have also been no reports of him outside of the Fortress of Meropide."
+                                                },
+                                                {
+                                                    "id": "40110414",
+                                                    "speaker": "Neuvillette",
+                                                    "text": "Special guards oversee the Fortress, and its internal systems are extensive. Combined with the special characteristics of the surrounding terrain, an escape should not be possible. I suspect that there's something else behind Childe's disappearance."
+                                                },
+                                                {
+                                                    "id": "40110415",
+                                                    "speaker": "Neuvillette",
+                                                    "text": "I was only willing to share this information with you because you are friends of Childe, and it is my duty to see justice done."
+                                                },
+                                                {
+                                                    "id": "40110416",
+                                                    "speaker": "Paimon",
+                                                    "text": "So this is what you wanted to see us about before..."
+                                                },
+                                                {
+                                                    "id": "40110417",
+                                                    "speaker": "Neuvillette",
+                                                    "text": "Yes. I would like you to go to the Fortress of Meropide and investigate Childe's disappearance."
+                                                },
+                                                {
+                                                    "id": "40110418",
+                                                    "speaker": "Neuvillette",
+                                                    "text": "This was my proposal during our meeting with The Knave. Rather than allowing her to intervene, I offered to send someone to find out about Childe's situation and report back to her in detail."
+                                                },
+                                                {
+                                                    "id": "40110419",
+                                                    "speaker": "Neuvillette",
+                                                    "text": "The Knave did not seem satisfied by my proposal, but she still agreed to go along with it for the time being. Her words were, \"We will talk more once we have that report.\""
+                                                },
+                                                {
+                                                    "id": "40110420",
+                                                    "speaker": "Paimon",
+                                                    "text": "So that means we bought ourselves some time.",
+                                                    "choices": [
+                                                        {
+                                                            "id": "40110421",
+                                                            "text": "But why do you want us to go?",
+                                                            "response": [
+                                                                {
+                                                                    "id": "40110423",
+                                                                    "speaker": "Neuvillette",
+                                                                    "text": "Firstly, you're already acquainted with Childe. Your eyes may discern relevant details there that others would miss."
+                                                                },
+                                                                {
+                                                                    "id": "40110424",
+                                                                    "speaker": "Neuvillette",
+                                                                    "text": "And secondly is the consideration of the unique nature of the Fortress of Meropide..."
+                                                                },
+                                                                {
+                                                                    "id": "40110425",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "Isn't it just Fontaine's prison?"
+                                                                },
+                                                                {
+                                                                    "id": "40110426",
+                                                                    "speaker": "Neuvillette",
+                                                                    "text": "I would not define it so crudely. The Fortress of Meropide is not affiliated with the court system of Fontaine on paper. It has always existed as an \"autonomous\" entity."
+                                                                },
+                                                                {
+                                                                    "id": "40110427",
+                                                                    "speaker": "Neuvillette",
+                                                                    "text": "Early in Fontaine's history, criminals were punished with exile, not imprisonment. Even today, sentences against convicted criminals still include exile, just as before."
+                                                                },
+                                                                {
+                                                                    "id": "40110428",
+                                                                    "speaker": "Neuvillette",
+                                                                    "text": "The Fortress of Meropide may seem like a prison, but it should in fact be regarded as a gathering place for exiles."
+                                                                },
+                                                                {
+                                                                    "id": "40110429",
+                                                                    "speaker": "Neuvillette",
+                                                                    "text": "All we do is dispatch guards to keep watch and help maintain security, but we have no right to get involved with any other matters."
+                                                                },
+                                                                {
+                                                                    "id": "40110430",
+                                                                    "speaker": "Neuvillette",
+                                                                    "text": "Although I do have a personal relationship with the administrator there, neither myself nor the courts have the right to be directly involved with the investigation, no matter how serious the grounds."
+                                                                },
+                                                                {
+                                                                    "id": "40110431",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "Oh, Paimon gets it now! That's why you need us to conduct our own investigation as a third party, right?"
+                                                                },
+                                                                {
+                                                                    "id": "40110432",
+                                                                    "speaker": "Neuvillette",
+                                                                    "text": "Correct. I will arrange false charges against you so that you may secretly investigate inside the fortress during your detention. This will save us a lot of unnecessary trouble."
+                                                                },
+                                                                {
+                                                                    "id": "40110433",
+                                                                    "speaker": "Neuvillette",
+                                                                    "text": "So, are you two willing to accept my proposal?",
+                                                                    "choices": [
+                                                                        {
+                                                                            "id": "40110434",
+                                                                            "text": "Since you're in such a tough spot...",
+                                                                            "response": [
+                                                                                {
+                                                                                    "id": "40110436",
+                                                                                    "speaker": "Paimon",
+                                                                                    "text": "Yeah, no matter how you look at it, it seems we're the best choice. Alright, we hereby accept this difficult task... uh, reluctantly!"
+                                                                                },
+                                                                                {
+                                                                                    "id": "40110437",
+                                                                                    "speaker": "Neuvillette",
+                                                                                    "text": "You two have my sincere thanks. This matter is of critical importance to Fontaine's current situation. Also, I hope that both of you can keep this operation a secret."
+                                                                                },
+                                                                                {
+                                                                                    "id": "40110438",
+                                                                                    "speaker": "Neuvillette",
+                                                                                    "text": "We will rendezvous at the Fortress of Meropide's entrance on Erinnyes once you've prepared yourselves. I will arrange for someone to take you inside."
+                                                                                },
+                                                                                {
+                                                                                    "id": "40110439",
+                                                                                    "speaker": "Paimon",
+                                                                                    "text": "Prepared ourselves...? Uh, is there something we need to prepare?"
+                                                                                },
+                                                                                {
+                                                                                    "id": "40110440",
+                                                                                    "speaker": "Neuvillette",
+                                                                                    "text": "Perhaps you could enjoy a good meal and have a nice bath. I'm afraid that living conditions inside the Fortress are nothing like those on the outside world."
+                                                                                },
+                                                                                {
+                                                                                    "id": "40110441",
+                                                                                    "speaker": "Paimon",
+                                                                                    "text": "Oh, right! Even though we'll be there on trumped-up charges, we'll be in prison for real..."
+                                                                                },
+                                                                                {
+                                                                                    "id": "40110442",
+                                                                                    "speaker": "Paimon",
+                                                                                    "text": "Uh, on second thought... Is it too late to back out?",
+                                                                                    "choices": [
+                                                                                        {
+                                                                                            "id": "40110443",
+                                                                                            "text": "You didn't even consider the fact we'd be prisoners?",
+                                                                                            "response": [
+                                                                                                {
+                                                                                                    "id": "40110445",
+                                                                                                    "speaker": "Neuvillette",
+                                                                                                    "text": "Please, do not worry. Since you are sacrificing both your time and quality of life for the sake of delivering this report..."
+                                                                                                },
+                                                                                                {
+                                                                                                    "id": "40110446",
+                                                                                                    "speaker": "Neuvillette",
+                                                                                                    "text": "You will be compensated according to the highest standards permitted to legal staff, regardless of the outcome."
+                                                                                                },
+                                                                                                {
+                                                                                                    "id": "40110447",
+                                                                                                    "speaker": "Paimon",
+                                                                                                    "text": "#Now that's more like it... C'mon {NICKNAME}, let's go eat the best meal we can find! We'll eat so much that we won't need to eat another meal for a whole month, your treat!"
+                                                                                                },
+                                                                                                {
+                                                                                                    "id": "40110448",
+                                                                                                    "speaker": "Neuvillette",
+                                                                                                    "text": "Are you leaving now? In that case, please take this cake as a token of my personal gratitude."
+                                                                                                }
+                                                                                            ]
+                                                                                        },
+                                                                                        {
+                                                                                            "id": "40110444",
+                                                                                            "text": "We've already agreed, Paimon. Just accept it."
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        {
+                                                                            "id": "40110435",
+                                                                            "text": "Well, Childe is our friend, after all..."
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "id": "40110422",
+                                                            "text": "Wouldn't it be more convenient to have an official from Fontaine do this?"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "40110412",
+                                            "text": "Did he escape?"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "40110404",
+                            "text": "The Knave won't be easy to deal with."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "401105",
+            "objective": "Go to Café Lutece",
+            "dialogues": [
+                {
+                    "id": "40110501",
+                    "speaker": "Paimon",
+                    "text": "Paimon'll have that, and that... Oh! And one of those too! And no Fonta! Thank you!",
+                    "choices": [
+                        {
+                            "id": "40110502",
+                            "text": "You sure ordered a lot...",
+                            "response": [
+                                {
+                                    "id": "40110504",
+                                    "speaker": "Paimon",
+                                    "text": "That cake was pretty good, but as soon as Paimon remembered that we're about to go to prison, Paimon's stomach suddenly became completely empty!"
+                                },
+                                {
+                                    "id": "40110505",
+                                    "speaker": "Paimon",
+                                    "text": "Now that Paimon thinks about it, we've always been super careful ever since we arrived in Fontaine, just to avoid breaking any strange laws here..."
+                                },
+                                {
+                                    "id": "40110506",
+                                    "speaker": "Paimon",
+                                    "text": "But here we are, about to willingly send ourselves off to the Fortress of Meropide... Maybe this is what they call fate."
+                                },
+                                {
+                                    "id": "40110507",
+                                    "speaker": "Paimon",
+                                    "text": "*sigh* Let's just try our best to investigate everything quickly once we get there... Paimon doesn't want to stay in prison too long..."
+                                },
+                                {
+                                    "id": "40110508",
+                                    "speaker": "Charlotte",
+                                    "text": "Oh, what is that I hear? Is it the taste of a breaking story?"
+                                },
+                                {
+                                    "id": "40110509",
+                                    "speaker": "Paimon",
+                                    "text": "Hey, you can't hear a taste! And what are you doing here, Charlotte?"
+                                },
+                                {
+                                    "id": "40110510",
+                                    "speaker": "Charlotte",
+                                    "text": "Ugh, don't remind me... I invited an eyewitness to a case to eat here, and I was planning to get some great material out of him... But he didn't even show up!"
+                                },
+                                {
+                                    "id": "40110511",
+                                    "speaker": "Charlotte",
+                                    "text": "#*sigh* Calm down, calm down... This is nothing new, as a journalist, you should be used to this by now... as long as you can score some juicy tidbits from {NICKNAME}, you might still be able to recover the cost of the meal..."
+                                },
+                                {
+                                    "id": "40110512",
+                                    "speaker": "Paimon",
+                                    "text": "Uh, you know we can still hear you, Charlotte..."
+                                },
+                                {
+                                    "id": "40110513",
+                                    "speaker": "Charlotte",
+                                    "text": "Hahaha! Never mind, it's nothing... I just heard you mention the Fortress of Meropide. You didn't commit a crime, did you? Please tell me all about it..."
+                                },
+                                {
+                                    "id": "40110514",
+                                    "speaker": "Paimon",
+                                    "text": "No way, we would never! We're just going there to...",
+                                    "choices": [
+                                        {
+                                            "id": "40110515",
+                                            "text": "Ahem...!",
+                                            "response": [
+                                                {
+                                                    "id": "40110517",
+                                                    "speaker": "Paimon",
+                                                    "text": "...Uh... um... to..."
+                                                },
+                                                {
+                                                    "id": "40110518",
+                                                    "speaker": "Paimon",
+                                                    "text": "Oh no, Paimon almost forgot that Neuvillette told us to keep it a secret...",
+                                                    "choices": [
+                                                        {
+                                                            "id": "40110519",
+                                                            "text": "We're going to serve our sentences and redeem ourselves...",
+                                                            "response": [
+                                                                {
+                                                                    "id": "40110521",
+                                                                    "speaker": "Charlotte",
+                                                                    "text": "Huh? You're being arrested for that?"
+                                                                },
+                                                                {
+                                                                    "id": "40110522",
+                                                                    "speaker": "Charlotte",
+                                                                    "text": "Oh... But now that I think about it, I suppose that's not completely unreasonable. That's pretty despicable, almost as offensive as committing theft."
+                                                                },
+                                                                {
+                                                                    "id": "40110523",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "Oh...? You mean Paimon really did something that serious?",
+                                                                    "choices": [
+                                                                        {
+                                                                            "id": "40110524",
+                                                                            "text": "See? I told you, Paimon.",
+                                                                            "response": [
+                                                                                {
+                                                                                    "id": "40110526",
+                                                                                    "speaker": "Paimon",
+                                                                                    "text": "Sorry! Paimon really messed up!"
+                                                                                },
+                                                                                {
+                                                                                    "id": "40110527",
+                                                                                    "speaker": "Charlotte",
+                                                                                    "text": "Hmm, in that case, it's nothing particularly newsworthy after all... How disappointing..."
+                                                                                },
+                                                                                {
+                                                                                    "id": "40110528",
+                                                                                    "speaker": "Charlotte",
+                                                                                    "text": "Oh, right, there's still a chance... Since you're going to be at the Fortress of Meropide... Would you be willing to help me gather some material for a story?"
+                                                                                },
+                                                                                {
+                                                                                    "id": "40110529",
+                                                                                    "speaker": "Paimon",
+                                                                                    "text": "Uh, about that... Paimon doesn't think we'll have any time..."
+                                                                                },
+                                                                                {
+                                                                                    "id": "40110530",
+                                                                                    "speaker": "Charlotte",
+                                                                                    "text": "Ah, it's nothing difficult. All you have to do is think of a way to get some time face to face with the warden of the fortress."
+                                                                                },
+                                                                                {
+                                                                                    "id": "40110531",
+                                                                                    "speaker": "Charlotte",
+                                                                                    "text": "He was awarded the honorary title of \"Duke\" in Fontaine. Sounds really cool huh? Only those who have made significant contributions to the nation have been conferred this title, it's incredibly rare."
+                                                                                },
+                                                                                {
+                                                                                    "id": "40110532",
+                                                                                    "speaker": "Charlotte",
+                                                                                    "text": "On top of that, the Fortress of Meropide has never been under the jurisdiction of the courts. Practically nobody, including journalists like me, knows anything about the person in charge there."
+                                                                                },
+                                                                                {
+                                                                                    "id": "40110533",
+                                                                                    "speaker": "Charlotte",
+                                                                                    "text": "If I could write an exclusive article about him, I bet it would sell a boatload of papers!"
+                                                                                },
+                                                                                {
+                                                                                    "id": "40110534",
+                                                                                    "speaker": "Paimon",
+                                                                                    "text": "You make it sound easy, but it really depends..."
+                                                                                },
+                                                                                {
+                                                                                    "id": "40110535",
+                                                                                    "speaker": "Charlotte",
+                                                                                    "text": "Of course, I wouldn't ask you to do it for free, so this meal is on me!"
+                                                                                },
+                                                                                {
+                                                                                    "id": "40110536",
+                                                                                    "speaker": "Paimon",
+                                                                                    "text": "Alright, you've got a deal! We'll do anything you want!"
+                                                                                },
+                                                                                {
+                                                                                    "id": "40110537",
+                                                                                    "speaker": "Charlotte",
+                                                                                    "text": "Hehe, then it's settled! The food should be here any second, right? Huh!? Wait, just how much did you order!?"
+                                                                                },
+                                                                                {
+                                                                                    "id": "40110538",
+                                                                                    "speaker": "Black Screen",
+                                                                                    "text": "After completely stuffing yourselves, you prepare to go to the Fortress of Meropide..."
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        {
+                                                                            "id": "40110525",
+                                                                            "text": "You didn't even think anything of it at the time."
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "id": "40110520",
+                                                            "text": "For spoiling the ending of a detective novel in public."
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "40110516",
+                                            "text": "ACHOO!"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "40110503",
+                            "text": "Didn't you just finish eating the cake that Neuvillette gave us?"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "401106",
+            "objective": "Find Neuvillette at the entrance to the Fortress of Meropide",
+            "dialogues": [
+                {
+                    "id": "40110601",
+                    "speaker": "Paimon",
+                    "text": "Alright Neuvillette, we're ready. Is this where the entrance is?"
+                },
+                {
+                    "id": "40110602",
+                    "speaker": "Neuvillette",
+                    "text": "You have come, just as promised. Yes, this is the one and only entrance to the Fortress of Meropide from Erinnyes."
+                },
+                {
+                    "id": "40110603",
+                    "speaker": "Neuvillette",
+                    "text": "Careful, you may want to step back a bit."
+                },
+                {
+                    "id": "40110604",
+                    "speaker": "Paimon",
+                    "text": "Whoa! So you have to go down from here... is the prison underwater?"
+                },
+                {
+                    "id": "40110605",
+                    "speaker": "Neuvillette",
+                    "text": "Utilizing both the barrier of the water as well as the fear humans have of the depths, the Fortress of Meropide is naturally the perfect place to confine and guard criminals."
+                },
+                {
+                    "id": "40110606",
+                    "speaker": "Neuvillette",
+                    "text": "But do not worry, it's not nearly as frightening inside as you may think. You will see for yourselves once you're down there."
+                },
+                {
+                    "id": "40110607",
+                    "speaker": "Paimon",
+                    "text": "Uh, Paimon hopes you're right... Dunno about you, but just thinking about being at the bottom of the sea like that gives Paimon the heebie-jeebies!"
+                },
+                {
+                    "id": "40110608",
+                    "speaker": "Neuvillette",
+                    "text": "Oh, and there's one more thing... I mentioned that I have had personal dealings with the administrator of the Fortress, Wriothesley... He's a very... shrewd fellow."
+                },
+                {
+                    "id": "40110609",
+                    "speaker": "Paimon",
+                    "text": "Yeah, we've heard about him too. He's that \"Duke,\" right?"
+                },
+                {
+                    "id": "40110610",
+                    "speaker": "Neuvillette",
+                    "text": "Correct. He is the highest ranking manager of the underwater prison. Even though you are going there to investigate at my behest, it would behoove you to avoid any confrontation with him or any of his subordinates."
+                },
+                {
+                    "id": "40110611",
+                    "speaker": "Neuvillette",
+                    "text": "The Duke rarely ever leaves the Fortress of Meropide, but that does not mean he is not privy to all that's happening inside and outside the fortress. He is \"quiet,\" but not \"unaware,\" so please bear that in mind.",
+                    "choices": [
+                        {
+                            "id": "40110612",
+                            "text": "The Duke, Wriothesley...",
+                            "response": [
+                                {
+                                    "id": "40110614",
+                                    "speaker": "Neuvillette",
+                                    "text": "Alright, that's about all the time that we have to talk privately. I am counting on you two."
+                                },
+                                {
+                                    "id": "40110615",
+                                    "speaker": "Paimon",
+                                    "text": "Don't worry, we won't let you down!"
+                                },
+                                {
+                                    "id": "40110616",
+                                    "speaker": "Neuvillette",
+                                    "text": "Good. Madeleine..."
+                                },
+                                {
+                                    "id": "40110617",
+                                    "speaker": "Madeleine",
+                                    "text": "I'm here, Monsieur Neuvillette. These two are the newest convicts, I presume? Don't worry, they won't escape on my watch."
+                                },
+                                {
+                                    "id": "40110618",
+                                    "speaker": "Paimon",
+                                    "text": "Hmph, like we would try!"
+                                },
+                                {
+                                    "id": "40110619",
+                                    "speaker": "Madeleine",
+                                    "text": "Please follow me, you two. I'll process your paperwork for entering the Fortress of Meropide."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "40110613",
+                            "text": "I'll keep that in mind."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "401107",
+            "objective": "Ride the lift and enter the Fortress of Meropide",
+            "dialogues": [
+                {
+                    "id": "40110701",
+                    "speaker": "<UNKNOWN>",
+                    "text": "Ride the elevator"
+                }
+            ]
+        },
+        {
+            "id": "401108",
+            "objective": "Talk to Marette and complete the required procedures",
+            "dialogues": []
+        },
+        {
+            "id": "401110",
+            "objective": "",
+            "dialogues": [
+                {
+                    "id": "40111001",
+                    "speaker": "Neuvillette",
+                    "text": "Oh, no need to thank me for it. Just be sure to enjoy it."
+                }
+            ]
+        },
+        {
+            "id": "401109",
+            "objective": "Follow Deakin",
+            "dialogues": [
+                {
+                    "id": "40110901",
+                    "speaker": "Madeleine",
+                    "text": "Please use the elevator to proceed below."
+                }
+            ]
+        },
+        {
+            "id": "401108",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "40110801",
+                    "speaker": "Marette",
+                    "text": "*yawn* Oh, it's you Madeleine. Why'd they make you make the trip down here today?"
+                },
+                {
+                    "id": "40110802",
+                    "speaker": "Madeleine",
+                    "text": "Monsieur Neuvillette personally requested I escort these two convicts. I suppose he was concerned others might not be up to the task."
+                },
+                {
+                    "id": "40110803",
+                    "speaker": "Marette",
+                    "text": "*sigh* Well now, aren't you the lucky one... Must be nice to be on good terms with the big shots like the Chief Justice. The only people I get to see every day are the new inmates."
+                },
+                {
+                    "id": "40110804",
+                    "speaker": "Madeleine",
+                    "text": "Well, have you tried \"service with a smile\"? Who knows, it might help your professional reputation."
+                },
+                {
+                    "id": "40110805",
+                    "speaker": "Marette",
+                    "text": "Yeah right, as if. Every criminal comes through here looking miserable. How can I smile with such a toxic work environment?"
+                },
+                {
+                    "id": "40110806",
+                    "speaker": "Marette",
+                    "text": "And even if I did smile at them, the convicts would probably just think that I'm some freak getting some kind of twisted enjoyment from their pain."
+                },
+                {
+                    "id": "40110807",
+                    "speaker": "Paimon",
+                    "text": "Oh, she's got a point."
+                },
+                {
+                    "id": "40110808",
+                    "speaker": "Madeleine",
+                    "text": "Well, I've finished transferring you. You two will register here, and Marette will guide you through the remaining procedures."
+                },
+                {
+                    "id": "40110809",
+                    "speaker": "Marette",
+                    "text": "*sigh* Yep, I'll take it from here. You head on back to that bright and sunny world above."
+                },
+                {
+                    "id": "40110810",
+                    "speaker": "Marette",
+                    "text": "#Okay, let me see... You are {NICKNAME} and Paimon, correct?",
+                    "choices": [
+                        {
+                            "id": "40110811",
+                            "text": "Present.",
+                            "response": [
+                                {
+                                    "id": "40110813",
+                                    "speaker": "Paimon",
+                                    "text": "That would be us."
+                                },
+                                {
+                                    "id": "40110814",
+                                    "speaker": "Marette",
+                                    "text": "Let me confirm your charges and sentence. Let's see, you two are charged with..."
+                                },
+                                {
+                                    "id": "40110815",
+                                    "speaker": "Marette",
+                                    "text": "...Eating a cake specially prepared for the archon by a Snezhnayan envoy without the archon's permission, thereby incapacitating the political center of Fontaine for a brief period. Sentence: 45 days...?"
+                                },
+                                {
+                                    "id": "40110816",
+                                    "speaker": "Paimon",
+                                    "text": "Huh? Wait, you mean the cake that Neuvillette gave us was..."
+                                },
+                                {
+                                    "id": "40110817",
+                                    "speaker": "Marette",
+                                    "text": "Just looking at the charges... It seems you two are capable of causing some serious trouble."
+                                },
+                                {
+                                    "id": "40110818",
+                                    "speaker": "Marette",
+                                    "text": "And considering how fond Lady Furina is of sweets, this crime is tantamount to trying to assassinate the Hydro Archon herself.",
+                                    "choices": [
+                                        {
+                                            "id": "40110819",
+                                            "text": "You flatter us.",
+                                            "response": [
+                                                {
+                                                    "id": "40110821",
+                                                    "speaker": "Marette",
+                                                    "text": "Now I've seen everything... Anyway, we still need to finish processing you before you can enter the Fortress of Meropide."
+                                                },
+                                                {
+                                                    "id": "40110822",
+                                                    "speaker": "Marette",
+                                                    "text": "Please stand in front of the board over there. I'll take your mug shots with my Kamera."
+                                                },
+                                                {
+                                                    "id": "40110823",
+                                                    "speaker": "Paimon",
+                                                    "text": "Oh, alright... But be sure to catch Paimon's good side!"
+                                                },
+                                                {
+                                                    "id": "40110824",
+                                                    "speaker": "Black Screen",
+                                                    "text": "Under Marette's guidance, you complete all the required procedures..."
+                                                },
+                                                {
+                                                    "id": "40110825",
+                                                    "speaker": "Marette",
+                                                    "text": "...And we're done. Thank you for your cooperation. Next, someone will be along to guide you inside the fortress. Please be sure to cherish this opportunity for rebirth."
+                                                },
+                                                {
+                                                    "id": "40110826",
+                                                    "speaker": "Paimon",
+                                                    "text": "Huh? \"Rebirth\"? Isn't that a little much? We're only going to be here for 45 days."
+                                                },
+                                                {
+                                                    "id": "40110827",
+                                                    "speaker": "Deakin",
+                                                    "text": "You two are the new inmates, right? Follow me."
+                                                },
+                                                {
+                                                    "id": "40110828",
+                                                    "speaker": "Paimon",
+                                                    "text": "#Oh, okay. Paimon is Paimon, and this is {NICKNAME}..."
+                                                },
+                                                {
+                                                    "id": "40110829",
+                                                    "speaker": "Deakin",
+                                                    "text": "Save it, it's not like I'll remember your names. Move it."
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "40110820",
+                                            "text": "You really have an eye for criminals."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "40110812",
+                            "text": "That's right."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "401111",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "40111101",
+                    "speaker": "Charlotte",
+                    "text": "I had no idea you could eat so much! That didn't go according to plan... Please, please don't forget about the material for my news article!"
+                }
+            ]
+        },
+        {
+            "id": "401199",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "40119901",
+                    "speaker": "Paimon",
+                    "text": "Y'know, we've been walking around for a while now. Why don't we go back to the Spina di Rosula base in the Court of Fontaine and have a rest?"
+                },
+                {
+                    "id": "40119902",
+                    "speaker": "Paimon",
+                    "text": "Navia said something about having a place ready for us there, didn't she? C'mon, let's go!"
+                },
+                {
+                    "id": "40119903",
+                    "speaker": "Paimon",
+                    "text": "Ugh, Paimon's so full... Well, guess we have nothing to regret now, so let's get going!"
+                },
+                {
+                    "id": "40119904",
+                    "speaker": "Paimon",
+                    "text": "Uh, wait... Paimon just said something really ominous, didn't she?"
+                },
+                {
+                    "id": "40119905",
+                    "speaker": "Paimon",
+                    "text": "Are we already underwater now...?"
+                },
+                {
+                    "id": "40119906",
+                    "speaker": "Paimon",
+                    "text": "So this is what it feels like to be a criminal in Fontaine..."
+                },
+                {
+                    "id": "40119907",
+                    "speaker": "Madeleine",
+                    "text": "You two seem to be taking this pretty well. It's rare to see convicts in such a good mood."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,928 @@
+{
+    "quest": {
+        "id": "8016",
+        "title": "The Key That Unlocks Fate",
+        "description": "Near the Collective of Plenty, you agree to help Iansan conduct a patrol. However, you stumble upon something completely unexpected...",
+        "rewards": [
+            {
+                "itemId": 102,
+                "count": 875
+            },
+            {
+                "itemId": 202,
+                "count": 38100
+            },
+            {
+                "itemId": 104003,
+                "count": 4
+            },
+            {
+                "itemId": 104013,
+                "count": 7
+            }
+        ],
+        "rewards_formatted": "Adventure EXP x875, Mora x38100, Hero's Wit x4, Mystic Enhancement Ore x7",
+        "chapter": {
+            "icon": "UI_ChapterIcon_Traveler",
+            "id": "1506",
+            "num": "Chapter V: Act VI",
+            "title": "A Space and Time for You"
+        },
+        "total_dialogue_lines": 158,
+        "total_speaker_counts": {
+            "Citlali": 15,
+            "Iansan": 40,
+            "Mavuika": 20,
+            "Paimon": 49,
+            "Player": 33,
+            "Sutura": 1
+        }
+    },
+    "talks": [
+        {
+            "id": "801601",
+            "objective": "Head to the Collective of Plenty",
+            "dialogues": [
+                {
+                    "id": "80160101",
+                    "speaker": "Iansan",
+                    "text": "Oh, \"Tum{RUBY#[S]Hope}aini\" and Paimon... Fancy that. I didn't expect to run into you two here."
+                },
+                {
+                    "id": "80160102",
+                    "speaker": "Paimon",
+                    "text": "Oh, hey! Coach Iansan! What are you doing here all by yourself?"
+                },
+                {
+                    "id": "80160103",
+                    "speaker": "Paimon",
+                    "text": "Uh... Just so you know, Paimon didn't come here to train... Paimon's not looking to sign up for any diet plan or bodybuilding class right now."
+                },
+                {
+                    "id": "80160104",
+                    "speaker": "Iansan",
+                    "text": "Hahaha... Alright, got it. But seriously, what do you take me for? Some coach from hell? I'd never force a student into something they didn't wanna do."
+                },
+                {
+                    "id": "80160105",
+                    "speaker": "Iansan",
+                    "text": "That being said... A little aerobic exercise would probably do you some good. You could take over my patrol for a while, that would count...",
+                    "choices": [
+                        {
+                            "id": "80160106",
+                            "text": "Hmm, rather than training...",
+                            "response": [
+                                {
+                                    "id": "80160108",
+                                    "speaker": "Iansan",
+                                    "text": "Yeah, all jokes aside — you're right. I'm looking for some help."
+                                },
+                                {
+                                    "id": "80160109",
+                                    "speaker": "Iansan",
+                                    "text": "The Collective of Plenty is holding a bodybuilding competition soon, and so many people have been busy squeezing in their last-minute workouts that we've run out of staff for patrols."
+                                },
+                                {
+                                    "id": "80160110",
+                                    "speaker": "Paimon",
+                                    "text": "Oh, so you've stepped in to cover their work. But... don't you have a last-minute workout to do, too?"
+                                },
+                                {
+                                    "id": "80160111",
+                                    "speaker": "Iansan",
+                                    "text": "I'm good. For one thing, I believe peak conditioning can only be achieved through consistent training over a long timespan. Cramming in a workout at the last minute does next to nothing for you."
+                                },
+                                {
+                                    "id": "80160112",
+                                    "speaker": "Iansan",
+                                    "text": "But more pertinently... Well, as you can probably imagine, I'm not able to compete in any of the most popular weight classes, and there's no real competition in my own weight class..."
+                                },
+                                {
+                                    "id": "80160113",
+                                    "speaker": "Paimon",
+                                    "text": "Yeah, that makes sense..."
+                                },
+                                {
+                                    "id": "80160114",
+                                    "speaker": "Paimon",
+                                    "text": "...Ohh no, don't look at Paimon like that! We are not the same weight class, and no way is Paimon competing against you!"
+                                },
+                                {
+                                    "id": "80160115",
+                                    "speaker": "Paimon",
+                                    "text": "#{NICKNAME}, let's just help with the patrol, alright? Otherwise, Iansan's gonna make Paimon enter a bodybuilding competition..."
+                                },
+                                {
+                                    "id": "80160116",
+                                    "speaker": "Iansan",
+                                    "text": "Hahaha... Perfect, I managed to get you on board with just one look.",
+                                    "choices": [
+                                        {
+                                            "id": "80160117",
+                                            "text": "Alright, I'll do it for you, Paimon.",
+                                            "response": [
+                                                {
+                                                    "id": "80160119",
+                                                    "speaker": "Iansan",
+                                                    "text": "Thank you both. It should be pretty routine — just keep your eyes peeled and make sure nothing strange is going on in the area."
+                                                },
+                                                {
+                                                    "id": "80160120",
+                                                    "speaker": "Iansan",
+                                                    "text": "That'll free me up to check the other section. Let's meet back at the settlement when we're both done."
+                                                },
+                                                {
+                                                    "id": "80160121",
+                                                    "speaker": "Paimon",
+                                                    "text": "Sure thing! Just leave it to us. We're experts at strolling and patrolling, don't you worry."
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "80160118",
+                                            "text": "Alright, Coach, we'll help you out."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "80160107",
+                            "text": "That sounds more like helping you out."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "801611",
+            "objective": "Patrol the area near the Collective of Plenty",
+            "dialogues": []
+        },
+        {
+            "id": "801602",
+            "objective": "Check on the situation in the cave",
+            "dialogues": [
+                {
+                    "id": "80160201",
+                    "speaker": "Paimon",
+                    "text": "Hey, there's a hilichurl here! Is it... sleeping? Doesn't look very hostile."
+                },
+                {
+                    "id": "80160202",
+                    "speaker": "Paimon",
+                    "text": "Why is it hiding away here?"
+                },
+                {
+                    "id": "80160203",
+                    "speaker": "Paimon",
+                    "text": "Ah, you woke it up..."
+                },
+                {
+                    "id": "80160204",
+                    "speaker": "Paimon",
+                    "text": "Huh!? It ran away... Guess our reputation in Natlan is more fearsome than we thought. Even hilichurls don't wanna mess with us now."
+                },
+                {
+                    "id": "80160205",
+                    "speaker": "Player",
+                    "text": "There's something on the ground."
+                },
+                {
+                    "id": "80160206",
+                    "speaker": "Paimon",
+                    "text": "You mean that shiny thing? Must've dropped it as it ran off."
+                },
+                {
+                    "id": "80160207",
+                    "speaker": "Paimon",
+                    "text": "Huh... Paimon bets that hilichurl thought it was a priceless treasure. It was probably planning to hide it here for safekeeping... until we showed up."
+                },
+                {
+                    "id": "80160208",
+                    "speaker": "Paimon",
+                    "text": "Let Paimon take a look! Hilichurls aren't the brightest, so it might not be worth much, but still..."
+                },
+                {
+                    "id": "80160209",
+                    "speaker": "Player",
+                    "text": "...!"
+                },
+                {
+                    "id": "80160210",
+                    "speaker": "Paimon",
+                    "text": "#What is it, {NICKNAME}? You look so serious all of a sudden..."
+                },
+                {
+                    "id": "80160211",
+                    "speaker": "Paimon",
+                    "text": "Isn't this just a regular old key? Hmm, the style is unusual, though. Doesn't look Natlanese... Where do you think it's from?",
+                    "choices": [
+                        {
+                            "id": "80160212",
+                            "text": "This is...",
+                            "response": [
+                                {
+                                    "id": "80160214",
+                                    "speaker": "Paimon",
+                                    "text": "What do you mean? What hibernation chamber? What spaceship?"
+                                },
+                                {
+                                    "id": "80160215",
+                                    "speaker": "Paimon",
+                                    "text": "*gasp* Wait, you mean... THE spaceship? The one that brought you to Teyvat!?"
+                                },
+                                {
+                                    "id": "80160216",
+                                    "speaker": "Player",
+                                    "text": "That's the one."
+                                },
+                                {
+                                    "id": "80160217",
+                                    "speaker": "Paimon",
+                                    "text": "So... how did that key show up here? Are you sure you didn't just drop it?",
+                                    "choices": [
+                                        {
+                                            "id": "80160218",
+                                            "text": "No, I still have mine...",
+                                            "response": [
+                                                {
+                                                    "id": "80160220",
+                                                    "speaker": "Paimon",
+                                                    "text": "Whoa... Yeah, these look identical... So if one of them's yours, does that mean... the other one is...",
+                                                    "choices": [
+                                                        {
+                                                            "id": "80160221",
+                                                            "text": "There are only two of these.",
+                                                            "response": [
+                                                                {
+                                                                    "id": "80160223",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "Knew it... Whew, the keys to a spaceship. Huh, somehow, that really rams home the fact that you really are an actual alien... Wait, no, Descender."
+                                                                },
+                                                                {
+                                                                    "id": "80160224",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "...But anyway, now we know where it came from, the question is — how did it get here? Hmm..."
+                                                                },
+                                                                {
+                                                                    "id": "80160225",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "#The simplest explanation is that your {M#sister}{F#brother} lost {M#her}{F#his} key somewhere not far from here, then that hilichurl found it and ducked into the nearest cave to hide it..."
+                                                                },
+                                                                {
+                                                                    "id": "80160226",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "#If that's true... It means your {M#sister}{F#brother} was here recently.",
+                                                                    "choices": [
+                                                                        {
+                                                                            "id": "80160227",
+                                                                            "text": "And by extension...",
+                                                                            "response": [
+                                                                                {
+                                                                                    "id": "80160229",
+                                                                                    "speaker": "Paimon",
+                                                                                    "text": "#Yeah... Man, this is so crazy. We only agreed to help with Iansan's patrol on a whim, and now we've made this bombshell discovery and found a huge lead on your {M#sister}{F#brother}..."
+                                                                                },
+                                                                                {
+                                                                                    "id": "80160230",
+                                                                                    "speaker": "Paimon",
+                                                                                    "text": "Should we keep following this trail while it's hot? Or do you think we should check back in with Iansan?"
+                                                                                },
+                                                                                {
+                                                                                    "id": "80160231",
+                                                                                    "speaker": "Iansan",
+                                                                                    "text": "Ah, there you are. Looks like you went the extra mile today — thanks for being so diligent."
+                                                                                },
+                                                                                {
+                                                                                    "id": "80160232",
+                                                                                    "speaker": "Paimon",
+                                                                                    "text": "Oh, hey, Iansan! What's up? Didn't think we'd see you again till we headed back to the settlement..."
+                                                                                },
+                                                                                {
+                                                                                    "id": "80160233",
+                                                                                    "speaker": "Paimon",
+                                                                                    "text": "We were actually just about to go meet up with you. We've made a huge discovery today!"
+                                                                                },
+                                                                                {
+                                                                                    "id": "80160234",
+                                                                                    "speaker": "Iansan",
+                                                                                    "text": "I came here to let you know that you don't need to keep patrolling anymore. The bodybuilding competition has just been canceled, so the usual squad will be resuming their normal duties. They'll be here to take over shortly."
+                                                                                },
+                                                                                {
+                                                                                    "id": "80160235",
+                                                                                    "speaker": "Paimon",
+                                                                                    "text": "Wait, canceled? Why, what happened?"
+                                                                                },
+                                                                                {
+                                                                                    "id": "80160236",
+                                                                                    "speaker": "Iansan",
+                                                                                    "text": "The Abyss Order attacked."
+                                                                                },
+                                                                                {
+                                                                                    "id": "80160237",
+                                                                                    "speaker": "Paimon",
+                                                                                    "text": "Huh!?"
+                                                                                },
+                                                                                {
+                                                                                    "id": "80160238",
+                                                                                    "speaker": "Player",
+                                                                                    "text": "Didn't expect our suspicions to be confirmed so quickly."
+                                                                                },
+                                                                                {
+                                                                                    "id": "80160239",
+                                                                                    "speaker": "Player",
+                                                                                    "text": "#(Sounds like {M#Lumine}{F#Aether} is on the move again.)"
+                                                                                },
+                                                                                {
+                                                                                    "id": "80160240",
+                                                                                    "speaker": "Player",
+                                                                                    "text": "#(I'll find a way to speak with {M#her}{F#him} in person this time. I have to.)"
+                                                                                },
+                                                                                {
+                                                                                    "id": "80160241",
+                                                                                    "speaker": "Iansan",
+                                                                                    "text": "I've heard of the Abyss Order, but this is the first time I've known them to take organized action on such a large scale."
+                                                                                },
+                                                                                {
+                                                                                    "id": "80160242",
+                                                                                    "speaker": "Iansan",
+                                                                                    "text": "It's like they're... preparing to go to war against our entire nation."
+                                                                                },
+                                                                                {
+                                                                                    "id": "80160243",
+                                                                                    "speaker": "Paimon",
+                                                                                    "text": "One little sect versus the entire nation of war? How are they expecting to pull that off?"
+                                                                                },
+                                                                                {
+                                                                                    "id": "80160244",
+                                                                                    "speaker": "Paimon",
+                                                                                    "text": "Based on everything we've seen from them so far, they usually prefer to act in the shadows. So, what's different about it this time? What could they be after?"
+                                                                                },
+                                                                                {
+                                                                                    "id": "80160245",
+                                                                                    "speaker": "Iansan",
+                                                                                    "text": "No clue. All we know is that they've attacked our tribe, but that doesn't tell us much."
+                                                                                },
+                                                                                {
+                                                                                    "id": "80160246",
+                                                                                    "speaker": "Iansan",
+                                                                                    "text": "Our defenses are holding strong so far, so I'm gonna head to the Stadium of the Sacred Flame and see what Mavuika knows. If there is any information out there, she's the one people report to."
+                                                                                },
+                                                                                {
+                                                                                    "id": "80160247",
+                                                                                    "speaker": "Iansan",
+                                                                                    "text": "#Want to come with me, {NICKNAME}? I'm sure everyone will feel better knowing that the hero of Natlan is on the case.",
+                                                                                    "choices": [
+                                                                                        {
+                                                                                            "id": "80160248",
+                                                                                            "text": "Well, I am keen to find out more about the situation.",
+                                                                                            "response": [
+                                                                                                {
+                                                                                                    "id": "80160250",
+                                                                                                    "speaker": "Iansan",
+                                                                                                    "text": "Great, then let's head over together."
+                                                                                                }
+                                                                                            ]
+                                                                                        },
+                                                                                        {
+                                                                                            "id": "80160249",
+                                                                                            "text": "And I can provide some information on the Abyss Order."
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        {
+                                                                            "id": "80160228",
+                                                                            "text": "The Abyss Order was probably here as well."
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "id": "80160222",
+                                                            "text": "#One belongs to me, and the other, to my {M#sister}{F#brother}."
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "80160219",
+                                            "text": "...I've always made sure to keep it safe and sound."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "80160213",
+                            "text": "The key to the Hibernation Chamber on the spaceship."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "801603",
+            "objective": "Go to the Speaker's Chamber to look for Mavuika",
+            "dialogues": [
+                {
+                    "id": "80160301",
+                    "speaker": "Iansan",
+                    "text": "Mavuika!"
+                },
+                {
+                    "id": "80160302",
+                    "speaker": "Mavuika",
+                    "text": "#Oh? Great timing, Iansan. I was just about to send someone for you. And it's good to see {NICKNAME}'s with you."
+                },
+                {
+                    "id": "80160303",
+                    "speaker": "Iansan",
+                    "text": "How are things looking? What's the latest word from the messengers?"
+                },
+                {
+                    "id": "80160304",
+                    "speaker": "Mavuika",
+                    "text": "The Abyss Order has been spotted near several tribes at the same time. Clearly, this is a coordinated strike."
+                },
+                {
+                    "id": "80160305",
+                    "speaker": "Mavuika",
+                    "text": "Also, their numbers are much higher than expected. Their organization appears to have grown considerably, but because they're usually so secretive, this is the first we're learning of it."
+                },
+                {
+                    "id": "80160306",
+                    "speaker": "Iansan",
+                    "text": "It sounds like they're throwing everything they have at us... What are they trying to achieve?"
+                },
+                {
+                    "id": "80160307",
+                    "speaker": "Mavuika",
+                    "text": "That's what I'd like to know as well. Historically, Natlan has not been a hotbed of Abyss Order activity, and we have no particular quarrel with them."
+                },
+                {
+                    "id": "80160308",
+                    "speaker": "Iansan",
+                    "text": "Could it be... revenge, perhaps? Would they want to get back at us for our recent victory over the Abyss?"
+                },
+                {
+                    "id": "80160309",
+                    "speaker": "Paimon",
+                    "text": "Seems unlikely... But then again, Paimon wouldn't put anything past the Abyss Order."
+                },
+                {
+                    "id": "80160310",
+                    "speaker": "Mavuika",
+                    "text": "It's too early to say anything definite. For the time being, we should continue monitoring the situation."
+                },
+                {
+                    "id": "80160311",
+                    "speaker": "Paimon",
+                    "text": "How are the battles going? Not too many casualties, hopefully?"
+                },
+                {
+                    "id": "80160312",
+                    "speaker": "Mavuika",
+                    "text": "Well, even if they're committing all their forces to the fight, they're in for a tough time. Our brave warriors have just emerged victorious from an all-out fight against the Abyss itself."
+                },
+                {
+                    "id": "80160313",
+                    "speaker": "Iansan",
+                    "text": "Yep. We have a whole nation's worth of seasoned veterans fighting for us."
+                },
+                {
+                    "id": "80160314",
+                    "speaker": "Mavuika",
+                    "text": "Compared to the true Abyss, the Abyss Order poses a far smaller threat. They cannot endlessly replenish their forces, for starters."
+                },
+                {
+                    "id": "80160315",
+                    "speaker": "Mavuika",
+                    "text": "However, this is still a war, so we must give it our all, and do our utmost to minimize casualties."
+                },
+                {
+                    "id": "80160316",
+                    "speaker": "Mavuika",
+                    "text": "#The tribes are organizing their defenses as we speak. {NICKNAME}, this is one war that Natlan can handle on its own. If you wish to stay out of it, you'll be safe here at the Stadium with me."
+                },
+                {
+                    "id": "80160317",
+                    "speaker": "Player",
+                    "text": "No, this one is personal for me..."
+                },
+                {
+                    "id": "80160318",
+                    "speaker": "Mavuika",
+                    "text": "Oh? In what way...?",
+                    "choices": [
+                        {
+                            "id": "80160319",
+                            "text": "The current leader of the Abyss Order...",
+                            "response": [
+                                {
+                                    "id": "80160321",
+                                    "speaker": "Paimon",
+                                    "text": "Yep, that's how it is."
+                                },
+                                {
+                                    "id": "80160322",
+                                    "speaker": "Mavuika",
+                                    "text": "I see... My goodness. That is... very personal indeed."
+                                },
+                                {
+                                    "id": "80160323",
+                                    "speaker": "Mavuika",
+                                    "text": "#If you don't mind me asking, do you have any idea what {M#her}{F#his} goal could be?"
+                                },
+                                {
+                                    "id": "80160324",
+                                    "speaker": "Player",
+                                    "text": "That's what I want to know as well."
+                                },
+                                {
+                                    "id": "80160325",
+                                    "speaker": "Paimon",
+                                    "text": "Safe to say, they're not exactly on the best terms at the moment."
+                                },
+                                {
+                                    "id": "80160326",
+                                    "speaker": "Paimon",
+                                    "text": "#Ever since Paimon met {NICKNAME}, {M#he}{F#she}'s been trying to track {M#his sister}{F#her brother} down and get some answers. But {M#she}{F#he}'s been avoiding {M#him}{F#her}."
+                                },
+                                {
+                                    "id": "80160327",
+                                    "speaker": "Iansan",
+                                    "text": "I see. So you two have fallen out... Heh, a pretty common occurrence between siblings."
+                                },
+                                {
+                                    "id": "80160328",
+                                    "speaker": "Paimon",
+                                    "text": "Well, yeah, that may be... But the stakes are a little higher where these two are involved!"
+                                },
+                                {
+                                    "id": "80160329",
+                                    "speaker": "Mavuika",
+                                    "text": "#They certainly are... Although somehow, it doesn't surprise me that a spat between {NICKNAME} and twin could affect the fate of the entire world."
+                                },
+                                {
+                                    "id": "80160330",
+                                    "speaker": "Mavuika",
+                                    "text": "Just so I'm clear — you're still on Natlan's side, and you have no idea what your sibling is after. Is that right?",
+                                    "choices": [
+                                        {
+                                            "id": "80160331",
+                                            "text": "Absolutely.",
+                                            "response": [
+                                                {
+                                                    "id": "80160333",
+                                                    "speaker": "Mavuika",
+                                                    "text": "Haha, well that's a relief. When you first mentioned your sibling, I was worried we were about to be thrust into an impossible position."
+                                                },
+                                                {
+                                                    "id": "80160334",
+                                                    "speaker": "Mavuika",
+                                                    "text": "Our reports say that the Abyss Order has focused most of their efforts against the Masters of the Night-Wind."
+                                                },
+                                                {
+                                                    "id": "80160335",
+                                                    "speaker": "Mavuika",
+                                                    "text": "If you don't plan on staying here with me, I'd recommend going there to lend them a hand."
+                                                },
+                                                {
+                                                    "id": "80160336",
+                                                    "speaker": "Player",
+                                                    "text": "Sounds great."
+                                                },
+                                                {
+                                                    "id": "80160337",
+                                                    "speaker": "Iansan",
+                                                    "text": "I'll join you. Right now, the Collective of Plenty isn't facing a serious threat, so we should support the other tribes."
+                                                },
+                                                {
+                                                    "id": "80160338",
+                                                    "speaker": "Mavuika",
+                                                    "text": "Many thanks, you two. Anything you need, send word to me right away."
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "80160332",
+                                            "text": "I might even hate the Abyss Order more than you do."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "80160320",
+                            "text": "#Is my {M#sister}{F#brother}."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "801604",
+            "objective": "Go to the Masters of the Night-Wind to provide support",
+            "dialogues": [
+                {
+                    "id": "80160401",
+                    "speaker": "Citlali",
+                    "text": "Phew... Much better. That's more like it!"
+                },
+                {
+                    "id": "80160402",
+                    "speaker": "Iansan",
+                    "text": "Impressive work, Granny Itztli. If I'd known you were on the case already, I might have reconsidered whether your tribe really needed reinforcements."
+                },
+                {
+                    "id": "80160403",
+                    "speaker": "Citlali",
+                    "text": "Hah! If anyone should be reconsidering, it's the Abyss Order. They picked the wrong target this time!"
+                },
+                {
+                    "id": "80160404",
+                    "speaker": "Iansan",
+                    "text": "Experience says that if we head in the direction they were attacking from, we should find their stronghold."
+                },
+                {
+                    "id": "80160405",
+                    "speaker": "Iansan",
+                    "text": "Why don't we press our advantage and destroy their base? They won't know what hit 'em."
+                },
+                {
+                    "id": "80160406",
+                    "speaker": "Sutura",
+                    "text": "Hey, was there a battle here just now? Need any help?"
+                },
+                {
+                    "id": "80160407",
+                    "speaker": "Paimon",
+                    "text": "Ah, the warriors from the Masters of the Night-Wind are here!"
+                },
+                {
+                    "id": "80160408",
+                    "speaker": "Iansan",
+                    "text": "The battle against the Abyss is still fresh on our minds, so everyone's used to working together."
+                },
+                {
+                    "id": "80160409",
+                    "speaker": "Iansan",
+                    "text": "Well, morale's high and everyone's here. Let's go take down that stronghold!"
+                }
+            ]
+        },
+        {
+            "id": "801605",
+            "objective": "Talk to Citlali",
+            "dialogues": [
+                {
+                    "id": "80160501",
+                    "speaker": "Paimon",
+                    "text": "Look, it's Citlali!"
+                },
+                {
+                    "id": "80160502",
+                    "speaker": "Citlali",
+                    "text": "Huh, I wasn't expecting to see you here. Are you here to reinforce us?"
+                },
+                {
+                    "id": "80160503",
+                    "speaker": "Iansan",
+                    "text": "How are things looking? Mavuika told us to come here."
+                },
+                {
+                    "id": "80160504",
+                    "speaker": "Paimon",
+                    "text": "Huh... The situation must be pretty dire if it's managed to get Citlali out of the house..."
+                },
+                {
+                    "id": "80160505",
+                    "speaker": "Citlali",
+                    "text": "Dire... No, I wouldn't go that far. It's mostly just... irritating."
+                },
+                {
+                    "id": "80160506",
+                    "speaker": "Citlali",
+                    "text": "I heard we're being hit the hardest out of all the tribes. What are they trying to imply? They just think we're pushovers, or something?"
+                },
+                {
+                    "id": "80160507",
+                    "speaker": "Citlali",
+                    "text": "The more I thought about it, the angrier I got. I couldn't exactly concentrate on my novel after that, so... Hmph, well, here I am."
+                },
+                {
+                    "id": "80160508",
+                    "speaker": "Paimon",
+                    "text": "So that's how they earned the ire of Granny Itztli, huh..."
+                },
+                {
+                    "id": "80160509",
+                    "speaker": "Citlali",
+                    "text": "They call themselves the \"Abyss Order,\" yes? So tasteless. It's exactly the kind of two-dimensional name a clueless writer picks because they don't trust the rest of their writing to persuade the reader of who the real villains are..."
+                },
+                {
+                    "id": "80160510",
+                    "speaker": "Paimon",
+                    "text": "#Hey, she's saying your {M#sister}{F#brother} has poor taste...",
+                    "choices": [
+                        {
+                            "id": "80160511",
+                            "text": "I'm just glad I'm not the only one who thinks that.",
+                            "response": [
+                                {
+                                    "id": "80160513",
+                                    "speaker": "Citlali",
+                                    "text": "#Wait, what? Are you saying... {M#his sister}{F#her brother} is a member of the Abyss Order?"
+                                },
+                                {
+                                    "id": "80160514",
+                                    "speaker": "Citlali",
+                                    "text": "(I only said that because I was mad... but maybe I went too far?)"
+                                },
+                                {
+                                    "id": "80160515",
+                                    "speaker": "Iansan",
+                                    "text": "Hey, let's save the chat for later. We've got some enemies incoming."
+                                },
+                                {
+                                    "id": "80160516",
+                                    "speaker": "Citlali",
+                                    "text": "Good! A much-needed chance to vent my frustration! And not a moment too soon — things were getting awkward there. Luckily, I'll never have to find out just how badly the rest of that conversation was gonna go."
+                                },
+                                {
+                                    "id": "80160517",
+                                    "speaker": "Paimon",
+                                    "text": "You didn't have to say that last part out loud, Citlali... Anyway, let's get 'em!"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "80160512",
+                            "text": "#If I were {M#her}{F#him}, I'd have changed that name long ago."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "801609",
+            "objective": "Defeat the Abyss Order monsters",
+            "dialogues": []
+        },
+        {
+            "id": "801610",
+            "objective": "Talk to Citlali",
+            "dialogues": []
+        },
+        {
+            "id": "801606",
+            "objective": "Launch a counterattack against the Abyss Order",
+            "dialogues": []
+        },
+        {
+            "id": "801607",
+            "objective": "Talk to Citlali",
+            "dialogues": [
+                {
+                    "id": "80160701",
+                    "speaker": "Iansan",
+                    "text": "This stronghold is neutralized. Good work, everyone."
+                },
+                {
+                    "id": "80160702",
+                    "speaker": "Paimon",
+                    "text": "Hmph, the Abyss Order's all bark and no bite."
+                },
+                {
+                    "id": "80160703",
+                    "speaker": "Citlali",
+                    "text": "To be honest, this was anticlimactic. I was hoping for a personal apology at the very least. And ideally, a whole speech acknowledging the superior might of the Masters of the Night-Wind..."
+                },
+                {
+                    "id": "80160704",
+                    "speaker": "Citlali",
+                    "text": "Well, whatever. I'll just have to make up for it with some extra wine at the victory feast."
+                },
+                {
+                    "id": "80160705",
+                    "speaker": "Iansan",
+                    "text": "With the stronghold cleared, this area should be safe for the time being. But still... something tells me we can't afford to let our guard down yet."
+                },
+                {
+                    "id": "80160706",
+                    "speaker": "Iansan",
+                    "text": "Maybe it's just me, but an enemy under siege normally defends their stronghold at all costs. The fighting gets more and more intense, right till the bitter end."
+                },
+                {
+                    "id": "80160707",
+                    "speaker": "Iansan",
+                    "text": "But this time was different. With a few exceptions, most of the enemies here gave up and fled the moment that... Well, I don't know, but it seemed like they sensed something."
+                },
+                {
+                    "id": "80160708",
+                    "speaker": "Citlali",
+                    "text": "Huh? Not sure I follow... They did a tactical retreat, that's all. It's just a different strategy."
+                },
+                {
+                    "id": "80160709",
+                    "speaker": "Iansan",
+                    "text": "I'm not convinced... Don't forget, they're radicals who chose to wage war on an entire nation. They don't do things in half measures. It seems out-of-character to cut their losses and run like that."
+                },
+                {
+                    "id": "80160710",
+                    "speaker": "Citlali",
+                    "text": "So you're saying, there's more to this than meets the eye?"
+                },
+                {
+                    "id": "80160711",
+                    "speaker": "Iansan",
+                    "text": "I'm saying we don't know enough to be sure of anything at this stage. So let's stay alert and keep our defenses at the ready."
+                },
+                {
+                    "id": "80160712",
+                    "speaker": "Player",
+                    "text": "(So, we're no wiser as to the Abyss Order's objective. Back to square one...)"
+                },
+                {
+                    "id": "80160713",
+                    "speaker": "Player",
+                    "text": "#(If I could only get {M#Lumine}{F#Aether} to talk to me, I could get answers for all of us.)",
+                    "choices": [
+                        {
+                            "id": "80160714",
+                            "text": "I'm heading back to the Collective of Plenty.",
+                            "response": [
+                                {
+                                    "id": "80160716",
+                                    "speaker": "Paimon",
+                                    "text": "Paimon had a hunch you might say that."
+                                },
+                                {
+                                    "id": "80160717",
+                                    "speaker": "Paimon",
+                                    "text": "But you're right. If we can somehow use that key to track down your sibling, maybe we can end this war before things get serious. And maybe you can finally get some answers."
+                                },
+                                {
+                                    "id": "80160718",
+                                    "speaker": "Citlali",
+                                    "text": "Wait, you're leaving? But I was still debating whether to invite you to the first victory feast..."
+                                },
+                                {
+                                    "id": "80160719",
+                                    "speaker": "Iansan",
+                                    "text": "Go ahead, you two. Citlali and I will take care of things here."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "80160715",
+                            "text": "That key is our only lead so far."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "801608",
+            "objective": "Leave the battlefield",
+            "dialogues": []
+        },
+        {
+            "id": "801610",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "80161001",
+                    "speaker": "Mavuika",
+                    "text": "And don't worry, you're still Natlan's hero. I'm not going to blame you for something your sibling has done."
+                },
+                {
+                    "id": "80161002",
+                    "speaker": "Mavuika",
+                    "text": "#Still, if we manage to find your {M#sister}{F#brother}... You wouldn't mind if I gave {M#her}{F#him} a good punch to teach {M#her}{F#him} a lesson, would you?"
+                }
+            ]
+        },
+        {
+            "id": "801699",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "80169901",
+                    "speaker": "Paimon",
+                    "text": "Hmm, what's this? Was there always a cave here?"
+                },
+                {
+                    "id": "80169902",
+                    "speaker": "Paimon",
+                    "text": "We should go take a look, right? Seems like a thing to do on a patrol."
+                }
+            ]
+        }
+    ]
+}

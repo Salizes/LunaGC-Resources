@@ -1,0 +1,755 @@
+{
+    "quest": {
+        "id": "11121",
+        "title": "As Verdades nas Pedras",
+        "description": "Você chega à mina, o local do incidente, e inicia sua investigação. Uma série de pistas deixa claro que não há nada de comum neste desaparecimento. Qual é a conexão entre a pessoa misteriosa por trás deste incidente e os mineradores desaparecidos? Aonde os mineradores desaparecidos foram parar? Você precisa descobrir a verdade.",
+        "rewards": [
+            {
+                "itemId": 102,
+                "count": 400
+            },
+            {
+                "itemId": 202,
+                "count": 24100
+            },
+            {
+                "itemId": 104003,
+                "count": 3
+            },
+            {
+                "itemId": 104013,
+                "count": 5
+            }
+        ],
+        "rewards_formatted": "EXP de Aventura x400, Mora x24100, EXP do Herói x3, Minério de Refinamento Místico x5",
+        "chapter": {
+            "icon": "UI_ChapterIcon_Zhongli",
+            "id": "2020",
+            "num": "História Antiga: Ato II",
+            "title": "Não é uma Mera Pedra"
+        },
+        "total_dialogue_lines": 127,
+        "total_speaker_counts": {
+            "Hu": 6,
+            "Kun Jun": 25,
+            "Observe a pedra": 2,
+            "Paimon": 32,
+            "Player": 6,
+            "Sr. Dai": 20,
+            "Zhongli": 36
+        }
+    },
+    "talks": [
+        {
+            "id": "1112101",
+            "objective": "Vá para a mina que o Sr. Dai mencionou",
+            "dialogues": [
+                {
+                    "id": "111210101",
+                    "speaker": "Paimon",
+                    "text": "Uau! Essa mina é enorme..."
+                },
+                {
+                    "id": "111210102",
+                    "speaker": "Sr. Dai",
+                    "text": "Aqui é onde ocorreu o incidente."
+                },
+                {
+                    "id": "111210103",
+                    "speaker": "Sr. Dai",
+                    "text": "Há seis dias, eu e meu grupo saímos para cuidar de outros assuntos. Quando voltamos, os quatro homens que tinham ficado desapareceram."
+                },
+                {
+                    "id": "111210104",
+                    "speaker": "Sr. Dai",
+                    "text": "Nós procuramos por toda a mina, mas não encontramos eles. Não há qualquer pista, por isso pedimos ajuda."
+                },
+                {
+                    "id": "111210105",
+                    "speaker": "Zhongli",
+                    "text": "Ou seja, quatro mineradores desapareceram."
+                },
+                {
+                    "id": "111210106",
+                    "speaker": "Sr. Dai",
+                    "text": "Isso. Nós éramos dez pessoas, mas perdemos Long, Cen Valente, Cen Corajoso e Mao. Trabalho com todos eles."
+                },
+                {
+                    "id": "111210107",
+                    "speaker": "Zhongli",
+                    "text": "Os trabalhadores deste ramo são normalmente jovens fortes que estão na flor da sua juventude. Não teriam ido trabalhar para outra mina?"
+                },
+                {
+                    "id": "111210108",
+                    "speaker": "Sr. Dai",
+                    "text": "Acho que não. Não há outras minas nas redondezas. Nós também não vimos outras minas durante o caminho para cá."
+                },
+                {
+                    "id": "111210109",
+                    "speaker": "Kun Jun",
+                    "text": "Hum... Uma mina tão grande assim. Vocês procuraram por todo o lado?"
+                },
+                {
+                    "id": "111210110",
+                    "speaker": "Sr. Dai",
+                    "text": "Sim, por todo o lado mesmo, até debaixo da terra. Fizemos todo o possível. Mas como podem quatro jovens desaparecer assim?"
+                },
+                {
+                    "id": "111210111",
+                    "speaker": "Zhongli",
+                    "text": "Precisamos explorar a mina antes de tirar conclusões."
+                },
+                {
+                    "id": "111210112",
+                    "speaker": "Sr. Dai",
+                    "text": "Tudo bem. Espero aqui. Fiquem à vontade para explorar. Caso encontrem alguma pista, me falem logo!"
+                }
+            ]
+        },
+        {
+            "id": "1112104",
+            "objective": "Procure pistas",
+            "dialogues": [
+                {
+                    "id": "111210401",
+                    "speaker": "Paimon",
+                    "text": "Olhem, o que é isso?"
+                },
+                {
+                    "id": "111210402",
+                    "speaker": "Paimon",
+                    "text": "Roupas e sapatos espalhados..."
+                },
+                {
+                    "id": "111210403",
+                    "speaker": "Zhongli",
+                    "text": "Itens de uso cotidiano deixados na mina, devem ser do Sr. Dai e dos outros trabalhadores."
+                },
+                {
+                    "id": "111210404",
+                    "speaker": "Paimon",
+                    "text": "Um, dois, três, quatro..."
+                },
+                {
+                    "id": "111210405",
+                    "speaker": "Paimon",
+                    "text": "Hum... Sim. Há dez camisas e dez calças no total."
+                },
+                {
+                    "id": "111210406",
+                    "speaker": "Paimon",
+                    "text": "Isso são roupas para trocar? Olhe, o Sr. Dai está vestindo as mesmas roupas."
+                },
+                {
+                    "id": "111210407",
+                    "speaker": "Zhongli",
+                    "text": "Aqueles quatro homens saíram há seis dias. E não levaram as roupas para trocar."
+                },
+                {
+                    "id": "111210408",
+                    "speaker": "Paimon",
+                    "text": "Aqui tem também toalhas e sabão para lavar o rosto.... E umas bolsinhas, onde colocavam as ferramentas."
+                },
+                {
+                    "id": "111210409",
+                    "speaker": "Zhongli",
+                    "text": "Objetos para lavar o rosto pela manhã, e equipamentos de mineração..."
+                },
+                {
+                    "id": "111210410",
+                    "speaker": "Paimon",
+                    "text": "Isso significa que não levaram suas malas?"
+                },
+                {
+                    "id": "111210411",
+                    "speaker": "Zhongli",
+                    "text": "Certo.",
+                    "choices": [
+                        {
+                            "id": "111210412",
+                            "text": "Talvez não precisem delas?",
+                            "response": [
+                                {
+                                    "id": "111210414",
+                                    "speaker": "Zhongli",
+                                    "text": "Não parece ser assim."
+                                },
+                                {
+                                    "id": "111210415",
+                                    "speaker": "Zhongli",
+                                    "text": "Faltam quatro picaretas. Isso significa que eles levaram elas."
+                                },
+                                {
+                                    "id": "111210416",
+                                    "speaker": "Zhongli",
+                                    "text": "Tiveram tempo de levar as picaretas, mas não os objetos pessoais? Estranho."
+                                },
+                                {
+                                    "id": "111210417",
+                                    "speaker": "Paimon",
+                                    "text": "Hum... Em que situação alguém sai levando ferramentas, mas não suas malas?"
+                                },
+                                {
+                                    "id": "111210418",
+                                    "speaker": "Zhongli",
+                                    "text": "Um: eles foram trabalhar nos arredores e não precisaram levar as malas, mas até agora não voltaram, por isso essa hipótese não parece certa."
+                                },
+                                {
+                                    "id": "111210419",
+                                    "speaker": "Zhongli",
+                                    "text": "Dois: eles saíram forçados e não tiveram tempo para levar suas malas."
+                                },
+                                {
+                                    "id": "111210420",
+                                    "speaker": "Paimon",
+                                    "text": "Oh!!"
+                                },
+                                {
+                                    "id": "111210421",
+                                    "speaker": "Player",
+                                    "text": "Você quer dizer que... Eles foram raptados?"
+                                },
+                                {
+                                    "id": "111210422",
+                                    "speaker": "Zhongli",
+                                    "text": "Há uma certa possibilidade. Precisaremos de mais provas, é necessário mais pistas."
+                                },
+                                {
+                                    "id": "111210423",
+                                    "speaker": "Paimon",
+                                    "text": "Se eles não saíram por querer, mas foram forçados... É melhor registrar essa possibilidade e mais tarde falar com o Sr. Dai."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "111210413",
+                            "text": "Talvez se esqueceram de levar?"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "1112102",
+            "objective": "Procure por mais pistas",
+            "dialogues": [
+                {
+                    "id": "111210201",
+                    "speaker": "Paimon",
+                    "text": "Kun Jun, o que tem aí?"
+                },
+                {
+                    "id": "111210202",
+                    "speaker": "Kun Jun",
+                    "text": "Ah, são vocês! Vieram na hora certa."
+                },
+                {
+                    "id": "111210203",
+                    "speaker": "Zhongli",
+                    "text": "Você descobriu alguma coisa?"
+                },
+                {
+                    "id": "111210204",
+                    "speaker": "Kun Jun",
+                    "text": "Aqui tem um minério, talvez possamos obter algumas pistas..."
+                },
+                {
+                    "id": "111210205",
+                    "speaker": "Paimon",
+                    "text": "Minério? Qual a relação entre o minério e o desaparecimento?"
+                },
+                {
+                    "id": "111210206",
+                    "speaker": "Kun Jun",
+                    "text": "Vamos investigar. Esperem um pouco."
+                },
+                {
+                    "id": "111210207",
+                    "speaker": "Kun Jun",
+                    "text": "..."
+                },
+                {
+                    "id": "111210208",
+                    "speaker": "Zhongli",
+                    "text": "..."
+                },
+                {
+                    "id": "111210209",
+                    "speaker": "Paimon",
+                    "text": "Ele parece muito concentrado. O que está fazendo?"
+                },
+                {
+                    "id": "111210210",
+                    "speaker": "Kun Jun",
+                    "text": "Estou vendo... A silhueta de quatro homens e uma criança saindo da mina."
+                },
+                {
+                    "id": "111210211",
+                    "speaker": "Paimon",
+                    "text": "Criança? Como pode ter crianças na mina?!"
+                },
+                {
+                    "id": "111210212",
+                    "speaker": "Kun Jun",
+                    "text": "Também não sei..."
+                },
+                {
+                    "id": "111210213",
+                    "speaker": "Paimon",
+                    "text": "E o que você quer dizer com \"estou vendo\"?"
+                },
+                {
+                    "id": "111210214",
+                    "speaker": "Kun Jun",
+                    "text": "Ah! Quero dizer \"ver\" mesmo. Vocês ouviram isso, mas peço para não dizerem a ninguém! Eu acho isso bem estranho e não tenho coragem para contar a ninguém."
+                },
+                {
+                    "id": "111210215",
+                    "speaker": "Kun Jun",
+                    "text": "Na verdade, eu consigo ver a memória das pedras."
+                },
+                {
+                    "id": "111210216",
+                    "speaker": "Paimon",
+                    "text": "Ah?!"
+                },
+                {
+                    "id": "111210217",
+                    "speaker": "Zhongli",
+                    "text": "Não é uma suposição, nem uma estimativa, mas sim uma \"visão\"?"
+                },
+                {
+                    "id": "111210218",
+                    "speaker": "Paimon",
+                    "text": "Basta colocar sua mão sobre a pedra?"
+                },
+                {
+                    "id": "111210219",
+                    "speaker": "Kun Jun",
+                    "text": "Sim. Para mim, as pedras têm uma memória. Às vezes, elas registram em sua memória os acontecimentos ao redor. Apenas preciso tocá-las e me concentrar para ver suas memórias."
+                },
+                {
+                    "id": "111210220",
+                    "speaker": "Paimon",
+                    "text": "Incrível! Então você pode descobrir tudo o que aconteceu aqui?"
+                },
+                {
+                    "id": "111210221",
+                    "speaker": "Kun Jun",
+                    "text": "Isso depende da pedra. A capacidade de memória das pedras é diferente. Por exemplo, o ferro e o ferro branco têm memórias fracas."
+                },
+                {
+                    "id": "111210222",
+                    "speaker": "Kun Jun",
+                    "text": "A memória dos Cor Lapis e dos cristais é melhor. Eles conseguem registrar as coisas mais claramente."
+                },
+                {
+                    "id": "111210223",
+                    "speaker": "Zhongli",
+                    "text": "Visão pétrea... Interessante. Essa habilidade é raríssima. O Sr. Dai escolher Kun Jun foi um ato inteligente."
+                },
+                {
+                    "id": "111210224",
+                    "speaker": "Kun Jun",
+                    "text": "Haha. Fico feliz por ajudar."
+                },
+                {
+                    "id": "111210225",
+                    "speaker": "Kun Jun",
+                    "text": "Com base no que eu vi, eles devem ter seguido este caminho."
+                },
+                {
+                    "id": "111210226",
+                    "speaker": "Zhongli",
+                    "text": "A direção deste caminho é para o norte, e se seguirmos ele sairemos da mina."
+                },
+                {
+                    "id": "111210227",
+                    "speaker": "Paimon",
+                    "text": "Eles andaram para o norte. Registre essa pista e vamos falar com o Sr. Dai!"
+                }
+            ]
+        },
+        {
+            "id": "1112103",
+            "objective": "Procure por mais pistas",
+            "dialogues": [
+                {
+                    "id": "111210301",
+                    "speaker": "Zhongli",
+                    "text": "Você trabalha aqui?"
+                },
+                {
+                    "id": "111210302",
+                    "speaker": "Hu",
+                    "text": "Ah! Sim, sim! Você deve ter vindo devido ao desaparecimento. Por favor, encontre eles!"
+                },
+                {
+                    "id": "111210303",
+                    "speaker": "Hu",
+                    "text": "Eu não sei... Não sei o que houve. Naquele dia, estava nublado. O líder da equipe levou algumas pessoas para tratar de uns assuntos."
+                },
+                {
+                    "id": "111210304",
+                    "speaker": "Hu",
+                    "text": "Eu e os outros quatro homens ficamos na mina, trabalhando, e até descansamos um pouco... Só um pouco!"
+                },
+                {
+                    "id": "111210305",
+                    "speaker": "Hu",
+                    "text": "Eu acabei adormecendo na tenda, e quando acordei todos já tinham desaparecido, e não havia rastro! Tinha falado com eles há pouco tempo, e repentinamente... Desapareceram."
+                },
+                {
+                    "id": "111210306",
+                    "speaker": "Hu",
+                    "text": "Talvez... Talvez eu seja o próximo?"
+                },
+                {
+                    "id": "111210307",
+                    "speaker": "Zhongli",
+                    "text": "Então, quem estava dentro da tenda não desapareceu e quem estava trabalhando é que desapareceu?"
+                },
+                {
+                    "id": "111210308",
+                    "speaker": "Zhongli",
+                    "text": "Será que houve algum acidente na área de trabalho?"
+                },
+                {
+                    "id": "111210309",
+                    "speaker": "Paimon",
+                    "text": "Ei! Que medo!"
+                },
+                {
+                    "id": "111210310",
+                    "speaker": "Paimon",
+                    "text": "Talvez tenha havido algum incidente na área de trabalho. Registre essa pista."
+                }
+            ]
+        },
+        {
+            "id": "1112107",
+            "objective": "Reporte o resultado de sua investigação ao Sr. Dai",
+            "dialogues": [
+                {
+                    "id": "111210701",
+                    "speaker": "Sr. Dai",
+                    "text": "Vocês voltaram. Como correu a investigação?"
+                },
+                {
+                    "id": "111210702",
+                    "speaker": "Zhongli",
+                    "text": "Encontramos três pistas nos arredores."
+                },
+                {
+                    "id": "111210703",
+                    "speaker": "Zhongli",
+                    "text": "Em primeiro lugar, estão faltando quatro picaretas, mas eles não levaram nenhum objeto cotidiano. Isso significa que esses trabalhadores provavelmente não saíram por querer, mas foram forçados."
+                },
+                {
+                    "id": "111210704",
+                    "speaker": "Sr. Dai",
+                    "text": "Foram forçados?! Mas... Quem faria isso com eles?"
+                },
+                {
+                    "id": "111210705",
+                    "speaker": "Zhongli",
+                    "text": "Em segundo lugar, havia cinco trabalhadores na mina, mas um deles saiu da área de trabalho e foi dormir um pouco. Quando ele acordou, seus companheiros já tinham saído sem deixar nenhum rastro."
+                },
+                {
+                    "id": "111210706",
+                    "speaker": "Zhongli",
+                    "text": "Os trabalhadores que ficaram na área de trabalho desapareceram, mas quem permaneceu na área de descanso ficou são e salvo. Por isso, o incidente aconteceu na área de trabalho."
+                },
+                {
+                    "id": "111210707",
+                    "speaker": "Sr. Dai",
+                    "text": "Agora que você falou, Hu realmente disse que tinha descansado um pouco..."
+                },
+                {
+                    "id": "111210708",
+                    "speaker": "Sr. Dai",
+                    "text": "Será que alguém entrou na área de trabalho e levou eles?"
+                },
+                {
+                    "id": "111210709",
+                    "speaker": "Zhongli",
+                    "text": "Isso nos leva ao meu terceiro ponto. Kun Jun usou seu método especial para fazer uma suposição e chegou à conclusão que eles foram levados para fora da mina por uma criança."
+                },
+                {
+                    "id": "111210710",
+                    "speaker": "Sr. Dai",
+                    "text": "Uma criança? Nos arredores há poucos habitantes, como poderia uma criança vir até aqui?"
+                },
+                {
+                    "id": "111210711",
+                    "speaker": "Paimon",
+                    "text": "Apesar de soar impossível, a conclusão é que os quatro trabalhadores saíram com uma criança."
+                },
+                {
+                    "id": "111210712",
+                    "speaker": "Sr. Dai",
+                    "text": "Para onde foram?"
+                },
+                {
+                    "id": "111210713",
+                    "speaker": "Zhongli",
+                    "text": "De acordo com nossa suposição, eles seguiram para o norte e saíram da mina. Foram na direção das ruínas."
+                },
+                {
+                    "id": "111210714",
+                    "speaker": "Sr. Dai",
+                    "text": "Norte! Muito bem. Reunirei alguns homens e seguiremos nessa direção."
+                },
+                {
+                    "id": "111210715",
+                    "speaker": "Player",
+                    "text": "Precisam de ajuda?"
+                },
+                {
+                    "id": "111210716",
+                    "speaker": "Sr. Dai",
+                    "text": "Vocês me ajudaram muito com a investigação, podem deixar o resto conosco. Se sairmos agora talvez ainda os encontremos pelo caminho."
+                },
+                {
+                    "id": "111210717",
+                    "speaker": "Zhongli",
+                    "text": "Espere um pouco. Isso ocorreu há seis dias. Mesmo se eles tiverem ido a pé, acredito que já estarão bem longe."
+                },
+                {
+                    "id": "111210718",
+                    "speaker": "Sr. Dai",
+                    "text": "Hum... É, realmente. Então irei enviar meus homens para perguntar a alguns habitantes da área."
+                },
+                {
+                    "id": "111210719",
+                    "speaker": "Sr. Dai",
+                    "text": "Fora da mina, não há muitos lugares para passar a noite. Podemos investigar esses lugares sozinhos."
+                },
+                {
+                    "id": "111210720",
+                    "speaker": "Sr. Dai",
+                    "text": "Gostaria de pedir a vocês para continuarem olhando e procurando por pistas. Vamos nos separar. Se não nos encontrarmos no caminho, podemos nos reunir amanhã de noite no Albergue Wangshu."
+                },
+                {
+                    "id": "111210721",
+                    "speaker": "Zhongli",
+                    "text": "Certo."
+                },
+                {
+                    "id": "111210722",
+                    "speaker": "Sr. Dai",
+                    "text": "Então vamos indo!"
+                },
+                {
+                    "id": "111210723",
+                    "speaker": "Paimon",
+                    "text": "Então, agora nós continuamos nossa investigação e eles vão procurar informações junto dos habitantes das redondezas, né?"
+                },
+                {
+                    "id": "111210724",
+                    "speaker": "Zhongli",
+                    "text": "Sim, isso."
+                },
+                {
+                    "id": "111210725",
+                    "speaker": "Paimon",
+                    "text": "Mas não há mais pistas na mina... Não devemos ir para o norte também?"
+                },
+                {
+                    "id": "111210726",
+                    "speaker": "Zhongli",
+                    "text": "Espere. Falta uma pessoa."
+                },
+                {
+                    "id": "111210727",
+                    "speaker": "Paimon",
+                    "text": "Ah?"
+                },
+                {
+                    "id": "111210728",
+                    "speaker": "Paimon",
+                    "text": "Sim. Kun Jun ainda está investigando. Vamos chamar ele!"
+                }
+            ]
+        },
+        {
+            "id": "1112108",
+            "objective": "Encontre Kun Jun",
+            "dialogues": [
+                {
+                    "id": "111210801",
+                    "speaker": "Paimon",
+                    "text": "Kun Jun, o que está procurando ainda? Já encontramos todas as pistas, vamos indo!"
+                },
+                {
+                    "id": "111210802",
+                    "speaker": "Kun Jun",
+                    "text": "Ah, me desculpem. Isso é um assunto particular. Estou buscando um tipo de jade chamado Dragonite."
+                },
+                {
+                    "id": "111210803",
+                    "speaker": "Zhongli",
+                    "text": "Dragonite?",
+                    "choices": [
+                        {
+                            "id": "111210804",
+                            "text": "Nunca ouvi falar.",
+                            "response": [
+                                {
+                                    "id": "111210806",
+                                    "speaker": "Zhongli",
+                                    "text": "A Dragonite normalmente é usada no forjamento. Para que precisa dela?"
+                                },
+                                {
+                                    "id": "111210807",
+                                    "speaker": "Kun Jun",
+                                    "text": "Eu... Eu não sei."
+                                },
+                                {
+                                    "id": "111210808",
+                                    "speaker": "Kun Jun",
+                                    "text": "Desculpem. Eu não sei bem o motivo... Tenho me sentido distante. Não consigo me lembrar de nada além do meu nome e endereço."
+                                },
+                                {
+                                    "id": "111210809",
+                                    "speaker": "Kun Jun",
+                                    "text": "De fato, me sinto ansioso, sinto que tem algo que preciso fazer. Não me lembro e não me sinto bem..."
+                                },
+                                {
+                                    "id": "111210810",
+                                    "speaker": "Paimon",
+                                    "text": "Ah! Eu conheço essa sensação! Sei que me esqueci de algo mas não sei exatamente o quê."
+                                },
+                                {
+                                    "id": "111210811",
+                                    "speaker": "Kun Jun",
+                                    "text": "Ei. Eu também não sei bem. Só fico andando, sem um objetivo. Naquele dia eu fui ao mercado e ouvi algumas pessoas falando sobre a Dragonite."
+                                },
+                                {
+                                    "id": "111210812",
+                                    "speaker": "Kun Jun",
+                                    "text": "Essa palavra é bem familiar. Parece que o que preciso fazer está relacionado a ela... Por isso, queria encontrar uma."
+                                },
+                                {
+                                    "id": "111210813",
+                                    "speaker": "Kun Jun",
+                                    "text": "Talvez se eu encontrar vou me lembrar do que esqueci."
+                                },
+                                {
+                                    "id": "111210814",
+                                    "speaker": "Zhongli",
+                                    "text": "Entendi... Se tiver oportunidade, ajudarei você a encontrar essa pedra."
+                                },
+                                {
+                                    "id": "111210815",
+                                    "speaker": "Kun Jun",
+                                    "text": "É sério? Muito obrigado, Sr. Zhongli. Você é muito gentil!"
+                                },
+                                {
+                                    "id": "111210816",
+                                    "speaker": "Zhongli",
+                                    "text": "Não é nada, sério."
+                                },
+                                {
+                                    "id": "111210817",
+                                    "speaker": "Paimon",
+                                    "text": "Vamos?"
+                                },
+                                {
+                                    "id": "111210818",
+                                    "speaker": "Zhongli",
+                                    "text": "Seguindo para o norte a partir do Despenhadeiro, você chegará ao Passe de Lingju. Se eles foram por esse caminho, com certeza devem ter deixado alguns vestígios nele."
+                                },
+                                {
+                                    "id": "111210819",
+                                    "speaker": "Paimon",
+                                    "text": "Bem, vá logo ver!"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "111210805",
+                            "text": "Não entendo disso."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "1112109",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "111210901",
+                    "speaker": "Kun Jun",
+                    "text": "Eu ficarei aqui investigando. Se nos separarmos, aumentaremos nossas chances de encontrar algo."
+                },
+                {
+                    "id": "111210902",
+                    "speaker": "Kun Jun",
+                    "text": "Primeiro vamos fazer uma investigação cuidadosa... Ver as rochas nas proximidades..."
+                }
+            ]
+        },
+        {
+            "id": "1112110",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "111211001",
+                    "speaker": "Observe a pedra",
+                    "text": "(Ao que parece, é um tipo de Cor Lapis?)"
+                },
+                {
+                    "id": "111211002",
+                    "speaker": "Observe a pedra",
+                    "text": "(Afinal até pode registrar as informações que precisamos, é realmente uma pedra maravilhosa.)"
+                }
+            ]
+        },
+        {
+            "id": "1112121",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "111212101",
+                    "speaker": "Sr. Dai",
+                    "text": "Agradeço a todos pela ajuda na investigação."
+                }
+            ]
+        },
+        {
+            "id": "1112122",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "111212201",
+                    "speaker": "Kun Jun",
+                    "text": "Será que foi aquela criança que levou eles?"
+                }
+            ]
+        },
+        {
+            "id": "1112123",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "111212301",
+                    "speaker": "Hu",
+                    "text": "Para onde será que eles foram... Ah! Vocês querem me matar de susto."
+                }
+            ]
+        },
+        {
+            "id": "1112199",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "111219901",
+                    "speaker": "Paimon",
+                    "text": "Já investigamos muitas pistas, devíamos voltar e reportar para o Sr. Dai."
+                }
+            ]
+        }
+    ]
+}

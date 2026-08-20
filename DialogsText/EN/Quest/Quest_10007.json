@@ -1,0 +1,685 @@
+{
+    "quest": {
+        "id": "10007",
+        "title": "Tales of Time and Wind",
+        "description": "The witch's dictionary doesn't mention any specific task related to Venti, but you still follow its guidance and search for him around Mondstadt...",
+        "rewards": [
+            {
+                "itemId": 104003,
+                "count": 3
+            },
+            {
+                "itemId": 104308,
+                "count": 3
+            },
+            {
+                "itemId": 202,
+                "count": 30000
+            }
+        ],
+        "rewards_formatted": "Hero's Wit x3, Guide to Ballad x3, Mora x30000",
+        "chapter": {
+            "icon": "UI_ChapterIcon_Hexenzirkel",
+            "id": "2080",
+            "num": "",
+            "title": "Witch's Homework: Of the Waking of Wind"
+        },
+        "total_dialogue_lines": 105,
+        "total_speaker_counts": {
+            "<UNKNOWN>": 1,
+            "Paimon": 10,
+            "Player": 22,
+            "Venti": 72
+        }
+    },
+    "talks": [
+        {
+            "id": "1000701",
+            "objective": "Talk to Venti",
+            "dialogues": [
+                {
+                    "id": "100070101",
+                    "speaker": "Venti",
+                    "text": "...I'll take that as a yes, then."
+                },
+                {
+                    "id": "100070102",
+                    "speaker": "Player",
+                    "text": "Venti?"
+                },
+                {
+                    "id": "100070103",
+                    "speaker": "Venti",
+                    "text": "#Ah, finally! You're here, {NICKNAME}! Do you have a message for me from someone, by any chance?",
+                    "choices": [
+                        {
+                            "id": "100070104",
+                            "text": "A message?",
+                            "response": [
+                                {
+                                    "id": "100070106",
+                                    "speaker": "Venti",
+                                    "text": "There's not a single prophecy about you in that dictionary."
+                                },
+                                {
+                                    "id": "100070107",
+                                    "speaker": "Venti",
+                                    "text": "That's what you were about to say, right?",
+                                    "choices": [
+                                        {
+                                            "id": "100070108",
+                                            "text": "Yeah.",
+                                            "response": [
+                                                {
+                                                    "id": "100070110",
+                                                    "speaker": "Venti",
+                                                    "text": "#Oh? Just a moment, {NICKNAME}."
+                                                },
+                                                {
+                                                    "id": "100070111",
+                                                    "speaker": "Venti",
+                                                    "text": "Hmm... Your curiosity seems as strong as ever, Barbeloth. Alas, my \"future\" will have to remain absent from your dictionary."
+                                                },
+                                                {
+                                                    "id": "100070112",
+                                                    "speaker": "Venti",
+                                                    "text": "The wind may be happy to let dandelions trace its form, and have poets sing it into verse, but to be contained is hardly its nature."
+                                                },
+                                                {
+                                                    "id": "100070113",
+                                                    "speaker": "Venti",
+                                                    "text": "So, dear Barbeloth, please do set your pen down. Words heard on the wind are not meant to be recorded on the page."
+                                                },
+                                                {
+                                                    "id": "100070114",
+                                                    "speaker": "Venti",
+                                                    "text": "If you're truly interested in this legend, allow me to fashion it into a poem. I'll be sure to share it with you ladies at our next tea party."
+                                                },
+                                                {
+                                                    "id": "100070115",
+                                                    "speaker": "Player",
+                                                    "text": "Barbeloth? She..."
+                                                },
+                                                {
+                                                    "id": "100070116",
+                                                    "speaker": "Venti",
+                                                    "text": "Hahaha, Barbeloth has always been a reasonable person, and I believe she heard my request."
+                                                },
+                                                {
+                                                    "id": "100070117",
+                                                    "speaker": "Venti",
+                                                    "text": "As such, our conversation should be free from interruptions for now."
+                                                },
+                                                {
+                                                    "id": "100070118",
+                                                    "speaker": "Paimon",
+                                                    "text": "Wait, Barbeloth was listening in just now? P—Paimon didn't notice a thing..."
+                                                },
+                                                {
+                                                    "id": "100070119",
+                                                    "speaker": "Venti",
+                                                    "text": "Well, she is a Hexenzirkel mage. They all have quite a few tricks up their sleeves."
+                                                },
+                                                {
+                                                    "id": "100070120",
+                                                    "speaker": "Paimon",
+                                                    "text": "Still, you noticed right away, and even got her to leave us alone. Doesn't that make you the real master at cards here?"
+                                                },
+                                                {
+                                                    "id": "100070121",
+                                                    "speaker": "Venti",
+                                                    "text": "Hmm... Given the various practical factors at play, I'd call myself a master — with limits."
+                                                },
+                                                {
+                                                    "id": "100070122",
+                                                    "speaker": "Paimon",
+                                                    "text": "There you go, being all secretive again. Well, anyway, there wasn't a single thing about you in that dictionary.",
+                                                    "choices": [
+                                                        {
+                                                            "id": "100070123",
+                                                            "text": "Yeah, she just...",
+                                                            "response": [
+                                                                {
+                                                                    "id": "100070125",
+                                                                    "speaker": "Venti",
+                                                                    "text": "You being here is enough. Barbeloth's \"prophecy\" concerning me may be \"incomplete,\" but it's not \"incorrect.\""
+                                                                },
+                                                                {
+                                                                    "id": "100070126",
+                                                                    "speaker": "Venti",
+                                                                    "text": "There's something I need to do, and I could indeed use your help.",
+                                                                    "choices": [
+                                                                        {
+                                                                            "id": "100070127",
+                                                                            "text": "What is it?",
+                                                                            "response": [
+                                                                                {
+                                                                                    "id": "100070129",
+                                                                                    "speaker": "Venti",
+                                                                                    "text": "Hehe, trusty as always. In that case..."
+                                                                                },
+                                                                                {
+                                                                                    "id": "100070130",
+                                                                                    "speaker": "Venti",
+                                                                                    "text": "#Could you play a song with me later, {NICKNAME}?",
+                                                                                    "choices": [
+                                                                                        {
+                                                                                            "id": "100070131",
+                                                                                            "text": "Huh? I mean, sure...",
+                                                                                            "response": [
+                                                                                                {
+                                                                                                    "id": "100070133",
+                                                                                                    "speaker": "Venti",
+                                                                                                    "text": "Yep. That's all."
+                                                                                                },
+                                                                                                {
+                                                                                                    "id": "100070134",
+                                                                                                    "speaker": "Venti",
+                                                                                                    "text": "But, don't worry. This isn't a performance to decide the fate of some consequential event... It's just a duet between friends."
+                                                                                                },
+                                                                                                {
+                                                                                                    "id": "100070135",
+                                                                                                    "speaker": "Venti",
+                                                                                                    "text": "The last time I played this song, the howling gale was my sole audience, and the notes scattered in all directions, leaving only fragments of the melody behind."
+                                                                                                },
+                                                                                                {
+                                                                                                    "id": "100070136",
+                                                                                                    "speaker": "Venti",
+                                                                                                    "text": "But now, with a friend like you by my side, why should the wind alone bear witness to this music?"
+                                                                                                },
+                                                                                                {
+                                                                                                    "id": "100070137",
+                                                                                                    "speaker": "Venti",
+                                                                                                    "text": "Besides, I think my hands will be just that much steadier, playing alongside a trusty friend like you."
+                                                                                                },
+                                                                                                {
+                                                                                                    "id": "100070138",
+                                                                                                    "speaker": "Player",
+                                                                                                    "text": "I'll play the best I can."
+                                                                                                },
+                                                                                                {
+                                                                                                    "id": "100070139",
+                                                                                                    "speaker": "Venti",
+                                                                                                    "text": "That's all I ask. Now, let's head to the performance venue. If we follow the breeze, we'll be there in no time."
+                                                                                                }
+                                                                                            ]
+                                                                                        },
+                                                                                        {
+                                                                                            "id": "100070132",
+                                                                                            "text": "But is that all you need me to do?"
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        {
+                                                                            "id": "100070128",
+                                                                            "text": "You can count on me."
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "id": "100070124",
+                                                            "text": "Told me to come here and wait."
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "100070109",
+                                            "text": "The mages wanted me to come see you anyway, though."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "100070105",
+                            "text": "Actually, um..."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "1000704",
+            "objective": "Follow the wind with Venti",
+            "dialogues": [
+                {
+                    "id": "100070401",
+                    "speaker": "Player",
+                    "text": "This island..."
+                },
+                {
+                    "id": "100070402",
+                    "speaker": "Player",
+                    "text": "Is it special?"
+                },
+                {
+                    "id": "100070403",
+                    "speaker": "Venti",
+                    "text": "Not always. It was once an isle like any other — an ordinary, unassuming aggregation of sand and gravel."
+                },
+                {
+                    "id": "100070404",
+                    "speaker": "Venti",
+                    "text": "That is, until seeds of stories were brought here by the wind, and cultivated by time."
+                },
+                {
+                    "id": "100070405",
+                    "speaker": "Venti",
+                    "text": "And in due course, the wind brought forth new tales, and time caused them to grow into legends."
+                },
+                {
+                    "id": "100070406",
+                    "speaker": "Venti",
+                    "text": "#So, with that... Allow me to welcome you in \"truth\" to this island favored by Time, {NICKNAME}."
+                },
+                {
+                    "id": "100070407",
+                    "speaker": "Venti",
+                    "text": "This is the place where Time and Wind met in the distant past."
+                },
+                {
+                    "id": "100070408",
+                    "speaker": "Paimon",
+                    "text": "Whoa, whoa, whoa... You suddenly sound so serious, Tone-Deaf Bard. Paimon's not sure she's following this conversation anymore, either..."
+                },
+                {
+                    "id": "100070409",
+                    "speaker": "Venti",
+                    "text": "Hehe, fret not, dear Paimon! The best stories always start with a bit of suspense and intrigue."
+                }
+            ]
+        },
+        {
+            "id": "1000702",
+            "objective": "Follow the wind with Venti",
+            "dialogues": [
+                {
+                    "id": "100070201",
+                    "speaker": "Paimon",
+                    "text": "Huh, this island looks kinda familiar..."
+                }
+            ]
+        },
+        {
+            "id": "1000703",
+            "objective": "Perform together with Venti",
+            "dialogues": [
+                {
+                    "id": "100071201",
+                    "speaker": "Venti",
+                    "text": "But, forceful gales like that are most suited to wiping things clean, not helping things grow."
+                },
+                {
+                    "id": "100071202",
+                    "speaker": "Venti",
+                    "text": "So, after a few crises in Mondstadt were resolved, I made the winds gentler — just strong enough to bolster the people in times of need without knocking them off their feet.",
+                    "choices": [
+                        {
+                            "id": "100071203",
+                            "text": "So, we're here now...",
+                            "response": [
+                                {
+                                    "id": "100071205",
+                                    "speaker": "Venti",
+                                    "text": "..."
+                                },
+                                {
+                                    "id": "100071206",
+                                    "speaker": "Venti",
+                                    "text": "Shadows gather in the distance. I'm sure you've felt it, too."
+                                },
+                                {
+                                    "id": "100071207",
+                                    "speaker": "Venti",
+                                    "text": "I've heard about the Pyro Archon's face-off with the Ruler of Death, Ronova, and what happened to the Fatui Harbinger, The Captain."
+                                },
+                                {
+                                    "id": "100071208",
+                                    "speaker": "Venti",
+                                    "text": "And that's not even mentioning how Abyssal activity has been encroaching closer and closer to Mondstadt."
+                                },
+                                {
+                                    "id": "100071209",
+                                    "speaker": "Venti",
+                                    "text": "I fear the impending crisis may be beyond what humans alone can solve... In light of that, I need to be prepared."
+                                },
+                                {
+                                    "id": "100071210",
+                                    "speaker": "Venti",
+                                    "text": "It's the Anemo Archon's duty to intervene in times of need. As such, I, Barbatos, will bring forth a wind strong enough to disperse whatever storm lies ahead."
+                                },
+                                {
+                                    "id": "100071211",
+                                    "speaker": "Venti",
+                                    "text": "But, if I whip up a gale of such strength in Mondstadt City, it would just turn the place upside down — clothes, hats, the flowers that rest on people's balconies..."
+                                },
+                                {
+                                    "id": "100071212",
+                                    "speaker": "Venti",
+                                    "text": "That's why I chose to do it here — the place where I once offered an ode to Time."
+                                },
+                                {
+                                    "id": "100071213",
+                                    "speaker": "Venti",
+                                    "text": "Who knows, perhaps Time shows this island special favor precisely on account of my lovely, lovely music."
+                                },
+                                {
+                                    "id": "100071214",
+                                    "speaker": "Paimon",
+                                    "text": "Wait, so... Is this place really that special? It sure doesn't look like it..."
+                                },
+                                {
+                                    "id": "100071215",
+                                    "speaker": "Paimon",
+                                    "text": "There's a tide that ebbs and flows, and a bunch of birds that come and go... It just seems... normal."
+                                },
+                                {
+                                    "id": "100071216",
+                                    "speaker": "Venti",
+                                    "text": "Time's impact on things isn't limited to what the eye can see. Think of it like... a ripe Sunsettia."
+                                },
+                                {
+                                    "id": "100071217",
+                                    "speaker": "Venti",
+                                    "text": "If the outer peel remains intact, it's nearly impossible for the average person to tell whether the fruit inside is ripe."
+                                },
+                                {
+                                    "id": "100071218",
+                                    "speaker": "Venti",
+                                    "text": "But even the tiniest hole in said peel will cause the fruit to rot, starting from that spot."
+                                },
+                                {
+                                    "id": "100071219",
+                                    "speaker": "Venti",
+                                    "text": "Nestled in the hands of Time, not one \"blemish\" marks this island's \"peel.\" Thus, Time's influence on its very essence remains hidden to all."
+                                },
+                                {
+                                    "id": "100071220",
+                                    "speaker": "Venti",
+                                    "text": "At the most fundamental level, of course, all things that lack Time's favor will be erased at some point."
+                                },
+                                {
+                                    "id": "100071221",
+                                    "speaker": "Venti",
+                                    "text": "But with the power that remains here, I can leverage Time to draw a boundary around the Wind."
+                                },
+                                {
+                                    "id": "100071222",
+                                    "speaker": "Venti",
+                                    "text": "That way, the outside world won't notice a thing, no matter how powerful of a gale I whip up here."
+                                },
+                                {
+                                    "id": "100071223",
+                                    "speaker": "Venti",
+                                    "text": "#Of course, as the one requesting help, I should offer something in return. That's why I invited you here, {NICKNAME}... So we could perform an ode to Time together."
+                                },
+                                {
+                                    "id": "100071224",
+                                    "speaker": "Venti",
+                                    "text": "#Just let me know when you're ready, {NICKNAME}. Oh, and I can lend you an instrument if you need one."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "100071204",
+                            "text": "To do what exactly...?"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "1000710",
+            "objective": "Perform together with Venti",
+            "dialogues": [
+                {
+                    "id": "100071001",
+                    "speaker": "Venti",
+                    "text": "Once upon a time, I summoned the first winds of freedom on behalf of Mondstadt's people. With the aid of those winds, liberty was returned to all who were owed it."
+                }
+            ]
+        },
+        {
+            "id": "1000708",
+            "objective": "Perform together with Venti",
+            "dialogues": [
+                {
+                    "id": "100072001",
+                    "speaker": "<UNKNOWN>",
+                    "text": ""
+                }
+            ]
+        },
+        {
+            "id": "1000705",
+            "objective": "Talk to Venti",
+            "dialogues": [
+                {
+                    "id": "100070501",
+                    "speaker": "Venti",
+                    "text": "Ah, looks like our music has moved some in our audience to step on stage."
+                },
+                {
+                    "id": "100070502",
+                    "speaker": "Venti",
+                    "text": "But that's against concert rules, so let's usher them out."
+                }
+            ]
+        },
+        {
+            "id": "1000709",
+            "objective": "Defeat the attacking monsters",
+            "dialogues": []
+        },
+        {
+            "id": "1000712",
+            "objective": "Defeat the attacking monsters",
+            "dialogues": []
+        },
+        {
+            "id": "1000706",
+            "objective": "Defeat the attacking monsters",
+            "dialogues": []
+        },
+        {
+            "id": "1000711",
+            "objective": "Talk to Venti",
+            "dialogues": [
+                {
+                    "id": "100071101",
+                    "speaker": "Venti",
+                    "text": "I told you about this before, remember? About how I encountered \"Time\" at the Thousand Winds Temple and received some help."
+                },
+                {
+                    "id": "100071102",
+                    "speaker": "Venti",
+                    "text": "Well, it was because of Time's help that the those first winds of freedom were able to blow so strongly."
+                }
+            ]
+        },
+        {
+            "id": "1000707",
+            "objective": "Talk to Venti",
+            "dialogues": [
+                {
+                    "id": "100070701",
+                    "speaker": "Venti",
+                    "text": "#Alright, that should do it. This was an exquisite performance, {NICKNAME}. Thank you."
+                },
+                {
+                    "id": "100070702",
+                    "speaker": "Player",
+                    "text": "That power you unleashed just now..."
+                },
+                {
+                    "id": "100070703",
+                    "speaker": "Venti",
+                    "text": "Ah, don't worry. That power was mine and mine alone. No external help was involved."
+                },
+                {
+                    "id": "100070704",
+                    "speaker": "Venti",
+                    "text": "Think of it like... tuning a musical instrument so that it might play melodies lovelier still."
+                },
+                {
+                    "id": "100070705",
+                    "speaker": "Paimon",
+                    "text": "Hah, so you do have some tricks up your sleeve! What else are you hiding, hmm?"
+                },
+                {
+                    "id": "100070706",
+                    "speaker": "Venti",
+                    "text": "Oh, Paimon. How many tricks could I possibly have? I only have two sleeves, after all."
+                },
+                {
+                    "id": "100070707",
+                    "speaker": "Paimon",
+                    "text": "You know that's not what Paimon meant, Tone-Deaf Bard!"
+                },
+                {
+                    "id": "100070708",
+                    "speaker": "Venti",
+                    "text": "Hahaha, I have a feeling the wind is gonna be pretty strong today. We should head back to Mondstadt and tell people to hold onto their hats."
+                }
+            ]
+        },
+        {
+            "id": "1000703",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "100070301",
+                    "speaker": "Paimon",
+                    "text": "Paimon thought we'd have to fly super far, but it looks like we're just outside the city..."
+                }
+            ]
+        },
+        {
+            "id": "1000713",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "100071301",
+                    "speaker": "Player",
+                    "text": "I'm ready."
+                },
+                {
+                    "id": "100071302",
+                    "speaker": "Venti",
+                    "text": "Great. Let's get started."
+                }
+            ]
+        },
+        {
+            "id": "1000714",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "100071401",
+                    "speaker": "Player",
+                    "text": "There's something I need to do first..."
+                },
+                {
+                    "id": "100071402",
+                    "speaker": "Venti",
+                    "text": "No worries. Just come find me when you're ready."
+                }
+            ]
+        },
+        {
+            "id": "1000717",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "100071701",
+                    "speaker": "Venti",
+                    "text": "#Just let me know when you're ready, {NICKNAME}. Oh, and I can lend you an instrument if you need one."
+                }
+            ]
+        },
+        {
+            "id": "1000718",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "100071801",
+                    "speaker": "Player",
+                    "text": "I'm ready."
+                },
+                {
+                    "id": "100071802",
+                    "speaker": "Venti",
+                    "text": "Great. Let's get started."
+                }
+            ]
+        },
+        {
+            "id": "1000719",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "100071901",
+                    "speaker": "Player",
+                    "text": "There's something I need to do first..."
+                },
+                {
+                    "id": "100071902",
+                    "speaker": "Venti",
+                    "text": "No worries. Just come find me when you're ready."
+                }
+            ]
+        },
+        {
+            "id": "1000799",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "100079901",
+                    "speaker": "Venti",
+                    "text": "Just relax, and let the wind lead the way."
+                },
+                {
+                    "id": "100079902",
+                    "speaker": "Venti",
+                    "text": "We're almost there."
+                },
+                {
+                    "id": "100079903",
+                    "speaker": "Venti",
+                    "text": "I understand your love for music, of course..."
+                },
+                {
+                    "id": "100079904",
+                    "speaker": "Venti",
+                    "text": "But for now, I'm going to have you... leave the premises."
+                },
+                {
+                    "id": "100079905",
+                    "speaker": "Venti",
+                    "text": "Alright, let's get going."
+                },
+                {
+                    "id": "100079906",
+                    "speaker": "Venti",
+                    "text": "Hahaha, no need to hold your breath. In and out, easy does it."
+                },
+                {
+                    "id": "100079908",
+                    "speaker": "Venti",
+                    "text": "I let the birds know we would be coming, so we won't run into them."
+                },
+                {
+                    "id": "100079911",
+                    "speaker": "Venti",
+                    "text": "Hmm... We're almost there."
+                }
+            ]
+        }
+    ]
+}

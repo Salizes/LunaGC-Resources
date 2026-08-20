@@ -1,0 +1,902 @@
+{
+    "quest": {
+        "id": "10120",
+        "title": "Sombras do Passado",
+        "description": "A Mestre Jean tem uma tarefa especial para você. Dirija-se à sede dos Cavaleiros de Favonius para saber mais.",
+        "rewards": [
+            {
+                "itemId": 102,
+                "count": 375
+            },
+            {
+                "itemId": 202,
+                "count": 22000
+            },
+            {
+                "itemId": 104003,
+                "count": 2
+            },
+            {
+                "itemId": 104013,
+                "count": 5
+            }
+        ],
+        "rewards_formatted": "EXP de Aventura x375, Mora x22000, EXP do Herói x2, Minério de Refinamento Místico x5",
+        "chapter": {
+            "icon": "UI_ChapterIcon_Eula",
+            "id": "2019",
+            "num": "Capítulo de Aphros Delos: Ato I",
+            "title": "A Espuma Não Volta para o Mar"
+        },
+        "total_dialogue_lines": 152,
+        "total_speaker_counts": {
+            "???": 13,
+            "Amber": 20,
+            "Eula": 12,
+            "Hertha": 4,
+            "Jean": 23,
+            "Michelle": 3,
+            "Paimon": 31,
+            "Player": 34,
+            "Schubert": 12
+        }
+    },
+    "talks": [
+        {
+            "id": "1012001",
+            "objective": "Fale com a Mestre Jean",
+            "dialogues": [
+                {
+                    "id": "101200101",
+                    "speaker": "Jean",
+                    "text": "#Cavaleir{F#a}{M#o} Honorável, muito obrigada pela sua ajuda, você deve estar muito ocupad{M#o}{F#a}."
+                },
+                {
+                    "id": "101200102",
+                    "speaker": "Jean",
+                    "text": "Bom, não vou enrolar. Tenho que te pedir um favor.",
+                    "choices": [
+                        {
+                            "id": "101200103",
+                            "text": "Os Cavaleiros de Favonius têm estado sempre ocupados.",
+                            "response": [
+                                {
+                                    "id": "101200104",
+                                    "speaker": "Jean",
+                                    "text": "Estamos em caos, e tanto eu quanto outros Cavaleiros de Favonius não temos como baixar a guarda."
+                                },
+                                {
+                                    "id": "101200107",
+                                    "speaker": "Jean",
+                                    "text": "Recentemente vários Cavaleiros de Favonius vieram me reportar que as pessoas do clã Lawrence estão envolvidas com os Fatui."
+                                },
+                                {
+                                    "id": "101200108",
+                                    "speaker": "Paimon",
+                                    "text": "Fatui? De novo?"
+                                },
+                                {
+                                    "id": "101200109",
+                                    "speaker": "Paimon",
+                                    "text": "Mas... Quem são as pessoas do clã Lawrence?"
+                                },
+                                {
+                                    "id": "101200110",
+                                    "speaker": "Jean",
+                                    "text": "Mondstadt passava um período sombrio sob a ditadura dos antigos nobres. A liberdade recuperada do tirano Decarabian da torre foi novamente esmagada, e a escravidão voltou a predominar em toda a sociedade."
+                                },
+                                {
+                                    "id": "101200111",
+                                    "speaker": "Jean",
+                                    "text": "A primeira Cavaleira de Dandelion Vennessa provocou uma revolução que derrubou a aristocracia e fundou a Guilda dos Cavaleiros de Favonius. Por causa disso, Mondstadt está prosperando como agora."
+                                },
+                                {
+                                    "id": "101200112",
+                                    "speaker": "Jean",
+                                    "text": "E foi exatamente o clã Lawrence que trouxe a miséria para Mondstadt."
+                                },
+                                {
+                                    "id": "101200113",
+                                    "speaker": "Paimon",
+                                    "text": "Ah... A Paimon entendeu. Seus descendentes agora querem repetir a miséria junto com os Fatui?"
+                                },
+                                {
+                                    "id": "101200114",
+                                    "speaker": "Jean",
+                                    "text": "Agora é apenas uma afirmação sem prova, razão pela qual estou aqui pedindo a sua ajuda.",
+                                    "choices": [
+                                        {
+                                            "id": "101200115",
+                                            "text": "Por que eu?",
+                                            "response": [
+                                                {
+                                                    "id": "101200117",
+                                                    "speaker": "Jean",
+                                                    "text": "*Suspiro* Porque os velhos nobres e os Cavaleiros de Favonius eram inimigos."
+                                                },
+                                                {
+                                                    "id": "101200118",
+                                                    "speaker": "Jean",
+                                                    "text": "E os Cavaleiros de Favonius fizeram o que podiam para melhorar a relação com eles. Mas mesmo assim, os descendentes ainda estão muito hostis contra nós."
+                                                },
+                                                {
+                                                    "id": "101200119",
+                                                    "speaker": "Jean",
+                                                    "text": "Não importa o que façamos para nos aproximarmos deles, nunca dá resultado nenhum. Pior ainda, eles sempre nos levam a mal."
+                                                },
+                                                {
+                                                    "id": "101200120",
+                                                    "speaker": "Jean",
+                                                    "text": "Embora possamos resolver esse problema como uma \"investigação de rotina\", perderemos totalmente a sua confiança se o resultado não for o que imaginamos."
+                                                },
+                                                {
+                                                    "id": "101200121",
+                                                    "speaker": "Jean",
+                                                    "text": "E todos os esforços feitos antes serão em vão."
+                                                },
+                                                {
+                                                    "id": "101200122",
+                                                    "speaker": "Player",
+                                                    "text": "#Mas eu sou Cavaleir{F#a}{M#o} Honorável dos Cavaleiros de Favonius..."
+                                                },
+                                                {
+                                                    "id": "101200123",
+                                                    "speaker": "Jean",
+                                                    "text": "Você tem razão. Mas você é a pessoa mais adequada para tratar desse assunto."
+                                                },
+                                                {
+                                                    "id": "101200124",
+                                                    "speaker": "Jean",
+                                                    "text": "#Não é preciso mencionar o seu título como {M#um}{F#uma} Cavaleir{F#a}{M#o} Honorável, pois você vem de longe, e Mondstadt é apenas uma das suas paradas da jornada. Eu suponho que você possa se aproximar daquele nobre dessa maneira."
+                                                },
+                                                {
+                                                    "id": "101200125",
+                                                    "speaker": "Jean",
+                                                    "text": "Após estabelecer uma boa relação com ele, você deve obter algumas informações sobre os Fatui."
+                                                },
+                                                {
+                                                    "id": "101200126",
+                                                    "speaker": "Paimon",
+                                                    "text": "Só a Mestre Jean pensaria em um bom plano como esse!"
+                                                },
+                                                {
+                                                    "id": "101200127",
+                                                    "speaker": "Jean",
+                                                    "text": "Obrigada! São experiências acumuladas ao tratar de assuntos diplomáticos."
+                                                },
+                                                {
+                                                    "id": "101200128",
+                                                    "speaker": "Jean",
+                                                    "text": "Aquele cara do clã Lawrence se chama Schubert, e ele tem vagado ao redor dos muros no norte de Mondstadt."
+                                                },
+                                                {
+                                                    "id": "101200129",
+                                                    "speaker": "Jean",
+                                                    "text": "Dizem que não é fácil lidar com ele. Mas se você conversar com ele com mais calma, talvez dê certo!",
+                                                    "choices": [
+                                                        {
+                                                            "id": "101200130",
+                                                            "text": "Deixe comigo!",
+                                                            "response": [
+                                                                {
+                                                                    "id": "101200132",
+                                                                    "speaker": "Jean",
+                                                                    "text": "Muito obrigada pela sua ajuda! Se precisarem de assistência, vocês já sabem onde me procurar, não é?"
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "id": "101200131",
+                                                            "text": "Espero que tudo corra bem!"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "101200116",
+                                            "text": "Não é uma responsabilidade dos Cavaleiros de Favonius?"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "101200105",
+                            "text": "É bem o estilo da Jean.",
+                            "response": [
+                                {
+                                    "id": "101200106",
+                                    "speaker": "Jean",
+                                    "text": "Gostaria de ficar conversando mais com você, mas no momento a segurança é a nossa prioridade!"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "1012002",
+            "objective": "Procure o antigo aristocrata da cidade",
+            "dialogues": [
+                {
+                    "id": "101200201",
+                    "speaker": "???",
+                    "text": "Hã? Quem está aí?"
+                },
+                {
+                    "id": "101200202",
+                    "speaker": "Paimon",
+                    "text": "Olá, nós viemos para..."
+                },
+                {
+                    "id": "101200203",
+                    "speaker": "???",
+                    "text": "Olá?",
+                    "choices": [
+                        {
+                            "id": "101200204",
+                            "text": "O... Olá!",
+                            "response": [
+                                {
+                                    "id": "101200205",
+                                    "speaker": "???",
+                                    "text": "Olá? Eu não ouvi errado, ouvi?"
+                                },
+                                {
+                                    "id": "101200208",
+                                    "speaker": "???",
+                                    "text": "Uma pessoa rude e grosseira. Cumprimenta sem saber com quem está falando?"
+                                },
+                                {
+                                    "id": "101200209",
+                                    "speaker": "Schubert",
+                                    "text": "#Você realmente é {M#um}{F#uma} forasteir{M#o}{F#a}, pois você não me conhece! Eu sou o Schubert Lawrence, descendente do clã Lawrence."
+                                },
+                                {
+                                    "id": "101200210",
+                                    "speaker": "Schubert",
+                                    "text": "Se quiser me cumprimentar, tome cuidado com as palavras. Suas maneiras indiferentes são inadmissíveis."
+                                },
+                                {
+                                    "id": "101200211",
+                                    "speaker": "Schubert",
+                                    "text": "Se você entendeu, agora deve se ajoelhar e se apresentar. Aliás, deve pedir desculpas pela sua falta de educação. Isso sim são modos apropriados!"
+                                },
+                                {
+                                    "id": "101200212",
+                                    "speaker": "Paimon",
+                                    "text": "Modos apropriados? A Paimon nunca ouviu isso!"
+                                },
+                                {
+                                    "id": "101200213",
+                                    "speaker": "Schubert",
+                                    "text": "Na época em que todo mundo ainda seguia a cortesia, isso era um comportamento básico entre os nobres!"
+                                },
+                                {
+                                    "id": "101200214",
+                                    "speaker": "Schubert",
+                                    "text": "Qualquer falta de cortesia levava a pelo menos uma chicotada."
+                                },
+                                {
+                                    "id": "101200215",
+                                    "speaker": "Schubert",
+                                    "text": "E agora não existem mais cortesias nem regras básicas, e toda a sociedade está bem corrompida.",
+                                    "choices": [
+                                        {
+                                            "id": "101200216",
+                                            "text": "Isso soa muito complicado.",
+                                            "response": [
+                                                {
+                                                    "id": "101200218",
+                                                    "speaker": "Schubert",
+                                                    "text": "Você está questionando a dignidade dos antigos nobres?"
+                                                },
+                                                {
+                                                    "id": "101200219",
+                                                    "speaker": "Schubert",
+                                                    "text": "Vou deixar isso bem claro: Embora o clã Lawrence tenha decaído, eu, descendente do clã, estou sempre fazendo o meu melhor para recuperar sua glória."
+                                                },
+                                                {
+                                                    "id": "101200220",
+                                                    "speaker": "Schubert",
+                                                    "text": "Quanto mais indiferentes as pessoas ficam, mais elegante fico! Afinal de contas, somos diferentes desde nosso nascimento."
+                                                },
+                                                {
+                                                    "id": "101200221",
+                                                    "speaker": "Player",
+                                                    "text": "...Bom, eu nem disse nada ainda."
+                                                },
+                                                {
+                                                    "id": "101200222",
+                                                    "speaker": "Schubert",
+                                                    "text": "#Não é preciso dizer nada. O seu comportamento e as suas palavras me incomodaram bastante, e não tenho nada mais a dizer para {F#uma}{M#um} civil como você."
+                                                },
+                                                {
+                                                    "id": "101200223",
+                                                    "speaker": "Schubert",
+                                                    "text": "Aliás, não é o meu dever ensinar etiqueta a você."
+                                                },
+                                                {
+                                                    "id": "101200224",
+                                                    "speaker": "Schubert",
+                                                    "text": "Tenho coisas para resolver, vou indo agora."
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "101200217",
+                                            "text": "Isso talvez explique a decadência dos velhos nobres."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "101200206",
+                            "text": "O que foi?",
+                            "response": [
+                                {
+                                    "id": "101200207",
+                                    "speaker": "???",
+                                    "text": "O que foi? Eu não ouvi errado, ouvi?"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "1012003",
+            "objective": "Fale com a pessoa perto da muralha da cidade",
+            "dialogues": []
+        },
+        {
+            "id": "1012004",
+            "objective": "Retorne ao quartel-general dos Cavaleiros de Favonius e discuta o plano",
+            "dialogues": [
+                {
+                    "id": "101200401",
+                    "speaker": "???",
+                    "text": "#Vocês foram rápid{M#os}{F#as}!... Vocês têm ideia de quanto tempo tenho rastreado esses alvos?"
+                },
+                {
+                    "id": "101200402",
+                    "speaker": "???",
+                    "text": "Agora você quer levar todo o crédito? Droga! Ouça bem, a vingança está por vir!"
+                },
+                {
+                    "id": "101200403",
+                    "speaker": "Paimon",
+                    "text": "O... O quê?"
+                },
+                {
+                    "id": "101200404",
+                    "speaker": "Player",
+                    "text": "Vingança??"
+                },
+                {
+                    "id": "101200405",
+                    "speaker": "???",
+                    "text": "Sim. Assim que escutei o barulho de luta, corri para cá. Vi que você e os Fatui estavam lutando e você até ficou com vantagem."
+                },
+                {
+                    "id": "101200406",
+                    "speaker": "???",
+                    "text": "Se eu não tivesse ajudado, você não teria levado o crédito!"
+                },
+                {
+                    "id": "101200407",
+                    "speaker": "???",
+                    "text": "#Mas ainda bem que vocês não saíram ferid{M#os}{F#as}. Sabe, é muito perigoso lutar com tantos soldados Fatui.",
+                    "choices": [
+                        {
+                            "id": "101200408",
+                            "text": "Eu já me acostumei a lutar contra os Fatui.",
+                            "response": [
+                                {
+                                    "id": "101200410",
+                                    "speaker": "Paimon",
+                                    "text": "A Paimon não está entendendo. Mas a Paimon sabe que você está preocupada conosco. Obrigada!"
+                                },
+                                {
+                                    "id": "101200411",
+                                    "speaker": "???",
+                                    "text": "#Ah? Eu? Preocupada com vocês, {M#meus}{F#minhas} inimig{M#os}{F#as}?"
+                                },
+                                {
+                                    "id": "101200412",
+                                    "speaker": "Paimon",
+                                    "text": "#Mas você não acabou de dizer \"ainda bem que nós não saímos ferid{M#os}{F#as}\"?"
+                                },
+                                {
+                                    "id": "101200413",
+                                    "speaker": "???",
+                                    "text": "#Oh! O que eu quis dizer era que se vocês tivessem saído ferid{M#os}{F#as}, além de não poder levar o crédito, eu teria que levá-l{M#os}{F#as} de volta à Mondstadt."
+                                },
+                                {
+                                    "id": "101200414",
+                                    "speaker": "???",
+                                    "text": "Sendo assim, vocês me incomodariam ainda mais! E isso causaria uma vingança ainda maior!"
+                                },
+                                {
+                                    "id": "101200415",
+                                    "speaker": "Paimon",
+                                    "text": "É assim que você interpreta a situação?"
+                                },
+                                {
+                                    "id": "101200416",
+                                    "speaker": "Player",
+                                    "text": "Você... É a Eula?"
+                                },
+                                {
+                                    "id": "101200417",
+                                    "speaker": "Eula",
+                                    "text": "Sim, sou eu!"
+                                },
+                                {
+                                    "id": "101200418",
+                                    "speaker": "Paimon",
+                                    "text": "Faz sentido! Ela realmente é muito peculiar! Mas ainda dá para conversar com ela."
+                                },
+                                {
+                                    "id": "101200419",
+                                    "speaker": "Eula",
+                                    "text": "Ainda não nos conhecemos, né? Você não acha que é um pouco mal-educado chamar uma desconhecida de \"peculiar\", não apenas entre os nobres, mas também entre os plebeus?"
+                                },
+                                {
+                                    "id": "101200420",
+                                    "speaker": "Eula",
+                                    "text": "Falando nisso, como vocês sabem o meu nome?"
+                                },
+                                {
+                                    "id": "101200421",
+                                    "speaker": "Paimon",
+                                    "text": "#Acertamos por causa das cortesias da nobreza. {NICKNAME} é {F#a}{M#o} Cavaleir{F#a}{M#o} Honorável dos Cavaleiros de Favonius, e estamos investigando um nobre chamado Schubert Lawrence."
+                                },
+                                {
+                                    "id": "101200422",
+                                    "speaker": "Paimon",
+                                    "text": "#Ele não quis conversar com a gente e achou a gente mal-educad{M#o}{F#a}."
+                                },
+                                {
+                                    "id": "101200423",
+                                    "speaker": "Eula",
+                                    "text": "Hahaha. Eu entendi. Ele é o meu tio!"
+                                },
+                                {
+                                    "id": "101200424",
+                                    "speaker": "Eula",
+                                    "text": "Mas por que vocês estão investigando ele?"
+                                },
+                                {
+                                    "id": "101200425",
+                                    "speaker": "Player",
+                                    "text": "Porque ele talvez esteja conspirando alguma coisa com os Fatui."
+                                },
+                                {
+                                    "id": "101200426",
+                                    "speaker": "Eula",
+                                    "text": "Entendi! Hahaha, mas sabia que você está falando mal de um parente meu na minha frente? Mais um motivo para a vingança!"
+                                },
+                                {
+                                    "id": "101200427",
+                                    "speaker": "Paimon",
+                                    "text": "Não, não! É apenas um pedido da Mestre Jean! Aliás, é apenas uma afirmação sem prova.",
+                                    "choices": [
+                                        {
+                                            "id": "101200428",
+                                            "text": "Você não está curiosa?",
+                                            "response": [
+                                                {
+                                                    "id": "101200430",
+                                                    "speaker": "Eula",
+                                                    "text": "Aos olhos dos habitantes de Mondstadt, todas as pessoas do clã Lawrence são malfeitoras, e os rumores nunca pararam. Então quanto a isso, não fico nem um pouco surpreendida."
+                                                },
+                                                {
+                                                    "id": "101200431",
+                                                    "speaker": "Paimon",
+                                                    "text": "Hum! Certo! Afinal de contas, eram governantes tiranos e não têm uma boa fama."
+                                                },
+                                                {
+                                                    "id": "101200432",
+                                                    "speaker": "Eula",
+                                                    "text": "Você também acha isso? Bom! Então, podem tomar nota, minha vingança será..."
+                                                },
+                                                {
+                                                    "id": "101200433",
+                                                    "speaker": "Paimon",
+                                                    "text": "Foi você que disse isso primeiro!"
+                                                },
+                                                {
+                                                    "id": "101200434",
+                                                    "speaker": "Eula",
+                                                    "text": "Hahaha! Que engraçado! Mesmo no primeiro encontro, já tenho três motivos para fazer minha vingança! Já faz muito tempo que não encontro uma pessoa tão interessante como você.",
+                                                    "choices": [
+                                                        {
+                                                            "id": "101200435",
+                                                            "text": "Você acabou de dizer \"interessante\"?",
+                                                            "response": [
+                                                                {
+                                                                    "id": "101200437",
+                                                                    "speaker": "Eula",
+                                                                    "text": "Vocês me procuraram para eu ensinar a etiqueta dos nobres, e assim poderem conversar com o meu tio, não é?"
+                                                                },
+                                                                {
+                                                                    "id": "101200438",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "Certo! Foi a Amber que nos disse que você poderia nos ajudar!"
+                                                                },
+                                                                {
+                                                                    "id": "101200439",
+                                                                    "speaker": "Eula",
+                                                                    "text": "Sem problemas! Mas é melhor voltarmos primeiro a Mondstadt, porque é mais fácil treinar com pessoas.",
+                                                                    "choices": [
+                                                                        {
+                                                                            "id": "101200440",
+                                                                            "text": "Mas você não é uma pessoa vingativa?",
+                                                                            "response": [
+                                                                                {
+                                                                                    "id": "101200442",
+                                                                                    "speaker": "Eula",
+                                                                                    "text": "Vamos deixar a vingança de lado primeiro. A Mestre Jean me pediu e a Amber me recomendou, então não posso decepcioná-las."
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        {
+                                                                            "id": "101200441",
+                                                                            "text": "Você não está querendo fazer a sua vingança agora, não é?"
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "id": "101200436",
+                                                            "text": "Você parece estar muito alegre..."
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "101200429",
+                                            "text": "Você não está preocupada?"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "101200409",
+                            "text": "#Eu sou muito habilidos{M#o}{F#a} nisso."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "1012005",
+            "objective": "Fale com a Amber",
+            "dialogues": [
+                {
+                    "id": "101200301",
+                    "speaker": "Amber",
+                    "text": "#Oi, Cavaleir{F#a}{M#o} Honorável! Estava pensando em ir investigar, e não esperava encontrar você por aqui."
+                },
+                {
+                    "id": "101200302",
+                    "speaker": "Amber",
+                    "text": "#Você parece estar angustiad{M#o}{F#a}, aconteceu alguma coisa?"
+                },
+                {
+                    "id": "101200303",
+                    "speaker": "Paimon",
+                    "text": "A Mestre Jean nos pediu para resolver um problema, e parece que esgotamos todos os esforços dela.",
+                    "choices": [
+                        {
+                            "id": "101200304",
+                            "text": "É uma longa história.",
+                            "response": [
+                                {
+                                    "id": "101200306",
+                                    "speaker": "Amber",
+                                    "text": "#Não fique decepcionad{M#o}{F#a}. Os esforços nem sempre dão frutos. Além disso, nem eu posso garantir que encontrarei informações úteis."
+                                },
+                                {
+                                    "id": "101200307",
+                                    "speaker": "Amber",
+                                    "text": "Então, se anime!",
+                                    "choices": [
+                                        {
+                                            "id": "101200308",
+                                            "text": "#Obrigad{M#o}{F#a}.",
+                                            "response": [
+                                                {
+                                                    "id": "101200310",
+                                                    "speaker": "Amber",
+                                                    "text": "Hehe. Bem, deixe-me pensar, talvez eu possa ajudar vocês."
+                                                },
+                                                {
+                                                    "id": "101200311",
+                                                    "speaker": "Paimon",
+                                                    "text": "A Mestre Jean nos pediu para nos aproximar do Schubert Lawrence."
+                                                },
+                                                {
+                                                    "id": "101200312",
+                                                    "speaker": "Paimon",
+                                                    "text": "Assim que o encontramos, percebemos que ele é uma pessoa bastante peculiar, e não é fácil lidar com ele."
+                                                },
+                                                {
+                                                    "id": "101200313",
+                                                    "speaker": "Amber",
+                                                    "text": "Eu conheço essa pessoa! Ele deve ter dito que vocês não entendiam nada de cortesia, né?",
+                                                    "choices": [
+                                                        {
+                                                            "id": "101200314",
+                                                            "text": "Isso! Então você já está sabendo.",
+                                                            "response": [
+                                                                {
+                                                                    "id": "101200316",
+                                                                    "speaker": "Amber",
+                                                                    "text": "Haha. Eu passei pela mesma coisa. As pessoas do clã Lawrence sempre seguem alguma etiqueta esquisita..."
+                                                                },
+                                                                {
+                                                                    "id": "101200317",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "Ei? Todos são assim?"
+                                                                },
+                                                                {
+                                                                    "id": "101200318",
+                                                                    "speaker": "Amber",
+                                                                    "text": "Para eles, a cortesia nobre deve ser muito bem preservada. Hmm, isso é compreensível, mas ao mesmo tempo eles precisam acompanhar os tempos modernos."
+                                                                },
+                                                                {
+                                                                    "id": "101200319",
+                                                                    "speaker": "Amber",
+                                                                    "text": "Mas entre essas pessoas peculiares, tem um caso excepcional, e ela é a minha boa companheira, Eula!"
+                                                                },
+                                                                {
+                                                                    "id": "101200320",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "Com... Companheira?"
+                                                                },
+                                                                {
+                                                                    "id": "101200321",
+                                                                    "speaker": "Amber",
+                                                                    "text": "Sim! Ela é do clã Lawrence, e também é a Capitã da 4ª Equipe dos Cavaleiros de Favonius.",
+                                                                    "choices": [
+                                                                        {
+                                                                            "id": "101200322",
+                                                                            "text": "A Mestre Jean disse que o clã Lawrence considera os Cavaleiros de Favonius como inimigos.",
+                                                                            "response": [
+                                                                                {
+                                                                                    "id": "101200324",
+                                                                                    "speaker": "Amber",
+                                                                                    "text": "É porque a Eula é uma pessoa muito especial e muito diferente dos seus familiares de Lawrence. Ela tem as suas próprias ideias e seus princípios."
+                                                                                },
+                                                                                {
+                                                                                    "id": "101200325",
+                                                                                    "speaker": "Amber",
+                                                                                    "text": "Melhor dizendo, ela não fica presa sob os regulamentos da família."
+                                                                                },
+                                                                                {
+                                                                                    "id": "101200326",
+                                                                                    "speaker": "Amber",
+                                                                                    "text": "Mas quanto a como lidar com as pessoas do clã Lawrence, ela sabe melhor do que ninguém. Basta encontrar com ela, vocês perceberão logo."
+                                                                                },
+                                                                                {
+                                                                                    "id": "101200327",
+                                                                                    "speaker": "Paimon",
+                                                                                    "text": "Então a Paimon está confusa. Como a Eula é do clã Lawrence, por que a Jean procurou nós em vez da Eula?"
+                                                                                },
+                                                                                {
+                                                                                    "id": "101200328",
+                                                                                    "speaker": "Amber",
+                                                                                    "text": "Hum... Não é fácil explicar isso com poucas palavras. Resumindo, como ela se juntou aos Cavaleiros, os familiares da Eula não gostam dela."
+                                                                                },
+                                                                                {
+                                                                                    "id": "101200329",
+                                                                                    "speaker": "Amber",
+                                                                                    "text": "Diante de seus olhos, a Eula é uma traidora.",
+                                                                                    "choices": [
+                                                                                        {
+                                                                                            "id": "101200330",
+                                                                                            "text": "Ela realmente é muito especial.",
+                                                                                            "response": [
+                                                                                                {
+                                                                                                    "id": "101200332",
+                                                                                                    "speaker": "Amber",
+                                                                                                    "text": "Hehe... Mas ela é uma boa garota, e vocês vão se dar bem com certeza. Podem contar a sua angústia a ela, e ela vai ensinar vocês como lidar com o Schubert."
+                                                                                                },
+                                                                                                {
+                                                                                                    "id": "101200333",
+                                                                                                    "speaker": "Amber",
+                                                                                                    "text": "Ela foi patrulhar na natureza, talvez possam encontrá-la na Montanha do Precursor do Vento."
+                                                                                                },
+                                                                                                {
+                                                                                                    "id": "101200334",
+                                                                                                    "speaker": "Paimon",
+                                                                                                    "text": "Muito obrigada, Amber! Vamos lá então!"
+                                                                                                },
+                                                                                                {
+                                                                                                    "id": "101200335",
+                                                                                                    "speaker": "Amber",
+                                                                                                    "text": "Boa viagem! O meu dever está me chamando também!"
+                                                                                                }
+                                                                                            ]
+                                                                                        },
+                                                                                        {
+                                                                                            "id": "101200331",
+                                                                                            "text": "Isso é compreensível."
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        {
+                                                                            "id": "101200323",
+                                                                            "text": "Como uma pessoa do clã Lawrence poderia se juntar aos Cavaleiros de Favonius?"
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "id": "101200315",
+                                                            "text": "Sim, parece que você também passou pela mesma situação."
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "101200309",
+                                            "text": "É bem o estilo da Amber."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "101200305",
+                            "text": "A culpa não é nossa."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "1012006",
+            "objective": "Vá para a Montanha do Precursor do Vento e encontre Eula",
+            "dialogues": [
+                {
+                    "id": "101200601",
+                    "speaker": "Jean",
+                    "text": "Schubert é uma pessoa muito mal-humorada, e não é fácil lidar com ele."
+                },
+                {
+                    "id": "101200602",
+                    "speaker": "Jean",
+                    "text": "Mas se vocês puderem conversar com mais calma, não seria tão difícil estabelecer uma boa relação!"
+                }
+            ]
+        },
+        {
+            "id": "1012007",
+            "objective": "Derrote os Fatui que estão no local",
+            "dialogues": [
+                {
+                    "id": "101200701",
+                    "speaker": "Player",
+                    "text": "Sobre o Schubert..."
+                },
+                {
+                    "id": "101200702",
+                    "speaker": "Hertha",
+                    "text": "Você se refere àquele velho nobre peculiar? Desculpe, não faço ideia de onde ele está."
+                },
+                {
+                    "id": "101200703",
+                    "speaker": "Hertha",
+                    "text": "As pessoas do clã Lawrence não gostam de andar com os Cavaleiros de Favonius."
+                },
+                {
+                    "id": "101200704",
+                    "speaker": "Hertha",
+                    "text": "Ah! Não tem problema. Seria complicado também se afetasse a distribuição dos suplementos militares."
+                },
+                {
+                    "id": "101200705",
+                    "speaker": "Hertha",
+                    "text": "Vocês podem dar uma olhada lá em cima, e talvez possam encontrá-lo."
+                }
+            ]
+        },
+        {
+            "id": "1012008",
+            "objective": "Veja a jovem mulher derrotar o último Fatui",
+            "dialogues": [
+                {
+                    "id": "101200801",
+                    "speaker": "Paimon",
+                    "text": "Olá, você viu um nobre chamado Schubert aqui perto?"
+                },
+                {
+                    "id": "101200802",
+                    "speaker": "Michelle",
+                    "text": "Humm... Esse nome não me parece familiar. Mas recentemente uma pessoa bastante peculiar tem vagado por aqui."
+                },
+                {
+                    "id": "101200803",
+                    "speaker": "Michelle",
+                    "text": "Ele fica passeando e passeando. De vez em quando, escreve ou pinta alguma coisa... Não sei o que ele está fazendo."
+                },
+                {
+                    "id": "101200804",
+                    "speaker": "Michelle",
+                    "text": "Se ele é a pessoa que você está procurando, pode ir aos muros e vai encontrá-lo lá."
+                }
+            ]
+        },
+        {
+            "id": "1012009",
+            "objective": "Fale com a Eula",
+            "dialogues": []
+        },
+        {
+            "id": "1012011",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "101201101",
+                    "speaker": "Amber",
+                    "text": "Vocês podem encontrá-lo na Montanha do Precursor do Vento!"
+                },
+                {
+                    "id": "101201102",
+                    "speaker": "Amber",
+                    "text": "#Ela é a minha boa companheira, e {M#os}{F#as} ajudará com certeza!"
+                }
+            ]
+        },
+        {
+            "id": "1012099",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "101209901",
+                    "speaker": "Paimon",
+                    "text": "Para a Jean, ele apenas é uma pessoa \"difícil de lidar\"?"
+                },
+                {
+                    "id": "101209902",
+                    "speaker": "Paimon",
+                    "text": "Bom! Vamos voltar e encontrar ela."
+                },
+                {
+                    "id": "101209903",
+                    "speaker": "Paimon",
+                    "text": "Não esperava que teria uma pessoa como ela nos Cavaleiros de Favonius..."
+                },
+                {
+                    "id": "101209904",
+                    "speaker": "Paimon",
+                    "text": "Para aprender a etiqueta do clã Lawrence, nada seria mais eficaz do que aprender com uma pessoa desse clã!"
+                },
+                {
+                    "id": "101209905",
+                    "speaker": "Paimon",
+                    "text": "Ah? O que os Fatui estão fazendo por aqui? Será que eles vieram pela Eula?"
+                },
+                {
+                    "id": "101209906",
+                    "speaker": "Paimon",
+                    "text": "#De qualquer forma, vamos acabar com eles, {NICKNAME}!"
+                }
+            ]
+        }
+    ]
+}

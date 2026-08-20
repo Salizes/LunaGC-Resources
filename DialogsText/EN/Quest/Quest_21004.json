@@ -1,0 +1,782 @@
+{
+    "quest": {
+        "id": "21004",
+        "title": "Treasure Lost, Treasure Found",
+        "description": "What secret does this set of archaic admonishments hold?",
+        "rewards": [
+            {
+                "itemId": 102,
+                "count": 400
+            },
+            {
+                "itemId": 201,
+                "count": 50
+            },
+            {
+                "itemId": 107007,
+                "count": 1
+            }
+        ],
+        "rewards_formatted": "Adventure EXP x400, Primogem x50, Liyue Shrine of Depths Key x1",
+        "chapter": {
+            "icon": "",
+            "id": "",
+            "num": "",
+            "title": ""
+        },
+        "total_dialogue_lines": 118,
+        "total_speaker_counts": {
+            "Paimon": 2,
+            "Player": 20,
+            "Soraya": 96
+        }
+    },
+    "talks": [
+        {
+            "id": "2100401",
+            "objective": "Talk to Soraya",
+            "dialogues": [
+                {
+                    "id": "210040101",
+                    "speaker": "Soraya",
+                    "text": "Guizhong's Four Commandments... What are they really trying to tell us...",
+                    "choices": [
+                        {
+                            "id": "210040102",
+                            "text": "I'm ready.",
+                            "response": [
+                                {
+                                    "id": "210040103",
+                                    "speaker": "Soraya",
+                                    "text": "Haha, raring to go! That's what I like to see. Then let's begin our reading of Guizhong's Four Commandments."
+                                },
+                                {
+                                    "id": "210040106",
+                                    "speaker": "Soraya",
+                                    "text": "\"Teach with wisdom, be bound by virtue, fortify the bones, unite in ambition — the convergence of these four shall be known as the 'Guili Assembly.'\""
+                                },
+                                {
+                                    "id": "210040107",
+                                    "speaker": "Soraya",
+                                    "text": "On the surface, it does read like a set of commandments. Golden rules for life."
+                                },
+                                {
+                                    "id": "210040108",
+                                    "speaker": "Soraya",
+                                    "text": "But it's also supposed to contain some sort of clues to a hidden treasure..."
+                                },
+                                {
+                                    "id": "210040109",
+                                    "speaker": "Soraya",
+                                    "text": "...I can't decipher it, though. It seems we'll have to approach this in what academics like to call the old-fashioned way..."
+                                },
+                                {
+                                    "id": "210040110",
+                                    "speaker": "Soraya",
+                                    "text": "Those seven passages we found previously, they were all located in ruins of some sort."
+                                },
+                                {
+                                    "id": "210040111",
+                                    "speaker": "Soraya",
+                                    "text": "Since we're not sure where to start this time, perhaps keep searching in ruins for now.",
+                                    "choices": [
+                                        {
+                                            "id": "210040112",
+                                            "text": "...Where exactly?",
+                                            "response": [
+                                                {
+                                                    "id": "210040113",
+                                                    "speaker": "Soraya",
+                                                    "text": "Hmm... For now, let's limit the search area to Guili Plains."
+                                                },
+                                                {
+                                                    "id": "210040114",
+                                                    "speaker": "Soraya",
+                                                    "text": "However... as I'm just a scholar, there's no way I'd be able to keep up with you out in the field."
+                                                },
+                                                {
+                                                    "id": "210040115",
+                                                    "speaker": "Soraya",
+                                                    "text": "So I will leave the actual ruin-searching to you. Just let me know what you find."
+                                                },
+                                                {
+                                                    "id": "210040129",
+                                                    "speaker": "Soraya",
+                                                    "text": "While we're on the subject — I once came across a strange plate with some writing on in one of the ruins around here."
+                                                },
+                                                {
+                                                    "id": "210040130",
+                                                    "speaker": "Soraya",
+                                                    "text": "I only looked at it in isolation though. Didn't do any sort of holistic analysis."
+                                                },
+                                                {
+                                                    "id": "210040131",
+                                                    "speaker": "Soraya",
+                                                    "text": "Now I think about it, it might be connected to Guizhong's Four Commandments."
+                                                },
+                                                {
+                                                    "id": "210040132",
+                                                    "speaker": "Soraya",
+                                                    "text": "How about I mark the location on your map? You should go check it out, maybe it'll lead somewhere."
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "210040116",
+                                            "text": "...ALL the ruins?",
+                                            "response": [
+                                                {
+                                                    "id": "210040117",
+                                                    "speaker": "Soraya",
+                                                    "text": "Obviously not... We'd never be able to cover all the ruins in Liyue just between the two of us."
+                                                },
+                                                {
+                                                    "id": "210040118",
+                                                    "speaker": "Soraya",
+                                                    "text": "So let's limit the search area. Since the treasure has to do with the Guili Assembly from the Guili Plains..."
+                                                },
+                                                {
+                                                    "id": "210040119",
+                                                    "speaker": "Soraya",
+                                                    "text": "...Let's restrict our search to the Guili Plains area for now."
+                                                },
+                                                {
+                                                    "id": "210040120",
+                                                    "speaker": "Soraya",
+                                                    "text": "Oh, and one other thing. There's no way a scholar like me could keep up with you out in the field."
+                                                },
+                                                {
+                                                    "id": "210040121",
+                                                    "speaker": "Soraya",
+                                                    "text": "So I will leave the actual ruin-searching to you. Just let me know what you find."
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "210040122",
+                                            "text": "Ruins of Liyue, here I come!",
+                                            "response": [
+                                                {
+                                                    "id": "210040123",
+                                                    "speaker": "Soraya",
+                                                    "text": "Wait! Hold on a second! ...How exactly do you propose to cover every single ruin in Liyue!? It'll take you forever!"
+                                                },
+                                                {
+                                                    "id": "210040124",
+                                                    "speaker": "Soraya",
+                                                    "text": "You can't afford to get so excited every time you hear the word treasure, you know."
+                                                },
+                                                {
+                                                    "id": "210040125",
+                                                    "speaker": "Soraya",
+                                                    "text": "How about this — since we know the treasure comes from the Guili Assembly in the Guili Plains, let's restrict the search area."
+                                                },
+                                                {
+                                                    "id": "210040126",
+                                                    "speaker": "Soraya",
+                                                    "text": "Okay... to start with, let's limit the search to inside Guili Plains..."
+                                                },
+                                                {
+                                                    "id": "210040127",
+                                                    "speaker": "Soraya",
+                                                    "text": "Hold on! I'm not finished yet! ...Don't forget to search the ruins thoroughly. And if you find anything of interest, come back and let me know."
+                                                },
+                                                {
+                                                    "id": "210040128",
+                                                    "speaker": "Soraya",
+                                                    "text": "Remember, stick to the Guili Plains! Don't let your boundless enthusiasm lead you further afield."
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "210040104",
+                            "text": "Let's go find that treasure!!!",
+                            "response": [
+                                {
+                                    "id": "210040105",
+                                    "speaker": "Soraya",
+                                    "text": "Whew, the slightest mention of treasure and you're suddenly beside yourself with excitement... Hmm, so be it — let's begin our reading of Guizhong's Four Commandments."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "2100402",
+            "objective": "Ask Soraya about the saying of the nearby area",
+            "dialogues": [
+                {
+                    "id": "210040201",
+                    "speaker": "Player",
+                    "text": "I'm definitely intrigued."
+                },
+                {
+                    "id": "210040202",
+                    "speaker": "Soraya",
+                    "text": "I'll mark the first ruins I found on your map. I'd suggest starting there."
+                },
+                {
+                    "id": "210040203",
+                    "speaker": "Soraya",
+                    "text": "If you do find something, don't make the amateur mistake of running off in your excitement. Be sure to <color=#00E1FFFF>note down the clue</color> first."
+                }
+            ]
+        },
+        {
+            "id": "2100481",
+            "objective": "",
+            "dialogues": [
+                {
+                    "id": "210048101",
+                    "speaker": "Paimon",
+                    "text": "Hey, there's some writing on this plate! ...But it's barely readable."
+                },
+                {
+                    "id": "210048102",
+                    "speaker": "Paimon",
+                    "text": "Paimon feels like it might have some special meaning."
+                }
+            ]
+        },
+        {
+            "id": "2100403",
+            "objective": "Find the clue",
+            "dialogues": [
+                {
+                    "id": "210040301",
+                    "speaker": "Soraya",
+                    "text": "I wonder how the Guili Assembly met its demise..."
+                }
+            ]
+        },
+        {
+            "id": "2100410",
+            "objective": "Enter the ruin and search for a strange jade plate",
+            "dialogues": []
+        },
+        {
+            "id": "2100411",
+            "objective": "Enter the ruin and search for a strange jade plate",
+            "dialogues": []
+        },
+        {
+            "id": "2100412",
+            "objective": "Enter the ruin and search for a strange jade plate",
+            "dialogues": []
+        },
+        {
+            "id": "2100413",
+            "objective": "Enter the ruin and search for a strange jade plate",
+            "dialogues": []
+        },
+        {
+            "id": "2100414",
+            "objective": "Rollback isolation",
+            "dialogues": []
+        },
+        {
+            "id": "2100420",
+            "objective": "Talk to Soraya",
+            "dialogues": [
+                {
+                    "id": "210042001",
+                    "speaker": "Soraya",
+                    "text": "Sometimes fate is inescapable, even for a god..."
+                },
+                {
+                    "id": "210042002",
+                    "speaker": "Player",
+                    "text": "I found four clues in four ruins."
+                },
+                {
+                    "id": "210042003",
+                    "speaker": "Soraya",
+                    "text": "Four ruins, four clues... And there are Four Commandments."
+                },
+                {
+                    "id": "210042004",
+                    "speaker": "Soraya",
+                    "text": "Each of these clues expounds upon the meaning of one of the Four Commandments."
+                },
+                {
+                    "id": "210042005",
+                    "speaker": "Soraya",
+                    "text": "To get to the correct interpretation, the original text of Guizhong's Four Commandments is key. These four are helpful, but peripheral to our enquiry."
+                },
+                {
+                    "id": "210042006",
+                    "speaker": "Soraya",
+                    "text": "These five passages are all linked — but how?"
+                },
+                {
+                    "id": "210042007",
+                    "speaker": "Player",
+                    "text": "\"Convergence...\""
+                },
+                {
+                    "id": "210042008",
+                    "speaker": "Soraya",
+                    "text": "Hmm... Could \"convergence\" mean that... these four things all link up in some way?"
+                },
+                {
+                    "id": "210042009",
+                    "speaker": "Soraya",
+                    "text": "Wait — I remember, each of Guizhong's Four Commandments can be found in a specific ruin..."
+                },
+                {
+                    "id": "210042010",
+                    "speaker": "Soraya",
+                    "text": "Hmm... I am speculating here, but perhaps the four <color=#00E1FFFF>ruins</color> are relevant to deciphering the true meaning of Guizhong's Four Commandments..."
+                },
+                {
+                    "id": "210042011",
+                    "speaker": "Soraya",
+                    "text": "How exactly, I don't know. I need to mull it over. Maybe you could have a think too — or better still, go and investigate it firsthand."
+                },
+                {
+                    "id": "210042012",
+                    "speaker": "Soraya",
+                    "text": "I'm just a skinny little scholar after all, I tire out completely after a few seconds on the run... Wish I had your stamina!"
+                },
+                {
+                    "id": "210042013",
+                    "speaker": "Soraya",
+                    "text": "Anyway, I'm going to keep thinking about it for a while. If you think of anything, or if you find anything, you know where I am."
+                }
+            ]
+        },
+        {
+            "id": "2100421",
+            "objective": "Find the final clue",
+            "dialogues": []
+        },
+        {
+            "id": "2100422",
+            "objective": "Find the final ruin",
+            "dialogues": [
+                {
+                    "id": "210042201",
+                    "speaker": "Soraya",
+                    "text": "It's a speculative hypothesis, but I believe the four ruins corresponding to each of Guizhong's Four Commandments may be relevant to deciphering their true meaning..."
+                },
+                {
+                    "id": "210042202",
+                    "speaker": "Soraya",
+                    "text": "Exactly what role the ruins are supposed to play, well, that's another question. And... I don't think I have the physical strength to test out each of my hypotheses in full..."
+                },
+                {
+                    "id": "210042203",
+                    "speaker": "Soraya",
+                    "text": "It's also possible that I just have a one-track mind, and this idea is leading me nowhere..."
+                }
+            ]
+        },
+        {
+            "id": "2100430",
+            "objective": "Start clue mechanism",
+            "dialogues": [
+                {
+                    "id": "210043001",
+                    "speaker": "Soraya",
+                    "text": "Did you find the treasure?"
+                }
+            ]
+        },
+        {
+            "id": "2100431",
+            "objective": "Defeat the Ruin Guard",
+            "dialogues": []
+        },
+        {
+            "id": "2100432",
+            "objective": "Activate the mechanism",
+            "dialogues": []
+        },
+        {
+            "id": "2100440",
+            "objective": "Collect the treasure",
+            "dialogues": [
+                {
+                    "id": "210044001",
+                    "speaker": "Soraya",
+                    "text": "Did you find the treasure?"
+                }
+            ]
+        },
+        {
+            "id": "2100450",
+            "objective": "Talk to Soraya",
+            "dialogues": [
+                {
+                    "id": "210045001",
+                    "speaker": "Soraya",
+                    "text": "How is the search going? Found the treasure yet?"
+                },
+                {
+                    "id": "210045003",
+                    "speaker": "Player",
+                    "text": "Yes, it was about where they \"converge\" after all."
+                },
+                {
+                    "id": "210045004",
+                    "speaker": "Soraya",
+                    "text": "Really... So it's just like Guizhong's Four Commandments says. The treasure was located at \"the convergence of these four...\""
+                },
+                {
+                    "id": "210045005",
+                    "speaker": "Soraya",
+                    "text": "Whoever designed this riddle must have truly revered Guizhong."
+                },
+                {
+                    "id": "210045006",
+                    "speaker": "Soraya",
+                    "text": "So much so that they preserved Guizhong's Four Commandments for future generations, even though the Guili Assembly was wiped out."
+                },
+                {
+                    "id": "210045007",
+                    "speaker": "Soraya",
+                    "text": "And as for Guizhong herself, who established the commandments — she must have been adored by her people."
+                },
+                {
+                    "id": "210045008",
+                    "speaker": "Soraya",
+                    "text": "Clearly, she wished for her people to be wise, to hold themselves to a moral code, to be strong and healthy, and to find solidarity in the shared enterprise of protecting their home — the Guili Assembly...",
+                    "choices": [
+                        {
+                            "id": "210045009",
+                            "text": "But she failed.",
+                            "response": [
+                                {
+                                    "id": "210045010",
+                                    "speaker": "Soraya",
+                                    "text": "Failed? I suppose you're right, she died in the end... and when the Guili Assembly was wiped out, her people no longer had a place to call home."
+                                },
+                                {
+                                    "id": "210045011",
+                                    "speaker": "Soraya",
+                                    "text": "And yet, today, Guizhong's Four Commandments have seen the light of day once more."
+                                },
+                                {
+                                    "id": "210045012",
+                                    "speaker": "Soraya",
+                                    "text": "These were the words penned by Guizhong herself to serve both as maxims and blessing for her people."
+                                },
+                                {
+                                    "id": "210045013",
+                                    "speaker": "Soraya",
+                                    "text": "Once there was a time when she led her people to go forth and take this very land, guided by these commandments."
+                                },
+                                {
+                                    "id": "210045014",
+                                    "speaker": "Soraya",
+                                    "text": "She may no longer be with us, but her beliefs, the things she stood for — they will endure."
+                                },
+                                {
+                                    "id": "210045015",
+                                    "speaker": "Soraya",
+                                    "text": "Whoever it was that revered her so much was very clever indeed. They used the allure of hidden treasure to ensure Guizhong's Four Commandments would be passed down."
+                                },
+                                {
+                                    "id": "210045028",
+                                    "speaker": "Soraya",
+                                    "text": "Though for that person, I wonder whether the treasure they held dear was the rare metals and precious stones, or Guizhong's Four Commandments themselves."
+                                },
+                                {
+                                    "id": "210045029",
+                                    "speaker": "Soraya",
+                                    "text": "Haha, well, to me at least, it's clear that the commandments are the real treasures here. A chest full of gold or gems can't compare."
+                                },
+                                {
+                                    "id": "210045030",
+                                    "speaker": "Soraya",
+                                    "text": "...But if you made people choose, how many would really pick a list of commandments over material wealth?"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "210045016",
+                            "text": "Seems like a gentle-natured god.",
+                            "response": [
+                                {
+                                    "id": "210045017",
+                                    "speaker": "Soraya",
+                                    "text": "I'm not sure \"gentle-natured\" is a particularly common trait of gods..."
+                                },
+                                {
+                                    "id": "210045018",
+                                    "speaker": "Soraya",
+                                    "text": "But maybe it was once. Maybe a long, long time ago, among the gods who led the peoples of the world, there were those gentle by nature."
+                                },
+                                {
+                                    "id": "210045019",
+                                    "speaker": "Soraya",
+                                    "text": "Those who protected their people... walked among them... stood by them as they went forth into the world..."
+                                },
+                                {
+                                    "id": "210045020",
+                                    "speaker": "Soraya",
+                                    "text": "...But it was the gentle gods who were ultimately powerless to protect their people. Look at Guizhong — it took an elaborate treasure hunt just to preserve the four commandments that once were the lifeblood of a whole civilization."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "210045021",
+                            "text": "I wish I could meet her...",
+                            "response": [
+                                {
+                                    "id": "210045022",
+                                    "speaker": "Soraya",
+                                    "text": "You want to meet a god? You do entertain some wild thoughts."
+                                },
+                                {
+                                    "id": "210045023",
+                                    "speaker": "Soraya",
+                                    "text": "But I'm curious, what would you say to Guizhong if you actually got to meet her?"
+                                },
+                                {
+                                    "id": "210045024",
+                                    "speaker": "Soraya",
+                                    "text": "\"...Cheer up, Guizhong, you did your best\"?"
+                                },
+                                {
+                                    "id": "210045025",
+                                    "speaker": "Soraya",
+                                    "text": "If it were me... I'd recite Guizhong's Four Commandments flawlessly from memory."
+                                },
+                                {
+                                    "id": "210045026",
+                                    "speaker": "Soraya",
+                                    "text": "And I'd tell her that her vision and her ideals were alive and well, that the people of this land still remember the things she taught to their ancestors."
+                                },
+                                {
+                                    "id": "210045027",
+                                    "speaker": "Soraya",
+                                    "text": "I think that for someone like Guizhong, who lost everything... That would be the only thing that could lift her spirits."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "2100409",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "210040901",
+                    "speaker": "Player",
+                    "text": "We're gonna get going."
+                },
+                {
+                    "id": "210040902",
+                    "speaker": "Soraya",
+                    "text": "Heading off? Well remember, if you come across anything exciting, don't forget to come back and tell me."
+                }
+            ]
+        },
+        {
+            "id": "2100490",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "210049001",
+                    "speaker": "Soraya",
+                    "text": "Just what exactly is being hidden in this saying...?"
+                },
+                {
+                    "id": "210049002",
+                    "speaker": "Player",
+                    "text": "Tell me about the saying..."
+                },
+                {
+                    "id": "210049003",
+                    "speaker": "Soraya",
+                    "text": "Though we call it a saying, it's really more of a riddle."
+                },
+                {
+                    "id": "210049004",
+                    "speaker": "Soraya",
+                    "text": "A riddle that has been kept alive by word of mouth among the residents of Guili Plains."
+                },
+                {
+                    "id": "210049005",
+                    "speaker": "Soraya",
+                    "text": "\"At the place where wisdom and ambition, unity and fortitude converge like water; that is where I shall reveal the bountiful treasures of the earth.\""
+                },
+                {
+                    "id": "210049006",
+                    "speaker": "Soraya",
+                    "text": "How about that, eh? However you interpret it, it sure sounds like there's some kind of buried treasure in the Guili Plains area."
+                },
+                {
+                    "id": "210049007",
+                    "speaker": "Soraya",
+                    "text": "If I surmise correctly, those four words should correspond to four different ruins."
+                },
+                {
+                    "id": "210049008",
+                    "speaker": "Soraya",
+                    "text": "If one were to find all four ruins, perhaps they would be able to find the meaning behind this saying."
+                },
+                {
+                    "id": "210049009",
+                    "speaker": "Soraya",
+                    "text": "But I'm not cut out for finding all of them myself. Just finding that first one really took it out of me. Took days to recover."
+                },
+                {
+                    "id": "210049010",
+                    "speaker": "Soraya",
+                    "text": "If you're interested, perhaps you could take a look. Who knows, perhaps you'll find the next lead before I do."
+                }
+            ]
+        },
+        {
+            "id": "2100492",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "210049201",
+                    "speaker": "Player",
+                    "text": "Remind me of Guizhong's Four Commandments."
+                },
+                {
+                    "id": "210049202",
+                    "speaker": "Soraya",
+                    "text": "Having trouble memorizing them? I understand, most people would. Fortunately, I have a rather good memory for this sort of thing."
+                },
+                {
+                    "id": "210049203",
+                    "speaker": "Soraya",
+                    "text": "Guizhong's Four Commandments are as follows: \"Teach with wisdom, be bound by virtue, fortify the bones, unite in ambition — the convergence of these four shall be known as the 'Guili Assembly.'\""
+                }
+            ]
+        },
+        {
+            "id": "2100493",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "210049301",
+                    "speaker": "Player",
+                    "text": "A battle for territory between the gods?"
+                },
+                {
+                    "id": "210049302",
+                    "speaker": "Soraya",
+                    "text": "A territorial challenge, you say? Hmm... but the Guili Assembly is said to have existed peacefully under Guizhong's rule for a very long time."
+                },
+                {
+                    "id": "210049303",
+                    "speaker": "Soraya",
+                    "text": "Not that Guizhong was a particularly powerful god... At least, that's my impression..."
+                },
+                {
+                    "id": "210049304",
+                    "speaker": "Soraya",
+                    "text": "But there seems to have been another god with the Guili Assembly besides Guizhong. I highly doubt anyone would have been foolish enough to try and take on two gods at once..."
+                }
+            ]
+        },
+        {
+            "id": "2100494",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "210049401",
+                    "speaker": "Player",
+                    "text": "Someone wanted the treasure?"
+                },
+                {
+                    "id": "210049402",
+                    "speaker": "Soraya",
+                    "text": "Unlikely. The great gods would not have waged an all-out war over a bit of treasure that took their fancy."
+                },
+                {
+                    "id": "210049403",
+                    "speaker": "Soraya",
+                    "text": "Or if they did, then you have to ask yourself... What kind of treasure would it take to drive the gods into war with each other?"
+                },
+                {
+                    "id": "210049404",
+                    "speaker": "Soraya",
+                    "text": "...Haha, I for one cannot imagine such a treasure."
+                }
+            ]
+        },
+        {
+            "id": "2100495",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "210049501",
+                    "speaker": "Player",
+                    "text": "Maybe Guizhong and one of the other gods..."
+                },
+                {
+                    "id": "210049502",
+                    "speaker": "Soraya",
+                    "text": "Wh—What are you suggesting? ...You shouldn't pay any heed to those tall tales you hear in Liyue Harbor."
+                },
+                {
+                    "id": "210049503",
+                    "speaker": "Soraya",
+                    "text": "Guizhong was a god, a deity... Not a mere mortal..."
+                },
+                {
+                    "id": "210049504",
+                    "speaker": "Soraya",
+                    "text": "...S—Surely a god wouldn't... Surely not..."
+                }
+            ]
+        },
+        {
+            "id": "2100496",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "210049601",
+                    "speaker": "Player",
+                    "text": "I also wonder..."
+                },
+                {
+                    "id": "210049602",
+                    "speaker": "Soraya",
+                    "text": "Maybe it's to do with the Archon War."
+                },
+                {
+                    "id": "210049603",
+                    "speaker": "Soraya",
+                    "text": "A protracted war erupted between the gods, each of whom coveted a seat at one of the seven divine thrones in Celestia."
+                },
+                {
+                    "id": "210049604",
+                    "speaker": "Soraya",
+                    "text": "It seems that none in Teyvat escaped the reach of that all-consuming war."
+                }
+            ]
+        },
+        {
+            "id": "2100497",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "210049701",
+                    "speaker": "Player",
+                    "text": "Goodbye."
+                },
+                {
+                    "id": "210049702",
+                    "speaker": "Soraya",
+                    "text": "Goodbye. Don't forget to come back and tell me if you find anything."
+                }
+            ]
+        }
+    ]
+}

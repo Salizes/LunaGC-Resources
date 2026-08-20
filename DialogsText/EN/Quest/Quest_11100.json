@@ -1,0 +1,561 @@
+{
+    "quest": {
+        "id": "11100",
+        "title": "The Master of Stars' Deception",
+        "description": "You discover some hilichurls near Wangshu Inn that are giving off dark energy, just as an adeptus who calls himself Starsnatcher is performing some exorcist arts nearby...",
+        "rewards": [
+            {
+                "itemId": 102,
+                "count": 450
+            },
+            {
+                "itemId": 202,
+                "count": 31125
+            },
+            {
+                "itemId": 104003,
+                "count": 4
+            },
+            {
+                "itemId": 104013,
+                "count": 7
+            }
+        ],
+        "rewards_formatted": "Adventure EXP x450, Mora x31125, Hero's Wit x4, Mystic Enhancement Ore x7",
+        "chapter": {
+            "icon": "UI_ChapterIcon_Xiao",
+            "id": "2011",
+            "num": "Alatus Chapter: Act I",
+            "title": "Butterfly's Dream"
+        },
+        "total_dialogue_lines": 87,
+        "total_speaker_counts": {
+            "???": 5,
+            "Female Believer": 6,
+            "Male Believer": 7,
+            "Mercantile Believer": 4,
+            "Paimon": 27,
+            "Player": 20,
+            "Starsnatcher": 18
+        }
+    },
+    "talks": [
+        {
+            "id": "1110009",
+            "objective": "Check near Wangshu Inn",
+            "dialogues": []
+        },
+        {
+            "id": "1110001",
+            "objective": "",
+            "dialogues": [
+                {
+                    "id": "111000101",
+                    "speaker": "Paimon",
+                    "text": "#Hey, {NICKNAME}... Is it just Paimon, or is there something weird about those hilichurls over there?",
+                    "choices": [
+                        {
+                            "id": "111000102",
+                            "text": "They do give off a sinister energy.",
+                            "response": [
+                                {
+                                    "id": "111000103",
+                                    "speaker": "Paimon",
+                                    "text": "Paimon thinks so too. We've seen plenty of hilichurls before, and they're always the bad guys... but this is different."
+                                },
+                                {
+                                    "id": "111000106",
+                                    "speaker": "Paimon",
+                                    "text": "Uh-oh, this is right by the Wangshu Inn, too. The guests are in great danger!"
+                                },
+                                {
+                                    "id": "111000107",
+                                    "speaker": "Paimon",
+                                    "text": "#Now that we've seen it, if we don't do anything about it, Paimon will feel really guilty... Let's go take care of them, {NICKNAME}!"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "111000104",
+                            "text": "They seem unusually agitated.",
+                            "response": [
+                                {
+                                    "id": "111000105",
+                                    "speaker": "Paimon",
+                                    "text": "Right! Maybe it has something to do with that sorta... dark energy they're giving off?"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "1110002",
+            "objective": "Defeat the hilichurls with the evil aura",
+            "dialogues": []
+        },
+        {
+            "id": "1110003",
+            "objective": "",
+            "dialogues": [
+                {
+                    "id": "111000301",
+                    "speaker": "Paimon",
+                    "text": "These super evil hilichurls are more difficult to defeat than the usual kind, too."
+                },
+                {
+                    "id": "111000302",
+                    "speaker": "Paimon",
+                    "text": "Hey, seems like people are gathering over there... Wonder what they're doing?"
+                },
+                {
+                    "id": "111000303",
+                    "speaker": "Paimon",
+                    "text": "Whoa, see that guy in the mask? He—He scared off all the hilichurls!",
+                    "choices": [
+                        {
+                            "id": "111000304",
+                            "text": "Could he be an adeptus?",
+                            "response": [
+                                {
+                                    "id": "111000306",
+                                    "speaker": "Paimon",
+                                    "text": "Oh, you mean like Xiao? Now that you mention it, this guy's mask is kinda similar to the one that he wears..."
+                                },
+                                {
+                                    "id": "111000307",
+                                    "speaker": "Paimon",
+                                    "text": "But the magic he was using seemed even more adeptus-y than Xiao's. Shall we go say hi?"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "111000305",
+                            "text": "Looked like he was using some sort of adeptus art..."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "1110010",
+            "objective": "Talk to the man in the mask",
+            "dialogues": [
+                {
+                    "id": "111001001",
+                    "speaker": "Paimon",
+                    "text": "Ahem. Hello! Allow us to introduce ourselves, this—"
+                },
+                {
+                    "id": "111001002",
+                    "speaker": "???",
+                    "text": "Please, if you're here to thank me, there's no need. Cleansing the world of evil is the duty of the adepti. Think nothing of it — One certainly doesn't."
+                },
+                {
+                    "id": "111001003",
+                    "speaker": "???",
+                    "text": "...Wait, who are you? One had assumed you were followers, but on closer inspection it seems that we have not met.",
+                    "choices": [
+                        {
+                            "id": "111001004",
+                            "text": "We're just travelers passing by.",
+                            "response": [
+                                {
+                                    "id": "111001005",
+                                    "speaker": "Paimon",
+                                    "text": "#My name's Paimon! And this is my sidekick, {NICKNAME}."
+                                },
+                                {
+                                    "id": "111001006",
+                                    "speaker": "???",
+                                    "text": "One sees. One, too, shall introduce oneself, for it is good manners to comply."
+                                },
+                                {
+                                    "id": "111001010",
+                                    "speaker": "???",
+                                    "text": "Ahem... The one before you is the adeptus, Master of Stars, though one is better known to one's followers as \"Starsnatcher.\""
+                                },
+                                {
+                                    "id": "111001011",
+                                    "speaker": "Starsnatcher",
+                                    "text": "One descended from one's mountain abode to cleanse the world of evil, whereupon fate saw fit that our paths should cross. Now... tell me that which you wish for."
+                                },
+                                {
+                                    "id": "111001012",
+                                    "speaker": "Paimon",
+                                    "text": "Our wishes? Paimon thought that the adepti in Liyue were just really good in battle... You mean you can grant people's wishes, too?"
+                                },
+                                {
+                                    "id": "111001013",
+                                    "speaker": "Starsnatcher",
+                                    "text": "Hah... There are different levels of adepti... Are not the stars loftier than the mountains, clouds, and moon?"
+                                },
+                                {
+                                    "id": "111001014",
+                                    "speaker": "Starsnatcher",
+                                    "text": "Yet, it is unbecoming of an adepti to boast of one's powers. One would have you first speak to one's followers, and only then make your verdict."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "111001007",
+                            "text": "We are following the trail of the adepti.",
+                            "response": [
+                                {
+                                    "id": "111001008",
+                                    "speaker": "Paimon",
+                                    "text": "#My name's Paimon! And this is my sidekick, {NICKNAME}."
+                                },
+                                {
+                                    "id": "111001009",
+                                    "speaker": "???",
+                                    "text": "Then it is right that our paths coincide. I, too, shall introduce myself, for with good manners to comply."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "1110004",
+            "objective": "Talk to the followers to find out about Starsnatcher",
+            "dialogues": [
+                {
+                    "id": "111000401",
+                    "speaker": "Male Believer",
+                    "text": "Have you seen the Master of Stars in action? His power truly hails from the divine!"
+                },
+                {
+                    "id": "111000402",
+                    "speaker": "Male Believer",
+                    "text": "I believe that now, there is finally some hope for my ailing father..."
+                },
+                {
+                    "id": "111000403",
+                    "speaker": "Player",
+                    "text": "Tell me about the Master of Stars."
+                },
+                {
+                    "id": "111000404",
+                    "speaker": "Male Believer",
+                    "text": "Watching him use his magic is all the proof you need. A true adeptus, no doubt about it."
+                },
+                {
+                    "id": "111000405",
+                    "speaker": "Male Believer",
+                    "text": "Not long ago, I sought some medicine from him on behalf of my ailing father. The difference with Bubu Pharmacy's prescriptions was like night and day, I tell you."
+                },
+                {
+                    "id": "111000406",
+                    "speaker": "Male Believer",
+                    "text": "Once it was boiled and ready, it gave off this really ethereal mist — seemed pretty adeptal to me! Hm... Could have also been because there was Mist Flower in it, though..."
+                },
+                {
+                    "id": "111000407",
+                    "speaker": "Male Believer",
+                    "text": "Adepti medicine is surely the most potent. My father will recover soon, I just know it..."
+                },
+                {
+                    "id": "111000408",
+                    "speaker": "Male Believer",
+                    "text": "Sure, you have to make some sacrifices if you seek help from an adeptus like the Master of Stars — I had to give a few antiques as offerings. But my father's life is worth much more than a few old relics, right?"
+                }
+            ]
+        },
+        {
+            "id": "1110005",
+            "objective": "Talk to the followers to find out about Starsnatcher",
+            "dialogues": [
+                {
+                    "id": "111000501",
+                    "speaker": "Female Believer",
+                    "text": "Finally, a life full of hope and purpose..."
+                },
+                {
+                    "id": "111000502",
+                    "speaker": "Player",
+                    "text": "What are your thoughts on the Master of Stars?"
+                },
+                {
+                    "id": "111000503",
+                    "speaker": "Female Believer",
+                    "text": "Oh! Are you believers, too?"
+                },
+                {
+                    "id": "111000504",
+                    "speaker": "Female Believer",
+                    "text": "After my fiancé upped and left, I cried every day..."
+                },
+                {
+                    "id": "111000505",
+                    "speaker": "Female Believer",
+                    "text": "But then I turned to the Master of Stars for help. At his suggestion, I started burning paintings of my fiancé and casting the ashes into the ocean at sunrise..."
+                },
+                {
+                    "id": "111000506",
+                    "speaker": "Female Believer",
+                    "text": "I can't explain it... but it really worked! I know in my heart that he will return. This is not some sort of positive thinking trick... I am certain of it."
+                },
+                {
+                    "id": "111000507",
+                    "speaker": "Female Believer",
+                    "text": "I'm so overjoyed that I gave a portion of my wedding budget to the Master of Stars as an offering. After all, if not for him, I wouldn't be getting my fiancé back, in which case I wouldn't need it anyway..."
+                }
+            ]
+        },
+        {
+            "id": "1110006",
+            "objective": "Talk to the followers to find out about Starsnatcher",
+            "dialogues": [
+                {
+                    "id": "111000601",
+                    "speaker": "Mercantile Believer",
+                    "text": "The Millelith don't really need to do shifts when the Master of Stars is around, do they?"
+                },
+                {
+                    "id": "111000602",
+                    "speaker": "Player",
+                    "text": "What do you know about the Master of Stars?"
+                },
+                {
+                    "id": "111000603",
+                    "speaker": "Mercantile Believer",
+                    "text": "I'm a merchant, and I had an especially valuable batch of goods that needed transporting recently. So, I asked the Master of Stars if he would make the journey with me, as presumptuous as that was."
+                },
+                {
+                    "id": "111000604",
+                    "speaker": "Mercantile Believer",
+                    "text": "Reason being, monsters run a mile as soon as he so much as holds up his talisman. We didn't have the slightest bit of trouble the whole journey."
+                },
+                {
+                    "id": "111000605",
+                    "speaker": "Mercantile Believer",
+                    "text": "It didn't come cheap, of course... but then, soliciting the services of an adeptus is a monumental affair — just look at the Rite of Descension! So I can accept it, but I doubt that most from outside of Liyue would be willing to..."
+                }
+            ]
+        },
+        {
+            "id": "1110008",
+            "objective": "Talk to Starsnatcher",
+            "dialogues": [
+                {
+                    "id": "111000801",
+                    "speaker": "Starsnatcher",
+                    "text": "What do you think? One's adherents may exaggerate a little, but they speak from the heart."
+                },
+                {
+                    "id": "111000802",
+                    "speaker": "Player",
+                    "text": "From their imaginations, I'd say..."
+                },
+                {
+                    "id": "111000803",
+                    "speaker": "Starsnatcher",
+                    "text": "Haha, surely you jest. There was once a senior adeptus, Xue Wuliang, known to the people as \"Liangzi.\" He said this:"
+                },
+                {
+                    "id": "111000804",
+                    "speaker": "Starsnatcher",
+                    "text": "\"All things are connected. That which mortals call 'imagination' is merely the bridge betwixt the spiritual and the material.\""
+                },
+                {
+                    "id": "111000805",
+                    "speaker": "Starsnatcher",
+                    "text": "In other words, their wishes are already on the path of transitioning into reality. Does this make things clearer?"
+                },
+                {
+                    "id": "111000806",
+                    "speaker": "Paimon",
+                    "text": "Ahh... Nope, it makes them way more complicated... But basically, what you're saying is that their wishes can come true, right?"
+                },
+                {
+                    "id": "111000807",
+                    "speaker": "Starsnatcher",
+                    "text": "Indeed. You are perceptive, my diminutive friend."
+                },
+                {
+                    "id": "111000808",
+                    "speaker": "Paimon",
+                    "text": "Okay. Um, so we also have one other question..."
+                },
+                {
+                    "id": "111000809",
+                    "speaker": "Starsnatcher",
+                    "text": "Oh? You need but ask.",
+                    "choices": [
+                        {
+                            "id": "111000810",
+                            "text": "Why do you wear a mask?",
+                            "response": [
+                                {
+                                    "id": "111000814",
+                                    "speaker": "Starsnatcher",
+                                    "text": "One... wanders among mortals, doing good and cleansing evil. One reveals not one's visage to avoid further disturbance to this realm than is necessary."
+                                },
+                                {
+                                    "id": "111000815",
+                                    "speaker": "Paimon",
+                                    "text": "Ah, got it."
+                                },
+                                {
+                                    "id": "111000816",
+                                    "speaker": "Starsnatcher",
+                                    "text": "Now, then — what are your wishes?",
+                                    "choices": [
+                                        {
+                                            "id": "111000817",
+                                            "text": "I want to know where my sibling is.",
+                                            "response": [
+                                                {
+                                                    "id": "111000818",
+                                                    "speaker": "Starsnatcher",
+                                                    "text": "Hmm... One senses that a tragic tale lies behind this wish..."
+                                                },
+                                                {
+                                                    "id": "111000824",
+                                                    "speaker": "Starsnatcher",
+                                                    "text": "So be it. This wish is not beyond one's power to grant..."
+                                                },
+                                                {
+                                                    "id": "111000825",
+                                                    "speaker": "Starsnatcher",
+                                                    "text": "But first, one must see some proof of your... faith."
+                                                },
+                                                {
+                                                    "id": "111000826",
+                                                    "speaker": "Paimon",
+                                                    "text": "...What's that supposed to mean?"
+                                                },
+                                                {
+                                                    "id": "111000827",
+                                                    "speaker": "Starsnatcher",
+                                                    "text": "The way of the adepti cannot be grasped from words alone. One must seek... the profound truths that lie beyond them... Should you fail to perceive one's hidden meaning, then regrettably, one may lend you no aid."
+                                                },
+                                                {
+                                                    "id": "111000828",
+                                                    "speaker": "Paimon",
+                                                    "text": "What do we do? Paimon doesn't understand him at all!",
+                                                    "choices": [
+                                                        {
+                                                            "id": "111000829",
+                                                            "text": "I think he wants us to sweeten the deal...",
+                                                            "response": [
+                                                                {
+                                                                    "id": "111000831",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "Oh, that's right! Some of those believers mentioned that they had to pay a pretty sum for the adeptus' help, didn't they?"
+                                                                },
+                                                                {
+                                                                    "id": "111000832",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "Well Paimon's not forking over any Mora, and we don't have anything valuable enough on us..."
+                                                                },
+                                                                {
+                                                                    "id": "111000833",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "You don't even have a Vision...",
+                                                                    "choices": [
+                                                                        {
+                                                                            "id": "111000834",
+                                                                            "text": "I don't think people put Visions up for sale.",
+                                                                            "response": [
+                                                                                {
+                                                                                    "id": "111000836",
+                                                                                    "speaker": "Paimon",
+                                                                                    "text": "Hey! Why don't we make him a tasty snack? No one can resist the temptation of good food, can they?",
+                                                                                    "choices": [
+                                                                                        {
+                                                                                            "id": "111000837",
+                                                                                            "text": "No one who shares your values, for sure...",
+                                                                                            "response": [
+                                                                                                {
+                                                                                                    "id": "111000839",
+                                                                                                    "speaker": "Paimon",
+                                                                                                    "text": "Yep, a tasty snack is sure to work! Hehehe..."
+                                                                                                },
+                                                                                                {
+                                                                                                    "id": "111000840",
+                                                                                                    "speaker": "Paimon",
+                                                                                                    "text": "Why don't we head over to Wanwen Bookhouse and see if they've got any new recipes in?"
+                                                                                                }
+                                                                                            ]
+                                                                                        },
+                                                                                        {
+                                                                                            "id": "111000838",
+                                                                                            "text": "Nom! Sounds good."
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        {
+                                                                            "id": "111000835",
+                                                                            "text": "No need to rub it in..."
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "id": "111000830",
+                                                            "text": "I think he wants some Mora..."
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "111000821",
+                                            "text": "I'd like to get rich quick!",
+                                            "response": [
+                                                {
+                                                    "id": "111000822",
+                                                    "speaker": "Paimon",
+                                                    "text": "#Now hold on a second! What about your {M#sister}{F#brother}!?"
+                                                },
+                                                {
+                                                    "id": "111000823",
+                                                    "speaker": "Starsnatcher",
+                                                    "text": "This is a common mortal sentiment. That you hail not from Liyue is manifest in your appearance, but one senses their materialistic influence upon you."
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "111000811",
+                            "text": "Go on, take it off, lemme see...",
+                            "response": [
+                                {
+                                    "id": "111000812",
+                                    "speaker": "Paimon",
+                                    "text": "Hey! Isn't that a bit inappropriate?"
+                                },
+                                {
+                                    "id": "111000813",
+                                    "speaker": "Starsnatcher",
+                                    "text": "Hm. Indeed, it would be inappropriate for one to remove one's mask."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "1110023",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "111002301",
+                    "speaker": "Starsnatcher",
+                    "text": "Chat with them as you please. One will not beat one's own drum — the words of others shall ring truer."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,2441 @@
+{
+    "quest": {
+        "id": "3031",
+        "title": "The Kabukimono's Finale",
+        "description": "The information you gathered left you with a heavy heart. You decide to return to the Sanctuary of Surasthana and tell Nahida about everything you learned...",
+        "rewards": [
+            {
+                "itemId": 102,
+                "count": 1125
+            },
+            {
+                "itemId": 202,
+                "count": 49200
+            },
+            {
+                "itemId": 104003,
+                "count": 5
+            },
+            {
+                "itemId": 104013,
+                "count": 9
+            }
+        ],
+        "rewards_formatted": "Adventure EXP x1125, Mora x49200, Hero's Wit x5, Mystic Enhancement Ore x9",
+        "chapter": {
+            "icon": "UI_ChapterIcon_Sumeru",
+            "id": "1307",
+            "num": "Interlude Chapter: Act III",
+            "title": "Inversion of Genesis"
+        },
+        "total_dialogue_lines": 444,
+        "total_speaker_counts": {
+            "???": 7,
+            "Akademiya Researcher": 1,
+            "Aqaba": 10,
+            "Azar": 1,
+            "Black Screen": 8,
+            "Child": 5,
+            "Everlasting Lord of Arcane Wisdom": 1,
+            "Kabukimono": 7,
+            "Katsuragi": 7,
+            "Merchant": 20,
+            "Mikoshi Nagamasa": 2,
+            "Nahida": 107,
+            "Paimon": 77,
+            "Player": 69,
+            "Sawada": 9,
+            "Signora": 10,
+            "The Balladeer": 13,
+            "The Doctor": 5,
+            "The Jester": 3,
+            "Wanderer": 82
+        }
+    },
+    "talks": [
+        {
+            "id": "303115",
+            "objective": "Return to the Sanctuary of Surasthana",
+            "dialogues": [
+                {
+                    "id": "30311501",
+                    "speaker": "Aqaba",
+                    "text": "Hey! It's them!"
+                },
+                {
+                    "id": "30311502",
+                    "speaker": "Paimon",
+                    "text": "Aqaba, Sawada! You're still here?"
+                },
+                {
+                    "id": "30311503",
+                    "speaker": "Player",
+                    "text": "Are you still talking about the... \"essay\"?"
+                },
+                {
+                    "id": "30311504",
+                    "speaker": "Sawada",
+                    "text": "Indeed we are! If you have a moment, we'd love for you to join us once more."
+                },
+                {
+                    "id": "30311505",
+                    "speaker": "Paimon",
+                    "text": "We have time. What do you wanna talk to us about?"
+                },
+                {
+                    "id": "30311506",
+                    "speaker": "Sawada",
+                    "text": "The same topic we discussed last time... obviously."
+                },
+                {
+                    "id": "30311507",
+                    "speaker": "Paimon",
+                    "text": "Still looking for more info about Tatarasuna, huh? Hmm, should we join them?"
+                },
+                {
+                    "id": "30311508",
+                    "speaker": "Player",
+                    "text": "(Perfect. These two have researched Tatarasuna's past. Let's hear what they have to say.)"
+                },
+                {
+                    "id": "30311509",
+                    "speaker": "Aqaba",
+                    "text": "Unfortunately, we haven't made any real progress...",
+                    "choices": [
+                        {
+                            "id": "30311510",
+                            "text": "The article that you let me read last time was great.",
+                            "response": [
+                                {
+                                    "id": "30311512",
+                                    "speaker": "Aqaba",
+                                    "text": "Huh? Oh, uh, of course."
+                                },
+                                {
+                                    "id": "30311513",
+                                    "speaker": "Sawada",
+                                    "text": "I presume you'll want to read mine as well? Here."
+                                },
+                                {
+                                    "id": "30311514",
+                                    "speaker": "Player",
+                                    "text": "(...)"
+                                },
+                                {
+                                    "id": "30311515",
+                                    "speaker": "Player",
+                                    "text": "(The content has changed. Another effect of tampering with the information in Irminsul.)"
+                                },
+                                {
+                                    "id": "30311516",
+                                    "speaker": "Player",
+                                    "text": "(The Balladeer said he'd erase two of his names. If he really succeeded, it must have taken all of his might... But still...)"
+                                },
+                                {
+                                    "id": "30311517",
+                                    "speaker": "Aqaba",
+                                    "text": "Well, what do you think?"
+                                },
+                                {
+                                    "id": "30311518",
+                                    "speaker": "Player",
+                                    "text": "A masterpiece!"
+                                },
+                                {
+                                    "id": "30311519",
+                                    "speaker": "Paimon",
+                                    "text": "#Hey {NICKNAME}, remember how last time Aqaba was saying how he wished they could gather more information about all this? Well, we just got back from Inazuma, so how about we tell them what we learned?"
+                                },
+                                {
+                                    "id": "30311520",
+                                    "speaker": "Player",
+                                    "text": "Sure."
+                                },
+                                {
+                                    "id": "30311521",
+                                    "speaker": "Aqaba",
+                                    "text": "What did you find out? Something big?"
+                                },
+                                {
+                                    "id": "30311522",
+                                    "speaker": "Paimon",
+                                    "text": "It's a long story. Basically, we have some friends in Inazuma, and..."
+                                },
+                                {
+                                    "id": "30311523",
+                                    "speaker": "Black Screen",
+                                    "text": "You tell the two writers what you learned about the Raiden Gokaden and Tatarasuna's history..."
+                                },
+                                {
+                                    "id": "30311524",
+                                    "speaker": "Aqaba",
+                                    "text": "Wow! So many new details... Thank you so much for sharing that with us!"
+                                },
+                                {
+                                    "id": "30311525",
+                                    "speaker": "Sawada",
+                                    "text": "Well, well, so it all comes down to one man's desire for revenge... Huh. You heard this from a member of the Amenoma Clan, you say? Then I guess it must be true."
+                                },
+                                {
+                                    "id": "30311526",
+                                    "speaker": "Sawada",
+                                    "text": "*sigh* So there's no ghost story here after all..."
+                                },
+                                {
+                                    "id": "30311527",
+                                    "speaker": "Aqaba",
+                                    "text": "This new information actually lends further credence to my hypothesis — evidently, swordsmiths were seen as having an incredibly prestigious role in society in those days, to the extent that harming them was conceived of, at least by the perpetrator, as a way of exacting revenge against those in power..."
+                                },
+                                {
+                                    "id": "30311528",
+                                    "speaker": "Sawada",
+                                    "text": "Yes, yes, okay, point taken. You were right, but that doesn't mean I can't carry on with my novel..."
+                                },
+                                {
+                                    "id": "30311529",
+                                    "speaker": "Paimon",
+                                    "text": "Aaand they're back at it. These guys are really into this."
+                                },
+                                {
+                                    "id": "30311530",
+                                    "speaker": "Player",
+                                    "text": "We've got some things to take care of. Bye for now."
+                                },
+                                {
+                                    "id": "30311531",
+                                    "speaker": "Aqaba",
+                                    "text": "Oh, so sorry, look at us, prattling on about our projects and ignoring you. Thank you so much for the information."
+                                },
+                                {
+                                    "id": "30311532",
+                                    "speaker": "Paimon",
+                                    "text": "You're welcome. See ya!"
+                                },
+                                {
+                                    "id": "30311533",
+                                    "speaker": "Sawada",
+                                    "text": "Keep us in the loop if you find out anything else!"
+                                },
+                                {
+                                    "id": "30311534",
+                                    "speaker": "Paimon",
+                                    "text": "Will do!"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "30311511",
+                            "text": "Can I read it again?"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "303101",
+            "objective": "Talk to Nahida",
+            "dialogues": [
+                {
+                    "id": "30310101",
+                    "speaker": "Paimon",
+                    "text": "Nahida, we're here."
+                },
+                {
+                    "id": "30310102",
+                    "speaker": "Nahida",
+                    "text": "#{NICKNAME}, Paimon, how have you been?"
+                },
+                {
+                    "id": "30310103",
+                    "speaker": "Paimon",
+                    "text": "#Ugh, where to start... Paimon hasn't had a moment's rest this whole time. That night, we ended up chatting and chatting until suddenly, the sun was up... And then, {M#he}{F#she} decided {M#he}{F#she} wanted to go to Inazuma."
+                },
+                {
+                    "id": "30310104",
+                    "speaker": "Player",
+                    "text": "I was investigating the situation with The Balladeer."
+                },
+                {
+                    "id": "30310105",
+                    "speaker": "Nahida",
+                    "text": "The Balladeer... Hmm. Sounds like some kind of code name."
+                },
+                {
+                    "id": "30310106",
+                    "speaker": "Player",
+                    "text": "(...Oh no...)"
+                },
+                {
+                    "id": "30310107",
+                    "speaker": "Nahida",
+                    "text": "You look troubled... Is there something you need to tell me?"
+                },
+                {
+                    "id": "30310108",
+                    "speaker": "Player",
+                    "text": "(Even Nahida doesn't remember... Just like last time, any changes to Irminsul affect her as well.)"
+                },
+                {
+                    "id": "30310109",
+                    "speaker": "Player",
+                    "text": "(The Balladeer acted quickly. He finished erasing himself before Nahida could stop him...)"
+                },
+                {
+                    "id": "30310110",
+                    "speaker": "Player",
+                    "text": "(I'm the only one who still remembers the things that were erased. Once again... I am the record-keeper.)"
+                },
+                {
+                    "id": "30310111",
+                    "speaker": "Nahida",
+                    "text": "#{NICKNAME}?"
+                },
+                {
+                    "id": "30310112",
+                    "speaker": "Paimon",
+                    "text": "Hey, what's wrong...? You look so upset."
+                },
+                {
+                    "id": "30310113",
+                    "speaker": "Player",
+                    "text": "There are things that have happened... that only I can remember."
+                },
+                {
+                    "id": "30310114",
+                    "speaker": "Player",
+                    "text": "I have to tell you the truth."
+                },
+                {
+                    "id": "30310115",
+                    "speaker": "Black Screen",
+                    "text": "With a heavy heart, you piece back together the story that was broken and scattered across time..."
+                },
+                {
+                    "id": "30310116",
+                    "speaker": "Black Screen",
+                    "text": "There once was one named The Balladeer, created by the Electro Archon. He was a puppet who lived among men."
+                },
+                {
+                    "id": "30310117",
+                    "speaker": "Black Screen",
+                    "text": "After a series of events in Tatarasuna, The Balladeer, thinking he had been thrice betrayed, left Inazuma to roam the world beyond."
+                },
+                {
+                    "id": "30310118",
+                    "speaker": "Black Screen",
+                    "text": "With no trust for humans, and only loathing for the gods,\\nhe bore his grudge for years as he grew in strength, then returned to Inazuma to take his revenge.\\nHe tried in vain to become a deity with a Gnosis, and ended up losing everything."
+                },
+                {
+                    "id": "30310119",
+                    "speaker": "Black Screen",
+                    "text": "Finally, he entered Irminsul and learned the truth behind his betrayal.\\nKnowing now that his entire life was built on lies, he did the unthinkable in an attempt to reverse his tragic fate..."
+                },
+                {
+                    "id": "30310120",
+                    "speaker": "Nahida",
+                    "text": "...That's quite a story."
+                },
+                {
+                    "id": "30310121",
+                    "speaker": "Nahida",
+                    "text": "So this puppet known as The Balladeer erased himself from Irminsul... hoping that he could change the past."
+                },
+                {
+                    "id": "30310122",
+                    "speaker": "Paimon",
+                    "text": "But how was he even able to do that?"
+                },
+                {
+                    "id": "30310123",
+                    "speaker": "Nahida",
+                    "text": "#As {NICKNAME} said, he very nearly became Sumeru's deity. Admittedly, I remember it a little differently... I don't recall finding anyone inside the machine after we defeated it."
+                },
+                {
+                    "id": "30310124",
+                    "speaker": "Nahida",
+                    "text": "Nevertheless, it does make sense. If someone were to successfully erase themselves from Irminsul, the world would change to reflect the new reality."
+                },
+                {
+                    "id": "30310125",
+                    "speaker": "Paimon",
+                    "text": "So you believe this person really existed, and we just don't remember him because... well, because he literally changed the world?"
+                },
+                {
+                    "id": "30310126",
+                    "speaker": "Nahida",
+                    "text": "Yes. Theoretically speaking, it is possible to do this, but I'm struggling to imagine the kind of person who would dare go through with it..."
+                },
+                {
+                    "id": "30310127",
+                    "speaker": "Nahida",
+                    "text": "#{NICKNAME} comes from a world beyond Teyvat. That's why there's no information about {M#him}{F#her} in Irminsul, and it also explains why any changes to Irminsul wouldn't affect {M#him}{F#her}."
+                },
+                {
+                    "id": "30310128",
+                    "speaker": "Nahida",
+                    "text": "So, if there's anyone in the world capable of retaining memories from a past that has been rewritten, it's you. It's... quite incredible, when you think about it."
+                },
+                {
+                    "id": "30310129",
+                    "speaker": "Player",
+                    "text": "...You can say that again."
+                },
+                {
+                    "id": "30310130",
+                    "speaker": "Paimon",
+                    "text": "Paimon's having a hard time understanding this Balladeer guy's motivations... Why did he do it?"
+                },
+                {
+                    "id": "30310131",
+                    "speaker": "Nahida",
+                    "text": "I can only make inferences based on the information we've been given. As for what kind of person he was... only you remember that."
+                },
+                {
+                    "id": "30310132",
+                    "speaker": "Player",
+                    "text": "I... I'm really not sure."
+                },
+                {
+                    "id": "30310133",
+                    "speaker": "Player",
+                    "text": "(We were enemies, after all. I don't know his perspective on all this, so I can't say why he did something so extreme...)"
+                },
+                {
+                    "id": "30310134",
+                    "speaker": "Player",
+                    "text": "(Did he want to reset everything? Or save someone? Or did he want to completely undo his existence?)"
+                },
+                {
+                    "id": "30310135",
+                    "speaker": "Player",
+                    "text": "(\"Everything can be set right. It's time to solve this once and for all\"... Maybe that's all there is to it.)"
+                },
+                {
+                    "id": "30310136",
+                    "speaker": "Player",
+                    "text": "(I still remember the question he asked. He asked me, specifically... and my hesitation gave him his answer.)"
+                },
+                {
+                    "id": "30310137",
+                    "speaker": "Player",
+                    "text": "(I hesitated because I witnessed Greater Lord Rukkhadevata erase her own existence, but I can't tell Nahida that.)"
+                },
+                {
+                    "id": "30310138",
+                    "speaker": "Player",
+                    "text": "(To put it another way, I know why The Balladeer was so sure it could work... But I can't tell them that.)"
+                },
+                {
+                    "id": "30310139",
+                    "speaker": "Nahida",
+                    "text": "Something else worrying you? ...Something that you can't share?",
+                    "choices": [
+                        {
+                            "id": "30310140",
+                            "text": "I just feel... empty.",
+                            "response": [
+                                {
+                                    "id": "30310142",
+                                    "speaker": "Nahida",
+                                    "text": "...It couldn't change the fate of the ones who had died. Right?"
+                                },
+                                {
+                                    "id": "30310143",
+                                    "speaker": "Player",
+                                    "text": "Yes."
+                                },
+                                {
+                                    "id": "30310144",
+                                    "speaker": "Nahida",
+                                    "text": "Once The Balladeer realized he hadn't been betrayed after all, it must have completely changed his view of the people of Tatarasuna. Now he saw them as friends again."
+                                },
+                                {
+                                    "id": "30310145",
+                                    "speaker": "Nahida",
+                                    "text": "He couldn't keep hating humans after that. And if he thought there was a chance he could save his old friends, it would be hard not to try."
+                                },
+                                {
+                                    "id": "30310146",
+                                    "speaker": "Nahida",
+                                    "text": "...The story makes sense, every part of it."
+                                },
+                                {
+                                    "id": "30310147",
+                                    "speaker": "Nahida",
+                                    "text": "The Balladeer tried to achieve godhood with The Doctor's help. He was unsuccessful, but retained the power to connect with Irminsul."
+                                },
+                                {
+                                    "id": "30310148",
+                                    "speaker": "Nahida",
+                                    "text": "That power then enabled him to change what was recorded in Irminsul and erase himself, even though he didn't have much strength left."
+                                },
+                                {
+                                    "id": "30310149",
+                                    "speaker": "Paimon",
+                                    "text": "Yeah, it does make sense, but... it still ended in tragedy for his friends."
+                                },
+                                {
+                                    "id": "30310150",
+                                    "speaker": "Paimon",
+                                    "text": "It just feels so hopeless... He gave everything to do this, but it seems like he got nothing in return."
+                                },
+                                {
+                                    "id": "30310151",
+                                    "speaker": "Player",
+                                    "text": "(Yeah. He changed the world in many ways, and yet the dead still didn't get a second chance. Those fated to a tragic end could not be saved.)"
+                                },
+                                {
+                                    "id": "30310152",
+                                    "speaker": "Player",
+                                    "text": "(What exactly did he want to fight back against? The betrayals in his life? Or did he wish he'd never existed at all?)"
+                                },
+                                {
+                                    "id": "30310153",
+                                    "speaker": "Nahida",
+                                    "text": "Please wait a moment. I want to check something."
+                                },
+                                {
+                                    "id": "30310154",
+                                    "speaker": "Nahida",
+                                    "text": "..."
+                                },
+                                {
+                                    "id": "30310155",
+                                    "speaker": "Nahida",
+                                    "text": "Found it. This should be the one."
+                                },
+                                {
+                                    "id": "30310156",
+                                    "speaker": "Nahida",
+                                    "text": "#It turns out that... I have a strange way of confirming everything {M#he}{F#she} has told us."
+                                },
+                                {
+                                    "id": "30310157",
+                                    "speaker": "Paimon",
+                                    "text": "What is it?"
+                                },
+                                {
+                                    "id": "30310158",
+                                    "speaker": "Nahida",
+                                    "text": "A record from my personal collection. It was tucked away in a corner."
+                                },
+                                {
+                                    "id": "30310159",
+                                    "speaker": "Nahida",
+                                    "text": "You should take a look."
+                                },
+                                {
+                                    "id": "30310160",
+                                    "speaker": "Paimon",
+                                    "text": "Is this a fairy tale? Who wrote it?"
+                                },
+                                {
+                                    "id": "30310161",
+                                    "speaker": "Player",
+                                    "text": "This matches everything I said."
+                                },
+                                {
+                                    "id": "30310162",
+                                    "speaker": "Nahida",
+                                    "text": "I authored this record myself."
+                                },
+                                {
+                                    "id": "30310163",
+                                    "speaker": "Paimon",
+                                    "text": "Huh? You... wrote a fairytale that somehow has something to do with The Balladeer?"
+                                },
+                                {
+                                    "id": "30310164",
+                                    "speaker": "Nahida",
+                                    "text": "#When combined with {NICKNAME}'s narrative, it's clear that this story is an allegory. Everything in it is a symbol for something else."
+                                },
+                                {
+                                    "id": "30310165",
+                                    "speaker": "Paimon",
+                                    "text": "Hold on, so this record survived from the... past-past?"
+                                },
+                                {
+                                    "id": "30310166",
+                                    "speaker": "Nahida",
+                                    "text": "Yes. Any information about The Balladeer or the kabukimono in other records will have been changed. But I wrote this story in a way that means, it was left intact."
+                                },
+                                {
+                                    "id": "30310167",
+                                    "speaker": "Nahida",
+                                    "text": "Changing the information in Irminsul changes Teyvat."
+                                },
+                                {
+                                    "id": "30310168",
+                                    "speaker": "Nahida",
+                                    "text": "But Irminsul can't change information that was well hidden in advance. I guess I must've written this story as a backup before The Balladeer entered Irminsul."
+                                },
+                                {
+                                    "id": "30310169",
+                                    "speaker": "Paimon",
+                                    "text": "That's incredible! What a great idea!"
+                                },
+                                {
+                                    "id": "30310170",
+                                    "speaker": "Nahida",
+                                    "text": "#And sending {NICKNAME} into Irminsul with The Balladeer must have been a further precaution. I knew {M#he}{F#she}'d remember everything."
+                                },
+                                {
+                                    "id": "30310171",
+                                    "speaker": "Nahida",
+                                    "text": "This story is abstract enough that it still resonates with the present information recorded in Irminsul."
+                                },
+                                {
+                                    "id": "30310172",
+                                    "speaker": "Nahida",
+                                    "text": "#But if we connect all the different pieces together, the true story that emerges is the one {M#he}{F#she} told us... the now-erased life of The Balladeer."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "30310141",
+                            "text": "He chose such a radical option, and yet..."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "303116",
+            "objective": "Decode Nahida's fairy tale",
+            "dialogues": [
+                {
+                    "id": "30311601",
+                    "speaker": "Nahida",
+                    "text": "There once was a lone monster draped in fox fur. The monster found a family of foxes, joined them, and they became friends. The monster lived with the family, day and night, and everyone treated it as one of their own."
+                },
+                {
+                    "id": "30311602",
+                    "speaker": "Nahida",
+                    "text": "Once in a while, the monster would take off its fox fur at night, and lament to itself as it gazed at its reflection in the water: \"I am a monstrosity, yet they are too foolish to see it... I pity them.\""
+                },
+                {
+                    "id": "30311603",
+                    "speaker": "Nahida",
+                    "text": "But the monster soon found solace when another came to live among the foxes who was not their kin: a kitten, carved from the wood of a white tree, who had been abandoned by the humans."
+                },
+                {
+                    "id": "30311604",
+                    "speaker": "Nahida",
+                    "text": "The kitten, too, wished to become a fox, but its tail was too slender and it could not grow a coat of richly colored fur. Yet when the other foxes saw this, they spoke words of comfort to the kitten: \"Even without a tail and fur like ours, you are still one of us.\""
+                },
+                {
+                    "id": "30311605",
+                    "speaker": "Nahida",
+                    "text": "Furious at this happy resolution, the monster lit a fire on the mountain. The terrified animals panicked as the fire spread. The only way to extinguish the flames was to make a sacrifice."
+                },
+                {
+                    "id": "30311606",
+                    "speaker": "Nahida",
+                    "text": "A gray fox stood up and addressed the monster. It said: \"You are the cleverest among us. Surely you can help us find a way to solve this.\""
+                },
+                {
+                    "id": "30311607",
+                    "speaker": "Nahida",
+                    "text": "The monster smiled, led the fox toward the fire... and murdered it. The gray fox's heart was turned into a beautiful drop of water, clear, spotless, and pure."
+                },
+                {
+                    "id": "30311608",
+                    "speaker": "Nahida",
+                    "text": "The monster gave the heart of water to the kitten, telling him: \"The foxes have decided. You are the one who must be sacrificed. Take this, quench the flames, and die for your fox kin.\""
+                },
+                {
+                    "id": "30311609",
+                    "speaker": "Nahida",
+                    "text": "The fire was extinguished, but the kitten lived. It left that side of the mountain and found a little bird who had a broken wing."
+                },
+                {
+                    "id": "30311610",
+                    "speaker": "Nahida",
+                    "text": "The two promised they would spend their whole lives together, but the little bird did not have long left to live. It passed away soon after. After burying the bird, the kitten left the mountain for good."
+                },
+                {
+                    "id": "30311611",
+                    "speaker": "Nahida",
+                    "text": "...Never again would it cherish a single creature, nor a single blade of grass that stood on that mountain. The kitten spent the nights wandering aimlessly, gnashing its teeth at the moon."
+                },
+                {
+                    "id": "30311612",
+                    "speaker": "Nahida",
+                    "text": "How it wished to swallow the moon and devour the moonlight. If the world could only return to darkness, then it would finally be peaceful and content."
+                },
+                {
+                    "id": "30311613",
+                    "speaker": "Nahida",
+                    "text": "\"I will become the new moon, the answer to everything. Then, no one will know that there were once birds, foxes, and cats in this world. And no one can know that they were different.\""
+                },
+                {
+                    "id": "30311614",
+                    "speaker": "Paimon",
+                    "text": "We solved it!"
+                },
+                {
+                    "id": "30311615",
+                    "speaker": "Nahida",
+                    "text": "..."
+                },
+                {
+                    "id": "30311616",
+                    "speaker": "Nahida",
+                    "text": "I remember now. This is not just The Balladeer's story... it is his very own memories. I made a backup so that it would be preserved, no matter what happened."
+                },
+                {
+                    "id": "30311617",
+                    "speaker": "Nahida",
+                    "text": "To become a god, he was experimented on and modified countless times. It was brutal torture, and the only reason he was able to survive is that he was a puppet."
+                },
+                {
+                    "id": "30311618",
+                    "speaker": "Nahida",
+                    "text": "This memory was extracted from him by the scholars. Presumably, they kept it to have something to defend themselves with..."
+                },
+                {
+                    "id": "30311619",
+                    "speaker": "Nahida",
+                    "text": "Creating a deity was just the first step. Some of them wanted to be able to control it. That's why they backed up his memory for later use."
+                },
+                {
+                    "id": "30311620",
+                    "speaker": "Nahida",
+                    "text": "I buried it deep inside one of my own dreams, and then hid it inside an allegorical story so that it wouldn't be altered."
+                },
+                {
+                    "id": "30311621",
+                    "speaker": "Paimon",
+                    "text": "It's hard to believe that this person really existed, let alone that he tried to... get rid of us on more than one occasion..."
+                },
+                {
+                    "id": "30311622",
+                    "speaker": "Paimon",
+                    "text": "Paimon has no memory of him at all. He completely vanished, like a puff of smoke..."
+                },
+                {
+                    "id": "30311623",
+                    "speaker": "Nahida",
+                    "text": "The Balladeer agreed to help me look for information about the Descenders, and although he was unsuccessful, he still helped you."
+                },
+                {
+                    "id": "30311624",
+                    "speaker": "Nahida",
+                    "text": "Before he vanished, he confirmed an important detail: that Khaenri'ah was where your twin first came into this world."
+                },
+                {
+                    "id": "30311625",
+                    "speaker": "Nahida",
+                    "text": "...We still don't know how the change to Irminsul will affect the senior ranks of the Fatui, but in all likelihood, they won't even remember their own Harbinger.",
+                    "choices": [
+                        {
+                            "id": "30311626",
+                            "text": "I've never had this feeling before...",
+                            "response": [
+                                {
+                                    "id": "30311628",
+                                    "speaker": "Paimon",
+                                    "text": "It sounds like Paimon wouldn't like this guy a whole lot if he was still around. But still, Paimon doesn't like the way it all ended that much better."
+                                },
+                                {
+                                    "id": "30311629",
+                                    "speaker": "Nahida",
+                                    "text": "This is why wisdom alone cannot answer all our questions. We look, we see, and we comprehend, but the question still troubles us."
+                                },
+                                {
+                                    "id": "30311630",
+                                    "speaker": "Nahida",
+                                    "text": "So the answer is not everything. People yearn to find the truth and then conquer the troubles they face."
+                                },
+                                {
+                                    "id": "30311631",
+                                    "speaker": "Nahida",
+                                    "text": "When you give someone the truth, you give them a chance to choose their own destiny."
+                                },
+                                {
+                                    "id": "30311632",
+                                    "speaker": "Nahida",
+                                    "text": "To others looking on, this may seem like a pointless endeavor. But for him, the chance to act on his desire to disappear must have meant a lot."
+                                },
+                                {
+                                    "id": "30311633",
+                                    "speaker": "Nahida",
+                                    "text": "Never forget that even when we walk beneath dark clouds along a road filled with suffering, the light of wisdom is always there, guiding us toward a better destination."
+                                },
+                                {
+                                    "id": "30311634",
+                                    "speaker": "Nahida",
+                                    "text": "And that is what you have been doing all along."
+                                },
+                                {
+                                    "id": "30311635",
+                                    "speaker": "Paimon",
+                                    "text": "Yeah, Nahida's right. Cheer up! How about we go get something to eat? We can pick up this heavy conversation again later!"
+                                },
+                                {
+                                    "id": "30311636",
+                                    "speaker": "Nahida",
+                                    "text": "#Good idea. Paimon, why don't you take {M#him}{F#her} out for a walk to clear {M#his}{F#her} head?"
+                                },
+                                {
+                                    "id": "30311637",
+                                    "speaker": "Paimon",
+                                    "text": "#You got it! C'mon, {NICKNAME}, you need to get out of your head for a while. You'll feel much better after taking a walk."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "30311627",
+                            "text": "...It feels like life is as insignificant as a feather."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "303102",
+            "objective": "Take a walk around the Grand Bazaar to clear your head",
+            "dialogues": [
+                {
+                    "id": "30310201",
+                    "speaker": "Paimon",
+                    "text": "We're here~ What should we eat first?"
+                },
+                {
+                    "id": "30310202",
+                    "speaker": "Player",
+                    "text": "(...I have a nagging feeling, like there's something I'm missing. Something important that I'm forgetting...)"
+                },
+                {
+                    "id": "30310203",
+                    "speaker": "Paimon",
+                    "text": "Hey! Are you gonna answer or what?"
+                },
+                {
+                    "id": "30310204",
+                    "speaker": "Player",
+                    "text": "Sorry, it's just... Give me a minute. I'm still... processing."
+                },
+                {
+                    "id": "30310205",
+                    "speaker": "Paimon",
+                    "text": "*sigh* Alright, whatever you want... Well, Paimon will be right here when you've figured stuff out. Then we can get something to eat."
+                },
+                {
+                    "id": "30310206",
+                    "speaker": "Player",
+                    "text": "(Come on, brain. Let's dig this out... It's gotta be in there somewhere. It was something about Irminsul, and deleting oneself...)"
+                },
+                {
+                    "id": "30310207",
+                    "speaker": "Player",
+                    "text": "(Greater Lord Rukkhadevata... forbidden knowledge... Nahida...)"
+                },
+                {
+                    "id": "30310208",
+                    "speaker": "Paimon",
+                    "text": "What is it? Have you figured it all out?"
+                },
+                {
+                    "id": "30310209",
+                    "speaker": "Player",
+                    "text": "(...!)"
+                },
+                {
+                    "id": "30310210",
+                    "speaker": "Player",
+                    "text": "(Yes, that was it! Greater Lord Rukkhadevata — she said that no one can erase themselves from existence, not even her.)"
+                },
+                {
+                    "id": "30310211",
+                    "speaker": "Player",
+                    "text": "(Otherwise, why would she need to create her own reincarnation in Lesser Lord Kusanali to do the deletion for her? There would be no point.)"
+                },
+                {
+                    "id": "30310212",
+                    "speaker": "Paimon",
+                    "text": "Uh, why'd you jump up all of a sudden!?"
+                },
+                {
+                    "id": "30310213",
+                    "speaker": "Player",
+                    "text": "(...No, I can't tell Paimon. She doesn't know about Greater Lord Rukkhadevata.)"
+                },
+                {
+                    "id": "30310214",
+                    "speaker": "Player",
+                    "text": "(But this is a crucially important detail: It's simply not possible for The Balladeer to completely erase his own existence. In which case, the question is... What happened to him?)"
+                },
+                {
+                    "id": "30310215",
+                    "speaker": "???",
+                    "text": "Excuse me, Boss, there seems to be a small problem with the last bill. Look, here..."
+                },
+                {
+                    "id": "30310216",
+                    "speaker": "Player",
+                    "text": "(!!!?)"
+                },
+                {
+                    "id": "30310217",
+                    "speaker": "Merchant",
+                    "text": "Hey! Hey, wait...!"
+                },
+                {
+                    "id": "30310218",
+                    "speaker": "???",
+                    "text": "Hmm? You mean me?"
+                },
+                {
+                    "id": "30310219",
+                    "speaker": "Merchant",
+                    "text": "No, not you! That kid! Didn't you see!? Little rascal grabbed my last two fresh Sunsettias and ran off!"
+                },
+                {
+                    "id": "30310220",
+                    "speaker": "Merchant",
+                    "text": "Look. If you're gonna help out here, you can't keep spacing out, okay? What is it, the work's too boring for you? Or has the big city got too many distractions?"
+                },
+                {
+                    "id": "30310221",
+                    "speaker": "???",
+                    "text": "...I wasn't paying close enough attention. Sorry, Boss."
+                },
+                {
+                    "id": "30310222",
+                    "speaker": "???",
+                    "text": "I think you're right, maybe it's the city. It's so exciting, it can be hard to focus."
+                },
+                {
+                    "id": "30310223",
+                    "speaker": "Paimon",
+                    "text": "Who's that guy? You know him or something?"
+                },
+                {
+                    "id": "30310224",
+                    "speaker": "Player",
+                    "text": "That guy... is The Balladeer."
+                },
+                {
+                    "id": "30310225",
+                    "speaker": "Paimon",
+                    "text": "...He's WHO???"
+                },
+                {
+                    "id": "30310226",
+                    "speaker": "Merchant",
+                    "text": "You're a strange one, kiddo. You say you don't want any money for helping out here, and then when I actually give you some work to do, you keep letting yourself get distracted..."
+                },
+                {
+                    "id": "30310227",
+                    "speaker": "Merchant",
+                    "text": "I don't want to take advantage, so I'm happy to pay you what I'd pay anyone else, but if you keep acting like this, pretty soon I won't be able to afford to..."
+                },
+                {
+                    "id": "30310228",
+                    "speaker": "???",
+                    "text": "No, no, please, I mean it — you don't need to pay me anything. I'm just so thankful you agreed to take on an outsider like me."
+                },
+                {
+                    "id": "30310229",
+                    "speaker": "Merchant",
+                    "text": "...You're welcome, I guess, but I got bigger things to worry about. Look — We're all out of Sunsettias. And I promised the lady down the street I'd deliver a fruit bowl this evening."
+                },
+                {
+                    "id": "30310230",
+                    "speaker": "???",
+                    "text": "Leave it to me, I'll find some more. Just a moment, I'll be right back..."
+                },
+                {
+                    "id": "30310231",
+                    "speaker": "Merchant",
+                    "text": "...Stop."
+                },
+                {
+                    "id": "30310232",
+                    "speaker": "Merchant",
+                    "text": "*sigh* I'm gonna level with you, kiddo. I've never met a worker who said they didn't want a wage before, and at first, I got greedy. Couldn't believe my luck... But I figured you'd start asking for something in return eventually."
+                },
+                {
+                    "id": "30310233",
+                    "speaker": "Merchant",
+                    "text": "You don't want money, you don't take days off, and in your free time all I see you do is wander around, taking in the sights... Are you a... a drifter or something?"
+                },
+                {
+                    "id": "30310234",
+                    "speaker": "Wanderer",
+                    "text": "That's right. I am."
+                },
+                {
+                    "id": "30310235",
+                    "speaker": "Wanderer",
+                    "text": "We can talk more about that later. First, let me get those fruits you needed — Sunsettias, was it? I'll be right back."
+                },
+                {
+                    "id": "30310236",
+                    "speaker": "Paimon",
+                    "text": "Hey! What do we do now?"
+                },
+                {
+                    "id": "30310237",
+                    "speaker": "Player",
+                    "text": "Let's follow him!"
+                },
+                {
+                    "id": "30310238",
+                    "speaker": "Paimon",
+                    "text": "Okay. Stay out of sight — don't let him see you!"
+                }
+            ]
+        },
+        {
+            "id": "303123",
+            "objective": "Follow the person you just saw",
+            "dialogues": [
+                {
+                    "id": "30312301",
+                    "speaker": "Wanderer",
+                    "text": "...Yeah, this'll do."
+                },
+                {
+                    "id": "30312302",
+                    "speaker": "Paimon",
+                    "text": "Even though, as you say, he's The Balladeer... What are we planning on doing, stealing his Sunsettias? Isn't that a bit too cruel?"
+                },
+                {
+                    "id": "30312303",
+                    "speaker": "Player",
+                    "text": "Shush."
+                },
+                {
+                    "id": "30312304",
+                    "speaker": "Paimon",
+                    "text": "Oh, alright..."
+                },
+                {
+                    "id": "30312305",
+                    "speaker": "Wanderer",
+                    "text": "This should be enough. Umm... Ah, guess I should wash them before I take them back..."
+                },
+                {
+                    "id": "30312306",
+                    "speaker": "Player",
+                    "text": "(...If I wasn't seeing this with my own eyes, I would never believe it.)"
+                },
+                {
+                    "id": "30312307",
+                    "speaker": "Wanderer",
+                    "text": "Huh...?"
+                },
+                {
+                    "id": "30312308",
+                    "speaker": "Wanderer",
+                    "text": "You two over there, is there something I can help you with?"
+                },
+                {
+                    "id": "30312309",
+                    "speaker": "Paimon",
+                    "text": "Aah! He spotted us!"
+                },
+                {
+                    "id": "30312310",
+                    "speaker": "Wanderer",
+                    "text": "You've been following me all the way from the city. I'd have to be blind not to notice."
+                },
+                {
+                    "id": "30312311",
+                    "speaker": "Player",
+                    "text": "...You're right, we were following you."
+                },
+                {
+                    "id": "30312312",
+                    "speaker": "Wanderer",
+                    "text": "Uh, have we met before?"
+                },
+                {
+                    "id": "30312313",
+                    "speaker": "Wanderer",
+                    "text": "No, we haven't met... But you know me?"
+                },
+                {
+                    "id": "30312314",
+                    "speaker": "Player",
+                    "text": "Yes."
+                },
+                {
+                    "id": "30312315",
+                    "speaker": "Wanderer",
+                    "text": "...I have no recollection..."
+                },
+                {
+                    "id": "30312316",
+                    "speaker": "Player",
+                    "text": "It's complicated, but I do know you."
+                },
+                {
+                    "id": "30312317",
+                    "speaker": "Paimon",
+                    "text": "Uh, are you absolutely sure?"
+                },
+                {
+                    "id": "30312318",
+                    "speaker": "Wanderer",
+                    "text": "Sorry, but I can't just take your word for it."
+                },
+                {
+                    "id": "30312319",
+                    "speaker": "Player",
+                    "text": "I can prove it."
+                },
+                {
+                    "id": "30312320",
+                    "speaker": "Player",
+                    "text": "...You're a puppet."
+                },
+                {
+                    "id": "30312321",
+                    "speaker": "Paimon",
+                    "text": "A puppet? What makes you think that?"
+                },
+                {
+                    "id": "30312322",
+                    "speaker": "Wanderer",
+                    "text": "...!"
+                },
+                {
+                    "id": "30312323",
+                    "speaker": "Paimon",
+                    "text": "Huh!? You were right! The look on his face..."
+                },
+                {
+                    "id": "30312324",
+                    "speaker": "Wanderer",
+                    "text": "I guess you do know me after all. That is not something I share with a lot of people..."
+                },
+                {
+                    "id": "30312325",
+                    "speaker": "Wanderer",
+                    "text": "...Look, I'm just a wanderer. But seeing as you've gone to all this trouble to track me down, I'm sure whatever it is must be important."
+                },
+                {
+                    "id": "30312326",
+                    "speaker": "Player",
+                    "text": "There's somewhere I want to take you."
+                },
+                {
+                    "id": "30312327",
+                    "speaker": "Wanderer",
+                    "text": "Okay, but please let me deliver these goods to my boss first."
+                },
+                {
+                    "id": "30312328",
+                    "speaker": "Paimon",
+                    "text": "Are you really working for that guy? He said that you don't want any Mora for it. Is that true?"
+                },
+                {
+                    "id": "30312329",
+                    "speaker": "Wanderer",
+                    "text": "Yes. I ran into him out in the wilderness during a storm, and he let me take shelter in his cart. In return, I said I'd be his helper for a while."
+                },
+                {
+                    "id": "30312330",
+                    "speaker": "Paimon",
+                    "text": "That's oddly nice of you..."
+                },
+                {
+                    "id": "30312331",
+                    "speaker": "Wanderer",
+                    "text": "Let me take these back, then I'll come with you. Okay?"
+                },
+                {
+                    "id": "30312332",
+                    "speaker": "Player",
+                    "text": "...Alright."
+                },
+                {
+                    "id": "30312333",
+                    "speaker": "Paimon",
+                    "text": "Then, let's return to the city."
+                }
+            ]
+        },
+        {
+            "id": "303124",
+            "objective": "Return to the Grocery Stall",
+            "dialogues": [
+                {
+                    "id": "30312401",
+                    "speaker": "Wanderer",
+                    "text": "Here you go, Boss. I'll leave them right here."
+                },
+                {
+                    "id": "30312402",
+                    "speaker": "Merchant",
+                    "text": "Oh, you really went pick some more... Hmm? Who are these two?"
+                },
+                {
+                    "id": "30312403",
+                    "speaker": "Wanderer",
+                    "text": "Something's come up, and they need to borrow me. Sorry, Boss, I'm afraid I'll be away from the stall for a while."
+                },
+                {
+                    "id": "30312404",
+                    "speaker": "Merchant",
+                    "text": "... *sigh*"
+                },
+                {
+                    "id": "30312405",
+                    "speaker": "Merchant",
+                    "text": "I was just about to pay you anyway. Go wherever you want, kid. Don't waste your time here."
+                },
+                {
+                    "id": "30312406",
+                    "speaker": "Wanderer",
+                    "text": "What?"
+                },
+                {
+                    "id": "30312407",
+                    "speaker": "Merchant",
+                    "text": "I get it, okay? You just wanted to help me out to thank me for giving you shelter from the rain that day. Even then, I don't understand why you're so adamant that you don't want any pay for it..."
+                },
+                {
+                    "id": "30312408",
+                    "speaker": "Merchant",
+                    "text": "But look, it was pouring down, and there you were, sauntering along without a care in the world. Like you had nowhere to be, and didn't even care that it was raining..."
+                },
+                {
+                    "id": "30312409",
+                    "speaker": "Merchant",
+                    "text": "Imagine you were me for a second. It's a little weird, right? Why's this guy traveling during a rainstorm if he's not trying to get somewhere? And why's he taking a shortcut through the open country if he's not even in a hurry?"
+                },
+                {
+                    "id": "30312410",
+                    "speaker": "Wanderer",
+                    "text": "Uh..."
+                },
+                {
+                    "id": "30312411",
+                    "speaker": "Merchant",
+                    "text": "But anyway, taking you in didn't put me out even slightly. You don't owe me a thing for it, certainly not all this... Your time is valuable, y'know? You should go live your life."
+                },
+                {
+                    "id": "30312412",
+                    "speaker": "Wanderer",
+                    "text": "...But, I don't..."
+                },
+                {
+                    "id": "30312413",
+                    "speaker": "Wanderer",
+                    "text": "...No. You're right."
+                },
+                {
+                    "id": "30312414",
+                    "speaker": "Wanderer",
+                    "text": "Then I suppose this is where we say goodbye. Thank you again for taking me into the city."
+                },
+                {
+                    "id": "30312415",
+                    "speaker": "Merchant",
+                    "text": "Don't mention it, kiddo. I've run into all kinds of characters over the years... I just hope you find your path."
+                },
+                {
+                    "id": "30312416",
+                    "speaker": "Wanderer",
+                    "text": "...Thank you."
+                },
+                {
+                    "id": "30312417",
+                    "speaker": "Wanderer",
+                    "text": "Alright, done. Thanks for waiting for me. We can go now."
+                }
+            ]
+        },
+        {
+            "id": "303103",
+            "objective": "Return to the Sanctuary of Surasthana",
+            "dialogues": [
+                {
+                    "id": "30310301",
+                    "speaker": "Paimon",
+                    "text": "This looks like Inazuma..."
+                },
+                {
+                    "id": "30310302",
+                    "speaker": "Nahida",
+                    "text": "Right now, you're in a dream I created using information extracted from your memories."
+                },
+                {
+                    "id": "30310303",
+                    "speaker": "Nahida",
+                    "text": "These memories will show you the raw truth, but be aware that enemies may react just like in the real world. Please be careful."
+                },
+                {
+                    "id": "30310304",
+                    "speaker": "Paimon",
+                    "text": "Sounds like an immersive experience. It's a good thing we came along..."
+                },
+                {
+                    "id": "30310305",
+                    "speaker": "Wanderer",
+                    "text": "...You don't need to do this for me. I don't deserve your protection."
+                },
+                {
+                    "id": "30310306",
+                    "speaker": "Paimon",
+                    "text": "We never give up halfway. Well, we had to once... But that was your doing."
+                },
+                {
+                    "id": "30310307",
+                    "speaker": "Player",
+                    "text": "And now we're just finishing the job."
+                },
+                {
+                    "id": "30310308",
+                    "speaker": "Wanderer",
+                    "text": "Alright, thanks."
+                },
+                {
+                    "id": "30310309",
+                    "speaker": "Nahida",
+                    "text": "Wanderer, this is the Shakkei Pavilion. In your Balladeer incarnation, this is where the Electro Archon placed you after your creation. You had a great many memories here."
+                },
+                {
+                    "id": "30310310",
+                    "speaker": "Paimon",
+                    "text": "Is that because this is kind of like his birthplace?"
+                },
+                {
+                    "id": "30310311",
+                    "speaker": "Nahida",
+                    "text": "You could say that, in a sense... You'll see why shortly."
+                },
+                {
+                    "id": "30310312",
+                    "speaker": "Wanderer",
+                    "text": "...I hear footsteps."
+                },
+                {
+                    "id": "30310313",
+                    "speaker": "Katsuragi",
+                    "text": "This place is huge... I can't believe the landslide didn't fill it in. I wonder who built it? The Crystal Marrow miners?"
+                },
+                {
+                    "id": "30310314",
+                    "speaker": "Katsuragi",
+                    "text": "...No, there's no way. Look at this exquisite construction work, and so well-preserved, too... No mining crew would be capable of this."
+                },
+                {
+                    "id": "30310315",
+                    "speaker": "Katsuragi",
+                    "text": "...Hmm? There's someone passed out on the ground..."
+                },
+                {
+                    "id": "30310316",
+                    "speaker": "???",
+                    "text": "...Who are you?"
+                },
+                {
+                    "id": "30310317",
+                    "speaker": "Katsuragi",
+                    "text": "Y—You're awake!? What happened? How'd you get stuck here? Are you injured?"
+                },
+                {
+                    "id": "30310318",
+                    "speaker": "Katsuragi",
+                    "text": "Huh, not a scratch... and these fine clothes... Who are you..."
+                },
+                {
+                    "id": "30310319",
+                    "speaker": "Nahida",
+                    "text": "This man is Katsuragi, deputy to Torachiyo's adopted son, Mikoshi Nagamasa. He found The Balladeer in Shakkei Pavilion and took him back to Tatarasuna."
+                },
+                {
+                    "id": "30310320",
+                    "speaker": "Paimon",
+                    "text": "...And the rest is history... Well, it used to be..."
+                },
+                {
+                    "id": "30310321",
+                    "speaker": "Nahida",
+                    "text": "In the original version of events, Katsuragi was ultimately killed by Nagamasa."
+                },
+                {
+                    "id": "30310322",
+                    "speaker": "Katsuragi",
+                    "text": "Let me get you out of here. Our people are nearby. Hang in there!"
+                },
+                {
+                    "id": "30310323",
+                    "speaker": "Nahida",
+                    "text": "During the Tatarasuna incident, Niwa was murdered by The Doctor, disguised as a mechanic. The Balladeer, then known as the kabukimono, disappeared not long after."
+                },
+                {
+                    "id": "30310324",
+                    "speaker": "Nahida",
+                    "text": "As the second-in-command at Tatarasuna, responsibility for what had happened fell to Mikoshi Nagamasa."
+                },
+                {
+                    "id": "30310325",
+                    "speaker": "Nahida",
+                    "text": "But Katsuragi had sworn lifelong loyalty to Nagamasa after the latter had once saved his life. At Katsuragi's insistence, Nagamasa killed him to put an end to the Tatarasuna incident."
+                },
+                {
+                    "id": "30310326",
+                    "speaker": "Wanderer",
+                    "text": "..."
+                }
+            ]
+        },
+        {
+            "id": "303104",
+            "objective": "Talk to Nahida",
+            "dialogues": [
+                {
+                    "id": "30310401",
+                    "speaker": "Paimon",
+                    "text": "Nahida! Nahida!"
+                },
+                {
+                    "id": "30310402",
+                    "speaker": "Nahida",
+                    "text": "What's wrong?"
+                },
+                {
+                    "id": "30310403",
+                    "speaker": "Nahida",
+                    "text": "Huh? Are you...?"
+                },
+                {
+                    "id": "30310404",
+                    "speaker": "Wanderer",
+                    "text": "...Hello, I do apologize for the sudden intrusion..."
+                },
+                {
+                    "id": "30310405",
+                    "speaker": "Paimon",
+                    "text": "We found this guy in the street, but he doesn't seem to remember anything... So yeah, quite an eventful walk!"
+                },
+                {
+                    "id": "30310406",
+                    "speaker": "Black Screen",
+                    "text": "You tell Lesser Lord Kusanali what happened in the Grand Bazaar..."
+                },
+                {
+                    "id": "30310407",
+                    "speaker": "Nahida",
+                    "text": "You say that you are trekking across Teyvat to train yourself... Many other Inazumans who describe themselves in this way call themselves \"shugenja.\" Why do you refer to yourself as a \"wanderer\"?"
+                },
+                {
+                    "id": "30310408",
+                    "speaker": "Wanderer",
+                    "text": "Well, it seems more relevant in my case... To me, it sounds like a plant with no roots."
+                },
+                {
+                    "id": "30310409",
+                    "speaker": "Wanderer",
+                    "text": "But these two claim that they know me, and that I have a hidden past unknown even to myself."
+                },
+                {
+                    "id": "30310410",
+                    "speaker": "Nahida",
+                    "text": "I wouldn't call it the \"past,\" but rather... Uh, this is a difficult one to explain."
+                },
+                {
+                    "id": "30310411",
+                    "speaker": "Nahida",
+                    "text": "I don't like to rely on using terms like this often, but in your case it seems that it ought to be called a \"previous incarnation.\""
+                },
+                {
+                    "id": "30310412",
+                    "speaker": "Paimon",
+                    "text": "Oh, like a past life or something?"
+                },
+                {
+                    "id": "30310413",
+                    "speaker": "Nahida",
+                    "text": "Yes. Something far more distant than the past. So far away that you cannot perceive it."
+                },
+                {
+                    "id": "30310414",
+                    "speaker": "Wanderer",
+                    "text": "Okay, I have to ask... what was I like in my previous incarnation?"
+                },
+                {
+                    "id": "30310415",
+                    "speaker": "Paimon",
+                    "text": "Ummm..."
+                },
+                {
+                    "id": "30310416",
+                    "speaker": "Nahida",
+                    "text": "..."
+                },
+                {
+                    "id": "30310417",
+                    "speaker": "Wanderer",
+                    "text": "...Oh, okay, I see."
+                },
+                {
+                    "id": "30310418",
+                    "speaker": "Wanderer",
+                    "text": "You want to tell me, but you can't bring yourselves to say it. Looks like I didn't have the most wonderful existence in my previous incarnation."
+                },
+                {
+                    "id": "30310419",
+                    "speaker": "Player",
+                    "text": "We're just trying to think where to start..."
+                },
+                {
+                    "id": "30310420",
+                    "speaker": "Wanderer",
+                    "text": "If it's that difficult to talk about, I have no doubt it will be just as difficult to hear."
+                },
+                {
+                    "id": "30310421",
+                    "speaker": "Wanderer",
+                    "text": "But I'll be able to handle it. Please, tell me the truth."
+                },
+                {
+                    "id": "30310422",
+                    "speaker": "Nahida",
+                    "text": "Is truth something you care a lot about?"
+                },
+                {
+                    "id": "30310423",
+                    "speaker": "Wanderer",
+                    "text": "...Yes."
+                },
+                {
+                    "id": "30310424",
+                    "speaker": "Nahida",
+                    "text": "Then I'll be straight with you. In your previous incarnation, you did many things that would be considered evil."
+                },
+                {
+                    "id": "30310425",
+                    "speaker": "Nahida",
+                    "text": "You nearly died because of what other people did... and many died because of you. As a non-human being, you hated gods and humans alike."
+                },
+                {
+                    "id": "30310426",
+                    "speaker": "Nahida",
+                    "text": "You drifted from place to place, never able to settle, even where you found status and identity. You adamantly believed that you were missing a heart."
+                },
+                {
+                    "id": "30310427",
+                    "speaker": "Wanderer",
+                    "text": "..."
+                },
+                {
+                    "id": "30310428",
+                    "speaker": "Nahida",
+                    "text": "...Actions rooted in persistence sometimes bear bitter fruit. Sometimes, you have to let parts of yourself go, or you'll never be happy."
+                },
+                {
+                    "id": "30310429",
+                    "speaker": "Black Screen",
+                    "text": "Nahida tells the Wanderer about his past..."
+                },
+                {
+                    "id": "30310430",
+                    "speaker": "Wanderer",
+                    "text": "I gave everything I had, but it barely changed history at all."
+                },
+                {
+                    "id": "30310431",
+                    "speaker": "Nahida",
+                    "text": "In terms of the outcome alone... that's true."
+                },
+                {
+                    "id": "30310432",
+                    "speaker": "Wanderer",
+                    "text": "..."
+                },
+                {
+                    "id": "30310433",
+                    "speaker": "Wanderer",
+                    "text": "...I don't think I can judge everything I've heard purely in terms of right and wrong."
+                },
+                {
+                    "id": "30310434",
+                    "speaker": "Wanderer",
+                    "text": "Each choice a person makes belongs to a specific place and time, a chain of cause and effect... a cycle of karma and consequence."
+                },
+                {
+                    "id": "30310435",
+                    "speaker": "Nahida",
+                    "text": "That is the nature of truth. If one thing is right, its opposite must be wrong, and yet dichotomies like this are not enough to explain the world in all of its complexity."
+                },
+                {
+                    "id": "30310436",
+                    "speaker": "Wanderer",
+                    "text": "Seems like my previous incarnation wasn't the most likable individual."
+                },
+                {
+                    "id": "30310437",
+                    "speaker": "Paimon",
+                    "text": "Haha... we're not trying to hurt your feelings, or anything... But yeah, we weren't your biggest fans."
+                },
+                {
+                    "id": "30310438",
+                    "speaker": "Player",
+                    "text": "We were each other's enemies."
+                },
+                {
+                    "id": "30310439",
+                    "speaker": "Wanderer",
+                    "text": "If we were enemies, why are you trying to help me find the truth?"
+                },
+                {
+                    "id": "30310440",
+                    "speaker": "Player",
+                    "text": "..."
+                },
+                {
+                    "id": "30310441",
+                    "speaker": "Paimon",
+                    "text": "Aah, this is so frustrating! This guy's supposed to be our arch-enemy, but now he's just some random stranger we met on the street!"
+                },
+                {
+                    "id": "30310442",
+                    "speaker": "Paimon",
+                    "text": "He's got so much to answer for, but we can't make him talk because he doesn't remember anything... Ugh, what a weird situation..."
+                },
+                {
+                    "id": "30310443",
+                    "speaker": "Wanderer",
+                    "text": "Lesser Lord Kusanali. As the God of Wisdom, I trust that everything you told me must be true?"
+                },
+                {
+                    "id": "30310444",
+                    "speaker": "Nahida",
+                    "text": "Yes, it's all true. I can even show you the memories themselves, if you're willing."
+                },
+                {
+                    "id": "30310445",
+                    "speaker": "Wanderer",
+                    "text": "Please. I want to see them for myself. I want to experience my own transgressions."
+                },
+                {
+                    "id": "30310446",
+                    "speaker": "Nahida",
+                    "text": "Even though it will cause your present self great mental anguish?"
+                },
+                {
+                    "id": "30310447",
+                    "speaker": "Wanderer",
+                    "text": "I'm just a puppet, with no heart and no name. There is nothing in this world for me to cling to, to fill the void within me... except maybe these sins that can never be undone."
+                },
+                {
+                    "id": "30310448",
+                    "speaker": "Nahida",
+                    "text": "...Very well. As you wish."
+                },
+                {
+                    "id": "30310449",
+                    "speaker": "Paimon",
+                    "text": "Wait, shouldn't we go with him!? This one's kind of on us for bringing him here..."
+                },
+                {
+                    "id": "30310450",
+                    "speaker": "Wanderer",
+                    "text": "Don't worry. Whatever danger I might face, it's my burden to bear."
+                },
+                {
+                    "id": "30310451",
+                    "speaker": "Nahida",
+                    "text": "#{NICKNAME}, could I ask you to supervise him on my behalf?"
+                },
+                {
+                    "id": "30310452",
+                    "speaker": "Player",
+                    "text": "...Okay."
+                },
+                {
+                    "id": "30310453",
+                    "speaker": "Paimon",
+                    "text": "Oh, good point, given your, um... unique situation, w—we'd better keep an eye on you!"
+                },
+                {
+                    "id": "30310454",
+                    "speaker": "Wanderer",
+                    "text": "Understood."
+                },
+                {
+                    "id": "30310455",
+                    "speaker": "Nahida",
+                    "text": "Thank you. Now, prepare yourselves, everyone."
+                }
+            ]
+        },
+        {
+            "id": "303112",
+            "objective": "Enter the memory",
+            "dialogues": []
+        },
+        {
+            "id": "303111",
+            "objective": "Examine your environment",
+            "dialogues": []
+        },
+        {
+            "id": "303117",
+            "objective": "Keep exploring",
+            "dialogues": [
+                {
+                    "id": "30311701",
+                    "speaker": "Merchant",
+                    "text": "*sigh* ...That was a good batch of Sunsettias, too..."
+                }
+            ]
+        },
+        {
+            "id": "303118",
+            "objective": "View the memory",
+            "dialogues": [
+                {
+                    "id": "30311801",
+                    "speaker": "Paimon",
+                    "text": "Huh? What are we doing back here?"
+                },
+                {
+                    "id": "30311802",
+                    "speaker": "Player",
+                    "text": "I hear voices!"
+                },
+                {
+                    "id": "30311803",
+                    "speaker": "Child",
+                    "text": "Whoa... This is where you were born? It's pretty! But there's nobody here... *cough*"
+                },
+                {
+                    "id": "30311804",
+                    "speaker": "Kabukimono",
+                    "text": "I was abandoned, like you. I lived here for a while at first, but... There's nothing for us here. We can't stay..."
+                },
+                {
+                    "id": "30311805",
+                    "speaker": "Child",
+                    "text": "...Okay."
+                },
+                {
+                    "id": "30311806",
+                    "speaker": "Child",
+                    "text": "I heard my mom and dad used to make swords, but the factory manager died, and then my dad got sick... *cough*"
+                },
+                {
+                    "id": "30311807",
+                    "speaker": "Child",
+                    "text": "He kept coughing all the time, just like me. Then, Mom started coughing too..."
+                },
+                {
+                    "id": "30311808",
+                    "speaker": "Kabukimono",
+                    "text": "But you can't. You promised me."
+                },
+                {
+                    "id": "30311809",
+                    "speaker": "Child",
+                    "text": "Yep, we're family now. We're gonna be together for ever and ever!"
+                },
+                {
+                    "id": "30311810",
+                    "speaker": "Nahida",
+                    "text": "This child didn't have a name. Or rather... The Balladeer didn't know what to call him. His father died before he could name him."
+                },
+                {
+                    "id": "30311811",
+                    "speaker": "Nahida",
+                    "text": "After his mother died, the child stayed in their straw hut alone. Some of the neighbors helped to raise him."
+                },
+                {
+                    "id": "30311812",
+                    "speaker": "Nahida",
+                    "text": "After leaving Tatarasuna, The Balladeer ran into this child who didn't have a name, just like him. They made a promise to live together."
+                },
+                {
+                    "id": "30311813",
+                    "speaker": "Paimon",
+                    "text": "What happened to the child then?"
+                },
+                {
+                    "id": "30311814",
+                    "speaker": "Nahida",
+                    "text": "He died from his illness while he was still very young. The Balladeer came home one day and found that he had stopped breathing."
+                },
+                {
+                    "id": "30311815",
+                    "speaker": "Kabukimono",
+                    "text": "...Hey! Wh—What's wrong...? Say something!!!"
+                },
+                {
+                    "id": "30311816",
+                    "speaker": "Kabukimono",
+                    "text": "...You promised me we could be family! You're no different from Niwa and all the others... You betrayed me too. Haha..."
+                },
+                {
+                    "id": "30311817",
+                    "speaker": "Wanderer",
+                    "text": "..."
+                },
+                {
+                    "id": "30311818",
+                    "speaker": "Wanderer",
+                    "text": "The voices have gone. It looks like the memory ends here."
+                },
+                {
+                    "id": "30311819",
+                    "speaker": "Paimon",
+                    "text": "Let's keep going."
+                }
+            ]
+        },
+        {
+            "id": "303119",
+            "objective": "Keep exploring",
+            "dialogues": [
+                {
+                    "id": "30311901",
+                    "speaker": "Sawada",
+                    "text": "Great, I can finally move forward with my novel! But what a sad story..."
+                },
+                {
+                    "id": "30311902",
+                    "speaker": "Aqaba",
+                    "text": "I don't know what I was expecting, but... I never would have guessed this..."
+                }
+            ]
+        },
+        {
+            "id": "303105",
+            "objective": "Head towards the next memory",
+            "dialogues": [
+                {
+                    "id": "30310501",
+                    "speaker": "Wanderer",
+                    "text": "This place is dark."
+                },
+                {
+                    "id": "30310502",
+                    "speaker": "Paimon",
+                    "text": "Ugh, Paimon knows this place... It's the Delusion Factory in Inazuma!"
+                },
+                {
+                    "id": "30310503",
+                    "speaker": "Nahida",
+                    "text": "#In the original version of events, {NICKNAME} once encountered The Balladeer here."
+                },
+                {
+                    "id": "30310504",
+                    "speaker": "Paimon",
+                    "text": "Such a creepy atmosphere... and so familiar..."
+                },
+                {
+                    "id": "30310505",
+                    "speaker": "Player",
+                    "text": "..."
+                },
+                {
+                    "id": "30310506",
+                    "speaker": "Player",
+                    "text": "(I remember this... It was an unsettling place.)"
+                },
+                {
+                    "id": "30310507",
+                    "speaker": "Paimon",
+                    "text": "Hey, look over there!"
+                },
+                {
+                    "id": "30310508",
+                    "speaker": "The Balladeer",
+                    "text": "Well, well, my fair lady, is this run-down factory and these incompetent fools all for me? Wow, you shouldn't have."
+                },
+                {
+                    "id": "30310509",
+                    "speaker": "Signora",
+                    "text": "Hah. What do you have to gain from belittling your subordinates? You might not want to admit it, but you are a part of this plan."
+                },
+                {
+                    "id": "30310510",
+                    "speaker": "Signora",
+                    "text": "Perhaps you find fighting in the Abyss to be a more meaningful use of your time? Oh, but of course, even this pales in comparison to being experimented on by The Doctor."
+                },
+                {
+                    "id": "30310511",
+                    "speaker": "The Balladeer",
+                    "text": "...Heh, what a sharp tongue you have."
+                },
+                {
+                    "id": "30310512",
+                    "speaker": "The Balladeer",
+                    "text": "Funny how negotiating never seems to be your strong suit. For the task ahead, I suggest you keep your true feelings to yourself."
+                },
+                {
+                    "id": "30310513",
+                    "speaker": "Signora",
+                    "text": "Hmph, save your breath. I know what I have to do."
+                },
+                {
+                    "id": "30310514",
+                    "speaker": "The Balladeer",
+                    "text": "I'm sure you think so, but I still think you need to hear it: Don't start thinking you're invincible. And don't let your emotions get in the way."
+                },
+                {
+                    "id": "30310515",
+                    "speaker": "Signora",
+                    "text": "Surely you're not worried about me?"
+                },
+                {
+                    "id": "30310516",
+                    "speaker": "The Balladeer",
+                    "text": "I just can't have you getting in my way. You and Childe never fail to find ways to complicate things."
+                },
+                {
+                    "id": "30310517",
+                    "speaker": "Signora",
+                    "text": "I'm merely lighting a little fire in this chaotic nation, but you... Being tossed out like trash must make you want to destroy it completely."
+                },
+                {
+                    "id": "30310518",
+                    "speaker": "Signora",
+                    "text": "Do you remember the last time you were here? That was a lot of swordsmiths you killed. I'm sure the descendants of the Raiden Gokaden are still suffering the consequences now."
+                },
+                {
+                    "id": "30310519",
+                    "speaker": "Signora",
+                    "text": "Look at you... Aw, don't get so sentimental. Now, give that poor little tongue of yours a rest, and stop pretending like you're above everyone else."
+                },
+                {
+                    "id": "30310520",
+                    "speaker": "Signora",
+                    "text": "Bye, then. See you at the victory feast."
+                },
+                {
+                    "id": "30310521",
+                    "speaker": "The Balladeer",
+                    "text": "...\"Poor little tongue\"? Hahaha... She's playing with fire talking to me like that. Who does she think she is?"
+                },
+                {
+                    "id": "30310522",
+                    "speaker": "The Balladeer",
+                    "text": "...Forget it. Someone might find me here any minute now. I should prepare to give them a warm welcome."
+                },
+                {
+                    "id": "30310523",
+                    "speaker": "Player",
+                    "text": "..."
+                },
+                {
+                    "id": "30310524",
+                    "speaker": "Wanderer",
+                    "text": "..."
+                },
+                {
+                    "id": "30310525",
+                    "speaker": "Nahida",
+                    "text": "The plot does not end here. There is more of this story to come. Wanderer, are you able to continue?"
+                },
+                {
+                    "id": "30310526",
+                    "speaker": "Wanderer",
+                    "text": "...Yes, please don't worry about me."
+                }
+            ]
+        },
+        {
+            "id": "303120",
+            "objective": "Defeat the opponent(s)",
+            "dialogues": [
+                {
+                    "id": "30312001",
+                    "speaker": "Nahida",
+                    "text": "There's a few things I'd like to look into. You should go take a walk and try to unwind."
+                }
+            ]
+        },
+        {
+            "id": "303121",
+            "objective": "Head towards the next memory",
+            "dialogues": [
+                {
+                    "id": "30312101",
+                    "speaker": "Nahida",
+                    "text": "It's time to get ready."
+                }
+            ]
+        },
+        {
+            "id": "303113",
+            "objective": "Examine your environment",
+            "dialogues": []
+        },
+        {
+            "id": "303106",
+            "objective": "View the memory",
+            "dialogues": [
+                {
+                    "id": "30310601",
+                    "speaker": "Paimon",
+                    "text": "Looks like we've arrived in Sumeru!"
+                },
+                {
+                    "id": "30310602",
+                    "speaker": "Paimon",
+                    "text": "Uh... Is that..."
+                },
+                {
+                    "id": "30310603",
+                    "speaker": "Akademiya Researcher",
+                    "text": "Considering that Amurta's sage, Naphis, refused to join this project, I'll take part in the experiment in his place."
+                },
+                {
+                    "id": "30310604",
+                    "speaker": "The Doctor",
+                    "text": "Welcome. I look forward to a fruitful collaboration."
+                },
+                {
+                    "id": "30310605",
+                    "speaker": "The Balladeer",
+                    "text": "...Hmph."
+                },
+                {
+                    "id": "30310606",
+                    "speaker": "The Balladeer",
+                    "text": "When do we start?"
+                },
+                {
+                    "id": "30310607",
+                    "speaker": "The Doctor",
+                    "text": "You seem impatient? You should know that becoming a god is far from a trivial affair."
+                },
+                {
+                    "id": "30310608",
+                    "speaker": "Azar",
+                    "text": "The biological transformation is a lengthy process. As such, I too would recommend that we commence as soon as possible. In the event that a successful connection is established, his body will become permanently bound to the machine, and he will be unable to move independently of it."
+                },
+                {
+                    "id": "30310609",
+                    "speaker": "The Balladeer",
+                    "text": "Nothing worse than what I've been through before then, Doctor?"
+                },
+                {
+                    "id": "30310610",
+                    "speaker": "The Doctor",
+                    "text": "You were the most resilient test subject I ever came across. Thanks to you, I was able to garner a great deal of information."
+                },
+                {
+                    "id": "30310611",
+                    "speaker": "The Doctor",
+                    "text": "Alas, after that, you were under orders to remain in the Abyss. We barely saw each other, and it became difficult to further refine the knowledge I had gained."
+                },
+                {
+                    "id": "30310612",
+                    "speaker": "The Balladeer",
+                    "text": "That was gracefully worded. Ever wonder what they'd think if they knew that nothing matters to you apart from your crazy experiments?"
+                },
+                {
+                    "id": "30310613",
+                    "speaker": "The Doctor",
+                    "text": "I suggest you speak to me in a more respectful tone, Scaramouche. The mere fact of your utility does not make you indestructible."
+                },
+                {
+                    "id": "30310614",
+                    "speaker": "Paimon",
+                    "text": "...The Doctor again... That was uncomfortable to watch."
+                },
+                {
+                    "id": "30310615",
+                    "speaker": "Wanderer",
+                    "text": "That person gives off a very sinister energy."
+                },
+                {
+                    "id": "30310616",
+                    "speaker": "Player",
+                    "text": "He's The Doctor. He's behind all of this."
+                },
+                {
+                    "id": "30310617",
+                    "speaker": "Paimon",
+                    "text": "It's normal for him to give you the creeps! He scares the bejeebers out of Paimon..."
+                },
+                {
+                    "id": "30310618",
+                    "speaker": "Wanderer",
+                    "text": "..."
+                },
+                {
+                    "id": "30310619",
+                    "speaker": "Nahida",
+                    "text": "Let's move on."
+                }
+            ]
+        },
+        {
+            "id": "303122",
+            "objective": "Continue exploring",
+            "dialogues": [
+                {
+                    "id": "30312201",
+                    "speaker": "Wanderer",
+                    "text": "No matter what lies ahead, I'll face it. Whatever it takes. I'm just sorry that you have to join me for the whole thing."
+                }
+            ]
+        },
+        {
+            "id": "303114",
+            "objective": "Talk to everyone",
+            "dialogues": []
+        },
+        {
+            "id": "303107",
+            "objective": "Talk to everyone",
+            "dialogues": [
+                {
+                    "id": "30310701",
+                    "speaker": "Wanderer",
+                    "text": "You're a god... Do you think I'm evil?"
+                },
+                {
+                    "id": "30310702",
+                    "speaker": "Nahida",
+                    "text": "If you accept that he is you, just as you are you, then yes — you are evil."
+                },
+                {
+                    "id": "30310703",
+                    "speaker": "Wanderer",
+                    "text": "In your eyes, are there any differences between humans and puppets?"
+                },
+                {
+                    "id": "30310704",
+                    "speaker": "Nahida",
+                    "text": "Do you think there are any differences between your present self and your previous and future incarnations? If not, then what are the differences between humans and puppets?"
+                },
+                {
+                    "id": "30310705",
+                    "speaker": "Nahida",
+                    "text": "Whoever has tasted the joys and sorrows of life in the human realm is human. Whoever has loved and lost, cried with grief, howled with rage at the tragedy of death that eclipses the miracle of life... they are human, too."
+                },
+                {
+                    "id": "30310706",
+                    "speaker": "Wanderer",
+                    "text": "..."
+                },
+                {
+                    "id": "30310707",
+                    "speaker": "Wanderer",
+                    "text": "I've seen enough of my past. If possible, I'd like to reclaim the sins that are mine to bear."
+                },
+                {
+                    "id": "30310708",
+                    "speaker": "Wanderer",
+                    "text": "No matter the consequences, I won't run from blame or punishment. Whatever I am due, let it come to pass."
+                },
+                {
+                    "id": "30310709",
+                    "speaker": "Player",
+                    "text": "Are you saying..."
+                },
+                {
+                    "id": "30310710",
+                    "speaker": "Wanderer",
+                    "text": "Can you return my memories to me?"
+                },
+                {
+                    "id": "30310711",
+                    "speaker": "Paimon",
+                    "text": "Huh? But won't that mean you'll lose your current identity?"
+                },
+                {
+                    "id": "30310712",
+                    "speaker": "Wanderer",
+                    "text": "I've always believed that human lives follow a set of rules, with each person being a collection of past experiences."
+                },
+                {
+                    "id": "30310713",
+                    "speaker": "Wanderer",
+                    "text": "As a puppet living in the human world, my life is subject to the same rules."
+                },
+                {
+                    "id": "30310714",
+                    "speaker": "Nahida",
+                    "text": "Regaining your memories means reverting completely to your previous incarnation. All the emotions that you discarded will return to you."
+                },
+                {
+                    "id": "30310715",
+                    "speaker": "Nahida",
+                    "text": "Are you sure you want to do this?"
+                },
+                {
+                    "id": "30310716",
+                    "speaker": "Wanderer",
+                    "text": "I've lived with a void in my chest my whole life. My creator didn't need me, and ever since I awoke, I've just drifted from one place to the next."
+                },
+                {
+                    "id": "30310717",
+                    "speaker": "Wanderer",
+                    "text": "But then I met you, and I finally realized that reclaiming my missing sins might be my one opportunity to become my true self."
+                },
+                {
+                    "id": "30310718",
+                    "speaker": "Player",
+                    "text": "(...Is this the true meaning of Greater Lord Rukkhadevata's words? A person can't erase themselves, and even though the original Balladeer has gone, this person will live on in his place...)"
+                },
+                {
+                    "id": "30310719",
+                    "speaker": "Player",
+                    "text": "(Are a person's sins an inescapable part of their destiny too?)"
+                },
+                {
+                    "id": "30310720",
+                    "speaker": "Wanderer",
+                    "text": "I've always felt I have an innate tendency to yearn for something more, in a way that goes deeper than for most people... But for all my soul-searching as a shugenja, I've never fully understood it. Looking at it now, it seems that I brought this curse upon myself."
+                },
+                {
+                    "id": "30310721",
+                    "speaker": "Wanderer",
+                    "text": "So I beg you... grant me this opportunity to gain a purpose. To change my destiny and end my wandering."
+                },
+                {
+                    "id": "30310722",
+                    "speaker": "Nahida",
+                    "text": "Very well."
+                },
+                {
+                    "id": "30310723",
+                    "speaker": "Nahida",
+                    "text": "Since your mind is made up, I will return to you that which is yours."
+                }
+            ]
+        },
+        {
+            "id": "303127",
+            "objective": "Defeat the opponent(s)",
+            "dialogues": [
+                {
+                    "id": "30312701",
+                    "speaker": "Merchant",
+                    "text": "Don't worry about me."
+                }
+            ]
+        },
+        {
+            "id": "303108",
+            "objective": "Defeat the opponent(s)",
+            "dialogues": []
+        },
+        {
+            "id": "303109",
+            "objective": "Talk to The Balladeer",
+            "dialogues": [
+                {
+                    "id": "30310901",
+                    "speaker": "Everlasting Lord of Arcane Wisdom",
+                    "text": "...!!"
+                },
+                {
+                    "id": "30310902",
+                    "speaker": "Wanderer",
+                    "text": "Imbecile! Get out of my sight!"
+                },
+                {
+                    "id": "30310903",
+                    "speaker": "Paimon",
+                    "text": "...It disappeared... Did we win?"
+                },
+                {
+                    "id": "30310904",
+                    "speaker": "Wanderer",
+                    "text": "What did you expect? I'd never lose to that."
+                },
+                {
+                    "id": "30310905",
+                    "speaker": "Paimon",
+                    "text": "Ehh, there's that tone of voice again. You're definitely back to your old self..."
+                },
+                {
+                    "id": "30310906",
+                    "speaker": "Paimon",
+                    "text": "Wait, but it was you inside that thing, too. What have you got to be smug about?"
+                },
+                {
+                    "id": "30310907",
+                    "speaker": "Wanderer",
+                    "text": "Sorry, I'm harsh on myself and everyone else. Just the way I am.",
+                    "choices": [
+                        {
+                            "id": "30310908",
+                            "text": "Now you've recovered your memories...",
+                            "response": [
+                                {
+                                    "id": "30310910",
+                                    "speaker": "Wanderer",
+                                    "text": "Haha, you sound like you're concerned about me."
+                                },
+                                {
+                                    "id": "30310911",
+                                    "speaker": "Wanderer",
+                                    "text": "But don't worry. Thanks to you, even if I didn't change a thing... at least I now know the truth."
+                                },
+                                {
+                                    "id": "30310912",
+                                    "speaker": "Nahida",
+                                    "text": "The memory recovery seems to have been a success. This dream has served its purpose."
+                                },
+                                {
+                                    "id": "30310913",
+                                    "speaker": "Wanderer",
+                                    "text": "Come on. Let's continue this outside."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "30310909",
+                            "text": "The past will catch up with you."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "303110",
+            "objective": "Leave the memory",
+            "dialogues": []
+        },
+        {
+            "id": "303198",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "30319801",
+                    "speaker": "Wanderer",
+                    "text": "(...Time to face the music.)"
+                },
+                {
+                    "id": "30319802",
+                    "speaker": "Aqaba",
+                    "text": "(I'd better make some notes and then get working on my essay.)"
+                },
+                {
+                    "id": "30319803",
+                    "speaker": "Sawada",
+                    "text": "(Asking the Traveler to help out was definitely the right call.)"
+                },
+                {
+                    "id": "30319804",
+                    "speaker": "Merchant",
+                    "text": "(Just an honest guy doing some honest business!)"
+                }
+            ]
+        },
+        {
+            "id": "303199",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "30319901",
+                    "speaker": "Paimon",
+                    "text": "Let's go get a snack from one of the stalls in the Grand Bazaar. That'll be sure to lift our spirits!"
+                },
+                {
+                    "id": "30319902",
+                    "speaker": "Paimon",
+                    "text": "It must be really tough being the only one who remembers all that... But Paimon's always here to help cheer you up."
+                },
+                {
+                    "id": "30319903",
+                    "speaker": "Paimon",
+                    "text": "Katsuragi seems like he was a good guy."
+                },
+                {
+                    "id": "30319904",
+                    "speaker": "Wanderer",
+                    "text": "He looks like a warrior, but he has a kind face."
+                },
+                {
+                    "id": "30319905",
+                    "speaker": "Wanderer",
+                    "text": "...Why couldn't he live a long and happy life?"
+                },
+                {
+                    "id": "30319906",
+                    "speaker": "Katsuragi",
+                    "text": "Nagamasa, I found this young guy in a cave sealed off by a landslide. He doesn't remember his name."
+                },
+                {
+                    "id": "30319907",
+                    "speaker": "Mikoshi Nagamasa",
+                    "text": "...Well, we need to call you something. I hear the workers are calling you \"the kabukimono\"?"
+                },
+                {
+                    "id": "30319908",
+                    "speaker": "Kabukimono",
+                    "text": "That's fine with me."
+                },
+                {
+                    "id": "30319909",
+                    "speaker": "Mikoshi Nagamasa",
+                    "text": "Katsuragi, report to Niwa. Tell him we have someone new joining us."
+                },
+                {
+                    "id": "30319910",
+                    "speaker": "Kabukimono",
+                    "text": "You do realize you're blocking my path?"
+                },
+                {
+                    "id": "30319911",
+                    "speaker": "The Jester",
+                    "text": "I come not to obstruct you. I have been waiting."
+                },
+                {
+                    "id": "30319912",
+                    "speaker": "The Jester",
+                    "text": "What you are, truly, is a weapon, one that could be wielded with an iron will... or, you could continue to drift aimlessly."
+                },
+                {
+                    "id": "30319913",
+                    "speaker": "Kabukimono",
+                    "text": "...Are you trying to win me over?"
+                },
+                {
+                    "id": "30319914",
+                    "speaker": "The Jester",
+                    "text": "The long-fated rebellion has begun. Why not take your place at the banquet and join those who shall feast?"
+                },
+                {
+                    "id": "30319915",
+                    "speaker": "Signora",
+                    "text": "Why are you staring at me in silence? Can't you think of a nicer way to express yourself?"
+                },
+                {
+                    "id": "30319916",
+                    "speaker": "The Balladeer",
+                    "text": "I'm under no obligation to be nice to you. Besides, I thought nothing mattered to you except results and your own interests. Isn't that right... witch?"
+                },
+                {
+                    "id": "30319917",
+                    "speaker": "Signora",
+                    "text": "Hehe... Muddle-headed puppet, you're only No. 6 because you can take more abuse than other humans. Do you really count that as an asset?"
+                },
+                {
+                    "id": "30319918",
+                    "speaker": "The Balladeer",
+                    "text": "You're about as much fun to be around as a raging inferno. But before we murder each other, it'd be best if we finish our duties."
+                },
+                {
+                    "id": "30319919",
+                    "speaker": "Wanderer",
+                    "text": "...This is trying my patience."
+                },
+                {
+                    "id": "30319920",
+                    "speaker": "Paimon",
+                    "text": "Have you got all your memories back now?"
+                },
+                {
+                    "id": "30319921",
+                    "speaker": "Wanderer",
+                    "text": "Have you got any more stupid questions!?"
+                }
+            ]
+        }
+    ]
+}

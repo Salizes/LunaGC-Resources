@@ -1,0 +1,854 @@
+{
+    "quest": {
+        "id": "79013",
+        "title": "Tudo Por Nada",
+        "description": "Você descobriu notas deixadas por um aventureiro preso na Ilha Perigosa, entretanto, já se passou muito tempo desde o que aconteceu com ele. Mas, como esse arquipélago está sob a influência de uma miragem... Seria possível ajudá-lo de alguma maneira nele?",
+        "rewards": [
+            {
+                "itemId": 102,
+                "count": 400
+            },
+            {
+                "itemId": 201,
+                "count": 50
+            },
+            {
+                "itemId": 202,
+                "count": 30000
+            },
+            {
+                "itemId": 104003,
+                "count": 3
+            },
+            {
+                "itemId": 104013,
+                "count": 6
+            }
+        ],
+        "rewards_formatted": "EXP de Aventura x400, Gema Essencial x50, Mora x30000, EXP do Herói x3, Minério de Refinamento Místico x6",
+        "chapter": {
+            "icon": "",
+            "id": "",
+            "num": "",
+            "title": ""
+        },
+        "total_dialogue_lines": 120,
+        "total_speaker_counts": {
+            "Entalhe": 8,
+            "Entalhe antigo": 9,
+            "Nota Velha": 4,
+            "Paimon": 69,
+            "Player": 30
+        }
+    },
+    "talks": [
+        {
+            "id": "7901301",
+            "objective": "",
+            "dialogues": [
+                {
+                    "id": "790130101",
+                    "speaker": "Nota Velha",
+                    "text": ""
+                }
+            ]
+        },
+        {
+            "id": "7901302",
+            "objective": "Fale com Paimon",
+            "dialogues": [
+                {
+                    "id": "790130201",
+                    "speaker": "Paimon",
+                    "text": "Hmm, Frango Assado com Mel é realmente delicioso."
+                },
+                {
+                    "id": "790130202",
+                    "speaker": "Paimon",
+                    "text": "Paimon entende porque Wolfgang disse que sentia saudades do gosto!"
+                },
+                {
+                    "id": "790130203",
+                    "speaker": "Paimon",
+                    "text": "Mas, ele ficou preso aqui e não comeu o Frango Assado com Mel... Isso deixa Paimon triste...",
+                    "choices": [
+                        {
+                            "id": "790130204",
+                            "text": "Este caderno é muito velho...",
+                            "response": [
+                                {
+                                    "id": "790130206",
+                                    "speaker": "Paimon",
+                                    "text": "#Sim... Mas, falando nisso, {NICKNAME}, você lembra que atravessamos algo tipo um lago em uma ilha para chegar na ilha do outro lado?"
+                                },
+                                {
+                                    "id": "790130217",
+                                    "speaker": "Paimon",
+                                    "text": "As construções na ilha dentro do lago parecem bem mais completas das que estão do lado de fora."
+                                },
+                                {
+                                    "id": "790130218",
+                                    "speaker": "Paimon",
+                                    "text": "Esses edifícios daqui parecem iguais aos daquelas ruínas...",
+                                    "choices": [
+                                        {
+                                            "id": "790130219",
+                                            "text": "As construções dentro do lago devem ser...",
+                                            "response": [
+                                                {
+                                                    "id": "790130221",
+                                                    "speaker": "Paimon",
+                                                    "text": "É bem possível! As construções da ilha de dentro devem ser as formas originais das ruínas por fora!"
+                                                },
+                                                {
+                                                    "id": "790130222",
+                                                    "speaker": "Paimon",
+                                                    "text": "#{NICKNAME}, você quer dizer que..."
+                                                },
+                                                {
+                                                    "id": "790130223",
+                                                    "speaker": "Player",
+                                                    "text": "Que a ilha no lago é a ilha de antes?"
+                                                },
+                                                {
+                                                    "id": "790130224",
+                                                    "speaker": "Paimon",
+                                                    "text": "Sim!"
+                                                },
+                                                {
+                                                    "id": "790130207",
+                                                    "speaker": "Paimon",
+                                                    "text": "Além disso, veja... Podemos salvar aquele sujeito se encontrarmos onde a Câmara Secreta costumava ficar, não é?",
+                                                    "choices": [
+                                                        {
+                                                            "id": "790130208",
+                                                            "text": "Só influenciará o que aconteceu dentro da miragem...",
+                                                            "response": [
+                                                                {
+                                                                    "id": "790130210",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "Sim, mas... mesmo que tudo seja mentira, e mesmo que esse aventureiro nem exista... Não deveríamos pelo menos tentar salvá-lo? Seu destino é tão triste..."
+                                                                },
+                                                                {
+                                                                    "id": "790130211",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "#{NICKNAME}...",
+                                                                    "choices": [
+                                                                        {
+                                                                            "id": "790130212",
+                                                                            "text": "Paimon está certa.",
+                                                                            "response": [
+                                                                                {
+                                                                                    "id": "790130213",
+                                                                                    "speaker": "Paimon",
+                                                                                    "text": "#Bem, sabia que {M#o}{F#a} {NICKNAME} acharia o mesmo!"
+                                                                                },
+                                                                                {
+                                                                                    "id": "790130216",
+                                                                                    "speaker": "Paimon",
+                                                                                    "text": "Vamos dar uma olhada naquela ilha no lago!"
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        {
+                                                                            "id": "790130214",
+                                                                            "text": "Bem, vamos dar uma olhada.",
+                                                                            "response": [
+                                                                                {
+                                                                                    "id": "790130215",
+                                                                                    "speaker": "Paimon",
+                                                                                    "text": "Sim, se pudemos ajudar Wolfgang, ótimo!"
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "id": "790130209",
+                                                            "text": "Isso não mudaria o que aconteceu na realidade..."
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "790130220",
+                                            "text": "As construções dentro do lago refletem sua aparência original..."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "790130205",
+                            "text": "Isso aconteceu há muito tempo, Paimon..."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "7901303",
+            "objective": "Vá para a ilha no meio do lago para investigar os vestígios",
+            "dialogues": []
+        },
+        {
+            "id": "7901304",
+            "objective": "Vá para a ilha no meio do lago para investigar os vestígios",
+            "dialogues": []
+        },
+        {
+            "id": "7901305",
+            "objective": "Vá para o local do vestígio deixado na ilha no meio do lago",
+            "dialogues": []
+        },
+        {
+            "id": "7901306",
+            "objective": "Encontre uma maneira de abrir a Câmara Secreta",
+            "dialogues": [
+                {
+                    "id": "790130601",
+                    "speaker": "Paimon",
+                    "text": "Certo! Vamos deixar uma mensagem aqui, assim ele vai poder ver!"
+                },
+                {
+                    "id": "790130602",
+                    "speaker": "Paimon",
+                    "text": "Vamos retornar para a ilha... Talvez não tenha aquela nota!"
+                }
+            ]
+        },
+        {
+            "id": "7901329",
+            "objective": "Fale com Paimon",
+            "dialogues": [
+                {
+                    "id": "790131101",
+                    "speaker": "Paimon",
+                    "text": "A porta abriu! Que mecanismo problemático..."
+                },
+                {
+                    "id": "790131102",
+                    "speaker": "Paimon",
+                    "text": "#{NICKNAME}, aqui não parece ter nenhuma nota de Wolfgang..."
+                },
+                {
+                    "id": "790131103",
+                    "speaker": "Player",
+                    "text": "Isso quer dizer que ele não veio..."
+                },
+                {
+                    "id": "790131104",
+                    "speaker": "Paimon",
+                    "text": "Então vamos ajudá-lo a abrir essa Câmara Secreta... Assim ele não ficará trancado!",
+                    "choices": [
+                        {
+                            "id": "790131105",
+                            "text": "Se esse mecanismo puder ser ativado várias vezes...",
+                            "response": [
+                                {
+                                    "id": "790131107",
+                                    "speaker": "Paimon",
+                                    "text": "Então o que faremos? Hã... Oh, Paimon já sabe! Vamos deixar uma mensagem para ele!"
+                                },
+                                {
+                                    "id": "790131108",
+                                    "speaker": "Paimon",
+                                    "text": "Vamos fazer um entalhe para deixar uma mensagem em um lugar visível. Assim poderemos contar para ele uma maneira de resolver este mecanismo!"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "790131106",
+                            "text": "Mesmo que abra dessa vez..."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "7901307",
+            "objective": "Deixe um entalhe para Wolfgang",
+            "dialogues": []
+        },
+        {
+            "id": "7901308",
+            "objective": "Saia e investigue a nota de Wolfgang",
+            "dialogues": [
+                {
+                    "id": "790130801",
+                    "speaker": "Nota Velha",
+                    "text": ""
+                }
+            ]
+        },
+        {
+            "id": "7901309",
+            "objective": "Saia e investigue a nota de Wolfgang",
+            "dialogues": [
+                {
+                    "id": "790130901",
+                    "speaker": "Nota Velha",
+                    "text": ""
+                }
+            ]
+        },
+        {
+            "id": "7901310",
+            "objective": "Investigue a nota de Wolfgang",
+            "dialogues": []
+        },
+        {
+            "id": "7901323",
+            "objective": "Fale com Paimon",
+            "dialogues": [
+                {
+                    "id": "790132401",
+                    "speaker": "Paimon",
+                    "text": "Ei, parece que ele conseguiu sair de dentro da Câmara Secreta no final das contas! ...E ele... Colocou os créditos em seus olhos aguçados pela sua fuga!? Qual é, deixamos a pista em um lugar tão óbvio!"
+                },
+                {
+                    "id": "790132410",
+                    "speaker": "Paimon",
+                    "text": "Além disso, quantos papéis essa pessoa está levando com ela?"
+                },
+                {
+                    "id": "790132402",
+                    "speaker": "Paimon",
+                    "text": "*Suspira* Ele não voltou depois de ter saído daquela câmara. Na verdade, ele quer continuar se aventurando...",
+                    "choices": [
+                        {
+                            "id": "790132403",
+                            "text": "Porque ele conseguiu superar essa crise...",
+                            "response": [
+                                {
+                                    "id": "790132405",
+                                    "speaker": "Paimon",
+                                    "text": "Sim! Ele antes sempre ficou preso aqui nessa Câmara Secreta, mas agora ele mudou, e se tornou um obstáculo que ele facilmente consegue superar..."
+                                },
+                                {
+                                    "id": "790132406",
+                                    "speaker": "Paimon",
+                                    "text": "Entretanto, não há como ver as ruínas na montanha que ele falou dessa ilha no lago."
+                                },
+                                {
+                                    "id": "790132407",
+                                    "speaker": "Player",
+                                    "text": "Acho que já se passou muito tempo..."
+                                },
+                                {
+                                    "id": "790132408",
+                                    "speaker": "Paimon",
+                                    "text": "Será que ela desabou e tudo caiu no mar? Paimon tem a impressão que viu algo parecido com alguns prédios na água..."
+                                },
+                                {
+                                    "id": "790132409",
+                                    "speaker": "Paimon",
+                                    "text": "Vamos dar uma olhada quando tivermos tempo!"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "790132404",
+                            "text": "Porque ele conseguiu escapar da Câmara Secreta..."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "7901311",
+            "objective": "Vá para as ruínas na superfície do oceano em busca de rastros do Wolfgang",
+            "dialogues": []
+        },
+        {
+            "id": "7901324",
+            "objective": "Fale com Paimon",
+            "dialogues": [
+                {
+                    "id": "790132501",
+                    "speaker": "Paimon",
+                    "text": "Essa nota daqui... Oh, é de Wolfgang!",
+                    "choices": [
+                        {
+                            "id": "790132502",
+                            "text": "Ele ficou preso nessa Câmara Secreta...",
+                            "response": [
+                                {
+                                    "id": "790132504",
+                                    "speaker": "Paimon",
+                                    "text": "Acho que algumas pessoas precisam de algum castigo antes de aprenderem alguma coisa..."
+                                },
+                                {
+                                    "id": "790132505",
+                                    "speaker": "Paimon",
+                                    "text": "#Essa ruína no fundo do mar... Deve ser daquela montanha da ilha ao lado que desabou... {NICKNAME}, vamos para o lago dar uma olhada."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "790132503",
+                            "text": "Parece que não aprendeu sua lição..."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "7901312",
+            "objective": "Vá para o local do vestígio deixado na ilha no meio do lago",
+            "dialogues": [
+                {
+                    "id": "790131201",
+                    "speaker": "Paimon",
+                    "text": "Vamos deixar aqui, ele deve conseguir ver!"
+                },
+                {
+                    "id": "790131202",
+                    "speaker": "Paimon",
+                    "text": "Paimon espera que Wolfgang veja e que ele não acabe preso nessa Câmara Secreta de novo..."
+                },
+                {
+                    "id": "790131203",
+                    "speaker": "Paimon",
+                    "text": "Vamos voltar e dar uma olhada! Talvez a nota desta vez tenha mudado!"
+                }
+            ]
+        },
+        {
+            "id": "7901313",
+            "objective": "Vá para o local do vestígio deixado na ilha no meio do lago",
+            "dialogues": []
+        },
+        {
+            "id": "7901314",
+            "objective": "Encontre uma forma de escapar da Câmara Secreta",
+            "dialogues": [
+                {
+                    "id": "790131401",
+                    "speaker": "Nota Velha",
+                    "text": ""
+                }
+            ]
+        },
+        {
+            "id": "7901330",
+            "objective": "Fale com Paimon",
+            "dialogues": [
+                {
+                    "id": "790133501",
+                    "speaker": "Paimon",
+                    "text": "Desta vez foi igual. Wolfgang não deixou nenhuma nota para trás, ele ainda não chegou aqui."
+                },
+                {
+                    "id": "790133502",
+                    "speaker": "Paimon",
+                    "text": "Vamos deixar algumas pistas para ele de como abrir a Câmara Secreta de novo!",
+                    "choices": [
+                        {
+                            "id": "790133503",
+                            "text": "Essa solução...",
+                            "response": [
+                                {
+                                    "id": "790133505",
+                                    "speaker": "Paimon",
+                                    "text": "Oh, sim. Se Wolfgang não puder usar energia elemental..."
+                                },
+                                {
+                                    "id": "790133506",
+                                    "speaker": "Paimon",
+                                    "text": "Então a solução é inútil para ele. O que vamos fazer?",
+                                    "choices": [
+                                        {
+                                            "id": "790133507",
+                                            "text": "Que tal simplesmente fazermos com que ele nem entre?",
+                                            "response": [
+                                                {
+                                                    "id": "790133509",
+                                                    "speaker": "Paimon",
+                                                    "text": "Oh! Faz sentido! Só precisamos deixar alguma dica na entrada de que há uma Câmara Secreta aqui!"
+                                                },
+                                                {
+                                                    "id": "790133510",
+                                                    "speaker": "Paimon",
+                                                    "text": "Assim ele não entrará e não ficará preso nela!"
+                                                },
+                                                {
+                                                    "id": "790133511",
+                                                    "speaker": "Paimon",
+                                                    "text": "Vamos logo deixar uma mensagem para ele!"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "790133508",
+                                            "text": "Vamos deixar uma mensagem na entrada!"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "790133504",
+                            "text": "Sem o uso de poderes elementais..."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "7901315",
+            "objective": "Escolha um local adequado para deixar um entalhe para trás",
+            "dialogues": []
+        },
+        {
+            "id": "7901316",
+            "objective": "Saia e investigue a nota de Wolfgang",
+            "dialogues": [
+                {
+                    "id": "790131601",
+                    "speaker": "Paimon",
+                    "text": "O quê? Esse cara está falando várias bobagens, hein?"
+                },
+                {
+                    "id": "790131602",
+                    "speaker": "Paimon",
+                    "text": "Isso é péssimo. Temos que voltar à Espinha do Dragão e...",
+                    "choices": [
+                        {
+                            "id": "790131603",
+                            "text": "Paimon, as mudanças que ocorrem na miragem não mudam o passado...",
+                            "response": [
+                                {
+                                    "id": "790131605",
+                                    "speaker": "Paimon",
+                                    "text": "Ah... Certo, é verdade. Afinal de contas, o Wolfgang só está \"aqui\" pois o Arquipélago de Maçã Dourada está sob o efeito daquele dispositivo..."
+                                },
+                                {
+                                    "id": "790131606",
+                                    "speaker": "Paimon",
+                                    "text": "Paimon achava que Wolfgang tinha sido salvo... Mas na verdade, ele nunca saiu da Câmara Secreta, não foi?"
+                                },
+                                {
+                                    "id": "790131607",
+                                    "speaker": "Paimon",
+                                    "text": "Mas... Mas esse tal de Wolfgang não vale nada! Nós ajudamos ele, mas ele ainda acha que seria bom se ele pudesse \"abrir o caminho\" para os outros..."
+                                },
+                                {
+                                    "id": "790131608",
+                                    "speaker": "Paimon",
+                                    "text": "Ele não poderia simplesmente valorizar mais sua vida?",
+                                    "choices": [
+                                        {
+                                            "id": "790131609",
+                                            "text": "Todos possuem algo que buscam...",
+                                            "response": [
+                                                {
+                                                    "id": "790131611",
+                                                    "speaker": "Paimon",
+                                                    "text": "Ah, Paimon entende..."
+                                                },
+                                                {
+                                                    "id": "790131612",
+                                                    "speaker": "Paimon",
+                                                    "text": "Mas Paimon ainda assim acha que eles deveriam ter um final feliz! Tipo voltar para Mondstadt, virar um aventureiro e depois... E depois ir para restaurantes, brincar com gatinhos e comer Frango Assado com Mel..."
+                                                },
+                                                {
+                                                    "id": "790131613",
+                                                    "speaker": "Paimon",
+                                                    "text": "Por que eles não podiam ter um final feliz como esse?"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "790131610",
+                                            "text": "Bem, é apenas por conta de pessoas como ele existem..."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "790131604",
+                            "text": "Wolfgang nunca chegará à Espinha do Dragão..."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "7901317",
+            "objective": "Investigue a nota de Wolfgang",
+            "dialogues": []
+        },
+        {
+            "id": "7901325",
+            "objective": "Fale com Paimon",
+            "dialogues": [
+                {
+                    "id": "790132601",
+                    "speaker": "Paimon",
+                    "text": "Ainda bem que ele não entrou, Paimon está aliviada..."
+                },
+                {
+                    "id": "790132602",
+                    "speaker": "Paimon",
+                    "text": "Mas Paimon não entende o motivo dele estar com essa atitude arrogante! Que irritante!"
+                },
+                {
+                    "id": "790132603",
+                    "speaker": "Player",
+                    "text": "Ele está cada vez mais cheio de si..."
+                },
+                {
+                    "id": "790132604",
+                    "speaker": "Paimon",
+                    "text": "Ele disse que as ruínas altas devem ter caído na última vez para perto das ruínas na água..."
+                },
+                {
+                    "id": "790132605",
+                    "speaker": "Paimon",
+                    "text": "Vamos dar uma olhada... Paimon não tem nem ideia se ele conseguiu escalar até tão alto em segurança..."
+                }
+            ]
+        },
+        {
+            "id": "7901318",
+            "objective": "Vá para as ruínas altas que ficaram submersas",
+            "dialogues": [
+                {
+                    "id": "790131801",
+                    "speaker": "Entalhe",
+                    "text": "(Um entalhe antigo escrito por alguém...)"
+                },
+                {
+                    "id": "790131802",
+                    "speaker": "Entalhe",
+                    "text": "\"O vento está muito forte, não tenho como escrever nada em uma nota.\""
+                },
+                {
+                    "id": "790131803",
+                    "speaker": "Entalhe",
+                    "text": "\"O amanhecer aqui é lindo. Apesar de ter vindo aqui ter sido uma experiência perigosa, me sinto muito satisfeito.\""
+                },
+                {
+                    "id": "790131804",
+                    "speaker": "Entalhe",
+                    "text": "\"Será que alguém depois de mim também poderá vir aqui e ver essa bela paisagem?\""
+                },
+                {
+                    "id": "790131805",
+                    "speaker": "Entalhe",
+                    "text": "\"...Eu consegui passar pelos perigos do caminho e vir até aqui. Minha próxima parada é a Espinha do Dragão!\""
+                },
+                {
+                    "id": "790131806",
+                    "speaker": "Entalhe",
+                    "text": "\"Esse lugar é ótimo, só é uma pena que não possui nenhum Frango Assado com Mel...\""
+                },
+                {
+                    "id": "790131807",
+                    "speaker": "Entalhe",
+                    "text": "\"Wolfgang.\""
+                }
+            ]
+        },
+        {
+            "id": "7901327",
+            "objective": "Fale com Paimon",
+            "dialogues": [
+                {
+                    "id": "790131901",
+                    "speaker": "Paimon",
+                    "text": "Oh, ele não deixou uma nota porque deixou essa mensagem entalhada nesse pilar! Ele conseguiu chegar aqui!"
+                },
+                {
+                    "id": "790131902",
+                    "speaker": "Paimon",
+                    "text": "Mas de onde ele tirou essa confiança? Se não fosse por nossa ajuda, ele ainda estaria preso naquela Câmara Secreta!"
+                },
+                {
+                    "id": "790131903",
+                    "speaker": "Paimon",
+                    "text": "Se ele for para a Espinha do Dragão, com certeza vai virar um pedaço de Carne Fresca Fria!",
+                    "choices": [
+                        {
+                            "id": "790131904",
+                            "text": "Acho que você está exagerando, Paimon...",
+                            "response": [
+                                {
+                                    "id": "790131905",
+                                    "speaker": "Paimon",
+                                    "text": "O que Paimon quer dizer é que se ele for para a Espinha do Dragão, com certeza encontrará algo perigoso!"
+                                },
+                                {
+                                    "id": "790131908",
+                                    "speaker": "Paimon",
+                                    "text": "Temos que contar a ele que ele não pode ir para a Espinha do Dragão!"
+                                },
+                                {
+                                    "id": "790131909",
+                                    "speaker": "Player",
+                                    "text": "Então vamos deixar mais uma mensagem para ele..."
+                                },
+                                {
+                                    "id": "790131910",
+                                    "speaker": "Paimon",
+                                    "text": "Sim, Paimon concorda! Desta vez vamos preparar mais um Frango Assado com Mel!"
+                                },
+                                {
+                                    "id": "790131911",
+                                    "speaker": "Paimon",
+                                    "text": "Talvez se ele comer, se lembrará de Mondstadt e de como suas temperaturas são agradáveis, e assim não irá para a Espinha do Dragão!"
+                                },
+                                {
+                                    "id": "790131912",
+                                    "speaker": "Player",
+                                    "text": "Você não acha que o Frango Assado com Mel vai estragar...?"
+                                },
+                                {
+                                    "id": "790131913",
+                                    "speaker": "Paimon",
+                                    "text": "Hã... O que vale é a intenção!"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "790131906",
+                            "text": "Com certeza encontrará algo perigoso...",
+                            "response": [
+                                {
+                                    "id": "790131907",
+                                    "speaker": "Paimon",
+                                    "text": "Sim! A Espinha do Dragão é muito fria, é cheia de Hilichurls... E ainda tem aquele Grande Rei Javali da Neve!"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "7901328",
+            "objective": "Vá para as ruínas altas na ilha",
+            "dialogues": []
+        },
+        {
+            "id": "7901319",
+            "objective": "Deixe um entalhe e um Frango Assado com Mel para trás",
+            "dialogues": []
+        },
+        {
+            "id": "7901331",
+            "objective": "Fale com Paimon",
+            "dialogues": [
+                {
+                    "id": "790132701",
+                    "speaker": "Paimon",
+                    "text": "Paimon espera que Wolfgang desista dessa ideia dele de ir para a Espinha do Dragão..."
+                },
+                {
+                    "id": "790132702",
+                    "speaker": "Paimon",
+                    "text": "Vamos voltar às ruínas em que estávamos anteriormente quando saímos pelo lago. Talvez encontraremos alguma indicação de que ele mudou de ideia!"
+                }
+            ]
+        },
+        {
+            "id": "7901321",
+            "objective": "Saia e investigue o entalhe de Wolfgang",
+            "dialogues": [
+                {
+                    "id": "790132101",
+                    "speaker": "Paimon",
+                    "text": "Será que realmente tem algum sentido deixar uma mensagem aqui...? Vamos procurar mais um pouco, se deixarmos mais perto da entrada será melhor!"
+                }
+            ]
+        },
+        {
+            "id": "7901322",
+            "objective": "Investigue o entalhe deixado por Wolfgang",
+            "dialogues": [
+                {
+                    "id": "790132901",
+                    "speaker": "Entalhe antigo",
+                    "text": "(Um entalhe antigo escrito por alguém...)"
+                },
+                {
+                    "id": "790132902",
+                    "speaker": "Entalhe antigo",
+                    "text": "\"O vento está muito forte, não tenho como escrever nada em uma nota.\""
+                },
+                {
+                    "id": "790132910",
+                    "speaker": "Entalhe",
+                    "text": "\"Haha, e imaginar que eu encontraria um Frango Assado com Mel aqui — e ainda quentinho! É praticamente um milagre.\""
+                },
+                {
+                    "id": "790132903",
+                    "speaker": "Entalhe antigo",
+                    "text": "\"Não sei quem deixou aquele Frango Assado com Mel aqui ou como sabiam que eu queria um. É tudo muito estranho... mas mesmo assim, estou muito grato.\""
+                },
+                {
+                    "id": "790132904",
+                    "speaker": "Entalhe antigo",
+                    "text": "\"Obrigado, pessoa que deixou esses entalhes para trás. Seu Frango Assado com Mel é o melhor que já comi.\""
+                },
+                {
+                    "id": "790132905",
+                    "speaker": "Entalhe antigo",
+                    "text": "\"Obrigado. Eu sei que a Espinha do Dragão é perigosa, e eu também compreendo minha condição... Mas eu ainda assim quero ir até lá.\""
+                },
+                {
+                    "id": "790132906",
+                    "speaker": "Entalhe antigo",
+                    "text": "\"Irei para a Espinha do Dragão, e se eu morrer lá, pelo menos deixarei informações para trás sobre armadilhas.\""
+                },
+                {
+                    "id": "790132907",
+                    "speaker": "Entalhe antigo",
+                    "text": "\"Mas se alguém conseguir evitar os perigos e chegar mais longe do que cheguei, para mim, isso seria ainda mais precioso do que um Frango Assado com Mel.\""
+                },
+                {
+                    "id": "790132908",
+                    "speaker": "Entalhe antigo",
+                    "text": "\"Obrigado, pessoa que deixou estes entalhes. Quero ir para uma aventura na Espinha do Dragão justamente por ela ser perigosa.\""
+                },
+                {
+                    "id": "790132909",
+                    "speaker": "Entalhe antigo",
+                    "text": "\"Atenciosamente, Wolfgang.\""
+                }
+            ]
+        },
+        {
+            "id": "7901326",
+            "objective": "Fale com Paimon",
+            "dialogues": []
+        },
+        {
+            "id": "7901320",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "790132001",
+                    "speaker": "Paimon",
+                    "text": "Ele já estará dentro da Câmara Secreta até ele ver essa mensagem. Paimon acredita que não vai ser muito útil aqui..."
+                }
+            ]
+        },
+        {
+            "id": "7901346",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "790134601",
+                    "speaker": "Paimon",
+                    "text": "Vamos deixar a mensagem aqui, junto com o Frango Assado com Mel!"
+                }
+            ]
+        }
+    ]
+}

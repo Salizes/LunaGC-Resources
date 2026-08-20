@@ -1,0 +1,533 @@
+{
+    "quest": {
+        "id": "11101",
+        "title": "Um Guardião Yaksha Suspeito",
+        "description": "Como preço a pagar para que o Ladrão de Estrelas realize seus desejos, vocês se preparam para ir à Biblioteca Wanwen comprar livros de culinária. E lá vocês encontram...",
+        "rewards": [
+            {
+                "itemId": 102,
+                "count": 450
+            },
+            {
+                "itemId": 202,
+                "count": 31125
+            },
+            {
+                "itemId": 104003,
+                "count": 4
+            },
+            {
+                "itemId": 104013,
+                "count": 7
+            }
+        ],
+        "rewards_formatted": "EXP de Aventura x450, Mora x31125, EXP do Herói x4, Minério de Refinamento Místico x7",
+        "chapter": {
+            "icon": "UI_ChapterIcon_Xiao",
+            "id": "2011",
+            "num": "Capítulos de Alatus: Ato I",
+            "title": "Sonho de uma Borboleta"
+        },
+        "total_dialogue_lines": 76,
+        "total_speaker_counts": {
+            "Comerciante Crente": 1,
+            "Hilichurl": 1,
+            "Homem Crente": 1,
+            "Jifang": 4,
+            "Ladrão de Estrelas, Senhor Celestial": 10,
+            "Mulher Crente": 1,
+            "Paimon": 40,
+            "Player": 18
+        }
+    },
+    "talks": [
+        {
+            "id": "1110101",
+            "objective": "Vá até à Biblioteca Wanwen",
+            "dialogues": []
+        },
+        {
+            "id": "1110108",
+            "objective": "",
+            "dialogues": [
+                {
+                    "id": "111010201",
+                    "speaker": "Jifang",
+                    "text": "Você quer esse daqui, o \"Yakshas: Os Guardiões Adepti\"?"
+                },
+                {
+                    "id": "111010202",
+                    "speaker": "Ladrão de Estrelas, Senhor Celestial",
+                    "text": "Aqui está, e fique com o troco."
+                },
+                {
+                    "id": "111010203",
+                    "speaker": "Jifang",
+                    "text": "Você é generoso, muito generoso... Obrigada por sua doação!"
+                },
+                {
+                    "id": "111010204",
+                    "speaker": "Paimon",
+                    "text": "Esse cara é aquele mentiroso! Não imaginei que ia encontrar ele de novo.",
+                    "choices": [
+                        {
+                            "id": "111010205",
+                            "text": "É o Ladrão de Estrelas...",
+                            "response": [
+                                {
+                                    "id": "111010207",
+                                    "speaker": "Paimon",
+                                    "text": "Ouvi agora há pouco que ele comprou um livro chamado... \"Yaksha: Os Guardiões Adepti\"?"
+                                },
+                                {
+                                    "id": "111010208",
+                                    "speaker": "Paimon",
+                                    "text": "Eu não me enganei, é um livro sobre o Adeptus. Mas por que um Adeptus compraria um livro sobre si mesmo?",
+                                    "choices": [
+                                        {
+                                            "id": "111010209",
+                                            "text": "Sempre pensei que ele era um pouco suspeito...",
+                                            "response": [
+                                                {
+                                                    "id": "111010210",
+                                                    "speaker": "Paimon",
+                                                    "text": "Mesmo? Você acha ele suspeito?",
+                                                    "choices": [
+                                                        {
+                                                            "id": "111010214",
+                                                            "text": "Para que um Adeptus iria querer tanto dinheiro?",
+                                                            "response": [
+                                                                {
+                                                                    "id": "111010215",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "Ah... Você tem razão! Normalmente os Adepti não parecem precisar de algo de alguém."
+                                                                },
+                                                                {
+                                                                    "id": "111010220",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "Uh..."
+                                                                },
+                                                                {
+                                                                    "id": "111010221",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "Parece que é necessário confirmar o conteúdo do livro, talvez possamos encontrar umas pistas!"
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "id": "111010216",
+                                                            "text": "Acho que ele é um embusteiro.",
+                                                            "response": [
+                                                                {
+                                                                    "id": "111010217",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "Você quer dizer que ele não tem a capacidade para realizar desejos?"
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "id": "111010218",
+                                                            "text": "A máscara dele é muito feia.",
+                                                            "response": [
+                                                                {
+                                                                    "id": "111010219",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "Ah! Realmente é muito feia!"
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "111010211",
+                                            "text": "Narcisista, não?",
+                                            "response": [
+                                                {
+                                                    "id": "111010212",
+                                                    "speaker": "Paimon",
+                                                    "text": "O que você falou tem sentido!"
+                                                },
+                                                {
+                                                    "id": "111010213",
+                                                    "speaker": "Paimon",
+                                                    "text": "Entretanto, esse Adeptus parece um tanto estranho...",
+                                                    "choices": [
+                                                        {
+                                                            "id": "111010214",
+                                                            "text": "Para que um Adeptus iria querer tanto dinheiro?"
+                                                        },
+                                                        {
+                                                            "id": "111010216",
+                                                            "text": "Acho que ele é um embusteiro."
+                                                        },
+                                                        {
+                                                            "id": "111010218",
+                                                            "text": "A máscara dele é muito feia."
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "111010206",
+                            "text": "Será que isso é o destino divino?"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "1110102",
+            "objective": "Fale com Jifang e pergunte sobre o livro \"Yakshas: Os Guardiões Adepti\"",
+            "dialogues": [
+                {
+                    "id": "111010222",
+                    "speaker": "Paimon",
+                    "text": "Olá, nós estamos procurando pelo livro \"Yakshas: Os Guardiões Adepti\"!"
+                },
+                {
+                    "id": "111010223",
+                    "speaker": "Jifang",
+                    "text": "Uh? Quando será que esse livro velho se tornou um best-seller?"
+                },
+                {
+                    "id": "111010224",
+                    "speaker": "Jifang",
+                    "text": "Podem ir para aquelas prateleiras procurarem, não é tão comum que jovens gostem dele."
+                }
+            ]
+        },
+        {
+            "id": "1110103",
+            "objective": "Encontre o livro \"Yakshas: Os Guardiões Adepti\"",
+            "dialogues": [
+                {
+                    "id": "111010301",
+                    "speaker": "Paimon",
+                    "text": "É esse daqui! Abra ele logo e veja o que diz!"
+                },
+                {
+                    "id": "111010302",
+                    "speaker": "Paimon",
+                    "text": "..."
+                },
+                {
+                    "id": "111010401",
+                    "speaker": "Paimon",
+                    "text": "Você terminou de ler? Paimon já terminou antes de você, hehe..."
+                },
+                {
+                    "id": "111010402",
+                    "speaker": "Paimon",
+                    "text": "Esse é um livro relacionado a defesa de Liyue pelos Guardiões Yaksha Adepti."
+                }
+            ]
+        },
+        {
+            "id": "1110104",
+            "objective": "",
+            "dialogues": [
+                {
+                    "id": "111011401",
+                    "speaker": "Player",
+                    "text": "Não tem mais nada de importância aqui..."
+                },
+                {
+                    "id": "111011402",
+                    "speaker": "Paimon",
+                    "text": "Nós já sabemos os pontos centrais do livro."
+                },
+                {
+                    "id": "111011403",
+                    "speaker": "Paimon",
+                    "text": "Então, nesse caso, o que precisamos saber é a origem dos Hilichurls e qual a relação entre Yaksha e o Ladrão de Estrelas!"
+                },
+                {
+                    "id": "111011404",
+                    "speaker": "Paimon",
+                    "text": "Ainda é necessário verificar mais uma vez no local!! Vamos chegar à verdade atravessando a névoa!",
+                    "choices": [
+                        {
+                            "id": "111011405",
+                            "text": "Por que precisamos seguir tantas pistas assim?",
+                            "response": [
+                                {
+                                    "id": "111011407",
+                                    "speaker": "Paimon",
+                                    "text": "Hehehe, na verdade, Paimon esperava que ele fosse um Adeptus real, ainda por cima, a sua técnica de expulsar os demônios é da primeira classe."
+                                },
+                                {
+                                    "id": "111011408",
+                                    "speaker": "Paimon",
+                                    "text": "Quanto maiores as expectativas, maior a decepção. Faz sentido investigar cuidadosamente primeiro, apenas para ter certeza!"
+                                },
+                                {
+                                    "id": "111011409",
+                                    "speaker": "Paimon",
+                                    "text": "Vamos indo até o Albergue Wangshu dar uma olhada!"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "111011406",
+                            "text": "Você é realmente muito dramática..."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "1110105",
+            "objective": "Retorne para as proximidades do Albergue Wangshu para encontrar o Ladrão de Estrelas",
+            "dialogues": [
+                {
+                    "id": "111010501",
+                    "speaker": "Ladrão de Estrelas, Senhor Celestial",
+                    "text": "Obedeça a minhas ordens, espírito maléfico, e desapareça!"
+                },
+                {
+                    "id": "111010502",
+                    "speaker": "Ladrão de Estrelas, Senhor Celestial",
+                    "text": "Desapareça——!"
+                },
+                {
+                    "id": "111010503",
+                    "speaker": "Ladrão de Estrelas, Senhor Celestial",
+                    "text": "Por que você não está desaparecendo?!"
+                },
+                {
+                    "id": "111010504",
+                    "speaker": "Hilichurl",
+                    "text": "Beru nye！Beru nya！Beru nyaaaa！！！"
+                },
+                {
+                    "id": "111010505",
+                    "speaker": "Paimon",
+                    "text": "O Ladrão de Estrelas é inútil!"
+                },
+                {
+                    "id": "111010506",
+                    "speaker": "Paimon",
+                    "text": "Ainda tem cidadãos aqui perto, e não podemos deixá-los sozinhos. Vamos dar uma mão!"
+                }
+            ]
+        },
+        {
+            "id": "1110106",
+            "objective": "Derrote os Hilichurls infectados pelo mal",
+            "dialogues": []
+        },
+        {
+            "id": "1110107",
+            "objective": "Fale com o Ladrão de Estrelas para saber mais sobre a situação",
+            "dialogues": [
+                {
+                    "id": "111010701",
+                    "speaker": "Ladrão de Estrelas, Senhor Celestial",
+                    "text": "Como isso é possível... Um Selo de Permissão deveria ter funcionado..."
+                },
+                {
+                    "id": "111010702",
+                    "speaker": "Ladrão de Estrelas, Senhor Celestial",
+                    "text": "A força maléfica nesses Hilichurls ficou ainda mais forte..."
+                },
+                {
+                    "id": "111010703",
+                    "speaker": "Paimon",
+                    "text": "Um Selo de Permissão... Sou só eu, ou isso soa um pouco familiar?",
+                    "choices": [
+                        {
+                            "id": "111010704",
+                            "text": "Aquele que pode entrar e sair do Relevo de Jueyun quando quiser...",
+                            "response": [
+                                {
+                                    "id": "111010706",
+                                    "speaker": "Paimon",
+                                    "text": "Sim, é ele! É um emblema dos Adepti, com certeza deve conter partes do poder deles!"
+                                },
+                                {
+                                    "id": "111010707",
+                                    "speaker": "Paimon",
+                                    "text": "Não é de se admirar que ele tenha conseguido assustar aqueles monstros antes..."
+                                },
+                                {
+                                    "id": "111010708",
+                                    "speaker": "Ladrão de Estrelas, Senhor Celestial",
+                                    "text": "O que... Vocês estão falando? Eu não dormi bem... Portanto não estou bem disposto. É só isso!"
+                                },
+                                {
+                                    "id": "111010709",
+                                    "speaker": "Ladrão de Estrelas, Senhor Celestial",
+                                    "text": "Se você me der mais uma chance..."
+                                },
+                                {
+                                    "id": "111010710",
+                                    "speaker": "Paimon",
+                                    "text": "Hilichurls malvados foram naquela direção, será que isso pode ser sua chance?"
+                                },
+                                {
+                                    "id": "111010711",
+                                    "speaker": "Ladrão de Estrelas, Senhor Celestial",
+                                    "text": "Eu... Eu me senti indisposto de repente... Deve ser porque utilizei das minhas forças divinas demasiadamente... Caso contrário, eu ia derrotar todos esses espíritos malignos."
+                                },
+                                {
+                                    "id": "111010712",
+                                    "speaker": "Paimon",
+                                    "text": "*Suspiro* Você é realmente o rei da vanglória, não o culpamos em vão."
+                                },
+                                {
+                                    "id": "111010713",
+                                    "speaker": "Paimon",
+                                    "text": "Viajante, vamos continuar olhando, use sua Visão Elemental para procurar por mais pistas."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "111010705",
+                            "text": "Então ele estava usando isso para exorcizar os monstros..."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "1110020",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "111002001",
+                    "speaker": "Homem Crente",
+                    "text": "Eu ainda tenho alguns objetos de valor em casa, Ladrão de Estrelas. Posso trazê-los amanhã, para ver se são do seu agrado."
+                }
+            ]
+        },
+        {
+            "id": "1110021",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "111002101",
+                    "speaker": "Mulher Crente",
+                    "text": "Só consigo ficar tranquilo com a presença do Ladrão de Estrelas..."
+                }
+            ]
+        },
+        {
+            "id": "1110022",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "111002201",
+                    "speaker": "Comerciante Crente",
+                    "text": "Por favor, Ladrão de Estrelas, cuide de mim..."
+                }
+            ]
+        },
+        {
+            "id": "1110110",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "111011001",
+                    "speaker": "Paimon",
+                    "text": "Tenho a impressão de que pertence aos recursos negligenciados sobre a história de Liyue... Há algum lugar que mereça menção?"
+                }
+            ]
+        },
+        {
+            "id": "1110111",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "111011101",
+                    "speaker": "Player",
+                    "text": "Sobre \"espíritos malignos\"..."
+                },
+                {
+                    "id": "111011102",
+                    "speaker": "Paimon",
+                    "text": "Este livro conta uma história de que os ressentimentos dos derrotados na era de Guerra dos Arcontes podiam causar pandemia, demônios e transformação anormal..."
+                },
+                {
+                    "id": "111011103",
+                    "speaker": "Paimon",
+                    "text": "Todos são desastres horríveis. Será que é possível que..."
+                },
+                {
+                    "id": "111011104",
+                    "speaker": "Paimon",
+                    "text": "Os Hilichurls infectados pelo mal que vimos anteriormente devem ser os ditos 'monstros anormais' daqui, não acha?"
+                }
+            ]
+        },
+        {
+            "id": "1110112",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "111011201",
+                    "speaker": "Player",
+                    "text": "Sobre o pecado..."
+                },
+                {
+                    "id": "111011202",
+                    "speaker": "Paimon",
+                    "text": "O livro diz que, os Yakshas que lutavam contra o ódio dos deuses por vários milênios também ficaram presos por pecados."
+                },
+                {
+                    "id": "111011203",
+                    "speaker": "Paimon",
+                    "text": "Os Yakshas envenenados pelos pensamentos odiosos dos deuses caíram em uma fúria cega ou loucura que não poderiam ser postas em palavras..."
+                },
+                {
+                    "id": "111011204",
+                    "speaker": "Paimon",
+                    "text": "*Suspiro* Eles guardaram Liyue por milhares de anos, mas acabaram por não receber nenhuma retribuição. Para piorar, tiveram que suportar um enorme sofrimento."
+                }
+            ]
+        },
+        {
+            "id": "1110113",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "111011301",
+                    "speaker": "Player",
+                    "text": "Sobre o \"Último Yaksha\"..."
+                },
+                {
+                    "id": "111011302",
+                    "speaker": "Paimon",
+                    "text": "De acordo com o livro, existiam cinco Guardiões Yaksha, mas agora só um está vivo."
+                },
+                {
+                    "id": "111011303",
+                    "speaker": "Paimon",
+                    "text": "Não deve ter nada a ver com aquele Ladrão de Estrelas, não é?"
+                },
+                {
+                    "id": "111011304",
+                    "speaker": "Paimon",
+                    "text": "Mas de qualquer forma, acho que não é ele mesmo... No final das contas, ele não parece estar sofrendo..."
+                }
+            ]
+        },
+        {
+            "id": "1110123",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "111012301",
+                    "speaker": "Ladrão de Estrelas, Senhor Celestial",
+                    "text": "Você não precisa se preocupar - desde que você prove sua fé, seus desejos serão atendidos."
+                }
+            ]
+        }
+    ]
+}

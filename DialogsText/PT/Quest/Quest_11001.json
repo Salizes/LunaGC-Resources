@@ -1,0 +1,371 @@
+{
+    "quest": {
+        "id": "11001",
+        "title": "Agendamento Culinário",
+        "description": "Enquanto passeava, você se deparou com uma garota estranha. Esta garota, uma chef de Liyue com o nome de Xiangling, está em uma viagem para procurar ingredientes exóticos. Ela pede sua ajuda em uma caçada, mas sua expedição particular de caça parece ter ganho a ira de Draff, o líder dos caçadores. Você sai para se desculpar a ele...",
+        "rewards": [
+            {
+                "itemId": 102,
+                "count": 125
+            },
+            {
+                "itemId": 202,
+                "count": 4650
+            },
+            {
+                "itemId": 104002,
+                "count": 2
+            },
+            {
+                "itemId": 104012,
+                "count": 5
+            }
+        ],
+        "rewards_formatted": "EXP de Aventura x125, Mora x4650, EXP do Aventureiro x2, Minério de Refinamento Fino x5",
+        "chapter": {
+            "icon": "UI_ChapterIcon_Xiangling",
+            "id": "2007",
+            "num": "Capítulo de Trulla: Ato I",
+            "title": "Viagem Gastronômica de Mondstadt"
+        },
+        "total_dialogue_lines": 60,
+        "total_speaker_counts": {
+            "Brook": 12,
+            "Draff": 12,
+            "Paimon": 8,
+            "Player": 7,
+            "Xiangling": 21
+        }
+    },
+    "talks": [
+        {
+            "id": "1100101",
+            "objective": "Vá para o Vale Termal com a Xiangling",
+            "dialogues": []
+        },
+        {
+            "id": "1100102",
+            "objective": "Peças desculpas ao Draff",
+            "dialogues": [
+                {
+                    "id": "110010201",
+                    "speaker": "Draff",
+                    "text": "Você deve ser a Xiangling."
+                },
+                {
+                    "id": "110010202",
+                    "speaker": "Xiangling",
+                    "text": "Desculpe, Sr. Draff, dessa vez foi culpa minha."
+                },
+                {
+                    "id": "110010203",
+                    "speaker": "Draff",
+                    "text": "Eu ouvi a história inteira, e já que você está aqui pessoalmente..."
+                },
+                {
+                    "id": "110010204",
+                    "speaker": "Paimon",
+                    "text": "Oh, não!",
+                    "choices": [
+                        {
+                            "id": "110010205",
+                            "text": "Violência não resolve nada!",
+                            "response": [
+                                {
+                                    "id": "110010207",
+                                    "speaker": "Draff",
+                                    "text": "... Por favor, ajude-me a divulgar a minha carne!"
+                                },
+                                {
+                                    "id": "110010208",
+                                    "speaker": "Xiangling",
+                                    "text": "... Hã?"
+                                },
+                                {
+                                    "id": "110010209",
+                                    "speaker": "Draff",
+                                    "text": "Desculpe, sim, é um pouco absurdo, mas vou lhes explicar."
+                                },
+                                {
+                                    "id": "110010210",
+                                    "speaker": "Draff",
+                                    "text": "O Vale Termal é conhecido pela qualidade das suas carnes, mas sua reputação é limitada apenas em Mondstadt."
+                                },
+                                {
+                                    "id": "110010211",
+                                    "speaker": "Draff",
+                                    "text": "Quando eu ouvi que a grande Mestre Xiangling estava em Mondstadt, eu pedi para que o Allan enviasse você."
+                                },
+                                {
+                                    "id": "110010212",
+                                    "speaker": "Paimon",
+                                    "text": "Mestre?"
+                                },
+                                {
+                                    "id": "110010213",
+                                    "speaker": "Draff",
+                                    "text": "Você nunca ouviu falar? Ela é quem manda no Restaurante Wanmin, o único restaurante de culinária folclórica no Porto de Liyue."
+                                },
+                                {
+                                    "id": "110010214",
+                                    "speaker": "Draff",
+                                    "text": "Sua visão única sobre os ingredientes culinários está por trás de alguns dos pratos mais amados de toda a cidade de Liyue. Eles também são muito bem avaliados pelos viajantes."
+                                },
+                                {
+                                    "id": "110010215",
+                                    "speaker": "Xiangling",
+                                    "text": "Haha, você é muito gentil, eu apenas tento cozinhar coisas que são baratas e que satisfaçam os clientes."
+                                },
+                                {
+                                    "id": "110010216",
+                                    "speaker": "Draff",
+                                    "text": "Com um chef de primeira que cozinha uma comida de primeira com carne de primeira no Vale Termal... Nossa reputação se espalharia por toda parte."
+                                },
+                                {
+                                    "id": "110010217",
+                                    "speaker": "Xiangling",
+                                    "text": "Hum... Não sei..."
+                                },
+                                {
+                                    "id": "110010218",
+                                    "speaker": "Xiangling",
+                                    "text": "Eu somente penso em como fazer pratos saborosos... Nunca me limito em ingredientes específicos e tampouco tenho a menor ideia de como promover alguma coisa."
+                                },
+                                {
+                                    "id": "110010219",
+                                    "speaker": "Draff",
+                                    "text": "Você sempre usa carne de javali? Não consigo descobrir onde está o problema."
+                                },
+                                {
+                                    "id": "110010220",
+                                    "speaker": "Xiangling",
+                                    "text": "O problema é que... O que você acharia se adicionássemos um pouco de Condensado de Slime?"
+                                },
+                                {
+                                    "id": "110010221",
+                                    "speaker": "Draff",
+                                    "text": "Digo... Você não podia colocar algo mais normal?"
+                                },
+                                {
+                                    "id": "110010222",
+                                    "speaker": "Xiangling",
+                                    "text": "Não há \"ingredientes normais\" para mim! Você pode transformar qualquer coisa em uma iguaria se fizer do jeito certo!"
+                                },
+                                {
+                                    "id": "110010223",
+                                    "speaker": "Xiangling",
+                                    "text": "Não aceitaria ter que limitar minha criatividade com ingredientes que posso ou que não posso usar. Comidas feitas dessa forma são chatas e ponto!",
+                                    "choices": [
+                                        {
+                                            "id": "110010224",
+                                            "text": "Bem, a conversa mudou de rumo repentinamente...",
+                                            "response": [
+                                                {
+                                                    "id": "110010226",
+                                                    "speaker": "Draff",
+                                                    "text": "*Suspiro* Bem, já que você se sente tão certa quanto a isso, esqueça. Mas é realmente uma pena..."
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "110010225",
+                                            "text": "Os Chefs famosos são conhecidos pelo seu temperamento forte..."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "110010206",
+                            "text": "Se você está procurando por briga, siga adiante!"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "1100103",
+            "objective": "Encontre a Xiangling",
+            "dialogues": [
+                {
+                    "id": "110010301",
+                    "speaker": "Paimon",
+                    "text": "Olhe, estamos aqui para pedir desculpas. Não é preciso dizer \"não\" imediatamente, né?"
+                }
+            ]
+        },
+        {
+            "id": "1100104",
+            "objective": "Fale com Xiangling na origem do aroma",
+            "dialogues": [
+                {
+                    "id": "110010401",
+                    "speaker": "Xiangling",
+                    "text": "Olá, será que eu poderia experimentar a sua comida?"
+                },
+                {
+                    "id": "110010402",
+                    "speaker": "Brook",
+                    "text": "Desculpe, eu já recebi todas as ordens que posso para os próximos dias. O mais cedo que eu posso fazer é daqui a sete dias, está bem assim?"
+                },
+                {
+                    "id": "110010403",
+                    "speaker": "Paimon",
+                    "text": "Uau, deve ser muito bom para ser tão popular assim."
+                },
+                {
+                    "id": "110010404",
+                    "speaker": "Player",
+                    "text": "Que maneira estranha de reagir a uma chef tão famosa..."
+                },
+                {
+                    "id": "110010405",
+                    "speaker": "Paimon",
+                    "text": "Por que o Draff ainda quer que eu procure a Xiangling mesmo assim?"
+                },
+                {
+                    "id": "110010406",
+                    "speaker": "Brook",
+                    "text": "Hum... Talvez ele ache que a culinária de Mondstadt não consegue competir com o maior centro de negócios, o Porto de Liyue."
+                },
+                {
+                    "id": "110010407",
+                    "speaker": "Brook",
+                    "text": "Mas eu discordo! Não acho que a minha culinária seja inferior que a de ninguém!"
+                },
+                {
+                    "id": "110010408",
+                    "speaker": "Xiangling",
+                    "text": "Bem, então... Mostre-me o que você tem! Talvez eu possa dar alguns conselhos?"
+                },
+                {
+                    "id": "110010409",
+                    "speaker": "Brook",
+                    "text": "Sinto muito, mas comentários dos tipo \"Ah, o gosto é ótimo\" não servem para mim. Se eu precisasse de conselhos de verdade, eu pediria a um chef profissional! Espere, você é a Xiangling?"
+                },
+                {
+                    "id": "110010410",
+                    "speaker": "Xiangling",
+                    "text": "Sim, isso mesmo!"
+                },
+                {
+                    "id": "110010411",
+                    "speaker": "Brook",
+                    "text": "É mesmo você! Com certeza você deve saber preparar uma carne."
+                },
+                {
+                    "id": "110010412",
+                    "speaker": "Brook",
+                    "text": "Na verdade, eu guardei um pedaço da melhor carne de hoje, se eu pedisse para você cozinhar, como faria o prato?"
+                },
+                {
+                    "id": "110010413",
+                    "speaker": "Xiangling",
+                    "text": "Isso depende da porção de gordura e da carne. Com esse corte, eu provavelmente assaria sobre uma pedra quente com um pouco de sal, Pimenta de Jueyun e uma Flor de Qingxin."
+                },
+                {
+                    "id": "110010414",
+                    "speaker": "Brook",
+                    "text": "Flor de Qingxin? Mas a gordura derretida traz um sabor dez vezes mais forte do que quando se come cru... Isso cobriria todos os outros sabores."
+                },
+                {
+                    "id": "110010415",
+                    "speaker": "Xiangling",
+                    "text": "Ah, eu sei! Mas essa Flor Qingxin não é tempero para Bife, é acompanhamento."
+                },
+                {
+                    "id": "110010416",
+                    "speaker": "Xiangling",
+                    "text": "Eu tentei isso antes. Se você regar as pétalas em óleo e cozinhá-las com o calor e a duração certos, ela se livra completamente o amargo e deixa uma cobertura crocante incrível."
+                },
+                {
+                    "id": "110010417",
+                    "speaker": "Xiangling",
+                    "text": "E então coloque algumas Pimentas de Jueyun cultivadas em grandes altitudes, onde a umidade é baixa e a temperatura variável dá a elas um aroma único."
+                },
+                {
+                    "id": "110010418",
+                    "speaker": "Xiangling",
+                    "text": "As pétalas absorvem a salinidade do sal marinho, o tempero do pimentão e o umami do bife recém grelhado, também agregam ao sabor final um toque floral."
+                },
+                {
+                    "id": "110010419",
+                    "speaker": "Brook",
+                    "text": "Que excesso! A Flor Qingxing é uma coisa secundária, mas está ocupando o lugar principal de carne!"
+                },
+                {
+                    "id": "110010420",
+                    "speaker": "Brook",
+                    "text": "Quem vai querer comer churrasco em que se pode sentir o gosto de tudo, menos do churrasco?"
+                },
+                {
+                    "id": "110010421",
+                    "speaker": "Paimon",
+                    "text": "Parem! Não discutam mais!",
+                    "choices": [
+                        {
+                            "id": "110010422",
+                            "text": "Acho que elas não conseguem ouvir ninguém além delas mesmas...",
+                            "response": [
+                                {
+                                    "id": "110010424",
+                                    "speaker": "Xiangling",
+                                    "text": "Hunf, só há uma saída segura em uma disputa culinária..."
+                                },
+                                {
+                                    "id": "110010425",
+                                    "speaker": "Xiangling",
+                                    "text": "Vamos fazer um duelo de cozinha!"
+                                },
+                                {
+                                    "id": "110010426",
+                                    "speaker": "Brook",
+                                    "text": "Sem problemas, se você não conseguir superar os meus pratos, isso provará que o Draff estava equivocado sobre você."
+                                },
+                                {
+                                    "id": "110010427",
+                                    "speaker": "Xiangling",
+                                    "text": "Certo, mas se eu ganhar, você terá que usar o meu prato ganhador para promover o Vale Termal!"
+                                },
+                                {
+                                    "id": "110010428",
+                                    "speaker": "Brook",
+                                    "text": "Se você perder, você tem que adicionar o meu prato no menu do Restaurante Wanmin."
+                                },
+                                {
+                                    "id": "110010429",
+                                    "speaker": "Brook",
+                                    "text": "Com uma placa dizendo \"Este prato adicional no menu de Wanmin foi feito especialmente pela Chef Brook do Vale Termal, a especialista em carnes.\""
+                                },
+                                {
+                                    "id": "110010430",
+                                    "speaker": "Xiangling",
+                                    "text": "Combinado!"
+                                },
+                                {
+                                    "id": "110010431",
+                                    "speaker": "Xiangling",
+                                    "text": "Eu estou sem ingredientes - Vejo vocês todos em Liyue!"
+                                },
+                                {
+                                    "id": "110010432",
+                                    "speaker": "Paimon",
+                                    "text": "Ei! Espere!"
+                                },
+                                {
+                                    "id": "110010433",
+                                    "speaker": "Paimon",
+                                    "text": "#{NICKNAME}, vamos tentar alcançá-la."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "110010423",
+                            "text": "Suponho que isto é uma espécie de duelo de titãs culinário."
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

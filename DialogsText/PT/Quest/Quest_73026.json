@@ -1,0 +1,853 @@
+{
+    "quest": {
+        "id": "73026",
+        "title": "Vimana Agama: Capítulo Jazari",
+        "description": "Você finalmente conseguiu entrar no corpo de um Gigante das Ruínas. Se puder ser ativado, obter acesso às ruínas subterrâneas deve ser uma questão simples...",
+        "rewards": [
+            {
+                "itemId": 102,
+                "count": 350
+            },
+            {
+                "itemId": 201,
+                "count": 40
+            },
+            {
+                "itemId": 202,
+                "count": 30000
+            },
+            {
+                "itemId": 104003,
+                "count": 3
+            },
+            {
+                "itemId": 104013,
+                "count": 4
+            }
+        ],
+        "rewards_formatted": "EXP de Aventura x350, Gema Essencial x40, Mora x30000, EXP do Herói x3, Minério de Refinamento Místico x4",
+        "chapter": {
+            "icon": "UI_ChapterIcon_Sumeru",
+            "id": "10070",
+            "num": "",
+            "title": "Vimana Agama"
+        },
+        "total_dialogue_lines": 139,
+        "total_speaker_counts": {
+            "Jazari": 94,
+            "Paimon": 23,
+            "Player": 22
+        }
+    },
+    "talks": [
+        {
+            "id": "7302604",
+            "objective": "Abra o selo do Gigante das Ruínas",
+            "dialogues": []
+        },
+        {
+            "id": "7302605",
+            "objective": "Entre no Gigante das Ruínas",
+            "dialogues": [
+                {
+                    "id": "730260501",
+                    "speaker": "Paimon",
+                    "text": "Aqui dentro é bem maior do que Paimon esperava!"
+                },
+                {
+                    "id": "730260502",
+                    "speaker": "Jazari",
+                    "text": "Mas é claro que é! Esperem, agora é o momento para aquela frase famosa, certo?"
+                },
+                {
+                    "id": "730260503",
+                    "speaker": "Jazari",
+                    "text": "\"Senhoras e senhores, a história milenar do antigo reino de Khaenri'ah está diante de nós!\""
+                },
+                {
+                    "id": "730260504",
+                    "speaker": "Jazari",
+                    "text": "Ops, acabei exagerando. Essa é uma citação famosa de \"Iskandar\", um sábio Vahumana. Calma aí! Vocês nunca leram a biografia dele?",
+                    "choices": [
+                        {
+                            "id": "730260505",
+                            "text": "...",
+                            "response": [
+                                {
+                                    "id": "730260508",
+                                    "speaker": "Jazari",
+                                    "text": "Eu já li muito sobre isso em livros, mas é a primeira vez que vejo pessoalmente, é por isso que não consigo conter meu entusiasmo!"
+                                },
+                                {
+                                    "id": "730260509",
+                                    "speaker": "Paimon",
+                                    "text": "Olha para todas essas videiras! Já deve ter se passado muito tempo desde que alguém veio até aqui."
+                                },
+                                {
+                                    "id": "730260510",
+                                    "speaker": "Jazari",
+                                    "text": "Segundo o \"Compilado de Pesquisa Sobre o Gigante das Ruínas do reino Khaenri'ah\", o último estudioso que realizou uma pesquisa sistemática no Gigante das Ruínas foi Pir Kavikavus."
+                                },
+                                {
+                                    "id": "730260511",
+                                    "speaker": "Jazari",
+                                    "text": "Não sei se vocês sabem disso, mas Pir Kavikavus foi um dos maiores acadêmicos na história Kshahrewar. Pir Kavikavus se tornou um Herbad antes dos 30 anos. Um verdadeiro prodígio!"
+                                },
+                                {
+                                    "id": "730260512",
+                                    "speaker": "Jazari",
+                                    "text": "Com as suas conquistas, ele se tornaria um sábio mais cedo ou mais tarde. Mas ele sofreu um acidente durante uma expedição, e os resultados de sua pesquisa se perderam."
+                                },
+                                {
+                                    "id": "730260513",
+                                    "speaker": "Jazari",
+                                    "text": "Desde então, os Kshahrewar não se recuperaram. Se ele tivesse vivido por mais tempo, talvez eu não estivesse me preocupando com despesas o tempo todo."
+                                },
+                                {
+                                    "id": "730260514",
+                                    "speaker": "Jazari",
+                                    "text": "Na verdade, minha ambição acadêmica é seguir os passos de Pir Kavikavus."
+                                },
+                                {
+                                    "id": "730260515",
+                                    "speaker": "Paimon",
+                                    "text": "Bem, vamos deixar a ambição acadêmica de lado por um instante. O nosso próximo passo é...",
+                                    "choices": [
+                                        {
+                                            "id": "730260516",
+                                            "text": "Quebrar o selo na entrada.",
+                                            "response": [
+                                                {
+                                                    "id": "730260517",
+                                                    "speaker": "Paimon",
+                                                    "text": "Sim, então primeiro precisamos ativar esse cara daqui."
+                                                },
+                                                {
+                                                    "id": "730260520",
+                                                    "speaker": "Jazari",
+                                                    "text": "Exatamente. Ativar esse Gigante das Ruínas permitirá que eu obtenha dados experimentais valiosos, eles também servirão como base para um progresso de minha pesquisa."
+                                                },
+                                                {
+                                                    "id": "730260521",
+                                                    "speaker": "Jazari",
+                                                    "text": "Se eu quiser superar meus antecessores, eu preciso fazer algo grandioso."
+                                                },
+                                                {
+                                                    "id": "730260522",
+                                                    "speaker": "Paimon",
+                                                    "text": "Bem, vamos ativar esse grandalhão! Deve ter algum mecanismo por aqui... Sabe, daqueles que acende quando é pressionado?"
+                                                },
+                                                {
+                                                    "id": "730260523",
+                                                    "speaker": "Jazari",
+                                                    "text": "Hmm... Eu me lembro de um. De acordo com os registros, quando a Válvula de Dissociação na cabine de pilotagem é ativada, o Gigante das Ruínas será ativado."
+                                                },
+                                                {
+                                                    "id": "730260524",
+                                                    "speaker": "Jazari",
+                                                    "text": "Mas, como eu já havia dito antes, todas as Máquinas das Ruínas são abastecidas pelo poder obscuro em seus núcleos. E os núcleos do Gigante das Ruínas foram selados no subterrâneo."
+                                                },
+                                                {
+                                                    "id": "730260525",
+                                                    "speaker": "Jazari",
+                                                    "text": "Mesmo que cheguemos até a cabine de pilotagem, o método convencional não vai funcionar."
+                                                },
+                                                {
+                                                    "id": "730260526",
+                                                    "speaker": "Jazari",
+                                                    "text": "Isso sem falar que ainda nem ativamos esse elevador diante de nós. Como chegaremos na cabine de pilotagem desse jeito?"
+                                                },
+                                                {
+                                                    "id": "730260527",
+                                                    "speaker": "Paimon",
+                                                    "text": "Hmm, você está certo... O que faremos?",
+                                                    "choices": [
+                                                        {
+                                                            "id": "730260528",
+                                                            "text": "Vamos tentar bater.",
+                                                            "response": [
+                                                                {
+                                                                    "id": "730260529",
+                                                                    "speaker": "Jazari",
+                                                                    "text": "Calma! Eu tenho a maior permissão de pesquisa concedida pela Academia, mas isso não significa que podemos danificar essa máquina se quisermos."
+                                                                },
+                                                                {
+                                                                    "id": "730260531",
+                                                                    "speaker": "Jazari",
+                                                                    "text": "Como diz o ditado, \"Quando uma porta se fecha, outra se abre\". Tenho certeza que o povo de Khaenri'ah levou isso em consideração."
+                                                                },
+                                                                {
+                                                                    "id": "730260532",
+                                                                    "speaker": "Jazari",
+                                                                    "text": "A pesquisa da Academia mostra que as primeiras máquinas das ruínas tinham um sistema reserva de energia, talvez por causa da imaturidade técnica de utilização da energia obscura que estavam empregando.",
+                                                                    "choices": [
+                                                                        {
+                                                                            "id": "730260533",
+                                                                            "text": "Sistema de propulsão?",
+                                                                            "response": [
+                                                                                {
+                                                                                    "id": "730260534",
+                                                                                    "speaker": "Jazari",
+                                                                                    "text": "Diferente dos núcleos que fornecem energia quase ilimitada, esse sistema de propulsão é feito de uma série de pequenos transmissores de energia."
+                                                                                },
+                                                                                {
+                                                                                    "id": "730260535",
+                                                                                    "speaker": "Jazari",
+                                                                                    "text": "E as fontes desses dispositivos são blocos que armazenam energia pura extraída das Linhas Ley."
+                                                                                },
+                                                                                {
+                                                                                    "id": "730260536",
+                                                                                    "speaker": "Jazari",
+                                                                                    "text": "De acordo com os acadêmicos Vahumana, esse sistema de energia estava sendo amplamente utilizado muito antes da primeira máquina das ruínas ter sido criada por Khaenri'ah."
+                                                                                },
+                                                                                {
+                                                                                    "id": "730260537",
+                                                                                    "speaker": "Jazari",
+                                                                                    "text": "É como eu disse antes. Esse Gigante das Ruínas é um modelo mais antigo, por isso ele deve ter um desses sistemas reservas de propulsão."
+                                                                                },
+                                                                                {
+                                                                                    "id": "730260538",
+                                                                                    "speaker": "Jazari",
+                                                                                    "text": "A sala de energia está lá no fundo. Vamos descer para lá primeiro."
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        {
+                                                                            "id": "730260539",
+                                                                            "text": "Só me diga o que fazer a seguir.",
+                                                                            "response": [
+                                                                                {
+                                                                                    "id": "730260540",
+                                                                                    "speaker": "Jazari",
+                                                                                    "text": "Bem, a sala de energia está no fundo. Vamos primeiro pensar em como chegar lá."
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "id": "730260530",
+                                                            "text": "Você quer dizer que há algum método não convencional?"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "730260518",
+                                            "text": "Fazer pesquisa acadêmica.",
+                                            "response": [
+                                                {
+                                                    "id": "730260519",
+                                                    "speaker": "Paimon",
+                                                    "text": "Hã? Você esqueceu que estamos aqui para investigar as ruínas subterrâneas? Pesquisa acadêmica é importante, mas nossa prioridade é descobrir como ativar esse grandalhão!"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "730260506",
+                            "text": "Você não é um pesquisador Kshahrewar?",
+                            "response": [
+                                {
+                                    "id": "730260507",
+                                    "speaker": "Jazari",
+                                    "text": "Bem, o conhecimento não tem fronteiras. Eu não tenho intenções de que meu aprendizado fique preso ou limitado."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "7302606",
+            "objective": "Ative o dispositivo interrompido",
+            "dialogues": [
+                {
+                    "id": "730260601",
+                    "speaker": "Paimon",
+                    "text": "Uau! Ativou mesmo!"
+                },
+                {
+                    "id": "730260616",
+                    "speaker": "Jazari",
+                    "text": "E então? O mecanismo no Gigante das Ruínas, quer seja um retransmissor ou um alçapão, pode ser alimentado por este Bloco de Energia."
+                },
+                {
+                    "id": "730260602",
+                    "speaker": "Paimon",
+                    "text": "Mas nada parece ter mudado..."
+                },
+                {
+                    "id": "730260603",
+                    "speaker": "Jazari",
+                    "text": "Bem, é porque esse sistema de reserva é composto de uma série de transmissores de energia menores."
+                },
+                {
+                    "id": "730260604",
+                    "speaker": "Jazari",
+                    "text": "Em outras palavras, temos que começar de baixo para cima. O sistema de propulsão só funcionará quando todos os transmissores forem conectados."
+                },
+                {
+                    "id": "730260605",
+                    "speaker": "Player",
+                    "text": "Todos..."
+                },
+                {
+                    "id": "730260606",
+                    "speaker": "Jazari",
+                    "text": "Devido ao dano que o Gigante das Ruínas sofreu, será bem difícil que ele funcione com a sua força total."
+                },
+                {
+                    "id": "730260607",
+                    "speaker": "Jazari",
+                    "text": "Mas enquanto vocês estavam ativando os transmissores, eu encontrei isso na sala de energia."
+                },
+                {
+                    "id": "730260608",
+                    "speaker": "Jazari",
+                    "text": "Parece ser o diagrama para o Gigante das Ruínas. Talvez o pessoal da manutenção o tenha deixado aqui."
+                },
+                {
+                    "id": "730260609",
+                    "speaker": "Jazari",
+                    "text": "De acordo com esse diagrama, precisamos conectar várias transmissores-chave para ativar essa máquina..."
+                },
+                {
+                    "id": "730260610",
+                    "speaker": "Jazari",
+                    "text": "... Bem, pelo menos podemos ativar esse elevador e subir até a cabine de pilotagem."
+                },
+                {
+                    "id": "730260611",
+                    "speaker": "Paimon",
+                    "text": "Paimon não acha isso muito confiável..."
+                },
+                {
+                    "id": "730260612",
+                    "speaker": "Jazari",
+                    "text": "Bem, não há mais nada que podemos fazer. Por que vocês não tentam ligar o dispositivo do elevador?"
+                },
+                {
+                    "id": "730260613",
+                    "speaker": "Paimon",
+                    "text": "Hã? Você não vem com a gente?"
+                },
+                {
+                    "id": "730260614",
+                    "speaker": "Jazari",
+                    "text": "Eu ficarei aqui tirando fot... Não, digo... estudando a estrutura interna do Gigante das Ruínas. Isso também é importante."
+                },
+                {
+                    "id": "730260615",
+                    "speaker": "Jazari",
+                    "text": "Além disso, não há muito o que eu possa fazer como um acadêmico. Mas se vocês tiverem problemas técnicos, podem vir me procurar."
+                }
+            ]
+        },
+        {
+            "id": "7302603",
+            "objective": "Conecte-se ao sistema de propulsão inferior.",
+            "dialogues": []
+        },
+        {
+            "id": "7302607",
+            "objective": "Conecte-se ao sistema de propulsão inferior.",
+            "dialogues": [
+                {
+                    "id": "730260701",
+                    "speaker": "Jazari",
+                    "text": "Olhem só para essas engenhosas máquinas. Que obra-prima da civilização humana."
+                },
+                {
+                    "id": "730260702",
+                    "speaker": "Jazari",
+                    "text": "Eu preciso registrar essas informações valiosas para minha pesquisa o mais rápido possível."
+                }
+            ]
+        },
+        {
+            "id": "7302616",
+            "objective": "Fale com o Senhor Jazari",
+            "dialogues": []
+        },
+        {
+            "id": "7302615",
+            "objective": "Fale com o Senhor Jazari",
+            "dialogues": [
+                {
+                    "id": "730260801",
+                    "speaker": "Jazari",
+                    "text": "Vocês já voltaram? Bem, eu ainda estou estudando a estrutura desses componentes. Não imaginei que vocês conseguiriam ativar o elevador!"
+                },
+                {
+                    "id": "730260802",
+                    "speaker": "Player",
+                    "text": "Isso de ativar o elevador era só uma suposição sua, né?"
+                },
+                {
+                    "id": "730260803",
+                    "speaker": "Jazari",
+                    "text": "Hã, bem... Eu li isso nos livros."
+                },
+                {
+                    "id": "730260804",
+                    "speaker": "Jazari",
+                    "text": "Para sua informação, não há mais do que três pessoas na Academia inteira que conseguem ler esse diagrama! Por isso, uma suposição correta também é algo muito incrível!"
+                },
+                {
+                    "id": "730260805",
+                    "speaker": "Jazari",
+                    "text": "Enfim, o elevador agora está funcionando normalmente. Só precisamos ativar os transmissores no meio para podermos subir até a cabine de pilotagem."
+                },
+                {
+                    "id": "730260806",
+                    "speaker": "Jazari",
+                    "text": "Deixe-me ver... Todos os dispositivos no meio devem estar na sala de energia, você só precisa iniciá-los."
+                },
+                {
+                    "id": "730260807",
+                    "speaker": "Jazari",
+                    "text": "Se não conseguirmos encontrar um Bloco de Energia que funcione, também é possível removê-lo temporariamente do dispositivo. Bem, desde que todos estejam conectados no final."
+                },
+                {
+                    "id": "730260808",
+                    "speaker": "Jazari",
+                    "text": "Eu vou continuar esperando vocês aqui."
+                }
+            ]
+        },
+        {
+            "id": "7302608",
+            "objective": "Conecte quatro dispositivos no meio.",
+            "dialogues": []
+        },
+        {
+            "id": "7302609",
+            "objective": "Derrote o Cavaleiro da Serpente Negra",
+            "dialogues": [
+                {
+                    "id": "730260901",
+                    "speaker": "Jazari",
+                    "text": "Hã? O que vocês estavam fazendo lá em cima? Eu estava aqui pesquisando esse circuito indutivo quando ouvi algo estranho vindo de lá."
+                },
+                {
+                    "id": "730260902",
+                    "speaker": "Jazari",
+                    "text": "Bem, independente do que vocês estiverem fazendo, tenham mais cautela. Se acontecer algo com essa máquina, será difícil explicar no meu relatório para a Academia.",
+                    "choices": [
+                        {
+                            "id": "730260903",
+                            "text": "Nós encontramos o piloto.",
+                            "response": [
+                                {
+                                    "id": "730260904",
+                                    "speaker": "Jazari",
+                                    "text": "O piloto? Vocês estão falando sério?"
+                                },
+                                {
+                                    "id": "730260905",
+                                    "speaker": "Jazari",
+                                    "text": "Nem mesmo alguém de Khaenri'ah conseguiria viver centenas de anos."
+                                },
+                                {
+                                    "id": "730260909",
+                                    "speaker": "Jazari",
+                                    "text": "Enfim, suponho que vocês já conectaram os transmissores até o centro, não é?"
+                                },
+                                {
+                                    "id": "730260910",
+                                    "speaker": "Jazari",
+                                    "text": "Estou quase terminando aqui também. Venham. Vamos subir para a cabine no topo."
+                                },
+                                {
+                                    "id": "730260911",
+                                    "speaker": "Jazari",
+                                    "text": "Assim como antes, só precisamos conectar o sistema de energia para a cabine de pilotagem para ativar o controle do Gigante das Ruínas."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "730260906",
+                            "text": "Encontramos um antigo amigo.",
+                            "response": [
+                                {
+                                    "id": "730260907",
+                                    "speaker": "Jazari",
+                                    "text": "Hã, você e essa criança são... Bem, não importa. Eu escreverei duas cartas de recomendação para a Academia. Assim, vocês poderão se dar bem no futuro."
+                                },
+                                {
+                                    "id": "730260908",
+                                    "speaker": "Paimon",
+                                    "text": "Hã, não é isso que está acontecendo aqui!"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "7302614",
+            "objective": "Fale com o Senhor Jazari",
+            "dialogues": []
+        },
+        {
+            "id": "7302610",
+            "objective": "Estabeleça uma conexão com o sistema de propulsão da cabine do motorista.",
+            "dialogues": []
+        },
+        {
+            "id": "7302611",
+            "objective": "Entre na cabine do motorista.",
+            "dialogues": [
+                {
+                    "id": "730261101",
+                    "speaker": "Paimon",
+                    "text": "Hm, fora essa Tabuleta de Pedra negra parece que não tem nada mais de valioso por aqui."
+                },
+                {
+                    "id": "730261102",
+                    "speaker": "Jazari",
+                    "text": "Não subestime essa Tabuleta de Pedra. Basta ativar seu sistema de controle, e você poderá ver o mundo exterior através dela."
+                },
+                {
+                    "id": "730261103",
+                    "speaker": "Jazari",
+                    "text": "Parece que o sistema de controle ainda funciona normalmente. As antigas criações de Khaenri'ah são realmente incríveis."
+                },
+                {
+                    "id": "730261104",
+                    "speaker": "Jazari",
+                    "text": "Eu nunca imaginei que teria essa chance na minha vida. Mas agora parece que quando eu completar esse relatório de pesquisa, ganhar o Prêmio Pir Kavikavus é só uma questão de tempo."
+                },
+                {
+                    "id": "730261105",
+                    "speaker": "Paimon",
+                    "text": "Enfim, vamos logo ativar esse robô! Paimon mal pode esperar!",
+                    "choices": [
+                        {
+                            "id": "730261106",
+                            "text": "Foi o que eu pensei.",
+                            "response": [
+                                {
+                                    "id": "730261108",
+                                    "speaker": "Jazari",
+                                    "text": "Calma, não devemos ter pressa. Precisamos seguir as instruções!"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "730261107",
+                            "text": "Não temos tempo a perder."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "7302612",
+            "objective": "Ative o Gigante das Ruínas",
+            "dialogues": [
+                {
+                    "id": "730261201",
+                    "speaker": "Jazari",
+                    "text": "Vamos ver, de acordo com as instruções, você teria que apertar um botão... Que botão será?"
+                }
+            ]
+        },
+        {
+            "id": "7302613",
+            "objective": "Fale com o Senhor Jazari",
+            "dialogues": [
+                {
+                    "id": "730261301",
+                    "speaker": "Jazari",
+                    "text": "E o que eu disse sobre seguir as instruções?"
+                },
+                {
+                    "id": "730261302",
+                    "speaker": "Player",
+                    "text": "Não tocamos em nada..."
+                },
+                {
+                    "id": "730261303",
+                    "speaker": "Paimon",
+                    "text": "O braço dele caiu do nada! Affê! Paimon tem certeza que isso é culpa da máquina!"
+                },
+                {
+                    "id": "730261304",
+                    "speaker": "Jazari",
+                    "text": "Está bem, eu registrarei isso como um acidente experimental. Ah... Espero que isso não influencie meu relatório."
+                },
+                {
+                    "id": "730261305",
+                    "speaker": "Jazari",
+                    "text": "De qualquer forma, parece que não poderemos ativar o Gigante das Ruínas novamente, por isso não há porque vocês ficarem aqui."
+                },
+                {
+                    "id": "730261306",
+                    "speaker": "Jazari",
+                    "text": "Eu sei que vocês estão aqui para investigar a contaminação nas ruínas subterrâneas, mas temo dizer que esse Gigante das Ruínas não terá muito uso agora."
+                },
+                {
+                    "id": "730261307",
+                    "speaker": "Jazari",
+                    "text": "Ainda assim, talvez você tenha algum progresso inesperado como resultado pelo que fez."
+                },
+                {
+                    "id": "730261308",
+                    "speaker": "Jazari",
+                    "text": "Bem, não tomarei mais de seu tempo. Eu também preciso concluir minha pesquisa aqui."
+                },
+                {
+                    "id": "730261309",
+                    "speaker": "Jazari",
+                    "text": "Quando vocês acabarem o que tem de fazer, podem vir me procurar... Isso se eu ainda não tiver sido repreendido por destruir o Gigante das Ruínas."
+                },
+                {
+                    "id": "730261310",
+                    "speaker": "Jazari",
+                    "text": "Quando isso acontecer, eu posso ajudar vocês a se registrarem no projeto de pesquisa das Fornalhas do Caos."
+                },
+                {
+                    "id": "730261311",
+                    "speaker": "Jazari",
+                    "text": "Eu serei o responsável pelo projeto, mas não se preocupem, eu dividirei metade dos fundos com vocês."
+                },
+                {
+                    "id": "730261312",
+                    "speaker": "Jazari",
+                    "text": "A carreira acadêmica é acessível a todos, desde que tenham o desejo pelo aprendizado, por isso, vão em frente!"
+                }
+            ]
+        },
+        {
+            "id": "7302601",
+            "objective": "",
+            "dialogues": [
+                {
+                    "id": "730260101",
+                    "speaker": "Paimon",
+                    "text": "Esse lugar daqui parece com o robozão que Paimon entrou na outra vez!"
+                },
+                {
+                    "id": "730260102",
+                    "speaker": "Jazari",
+                    "text": "Na outra vez? Vocês já entraram em outro Gigante das Ruínas?"
+                },
+                {
+                    "id": "730260103",
+                    "speaker": "Paimon",
+                    "text": "Sim! alguém chamado Afratu pediu para investigarmos uma máquina como essa no deserto."
+                },
+                {
+                    "id": "730260104",
+                    "speaker": "Jazari",
+                    "text": "Afratu? Droga. Ele também deve estar de olho no título de \"Pesquisador Renomado do Gigante das Ruínas\"."
+                },
+                {
+                    "id": "730260105",
+                    "speaker": "Player",
+                    "text": "Não, acho que não é o caso..."
+                },
+                {
+                    "id": "730260106",
+                    "speaker": "Jazari",
+                    "text": "Eu me lembro que ele é um pesquisador Vahumana. Isso não deveria ser de seu interesse."
+                },
+                {
+                    "id": "730260107",
+                    "speaker": "Jazari",
+                    "text": "Mas, pensando bem, isso também não é impossível."
+                },
+                {
+                    "id": "730260108",
+                    "speaker": "Jazari",
+                    "text": "Afinal, é de lá que Iskandar, o sábio que disse \"Senhoras e senhores, a história milenar de Khaenri'ah está perante nós!\" veio."
+                },
+                {
+                    "id": "730260109",
+                    "speaker": "Paimon",
+                    "text": "Mas não vamos nos preocupar com isso agora. Comparado ao que vimos antes, esse daqui parece completamente deserto."
+                },
+                {
+                    "id": "730260110",
+                    "speaker": "Jazari",
+                    "text": "Claro que sim."
+                },
+                {
+                    "id": "730260111",
+                    "speaker": "Jazari",
+                    "text": "Segundo o \"Compilado de Pesquisa Sobre o Gigante das Ruínas do Antigo Reino de Khaenri'ah\", o último estudioso que realizou uma pesquisa sistemática no Gigante das Ruínas foi Pir Kavikavus."
+                },
+                {
+                    "id": "730260112",
+                    "speaker": "Jazari",
+                    "text": "Não sei se vocês sabem disso, mas Pir Kavikavus foi um dos maiores acadêmicos na história Kshahrewar. Pir Kavikavus se tornou um Herbad antes dos 30 anos. Um verdadeiro prodígio!"
+                },
+                {
+                    "id": "730260113",
+                    "speaker": "Jazari",
+                    "text": "Com suas conquistas, ele mais cedo ou mais tarde se tornaria um sábio. Mas um dia sofreu um acidente, e os resultados de sua pesquisa foram perdidos."
+                },
+                {
+                    "id": "730260114",
+                    "speaker": "Jazari",
+                    "text": "Desde então, os Kshahrewar estão indo de mal à pior. Se ele tivesse vivido mais um pouco, talvez hoje eu não tivesse que me preocupar com despesas todo dia."
+                },
+                {
+                    "id": "730260115",
+                    "speaker": "Jazari",
+                    "text": "Na verdade, minha ambição acadêmica é seguir os passos de Pir Kavikavus."
+                },
+                {
+                    "id": "730260116",
+                    "speaker": "Paimon",
+                    "text": "Bem, o nosso próximo passo deve ser...",
+                    "choices": [
+                        {
+                            "id": "730260117",
+                            "text": "Quebrar o selo na entrada.",
+                            "response": [
+                                {
+                                    "id": "730260118",
+                                    "speaker": "Paimon",
+                                    "text": "Sim, para isso então temos que primeiro ativar esse cara grandão daqui."
+                                },
+                                {
+                                    "id": "730260121",
+                                    "speaker": "Jazari",
+                                    "text": "Exatamente. Ativar esse Gigante das Ruínas permitirá que eu obtenha dados experimentais valiosos, eles também servirão como base para um progresso de minha pesquisa."
+                                },
+                                {
+                                    "id": "730260122",
+                                    "speaker": "Jazari",
+                                    "text": "Afinal, para superar seus antecessores, é necessário fazer algo grandioso."
+                                },
+                                {
+                                    "id": "730260123",
+                                    "speaker": "Paimon",
+                                    "text": "Então só precisamos ir para a cabine de pilotagem para ativar esse grandalhão daqui, né?"
+                                },
+                                {
+                                    "id": "730260124",
+                                    "speaker": "Jazari",
+                                    "text": "Bem... Geralmente, quando a Válvula de Dissociação na cabine de pilotagem é ligada, o Gigante das Ruínas é ativado."
+                                },
+                                {
+                                    "id": "730260125",
+                                    "speaker": "Jazari",
+                                    "text": "Mas eu não disse antes para vocês? Todas as máquinas das ruínas dependem da energia escura de seus núcleos para serem ativados. Mas o núcleo desse Gigante das Ruínas... Está selado no subsolo."
+                                },
+                                {
+                                    "id": "730260126",
+                                    "speaker": "Jazari",
+                                    "text": "Mesmo que cheguemos até a cabine de pilotagem, o método convencional não vai funcionar."
+                                },
+                                {
+                                    "id": "730260127",
+                                    "speaker": "Jazari",
+                                    "text": "Isso sem falar que ainda nem ativamos esse elevador diante de nós. Como chegaremos na cabine de pilotagem desse jeito?"
+                                },
+                                {
+                                    "id": "730260128",
+                                    "speaker": "Paimon",
+                                    "text": "Hmm, você está certo... O que faremos?",
+                                    "choices": [
+                                        {
+                                            "id": "730260129",
+                                            "text": "Vamos tentar bater.",
+                                            "response": [
+                                                {
+                                                    "id": "730260130",
+                                                    "speaker": "Jazari",
+                                                    "text": "Ei! Eu posso ter a maior permissão de pesquisa da Academia, mas isso não quer dizer que podemos danificar essa máquina como quisermos!"
+                                                },
+                                                {
+                                                    "id": "730260132",
+                                                    "speaker": "Jazari",
+                                                    "text": "Como diz o ditado, \"Quando uma porta se fecha, outra se abre\". Tenho certeza que o povo de Khaenri'ah levou isso em consideração."
+                                                },
+                                                {
+                                                    "id": "730260133",
+                                                    "speaker": "Jazari",
+                                                    "text": "A pesquisa da Academia mostra que as primeiras máquinas das ruínas tinham um sistema reserva de energia, talvez por causa da imaturidade técnica de utilização da energia obscura que estavam empregando.",
+                                                    "choices": [
+                                                        {
+                                                            "id": "730260134",
+                                                            "text": "Sistema de propulsão?",
+                                                            "response": [
+                                                                {
+                                                                    "id": "730260135",
+                                                                    "speaker": "Jazari",
+                                                                    "text": "Diferente dos núcleos que fornecem energia quase ilimitada, esse sistema é feito de uma série de pequenos relés de energia."
+                                                                },
+                                                                {
+                                                                    "id": "730260136",
+                                                                    "speaker": "Jazari",
+                                                                    "text": "E as fontes desses dispositivos são blocos que armazenam energia pura extraída das Linhas Ley."
+                                                                },
+                                                                {
+                                                                    "id": "730260137",
+                                                                    "speaker": "Jazari",
+                                                                    "text": "De acordo com os acadêmicos Vahumana, esse sistema de energia estava sendo amplamente utilizado muito antes da primeira máquina das ruínas ter sido criada por Khaenri'ah."
+                                                                },
+                                                                {
+                                                                    "id": "730260138",
+                                                                    "speaker": "Jazari",
+                                                                    "text": "É como eu disse antes. Esse Gigante das Ruínas é um modelo mais antigo, por isso ele deve ter um desses sistemas reservas de propulsão."
+                                                                },
+                                                                {
+                                                                    "id": "730260139",
+                                                                    "speaker": "Jazari",
+                                                                    "text": "A sala de energia está lá no fundo. Vamos descer para lá primeiro."
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "id": "730260140",
+                                                            "text": "Só me diga o que fazer a seguir.",
+                                                            "response": [
+                                                                {
+                                                                    "id": "730260141",
+                                                                    "speaker": "Jazari",
+                                                                    "text": "Bem, a sala de energia está no fundo. Vamos primeiro pensar em como chegar lá."
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "730260131",
+                                            "text": "Então você quer dizer que existe algum método inconvencional."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "730260119",
+                            "text": "Fazer pesquisa acadêmica.",
+                            "response": [
+                                {
+                                    "id": "730260120",
+                                    "speaker": "Paimon",
+                                    "text": "Hã? Você esqueceu que estamos aqui para investigar as ruínas subterrâneas? Pesquisa acadêmica é importante, mas nossa prioridade é descobrir como ativar esse grandalhão!"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

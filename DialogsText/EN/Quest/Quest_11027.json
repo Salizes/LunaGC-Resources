@@ -1,0 +1,1347 @@
+{
+    "quest": {
+        "id": "11027",
+        "title": "The Search for a Physician",
+        "description": "Someone seems to be asking for help outside Bubu Pharmacy...",
+        "rewards": [
+            {
+                "itemId": 102,
+                "count": 550
+            },
+            {
+                "itemId": 202,
+                "count": 31125
+            },
+            {
+                "itemId": 104003,
+                "count": 4
+            },
+            {
+                "itemId": 104013,
+                "count": 7
+            }
+        ],
+        "rewards_formatted": "Adventure EXP x550, Mora x31125, Hero's Wit x4, Mystic Enhancement Ore x7",
+        "chapter": {
+            "icon": "UI_ChapterIcon_Baizhuer",
+            "id": "2037",
+            "num": "Lagenaria Chapter: Act I",
+            "title": "The Heart of Healing"
+        },
+        "total_dialogue_lines": 235,
+        "total_speaker_counts": {
+            "???": 4,
+            "Ayu": 25,
+            "Baizhu": 55,
+            "Black Screen": 2,
+            "Cai Le": 4,
+            "Cai Xun": 6,
+            "Changsheng": 18,
+            "Herbalist Gui": 6,
+            "Hu Tao": 38,
+            "Jialiang": 6,
+            "Paimon": 34,
+            "Player": 28,
+            "Qiqi": 9
+        }
+    },
+    "talks": [
+        {
+            "id": "1102701",
+            "objective": "Go to Bubu Pharmacy",
+            "dialogues": [
+                {
+                    "id": "110270101",
+                    "speaker": "Herbalist Gui",
+                    "text": "...What's your name, buddy? Are you here to buy some medicine? Where are your mom and dad?"
+                },
+                {
+                    "id": "110270102",
+                    "speaker": "Qiqi",
+                    "text": "Are you lost?"
+                },
+                {
+                    "id": "110270103",
+                    "speaker": "Ayu",
+                    "text": "No, I'm not! Um, my name's Ayu, and I'm here because—"
+                },
+                {
+                    "id": "110270104",
+                    "speaker": "Paimon",
+                    "text": "Hey there, Qiqi! Hi, Gui! What's going on?"
+                },
+                {
+                    "id": "110270105",
+                    "speaker": "Qiqi",
+                    "text": "#Hi, {NICKNAME} and Paimon..."
+                },
+                {
+                    "id": "110270106",
+                    "speaker": "Herbalist Gui",
+                    "text": "Ah, you've actually come at a perfect time! This little boy seems to have gotten himself lost. I think he must be new to the city. Probably wandered away from his parents, and—"
+                },
+                {
+                    "id": "110270107",
+                    "speaker": "Ayu",
+                    "text": "No, listen to me! I'm not the one who's lost. It's my dad!"
+                },
+                {
+                    "id": "110270108",
+                    "speaker": "Paimon",
+                    "text": "Your dad? How does a fully grown man manage to get lost in Liyue Harbor?"
+                },
+                {
+                    "id": "110270109",
+                    "speaker": "Ayu",
+                    "text": "Well... My dad's always been kinda forgetful. In the past, he was just a little slow to react sometimes, but I'm worried that it's getting more serious."
+                },
+                {
+                    "id": "110270110",
+                    "speaker": "Qiqi",
+                    "text": "So... What about your mom?"
+                },
+                {
+                    "id": "110270111",
+                    "speaker": "Ayu",
+                    "text": "She went out a few days ago to gather some herbs for my dad, but she still hasn't come back... Meanwhile, my dad's been getting worse and worse."
+                },
+                {
+                    "id": "110270112",
+                    "speaker": "Ayu",
+                    "text": "I remembered that the owner of Bubu Pharmacy always runs a clinic in Qingce Village during the Lantern Rite. So I thought, why don't I take Dad to Liyue Harbor to see him there...",
+                    "choices": [
+                        {
+                            "id": "110270113",
+                            "text": "(The owner of Bubu Pharmacy...)",
+                            "response": [
+                                {
+                                    "id": "110270115",
+                                    "speaker": "Ayu",
+                                    "text": "When we got to the city gate, I took a moment to ask the Millelith guards for directions to the pharmacy... and then when I turned back around, my dad was gone!"
+                                },
+                                {
+                                    "id": "110270116",
+                                    "speaker": "Ayu",
+                                    "text": "I asked the Millelith guys to go find him, but he said they won't be able to send that many people. So then I figured, maybe I could ask some other people in the city to help..."
+                                },
+                                {
+                                    "id": "110270117",
+                                    "speaker": "Paimon",
+                                    "text": "#You came to the right place! We're pros at finding people! Isn't that right, {NICKNAME}?"
+                                },
+                                {
+                                    "id": "110270118",
+                                    "speaker": "Player",
+                                    "text": "It'll be a piece of cake for us."
+                                },
+                                {
+                                    "id": "110270119",
+                                    "speaker": "Qiqi",
+                                    "text": "Changsheng can help. She has a good sense of smell, like a dog."
+                                },
+                                {
+                                    "id": "110270120",
+                                    "speaker": "Changsheng",
+                                    "text": "Hey! Who's talking about me behind my back?"
+                                },
+                                {
+                                    "id": "110270121",
+                                    "speaker": "Baizhu",
+                                    "text": "Changsheng, Qiqi meant that as a compliment. There's no need to be upset."
+                                },
+                                {
+                                    "id": "110270122",
+                                    "speaker": "Baizhu",
+                                    "text": "Hello, child. You mentioned that you were looking for the owner of Bubu Pharmacy. How might we be of service?"
+                                },
+                                {
+                                    "id": "110270123",
+                                    "speaker": "Ayu",
+                                    "text": "You have a talking snake...? Oh! A—Are you Uncle Baizhu?"
+                                },
+                                {
+                                    "id": "110270124",
+                                    "speaker": "Changsheng",
+                                    "text": "Pfft! \"Uncle\" Baizhu..."
+                                },
+                                {
+                                    "id": "110270125",
+                                    "speaker": "Baizhu",
+                                    "text": "...Changsheng, now's not the time."
+                                },
+                                {
+                                    "id": "110270126",
+                                    "speaker": "Baizhu",
+                                    "text": "My dear boy, could you tell me more about your father's condition? As much as you can recall."
+                                },
+                                {
+                                    "id": "110270127",
+                                    "speaker": "Ayu",
+                                    "text": "Yes, Unc— ...Dr. Baizhu."
+                                },
+                                {
+                                    "id": "110270128",
+                                    "speaker": "Black Screen",
+                                    "text": "Ayu explains his father's health situation to Baizhu..."
+                                },
+                                {
+                                    "id": "110270129",
+                                    "speaker": "Baizhu",
+                                    "text": "I see... And your family lives near Qingce Village, you say? I visit patients there frequently, but I don't recall ever seeing you or your parents."
+                                },
+                                {
+                                    "id": "110270130",
+                                    "speaker": "Ayu",
+                                    "text": "Uh-huh... My mom doesn't like meeting other people, especially during Lantern Rite. She always tells me to just stay at home and keep my dad company."
+                                },
+                                {
+                                    "id": "110270131",
+                                    "speaker": "Baizhu",
+                                    "text": "...Is that so."
+                                },
+                                {
+                                    "id": "110270132",
+                                    "speaker": "Baizhu",
+                                    "text": "Ayu, by any chance... is your mother's name Jiangli?"
+                                },
+                                {
+                                    "id": "110270133",
+                                    "speaker": "Ayu",
+                                    "text": "Whoa! Yeah, it is! Do you know my mom, Dr. Baizhu?"
+                                },
+                                {
+                                    "id": "110270134",
+                                    "speaker": "Baizhu",
+                                    "text": "I certainly do... Gui, Qiqi, are there any pressing matters in the pharmacy at the moment?"
+                                },
+                                {
+                                    "id": "110270135",
+                                    "speaker": "Baizhu",
+                                    "text": "Ayu's parents are old acquaintances of mine, so I would very much like to assist with the search... Would the two of you have time to join me?"
+                                },
+                                {
+                                    "id": "110270136",
+                                    "speaker": "Paimon",
+                                    "text": "Don't forget us two! We already told Ayu that we'd help!"
+                                },
+                                {
+                                    "id": "110270137",
+                                    "speaker": "Baizhu",
+                                    "text": "Oh really? Well, that's wonderful. We are most grateful for your support."
+                                },
+                                {
+                                    "id": "110270138",
+                                    "speaker": "Player",
+                                    "text": "You can count on us."
+                                },
+                                {
+                                    "id": "110270139",
+                                    "speaker": "Herbalist Gui",
+                                    "text": "Qiqi and I need to clear up the shop front first, but once that's taken care of, we'll be right out to help you with the search!"
+                                },
+                                {
+                                    "id": "110270140",
+                                    "speaker": "Qiqi",
+                                    "text": "Family is... very important."
+                                },
+                                {
+                                    "id": "110270141",
+                                    "speaker": "Baizhu",
+                                    "text": "Thank you. Then I'll leave you to handle the pharmacy."
+                                },
+                                {
+                                    "id": "110270142",
+                                    "speaker": "Baizhu",
+                                    "text": "#{NICKNAME}, Paimon, why don't you come with me and Ayu? Let's start by talking to the Millelith guards at the city gates, see if they have an update."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "110270114",
+                            "text": "(He must mean Baizhu.)"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "1102704",
+            "objective": "Ask the Millelith guards outside Liyue Harbor",
+            "dialogues": [
+                {
+                    "id": "110270401",
+                    "speaker": "Cai Le",
+                    "text": "...They searched to the north, but couldn't find anyone who matched the description."
+                },
+                {
+                    "id": "110270402",
+                    "speaker": "Cai Xun",
+                    "text": "Ugh, well that complicates things. The city folks say there's no sign of him, either. We need to start looking further afield... but where are we gonna get the people?"
+                },
+                {
+                    "id": "110270403",
+                    "speaker": "Ayu",
+                    "text": "Excuse me, Sirs! Have you found out anything about my dad yet?"
+                },
+                {
+                    "id": "110270404",
+                    "speaker": "Cai Xun",
+                    "text": "Ah, hey there, buddy... Dr. Baizhu? What brings you out this way?"
+                },
+                {
+                    "id": "110270405",
+                    "speaker": "Baizhu",
+                    "text": "The boy asked for our help, so we're here to join the search. Any new developments to update us on?"
+                },
+                {
+                    "id": "110270406",
+                    "speaker": "Cai Xun",
+                    "text": "Thank goodness! We were just discussing how we're running out of manpower."
+                },
+                {
+                    "id": "110270407",
+                    "speaker": "Cai Xun",
+                    "text": "As for updates... I'm sorry to say that we've searched the surrounding area thoroughly, but didn't find anything."
+                },
+                {
+                    "id": "110270408",
+                    "speaker": "Cai Le",
+                    "text": "The guards at the crossing up ahead said they hadn't seen anyone, either, so we don't believe he was heading towards the Guili Plains... But it is possible that he was bound for Luhua Pool."
+                },
+                {
+                    "id": "110270409",
+                    "speaker": "Baizhu",
+                    "text": "Luhua Pool... The terrain there can be tricky to navigate. Let's hope he hasn't run into any trouble."
+                },
+                {
+                    "id": "110270410",
+                    "speaker": "Player",
+                    "text": "We'll take that area."
+                },
+                {
+                    "id": "110270411",
+                    "speaker": "Cai Xun",
+                    "text": "You will? Great, we can't thank you enough!"
+                },
+                {
+                    "id": "110270412",
+                    "speaker": "Cai Le",
+                    "text": "Sorry we weren't able to find your dad, buddy."
+                },
+                {
+                    "id": "110270413",
+                    "speaker": "Ayu",
+                    "text": "That's okay. Thank you for trying!"
+                }
+            ]
+        },
+        {
+            "id": "1102702",
+            "objective": "Search the area near Luhua Pool",
+            "dialogues": [
+                {
+                    "id": "110270201",
+                    "speaker": "Herbalist Gui",
+                    "text": "Can you believe that little boy brought his father all this way to see the doctor? What a remarkable child."
+                },
+                {
+                    "id": "110270202",
+                    "speaker": "Herbalist Gui",
+                    "text": "I didn't even know how to buy medicine by myself when I was his age."
+                }
+            ]
+        },
+        {
+            "id": "1102703",
+            "objective": "Approach Ayu's father",
+            "dialogues": [
+                {
+                    "id": "110270301",
+                    "speaker": "Paimon",
+                    "text": "Oh no! It's... Hey, you! Stop, don't go any further...!"
+                },
+                {
+                    "id": "110270302",
+                    "speaker": "???",
+                    "text": "Watch where you're going!"
+                },
+                {
+                    "id": "110270303",
+                    "speaker": "???",
+                    "text": "...Ugh!"
+                },
+                {
+                    "id": "110270304",
+                    "speaker": "Hu Tao",
+                    "text": "Dear customer, Wangsheng Funeral Parlor does appreciate your patronage, but you needn't hasten the inevitable! Are you alright?"
+                },
+                {
+                    "id": "110270305",
+                    "speaker": "???",
+                    "text": "Ugh... Urgh..."
+                },
+                {
+                    "id": "110270306",
+                    "speaker": "Hu Tao",
+                    "text": "...Huh?"
+                },
+                {
+                    "id": "110270307",
+                    "speaker": "Ayu",
+                    "text": "Dad!"
+                },
+                {
+                    "id": "110270308",
+                    "speaker": "Paimon",
+                    "text": "Hey, Hu Tao!"
+                },
+                {
+                    "id": "110270309",
+                    "speaker": "Hu Tao",
+                    "text": "#My, my, who do we have here? Mm-hmm! It's {NICKNAME} and Paimon! And..."
+                },
+                {
+                    "id": "110270310",
+                    "speaker": "Hu Tao",
+                    "text": "...Ugh. My worst nightmare."
+                },
+                {
+                    "id": "110270311",
+                    "speaker": "Changsheng",
+                    "text": "Hah. I see she still hasn't warmed to you."
+                },
+                {
+                    "id": "110270312",
+                    "speaker": "Baizhu",
+                    "text": "Hehe, thank you, Director Hu, for saving this man."
+                },
+                {
+                    "id": "110270313",
+                    "speaker": "Ayu",
+                    "text": "Dad, are you okay? Do you recognize me? It's me, Ayu!"
+                },
+                {
+                    "id": "110270314",
+                    "speaker": "???",
+                    "text": "You're... Ayu? Uh... who am I...?"
+                },
+                {
+                    "id": "110270315",
+                    "speaker": "Ayu",
+                    "text": "Your name is Jialiang, and you live just west of Qingce Village. You were supposed to come to Liyue Harbor to see the doctor... Remember? Does that jog your memory?"
+                },
+                {
+                    "id": "110270316",
+                    "speaker": "Jialiang",
+                    "text": "My name is Jialiang... Liyue Harbor, see the doctor... Yes, yes, I'm Jialiang, and I need to see the doctor... Wait, why do I need to see the doctor...?"
+                },
+                {
+                    "id": "110270317",
+                    "speaker": "Paimon",
+                    "text": "Uh-oh, he seems in really bad shape! We need to get him back to Bubu Pharmacy right away!"
+                },
+                {
+                    "id": "110270318",
+                    "speaker": "Paimon",
+                    "text": "Sorry, Hu Tao, gotta dash. Dinner's on us next time!"
+                },
+                {
+                    "id": "110270319",
+                    "speaker": "Hu Tao",
+                    "text": "Hold on a second."
+                },
+                {
+                    "id": "110270320",
+                    "speaker": "Hu Tao",
+                    "text": "You're not seriously thinking of taking him to Bubu Pharmacy in this state, are you?"
+                },
+                {
+                    "id": "110270321",
+                    "speaker": "Paimon",
+                    "text": "Huh? Why not, what's the problem?"
+                },
+                {
+                    "id": "110270322",
+                    "speaker": "Hu Tao",
+                    "text": "Come on, Baizhu, don't tell me you haven't noticed it? Didn't your master teach you how to spot the signs?"
+                },
+                {
+                    "id": "110270323",
+                    "speaker": "Hu Tao",
+                    "text": "Why do I get the sense that you spotted them right away... but you're planning to use it for your own ends?"
+                },
+                {
+                    "id": "110270324",
+                    "speaker": "Baizhu",
+                    "text": "..."
+                },
+                {
+                    "id": "110270325",
+                    "speaker": "Paimon",
+                    "text": "Use what? What are you talking about? Paimon's lost..."
+                },
+                {
+                    "id": "110270326",
+                    "speaker": "Baizhu",
+                    "text": "...There are traces of god remains in Jialiang's system."
+                },
+                {
+                    "id": "110270327",
+                    "speaker": "Hu Tao",
+                    "text": "Yes, but more importantly, they're on the verge of an outburst. If that happens, the consequences will be unthinkable."
+                },
+                {
+                    "id": "110270328",
+                    "speaker": "Paimon",
+                    "text": "Paimon's sorry, what!?"
+                },
+                {
+                    "id": "110270329",
+                    "speaker": "Jialiang",
+                    "text": "G—God... remains...?"
+                },
+                {
+                    "id": "110270330",
+                    "speaker": "Baizhu",
+                    "text": "...There's no need to worry, Director Hu. I have methods of keeping them at bay."
+                },
+                {
+                    "id": "110270331",
+                    "speaker": "Baizhu",
+                    "text": "It is the sworn duty of all who practice medicine to cure illnesses and save lives. What reason would I have to neglect a patient in need who is right there in front of me?"
+                },
+                {
+                    "id": "110270332",
+                    "speaker": "Baizhu",
+                    "text": "Besides... it was my late master's dying wish to be able to save this patient in particular. Perhaps, out of respect for him, you could give me a day's grace so that I have time to treat him?"
+                },
+                {
+                    "id": "110270333",
+                    "speaker": "Hu Tao",
+                    "text": "Now you're bringing my great-uncle into this? Baizhu... Just what are you planning this time?"
+                },
+                {
+                    "id": "110270334",
+                    "speaker": "Baizhu",
+                    "text": "Merely to cure this man, nothing more. But of course, if you have any doubt as to my intentions, you are more than welcome to accompany me to Bubu Pharmacy, and monitor my activities."
+                },
+                {
+                    "id": "110270335",
+                    "speaker": "Hu Tao",
+                    "text": "Oh really? I thought I was persona non grata at Bubu Pharmacy? You're being unusually generous today.",
+                    "choices": [
+                        {
+                            "id": "110270336",
+                            "text": "Don't forget that we're here, too.",
+                            "response": [
+                                {
+                                    "id": "110270338",
+                                    "speaker": "Hu Tao",
+                                    "text": "...Okay, deal. We're not gonna solve anything by keeping Jialiang here."
+                                },
+                                {
+                                    "id": "110270339",
+                                    "speaker": "Hu Tao",
+                                    "text": "#I'm happy to do it your way but... only for my great-uncle's sake. And {NICKNAME}'s, of course."
+                                },
+                                {
+                                    "id": "110270340",
+                                    "speaker": "Changsheng",
+                                    "text": "#You must be pleased you brought {NICKNAME} along. Otherwise, this would've been a much more vexing ordeal."
+                                },
+                                {
+                                    "id": "110270341",
+                                    "speaker": "Baizhu",
+                                    "text": "...Well, time is of the essence. Let's get ourselves back to Bubu Pharmacy at once."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "110270337",
+                            "text": "We won't let things get out of hand."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "1102707",
+            "objective": "Return to Bubu Pharmacy",
+            "dialogues": [
+                {
+                    "id": "110270701",
+                    "speaker": "Baizhu",
+                    "text": "...Blockages within the cardiovascular system... reduced blood flow and energy circulation..."
+                },
+                {
+                    "id": "110270702",
+                    "speaker": "Baizhu",
+                    "text": "I see. I suppose this must have caused the cognitive abnormalities."
+                },
+                {
+                    "id": "110270703",
+                    "speaker": "Ayu",
+                    "text": "Dr. Baizhu... How bad is it? Can you cure him?"
+                },
+                {
+                    "id": "110270704",
+                    "speaker": "Paimon",
+                    "text": "Don't you worry, Baizhu's a really great doctor. He's sure to find a way! Isn't that right, Baizhu?"
+                },
+                {
+                    "id": "110270705",
+                    "speaker": "Baizhu",
+                    "text": "...Ayu, do you know when your father first started displaying these symptoms?"
+                },
+                {
+                    "id": "110270706",
+                    "speaker": "Ayu",
+                    "text": "Um... I'm not sure. He's been like this for as long as I can remember, but it wasn't as bad as this when I was still little..."
+                },
+                {
+                    "id": "110270707",
+                    "speaker": "Baizhu",
+                    "text": "Hmm, so it's been a long time indeed..."
+                },
+                {
+                    "id": "110270708",
+                    "speaker": "Player",
+                    "text": "Is it a grim prognosis...?"
+                },
+                {
+                    "id": "110270709",
+                    "speaker": "Baizhu",
+                    "text": "...No, I have a treatment plan in mind. We can start tonight."
+                },
+                {
+                    "id": "110270710",
+                    "speaker": "Baizhu",
+                    "text": "Come and see me again tomorrow morning. I promise that by then, Ayu will find his father healthy and lucid again."
+                },
+                {
+                    "id": "110270711",
+                    "speaker": "Ayu",
+                    "text": "Thank you, Dr. Baizhu, thank you so much!"
+                },
+                {
+                    "id": "110270712",
+                    "speaker": "Baizhu",
+                    "text": "If you still have any misgivings, Director Hu, please feel free to hang around for as long as you wish."
+                },
+                {
+                    "id": "110270713",
+                    "speaker": "Changsheng",
+                    "text": "However, it would be best if you step outside this room. A doctor must be able to focus when treating a patient. Any distractions heighten the risk of complications."
+                },
+                {
+                    "id": "110270714",
+                    "speaker": "Hu Tao",
+                    "text": "Yes, of course, absolutely, I'll just go and look at the flowers, or something... But I will be back in an instant at the first sign that something's amiss."
+                },
+                {
+                    "id": "110270715",
+                    "speaker": "Player",
+                    "text": "We'll be heading out now, too."
+                },
+                {
+                    "id": "110270716",
+                    "speaker": "Paimon",
+                    "text": "See you tomorrow, Baizhu and Changsheng!"
+                },
+                {
+                    "id": "110270717",
+                    "speaker": "Baizhu",
+                    "text": "Bye for now, everyone."
+                },
+                {
+                    "id": "110270718",
+                    "speaker": "Changsheng",
+                    "text": "...Are you ready, Baizhu?"
+                },
+                {
+                    "id": "110270719",
+                    "speaker": "Baizhu",
+                    "text": "...Ready as I'll ever be — I'm used to it by now. Come on, let's get started."
+                }
+            ]
+        },
+        {
+            "id": "1102709",
+            "objective": "Exit Bubu Pharmacy",
+            "dialogues": [
+                {
+                    "id": "110270901",
+                    "speaker": "Paimon",
+                    "text": "Phew... All's well that ends well, huh?"
+                },
+                {
+                    "id": "110270902",
+                    "speaker": "Paimon",
+                    "text": "Y'know, Paimon's kind of curious after hearing Baizhu mention those people from his past... What do you think they were like?",
+                    "choices": [
+                        {
+                            "id": "110270903",
+                            "text": "You mean Baizhu's master?",
+                            "response": [
+                                {
+                                    "id": "110270905",
+                                    "speaker": "Paimon",
+                                    "text": "Yeah! You must be curious too, right? Let's go see what we can find out while Baizhu's busy treating Ayu's dad!"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "110270904",
+                            "text": "You mean Ayu's mother?"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "1102708",
+            "objective": "Ask around for information",
+            "dialogues": [
+                {
+                    "id": "110270801",
+                    "speaker": "Hu Tao",
+                    "text": "While I'm idling time on admiring the scenery, the spectacled snake-bedecked doc's doing surgery..."
+                },
+                {
+                    "id": "110270802",
+                    "speaker": "Hu Tao",
+                    "text": "Hello, you busy bees. And what do you have to discuss with the Funeral Director today?"
+                },
+                {
+                    "id": "110270803",
+                    "speaker": "Player",
+                    "text": "Um, so..."
+                },
+                {
+                    "id": "110270804",
+                    "speaker": "Hu Tao",
+                    "text": "Actually, don't tell me — let me guess! Hmm... From the looks on your faces, you've got some questions for me?"
+                },
+                {
+                    "id": "110270805",
+                    "speaker": "Paimon",
+                    "text": "Ehehe... guilty as charged! So, um, we were just a little curious about Baizhu's Master. What was he like?"
+                },
+                {
+                    "id": "110270806",
+                    "speaker": "Paimon",
+                    "text": "Oh, and also — how come you and Baizhu could tell so quickly that Jialiang had god remains in his system?"
+                },
+                {
+                    "id": "110270807",
+                    "speaker": "Hu Tao",
+                    "text": "Huh? I thought I told you once before? Wangsheng Funeral Parlor was first founded to fight back against the vengeful wrath of gods defeated in war.",
+                    "choices": [
+                        {
+                            "id": "110270808",
+                            "text": "Oh, that vaguely rings a bell...",
+                            "response": [
+                                {
+                                    "id": "110270810",
+                                    "speaker": "Hu Tao",
+                                    "text": "Hah. Well, it is a dusty old tale by this point. Long story short: In the ancient world, dead gods were acting up, so our ancestors started purifying the air and burning the bodies of the deceased to guard the border between life and death..."
+                                },
+                                {
+                                    "id": "110270811",
+                                    "speaker": "Hu Tao",
+                                    "text": "These days, we don't deal with the wrath of the gods anymore, but all the relevant know-how is still passed down to each generation. So we can identify gods' remains when we see them."
+                                },
+                                {
+                                    "id": "110270812",
+                                    "speaker": "Paimon",
+                                    "text": "Okay, Paimon gets it now. ...Wait, so how did Baizhu learn to spot them?"
+                                },
+                                {
+                                    "id": "110270813",
+                                    "speaker": "Hu Tao",
+                                    "text": "Almost certainly from his master — who was also my great-uncle. Baizhu's master was my grandpa's younger brother, a former deputy director of Wangsheng Funeral Parlor."
+                                },
+                                {
+                                    "id": "110270814",
+                                    "speaker": "Paimon",
+                                    "text": "Wow, fancy that! Huh... So, if he was from Wangsheng Funeral Parlor, how'd he end up as Baizhu's Master?"
+                                },
+                                {
+                                    "id": "110270815",
+                                    "speaker": "Hu Tao",
+                                    "text": "According to my grandpa, he and my great-uncle once went traveling together when they were young. They ended up at Chenyu Vale, where they met a pharmacist."
+                                },
+                                {
+                                    "id": "110270816",
+                                    "speaker": "Hu Tao",
+                                    "text": "That pharmacist must've cast some sort of spell on my great-uncle, because after that encounter, he suddenly announced he wanted to leave the family business and go practice medicine instead."
+                                },
+                                {
+                                    "id": "110270817",
+                                    "speaker": "Hu Tao",
+                                    "text": "My grandpa had a huge argument with him, but he couldn't convince him to stay."
+                                },
+                                {
+                                    "id": "110270818",
+                                    "speaker": "Hu Tao",
+                                    "text": "So my grandpa inherited the Funeral Parlor, while my great-uncle stayed in Chenyu Vale to practice medicine... They never spoke to each other again."
+                                },
+                                {
+                                    "id": "110270819",
+                                    "speaker": "Paimon",
+                                    "text": "Funeral director to doctor is a pretty big career change. Kinda hard to imagine... But why did it drive a wedge between them for the rest of their lives? That seems a bit extreme."
+                                },
+                                {
+                                    "id": "110270820",
+                                    "speaker": "Hu Tao",
+                                    "text": "If he had just become a regular doctor, there would have been no issue. After all, the Wangsheng Funeral Parlor wasn't unlike a regular doctor's clinic in the early days."
+                                },
+                                {
+                                    "id": "110270821",
+                                    "speaker": "Hu Tao",
+                                    "text": "But according to my grandpa, the pharmacist they met had a very ominous aura about him..."
+                                },
+                                {
+                                    "id": "110270822",
+                                    "speaker": "Hu Tao",
+                                    "text": "...And on top of that, the kind of medicine practiced in the Chenyu Vale tradition goes against the natural order of things."
+                                },
+                                {
+                                    "id": "110270823",
+                                    "speaker": "Paimon",
+                                    "text": "...In what way?"
+                                },
+                                {
+                                    "id": "110270824",
+                                    "speaker": "Hu Tao",
+                                    "text": "Don't know. My grandpa didn't know the specifics, and you've seen how wary Baizhu is around me. He'd never tell me anything..."
+                                },
+                                {
+                                    "id": "110270825",
+                                    "speaker": "Hu Tao",
+                                    "text": "But even that says to me that he definitely has something to hide."
+                                },
+                                {
+                                    "id": "110270826",
+                                    "speaker": "Hu Tao",
+                                    "text": "One thing I do know about Baizhu is that he's obsessed with the idea of immortality... But whether that has anything to do with what he's hiding is hard to say."
+                                },
+                                {
+                                    "id": "110270827",
+                                    "speaker": "Player",
+                                    "text": "(Immortality...?)"
+                                },
+                                {
+                                    "id": "110270828",
+                                    "speaker": "Hu Tao",
+                                    "text": "Anyway, so I will be sticking around here for now to keep a close eye on the situation. Maybe tomorrow, I'll finally figure out what he's up to..."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "110270809",
+                            "text": "But the details are hazy..."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "1102705",
+            "objective": "Wait till the next morning (08:00 – 10:00)",
+            "dialogues": [
+                {
+                    "id": "110270501",
+                    "speaker": "Qiqi",
+                    "text": "His family. We have to find them."
+                }
+            ]
+        },
+        {
+            "id": "1102706",
+            "objective": "Talk to Baizhu",
+            "dialogues": [
+                {
+                    "id": "110270658",
+                    "speaker": "Paimon",
+                    "text": "Huh, Paimon doesn't think we've seen this side of you. But there's no need to thank us! You've helped us out before."
+                },
+                {
+                    "id": "110270660",
+                    "speaker": "Player",
+                    "text": "So. What are the next steps?"
+                },
+                {
+                    "id": "110270661",
+                    "speaker": "Baizhu",
+                    "text": "The poison in Jialiang's system must have accumulated over a prolonged period. I think I should pay a visit to their family home, and look for clues as to how he might have been exposed to it."
+                },
+                {
+                    "id": "110270662",
+                    "speaker": "Player",
+                    "text": "Do you know where his house is?"
+                },
+                {
+                    "id": "110270663",
+                    "speaker": "Baizhu",
+                    "text": "Yes. I asked Ayu this morning before you arrived. He told me that his family lives in a secluded spot to the west of Qingce Village."
+                },
+                {
+                    "id": "110270664",
+                    "speaker": "Baizhu",
+                    "text": "Let's head there together once I've asked Gui and Qiqi to look after the pharmacy."
+                },
+                {
+                    "id": "110270665",
+                    "speaker": "Baizhu",
+                    "text": "...As well as investigating Jialiang's exposure to the poison, we should also keep an eye out for Ayu's missing mother... my fellow disciple, Jiangli."
+                }
+            ]
+        },
+        {
+            "id": "1102706",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "110270601",
+                    "speaker": "Ayu",
+                    "text": "Dad!"
+                },
+                {
+                    "id": "110270602",
+                    "speaker": "Jialiang",
+                    "text": "Huh... Ayu!"
+                },
+                {
+                    "id": "110270603",
+                    "speaker": "Ayu",
+                    "text": "Dad! You remember me!"
+                },
+                {
+                    "id": "110270604",
+                    "speaker": "Jialiang",
+                    "text": "Yes, I remember now! Oh, Ayu, I'm so sorry, you must have been worried sick... Has your mom shown up yet? She's... been gone for a while, hasn't she?"
+                },
+                {
+                    "id": "110270605",
+                    "speaker": "Ayu",
+                    "text": "Don't worry, Dad! I got the Adventurers' Guild to help us look for her. And Dr. Baizhu's gonna help too! Right now, all you need to do is concentrate on getting better!"
+                },
+                {
+                    "id": "110270606",
+                    "speaker": "Jialiang",
+                    "text": "Great, that's wonderful... I can't thank you enough, Dr. Baizhu."
+                },
+                {
+                    "id": "110270607",
+                    "speaker": "Baizhu",
+                    "text": "My pleasure, really. It's the least I can do to honor my late master's dying wish. If anything, I should be apologizing to you for not making the time to visit in all these years."
+                },
+                {
+                    "id": "110270608",
+                    "speaker": "Jialiang",
+                    "text": "Hah, not at all, Dr. Baizhu. It's only because Jiangli... hmm... What was her reason again..."
+                },
+                {
+                    "id": "110270609",
+                    "speaker": "Baizhu",
+                    "text": "...You're still in the early stages of recovery, so you'll need to take it easy for a while. Take it slowly, and try not to over-exert yourself."
+                },
+                {
+                    "id": "110270610",
+                    "speaker": "Changsheng",
+                    "text": "I suggest you stay at Bubu Pharmacy and rest for at least the next few days."
+                },
+                {
+                    "id": "110270611",
+                    "speaker": "Baizhu",
+                    "text": "Director Hu, do you have any further reservations about Jialiang's condition?"
+                },
+                {
+                    "id": "110270612",
+                    "speaker": "Hu Tao",
+                    "text": "...Hmm, it seems like the evil presence is gone after all. You really did manage to suppress it, huh..."
+                },
+                {
+                    "id": "110270613",
+                    "speaker": "Hu Tao",
+                    "text": "...But how did you accomplish this in a single night?"
+                },
+                {
+                    "id": "110270614",
+                    "speaker": "Baizhu",
+                    "text": "Hahaha, that would be a trade secret, I'm afraid. If that gives you any cause for concern, you may continue to monitor Jialiang for as long as you wish."
+                },
+                {
+                    "id": "110270615",
+                    "speaker": "Baizhu",
+                    "text": "Though I regret to say that Bubu Pharmacy cannot offer to reimburse Wangsheng Funeral Parlor for any revenue lost in the meantime."
+                },
+                {
+                    "id": "110270616",
+                    "speaker": "Hu Tao",
+                    "text": "...Oh, come on, Baizhu. I'm not THAT unreasonable."
+                },
+                {
+                    "id": "110270617",
+                    "speaker": "Baizhu",
+                    "text": "..."
+                },
+                {
+                    "id": "110270618",
+                    "speaker": "Player",
+                    "text": "(Baizhu looks a little worse for wear...)"
+                },
+                {
+                    "id": "110270619",
+                    "speaker": "Player",
+                    "text": "(Something's wrong.)"
+                },
+                {
+                    "id": "110270620",
+                    "speaker": "Changsheng",
+                    "text": "Ahhhhh — I've been stuck indoors for too long. Baizhu, take me outside for some air, or I'm going to suffocate!"
+                },
+                {
+                    "id": "110270621",
+                    "speaker": "Baizhu",
+                    "text": "Ah yes, of course... Everyone, please excuse Changsheng and myself for a moment."
+                },
+                {
+                    "id": "110270622",
+                    "speaker": "Baizhu",
+                    "text": "... *cough* *cough*"
+                },
+                {
+                    "id": "110270623",
+                    "speaker": "Changsheng",
+                    "text": "Suffering now, are we? Did you seriously expect to cover it up just by putting on a brave face and ignoring it? If it weren't for my quick thinking, they'd all have seen the sorry state you're in by now."
+                },
+                {
+                    "id": "110270624",
+                    "speaker": "Changsheng",
+                    "text": "But in any case, why must you keep this a secret from everybody? You should at least share your secret with one person you trust..."
+                },
+                {
+                    "id": "110270625",
+                    "speaker": "Baizhu",
+                    "text": "Who's there?"
+                },
+                {
+                    "id": "110270626",
+                    "speaker": "Paimon",
+                    "text": "Aaaah!!!!",
+                    "choices": [
+                        {
+                            "id": "110270627",
+                            "text": "It's me.",
+                            "response": [
+                                {
+                                    "id": "110270629",
+                                    "speaker": "Baizhu",
+                                    "text": "...Why did you follow us here?"
+                                },
+                                {
+                                    "id": "110270630",
+                                    "speaker": "Player",
+                                    "text": "I thought you were looking a little unwell..."
+                                },
+                                {
+                                    "id": "110270631",
+                                    "speaker": "Baizhu",
+                                    "text": "Oh, hehe, it's nothing. I just needed to get some air... *cough*"
+                                },
+                                {
+                                    "id": "110270632",
+                                    "speaker": "Changsheng",
+                                    "text": "What did I JUST say about putting on a brave face? Tsk..."
+                                },
+                                {
+                                    "id": "110270633",
+                                    "speaker": "Changsheng",
+                                    "text": "#{NICKNAME}, Paimon, the truth is... Baizhu did not cure Jialiang's illness."
+                                },
+                                {
+                                    "id": "110270634",
+                                    "speaker": "Changsheng",
+                                    "text": "Instead, he transferred some of his own life force to his patient to temporarily subdue the poison in his system.",
+                                    "choices": [
+                                        {
+                                            "id": "110270635",
+                                            "text": "...Life force?",
+                                            "response": [
+                                                {
+                                                    "id": "110270637",
+                                                    "speaker": "Baizhu",
+                                                    "text": "*sigh*"
+                                                },
+                                                {
+                                                    "id": "110270638",
+                                                    "speaker": "Paimon",
+                                                    "text": "Baizhu... Can you please explain all of this?"
+                                                },
+                                                {
+                                                    "id": "110270639",
+                                                    "speaker": "Baizhu",
+                                                    "text": "...My predecessors in medicine forged a contract with Changsheng. Every successor to this contract is able to use Changsheng's secret art to treat patients."
+                                                },
+                                                {
+                                                    "id": "110270640",
+                                                    "speaker": "Baizhu",
+                                                    "text": "I believe the irregularities with Jialiang's heart meridian were likely caused by a poison concocted using god remains as a key ingredient."
+                                                },
+                                                {
+                                                    "id": "110270641",
+                                                    "speaker": "Baizhu",
+                                                    "text": "The poison has not been purged from Jialiang's system. Rather, I infused him with some of my own life force using Changsheng as the delivery medium. This will suppress the poison's effects for a limited time."
+                                                },
+                                                {
+                                                    "id": "110270642",
+                                                    "speaker": "Paimon",
+                                                    "text": "Changsheng... You can do that? Paimon always thought you were just Baizhu's strange choice of a necklace..."
+                                                },
+                                                {
+                                                    "id": "110270643",
+                                                    "speaker": "Changsheng",
+                                                    "text": "Hey! I'll have you know that I commanded the respect of even the adepti back in Chenyu Vale. If anything, he is my mannequin!"
+                                                },
+                                                {
+                                                    "id": "110270644",
+                                                    "speaker": "Changsheng",
+                                                    "text": "I was treating patients with Baizhu's master's master long before he ever set eyes on his first medical text!"
+                                                },
+                                                {
+                                                    "id": "110270645",
+                                                    "speaker": "Paimon",
+                                                    "text": "Whoa... Guess you shouldn't judge a snake by its skin."
+                                                },
+                                                {
+                                                    "id": "110270646",
+                                                    "speaker": "Baizhu",
+                                                    "text": "Please, that's enough... *cough* *cough*",
+                                                    "choices": [
+                                                        {
+                                                            "id": "110270647",
+                                                            "text": "You're looking even worse now than before...",
+                                                            "response": [
+                                                                {
+                                                                    "id": "110270649",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "Wait a sec... Hu Tao was saying that the branch of medicine you studied uses some pretty dubious methods... So when you transfer your life force, does that mean you're actually damaging your own body?"
+                                                                },
+                                                                {
+                                                                    "id": "110270650",
+                                                                    "speaker": "Baizhu",
+                                                                    "text": "Hardly. Changsheng helps to keep my qi in balance, so there is no great harm done..."
+                                                                },
+                                                                {
+                                                                    "id": "110270651",
+                                                                    "speaker": "Changsheng",
+                                                                    "text": "...Still, Baizhu's life force is not unlimited. We must find a way to neutralize the poison in Jialiang's body, and soon."
+                                                                },
+                                                                {
+                                                                    "id": "110270652",
+                                                                    "speaker": "Changsheng",
+                                                                    "text": "#{NICKNAME}, Paimon, would you lend this dummy a hand? He needs someone checking up on him, or he'll exhaust himself trying to accomplish everything on his own..."
+                                                                },
+                                                                {
+                                                                    "id": "110270653",
+                                                                    "speaker": "Baizhu",
+                                                                    "text": "..."
+                                                                },
+                                                                {
+                                                                    "id": "110270654",
+                                                                    "speaker": "Player",
+                                                                    "text": "Go on, Baizhu. Let us help you."
+                                                                },
+                                                                {
+                                                                    "id": "110270655",
+                                                                    "speaker": "Changsheng",
+                                                                    "text": "...Baizhu, don't you think you should seize this opportunity? You cannot expect to hide this from everyone for your entire life. Time will see that all secrets surface eventually."
+                                                                },
+                                                                {
+                                                                    "id": "110270656",
+                                                                    "speaker": "Baizhu",
+                                                                    "text": "*sigh*... \"Entire life\"..."
+                                                                },
+                                                                {
+                                                                    "id": "110270657",
+                                                                    "speaker": "Baizhu",
+                                                                    "text": "#...Thank you, {NICKNAME} and Paimon."
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "id": "110270648",
+                                                            "text": "...Are you sure you're okay?"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "110270636",
+                                            "text": "...Poison?"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "110270628",
+                            "text": "#{NICKNAME}."
+                        }
+                    ]
+                },
+                {
+                    "id": "110270659",
+                    "speaker": "Paimon",
+                    "text": "Huh, Paimon doesn't think we've seen this side of you before."
+                }
+            ]
+        },
+        {
+            "id": "1102710",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "110271001",
+                    "speaker": "Cai Xun",
+                    "text": "I'm afraid we have to stay at our posts, so we won't be able to join you on the search."
+                }
+            ]
+        },
+        {
+            "id": "1102711",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "110271101",
+                    "speaker": "Player",
+                    "text": "(Baizhu and Changsheng are treating Jialiang right now... I should come back tomorrow.)"
+                }
+            ]
+        },
+        {
+            "id": "1102712",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "110271201",
+                    "speaker": "Ayu",
+                    "text": "Mr. Gui, I wanna go to the Adventurers' Guild and get them to help look for my mom. Should I take anything with me?"
+                },
+                {
+                    "id": "110271202",
+                    "speaker": "Herbalist Gui",
+                    "text": "Hmm... You'll need enough cash to pay their fees, and there'll be some paperwork to fill out... I can come with you if you'd like?"
+                },
+                {
+                    "id": "110271203",
+                    "speaker": "Paimon",
+                    "text": "Wow, these two are hard at work... We probably shouldn't disturb them."
+                }
+            ]
+        },
+        {
+            "id": "1102713",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "110271301",
+                    "speaker": "Qiqi",
+                    "text": "Jiangli... Master... Dr. Baizhu has never mentioned them before..."
+                },
+                {
+                    "id": "110271302",
+                    "speaker": "Qiqi",
+                    "text": "But more importantly... Is you-know-who gone yet?"
+                },
+                {
+                    "id": "110271303",
+                    "speaker": "Qiqi",
+                    "text": "Ohhh... I need to find a better hiding place..."
+                }
+            ]
+        },
+        {
+            "id": "1102714",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "110271401",
+                    "speaker": "Hu Tao",
+                    "text": "Oh, while you're here — have either of you seen Qiqi around?"
+                },
+                {
+                    "id": "110271402",
+                    "speaker": "Hu Tao",
+                    "text": "It's not every day I get to infiltrate Baizhu's lair. But alas, I didn't catch a single glimpse of her anywhere..."
+                },
+                {
+                    "id": "110271403",
+                    "speaker": "Hu Tao",
+                    "text": "Aha! What if... Baizhu knew I'd be on the lookout for her, and hid her away in advance?"
+                }
+            ]
+        },
+        {
+            "id": "1102715",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "110271501",
+                    "speaker": "Cai Le",
+                    "text": "We'll update our superiors on the situation and see if they can assign anyone else to help."
+                }
+            ]
+        },
+        {
+            "id": "1102798",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "110279802",
+                    "speaker": "Black Screen",
+                    "text": "The group returns to the back room at Bubu Pharmacy..."
+                }
+            ]
+        },
+        {
+            "id": "1102799",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "110279901",
+                    "speaker": "Ayu",
+                    "text": "Daaaaad!"
+                },
+                {
+                    "id": "110279902",
+                    "speaker": "Ayu",
+                    "text": "Daaaaaaad...! Can you hear me...?"
+                },
+                {
+                    "id": "110279903",
+                    "speaker": "Paimon",
+                    "text": "Look, there's somebody over there!"
+                },
+                {
+                    "id": "110279904",
+                    "speaker": "Paimon",
+                    "text": "Whew... After all that, it seems like we have more questions than answers!"
+                },
+                {
+                    "id": "110279905",
+                    "speaker": "Paimon",
+                    "text": "Never mind. We'll just have to ask Baizhu himself about all of this tomorrow!"
+                },
+                {
+                    "id": "110279906",
+                    "speaker": "Paimon",
+                    "text": "It's a new day! Let's go back to Bubu Pharmacy and check out how Jialiang is doing!"
+                }
+            ]
+        }
+    ]
+}

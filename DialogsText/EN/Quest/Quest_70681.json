@@ -1,0 +1,863 @@
+{
+    "quest": {
+        "id": "70681",
+        "title": "The Call of Mystical Martial Arts",
+        "description": "An Adventurer wants to seek out the legendary martial arts of Liyue, yet no sooner had they set foot on the road than they ran into mortal danger...",
+        "rewards": [
+            {
+                "itemId": 102,
+                "count": 150
+            },
+            {
+                "itemId": 202,
+                "count": 20000
+            },
+            {
+                "itemId": 104003,
+                "count": 3
+            }
+        ],
+        "rewards_formatted": "Adventure EXP x150, Mora x20000, Hero's Wit x3",
+        "chapter": {
+            "icon": "",
+            "id": "",
+            "num": "",
+            "title": ""
+        },
+        "total_dialogue_lines": 145,
+        "total_speaker_counts": {
+            "Black Screen": 6,
+            "Gesine": 69,
+            "Paimon": 36,
+            "Player": 34
+        }
+    },
+    "talks": [
+        {
+            "id": "7068101",
+            "objective": "Go to <color=#00E1FFFF>Windwail Highland</color>",
+            "dialogues": []
+        },
+        {
+            "id": "7068102",
+            "objective": "Save the adventurer",
+            "dialogues": []
+        },
+        {
+            "id": "7068103",
+            "objective": "Talk to the adventurer",
+            "dialogues": [
+                {
+                    "id": "706810301",
+                    "speaker": "Gesine",
+                    "text": "Phew... Saved at last... Thank you so much!"
+                },
+                {
+                    "id": "706810302",
+                    "speaker": "Gesine",
+                    "text": "I am called Gesine. As you can see, I am an Adventurer."
+                },
+                {
+                    "id": "706810303",
+                    "speaker": "Gesine",
+                    "text": "#Someone as skilled as you is surely no ordinary person! Are you a well-meaning knight? Or perhaps an errant {M#hero}{F#heroine}, wandering the land?",
+                    "choices": [
+                        {
+                            "id": "706810304",
+                            "text": "I am but a passing traveler.",
+                            "response": [
+                                {
+                                    "id": "706810309",
+                                    "speaker": "Paimon",
+                                    "text": "#Paimon's name is Paimon, and {M#he's}{F#she's} {NICKNAME}, who also happens to be a member of the Adventurers' Guild!"
+                                },
+                                {
+                                    "id": "706810310",
+                                    "speaker": "Gesine",
+                                    "text": "So you are an adventurer after all, and quite the experienced one at that! You were able to dispose of such powerful monsters so easily... there really always is a bigger fish."
+                                },
+                                {
+                                    "id": "706810311",
+                                    "speaker": "Gesine",
+                                    "text": "Whereas for me... In training, I can easily remember what to do, but the second I have to do it for real, my body just doesn't listen to me..."
+                                },
+                                {
+                                    "id": "706810312",
+                                    "speaker": "Gesine",
+                                    "text": "Do I really have to train for another three to five years like my teacher said? But it'll be totally humiliating if I go back empty-handed like this... *sobs*"
+                                },
+                                {
+                                    "id": "706810313",
+                                    "speaker": "Paimon",
+                                    "text": "Aww, it's probably just because we have more experience! It took us a long time and a lot of battles before we got this strong!",
+                                    "choices": [
+                                        {
+                                            "id": "706810314",
+                                            "text": "First, you need to be able to stay calm.",
+                                            "response": [
+                                                {
+                                                    "id": "706810315",
+                                                    "speaker": "Paimon",
+                                                    "text": "Yeah! Rookies often panic when they get into a real fight, so they tend to perform way worse than they might have otherwise."
+                                                },
+                                                {
+                                                    "id": "706810316",
+                                                    "speaker": "Paimon",
+                                                    "text": "No matter how strong the enemy looks, you've gotta keep a cool head while you observe them and find their weak point!"
+                                                },
+                                                {
+                                                    "id": "706810317",
+                                                    "speaker": "Paimon",
+                                                    "text": "And then you can take 'em down in a flash with a good ol' one-two, whap, ka-pow!"
+                                                },
+                                                {
+                                                    "id": "706810320",
+                                                    "speaker": "Gesine",
+                                                    "text": "I see... Now that's experience talking! It seems I still need to hone my skills as I travel."
+                                                },
+                                                {
+                                                    "id": "706810321",
+                                                    "speaker": "Player",
+                                                    "text": "Are you on a journey as well?"
+                                                },
+                                                {
+                                                    "id": "706810322",
+                                                    "speaker": "Gesine",
+                                                    "text": "Yes... I'm planning a trip to <color=#00E1FFFF>Liyue</color>."
+                                                },
+                                                {
+                                                    "id": "706810323",
+                                                    "speaker": "Gesine",
+                                                    "text": "Have you heard of the martial arts of Liyue? I've heard people can fly from rooftop to rooftop and run up walls, harden their skin so weapons can't pierce them, and even split iron like it was kindling!"
+                                                },
+                                                {
+                                                    "id": "706810324",
+                                                    "speaker": "Gesine",
+                                                    "text": "If I could find a master to teach me a thing or two, I bet this whole adventuring thing would be a lot easier for me."
+                                                },
+                                                {
+                                                    "id": "706810325",
+                                                    "speaker": "Gesine",
+                                                    "text": "But to be perfectly honest, though I've been a member of the Adventurers' Guild for quite some time now, this is my first time going on a long trip."
+                                                },
+                                                {
+                                                    "id": "706810326",
+                                                    "speaker": "Gesine",
+                                                    "text": "*sigh* And no sooner had I left the city than I found my way blocked by monsters. Can I really make it to Liyue in one piece...?",
+                                                    "choices": [
+                                                        {
+                                                            "id": "706810327",
+                                                            "text": "We're on our way to Liyue too.",
+                                                            "response": [
+                                                                {
+                                                                    "id": "706810329",
+                                                                    "speaker": "Gesine",
+                                                                    "text": "Really? Or is it possible someone as experienced as you is also seeking someone of great prowess?"
+                                                                },
+                                                                {
+                                                                    "id": "706810330",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "Not really! We're just traveling across all the nations of Teyvat for... reasons."
+                                                                },
+                                                                {
+                                                                    "id": "706810331",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "Though we don't know Liyue all that well, we were planning on going there sooner or later anyway!"
+                                                                },
+                                                                {
+                                                                    "id": "706810332",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "Since we're heading the same way, we can watch each others' backs!"
+                                                                },
+                                                                {
+                                                                    "id": "706810333",
+                                                                    "speaker": "Gesine",
+                                                                    "text": "Wow! I never imagined I'd be able to work with an adventurer as accomplished as yourself... There's hope for my journey after all!"
+                                                                },
+                                                                {
+                                                                    "id": "706810334",
+                                                                    "speaker": "Gesine",
+                                                                    "text": "Let me lead the way then. I studied the map carefully before I left, so there's no way I'll get lost!"
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "id": "706810328",
+                                                            "text": "Care to join us?"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "706810318",
+                                            "text": "It's also important to judge the situation.",
+                                            "response": [
+                                                {
+                                                    "id": "706810319",
+                                                    "speaker": "Paimon",
+                                                    "text": "Yeah! If you can tell the enemy is way above your pay grade, it's better to get out while you still can. Don't try and be a hero!"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "706810305",
+                            "text": "I would prefer not to reveal my identity...",
+                            "response": [
+                                {
+                                    "id": "706810306",
+                                    "speaker": "Gesine",
+                                    "text": "I understand! You must be charged with a secret mission, and must be discreet in your dealings..."
+                                },
+                                {
+                                    "id": "706810307",
+                                    "speaker": "Player",
+                                    "text": "Yep, that's pretty much it."
+                                },
+                                {
+                                    "id": "706810308",
+                                    "speaker": "Paimon",
+                                    "text": "Okay, that's enough with the mysterious act!"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "7068104",
+            "objective": "Continue forward with Gesine",
+            "dialogues": [
+                {
+                    "id": "706810401",
+                    "speaker": "Gesine",
+                    "text": "Sorry! Can you wait here for a moment?"
+                },
+                {
+                    "id": "706810402",
+                    "speaker": "Player",
+                    "text": "What is it?"
+                },
+                {
+                    "id": "706810403",
+                    "speaker": "Paimon",
+                    "text": "Did you forget something?"
+                },
+                {
+                    "id": "706810404",
+                    "speaker": "Gesine",
+                    "text": "No, that I didn't. But looking at the map, if we go any further, we'll have left Mondstadt."
+                },
+                {
+                    "id": "706810405",
+                    "speaker": "Gesine",
+                    "text": "And there's no way to know when I'll return... When my teacher sees my message, he'll flip his lid...",
+                    "choices": [
+                        {
+                            "id": "706810406",
+                            "text": "You've mentioned your teacher before...",
+                            "response": [
+                                {
+                                    "id": "706810408",
+                                    "speaker": "Gesine",
+                                    "text": "Yes... When he first became an Adventurer, he ran into some Mitachurls out in the wild. During the melee, he let his guard down and got knocked out by an axe."
+                                },
+                                {
+                                    "id": "706810409",
+                                    "speaker": "Gesine",
+                                    "text": "He was lucky a passing Knight saved him and took him back."
+                                },
+                                {
+                                    "id": "706810410",
+                                    "speaker": "Gesine",
+                                    "text": "He was so ashamed, he decided to train his combat skills to the absolute max before he went out again. He's now been training for a decade..."
+                                },
+                                {
+                                    "id": "706810411",
+                                    "speaker": "Gesine",
+                                    "text": "He always says the basics are the most important, but I just can't stand hacking away at wooden dummies every day!"
+                                },
+                                {
+                                    "id": "706810412",
+                                    "speaker": "Gesine",
+                                    "text": "So I went out alone, without telling him...",
+                                    "choices": [
+                                        {
+                                            "id": "706810413",
+                                            "text": "Go back once you're stronger.",
+                                            "response": [
+                                                {
+                                                    "id": "706810415",
+                                                    "speaker": "Gesine",
+                                                    "text": "Yeah! That's exactly what I was thinking."
+                                                },
+                                                {
+                                                    "id": "706810416",
+                                                    "speaker": "Gesine",
+                                                    "text": "Ah, I've got it..."
+                                                },
+                                                {
+                                                    "id": "706810417",
+                                                    "speaker": "Black Screen",
+                                                    "text": "Gesine takes out some Dandelion Seeds from her pack, placing them on her palm. She speaks softly to them, and then releases them to be scattered by the wind..."
+                                                },
+                                                {
+                                                    "id": "706810418",
+                                                    "speaker": "Gesine",
+                                                    "text": "According to our customs, Dandelions can carry wishes."
+                                                },
+                                                {
+                                                    "id": "706810419",
+                                                    "speaker": "Gesine",
+                                                    "text": "I just wished that everything will go smoothly on my journey, that I'll reach my goals, and that my teacher will understand me."
+                                                },
+                                                {
+                                                    "id": "706810420",
+                                                    "speaker": "Player",
+                                                    "text": "I am certain the Anemo Archon has heard your wish."
+                                                },
+                                                {
+                                                    "id": "706810421",
+                                                    "speaker": "Gesine",
+                                                    "text": "Yeah! Time to forge ahead!"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "706810414",
+                                            "text": "Do something he'd be proud of."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "706810407",
+                            "text": "Is he an Adventurer too?"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "7068105",
+            "objective": "Go to the <color=#00E1FFFF>Stone Gate</color>",
+            "dialogues": [
+                {
+                    "id": "706810501",
+                    "speaker": "Gesine",
+                    "text": "That's <color=#00E1FFFF>Dihua Marsh</color> up ahead, right? It's so beautiful! You won't see anything like this in Mondstadt."
+                },
+                {
+                    "id": "706810502",
+                    "speaker": "Gesine",
+                    "text": "I knew that going on a journey was the right decision!"
+                },
+                {
+                    "id": "706810503",
+                    "speaker": "Gesine",
+                    "text": "Oh, right! This doesn't happen every day, so let's take a picture together as a keepsake!"
+                }
+            ]
+        },
+        {
+            "id": "7068106",
+            "objective": "Take a commemorative photo nearby",
+            "dialogues": []
+        },
+        {
+            "id": "7068107",
+            "objective": "Talk to Gesine",
+            "dialogues": [
+                {
+                    "id": "706810701",
+                    "speaker": "Gesine",
+                    "text": "I'll treasure this photo of us together!"
+                },
+                {
+                    "id": "706810702",
+                    "speaker": "Gesine",
+                    "text": "Ah! I didn't realize how hungry I was until I relaxed..."
+                },
+                {
+                    "id": "706810703",
+                    "speaker": "Paimon",
+                    "text": "Now you mention it, Paimon's tummy is starting to rumble too...",
+                    "choices": [
+                        {
+                            "id": "706810704",
+                            "text": "Let's find a place to rest.",
+                            "response": [
+                                {
+                                    "id": "706810708",
+                                    "speaker": "Paimon",
+                                    "text": "Let's take a look around, find a place we can score some food!"
+                                },
+                                {
+                                    "id": "706810709",
+                                    "speaker": "Gesine",
+                                    "text": "There don't seem to be any suitable restaurants nearby... Given how much you've helped and how much I look up to you, I'd feel bad eating at just any old place."
+                                },
+                                {
+                                    "id": "706810710",
+                                    "speaker": "Gesine",
+                                    "text": "Speaking of food, might that building on top of that giant rock up ahead be the famous <color=#00E1FFFF>Wangshu Inn</color>?"
+                                },
+                                {
+                                    "id": "706810711",
+                                    "speaker": "Gesine",
+                                    "text": "I heard from a Liyue merchant who does business in Mondstadt that the food there is simply superb!"
+                                },
+                                {
+                                    "id": "706810712",
+                                    "speaker": "Gesine",
+                                    "text": "Let me treat you to a feast as thanks!"
+                                },
+                                {
+                                    "id": "706810713",
+                                    "speaker": "Paimon",
+                                    "text": "Woo-hoo! Let's go get some food!"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "706810705",
+                            "text": "Paimon, light a fire and start cooking!",
+                            "response": [
+                                {
+                                    "id": "706810706",
+                                    "speaker": "Paimon",
+                                    "text": "Hey! You can't just order Paimon around like that!"
+                                },
+                                {
+                                    "id": "706810707",
+                                    "speaker": "Paimon",
+                                    "text": "Besides, it's not like you don't know what Paimon's cooking is like..."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "7068108",
+            "objective": "Arrive at <color=#00E1FFFF>Wangshu Inn</color>",
+            "dialogues": [
+                {
+                    "id": "706810801",
+                    "speaker": "Gesine",
+                    "text": "I've heard that Liyue cuisine has a holistic focus on appearance, smell, and taste! It really does look so different."
+                },
+                {
+                    "id": "706810802",
+                    "speaker": "Paimon",
+                    "text": "And Paimon's mouth is watering just looking at it!"
+                },
+                {
+                    "id": "706810803",
+                    "speaker": "Black Screen",
+                    "text": "Together, you savor the delicacies of Wangshu Inn..."
+                },
+                {
+                    "id": "706810804",
+                    "speaker": "Paimon",
+                    "text": "Wowowow, this is delicious too, and this, and that... Ahhh, I'm too stuffed to eat another bite!",
+                    "choices": [
+                        {
+                            "id": "706810805",
+                            "text": "Now that was great!",
+                            "response": [
+                                {
+                                    "id": "706810807",
+                                    "speaker": "Gesine",
+                                    "text": "Thank you so much for everything you've done! If it weren't for you, I can't imagine how much more difficult it would've been for me to get here."
+                                },
+                                {
+                                    "id": "706810808",
+                                    "speaker": "Gesine",
+                                    "text": "One of the staff here told me that if I stay on this road, <color=#00E1FFFF>Liyue Harbor</color> will be just up ahead."
+                                },
+                                {
+                                    "id": "706810809",
+                                    "speaker": "Gesine",
+                                    "text": "I plan to rest here for a few days, and ask around about where I can find legendary experts, then decide where I should go next."
+                                },
+                                {
+                                    "id": "706810810",
+                                    "speaker": "Gesine",
+                                    "text": "Though I really enjoyed traveling with you, I can't keep imposing on you like this."
+                                },
+                                {
+                                    "id": "706810811",
+                                    "speaker": "Gesine",
+                                    "text": "Moving forward, it's up to me to get stronger, so that I can become an Adventurer just as reliable as you!"
+                                },
+                                {
+                                    "id": "706810812",
+                                    "speaker": "Paimon",
+                                    "text": "Hehe, though we didn't spend that much time together, we had a good time too!"
+                                },
+                                {
+                                    "id": "706810813",
+                                    "speaker": "Paimon",
+                                    "text": "I hope we'll meet again sometime!",
+                                    "choices": [
+                                        {
+                                            "id": "706810814",
+                                            "text": "May we meet again.",
+                                            "response": [
+                                                {
+                                                    "id": "706810816",
+                                                    "speaker": "Gesine",
+                                                    "text": "Yeah! You too, I hope your travels go well!"
+                                                },
+                                                {
+                                                    "id": "706810817",
+                                                    "speaker": "Black Screen",
+                                                    "text": "Gesine waves goodbye."
+                                                },
+                                                {
+                                                    "id": "706810818",
+                                                    "speaker": "Paimon",
+                                                    "text": "Well, since we're here, why don't we take a look around the area?"
+                                                },
+                                                {
+                                                    "id": "706810819",
+                                                    "speaker": "Paimon",
+                                                    "text": "Maybe there are more exciting encounters awaiting us!"
+                                                },
+                                                {
+                                                    "id": "706810820",
+                                                    "speaker": "Paimon",
+                                                    "text": "Gesine said <color=#00E1FFFF>Liyue Harbor</color> was just up ahead. We should go check it out when we have time!"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "706810815",
+                                            "text": "I hope you find what you're looking for!"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "706810806",
+                            "text": "I'm completely recovered from traveling!"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "7068112",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "706811201",
+                    "speaker": "Gesine",
+                    "text": "I've heard that Liyue cuisine has a holistic focus on appearance, smell, and taste! It really does look so different."
+                },
+                {
+                    "id": "706811202",
+                    "speaker": "Paimon",
+                    "text": "And Paimon's mouth is watering just looking at it!"
+                },
+                {
+                    "id": "706811203",
+                    "speaker": "Black Screen",
+                    "text": "Together, you savor the delicacies of Wangshu Inn..."
+                },
+                {
+                    "id": "706811204",
+                    "speaker": "Paimon",
+                    "text": "Wowowow, this is delicious too, and this, and that... Ahhh, I'm too stuffed to eat another bite!",
+                    "choices": [
+                        {
+                            "id": "706811205",
+                            "text": "Now that was great!",
+                            "response": [
+                                {
+                                    "id": "706811207",
+                                    "speaker": "Gesine",
+                                    "text": "Thank you so much for everything you've done! If it weren't for you, I can't imagine how much more difficult it would've been for me to get here."
+                                },
+                                {
+                                    "id": "706811208",
+                                    "speaker": "Gesine",
+                                    "text": "One of the staff here told me that if I stay on this road, <color=#00E1FFFF>Liyue Harbor</color> will be just up ahead."
+                                },
+                                {
+                                    "id": "706811209",
+                                    "speaker": "Gesine",
+                                    "text": "I plan to rest here for a few days, and ask around about where I can find legendary experts, then decide where I should go next."
+                                },
+                                {
+                                    "id": "706811210",
+                                    "speaker": "Gesine",
+                                    "text": "Though I really enjoyed traveling with you, I can't keep imposing on you like this."
+                                },
+                                {
+                                    "id": "706811211",
+                                    "speaker": "Gesine",
+                                    "text": "Moving forward, it's up to me to get stronger, so that I can become an Adventurer just as reliable as you!"
+                                },
+                                {
+                                    "id": "706811212",
+                                    "speaker": "Paimon",
+                                    "text": "Hehe, though we didn't spend that much time together, we had a good time too!"
+                                },
+                                {
+                                    "id": "706811213",
+                                    "speaker": "Paimon",
+                                    "text": "I hope we'll meet again sometime!",
+                                    "choices": [
+                                        {
+                                            "id": "706811214",
+                                            "text": "May we meet again.",
+                                            "response": [
+                                                {
+                                                    "id": "706811216",
+                                                    "speaker": "Gesine",
+                                                    "text": "Yeah! You too, I hope your travels go well!"
+                                                },
+                                                {
+                                                    "id": "706811217",
+                                                    "speaker": "Black Screen",
+                                                    "text": "Gesine waves goodbye."
+                                                },
+                                                {
+                                                    "id": "706811218",
+                                                    "speaker": "Paimon",
+                                                    "text": "Well, since we're here, why don't we take a look around the area?"
+                                                },
+                                                {
+                                                    "id": "706811219",
+                                                    "speaker": "Paimon",
+                                                    "text": "Maybe there are more exciting encounters awaiting us!"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "706811215",
+                                            "text": "I hope you find what you're looking for!"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "706811206",
+                            "text": "I'm completely recovered from traveling!"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "7068131",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "706813101",
+                    "speaker": "Gesine",
+                    "text": "Phew... Saved at last... Thank you so much!"
+                },
+                {
+                    "id": "706813102",
+                    "speaker": "Gesine",
+                    "text": "I am called Gesine. As you can see, I am an Adventurer."
+                },
+                {
+                    "id": "706813103",
+                    "speaker": "Gesine",
+                    "text": "#Someone as skilled as you is surely no ordinary person! Are you a well-meaning knight? Or perhaps an errant {M#hero}{F#heroine}, wandering the land?",
+                    "choices": [
+                        {
+                            "id": "706813104",
+                            "text": "I am but a passing traveler.",
+                            "response": [
+                                {
+                                    "id": "706813109",
+                                    "speaker": "Paimon",
+                                    "text": "#Paimon's name is Paimon, and {M#he's}{F#she's} {NICKNAME}, who also happens to be a member of the Adventurers' Guild!"
+                                },
+                                {
+                                    "id": "706813110",
+                                    "speaker": "Gesine",
+                                    "text": "So you are an adventurer after all, and quite the experienced one at that! You were able to dispose of such powerful monsters so easily... there really always is a bigger fish."
+                                },
+                                {
+                                    "id": "706813111",
+                                    "speaker": "Gesine",
+                                    "text": "Whereas for me... In training, I can easily remember what to do, but the second I have to do it for real, my body just doesn't listen to me..."
+                                },
+                                {
+                                    "id": "706813112",
+                                    "speaker": "Gesine",
+                                    "text": "Do I really have to train for another three to five years like my teacher said? But it'll be totally humiliating if I go back empty-handed like this... *sobs*"
+                                },
+                                {
+                                    "id": "706813113",
+                                    "speaker": "Paimon",
+                                    "text": "Aww, it's probably just because we have more experience! It took us a long time and a lot of battles before we got this strong!",
+                                    "choices": [
+                                        {
+                                            "id": "706813114",
+                                            "text": "First, you need to be able to stay calm.",
+                                            "response": [
+                                                {
+                                                    "id": "706813115",
+                                                    "speaker": "Paimon",
+                                                    "text": "Yeah! Rookies often panic when they get into a real fight, so they tend to perform way worse than they might have otherwise."
+                                                },
+                                                {
+                                                    "id": "706813116",
+                                                    "speaker": "Paimon",
+                                                    "text": "No matter how strong the enemy looks, you've gotta keep a cool head while you observe them and find their weak point!"
+                                                },
+                                                {
+                                                    "id": "706813117",
+                                                    "speaker": "Paimon",
+                                                    "text": "And then you can take 'em down in a flash with a good ol' one-two, whap, ka-pow!"
+                                                },
+                                                {
+                                                    "id": "706813120",
+                                                    "speaker": "Gesine",
+                                                    "text": "I see... Now that's experience talking! It seems I still need to hone my skills as I travel."
+                                                },
+                                                {
+                                                    "id": "706813121",
+                                                    "speaker": "Player",
+                                                    "text": "Are you on a journey as well?"
+                                                },
+                                                {
+                                                    "id": "706813122",
+                                                    "speaker": "Gesine",
+                                                    "text": "Yes... I'm planning a trip to <color=#00E1FFFF>Liyue</color>."
+                                                },
+                                                {
+                                                    "id": "706813123",
+                                                    "speaker": "Gesine",
+                                                    "text": "Have you heard of the martial arts of Liyue? I've heard people can fly from rooftop to rooftop and run up walls, harden their skin so weapons can't pierce them, and even split iron like it was kindling!"
+                                                },
+                                                {
+                                                    "id": "706813124",
+                                                    "speaker": "Gesine",
+                                                    "text": "If I could find a master to teach me a thing or two, I bet this whole adventuring thing would be a lot easier for me."
+                                                },
+                                                {
+                                                    "id": "706813125",
+                                                    "speaker": "Gesine",
+                                                    "text": "But to be perfectly honest, though I've been a member of the Adventurers' Guild for quite some time now, this is my first time going on a long trip."
+                                                },
+                                                {
+                                                    "id": "706813126",
+                                                    "speaker": "Gesine",
+                                                    "text": "*sigh* And no sooner had I left the city than I found my way blocked by monsters. Can I really make it to Liyue in one piece...?",
+                                                    "choices": [
+                                                        {
+                                                            "id": "706813127",
+                                                            "text": "We've been to Liyue.",
+                                                            "response": [
+                                                                {
+                                                                    "id": "706813129",
+                                                                    "speaker": "Gesine",
+                                                                    "text": "Wow! To have such a legendary colleague looking after me... There's hope for my journey after all!"
+                                                                },
+                                                                {
+                                                                    "id": "706813130",
+                                                                    "speaker": "Gesine",
+                                                                    "text": "Still, you must be really busy, for you to take the time to do this for me...",
+                                                                    "choices": [
+                                                                        {
+                                                                            "id": "706813131",
+                                                                            "text": "Fighting for justice is just part of my daily routine.",
+                                                                            "response": [
+                                                                                {
+                                                                                    "id": "706813133",
+                                                                                    "speaker": "Gesine",
+                                                                                    "text": "In that case, allow me to thank you in advance for putting up with me, for a while at least! I studied the map carefully before setting out, so I'll do my best not to slow you down!"
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        {
+                                                                            "id": "706813132",
+                                                                            "text": "Helping the next generation of heroes is part of my job, too."
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "id": "706813128",
+                                                            "text": "C'mon, we'll take you."
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "706813118",
+                                            "text": "It's also important to judge the situation.",
+                                            "response": [
+                                                {
+                                                    "id": "706813119",
+                                                    "speaker": "Paimon",
+                                                    "text": "Yeah! If you can tell the enemy is way above your pay grade, it's better to get out while you still can. Don't try and be a hero!"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "706813105",
+                            "text": "I would prefer not to reveal my identity.",
+                            "response": [
+                                {
+                                    "id": "706813106",
+                                    "speaker": "Gesine",
+                                    "text": "I understand! You must be charged with a secret mission, and must be discreet in your dealings..."
+                                },
+                                {
+                                    "id": "706813107",
+                                    "speaker": "Player",
+                                    "text": "Yep, that's pretty much it."
+                                },
+                                {
+                                    "id": "706813108",
+                                    "speaker": "Paimon",
+                                    "text": "Okay, that's enough with the mysterious act!"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "7068199",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "706819904",
+                    "speaker": "Gesine",
+                    "text": "Save me...!"
+                },
+                {
+                    "id": "706819905",
+                    "speaker": "Black Screen",
+                    "text": "Gesine inquires after the menu with the innkeeper, and orders several dishes as expensive as they are famous..."
+                }
+            ]
+        }
+    ]
+}

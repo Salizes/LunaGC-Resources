@@ -1,0 +1,964 @@
+{
+    "quest": {
+        "id": "76093",
+        "title": "Wind-Stirred Ripples",
+        "description": "You meet a few Ratniki near Piramida...",
+        "rewards": [
+            {
+                "itemId": 102,
+                "count": 250
+            },
+            {
+                "itemId": 201,
+                "count": 30
+            },
+            {
+                "itemId": 202,
+                "count": 20000
+            },
+            {
+                "itemId": 104003,
+                "count": 2
+            },
+            {
+                "itemId": 104013,
+                "count": 3
+            }
+        ],
+        "rewards_formatted": "Adventure EXP x250, Primogem x30, Mora x20000, Hero's Wit x2, Mystic Enhancement Ore x3",
+        "chapter": {
+            "icon": "UI_ChapterIcon_NodKrai",
+            "id": "10177",
+            "num": "Nightingale's Song: Chapter I",
+            "title": "Prelude to the Night Vigil"
+        },
+        "total_dialogue_lines": 167,
+        "total_speaker_counts": {
+            "???": 12,
+            "Anleifr": 18,
+            "Black Screen": 1,
+            "Flins": 26,
+            "Illuga": 9,
+            "Nikita": 47,
+            "Paimon": 23,
+            "Player": 15,
+            "Ratniki": 8,
+            "Rollon": 1,
+            "Someone Who Appears to Be the Leader": 7
+        }
+    },
+    "talks": [
+        {
+            "id": "7609301",
+            "objective": "",
+            "dialogues": [
+                {
+                    "id": "760930101",
+                    "speaker": "Illuga",
+                    "text": "O Torchforger who illuminates the darkness on the borderlands, we Lightkeepers pledge here and now..."
+                },
+                {
+                    "id": "760930102",
+                    "speaker": "Ratniki",
+                    "text": "\"Thus did I foresee — waves crashing on the shore, the night sky devoured by deathly silence...\""
+                },
+                {
+                    "id": "760930103",
+                    "speaker": "Ratniki",
+                    "text": "\"Thus did I declare — whomsoever cradles the flame and keeps it burning unquenched need not descend into that darkness.\""
+                },
+                {
+                    "id": "760930104",
+                    "speaker": "Ratniki",
+                    "text": "\"We are the Lightkeepers, who shine the eternal light of hope into the endless snow-swept plains.\""
+                },
+                {
+                    "id": "760930105",
+                    "speaker": "Illuga",
+                    "text": "My fellow companions, our mission this time is to repel the monsters infesting within the Kipumaki Cliff... And investigate the culprit behind this Wild Hunt outbreak."
+                },
+                {
+                    "id": "760930106",
+                    "speaker": "Illuga",
+                    "text": "We shall set foot on that cliff, which we last approached three years ago, and fight this decisive battle."
+                },
+                {
+                    "id": "760930107",
+                    "speaker": "Illuga",
+                    "text": "I know many of you, like me, have reasons why you must be on this mission."
+                },
+                {
+                    "id": "760930108",
+                    "speaker": "Illuga",
+                    "text": "Keep this in mind — Piramida is behind us! For the living, for our future, we must not take even one step back!"
+                },
+                {
+                    "id": "760930109",
+                    "speaker": "Illuga",
+                    "text": "As our vow thunders, \"Our bones and blood we shall use as fuel, we shall make life greater than death...\" We shall fulfill our solemn duty as Ratniki!"
+                },
+                {
+                    "id": "760930110",
+                    "speaker": "Illuga",
+                    "text": "To battle!"
+                },
+                {
+                    "id": "760930111",
+                    "speaker": "Ratniki",
+                    "text": "Yes, Captain!"
+                }
+            ]
+        },
+        {
+            "id": "7609302",
+            "objective": "",
+            "dialogues": [
+                {
+                    "id": "760930201",
+                    "speaker": "Paimon",
+                    "text": "Paimon's never seen so many Ratniki gathering and heading out before. This must be real serious business..."
+                },
+                {
+                    "id": "760930202",
+                    "speaker": "Player",
+                    "text": "Their captain seems like a reliable sort."
+                },
+                {
+                    "id": "760930203",
+                    "speaker": "Paimon",
+                    "text": "#Yeah! He looks about the same age as {NICKNAME}, but he's got such an imposing presence!"
+                },
+                {
+                    "id": "760930204",
+                    "speaker": "Paimon",
+                    "text": "But Paimon's still worried. They're going after that special Wild Hunt, right? Will they actually be okay, even with all those people?"
+                },
+                {
+                    "id": "760930205",
+                    "speaker": "Player",
+                    "text": "Let's find a way to pitch in."
+                },
+                {
+                    "id": "760930206",
+                    "speaker": "Paimon",
+                    "text": "Mm-hmm! The Wild Hunt's everyone's problem, not just the Lightkeepers'. We can't just leave this be!"
+                },
+                {
+                    "id": "760930207",
+                    "speaker": "???",
+                    "text": "Sorry to bother you both...."
+                },
+                {
+                    "id": "760930208",
+                    "speaker": "Paimon",
+                    "text": "Hey there, gramps. Anything we can help you with?"
+                },
+                {
+                    "id": "760930209",
+                    "speaker": "???",
+                    "text": "Hmm. This is our first meeting, but I can already tell that you're no ordinary people."
+                },
+                {
+                    "id": "760930210",
+                    "speaker": "???",
+                    "text": "#I happened to hear that a {M#blond}{F#blonde}-haired adventurer named {NICKNAME} and {M#his}{F#her} companion have arrived in Nod-Krai... bringing with them impressive resumes from adventures all over Teyvat..."
+                },
+                {
+                    "id": "760930211",
+                    "speaker": "???",
+                    "text": "Would you happen to be those two legends?",
+                    "choices": [
+                        {
+                            "id": "760930212",
+                            "text": "Yes indeed.",
+                            "response": [
+                                {
+                                    "id": "760930214",
+                                    "speaker": "Paimon",
+                                    "text": "Paimon didn't expect to be recognized here... If this keeps up, we'll have to go undercover just to step outside.",
+                                    "choices": [
+                                        {
+                                            "id": "760930215",
+                                            "text": "Don't you like being famous, Paimon?",
+                                            "response": [
+                                                {
+                                                    "id": "760930216",
+                                                    "speaker": "Paimon",
+                                                    "text": "Well, it's not like that. Paimon's just worried that if we get a commission to deal with bad guys, they'll get tipped off and run away before we even leave the guild!"
+                                                },
+                                                {
+                                                    "id": "760930219",
+                                                    "speaker": "Nikita",
+                                                    "text": "I am Nikita, an ordinary Ratnik who has been stationed in this remote land for years."
+                                                },
+                                                {
+                                                    "id": "760930220",
+                                                    "speaker": "Nikita",
+                                                    "text": "Pardon my sudden interruption... But in truth, I have a humble request."
+                                                },
+                                                {
+                                                    "id": "760930221",
+                                                    "speaker": "Paimon",
+                                                    "text": "Huh... Could this be related to the Wild Hunt?"
+                                                },
+                                                {
+                                                    "id": "760930222",
+                                                    "speaker": "Nikita",
+                                                    "text": "Indeed, it has a great deal to do with it. I'd like you to help us find a relic called the \"Silver Lampwick.\""
+                                                },
+                                                {
+                                                    "id": "760930223",
+                                                    "speaker": "Paimon",
+                                                    "text": "Hehe, you've come to the right people! We're really good at finding things! But what does this relic have to do with the Wild Hunt?"
+                                                },
+                                                {
+                                                    "id": "760930224",
+                                                    "speaker": "Nikita",
+                                                    "text": "Hmm... I'm afraid we have to start with the Wild Hunt calamity that swept through this land 500 years ago. Legend has it that an evil beast wielding dark powers made Nod-Krai its hunting ground, tormenting countless living beings."
+                                                },
+                                                {
+                                                    "id": "760930225",
+                                                    "speaker": "Nikita",
+                                                    "text": "This lasted until the Torchforger defeated it with <color=#00E1FFFF>three sacred relics: the Sword, the Lamp, and the Mirror</color>, and sealed it beneath Kipumaki Cliff. Only then was the calamity quelled."
+                                                },
+                                                {
+                                                    "id": "760930226",
+                                                    "speaker": "Nikita",
+                                                    "text": "The Silver Lampwick is one of those three sacred relics. It can summon a barrier to defend against the Wild Hunt's attacks."
+                                                },
+                                                {
+                                                    "id": "760930227",
+                                                    "speaker": "Nikita",
+                                                    "text": "After quelling the calamity, the Torchforger entrusted it to Alia the fae, guardian of the Pillar of Embla."
+                                                },
+                                                {
+                                                    "id": "760930228",
+                                                    "speaker": "Nikita",
+                                                    "text": "The situation is critical now, and we must rely on the relic's power to pull through. We've sent Ratniki to search for it, but we aren't exactly experts at hunting down items of power."
+                                                },
+                                                {
+                                                    "id": "760930229",
+                                                    "speaker": "Nikita",
+                                                    "text": "I would be very grateful if you two could help.",
+                                                    "choices": [
+                                                        {
+                                                            "id": "760930230",
+                                                            "text": "This involves the Wild Hunt, so I'll gladly pitch in.",
+                                                            "response": [
+                                                                {
+                                                                    "id": "760930231",
+                                                                    "speaker": "Nikita",
+                                                                    "text": "Good, good! It seems the tales were right. You're no mere great adventurer, but a righteous hero who fights for the good of others."
+                                                                },
+                                                                {
+                                                                    "id": "760930234",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "In other words, we've gotta go to the Pillar of Embla, find the legendary \"Silver Lampwick,\" and bring it back here..."
+                                                                },
+                                                                {
+                                                                    "id": "760930235",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "Eh? But isn't the relic being kept by the fae? How are we supposed to find and retrieve it?"
+                                                                },
+                                                                {
+                                                                    "id": "760930236",
+                                                                    "speaker": "Nikita",
+                                                                    "text": "According to the legend, following the kuuvahki as it guides you upward will lead you to her. She was once an ally of the Torchforger, so I believe she will understand if you explain the situation to her."
+                                                                },
+                                                                {
+                                                                    "id": "760930237",
+                                                                    "speaker": "Nikita",
+                                                                    "text": "But if you do obtain the \"Silver Lampwick,\" please give it to Illuga."
+                                                                },
+                                                                {
+                                                                    "id": "760930238",
+                                                                    "speaker": "Nikita",
+                                                                    "text": "You've already seen him. He's the young leader of that force, and thus, and the one who needs this relic most right now..."
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "id": "760930232",
+                                                            "text": "I'll be paid for this gig, I presume?",
+                                                            "response": [
+                                                                {
+                                                                    "id": "760930233",
+                                                                    "speaker": "Nikita",
+                                                                    "text": "Rest assured. Though our strength may have waned, we Lightkeepers never fail to reward those who assist us."
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "760930217",
+                                            "text": "Fortunately, I'm used to being famous.",
+                                            "response": [
+                                                {
+                                                    "id": "760930218",
+                                                    "speaker": "Paimon",
+                                                    "text": "What, have you been practicing your signature in secret or something?"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "760930213",
+                            "text": "How did our whereabouts get leaked again?"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "7609303",
+            "objective": "",
+            "dialogues": [
+                {
+                    "id": "760930301",
+                    "speaker": "???",
+                    "text": "Are you serious? This damn vehicle's stopped moving again!"
+                },
+                {
+                    "id": "760930302",
+                    "speaker": "???",
+                    "text": "Come on, Moonwagon, old friend. Couldn't you hold on a little longer?"
+                },
+                {
+                    "id": "760930303",
+                    "speaker": "???",
+                    "text": "We're just a little way from Piramida. Once we get there, you can blow a gasket or buy the farm for all I care."
+                },
+                {
+                    "id": "760930304",
+                    "speaker": "???",
+                    "text": "And yet here you are, stopping in the middle of nowhere. And now you expect us to carry you back to town?"
+                },
+                {
+                    "id": "760930305",
+                    "speaker": "???",
+                    "text": "*sigh* Everything seems to be going wrong just as we're busiest. You know what? I don't have time to waste with you, my good Rollon. Looks like we'll need to find more helpers."
+                },
+                {
+                    "id": "760930306",
+                    "speaker": "???",
+                    "text": "Oh my, I don't remember putting a call out, and yet here you are! Now, what divine luck has brought you two to my side, dear friends?"
+                },
+                {
+                    "id": "760930307",
+                    "speaker": "???",
+                    "text": "You don't look familiar. A newly recruited treasure hunter, perhaps?"
+                },
+                {
+                    "id": "760930308",
+                    "speaker": "Paimon",
+                    "text": "#Hi there! Paimon's name's Paimon, and {M#he}{F#she}'s {NICKNAME}. We're adventurers, just passing by."
+                },
+                {
+                    "id": "760930309",
+                    "speaker": "Paimon",
+                    "text": "You seem to be in trouble... What's going on?"
+                },
+                {
+                    "id": "760930310",
+                    "speaker": "Anleifr",
+                    "text": "Oh! Hello, I'm Anleifr, a Ratnik. So you two are adventurers... I'm afraid you've come to the wrong place.",
+                    "choices": [
+                        {
+                            "id": "760930311",
+                            "text": "Don't worry, we won't touch anything.",
+                            "response": [
+                                {
+                                    "id": "760930313",
+                                    "speaker": "Anleifr",
+                                    "text": "That's not exactly what I meant. Well, can't blame you for being new and not knowing... Anyhow, there's been a large-scale Wild Hunt outbreak in the northern Kipumaki Cliff area."
+                                },
+                                {
+                                    "id": "760930314",
+                                    "speaker": "Anleifr",
+                                    "text": "There was an incident at the pioneering-age ancient ruins there some years back. We didn't think it'd turn into something so serious..."
+                                },
+                                {
+                                    "id": "760930315",
+                                    "speaker": "Anleifr",
+                                    "text": "Look north. You see it? That's where these monsters have been swarming in from. If you don't have any urgent business, you'd better not wander around this area, because things are lookin' ugly."
+                                },
+                                {
+                                    "id": "760930316",
+                                    "speaker": "Anleifr",
+                                    "text": "How do I know this, you ask? Well, the old man just ordered us back to Piramida to join the operation to eradicate the Wild Hunt."
+                                },
+                                {
+                                    "id": "760930317",
+                                    "speaker": "Anleifr",
+                                    "text": "Ain't that so, Rollon?"
+                                },
+                                {
+                                    "id": "760930318",
+                                    "speaker": "Anleifr",
+                                    "text": "Hey, what's wrong with you? You've been quiet for a while now..."
+                                },
+                                {
+                                    "id": "760930319",
+                                    "speaker": "Anleifr",
+                                    "text": "!!!"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "760930312",
+                            "text": "Are adventurers not welcome here?"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "7609304",
+            "objective": "Help the Lightkeeper",
+            "dialogues": [
+                {
+                    "id": "760930401",
+                    "speaker": "Illuga",
+                    "text": "I'm sorry, but there isn't much time to show you around. We've got a tough battle ahead, so if you've got preparations to make, best make them quickly."
+                },
+                {
+                    "id": "760930402",
+                    "speaker": "Illuga",
+                    "text": "I'll lead the main force to Cliffwatch Camp first to make the necessary preparations for battle. We'll wait for you to join us there."
+                },
+                {
+                    "id": "760930403",
+                    "speaker": "Paimon",
+                    "text": "Got it! We'll be there as soon as possible!"
+                },
+                {
+                    "id": "760930404",
+                    "speaker": "Paimon",
+                    "text": "Alright, let's see what we've gotta prep..."
+                },
+                {
+                    "id": "760930405",
+                    "speaker": "???",
+                    "text": "Sorry to bother you both...."
+                },
+                {
+                    "id": "760930406",
+                    "speaker": "Paimon",
+                    "text": "Hey there, gramps. Anything we can help you with?"
+                },
+                {
+                    "id": "760930407",
+                    "speaker": "Nikita",
+                    "text": "I am Nikita, an ordinary Ratnik who has been stationed in this remote land for years. Though this is our first meeting, I can already tell that you're no ordinary people.."
+                },
+                {
+                    "id": "760930408",
+                    "speaker": "Nikita",
+                    "text": "#I happened to hear that a blonde-haired adventurer named {NICKNAME} and {M#his}{F#her} companion have arrived in Nod-Krai... bringing with them impressive resumes from adventures all over Teyvat..."
+                },
+                {
+                    "id": "760930409",
+                    "speaker": "Nikita",
+                    "text": "Would you happen to be those two legends?",
+                    "choices": [
+                        {
+                            "id": "760930410",
+                            "text": "Yes indeed.",
+                            "response": [
+                                {
+                                    "id": "760930412",
+                                    "speaker": "Paimon",
+                                    "text": "Paimon didn't expect to be recognized here... If this keeps up, we'll have to go undercover just to step outside."
+                                },
+                                {
+                                    "id": "760930413",
+                                    "speaker": "Nikita",
+                                    "text": "I see you both attended the oath-swearing. Are you also going to eradicate the monsters at Kipumaki Cliff?"
+                                },
+                                {
+                                    "id": "760930414",
+                                    "speaker": "Paimon",
+                                    "text": "That's right! We're temporary members of the investigation team!"
+                                },
+                                {
+                                    "id": "760930415",
+                                    "speaker": "Black Screen",
+                                    "text": "You told Nikita about how you met Illuga and joined the investigation team..."
+                                },
+                                {
+                                    "id": "760930416",
+                                    "speaker": "Nikita",
+                                    "text": "I see. That child truly is blessed to have met you both. With your support in this operation, I can rest much easier."
+                                },
+                                {
+                                    "id": "760930417",
+                                    "speaker": "Nikita",
+                                    "text": "I might be saying something unnecessary here, but this is the first time he's captained such a challenging mission."
+                                },
+                                {
+                                    "id": "760930418",
+                                    "speaker": "Nikita",
+                                    "text": "Illuga's no doubt the most outstanding member of the new generation of Ratniki, so I'm not worried about his combat abilities. My only worry is that he..."
+                                },
+                                {
+                                    "id": "760930419",
+                                    "speaker": "Nikita",
+                                    "text": "Perhaps that's too much fretting. I've heard a lot about you. You're an old hand at investigating dangerous places like this."
+                                },
+                                {
+                                    "id": "760930420",
+                                    "speaker": "Nikita",
+                                    "text": "Anyway, I hope the knowledge you've gained in your adventures can help him out."
+                                },
+                                {
+                                    "id": "760930421",
+                                    "speaker": "Player",
+                                    "text": "Of course. I am a member of his team, after all."
+                                },
+                                {
+                                    "id": "760930422",
+                                    "speaker": "Paimon",
+                                    "text": "That's right! We'd do our best to help him even if you hadn't asked!"
+                                },
+                                {
+                                    "id": "760930423",
+                                    "speaker": "Nikita",
+                                    "text": "That's great. Shame my legs aren't as nimble as they used to be, otherwise I would've gone to Kipumaki Cliff to face that monster myself."
+                                },
+                                {
+                                    "id": "760930424",
+                                    "speaker": "Nikita",
+                                    "text": "Heh. So this burden had to be left to the younger generation after all..."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "760930411",
+                            "text": "How did our whereabouts get leaked again?"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "7609305",
+            "objective": "Talk to the Lightkeeper",
+            "dialogues": [
+                {
+                    "id": "760930501",
+                    "speaker": "Anleifr",
+                    "text": "Rollon, you sure you're okay?"
+                },
+                {
+                    "id": "760930502",
+                    "speaker": "Rollon",
+                    "text": "I'm fine. Sorry... Let my guard down a bit there. Y'know, what with us returning to Piramida soon and all..."
+                },
+                {
+                    "id": "760930503",
+                    "speaker": "Anleifr",
+                    "text": "I'm just glad you're in one piece. The Wild Hunt might've got you good without this young'un's help... Anyway, thank you both."
+                },
+                {
+                    "id": "760930504",
+                    "speaker": "Player",
+                    "text": "It was nothing."
+                },
+                {
+                    "id": "760930505",
+                    "speaker": "Paimon",
+                    "text": "#Piece of cake for {NICKNAME}, hehe."
+                },
+                {
+                    "id": "760930506",
+                    "speaker": "Anleifr",
+                    "text": "You've got some smooth moves. What would you say to joining up with us Lightkeepers?"
+                },
+                {
+                    "id": "760930507",
+                    "speaker": "Anleifr",
+                    "text": "But honestly, inviting you at this juncture might seem like betrayal to outsiders... Never mind, forget what I just said."
+                },
+                {
+                    "id": "760930508",
+                    "speaker": "Anleifr",
+                    "text": "What we just faced was the Wild Hunt from Kipumaki Cliff. They're an odd lot. Not only do they attack living beings in packs, but word is that they can even manipulate minds..."
+                },
+                {
+                    "id": "760930509",
+                    "speaker": "Anleifr",
+                    "text": "Who knows what kind of dark sorcery they wield, but they wait for the moment your will starts to wane, and then they snatch you right up and press-gang you into their service..."
+                },
+                {
+                    "id": "760930510",
+                    "speaker": "Anleifr",
+                    "text": "This operation is meant to defeat them. But if it goes sideways, there might not be any Lightkeepers left to speak of..."
+                },
+                {
+                    "id": "760930511",
+                    "speaker": "Paimon",
+                    "text": "I—Is it really that bad?"
+                },
+                {
+                    "id": "760930512",
+                    "speaker": "Anleifr",
+                    "text": "Yes, but this isn't for adventurers... especially young ones like you to worry about. Just leave it to us."
+                },
+                {
+                    "id": "760930513",
+                    "speaker": "Anleifr",
+                    "text": "Should we have the chance to meet again, I'll treat you to a swig of Piramida Nightingale and some meat-stuffed rye bread as thanks. Call it good old Lightkeeper hospitality!"
+                },
+                {
+                    "id": "760930514",
+                    "speaker": "Player",
+                    "text": "We'll meet again someday for sure."
+                },
+                {
+                    "id": "760930515",
+                    "speaker": "Paimon",
+                    "text": "Good luck, and make sure to come back safe and sound!"
+                },
+                {
+                    "id": "760930516",
+                    "speaker": "Anleifr",
+                    "text": "Thanks. We'll be heading back to Piramida now. Till next we meet!"
+                }
+            ]
+        },
+        {
+            "id": "7609306",
+            "objective": "Investigate the \"Tower\"",
+            "dialogues": [
+                {
+                    "id": "760930601",
+                    "speaker": "Flins",
+                    "text": "You know I wouldn't call myself a regular volunteer, but are you certain my aid is not warranted this time?"
+                },
+                {
+                    "id": "760930602",
+                    "speaker": "Nikita",
+                    "text": "Oh, Flins, you're here. I thought you wouldn't show up."
+                },
+                {
+                    "id": "760930603",
+                    "speaker": "Flins",
+                    "text": "Would you write me so frequently if you believed that in truth?"
+                },
+                {
+                    "id": "760930604",
+                    "speaker": "Flins",
+                    "text": "Why, by my reckoning, you had a missive delivered to my lighthouse posting a week ago. Do I seem like the sort of Ratnik who would disrespect his Starshyna by not even checking in?"
+                },
+                {
+                    "id": "760930605",
+                    "speaker": "Nikita",
+                    "text": "No, and in any case, we at HQ have never failed to send you check-in notices either. You have the kid to thank for that. He's the closest to you of us Lightkeepers. Always presses me about how you're doing."
+                },
+                {
+                    "id": "760930606",
+                    "speaker": "Flins",
+                    "text": "How fares the young master?"
+                },
+                {
+                    "id": "760930607",
+                    "speaker": "Nikita",
+                    "text": "..."
+                },
+                {
+                    "id": "760930608",
+                    "speaker": "Flins",
+                    "text": "Ah. So you have entrusted him with grave responsibility after all."
+                },
+                {
+                    "id": "760930609",
+                    "speaker": "Nikita",
+                    "text": "Yes. I need him, and I trust him greatly as well..."
+                },
+                {
+                    "id": "760930610",
+                    "speaker": "Flins",
+                    "text": "I believe my warning was clear. This is no ordinary Wild Hunt. Those monsters were drawn here by an ancient being, one that has been sealed in the Kipumaki Cliff for ages."
+                },
+                {
+                    "id": "760930611",
+                    "speaker": "Flins",
+                    "text": "I also know a little about \"him.\" We met at the Belyi Tsar's court, even. No garden-variety viper was he."
+                },
+                {
+                    "id": "760930612",
+                    "speaker": "Flins",
+                    "text": "I recall those eyes of his. They were exactly like the ones staring at us right now."
+                },
+                {
+                    "id": "760930613",
+                    "speaker": "Nikita",
+                    "text": "Do you remember how we became Lightkeepers, Flins?"
+                },
+                {
+                    "id": "760930614",
+                    "speaker": "Flins",
+                    "text": "You mean \"you people\"?"
+                },
+                {
+                    "id": "760930615",
+                    "speaker": "Nikita",
+                    "text": "\"We,\" Flins, us. Lately, I've been dreaming about the past, about those battles we went through together."
+                },
+                {
+                    "id": "760930616",
+                    "speaker": "Nikita",
+                    "text": "Disaster always strikes suddenly... Whether you are ready to fight and face it, or you cling to fear and pray for the best, no one is spared when the time comes."
+                },
+                {
+                    "id": "760930617",
+                    "speaker": "Nikita",
+                    "text": "However, we know that we must struggle until lasting peace arrives. We Lightkeepers have proved that. We built the foundations of this fortress through five hundred years of struggle."
+                },
+                {
+                    "id": "760930618",
+                    "speaker": "Flins",
+                    "text": "True, but I would suggest that Illuga need not attend remedial lessons on this subject yet. You know better than I that he has lost everything once before."
+                },
+                {
+                    "id": "760930619",
+                    "speaker": "Flins",
+                    "text": "Indeed, only his youthful spirit prevents him from admitting this truth, I deem."
+                },
+                {
+                    "id": "760930620",
+                    "speaker": "Nikita",
+                    "text": "Yet my time is running out... Little remains of the years I bought for him, especially when compared to the burden he must soon shoulder."
+                },
+                {
+                    "id": "760930621",
+                    "speaker": "Flins",
+                    "text": "I see your mind is made up. In that case, let me not waste further breath on persuasion, my good Starshyna."
+                },
+                {
+                    "id": "760930622",
+                    "speaker": "Nikita",
+                    "text": "By the way, do you remember that item I asked you to look for last time?"
+                },
+                {
+                    "id": "760930623",
+                    "speaker": "Flins",
+                    "text": "I would never forget a command you gave, sir. A relic from five hundred years ago, and one tied to the first Moonchanter in countless ways. Even I had to go to great lengths to obtain it..."
+                },
+                {
+                    "id": "760930624",
+                    "speaker": "Nikita",
+                    "text": "Hehe, time for us to prepare as well. Let us witness the power of the bow and arrow bequeathed to us by the Torchforger..."
+                }
+            ]
+        },
+        {
+            "id": "7609307",
+            "objective": "Head to Piramida",
+            "dialogues": []
+        },
+        {
+            "id": "7609309",
+            "objective": "Check on the situation at the plaza",
+            "dialogues": []
+        },
+        {
+            "id": "7609308",
+            "objective": "Check on the situation at the plaza",
+            "dialogues": []
+        },
+        {
+            "id": "7609307",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "760930702",
+                    "speaker": "Flins",
+                    "text": "You know I wouldn't call myself a regular volunteer, but are you certain my aid is not warranted this time?"
+                },
+                {
+                    "id": "760930703",
+                    "speaker": "Nikita",
+                    "text": "Oh, Flins, you're here. I thought you wouldn't show up."
+                },
+                {
+                    "id": "760930704",
+                    "speaker": "Flins",
+                    "text": "Would you write me so frequently if you believed that in truth?"
+                },
+                {
+                    "id": "760930705",
+                    "speaker": "Flins",
+                    "text": "Why, by my reckoning, you had a missive delivered to my lighthouse posting a week ago. Do I seem like the sort of Ratnik who would disrespect his Starshyna by not even checking in?"
+                },
+                {
+                    "id": "760930706",
+                    "speaker": "Nikita",
+                    "text": "No, and in any case, we at HQ have never failed to send you check-in notices either. You have the kid to thank for that. He's the closest to you of us Lightkeepers. Always presses me about how you're doing."
+                },
+                {
+                    "id": "760930707",
+                    "speaker": "Flins",
+                    "text": "How fares the young master?"
+                },
+                {
+                    "id": "760930708",
+                    "speaker": "Nikita",
+                    "text": "..."
+                },
+                {
+                    "id": "760930709",
+                    "speaker": "Flins",
+                    "text": "Ah. So you have entrusted him with grave responsibility after all."
+                },
+                {
+                    "id": "760930710",
+                    "speaker": "Nikita",
+                    "text": "Yes. I need him, and I trust him greatly as well..."
+                },
+                {
+                    "id": "760930711",
+                    "speaker": "Flins",
+                    "text": "I believe my warning was clear. This is no ordinary Wild Hunt. Those monsters were drawn here by an ancient being, one that has been sealed in the Kipumaki Cliff for ages."
+                },
+                {
+                    "id": "760930712",
+                    "speaker": "Flins",
+                    "text": "I also know a little about \"him.\" We met at the Belyi Tsar's court, even. No garden-variety viper was he."
+                },
+                {
+                    "id": "760930713",
+                    "speaker": "Flins",
+                    "text": "I recall those eyes of his. They were exactly like the ones staring at us right now."
+                },
+                {
+                    "id": "760930714",
+                    "speaker": "Nikita",
+                    "text": "Do you remember how we became Lightkeepers, Flins?"
+                },
+                {
+                    "id": "760930715",
+                    "speaker": "Flins",
+                    "text": "You mean \"you people\"?"
+                },
+                {
+                    "id": "760930716",
+                    "speaker": "Nikita",
+                    "text": "\"We,\" Flins, us. Lately, I've been dreaming about the past, about those battles we went through together."
+                },
+                {
+                    "id": "760930717",
+                    "speaker": "Nikita",
+                    "text": "Disaster always strikes suddenly... Whether you are ready to fight and face it, or you cling to fear and pray for the best, no one is spared when the time comes."
+                },
+                {
+                    "id": "760930718",
+                    "speaker": "Nikita",
+                    "text": "However, we know that we must struggle until lasting peace arrives. We Lightkeepers have proved that. We built the foundations of this fortress through five hundred years of struggle."
+                },
+                {
+                    "id": "760930719",
+                    "speaker": "Flins",
+                    "text": "True, but I would suggest that Illuga need not attend remedial lessons on this subject yet. You know better than I that he has lost everything once before."
+                },
+                {
+                    "id": "760930720",
+                    "speaker": "Flins",
+                    "text": "Indeed, only his youthful spirit prevents him from admitting this truth, I deem."
+                },
+                {
+                    "id": "760930721",
+                    "speaker": "Nikita",
+                    "text": "Yet my time is running out... Little remains of the years I bought for him, especially when compared to the burden he must soon shoulder."
+                },
+                {
+                    "id": "760930722",
+                    "speaker": "Flins",
+                    "text": "I see your mind is made up. In that case, let me not waste further breath on persuasion, my good Starshyna."
+                },
+                {
+                    "id": "760930723",
+                    "speaker": "Nikita",
+                    "text": "By the way, do you remember that item I asked you to look for last time?"
+                },
+                {
+                    "id": "760930724",
+                    "speaker": "Flins",
+                    "text": "I would never forget a command you gave, sir. A relic from five hundred years ago, and one tied to the first Moonchanter in countless ways. Even I had to go to great lengths to obtain it..."
+                },
+                {
+                    "id": "760930725",
+                    "speaker": "Nikita",
+                    "text": "Hehe, time for us to prepare as well. Let us witness the power of the bow and arrow bequeathed to us by the Torchforger..."
+                }
+            ]
+        },
+        {
+            "id": "7609308",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "760930801",
+                    "speaker": "Someone Who Appears to Be the Leader",
+                    "text": "O Torchforger who illuminates the darkness on the borderlands, we Lightkeepers pledge here and now..."
+                },
+                {
+                    "id": "760930802",
+                    "speaker": "Ratniki",
+                    "text": "\"Thus did I foresee — waves crashing on the shore, the night sky devoured by deathly silence...\""
+                },
+                {
+                    "id": "760930803",
+                    "speaker": "Ratniki",
+                    "text": "\"Thus did I declare — whomsoever cradles the flame and keeps it burning unquenched need not descend into that darkness.\""
+                },
+                {
+                    "id": "760930804",
+                    "speaker": "Ratniki",
+                    "text": "\"We are the Lightkeepers, who shine the eternal light of hope into the endless snow-swept plains.\""
+                },
+                {
+                    "id": "760930805",
+                    "speaker": "Someone Who Appears to Be the Leader",
+                    "text": "My fellow companions, our mission this time is to repel the monsters infesting within the Kipumaki Cliff... And investigate the culprit behind this Wild Hunt outbreak."
+                },
+                {
+                    "id": "760930806",
+                    "speaker": "Someone Who Appears to Be the Leader",
+                    "text": "We shall set foot on that cliff, which we last approached three years ago, and fight this decisive battle."
+                },
+                {
+                    "id": "760930807",
+                    "speaker": "Someone Who Appears to Be the Leader",
+                    "text": "I know many of you, like me, have reasons why you must be on this mission."
+                },
+                {
+                    "id": "760930808",
+                    "speaker": "Someone Who Appears to Be the Leader",
+                    "text": "Keep this in mind — Piramida is behind us! For the living, for our future, we must not take even one step back!"
+                },
+                {
+                    "id": "760930809",
+                    "speaker": "Someone Who Appears to Be the Leader",
+                    "text": "As our vow thunders, \"Our bones and blood we shall use as fuel, we shall make life greater than death...\" We shall our solemn duty as Ratniki!"
+                },
+                {
+                    "id": "760930810",
+                    "speaker": "Someone Who Appears to Be the Leader",
+                    "text": "To battle!"
+                },
+                {
+                    "id": "760930811",
+                    "speaker": "Ratniki",
+                    "text": "Yes, Captain!"
+                }
+            ]
+        }
+    ]
+}

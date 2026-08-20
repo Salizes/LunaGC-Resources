@@ -1,0 +1,2378 @@
+{
+    "quest": {
+        "id": "4001",
+        "title": "A Verdade, Perdida com a Chuva",
+        "description": "#Agora você está envolvid{M#o}{F#a} no \"caso de desaparecimentos em série\" quer você goste ou não. Com a nova informação que você recebeu com seu encontro na Fonte de Lucine, você e Navia se preparam para o próximo passo de sua investigação...",
+        "rewards": [
+            {
+                "itemId": 102,
+                "count": 1050
+            },
+            {
+                "itemId": 202,
+                "count": 46150
+            },
+            {
+                "itemId": 104003,
+                "count": 4
+            },
+            {
+                "itemId": 104013,
+                "count": 8
+            }
+        ],
+        "rewards_formatted": "EXP de Aventura x1050, Mora x46150, EXP do Herói x4, Minério de Refinamento Místico x8",
+        "chapter": {
+            "icon": "UI_ChapterIcon_Fontaine",
+            "id": "1402",
+            "num": "Capítulo IV - Ato II",
+            "title": "Uma Chuva Inesperada"
+        },
+        "total_dialogue_lines": 436,
+        "total_speaker_counts": {
+            "Adele": 9,
+            "Black Screen": 1,
+            "Calcagni": 2,
+            "Coralie": 15,
+            "Florent": 21,
+            "Marcel": 17,
+            "Melus": 58,
+            "Navia": 178,
+            "Neuvillette": 12,
+            "Paimon": 47,
+            "Player": 42,
+            "Sedene": 6,
+            "Silver": 1,
+            "Thierry": 27
+        }
+    },
+    "talks": [
+        {
+            "id": "400105",
+            "objective": "",
+            "dialogues": [
+                {
+                    "id": "40010501",
+                    "speaker": "Navia",
+                    "text": "Agora, já falamos com todos os três suspeitos. Tirando apenas pelas conversas deles comigo..."
+                },
+                {
+                    "id": "40010502",
+                    "speaker": "Paimon",
+                    "text": "Nenhum deles parecia... super suspeito."
+                },
+                {
+                    "id": "40010503",
+                    "speaker": "Player",
+                    "text": "Eu não senti que nenhum deles realmente se destacou."
+                },
+                {
+                    "id": "40010504",
+                    "speaker": "Navia",
+                    "text": "Mas, imagino que isso é esperado. Se apenas uma conversa fosse o necessário para descobrir tudo, então meu pai não teria precisado investigar o caso por tantos anos."
+                },
+                {
+                    "id": "40010505",
+                    "speaker": "Navia",
+                    "text": "Enfim, embora não tenhamos tido um avanço, vamos juntar tudo que conseguimos encontrar."
+                },
+                {
+                    "id": "40010506",
+                    "speaker": "Paimon",
+                    "text": "Hmm... Mas onde deveríamos começar?"
+                },
+                {
+                    "id": "40010507",
+                    "speaker": "Player",
+                    "text": "O motivo do Jacques."
+                },
+                {
+                    "id": "40010508",
+                    "speaker": "Paimon",
+                    "text": "Ah, você tem razão. Florent mencionou que Callas provavelmente acabou com a arma devido às circunstâncias. Acho que o que ele disse faz bastante sentido."
+                },
+                {
+                    "id": "40010509",
+                    "speaker": "Navia",
+                    "text": "Segundo os familiares do Jacques, antes dele sair de casa naquele dia, ele já tinha dito a eles que tinha sido descoberto, e que ele não tinha escolha."
+                },
+                {
+                    "id": "40010510",
+                    "speaker": "Navia",
+                    "text": "...Se eu tivesse que adivinhar, ele provavelmente recebeu uma ordem do chefe de Sinthe para matar meu pai. Se ele tivesse recusado, as vidas dele e de sua família teriam sido perdidas."
+                },
+                {
+                    "id": "40010511",
+                    "speaker": "Paimon",
+                    "text": "Então... Jacques atacou primeiro?",
+                    "choices": [
+                        {
+                            "id": "40010512",
+                            "text": "Se eu fosse o Jacques...",
+                            "response": [
+                                {
+                                    "id": "40010514",
+                                    "speaker": "Navia",
+                                    "text": "Oh? E por qual motivo?",
+                                    "choices": [
+                                        {
+                                            "id": "40010515",
+                                            "text": "Depois disso, ele poderia garantir a sua segurança?",
+                                            "response": [
+                                                {
+                                                    "id": "40010517",
+                                                    "speaker": "Paimon",
+                                                    "text": "Ooh, esse é um bom ponto! Jacques provavelmente já sabia que ele estava sendo usado apenas como uma ferramenta para assassinato. E quando ele concluísse sua missão, ele não teria mais utilidade para seu chefe..."
+                                                },
+                                                {
+                                                    "id": "40010518",
+                                                    "speaker": "Navia",
+                                                    "text": "Então... o que faria mais sentido da perspectiva dele seria dar as costas à ordem e buscar proteção do meu pai."
+                                                },
+                                                {
+                                                    "id": "40010519",
+                                                    "speaker": "Player",
+                                                    "text": "A terceira pessoa foi quem tirou tudo dos trilhos."
+                                                },
+                                                {
+                                                    "id": "40010520",
+                                                    "speaker": "Navia",
+                                                    "text": "Faz sentido, mas sem evidências, isso é apenas nossa teoria..."
+                                                },
+                                                {
+                                                    "id": "40010521",
+                                                    "speaker": "Navia",
+                                                    "text": "Além de Jacques, o ataque dos Gardemeks está me incomodando também."
+                                                },
+                                                {
+                                                    "id": "40010522",
+                                                    "speaker": "Navia",
+                                                    "text": "É óbvio que nosso inimigo se tornou mais agitado após o segredo do Mar Primordial ser revelado."
+                                                },
+                                                {
+                                                    "id": "40010523",
+                                                    "speaker": "Paimon",
+                                                    "text": "Você acha que ele sabia, mesmo assim, que seguiríamos esta pista até o fim?"
+                                                },
+                                                {
+                                                    "id": "40010524",
+                                                    "speaker": "Navia",
+                                                    "text": "Baseado em tudo que aconteceu desde então... é bem possível."
+                                                },
+                                                {
+                                                    "id": "40010525",
+                                                    "speaker": "Navia",
+                                                    "text": "Mas quem entre os três suspeitos teria a habilidade de controlar em privado os Gardemeks da polícia?",
+                                                    "choices": [
+                                                        {
+                                                            "id": "40010526",
+                                                            "text": "Florent.",
+                                                            "response": [
+                                                                {
+                                                                    "id": "40010527",
+                                                                    "speaker": "Navia",
+                                                                    "text": "Florent? É verdade que ele era o mais próximo ao meu pai, tendo assim as melhores chances de saber sobre os assuntos dele com Jacques..."
+                                                                },
+                                                                {
+                                                                    "id": "40010528",
+                                                                    "speaker": "Navia",
+                                                                    "text": "Mas como conselheiro do Spina di Rosula, o trabalho dele lida na maioria com recursos humanos e policiamento diário, então ele não deveria ter tantos meios em relação a finanças."
+                                                                },
+                                                                {
+                                                                    "id": "40010529",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "Oh, então basicamente, ele é pobre demais para conseguir custear um exército de Gardemeks?"
+                                                                },
+                                                                {
+                                                                    "id": "40010530",
+                                                                    "speaker": "Navia",
+                                                                    "text": "É, eu não acho que ele conseguiria despachar um grupo inteiro deles de uma vez."
+                                                                },
+                                                                {
+                                                                    "id": "40010541",
+                                                                    "speaker": "Player",
+                                                                    "text": "Talvez seja outra pessoa..."
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "id": "40010531",
+                                                            "text": "Thierry.",
+                                                            "response": [
+                                                                {
+                                                                    "id": "40010532",
+                                                                    "speaker": "Navia",
+                                                                    "text": "Thierry, você diz? Tem razão, é possível que ele tenha descoberto uma maneira de converter os Gardemeks para uso pessoal..."
+                                                                },
+                                                                {
+                                                                    "id": "40010533",
+                                                                    "speaker": "Navia",
+                                                                    "text": "Mas eu não senti que ele estava mentindo ao falar conosco sobre os Gardemeks. Eu também não acho que ele conseguiria manter esse tipo de interferência em segredo."
+                                                                },
+                                                                {
+                                                                    "id": "40010534",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "É, se ele tivesse mesmo interferido com os Gardemeks, nós teríamos conseguido provar com uma simples conferida no inventário dos Gardes."
+                                                                },
+                                                                {
+                                                                    "id": "40010535",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "Se os Gardemeks foram tomados da polícia, deve ser bem fácil encontrar quando e como isso aconteceu."
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "id": "40010536",
+                                                            "text": "Marcel.",
+                                                            "response": [
+                                                                {
+                                                                    "id": "40010537",
+                                                                    "speaker": "Navia",
+                                                                    "text": "Tio Marcel? Hmm, meu pai realmente confiava nele, além deles terem trabalhado juntos em vários projetos. Talvez foi assim que ele conheceu Jacques."
+                                                                },
+                                                                {
+                                                                    "id": "40010538",
+                                                                    "speaker": "Navia",
+                                                                    "text": "E com fundos da Confrerie, ele também podia pagar por um grande número de Gardemeks..."
+                                                                },
+                                                                {
+                                                                    "id": "40010539",
+                                                                    "speaker": "Navia",
+                                                                    "text": "Mas ainda é muito difícil para eu imaginar isso. Afinal, Tio Marcel esteve por perto desde que eu era um bebê..."
+                                                                },
+                                                                {
+                                                                    "id": "40010540",
+                                                                    "speaker": "Navia",
+                                                                    "text": "E também, isso não significaria que ele esteve gastando montanhas de Mora e energia para lutar contra o próprio negócio de Sinthe?"
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "40010516",
+                                            "text": "Depois disso, ele poderia garantir a segurança de sua família?"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "40010513",
+                            "text": "Eu nem teria atacado."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "400101",
+            "objective": "Vá para o Palais Mermonia",
+            "dialogues": [
+                {
+                    "id": "40010101",
+                    "speaker": "Melus",
+                    "text": "O chefe não te contou que ele foi diagnosticado com uma doença rara. Os médicos disseram que ele não tinha mais do que cinco anos de vida..."
+                },
+                {
+                    "id": "40010102",
+                    "speaker": "Melus",
+                    "text": "O caso de desaparecimentos em série causou muita ansiedade nele."
+                },
+                {
+                    "id": "40010103",
+                    "speaker": "Melus",
+                    "text": "Cinco anos não é nem um pouco suficiente para resolver esse conflito duradouro, mas uma vez que ele faleceu, todo o perigo passou para você."
+                },
+                {
+                    "id": "40010104",
+                    "speaker": "Melus",
+                    "text": "Sabendo de tudo isso, ele decidiu usar uma última tática de intimidação antes de sua morte. Ele disse já ter conseguido algumas evidências incriminatórias chave para o outro lado, e até contou alguns detalhes aos membros da Spina di Rosula."
+                },
+                {
+                    "id": "40010105",
+                    "speaker": "Melus",
+                    "text": "Mas desde que você continuasse segura, ele não compartilharia essa evidência com o público."
+                },
+                {
+                    "id": "40010106",
+                    "speaker": "Melus",
+                    "text": "Se algo fosse de acontecer a você, então ele e todos aqueles que ele contou, iriam imediatamente expor tudo que sabiam sobre Sinthe e o desaparecimento das vítimas."
+                },
+                {
+                    "id": "40010107",
+                    "speaker": "Paimon",
+                    "text": "Entendi, então eles também teriam muito a perder..."
+                },
+                {
+                    "id": "40010108",
+                    "speaker": "Melus",
+                    "text": "Como vimos, as táticas do chefe funcionaram. Embora o chefe já tenha partido há um bom tempo, o outro lado não tentou tirar a vida da Senhorita."
+                },
+                {
+                    "id": "40010109",
+                    "speaker": "Navia",
+                    "text": "Urg, eu não acredito nisso! Eu nunca vi ele doente nem por um segundo!"
+                },
+                {
+                    "id": "40010110",
+                    "speaker": "Melus",
+                    "text": "Nenhum pai quer que sua filha o veja fraco e decrepito, especialmente alguém tão orgulhoso feito o chefe."
+                },
+                {
+                    "id": "40010111",
+                    "speaker": "Melus",
+                    "text": "Para ele, morrer em um duelo e sofrer de uma tremenda desonra como \"o Desleal\" é preferível do que perder a compostura na frente da filha."
+                },
+                {
+                    "id": "40010112",
+                    "speaker": "Navia",
+                    "text": "Arg!"
+                },
+                {
+                    "id": "40010113",
+                    "speaker": "Navia",
+                    "text": "...Então, ele escolheu morrer em silêncio apenas para me proteger?"
+                },
+                {
+                    "id": "40010114",
+                    "speaker": "Melus",
+                    "text": "Senhorita, temo que você não esteja compreendendo isso corretamente. O que o chefe quis te dar não foi um guarda-sol, mas, na verdade, uma espada."
+                },
+                {
+                    "id": "40010115",
+                    "speaker": "Melus",
+                    "text": "Se o espírito do chefe pudesse ouvir você me dizendo que quer encontrar as respostas pelo bem de todos envolvidos..."
+                },
+                {
+                    "id": "40010116",
+                    "speaker": "Melus",
+                    "text": "Tenho certeza de que ele estaria extremamente orgulhoso."
+                },
+                {
+                    "id": "40010117",
+                    "speaker": "Navia",
+                    "text": "Aquele tolo, ele não poderia apenas ter me dito isso logo..."
+                },
+                {
+                    "id": "40010118",
+                    "speaker": "Navia",
+                    "text": "Não, ele pode ter deixado tudo do jeito que está, pois ele achou que eu nunca seria capaz de compreender ele..."
+                },
+                {
+                    "id": "40010119",
+                    "speaker": "Navia",
+                    "text": "Esse é o tanto de confiança que ele tinha em mim? E se... eu nunca tivesse conseguido chegar onde estou agora?"
+                },
+                {
+                    "id": "40010120",
+                    "speaker": "Player",
+                    "text": "Ele te deu a escolha de viver como você quer."
+                },
+                {
+                    "id": "40010121",
+                    "speaker": "Navia",
+                    "text": "É, acho que isso é verdade... Do jeito que ele deixou as coisas, se eu quisesse, eu poderia apenas ter vivido a minha vida sem me importar."
+                },
+                {
+                    "id": "40010122",
+                    "speaker": "Navia",
+                    "text": "Mas, por sorte, ele raramente falava comigo sobre assuntos emocionais, e assim, entendia muito pouco sobre mim como pessoa. Ele realmente não precisava tentar me dar uma escapatória."
+                },
+                {
+                    "id": "40010123",
+                    "speaker": "Navia",
+                    "text": "Melus, qual era a evidência chave que ele compartilhou contigo?"
+                },
+                {
+                    "id": "40010124",
+                    "speaker": "Melus",
+                    "text": "É a localização da base de produção de Sinthe. Você poderia dizer que é o quartel-general do inimigo."
+                },
+                {
+                    "id": "40010125",
+                    "speaker": "Melus",
+                    "text": "Quando ele estava ameaçando o inimigo, o chefe não deu detalhes sobre a evidência incriminatória que ele encontrou."
+                },
+                {
+                    "id": "40010126",
+                    "speaker": "Melus",
+                    "text": "Mas se você quer usar isso contra o inimigo, você ainda precisa considerar muitas coisas."
+                },
+                {
+                    "id": "40010127",
+                    "speaker": "Paimon",
+                    "text": "Por quê? Não encontramos o lugar? Não podemos apenas entrar?"
+                },
+                {
+                    "id": "40010128",
+                    "speaker": "Melus",
+                    "text": "Não se esqueça... Estamos lutando contra uma organização misteriosa e perigosa que está operando há décadas."
+                },
+                {
+                    "id": "40010129",
+                    "speaker": "Melus",
+                    "text": "Basicamente qualquer coisa pode estar à espreita no quartel-general. Também não fazemos ideia de que tipo de evidência poderemos encontrar lá dentro, nem quantas pessoas conseguiremos capturar."
+                },
+                {
+                    "id": "40010130",
+                    "speaker": "Melus",
+                    "text": "Mas uma única visita ao quartel-general seria o equivalente a uma declaração formal de guerra."
+                },
+                {
+                    "id": "40010131",
+                    "speaker": "Melus",
+                    "text": "No pior dos casos, sairíamos de mãos abanando, mas também nos abriríamos totalmente a uma retaliação."
+                },
+                {
+                    "id": "40010132",
+                    "speaker": "Paimon",
+                    "text": "E-Então nesse caso, por que não trabalhar com as autoridades de Fontaine?"
+                },
+                {
+                    "id": "40010133",
+                    "speaker": "Melus",
+                    "text": "Bem, você viu como tudo se desenrolou durante o caso do Sr. Lyney. Não fazemos ideia do quão infiltrados eles podem estar."
+                },
+                {
+                    "id": "40010134",
+                    "speaker": "Navia",
+                    "text": "Isso é verdade... Meu pai realmente não teve escolha..."
+                },
+                {
+                    "id": "40010135",
+                    "speaker": "Navia",
+                    "text": "Mas agora as coisas são diferentes. Deve ser muito mais fácil de provar que o outro lado é culpado agora que conectamos o Sinthe com os desaparecimentos."
+                },
+                {
+                    "id": "40010136",
+                    "speaker": "Paimon",
+                    "text": "Você parece ter pensado bastante nisso, Melus!"
+                },
+                {
+                    "id": "40010137",
+                    "speaker": "Melus",
+                    "text": "Bem, eu sou o mordomo, afinal de contas. Eu vivo para servir as vontades do chefe e da senhorita."
+                },
+                {
+                    "id": "40010138",
+                    "speaker": "Melus",
+                    "text": "Eu sempre estive disposto a lidar com qualquer tipo de risco pelo bem da senhorita, mas considerando minha relativa falta de habilidade, passei o tempo mantendo segredos, fazendo pequenas investigações e esperando pela hora certa chegar."
+                },
+                {
+                    "id": "40010139",
+                    "speaker": "Navia",
+                    "text": "Obrigada por tudo, Melus. Você descobriu algo novo nos últimos anos?"
+                },
+                {
+                    "id": "40010140",
+                    "speaker": "Melus",
+                    "text": "Deixe-me pensar... Uma conclusão que cheguei é que o inimigo deve estar bem familiarizado com a Spina di Rosula, ou pelo menos tem algum informante aqui."
+                },
+                {
+                    "id": "40010141",
+                    "speaker": "Melus",
+                    "text": "Quando eu anunciei ordens para os membros da organização no lugar da Senhorita, eu costumava deliberadamente deixar algumas pessoas no escuro, e observar a reação dos vendedores de Sinthe."
+                },
+                {
+                    "id": "40010142",
+                    "speaker": "Melus",
+                    "text": "Se os vendedores não mudassem seus planos, então os indivíduos informados de nossas ordens seriam inocentes. Agora, se os vendedores empacotassem tudo e fossem embora, então alguém havia informado a eles."
+                },
+                {
+                    "id": "40010143",
+                    "speaker": "Melus",
+                    "text": "Depois de várias rodadas de testes e investigações, eu consegui reduzir a lista de suspeitos para três."
+                },
+                {
+                    "id": "40010144",
+                    "speaker": "Melus",
+                    "text": "O primeiro é Florent, conselheiro sênior da Spina di Rosula."
+                },
+                {
+                    "id": "40010145",
+                    "speaker": "Navia",
+                    "text": "Hã? Florent?"
+                },
+                {
+                    "id": "40010146",
+                    "speaker": "Melus",
+                    "text": "Uhum. Surpreendente, não é? Ele era uma das pessoas do qual o chefe mais confiava. Mas, em outras palavras, ele também era alguém que entendia o chefe muito, muito bem."
+                },
+                {
+                    "id": "40010147",
+                    "speaker": "Melus",
+                    "text": "Graças à sua posição dentro do círculo mais íntimo do chefe, ele sempre sabia de nossos futuros planos, e assim conseguia sempre evitar ser capturado."
+                },
+                {
+                    "id": "40010148",
+                    "speaker": "Melus",
+                    "text": "E também existe outra pessoa como ele. Marcel, o chefe da Confrerie de Cabriere."
+                },
+                {
+                    "id": "40010149",
+                    "speaker": "Navia",
+                    "text": "Tio Marcel..."
+                },
+                {
+                    "id": "40010150",
+                    "speaker": "Player",
+                    "text": "O que é essa \"Confrerie\"?"
+                },
+                {
+                    "id": "40010151",
+                    "speaker": "Melus",
+                    "text": "É uma guilda em Poisson que o chefe ajudou a crescer ao seu tamanho e proeminência atual."
+                },
+                {
+                    "id": "40010152",
+                    "speaker": "Melus",
+                    "text": "No início, eles apenas trocavam algumas mercadorias cotidianas, mas agora, eles são uma das guildas mais ricas que existe, com várias conexões de negócios na cidade."
+                },
+                {
+                    "id": "40010153",
+                    "speaker": "Paimon",
+                    "text": "Então, eles são tipo uma organização irmã da Spina di Rosula?"
+                },
+                {
+                    "id": "40010154",
+                    "speaker": "Navia",
+                    "text": "É, você poderia chamar assim. Quando estávamos lutando contra os vendedores de Sinthe, eles nos deram muito suporte."
+                },
+                {
+                    "id": "40010155",
+                    "speaker": "Navia",
+                    "text": "É meio difícil de imaginar alguém usar seu próprio dinheiro para caçar a si mesmo..."
+                },
+                {
+                    "id": "40010156",
+                    "speaker": "Melus",
+                    "text": "O último suspeito é Thierry, o homem responsável por coordenar as informações entre a Spina di Rosula e os Gardes."
+                },
+                {
+                    "id": "40010157",
+                    "speaker": "Melus",
+                    "text": "Embora os Gardes costumem nos deixar à vontade, ainda existem muitas atividades que precisamos relatar às autoridades locais."
+                },
+                {
+                    "id": "40010158",
+                    "speaker": "Melus",
+                    "text": "Já que Thierry sempre sabe sobre nossas atividades, teoricamente, ele poderia estar sempre planejando à nossa frente."
+                },
+                {
+                    "id": "40010159",
+                    "speaker": "Navia",
+                    "text": "Entendo, entendo... Todas essas pessoas são bem próximas a mim."
+                },
+                {
+                    "id": "40010160",
+                    "speaker": "Navia",
+                    "text": "E pensar que o inimigo que estamos lutando contra esteve trabalhando comigo esse tempo todo, e está entre aqueles que mais confio... Vou demorar um tempo para digerir tudo isso..."
+                },
+                {
+                    "id": "40010161",
+                    "speaker": "Melus",
+                    "text": "Se você quiser investigá-los, então, por favor, tenha muito cuidado e não alerte a presa. Pelas nossas experiências passadas, nosso inimigo é extremamente cauteloso."
+                },
+                {
+                    "id": "40010162",
+                    "speaker": "Navia",
+                    "text": "Mas é claro, e obrigada Melus. Você nos deu bastante informações."
+                },
+                {
+                    "id": "40010163",
+                    "speaker": "Melus",
+                    "text": "Você é muito gentil, senhorita. Estou apenas fazendo o meu trabalho."
+                },
+                {
+                    "id": "40010164",
+                    "speaker": "Melus",
+                    "text": "Ah, e antes que eu me esqueça, provar a inocência do chefe também significaria livrar ele da culpa da morte do Jacques..."
+                },
+                {
+                    "id": "40010165",
+                    "speaker": "Melus",
+                    "text": "Depois daquele incidente, a esposa e filha do Jacques ficaram aos cuidados da Spina di Rosula. Elas ainda vivem em Poisson até hoje."
+                },
+                {
+                    "id": "40010166",
+                    "speaker": "Melus",
+                    "text": "Se isso te ajudar, você também poderia fazer uma visita a elas. Posso fazer os preparativos necessários."
+                },
+                {
+                    "id": "40010167",
+                    "speaker": "Paimon",
+                    "text": "Hehe, muito obrigada, Melus! Você realmente é o melhor!"
+                },
+                {
+                    "id": "40010168",
+                    "speaker": "Navia",
+                    "text": "#Um novo caso está à espera, {M#meu querido parceiro}{F#minha querida parceira}."
+                },
+                {
+                    "id": "40010169",
+                    "speaker": "Player",
+                    "text": "Não se preocupe."
+                },
+                {
+                    "id": "40010170",
+                    "speaker": "Navia",
+                    "text": "#Uhum, espero que possamos trabalhar junt{M#o}{F#a}s para descobrir a verdade e acabar com esse caso de uma vez por todas."
+                }
+            ]
+        },
+        {
+            "id": "400102",
+            "objective": "Vá ao escritório do Juiz Supremo",
+            "dialogues": [
+                {
+                    "id": "40010201",
+                    "speaker": "Sedene",
+                    "text": "Pare! Por favor, declare seu assunto aqui. O Juiz Supremo está atualmente ocupado com questões oficiais."
+                },
+                {
+                    "id": "40010202",
+                    "speaker": "Paimon",
+                    "text": "Hmm... Esse lugar parece super bem protegido. Acho que isso significa que os arquivos de Neuvillette devem estar bem seguros!"
+                },
+                {
+                    "id": "40010203",
+                    "speaker": "Navia",
+                    "text": "Ei, senhorita... Não nos conhecemos antes?"
+                },
+                {
+                    "id": "40010204",
+                    "speaker": "Sedene",
+                    "text": "Hã? Quem é você? Só para ficar claro, eu não me importo com quem você é ou de quem possa ser parente, nossas regras não possuem exceções."
+                },
+                {
+                    "id": "40010205",
+                    "speaker": "Navia",
+                    "text": "Viu? Elas têm muita disciplina."
+                },
+                {
+                    "id": "40010206",
+                    "speaker": "Paimon",
+                    "text": "Sim, sim, Paimon percebeu!"
+                },
+                {
+                    "id": "40010207",
+                    "speaker": "Sedene",
+                    "text": "...Se vocês só estão aqui para fazer piadinhas, eu mostro a saída a vocês. Diferentemente de alguns, somos ocupadas, então se não houver motivo, a porta é a serventia da casa."
+                },
+                {
+                    "id": "40010208",
+                    "speaker": "Navia",
+                    "text": "Não, não, o que quero dizer é, você não deveria lembrar de nós de alguns dias atrás? Estávamos no julgamento do Grande Mágico, Lyney."
+                },
+                {
+                    "id": "40010209",
+                    "speaker": "Sedene",
+                    "text": "#Aaaah! Sim, eu lembro, li sobre isso no Pássaro a Vapor. Vocês... Vocês devem ser {M#os advogados}{F#as advogadas} de Lyney. Estou me lembrando de tudo agora."
+                },
+                {
+                    "id": "40010210",
+                    "speaker": "Navia",
+                    "text": "Estamos aqui hoje para reportar e arquivar algumas informações num caso seguinte."
+                },
+                {
+                    "id": "40010211",
+                    "speaker": "Sedene",
+                    "text": "Hã? E isso sequer existe..."
+                },
+                {
+                    "id": "40010212",
+                    "speaker": "Navia",
+                    "text": "Claro! Não se preocupe, estamos aqui em assuntos oficiais. Pode confiar em nós."
+                },
+                {
+                    "id": "40010213",
+                    "speaker": "Sedene",
+                    "text": "Tudo bem, então eu deixarei vocês passarem. Vocês podem encontrar o Juiz Supremo aí dentro."
+                },
+                {
+                    "id": "40010214",
+                    "speaker": "Navia",
+                    "text": "Obrigada~!"
+                }
+            ]
+        },
+        {
+            "id": "400112",
+            "objective": "Vá ao escritório do Juiz Supremo",
+            "dialogues": [
+                {
+                    "id": "40011201",
+                    "speaker": "Navia",
+                    "text": "Melus, voltamos!"
+                },
+                {
+                    "id": "40011202",
+                    "speaker": "Melus",
+                    "text": "#Perdão pela demora, Demoiselle, e {M#nossos}{F#nossas} mais importantes parceir{M#o}{F#a}s."
+                },
+                {
+                    "id": "40011203",
+                    "speaker": "Melus",
+                    "text": "A Demoiselle disse antes que ainda havia alguns assuntos a tratar na Corte. O que a traz de volta para Poisson tão rapidamente?"
+                },
+                {
+                    "id": "40011204",
+                    "speaker": "Navia",
+                    "text": "#Uh, sobre isso... é por que {M#meu parceiro}{F#minha parceira} aqui me lembrou de algo muito importante. Sabe, e se o caso do meu pai tivesse algo a ver com a Água do Mar Primordial?"
+                },
+                {
+                    "id": "40011205",
+                    "speaker": "Navia",
+                    "text": "Você ainda se lembra, não é, Melus? Naquela noite, estava chovendo..."
+                },
+                {
+                    "id": "40011206",
+                    "speaker": "Melus",
+                    "text": "Sim, o caso foi bem parecido com o do Sr. Lyney. Ambos eram o que você poderia chamar de \"assassinatos impossíveis\"."
+                },
+                {
+                    "id": "40011207",
+                    "speaker": "Player",
+                    "text": "Seria possível o idealizador ser a mesma pessoa?"
+                },
+                {
+                    "id": "40011208",
+                    "speaker": "Paimon",
+                    "text": "Você poderia nos dizer um pouco mais sobre o que aconteceu antes?"
+                },
+                {
+                    "id": "40011209",
+                    "speaker": "Navia",
+                    "text": "Sim, claro. Vários anos atrás, algo chamado \"Sinthe\" começou a ganhar popularidade em Poisson."
+                },
+                {
+                    "id": "40011210",
+                    "speaker": "Navia",
+                    "text": "A primeira vista, era um tipo de bebida que poderia animar seu humor e produzir várias alucinações prazerosas."
+                },
+                {
+                    "id": "40011211",
+                    "speaker": "Paimon",
+                    "text": "Espera, aquele cara que se transformou em água também mencionou que a Água Primordial poderia ser usada para preparar um tipo de bebida, não é?"
+                },
+                {
+                    "id": "40011212",
+                    "speaker": "Navia",
+                    "text": "Sim, ele disse. Agora que sabemos do que sabemos, é quase certo que Sinthe foi criado usando a Água do Mar Primordial."
+                },
+                {
+                    "id": "40011213",
+                    "speaker": "Navia",
+                    "text": "Se você beber Sinthe por muito tempo, você sofrerá de muitos efeitos adversos, como a perda da habilidade de focar ou de controlar suas emoções."
+                },
+                {
+                    "id": "40011214",
+                    "speaker": "Navia",
+                    "text": "E se você parasse completamente de tomar... você seria acometido de vários surtos de paranoia e ansiedade, enquanto não tendo energia para fazer nada. É uma substância extremamente perigosa."
+                },
+                {
+                    "id": "40011215",
+                    "speaker": "Navia",
+                    "text": "Como o líder de Poisson, meu pai foi forçado a acabar com o uso abusivo de Sinthe, então ele baniu a bebida completamente."
+                },
+                {
+                    "id": "40011216",
+                    "speaker": "Melus",
+                    "text": "A atitude irredutível do chefe provocou a ira dos vendedores de Sinthe, mas não importava o quanto eles o ameaçassem ou tentassem suborná-lo, ele se recusou a desistir."
+                },
+                {
+                    "id": "40011217",
+                    "speaker": "Melus",
+                    "text": "Não só isso, mas o chefe se tornou determinado a encontrar o idealizador por trás da operação de Sinthe, e acabar com todo o problema de uma vez por todas."
+                },
+                {
+                    "id": "40011218",
+                    "speaker": "Navia",
+                    "text": "É, mas o seu oponente era muito astuto, então ele não conseguia nada dos vendedores, dos quais apenas sabiam como pegar as mercadorias e vender."
+                },
+                {
+                    "id": "40011219",
+                    "speaker": "Navia",
+                    "text": "Reconhecendo isso, meu pai decidiu entrar em contato com os vendedores em segredo, e cultivar uma amizade pessoal com eles. Finalmente, ele conseguiu convencer alguém a se tornar seu informante."
+                },
+                {
+                    "id": "40011220",
+                    "speaker": "Navia",
+                    "text": "O nome dele era Jacques. Ele se sentia muito culpado quanto ao seu trabalho depois de ver várias famílias destruídas pelo abuso de Sinthe."
+                },
+                {
+                    "id": "40011221",
+                    "speaker": "Navia",
+                    "text": "Naquela noite, meu pai organizou um banquete em sua propriedade rural. Ele planejava se encontrar e trocar informações com o Jacques enquanto comiam."
+                },
+                {
+                    "id": "40011222",
+                    "speaker": "Navia",
+                    "text": "Mas então ouvimos dois tiros vindos do jardim. Corremos para a cena, mas tudo que vimos era o meu pai, ainda segurando a arma, e Jacques, que já estava morto no chão..."
+                },
+                {
+                    "id": "40011223",
+                    "speaker": "Paimon",
+                    "text": "Hã!? Como isso aconteceu? Eles não estavam no mesmo time?"
+                },
+                {
+                    "id": "40011224",
+                    "speaker": "Navia",
+                    "text": "Se parece muito com o caso do Lyney, não é? Nos dois casos, o culpado parecia óbvio, mas nenhum aparentava ter qualquer motivo."
+                },
+                {
+                    "id": "40011225",
+                    "speaker": "Navia",
+                    "text": "Mas pensando nisso agora, acredito que a pista mais importante foi algo que deixamos passar na época — havia pedaços de roupa deixados no local."
+                },
+                {
+                    "id": "40011226",
+                    "speaker": "Player",
+                    "text": "Elas poderiam ter pertencido a alguém que... se dissolveu?"
+                },
+                {
+                    "id": "40011227",
+                    "speaker": "Navia",
+                    "text": "Precisamente. E é tudo graças a você que eu fiz essa conexão. Naquela época, todos nós apenas pensamos ser alguma fantasia que o Jacques usava para se disfarçar no banquete."
+                },
+                {
+                    "id": "40011228",
+                    "speaker": "Navia",
+                    "text": "Mas agora... é quase certo de que pertenciam a uma terceira pessoa na cena do crime. Com uma pessoa a mais, também teremos que considerar por qual motivo dois tiros foram disparados.",
+                    "choices": [
+                        {
+                            "id": "40011229",
+                            "text": "É possível que Jacques e o seu pai tenham tido uma discussão...?",
+                            "response": [
+                                {
+                                    "id": "40011231",
+                                    "speaker": "Navia",
+                                    "text": "Você tem razão, ainda não sabemos o que aconteceu, mas a minha intuição me diz que estamos no caminho certo para descobrir isso tudo. Estou finalmente indo em direção à verdade."
+                                },
+                                {
+                                    "id": "40011232",
+                                    "speaker": "Melus",
+                                    "text": "Jacques era um homem empático, que se arrependeu muitas vezes de suas atitudes passadas. É improvável que ele tenha se voltado contra o chefe assim sem nenhum aviso."
+                                },
+                                {
+                                    "id": "40011233",
+                                    "speaker": "Melus",
+                                    "text": "Acho que provavelmente essa \"terceira pessoa\" é a chave para descobrir toda a verdade."
+                                },
+                                {
+                                    "id": "40011234",
+                                    "speaker": "Melus",
+                                    "text": "Porém, ainda nisso... Embora isso não vá te agradar, Demoiselle, como mordomo seu e do seu pai, ainda preciso dar um aviso."
+                                },
+                                {
+                                    "id": "40011235",
+                                    "speaker": "Melus",
+                                    "text": "Nosso oponente é traiçoeiro e cruel. Ele é extremamente difícil de lidar e o chefe já perdeu a sua vida tentando levá-lo a justiça."
+                                },
+                                {
+                                    "id": "40011236",
+                                    "speaker": "Melus",
+                                    "text": "Mesmo que a Spina di Rosula tenha perdido bastante de sua antiga glória, Poisson ainda prospera em paz, e nos foi permitido viver nossas vidas..."
+                                },
+                                {
+                                    "id": "40011237",
+                                    "speaker": "Melus",
+                                    "text": "Não há necessidade de seguir o caminho do seu pai. Seria tanto sensato quanto de acordo com os desejos do chefe, recuar e desistir do caso."
+                                },
+                                {
+                                    "id": "40011238",
+                                    "speaker": "Navia",
+                                    "text": "Se isso realmente fosse o que ele quisesse, ele deveria ter me dito por conta própria."
+                                },
+                                {
+                                    "id": "40011239",
+                                    "speaker": "Navia",
+                                    "text": "Eu não sou a pessoa mais importante para ele? E mesmo assim, fui a que mais ficou no escuro."
+                                },
+                                {
+                                    "id": "40011240",
+                                    "speaker": "Navia",
+                                    "text": "Qual a finalidade dele ter morrido sem compartilhar nenhum segredo que ele sabia? Ele sequer conseguiu proteger alguma coisa?"
+                                },
+                                {
+                                    "id": "40011241",
+                                    "speaker": "Navia",
+                                    "text": "Sinthe ainda está por aí, \"Callas, o Desleal\" ainda é o seu epíteto e a Spina di Rosula mal está se mantendo. Nada mudou."
+                                },
+                                {
+                                    "id": "40011242",
+                                    "speaker": "Navia",
+                                    "text": "Ele achou que eu apenas aceitaria a morte sem sentido do meu pai, e viveria a minha vida tão sem sentido quanto?"
+                                },
+                                {
+                                    "id": "40011243",
+                                    "speaker": "Navia",
+                                    "text": "Eu nunca aceitei isso, nunca. Não desde aquele dia e certamente não agora."
+                                },
+                                {
+                                    "id": "40011244",
+                                    "speaker": "Navia",
+                                    "text": "Eu quero descobrir a verdade pelo bem de todos. Pelas garotas desaparecidas... pelas vítimas... e por mim."
+                                },
+                                {
+                                    "id": "40011245",
+                                    "speaker": "Paimon",
+                                    "text": "Navia..."
+                                },
+                                {
+                                    "id": "40011246",
+                                    "speaker": "Melus",
+                                    "text": "#Esse é realmente o melhor momento para agir. {M#Seu parceiro}{F#Sua parceira} parece ser bem confiável, e o mais importante, Demoiselle, eu também acho que você está pronta para enfrentar isso."
+                                },
+                                {
+                                    "id": "40011247",
+                                    "speaker": "Navia",
+                                    "text": "Então você realmente sabe de algo mais, Melus."
+                                },
+                                {
+                                    "id": "40011248",
+                                    "speaker": "Melus",
+                                    "text": "Sim. Na verdade, antes mesmo daquele banquete, o chefe já sabia sobre as conexões entre Sinthe e o caso de desaparecimentos em série."
+                                },
+                                {
+                                    "id": "40011249",
+                                    "speaker": "Melus",
+                                    "text": "Mas o que fez todas as tensões explodirem foi a revelação de que você, Demoiselle, havia sido escolhida como o próximo alvo a ser \"desaparecido\"."
+                                },
+                                {
+                                    "id": "40011250",
+                                    "speaker": "Navia",
+                                    "text": "Ah..."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "40011230",
+                            "text": "Mas também é possível que essa terceira pessoa seja a culpada."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "400103",
+            "objective": "Fale com Neuvillette",
+            "dialogues": [
+                {
+                    "id": "40010301",
+                    "speaker": "Paimon",
+                    "text": "Uhh... Por favor, nos dê licença, Monsieur Neuvillette. Apenas mentimos para poder entrar pois não conhecíamos nenhuma outra forma..."
+                },
+                {
+                    "id": "40010302",
+                    "speaker": "Neuvillette",
+                    "text": "Está tudo bem. Por favor, diga-me como posso ajudar vocês."
+                },
+                {
+                    "id": "40010303",
+                    "speaker": "Paimon",
+                    "text": "Hã, ele não está bravo conosco...?"
+                },
+                {
+                    "id": "40010304",
+                    "speaker": "Navia",
+                    "text": "Estamos procurando por um homem chamado \"Vacher\". Ele pode ter sido uma testemunha de um caso de desaparecimento em série. Se conseguirmos encontrar ele, talvez possamos ser capazes de descobrir algumas informações para o caso."
+                },
+                {
+                    "id": "40010305",
+                    "speaker": "Neuvillette",
+                    "text": "Ah, entendi. Nesse caso, por favor, espere enquanto eu procuro pelos arquivos."
+                },
+                {
+                    "id": "40010306",
+                    "speaker": "Paimon",
+                    "text": "Quem imaginava que Neuvillette seria uma pessoa tão acessível..."
+                },
+                {
+                    "id": "40010307",
+                    "speaker": "Neuvillette",
+                    "text": "Infelizmente..."
+                },
+                {
+                    "id": "40010308",
+                    "speaker": "Neuvillette",
+                    "text": "Tenho quase certeza de que esse \"Vacher\" não esteve envolvido em nenhum caso nos últimos anos."
+                },
+                {
+                    "id": "40010309",
+                    "speaker": "Neuvillette",
+                    "text": "Não há nenhum vestígio dele, seja nos arquivos ou em minha memória.",
+                    "choices": [
+                        {
+                            "id": "40010310",
+                            "text": "Não tem jeito...",
+                            "response": [
+                                {
+                                    "id": "40010312",
+                                    "speaker": "Paimon",
+                                    "text": "#{NICKNAME}, e se isso realmente foi apenas um sonho?"
+                                },
+                                {
+                                    "id": "40010313",
+                                    "speaker": "Navia",
+                                    "text": "Hmm... Tudo bem, de qualquer forma, obrigada, Monsieur Neuvillette. Iremos embora agora."
+                                },
+                                {
+                                    "id": "40010314",
+                                    "speaker": "Neuvillette",
+                                    "text": "Heh..."
+                                },
+                                {
+                                    "id": "40010315",
+                                    "speaker": "Neuvillette",
+                                    "text": "...Senhorita Navia, eu consigo entender como você se sente."
+                                },
+                                {
+                                    "id": "40010316",
+                                    "speaker": "Neuvillette",
+                                    "text": "Seu pai, Sr. Callas, era um homem excepcional. Sua morte foi uma tremenda lástima."
+                                },
+                                {
+                                    "id": "40010317",
+                                    "speaker": "Navia",
+                                    "text": "..."
+                                },
+                                {
+                                    "id": "40010318",
+                                    "speaker": "Navia",
+                                    "text": "E o que você está tentando dizer, Monsieur Neuvillette?"
+                                },
+                                {
+                                    "id": "40010319",
+                                    "speaker": "Navia",
+                                    "text": "Você está tentando me consolar? Dar a sua simpatia para mim? Ou apenas tentando expressar um fragmento de arrependimento?"
+                                },
+                                {
+                                    "id": "40010320",
+                                    "speaker": "Navia",
+                                    "text": "Não... Você não está tentando fazer nada disso. Eu consigo sentir em sua voz. Não há nenhuma emoção por trás de suas palavras — você apenas disse essas coisas, pois achou que deveria."
+                                },
+                                {
+                                    "id": "40010321",
+                                    "speaker": "Neuvillette",
+                                    "text": "..."
+                                },
+                                {
+                                    "id": "40010322",
+                                    "speaker": "Navia",
+                                    "text": "É como da última vez. Depois que meu pai tomou o lugar dele na Arena de Duelistas, eu atravessei seus guardas para falar com você como último recurso..."
+                                },
+                                {
+                                    "id": "40010323",
+                                    "speaker": "Navia",
+                                    "text": "Você até me disse que você sentia que havia algo suspeito com o caso, mesmo assim, você permitiu que o duelo prosseguisse."
+                                },
+                                {
+                                    "id": "40010324",
+                                    "speaker": "Navia",
+                                    "text": "Aos seus olhos, o valor da vida humana não é nada comparado a essas regras frias que você tanto considera."
+                                },
+                                {
+                                    "id": "40010325",
+                                    "speaker": "Navia",
+                                    "text": "Se você realmente se arrepende da morte do meu pai, por que você não parou o duelo!?"
+                                },
+                                {
+                                    "id": "40010326",
+                                    "speaker": "Navia",
+                                    "text": "Por que você... não me deu o poder de impedir que ele jogasse sua vida fora, por que você permitiu que ele morresse odiado e desprezado por todos..."
+                                },
+                                {
+                                    "id": "40010327",
+                                    "speaker": "Navia",
+                                    "text": "Tudo estava por um fio... Apenas um mínimo movimento de qualquer um dos lados poderia ter mudado tudo."
+                                },
+                                {
+                                    "id": "40010328",
+                                    "speaker": "Navia",
+                                    "text": "Existem tantas coisas que eu nunca pude dizer a ele... Tantas perguntas que ele ainda me deve respostas..."
+                                },
+                                {
+                                    "id": "40010329",
+                                    "speaker": "Navia",
+                                    "text": "Se você realmente não tem coração, então olhe nos meus olhos — eu, Navia, vou te mostrar o verdadeiro significado de \"arrependimento\"!"
+                                },
+                                {
+                                    "id": "40010330",
+                                    "speaker": "Neuvillette",
+                                    "text": "..."
+                                },
+                                {
+                                    "id": "40010331",
+                                    "speaker": "Neuvillette",
+                                    "text": "...Me desculpe, Senhorita Navia."
+                                },
+                                {
+                                    "id": "40010332",
+                                    "speaker": "Navia",
+                                    "text": "Vocês dois são realmente parecidos. Você guarda todo tipo de coisas em seu coração, sem nunca dizer uma palavra para ninguém."
+                                },
+                                {
+                                    "id": "40010333",
+                                    "speaker": "Navia",
+                                    "text": "Não é que você não possa sentir, mas é que você jamais compartilharia."
+                                },
+                                {
+                                    "id": "40010334",
+                                    "speaker": "Navia",
+                                    "text": "Enfim... De qualquer forma, todos já sabiam muito bem da apatia do Juiz Supremo."
+                                },
+                                {
+                                    "id": "40010335",
+                                    "speaker": "Navia",
+                                    "text": "#Me desculpe por desabafar minhas emoções em você, Monsieur Juiz Supremo. Vamos, {NICKNAME} e Paimon."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "40010311",
+                            "text": "Então voltamos ao ponto de partida."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "400104",
+            "objective": "Saia do Palais Mermonia",
+            "dialogues": [
+                {
+                    "id": "40010401",
+                    "speaker": "Paimon",
+                    "text": "Navia... Você está bem?"
+                },
+                {
+                    "id": "40010402",
+                    "speaker": "Navia",
+                    "text": "Estou bem..."
+                },
+                {
+                    "id": "40010403",
+                    "speaker": "Navia",
+                    "text": "Ah... chuva... está chovendo."
+                },
+                {
+                    "id": "40010404",
+                    "speaker": "Paimon",
+                    "text": "Pois é... Não estava ensolarado quando entramos no prédio? Também não deveria ter nenhum julgamento hoje. Que estranho..."
+                },
+                {
+                    "id": "40010405",
+                    "speaker": "Navia",
+                    "text": "Agora que pensei sobre isso... No dia do caso de assassinato do meu pai, também estava chovendo."
+                },
+                {
+                    "id": "40010406",
+                    "speaker": "Player",
+                    "text": "Chuva..."
+                },
+                {
+                    "id": "40010407",
+                    "speaker": "Paimon",
+                    "text": "#O que foi, {NICKNAME}, você pensou em algo?",
+                    "choices": [
+                        {
+                            "id": "40010408",
+                            "text": "O caso do seu pai...",
+                            "response": [
+                                {
+                                    "id": "40010410",
+                                    "speaker": "Navia",
+                                    "text": "Sim, ele estava do lado de fora... Era um lugar que poderiam ficar encharcados. Você está tentando dizer que a chuva acabou lavando algumas evidências importantes?"
+                                },
+                                {
+                                    "id": "40010411",
+                                    "speaker": "Navia",
+                                    "text": "Esse pensamento também já nos ocorreu. Até expandimos a área de procura pensando nisso, mas não encontramos nada de valor."
+                                },
+                                {
+                                    "id": "40010412",
+                                    "speaker": "Player",
+                                    "text": "Mas havia uma coisa que você não sabia na época."
+                                },
+                                {
+                                    "id": "40010413",
+                                    "speaker": "Navia",
+                                    "text": "Oh? Espera, você não quer dizer...!"
+                                },
+                                {
+                                    "id": "40010414",
+                                    "speaker": "Player",
+                                    "text": "O fato de que as pessoas podem ser transformadas em água."
+                                },
+                                {
+                                    "id": "40010415",
+                                    "speaker": "Paimon",
+                                    "text": "Então, você quer dizer que o verdadeiro assassino poderia ter se transformado em água? E teria sido levado pela água da chuva..."
+                                },
+                                {
+                                    "id": "40010416",
+                                    "speaker": "Paimon",
+                                    "text": "Certo... E se foi isso que aconteceu, então ninguém acreditaria no seu pai, mesmo que ele tivesse explicado o que viu para as autoridades!"
+                                },
+                                {
+                                    "id": "40010417",
+                                    "speaker": "Navia",
+                                    "text": "#Eu acho que realmente arranjei {M#um parceiro}{F#uma parceira} gênio... Você tem total razão, como eu não liguei os pontos antes..."
+                                },
+                                {
+                                    "id": "40010418",
+                                    "speaker": "Navia",
+                                    "text": "Beleza, vamos para Poisson! Com essa nova pista em mente, certamente chegaremos ao fundo do caso do seu pai!"
+                                },
+                                {
+                                    "id": "40010419",
+                                    "speaker": "Paimon",
+                                    "text": "Uhum! Dessa vez realmente vamos fazer progresso!"
+                                },
+                                {
+                                    "id": "40010420",
+                                    "speaker": "Navia",
+                                    "text": "Você quer ir comigo agora, ou você quer ir por conta própria depois?",
+                                    "choices": [
+                                        {
+                                            "id": "40010421",
+                                            "text": "Deveríamos ir logo enquanto a ideia ainda está fresca!",
+                                            "response": [
+                                                {
+                                                    "id": "40010422",
+                                                    "speaker": "Navia",
+                                                    "text": "Ótimo, então vamos lá conferir."
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "40010423",
+                                            "text": "Você pode ir primeiro, me juntarei depois.",
+                                            "response": [
+                                                {
+                                                    "id": "40010424",
+                                                    "speaker": "Navia",
+                                                    "text": "Certo, então te esperarei em Poisson."
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "40010409",
+                            "text": "Ele estava do lado de fora quando aconteceu?"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "400116",
+            "objective": "Vá a Poisson",
+            "dialogues": []
+        },
+        {
+            "id": "400114",
+            "objective": "Fale com Navia",
+            "dialogues": [
+                {
+                    "id": "40010601",
+                    "speaker": "Paimon",
+                    "text": "Uau, que navio imenso! Por que um navio estaria atracado em um lugar como esse?"
+                },
+                {
+                    "id": "40010602",
+                    "speaker": "Navia",
+                    "text": "Hehe, não há necessidade de ficar tão surpresa. Enquanto ele pode parecer um navio, na verdade, é o quartel-general da Spina di Rosula."
+                },
+                {
+                    "id": "40010603",
+                    "speaker": "Navia",
+                    "text": "Meu pai foi quem pediu para ele ser construído assim. Talvez o gosto em design exterior seja a única coisa que podemos ter em comum."
+                },
+                {
+                    "id": "40010604",
+                    "speaker": "Navia",
+                    "text": "Um navio gigante e glamoroso engloba descoberta, oportunidade, ambição e conquista. Ele simboliza o futuro brilhante e ilimitado da Spina di Rosula."
+                },
+                {
+                    "id": "40010605",
+                    "speaker": "Player",
+                    "text": "Acho que estou começando a entender seu amor por ele."
+                },
+                {
+                    "id": "40010606",
+                    "speaker": "Paimon",
+                    "text": "E Paimon pensou que você estava blefando quando disse que a Spina di Rosula teve um passado glamoroso!"
+                },
+                {
+                    "id": "40010607",
+                    "speaker": "Paimon",
+                    "text": "Paimon ficou confusa com o motivo de um grupo com um passado tão glamoroso passar a viver no esgoto..."
+                },
+                {
+                    "id": "40010608",
+                    "speaker": "Paimon",
+                    "text": "Mas agora que Paimon já viu este navio por ela mesma, Paimon se convenceu!"
+                },
+                {
+                    "id": "40010609",
+                    "speaker": "Navia",
+                    "text": "Bem, Poisson é onde a Spina di Rosula começou, afinal. É nossa base tradicional, nosso lar."
+                }
+            ]
+        },
+        {
+            "id": "400106",
+            "objective": "Fale com Melus no barco",
+            "dialogues": []
+        },
+        {
+            "id": "400107",
+            "objective": "Visite a família de Jacques",
+            "dialogues": [
+                {
+                    "id": "40010701",
+                    "speaker": "Melus",
+                    "text": "Então está decidido. Por favor, me deem licença e aproveitem sua conversa sem preocupações."
+                },
+                {
+                    "id": "40010702",
+                    "speaker": "Navia",
+                    "text": "Obrigada por organizar tudo para nós, Melus."
+                },
+                {
+                    "id": "40010703",
+                    "speaker": "Coralie",
+                    "text": "Com licença, senhorita... Você precisa de algo de nós?"
+                },
+                {
+                    "id": "40010704",
+                    "speaker": "Adele",
+                    "text": "..."
+                },
+                {
+                    "id": "40010705",
+                    "speaker": "Navia",
+                    "text": "...!"
+                },
+                {
+                    "id": "40010706",
+                    "speaker": "Paimon",
+                    "text": "Ei, Navia está quieta demais... Isso não parece nada com ela."
+                },
+                {
+                    "id": "40010707",
+                    "speaker": "Player",
+                    "text": "Não vamos incomodá-la agora."
+                },
+                {
+                    "id": "40010708",
+                    "speaker": "Navia",
+                    "text": "Sinto muito por só poder vir aqui após todo esse tempo. Depois do que... aconteceu, eu não sabia como deveria encarar vocês."
+                },
+                {
+                    "id": "40010709",
+                    "speaker": "Coralie",
+                    "text": "Ah, se for sobre isso, não precisa se desculpar. Após meu marido morrer, a Spina di Rosula nos enviou muita Mora e muito apoio. Eu entendi sua culpa e desculpas como genuínas."
+                },
+                {
+                    "id": "40010710",
+                    "speaker": "Navia",
+                    "text": "Mas... todas aquelas coisas não são nada se comparadas com a perda do Sr. Jacques?"
+                },
+                {
+                    "id": "40010711",
+                    "speaker": "Navia",
+                    "text": "Eu posso entender que tipo de dor vem com a perda de um pai para um incidente absurdo."
+                },
+                {
+                    "id": "40010712",
+                    "speaker": "Adele",
+                    "text": "...Você não entende nem um pouco."
+                },
+                {
+                    "id": "40010713",
+                    "speaker": "Navia",
+                    "text": "Eu não sabia como te encarar se eu não soubesse o que eu poderia possivelmente trazer como prêmio de consolação."
+                },
+                {
+                    "id": "40010714",
+                    "speaker": "Navia",
+                    "text": "Eu sei que apenas a verdade total pode te trazer uma resolução — e a todos nós."
+                },
+                {
+                    "id": "40010715",
+                    "speaker": "Adele",
+                    "text": "Ahã..."
+                },
+                {
+                    "id": "40010716",
+                    "speaker": "Coralie",
+                    "text": "Perdão... eu agradeço os sentimentos, mas você não precisa carregar um sentimento de culpa tão forte."
+                },
+                {
+                    "id": "40010717",
+                    "speaker": "Coralie",
+                    "text": "Na questão sobre meu marido, minha filha e eu já encontramos mais ou menos a nossa resposta..."
+                },
+                {
+                    "id": "40010718",
+                    "speaker": "Navia",
+                    "text": "Você se importaria de compartilhá-la comigo? Eu realmente não acredito que meu pai poderia ter atirado no Sr. Jacques."
+                },
+                {
+                    "id": "40010719",
+                    "speaker": "Coralie",
+                    "text": "Eu sempre soube que o dinheiro do meu marido era ganho através do sofrimento dos outros. Ele me contou várias vezes que se pudesse voltar no tempo, ele jamais entraria nos negócios de Sinthe novamente."
+                },
+                {
+                    "id": "40010720",
+                    "speaker": "Coralie",
+                    "text": "Ele teve muitos arrependimentos e sentiu que levou a ideia de sustentar a família muito literalmente. Por muito tempo, ele pensou que Mora era tudo."
+                },
+                {
+                    "id": "40010721",
+                    "speaker": "Coralie",
+                    "text": "Então quando o Sr. Callas veio até ele com uma proposta, ele aceitou quase imediatamente."
+                },
+                {
+                    "id": "40010722",
+                    "speaker": "Coralie",
+                    "text": "Ele tentou ser tão cuidadoso quanto conseguia, mas mesmo assim, ele ainda foi descoberto pelos superiores..."
+                },
+                {
+                    "id": "40010723",
+                    "speaker": "Navia",
+                    "text": "Eles descobriram a traição dele?"
+                },
+                {
+                    "id": "40010724",
+                    "speaker": "Adele",
+                    "text": "Papai não disse exatamente isso, mas o papai realmente me disse que, eu jamais deveria ser mal agradecida."
+                },
+                {
+                    "id": "40010725",
+                    "speaker": "Coralie",
+                    "text": "Antes de ele partir aquele dia, ele me contou que não teve escolha. Foi apenas depois que percebi que era sua despedida final para nós.",
+                    "choices": [
+                        {
+                            "id": "40010726",
+                            "text": "Espera, isso significa...",
+                            "response": [
+                                {
+                                    "id": "40010728",
+                                    "speaker": "Coralie",
+                                    "text": "Eu não sei disso com certeza, mas você poderia dizer que... essa é a conclusão que eventualmente alcancei."
+                                },
+                                {
+                                    "id": "40010729",
+                                    "speaker": "Coralie",
+                                    "text": "Que é por isso que sou eu quem devia se sentir culpada. O Sr. Callas sempre cuidou muito bem de nós, tanto quando estava vivo e após falecer..."
+                                },
+                                {
+                                    "id": "40010730",
+                                    "speaker": "Coralie",
+                                    "text": "Mesmo se ele disparou o tiro que matou meu marido, provavelmente foi autodefesa. É impossível eu odiá-lo pelo que ele fez."
+                                },
+                                {
+                                    "id": "40010731",
+                                    "speaker": "Adele",
+                                    "text": "Mas mamãe, por que papai ainda é o malvado se ele fez a coisa certa?"
+                                },
+                                {
+                                    "id": "40010732",
+                                    "speaker": "Adele",
+                                    "text": "Papai sempre quis ser um bom homem, então por que ele ainda foi forçado a fazer algo ruim no final?"
+                                },
+                                {
+                                    "id": "40010733",
+                                    "speaker": "Navia",
+                                    "text": "Bem, as coisas nem sempre são o que parecem, certo? Você ainda sente como se seu pai fosse um bom homem, certo?"
+                                },
+                                {
+                                    "id": "40010734",
+                                    "speaker": "Adele",
+                                    "text": "Sim, papai era mesmo um bom homem. Ele era o melhor do mundo todo..."
+                                },
+                                {
+                                    "id": "40010735",
+                                    "speaker": "Navia",
+                                    "text": "Então você deveria se apegar a isso. Se um bom homem teve que fazer uma coisa ruim, então ele deve ter tido suas razões."
+                                },
+                                {
+                                    "id": "40010736",
+                                    "speaker": "Navia",
+                                    "text": "Independentemente se ele te deixou um guarda-sol ou uma espada, ele deve ter o feito para te dar uma vida melhor."
+                                },
+                                {
+                                    "id": "40010737",
+                                    "speaker": "Adele",
+                                    "text": "Hmm..."
+                                },
+                                {
+                                    "id": "40010738",
+                                    "speaker": "Navia",
+                                    "text": "Obrigada por tudo que me contou. Eu definitivamente encontrarei a verdade. O estado atual das coisas não é algo que estou disposta a só cruzar os braços e aceitar."
+                                },
+                                {
+                                    "id": "40010739",
+                                    "speaker": "Coralie",
+                                    "text": "Obrigada. Sou muito grata de ouvir isso de você."
+                                },
+                                {
+                                    "id": "40010740",
+                                    "speaker": "Coralie",
+                                    "text": "Embora sua personalidade seja bem diferente da do seu pai, sua determinação quando você fala é bem similar..."
+                                },
+                                {
+                                    "id": "40010741",
+                                    "speaker": "Navia",
+                                    "text": "...Você acha mesmo?"
+                                },
+                                {
+                                    "id": "40010742",
+                                    "speaker": "Navia",
+                                    "text": "Essa é a primeira vez que alguém diz isso a mim."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "40010727",
+                            "text": "Alguém ordenou que Jacques eliminasse Callas?"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "400108",
+            "objective": "Fale com Florent",
+            "dialogues": [
+                {
+                    "id": "40010801",
+                    "speaker": "Florent",
+                    "text": "Saudações, Chefe, como posso te ajudar hoje?"
+                },
+                {
+                    "id": "40010802",
+                    "speaker": "Navia",
+                    "text": "Tenho certeza que você ouviu o que aconteceu hoje na Ópera Epiclese. Alguém foi transformado em água bem na nossa frente..."
+                },
+                {
+                    "id": "40010803",
+                    "speaker": "Florent",
+                    "text": "É, eu soube... Com algo dramático assim, tenho certeza que os jornalistas vão espremer cada gota dessa história, será a maior conversa por várias semanas."
+                },
+                {
+                    "id": "40010804",
+                    "speaker": "Navia",
+                    "text": "Também me lembrou... No dia que aquele incidente com meu pai aconteceu, estava chovendo e encontramos algumas roupas deixadas na cena..."
+                },
+                {
+                    "id": "40010805",
+                    "speaker": "Navia",
+                    "text": "#Após {M#meu parceiro}{F#minha parceira} conectar os pontos para mim, sinto que deveríamos tentar reabrir este caso novamente."
+                },
+                {
+                    "id": "40010806",
+                    "speaker": "Navia",
+                    "text": "Pode me fazer um favor e tentar relembrar o que aconteceu naquela noite?"
+                },
+                {
+                    "id": "40010807",
+                    "speaker": "Florent",
+                    "text": "Hmm, deixe-me pensar... Sr. Callas estava se sentindo bem abatido naquele dia, então ele estava bebendo e reclamando com a gente na mesa."
+                },
+                {
+                    "id": "40010808",
+                    "speaker": "Florent",
+                    "text": "Depois daquilo, ele nos contou que queria tomar um ar fresco, então deixamos ele ir sem pensar muito nisso. Quem diria que ouviríamos dois disparos logo em seguida..."
+                },
+                {
+                    "id": "40010809",
+                    "speaker": "Florent",
+                    "text": "Minha primeira reação era que a vida do Sr. Callas estava em perigo, então eu peguei meu coldre e corri loucamente até a cena."
+                },
+                {
+                    "id": "40010810",
+                    "speaker": "Florent",
+                    "text": "Mas quando cheguei, já era tarde demais. O Sr. Callas estava de pé ao lado de um cadáver com uma arma nas mãos. Tudo que podíamos fazer era trocar olhares, sem saber o que dizer..."
+                },
+                {
+                    "id": "40010811",
+                    "speaker": "Navia",
+                    "text": "Então vocês também lembram de dois disparos?"
+                },
+                {
+                    "id": "40010812",
+                    "speaker": "Florent",
+                    "text": "Sim. Os Gardes disseram que o primeiro disparo não atingiu ninguém, enquanto o segundo matou Jacques... mas eu nunca engoli essa explicação."
+                },
+                {
+                    "id": "40010813",
+                    "speaker": "Florent",
+                    "text": "O motivo sendo o Sr. Callas ter deixado a arma dele na mesa. Eu confirmei isso antes de correr para a cena."
+                },
+                {
+                    "id": "40010814",
+                    "speaker": "Florent",
+                    "text": "Mas segundo os Gardes, isso não significa que ele não pudesse ter outras armas com ele."
+                },
+                {
+                    "id": "40010815",
+                    "speaker": "Florent",
+                    "text": "Sobre as roupas deixadas na cena que você mencionou... Você acha que havia uma terceira pessoa lá que foi transformada em água?"
+                },
+                {
+                    "id": "40010816",
+                    "speaker": "Player",
+                    "text": "É bem provável."
+                },
+                {
+                    "id": "40010817",
+                    "speaker": "Navia",
+                    "text": "Pelo menos de nossa perspectiva, meu pai não tinha motivo para matar, então ele também não teria razão para levar uma arma extra com ele."
+                },
+                {
+                    "id": "40010818",
+                    "speaker": "Navia",
+                    "text": "A arma que ele estava segurando provavelmente pertencia a Jacques ou a uma terceira pessoa na cena."
+                },
+                {
+                    "id": "40010819",
+                    "speaker": "Florent",
+                    "text": "É, isso faz muito sentido. Então você está dizendo que... o Sr. Callas acabou com a arma por que ele a pegou de algum dos outros caras?"
+                },
+                {
+                    "id": "40010820",
+                    "speaker": "Florent",
+                    "text": "Mas espera um pouco, se foi isso o que aconteceu, por que ele não compartilhou a verdade com nenhum de nós?"
+                },
+                {
+                    "id": "40010821",
+                    "speaker": "Florent",
+                    "text": "Ele nem quis encarar a Oráquina e escolheu provar a própria honra em um duelo ao invés disso..."
+                },
+                {
+                    "id": "40010822",
+                    "speaker": "Florent",
+                    "text": "Ele perdeu toda a fé nos tribunais após ver alguém dissolver bem na frente dele?"
+                },
+                {
+                    "id": "40010823",
+                    "speaker": "Navia",
+                    "text": "Quanto a isso... Melus me disse uma coisa ou outra, então acho que entendo porque ele se comprometeu com o duelo."
+                },
+                {
+                    "id": "40010824",
+                    "speaker": "Navia",
+                    "text": "Eu te contarei tudo assim que toda a verdade for revelada."
+                },
+                {
+                    "id": "40010825",
+                    "speaker": "Florent",
+                    "text": "Entendo. Então, deixarei a honra do Sr. Callas em suas mãos, Chefe."
+                },
+                {
+                    "id": "40010826",
+                    "speaker": "Florent",
+                    "text": "E se eu puder dizer só mais uma coisa... todo esse epíteto de \"Callas, o Desleal\" tem sido uma pedra no meu sapato desde que foi inventado."
+                },
+                {
+                    "id": "40010827",
+                    "speaker": "Florent",
+                    "text": "Muitas pessoas riram de mim por ainda o chamar de \"Sr. Callas\" mesmo depois de tantos anos se passarem."
+                },
+                {
+                    "id": "40010828",
+                    "speaker": "Florent",
+                    "text": "Mas foi a confiança no Sr. Callas que me permitiu subir os ranques da Spina di Rosula e viver a vida que levo hoje."
+                },
+                {
+                    "id": "40010829",
+                    "speaker": "Florent",
+                    "text": "Não importa o que outros possam dizer, ele sempre será o homem que mais respeito, e ele sempre será meu Chefe."
+                },
+                {
+                    "id": "40010830",
+                    "speaker": "Navia",
+                    "text": "Não se preocupe, eu definitivamente encontrarei a verdade."
+                },
+                {
+                    "id": "40010831",
+                    "speaker": "Navia",
+                    "text": "Você e todos nossos outros camaradas na Spina di Rosula merecem saber a verdade também."
+                }
+            ]
+        },
+        {
+            "id": "400109",
+            "objective": "Vá à Corte de Fontaine e fale com Thierry",
+            "dialogues": [
+                {
+                    "id": "40010901",
+                    "speaker": "Navia",
+                    "text": "Ei, Thierry, sou eu."
+                },
+                {
+                    "id": "40010902",
+                    "speaker": "Thierry",
+                    "text": "Oho, o que a traz aqui, Senhorita Navia? Eu soube que você ganhou muita notoriedade na Ópera Epiclese."
+                },
+                {
+                    "id": "40010903",
+                    "speaker": "Navia",
+                    "text": "Haha, então você já ouviu isso por aí?"
+                },
+                {
+                    "id": "40010904",
+                    "speaker": "Thierry",
+                    "text": "Oh, okay... Ei, eu ainda faço parte dos Gardes, sabe. Do jeito que você falou agora, vão pensar que me mandaram para Poisson porque eu fiz alguma coisa errada."
+                },
+                {
+                    "id": "40010905",
+                    "speaker": "Navia",
+                    "text": "Tem certeza que não tem uma gotinha de verdade nisso? Sob circunstâncias normais, você já não deveria ter sido convocado de volta à cidade?"
+                },
+                {
+                    "id": "40010906",
+                    "speaker": "Thierry",
+                    "text": "Haha, digo, eu decido onde trabalho. Digamos que eu só curto mesmo a vibe de Poisson."
+                },
+                {
+                    "id": "40010907",
+                    "speaker": "Thierry",
+                    "text": "Callas fez um tremendo trabalho administrando a cidade, construindo a Spina di Rosula do zero, e eliminando muitas obstruções em meu caminho."
+                },
+                {
+                    "id": "40010908",
+                    "speaker": "Thierry",
+                    "text": "Seria quase impossível eu encontrar um trabalho similarmente fácil, mas que pague bem na cidade."
+                },
+                {
+                    "id": "40010909",
+                    "speaker": "Thierry",
+                    "text": "#Enfim, basta de conversinha, {M#esses dois são amigos seus}{F#essas duas são amigas suas}? Estão aqui para algum negócio formal?"
+                },
+                {
+                    "id": "40010910",
+                    "speaker": "Navia",
+                    "text": "#Ah, sim, {M#são meus parceiros}{F#são minhas parceiras}."
+                },
+                {
+                    "id": "40010911",
+                    "speaker": "Navia",
+                    "text": "O que aconteceu na Ópera Epiclese nos fez perceber que o caso de Lyney e do meu pai podem estar relacionados. Estamos tentando investigar novamente os detalhes do antigo caso do meu pai."
+                },
+                {
+                    "id": "40010912",
+                    "speaker": "Thierry",
+                    "text": "Ah, entendi. Você acha que pode haver mais em relação ao caso agora que sabemos que as pessoas podem ser dissolvidas em água, né? Eu também fiquei completamente chocado quando ouvi isso pela primeira vez."
+                },
+                {
+                    "id": "40010913",
+                    "speaker": "Thierry",
+                    "text": "Se vocês quiserem revisar os arquivos originais do caso do seu pai, posso ajudar a procurar por eles."
+                },
+                {
+                    "id": "40010914",
+                    "speaker": "Navia",
+                    "text": "Isso seria de imensa ajuda, obrigada. Na verdade, tenho outra pergunta — você tem autoridade para despachar Gardemeks?"
+                },
+                {
+                    "id": "40010915",
+                    "speaker": "Thierry",
+                    "text": "Claro! Sem eles, eu não conseguiria lidar com Poisson sozinho."
+                },
+                {
+                    "id": "40010916",
+                    "speaker": "Thierry",
+                    "text": "Por que a pergunta? Definitivamente não podemos usá-los para conseguir mais evidências à força para o caso do seu pai."
+                },
+                {
+                    "id": "40010917",
+                    "speaker": "Navia",
+                    "text": "#Bem, sabe, recentemente fomos atacad{M#os}{F#as} por uma horda de Gardemeks sem número na cidade."
+                },
+                {
+                    "id": "40010918",
+                    "speaker": "Navia",
+                    "text": "Então, se você, hipoteticamente, quisesse fazer algo contra mim, tudo que você precisaria fazer é se livrar dos números seriais dos Gardemeks e enviá-los atrás de mim..."
+                },
+                {
+                    "id": "40010919",
+                    "speaker": "Thierry",
+                    "text": "Hahaha, então você superestima minhas habilidades. \"Despachar\" Gardemeks é bem diferente de \"controlá-los\"."
+                },
+                {
+                    "id": "40010920",
+                    "speaker": "Thierry",
+                    "text": "Se eu tivesse que fazer uma analogia... quando você pede um prato, o chef o preparará para você. Você pode pedir para o chef cozinhar, mas não para massagear seus ombros ou carregar sua bagagem."
+                },
+                {
+                    "id": "40010921",
+                    "speaker": "Thierry",
+                    "text": "Se você tentar fazer demandas insensatas, o chef só pensaria que você perdeu a cabeça e te ignoraria completamente. O mesmo serve para mim e meus Gardemeks."
+                },
+                {
+                    "id": "40010922",
+                    "speaker": "Thierry",
+                    "text": "Apagar números em série também não é tão fácil quanto você pensa. Existem vários passos para isso, e é quase impossível manter isso em segredo."
+                },
+                {
+                    "id": "40010923",
+                    "speaker": "Thierry",
+                    "text": "Então eu posso te prometer — esses Gardemeks definitivamente eram unidades privadas."
+                },
+                {
+                    "id": "40010924",
+                    "speaker": "Thierry",
+                    "text": "Eles são super caros, então seja lá quem for o dono deve ser super rico, poderoso ou os dois. Agora que você comentou, o chefe secreto de Sinthe definitivamente se encaixa nisso..."
+                },
+                {
+                    "id": "40010925",
+                    "speaker": "Player",
+                    "text": "Faz sentido."
+                },
+                {
+                    "id": "40010926",
+                    "speaker": "Navia",
+                    "text": "Hahaha, então você definitivamente está fora dessa, Thierry."
+                },
+                {
+                    "id": "40010927",
+                    "speaker": "Thierry",
+                    "text": "Hahahahahaha, obrigado pelo voto de confiança, Srta. Navia."
+                },
+                {
+                    "id": "40010928",
+                    "speaker": "Thierry",
+                    "text": "Enfim, deixando as piadinhas de lado, eu gostaria de desejar a vocês tudo de bom em sua investigação."
+                },
+                {
+                    "id": "40010929",
+                    "speaker": "Thierry",
+                    "text": "Estarei na cidade por um tempo, então se você precisar de algo dos Gardes pode vir me procurar."
+                }
+            ]
+        },
+        {
+            "id": "400110",
+            "objective": "Contate Marcel",
+            "dialogues": [
+                {
+                    "id": "40011001",
+                    "speaker": "Calcagni",
+                    "text": "Olá, como posso ajudar vocês?"
+                },
+                {
+                    "id": "40011002",
+                    "speaker": "Navia",
+                    "text": "Estou aqui para ver o Sr. Marcel. Você poderia avisá-lo? Pode dizer que Navia está o procurando."
+                },
+                {
+                    "id": "40011003",
+                    "speaker": "Calcagni",
+                    "text": "Claro, avisarei imediatamente."
+                },
+                {
+                    "id": "40011004",
+                    "speaker": "Black Screen",
+                    "text": "Após aguardar por um tempo, Marcel chega apressadamente."
+                },
+                {
+                    "id": "40011005",
+                    "speaker": "Marcel",
+                    "text": "Navia, olá! Perdão por fazê-la esperar. Eu não sou tão jovem quanto costumava, então minhas pernas me deixam um pouco na mão."
+                },
+                {
+                    "id": "40011006",
+                    "speaker": "Navia",
+                    "text": "Está tudo bem, Tio Marcel. Sem estresse."
+                },
+                {
+                    "id": "40011007",
+                    "speaker": "Navia",
+                    "text": "Eu só queria falar com você brevemente sobre o que aconteceu na Ópera Epiclese. Tenho certeza que você viu tudo também, certo?"
+                },
+                {
+                    "id": "40011008",
+                    "speaker": "Marcel",
+                    "text": "Sim, eu nunca vi nada tão estranho."
+                },
+                {
+                    "id": "40011009",
+                    "speaker": "Paimon",
+                    "text": "Oh, você também estava na Ópera Epiclese?"
+                },
+                {
+                    "id": "40011010",
+                    "speaker": "Marcel",
+                    "text": "Isso mesmo. Eu fui lá com Navia para ver o show de mágica. Quem diria que se transformaria em um mistério de assassinato..."
+                },
+                {
+                    "id": "40011011",
+                    "speaker": "Marcel",
+                    "text": "Eu também testemunhei seu tremendo trabalho de investigação. Bastante impressionante."
+                },
+                {
+                    "id": "40011012",
+                    "speaker": "Marcel",
+                    "text": "Vencer a Arconte Hydro no próprio jogo dela, enquanto ela jogava em casa... Eu já posso imaginar todo mundo em Fontaine discutindo suas façanhas com algumas taças de vinho."
+                },
+                {
+                    "id": "40011013",
+                    "speaker": "Paimon",
+                    "text": "Oh, Paimon não quer virar o assunto de bêbados..."
+                },
+                {
+                    "id": "40011014",
+                    "speaker": "Marcel",
+                    "text": "Hahaha, perdão, é apenas assim que a nação de Fontaine é. Todos amam drama e teatralidade."
+                },
+                {
+                    "id": "40011015",
+                    "speaker": "Navia",
+                    "text": "Tio Marcel, você também notou outra coisa, certo? O fato que humanos podem se dissolver em água..."
+                },
+                {
+                    "id": "40011016",
+                    "speaker": "Marcel",
+                    "text": "Sim, eu me lembrei do caso do seu pai imediatamente. É isso que você está investigando agora?"
+                },
+                {
+                    "id": "40011017",
+                    "speaker": "Navia",
+                    "text": "Exatamente. Eu ainda não tenho evidências concretas, mas sinto que o outro lado já começou a agir."
+                },
+                {
+                    "id": "40011018",
+                    "speaker": "Marcel",
+                    "text": "Oh, e o que te faz dizer isso?"
+                },
+                {
+                    "id": "40011019",
+                    "speaker": "Navia",
+                    "text": "#Fomos atacad{M#os}{F#as} em Erinnyes por alguns Gardemeks não numerados, além de uma tentativa de me fazer beber Água do Mar Primordial."
+                },
+                {
+                    "id": "40011020",
+                    "speaker": "Navia",
+                    "text": "#Se não fosse pela vigilância {M#do meu parceiro}{F#da minha parceira}, eu provavelmente nem estaria aqui falando com você agora."
+                },
+                {
+                    "id": "40011021",
+                    "speaker": "Paimon",
+                    "text": "Você está dando crédito demais para a gente! Não foi você quem nos protegeu?"
+                },
+                {
+                    "id": "40011022",
+                    "speaker": "Marcel",
+                    "text": "Infelizmente, parece que as coisas estão esquentando novamente. A paz que Callas buscou tão carinhosamente logo se tornará algo do passado."
+                },
+                {
+                    "id": "40011023",
+                    "speaker": "Marcel",
+                    "text": "Mas fique tranquila, Navia, Poisson sempre permanecerá um refúgio para você. Se você estiver assustada, sempre pode retornar para lá."
+                },
+                {
+                    "id": "40011024",
+                    "speaker": "Marcel",
+                    "text": "Se qualquer um ousar encostar um dedo em você lá, então a Confrerie de Cabriere usará seus recursos até a última Mora para levá-los à justiça."
+                },
+                {
+                    "id": "40011025",
+                    "speaker": "Navia",
+                    "text": "Obrigada, Tio Marcel. Mas eu não pretendo me esconder. Eu vou atacar enquanto ainda há abertura."
+                },
+                {
+                    "id": "40011026",
+                    "speaker": "Navia",
+                    "text": "Você tem algum novo pensamento sobre o caso do meu pai?"
+                },
+                {
+                    "id": "40011027",
+                    "speaker": "Marcel",
+                    "text": "Hmm, quanto a isso... Me perdoe, minha idade está me alcançando, então vai demorar um pouco para eu relembrar."
+                },
+                {
+                    "id": "40011028",
+                    "speaker": "Marcel",
+                    "text": "A Confrerie era responsável por aquele banquete, então eu estava por aí o tempo todo garantindo que tudo ocorresse sem problemas. Eu nem tive tempo para beber com os convidados."
+                },
+                {
+                    "id": "40011029",
+                    "speaker": "Marcel",
+                    "text": "Então ouvi um disparo e o resto é história."
+                },
+                {
+                    "id": "40011030",
+                    "speaker": "Navia",
+                    "text": "Está tudo bem, não precisa se forçar. Vamos perguntar mais um pouco por aí, ver se tem alguma pista valiosa em outro lugar."
+                },
+                {
+                    "id": "40011031",
+                    "speaker": "Marcel",
+                    "text": "Parece ótimo. Só me avise se você precisar de Mora."
+                },
+                {
+                    "id": "40011032",
+                    "speaker": "Marcel",
+                    "text": "Toda minha riqueza vem do apoio e patrocínio de Callas. Eu gastarei quanto for necessário para limpar o nome dele."
+                }
+            ]
+        },
+        {
+            "id": "400111",
+            "objective": "Revise as pistas com Navia",
+            "dialogues": [
+                {
+                    "id": "40011101",
+                    "speaker": "Navia",
+                    "text": "É, se você pensar bem em tudo, o Tio Marcel é realmente o mais suspeito de todos..."
+                },
+                {
+                    "id": "40011102",
+                    "speaker": "Paimon",
+                    "text": "Poderíamos estar esquecendo algum outro suspeito? Melus não sabia sobre esse negócio das pessoas virarem água quando decidiu investigar esses três, não é?"
+                },
+                {
+                    "id": "40011103",
+                    "speaker": "Navia",
+                    "text": "Melus sempre foi muito confiável, e o seu julgamento sobre a credibilidade de alguém sempre foi justa e considerada. Quando ele expôs o seu caso para cada um, a justificativa que ele deu também fez bastante sentido."
+                },
+                {
+                    "id": "40011104",
+                    "speaker": "Navia",
+                    "text": "Um indivíduo que é conhecedor dos assuntos internos da Spina di Rosula, possui os meios de contratar Gardemeks para nos assassinar, e também possui uma quantia significativa de intelecto e visão..."
+                },
+                {
+                    "id": "40011105",
+                    "speaker": "Navia",
+                    "text": "Mesmo que eu não queira acreditar, estou começando a ver como as coisas podem acabar indo na direção do Tio Marcel."
+                },
+                {
+                    "id": "40011106",
+                    "speaker": "Player",
+                    "text": "Afinal de contas, ele é alguém que é bem próximo de você."
+                },
+                {
+                    "id": "40011107",
+                    "speaker": "Paimon",
+                    "text": "Mas nós ainda temos outra carta na manga além de toda teoria e especulação!"
+                },
+                {
+                    "id": "40011108",
+                    "speaker": "Player",
+                    "text": "A localização da base de produção de Sinthe!"
+                },
+                {
+                    "id": "40011109",
+                    "speaker": "Navia",
+                    "text": "Sim... Melus realmente disse que ir direto até lá seria extremamente arriscado, mas não temos outras opções no momento..."
+                },
+                {
+                    "id": "40011110",
+                    "speaker": "Navia",
+                    "text": "Precisaríamos de uma prova muito mais concreta antes de podermos esperar entrar em embate com nosso inimigo."
+                },
+                {
+                    "id": "40011111",
+                    "speaker": "Thierry",
+                    "text": "Srta. Navia... Aqui está você... *cof* *cof*... Eu estava procurando por você."
+                },
+                {
+                    "id": "40011112",
+                    "speaker": "Paimon",
+                    "text": "Hã? Você não é o sujeito do Gardes? Algo aconteceu?"
+                },
+                {
+                    "id": "40011113",
+                    "speaker": "Thierry",
+                    "text": "É, as notícias chegaram de Erinnyes basicamente assim que vocês saíram! Temos outro julgamento em mãos!"
+                },
+                {
+                    "id": "40011114",
+                    "speaker": "Navia",
+                    "text": "Aquele lugar não foi construído especificamente para julgar as pessoas? O que tem de tão incrível sobre esse novo julgamento?"
+                },
+                {
+                    "id": "40011115",
+                    "speaker": "Thierry",
+                    "text": "Eu sei, eu sei, mas eles disseram que a pessoa que está sendo julgada é um Mensageiro Fatui chamado Tartaglia!"
+                },
+                {
+                    "id": "40011116",
+                    "speaker": "Player",
+                    "text": "O quê, Childe!?"
+                },
+                {
+                    "id": "40011117",
+                    "speaker": "Navia",
+                    "text": "O que tem ele? É alguém que você conhece?"
+                },
+                {
+                    "id": "40011118",
+                    "speaker": "Paimon",
+                    "text": "Não só isso, como provavelmente acabamos nos conhecendo até bem demais..."
+                },
+                {
+                    "id": "40011119",
+                    "speaker": "Thierry",
+                    "text": "Bem, ele foi acusado de ser o verdadeiro culpado por trás do caso de desaparecimentos em série."
+                },
+                {
+                    "id": "40011120",
+                    "speaker": "Navia",
+                    "text": "Espera, como? Nenhuma de nossas investigações teve nada a ver com ele."
+                },
+                {
+                    "id": "40011121",
+                    "speaker": "Thierry",
+                    "text": "Digo, também foi por isso que eu achei que era estranho e vim te contar a notícia o mais rápido possível."
+                },
+                {
+                    "id": "40011122",
+                    "speaker": "Thierry",
+                    "text": "Se as acusações contra ele funcionarem, então será quase impossível fazer os Gardes apoiarem qualquer uma de nossas investigações planejadas."
+                },
+                {
+                    "id": "40011123",
+                    "speaker": "Navia",
+                    "text": "Verdade, pois eles vão achar que já encontraram o culpado..."
+                },
+                {
+                    "id": "40011124",
+                    "speaker": "Thierry",
+                    "text": "Sim, e vai ser muito mais difícil de limpar o nome do Sr. Callas."
+                },
+                {
+                    "id": "40011125",
+                    "speaker": "Navia",
+                    "text": "#Eu compreendo. O que você acha que deveríamos fazer, {M#querido parceiro}{F#querida parceira}? Ainda não encontramos nenhuma prova conclusiva..."
+                },
+                {
+                    "id": "40011126",
+                    "speaker": "Paimon",
+                    "text": "Uh... Hmm..."
+                },
+                {
+                    "id": "40011127",
+                    "speaker": "Player",
+                    "text": "Vamos nos dividir."
+                },
+                {
+                    "id": "40011128",
+                    "speaker": "Navia",
+                    "text": "Você quer dizer...",
+                    "choices": [
+                        {
+                            "id": "40011129",
+                            "text": "Você pode ir para Erinnyes, enquanto irei investigar \"aquele lugar\".",
+                            "response": [
+                                {
+                                    "id": "40011131",
+                                    "speaker": "Navia",
+                                    "text": "#Hahahaha, como esperado {M#do meu parceiro}{F#da minha parceira}!"
+                                },
+                                {
+                                    "id": "40011132",
+                                    "speaker": "Navia",
+                                    "text": "Já que esse julgamento é sobre o caso de desaparecimentos em série, a atenção do culpado estará completamente voltada para Erinnyes, deixando sua base totalmente aberta..."
+                                },
+                                {
+                                    "id": "40011133",
+                                    "speaker": "Navia",
+                                    "text": "Essa realmente é a nossa melhor oportunidade. Muito bem, então vamos nessa. Eu enrolarei eles na Ópera Epiclese e acusarei Marcel como o verdadeiro culpado."
+                                },
+                                {
+                                    "id": "40011134",
+                                    "speaker": "Navia",
+                                    "text": "Mas eu não conseguirei fazer essa acusação pegar se não encontrarmos mais provas. Vai depender de você voltar a tempo e entregar a prova conclusiva para mim."
+                                },
+                                {
+                                    "id": "40011135",
+                                    "speaker": "Player",
+                                    "text": "Não se preocupe."
+                                },
+                                {
+                                    "id": "40011136",
+                                    "speaker": "Paimon",
+                                    "text": "Te ajudaremos assim como você nos ajudou!"
+                                },
+                                {
+                                    "id": "40011137",
+                                    "speaker": "Melus",
+                                    "text": "Senhorita, por favor, permita-nos te acompanhar."
+                                },
+                                {
+                                    "id": "40011138",
+                                    "speaker": "Silver",
+                                    "text": "#Estou pront{F#a}{M#o}."
+                                },
+                                {
+                                    "id": "40011139",
+                                    "speaker": "Navia",
+                                    "text": "Melus, Silver, quando que vocês chegaram!?"
+                                },
+                                {
+                                    "id": "40011140",
+                                    "speaker": "Melus",
+                                    "text": "Ouvimos que você estava deixando Poisson, então imaginei que você poderia precisar de nossa ajuda."
+                                },
+                                {
+                                    "id": "40011141",
+                                    "speaker": "Melus",
+                                    "text": "Esperamos que você se sinta um pouco mais confiante conosco ao seu lado."
+                                },
+                                {
+                                    "id": "40011142",
+                                    "speaker": "Navia",
+                                    "text": "#Hahaha, muito obrigada. Então vamos ir logo para Erinnyes! Paimon, {NICKNAME}, vejo vocês na Ópera Epiclese!"
+                                },
+                                {
+                                    "id": "40011143",
+                                    "speaker": "Paimon",
+                                    "text": "Combinado!"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "40011130",
+                            "text": "Estou confiante em minhas habilidades de combate."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "400124",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "40012401",
+                    "speaker": "Navia",
+                    "text": "Ugh, quem poderia ser...?"
+                },
+                {
+                    "id": "40012402",
+                    "speaker": "Player",
+                    "text": "Eu acho..."
+                }
+            ]
+        },
+        {
+            "id": "400125",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "40012501",
+                    "speaker": "Player",
+                    "text": "(Se estivermos apenas olhando para o incidente com os Gardemeks... apenas uma pessoa se encaixa.)"
+                }
+            ]
+        },
+        {
+            "id": "400152",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "40015201",
+                    "speaker": "Coralie",
+                    "text": "Deixarei o caso do meu marido com você."
+                },
+                {
+                    "id": "40015202",
+                    "speaker": "Adele",
+                    "text": "#Obrigada, Srta. Spina e {M#Sr. amigo}{F#Srta. amiga} da Spina."
+                }
+            ]
+        },
+        {
+            "id": "400153",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "40015301",
+                    "speaker": "Florent",
+                    "text": "Minhas desculpas, chefe, por essa última parte sentimental."
+                },
+                {
+                    "id": "40015302",
+                    "speaker": "Florent",
+                    "text": "É só que... Muitos anos se passaram e eu segurei a minha língua. Não é sempre que eu consigo compartilhar meus verdadeiros sentimentos com os outros."
+                }
+            ]
+        },
+        {
+            "id": "400154",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "40015401",
+                    "speaker": "Thierry",
+                    "text": "Verei o que posso fazer para você e a Spina di Rosula quando se trata de assuntos dos Gardes, mas não saia dizendo isso para todo mundo, hahahaha."
+                }
+            ]
+        },
+        {
+            "id": "400155",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "40015501",
+                    "speaker": "Marcel",
+                    "text": "Enfim, por que é sempre as pessoas mais gentis que..."
+                }
+            ]
+        },
+        {
+            "id": "400199",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "40019901",
+                    "speaker": "Navia",
+                    "text": "O lugar que vamos visitar é chamado Palais Mermonia. O escritório do Juiz Supremo fica no quarto andar."
+                },
+                {
+                    "id": "40019902",
+                    "speaker": "Navia",
+                    "text": "O Palais é logo em frente. Vamos lá."
+                },
+                {
+                    "id": "40019903",
+                    "speaker": "Neuvillette",
+                    "text": "Por favor, entre."
+                },
+                {
+                    "id": "40019904",
+                    "speaker": "Paimon",
+                    "text": "Você está bem, Navia?"
+                },
+                {
+                    "id": "40019905",
+                    "speaker": "Navia",
+                    "text": "Estou bem, não se preocupe. Vamos investigar os três suspeitos a seguir."
+                },
+                {
+                    "id": "40019906",
+                    "speaker": "Navia",
+                    "text": "Florent deve estar por perto e devemos conseguir encontrar Thierry e Tio Marcel na cidade."
+                },
+                {
+                    "id": "40019907",
+                    "speaker": "Navia",
+                    "text": "Eu vou me recompor no caminho, então não se preocupem!"
+                }
+            ]
+        }
+    ]
+}

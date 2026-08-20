@@ -1,0 +1,1426 @@
+{
+    "quest": {
+        "id": "73002",
+        "title": "Caminhada",
+        "description": "Foi preciso muito esforço para você e Paimon formarem uma história de uma forma que as crianças também achassem interessante. É ótimo que as crianças estejam felizes com a história. Mesmo que elas tenham fortes dúvidas sobre o comportamento dos \"Seres Misteriosos\", mas não é hora para entrar em detalhes. Em seguida, você deve limpar algumas zonas do Definhamento junto de Rana. Afinal, isso ajudará as crianças da Vila Vimara a poderem brincar em segurança novamente.",
+        "rewards": [
+            {
+                "itemId": 102,
+                "count": 400
+            },
+            {
+                "itemId": 201,
+                "count": 50
+            },
+            {
+                "itemId": 202,
+                "count": 40000
+            },
+            {
+                "itemId": 104003,
+                "count": 4
+            },
+            {
+                "itemId": 104013,
+                "count": 4
+            }
+        ],
+        "rewards_formatted": "EXP de Aventura x400, Gema Essencial x50, Mora x40000, EXP do Herói x4, Minério de Refinamento Místico x4",
+        "chapter": {
+            "icon": "UI_ChapterIcon_Sumeru",
+            "id": "10073",
+            "num": "Aranyaka: Capítulo I",
+            "title": "Encontro na Floresta"
+        },
+        "total_dialogue_lines": 236,
+        "total_speaker_counts": {
+            "Black Screen": 3,
+            "Paimon": 51,
+            "Player": 60,
+            "Rana": 122
+        }
+    },
+    "talks": [
+        {
+            "id": "7300233",
+            "objective": "Vá até o Definhamento que precisa ser eliminado",
+            "dialogues": []
+        },
+        {
+            "id": "7300201",
+            "objective": "Vá até o Definhamento que precisa ser eliminado",
+            "dialogues": [
+                {
+                    "id": "730020101",
+                    "speaker": "Rana",
+                    "text": "Ufa, é divertido ter a chance de fazer algo. Isto deve aliviar um pouco o problema."
+                },
+                {
+                    "id": "730020102",
+                    "speaker": "Rana",
+                    "text": "#E vendo {NICKNAME} lutar, eu acho que ainda tenho muito a aprender! Seja quando for para correr ou para trabalhar..."
+                },
+                {
+                    "id": "730020103",
+                    "speaker": "Rana",
+                    "text": "#{F#Uma}{M#Um} Viajante experiente como você é incrível!",
+                    "choices": [
+                        {
+                            "id": "730020104",
+                            "text": "#Obrigad{M#o}{F#a}.",
+                            "response": [
+                                {
+                                    "id": "730020108",
+                                    "speaker": "Rana",
+                                    "text": "#Muito obrigada. Dito isto, como está a situação, {NICKNAME}? Você está se sentindo mal depois de lidar tanto com o Definhamento?",
+                                    "choices": [
+                                        {
+                                            "id": "730020109",
+                                            "text": "Estou bem, não é grave.",
+                                            "response": [
+                                                {
+                                                    "id": "730020116",
+                                                    "speaker": "Rana",
+                                                    "text": "Ainda bem. Obrigada pelo seu esforço, agora posso relaxar."
+                                                },
+                                                {
+                                                    "id": "730020117",
+                                                    "speaker": "Rana",
+                                                    "text": "Vamos fazer uma pausa! Há um acampamento para nossa patrulha florestal logo ali em frente. Deve ter equipamentos e suprimentos.",
+                                                    "choices": [
+                                                        {
+                                                            "id": "730020118",
+                                                            "text": "#Na verdade, não estou tão cansad{F#a}{M#o} assim...",
+                                                            "response": [
+                                                                {
+                                                                    "id": "730020120",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "Acampar! Uhul! Vai ser divertido!"
+                                                                },
+                                                                {
+                                                                    "id": "730020121",
+                                                                    "speaker": "Rana",
+                                                                    "text": "Vamos lá então! É ali em frente!"
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "id": "730020119",
+                                                            "text": "Legal, vamos acampar!"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "730020110",
+                                            "text": "#Só um pouco cansad{M#o}{F#a}."
+                                        },
+                                        {
+                                            "id": "730020111",
+                                            "text": "Argh... Acho que estou morrendo.",
+                                            "response": [
+                                                {
+                                                    "id": "730020112",
+                                                    "speaker": "Rana",
+                                                    "text": "Hã? Oh, entendo... Deite-se um pouco, vou procurar ajuda..."
+                                                },
+                                                {
+                                                    "id": "730020113",
+                                                    "speaker": "Paimon",
+                                                    "text": "#Ei! Não faça brincadeiras como essa, {NICKNAME}! Rana ficará preocupada!",
+                                                    "choices": [
+                                                        {
+                                                            "id": "730020114",
+                                                            "text": "Só estou brincando. Me desculpe."
+                                                        },
+                                                        {
+                                                            "id": "730020115",
+                                                            "text": "Eu estou bem."
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "730020105",
+                            "text": "Sim, moleza."
+                        },
+                        {
+                            "id": "730020106",
+                            "text": "Paimon me treina muito.",
+                            "response": [
+                                {
+                                    "id": "730020107",
+                                    "speaker": "Paimon",
+                                    "text": "Heh, afinal estamos sempre melhorando juntos como companheiros!"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "7300217",
+            "objective": "Fale com Rana",
+            "dialogues": [
+                {
+                    "id": "730021001",
+                    "speaker": "Rana",
+                    "text": "Chegamos. Quando eu era pequena, seguia essa estrada até o vale do rio para brincar."
+                },
+                {
+                    "id": "730021002",
+                    "speaker": "Rana",
+                    "text": "O Definhamento está aparecendo muito rapidamente, e Tighnari e os demais estão muito ocupados para lidar com ele. Felizmente temos você aqui."
+                },
+                {
+                    "id": "730021003",
+                    "speaker": "Player",
+                    "text": "Deixe comigo."
+                },
+                {
+                    "id": "730021004",
+                    "speaker": "Rana",
+                    "text": "Certo! Você lidou bem com o Definhamento antes, mas ele ainda é perigoso. Se for muito para você, saia da área e descanse."
+                }
+            ]
+        },
+        {
+            "id": "7300202",
+            "objective": "Elimine o Definhamento",
+            "dialogues": [
+                {
+                    "id": "730020201",
+                    "speaker": "Rana",
+                    "text": "Chegamos."
+                },
+                {
+                    "id": "730020202",
+                    "speaker": "Paimon",
+                    "text": "Que coisa redonda é essa na borda? Parece uma pequena cabana?"
+                },
+                {
+                    "id": "730020203",
+                    "speaker": "Rana",
+                    "text": "Oh, aquilo... Eu não tenho certeza. Mas nós sempre encontramos nas florestas de Sumeru, talvez sejam algumas ruínas!"
+                },
+                {
+                    "id": "730020204",
+                    "speaker": "Rana",
+                    "text": "Que estranho, agora que você falou, eu acho que já ouvi falar sobre esse tipo de residência e quem mora nela... Quem era mesmo... Algum tipo de cientista louco..."
+                },
+                {
+                    "id": "730020205",
+                    "speaker": "Rana",
+                    "text": "#Deixa para lá! {NICKNAME}, Paimon, esperem um pouco! Eu vou arrumar o acampamento, acender uma fogueira e preparar alguns ingredientes!",
+                    "choices": [
+                        {
+                            "id": "730020206",
+                            "text": "Estamos contando com você.",
+                            "response": [
+                                {
+                                    "id": "730020207",
+                                    "speaker": "Paimon",
+                                    "text": "Nós também vamos ajudar!"
+                                },
+                                {
+                                    "id": "730020209",
+                                    "speaker": "Rana",
+                                    "text": "Oh, nada disso! Fui eu quem lhes pediu para vir ajudar a lidar com o Definhamento..."
+                                },
+                                {
+                                    "id": "730020210",
+                                    "speaker": "Paimon",
+                                    "text": "Pense nisso como um treinamento da vida de um Patrulheiro Florestal! Rana, o que você precisa que façamos?"
+                                },
+                                {
+                                    "id": "730020211",
+                                    "speaker": "Rana",
+                                    "text": "Bem, se você insiste, Paimon... Hmm, poderiam me trazer um pouco de lenha para o fogo?"
+                                },
+                                {
+                                    "id": "730020212",
+                                    "speaker": "Paimon",
+                                    "text": "#Você só precisa de um pouco de madeira cortada? Mamão com açúcar! Pode contar com {NICKNAME}!",
+                                    "choices": [
+                                        {
+                                            "id": "730020213",
+                                            "text": "Não, nós precisamos pegar alguns galhos secos...",
+                                            "response": [
+                                                {
+                                                    "id": "730020214",
+                                                    "speaker": "Rana",
+                                                    "text": "#Isso mesmo, {NICKNAME}! Você seria {F#uma Patrulheira}{M#um Patrulheiro} Florestal excelente!"
+                                                },
+                                                {
+                                                    "id": "730020217",
+                                                    "speaker": "Paimon",
+                                                    "text": "#Mesmo? Hmm, certo, Paimon entendeu! Vamos lá, {NICKNAME}!"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "730020215",
+                                            "text": "#Sou {F#uma}{M#um} lenhad{F#ora}{M#or} muito {F#boa}{M#bom}!",
+                                            "response": [
+                                                {
+                                                    "id": "730020216",
+                                                    "speaker": "Rana",
+                                                    "text": "Ah, você não precisa fazer isso. Basta pegar alguns galhos secos. Coletar lenha é parte fundamental da sobrevivência na natureza!"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "730020208",
+                            "text": "Nós também vamos ajudar!"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "7300203",
+            "objective": "Vá até o Definhamento que precisa ser eliminado",
+            "dialogues": [
+                {
+                    "id": "730020301",
+                    "speaker": "Rana",
+                    "text": "Vocês voltaram! Está quase tudo pronto por aqui."
+                },
+                {
+                    "id": "730020302",
+                    "speaker": "Paimon",
+                    "text": "Rana, esses daqui são suficientes?"
+                },
+                {
+                    "id": "730020303",
+                    "speaker": "Rana",
+                    "text": "Sim, mais que suficiente!"
+                },
+                {
+                    "id": "730020304",
+                    "speaker": "Rana",
+                    "text": "Oh, sim! Um de nossos costumes quando acampamos é que a pessoa mais estimada do grupo acenda a fogueira.",
+                    "choices": [
+                        {
+                            "id": "730020305",
+                            "text": "Basta acender, não é?",
+                            "response": [
+                                {
+                                    "id": "730020308",
+                                    "speaker": "Paimon",
+                                    "text": "Pode deixar conosco!"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "730020306",
+                            "text": "Aah! Fogo! Tenho medo!",
+                            "response": [
+                                {
+                                    "id": "730020307",
+                                    "speaker": "Paimon",
+                                    "text": "Oh, qual é! Pare de brincar! Não finja que nunca incendiamos nada em nossa jornada!"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "7300221",
+            "objective": "Fale com Rana",
+            "dialogues": [
+                {
+                    "id": "730021101",
+                    "speaker": "Rana",
+                    "text": "Esse Definhamento está se expandindo..."
+                },
+                {
+                    "id": "730021102",
+                    "speaker": "Rana",
+                    "text": "#De qualquer forma, eu estou contando com você, {NICKNAME}. Mas não precisa se forçar...",
+                    "choices": [
+                        {
+                            "id": "730021103",
+                            "text": "Não se preocupe.",
+                            "response": [
+                                {
+                                    "id": "730021105",
+                                    "speaker": "Rana",
+                                    "text": "#Obrigada, {NICKNAME}."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "730021104",
+                            "text": "Sim, moleza."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "7300204",
+            "objective": "Elimine o Definhamento",
+            "dialogues": [
+                {
+                    "id": "730020401",
+                    "speaker": "Black Screen",
+                    "text": "Usando os suprimentos armazenados no acampamento e os ingredientes coletados ao longo do caminho, Rana fez um curry de aroma prazeroso. \\nTodos vocês enchem suas barrigas.\\nVocês guardam o que sobrou para comerem depois."
+                },
+                {
+                    "id": "730020402",
+                    "speaker": "Rana",
+                    "text": "Aaaah! Que delícia! Curry fica ainda mais gostoso depois de um trabalho duro como esse...",
+                    "choices": [
+                        {
+                            "id": "730020403",
+                            "text": "Rana, você tirou as palavras da boca da Paimon...",
+                            "response": [
+                                {
+                                    "id": "730020404",
+                                    "speaker": "Paimon",
+                                    "text": "Ei, Paimon não se importa com isso!"
+                                },
+                                {
+                                    "id": "730020406",
+                                    "speaker": "Paimon",
+                                    "text": "Esse curry está tão cheiroso! E se o cheiro dele atrair alguns animais ou hilichurls até aqui?"
+                                },
+                                {
+                                    "id": "730020407",
+                                    "speaker": "Rana",
+                                    "text": "\"Curry~ Curry~ Quando você sente o cheiro do curry~ Você vai querer ir 'curryndo' para casa~♪!\""
+                                },
+                                {
+                                    "id": "730020408",
+                                    "speaker": "Rana",
+                                    "text": "Essa é uma canção infantil de Sumeru! Curry é algo livre, cada família faz com ingredientes e especiarias diferentes. Por isso, o curry de cada família tem seu próprio sabor!"
+                                },
+                                {
+                                    "id": "730020409",
+                                    "speaker": "Rana",
+                                    "text": "Quando éramos pequenos, sentíamos o cheiro do curry e sabíamos se era feito por nossos pais ou não."
+                                },
+                                {
+                                    "id": "730020410",
+                                    "speaker": "Rana",
+                                    "text": "Mas quando crescemos, não sabemos mais diferenciar de quem é o curry. Todos parecem iguais."
+                                },
+                                {
+                                    "id": "730020411",
+                                    "speaker": "Rana",
+                                    "text": "Claro, se você sentir o cheiro de curry, sabe que é hora de ir para casa e comer!"
+                                },
+                                {
+                                    "id": "730020412",
+                                    "speaker": "Paimon",
+                                    "text": "\"Curry~Se você cheirar sua essência~♪\"",
+                                    "choices": [
+                                        {
+                                            "id": "730020413",
+                                            "text": "\"É hora de voltar para a residência~♪\"",
+                                            "response": [
+                                                {
+                                                    "id": "730020414",
+                                                    "speaker": "Paimon",
+                                                    "text": "#As comidas de {NICKNAME} também possuem um aroma diferente!"
+                                                },
+                                                {
+                                                    "id": "730020417",
+                                                    "speaker": "Rana",
+                                                    "text": "Oh, sério? Quero provar!",
+                                                    "choices": [
+                                                        {
+                                                            "id": "730020418",
+                                                            "text": "Pode ser...",
+                                                            "response": [
+                                                                {
+                                                                    "id": "730020419",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "Mas nós já comemos tanto desse curry! Vamos fazer mais na próxima vez!"
+                                                                },
+                                                                {
+                                                                    "id": "730020423",
+                                                                    "speaker": "Rana",
+                                                                    "text": "Certo..."
+                                                                },
+                                                                {
+                                                                    "id": "730020424",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "#A propósito, por que é necessário colher galhos para uma fogueira ao invés de cortar árvores? A Arconte Dendro pune aqueles que cortam árvores? Oh não! {NICKNAME}! O que faremos?!"
+                                                                },
+                                                                {
+                                                                    "id": "730020425",
+                                                                    "speaker": "Rana",
+                                                                    "text": "Oh, não. É porque madeira fresca tem muita umidade nela, é difícil de queimar. Além disso, a Arconte Dendro não é mesquinha assim!"
+                                                                },
+                                                                {
+                                                                    "id": "730020426",
+                                                                    "speaker": "Rana",
+                                                                    "text": "Entretanto, os ensinamentos de Sumeru também dizem que devemos respeitar a natureza e a floresta, pois todos nós somos o povo dela. Assim como os pássaros e bestas, e também..."
+                                                                },
+                                                                {
+                                                                    "id": "730020427",
+                                                                    "speaker": "Rana",
+                                                                    "text": "..."
+                                                                },
+                                                                {
+                                                                    "id": "730020428",
+                                                                    "speaker": "Rana",
+                                                                    "text": "\"No final, a floresta de tudo se lembra\"."
+                                                                },
+                                                                {
+                                                                    "id": "730020429",
+                                                                    "speaker": "Rana",
+                                                                    "text": "\"...Mesmo quando você crescer e esquecer, a floresta se lembrará.\"",
+                                                                    "choices": [
+                                                                        {
+                                                                            "id": "730020430",
+                                                                            "text": "\"A floresta de tudo se lembra\"?",
+                                                                            "response": [
+                                                                                {
+                                                                                    "id": "730020431",
+                                                                                    "speaker": "Paimon",
+                                                                                    "text": "Hã... Rana, o que foi?"
+                                                                                },
+                                                                                {
+                                                                                    "id": "730020433",
+                                                                                    "speaker": "Rana",
+                                                                                    "text": "Hã? Oh... Eu por um momento lembrei de algo perdido em minhas memórias há muito tempo. Algo quente, e nostálgico, mas não consigo mais lembrar do quê... Só dessas duas frases..."
+                                                                                },
+                                                                                {
+                                                                                    "id": "730020434",
+                                                                                    "speaker": "Rana",
+                                                                                    "text": "Droga! É como se você tivesse que espirrar, mas não consegue! Que irritante!"
+                                                                                },
+                                                                                {
+                                                                                    "id": "730020435",
+                                                                                    "speaker": "Paimon",
+                                                                                    "text": "Algumas coisas quanto mais você tenta lembrar, mais difícil é!"
+                                                                                },
+                                                                                {
+                                                                                    "id": "730020436",
+                                                                                    "speaker": "Paimon",
+                                                                                    "text": "Ignore, depois de um tempo você se lembrará quando estiver fazendo alguma outra coisa!"
+                                                                                },
+                                                                                {
+                                                                                    "id": "730020437",
+                                                                                    "speaker": "Rana",
+                                                                                    "text": "Sim, eu sei. Obrigada por cuidar daquelas crianças na vila por mim. Elas são como irmãos e irmãs para mim."
+                                                                                },
+                                                                                {
+                                                                                    "id": "730020438",
+                                                                                    "speaker": "Rana",
+                                                                                    "text": "Kavus é o mais velho. Ele quer viajar pelo mundo em um barco quando crescer. Sudabeh é sua irmã mais nova, ela diz que quer ser como eu. Na verdade, fico constrangida, haha.",
+                                                                                    "choices": [
+                                                                                        {
+                                                                                            "id": "730020439",
+                                                                                            "text": "Acho que não tem problema.",
+                                                                                            "response": [
+                                                                                                {
+                                                                                                    "id": "730020441",
+                                                                                                    "speaker": "Rana",
+                                                                                                    "text": "E também tem Iotham. Eu me preocupo mais com ele. A vovó Jehiet que cuidava dele depois de ter sido abandonado na vila."
+                                                                                                },
+                                                                                                {
+                                                                                                    "id": "730020442",
+                                                                                                    "speaker": "Paimon",
+                                                                                                    "text": "Oh, então Iotham foi..."
+                                                                                                },
+                                                                                                {
+                                                                                                    "id": "730020443",
+                                                                                                    "speaker": "Rana",
+                                                                                                    "text": "Sim, na época eu era só uma garotinha. Um dia, os adultos descobriram que um casal que estava viajando e se hospedando na vila havia desaparecido. Tudo que deixaram para trás foi essa criança."
+                                                                                                },
+                                                                                                {
+                                                                                                    "id": "730020444",
+                                                                                                    "speaker": "Rana",
+                                                                                                    "text": "Eu sempre vivia preocupada com ele. Mas agora, ele, Kavus e os outros são como uma família. Alphonso também cuida dele, como se fosse um irmão mais velho de verdade."
+                                                                                                },
+                                                                                                {
+                                                                                                    "id": "730020445",
+                                                                                                    "speaker": "Player",
+                                                                                                    "text": "Sobre o que você estava falando com as crianças antes..."
+                                                                                                },
+                                                                                                {
+                                                                                                    "id": "730020446",
+                                                                                                    "speaker": "Paimon",
+                                                                                                    "text": "Sim, agora que você falou, quando você estava contando uma história para eles, nós também fizemos algumas perguntas...",
+                                                                                                    "choices": [
+                                                                                                        {
+                                                                                                            "id": "730020447",
+                                                                                                            "text": "Sobre os Aranaras...",
+                                                                                                            "response": [
+                                                                                                                {
+                                                                                                                    "id": "730020448",
+                                                                                                                    "speaker": "Rana",
+                                                                                                                    "text": "Ah, você está falando dos espíritos redondos parecidos com plantas..."
+                                                                                                                },
+                                                                                                                {
+                                                                                                                    "id": "730020449",
+                                                                                                                    "speaker": "Paimon",
+                                                                                                                    "text": "Hmm... Eles disseram que não sabiam de nada, mas parecia que estavam escondendo algo sobre os Aranaras."
+                                                                                                                },
+                                                                                                                {
+                                                                                                                    "id": "730020450",
+                                                                                                                    "speaker": "Rana",
+                                                                                                                    "text": "Hmm... Eu também não sei muito, eu só estava contando a eles sobre o que ouvi. Em primeiro lugar, é como você descreveu: redondo, e parece uma planta."
+                                                                                                                },
+                                                                                                                {
+                                                                                                                    "id": "730020451",
+                                                                                                                    "speaker": "Rana",
+                                                                                                                    "text": "A floresta de Sumeru é vasta e profunda, e está sempre mudando, como uma besta colossal. Se até mesmo habitantes locais se perdem nela, o que dizer de viajantes?"
+                                                                                                                },
+                                                                                                                {
+                                                                                                                    "id": "730020452",
+                                                                                                                    "speaker": "Rana",
+                                                                                                                    "text": "As lendas dizem que há inúmeras criaturas estranhas e fantásticas em florestas como essa, e a mais famosa delas são os Aranaras, que supostamente significa \"povo da floresta\"."
+                                                                                                                },
+                                                                                                                {
+                                                                                                                    "id": "730020453",
+                                                                                                                    "speaker": "Rana",
+                                                                                                                    "text": "Os Aranaras são familiares da Arconte Dendro, e guardiões da floresta. Eles são a ponte entre o povo e as árvores, e também são capazes de penetrar nos sonhos das pessoas."
+                                                                                                                },
+                                                                                                                {
+                                                                                                                    "id": "730020454",
+                                                                                                                    "speaker": "Rana",
+                                                                                                                    "text": "... Mas para as pessoas de Sumeru, sonhos são algo incomum."
+                                                                                                                },
+                                                                                                                {
+                                                                                                                    "id": "730020455",
+                                                                                                                    "speaker": "Paimon",
+                                                                                                                    "text": "Parece incrível!"
+                                                                                                                },
+                                                                                                                {
+                                                                                                                    "id": "730020456",
+                                                                                                                    "speaker": "Rana",
+                                                                                                                    "text": "Sim. Apesar de não dizerem na frente dos adultos, eu acho que adoram as lendas dos Aranara. Quem sabe? Talvez eles viram algum Aranara enquanto brincavam na floresta?"
+                                                                                                                },
+                                                                                                                {
+                                                                                                                    "id": "730020457",
+                                                                                                                    "speaker": "Rana",
+                                                                                                                    "text": "É normal que as crianças tenham alguns segredos que não queiram contar aos adultos. Se elas crescerem saudáveis e se tornarem adultos fortes, gentis e bons..."
+                                                                                                                },
+                                                                                                                {
+                                                                                                                    "id": "730020458",
+                                                                                                                    "speaker": "Player",
+                                                                                                                    "text": "Ah, sobre as crianças desaparecidas..."
+                                                                                                                },
+                                                                                                                {
+                                                                                                                    "id": "730020459",
+                                                                                                                    "speaker": "Rana",
+                                                                                                                    "text": "Oh, sobre isso... Hã? Vocês têm alguma pista?"
+                                                                                                                },
+                                                                                                                {
+                                                                                                                    "id": "730020460",
+                                                                                                                    "speaker": "Paimon",
+                                                                                                                    "text": "#Nós também estávamos muito preocupad{F#as}{M#os}, por isso saímos perguntando por aí! As crianças disseram que estavam na floresta, quando do nada apareceram na Vila Vimara! Elas não conseguiam se lembrar de nada que aconteceu."
+                                                                                                                },
+                                                                                                                {
+                                                                                                                    "id": "730020461",
+                                                                                                                    "speaker": "Rana",
+                                                                                                                    "text": "Isso mesmo. Kavus e Sudabeh aparecem do nada na vila depois de terem sumido por alguns dias. Todos ficaram preocupados com seu desaparecimento, Alphonso até mesmo organizou uma equipe de resgate..."
+                                                                                                                },
+                                                                                                                {
+                                                                                                                    "id": "730020462",
+                                                                                                                    "speaker": "Rana",
+                                                                                                                    "text": "Hehe..."
+                                                                                                                },
+                                                                                                                {
+                                                                                                                    "id": "730020463",
+                                                                                                                    "speaker": "Paimon",
+                                                                                                                    "text": "Rana, o que foi?"
+                                                                                                                },
+                                                                                                                {
+                                                                                                                    "id": "730020464",
+                                                                                                                    "speaker": "Rana",
+                                                                                                                    "text": "Agora que estou pensando, foi engraçado. Vocês se lembram do que eu disse sobre o curry antes? Alphonso ordenou que a equipe de resgate levasse o curry para a floresta, torcendo que as crianças pudessem sentir seu cheiro."
+                                                                                                                },
+                                                                                                                {
+                                                                                                                    "id": "730020465",
+                                                                                                                    "speaker": "Rana",
+                                                                                                                    "text": "De qualquer forma, não encontramos Kavus e Sudabeh, mas eles voltaram por conta própria. Quando você junta isso com a perda de memória... Toda essa situação parece ter algo de errado..."
+                                                                                                                },
+                                                                                                                {
+                                                                                                                    "id": "730020466",
+                                                                                                                    "speaker": "Rana",
+                                                                                                                    "text": "Portanto, tenho que patrulhar a floresta cuidadosamente e eliminar todos os fatores que poderiam prejudicar as crianças. Agora só Iotham nunca se perdeu, e eu devo protegê-lo."
+                                                                                                                },
+                                                                                                                {
+                                                                                                                    "id": "730020487",
+                                                                                                                    "speaker": "Player",
+                                                                                                                    "text": "Sobre Alphonso..."
+                                                                                                                },
+                                                                                                                {
+                                                                                                                    "id": "730020488",
+                                                                                                                    "speaker": "Paimon",
+                                                                                                                    "text": "Oh, falando nele... Alphonso parece ser bem popular na Vila Vimara! Ele organizou a equipe de resgate, e as crianças falam dele o tempo inteiro..."
+                                                                                                                },
+                                                                                                                {
+                                                                                                                    "id": "730020489",
+                                                                                                                    "speaker": "Rana",
+                                                                                                                    "text": "O quê? Ele é como um irmão mais velho para as crianças. Sempre o tratamos como se fosse família desde quando chegou na vila muitos anos atrás."
+                                                                                                                },
+                                                                                                                {
+                                                                                                                    "id": "730020490",
+                                                                                                                    "speaker": "Rana",
+                                                                                                                    "text": "Segundo ele, assim como Iotham, ele não tem família, então ele fez deste lugar seu verdadeiro lar. Iotham também pensa nele como seu verdadeiro irmão."
+                                                                                                                },
+                                                                                                                {
+                                                                                                                    "id": "730020491",
+                                                                                                                    "speaker": "Paimon",
+                                                                                                                    "text": "Entendo..."
+                                                                                                                },
+                                                                                                                {
+                                                                                                                    "id": "730020492",
+                                                                                                                    "speaker": "Rana",
+                                                                                                                    "text": "#Se {NICKNAME} e Paimon ficassem na Vila Vimara, tenho certeza que eles ficariam muito felizes! Teriam {F#duas irmãzonas}{M#um irmãozão e uma irmãzona}!"
+                                                                                                                },
+                                                                                                                {
+                                                                                                                    "id": "730020493",
+                                                                                                                    "speaker": "Rana",
+                                                                                                                    "text": "#Como eu disse antes, se for possível, gostaria que vocês se juntassem aos Patrulheiros Florestais. Assim poderíamos patrulhar junt{F#as}{M#os}, o que acham?"
+                                                                                                                },
+                                                                                                                {
+                                                                                                                    "id": "730020494",
+                                                                                                                    "speaker": "Player",
+                                                                                                                    "text": "Bem, na verdade eu estou viajando procurando por alguém..."
+                                                                                                                },
+                                                                                                                {
+                                                                                                                    "id": "730020495",
+                                                                                                                    "speaker": "Black Screen",
+                                                                                                                    "text": "Você explica brevemente para Rana o propósito de sua viagem."
+                                                                                                                },
+                                                                                                                {
+                                                                                                                    "id": "730020496",
+                                                                                                                    "speaker": "Rana",
+                                                                                                                    "text": "#Entendo, sei como você se sente {NICKNAME}. Eu também tinha um amigo muito importante que desapareceu. Mas ele..."
+                                                                                                                },
+                                                                                                                {
+                                                                                                                    "id": "730020497",
+                                                                                                                    "speaker": "Rana",
+                                                                                                                    "text": "#Bem, isso não é importante. {F#O}{M#A} garot{F#o}{M#a} lour{F#o}{M#a} que você está procurando... Eu acho que já ouvi falar antes... Deixe-me pensar..."
+                                                                                                                },
+                                                                                                                {
+                                                                                                                    "id": "730020498",
+                                                                                                                    "speaker": "Rana",
+                                                                                                                    "text": "#Não, não consigo. Mas eu tenho certeza que já ouvi alguém me contar a história de {F#um}{M#uma} garot{F#o}{M#a} lour{F#o}{M#a} antes... Lour{F#a}{M#o} como ouro... E se chamava \"Nara\" ou algo assim..."
+                                                                                                                },
+                                                                                                                {
+                                                                                                                    "id": "730020499",
+                                                                                                                    "speaker": "Paimon",
+                                                                                                                    "text": "(Paimon acha que a memória de Rana não é muito boa.)",
+                                                                                                                    "choices": [
+                                                                                                                        {
+                                                                                                                            "id": "730020500",
+                                                                                                                            "text": "(É o que acontece quando você cresce.)",
+                                                                                                                            "response": [
+                                                                                                                                {
+                                                                                                                                    "id": "730020502",
+                                                                                                                                    "speaker": "Paimon",
+                                                                                                                                    "text": "Você não precisa se forçar, Rana. Paimon espera que as crianças na Vila Vimara estejam bem..."
+                                                                                                                                },
+                                                                                                                                {
+                                                                                                                                    "id": "730020503",
+                                                                                                                                    "speaker": "Rana",
+                                                                                                                                    "text": "#Bem, eu fiquei muito feliz em conhecer vocês {F#duas}{M#dois}. E tenho certeza que as crianças também!"
+                                                                                                                                },
+                                                                                                                                {
+                                                                                                                                    "id": "730020504",
+                                                                                                                                    "speaker": "Rana",
+                                                                                                                                    "text": "#Você não somente é habilidos{F#a}{M#o}, mas também gentil. Estou comovida que você se preocupa com meus irmãos e irmãs na Vila Vimara! Eu ficarei de olho pela pessoa que você está procurando!"
+                                                                                                                                },
+                                                                                                                                {
+                                                                                                                                    "id": "730020505",
+                                                                                                                                    "speaker": "Rana",
+                                                                                                                                    "text": "#Depois, quando a sua viagem terminar, venha para Sumeru! Podemos patrulhar a floresta junt{F#as}{M#os}!"
+                                                                                                                                },
+                                                                                                                                {
+                                                                                                                                    "id": "730020506",
+                                                                                                                                    "speaker": "Player",
+                                                                                                                                    "text": "..."
+                                                                                                                                },
+                                                                                                                                {
+                                                                                                                                    "id": "730020508",
+                                                                                                                                    "speaker": "Rana",
+                                                                                                                                    "text": "Certo, mas pense bem. Oh, se eu pudesse ter conhecido você e Paimon antes..."
+                                                                                                                                },
+                                                                                                                                {
+                                                                                                                                    "id": "730020509",
+                                                                                                                                    "speaker": "Paimon",
+                                                                                                                                    "text": "Hehe, você está deixando Paimon envergonhada!"
+                                                                                                                                },
+                                                                                                                                {
+                                                                                                                                    "id": "730020510",
+                                                                                                                                    "speaker": "Rana",
+                                                                                                                                    "text": "Zzz...",
+                                                                                                                                    "choices": [
+                                                                                                                                        {
+                                                                                                                                            "id": "730020511",
+                                                                                                                                            "text": "(Ela parece estar dormindo.)",
+                                                                                                                                            "response": [
+                                                                                                                                                {
+                                                                                                                                                    "id": "730020512",
+                                                                                                                                                    "speaker": "Paimon",
+                                                                                                                                                    "text": "(Como ela consegue dormir sentada?! Isso é algum tipo de treinamento especial dos Patrulheiros Florestais?!)"
+                                                                                                                                                },
+                                                                                                                                                {
+                                                                                                                                                    "id": "730020514",
+                                                                                                                                                    "speaker": "Paimon",
+                                                                                                                                                    "text": "#(Ela deve estar exausta. Hehe, parece que Rana não tem nossa energia. Você quer descansar, {NICKNAME}?)",
+                                                                                                                                                    "choices": [
+                                                                                                                                                        {
+                                                                                                                                                            "id": "730020515",
+                                                                                                                                                            "text": "(Sim, vou descansar também.)",
+                                                                                                                                                            "response": [
+                                                                                                                                                                {
+                                                                                                                                                                    "id": "730020516",
+                                                                                                                                                                    "speaker": "Paimon",
+                                                                                                                                                                    "text": "(Bom descanso!)"
+                                                                                                                                                                }
+                                                                                                                                                            ]
+                                                                                                                                                        },
+                                                                                                                                                        {
+                                                                                                                                                            "id": "730020517",
+                                                                                                                                                            "text": "(Ainda preciso fazer algo.)",
+                                                                                                                                                            "response": [
+                                                                                                                                                                {
+                                                                                                                                                                    "id": "730020518",
+                                                                                                                                                                    "speaker": "Paimon",
+                                                                                                                                                                    "text": "(Certo. Se você quiser descansar, volte.)"
+                                                                                                                                                                }
+                                                                                                                                                            ]
+                                                                                                                                                        }
+                                                                                                                                                    ]
+                                                                                                                                                }
+                                                                                                                                            ]
+                                                                                                                                        },
+                                                                                                                                        {
+                                                                                                                                            "id": "730020513",
+                                                                                                                                            "text": "(Ela consegue dormir sentada!)"
+                                                                                                                                        }
+                                                                                                                                    ]
+                                                                                                                                }
+                                                                                                                            ]
+                                                                                                                        },
+                                                                                                                        {
+                                                                                                                            "id": "730020501",
+                                                                                                                            "text": "(Isso é preocupante.)"
+                                                                                                                        }
+                                                                                                                    ]
+                                                                                                                }
+                                                                                                            ]
+                                                                                                        },
+                                                                                                        {
+                                                                                                            "id": "730020467",
+                                                                                                            "text": "Sobre as crianças desaparecidas...",
+                                                                                                            "response": [
+                                                                                                                {
+                                                                                                                    "id": "730020468",
+                                                                                                                    "speaker": "Rana",
+                                                                                                                    "text": "Oh, sobre isso... Hã? Vocês têm alguma pista?"
+                                                                                                                },
+                                                                                                                {
+                                                                                                                    "id": "730020469",
+                                                                                                                    "speaker": "Paimon",
+                                                                                                                    "text": "#Nós também estávamos muito preocupad{F#as}{M#os}, por isso saímos perguntando por aí! As crianças disseram que estavam na floresta, quando do nada apareceram na Vila Vimara! Elas não conseguiam se lembrar de nada que aconteceu."
+                                                                                                                },
+                                                                                                                {
+                                                                                                                    "id": "730020470",
+                                                                                                                    "speaker": "Rana",
+                                                                                                                    "text": "Isso mesmo. Kavus e Sudabeh aparecem do nada na vila depois de terem sumido por alguns dias. Todos ficaram preocupados com seu desaparecimento, Alphonso até mesmo organizou uma equipe de resgate..."
+                                                                                                                },
+                                                                                                                {
+                                                                                                                    "id": "730020471",
+                                                                                                                    "speaker": "Rana",
+                                                                                                                    "text": "Hehe..."
+                                                                                                                },
+                                                                                                                {
+                                                                                                                    "id": "730020472",
+                                                                                                                    "speaker": "Paimon",
+                                                                                                                    "text": "Rana, o que foi?"
+                                                                                                                },
+                                                                                                                {
+                                                                                                                    "id": "730020473",
+                                                                                                                    "speaker": "Rana",
+                                                                                                                    "text": "Agora que estou pensando, foi engraçado. Vocês se lembram do que eu disse sobre o curry antes? Alphonso ordenou que a equipe de resgate levasse o curry para a floresta, torcendo que as crianças pudessem sentir seu cheiro."
+                                                                                                                },
+                                                                                                                {
+                                                                                                                    "id": "730020474",
+                                                                                                                    "speaker": "Rana",
+                                                                                                                    "text": "De qualquer forma, não encontramos Kavus e Sudabeh, mas eles voltaram por conta própria. Quando você junta isso com a perda de memória... Toda essa situação parece ter algo de errado..."
+                                                                                                                },
+                                                                                                                {
+                                                                                                                    "id": "730020475",
+                                                                                                                    "speaker": "Rana",
+                                                                                                                    "text": "Portanto, tenho que patrulhar a floresta cuidadosamente e eliminar todos os fatores que poderiam prejudicar as crianças. Agora só Iotham nunca se perdeu, e eu devo protegê-lo."
+                                                                                                                },
+                                                                                                                {
+                                                                                                                    "id": "730020476",
+                                                                                                                    "speaker": "Player",
+                                                                                                                    "text": "Ah, sobre os Aranara..."
+                                                                                                                },
+                                                                                                                {
+                                                                                                                    "id": "730020477",
+                                                                                                                    "speaker": "Rana",
+                                                                                                                    "text": "Ah, você está falando dos espíritos redondos parecidos com plantas..."
+                                                                                                                },
+                                                                                                                {
+                                                                                                                    "id": "730020478",
+                                                                                                                    "speaker": "Paimon",
+                                                                                                                    "text": "Hmm... Eles disseram que não sabiam de nada, mas parecia que estavam escondendo algo sobre os Aranaras."
+                                                                                                                },
+                                                                                                                {
+                                                                                                                    "id": "730020479",
+                                                                                                                    "speaker": "Rana",
+                                                                                                                    "text": "Hmm... Eu também não sei muito, eu só estava contando a eles sobre o que ouvi. Em primeiro lugar, é como você descreveu: redondo, e parece uma planta."
+                                                                                                                },
+                                                                                                                {
+                                                                                                                    "id": "730020480",
+                                                                                                                    "speaker": "Rana",
+                                                                                                                    "text": "A floresta de Sumeru é vasta e profunda, e está sempre mudando, como uma besta colossal. Se até mesmo habitantes locais se perdem nela, o que dizer de viajantes?"
+                                                                                                                },
+                                                                                                                {
+                                                                                                                    "id": "730020481",
+                                                                                                                    "speaker": "Rana",
+                                                                                                                    "text": "As lendas dizem que há inúmeras criaturas estranhas e fantásticas em florestas como essa, e a mais famosa delas são os Aranaras, que supostamente significa \"povo da floresta\"."
+                                                                                                                },
+                                                                                                                {
+                                                                                                                    "id": "730020482",
+                                                                                                                    "speaker": "Rana",
+                                                                                                                    "text": "Os Aranaras são familiares da Arconte Dendro, e guardiões da floresta. Eles são a ponte entre o povo e as árvores, e também são capazes de penetrar nos sonhos das pessoas."
+                                                                                                                },
+                                                                                                                {
+                                                                                                                    "id": "730020483",
+                                                                                                                    "speaker": "Rana",
+                                                                                                                    "text": "... Mas para as pessoas de Sumeru, sonhos são algo incomum."
+                                                                                                                },
+                                                                                                                {
+                                                                                                                    "id": "730020484",
+                                                                                                                    "speaker": "Paimon",
+                                                                                                                    "text": "Parece incrível!"
+                                                                                                                },
+                                                                                                                {
+                                                                                                                    "id": "730020485",
+                                                                                                                    "speaker": "Rana",
+                                                                                                                    "text": "Sim. Apesar de não dizerem na frente dos adultos, eu acho que adoram as lendas dos Aranara. Quem sabe? Talvez eles viram algum Aranara enquanto brincavam na floresta?"
+                                                                                                                },
+                                                                                                                {
+                                                                                                                    "id": "730020486",
+                                                                                                                    "speaker": "Rana",
+                                                                                                                    "text": "É normal que as crianças tenham alguns segredos que não queiram contar aos adultos. Se elas crescerem saudáveis e se tornarem adultos fortes, gentis e bons..."
+                                                                                                                }
+                                                                                                            ]
+                                                                                                        }
+                                                                                                    ]
+                                                                                                }
+                                                                                            ]
+                                                                                        },
+                                                                                        {
+                                                                                            "id": "730020440",
+                                                                                            "text": "É constrangedor mesmo."
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        {
+                                                                            "id": "730020432",
+                                                                            "text": "Rana, você está bem?"
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "id": "730020420",
+                                                            "text": "Não.",
+                                                            "response": [
+                                                                {
+                                                                    "id": "730020421",
+                                                                    "speaker": "Rana",
+                                                                    "text": "Hã? Por quê?"
+                                                                },
+                                                                {
+                                                                    "id": "730020422",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "#Hmm, o que {NICKNAME} quer dizer é que acabamos de comer muito curry, quem sabe da próxima!"
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "730020415",
+                                            "text": "Não precisa ser curry para chamar atenção de Paimon.",
+                                            "response": [
+                                                {
+                                                    "id": "730020416",
+                                                    "speaker": "Paimon",
+                                                    "text": "#Hm, então parece que você não notou, {NICKNAME}. A sua comida tem um cheiro diferente!"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "730020405",
+                            "text": "#Delicioso! Obrigad{F#a}{M#o}!"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "7300205",
+            "objective": "Vá até a área dos Crocodilos Espinhosos",
+            "dialogues": []
+        },
+        {
+            "id": "7300220",
+            "objective": "Fale com Rana",
+            "dialogues": [
+                {
+                    "id": "730021201",
+                    "speaker": "Rana",
+                    "text": "Os Patrulheiros Florestais também têm a função de proteger o ecossistema. Recentemente, talvez por causa do Definhamento, os crocodilos têm estado particularmente... Hmm, digamos, ferozes."
+                },
+                {
+                    "id": "730021202",
+                    "speaker": "Rana",
+                    "text": "Não apenas estão invadindo o território de outros animais, mas estão se reproduzindo ainda mais rápido. Se isso continuar, eles não serão um problema apenas para as crianças, mas para todo o ecossistema da floresta."
+                },
+                {
+                    "id": "730021203",
+                    "speaker": "Rana",
+                    "text": "#Felizmente, dessa vez você não precisa lidar com o Definhamento. Agora é a minha chance, haha. {NICKNAME}, pode descansar e deixar isso comigo.",
+                    "choices": [
+                        {
+                            "id": "730021204",
+                            "text": "Eu irei ajudar.",
+                            "response": [
+                                {
+                                    "id": "730021206",
+                                    "speaker": "Paimon",
+                                    "text": "Vamos ajudar também!"
+                                },
+                                {
+                                    "id": "730021207",
+                                    "speaker": "Rana",
+                                    "text": "#Mesmo? Ótimo! Vamos lutar lado a lado então, {NICKNAME}!"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "730021205",
+                            "text": "Descansar? Nada disso."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "7300222",
+            "objective": "Derrote uma certa quantidade de Crocodilos Espinhosos.",
+            "dialogues": [
+                {
+                    "id": "730022201",
+                    "speaker": "Rana",
+                    "text": "Uma das tradições do nosso acampamento é deixar com que a pessoa mais estimada do grupo acenda a fogueira."
+                },
+                {
+                    "id": "730022202",
+                    "speaker": "Rana",
+                    "text": "A razão dessa tradição? Provavelmente porque na era da escuridão, o fogo era um símbolo de calor e coragem."
+                },
+                {
+                    "id": "730022203",
+                    "speaker": "Player",
+                    "text": "Era da escuridão?"
+                },
+                {
+                    "id": "730022204",
+                    "speaker": "Rana",
+                    "text": "Sim. A origem dos Guardiões da Floresta é muito antiga. Dizem que eles caminharam pelas florestas quando existiam tigres de verdade. Os primeiros Guardiões da Floresta eram a guarda real do rei da floresta!"
+                },
+                {
+                    "id": "730022205",
+                    "speaker": "Rana",
+                    "text": "Depois, Khaenri'ah sucumbiu, dando início à era da escuridão."
+                },
+                {
+                    "id": "730022206",
+                    "speaker": "Rana",
+                    "text": "Poucos registros sobreviveram ao cataclismo, então ninguém sabe exatamente o que aconteceu. Mesmo assim, eu ainda quero ver um tigre de verdade com os meus próprios olhos!"
+                }
+            ]
+        },
+        {
+            "id": "7300223",
+            "objective": "Fale com Rana",
+            "dialogues": []
+        },
+        {
+            "id": "7300206",
+            "objective": "Vá para o acampamento",
+            "dialogues": [
+                {
+                    "id": "730020601",
+                    "speaker": "Rana",
+                    "text": ""
+                },
+                {
+                    "id": "730020602",
+                    "speaker": "Rana",
+                    "text": ""
+                }
+            ]
+        },
+        {
+            "id": "7300219",
+            "objective": "Colete lenha.",
+            "dialogues": [
+                {
+                    "id": "730021901",
+                    "speaker": "Rana",
+                    "text": "Aaah, dormi muito bem! Nem me lembro de adormecer, me desculpem, hehe...",
+                    "choices": [
+                        {
+                            "id": "730021902",
+                            "text": "Você consegue até mesmo dormir sentada...",
+                            "response": [
+                                {
+                                    "id": "730021904",
+                                    "speaker": "Rana",
+                                    "text": "Na verdade, não. Eu só comi muito, e estava tão relaxada que eu..."
+                                },
+                                {
+                                    "id": "730021905",
+                                    "speaker": "Rana",
+                                    "text": "Ahem! Aqui está uma dica dos Patrulheiros Florestais. Ao procurar pessoas perdidas na floresta, se você as encontrar, certifique-se de dar-lhes algo fácil de digerir."
+                                },
+                                {
+                                    "id": "730021906",
+                                    "speaker": "Rana",
+                                    "text": "A digestão é fisicamente exigente e é por isso que é tão fácil ficar com sono depois de comer. Pelo menos, é o que dizem os estudiosos da Academia."
+                                },
+                                {
+                                    "id": "730021907",
+                                    "speaker": "Rana",
+                                    "text": "#{NICKNAME}, Paimon, vocês descansaram? Trabalharam tanto ontem...",
+                                    "choices": [
+                                        {
+                                            "id": "730021908",
+                                            "text": "Dormimos que nem bebês.",
+                                            "response": [
+                                                {
+                                                    "id": "730021910",
+                                                    "speaker": "Paimon",
+                                                    "text": "Sim! Não precisa se preocupar conosco!"
+                                                },
+                                                {
+                                                    "id": "730021911",
+                                                    "speaker": "Rana",
+                                                    "text": "Vocês tem certeza? Bem... Obrigada por sua ajuda ontem. Me sinto bem melhor de ter vocês comigo."
+                                                },
+                                                {
+                                                    "id": "730021912",
+                                                    "speaker": "Paimon",
+                                                    "text": "#Pode sempre confiar em {NICKNAME}! Você ainda tem algo para fazer hoje, Rana?"
+                                                },
+                                                {
+                                                    "id": "730021913",
+                                                    "speaker": "Rana",
+                                                    "text": "Vamos ver... Acho que já terminamos tudo. Vamos voltar para a Vila Vimara! Podemos confirmar a situação em nosso caminho de volta."
+                                                },
+                                                {
+                                                    "id": "730021914",
+                                                    "speaker": "Paimon",
+                                                    "text": "Vamos!"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "730021909",
+                                            "text": "Não precisa, estou me sentindo ótima."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "730021903",
+                            "text": "Você devia estar exausta..."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "7300209",
+            "objective": "",
+            "dialogues": [
+                {
+                    "id": "730020901",
+                    "speaker": "Paimon",
+                    "text": "Bom, isto deve ser o suficiente!"
+                },
+                {
+                    "id": "730020902",
+                    "speaker": "Paimon",
+                    "text": "Vamos voltar e procurar por Rana!"
+                }
+            ]
+        },
+        {
+            "id": "7300208",
+            "objective": "",
+            "dialogues": [
+                {
+                    "id": "730020801",
+                    "speaker": "Rana",
+                    "text": "#É bom ter {NICKNAME} aqui. Ainda assim, não se esforce demais."
+                }
+            ]
+        },
+        {
+            "id": "7300211",
+            "objective": "Retorne ao acampamento e fale com Rana",
+            "dialogues": []
+        },
+        {
+            "id": "7300212",
+            "objective": "Acenda a Fogueira do Acampamento.",
+            "dialogues": []
+        },
+        {
+            "id": "7300213",
+            "objective": "Fale com Rana",
+            "dialogues": [
+                {
+                    "id": "730021301",
+                    "speaker": "Rana",
+                    "text": "Chegamos. Quando eu era pequena, seguia essa estrada até o vale do rio para brincar."
+                },
+                {
+                    "id": "730021302",
+                    "speaker": "Rana",
+                    "text": "O Definhamento está aparecendo muito rapidamente, e Tighnari e os demais estão muito ocupados para lidar com ele. Felizmente temos você aqui."
+                },
+                {
+                    "id": "730021303",
+                    "speaker": "Player",
+                    "text": "Deixe comigo."
+                },
+                {
+                    "id": "730021304",
+                    "speaker": "Rana",
+                    "text": "Certo! Você lidou bem com o Definhamento antes, mas ele ainda é perigoso. Se for muito para você, saia da área e descanse."
+                }
+            ]
+        },
+        {
+            "id": "7300214",
+            "objective": "Descanse, ou espere até a manhã do dia seguinte (06:00-08:00).",
+            "dialogues": []
+        },
+        {
+            "id": "7300225",
+            "objective": "",
+            "dialogues": [
+                {
+                    "id": "730022101",
+                    "speaker": "Black Screen",
+                    "text": ""
+                }
+            ]
+        },
+        {
+            "id": "7300228",
+            "objective": "Fale com Rana",
+            "dialogues": []
+        },
+        {
+            "id": "7300229",
+            "objective": "Fale com Rana",
+            "dialogues": [
+                {
+                    "id": "730022001",
+                    "speaker": "Rana",
+                    "text": "#{NICKNAME}, você voltou! Eu estava tão preocupada..."
+                },
+                {
+                    "id": "730022002",
+                    "speaker": "Rana",
+                    "text": "Eu tinha medo que você e Paimon se perdessem... ou, pior, que aqueles crocodilos de antes voltassem procurando vingança e tivessem lhes levado!"
+                },
+                {
+                    "id": "730022003",
+                    "speaker": "Paimon",
+                    "text": "Crocodilos são tão assustadores assim? Nós vimos que você estava dormindo, por isso fomos cuidar de outras coisas..."
+                },
+                {
+                    "id": "730022004",
+                    "speaker": "Rana",
+                    "text": "Me desculpem, eu não percebi que havia adormecido, hehe...",
+                    "choices": [
+                        {
+                            "id": "730022005",
+                            "text": "Você consegue até mesmo dormir sentada...",
+                            "response": [
+                                {
+                                    "id": "730022007",
+                                    "speaker": "Rana",
+                                    "text": "Na verdade, não. Eu só comi muito, e estava tão relaxada que eu..."
+                                },
+                                {
+                                    "id": "730022008",
+                                    "speaker": "Rana",
+                                    "text": "Aqui está um pouco de conhecimento dos Patrulheiros Florestais. Às vezes procuramos pessoas perdidas na floresta, e se as encontramos, devemos dar-lhes algo fácil de digerir."
+                                },
+                                {
+                                    "id": "730022009",
+                                    "speaker": "Rana",
+                                    "text": "A digestão é fisicamente exigente e é por isso que é tão fácil ficar com sono depois de comer. Pelo menos, é o que dizem os estudiosos da Academia."
+                                },
+                                {
+                                    "id": "730022010",
+                                    "speaker": "Rana",
+                                    "text": "#{NICKNAME}, Paimon, vocês descansaram? Trabalharam tanto ontem...",
+                                    "choices": [
+                                        {
+                                            "id": "730022011",
+                                            "text": "Dormimos que nem bebês.",
+                                            "response": [
+                                                {
+                                                    "id": "730022013",
+                                                    "speaker": "Paimon",
+                                                    "text": "Sim! Não precisa se preocupar conosco!"
+                                                },
+                                                {
+                                                    "id": "730022014",
+                                                    "speaker": "Rana",
+                                                    "text": "Vocês tem certeza? Bem... Obrigada por sua ajuda ontem. Me sinto bem melhor de ter vocês comigo."
+                                                },
+                                                {
+                                                    "id": "730022015",
+                                                    "speaker": "Paimon",
+                                                    "text": "#Pode sempre confiar em {NICKNAME}! Você ainda tem algo para fazer hoje, Rana?"
+                                                },
+                                                {
+                                                    "id": "730022016",
+                                                    "speaker": "Rana",
+                                                    "text": "Vamos ver... Acho que já terminamos tudo. Vamos voltar para a Vila Vimara! Podemos confirmar a situação em nosso caminho de volta."
+                                                },
+                                                {
+                                                    "id": "730022017",
+                                                    "speaker": "Paimon",
+                                                    "text": "Vamos!"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "730022012",
+                                            "text": "Não precisa, estou me sentindo ótima."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "730022006",
+                            "text": "Você devia estar exausta..."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "7300205",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "730020519",
+                    "speaker": "Rana",
+                    "text": "#Além de lenha, aqui temos quase tudo que precisamos... Ah, {NICKNAME}, você voltou. Você já coletou madeira suficiente?"
+                },
+                {
+                    "id": "730020520",
+                    "speaker": "Player",
+                    "text": "Ainda não..."
+                },
+                {
+                    "id": "730020521",
+                    "speaker": "Rana",
+                    "text": "Tudo bem, deixe comigo. Fique aqui e descanse! Deixe-me organizar o acampamento e eu vou imediatamente!",
+                    "choices": [
+                        {
+                            "id": "730020522",
+                            "text": "Deixe comigo, não vai demorar muito.",
+                            "response": [
+                                {
+                                    "id": "730020524",
+                                    "speaker": "Rana",
+                                    "text": "Tudo bem, obrigada pela ajuda!"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "730020523",
+                            "text": "Só vim avisar que estou de saída."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "7300207",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "730020701",
+                    "speaker": "Rana",
+                    "text": "O Definhamento ainda é perigoso. Se for demais para você, certifique-se de deixar o Definhamento e descansar um pouco."
+                }
+            ]
+        },
+        {
+            "id": "7300218",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "730021801",
+                    "speaker": "Rana",
+                    "text": "Zzz... Ajudar a encontrar alguém... Curry...",
+                    "choices": [
+                        {
+                            "id": "730021802",
+                            "text": "(Eu também deveria descansar.)"
+                        },
+                        {
+                            "id": "730021803",
+                            "text": "(Preciso fazer algo antes.)"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

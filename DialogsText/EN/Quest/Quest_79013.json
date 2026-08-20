@@ -1,0 +1,854 @@
+{
+    "quest": {
+        "id": "79013",
+        "title": "Thus Was the Work Done in Vain",
+        "description": "By chance, you discover notes left by an adventurer who was left stranded by Minacious Isle's traps. However, all that seems to have happened well in the now-unchangeable past. Might there be some way to help him, even if only in a Mirage?",
+        "rewards": [
+            {
+                "itemId": 102,
+                "count": 400
+            },
+            {
+                "itemId": 201,
+                "count": 50
+            },
+            {
+                "itemId": 202,
+                "count": 30000
+            },
+            {
+                "itemId": 104003,
+                "count": 3
+            },
+            {
+                "itemId": 104013,
+                "count": 6
+            }
+        ],
+        "rewards_formatted": "Adventure EXP x400, Primogem x50, Mora x30000, Hero's Wit x3, Mystic Enhancement Ore x6",
+        "chapter": {
+            "icon": "",
+            "id": "",
+            "num": "",
+            "title": ""
+        },
+        "total_dialogue_lines": 120,
+        "total_speaker_counts": {
+            "Etchings": 8,
+            "Old Etchings": 9,
+            "Old Notes": 4,
+            "Paimon": 69,
+            "Player": 30
+        }
+    },
+    "talks": [
+        {
+            "id": "7901301",
+            "objective": "",
+            "dialogues": [
+                {
+                    "id": "790130101",
+                    "speaker": "Old Notes",
+                    "text": ""
+                }
+            ]
+        },
+        {
+            "id": "7901302",
+            "objective": "Talk to Paimon",
+            "dialogues": [
+                {
+                    "id": "790130201",
+                    "speaker": "Paimon",
+                    "text": "Hehe, Sweet Madame really is delicious."
+                },
+                {
+                    "id": "790130202",
+                    "speaker": "Paimon",
+                    "text": "Paimon really gets why this Wolfgang guy misses it!"
+                },
+                {
+                    "id": "790130203",
+                    "speaker": "Paimon",
+                    "text": "Poor guy, trapped in here without any chance of having Sweet Madame just one last time...",
+                    "choices": [
+                        {
+                            "id": "790130204",
+                            "text": "This notebook is very, very old...",
+                            "response": [
+                                {
+                                    "id": "790130206",
+                                    "speaker": "Paimon",
+                                    "text": "#Yeah, but... Do you remember how we crossed through something like a lake on an island to reach another island on the other side, {NICKNAME}?"
+                                },
+                                {
+                                    "id": "790130217",
+                                    "speaker": "Paimon",
+                                    "text": "The buildings on the island inside the lake do look way more complete than the ones outside it."
+                                },
+                                {
+                                    "id": "790130218",
+                                    "speaker": "Paimon",
+                                    "text": "The buildings on the current island look like ruins in comparison...",
+                                    "choices": [
+                                        {
+                                            "id": "790130219",
+                                            "text": "The buildings within the lake might be...",
+                                            "response": [
+                                                {
+                                                    "id": "790130221",
+                                                    "speaker": "Paimon",
+                                                    "text": "That's very likely! The buildings on the island inside might just be the original form of the ruins outside!"
+                                                },
+                                                {
+                                                    "id": "790130222",
+                                                    "speaker": "Paimon",
+                                                    "text": "#{NICKNAME}, do you think..."
+                                                },
+                                                {
+                                                    "id": "790130223",
+                                                    "speaker": "Player",
+                                                    "text": "That the island within the lake is the island as it once looked?"
+                                                },
+                                                {
+                                                    "id": "790130224",
+                                                    "speaker": "Paimon",
+                                                    "text": "Yeah!"
+                                                },
+                                                {
+                                                    "id": "790130207",
+                                                    "speaker": "Paimon",
+                                                    "text": "Also, look... We can save this guy if we find where that secret chamber used to be, can't we?",
+                                                    "choices": [
+                                                        {
+                                                            "id": "790130208",
+                                                            "text": "It's only gonna work within the confines of the Mirage...",
+                                                            "response": [
+                                                                {
+                                                                    "id": "790130210",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "Yeah, but... Even if it's all fake, and this adventurer doesn't even exist... Shouldn't we at least try to save him? His fate was so sad..."
+                                                                },
+                                                                {
+                                                                    "id": "790130211",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "#{NICKNAME}...",
+                                                                    "choices": [
+                                                                        {
+                                                                            "id": "790130212",
+                                                                            "text": "Well yes, I suppose you're right.",
+                                                                            "response": [
+                                                                                {
+                                                                                    "id": "790130213",
+                                                                                    "speaker": "Paimon",
+                                                                                    "text": "#Hehe! Paimon knew you'd agree, {NICKNAME}!"
+                                                                                },
+                                                                                {
+                                                                                    "id": "790130216",
+                                                                                    "speaker": "Paimon",
+                                                                                    "text": "Let's have a look at the island that's inside the lake."
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        {
+                                                                            "id": "790130214",
+                                                                            "text": "Let's go have a look, then...",
+                                                                            "response": [
+                                                                                {
+                                                                                    "id": "790130215",
+                                                                                    "speaker": "Paimon",
+                                                                                    "text": "Yup, let's try to save this Wolfgang guy, shall we?"
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "id": "790130209",
+                                                            "text": "That won't change what happened in reality..."
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "790130220",
+                                            "text": "The buildings within the lake reflect their original appearance..."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "790130205",
+                            "text": "This happened a long time ago, Paimon..."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "7901303",
+            "objective": "Go to the island within the lake to check the ruins of the past",
+            "dialogues": []
+        },
+        {
+            "id": "7901304",
+            "objective": "Go to the island within the lake to check the ruins of the past",
+            "dialogues": []
+        },
+        {
+            "id": "7901305",
+            "objective": "Go to the place on the lake island where the notes were left",
+            "dialogues": []
+        },
+        {
+            "id": "7901306",
+            "objective": "Find a way to open the secret chamber",
+            "dialogues": [
+                {
+                    "id": "790130601",
+                    "speaker": "Paimon",
+                    "text": "Let's leave a few words here, he should be able to see 'em!"
+                },
+                {
+                    "id": "790130602",
+                    "speaker": "Paimon",
+                    "text": "Let's go back to the island outside the lake. Maybe the notes might already be gone!"
+                }
+            ]
+        },
+        {
+            "id": "7901329",
+            "objective": "Talk to Paimon",
+            "dialogues": [
+                {
+                    "id": "790131101",
+                    "speaker": "Paimon",
+                    "text": "The door opened! Whew, that was kinda tricky."
+                },
+                {
+                    "id": "790131102",
+                    "speaker": "Paimon",
+                    "text": "#Huh, looks like Wolfgang hasn't written any notes here yet, {NICKNAME}..."
+                },
+                {
+                    "id": "790131103",
+                    "speaker": "Player",
+                    "text": "So he hasn't been here..."
+                },
+                {
+                    "id": "790131104",
+                    "speaker": "Paimon",
+                    "text": "We did open the chamber for him back then... This means he won't get stuck now, right?",
+                    "choices": [
+                        {
+                            "id": "790131105",
+                            "text": "Well, if that device can be triggered multiple times...",
+                            "response": [
+                                {
+                                    "id": "790131107",
+                                    "speaker": "Paimon",
+                                    "text": "Wait, then... Um, why don't we leave him a message?"
+                                },
+                                {
+                                    "id": "790131108",
+                                    "speaker": "Paimon",
+                                    "text": "Let's try etching our message into someplace obvious. We'll tell him how to decipher the mechanism!"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "790131106",
+                            "text": "Even if we did solve it once..."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "7901307",
+            "objective": "Etch hints for Wolfgang",
+            "dialogues": []
+        },
+        {
+            "id": "7901308",
+            "objective": "Return to the outside of the lake to check Wolfgang's notes",
+            "dialogues": [
+                {
+                    "id": "790130801",
+                    "speaker": "Old Notes",
+                    "text": ""
+                }
+            ]
+        },
+        {
+            "id": "7901309",
+            "objective": "Return to the outside of the lake to check Wolfgang's notes",
+            "dialogues": [
+                {
+                    "id": "790130901",
+                    "speaker": "Old Notes",
+                    "text": ""
+                }
+            ]
+        },
+        {
+            "id": "7901310",
+            "objective": "Check Wolfgang's notes",
+            "dialogues": []
+        },
+        {
+            "id": "7901323",
+            "objective": "Talk to Paimon",
+            "dialogues": [
+                {
+                    "id": "790132401",
+                    "speaker": "Paimon",
+                    "text": "Hey, it looks like he got out of that secret chamber after all! ... And he... credited his sharp eyes for his escape!? C'mon, we left the clue in such an obvious spot!"
+                },
+                {
+                    "id": "790132410",
+                    "speaker": "Paimon",
+                    "text": "Also, how many notebooks does this guy carry around!?"
+                },
+                {
+                    "id": "790132402",
+                    "speaker": "Paimon",
+                    "text": "*sigh* He didn't go back after getting out of that chamber. He actually wants to continue adventuring...",
+                    "choices": [
+                        {
+                            "id": "790132403",
+                            "text": "Well, it's because he believes he resolved the crisis.",
+                            "response": [
+                                {
+                                    "id": "790132405",
+                                    "speaker": "Paimon",
+                                    "text": "That's... That's true. The secret chamber that would trap him forever has now become an obstacle that he easily overcame..."
+                                },
+                                {
+                                    "id": "790132406",
+                                    "speaker": "Paimon",
+                                    "text": "That said, the mountain ruins that he mentioned can't be seen in the island outside the lake at all."
+                                },
+                                {
+                                    "id": "790132407",
+                                    "speaker": "Player",
+                                    "text": "It's been a really long time since, Paimon..."
+                                },
+                                {
+                                    "id": "790132408",
+                                    "speaker": "Paimon",
+                                    "text": "Did it collapse and then fall into the sea, then? Paimon's pretty sure that we saw some similar buildings outside in the ocean..."
+                                },
+                                {
+                                    "id": "790132409",
+                                    "speaker": "Paimon",
+                                    "text": "Let's explore the nearby sea regions when we've got the time!"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "790132404",
+                            "text": "He did escape the secret chamber, you know."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "7901311",
+            "objective": "Go to the ruins on the ocean surface to search for traces of Wolfgang",
+            "dialogues": []
+        },
+        {
+            "id": "7901324",
+            "objective": "Talk to Paimon",
+            "dialogues": [
+                {
+                    "id": "790132501",
+                    "speaker": "Paimon",
+                    "text": "This notebook... Oh, it's \"Wolfgang.\"",
+                    "choices": [
+                        {
+                            "id": "790132502",
+                            "text": "Oh, joy. Stuck again, is he?",
+                            "response": [
+                                {
+                                    "id": "790132504",
+                                    "speaker": "Paimon",
+                                    "text": "I guess some people need some punishment before they'll learn anything..."
+                                },
+                                {
+                                    "id": "790132505",
+                                    "speaker": "Paimon",
+                                    "text": "#These underwater buildings... They should be the mountain ruins that we saw on the island on the other side of the lake. Let's go inside again to make sure, {NICKNAME}."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "790132503",
+                            "text": "Didn't learn his lesson, I suppose?"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "7901312",
+            "objective": "Go to the place on the lake island where the notes were left",
+            "dialogues": [
+                {
+                    "id": "790131201",
+                    "speaker": "Paimon",
+                    "text": "This place should be eye-catching enough!"
+                },
+                {
+                    "id": "790131202",
+                    "speaker": "Paimon",
+                    "text": "Let's hope Wolfgang does see it, and doesn't go running around the secret chambers in these ruins anymore..."
+                },
+                {
+                    "id": "790131203",
+                    "speaker": "Paimon",
+                    "text": "Let's go back and have a look. Maybe his notes might have changed this time, too!"
+                }
+            ]
+        },
+        {
+            "id": "7901313",
+            "objective": "Go to the place on the lake island where the notes were left",
+            "dialogues": []
+        },
+        {
+            "id": "7901314",
+            "objective": "Find a way to escape the secret chamber",
+            "dialogues": [
+                {
+                    "id": "790131401",
+                    "speaker": "Old Notes",
+                    "text": ""
+                }
+            ]
+        },
+        {
+            "id": "7901330",
+            "objective": "Talk to Paimon",
+            "dialogues": [
+                {
+                    "id": "790133501",
+                    "speaker": "Paimon",
+                    "text": "Wolfgang hasn't left his notebook here either. Looks like he hasn't arrived yet."
+                },
+                {
+                    "id": "790133502",
+                    "speaker": "Paimon",
+                    "text": "Let's leave him some hints on how to open this secret chamber again, shall we?",
+                    "choices": [
+                        {
+                            "id": "790133503",
+                            "text": "This solution...",
+                            "response": [
+                                {
+                                    "id": "790133505",
+                                    "speaker": "Paimon",
+                                    "text": "Oh yeah, that's true. If Wolfgang can't make use of the elements..."
+                                },
+                                {
+                                    "id": "790133506",
+                                    "speaker": "Paimon",
+                                    "text": "Then the solution's useless to him. What should we do...",
+                                    "choices": [
+                                        {
+                                            "id": "790133507",
+                                            "text": "How about we just make him not enter this place at all?",
+                                            "response": [
+                                                {
+                                                    "id": "790133509",
+                                                    "speaker": "Paimon",
+                                                    "text": "Ooh, that's right! We can just leave a hint outside saying that there's a secret chamber here."
+                                                },
+                                                {
+                                                    "id": "790133510",
+                                                    "speaker": "Paimon",
+                                                    "text": "Then he won't come in, and he won't get trapped in these ruins!"
+                                                },
+                                                {
+                                                    "id": "790133511",
+                                                    "speaker": "Paimon",
+                                                    "text": "C'mon, let's do it, quick!"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "790133508",
+                                            "text": "Let's leave a message outside the door."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "790133504",
+                            "text": "Without the use of elemental powers..."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "7901315",
+            "objective": "Look for a place to leave hints",
+            "dialogues": []
+        },
+        {
+            "id": "7901316",
+            "objective": "Return to the outside of the lake to check Wolfgang's notes",
+            "dialogues": [
+                {
+                    "id": "790131601",
+                    "speaker": "Paimon",
+                    "text": "What the... This guy's saying some pretty glib stuff, huh?"
+                },
+                {
+                    "id": "790131602",
+                    "speaker": "Paimon",
+                    "text": "This is bad. We've got to get to Dragonspine and...",
+                    "choices": [
+                        {
+                            "id": "790131603",
+                            "text": "Paimon, what we change in the Mirage will not change the past...",
+                            "response": [
+                                {
+                                    "id": "790131605",
+                                    "speaker": "Paimon",
+                                    "text": "Ah... Right, that's true. Wolfgang is only \"here\" at all because the Golden Apple Archipelago is under the effects of that device..."
+                                },
+                                {
+                                    "id": "790131606",
+                                    "speaker": "Paimon",
+                                    "text": "That's why Paimon thought that he was rescued... But in the end, he really was just stuck in that very first secret chamber, wasn't he..."
+                                },
+                                {
+                                    "id": "790131607",
+                                    "speaker": "Paimon",
+                                    "text": "But still, this Wolfgang is really... annoying! We helped him so much, but he still thinks that it would be nice if he could \"pave the way\" for others..."
+                                },
+                                {
+                                    "id": "790131608",
+                                    "speaker": "Paimon",
+                                    "text": "Couldn't he at least value his life a little more?",
+                                    "choices": [
+                                        {
+                                            "id": "790131609",
+                                            "text": "Everybody's looking for that something...",
+                                            "response": [
+                                                {
+                                                    "id": "790131611",
+                                                    "speaker": "Paimon",
+                                                    "text": "Ugh... Paimon gets it!"
+                                                },
+                                                {
+                                                    "id": "790131612",
+                                                    "speaker": "Paimon",
+                                                    "text": "Still, if only they could have come to better ends. You know, like returning to Mondstadt, becoming great adventurers, maybe going to the tavern to play with cats, eat Sweet Madame to their heart's content..."
+                                                },
+                                                {
+                                                    "id": "790131613",
+                                                    "speaker": "Paimon",
+                                                    "text": "Why doesn't it ever end well for them?"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "790131610",
+                                            "text": "Well, it's only because people like him exist..."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "790131604",
+                            "text": "Wolfgang will never make it to Dragonspine..."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "7901317",
+            "objective": "Check Wolfgang's notes",
+            "dialogues": []
+        },
+        {
+            "id": "7901325",
+            "objective": "Talk to Paimon",
+            "dialogues": [
+                {
+                    "id": "790132601",
+                    "speaker": "Paimon",
+                    "text": "Well, he didn't go in again. That's a relief."
+                },
+                {
+                    "id": "790132602",
+                    "speaker": "Paimon",
+                    "text": "Still, his annoyingly arrogant attitude is really ticking Paimon off!"
+                },
+                {
+                    "id": "790132603",
+                    "speaker": "Player",
+                    "text": "He really does sound like he's getting more and more full of himself..."
+                },
+                {
+                    "id": "790132604",
+                    "speaker": "Paimon",
+                    "text": "That said, the highland ruins he mentioned should be near the submerged ruins..."
+                },
+                {
+                    "id": "790132605",
+                    "speaker": "Paimon",
+                    "text": "Let's go have a look. Honestly, who knows if he was able to climb that high up safely..."
+                }
+            ]
+        },
+        {
+            "id": "7901318",
+            "objective": "Go to the now-sunken highland ruins",
+            "dialogues": [
+                {
+                    "id": "790131801",
+                    "speaker": "Etchings",
+                    "text": "(These etchings are old. They have been written as such...)"
+                },
+                {
+                    "id": "790131802",
+                    "speaker": "Etchings",
+                    "text": "\"The wind is very strong here, so I'm not going to use a notebook.\""
+                },
+                {
+                    "id": "790131803",
+                    "speaker": "Etchings",
+                    "text": "\"The sunrise here is beautiful indeed. It fills my heart with satisfaction to have braved many dangers to get here.\""
+                },
+                {
+                    "id": "790131804",
+                    "speaker": "Etchings",
+                    "text": "\"I wonder if anyone will come after me to see these same sights.\""
+                },
+                {
+                    "id": "790131805",
+                    "speaker": "Etchings",
+                    "text": "\"Now that I've cleared this particular trial... Next stop, Dragonspine!\""
+                },
+                {
+                    "id": "790131806",
+                    "speaker": "Etchings",
+                    "text": "\"This truly is a lovely place. The only thing it's missing is some Sweet Madame...\""
+                },
+                {
+                    "id": "790131807",
+                    "speaker": "Etchings",
+                    "text": "\"Wolfgang.\""
+                }
+            ]
+        },
+        {
+            "id": "7901327",
+            "objective": "Talk to Paimon",
+            "dialogues": [
+                {
+                    "id": "790131901",
+                    "speaker": "Paimon",
+                    "text": "Ooh, so there weren't any notes here because he carved a message on the pillar. Huh, so he made it all the way here."
+                },
+                {
+                    "id": "790131902",
+                    "speaker": "Paimon",
+                    "text": "Where does his confidence come from, though... If we hadn't helped him out, he'd still be stuck in the secret chamber!"
+                },
+                {
+                    "id": "790131903",
+                    "speaker": "Paimon",
+                    "text": "He's pretty much gonna be Chilled Meat if he goes to Dragonspine!",
+                    "choices": [
+                        {
+                            "id": "790131904",
+                            "text": "That's a little overboard...",
+                            "response": [
+                                {
+                                    "id": "790131905",
+                                    "speaker": "Paimon",
+                                    "text": "Eh? U—Um, Paimon just means that he'd be in deep trouble if he went to Dragonspine."
+                                },
+                                {
+                                    "id": "790131908",
+                                    "speaker": "Paimon",
+                                    "text": "We need to tell him not to go, and quick!"
+                                },
+                                {
+                                    "id": "790131909",
+                                    "speaker": "Player",
+                                    "text": "Well, let's leave him another message, shall we..."
+                                },
+                                {
+                                    "id": "790131910",
+                                    "speaker": "Paimon",
+                                    "text": "Right, that's right! Paimon thought so too... And y'know what, let's leave him some Sweet Madame this time too!"
+                                },
+                                {
+                                    "id": "790131911",
+                                    "speaker": "Paimon",
+                                    "text": "Maybe he'll start missing the warmth of Mondstadt once he's had a bite, and he'll give up on going to Dragonspine!"
+                                },
+                                {
+                                    "id": "790131912",
+                                    "speaker": "Player",
+                                    "text": "The Sweet Madame's gonna spoil, you know."
+                                },
+                                {
+                                    "id": "790131913",
+                                    "speaker": "Paimon",
+                                    "text": "Eh, come on, it's the thought that counts. Right?"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "790131906",
+                            "text": "Well, he's going to get in trouble for sure.",
+                            "response": [
+                                {
+                                    "id": "790131907",
+                                    "speaker": "Paimon",
+                                    "text": "Exactly! Dragonspine's super cold and is filled with hilichurls... Not to mention The Great Snowboar King!"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "7901328",
+            "objective": "Go to the island within the lake to check the highland ruins",
+            "dialogues": []
+        },
+        {
+            "id": "7901319",
+            "objective": "Leave hints and a Sweet Madame",
+            "dialogues": []
+        },
+        {
+            "id": "7901331",
+            "objective": "Talk to Paimon",
+            "dialogues": [
+                {
+                    "id": "790132701",
+                    "speaker": "Paimon",
+                    "text": "Paimon really hopes that Wolfgang can give that notion of going to Dragonspine a rest..."
+                },
+                {
+                    "id": "790132702",
+                    "speaker": "Paimon",
+                    "text": "Let's go to the ruins we were at previously once we get out through the lake. Maybe we'll find some sign of him changing his mind!"
+                }
+            ]
+        },
+        {
+            "id": "7901321",
+            "objective": "Go back outside the lake to check Wolfgang's etchings",
+            "dialogues": [
+                {
+                    "id": "790132101",
+                    "speaker": "Paimon",
+                    "text": "Should we really leave the message here? Shouldn't we look for a place closer to the door?"
+                }
+            ]
+        },
+        {
+            "id": "7901322",
+            "objective": "Go to check the etchings that Wolfgang left behind",
+            "dialogues": [
+                {
+                    "id": "790132901",
+                    "speaker": "Old Etchings",
+                    "text": "(These etchings are old. They have been written as such...)"
+                },
+                {
+                    "id": "790132902",
+                    "speaker": "Old Etchings",
+                    "text": "\"The wind is very strong here, so I'm not going to use a notebook.\""
+                },
+                {
+                    "id": "790132910",
+                    "speaker": "Etchings",
+                    "text": "\"Haha, to think that I'd find a Sweet Madame here — and still warm, too! It's practically a miracle.\""
+                },
+                {
+                    "id": "790132903",
+                    "speaker": "Old Etchings",
+                    "text": "\"I don't know who left that Sweet Madame there or how they knew that I wanted to have some. It's all very strange... But I'm very thankful all the same.\""
+                },
+                {
+                    "id": "790132904",
+                    "speaker": "Old Etchings",
+                    "text": "\"Thank you, person who left the etchings behind! Your Sweet Madame was the best I've ever tasted.\""
+                },
+                {
+                    "id": "790132905",
+                    "speaker": "Old Etchings",
+                    "text": "\"And thank you. I do know that Dragonspine is very dangerous... and I know my limits as well. But I must go.\""
+                },
+                {
+                    "id": "790132906",
+                    "speaker": "Old Etchings",
+                    "text": "\"Who knows, a sign that says 'here be traps' might be all that shall be left of my journey to Dragonspine.\""
+                },
+                {
+                    "id": "790132907",
+                    "speaker": "Old Etchings",
+                    "text": "\"But if someone else can avoid that danger and get further than I did, that to me would be something even more precious than a Sweet Madame.\""
+                },
+                {
+                    "id": "790132908",
+                    "speaker": "Old Etchings",
+                    "text": "\"Thank you, whoever you are who left those etchings. But we adventurers exist precisely because of perils like Dragonspine.\""
+                },
+                {
+                    "id": "790132909",
+                    "speaker": "Old Etchings",
+                    "text": "\"Dearest Regards, Wolfgang.\""
+                }
+            ]
+        },
+        {
+            "id": "7901326",
+            "objective": "Talk to Paimon",
+            "dialogues": []
+        },
+        {
+            "id": "7901320",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "790132001",
+                    "speaker": "Paimon",
+                    "text": "He should have gone into the secret chamber by the time he sees this message. Paimon thinks it won't be of that much use here..."
+                }
+            ]
+        },
+        {
+            "id": "7901346",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "790134601",
+                    "speaker": "Paimon",
+                    "text": "Let's leave our message here — and a Sweet Madame too!"
+                }
+            ]
+        }
+    ]
+}

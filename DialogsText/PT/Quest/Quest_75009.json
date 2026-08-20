@@ -1,0 +1,334 @@
+{
+    "quest": {
+        "id": "75009",
+        "title": "Tesouros e Colecionadores",
+        "description": "Tente sua sorte no Local de Escavação de Relíquias Saurianas!",
+        "rewards": [
+            {
+                "itemId": 102,
+                "count": 200
+            },
+            {
+                "itemId": 201,
+                "count": 30
+            },
+            {
+                "itemId": 202,
+                "count": 35000
+            }
+        ],
+        "rewards_formatted": "EXP de Aventura x200, Gema Essencial x30, Mora x35000",
+        "chapter": {
+            "icon": "UI_ChapterIcon_LittleDrillhead",
+            "id": "10204",
+            "num": "",
+            "title": "Nos Passos do Escolhido dos Dragões"
+        },
+        "total_dialogue_lines": 50,
+        "total_speaker_counts": {
+            "#{REALNAME[ID(2)|SHOWHOST(true)]}": 9,
+            "Kuipia": 18,
+            "Paimon": 17,
+            "Player": 6
+        }
+    },
+    "talks": [
+        {
+            "id": "7500901",
+            "objective": "",
+            "dialogues": [
+                {
+                    "id": "750090101",
+                    "speaker": "Kuipia",
+                    "text": "Trezentos Mora por entrada...",
+                    "choices": [
+                        {
+                            "id": "750090102",
+                            "text": "Rola um desconto?",
+                            "response": [
+                                {
+                                    "id": "750090105",
+                                    "speaker": "Kuipia",
+                                    "text": "O preço é definido pela Associação de Relíquias Saurianas e não pode ser negociado. Até onde sei, esse já é o local de escavação mais barato e está aberto há mais tempo."
+                                },
+                                {
+                                    "id": "750090106",
+                                    "speaker": "Kuipia",
+                                    "text": "#Mas atualmente, às vezes recebemos sonhador{M#es}{F#as} como vocês que querem tentar a sorte."
+                                },
+                                {
+                                    "id": "750090107",
+                                    "speaker": "Kuipia",
+                                    "text": "Afinal, talvez nenhuma das centenas ou milhares de pessoas que vieram antes tinham um bom olho para tesouro e deixaram passar uma relíquia inestimável que só parece ordinária."
+                                },
+                                {
+                                    "id": "750090108",
+                                    "speaker": "Kuipia",
+                                    "text": "Há tanta gente disposta a pagar 300 Mora por um sonho tão belo."
+                                },
+                                {
+                                    "id": "750090109",
+                                    "speaker": "Kuipia",
+                                    "text": "Então, tá se sentindo com sorte? Acredita que você vai tirar a sorte grande e enriquecer?"
+                                },
+                                {
+                                    "id": "750090110",
+                                    "speaker": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+                                    "text": "Rrrooo.... Rawr! Rwar! Rawrrrr!",
+                                    "choices": [
+                                        {
+                                            "id": "750090111",
+                                            "text": "Minha sorte nunca me decepcionou.",
+                                            "response": [
+                                                {
+                                                    "id": "750090113",
+                                                    "speaker": "Paimon",
+                                                    "text": "#{REALNAME[ID(2)|SHOWHOST(true)]}, tá a fim de testar sua sorte?"
+                                                },
+                                                {
+                                                    "id": "750090114",
+                                                    "speaker": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+                                                    "text": "Rawr!"
+                                                },
+                                                {
+                                                    "id": "750090115",
+                                                    "speaker": "Paimon",
+                                                    "text": "Ele parece interessado mesmo! Hehe, só 300 Mora, deixa com Paimon!"
+                                                },
+                                                {
+                                                    "id": "750090116",
+                                                    "speaker": "Paimon",
+                                                    "text": "Poder comprar três lampejos de esperança por apenas 300 Mora é uma bagatela, sério!"
+                                                },
+                                                {
+                                                    "id": "750090117",
+                                                    "speaker": "Kuipia",
+                                                    "text": "Então desejo a vocês toda sorte."
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "750090112",
+                                            "text": "Não preciso disso, tenho um Sauriano de sorte."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "750090103",
+                            "text": "É de graça se eu acabar com tua raça, né?",
+                            "response": [
+                                {
+                                    "id": "750090104",
+                                    "speaker": "Paimon",
+                                    "text": "Ei, não é assim que a gente faz as coisas normalmente!"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "7500903",
+            "objective": "Tente sua sorte no local de escavação",
+            "dialogues": []
+        },
+        {
+            "id": "7500904",
+            "objective": "Siga seu companheiro Sauriano",
+            "dialogues": []
+        },
+        {
+            "id": "7500905",
+            "objective": "Continue explorando o local de escavação",
+            "dialogues": []
+        },
+        {
+            "id": "7500902",
+            "objective": "Cheque o tesouro que seu companheiro Sauriano encontrou",
+            "dialogues": [
+                {
+                    "id": "750090201",
+                    "speaker": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+                    "text": "Rawr!"
+                },
+                {
+                    "id": "750090202",
+                    "speaker": "Paimon",
+                    "text": "Essa bolinha... Parece meio como um componente ou algo assim. Você gosta?"
+                },
+                {
+                    "id": "750090203",
+                    "speaker": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+                    "text": "Rawr... Rawrr!"
+                },
+                {
+                    "id": "750090204",
+                    "speaker": "Paimon",
+                    "text": "Apesar da gente não ter escavado ele, já que encontramos ele aqui... Talvez seja algo realmente valioso!"
+                },
+                {
+                    "id": "750090205",
+                    "speaker": "Paimon",
+                    "text": "Vamos perguntar quando a gente sair!"
+                }
+            ]
+        },
+        {
+            "id": "7500906",
+            "objective": "Volte e pergunte a Kuipia",
+            "dialogues": [
+                {
+                    "id": "750090601",
+                    "speaker": "Kuipia",
+                    "text": "Como foi?"
+                },
+                {
+                    "id": "750090602",
+                    "speaker": "Paimon",
+                    "text": "#{REALNAME[ID(2)|SHOWHOST(true)]} encontrou isso..."
+                },
+                {
+                    "id": "750090603",
+                    "speaker": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+                    "text": "Rawr!"
+                },
+                {
+                    "id": "750090604",
+                    "speaker": "Kuipia",
+                    "text": "Deixe-me dar uma olhada... Embora seja um item mais comum, ainda é um achado raro. Tá muito bem preservado, e os padrões de fluxo de Flogisto estão claramente visíveis."
+                },
+                {
+                    "id": "750090605",
+                    "speaker": "Kuipia",
+                    "text": "#Sim... Estaria dispost{M#o}{F#a} a me dar ele por 10.000 Mora?"
+                },
+                {
+                    "id": "750090606",
+                    "speaker": "Paimon",
+                    "text": "Como é?! A gente encontrou mesmo uma relíquia Sauriana inestimável?!"
+                },
+                {
+                    "id": "750090607",
+                    "speaker": "Paimon",
+                    "text": "#Paimon sabia que {REALNAME[ID(2)|SHOWHOST(true)]} era incrível e nos traria boa sorte!"
+                },
+                {
+                    "id": "750090608",
+                    "speaker": "Kuipia",
+                    "text": "Não, isso não é nem de perto precioso como você acha. Se você fosse levar isso ao Quartel-General da Associação de Relíquias Saurianas para uma avaliação, diria que, no máximo, sairia por volta de 5.000 Mora."
+                },
+                {
+                    "id": "750090609",
+                    "speaker": "Paimon",
+                    "text": "Paimon não vai cair nesse truque! Se vale só 5.000 mesmo, por que você tá querendo pagar 10.000?"
+                },
+                {
+                    "id": "750090610",
+                    "speaker": "Kuipia",
+                    "text": "Por causa dos padrões únicos nele. Fiquei muito impressionada com eles. Embora possa não valer tanto aos olhos dos outros, estou disposta a pagar um pouco mais por ele."
+                },
+                {
+                    "id": "750090611",
+                    "speaker": "Kuipia",
+                    "text": "Podem me chamar de excêntrica, mas também poderiam dizer que é apenas a natureza de uma colecionadora."
+                },
+                {
+                    "id": "750090612",
+                    "speaker": "Paimon",
+                    "text": "Hmm... Quando você fala assim, Paimon entende. E comparado à entrada de 300 Mora, 10.000 é muito mesmo."
+                },
+                {
+                    "id": "750090613",
+                    "speaker": "Paimon",
+                    "text": "Então, vamos trocar pelos 10.000?"
+                },
+                {
+                    "id": "750090614",
+                    "speaker": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+                    "text": "Rrroo... Wroooo..."
+                },
+                {
+                    "id": "750090615",
+                    "speaker": "Paimon",
+                    "text": "#{REALNAME[ID(2)|SHOWHOST(true)]} não parece tão feliz com isso... Ele quer ficar para ele?"
+                },
+                {
+                    "id": "750090616",
+                    "speaker": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+                    "text": "Rawr... Rawrr!",
+                    "choices": [
+                        {
+                            "id": "750090617",
+                            "text": "#Afinal, foi {REALNAME[ID(2)|SHOWHOST(true)]} que achou.",
+                            "response": [
+                                {
+                                    "id": "750090619",
+                                    "speaker": "Paimon",
+                                    "text": "#Já que {REALNAME[ID(2)|SHOWHOST(true)]} não quer vender, então vamos ter que ficar com ele."
+                                },
+                                {
+                                    "id": "750090620",
+                                    "speaker": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+                                    "text": "Rawr!"
+                                },
+                                {
+                                    "id": "750090621",
+                                    "speaker": "Kuipia",
+                                    "text": "#Parece que vocês valorizam {REALNAME[ID(2)|SHOWHOST(true)]} muito mais que Mora."
+                                },
+                                {
+                                    "id": "750090622",
+                                    "speaker": "Paimon",
+                                    "text": "#Naturalmente! {REALNAME[ID(2)|SHOWHOST(true)]} é nosso companheiro, afinal. Mas se encontrarmos algo similar no futuro..."
+                                },
+                                {
+                                    "id": "750090623",
+                                    "speaker": "Kuipia",
+                                    "text": "Agradeço, mas a paixão de um colecionador é volátil como as marés. Ela sobe rapidamente, mas pode ir embora igualmente repentinamente. Talvez eu me veja obcecada por outra coisa no futuro, embora não possa dizer quais serão meus novos interesses."
+                                },
+                                {
+                                    "id": "750090624",
+                                    "speaker": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+                                    "text": "Rawr! Rawr rawr!"
+                                },
+                                {
+                                    "id": "750090625",
+                                    "speaker": "Paimon",
+                                    "text": "#{REALNAME[ID(2)|SHOWHOST(true)]} tá concordando com ela? Ooh, Paimon entendeu! Esse deve ser o respeito e a compreensão mútua compartilhada por colecionadores!"
+                                },
+                                {
+                                    "id": "750090626",
+                                    "speaker": "Kuipia",
+                                    "text": "É uma honra ter sido reconhecida por um jovem Tepetlissauro tão brilhante. Mas mesmo que não possamos fazer negócios, isso não significa que não podemos ser amigos! Fiquem à vontade para me encontrar se quiserem falar sobre colecionar."
+                                },
+                                {
+                                    "id": "750090627",
+                                    "speaker": "Kuipia",
+                                    "text": "Não vou tomar mais do tempo de vocês. Boa sorte!"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "750090618",
+                            "text": "#Parece que {REALNAME[ID(2)|SHOWHOST(true)]} também quer ser um colecionador."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "7500908",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "750090801",
+                    "speaker": "Kuipia",
+                    "text": "O que foi? Não tem limite de tempo, então fiquem à vontade."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,575 @@
+{
+    "quest": {
+        "id": "75025",
+        "title": "Tepetlisaurus Hide-and-Seek",
+        "description": "After running into a whole bunch of Tepetlisaurs while you're out on the road, you let your Saurian companion go off to play with them. But then it doesn't come back...",
+        "rewards": [
+            {
+                "itemId": 102,
+                "count": 150
+            },
+            {
+                "itemId": 201,
+                "count": 20
+            },
+            {
+                "itemId": 202,
+                "count": 25000
+            }
+        ],
+        "rewards_formatted": "Adventure EXP x150, Primogem x20, Mora x25000",
+        "chapter": {
+            "icon": "UI_ChapterIcon_LittleDrillhead",
+            "id": "10204",
+            "num": "",
+            "title": "In the Footsteps of the Chosen of Dragons"
+        },
+        "total_dialogue_lines": 86,
+        "total_speaker_counts": {
+            "#{REALNAME[ID(2)|SHOWHOST(true)]}": 11,
+            "Big Parenty Tepetlisaurus": 7,
+            "Black Screen": 4,
+            "Clever Little Tepetlisaurus": 6,
+            "Dopey Little Tepetlisaurus": 3,
+            "Little Tepetlisaurs": 2,
+            "Little Tepetlisaurus Learning How to Dig": 2,
+            "Lively Little Tepetlisaurus": 2,
+            "Paimon": 38,
+            "Player": 9,
+            "Tree-Climbing Little Tepetlisaurus": 2
+        }
+    },
+    "talks": [
+        {
+            "id": "7502501",
+            "objective": "",
+            "dialogues": [
+                {
+                    "id": "750250101",
+                    "speaker": "Paimon",
+                    "text": "Whoa, where is this mysterious place? So many little Tepetlisaurs..."
+                },
+                {
+                    "id": "750250102",
+                    "speaker": "Paimon",
+                    "text": "Could it be some sort of... Tepetlisaurus gathering spot?"
+                },
+                {
+                    "id": "750250103",
+                    "speaker": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+                    "text": "Rawr! ...Rrrawr?"
+                },
+                {
+                    "id": "750250104",
+                    "speaker": "Paimon",
+                    "text": "#{REALNAME[ID(2)|SHOWHOST(true)]} looks so excited! Not often that you get to meet so many companions all in one go, huh?"
+                },
+                {
+                    "id": "750250105",
+                    "speaker": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+                    "text": "Rawr?"
+                },
+                {
+                    "id": "750250106",
+                    "speaker": "Paimon",
+                    "text": "#Oh, you mean you wanna go over there and play with them? Come to think of it, {REALNAME[ID(2)|SHOWHOST(true)]} hardly ever gets to hang out with other little Tepetlisaurs...",
+                    "choices": [
+                        {
+                            "id": "750250107",
+                            "text": "Be careful, okay?",
+                            "response": [
+                                {
+                                    "id": "750250109",
+                                    "speaker": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+                                    "text": "Rawr!"
+                                },
+                                {
+                                    "id": "750250110",
+                                    "speaker": "Paimon",
+                                    "text": "#Uhh, Paimon's still a bit worried... Anyway, let's find somewhere to relax and have something to eat while we wait for {REALNAME[ID(2)|SHOWHOST(true)]}."
+                                },
+                                {
+                                    "id": "750250111",
+                                    "speaker": "Black Screen",
+                                    "text": "#You and Paimon find a nice spot nearby to rest until {REALNAME[ID(2)|SHOWHOST(true)]} is done playing."
+                                },
+                                {
+                                    "id": "750250112",
+                                    "speaker": "Black Screen",
+                                    "text": "But you end up waiting longer than you expected..."
+                                },
+                                {
+                                    "id": "750250113",
+                                    "speaker": "Paimon",
+                                    "text": "#Strange... How come {REALNAME[ID(2)|SHOWHOST(true)]} isn't back yet?"
+                                },
+                                {
+                                    "id": "750250114",
+                                    "speaker": "Paimon",
+                                    "text": "Paimon sure hopes nothing bad's happened..."
+                                },
+                                {
+                                    "id": "750250115",
+                                    "speaker": "Player",
+                                    "text": "Gotten a bit carried away with the fun and games, perhaps?"
+                                },
+                                {
+                                    "id": "750250116",
+                                    "speaker": "Paimon",
+                                    "text": "If so, we'll have to give him a good talking-to. The sun's nearly set!"
+                                },
+                                {
+                                    "id": "750250117",
+                                    "speaker": "Paimon",
+                                    "text": "Ugh... Let's go track it down before it gets so dark we can't even see."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "750250108",
+                            "text": "Don't be gone too long!"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "7502504",
+            "objective": "Go look for your missing Saurian companion",
+            "dialogues": []
+        },
+        {
+            "id": "7502506",
+            "objective": "",
+            "dialogues": [
+                {
+                    "id": "750250601",
+                    "speaker": "Paimon",
+                    "text": "#Hi! You haven't seen {REALNAME[ID(2)|SHOWHOST(true)]} around here, have you? Y'know, the new kid on the block...?"
+                },
+                {
+                    "id": "750250602",
+                    "speaker": "Paimon",
+                    "text": "It's got a mark on its head and a scarf on its tail..."
+                },
+                {
+                    "id": "750250603",
+                    "speaker": "Dopey Little Tepetlisaurus",
+                    "text": "Rrrawr?"
+                },
+                {
+                    "id": "750250604",
+                    "speaker": "Paimon",
+                    "text": "Hmm, seems like it can't understand what we're saying."
+                },
+                {
+                    "id": "750250605",
+                    "speaker": "Paimon",
+                    "text": "Looks like we have no other choice but to go through them one by one..."
+                }
+            ]
+        },
+        {
+            "id": "7502507",
+            "objective": "",
+            "dialogues": [
+                {
+                    "id": "750250701",
+                    "speaker": "Paimon",
+                    "text": "Take a look at this little Tepetlisaurus... This one sure knows how to choose a spot for itself!"
+                },
+                {
+                    "id": "750250702",
+                    "speaker": "Paimon",
+                    "text": "#No, that can't be {REALNAME[ID(2)|SHOWHOST(true)]} either. There's no tail-scarf."
+                },
+                {
+                    "id": "750250703",
+                    "speaker": "Tree-Climbing Little Tepetlisaurus",
+                    "text": "Rrrawr?"
+                }
+            ]
+        },
+        {
+            "id": "7502508",
+            "objective": "",
+            "dialogues": [
+                {
+                    "id": "750250801",
+                    "speaker": "Paimon",
+                    "text": "Hey, is there any chance you've seen..."
+                },
+                {
+                    "id": "750250802",
+                    "speaker": "Black Screen",
+                    "text": "#Paimon tells the clever little Tepetlisaur what {REALNAME[ID(2)|SHOWHOST(true)]} looks like."
+                },
+                {
+                    "id": "750250803",
+                    "speaker": "Clever Little Tepetlisaurus",
+                    "text": "Rawr!"
+                },
+                {
+                    "id": "750250804",
+                    "speaker": "Clever Little Tepetlisaurus",
+                    "text": "Rawr!!"
+                },
+                {
+                    "id": "750250805",
+                    "speaker": "Paimon",
+                    "text": "#Wait a minute, does that mean you know we're looking for {REALNAME[ID(2)|SHOWHOST(true)]}? You really are a clever little critter, huh?"
+                },
+                {
+                    "id": "750250806",
+                    "speaker": "Paimon",
+                    "text": "C'mon, let's catch up!"
+                }
+            ]
+        },
+        {
+            "id": "7502514",
+            "objective": "",
+            "dialogues": [
+                {
+                    "id": "750250501",
+                    "speaker": "Paimon",
+                    "text": "#Wow, so many Berries... Thanks! Wait a sec, we're looking for {REALNAME[ID(2)|SHOWHOST(true)]}, not Berries!"
+                },
+                {
+                    "id": "750250502",
+                    "speaker": "Clever Little Tepetlisaurus",
+                    "text": "Rrrawr?",
+                    "choices": [
+                        {
+                            "id": "750250503",
+                            "text": "Anyway, we appreciate it!",
+                            "response": [
+                                {
+                                    "id": "750250505",
+                                    "speaker": "Clever Little Tepetlisaurus",
+                                    "text": "Rawr!"
+                                },
+                                {
+                                    "id": "750250506",
+                                    "speaker": "Paimon",
+                                    "text": "#Well, being given Berries is never a bad thing, but it seems like {REALNAME[ID(2)|SHOWHOST(true)]} isn't here. Let's keep looking!"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "750250504",
+                            "text": "We're not the type to say no to Berries!"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "7502509",
+            "objective": "",
+            "dialogues": [
+                {
+                    "id": "750250901",
+                    "speaker": "Paimon",
+                    "text": "Alright, looks like we've got ourselves a little Tepetlisaurus digging about underground. This has to be—"
+                },
+                {
+                    "id": "750250902",
+                    "speaker": "Little Tepetlisaurus Learning How to Dig",
+                    "text": "?"
+                },
+                {
+                    "id": "750250903",
+                    "speaker": "Paimon",
+                    "text": "#Ugh, that's not {REALNAME[ID(2)|SHOWHOST(true)]} either..."
+                },
+                {
+                    "id": "750250904",
+                    "speaker": "Paimon",
+                    "text": "#*sigh* How are there so many little Tepetlisaurs here? Where in Teyvat did {REALNAME[ID(2)|SHOWHOST(true)]} go?"
+                }
+            ]
+        },
+        {
+            "id": "7502510",
+            "objective": "",
+            "dialogues": [
+                {
+                    "id": "750251001",
+                    "speaker": "Paimon",
+                    "text": "Hello there, how do you do..."
+                },
+                {
+                    "id": "750251002",
+                    "speaker": "Paimon",
+                    "text": "Uhh, wait a sec... Why has Paimon suddenly started greeting little Tepetlisaurs like this?"
+                },
+                {
+                    "id": "750251003",
+                    "speaker": "Lively Little Tepetlisaurus",
+                    "text": "Rawr! Rawr!"
+                },
+                {
+                    "id": "750251004",
+                    "speaker": "Player",
+                    "text": "Why, Paimon, you're so polite!"
+                },
+                {
+                    "id": "750251005",
+                    "speaker": "Paimon",
+                    "text": "Hehe, thanks..."
+                },
+                {
+                    "id": "750251006",
+                    "speaker": "Paimon",
+                    "text": "#But back to the matter at hand, this little Tepetlisaur clearly isn't {REALNAME[ID(2)|SHOWHOST(true)]}..."
+                },
+                {
+                    "id": "750251007",
+                    "speaker": "Paimon",
+                    "text": "#Well, let's just hope that {REALNAME[ID(2)|SHOWHOST(true)]}'s been having as much fun as this little one."
+                }
+            ]
+        },
+        {
+            "id": "7502511",
+            "objective": "",
+            "dialogues": [
+                {
+                    "id": "750251101",
+                    "speaker": "Paimon",
+                    "text": "Aha! So you've been here snoozing away! No wonder we couldn't find you all this time..."
+                },
+                {
+                    "id": "750251102",
+                    "speaker": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+                    "text": "Wrroh..."
+                },
+                {
+                    "id": "750251103",
+                    "speaker": "Paimon",
+                    "text": "Looks like you had so much fun you completely tired yourself out."
+                },
+                {
+                    "id": "750251104",
+                    "speaker": "Paimon",
+                    "text": "But the world's a dangerous place, y'know! If you start feeling sleepy or need a rest, you've got to come find us first...",
+                    "choices": [
+                        {
+                            "id": "750251105",
+                            "text": "I told you to be careful...",
+                            "response": [
+                                {
+                                    "id": "750251107",
+                                    "speaker": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+                                    "text": "Rowr..."
+                                },
+                                {
+                                    "id": "750251108",
+                                    "speaker": "Paimon",
+                                    "text": "Alright, alright... Nothing wrong with a bit of fun every now and again. But be more careful in the future, okay?"
+                                },
+                                {
+                                    "id": "750251109",
+                                    "speaker": "Paimon",
+                                    "text": "Anyway, why don't we go say hi to that big Tepetlisaurus over there? Who knows, we might get another chance to hang out with this lot someplace else in the future!"
+                                },
+                                {
+                                    "id": "750251110",
+                                    "speaker": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+                                    "text": "Rawr!"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "750251106",
+                            "text": "I said not to be gone too long..."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "7502512",
+            "objective": "Say bye to the big Tepetlisaurus",
+            "dialogues": [
+                {
+                    "id": "750251201",
+                    "speaker": "Big Parenty Tepetlisaurus",
+                    "text": "Roarrr?"
+                },
+                {
+                    "id": "750251202",
+                    "speaker": "Paimon",
+                    "text": "#Thanks for taking care of {REALNAME[ID(2)|SHOWHOST(true)]} all this time!"
+                },
+                {
+                    "id": "750251203",
+                    "speaker": "Big Parenty Tepetlisaurus",
+                    "text": "Roarrr..."
+                },
+                {
+                    "id": "750251204",
+                    "speaker": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+                    "text": "Rawr!"
+                },
+                {
+                    "id": "750251205",
+                    "speaker": "Paimon",
+                    "text": "Uhh, well... Whatever they just said, it went right over Paimon's head."
+                },
+                {
+                    "id": "750251206",
+                    "speaker": "Paimon",
+                    "text": "#Anyway, it's about time we were off. Say goodbye, {REALNAME[ID(2)|SHOWHOST(true)]}!"
+                },
+                {
+                    "id": "750251207",
+                    "speaker": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+                    "text": "Rawr..."
+                },
+                {
+                    "id": "750251208",
+                    "speaker": "Player",
+                    "text": "Don't be sad, we'll see them again!"
+                },
+                {
+                    "id": "750251209",
+                    "speaker": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+                    "text": "Rowrr... Rawr!"
+                },
+                {
+                    "id": "750251210",
+                    "speaker": "Big Parenty Tepetlisaurus",
+                    "text": "Roooar..."
+                },
+                {
+                    "id": "750251211",
+                    "speaker": "Big Parenty Tepetlisaurus",
+                    "text": "Raaarrr—"
+                },
+                {
+                    "id": "750251212",
+                    "speaker": "Little Tepetlisaurs",
+                    "text": "Rawr!"
+                },
+                {
+                    "id": "750251213",
+                    "speaker": "Little Tepetlisaurs",
+                    "text": "Rawr, rrawr..."
+                },
+                {
+                    "id": "750251214",
+                    "speaker": "Big Parenty Tepetlisaurus",
+                    "text": "Rrroar..."
+                },
+                {
+                    "id": "750251215",
+                    "speaker": "Black Screen",
+                    "text": "The big Tepetlisaurus turns round, as if to signal that it was time that they were off...\\nThe little Tepetlisaurs follow its lead, and together, they leave."
+                },
+                {
+                    "id": "750251216",
+                    "speaker": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+                    "text": "Rawr..."
+                },
+                {
+                    "id": "750251217",
+                    "speaker": "Paimon",
+                    "text": "#Aww, you're not feeling lonely are you, {REALNAME[ID(2)|SHOWHOST(true)]}?"
+                },
+                {
+                    "id": "750251218",
+                    "speaker": "Paimon",
+                    "text": "Hehe, don't forget that we're here by your side!"
+                },
+                {
+                    "id": "750251219",
+                    "speaker": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+                    "text": "Rowrr, rawr!"
+                }
+            ]
+        },
+        {
+            "id": "7502530",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "750253001",
+                    "speaker": "Dopey Little Tepetlisaurus",
+                    "text": "Grainfruit, yummy..."
+                },
+                {
+                    "id": "750253002",
+                    "speaker": "Dopey Little Tepetlisaurus",
+                    "text": "*burp*"
+                }
+            ]
+        },
+        {
+            "id": "7502531",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "750253101",
+                    "speaker": "Tree-Climbing Little Tepetlisaurus",
+                    "text": "From stand here, all other Saurians small as bug..."
+                }
+            ]
+        },
+        {
+            "id": "7502532",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "750253201",
+                    "speaker": "Clever Little Tepetlisaurus",
+                    "text": "Let's eat, friend!"
+                },
+                {
+                    "id": "750253202",
+                    "speaker": "Clever Little Tepetlisaurus",
+                    "text": "Berry, Cacahuatl, Grainfruit!"
+                }
+            ]
+        },
+        {
+            "id": "7502533",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "750253301",
+                    "speaker": "Little Tepetlisaurus Learning How to Dig",
+                    "text": "Oh no, been caught... Must... Dig faster!"
+                }
+            ]
+        },
+        {
+            "id": "7502534",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "750253401",
+                    "speaker": "Lively Little Tepetlisaurus",
+                    "text": "Happy happy~ Me so happy~"
+                }
+            ]
+        },
+        {
+            "id": "7502535",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "750253501",
+                    "speaker": "Big Parenty Tepetlisaurus",
+                    "text": "Hehe, so much energy... Very good..."
+                },
+                {
+                    "id": "750253502",
+                    "speaker": "Big Parenty Tepetlisaurus",
+                    "text": "But... how many were there in total again...?"
+                }
+            ]
+        }
+    ]
+}

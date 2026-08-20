@@ -1,0 +1,1336 @@
+{
+    "quest": {
+        "id": "75048",
+        "title": "Vaulting the Wall of Morning Mist",
+        "description": "To find the unknown treasure known as the Jade of Return and track the evil dragon down, you have stepped into ancient ruins to which entry is considered forbidden...",
+        "rewards": [
+            {
+                "itemId": 102,
+                "count": 350
+            },
+            {
+                "itemId": 201,
+                "count": 40
+            },
+            {
+                "itemId": 202,
+                "count": 30000
+            },
+            {
+                "itemId": 104003,
+                "count": 4
+            },
+            {
+                "itemId": 104013,
+                "count": 4
+            }
+        ],
+        "rewards_formatted": "Adventure EXP x350, Primogem x40, Mora x30000, Hero's Wit x4, Mystic Enhancement Ore x4",
+        "chapter": {
+            "icon": "UI_ChapterIcon_Natlan",
+            "id": "10213",
+            "num": "Lost Traveler in the Ashen Realm: Act I",
+            "title": "City Buried By Ash"
+        },
+        "total_dialogue_lines": 224,
+        "total_speaker_counts": {
+            "#{REALNAME[ID(2)|SHOWHOST(true)]}": 9,
+            "???": 5,
+            "Black Screen": 2,
+            "Bona": 95,
+            "Cocouik": 6,
+            "Paimon": 73,
+            "Player": 34
+        }
+    },
+    "talks": [
+        {
+            "id": "7504802",
+            "objective": "Go to the tower containing the statue",
+            "dialogues": []
+        },
+        {
+            "id": "7504803",
+            "objective": "Go to the tower containing the statue",
+            "dialogues": [
+                {
+                    "id": "750480343",
+                    "speaker": "Black Screen",
+                    "text": "As an enormous explosion rings out, you all slide to the bottom amidst sloughing rubble and sand..."
+                }
+            ]
+        },
+        {
+            "id": "7504804",
+            "objective": "Go to Ochkanatlan",
+            "dialogues": []
+        },
+        {
+            "id": "7504805",
+            "objective": "Keep exploring Ochkanatlan",
+            "dialogues": []
+        },
+        {
+            "id": "7504863",
+            "objective": "Try to get into the tower up ahead",
+            "dialogues": []
+        },
+        {
+            "id": "7504806",
+            "objective": "Explore the tower",
+            "dialogues": []
+        },
+        {
+            "id": "7504853",
+            "objective": "Explore the tower",
+            "dialogues": [
+                {
+                    "id": "750480701",
+                    "speaker": "Paimon",
+                    "text": "Th—That was close!"
+                },
+                {
+                    "id": "750480702",
+                    "speaker": "Paimon",
+                    "text": "Was Paimon seeing things? We were saved by a flash of golden light.",
+                    "choices": [
+                        {
+                            "id": "750480703",
+                            "text": "I did see a pattern in gold...",
+                            "response": [
+                                {
+                                    "id": "750480704",
+                                    "speaker": "Paimon",
+                                    "text": "#Could it be the same kind of gold pattern that we saw when we encountered {REALNAME[ID(2)|SHOWHOST(true)]}? Did the pattern guide us here?"
+                                },
+                                {
+                                    "id": "750480705",
+                                    "speaker": "Paimon",
+                                    "text": "Feels like we're being helped by some kind of higher power somehow!"
+                                },
+                                {
+                                    "id": "750480707",
+                                    "speaker": "Paimon",
+                                    "text": "And this looks like a safer spot either way. Ugh, Paimon never thought we'd have to run from hilichurls!"
+                                },
+                                {
+                                    "id": "750480708",
+                                    "speaker": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+                                    "text": "Rawr... Ehrr?"
+                                },
+                                {
+                                    "id": "750480709",
+                                    "speaker": "Paimon",
+                                    "text": "#What's wrong? Are you okay, {REALNAME[ID(2)|SHOWHOST(true)]}?"
+                                },
+                                {
+                                    "id": "750480710",
+                                    "speaker": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+                                    "text": "Rrroo..."
+                                },
+                                {
+                                    "id": "750480711",
+                                    "speaker": "Paimon",
+                                    "text": "Did something in here catch your attention?"
+                                },
+                                {
+                                    "id": "750480712",
+                                    "speaker": "Paimon",
+                                    "text": "Well, not that we'll be leaving anytime soon with them blocking the door, so let's just explore this place."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "750480706",
+                            "text": "Whatever it was, it saved us."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "7504817",
+            "objective": "Explore the tower",
+            "dialogues": [
+                {
+                    "id": "750481701",
+                    "speaker": "Paimon",
+                    "text": "Ugh, Paimon can't believe it got away again!"
+                },
+                {
+                    "id": "750481702",
+                    "speaker": "Paimon",
+                    "text": "We almost had it, but the dragon's strength was suddenly restored somehow...",
+                    "choices": [
+                        {
+                            "id": "750481703",
+                            "text": "\"This is not the end\"...",
+                            "response": [
+                                {
+                                    "id": "750481704",
+                                    "speaker": "Paimon",
+                                    "text": "Huh? You could understand what that dragon was saying?"
+                                },
+                                {
+                                    "id": "750481705",
+                                    "speaker": "Player",
+                                    "text": "The words came from the golden pattern."
+                                },
+                                {
+                                    "id": "750481707",
+                                    "speaker": "Paimon",
+                                    "text": "#Hmm, is that the same pattern we saw when we encountered {REALNAME[ID(2)|SHOWHOST(true)]}? Could this evil dragon be related to him somehow?"
+                                },
+                                {
+                                    "id": "750481708",
+                                    "speaker": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+                                    "text": "Rroo..."
+                                },
+                                {
+                                    "id": "750481709",
+                                    "speaker": "Paimon",
+                                    "text": "#Oh, Paimon isn't suspecting you or anything, {REALNAME[ID(2)|SHOWHOST(true)]}! But it feels like someone has been guiding us ever since we stepped into this ancient city..."
+                                },
+                                {
+                                    "id": "750481710",
+                                    "speaker": "Paimon",
+                                    "text": "Maybe Paimon's overthinking this..."
+                                },
+                                {
+                                    "id": "750481711",
+                                    "speaker": "Bona",
+                                    "text": "Hmm? What are you talking about?"
+                                },
+                                {
+                                    "id": "750481712",
+                                    "speaker": "Bona",
+                                    "text": "Gah... That was quite an ordeal. I thought we had it dead to rights there, but it lives to fight another day, huh?"
+                                },
+                                {
+                                    "id": "750481713",
+                                    "speaker": "Bona",
+                                    "text": "If nothing else, though, we can get my Pyrophosphorite back... Ah, yes. It's right over here!"
+                                },
+                                {
+                                    "id": "750481714",
+                                    "speaker": "Paimon",
+                                    "text": "Speaking of that, what should we do now? We came here looking for the Jade of Return that adventurer spoke of..."
+                                },
+                                {
+                                    "id": "750481715",
+                                    "speaker": "Paimon",
+                                    "text": "But we don't know what that thing is yet, do we?"
+                                },
+                                {
+                                    "id": "750481716",
+                                    "speaker": "Paimon",
+                                    "text": "You must know something about it, right, Bona? Is it one of those things that'll require three Pyrophosphorite chunks to unseal or something?"
+                                },
+                                {
+                                    "id": "750481717",
+                                    "speaker": "Bona",
+                                    "text": "If only it were that simple... But in truth, it's not to be found within this city, but instead, in the sky."
+                                },
+                                {
+                                    "id": "750481718",
+                                    "speaker": "Paimon",
+                                    "text": "What? But the notes we found in the tower said... Did those adventurers make a mistake?"
+                                },
+                                {
+                                    "id": "750481719",
+                                    "speaker": "Bona",
+                                    "text": "Wait, you came to Ochkanatlan, the forbidden city, on account of some notes you just... happened to pick up? Heh. \"The more skilled the person, the more bold their deeds,\" I guess."
+                                },
+                                {
+                                    "id": "750481720",
+                                    "speaker": "Bona",
+                                    "text": "Since you don't know anything about the Jade of Return, you probably haven't heard about the story of Tona{RUBY#[D]The Skyserpent Ship}tiuh, then?"
+                                },
+                                {
+                                    "id": "750481721",
+                                    "speaker": "Bona",
+                                    "text": "As the name suggests, it was a sky-faring ship built by Python King Och-Kan, the tyrant who ruled Ochkanatlan. The ship was filled to the brim with treasures, and countless adventurers from Natlan have pursued it."
+                                },
+                                {
+                                    "id": "750481722",
+                                    "speaker": "Bona",
+                                    "text": "My old man included, of course. He was the best adventurer from the Flower-Feather Clan."
+                                },
+                                {
+                                    "id": "750481723",
+                                    "speaker": "Bona",
+                                    "text": "But the Tonatiuh did hold greater significance to him beyond his ambitions as an adventurer."
+                                },
+                                {
+                                    "id": "750481724",
+                                    "speaker": "Bona",
+                                    "text": "The Abyss calamity devastated our tribe decades ago, and the evil dragon that occupies this ancient city also appeared around the same time."
+                                },
+                                {
+                                    "id": "750481725",
+                                    "speaker": "Bona",
+                                    "text": "Rumor had it that one of the countless treasures aboard the ship was the Jade of{RUBY#[D]Ometeotl} Return, and that locating it would quell this Abyss-tainted ancient city."
+                                },
+                                {
+                                    "id": "750481726",
+                                    "speaker": "Bona",
+                                    "text": "At that time, we'd just witnessed the nightmare of the Abyss. So if we could find the Jade and suppress the contamination here in the city, our tribe would no longer have to live in fear."
+                                },
+                                {
+                                    "id": "750481727",
+                                    "speaker": "Bona",
+                                    "text": "My old man set off on a journey for that purpose... but he never returned. All that remains is this Pyrophosphorite chunk, which he found in the ruins.",
+                                    "choices": [
+                                        {
+                                            "id": "750481728",
+                                            "text": "I'm sorry for your loss...",
+                                            "response": [
+                                                {
+                                                    "id": "750481729",
+                                                    "speaker": "Bona",
+                                                    "text": "Don't be. I've actually never met him. I heard all this from a woman who adventured alongside him."
+                                                },
+                                                {
+                                                    "id": "750481732",
+                                                    "speaker": "Bona",
+                                                    "text": "The inscriptions on a monument in the ruins say that the winds of the distant past will guide the way to the Tonatiuh <color=#00E1FFFF>once Pyrophosphorite is placed on the Altar of Primal Flame within the ancient city</color>."
+                                                },
+                                                {
+                                                    "id": "750481733",
+                                                    "speaker": "Bona",
+                                                    "text": "But the city became a forbidden place for the tribe after that woman returned alone, the sole survivor from my old man's squad."
+                                                },
+                                                {
+                                                    "id": "750481734",
+                                                    "speaker": "Paimon",
+                                                    "text": "Paimon didn't know that the Jade of Return was so important. Guess we aren't pawning it off for Mora now..."
+                                                },
+                                                {
+                                                    "id": "750481735",
+                                                    "speaker": "Paimon",
+                                                    "text": "But we can remove the Abyss threat against your tribe if we can find it, and that would be amazing, too!"
+                                                },
+                                                {
+                                                    "id": "750481736",
+                                                    "speaker": "Paimon",
+                                                    "text": "We just have to locate this Altar, right? Bona, you must know where it is, don't you?"
+                                                },
+                                                {
+                                                    "id": "750481737",
+                                                    "speaker": "Bona",
+                                                    "text": "Well, I don't know either... I only snuck in here recently, and only because I was looking for clues concerning the Altar of Primal Flame."
+                                                },
+                                                {
+                                                    "id": "750481738",
+                                                    "speaker": "Bona",
+                                                    "text": "I encountered lots of unexpected dangers, but things started looking up after I met Coco."
+                                                },
+                                                {
+                                                    "id": "750481739",
+                                                    "speaker": "Cocouik",
+                                                    "text": "Chee!"
+                                                },
+                                                {
+                                                    "id": "750481740",
+                                                    "speaker": "Bona",
+                                                    "text": "The evil dragon was the only problem at that point! I was planning on sneaking in while it was out, but it got me good, ha!"
+                                                },
+                                                {
+                                                    "id": "750481741",
+                                                    "speaker": "Bona",
+                                                    "text": "But it's gone now, thanks to you, and I got my Pyrophosphorite back. Now, I can go seek the Altar of Primal Flame.",
+                                                    "choices": [
+                                                        {
+                                                            "id": "750481742",
+                                                            "text": "Must you find the Jade of Return?",
+                                                            "response": [
+                                                                {
+                                                                    "id": "750481743",
+                                                                    "speaker": "Bona",
+                                                                    "text": "Yes, I have to. I became an adventurer because I wanted to find it."
+                                                                },
+                                                                {
+                                                                    "id": "750481746",
+                                                                    "speaker": "Bona",
+                                                                    "text": "You're also here for the Jade of Return, aren't you? In that case, would you like to come with me? This'll be easier by far if we join your strength to my knowledge."
+                                                                },
+                                                                {
+                                                                    "id": "750481747",
+                                                                    "speaker": "Bona",
+                                                                    "text": "As long as we follow Coco's directions, we should be able to find it and access the Tonatiuh up in the air together..."
+                                                                },
+                                                                {
+                                                                    "id": "750481748",
+                                                                    "speaker": "Bona",
+                                                                    "text": "I can't split the Jade of Return with you for sale, but there must surely be other treasures up there to be claimed as an adventurer's reward!"
+                                                                },
+                                                                {
+                                                                    "id": "750481749",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "Well, this sure doesn't sound like a guaranteed score, but it's not like we can do anything other than trust you, eh?"
+                                                                },
+                                                                {
+                                                                    "id": "750481750",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "And if we do reach the Tonatiuh, we can help everyone AND make a huge profit. Talk about a win-win!"
+                                                                },
+                                                                {
+                                                                    "id": "750481751",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "#How about it, {NICKNAME}? Let's go with Bona, shall we?"
+                                                                },
+                                                                {
+                                                                    "id": "750481752",
+                                                                    "speaker": "Bona",
+                                                                    "text": "Hehe, really? That's great to hear! I knew you'd agree to help! With you around, I'm sure I'll be able to fulfill my father's last wish."
+                                                                },
+                                                                {
+                                                                    "id": "750481753",
+                                                                    "speaker": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+                                                                    "text": "Rawr!"
+                                                                },
+                                                                {
+                                                                    "id": "750481754",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "#{REALNAME[ID(2)|SHOWHOST(true)]} concurs! It's settled, then. Let's get going before the dragon comes back!"
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "id": "750481744",
+                                                            "text": "You don't want us to go with you?",
+                                                            "response": [
+                                                                {
+                                                                    "id": "750481745",
+                                                                    "speaker": "Bona",
+                                                                    "text": "No way! I was just about to ask, actually!"
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "750481730",
+                                            "text": "Did the evil dragon...",
+                                            "response": [
+                                                {
+                                                    "id": "750481731",
+                                                    "speaker": "Bona",
+                                                    "text": "Who knows? I've actually never met him. I heard all this from a woman who adventured alongside him."
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "750481706",
+                            "text": "The golden pattern..."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "7504807",
+            "objective": "Explore the tower",
+            "dialogues": []
+        },
+        {
+            "id": "7504808",
+            "objective": "Talk to the mysterious adventurer",
+            "dialogues": [
+                {
+                    "id": "750480801",
+                    "speaker": "???",
+                    "text": "Hey, you over there!"
+                },
+                {
+                    "id": "750480802",
+                    "speaker": "???",
+                    "text": "Yes, I'm talking about the three of you! Turn around."
+                },
+                {
+                    "id": "750480803",
+                    "speaker": "???",
+                    "text": "Looks like you understand what I'm saying."
+                },
+                {
+                    "id": "750480804",
+                    "speaker": "???",
+                    "text": "Phew. You scared me back there, you know? I thought you were Abyss monsters pretending to be humans. If you hadn't responded, I'd have struck first.",
+                    "choices": [
+                        {
+                            "id": "750480805",
+                            "text": "We should be the scared ones.",
+                            "response": [
+                                {
+                                    "id": "750480806",
+                                    "speaker": "Paimon",
+                                    "text": "Yeah, we sure didn't think there would be other people here!"
+                                },
+                                {
+                                    "id": "750480810",
+                                    "speaker": "Bona",
+                                    "text": "Heh. Anyway, the way we're meeting here, I'd call it destiny. I'm the ace adventurer of the Flower-Feather Clan. Call me Bona.",
+                                    "choices": [
+                                        {
+                                            "id": "750480811",
+                                            "text": "#I'm {NICKNAME}.",
+                                            "response": [
+                                                {
+                                                    "id": "750480812",
+                                                    "speaker": "Paimon",
+                                                    "text": "#And my name's Paimon. We're also adventurers exploring this place. This little one here is our companion, {REALNAME[ID(2)|SHOWHOST(true)]}!"
+                                                },
+                                                {
+                                                    "id": "750480816",
+                                                    "speaker": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+                                                    "text": "Rawr!"
+                                                },
+                                                {
+                                                    "id": "750480817",
+                                                    "speaker": "Paimon",
+                                                    "text": "Are you also looking for the Jade of Return, like the other adventurers were?"
+                                                },
+                                                {
+                                                    "id": "750480818",
+                                                    "speaker": "Bona",
+                                                    "text": "The Jade of Return... Yeah, I guess. You too, then?"
+                                                },
+                                                {
+                                                    "id": "750480819",
+                                                    "speaker": "Paimon",
+                                                    "text": "Uh-huh! Guess we were right. No one's found it yet!"
+                                                },
+                                                {
+                                                    "id": "750480820",
+                                                    "speaker": "Bona",
+                                                    "text": "Still... An adventurer openly displaying their weaknesses, a reckless white guiding spirit, and a small Tepetlisaurus that doesn't know what's happening..."
+                                                },
+                                                {
+                                                    "id": "750480821",
+                                                    "speaker": "Bona",
+                                                    "text": "You're practically rookies who happened upon this dangerous and forbidden place without any preparation, aren't you?"
+                                                },
+                                                {
+                                                    "id": "750480822",
+                                                    "speaker": "Bona",
+                                                    "text": "The Jade of Return is not something that amateur adventurers can find! You're lucky that you bumped into me, or you might've died before figuring out what's what."
+                                                },
+                                                {
+                                                    "id": "750480823",
+                                                    "speaker": "Paimon",
+                                                    "text": "What was that about a guiding spirit? Also, watch your words, 'cause we're decidedly not rookies!",
+                                                    "choices": [
+                                                        {
+                                                            "id": "750480824",
+                                                            "text": "We're very experienced, as it happens.",
+                                                            "response": [
+                                                                {
+                                                                    "id": "750480825",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "If you don't believe us, you can ask Katheryne at the Adventurers' Guild about us. You'll find out just how good we are pretty quick!"
+                                                                },
+                                                                {
+                                                                    "id": "750480828",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "Why don't you take a look at our Adventurer Handbooks first? It's certified by the Adventurers' Guild and contains all our adventures!"
+                                                                },
+                                                                {
+                                                                    "id": "750480829",
+                                                                    "speaker": "Bona",
+                                                                    "text": "Wait a minute, what's an Adventurer Handbook? And this Adventurers' Guild... I've never heard of it. Was it established recently?"
+                                                                },
+                                                                {
+                                                                    "id": "750480830",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "Huh? And you call yourself an adventurer? How do you not know about those two things?"
+                                                                },
+                                                                {
+                                                                    "id": "750480831",
+                                                                    "speaker": "Bona",
+                                                                    "text": "No, no, what I mean is that you're not making sense. What do you mean, you need to be certified by some random organization to become an adventurer!?"
+                                                                },
+                                                                {
+                                                                    "id": "750480832",
+                                                                    "speaker": "Bona",
+                                                                    "text": "Aren't adventurers supposed to be courageous and unbound? Why must there be a Guild to keep them in check?"
+                                                                },
+                                                                {
+                                                                    "id": "750480833",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "Hmm, you do have a point... Wait, no! The Adventurers' Guild is very important, and not just \"some random organization\"!"
+                                                                },
+                                                                {
+                                                                    "id": "750480834",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "Still, Paimon's never considered how people would become adventurers if the Guild didn't exist..."
+                                                                },
+                                                                {
+                                                                    "id": "750480835",
+                                                                    "speaker": "Bona",
+                                                                    "text": "A fair concern! For starters, one needs enough curiosity, a thirst for knowledge, and a sense of responsibility to help others."
+                                                                },
+                                                                {
+                                                                    "id": "750480836",
+                                                                    "speaker": "Bona",
+                                                                    "text": "But most importantly, you need the courage to take that first step! Once you make the decision and start on a journey, you've become an adventurer.",
+                                                                    "choices": [
+                                                                        {
+                                                                            "id": "750480837",
+                                                                            "text": "Paimon has enough curiosity for both of us.",
+                                                                            "response": [
+                                                                                {
+                                                                                    "id": "750480838",
+                                                                                    "speaker": "Paimon",
+                                                                                    "text": "That's right, that's totally Paimon's thing! Whether it's treasures or gourmet, Paimon's always curious!"
+                                                                                },
+                                                                                {
+                                                                                    "id": "750480839",
+                                                                                    "speaker": "Paimon",
+                                                                                    "text": "By the way, Paimon had the most amazing Blazed Meat Stew this morning."
+                                                                                },
+                                                                                {
+                                                                                    "id": "750480840",
+                                                                                    "speaker": "Player",
+                                                                                    "text": "This isn't foreshadowing, is it?"
+                                                                                },
+                                                                                {
+                                                                                    "id": "750480845",
+                                                                                    "speaker": "Bona",
+                                                                                    "text": "Still, how did you get in at all? The only entrance should have been sealed shut. If you're in here, does that mean the monsters outside..."
+                                                                                },
+                                                                                {
+                                                                                    "id": "750480846",
+                                                                                    "speaker": "Paimon",
+                                                                                    "text": "Oh, about that... This is kinda embarrassing, but we were chased in here by hilichurls..."
+                                                                                },
+                                                                                {
+                                                                                    "id": "750480847",
+                                                                                    "speaker": "Paimon",
+                                                                                    "text": "Also, no need to worry about them, or any other monsters. A golden light stopped them from entering after we came in."
+                                                                                },
+                                                                                {
+                                                                                    "id": "750480848",
+                                                                                    "speaker": "Bona",
+                                                                                    "text": "A golden light? Oh, so Coco saved you! Now I feel a lot safer. If Coco approves of you, then you can't be bad sorts."
+                                                                                },
+                                                                                {
+                                                                                    "id": "750480849",
+                                                                                    "speaker": "Paimon",
+                                                                                    "text": "Coco? Who's that? You mean there's someone else here?"
+                                                                                },
+                                                                                {
+                                                                                    "id": "750480850",
+                                                                                    "speaker": "Bona",
+                                                                                    "text": "#Coco's my companion, like {REALNAME[ID(2)|SHOWHOST(true)]} is yours. Anyway, come with me and see for yourself."
+                                                                                },
+                                                                                {
+                                                                                    "id": "750480851",
+                                                                                    "speaker": "Black Screen",
+                                                                                    "text": "You follow Bona and return to ground level."
+                                                                                },
+                                                                                {
+                                                                                    "id": "750480852",
+                                                                                    "speaker": "Bona",
+                                                                                    "text": "Cocouik? Where did you go?"
+                                                                                },
+                                                                                {
+                                                                                    "id": "750480853",
+                                                                                    "speaker": "Bona",
+                                                                                    "text": "Aha, here you are."
+                                                                                },
+                                                                                {
+                                                                                    "id": "750480854",
+                                                                                    "speaker": "Cocouik",
+                                                                                    "text": "Chree?"
+                                                                                },
+                                                                                {
+                                                                                    "id": "750480855",
+                                                                                    "speaker": "Paimon",
+                                                                                    "text": "What a cute little guy! Looks like a green Specter.",
+                                                                                    "choices": [
+                                                                                        {
+                                                                                            "id": "750480856",
+                                                                                            "text": "That doesn't sound cute at all.",
+                                                                                            "response": [
+                                                                                                {
+                                                                                                    "id": "750480858",
+                                                                                                    "speaker": "Bona",
+                                                                                                    "text": "Don't call it a Specter, that's mean! Its name is Cocouik. I chose the name, by the way, and given how shiny it is, I'd say it's pretty spot on too!"
+                                                                                                },
+                                                                                                {
+                                                                                                    "id": "750480859",
+                                                                                                    "speaker": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+                                                                                                    "text": "Rawr!"
+                                                                                                },
+                                                                                                {
+                                                                                                    "id": "750480860",
+                                                                                                    "speaker": "Cocouik",
+                                                                                                    "text": "Kuru?"
+                                                                                                },
+                                                                                                {
+                                                                                                    "id": "750480861",
+                                                                                                    "speaker": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+                                                                                                    "text": "Rawr... Rawr!"
+                                                                                                },
+                                                                                                {
+                                                                                                    "id": "750480862",
+                                                                                                    "speaker": "Paimon",
+                                                                                                    "text": "You seem to be getting along just fine. So the light that saved us came from this little guy, huh? Incredible!"
+                                                                                                },
+                                                                                                {
+                                                                                                    "id": "750480863",
+                                                                                                    "speaker": "Bona",
+                                                                                                    "text": "That's right. Cocouik might be small, but it's the guardian spirit of this area. I've been able to roam all over this ancient city thanks to it."
+                                                                                                },
+                                                                                                {
+                                                                                                    "id": "750480864",
+                                                                                                    "speaker": "Bona",
+                                                                                                    "text": "And when it accumulates enough power, even that evil dragon is no match for it!"
+                                                                                                },
+                                                                                                {
+                                                                                                    "id": "750480865",
+                                                                                                    "speaker": "Paimon",
+                                                                                                    "text": "Right, Paimon almost forgot about that mean guy! You encountered it too, didn't you? Well, we wouldn't have come here if it weren't for the dragon."
+                                                                                                },
+                                                                                                {
+                                                                                                    "id": "750480866",
+                                                                                                    "speaker": "Bona",
+                                                                                                    "text": "Well... It's a little embarrassing, but that dragon took my Pyrophosphorite, which is critical to finding the Jade of Return. I have to get it back!"
+                                                                                                },
+                                                                                                {
+                                                                                                    "id": "750480867",
+                                                                                                    "speaker": "Paimon",
+                                                                                                    "text": "Pyrophosphorite? So you need something like that to obtain the Jade? Sounds complicated."
+                                                                                                },
+                                                                                                {
+                                                                                                    "id": "750480868",
+                                                                                                    "speaker": "Bona",
+                                                                                                    "text": "It's normal for you not to know. After, my father... Anyway, since we're all adventurers trapped in here, how about we work together until we beat that evil dragon?"
+                                                                                                },
+                                                                                                {
+                                                                                                    "id": "750480869",
+                                                                                                    "speaker": "Bona",
+                                                                                                    "text": "I don't know how good you are, but we can't go wrong by joining forces, whether it's to explore this place or fight the dragon.",
+                                                                                                    "choices": [
+                                                                                                        {
+                                                                                                            "id": "750480870",
+                                                                                                            "text": "Well, this works for me.",
+                                                                                                            "response": [
+                                                                                                                {
+                                                                                                                    "id": "750480871",
+                                                                                                                    "speaker": "Bona",
+                                                                                                                    "text": "Heh! I like your decisiveness."
+                                                                                                                },
+                                                                                                                {
+                                                                                                                    "id": "750480874",
+                                                                                                                    "speaker": "Paimon",
+                                                                                                                    "text": "Hmph. That's right, we've gotta face off with that nasty dragon again to make sure it doesn't hurt more people!"
+                                                                                                                },
+                                                                                                                {
+                                                                                                                    "id": "750480875",
+                                                                                                                    "speaker": "Paimon",
+                                                                                                                    "text": "Still, if we can defeat that guy and grab the Pyrophosphorite back, and then you find the Jade of Return, remember to give us a share too, alright? We'll... just about accept a forty-sixty split..."
+                                                                                                                },
+                                                                                                                {
+                                                                                                                    "id": "750480876",
+                                                                                                                    "speaker": "Bona",
+                                                                                                                    "text": "Heh, it's a bit early for that discussion now, don't you think? Besides, the Jade of Return isn't the sort of thing you can split up like a pie..."
+                                                                                                                },
+                                                                                                                {
+                                                                                                                    "id": "750480877",
+                                                                                                                    "speaker": "Bona",
+                                                                                                                    "text": "Heh. You really didn't know anything before coming here, did you? Good thing you bumped into me."
+                                                                                                                },
+                                                                                                                {
+                                                                                                                    "id": "750480878",
+                                                                                                                    "speaker": "Bona",
+                                                                                                                    "text": "We'll talk about the other stuff later, alright? Our top priority right now is beating the dragon and getting the Pyrophosphorite back."
+                                                                                                                },
+                                                                                                                {
+                                                                                                                    "id": "750480879",
+                                                                                                                    "speaker": "Bona",
+                                                                                                                    "text": "Well then, let's get going! The monsters outside shouldn't be an issue with Coco on our side, but the dragon... Well, that's a different story."
+                                                                                                                },
+                                                                                                                {
+                                                                                                                    "id": "750480880",
+                                                                                                                    "speaker": "Bona",
+                                                                                                                    "text": "I've gotta find a way to charge it up before we go butt heads with that mean fella."
+                                                                                                                },
+                                                                                                                {
+                                                                                                                    "id": "750480881",
+                                                                                                                    "speaker": "Bona",
+                                                                                                                    "text": "The <color=#00E1FFFF>Secret Source Scraps</color> that defend the ancient city are scattered across its grounds. Hmm... We should find them so long as we <color=#00E1FFFF>follow the light Coco projects</color>!"
+                                                                                                                }
+                                                                                                            ]
+                                                                                                        },
+                                                                                                        {
+                                                                                                            "id": "750480872",
+                                                                                                            "text": "That's our line. We can't just leave you here, right?",
+                                                                                                            "response": [
+                                                                                                                {
+                                                                                                                    "id": "750480873",
+                                                                                                                    "speaker": "Bona",
+                                                                                                                    "text": "Hah, you shouldn't underestimate me like that... but still, I like your decisiveness."
+                                                                                                                }
+                                                                                                            ]
+                                                                                                        }
+                                                                                                    ]
+                                                                                                }
+                                                                                            ]
+                                                                                        },
+                                                                                        {
+                                                                                            "id": "750480857",
+                                                                                            "text": "Those words are not exactly flattering, Paimon."
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        {
+                                                                            "id": "750480841",
+                                                                            "text": "I sure love sticking my nose in other people's businesses.",
+                                                                            "response": [
+                                                                                {
+                                                                                    "id": "750480842",
+                                                                                    "speaker": "Paimon",
+                                                                                    "text": "You mean you enjoy helping others! Why would you put yourself down like that?"
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        {
+                                                                            "id": "750480843",
+                                                                            "text": "It's the courage that counts most.",
+                                                                            "response": [
+                                                                                {
+                                                                                    "id": "750480844",
+                                                                                    "speaker": "Bona",
+                                                                                    "text": "Fine, I will give you that. You're a bold lot, stepping into this forbidden city."
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "id": "750480826",
+                                                            "text": "This is Paimon, the best adventurer in Teyvat.",
+                                                            "response": [
+                                                                {
+                                                                    "id": "750480827",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "Now that's exaggerating. But between the two of us, Paimon thinks we're top-notch adventurers all the same."
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "750480813",
+                                            "text": "This is Paimon, my employer.",
+                                            "response": [
+                                                {
+                                                    "id": "750480814",
+                                                    "speaker": "Paimon",
+                                                    "text": "#Huh? Seriously? What are you gonna do next, tell her that you're Paimon's guide? Anyway, {M#he}{F#she}'s {NICKNAME}. We're also adventurers who just arrived."
+                                                },
+                                                {
+                                                    "id": "750480815",
+                                                    "speaker": "Paimon",
+                                                    "text": "#This little one here is our companion, {REALNAME[ID(2)|SHOWHOST(true)]}!"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "750480807",
+                            "text": "Thank goodness for my quick reactions, then.",
+                            "response": [
+                                {
+                                    "id": "750480808",
+                                    "speaker": "???",
+                                    "text": "Is that why you exposed your back to me with such confidence?"
+                                },
+                                {
+                                    "id": "750480809",
+                                    "speaker": "Paimon",
+                                    "text": "Well, we didn't think there would be other people here!"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "7504818",
+            "objective": "Leave the tower",
+            "dialogues": []
+        },
+        {
+            "id": "7504865",
+            "objective": "Leave the tower",
+            "dialogues": []
+        },
+        {
+            "id": "7504809",
+            "objective": "Explore Ashflow Street and collect Secret Source Scrap(s)",
+            "dialogues": []
+        },
+        {
+            "id": "7504810",
+            "objective": "Explore Ashflow Street",
+            "dialogues": [
+                {
+                    "id": "750481001",
+                    "speaker": "Bona",
+                    "text": "About time, too. If we can shoot it down from here..."
+                },
+                {
+                    "id": "750481002",
+                    "speaker": "Cocouik",
+                    "text": "Chee! Kuchee!"
+                },
+                {
+                    "id": "750481003",
+                    "speaker": "Bona",
+                    "text": "#Yes, we just need to use that thing. Try putting your hand on Coco, {NICKNAME}..."
+                },
+                {
+                    "id": "750481004",
+                    "speaker": "Bona",
+                    "text": "\"Super Awesomesauce Laser,\" fire!"
+                }
+            ]
+        },
+        {
+            "id": "7504811",
+            "objective": "Shoot the evil dragon down with the Super Awesomesauce Laser",
+            "dialogues": []
+        },
+        {
+            "id": "7504843",
+            "objective": "Shoot the evil dragon down with the Super Awesomesauce Laser",
+            "dialogues": []
+        },
+        {
+            "id": "7504812",
+            "objective": "Track the evil dragon down",
+            "dialogues": [
+                {
+                    "id": "750481201",
+                    "speaker": "Bona",
+                    "text": "Nice! The Super Awesomesauce Laser is pretty hot stuff, eh?"
+                },
+                {
+                    "id": "750481202",
+                    "speaker": "Paimon",
+                    "text": "Yeah! But why's it called that, though? You sure have strange tastes..."
+                },
+                {
+                    "id": "750481203",
+                    "speaker": "Bona",
+                    "text": "You don't think it sounds awesome? Speaking from my experience as an adventurer, it's much easier for people to remember and pass on skill names if they're flashy."
+                },
+                {
+                    "id": "750481204",
+                    "speaker": "Paimon",
+                    "text": "Let's forget about the name for a moment here... Thanks for helping us out again, Coco. We couldn't have beat the dragon back without you."
+                },
+                {
+                    "id": "750481205",
+                    "speaker": "Cocouik",
+                    "text": "Kru..."
+                },
+                {
+                    "id": "750481206",
+                    "speaker": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+                    "text": "Wrrooo..."
+                },
+                {
+                    "id": "750481207",
+                    "speaker": "Paimon",
+                    "text": "#Don't be sad! We're not saying that you didn't do anything, {REALNAME[ID(2)|SHOWHOST(true)]}.",
+                    "choices": [
+                        {
+                            "id": "750481208",
+                            "text": "Not great with words, are we?",
+                            "response": [
+                                {
+                                    "id": "750481209",
+                                    "speaker": "Paimon",
+                                    "text": "#C'mon, just help Paimon explain, {NICKNAME}! We've all got different strengths! This just wasn't the time for {REALNAME[ID(2)|SHOWHOST(true)]} to shine yet!"
+                                },
+                                {
+                                    "id": "750481212",
+                                    "speaker": "Paimon",
+                                    "text": "Anyway, the evil dragon flew off in that direction, huh?"
+                                },
+                                {
+                                    "id": "750481213",
+                                    "speaker": "Bona",
+                                    "text": "Hmph. An injured beast always flees to its nest first. I'll bet that's its lair over that way"
+                                },
+                                {
+                                    "id": "750481214",
+                                    "speaker": "Bona",
+                                    "text": "We'll have to get the Pyrophosphorite back before it recovers!"
+                                },
+                                {
+                                    "id": "750481215",
+                                    "speaker": "Bona",
+                                    "text": "If I were alone, I wouldn't have dared to take the dragon on even if it were injured."
+                                },
+                                {
+                                    "id": "750481216",
+                                    "speaker": "Bona",
+                                    "text": "But we're a group now, and you're pretty good... I think we'll be fine.",
+                                    "choices": [
+                                        {
+                                            "id": "750481217",
+                                            "text": "I'm not sure I can shoulder this burden...",
+                                            "response": [
+                                                {
+                                                    "id": "750481219",
+                                                    "speaker": "Bona",
+                                                    "text": "Haha, come on! Don't you worry, I'll go in first. Just watch my back!"
+                                                },
+                                                {
+                                                    "id": "750481220",
+                                                    "speaker": "Bona",
+                                                    "text": "Time is of the essence. Let's go!"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "750481218",
+                                            "text": "Sorry, I've suddenly got some urgent matters to attend to..."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "750481210",
+                            "text": "Everyone has their strengths.",
+                            "response": [
+                                {
+                                    "id": "750481211",
+                                    "speaker": "Paimon",
+                                    "text": "#That's right. You'll get your chance soon, {REALNAME[ID(2)|SHOWHOST(true)]}, Paimon knows it!"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "7504813",
+            "objective": "Track the evil dragon down",
+            "dialogues": []
+        },
+        {
+            "id": "7504814",
+            "objective": "Defeat the evil dragon in its lair",
+            "dialogues": []
+        },
+        {
+            "id": "7504815",
+            "objective": "Defeat the evil dragon in its lair",
+            "dialogues": []
+        },
+        {
+            "id": "7504816",
+            "objective": "Retrieve the Pyrophosphorite",
+            "dialogues": [
+                {
+                    "id": "750481601",
+                    "speaker": "Paimon",
+                    "text": "Ugh, Paimon can't believe it got away again!"
+                },
+                {
+                    "id": "750481602",
+                    "speaker": "Paimon",
+                    "text": "We almost had it, but the dragon's strength was suddenly restored somehow...",
+                    "choices": [
+                        {
+                            "id": "750481603",
+                            "text": "\"This is not the end\"...",
+                            "response": [
+                                {
+                                    "id": "750481604",
+                                    "speaker": "Paimon",
+                                    "text": "Huh? You could understand what that dragon was saying?"
+                                },
+                                {
+                                    "id": "750481605",
+                                    "speaker": "Player",
+                                    "text": "The words came from the golden pattern."
+                                },
+                                {
+                                    "id": "750481607",
+                                    "speaker": "Paimon",
+                                    "text": "Eh? You saw the golden pattern again? Was it a hint left behind by that, uh, Sage of the Stolen Flame?"
+                                },
+                                {
+                                    "id": "750481608",
+                                    "speaker": "Paimon",
+                                    "text": "Wait, is looking for the treasure in this ancient city one of his trials, too?"
+                                },
+                                {
+                                    "id": "750481609",
+                                    "speaker": "Bona",
+                                    "text": "Hmm? What are you talking about?"
+                                },
+                                {
+                                    "id": "750481610",
+                                    "speaker": "Bona",
+                                    "text": "Gah... That was quite an ordeal. I thought we had it dead to rights there, but it lives to fight another day, huh?"
+                                },
+                                {
+                                    "id": "750481611",
+                                    "speaker": "Bona",
+                                    "text": "If nothing else, though, we can get my Pyrophosphorite back... Ah, yes. It's right over here!"
+                                },
+                                {
+                                    "id": "750481612",
+                                    "speaker": "Paimon",
+                                    "text": "Speaking of that, what should we do now? We came here looking for the Jade of Return that adventurer spoke of..."
+                                },
+                                {
+                                    "id": "750481613",
+                                    "speaker": "Paimon",
+                                    "text": "But we don't know what that thing is yet, do we?"
+                                },
+                                {
+                                    "id": "750481614",
+                                    "speaker": "Paimon",
+                                    "text": "You must know something about it, right, Bona? Is it one of those things that'll require three Pyrophosphorite chunks to unseal or something?"
+                                },
+                                {
+                                    "id": "750481615",
+                                    "speaker": "Bona",
+                                    "text": "If only it were that simple... But in truth, it's not to be found within this city, but instead, in the sky."
+                                },
+                                {
+                                    "id": "750481616",
+                                    "speaker": "Paimon",
+                                    "text": "What? But the notes we found in the tower said... Did those adventurers make a mistake?"
+                                },
+                                {
+                                    "id": "750481617",
+                                    "speaker": "Bona",
+                                    "text": "Wait, you came to Ochkanatlan, the forbidden city, on account of some notes you just... happened to pick up? Heh. \"The more skilled the person, the more bold their deeds,\" I guess."
+                                },
+                                {
+                                    "id": "750481618",
+                                    "speaker": "Bona",
+                                    "text": "Since you don't know anything about the Jade of Return, you probably haven't heard about the story of the Tona{RUBY#[D]Skyserpent Ship}tiuh, then?"
+                                },
+                                {
+                                    "id": "750481619",
+                                    "speaker": "Bona",
+                                    "text": "As the name suggests, it was a sky-faring ship built by Python King Och-Kan, the tyrant who ruled Ochkanatlan. The ship was filled to the brim with treasures, and countless adventurers from Natlan have pursued it."
+                                },
+                                {
+                                    "id": "750481620",
+                                    "speaker": "Bona",
+                                    "text": "My old man included, of course. He was the best adventurer from the Flower-Feather Clan."
+                                },
+                                {
+                                    "id": "750481621",
+                                    "speaker": "Bona",
+                                    "text": "But the Tonatiuh did hold greater significance to him beyond his ambitions as an adventurer."
+                                },
+                                {
+                                    "id": "750481622",
+                                    "speaker": "Bona",
+                                    "text": "The Abyss calamity devastated our tribe decades ago, and the evil dragon that occupies this ancient city also appeared around the same time."
+                                },
+                                {
+                                    "id": "750481623",
+                                    "speaker": "Bona",
+                                    "text": "Rumor had it that one of the countless treasures aboard the ship was the Jade of{RUBY#[D]Ometeotl} Return, and that locating it would quell this Abyss-tainted ancient city."
+                                },
+                                {
+                                    "id": "750481624",
+                                    "speaker": "Bona",
+                                    "text": "At that time, we'd just witnessed the nightmare of the Abyss. So if we could find the Jade and suppress the contamination here in the city, our tribe would no longer have to live in fear."
+                                },
+                                {
+                                    "id": "750481625",
+                                    "speaker": "Bona",
+                                    "text": "My old man set off on a journey for that purpose... but he never returned. All that remains is this Pyrophosphorite chunk, which he found in the ruins.",
+                                    "choices": [
+                                        {
+                                            "id": "750481626",
+                                            "text": "I'm sorry for your loss...",
+                                            "response": [
+                                                {
+                                                    "id": "750481627",
+                                                    "speaker": "Bona",
+                                                    "text": "Don't be. I've actually never met him. I heard all this from a woman who adventured alongside him."
+                                                },
+                                                {
+                                                    "id": "750481630",
+                                                    "speaker": "Bona",
+                                                    "text": "The inscriptions on a monument in the ruins say that the winds of the distant past will guide the way to the Tonatiuh once Pyrophosphorite is placed on the Altar of Primal Flame within the ancient city."
+                                                },
+                                                {
+                                                    "id": "750481631",
+                                                    "speaker": "Bona",
+                                                    "text": "But the city became a forbidden place for the tribe after that woman returned alone, the sole survivor from my old man's squad."
+                                                },
+                                                {
+                                                    "id": "750481632",
+                                                    "speaker": "Paimon",
+                                                    "text": "Paimon didn't know that the Jade of Return was so important. Guess we aren't pawning it off for Mora now..."
+                                                },
+                                                {
+                                                    "id": "750481633",
+                                                    "speaker": "Paimon",
+                                                    "text": "But we can remove the Abyss threat against your tribe if we can find it, and that would be amazing, too!"
+                                                },
+                                                {
+                                                    "id": "750481634",
+                                                    "speaker": "Paimon",
+                                                    "text": "We just have to locate this Altar, right? Bona, you must know where it is, don't you?"
+                                                },
+                                                {
+                                                    "id": "750481635",
+                                                    "speaker": "Bona",
+                                                    "text": "Well, I don't know either... I only snuck in here recently, and only because I was looking for clues concerning the Altar of Primal Flame."
+                                                },
+                                                {
+                                                    "id": "750481636",
+                                                    "speaker": "Bona",
+                                                    "text": "I encountered lots of unexpected dangers, but things started looking up after I met Coco."
+                                                },
+                                                {
+                                                    "id": "750481637",
+                                                    "speaker": "Cocouik",
+                                                    "text": "Chee!"
+                                                },
+                                                {
+                                                    "id": "750481638",
+                                                    "speaker": "Bona",
+                                                    "text": "The evil dragon was the only problem at that point! I was planning on sneaking in while it was out, but it got me good, ha!"
+                                                },
+                                                {
+                                                    "id": "750481639",
+                                                    "speaker": "Bona",
+                                                    "text": "But it's gone now, thanks to you, and I got my Pyrophosphorite back. Now, I can go seek the Altar of Primal Flame.",
+                                                    "choices": [
+                                                        {
+                                                            "id": "750481640",
+                                                            "text": "Must you find the Jade of Return?",
+                                                            "response": [
+                                                                {
+                                                                    "id": "750481641",
+                                                                    "speaker": "Bona",
+                                                                    "text": "Yes, I have to. I became an adventurer because I wanted to find it."
+                                                                },
+                                                                {
+                                                                    "id": "750481644",
+                                                                    "speaker": "Bona",
+                                                                    "text": "As long as we follow Coco's directions, we should be able to find it and access the Tonatiuh up in the air together..."
+                                                                },
+                                                                {
+                                                                    "id": "750481645",
+                                                                    "speaker": "Bona",
+                                                                    "text": "I can't split the Jade of Return with you for sale, but there must surely be other treasures up there to be claimed as an adventurer's reward!"
+                                                                },
+                                                                {
+                                                                    "id": "750481646",
+                                                                    "speaker": "Bona",
+                                                                    "text": "Look, even Coco's light points to somewhere higher up!"
+                                                                },
+                                                                {
+                                                                    "id": "750481647",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "Well, this sure doesn't sound like a guaranteed score, but it's not like we can do anything other than trust you, eh?"
+                                                                },
+                                                                {
+                                                                    "id": "750481648",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "And if we do reach the Tonatiuh, we can help everyone AND make a huge profit. Talk about a win-win!"
+                                                                },
+                                                                {
+                                                                    "id": "750481649",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "#How about it, {NICKNAME}? Let's go with Bona, shall we?"
+                                                                },
+                                                                {
+                                                                    "id": "750481650",
+                                                                    "speaker": "Bona",
+                                                                    "text": "Hehe, really? That's great to hear! I knew you'd agree to help! With you around, I'm sure I'll be able to fulfill my father's last wish."
+                                                                },
+                                                                {
+                                                                    "id": "750481651",
+                                                                    "speaker": "#{REALNAME[ID(2)|SHOWHOST(true)]}",
+                                                                    "text": "Rawr!"
+                                                                },
+                                                                {
+                                                                    "id": "750481652",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "#{REALNAME[ID(2)|SHOWHOST(true)]} concurs! It's settled, then. Let's get going before the dragon comes back!"
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "id": "750481642",
+                                                            "text": "You don't want us to go with you?",
+                                                            "response": [
+                                                                {
+                                                                    "id": "750481643",
+                                                                    "speaker": "Bona",
+                                                                    "text": "No way! I was just about to ask, actually!"
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "750481628",
+                                            "text": "Did the evil dragon...",
+                                            "response": [
+                                                {
+                                                    "id": "750481629",
+                                                    "speaker": "Bona",
+                                                    "text": "Who knows? I've actually never met him. I heard all this from a woman who adventured alongside him."
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "750481606",
+                            "text": "The golden pattern..."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "7504861",
+            "objective": "Shoot the evil dragon down with the Super Awesomesauce Laser",
+            "dialogues": []
+        }
+    ]
+}

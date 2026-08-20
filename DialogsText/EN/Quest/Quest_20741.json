@@ -1,0 +1,157 @@
+{
+    "quest": {
+        "id": "20741",
+        "title": "Mondstadt and its Archon",
+        "description": "Now that Mondstadt has been spared from disaster, Sister Grace would like to offer her thanks to the Anemo Archon for its protection of the city.",
+        "rewards": [
+            {
+                "itemId": 102,
+                "count": 100
+            },
+            {
+                "itemId": 202,
+                "count": 16000
+            },
+            {
+                "itemId": 104003,
+                "count": 5
+            },
+            {
+                "itemId": 100057,
+                "count": 5
+            }
+        ],
+        "rewards_formatted": "Adventure EXP x100, Mora x16000, Hero's Wit x5, Dandelion Seed x5",
+        "chapter": {
+            "icon": "",
+            "id": "",
+            "num": "",
+            "title": ""
+        },
+        "total_dialogue_lines": 16,
+        "total_speaker_counts": {
+            "Grace": 11,
+            "Paimon": 2,
+            "Player": 3
+        }
+    },
+    "talks": [
+        {
+            "id": "2074101",
+            "objective": "Talk to Grace",
+            "dialogues": []
+        },
+        {
+            "id": "2074102",
+            "objective": "Give a Dandelion to Grace",
+            "dialogues": []
+        },
+        {
+            "id": "2074103",
+            "objective": "Give the Dandelion Seeds to Grace",
+            "dialogues": [
+                {
+                    "id": "207411001",
+                    "speaker": "Grace",
+                    "text": "Have you gathered the Dandelion Seeds?"
+                },
+                {
+                    "id": "207411002",
+                    "speaker": "Player",
+                    "text": "Have them right here."
+                },
+                {
+                    "id": "207411003",
+                    "speaker": "Grace",
+                    "text": "These should be enough. Please wait here for a moment..."
+                },
+                {
+                    "id": "207411004",
+                    "speaker": "Grace",
+                    "text": "...Lord Barbatos, please hear me..."
+                },
+                {
+                    "id": "207411005",
+                    "speaker": "Paimon",
+                    "text": "Wow, she's so... devout. So... many words..."
+                },
+                {
+                    "id": "207411006",
+                    "speaker": "Paimon",
+                    "text": "Who knows if that Tone-Deaf Bard is listening..."
+                },
+                {
+                    "id": "207411007",
+                    "speaker": "Grace",
+                    "text": "Alright. Please take these dandelions seeds. Help me go up and scatter them."
+                },
+                {
+                    "id": "207411008",
+                    "speaker": "Grace",
+                    "text": "I should really do this myself, but with my physical abilities... I would probably have a hard time getting back down, even if I could climb up there."
+                },
+                {
+                    "id": "207411009",
+                    "speaker": "Grace",
+                    "text": "So I'm counting on you."
+                }
+            ]
+        },
+        {
+            "id": "2074104",
+            "objective": "Climb to the Anemo Archon statue's hand and scatter the Dandelion Seeds",
+            "dialogues": []
+        },
+        {
+            "id": "2074105",
+            "objective": "Talk to Grace",
+            "dialogues": [
+                {
+                    "id": "207412001",
+                    "speaker": "Grace",
+                    "text": "Have you scattered the Dandelion Seeds?",
+                    "choices": [
+                        {
+                            "id": "207412002",
+                            "text": "I've done just that.",
+                            "response": [
+                                {
+                                    "id": "207412005",
+                                    "speaker": "Grace",
+                                    "text": "Regardless, I do hope that Lord Barbatos will be able to hear my voice."
+                                },
+                                {
+                                    "id": "207412006",
+                                    "speaker": "Grace",
+                                    "text": "Thank you for your willingness to help. Please take this for your troubles — and may the Anemo Archon protect you."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "207412003",
+                            "text": "The wind will carry them far abroad.",
+                            "response": [
+                                {
+                                    "id": "207412004",
+                                    "speaker": "Grace",
+                                    "text": "That's wonderful. It should be easy for Lord Barbatos to notice."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "2074190",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "207419001",
+                    "speaker": "Grace",
+                    "text": "Lord Barbatos, I hope that you can hear me..."
+                }
+            ]
+        }
+    ]
+}

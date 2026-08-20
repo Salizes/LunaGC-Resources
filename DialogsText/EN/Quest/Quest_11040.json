@@ -1,0 +1,597 @@
+{
+    "quest": {
+        "id": "11040",
+        "title": "The Rumored Alchemist",
+        "description": "You arrive at Timaeus' alchemy store in Mondstadt one day to stock up on adventuring supplies. But here, you encounter someone altogether unexpected...",
+        "rewards": [
+            {
+                "itemId": 102,
+                "count": 275
+            },
+            {
+                "itemId": 202,
+                "count": 17050
+            },
+            {
+                "itemId": 104002,
+                "count": 8
+            },
+            {
+                "itemId": 104013,
+                "count": 4
+            }
+        ],
+        "rewards_formatted": "Adventure EXP x275, Mora x17050, Adventurer's Experience x8, Mystic Enhancement Ore x4",
+        "chapter": {
+            "icon": "UI_ChapterIcon_Albedo",
+            "id": "2017",
+            "num": "Princeps Cretaceus Chapter: Act I",
+            "title": "Traveler Observation Report"
+        },
+        "total_dialogue_lines": 99,
+        "total_speaker_counts": {
+            "???": 3,
+            "Barbara": 6,
+            "Paimon": 22,
+            "Player": 19,
+            "Rosaria": 21,
+            "Sucrose": 28
+        }
+    },
+    "talks": [
+        {
+            "id": "1104001",
+            "objective": "Go to Mondstadt's alchemy store",
+            "dialogues": []
+        },
+        {
+            "id": "1104002",
+            "objective": "Speak to the young lady at the store",
+            "dialogues": [
+                {
+                    "id": "110400201",
+                    "speaker": "Paimon",
+                    "text": "Huh, looks like Timaeus isn't here today..."
+                },
+                {
+                    "id": "110400202",
+                    "speaker": "???",
+                    "text": "(Customers!?)"
+                },
+                {
+                    "id": "110400203",
+                    "speaker": "???",
+                    "text": "Oh! Um... Pardon me, are you looking for Timaeus?"
+                },
+                {
+                    "id": "110400204",
+                    "speaker": "Paimon",
+                    "text": "No no! Just strange for him to not be around. Paimon always sees him standing here."
+                },
+                {
+                    "id": "110400205",
+                    "speaker": "???",
+                    "text": "I see. He was called away by Albedo a little while ago. I was called over to attend to the store."
+                },
+                {
+                    "id": "110400206",
+                    "speaker": "Sucrose",
+                    "text": "I'm Sucrose, Albedo's assistant. If you have any alchemy-related queries, you could always ask me. I'd... do my best to help.",
+                    "choices": [
+                        {
+                            "id": "110400207",
+                            "text": "Again, with confidence.",
+                            "response": [
+                                {
+                                    "id": "110400208",
+                                    "speaker": "Sucrose",
+                                    "text": "I... Actually, I'm not very good at this kind of thing."
+                                },
+                                {
+                                    "id": "110400211",
+                                    "speaker": "Sucrose",
+                                    "text": "M—My apologies, I don't get out too often. I'm usually in the laboratory, where there aren't many others to talk to."
+                                },
+                                {
+                                    "id": "110400212",
+                                    "speaker": "Sucrose",
+                                    "text": "If you need any help, just call my name. If not, I'll... I'll be reading a book — over there. Mm."
+                                },
+                                {
+                                    "id": "110400213",
+                                    "speaker": "Paimon",
+                                    "text": "#Mm-hmm, thanks! No worries, we're all clued up on the basics of alchemy, aren't we, {NICKNAME}?",
+                                    "choices": [
+                                        {
+                                            "id": "110400214",
+                                            "text": "Mm-hmm, no need to trouble you.",
+                                            "response": [
+                                                {
+                                                    "id": "110400216",
+                                                    "speaker": "Sucrose",
+                                                    "text": "#{NICKNAME}... Hey, aren't you the legendary Traveler? The one who repelled Stormterror?",
+                                                    "choices": [
+                                                        {
+                                                            "id": "110400217",
+                                                            "text": "\"Legendary\" is a bit much.",
+                                                            "response": [
+                                                                {
+                                                                    "id": "110400220",
+                                                                    "speaker": "Sucrose",
+                                                                    "text": "I've heard so many stories about you! Always wanted an opportunity to research you up close!"
+                                                                },
+                                                                {
+                                                                    "id": "110400221",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "Uhh, what do you mean, \"research\"!?"
+                                                                },
+                                                                {
+                                                                    "id": "110400222",
+                                                                    "speaker": "Sucrose",
+                                                                    "text": "Ah! Sorry, don't mind me, what am I saying..."
+                                                                },
+                                                                {
+                                                                    "id": "110400223",
+                                                                    "speaker": "Sucrose",
+                                                                    "text": "Still, you'd definitely be able to help Albedo. It is you after all."
+                                                                },
+                                                                {
+                                                                    "id": "110400224",
+                                                                    "speaker": "Paimon",
+                                                                    "text": "There's that name again! \"Albedo.\" Is he also an alchemist in Mondstadt?",
+                                                                    "choices": [
+                                                                        {
+                                                                            "id": "110400225",
+                                                                            "text": "Not a name I'm familiar with.",
+                                                                            "response": [
+                                                                                {
+                                                                                    "id": "110400227",
+                                                                                    "speaker": "Sucrose",
+                                                                                    "text": "Apologies, I never introduced him. Albedo is the Knights of Favonius' Chief Alchemist. He's also Timaeus' and my teacher."
+                                                                                },
+                                                                                {
+                                                                                    "id": "110400228",
+                                                                                    "speaker": "Paimon",
+                                                                                    "text": "But Paimon's only ever seen Timaeus teaching alchemy. So that means... Albedo is a teacher-teacher?"
+                                                                                },
+                                                                                {
+                                                                                    "id": "110400229",
+                                                                                    "speaker": "Sucrose",
+                                                                                    "text": "Yes, he's dedicated himself to investigating the truth of this world, and has made many an important breakthrough."
+                                                                                },
+                                                                                {
+                                                                                    "id": "110400230",
+                                                                                    "speaker": "Sucrose",
+                                                                                    "text": "We often get alchemists coming to Mondstadt from all over Teyvat, seeking his help. They say that the subtlest of guidance from Mr. Albedo helps them to solve the most unfathomable of problems."
+                                                                                },
+                                                                                {
+                                                                                    "id": "110400231",
+                                                                                    "speaker": "Paimon",
+                                                                                    "text": "Wow, Paimon didn't know he was such a big deal!"
+                                                                                },
+                                                                                {
+                                                                                    "id": "110400232",
+                                                                                    "speaker": "Sucrose",
+                                                                                    "text": "Mm-hmm. Still, it seems that he's encountered a problem in his research recently. Every time I see him, he has a concerned look on his face.",
+                                                                                    "choices": [
+                                                                                        {
+                                                                                            "id": "110400233",
+                                                                                            "text": "I'm not sure someone as smart as him could use my help.",
+                                                                                            "response": [
+                                                                                                {
+                                                                                                    "id": "110400235",
+                                                                                                    "speaker": "Sucrose",
+                                                                                                    "text": "I'm sure that Albedo would love to hear about your incredible exploits. I know it would bring him lots of new inspiration."
+                                                                                                },
+                                                                                                {
+                                                                                                    "id": "110400236",
+                                                                                                    "speaker": "Sucrose",
+                                                                                                    "text": "Albedo is a true gentleman. He'll be sure to pay you back in equal measure for helping him out.",
+                                                                                                    "choices": [
+                                                                                                        {
+                                                                                                            "id": "110400237",
+                                                                                                            "text": "Can he make me stronger?",
+                                                                                                            "response": [
+                                                                                                                {
+                                                                                                                    "id": "110400238",
+                                                                                                                    "speaker": "Sucrose",
+                                                                                                                    "text": "I don't see why not. Testing the limits of living beings' capabilities is one of Albedo's areas of research after all."
+                                                                                                                },
+                                                                                                                {
+                                                                                                                    "id": "110400241",
+                                                                                                                    "speaker": "Sucrose",
+                                                                                                                    "text": "Albedo and Timaeus will be conducting research in the mountains right now. I'd love to take you both to see him, but somebody has to attend to the store."
+                                                                                                                },
+                                                                                                                {
+                                                                                                                    "id": "110400242",
+                                                                                                                    "speaker": "Sucrose",
+                                                                                                                    "text": "I'm afraid you'll have to go to the entrance to the pass and look for him by yourselves. Look out for a refined gentleman with the presence of a true scholar, and... umm..."
+                                                                                                                },
+                                                                                                                {
+                                                                                                                    "id": "110400243",
+                                                                                                                    "speaker": "Sucrose",
+                                                                                                                    "text": "...Sorry, that's the best I can do. You'll have to do your best."
+                                                                                                                },
+                                                                                                                {
+                                                                                                                    "id": "110400244",
+                                                                                                                    "speaker": "Paimon",
+                                                                                                                    "text": "Hey, stop worrying! We got this!"
+                                                                                                                }
+                                                                                                            ]
+                                                                                                        },
+                                                                                                        {
+                                                                                                            "id": "110400239",
+                                                                                                            "text": "Can he make Paimon stronger?",
+                                                                                                            "response": [
+                                                                                                                {
+                                                                                                                    "id": "110400240",
+                                                                                                                    "speaker": "Paimon",
+                                                                                                                    "text": "Uhh, Paimon doesn't need any help in that department. But if Albedo wants to pay Paimon back for helping him, a few Mora might settle the score. Tee-hee!"
+                                                                                                                }
+                                                                                                            ]
+                                                                                                        }
+                                                                                                    ]
+                                                                                                }
+                                                                                            ]
+                                                                                        },
+                                                                                        {
+                                                                                            "id": "110400234",
+                                                                                            "text": "My knowledge of alchemy stops at basic crafting."
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        {
+                                                                            "id": "110400226",
+                                                                            "text": "Think I might have heard of him."
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "id": "110400218",
+                                                            "text": "And I don't even charge for autographs.",
+                                                            "response": [
+                                                                {
+                                                                    "id": "110400219",
+                                                                    "speaker": "Sucrose",
+                                                                    "text": "Ah! Thank you!"
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "110400215",
+                                            "text": "I... might need a refresher."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "110400209",
+                            "text": "No need to be nervous.",
+                            "response": [
+                                {
+                                    "id": "110400210",
+                                    "speaker": "Sucrose",
+                                    "text": "Huh? D—Do I look nervous?"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "1104003",
+            "objective": "Head to the entrance of Dragonspine",
+            "dialogues": [
+                {
+                    "id": "110400301",
+                    "speaker": "Sucrose",
+                    "text": "My apologies, I don't really know how else to describe him..."
+                },
+                {
+                    "id": "110400302",
+                    "speaker": "Sucrose",
+                    "text": "If I could sketch you his portrait I would, but my pencil strokes are no match for his."
+                }
+            ]
+        },
+        {
+            "id": "1104004",
+            "objective": "Get close to the two people talking",
+            "dialogues": [
+                {
+                    "id": "110400401",
+                    "speaker": "Barbara",
+                    "text": "S—Sister Rosaria, so here you are! Choir practice is about to—"
+                },
+                {
+                    "id": "110400402",
+                    "speaker": "Rosaria",
+                    "text": "I've told you already, I don't go in for that kind of thing. I've got more important matters to attend to."
+                },
+                {
+                    "id": "110400403",
+                    "speaker": "Barbara",
+                    "text": "But... this event has commemorative significance. The church hopes that all sisters will be present..."
+                },
+                {
+                    "id": "110400404",
+                    "speaker": "Rosaria",
+                    "text": "\"Hopes\"!? That's odd, 'cause I don't recall a \"fulfill the hopes of others\" clause in my job description."
+                },
+                {
+                    "id": "110400405",
+                    "speaker": "Barbara",
+                    "text": "I— I mean sure, but..."
+                },
+                {
+                    "id": "110400406",
+                    "speaker": "Rosaria",
+                    "text": "But what? You're the event organizer, aren't you? Do you not find it the least bit odd...?"
+                },
+                {
+                    "id": "110400407",
+                    "speaker": "Barbara",
+                    "text": "Wh—What do you mean?"
+                },
+                {
+                    "id": "110400408",
+                    "speaker": "Rosaria",
+                    "text": "This far out from Mondstadt, at this hour? Even if you set out right now, I'll wager you'd still miss the opening ceremony."
+                },
+                {
+                    "id": "110400409",
+                    "speaker": "Rosaria",
+                    "text": "Who knows? Maybe this is someone's grand plan to make a fool out of you."
+                },
+                {
+                    "id": "110400410",
+                    "speaker": "Barbara",
+                    "text": "Huh!? Th—That can't be! People aren't like that!"
+                },
+                {
+                    "id": "110400411",
+                    "speaker": "Rosaria",
+                    "text": "Hah! Evidence decides what people are like, not your feelings. *sigh* Maybe you're a little too trusting of other people."
+                },
+                {
+                    "id": "110400412",
+                    "speaker": "Rosaria",
+                    "text": "Don't fret, nobody's gonna blame you if you go back empty-handed. I can't imagine anyone else was delusional enough to think I was gonna show up."
+                },
+                {
+                    "id": "110400413",
+                    "speaker": "Rosaria",
+                    "text": "But if you dally any longer, you really won't make it."
+                },
+                {
+                    "id": "110400414",
+                    "speaker": "Barbara",
+                    "text": "...You're right! It's a very important commemorative event. If I'm late, then... R—Right, I've got to get going!"
+                },
+                {
+                    "id": "110400415",
+                    "speaker": "Paimon",
+                    "text": "Hmm, seems like that sister's an expert in making people believe anything she wants."
+                },
+                {
+                    "id": "110400416",
+                    "speaker": "Rosaria",
+                    "text": "I thought I heard something — who are you, and why are you eavesdropping?"
+                },
+                {
+                    "id": "110400417",
+                    "speaker": "Paimon",
+                    "text": "We'd better watch out! She seems like a dangerous villain... Or a trickster at best."
+                },
+                {
+                    "id": "110400418",
+                    "speaker": "Rosaria",
+                    "text": "Oh really? I'm a member of the long-standing Favonius Church. You're an eavesdropping pixie from who knows where, and you think I'M the trickster?"
+                },
+                {
+                    "id": "110400419",
+                    "speaker": "Paimon",
+                    "text": "Wait, she heard that!? But Paimon was whispering so quietly..."
+                },
+                {
+                    "id": "110400420",
+                    "speaker": "Rosaria",
+                    "text": "And as for this outlander you seem to be following... Huh — so it's you."
+                },
+                {
+                    "id": "110400421",
+                    "speaker": "Rosaria",
+                    "text": "The Honorary Knight that saved us from Stormterror. Well, then, given your status, I won't press you on your reasons for eavesdropping."
+                },
+                {
+                    "id": "110400422",
+                    "speaker": "Rosaria",
+                    "text": "Otherwise, depending on your answer, I could've arrested you on the spot."
+                },
+                {
+                    "id": "110400423",
+                    "speaker": "Paimon",
+                    "text": "What!? Do the sisters of Mondstadt have the authority to arrest people now?"
+                },
+                {
+                    "id": "110400424",
+                    "speaker": "Rosaria",
+                    "text": "We can't go turning a blind eye to hidden dangers can we? Why shouldn't Sisters have a sense of justice?"
+                },
+                {
+                    "id": "110400425",
+                    "speaker": "Paimon",
+                    "text": "Hmph, that doesn't sound right. But Paimon can't think of a good comeback..."
+                },
+                {
+                    "id": "110400426",
+                    "speaker": "Rosaria",
+                    "text": "Let's talk about you. What are you doing in the mountains?",
+                    "choices": [
+                        {
+                            "id": "110400427",
+                            "text": "We're looking for Albedo.",
+                            "response": [
+                                {
+                                    "id": "110400431",
+                                    "speaker": "Rosaria",
+                                    "text": "If it's him you're after, I made a point of noting his tracks."
+                                },
+                                {
+                                    "id": "110400432",
+                                    "speaker": "Rosaria",
+                                    "text": "Many people have made their way up after the snowstorm. Let's hope they're still there."
+                                },
+                                {
+                                    "id": "110400433",
+                                    "speaker": "Paimon",
+                                    "text": "So... are you also looking for him?"
+                                },
+                                {
+                                    "id": "110400434",
+                                    "speaker": "Rosaria",
+                                    "text": "No, this is just a professional habit of mine. I sensed elemental traces in these tracks. Never hurts to be vigilant.",
+                                    "choices": [
+                                        {
+                                            "id": "110400435",
+                                            "text": "As far as sisters go, you're fairly mysterious.",
+                                            "response": [
+                                                {
+                                                    "id": "110400437",
+                                                    "speaker": "Rosaria",
+                                                    "text": "I couldn't care what you think. Come on then, I'd like to see what he's up to anyway."
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "110400436",
+                                            "text": "You're more like a detective."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "110400428",
+                            "text": "We're investigating the truth of this world.",
+                            "response": [
+                                {
+                                    "id": "110400429",
+                                    "speaker": "Rosaria",
+                                    "text": "But you're only a traveler, I doubt you have any great skill in alchemy."
+                                },
+                                {
+                                    "id": "110400430",
+                                    "speaker": "Rosaria",
+                                    "text": "Whatever, I had a notion of who you were seeking."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "1104003",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "110400311",
+                    "speaker": "Paimon",
+                    "text": "Sucrose is a whole lot less nervous once she gets talking about alchemy and research, huh. Is that what all researchers are like?"
+                },
+                {
+                    "id": "110400312",
+                    "speaker": "Paimon",
+                    "text": "Anyway, let's go and look for Albedo."
+                },
+                {
+                    "id": "110400313",
+                    "speaker": "Paimon",
+                    "text": "Rosaria said there were elemental traces in the tracks. They should show up pretty clearly with Elemental Sight!"
+                }
+            ]
+        },
+        {
+            "id": "1104005",
+            "objective": "Additional",
+            "dialogues": [
+                {
+                    "id": "110400501",
+                    "speaker": "Paimon",
+                    "text": "Huh? Looks like Timaeus isn't here today..."
+                },
+                {
+                    "id": "110400502",
+                    "speaker": "Sucrose",
+                    "text": "(Hm? Wait, are these two...)"
+                },
+                {
+                    "id": "110400503",
+                    "speaker": "Sucrose",
+                    "text": "#Oh! Um... Hello, {NICKNAME} and Paimon. Pardon me, are you looking for Timaeus?"
+                },
+                {
+                    "id": "110400504",
+                    "speaker": "Paimon",
+                    "text": "No no! Just strange for him to not be around. Paimon always sees him standing here."
+                },
+                {
+                    "id": "110400505",
+                    "speaker": "Sucrose",
+                    "text": "I see. He was called away by Albedo a little while ago. I was called over to attend to the store."
+                },
+                {
+                    "id": "110400506",
+                    "speaker": "Sucrose",
+                    "text": "If you need any help, just call my name. If not, I'll... I'll be reading a book — over there."
+                },
+                {
+                    "id": "110400507",
+                    "speaker": "Paimon",
+                    "text": "#Mm-hmm, thanks! No worries, we're all clued up on the basics of alchemy, aren't we, {NICKNAME}?"
+                },
+                {
+                    "id": "110400508",
+                    "speaker": "Player",
+                    "text": "Mm-hmm, no need to trouble you."
+                },
+                {
+                    "id": "110400509",
+                    "speaker": "Sucrose",
+                    "text": "I guess it's no surprise coming from the one who repelled Stormterror..."
+                },
+                {
+                    "id": "110400510",
+                    "speaker": "Sucrose",
+                    "text": "Actually, since it's you... I bet you're someone who'd be able to help Albedo."
+                },
+                {
+                    "id": "110400511",
+                    "speaker": "Paimon",
+                    "text": "There's that name again: \"Albedo.\" You and Timaeus mentioned him the last time we met, right? Is he also an alchemist in Mondstadt?",
+                    "choices": [
+                        {
+                            "id": "110400225",
+                            "text": "Not a name I'm familiar with."
+                        },
+                        {
+                            "id": "110400226",
+                            "text": "Think I might have heard of him."
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

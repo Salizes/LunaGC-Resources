@@ -1,0 +1,775 @@
+{
+    "quest": {
+        "id": "72232",
+        "title": "Clean House",
+        "description": "The Sangonomiya shrine maiden Shizuru has an emergency commission that only you can complete...",
+        "rewards": [
+            {
+                "itemId": 102,
+                "count": 200
+            },
+            {
+                "itemId": 201,
+                "count": 30
+            },
+            {
+                "itemId": 104003,
+                "count": 2
+            },
+            {
+                "itemId": 202,
+                "count": 20000
+            }
+        ],
+        "rewards_formatted": "Adventure EXP x200, Primogem x30, Hero's Wit x2, Mora x20000",
+        "chapter": {
+            "icon": "",
+            "id": "",
+            "num": "",
+            "title": ""
+        },
+        "total_dialogue_lines": 136,
+        "total_speaker_counts": {
+            "???": 4,
+            "Borenka": 15,
+            "Borenka's \"Orders\"": 3,
+            "Brutish Samurai": 17,
+            "Neat Note": 7,
+            "Player": 20,
+            "Shizuru": 70
+        }
+    },
+    "talks": [
+        {
+            "id": "7223201",
+            "objective": "",
+            "dialogues": [
+                {
+                    "id": "722320101",
+                    "speaker": "Shizuru",
+                    "text": "#Greetings, {NICKNAME}. Would you perhaps be at leisure to discuss a few matters?"
+                },
+                {
+                    "id": "722320102",
+                    "speaker": "Shizuru",
+                    "text": "I don't mean to disturb you, but this matter is quite important. Her Excellency the Divine Priestess specifically said that you must be sought out for this task.",
+                    "choices": [
+                        {
+                            "id": "722320103",
+                            "text": "Well, I suppose I am the Captain of Swordfish II...",
+                            "response": [
+                                {
+                                    "id": "722320104",
+                                    "speaker": "Shizuru",
+                                    "text": "That is the case, yes. I have total faith, therefore, that you are capable of accomplishing this mission as well."
+                                },
+                                {
+                                    "id": "722320106",
+                                    "speaker": "Shizuru",
+                                    "text": "Thanks to your aid, we were able to turn what was a disadvantageous battle with the Shogunate around. As things stand, we should generally trend towards a lasting peace for now."
+                                },
+                                {
+                                    "id": "722320107",
+                                    "speaker": "Shizuru",
+                                    "text": "We won back the peace, saw the Vision Hunt Decree abolished, and the Commissions that exploited us have been knocked off their perches. Our Omikami's bones have now found rest as well... This is all thanks to you. Please, allow me to thank you once again on that account..."
+                                },
+                                {
+                                    "id": "722320108",
+                                    "speaker": "Shizuru",
+                                    "text": "And yet, the remaining Fatui have not given up their surveys on Yashiori Island. This, even though they lost one Harbinger in the conflict, and the other has gone missing..."
+                                },
+                                {
+                                    "id": "722320109",
+                                    "speaker": "Player",
+                                    "text": "So they're still at it, huh..."
+                                },
+                                {
+                                    "id": "722320110",
+                                    "speaker": "Shizuru",
+                                    "text": "Watatsumi Island has been under an information blackout for a long time, and you can say that this and the war at large was how we came into contact with them. An awful way to make first contact, if you ask me..."
+                                },
+                                {
+                                    "id": "722320111",
+                                    "speaker": "Shizuru",
+                                    "text": "It seems that they had intended to drag this war out as long as possible while fanning the flames of vengeance amongst the people on both sides, thus increasing the intensity of the war... Between them and the Shogun's Army, I'd say that they are the more dangerous foe by far."
+                                },
+                                {
+                                    "id": "722320112",
+                                    "speaker": "Shizuru",
+                                    "text": "If the war had dragged on, it would have resulted in even more serious economic hardship and social unrest. I imagine that would have given the Fatui even greater openings to increase their influence."
+                                },
+                                {
+                                    "id": "722320113",
+                                    "speaker": "Shizuru",
+                                    "text": "Thankfully, Her Excellency the Divine Priestess discovered their plot in time, and with the valiant support of yourself and many other warriors, we were able to thwart that plot."
+                                },
+                                {
+                                    "id": "722320114",
+                                    "speaker": "Player",
+                                    "text": "What do you need me to do?"
+                                },
+                                {
+                                    "id": "722320115",
+                                    "speaker": "Shizuru",
+                                    "text": "According to our intel, there are some Shogunate forces remaining on Yashiori Island who were heavily infiltrated by the Fatui. They're currently gathering information and plotting something, though we don't know what exactly."
+                                },
+                                {
+                                    "id": "722320116",
+                                    "speaker": "Shizuru",
+                                    "text": "We originally didn't intend to ask you to do this, but the Divine Priestess believes you to be the safest choice for personnel when it comes to solving this matter... So please, come with me to the final resting place of our Omikami and help me search for those people."
+                                },
+                                {
+                                    "id": "722320117",
+                                    "speaker": "Shizuru",
+                                    "text": "However, let me first attempt to dissuade them with words. If they still attempt to stir up trouble and will not repent of their actions, then you shall have to speak with your sword."
+                                },
+                                {
+                                    "id": "722320118",
+                                    "speaker": "Player",
+                                    "text": "That simple?"
+                                },
+                                {
+                                    "id": "722320119",
+                                    "speaker": "Shizuru",
+                                    "text": "Oh, you find it simple? ...I suppose I should have expected that much of you. Perhaps it shall be a simple matter for you after all."
+                                },
+                                {
+                                    "id": "722320120",
+                                    "speaker": "Shizuru",
+                                    "text": "The only issue, however, is that... Well, you might be a little too famous. Our foes might recognize you on sight. But we don't have a lot of time to prepare any contingencies, either..."
+                                },
+                                {
+                                    "id": "722320121",
+                                    "speaker": "Player",
+                                    "text": "I have this."
+                                },
+                                {
+                                    "id": "722320122",
+                                    "speaker": "Shizuru",
+                                    "text": "What pedestrian camouflage!"
+                                },
+                                {
+                                    "id": "722320123",
+                                    "speaker": "Shizuru",
+                                    "text": "#...I say that, but for some reason, I almost didn't recognize you either. It really has a very different... feel? Compared to what one would expect from {NICKNAME}, Captain of Swordfish II, I mean!"
+                                },
+                                {
+                                    "id": "722320124",
+                                    "speaker": "Shizuru",
+                                    "text": "Well then, let's do this. Tell me once you're ready, and we'll set out."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "722320105",
+                            "text": "Well, what's the matter, then?"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "7223202",
+            "objective": "Go to Jakotsu Mine to negotiate with the Shogunate Samurai",
+            "dialogues": [
+                {
+                    "id": "722320201",
+                    "speaker": "Brutish Samurai",
+                    "text": "Halt, commoners. This land is under Shogunate jurisdiction. Uninvolved personnel should leave immediately!"
+                },
+                {
+                    "id": "722320202",
+                    "speaker": "Shizuru",
+                    "text": "Commoners? ...I am Shizuru, a special envoy of Sangonomiya, and I am here to survey the state of our Great Omikami's final resting place. Did your superiors not inform you of my arrival?"
+                },
+                {
+                    "id": "722320203",
+                    "speaker": "Brutish Samurai",
+                    "text": "Sangonomiya's people...? I've never heard of any such announcement. Please leave immediately!"
+                },
+                {
+                    "id": "722320204",
+                    "speaker": "Shizuru",
+                    "text": "Hmm, I believe this to contravene our previous ceasefire agreement, Sir Samurai. Please report your name, such that I may report your lack of courtesy to your superiors."
+                },
+                {
+                    "id": "722320205",
+                    "speaker": "Brutish Samurai",
+                    "text": "My apologies, but I doubt that will be necessary, lady from Sangonomiya."
+                },
+                {
+                    "id": "722320206",
+                    "speaker": "Brutish Samurai",
+                    "text": "I'm warning you again. Don't come any closer to the cavern. If you continue provoking us..."
+                },
+                {
+                    "id": "722320207",
+                    "speaker": "Brutish Samurai",
+                    "text": "Hah, I doubt the crime of breaking the ceasefire is one that may be borne by an ordinary person."
+                },
+                {
+                    "id": "722320208",
+                    "speaker": "Shizuru",
+                    "text": "Indeed, the crime of breaking the ceasefire is not one that ordinary people can bear... And that is why I hope that you will cease blaspheming a god's divine form and leave our Omikami to his martyred rest in an orderly and safe manner."
+                },
+                {
+                    "id": "722320209",
+                    "speaker": "Brutish Samurai",
+                    "text": "Hah! \"Divine form\"!? \"Martyred rest\"!? Pfft!"
+                },
+                {
+                    "id": "722320210",
+                    "speaker": "Shizuru",
+                    "text": "That's right. We've given you ample time to leave this place in an organized fashion."
+                },
+                {
+                    "id": "722320211",
+                    "speaker": "Brutish Samurai",
+                    "text": "Hah, you Watatsumi folk sure know how to tell a joke."
+                },
+                {
+                    "id": "722320212",
+                    "speaker": "Brutish Samurai",
+                    "text": "Is this why you fought? For a dead god? Please! Your Great Serpent has long become shiny rocks in a cave for us to forge into swords!"
+                },
+                {
+                    "id": "722320213",
+                    "speaker": "Brutish Samurai",
+                    "text": "You bowed down to that Great Serpent in the past, and now you bow down to the swords forged from its bones. Pretty similar fates, don't you think?"
+                },
+                {
+                    "id": "722320214",
+                    "speaker": "Shizuru",
+                    "text": "Do watch your words, samurai."
+                },
+                {
+                    "id": "722320215",
+                    "speaker": "Brutish Samurai",
+                    "text": "You didn't want to submit to the Shogun, and we allowed you to make that choice, didn't we? Wouldn't it have been nice, too — living as loyal common subjects?"
+                },
+                {
+                    "id": "722320216",
+                    "speaker": "Brutish Samurai",
+                    "text": "It was the Shogun's mercy that permitted your survival, and you repay her graciousness with rebellion against the Shogunate... Do you really think this... temporary rebellion of yours will come to a good end?"
+                },
+                {
+                    "id": "722320217",
+                    "speaker": "Shizuru",
+                    "text": "..."
+                },
+                {
+                    "id": "722320218",
+                    "speaker": "Brutish Samurai",
+                    "text": "Hmph. Well now, look what you've done! You've overturned the Vision Hunt Decree, wonderful! And how many livelihoods have you stolen in the process? How many sources of tax revenue? How are we going to eat, huh?"
+                },
+                {
+                    "id": "722320219",
+                    "speaker": "Brutish Samurai",
+                    "text": "If Lord Hiiragi hadn't been dismissed on your account, we samurai wouldn't even be in this dump right now!"
+                },
+                {
+                    "id": "722320220",
+                    "speaker": "Brutish Samurai",
+                    "text": "...Tch. Why am I even telling you all this, anyway? You poor hillbillies don't even have the foggiest idea what's what!"
+                },
+                {
+                    "id": "722320221",
+                    "speaker": "Brutish Samurai",
+                    "text": "Whatever. The very sight of you pisses me off. Now scram... unless you really want to start something, of course."
+                },
+                {
+                    "id": "722320222",
+                    "speaker": "Shizuru",
+                    "text": "\"Lord Hiiragi,\" you said... Haha, don't worry, as I said, I'm not here to contravene the ceasefire."
+                },
+                {
+                    "id": "722320223",
+                    "speaker": "Shizuru",
+                    "text": "Rather, I'm here on orders from our Divine Priestess to eliminate those who plot to disrupt the peace."
+                },
+                {
+                    "id": "722320224",
+                    "speaker": "Shizuru",
+                    "text": "#{NICKNAME}, you may take them out now.",
+                    "choices": [
+                        {
+                            "id": "722320225",
+                            "text": "Well, here we go then.",
+                            "response": [
+                                {
+                                    "id": "722320226",
+                                    "speaker": "Brutish Samurai",
+                                    "text": "What... You... W—We're being attacked!"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "722320227",
+                            "text": "But...",
+                            "response": [
+                                {
+                                    "id": "722320228",
+                                    "speaker": "Shizuru",
+                                    "text": "This is our man. Subdue him first."
+                                },
+                                {
+                                    "id": "722320229",
+                                    "speaker": "Brutish Samurai",
+                                    "text": "So, you... W—We're being attacked!"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "7223203",
+            "objective": "Defeat the Brutish Samurai",
+            "dialogues": [
+                {
+                    "id": "722320301",
+                    "speaker": "Neat Note",
+                    "text": "(These seem to be sheets of paper torn from a ledger of accounts. Neat notes have been written upon them, the contents of which are a survey of the Jakotsu Mine.)"
+                },
+                {
+                    "id": "722320302",
+                    "speaker": "Neat Note",
+                    "text": "(Most of the material here is related to the distribution of minerals, the feasibility of industrial production, and the possibility of establishing an outpost in this location.)"
+                },
+                {
+                    "id": "722320303",
+                    "speaker": "Neat Note",
+                    "text": "(Other than that, there are notes regarding the Electro Wards left by the Raiden Shogun, the possible effects should the sealed remains of a god be released, with an attached addendum — an observational report of the afflicted in Higi Village.)"
+                },
+                {
+                    "id": "722320304",
+                    "speaker": "Neat Note",
+                    "text": "(The final section details the completion of a \"special operation.\" The whole report has been signed as being left by a Fatuus by the name of Nathan.)"
+                },
+                {
+                    "id": "722320305",
+                    "speaker": "Neat Note",
+                    "text": "(There are some finer notes on one corner of the paper:)"
+                },
+                {
+                    "id": "722320306",
+                    "speaker": "Neat Note",
+                    "text": "\"...Prospective recruits who retrieve this report should head to the port on the island's eastern edge with all haste to rendezvous with your intelligence officer contact.\""
+                },
+                {
+                    "id": "722320307",
+                    "speaker": "Neat Note",
+                    "text": "\"The password is: 'That's a killer joke.'\""
+                }
+            ]
+        },
+        {
+            "id": "7223204",
+            "objective": "Read the notes that the samurai left behind",
+            "dialogues": []
+        },
+        {
+            "id": "7223205",
+            "objective": "Go to the port to investigate the Fatui",
+            "dialogues": [
+                {
+                    "id": "722320401",
+                    "speaker": "???",
+                    "text": "Halt! Commoners, please leave this place. It's for your own safety."
+                },
+                {
+                    "id": "722320402",
+                    "speaker": "Shizuru",
+                    "text": "I apologize, but we are not commoners. We have come here with a specific purpose..."
+                },
+                {
+                    "id": "722320403",
+                    "speaker": "Player",
+                    "text": "...That is to meet with our Fatui intelligence contact."
+                },
+                {
+                    "id": "722320404",
+                    "speaker": "???",
+                    "text": "I have no idea what you're talking about. This is private property. Please do not speak to us any further."
+                },
+                {
+                    "id": "722320405",
+                    "speaker": "Shizuru",
+                    "text": "Wearing these extravagant clothes, arming yourselves with weapons that neither augur with the Shogunate or blend in with Sangonomiya..."
+                },
+                {
+                    "id": "722320406",
+                    "speaker": "Shizuru",
+                    "text": "In a terrible hurry, and with malicious gleams in your eyes..."
+                },
+                {
+                    "id": "722320407",
+                    "speaker": "Shizuru",
+                    "text": "You should probably pay a little more attention to your arts of disguise."
+                },
+                {
+                    "id": "722320408",
+                    "speaker": "???",
+                    "text": "Excuse me, did I look like I was joking just now?"
+                },
+                {
+                    "id": "722320409",
+                    "speaker": "Shizuru",
+                    "text": "#Alright, if you're not joking, then I shan't either. We came from the Jakotsu Mine. {NICKNAME}, show him proof of our intent."
+                },
+                {
+                    "id": "722320410",
+                    "speaker": "Player",
+                    "text": "\"That's a killer joke.\""
+                },
+                {
+                    "id": "722320411",
+                    "speaker": "???",
+                    "text": "..."
+                },
+                {
+                    "id": "722320412",
+                    "speaker": "Shizuru",
+                    "text": "..."
+                },
+                {
+                    "id": "722320413",
+                    "speaker": "Borenka",
+                    "text": "Well, welcome to the Fatui. I'm your contact, Naval Praporshchik Borenka — but that'll be \"sir\" to you both from now on. Got it?"
+                },
+                {
+                    "id": "722320414",
+                    "speaker": "Borenka",
+                    "text": "Hmm. They told me that some dismissed, unsalaried, disgruntled elements of the Kanjou Commission would soon retrieve the items we wanted... But I really wasn't expecting just you two. I was led to believe that there'd be more people."
+                },
+                {
+                    "id": "722320415",
+                    "speaker": "Borenka",
+                    "text": "Just a very impolite shrine maiden and an... outlander?"
+                },
+                {
+                    "id": "722320416",
+                    "speaker": "Borenka",
+                    "text": "No samurai amongst you? Well, if nothing else, I guess that Hiiragi Shinsuke has eclectic employment habits.",
+                    "choices": [
+                        {
+                            "id": "722320417",
+                            "text": "That he does.",
+                            "response": [
+                                {
+                                    "id": "722320419",
+                                    "speaker": "Borenka",
+                                    "text": "..."
+                                },
+                                {
+                                    "id": "722320420",
+                                    "speaker": "Player",
+                                    "text": "...Sir."
+                                },
+                                {
+                                    "id": "722320421",
+                                    "speaker": "Shizuru",
+                                    "text": "We experienced a certain... change of management, let us just say. I'm sure you understand that such sordid affairs tend to end with some people finding new employment, while others might find themselves making new bedfellows with the fishes."
+                                },
+                                {
+                                    "id": "722320422",
+                                    "speaker": "Borenka",
+                                    "text": "..."
+                                },
+                                {
+                                    "id": "722320423",
+                                    "speaker": "Shizuru",
+                                    "text": "...Sir."
+                                },
+                                {
+                                    "id": "722320424",
+                                    "speaker": "Borenka",
+                                    "text": "Mm, you've got a point. Not that I care what happened to you beforehand anyway. I just need the results."
+                                },
+                                {
+                                    "id": "722320425",
+                                    "speaker": "Borenka",
+                                    "text": "Speaking of which, Nathan's report, please. Then get on board. These are simple orders — ones I'm sure you will have no trouble seeing through, yes?"
+                                },
+                                {
+                                    "id": "722320426",
+                                    "speaker": "Player",
+                                    "text": "Here's the report... sir."
+                                },
+                                {
+                                    "id": "722320427",
+                                    "speaker": "Borenka",
+                                    "text": "Very good. Well then, you're done here. Any further questions?"
+                                },
+                                {
+                                    "id": "722320428",
+                                    "speaker": "Shizuru",
+                                    "text": "Will we have any further missions, sir?"
+                                },
+                                {
+                                    "id": "722320429",
+                                    "speaker": "Borenka",
+                                    "text": "That's none of my business. I'm just in charge of shipping you two back to Snezhnaya. What comes next is all up to our superiors."
+                                },
+                                {
+                                    "id": "722320430",
+                                    "speaker": "Shizuru",
+                                    "text": "And there's been nothing from them so far, sir?"
+                                },
+                                {
+                                    "id": "722320431",
+                                    "speaker": "Borenka",
+                                    "text": "What's that got to do with you?"
+                                },
+                                {
+                                    "id": "722320432",
+                                    "speaker": "Shizuru",
+                                    "text": "That's true, sir.",
+                                    "choices": [
+                                        {
+                                            "id": "722320433",
+                                            "text": "(Is it time?)",
+                                            "response": [
+                                                {
+                                                    "id": "722320435",
+                                                    "speaker": "Shizuru",
+                                                    "text": "(Give me a moment. I want to see how much I can get.)"
+                                                },
+                                                {
+                                                    "id": "722320436",
+                                                    "speaker": "Borenka",
+                                                    "text": "I'm still here, you know. What are you two going on about?"
+                                                },
+                                                {
+                                                    "id": "722320437",
+                                                    "speaker": "Shizuru",
+                                                    "text": "My apologies, but there's still a lot we don't understand regarding the missions we might have to undertake in the future. Could you please explain at least a little of it to us, sir?"
+                                                },
+                                                {
+                                                    "id": "722320438",
+                                                    "speaker": "Borenka",
+                                                    "text": "I don't have to explain my orders. You can carry them out, or you can carry them out after I whip some sense into you!"
+                                                },
+                                                {
+                                                    "id": "722320439",
+                                                    "speaker": "Shizuru",
+                                                    "text": "I'm sorry, I don't think you heard me right. Let's try this again: could you kindly tell us every last thing you know about anything?"
+                                                },
+                                                {
+                                                    "id": "722320440",
+                                                    "speaker": "Borenka",
+                                                    "text": "Are you forgetting something here, recruit?"
+                                                },
+                                                {
+                                                    "id": "722320441",
+                                                    "speaker": "Shizuru",
+                                                    "text": "Oh, you needn't fret about my memory."
+                                                },
+                                                {
+                                                    "id": "722320442",
+                                                    "speaker": "Shizuru",
+                                                    "text": "On the contrary, I've memorized everything you said quite well indeed, and I think I can say the same for this Sangonomiya officer with me."
+                                                },
+                                                {
+                                                    "id": "722320443",
+                                                    "speaker": "Borenka",
+                                                    "text": "S—Sangonomiya!? I... I knew you were...!"
+                                                },
+                                                {
+                                                    "id": "722320444",
+                                                    "speaker": "Shizuru",
+                                                    "text": "Yes, yes, very impressive deduction. Shame, I've just about had enough of your balderdash."
+                                                },
+                                                {
+                                                    "id": "722320445",
+                                                    "speaker": "Shizuru",
+                                                    "text": "Your clandestine operations on Yashiori Island, your incitement of radical elements within Watatsumi Island, the crime of destroying the Wards, your soliciting of masterless samurai..."
+                                                },
+                                                {
+                                                    "id": "722320446",
+                                                    "speaker": "Shizuru",
+                                                    "text": "Plus your previous humiliation of a shrine maiden of Sangonomiya... I've faithfully recorded them all."
+                                                },
+                                                {
+                                                    "id": "722320447",
+                                                    "speaker": "Shizuru",
+                                                    "text": "The first few issues will be filed under our foreign relations memorandums. But as for that last problem, I hope you can take personal responsibility for that... sir."
+                                                },
+                                                {
+                                                    "id": "722320448",
+                                                    "speaker": "Shizuru",
+                                                    "text": "I mean, I did warn you from the start — you should really have paid a little more attention to your arts of disguise."
+                                                },
+                                                {
+                                                    "id": "722320449",
+                                                    "speaker": "Shizuru",
+                                                    "text": "#Take him out, {NICKNAME}!"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "722320434",
+                                            "text": "(Any imminent deadline on playing house?)"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "722320418",
+                            "text": "It might be a long story."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "7223206",
+            "objective": "Defeat Borenka and his minions",
+            "dialogues": [
+                {
+                    "id": "722320601",
+                    "speaker": "Borenka's \"Orders\"",
+                    "text": "\"...Be sure to withdraw with all haste and bring the new Inazuman recruits who retrieved the secret report that 'Nathan' wrote to the First Lord Harbinger.\""
+                },
+                {
+                    "id": "722320602",
+                    "speaker": "Borenka's \"Orders\"",
+                    "text": "\"To prevent any repercussions from this incident, no one must know about the inner workings of what happened on Yashiori Island.\""
+                },
+                {
+                    "id": "722320603",
+                    "speaker": "Borenka's \"Orders\"",
+                    "text": "\"The new recruits do not have any innate value to the overall goals of the Fatui, and need not be trained in any way. They will, however, do just fine as living test samples.\""
+                }
+            ]
+        },
+        {
+            "id": "7223207",
+            "objective": "Talk to Shizuru",
+            "dialogues": [
+                {
+                    "id": "722320501",
+                    "speaker": "Shizuru",
+                    "text": "How interesting... They were willing to get rid of everyone who even knew of this incident. Is this the sort of organization we're dealing with in the Fatui...?"
+                },
+                {
+                    "id": "722320502",
+                    "speaker": "Player",
+                    "text": "There's nothing interesting about this."
+                },
+                {
+                    "id": "722320503",
+                    "speaker": "Shizuru",
+                    "text": "Really? I find all outlanders who think differently from us quite fascinating. It's just that some are the good kind of interesting. Others... Not so much."
+                },
+                {
+                    "id": "722320504",
+                    "speaker": "Shizuru",
+                    "text": "In any case, allow me to thank you for taking the time out to help our Divine Priestess with this task."
+                },
+                {
+                    "id": "722320505",
+                    "speaker": "Shizuru",
+                    "text": "We now have all we need to prove our case against this \"Nathan.\" Our battle against the Fatui, at least in this matter, can be said to have been concluded."
+                },
+                {
+                    "id": "722320506",
+                    "speaker": "Player",
+                    "text": "What happened to \"Nathan,\" anyway..."
+                },
+                {
+                    "id": "722320507",
+                    "speaker": "Shizuru",
+                    "text": "That fellow claimed to be a Mondstadter... and that might even be true. Perhaps he is a Fatuus from Mondstadt."
+                },
+                {
+                    "id": "722320508",
+                    "speaker": "Shizuru",
+                    "text": "I would consider him the epitome of why the Fatui are frightening foes. They eschew conventional warfare, instead shrewdly using internal division to sow chaos and reap the reward in the process."
+                },
+                {
+                    "id": "722320509",
+                    "speaker": "Shizuru",
+                    "text": "They know that our greatest obstacles come from within... As much as we'd like to suppress it, the flame of vengeance will not dissipate so simply."
+                },
+                {
+                    "id": "722320510",
+                    "speaker": "Shizuru",
+                    "text": "So this Nathan fellow disguised himself as a fellow \"freedom fighter,\" armed with slogans that were easy to identify with... and with an ice-cold heart, with which he pushed our most radical groups onto a path from which there was no returning..."
+                },
+                {
+                    "id": "722320511",
+                    "speaker": "Shizuru",
+                    "text": "And he got away, too — well, or so he'd planned, at least. He has been punished for his crimes, though if you ask me, being hurled into a lightless cell is too good for someone like him."
+                },
+                {
+                    "id": "722320512",
+                    "speaker": "Player",
+                    "text": "And those people on Yashiori Island..."
+                },
+                {
+                    "id": "722320513",
+                    "speaker": "Shizuru",
+                    "text": "Yes, and them, too. You saw Nathan's reports. The inhabitants of the island were nothing but simple data points in his eyes."
+                },
+                {
+                    "id": "722320514",
+                    "speaker": "Shizuru",
+                    "text": "That disaster... I must confess that it utterly disrupted our Divine Priestess' plans and put us on an inexorable path to conflict escalation."
+                },
+                {
+                    "id": "722320515",
+                    "speaker": "Shizuru",
+                    "text": "But somehow, we were able to win back the people's hearts and secure peace. Those of us who survived did not fail to live up to the wishes of those who gave their lives... We must now scrabble our way back to solid ground and begin to make amends for these losses."
+                },
+                {
+                    "id": "722320516",
+                    "speaker": "Shizuru",
+                    "text": "\"War is a river of bitter tears no ship can hope to ford, and its waves rage ever hither and thither in a swirl of utter discord.\""
+                },
+                {
+                    "id": "722320517",
+                    "speaker": "Shizuru",
+                    "text": "This is a line in one of our songs here in Watatsumi... It is perhaps for this reason that our Divine Priestess dislikes war."
+                },
+                {
+                    "id": "722320518",
+                    "speaker": "Shizuru",
+                    "text": "It's a shame that that kid Teppei did not have the fortune to see this new day come to pass... What a shame."
+                },
+                {
+                    "id": "722320519",
+                    "speaker": "Shizuru",
+                    "text": "..."
+                },
+                {
+                    "id": "722320520",
+                    "speaker": "Player",
+                    "text": "..."
+                },
+                {
+                    "id": "722320521",
+                    "speaker": "Shizuru",
+                    "text": "Ahem. In any case, I don't doubt that the Fatui will try to check on this lost outpost again, but I do doubt that they'll try to mess with us rashly any time soon..."
+                },
+                {
+                    "id": "722320522",
+                    "speaker": "Shizuru",
+                    "text": "But I'll defer to our Divine Priestess' judgment on these matters."
+                },
+                {
+                    "id": "722320523",
+                    "speaker": "Shizuru",
+                    "text": "Anyway, enough of the sad stuff. That's the Fatui remnants cleaned up, yes?"
+                },
+                {
+                    "id": "722320524",
+                    "speaker": "Shizuru",
+                    "text": "#You know what? I know of a good place for some grilled unagi. If you've got the time, we can go give it a try. Well? How about it... {F#ma'am}{M#sir}?"
+                }
+            ]
+        }
+    ]
+}
